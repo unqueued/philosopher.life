@@ -1,0 +1,157 @@
+created: 20180813225500693
+creator: h0p3
+modified: 20180813225618056
+modifier: h0p3
+title: 2018.08.13 - nomasters: handshake
+
+```
+I've got an early prototype working both on payload generation and a simple server for backend
+10:51 AM
+h0p3
+are you doing an integrity check?
+rjrbt
+yeah, the message is signed by NaCl Sign - which is an ed25519 based signing tool
+oh - shit. I haven't told you about the context on this
+So... IPNS the name service for IPFS isn't quite ready for mobile
+its important for handshake, but I think a cryptographically signed and ephemeral key/value store could be generally useful to folks
+h0p3
+yes
+rjrbt
+right now, the reference build is just an in-memory KV store, but we're looking to possibly support badger kv store for local storage, and redis as a backing store
+its very light weight though. payloads are less than 2KB in encoded json
+EDITED
+h0p3
+one of the keys to decentralization is trusting others to hold my metadata for me
+rjrbt
+exactly.
+and the cool part is: with this, you can (and should) post the "value" as an encrypted blob
+so, on hashmap I have no idea who you are, or what you are storing
+and you get a cryptographically guaranteed endpoint to store some blob of data
+for handshake, this is an encrypted blob that, when decrypted, points to a specific IPFS hash
+EDITED
+We also plan to support TOR hidden service on day one of going live on this
+I like to think of this as pastbin of cryptographically signed key-value stores :)
+h0p3
+that makes sense
+this is thoughtfully done, and I can see things built on top of it
+rjrbt
+yeah, its the only reason we took it on, I didn't want to get destracted from handshake but we were going to have to jump through a bunch of hoops to avoid it
+this also keeps handshake much simpler 
+h0p3
+do you think IPFS should already have this functionality?
+rjrbt
+so they do, sort of.
+IPNS is a major influence for hashmap
+but IPNS is restricted in some important ways
+IPNS allows you to have a "mutable endpoint" that is the hash of your peerId
+which is your pubkey on IPFS for your node
+EDITED
+you can do this:
+ipfs name publish /ipfs/QmQa6GUBpW8H7spepQri6s62uv1NZhxzjTW73BgWKM7WH5
+Published to QmUTwqtL5veio86ZZ3u5TmGptnM5iCA4bm9vbTVocUKo3N: /ipfs/QmQa6GUBpW8H7spepQri6s62uv1NZhxzjTW73BgWKM7WH5
+but there are a couple of important things:
+1) you can only publish a reference to an IPFS hash
+2) right now its kind of slow to propegate
+3) its not supported on mobile - you have to run a full DHT node and it gets tricky
+Honestly, IPNS and even new tech like Iota Masked Authentacted Messaging (MAM) look really promising
+but they aren't quite ready yet.
+once they are for mobile, handshake will absolutely support them
+we have this core idea on handshake we're calling strategies which are configuration choices that Bob and Alice can make while setting up the handshake
+they can agree on cryptography methods, sharing methods, and "backend" tech
+h0p3
+mobile may simply be a dummy terminal that requires I run a real server, perhaps something like Matrix
+the battery drain on decentralized tools is insane
+rjrbt
+yeah, for real.
+so handshake is unique in that there is no outside auth
+h0p3
+what do you mean by that?
+rjrbt
+IPFS is just storing hash blobs, so there is no auth there
+and Bob and Alice exchange pubkey's to know where to get "latest messages" from the other person after they leave
+h0p3
+(btw, I adore how "no outside auth" fits your internalist views in epistemology...random sidenote)
+rjrbt
+haha :)
+as long as Bob controls his set of preshared one-time-use keys for encrypted messages and his priv_key for signing payloads, that is all he needs to operate his side of the chat
+Alice does the same on her side
+to the outside world, there is no correlation between bob's hashmap endpoint and alice's hashmap endpoint. and with encrypted references to IPFS, there isn't even a way to tie IPFS hashes to hashmap references 
+h0p3
+That is a strong claim
+I mean this in humility, you may easily be correct
+correlation is not an easy thing for me to understand
+rjrbt
+well, you are correct, that is lazy logic I was using
+there shouldn't be a way*
+it is not designed for there to be a way*
+this absolutely needs to be vetted :)
+the idea is: coordination happens in person on the handshake, and if something breaks or changes down the line: tough luck, you need to do a new handshake
+parts of this are brittle by design simply because being "forgiving" can have serious escalation vulns
+h0p3
+mile-high view usecase time, tell me the story of alice and bob again...they meet in person, exchange pseudo-one-timepads, and now they can connect over IPFS in a way that is difficult to correlate
+right?
+who are Alice and Bob to you?
+rjrbt
+good questions. So yes, the idea is that "secrets never go over the wire" and that we use tech that is quantum ready
+the idea is that handshake is a fun exploration of out-of-band tech that is decentralized
+the way it is currently designed, Bob and Alice meet in person,
+- Bob intiates a new handshake as "initiator" and Alice initiates a new handshake as a "peer"
+- Let's assume Bob goes with the "default" strategy options. This is: salsa20 + poly1505 authenticated symetric 256 bit encrypted messages using hashmap as the mutable store for latest message
+- Bob's device generate a QR code with some important initial keys, and config details
+- Alice scan the QR code to do the initial handshake
+- Bob and Alice p2p connect over a local LAN and send symetrically encrypted data back and forth to do the rest of the configuration
+- this includes coordinating generating aroudn 100K single use 256 bit keys and 100K single use "lookupHashes"
+- lookupHash is used to let the other party know which private key they will be using for a particular encrypted message. Bob and Alice get their own 100K keys, and they can use these keys in any order they want.
+100k keys is just an arbitrary number, this can be scaled up or down depending on what Bob and Alice want to do.
+- Bob and Alice also generate ed25519 private and public key pairs and share their pubkey's with one another
+the multihash in base58 encoding of the pubkey is used for finding key-values in hashmap
+
+
+h0p3
+I like how you aren't afraid to use significant resources, in a sense...some of my favorite cryptography ends up being about blowing up resource usage like a baloon (in the right way, ofc). 
+What kinds of local LANs?
+I also think this tool is obviously paranoic. It reminds me, in a sense, of the Briar chat application.
+Tor should be default.
+If you are going this far down the rabbithole, might as well automagically integrate the low-hanging fruit equipment
+rjrbt
+ooh. I didn't know about Briar
+as for TOR, it will be a first class citizen
+we won't default to it, but we will make it as easy as we can to integrate with it
+Briar is super neat.
+h0p3
+aye, very thoughtfully designed
+rjrbt
+the other thing about handshake is that its based around the deaddrop idea
+h0p3
+you are pushing the sneakernet hard
+rjrbt
+so that, to an ouside observer, its just a bunch of "handshake like IPFS blobs"
+h0p3
+even virtually
+rjrbt
+haha.
+exactly.
+this is squarely in the cyber-punk vanity project realm of projects
+though I still very much think it could have good use in the right circumstances
+h0p3
+there is something to be said for steganography
+well, I don't see your work as a mere exploration (even if it is exploring)
+rjrbt
+I look at this as sort of "readiness games" so that we are familiar enough with a set of tools and ways of thinking in the case that it became important to use them.
+h0p3
+sounds truly stoic, sir =)
+rjrbt
+haha.
+I got inspired by the HAM radio community, since they do this sort of stuff all the time
+h0p3
+indeed
+digital networks over HAM radio are non-trivial tools...3 letter agencies really don't like that community
+rjrbt
+😂 
+12:15 PM
+h0p3
+I feel like a luddite when I talk with you sometimes; I don't mean that in a bad way.
+rjrbt
+heh. I've been in full "mad science" mode on this, so its hard for me to sort out external interest.
+its very exciting to me, though.  :)
+```

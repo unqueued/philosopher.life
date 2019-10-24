@@ -1,0 +1,106 @@
+created: 20170411203136657
+modified: 20190622031510201
+revision: 0
+tags: Games [[Be A Good Dad]] Redpill
+title: Clicker Heroes
+
+!! About:
+
+//[[Magic: The Gathering]] was a highly productive use of our time. I [[hope]] this will be too.//
+
+<<<
+It is the teacher's function to contrive conditions under which students learn. Their relevance to a future usefulness need not be obvious.
+
+-- B.F. Skinner
+<<<
+
+How often do I get the chance to have fun with my offspring, teach them ludological skills, and explore our fundamental existential problematics? That's a rare trifecta. This is a skinnerbox par excellence. What a special device for us, a stumbling block, a mini Pandora's box of overidealized riskless work; it presents us an innoculatory opportunity. I must demonstrate to my offspring the necessity of generating methods for revealing and dispelling addictive meaninglessness. Harm reduction in substance use, functional addiction-coping, and jealously guarding one's attention span [[irwartfrr]] are especially pertinent skills of the virtuous agent in the 21st century. Essentially, the fabled virtuous perception requires one to ignore and fadeout what is irrelevant in order to highlight and pick out what is [[salient]] in the world.
+
+I aim to reductively destroy future pointless grinds for my offspring, habituate a semi-paranoic disposition for [[fff]]ingly seeking to uncover and escape from skinnerboxes hidden in their [[phenomenology]],<<ref "s">> encourage a "good enough" iterative mindset, train them to use an underappreciated left-field hacky rapid prototyping toolset, drive home the point that even clicking a mouse is in fact a form of programming silicon and organic computers, bask in selectively wasting our time, and experience the radical [[gfwiwcgws]] incompleteness of internalist win-conditions in mere games and [[aesthetic|The Beautiful]] simulations in order to expose the immorality of the anti-realist's unjustified construction of the appearance of meaning.<<ref "n">>
+
+Like a mirror, both inside and out, there is a mindless procedural reasoning to this game and a manner in which reading the current gamestate by hand is rendered irrelevant. Of course, there is some math to the metagame, but after you appreciate some of the structures, [active, passive, and hybrid] playstyles do not require that much attention to detail. Automation beautifully overlays and bootstraps us out of the skinnerbox, much the same as botting and multi-boxing in Everquest and World of Warcraft revealed the uselessness of most raids, group instances, and grinds.<<ref "pvp">> I [[hope]] to show them what it means to be climb ladders of creativity (fighting the urge to be a passive braincandy observer) and to only willingly enter the reckless abandon of the stages and [[dok]] of the ready-to-hand mode. Lose yourselves wisely.
+
+Let us understand and sift our instruments, games, and hypothetical reasons to categorically find [[gems]] toward [[The End]] in a desert which deceptively bombards us with distractions and floods us with misleading feelings. Virtue of just any practice whatsoever is not moral virtue, the virtue of unconditional merit. May this game be a beacon, an obstacle course, an exemplary metaphor, and a lense.
+
+
+---
+!! Principles:
+
+* [[AHK]]
+* [[Be A Good Dad]]
+** Dialecture like a boss, homie.
+* Have fun and teach something which matters.
+* We should wait to read up on the game until they've had time to struggle to develop intuitions. 
+
+
+---
+!! Focus:
+
+* Skid
+** [[Clicker Heroes: Bootstrap.ahk]]
+** [[Clicker Heroes: The Ascender.ahk]]
+
+* Links
+** https://gist.github.com/chuckreynolds/5ffc3f07f35cb4d521b5
+
+* Metagaming
+** Gilding
+*** Optimal post-transcend, you stack gilds on current highest. It appears active-play changes timings to the point that you one-shot or crit-shot for a very long time. Stacking earlier keeps it smoother, but it doesn't become necessary until later. Unfortunately, that threshold is constantly moving goalpost after both ascends and transcends. 
+** AS Calculations
+*** Either by hand, or we find the rule-of-thumb. Automation only matters if we can bootstrap.
+** Juggernautlessness
+*** I can't tell how playable this is without juggernaut; the game is just different now. It's clear the game after transcend needs to be optimized. Mid and late might be radically different too, and we can probably cheat on the DPS by spending ASes suboptimally to smooth it out.
+*** OCR/Coloration conditional might work. We could also just slow down to catch all exceptions. Just play worst case scenario, eh?
+** How do we identify good transcend spots? Should it just be by hand? Probably.
+** Clickables
+*** Rubies appear extremely valuable (hence the market), and especially for gilding later in the game (which is obviously insane unless you are botting for these) to smooth out bootstrapping.
+
+* Procedure
+** Transcend, auto-invest AS via https://driej.github.io/Clicker-Heroes-Outsiders/, reload
+** Stutterstep grind to 130 for K, timed or check saved-game
+** Timed Progressions for X runs
+*** Ascend, auto-invest HS via ..., reload
+
+Hilariously, the optimal way to bot this game is to avoid investing by hand entirely. Since you should use calculators, you might as well funnel investment play through save-game swapping. Accelerated headless simulation eventually takes this a machine which is just loading and modifying save games more explicitly and obviously. What a wild journey that must be.
+
+
+---
+!! Vault:
+
+* Log
+** 2019.05.29: 
+*** Everyone has a VM, AHK, the basic game, and at least a simple clicker. Unfortunately, //Progressive Mode// and //Buy Available Upgrades// don't show up until post-ascend at 100 and 140 respectively (IIRC). The brand-spanking-new bootstrap is just fundamentally different (including to both first ascension and transcension {juggy is a []D[][]V[][]D straight line to 300}), but it always was. Iris and a bunch of fucking trix are gone, but I had some pure passive play to reason about the game; doesn't look heinous, and they fixed some of the pop-up bullshit.
+** 2019.05.31: 
+*** My children have made little progress. I can see the devs expanded the game considerably, and the use of AHK alters the pressing need for the autoclickers in the game. I'm at 60AS, 3600 HZE.
+** 2019.06.03:
+*** My children are finally starting to show some interest! My daughter sees very far philosophically, as usual. She might be interested in OCR too. Both children are experiencing performance problems, which my son dubs "click debt" (aptly named). I'm happy to see them jumping into documentation.
+*** I'm above 5k HZE, and I have automated ascension with ancient investment up and running (but I'm not ready for it since I need to know more about the timing). I recorded fish coordinates for a while during scripting and noticed no pattern (they've changed this). My daughter wants to use python image recognition to solve the fishy problem. Have at it, woman! Mercs are almost ready, but I need one to die on me to get the ball rolling. Unfortunately, only OCR, saved-game editing, or manual control of sections of the script will allow us to rez them wisely; this is a problem for a later time. We're going to have to figure out how the script engages in timing everything.
+*** Also, unfairly moved my rubies over from mobile. Hey, that was my manual playtime. I'm keeping it. Given the math, it's best to stack all in one place, and given AHK, there's no reason not to do it. This is going to make transcensions far more bearable is my bet, and it appears to speed up ascension a notch as well since juggy is a beast with it. Before I log, I'll turn progression toggle on for a super deep run.
+
+* [[TDL]]
+** ~~** Use save-game calculators for optimal spending! Woot.~~
+
+---
+!! Dreams:
+
+* [[TDL]]
+** Bee clickable, is that a static path?
+** Fish clickable. Transparency is a bitch.
+*** Random or read for colors?
+** Find the timing on ascends for bootstrapping.
+** Mercs need to be automated. 
+** Auto-gilding
+*** It appears I should be able to blindly regild every half an hour once I have the HS-ball rolling. It's cheap enough, and there's no substitute for that damage.
+** Need a dummy approach to progression mode
+
+* OCR
+** A game-changer. Reading memory would be even stronger. One step at a time. This may be a step for your daughter to take.
+** Or, just use save game to access it.
+
+
+---
+<<footnotes "s" "It's a trap! Sense Traps (100).">>
+
+<<footnotes "n" "Sorry Nietzsche, the fact of interpretations are facts. The Objective perspective is self-interpreting.">>
+
+<<footnotes "pvp" "Metagaming, PvP, and socializing were the remaining values in these practices. PvP was generally my favorite, but, hell, my warlock often topped the BG charts in greens with an optimized bot (both glider and innerspace).">>

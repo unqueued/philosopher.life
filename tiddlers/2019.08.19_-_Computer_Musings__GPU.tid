@@ -1,0 +1,35 @@
+created: 20190819171638541
+modified: 20190819172650996
+tags: [[Computer Musings]]
+title: 2019.08.19 - Computer Musings: GPU
+
+Dunst, apparently, wasn't working. I do not understand why. This may have solved some of my electron problems with Dicksword and Signal.
+
+---
+
+My used RX 570 showed up. Unlike [[m10]], changing [[m16]]'s system is ridiculously easy. 10 minutes flat to install it. My vanity is boundless; I even routed the 8-pin cabling through the PSU shroud.
+
+I thought I had already enabled virtualization, but apparently I didn't do it thoroughly enough:
+
+`dmesg | grep -i -e DMAR -e IOMMU`
+
+Skid into finding IOMMU group of the AMD card:
+
+```bash
+#!/bin/bash
+shopt -s nullglob
+for g in /sys/kernel/iommu_groups/*; do
+    echo "IOMMU Group ${g##*/}:"
+    for d in $g/devices/*; do
+        echo -e "\t$(lspci -nns ${d##*/})"
+    done;
+done;
+
+```
+
+```
+IOMMU Group 19:
+	04:00.0 VGA compatible controller [0300]: Advanced Micro Devices, Inc. [AMD/ATI] Ellesmere [Radeon RX 470/480/570/570X/580/580X/590] [1002:67df] (rev ef)
+	04:00.1 Audio device [0403]: Advanced Micro Devices, Inc. [AMD/ATI] Ellesmere HDMI Audio [Radeon RX 470/480 / 570/580/590] [1002:aaf0]
+```
+

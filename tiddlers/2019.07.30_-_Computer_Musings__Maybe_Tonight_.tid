@@ -1,0 +1,26 @@
+created: 20190731021916841
+modified: 20190731053929958
+tags: [[Computer Musings]]
+title: 2019.07.30 - Computer Musings: Maybe Tonight?
+
+I'm not a fan of nvidia, but I almost always buy nvidia. Resolution was all wrong, and it took a while to prove to myself it wasn't xorg but nvidia. Realized I wasn't using nvidia-lts, and I've got hooks for both now. Interesting to see power savings mode works on this arch install but not manjaro. I do not know why.
+
+---
+
+We can leave [[monster-10]] running, and I can begin just migrating over now. As long as I have a terminal, browser (with all my tabs), and can reach Bob from across the network, I should be in okay shape.
+
+---
+
+Pushing a fuckton of files over. There's over a million sitting in home alone (:P). I'm rock hard looking at 100mB/s throughput on the network. Well, hopefully, I'll have no reason to keep most of the millions of files. 
+
+---
+
+Trying to sync firefox windows/tabs as a full session. None of the tools work correctly. Set up nomachine on both ends. Nested i3 is fucking hilarious. MySessions just werx. 
+
+---
+
+dmenu, I'm leaving you. Goodbye. Rofi is the tits. Can't get Rofi to play nicely with terminator for SSH.
+
+---
+
+Still working on sound before almost everything else, lol.  ~~On one screen, but I'm more than happy to do that in i3.~~ After the 50th reset on i3, it magically has them both working. Looks clean enough, but will probably do more font work. plasma-pa is no go. 

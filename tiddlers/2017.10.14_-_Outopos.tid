@@ -1,0 +1,102 @@
+created: 20171014201732049
+modified: 20181217072254879
+revision: 0
+tags: Outopos
+title: 2017.10.14 - Outopos
+
+Imagine a world in which the average-Joe can brainlessly spin up VPS's with zkSNARK cryptocurrencies of anonymized darknets. We would all have our boxes out there, doing our work for us, at high speeds, with yet another proxy buffer. The goal is to make it so that ISP's can't contain users. Let our hard work be done elsewhere if need be. Once we relax liability on them, we are in good shape (except for their desire to form content monopolies, etc.).
+
+---
+
+I've seen tons of tools that do things like these. Let's just start compiling and brainstorming.
+
+Imagine a world in which people worked together:
+
+* https://github.com/FlyersWeb/dhtbay
+
+I love the Bayesian classifier. Search needs to be decentralized and the most prominent aspect of the network. First and foremost, it must make searching the network incredibly useful.<<ref "1">>
+
+I donate a certain amount of computing power, RAM, CPU, bandwidth, hard drive space, and in return, I get sick search results. This is how we build good search capacities. As long as we can filter users out (creating banlists), we can easily build networks. Hell, you could even build private communities out of this, but I think that might be a bad thing. Eh. Maybe, make it a trust-based network like Retroshare. 
+
+Call it the [[Minternet]], a portmanteau of Mint and Internet. Or maybe [[Outopos]]: Enter the place that cannot be.
+
+It would be nice to be rewarded in every possible way you could be for contributing to the network. There are plenty of cryptocoin schemes for it. 
+
+---
+
+Outopos:
+
+No tool seems to work out of the box everywhere for every purpose. Perhaps no tool can by definition. However, we can make great strides here, and we should. This is what Retroshare should have been. 
+
+
+* A Virtual Dark Network that can live inside and participate within or next to any other network.
+** Preferably, it hooks up all the parts together for the users. It is network agnostic as possible. 
+** More preferably, it runs on its own network by default. It can be used on other networks, but these incur costs.
+
+* Decentralized
+** p2p Infrastructure Foundation
+** Federations/Complex Network Organization must easily arise.
+
+* Connectability/Bootstrapping
+** Robust, fast, flexible, and world-class.
+** NAT-Piercing God
+** Embedded access to proxies to bootstrap lists.
+*** Would love to see it fire up Tor, i2p, p2p protocols, and other darknets to simply bootstrap.
+**** Eventually, we may enable access to [[Outopos]] itself through these networks.
+** Manual bootstrapping
+** Brute-force network settings
+*** I'm fine even brute-force scanning the internet until we accidentally run into someone who has it. 
+** Built-in VPN support (a variety of obvious setups)
+
+* Programming Languages
+** Network Tools will be written in Golang. 
+*** It's simple, fast, and runs on everything.
+** UI's will be either CLI or browser (GUI CLI's at this point) based.
+*** Make it run on any device with a browser.
+*** Make remote access very simple.
+** Mission critical code should be written in Rust
+** WASM is always a valuable consideration of how this network could evolve.
+** Must make it easy to manipulate with python and bash.
+** Eventually, it should go hardware mesh network.
+*** Make it easy to transition into that. We might even start our exploration at that level first. That's the ultimate goal. Replace the Internet Protocol. It can only do so by first existing on the internet itself, building up the right network effect that it becomes its own entity.
+*** Imagine being able to reach Outopos on the internet but also connecting over wifi to the device. Build repeaters and long-range equipment designed for it. 
+**** Microwave networks are fun!
+
+* Language and Unicode
+** Give it fundamental, easy to use support for languages and characters that are unexpected.
+** It needs to hit the ground running, everywhere.
+
+* Always-on Git
+** Make it so that source code sharing, versioning, and modification, as well as sane unattended upgrades are available.
+** Make it extremely hard to shut down.
+
+* Multi-threaded and EZ Connection binding
+** The protocol must be designed for sharing information in a decentralized, torrent-like fashion.
+** Ultimately, you want to be able to connect to the network over many WANs with no single-thread bottlenecks. 
+** The only way to break a monopoly on hardware connections is to be able to make a lot of smaller connections do the same work that larger connections can do.
+
+* I really like Tiddlywiki a lot. I'd love to see Tiddlywiki as a starting place for a lot of people.
+
+---
+
+Outropos<<ref "2">> is a decentralized Internet replacement run by its users. Ultimately, this must happen at a hardware level. Before that can happen, however, we need a software implementation which operates over the Internet itself in order to generate a userbase large enough from the "Network Effect" necessary to transition to a hardware layer. Such a network would be a threat to the existence of the Internet, and it would eventually be censored. We'd need to make it very difficult to take down from the beginning. Our advantage is being able to take the world by storm. Our alpha software should be beta software, and our beta software should be production ready software, and our production software should be world-class.
+
+Outropos must be //Copyfree //opensource.
+
+One goal is to make the Outopos platform, ecosystem, and hardware neutral/agnostic. 
+
+Users must donate to the network. It's simply infeasible for the network to operate without forcing users to do what is not always in their personal best interest. We must defuse prisoner's dilemmas by eliminating them within the protocol itself as much as possible. How do you prevent cheating? How do you make users play fair? How do you generate trust among strangers? 
+
+---
+
+Is there content you don't want to see? Ad blockers exist for the clearnet. It stands to reason that we can easily do the same sorts of things for any kind of content. You can curate Oracles, and place your trust.
+
+---
+
+Should ask for significant resources on a system. Assume 10GB space minimum. Assume significant CPU, RAM, Connections. You can't play VR games on a bullshit computer, and the nextgen network should be working with absolutely nothing. It needs to use those resources wisely, of course.
+
+
+---
+<<footnotes "1" "Of course, it could eventually be used to search the internet and any network. Start small. Work out the kinks, then build from there.">>
+
+<<footnotes "2" "Previously conceived of as Atropos">>

@@ -1,0 +1,41 @@
+created: 20180803223855206
+creator: h0p3
+modified: 20180803224348721
+modifier: h0p3
+title: monster-13
+
+//See: [[Monster-Φ]]//
+
+---
+!! About:
+
+Here I talk about the computational technical aspects and existence of my wiki. This is less to do with {[[Principles]]} of construction for the semantics and more to do with the infrastructure of this distributed computer.
+
+
+---
+!! Principles:
+
+* Engage in the scientific method.
+* Make it easy to reconstruct and improve this infrastructure.
+
+
+---
+!! Focus:
+
+* [[lighttpd.conf for this Wiki's Host]]
+* [[Wiki: Scripts]]
+* [[ATL: Crontabs]]
+* [[Tiddlywiki Google Group Forum]]
+
+
+---
+!! Vault:
+
+* Retired:
+** [[2018.08.03 - Retired: Wiki Computing]]
+
+
+---
+!! Dreams:
+
+* [[Wiki Technical Process Flow]]

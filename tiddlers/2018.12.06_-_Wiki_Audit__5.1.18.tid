@@ -1,0 +1,34 @@
+created: 20181206212448370
+creator: h0p3
+modified: 20181207065638112
+modifier: h0p3
+tags: [[Wiki Audit]] [[Computer Musings]]
+title: 2018.12.06 - Wiki Audit: 5.1.18
+
+5.1.18 is finally released. Hilariously, we are working on the Bob backend which has only the prerelease. This is fine though. There may still be some bugs to work out on this release, and it's okay if I'm not testing in production (though, I have tested it a couple times already). We'll get it when we get it.
+
+It looks like we can keep the entire Bob process on m10. Compilation is much faster; I have no idea what changed. It's about as fast as just saving from the browser. Awesome! This is better than I hoped for, as I was prepared to actually offload this work on an external server. Decompilation still takes about a minute, but that feature isn't so important to me (I'd be willing to pay an hour for that even). We're getting all the scripts setup. I'm not sure if we will go cronjob or systemd on this one. Cron is simple, but I like disable in systemd more than remembering to edit crontab. I think I'll stick to cron until I have some very specific need.
+
+My daughter is pleased that 0.0.0.0 allows her access over the LAN and VPN. It may change how she does her own system as well. This is probably something that needs to be setup for [[k0sh3k]] as well. Perhaps I'll run multiple Bob instances on different ports here and setup the same process for everyone. Why not?
+
+---
+
+I am very much looking forward to destroying all race conditions! I want to have multiple tabs open
+
+---
+
+Hardcoding may actually be done in...Windows, `/gasp`. I can run multiple Bob instances syncing .tids (or in this case, passthrough linux filesystem to the VM). Yes, this may be a Rube-Goldberg machine, but it may be the correct next step here. 
+
+The fact is that some kinds of tooling for Windows are unparalleled. There is no practical functionally equivalent tool to Autohotkey on Linux (which is obviously not the Linux community's fault). Now, I realize, it's super fucking hacky to program visually; most programmers think it's insane, lowbrow, or obviously the wrong way to do things. I think it would startle people how much of their computing can be automated with keyboard/mouse macros. Some of my AHK bots for idle/clicker games have absolutely destroyed every OCR or memory-reading bot I've seen (and, ofc, AHK could institute these as well; it's turing complete and capable of using any other tool on the machine).<<ref "c">> Pound for pound, AHK automates things cheaply. I don't care if it's a toddler's tool: it fucking works.
+
+Between AHK, bash, and python, I should be in solid shape here.
+
+Obviously, this is not the ideal, but in a way, I still don't know what the ideal hardcoding procedure is going to look like. I'm still balls deep in [[The Remodeling]]. I have no idea what will emerge here. I don't know what I want to automate, and I want to make it incredibly easy to rapidly prototype. AHK on top of Keeboord wins hands down (though, I still intend to make use of i3+xdotools+Keeboord+FFhacks heavily). When I know what I really, really want (Posh Spice was pretty hawt, right?), then we'll embed it in javascript.
+
+I may actually use the wiki itself to run particular SSH commands on m10 as a host, rofl.<<ref "t">> I can abstract away much of the commandline into the wiki while on Windows.
+
+
+---
+<<footnotes "c" "This is actually what has settled a large swathe of skinnerbox games for me. It's that pointless.">>
+
+<<footnotes "t" "Although this must be done very safely. I am worried about this insanely powerful feature. Perhaps I am not worried enough! It is now so powerful that I may need to audit any code I allow in my wiki, ugh. I need to see about how to limit this thing.">>

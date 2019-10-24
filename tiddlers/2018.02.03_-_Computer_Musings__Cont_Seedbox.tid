@@ -1,0 +1,55 @@
+created: 20180203182445194
+modified: 20190328011319693
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.02.03 - Computer Musings: Cont Seedbox
+
+Excised: 
+
+Put/Edit the following in: `/etc/shadowsocks/config.json`
+
+```
+{
+    "server":"ks.philosopher.life",
+    "server_port":4283,
+    "local_address": "127.0.0.1",
+    "local_port":1080,
+    "password":"password",
+    "timeout":300,
+    "method":"chacha20-ietf-poly1305",
+    "fast_open": false,
+    "workers": 1,
+    "prefer_ipv6": false
+}
+```
+
+```bash
+sudo systemctl enable shadowsocks-libev-server@config.service
+sudo systemctl start shadowsocks-libev-server@config.service
+```
+
+Still working on it.
+
+I'm annoyed by the complexity of systemd, but I can see its value:
+
+* https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files
+
+I'm relying heavily upon google translate because I find more Chinese expertise with this tool than any other.
+
+---
+
+I wasted an enormous amount of time trying to get rutorrent to work nicely through both lighttpd and nginx. I simply couldn't do it. I've done it several times before, but it didn't work today. That's okay. Sometimes you win, sometimes you lose.
+
+I thought I almost bricked too. Hard restart worked though. Few pacmans got it back up.
+
+I've asked stackoverflow about the shadowsocks problem. No bites so far. I've now asked the Tor IRC about it.
+
+Also, no socks proxy on soulseekqt?
+
+---
+
+Decided to dig into zstd. I've never used it. Thought it was cool. Made a script for backing up home. I want to go back to using Resilio sync for this, and I think storing it all in a single archive will cut down on Resilio sync's work. Even if it doesn't, compression will be valuable; I want to store it on my seedbox.
+
+[[home-h0p3-snapshot.sh]]
+
+Nice! It fucking crushes my HDD. IO will always be the bottleneck. I just checked iotop. I wish there was a way to abuse memory more effectively. I want to try buffering tar somehow because I think there is possibly more performance to be had (but I could be wrong). Block size might matter too, I don't know.

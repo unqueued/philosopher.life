@@ -1,0 +1,9 @@
+created: 20180731012457200
+creator: h0p3
+modified: 20180731031605661
+modifier: h0p3
+title: 2018.07.30 - Computers Musings: nvim
+
+zsh is all set, now it's time to setup nvim to my liking. I've got a simple rc already to make it usable, but it's not autoloading. I forget what linking I've got to setup. I've still got plenty to setup here.
+
+Manjaro has one serious flaw: it's truly a pain in the ass to get virtualization to work for it. I like being able to choose my kernels so easily, but even when you are carefully installing (and restarting after kernel updating), it doesn't work. I've installed several VM software suites in a number of OSes and Linux distros. This is by far the hardest among them. It doesn't work.

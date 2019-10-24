@@ -1,0 +1,45 @@
+created: 20170710234731581
+creator: h0p3
+modified: 20190624172227024
+modifier: h0p3
+revision: 0
+tags: [[Infrequent Logs & Projects]] Computing Collection Log
+title: One-Line CLI Wonders
+
+Interleave lines on two text files (A1, B2, A2, B2,...): `paste -d '\n' file1 file2`
+
+Nmap, list currently used IPs on your LAN: `nmap -sP 192.168.1.1/24`
+
+Arp, list machines on your LANs: `arp -a` #fuck yeah
+
+Nmap, list all ports open on an IP: `nmap -p- ks.philosopher.life`
+
+Openvpn, from config's directory: `sudo openvpn --config "US - Atlanta @tigervpn.com.ovpn`
+
+DD, Write bootable ISO: `sudo dd bs=4M if=input.iso of=/dev/sd? conv=fdatasync`
+
+Find temperatures for the system: `sensors`
+
+Print total Chrome memory usage (sum of all processes): `smem -t -k -c pss -P /opt/google/chrome | tail -n 1`
+
+Make a directory R+W by any user: `sudo chmod -R 757 /var/www`
+
+Generate random 32-Byte string: `cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1`
+
+Write protect (even from root) a file: `sudo chattr +i /etc/resolv.conf` (-i to undo it)
+
+Access remote server's localhost service: `ssh -L 8888:127.0.0.1:8888 -N user@remoteserver.com -v`
+
+Removed docker containers not in use: `sudo docker ps -aq --no-trunc -f status=exited | sudo xargs docker rm`
+
+SSHFS, persistent: `sshfs -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3,password_stdin servIP:/rem/path /loc/path <<< "pwd"`
+
+Find all files contain foobar in path: `grep -rnw '/path/to/somewhere/' -e 'foobar'`
+
+Mount an iso: `sudo mount -o loop /home/user/disk.iso /mnt/mount_point`
+
+SFTP, Download file: `sftp username@hostname:remoteFileName localFileName`
+
+SFTP, Upload file: `sftp {user}@{host}:{remote_dir} <<< $'put {local_file_path}'`
+
+Recursively find phrase in files contained in local directory: `grep -Fr 'phrase'`

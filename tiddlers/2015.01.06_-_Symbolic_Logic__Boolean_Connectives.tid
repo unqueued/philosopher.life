@@ -1,0 +1,782 @@
+created: 20180705004740377
+creator: h0p3
+modified: 20181031035931170
+modifier: h0p3
+tags: Tulane
+title: 2015.01.06 - Symbolic Logic: Boolean Connectives
+
+13
+
+
+Boolean Connectives – a.k.a. truth-functional connectives, correspond to the simple uses of the English words: “and,” “or,” and “it is not the case that.” These connectives will connect two or more atomic sentences to form complex sentences. The truth value of a complex sentence built up using these connectives depends on nothing more than the truth values of the simpler sentences from which it is built.
+
+
+
+
+
+§ 3.1
+
+Negation, ¬ - Also commonly written as ~ (and there are many others), but not in this class. It should be translated as:
+
+
+
+“It is not the case that,” “Not,” or the prefix “un-“
+
+
+
+“John is home” Home(john)
+
+“it is not the case that John is home” or “John is not home” ¬Home(john)
+
+
+
+Multiple, chained, or stacked negations are possible.
+
+
+
+¬¬Home(john) …and so on and so forth
+
+
+
+For future reference, a literal is a sentence which is either atomic or negated atomic.
+
+
+
+You’ll always want to know a language’s syntax and semantics. Syntax is how a symbol works with language you already have to form new expressions. Syntax is grammar. Semantics asks, under what conditions is using that new piece of language true or false?
+
+
+
+Syntax for ¬: If P is a sentence, then so is ¬P.
+
+Semantics for ¬: ¬P is true iff P is not true, P is false.
+
+
+
+Given any sentence P of FOL (atomic or complex), there is another sentence ¬P. This sentence is true if and only if P is false. This can be expressed in terms of the following truth table.
+
+
+
+Truth Table for ¬: P | ¬P
+
+T | F
+
+F | T
+
+
+
+If you commit yourself to the truth of P, then commit yourself to the falsity of ¬P, and vice versa. Conversely, if you commit yourself to the truth of ¬P, then commit yourself to the falsity of P, and vice versa.
+
+
+
+Nonidentity Symbol: We will abbreviate negated identity claims, such as ¬(b = c), using ≠, thus we will write b ≠ c.
+
+
+
+Homework: 3.1-3.3
+
+
+
+
+
+§ 3.2
+
+Conjunction, ∧ - Also commonly written as . or & (among various others symbols), but not in this class. It should be translated as:
+
+
+
+“And,” “but,” or “moreover”
+
+
+
+“Bob is Tall, and Jim is tall.” Tall(bob) ∧ Tall(jim)
+
+“Bob and Jim are tall.” Tall(bob) ∧ Tall(jim)
+
+
+
+Some English sentences don’t have “and” in them, yet will be translated with the conjunction.
+
+
+
+“Jill is a tall woman.” Tall(jill) ∧ Woman(jill)
+
+“d is a large cube” Large(d) ∧ Cube(d)
+
+
+
+Note that we can flip the order of conjuncts (the sentences on either side of the conjunction) and retain the same meaning:
+
+
+
+Large(d) ∧ Cube(d) Cube(d) ∧ Large(d)
+
+
+
+Multiple, chained, or stacked conjunctions are also possible:
+
+
+
+“d is a large, blue cube.” Large(d) ∧ Cube(d) ∧ Blue(d)
+
+Not every use of “and” is the conjunction.
+
+
+
+“Sam brushed his teeth and (then) went to bed.”
+
+
+
+Here, “and” has a temporal meaning beyond mere truth functional conjunction. With the real truth functional conjunction, you should be able to flip the order of the conjuncts and arrive at the same meaning. Note in the previous example, you can’t flip the order without changing the meaning.
+
+
+
+Syntax for ∧: If P and Q are sentences, then so it P ∧ Q
+
+Semantics for ∧: P ∧ Q is true iff both P is true and Q is true.
+
+
+
+Truth Table for ∧: P Q | P ∧ Q
+
+T T | T
+
+T F | F
+
+F T | F
+
+F F | F
+
+
+
+Note how the conjunct sentences, P and Q, must both be true in order for the more conjunction sentence, P ∧ Q, to be true. If P or Q are false, then P ∧ Q is false.
+
+
+
+If you commit to the truth of P ∧ Q, then you are commit to the truth of P and you are commit to the truth of Q. If you commit to the falsity of P ∧ Q, then you commit to the falsity of P or the falsity of Q or the falsity of both P and Q.
+
+
+
+Homework: 3.5-3.7
+
+
+
+
+
+§ 3.3
+
+Disjunction, ∨ - Also commonly written as | (among other symbols), but not in this class. It should be translated as:
+
+
+
+“or”
+
+
+
+“Bob or Kim is married.” Married(bob) ∨ Married(kim)
+
+
+
+This is the English version of the “inclusive or,” (sometimes call “and/or”) which means, “One or the other or both.” This is not the exclusive “or,” however, which is “one or the other, but not both.”
+
+
+
+“Bob may have either soup or salad with his meal.”
+
+(Soup(bob) ∨ Salad(bob)) ∧ ¬(Soup(bob) ∨ Salad(bob))
+
+
+
+The inclusive “or” is sometimes tricky or unused for certain English speakers. Translations can also be a bit mirky, since it isn’t always obvious whether the interlocutor meant inclusive and exclusive “or.” When in doubt, use the inclusive.
+
+
+
+Multiple, chained, or stacked disjunctions are also possible:
+
+
+
+“d is large or blue or a cube.” Large(d) ∨ Cube(d) ∨ Blue(d)
+
+
+
+While we know the exact conditions under which a conjunction is true (both conjuncts must be true) or the conditions under which a negation is true (the non-negated literal must be false), the conditions under which a disjunction is true is less clear (although still specifiable). Consider the folowing:
+
+
+
+“I went to Dublin or I went to London.”
+
+Went(michael, dublin) ∨ Went(michael, london)
+
+
+
+Let us say the disjunction, a complex sentence, is true. Which of the disjuncts is true? Without any further information, we really don’t know. It is possible that I went to Dublin, but not to London, and the disjunction remains true; it is possible I went to London, but not to Dublin, and the disjunction remains true; and it is also possible that I went to both Dublin and London, and the disjunction remains true. We don’t know which of the three conditions make this disjunction true. We don’t know which disjuncts are true or false. All we know, given that the disjunction is true, is that at least one, if not both, of the disjuncts are true.
+
+
+
+Syntax for ∨: If P and Q are sentences, then so is P ∨ Q.
+
+Semantics for ∨: P ∨ Q is true iff at least one member of {P, Q} is true.
+
+
+
+Truth Table for ∨: P Q | P ∨ Q
+
+T T | T
+
+T F | T
+
+F T | T
+
+F F | F
+
+
+
+Note how a disjunctive sentence is false in only one case, where both atomics sentences are false.
+
+
+
+If you commit to the truth of P ∨ Q, then you commit to the truth of P or the truth of Q or the truth of both P and Q. Note, however, that you need not know which particular P or Q is true or false, merely that at least one of them is true. If you commit to the falsity of P ∨ Q, then you commit to the falsity of both P and Q.
+
+
+
+Homework: 3.8-3.10
+
+
+
+
+
+§ 3.1-3.3 Addendum
+
+Non-truth-functionality
+
+
+
+Lots of English connective words are not truth-functional. That is, if you use one of these words as
+
+the main connective in a compound sentence, the truth-value of the resulting sentence does not
+
+depend in all cases solely on the truth-values of the component sentences. An easy way to see that
+
+a connective is not truth-functional is to try to construct a truth-table for a compound in which it is
+
+the main connective. You will notice that you cannot complete all the rows.
+
+
+
+“Claire fed Scruffy while Max slept.”
+
+
+
+P	Q	P while Q
+
+Fed(claire, scruffy) Slept(max) | Fed(claire, scruffy) while Slept(max)
+
+T T | ?
+
+T F | F
+
+F T | F
+
+F F | F
+
+
+
+In this case, we know that if either component is false, the whole compound must be false. For
+
+example, if Claire did not feed Scruffy, it is false that she fed Scruffy while Max slept. The
+
+problem occurs when both components are true. It may be true that Claire fed Scruffy and true that
+
+Max slept, and nothing follows about whether the feeding and sleeping took place at the same time
+
+or not. The truth of both component sentences is compatible with either the truth or the falsity of
+
+the entire compound sentence.
+
+
+
+Many connectives in English are not truth-functional. Disjunction, Conjunction, and Negation are, however, truth-functional. That means we can state the semantics of these connectives on truth-tables. When you hear truth-functional, you need to think about truth-tables.
+
+
+
+
+
+§ 3.5
+
+Ambiguity, Parentheses, and Scope
+
+Grouping/groupers – (), [], {} – Groupers are used to indicate the scope of a connective.
+
+
+
+For example, parentheses are used to indicate the scope of a negation symbol:
+
+
+
+¬Home(claire) ∧ Home(max) ¬(Home(claire) ∧ Home(max))
+
+
+
+The first sentence claims that “Claire is not home, but Max is home.” The second sentence, however, claims that it is not the case that both Claire is home and Max is home.” In the second sentence, it is possible for Claire to be home and Max to not be home, and it would remain true. The truth-values for these sentences are very different, obviously. What enables that difference, and what clarifies the meanings of these sentences, I s the use of groupers that cast a scope for negation.
+
+
+
+Groupers specify the scope of a connective, and this is crucial for eliminating ambiguity in FOL sentences. English sentences can often be ambiguous, but an FOL sentence should never be ambiguous.
+
+
+
+“Ted is dead and Bob is tall or Kim is home.”
+
+
+
+We might be tempted to translate this as:
+
+
+
+Dead(ted) ∧ Tall(bob) ∨ Home(kim)
+
+
+
+This is not a well-formed sentence in FOL because we do not know the scope of the connectives. Groupers will correct that problem. The translation needs to be one of the following:
+
+
+
+Dead(ted) ∧ (Tall(bob) ∨ Home(kim)
+
+(Dead(ted) ∧ Tall(bob)) ∨ Home(kim)
+
+
+
+Note the difference in meanings. The first says “Dead(ted) and either Tall(bob) or Home(kim)”, while the second says “either both Dead(ted) and Tall(b) or Home(kim)”.
+
+
+
+When Disjuncts and Conjuncts are mixed together, we should use parentheses to disambiguate. Not all complex sentences which use multiple Boolean operators need groupers.
+
+
+
+Dead(ted) ∧ Tall(bob) ∧ Home(kim)
+
+Dead(ted) ∨ Tall(bob) ∨ Home(kim)
+
+
+
+Why don’t these sentences need groupers? Why are these not ambiguous? The truth and meaning of these complex sentences doesn’t change with groupers. We can flip the disjuncts or conjuncts in these sentences around, and the truth functional meaning stays the same.
+
+
+
+Lastly, remember that adding groupers (correctly) will never make a sentence more ambiguous. For example:
+
+
+
+Cube(b) ∧ Small(b) (Cube(b) ∧ Small(b)) [(Cube(b) ∧ Small(b))]
+
+
+
+These are all equivalent sentences. We generally try to use the fewest number of groupers as possible for sheer aesthetic and practical reasons (we are too lazy to write more than is necessary).
+
+
+
+Homework: 3.12-3.16
+
+
+
+
+
+§ 3.6
+
+Logical Equivalence, ⇔
+
+
+
+In this class, I will often use the equivalence symbol. Please note, this is not a logical connective of FOL. This is a notion about the language we are learning, but not a part of the language we are learning. We won’t have any intro/elim rules for this symbol. In that respect, it takes a backseat to our other symbols. It is extremely useful for us to have this symbol though, as it will allow us to quickly represent some important logical relationships.
+
+
+
+Let’s consider some examples of logical equivalence:
+
+“Bob kicked the ball.” ⇔ “The ball was kicked by Bob.”
+
+“Bob kicked the ball.” ⇔ Kicked(bob, ball)
+
+Larger(a, b) ⇔ Smaller(b, a)
+
+
+
+These sentences are logically equivalent. They are logically equivalent if they necessarily have the same truth values in all possible worlds.
+
+
+
+There are some important and famous logically equivalences in FOL (we have names for many of them). These are the crucial logical equivalences of the truth-functional connectives:
+
+
+
+(DN) – Double Negation ¬¬P ⇔ P
+
+(DM∧) – DeMorgan’s Law of Conjunction ¬(P ∧ Q) ⇔ ¬P ∨ ¬Q
+
+(DM∨) – DeMorgan’s Law of Disjunction ¬(P ∨ Q) ⇔ ¬P ∧ ¬Q
+
+
+
+You might think of the DeMorgan’s Laws of Conjunction and Disjunction as describing a way to distribute negation through the scope of the parantheses.
+
+
+
+Note that these can be combined to yield more equivalences:
+
+
+
+¬(¬P ∧ ¬Q) ⇔ (P ∨ Q) ∨ defined in terms of ∧
+
+¬(¬P ∨ ¬Q) ⇔ (P ∧ Q) ∧ defined in terms of ∨
+
+
+
+The astute among you will see that we could write any conjunctive sentence in terms of disjunctions and negations, without ever using a conjunction. Likewise, we could write any disjunctive sentence in terms of conjunctions and negations, without ever using a disjunction. Technically, this means we don’t absolutely have to have both the conjunction and disjunction in our language to maintain its expressiveness - we just need one of them and negation to express the other. However, because we are lazy, we will include both the conjunction and disjunction in our language because there are many things which are more easily understood and written when we have both connectives.
+
+
+
+Lastly, as a kind of foreshadowing, I want you to know that these truth-functional equivalences are special kinds of logical equivalences. We will see later how these truth-functional equivalences are a bit different from the example of Larger(a, b) ⇔ Smaller(b, a).
+
+
+
+Homework: 3.18
+
+
+
+
+
+§ 3.7
+
+Translation – Under what conditions do we count an FOL sentence to be a valid translation of an English sentence? The only rule is that the two sentences must agree in truth value in all possible circumstances, i.e. the two sentences are logically equivalent.
+
+
+
+Notice that this requires more than that the two sentences both be true or both be false, in a particular domain. Agreement in (actual) truth value may be due to accidental circumstances that happen to obtain. The two sentences must agree even if you “change the facts,” i.e. even if you switch to any other conceivable domain.
+
+
+
+This means that any two equivalent FOL sentences will be equally valid translations of any English sentence that either of them correctly translates. That is, if an FOL sentence, S, is a valid translation of an English sentence S, and S is equivalent to some other FOL sentence S′, then S′ also counts as an equivalent translation of S.
+
+
+
+A result of this policy is that some rather unnatural sounding translations will count as valid translations (although they aren’t necessarily good translations). Consider the following:
+
+
+
+“b is a cube and c is a tetrahedron.”
+
+
+
+The most natural translation into FOL is:
+
+
+
+Cube(b) ∧ Tet(c)
+
+But given the DeMorgan and Double Negation equivalences, we can see that:
+
+
+
+(Cube(b) ∧ Tet(c)) ⇔ ¬(¬Cube(b) ∨ ¬Tet(c))
+
+
+
+Hence, our sentence can also be validly translated as:
+
+
+
+¬(¬Cube(b) ∨ ¬Tet(c))
+
+
+
+Even though this is technically correct, in the sense that is it valid, it is not the best or most natural translation, for it introduces three negations and a disjunction, none of which were present in the English original.
+
+
+
+Note the difference between having a valid translation and a good translation. Just as all good arguments are valid arguments, but not all valid arguments are good arguments; all good translations are valid translations, but not all valid translations are good translations.
+
+
+
+In this class, I don’t just want valid translations – there are an infinite number of valid translations of any sentence we will examine in this class. I want good translations. For any given sentence, there might be a few good ones, but there won’t be many.
+
+
+
+A good translation is a valid translation, it preserves meaning and truth conditions, but it meets some other stylistic considerations. In particular:
+
+    Match the surface syntax as closely as possible.
+
+    Attempt to maximize naturalness of the translation (perhaps colloquial)
+
+    Consider odd details, like the difference between a maternal and paternal grandmother in mother(father(joe))
+
+Translation, ultimately, is a fuzzy aspect of FOL. I don’t expect you to be experts on translation (which is its own topic). There are books that specialize in translation if you are interested. Many introductory logic classes spend far more time on this topic, but I’d rather spend most of our time on proofs.
+
+You should understand the basics and the common translations. Translation is sometimes a beginning of a common philosophical problem. Within the next few weeks, you should be able to take some basic, written, English arguments and translate them into FOL, demonstrating the form of the arguments, pointing out which are the premises are which are conclusion. In addition, you will be able to offer either offer a counterexample to the argument or offer complete or partial proofs of these arguments, and you’ll be able to explain why you can’t prove certain gaps in the argument with FOL.
+
+Homework: 3.20-3.23
+
+---
+
+
+
+7
+
+
+A Few Translation Structures
+
+“Not either P or Q” ¬(P ∨ Q)
+
+“Neither P, nor Q” ¬(P ∨ Q)
+
+“Either not P or not Q” ¬P ∨ ¬Q
+
+“Not both P and Q” ¬(P ∧ Q)
+
+“Both not P and Q” ¬P ∧ ¬Q
+
+“Either P or Q, but not both” (P ∨ Q) ∧ ¬(P ∧ Q)
+
+
+
+
+
+Simple Translations
+
+
+
+Example 1:
+
+
+
+“Mark Twain wrote Huckleberry Finn as well as Letters from the Earth.”
+
+
+
+The overall structure is a conjunction, despite the fact that we don’t see “and” in the text. We will, temporarily, replace P and Q for certain parts of the sentence to see it:
+
+
+
+P ∧ Q
+
+
+
+“Mark Twain wrote Huckleberry Finn as well as Letters from the Earth.”
+
+P Q
+
+
+
+Replacing P and Q for their original words, we have something in between FOL and English (it isn’t a real translation yet):
+
+
+
+“Mark Twain wrote Huckleberry Finn” ∧ “Letters from the Earth”
+
+
+
+Well, Q doesn’t make much sense. It is just a name, and it lacks a predicate. Q, at this point, isn’t a sentence at all. Clearly, the conjunction is meant to apply the predicate “write” to both titles. Hence, Q should be expanded:
+
+
+
+“Letters from the Earth” becomes “Mark Twain wrote Letters from the Earth”
+
+
+
+Thus, our translation gets a bit closer:
+
+
+
+“Mark Twain wrote Huckleberry Finn” ∧ “Mark Twain wrote Letters from the Earth”
+
+
+
+Now we just need to make names for the objects and generate an efficient predicate to express the atomic sentences that are the conjuncts of this conjunction.
+
+
+
+“Mark Twain”: mtwain
+
+“Huckleberry Finn”: hfinn
+
+“Letters from the Earth”: lfte
+
+
+
+“author wrote title”: Wrote(author, title)
+
+
+
+Wrote(mtwain, hfinn) ∧ Wrote(mtwain, lfte)
+
+
+
+
+
+Example 2:
+
+
+
+“Twain wrote Letters from the Earth but he did not write The Odyssey.”
+
+
+
+Assess the overall structure. You will find it is a conjunction with a negation at the end. “But” and “not” are the signals.
+
+
+
+P ∧ ¬Q
+
+
+
+Since we already have a naming convention and a predicate, we can easily see this should be translated as:
+
+
+
+Wrote(mtwain, lfte) ∧ ¬Wrote(mtwain, odyssey)
+
+
+
+
+
+
+
+Complex Translations
+
+
+
+Example 1:
+
+
+
+“Neither e nor a is to the right of and to the left of b.”
+
+
+
+Sometimes it helps to break it down. I like to look at the outside structure and work my way inside. Let’s consider the outside structure first, which is similar to the “neither, nor” structure. We will, temporarily, replace P and Q for certain parts of the sentence to see it:
+
+
+
+Neither e nor a is to the right of and to the left of b.”
+
+P Q
+
+
+
+Well, we know that “neither P, nor Q” is translated as:
+
+
+
+¬(P ∨ Q)
+
+
+
+Replacing back P and Q for their original words, we have something in between FOL and English (it isn’t a real translation yet):
+
+
+
+¬(“e” ∨ “a is to the right of and to the left of b”)
+
+
+
+This doesn’t quite make sense though, since “e” by itself isn’t a sentence at all, it is just a name. We forgot the predicate. Clearly, we have to attach the predicate from the other disjunct to e:
+
+
+
+“e” becomes “e is to the right of and to the left of b”
+
+
+
+Thus, our translation gets a bit closer:
+
+
+
+¬(“e is to the right of and to the left of b” ∨ “a is to the right of and to the left of b”)
+
+
+
+Now that we have the outer structure, we can try our hand at the inner structures. Let’s consider the first disjunct again:
+
+
+
+“e is to the right of and to the left of b”
+
+
+
+This is clearly a conjunction, which we can translate as:
+
+
+
+“e is the right of b” ∧ “e is the left of b”
+
+
+
+Now we simply left with the predicates and names to translate:
+
+
+
+RightOf(e, b) ∧ LeftOf(e, b)
+
+
+
+Thus, we can replace the first English disjunct with the FOL equivalent:
+
+
+
+¬((RightOf(e, b) ∧ Leftof(e, b) ∨ “a is to the right of and to the left of b”)
+
+
+
+You will notice, however, that the second disjunct is just a mirror of the first, using a instead of e. So, we arrive at this translation:
+
+
+
+¬((RightOf(e, b) ∧ Leftof(e, b)) ∨ (Rightof(a, b) ∧ Leftof(a, b))
+
+
+
+
+
+Example 2:
+
+
+
+“Either a is small or both c and d are large, but not both.”
+
+
+
+The outer structure is an “Either P or Q, but not both” kind.
+
+
+
+(P ∨ Q) ∧ ¬(P ∧ Q)
+
+“Either a is small or both c and d are large, but not both.”
+
+P Q
+
+
+
+(“a is small” ∨ “both c and d are large”) ∧ ¬(“ a is small” ∧ “both c and d are large”)
+
+
+
+P’s structure is just an atomic sentence.
+
+
+
+“a is small” is translated as Small(a)
+
+(Small(a) ∨ “both c and d are large”) ∧ ¬( Small(a) ∧ “both c and d are large”)
+
+
+
+Q’s structure is a conjunction of two atomic sentences:
+
+
+
+“both c and d are large” becomes “c is large” ∧ “d is large” becomes Large(c) ∧ Large(d)
+
+
+
+(Small(a) ∨ (Large(c) ∧ Large(d))) ∧ ¬( Small(a) ∧ (Large(c) ∧ Large(d)))

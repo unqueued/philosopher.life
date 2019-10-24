@@ -1,0 +1,13 @@
+created: 20180327133403212
+modified: 20181029175224783
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.03.27 - Computer Musings: Hosting
+
+Woke middle of night. Got m15 fixed up almost entirely the way I like it. Took several hours. FF with my extensions is very heavy for 2GB RAM. I've enabled zram, which appears to help a bit. I got a bit of work done on m14 as well. Updates for HPTC and m10. 
+
+About 2am, I found the domains weren't renewed (which I anticipated but knew they'd fall into grace period). Renewed mine. They wiped my IP data (so, I had to find the IPs again, lol). I put it the records, but then minutes later, they brought all my records back and undid my work? Lol.
+
+Bed.
+
+Wife was worried about it, so I fixed the subdomains up and edited [[lighttpd.conf for this Wiki's Host]].

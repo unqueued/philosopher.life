@@ -1,0 +1,16 @@
+created: 20181126163703973
+creator: h0p3
+modified: 20181219181841751
+modifier: h0p3
+tags: TWGGF
+title: 2018.11.26 - TWGGF: Secure Serving
+
+https://groups.google.com/forum/#!topic/tiddlywiki/0EhN70YMxVc
+
+I think running a performant and secure webserver is a non-trivial task. The following options are bad if you ever want to walk up to a box you don't own (and can't install software or modify settings) to login over the web from a browser to edit your wiki (though, I'm not sure I would trust such a computer). That's basically what you are seeking, but I suggest you might not have to go that route.
+
+If you know you will be owning the devices you use to edit the wiki (you generally would in the Dropbox case), you might consider running the server from your home (or any secure computer behind a NAT or strict firewall) and using something like https://zerotier.com/ for a personal VPN across your devices. You can open your TW server to your LANs and access that server from across the VPN. This method can work without TW software servers too because you can open and save the html file from across the VPN (requires setting up filesharing, and you must watch for something like race conditions as you would for Dropbox). You may find it useful for other things as well (e.g. streaming music across your network).
+
+The above is not the method I currently use for my wiki (beware those who do not take their own advice), but Bob's sexiness may one day force me to do so. No option is perfect, but I use Resilio Sync and single-file editing. It's encrypted, the fastest throughput option for single-file wiki usage, does not rely upon any one particular server to be running, maintains archives of all edits (can be disabled), provides read-only keys (and even encrypted keys for storing on untrusted servers), and affords me offline editing. If you didn't like Dropbox though, there's a good chance you won't like this method.
+
+My vote is for the VPN because it is one of the easiest to set up in many cases, it's free, it's secure, and it's versatile.

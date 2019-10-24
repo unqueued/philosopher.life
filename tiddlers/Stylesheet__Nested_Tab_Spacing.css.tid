@@ -1,0 +1,13 @@
+created: 20190705150043687
+modified: 20190705174212507
+tags: $:/tags/Stylesheet
+title: Stylesheet: Nested Tab Spacing
+type: text/css
+
+.tc-sidebar-lists {}
+.tc-search{ margin-bottom: 1.5em; }
+.tc-tab-set{ margin-top: -1.5em; }
+.tc-block-dropdown.tc-search-drop-down { 
+    margin-top: -.75em;
+    margin-left: 0em;
+}

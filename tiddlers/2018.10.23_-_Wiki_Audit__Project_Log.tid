@@ -1,0 +1,20 @@
+created: 20181023194051991
+creator: h0p3
+modified: 20181023201249772
+modifier: h0p3
+tags: [[Wiki Audit]]
+title: 2018.10.23 - Wiki Audit: Project/Log
+
+I'm still working on project vs log list-links. I want to distinguish different kinds of material for people, and I want to make it easy for them. In a way, I want to ease the burden of searching (though, I think they should still search, obviously). It's still getting cleaned up, and that's okay! 
+
+I suppose a smart person would make a generic template here and fill in the blanks with the variable of the directory name, right? It would be a good thing for me to be able to just edit one template and all the tiddlers using it would be updated.
+
+Alright, [[j3d1h]] is working on a generic template that might be transcluded in that uses the tiddler's name as the transcluding as the variable for the template.
+
+---
+
+Projects are meant to be long-term, updated pages. Logs are meant to be one-time posts. I'm messy in this respect. Directories host the [[APFVD]] structure.
+
+---
+
+Here's something I'm adoring about going the tagging route. I can rename tiddlers, and automated lists of them work. So, I could go that route with [[Wiki Review]] too, since that is a common place. I kind of like the fact that they come and go, that there is a marker that something changed. It's very easy to search for the difference. I'm not sure what I should do here.

@@ -1,0 +1,18 @@
+created: 20190722053640866
+modified: 20190722061812950
+tags: [[Computer Musings]]
+title: 2019.07.22 - Computer Musings: Arch
+
+You know, it's been a long time since I've just used plain Arch. Might switch it up again. It's not like I really use Manjaro's features, and I'm wanting to take a complete inventory of my packaging so that I can eventually move to Nix without as much hassle. It's gotta happen in steps.
+
+---
+
+I have an old RAID controller, but I've decided not to use it, and I'm not using the motherboard's fake RAID. Software is the option. If I had money, I'd do both rsync and a redundancy method. BTRFS will never be ready, right? I have no ECC, but ZFS and mirrordev seems solid. Yeah, it's fun, but I'm not convinced it's a good use of my time.
+
+Well, currently thinking this:
+
+* Timeshift SSD -> Nightly HDD
+* Nightly rsync of SSD -> Nightly HDD
+* Nightly network rsync of family's Linux SSDs -> Nightly HDD
+* Weekly rsync of Nightly HDD -> Weekly HDD
+

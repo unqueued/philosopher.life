@@ -1,0 +1,22 @@
+created: 20180226214443257
+modified: 20181217072254883
+tags: Outopos
+title: 2018.02.26 - Outopos: Blockchain
+
+If Outopos did include a blockchain implementation, what would it do? What purpose would it serve? I am completely uninterested in wasting CPU cycles and electricity. Digital currency systems I at least partially like:
+
+* EVE Online's Plex/ISK
+** The currency is directly tied to something tangible. In this case, Outopos' primary currency is trust! You have to earn and build trust. I'm not sure if and how this can be boxed up and traded. The fundamental unit which is "mined" in Outopos is trust. You can just sell your keys, or you can be the proxy. There seems to be a very decentralized cloud computing market to create. 
+
+* Zcash
+** If mathematical sound, seems really strong.
+
+* Monero
+** Partially Connection based anonymity
+
+* Ethereum
+** Global VM
+
+Transactions need to be almost free, instant, and anonymous. 
+
+Meh, I don't love this idea.

@@ -1,0 +1,61 @@
+created: 20181016143837154
+creator: h0p3
+modified: 20181020180700990
+modifier: h0p3
+tags: Rabbitholed [[Wiki Audit]]
+title: 2018.10.16 - Wiki Audit: Flexbox
+
+This is my first time using CSS. So, I'm going to cut myself a bit of slack.
+
+If I'm to avoid the scrollbar being pushed, the only method I've found to get fluid-fixed is by setting Sidebar breakpoint to something beyond empty. This is where the house of cards begins to fall for me. [[Sphygmus]] points out that she had to scrap vanilla entirely (from what I can tell, only the sidebar breakpoint metric is necessary to empty out, though she empties them all), and that makes sense. Once the Sidebar breakpoint is set, however, I can't get the sidebar's contents positioned correctly without setting Story left and Sidebar width. This defeats the purpose of Flexbox. Trying this on 4k resolution, you'll see a sidebar that hugs the right side of the screen rather than the story river, and it has even wonkier behavior of smaller resolution.
+
+With Sidebar breakpoint set between 0-1919, Story left position set to 325, and Sidebar width to 405 (as currently set for this wiki), this is the snippet that gets it to render correctly on my screen:
+
+```css
+.tc-dropzone {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1920px) { 
+    .tc-story-river {
+        flex-basis: 75%;
+    }
+}
+```
+
+This is missing the point, clearly. Without a doubt, this is the wrong way. Zoom isn't as good, but window resizing is wildly better. I have a workspace devoted to my wiki fullscreen; I'm using it wrong if it's not distraction free. It looks like garbage on anything besides 1080p (literally the opposite of what I should be doing with CSS). At best, the sidebar will shoot to the left side.  
+
+Fluid-fixed is the problem, and even attempting to use the Sidebar breakpoint must be a mistake. My attempt at a cure is worse than the disease, lol.
+
+I've played with Sphygmus' hack she gave to force fluid-fix as well. It works. I've not figured out why `.tc-sidebar-scrollable { overflow: auto; }` is necessary. It also breaks her strictly improved sidebar hide button. Pushing the scrollbar and then making sure I can resize the tiddler/river width will be my goal.
+
+---
+
+My first order of business to put Aliases down in this wiki. It's absolute crucial that I can start using [[Beauty]] and [[Beautiful]] instead of [[The Beautiful]] without having to reason about how to encode it at all, ever. I must limit the friction on my prolix stream-of-conscious outpouring when I'm 
+
+-=[ Rabbitholed ]=-
+
+---
+
+I've done a sick job in [[Alias]], and my daughter wrote the [[Custom List Macros]] (which is generalized) for me. I think I'm going to be on a rampage soon. I'm extremely pleased to have this tool.
+
+---
+
+I'm considering https://danielorodriguez.com/TW5-AutoTag/ or a severe modification of it. For example, [[Rabbitholed]] would love some version of it. The thing is that I don't want a billion tags, but there are rules when I want something automatically tagged. A [[titletag]] should have an automatic tag(s) applied to it.
+
+---
+
+One day, I shall RTFM.
+
+`YYYY.0MM.0DD &ndash;&ndash; $(currentTiddler)$:` 
+
+That fixes the "New Journal Here' button minux the hardlinking problem. /facepalm. Jesus. Now that I'm going to search for a way to automatically generate hardlinks, it is better to leverage tags.
+
+---
+
+Cannabliss has been excellent today. Why am I not using it often? I'm obviously productive with it. 
+
+So, I've decided I'm not going the Flexbox route. Vanilla theme accepts percentages!! That handles my needs well enough, I believe. I do appreciate fine-grained control, but having something that is useable even if imperfect on someone else's screen is fine with me.
+
+[[Freedom]] cut from my {[[Axioms]]}.

@@ -1,0 +1,11 @@
+created: 20180413160257760
+modified: 20181029175224785
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.04.13 - Computer Musings: WBM Archive Robots.txt
+
+I prefer to allow access to the waybackmachine, archive.org. I'm going to try to whitelist them in robots.txt and then perhaps setup automated snapshots with them. Unfortunately, they are down for maintanence, so can't test it out. 
+
+...
+
+It's back up. It works. Daughter is building the python script to update.

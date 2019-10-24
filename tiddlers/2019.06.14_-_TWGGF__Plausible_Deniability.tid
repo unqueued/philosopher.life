@@ -1,0 +1,12 @@
+created: 20190614204214728
+modified: 20190614205311549
+tags: TWGGF
+title: 2019.06.14 - TWGGF: Plausible Deniability
+
+Plausible deniability seems to work best when you can present legitimate appearing content. I wouldn't want it blank; I'd want it to say something innocuous (even if slightly embarrassing). I would still keep the real content encrypted since you won't be editing unless you know no one is looking, and especially because it can otherwise show up in searches (or you need to fix that). I'm a fan of steganography, but encryption is necessary.
+
+I'm also reminded of this: https://www.truecrypt71a.com/documentation/plausible-deniability/ (which is real plausible deniability).
+
+Perhaps you should reconsider how to resolve shoulder-surfing and/or others using your computer here (there's no perfect solution, if you want to go all the way down the rabbithole). I'm not convinced unifying your public and private content is going to be easy. I think it's easy to screw up using single-tiddler encryption too (I shouldn't have to remember to lock the door in this case), else I'd use my wiki quite differently.
+
+I'm going to recommend using two wikis. If you really need to unify them (which [[I strongly appreciate|https://philosopher.life/]]), you can. In that case, have one public and one public+private. Most of the time you can edit public and there's literally nothing to worry about (even given an adversary familiar with TW). When you need to do something private (which can be secured in many ways), import the public into it and continue your mixed public+private work, then export the public again (I'd probably keep private tagged). This allows you to keep the private wiki content secured and still keep your public wiki integrated into it when you decide you are in a safe place to edit private content (you will still have to be mindful about how you mix content, but that was always a given).

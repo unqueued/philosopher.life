@@ -1,0 +1,12 @@
+created: 20180804004224709
+creator: h0p3
+modified: 20180804045443875
+modifier: h0p3
+title: Git Gud
+
+* Script to build git respository from our .zstd archives
+** Timestamps: https://leewc.com/articles/making-past-git-commits/
+
+* Maybes
+** https://github.com/anishathalye/git-remote-dropbox
+** https://github.com/axic/mango

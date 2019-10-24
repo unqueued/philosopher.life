@@ -1,0 +1,27 @@
+created: 20190120163801450
+modified: 20190120172011405
+tags: [[Computer Musings]]
+title: 2019.01.20 - Computer Musings: Power
+
+My computer lost power in the past couple hours. HTPC got hit as well. =/
+
+---
+
+My i3 config and startup script still aren't quite right on this last edit.
+
+* Timers need to be relaxed (qTox didn't login!)
+* Chromium popped up in the wrong window (we could just fix it to the Wiki workspace)
+
+---
+
+I'm sitting on 114mb/11mb connection today. I'm beginning to believe the Gigabit hype even more. Woot! I'm still convinced I'm going to be fucked going up though. This will be yet another bottleneck to decentralization.
+
+I don't use pacman multi-threaded downloading, but I can immediately feel a huge difference.
+
+---
+
+`-Syu` 
+
+`error: failed to commit transaction (conflicting files)` for npm files. Yeah, IIRC, I had that npm update for Bob. sudo mv culprits to baks. Then it works.
+
+The only thing I don't like about AUR is having to manually upgrade. There are packages I'm just implicitly trusting. Discord upgraded, reinstalled qTox (still have no idea why history is Fing up. [[BDS97]] may not have received my queued messages. He's not online. Glad I saved them by hand, lol.

@@ -1,0 +1,15 @@
+created: 20180120215004351
+modified: 20180120221657795
+revision: 0
+title: Scripty Non-Scripts
+type: text/vnd.tiddlywiki
+
+Synkron is the bomb. It's a GUI that makes it stupid simple. I don't have to think about it. It's a good short term solution and glue for a system. it's an incredibly sane tool. Current Synks:
+
+* Minutely m10-Wiki to philosopher.life
+* 5m, 1h, and 6h Backups of Wiki to help me not lose anything important while still going to backup for those cornercase moments.
+* Full Wiki Backup to JRE's Sync
+* Daily /home/h0p3 backup to /mnt/storage 
+** The other drive is taken care of by Time Vault for multiple backups (Arch, even in the form of Manjaro, may require significant rollbacks...although, I've never needed it)
+* /mnt/storage to /mnt/htpc/backsync/m10-Storage-Backup
+* /mnt/storage to /mnt/j3d1h/mnt/storage/m10-Storage-Backup

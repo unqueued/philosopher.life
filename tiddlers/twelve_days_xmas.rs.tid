@@ -1,0 +1,35 @@
+created: 20180126033846485
+modified: 20180126033847024
+title: twelve_days_xmas.rs
+
+```cpp
+fn main() {
+
+    // Just CnPing lyrics from my first interwebs search
+    let days = ["First", "Second", "Third", "Fourth", "Fifth", "Sixth", "Seventh", "Eighth", "Ninth", "Tenth", "Eleventh", "Twelth"];
+    let lyrics = ["A partridge in a pear tree",
+                  "Two turtle doves, and",
+                  "Three french hens",
+                  "Four colly birds",
+                  "Five gold rings",
+                  "Six geese a-laying",
+                  "Seven swans a-swimming",
+                  "Eight maids a-milking",
+                  "Nine ladies dancing",
+                  "Ten lords a-leaping",
+                  "Eleven pipers piping",
+                  "Twelve drummers drumming"];
+
+    for day in {0..12} {
+        println!("\nOn the {} day of christmas my true love sent to me", days[day]);
+        println!("{}", lyrics[day]);
+        
+        // Gonna be honest, I just fiddled and guessed. 
+        // I'm 95% there is a cleaner way to do this. I'll take imperfection!
+        // Thank Seldon for .rev()
+        for i in {0..day}.rev() {
+            println!("{}", lyrics[i]);
+        }
+    }
+}
+```

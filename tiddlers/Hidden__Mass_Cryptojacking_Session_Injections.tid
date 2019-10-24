@@ -1,0 +1,17 @@
+created: 20180105140741828
+modified: 20181030025310853
+modifier: h0p3
+revision: 0
+tags: Hidden
+title: Hidden: Mass Cryptojacking Session Injections
+
+http://arnaucode.com/blog/coffeeminer-hacking-wifi-cryptocurrency-miner.html
+
+You could ARP spoof. But, that's slow, computational intensive, requires hardware and physical, and doesn't scale up. Owning routers may seem useless to most, but it's not. Here's an example. Say you found an exploit in routers that allowed you to do two things:
+
+# Worm/hunt for other routers in the wild.
+# Ran an extremely loose knit virtual mesh that required minimal resources for C&C
+# Injected cryptojacking into HTTP (don't have to MITM, although you could) requests on users behind the router. 
+# Enjoy a fundamental attack vector on LANs
+# ???
+# Profit

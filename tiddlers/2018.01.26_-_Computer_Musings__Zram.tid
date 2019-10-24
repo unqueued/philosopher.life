@@ -1,0 +1,13 @@
+created: 20180127010610090
+modified: 20190323161624723
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.01.26 - Computer Musings: Zram
+
+I've never had much luck with Zram, but I'm considering trying it out again. It might just be worth it. RAM is very fucking expensive.<<ref "2019.03.23">>
+
+Tried installing our 16GB RAM chip install my wife's laptop (Monster-12). Motherboard only reads up to 8...*Sigh. My wife may have to manage her memory more carefully. 
+
+
+---
+<<footnotes "2019.03.23" "Feels CPU expensive to me. I've been running out of RAM on the regular now.">>

@@ -1,0 +1,17 @@
+created: 20180201152240256
+modified: 20190326212127777
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.02.01 - Computer Musings: Seedbox Problems
+
+I noticed it yesterday, before I started pumping RSS subs into Deluge. Deluge isn't always running a connectable server, even if it appears to be running as an executable. I can't interface with it, and it's not actually connectable to trackers. Something is wrong. I must find it.
+
+Even the thin client keeps disconnecting, although this may be my side. VPN fixes problems (and that's a bad sign for my end).
+
+Killing Tor Socks Proxy for now.
+
+Found out the obvious error, systemctl. I'm still learning how to use it.
+
+`sudo loginctl enable-linger h0p3`
+
+Done. Now my --user based services don't disappear when I logout of my session.

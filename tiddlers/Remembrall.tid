@@ -1,0 +1,10 @@
+created: 20181007200635051
+creator: h0p3
+modified: 20181008232630177
+modifier: h0p3
+tags: [[Wiki Audit]] $:/tags/MoreSideBar
+title: Remembrall
+
+<$edit-text tiddler="Remembrall-Filter" class="reviewButton" tag=input />
+
+;<$list filter={{Remembrall-Filter}} template="$:/core/ui/ListItemTemplate"/>

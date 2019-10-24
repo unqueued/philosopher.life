@@ -1,0 +1,67 @@
+created: 20180829002805298
+creator: h0p3
+modified: 20180829002933988
+modifier: h0p3
+title: 2018.08.28 - nomasters: His Grander Project
+
+//I see we don't talk about what matters to me directly so much. That's okay. I value his project.//
+
+```
+so.... I've got a prototype of hashmap running
+in a VERY early alpha phase
+https://prototype.hashmap.sh/2DrjgbEmDS9co7MT4ZGFqUxAAApFtbqgywWmpXhGLQJfzfX8bG
+this is the first successfully submitted payload
+and with the hashmap cli tool, you can easily analyze a payload as well
+Screenshot 2018-08-26 15.27.12.png
+
+ 
+That message is a test message for handshake chat app, but you can put anything you want in there up to 512 bytes of data
+Screenshot 2018-08-26 15.30.42.png
+
+ 
+Screenshot 2018-08-26 15.31.28.png
+
+ 
+Yesterday 12:37 PM
+h0p3
+That is exciting! =)
+rjrbt
+yep!
+and... that's my plan for our TOR hidden service
+oh! we have a new logo for handshake
+Screen Shot 2018-08-27 at 1.07.45 PM.png
+
+ 
+h0p3
+=)
+lovely
+I like how you are trying to kind of trying to solve Zooko's triangle and Zawinski's Law at the same time.
+Tox is a failure because users don't store information for other users. I like how you intend to build that automated cooperation into the protocol itself.
+at least to my understanding what you are building*
+Will you continue to containerize it?
+rjrbt
+yeah - I think we are trying to keep primitives to just that.
+I also think that handshake might end up becoming a protocol 
+I'd love to loop back and use hashmap + handshake as configuration options for killcord
+I haven't abandoned killcord, I just really needed to get these other ideas out there and plan to loop back :)
+h0p3
+that's how the design process works
+rjrbt
+Screenshot 2018-08-28 15.21.42.png
+
+ 
+oh yeah - this is the hashmap logo
+h0p3
+=)
+rjrbt
+Screenshot 2018-08-14 14.04.31.png
+
+ 
+h0p3
+haha =)
+I was about to ask
+rjrbt
+just a little base64 easteregg
+h0p3
+aye
+```

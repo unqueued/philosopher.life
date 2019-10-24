@@ -1,0 +1,39 @@
+created: 20170408035158292
+modified: 20170408181856102
+revision: 0
+title: Pipefitter Trigonometry
+
+I've included the pipefitter terms: SET, TRAVEL, and RUN.
+
+Find angle A when the lengths of two sides are known:
+
+```
+                                                                       
+          |\                      sine A      = opposite / hypotenuse = SET / TRAVEL
+          | \                                                          
+          |  \                    cosine A    = adjacent / hypotenuse = RUN / TRAVEL
+          |   \                                                        
+          |    \                  tangent A   = opposite / adjacent   = SET / RUN
+  Opposite|     \  Hypotenuse                                          
+   (SET)  |      \  (TRAVEL)      cotangent A = adjacent / opposite   = RUN / SET                                      
+          |       \                                                   
+          |        \              secant A    = hypotenuse / adjacent = TRAVEL / RUN                                      
+          |        /\                                                  
+          |_______|_A\            cosecant A  = hypotenuse / opposite = TRAVEL / SET                                              
+            Adjacent                                                   
+             (RUN)                                                        
+
+```
+
+Lookup Table: 
+
+|customTable|k
+|Find the length of sides when angle of offset is known |60°|45°|30°|22^^1^^/,,2,,°|15°|11^^1^^/,,4,,°|9°|7^^1^^/,,2,,°|h
+|SET = TRAVEL x SINE|.866|.707|.500|.383|.259|.195|.156|.130|
+|RUN = TRAVEL x COSINE|.500|.707|.866|.924|.966|.981|.988|.991|
+|SET = RUN x TANGENT|1.732|1.000|.577|.414|.268|.199|.158|.132|
+|RUN = SET x COTANGENT|.577|1.000|1.732|2.414|3.732|5.027|6.314|7.596|
+|TRAVEL = RUN x SECANT|2.000|1.414|1.155|1.082|1.035|1.020|1.012|1.008|
+|TRAVEL = SET x COSECANT|1.155|1.414|2.000|2.613|3.864|5.126|6.392|7.661|
+
+Obviously, you can calculate the length yourself if you aren't using a known angle on the lookup table.

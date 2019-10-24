@@ -1,0 +1,16 @@
+created: 20171218003347361
+modified: 20171218003450795
+revision: 0
+title: Script: Golang Arch Setup
+
+```bash
+#!/bin/zsh
+
+# Set PATH and Gopaths
+echo 'export GOROOT=/usr/local/go' >> ~/.zshrc
+echo 'export GOPATH=$HOME/src/go' >> ~/.zshrc
+echo 'export PATH=$PATH:$GOROOT/bin:$GOPATH/bin:~/bin:~/scripts' >> ~/.zshrc
+
+# Install
+sudo pacman -S go-tools
+```

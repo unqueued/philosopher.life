@@ -1,0 +1,15 @@
+created: 20180729161219411
+creator: h0p3
+modified: 20180729185608021
+modifier: h0p3
+title: 2018.07.29 - Computers Musings: ZSH
+
+Pavucontrol hotkey back up, as it's required to switch from headphones to HDMI.
+
+Pushing hard through my zsh configuration. There are a world of tools to try.
+
+Yay: [[.zshrc]]
+
+`chsh -s /bin/zsh`
+
+Perhaps should do for root...

@@ -1,0 +1,99 @@
+created: 20180801012742820
+creator: h0p3
+modified: 20180801031020546
+modifier: h0p3
+title: Fano Plane
+
+//Speak to me. Uncover and reveal. Go!//
+
+PIVOT!
+
+e1, e2, and e4 are equivalent to i,j, and k.
+
+Dialectical circle/cycle between positive and negative. 
+
+Move with arrows gives positive answer:
+
+```
+e5 x e2 = e3
+```
+
+Without e's
+
+```
+2 x 3 = 5       6
+5 x 2 = 3      10                     
+3 x 5 = 2      15         
+
+1 x 5 = 6       5
+6 x 1 = 5       6
+5 x 6 = 1      30
+
+4 x 5 = 7      20
+7 x 4 = 5      28
+5 x 7 = 4      35
+
+3 x 4 = 6      12
+6 x 3 = 4      18
+4 x 6 = 3      24
+
+2 x 6 = 7      12
+7 x 2 = 6      14
+6 x 7 = 2      42   As usual, this is the answer.
+
+1 x 2 = 4       2
+4 x 1 = 2       4
+2 x 4 = 1       8
+
+1 x 3 = 7       3
+7 x 1 = 3       7
+3 x 7 = 1      21
+```
+
+3 sets for each kind of dimension. 7 total sets without the Real.
+
+Move against arrows gives positive answer
+
+```
+3 x 2 = -5      6
+2 x 5 = -3     10
+5 x 3 = -2     15
+
+5 x 1 = -6      5
+1 x 6 = -5      6
+6 x 5 = -1     30
+
+5 x 4 = -7     20
+4 x 7 = -5     28
+7 x 5 = -4     35
+
+4 x 3 = -6     12
+3 x 6 = -4     18
+6 x 4 = -3     24
+
+6 x 2 = -7     12
+2 x 7 = -6     14
+7 x 6 = -2     42   As usual, this is the answer.
+
+2 x 1 = -4      2
+1 x 4 = -2      4
+4 x 2 = -1      8
+
+3 x 1 = -7      3
+1 x 7 = -3      7
+7 x 3 = -1     21
+```
+
+Dialectic and symmetry. Render us [[The Good]] from [[The Beautiful]] and [[The Right]]. Show us the real, show us the prime.
+
+```
+[(5 x 2) x 1] = -7 <=> [3 x 1] = -7
+[(5 x 2) x 2] = -5 <=> [3 x 2] = -5
+[(5 x 2) x 3] = ? <=> [3 x 3] = -1   (multiple against itself, so -1, right, homie?)
+[(5 x 2) x 4] = 6 <=> [3 x 4] = 6  
+[(5 x 2) x 5] = 2 <=> [3 x 5] = 2
+[(5 x 2) x 6] = -4 <=> [3 x 6] = -4      
+[(5 x 2) x 7] = -4 <=> [3 x 7] = 1                 lacking: -3 (I can't begin to understand...conjugates?), -2, 4, 5
+```
+
+3 sets for each kind of dimension, and it doesn't work with itself.

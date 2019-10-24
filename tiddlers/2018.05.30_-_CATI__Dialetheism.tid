@@ -1,0 +1,109 @@
+created: 20180530192251342
+creator: h0p3
+modified: 20180531004516701
+modifier: h0p3
+title: 2018.05.30 - CATI: Dialetheism
+
+<<<
+the strengthened Liars show that a single feature of the semantic paradox underlies its different formulations. 
+<<<
+
+<<<
+The standard Liar, ‘This sentence is false’, is just a particular instance of this, producing a contradiction within the bivalent framework, in which the Rest is identified with the set of the false sentences.
+<<<
+
+I have to say, this topic makes me dizzy. I feel like gravity is turned up.
+
+Strengthened liars seem to recursively scoop up new categories of "The Rest" in a way. It feels like Russell's Paradox to me. Infinigression is here.
+
+To accept Dialetheism, the contradictory God, is to accept that it provably cannot make sense to us, and thus, to our best conceivable knowledge, the world may not make sense. This feels like a futile game, but I hope to have the faith to believe it isn't futile. As usual, I beg the question of meaning.
+
+I take up the meaning of meaningness before I question whether or not meaning exists. I want to be myself, a human, and so I'm going to keep beggining that question. I cannot remain sane without it. I beg the question of seeking sanity as well.
+
+I suppose the hardest part is the lack of satisfaction.
+
+---
+
+https://www.scottaaronson.com/papers/pnp.pdf
+
+For again, what P=NP? asks is not whether all creativity can be automated, but only creativity whose fruits can quickly be veri ed by computer programs.
+
+I suggest that this problem in complexity is a baby version of the philosophical issue at stake.
+
+Hrmm:
+
+<<<
+there exist 
+NP
+problems that are hard even on random inputs, or
+hard even for a quantum computer.
+<<<
+
+<<<
+ the
+Church-Turing Thesis
+holds that virtually
+any model of computation one can define will be equivalent to Turing machines, in the sense that
+Turing machines can simulate that model and vice versa.  A modern refinement, the
+Extended
+Church-Turing Thesis
+, says that moreover, these simulations will incur at most a polynomial over-
+head in time and memory.  Nowadays, most computer scientists and physicists conjecture that
+quantum computation
+provides a counterexample to the Extended Church-Turing Thesis—possibly
+the only counterexample that can be physically realized.
+<<<
+
+<<<
+NP
+is the class of languages
+L
+for which, whenever
+x
+∈
+L
+, there exists a polynomial-
+size “witness string”
+w
+, which enables a polynomial-time “verifier”
+M
+to recognize that indeed
+x
+∈
+L
+.  C
+<<<
+
+<<<
+here’s an earlier definition of
+NP
+, which explains its ungainly name. Namely, we can define a
+nondeterministic Turing machine
+as a Turing machine that “when it sees a fork in the road, takes
+it”: that is, that’s allowed to transition from a single state at time
+t
+to multiple possible states at
+time
+t
++ 1. 
+<<<
+
+<<<
+Since
+P
+̸
+=
+NP
+is an arithmetical statement (a Π
+2
+-sentence), we can’t simply excise it from math-
+ematics, as some would do with questions in transfinite set theory, like the Continuum Hypothesis
+(CH) or the Axiom of Choice (AC). At the end of the day, a polynomial-time algorithm for
+3Sat
+either exists or it doesn’t!  But that doesn’t imply that we can prove which
+<<<
+
+I suggest P!=NP is provably
+
+
+

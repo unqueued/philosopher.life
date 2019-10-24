@@ -1,0 +1,28 @@
+created: 20190510173241410
+modified: 20190510195504555
+tags: TWGGF
+title: 2019.05.10 - TWGGF: Saving
+
+https://groups.google.com/forum/#!topic/tiddlywiki/3IR6in7Zqo4
+
+I tried again a while back since I'm a fan of Chromium's extensions. In general, it keeps getting harder to save TW for me. Currently, the only method that works for me on Chromium is through a node server. Unfortunately, I run into lots of saving errors and lag from servers too though (savetrail plugin is an absolute necessity for me). The singlefile option has been hands-down the most reliable back when I used it, but I've not found a clean way to do it in Chromium anymore. 
+
+---
+
+I have no idea how to solve it. I'm also incredibly biased, so my thought may not be relevant to most people here. What I like most about TW boils down to the fact that my final result is an all-in-one singlefile that can be opened offline in any standard browser on the planet. I don't need any particular centralized server with TW, and that's the beauty of TW as a document. For reading, singlefile TW is shockingly universal; it leverages the most universal virtual machine on the planet. Writing TW is not as simple.
+
+I'm in wild conjecture territory here, and I'm a fool. Dismiss the ravings and ramblings of the lunatic at will, please.
+
+If I had to make a bet, I'd bet on singlefile's declining usage because too many OSes and browsers have to be supported. That asymmetry between read and write is a big deal. On average, I think most singlefile approaches require an uncommon (and arguably not the most stable) browser to make singlefile work, though so I suppose one could fork FF and keep something stable (but that has so many problems). Executables, even for singlefile, are going to have to target OSes, and the cross-platform options seem like a ton of work. Mobile computing may dictate the direction of TW more and more as well, and that is a huge bottleneck. Every major computing platform has a browser which can access a server though. 
+
+Who and what is going to run the server? I think file synchronization and authorized access should be handled by the user. I want to own my data and the process. I think most people will find that heinous, however, and if you want 100 million TW users, you're currently going to have to centralize the hosting of it (which I don't like, but it's not up to me).
+
+One other huge bias I have, I value performance more than most people. I've been using my wiki everyday for years now, and it has Over 9k tiddlers, coming in at ~30MB of text. I'm willing to bend over backward for scaling performance, and the saving mechanism has to scale too. 
+
+Ideally, for me, the server is run on each of my devices and I sync the data myself. I'm not convinced nodejs is the best platform agnostic option for running a server. I wish the server code was written in Golang, it would be higher performance, and it can be compiled to any architecture. That's not going to work for most people though, and it would be a ton of work.
+
+Centralizing the server appears the cheapest route. Nodejs is expensive and slow, and I don't think it should be used as the writing and serving mechanism, but I still admire the giant singlefile that runs everywhere.
+
+I would say target WASM, but eventually the output singlefile might be WASM as well.
+
+I think I'm making the case to switch away from TW at this point. =/

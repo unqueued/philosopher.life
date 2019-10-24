@@ -1,0 +1,21 @@
+created: 20180206010922562
+modified: 20190328011051932
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.02.05 - Computer Musings: Virtualized Router
+
+Welp, I did my best, and I simply couldn't get OpenWRT or pfSense in Virtualbox to bridge correctly. Passthrough seemed to be working fine. I've followed the few guides I could find. This is some advanced stuff beyond me, clearly.
+
+---
+
+Seedbox is having trouble with i2pd. Cut it out. For posterity:
+
+Setup i2pd In-Proxy:
+
+<<<
+```bash
+yaourt -S i2pd-git --noconfirm
+sudo systemctl enable i2pd.service
+sudo systemctl start i2pd.service
+```
+<<<

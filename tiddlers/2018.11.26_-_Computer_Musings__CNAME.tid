@@ -1,0 +1,67 @@
+created: 20181126151847684
+creator: h0p3
+modified: 20181127225039279
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.11.26 - Computer Musings: CNAME
+
+We believe it is the lack of the CNAME file (doh) that is causing the reset on github pages. That should be fixed.
+
+---
+
+You know what, FUCK this bullshit:
+
+root's crontab on Dallas:
+
+```
+*/5 * * * * mkdir -p /var/run/sshd && systemctl start sshd >/dev/null 2>&1
+@reboot mkdir -p /var/run/sshd && systemctl start sshd >/dev/null 2>&1
+```
+
+Yeah. Screw it. Just taking the ghetto hack. This is shoestring and gum.
+
+---
+
+```bash
+echo "hypercored --cwd /mnt/storage/syncs/dats" > /mnt/storage/syncs/dats/services
+sudo su #ugh =/
+add-to-systemd dat-lil-pids $(which lil-pids) /mnt/storage/syncs/dats/services /mnt/storage/syncs/dats/pids
+systemctl start dat-lil-pids
+exit
+```
+
+Nope. Killing it. Not pleased with root.
+
+---
+
+`gyp WARN EACCES user "root" does not have permission to access the dev dir "/root/.node-gyp/11.2.0"`
+
+Outstanding, soldier.
+
+```bash
+sudo apt-get install python-software-properties
+curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
+sudo apt-get install nodejs -y
+mkdir ~/.npm-global
+npm config set prefix '~/.npm-global'
+echo 'export PATH=~/.npm-global/bin:$PATH' >> ~/.profile
+source ~/.profile
+npm install -g hypercored dat add-to-systemd lil-pids
+mkdir ~/dats
+cd ~/dats
+echo 'dat://6ca5bfb34c0bbfa8751b6d85f591b7a007b89df7207dc0aa9885bf00be610c8f' >> feeds #kickscondor
+echo "hypercored --cwd ~/dats" > ~/dats/services
+```
+
+Nope. Even getting hypercored running doesn't actually sync. It just sits there.
+
+```bash
+sudo su
+npm install -g hypercored dat add-to-systemd lil-pids
+exit
+add-to-systemd dat-lil-pids $(which lil-pids) ~/dats/services ~/dats/pids
+```
+
+Nope.
+
+Fuck it. I can get it working on m10, though it's not using systemd to run hypercored as h0p3!

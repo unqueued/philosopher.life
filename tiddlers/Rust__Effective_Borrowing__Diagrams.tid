@@ -1,0 +1,6 @@
+created: 20180116211236968
+modified: 20180116211408416
+revision: 0
+title: Rust: Effective Borrowing: Diagrams
+
+<center> [img width=1300 [./images/rust/rust-move-copy-borrow.png]] </center>

@@ -1,0 +1,44 @@
+created: 20171021210244916
+modified: 20180111005830458
+revision: 0
+title: Outopos: Tools
+
+!! Yes, please:
+
+* [[Imunes|http://imunes.net/]] - Integrated Multiprotocol Network Emulator/Simulator
+** Here we test Outopos. This is how we simulate networks. I think we should build the toolkit inside a VM so we can run it on any machine. 
+
+
+
+!! Features I want in Outopos
+
+* https://github.com/zehome/MLVPN - Multi-Line Bonding VPN
+* https://github.com/warner/magic-wormhole
+* https://github.com/zboxfs/zbox
+
+
+!! I don't know:
+
+* Maximizing network quality/error correction:
+** https://github.com/wangyu-/UDPspeeder
+
+* Distributed Search
+** https://github.com/go-ego/riot
+*** But, I also want Bayesian improvements. I want deep learning to be at the core. I want us to be able to try different distributed/decentralized search methods and let Survival of the Fittest (non-monetized) take over. 
+** http://trokam.com/
+
+* The Network Stack
+** https://grothoff.org/christian/habil.pdf
+
+* Building Molecular Trust from Atoms
+** https://github.com/CirclesUBI/docs/blob/master/Circles.md
+*** "There is value in mapping these relationships. Trust enables lowering the cost of transacting. Low cost of transacting enables creation of powerful ecosystems. It's the first proposal that I am aware of that introduces an economic incentive on an individual level for mapping trust. The system seems potentially very robust: 1) I add people I trust in order to increase the value of my coins 2) If I make a mistake and add an actor who turned out to be untrustworthy I am penalized by losing some value from my coins. Thanks to this dynamic, there is both an incentive to expand the network and eliminate bad actors on an individual level."
+**** This is the trust-based filtering we need in [[Outopos]].
+
+* Terminal Tools
+** Surviving Connecting Problems
+*** Mosh
+*** Eternal Terminal
+
+* Consensus/Voting
+** https://raft.github.io/raft.pdf

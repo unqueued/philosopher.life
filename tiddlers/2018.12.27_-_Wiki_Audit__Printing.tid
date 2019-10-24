@@ -1,0 +1,16 @@
+created: 20181228045942699
+modified: 20181228062644519
+tags: [[Wiki Audit]]
+title: 2018.12.27 - Wiki Audit: Printing
+
+I was reminded today that we were printing the wiki at the end of the year. It turns out, I'm going to need to tailor it considerably. I prefer a monospace font, so I'll stick with what I have. We'll make a document with minimal margins and size 7ish(?) Zing, razor thin spacing, word-wrapped, and double-sided prints. It will probably have to be printed 100 sheets at a time. I'm fine with this archive requiring a magnifying lens or reading glasses.
+
+---
+
+[[Auto Text Expander]] is requiring practice and tuning. It doesn't always work either (as in tab refresh to fix fuckup)! This is annoying. I had to turn down the latency to 250ms. It's not making as many slipups now. If I use it in the search bar or fields, then fuck the brackets. So far, it is slowing me down. It's immensely useful for the [[hlexicon]] and several other things though (enough that this will be worth using). I am in absolute love with the cursor based [[Text Blaze]] tools. OMG. I'm not sure how I lived without this. Perhaps doing the inline footnotes like [[Sphygmus]] will be the way to go if I automatically render footnotes at the bottom of the tiddler with a macro? I need a firmcoding solution or bust.
+
+Firmcoding is very close now. We've simply been stupid busy with other stuff. We will get back to it, and the wiki upgrades, and then back to the [[Search of h0p3]]. I still need to continue [[The Remodeling]]. 
+
+---
+
+I am feeling more lag in Chromium again. There are some tiny behavioral differences throwing me off my game, into the present-at-hand mode. I have not automated my understanding of this model well enough not to be surprised.

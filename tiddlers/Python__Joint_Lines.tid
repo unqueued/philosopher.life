@@ -1,0 +1,30 @@
+created: 20180102204220280
+modified: 20180102204300691
+revision: 0
+title: Python: Joint Lines
+
+```python
+#!/usr/bin/python
+
+import math
+import sys
+
+if len(sys.argv) != 5:
+    sys.exit("Enter 4 Arguments: <Largest Pipe Radius> <Smallest Pipe Radius> <Joint Angle> <Number of Circumference Lines")
+
+R1 = float(sys.argv[1])
+R2 = float(sys.argv[2])
+JA = math.radians(float(sys.argv[3]))
+CircLines = int(sys.argv[4])
+
+DegreeCounter = float(90/CircLines) # Necessary for finding Circumference Position Degree
+
+for i in range(CircLines):
+    if i == 0:
+        print('Line 0 = 0 units of length')
+    else:
+        AP = math.radians(DegreeCounter*i)
+        print('Line ' + str(i) + ' = ' + str((R1/math.sin(JA)) - (((R1 - math.sqrt(R1**2-(math.cos(AP) * R2)**2)) / math.sin(JA)) + ((math.tan(90 - JA) * (math.sin(AP) * R2))))) + ' units of length')
+
+# (R1/Sin (JA)) - (((R1 - Sqr(R1^2-(Cos ( AP ) * R2)^2)) / Sin(JA)) + ((Tan (90 - JA) * (Sin(AP) * R2))))
+```

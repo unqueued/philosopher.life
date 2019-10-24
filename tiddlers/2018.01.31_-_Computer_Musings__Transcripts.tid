@@ -1,0 +1,25 @@
+created: 20180131180846448
+modified: 20190326202837588
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.01.31 - Computer Musings: Transcripts
+
+I despise paperwork. That's okay. I need it. PDF editing and asking for transcripts is what I'm doing today. I need a picture ID, so I'm trying to install Cheese. Turns out, I'm blowing 90GB on my Manjaro install...wtf? Time to clean it up.
+
+Cheese failed. Looked for drivers, but found out I didn't need them. Using jank to get it done, but I'm fine with that.
+
+Ran some maintenance.
+
+NCDU didn't seem to help. I discovered it on my /mnt/htpc though. The SSHFS link failed, and so my backup started filling up my actual root drive. Rofl.
+
+Now I have a 17GB installation. That sounds far more reasonable.
+
+---
+
+Cleaned up my Reddit subs. Posted here.
+
+---
+
+Setup RSS feeds for Deluge. Took quite a while, since I also had to go through and see what was even worth seeding for ratio. Also, had to see if my shows were still coming out next year.
+
+I think I've got the auto-removal plugin and queuing setup correctly. IPT has changed to a 2 week schedule, which I prefer. I can deal with their point-fucking as long as I'm just generating tons of ratio (which is absurdly easy on IPT). 

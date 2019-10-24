@@ -1,0 +1,117 @@
+created: 20190103021853712
+modified: 20190103021907103
+tags: Retired Verify
+title: 2019.01.02 - Retired: Cryptographic Verification
+
+//See first: {[[Help|Help: On this Wiki]]} & {[[Connect|Ways to Connect to this Wiki]]}//
+
+---
+!! About:
+
+//Even when we lack the political or social right, we each have [[the Right]] to speak and sign digital Navajo in most contexts. Escape your persecution, lose your chains, and be politically free when it morally matters. Exercise your rights or you will lose them. This political action page exists for those cornercases...//
+
+<<<
+We kill people based on metadata.
+
+-- Bruce Schneier, //Data and Goliath: The Hidden Battles to Collect Your Data and Control Your World//
+<<<
+
+<<<
+Cryptography shifts [to some [[dok]]] the balance of power from those with a monopoly on violence to those who comprehend mathematics and security design.
+
+-- Jacob Appelbaum 
+<<<
+
+<<<
+When cryptography is outlawed[, wherein only the outlaws have privacy,] bayl bhgynjf jvyy unir cevinpl.
+
+-- John Perry Barlow & Phil Zimmermann
+<<<
+
+<<<
+Who dares not speak his free thoughts is a slave.
+
+-- Euripides, //The Phoenician Women//
+<<<
+
+Cryptography is not a mere symbol. In a surprising number of pragmatic contexts and eminently, immanently, or imminently possible timelines, cryptography offers low-hanging all-natural digital protection fruit which we are morally obligated to pick, use, and implement as citizens of Humanity constituting [[The Original Position]]. 
+
+Cryptography applied appropriately is a semi-automatically enforced cluster of Hohfeldian moral claim moral rights against your loved ones, friends, anons, skiddies, blackhats, dark-triads, transnational corporations, Big Brother, Capitalists, Peter Thiel, le ilerminaty, teh lizard wizards, aliens (who have almost paradoxically traveled at least near light speed but somehow lack quantum computers?), and a remarkable number of legitimate adversaries, which at times even includes ourselves.<<ref "st">> 
+
+Like any tool or weapon, crypto can be a two-edged sword which cuts both ways. But, if you think I'm insane or evil for caring about this, then wisely consider KYS because you are demonstrably an evil person. I'm calling you out, tu puta madre! Pick at least one, you: selfishly indifferent, apathetic, abusively ignorant, reactionary, dark-triadic, "patriot:" ''Fuck you, malicious fool!'' It is your moral obligation to own your data and effectively decentralize power [[irwartfrr]]! The workers must own the means of production! You owe Humanity a profound contribution to that system.<<ref "f">> Using cryptography correctly is a realpolitik behavioral vote for decentralizing power.
+
+Official distributions of h0p3's Wiki include a checksum+signature file for verifying the integrity and authenticity of your copy. This verification file is updated for every published edit (nearly real-time, you may have to wait a minute for the cronjob and sync). With these files (and the right tools), you will be able to cryptographically verify the entire wiki, which is contained in a single html file (index.html). Let's hope this is never directly useful to us.<<ref "n">>
+
+I previously used PGP (GnuPG as my last tool) to sign this wiki. PGP has to be one of the worst "best in class" toolsets I've ever used. I hate the software ecosystem, its unusability and incompatibility, as well as its poor logistics and social design. I've wasted far too many hours over almost two decades on that piece of shit. I'm moving on. 
+
+Instead, I'm attempting to cut out the middleman (fuck you, PGP) and more directly using the crypto library I actually trust. I now generate signatures through [[PyNaCL|https://github.com/pyca/pynacl]] (hopefully correctly?), a gorgeous binding to the state of the art [[NaCL|https://nacl.cr.yp.to/]] crypto library (imho, we are moving into an asymmetric crypto monoculture relying on the 25519 algorithms).<<ref "2">> I believe my key will be useful until quantum computing becomes feasible.<<ref"3">> When PGP is actually functioning, it buys the same verification as my process. The difference is that my process is literally programmable in every major language. It ain't pretty, and it might even be awful, but it works (or, I'm pretty sure it does, lol).
+
+
+---
+!! Principles:
+
+* Continually improve this process.
+* Build tools which maintain fitting degrees of privacy, anonymity, authenticity, and integrity in my context.
+* Enable surprising portability, decentrality, and distributivity.
+* [[Master Ed25519 Public Key]]:<<ref "mk">>
+** 5b0addf64aa52a67ac9c59031e7c15919717df39146c2d995f7f0745a2fc8fe2
+* Current Slave Ed25519 Public Key: 
+** 5249578e4cdfaec1484f0083df3e8b6e4af0cab0288c8156c31d6e94efe58308
+
+
+---
+!! Focus:
+
+Authentication is fairly straightforward.
+
+# Download all three of the following files into the same directory:
+#* <a href="verify.py">verify.py</a>
+#* <a href="index.html.sig">index.html.sig</a>
+#* <a href="index.html">index.html</a>
+# Run [[verify.py]]
+#* Don't forget to first install [[PyNaCL|https://github.com/pyca/pynacl]]; pip is easiest.
+
+Currently, I use SHA256 for the hash integrity check, and I authenticate that checksum with an Ed25519 signature. I've made it simple for you with a script.<<ref "s">> For reference:
+
+{{verify.py}}
+
+To be clear, if you trust the signature verification of the checksum, and you trust the checksum of index.html (if the hashes match, you should), then you trust index.html. Thus, your authenticity+integrity verification demonstrates you possess a bit-for-bit copy of the original signed by someone who possesses this wiki's private signing key.
+
+Please note that the key used to sign this wiki is obviously sitting on my hard drive using [[wiki-hash-sign.py]]. I can never guarantee I'm clean or that someone else doesn't possess the current slave private_key. Hence, I have introduced the [[Master Ed25519 Public Key]] to afford myself the opportunity to semi-conveniently revoke (and create) this wiki's current slave key from scratch in an emergency on a clean box.
+
+
+---
+!! Vault:
+
+* Retired: 
+** [[Retired: 2017.01.14 - Cryptographic Verification]]<<ref "4">>
+** [[2017.09.10 - Retired: Cryptographic Verification]]
+** [[2018.07.18 - Retired: Cryptographic Verification]]
+
+
+---
+!! Dreams:
+
+* [[Cryptographic Verification PH]]
+* [[Vanity Keys]]
+* [[Invisign]]
+* [[Nightly Internal Signature]]
+* Eventually, find a reasonable post-quantum crypto system with goldilocks timing.
+
+
+---
+<<footnotes "st" "I am such a stupid user sometimes; it's a wonder that I let myself have sudo access to my own life at all.">>
+
+<<footnotes "f" "Find a way. Some ways are better than others, not all ways work for everyone. You still gotta do your best, for swearsy realsies.">>
+
+<<footnotes "n" "e.g. you can prove that I never said this sentence.">>
+
+<<footnotes "2" "I am aware of that maxim: Don't roll your own crypto. This maxim can be applied at different levels in the cryptography process. While I openly admit my shallow understanding of cryptography, I remain convinced this is a safe exception to that maxim. Famous last words, I know. Talk to me about it if it bothers you, please.">>
+
+<<footnotes "mk" "Please note that this wiki is signed by a revocable slave key; the [[master key|Master Ed25519 Public Key]] is my just-in-case Mr. Backup Plan for revoking and creating new slave keys on my keyring; it is the best post-pwned ex nihilo identity reconstruction I can muster at the moment.">>
+
+<<footnotes "3" "Not that it would ever matter in this case, but I'm not naive enough to think rubber-hose cryptanalysis isn't the first step a state-actor would use against me. Regardless, I still think cryptography is immensely useful to us.">>
+
+<<footnotes "s" "You can either find/write your own tool or use mine to verify the signature.">>
+
+<<footnotes "4" " I believe this was the first official 'Retired:' I ever made on this wiki. For now, I break with my {[[Principles|Principles of Programming Myself]]} conventions to preserve the ornament for myself in the code. Obviously, I didn't know what I wanted, but I figured it out.">>

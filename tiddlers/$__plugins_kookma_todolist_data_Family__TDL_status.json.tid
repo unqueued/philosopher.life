@@ -1,0 +1,12 @@
+created: 20190717201632831
+modified: 20190809041204155
+tags: 
+title: $:/plugins/kookma/todolist/data/Family: TDL/status
+type: application/json
+
+{
+    "2019.07.17-161631459": "undone",
+    "2019.07.17-161656406": "undone",
+    "2019.07.18-235754246": "undone",
+    "2019.08.08-211203623": "undone"
+}

@@ -1,0 +1,48 @@
+created: 20181101235004915
+creator: h0p3
+modified: 20181203173627692
+modifier: h0p3
+tags: [[Wiki Scripts]] bash
+title: wiki-live-git.sh
+
+```bash
+#!/bin/bash
+
+# logfile timestamp
+date +"%Y.%m.%d-%T" #Getting the date/time
+
+# Git
+TIME=`date +20%y.%m.%d` #The date, for the name of the folder
+H0P3=$TIME-h0p3.wiki-index.html #Name of said folder
+
+# Vars
+git config --global user.email "foo@mail.com"
+git config --global user.name "m6ram"
+FILENAME1=$TIME-h0p3.wiki-index.html
+FILENAME2=$FILENAME1.sig
+SRCDIR=/home/h0p3/Downloads/Wiki
+DESDIR=/home/h0p3/syncs/wiki-git/wiki-everything/
+DESDIR2=/home/h0p3/syncs/wiki-git/wiki-real-time/
+
+###
+
+# Sign
+cd $SRCDIR
+python /home/h0p3/scripts/wiki-hash-sign.py
+
+# Commit
+cd $DESDIR
+cp -f $SRCDIR/index.html $DESDIR
+cp -f $SRCDIR/index.html.sig $DESDIR
+git add index.html
+git add index.html.sig
+git commit -m "$H0P3"
+
+cd $DESDIR2
+cp -f $SRCDIR/index.html $DESDIR2
+cp -f $SRCDIR/index.html.sig $DESDIR2
+git add index.html
+git add index.html.sig
+git commit -m "$H0P3"
+git push --set-upstream https://m6ram:foobar@github.com/m6ram/m6ram.github.io.git master
+```

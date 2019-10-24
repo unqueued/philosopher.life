@@ -1,0 +1,29 @@
+created: 20180726153349423
+creator: h0p3
+modified: 20180727134151842
+modifier: h0p3
+title: 2018.07.26 - Computers Musings: IRC
+
+Freenode (and its admins in particular) are getting hammered by some spammers/hackers. There appears to be a campaign to paint them as pedophiles. Turning off private messages.
+
+`/umode +R`
+
+Set in network connect configuration too.
+
+---
+
+I don't see a use for stacked mode...Tabbed is almost definitionally better from what I can. I TAKE IT BACK! I've found some usecases, particularly in vertical modes where it's preferred.
+
+I need generic templates that I can cycle through to impose on the windows. I want specific templates that I can save for particular workflows and workspaces.
+
+Perhaps I can enter into a particular "Mode" when using a template as well.
+
+* "Startup Layouts"
+* "Imposing Layouts/Templates"
+
+Here are imposable layouts I want to "cycle" through:
+
+* X by X grid layout.
+* v-stack, with master to left side and slaves to the right
+* ?
+

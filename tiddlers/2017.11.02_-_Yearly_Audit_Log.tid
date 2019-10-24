@@ -1,0 +1,24 @@
+created: 20171102195847447
+modified: 20181220212052865
+revision: 0
+tags: [[Wiki Audit]] [[Yearly Audit Log]]
+title: 2017.11.02 - Yearly Audit Log
+
+* Figured out how to Filter for Titletags (much like search)
+* Also, gave myself breadcrumbs on renaming the "Tiddlywiki Howto:" pages with a Titletag. Might as well.
+
+---
+
+* [[Wiki: Directory File Structure Template]]
+** Edited.
+* [[Wiki: PH]]
+** Filled that page-like directory. It's not clear that it needs more. But, I'm going to try anyway. It's better to have overkill than under. We don't know how far to extend it, so let's just make small pushes beyond what we'd normally do and see if those risks pay off.
+* [[Wiki: Log Structure]]
+** This page was created to solve a serious problem I have in {[[Principles]]}. I have principled problems in generating my Principles, as usual.
+* [[Wiki: Existential Axioms and Fundamental Principles]]
+** Fuck, I have to re-write this entire thing. That's okay. Keep calm. You can do your best. You have a tool for doing it now. You can investigate and slowly grow it.
+** Clearly, this page is epically important it could be on the {[[Home]]} page. I realized that earlier with an attempt at [[2017.11.02 - Retired: {Home}]]. 
+*** Thus, I am now introducing another transclusion: [[Axioms of h0p3]].
+* [[Hidden: Home]]
+** I decided that I should have this section. It's not meant to be not found by anyone. It's a very light steganographic touch which makes it so that average person need not be concerned by it. Those interested, of course, can always traverse that branch of the rabbithole.
+** Look for the "s" in the the [[Experience Machine]]//__s__// found in the Focus section of {[[Dreams]]} (or on the [[Hub]])

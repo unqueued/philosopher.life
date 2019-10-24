@@ -1,0 +1,34 @@
+created: 20171225151811428
+modified: 20181225010600646
+modifier: h0p3
+revision: 0
+tags: [[Computer Musings]]
+title: 2017.12.25 - Computer Musings: Setup Continues
+
+Installed Ad Nauseum for the umpteenth time. Let's see if it has the functionality of actual uBlock Origin this time. I fear it doesn't. That's okay. I very much like what it stands for.
+
+I couldn't get my VPN connections working. Digging, I realized I fucked up by not restarting immediately after a kernel update. I should have known better, but I didn't do it. My kernel modules were messed up. Also, I had some VM problems. I fixed it, but I literally don't know how or why. I cleaned out my old kernels, ran an update and restarted, and it magically worked. 
+
+Oh, so yeah, I now have at least one set of my VPNs up.
+
+Trying out Resilio Sync Pro. It's meh thus far.
+
+Also, I just realized I made about 2 grand this year from cryptocurrency investing. I should have just gone with my gut on zCash. I can see I was right about about it from before it was even released. I should have poured a ton into it.
+
+FUUUUUUU...HTPC static-shocked me again. Fans are whirring for no reason. Temps look good. Something is still wrong. I think I've got a short somewhere. I'm grounding myself against the mini-fridge now before I touch it. Seems safe so far. Maybe it's just me.
+
+I had to enable uBlock Origin again. Ad Nauseum can't be used alone.
+
+aMule setup. Sharing snaphots. Also Soulseek.
+
+Setup DNScrypt. Seems to have a lot of dirty cache.
+
+Ricochet setup, again.
+
+Perfect Dark attempted in Wine. It's been a while! =) No Go, btw. I could VM it, but I don't think it is worth the work. I've run across a couple Japanese undergrounds, but I can't read Japanese (which hurts). This was an interesting tool, but meh.
+
+EiskaltDC++ took fucking forever to compile. Went with another version. Need to set that badboy up.
+
+My daughter has been having a rough time with Resilio on massive amounts of files. It eats up 6-8GB of RAM. That really is absurd. We're going to try a more standard sync procedure at this point.
+
+IPFS setup. I'm considering putting the sit on it as well, but eh. For now, I'll be fine just keeping the snapshots.

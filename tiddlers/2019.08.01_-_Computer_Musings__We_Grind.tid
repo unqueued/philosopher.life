@@ -1,0 +1,39 @@
+created: 20190801194826049
+modified: 20190802055922979
+tags: [[Computer Musings]] [[Wiki Audit]] RGM
+title: 2019.08.01 - Computer Musings: We Grind
+
+My son is hating Windows for this work; he's missing his linux environment. Good! Working on setting things up remotely. I will make an amateur system admin of him yet (and he will be wildy more prepared than I ever was). Currently, he's using his FTP client, PuTTy, and my wiki to piece together Conky and i3status bar for me with synced symbolic links on [[monster-16]]. He is stressed, but he's doing a good job. I'm proud of his attitude and hard work; this is going to go much easier for him when it comes time to do his own.
+
+It is so much faster and lower stress if I do it all, but I need him to practice. There's no way around it. I'm glad he's done this before on his Manjaro system to some extent.
+
+---
+
+Rebob problems. Fuck it. We'll revamp [[Firmcoding]] entirely. Also found out that acculists only have a single date! No.
+
+---
+
+The wikis have made a complete migration. [[j3d1h]] has tested the toolchain. We should be in good shape. Also, the network synced Bob trick works. Soon we'll be doing the meta/txt split for dotfiles. =) I am excited.
+
+---
+
+I turned [[m10]] off. I had a moment of silence as I unplugged my peripherals from her last night. Pulled out the SSD, seated another HDD in place (velcro mounting is hawt ;P). [[1uxb0x]] setup poweriso, grabbed the Win8.1 iso, and started making the bootable. I installed the SSD in [[monster-17]], and I'm onto setting up Arch on it. Hopefully, I can get my son over the hump here.
+
+Fucking forgot to force UEFI rather than taking both. No way to get grub on it otherwise.
+
+---
+
+Running into keying problems. 
+
+```
+error: cabextract: signature from "Alad Wenter <alad@archlinux.org>" is unknown trust
+:: File /var/cache/pacman/pkg/cabextract-1.9.1-1-x86_64.pkg.tar.xz is corrupted (invalid or corrupted package (PGP signature)).
+```
+
+```bash
+# sledgehammer
+sudo mv /etc/pacman.d/gnupg /etc/pacman.d/gnupg.bak
+sudo pacman-key --init
+sudo pacman-key --populate archlinux
+sudo pacman-key --refresh-keys
+```

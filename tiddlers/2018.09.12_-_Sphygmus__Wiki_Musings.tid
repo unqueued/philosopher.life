@@ -1,0 +1,64 @@
+created: 20180912170611821
+creator: h0p3
+modified: 20181104202339552
+modifier: h0p3
+tags: Sphygmus From
+title: 2018.09.12 - Sphygmus: Wiki Musings
+
+Hey h0p3,
+
+Just a quick<<ref "ha!">> note because my wiki is rapidly shifting around and you said you're interested in my observations!
+
+I ditched the directoryTemplate macro idea - it was interesting, but added 2 or 3 extra clicks whenever I wanted to edit a section. Not worth those clicks for me right now, but I'm keeping the code around in case I need to come back to it.
+
+Your filter lists question on the TW Google Groups has been fruitful for my experimentation - instead of hardlinking in my `Focus` areas (the only section I'm really using at the current moment), I'm building list-links based on title searches. Although, as I'm drafting this letter, I think I'm going to switch to tag-based link-lists in my `Find The Others` directory, because the "new tiddler here" button has really proven to be convenient for me.
+
+I have one (1!) ''serious'' concern about using list-links and similar to auto-build the content of our directories, regardless of whether the filter is built on title searches or tags. __Tiddlers linked from the list-links macro are counted as orphans.__ Not sure if you use the `Orphans` tab under `More`, but there's...around 24 orphans in your //entire// wiki. In my wiki? Sooo many more. I really want to be able to use that tab as a tool to see what I have missed, what I haven't made a place for - but that's basically impossible when using list-link macros. I have no idea if there's a reason for TiddlyWiki working this way - I assume so? - but haven't looked into it.
+
+---
+
+I'm super excited about the potential for my wiki to provide context for external links in ways that bookmarks really fail at. My `Useful Utilities` tiddler has quickly become a frequent reference of mine.
+
+I'm starting to get addicted - I upgraded my serverbox's Debian & package installs yesterday, and that broke my wiki services though I didn't find out until this morning. It was surprisingly frustrating to realize I didn't have access to my writing-things-down-place when I really needed it!!
+
+The ''biggest'' issue I had to solve before TiddlyWiki could work for me was accessibility, and it was 100% worth the time to struggle through and figure out how to host the node.js version on my own DigitalOcean droplet. Now I log in and edit from my phone, my Chromebook, my desktop, school computers, work computers, a borrowed laptop - and it works beautifully across each and every one of them.
+
+The vanilla theme is horribly outdated when it comes to responsive web design and mobile usage<<ref "css">>, so I more-or-less completely wrote my own theme using flexbox (<3). The vast majority of that work makes my wiki feel good to me across the gamut of screen sizes I'm encountering because of the wide range of displays I use it on. The bones of the CSS have been solid for at least two weeks now, but I'm still tweaking the little things. (Font sizes, screen size breakpoints, font styles, etc.)
+
+---
+
+You probably haven't encountered this, but for some reason my wiki //hates// tiddler titles with question marks. I don't know why and it's bugging the everloving fuck out of me. I make a tiddler with a question mark in the title, save it, do some stuff, and now there's two tiddlers in my `New` tab - one without the question mark and one with. Upon reloading the wiki webpage, the tiddler with the question mark in the title disappears from existence entirely. somehow ''one single tiddler'' remains in my wiki with a question mark in the title - why does that one stay??? Augh! Probably a question for the Google Group Gurus.
+
+Cheers!!
+sphygmus
+
+---
+
+<<footnotes "ha!" "Well, I intended for it to be short when I started writing, but then it got out of hand...">>
+
+<<footnotes "css" "I am very opinionated about this. Specific pixel widths? Absolute positioning? Augh! (I make great use of percentages and em values in my CSS theme, though I am far from perfect as a web developer.)">>
+
+---
+
+Take all the time you need to digest! Shit's complex, yo.
+
+The whole "un-hardlinked tiddlers showing up in the Orphans tab" issue was bugging the heck out of me today. I installed the [[tiddler link auto-complete plugin|http://snowgoon88.github.io/TW5-extendedit/]]<<ref "LL">> and then went through and hard-linked everything. Autocomplete really made that process faster/better, since I was mostly starting from scratch. Good thing going forward? Who knows. I need to stop fiddling with the structure and get back to putting in content.
+
+(You've got me started scratching my head over tags - there were some things I instantly gravitated towards using them for in my wiki<<ref "eg">>, but now I'm like, "hrm.")
+
+Found a couple links - I haven't yet sat down and read them, only skimmed, but I thought they might be of interest.
+
+[[Better to Organize...by Folders Or by Tags?|https://rdcu.be/6ww0]] : Obviously your hardlink directory structures represent the folders in this case.
+
+[[The Effect of Folder Structure on Personal File Navigation|http://muse.tau.ac.il/publications/101.pdf]] (PDF warning) : Less specifically about tags vs. folders, but a broader look at digital file retrieval.
+
+[[Better file organization around tags, not hierarchies|https://www.nayuki.io/page/designing-better-file-organization-around-tags-not-hierarchies]] : This person seems to be strongly opinionated towards tags; perhaps this article will give a better insight into how someone who prefers them thinks about them?
+
+Make this a new tiddler or put it under Wiki Musings, as you like!
+
+---
+
+<<footnotes "LL" "you mention it in [[2018.09.07 - Wiki Audit: Filterlists|https://philosopher.life/#2018.09.07%20--%20Wiki%20Audit%3A%20Filterlists]]">>
+
+<<footnotes "eg" "collecting poems: I put the author into a field, and then use a table of contents (?) macro that I edited to also show the author, so the tag page itself is a list of the poem titles with the authors. That's instead of the default TOC which is just bullet-ed links.">>
+

@@ -1,0 +1,16 @@
+created: 20190628193124353
+modified: 20190705224745305
+tags: Timelines
+title: Yearly
+
+; Dynamic:
+
+
+
+; Static:
+
+<$set name="day" value=<<now .0MM.0DD>>>
+<$set name="year" value=<<now YYYY>>>
+<<list-links "[search:title<day>!prefix<year>]">>
+</$set>
+</$set>

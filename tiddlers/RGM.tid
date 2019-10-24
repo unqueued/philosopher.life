@@ -1,0 +1,95 @@
+aliases: [[Rube-Goldberg Machine]] [[Wiki: Rube-Goldberg Machine]]
+created: 20181205010921180
+creator: h0p3
+modified: 20190205164740559
+modifier: h0p3
+tags: Wiki [[Wiki Audit]] Computing Dreams
+title: RGM
+
+My terrible Rube-Goldberg Machine. Obviously, this is not ideal. [[Here|RGM Notes]]'s more gibberish about it. The front end of the infrastructure is already close to this picture. So far, the backend for development has been a real-time sync of index.html; the below would be a serious change to that backend while still affording me the chance to switch back to my battle-tested single-file approach.
+
+
+```
+                          +--------------+    +--------------+
+                          |  Secondary   |    | Realtime     |
+           +--------------+  URLs & keys <----+ Primary VPS  <------+
+           |              +--------------+    | P2P          |      |
+           |                                  | Distributor  |      |
+           |                                  |              |      |
+           |                                  +--------------+      |
+           |                                                        |
+           |                                                        |
+           |              +--------------+    +--------------+      |
+           |              |github pages  |    |  Realtime    |      |
+           |    +---------+serving for   <----+  & nightly   <----+ |
+           |    |         |primary URLs  |    |  git repo    |    | |
+           |    |         |              |    |  commits &   |    | |
++----------v----v-+       |              |    |  pushes      |  +-+-+---------------+
+| Serving Output  |       +--------------+    +--------------+  | Signed index.html |
+| to The Others   |                                             | and snapshots     |
++----------^----^-+                           +--------------+  +-+-+---^--^--------+
+           |    |         +--------------+    |  Nightly or  |    | |   |  |
+           |    |         |  Tertiary    |    |  snapshot    |    | |   |  |
+           |    +---------+  URLs & keys <----+  pushes to   <----+ |   |  |
+           |              +--------------+    |  centralized |      |   |  |
+           |                                  |  filehosting |      |   |  |
+           |                                  |  and temp    |      |   |  |
+           |                                  |  P2P on m10  |      |   |  |
+           |                                  |  (X hours    |      |   |  |
+           |                                  |  per night)  |      |   |  |
+           |                                  +--------------+      |   |  |
+           |                                                        |   |  |
+           |              +--------------+    +--------------+      |   |  |
+           +--------------+   ????????   <----+   ????????   <------+   |  |
+                          +--------------+    +--------------+          |  |
+                                                                        |  |
+        +-------------------+                                           |  |
+        | On m10, copy the  +-------------------------------------------+  |
+        | index.html, sign  |                                              |
+  +-----> and embed the     |    +--------------------+                    |
+  |     | Ed25519 signature +----> Nightly compressed +--------------------+
+  |     | in the copy       |    | snapshot           |
+  |     +-------------------+    +--------------------+
+  |
+  |
+  |                                         +----------------------------------------+
+  |            +-------------+              |                                        |
+  |            | Automated   |  +-----------v----------+  +--------------------+     |
+  |            | compilation |  | Manual or automated, |  | Secondary, private |     |
+  |            | process on  |  | realtime, sanitized, |  | Bob instances      |     |
+  |   +--------+ ??? of      <--+ processes which      <--+ realtime synced on |     |
+  |   |        | .tids to    |  | modify .tids         +--> my other devices   |     |
+  |   |        | index.html  |  +-^--------------------+  +---^--------+^------+     |
+  |   |        | on m10      |    ||                          |        ||            |
+  |   |        +-------------+    ||               +----------+---+    ||            |
+  |   |                           ||     +---------+  VPN or LAN  |    ||            |
+  |   |                           ||     |         +----------^---+    ||            |
++-+---v------+                +----v-----v--+                 |        ||            |
+| The        |                | Primary     |      +----------+---<----+|            |
+| index.html |                | private Bob <------+ My browsers  +-----+            |
+| file on    |                | instance    +------>----------^---+                  |
+| m10        |                | on m10      |                 |                      |
++-----+------+                +---^------^--+                ++--------------+       |
+      |                           |      |                   |  h0p3         +-------+
+      |                           |    +-+----------------+-->  (That's me)  |
+      |                           |    | Manually modded  |  |               +-------+
+      |                           |    |  merge on m10    <--+--^-------^----+       |
+      |       +---------------+   |    +-^----------------+     |       |            |
+      |       | Manually only |   |      |                      |       |            |
+      +-------> decompile     +---+    +-+----------------+ +---+--+ +--+---------+  |
+              | index.html on |        |  Sanitization    | | DMs  | |Hyperreading|  |
+              | m10 to .tids  |        |  process on VPS  | |      | |their sites |  |
+              | on m10        |        +-^----------------+ |      | |& online IDs|  |
+              +-------^-------+          |                  +---^--+ +--^---------+  |
+                      |                +-+----------------+     |       |            |
+                      |                |  Public site or  |     |       |            |
+                      |                |  Bob instance on |   +-+-------+-------+    |
+                      |                |  VPS for input   |   | Accepting Input |    |
+                      |                |  or commentary,  <---+ from The Others |    |
+                      |                |  with privileges |   +-----------------+    |
+                      |                |  for trusted     |                          |
+                      |                |  users           |                          |
+                      |                +------------------+                          |
+                      |                                                              |
+                      +--------------------------------------------------------------+
+```

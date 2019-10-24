@@ -1,0 +1,18 @@
+created: 20181124010154330
+creator: h0p3
+modified: 20181124030021260
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.11.23 - Computer Musings: TiddlyBackup Clusterfuck
+
+There are several mechanisms for saving TW. I use TiddlyBackup on [[monster-10]]. I'm not in love with it, and perhaps it is time to replace it. I have seen that thing gobble up 30GB of RAM before, rofl. Closing out Firefox isn't a big deal to me. I like that I have an actively developed off-the-shelf tool, but it bit me in the ass over the past few days.
+
+I did not understand that TiddlyBackup wasn't working correctly on [[k0sh3k]]'s machine (monster-12). It saved, but not everytime. I have no idea why; she solved it herself with a different extension. I set up my own account and had TiddlyBackup saving, but I didn't check to make sure backups were going through (if I saw that it wasn't, I would have known not to continue). Horrifingly, it started deleting random tiddlers //stealth// (which I only noticed because I was looking at filesizes of other archives)! It eventually deleted the entire html file (I've seen this before when beta-testing for PMario) with no backups local. Luckily, I have several other backup mechanisms to sort through the clusterfuck (archive on resilio sync is always awesome). With a few diffs, I found a clean copy, and with more effort was able to recover some of my work. But, it was late last night, and I said, "fuck it." I reverted because I was nowhere near m10, I use super for i3's mod which doesn't play nice over nomachine, and I didn't have a real mouse. Doing this purely over commandline wasn't worth it when 16 hours later I could just do it on the real machine.
+
+What really //saved// (ROFL! I crack myself up) my butt was $:/plugins/tiddlywiki/savetrail - I just pushed those instead. Lol. Everything ever done on monster-12 made it in. Noice. Also, honorable mention to Dolphin's filter. 
+
+Semi-annoyingly, I couldn't find a simple and working way to import 150 jsons at once (the drag'n'drop method did not work either, despite multiple approaches), but I did find a nice way to manually add them at 1 per second with a kind of keyboard salute. I think there are several approaches that I could use for larger events here.
+
+---
+
+[[j3d1h]] has almost completed the git nightly and real-time work. We'll keep the complete locally and eventually torrentify it.

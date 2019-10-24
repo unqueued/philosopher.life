@@ -1,0 +1,24 @@
+created: 20181031185201581
+creator: h0p3
+modified: 20181101051448486
+modifier: h0p3
+tags: [[Wiki Audit]]
+title: 2018.10.31 - Wiki Audit: Atomizing
+
+I've used the "Create a new tiddler tagged with this one" in [[Interviewing]] for [[Questions to Ask Interviewers]]. I actually want to be able to reuse the content. Atomizing content to the right size is hard to do well. I hope that over time I will become naturally adept at reasoning about this. The goal is to create tiddlers unique to the occasion.
+
+---
+
+Had to use diffuse on a twbackup file to figure out what the fuck I deleted for [[Wiki Audit: Purged]]. Oops! Glad to have a way to back that train up.
+
+---
+
+Gonna start molecularizing content in [[Deep Reading]]. It's simply not worth breaking it up. Have a lot of work to undo, lol.
+
+---
+
+Atomizing [[L&K]] and [[ALM&Jop]]. Clone was actually useful for the first time!
+
+---
+
+$:/plugins/tobibeer/preview/styles modified from 600 to 900px. I want the ASCII art to look decent and actually make more use of my screen.

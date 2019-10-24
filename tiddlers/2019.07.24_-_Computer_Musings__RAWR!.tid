@@ -1,0 +1,24 @@
+created: 20190724204641249
+modified: 20190725114324792
+tags: [[Computer Musings]]
+title: 2019.07.24 - Computer Musings: RAWR!
+
+Laptops came in. ~~Clunky~~ Wonderful thinkpads. I'm excited to have those up and running, but everyone is waiting on me to get [[m16]] setup before we can make our larger moves.
+
+---
+
+[[m16]] lives! The offspring and I spent the afternoon building it. It's still louder than I want it to be, but it isn't awful. It's hard to compete with an almost fanless mini-ITX. There's way more noise pollution in the house and from the neighbors though. I think this will be acceptable.
+
+After thinking about what [[BDS97]] said, I probably should have just dropped down to 3600. I assumed the binned gamble later on for OCing when I'm at the edge would be worthwhile, but probably not. I'm leaving the OC to auto, and I don't intend to manually do jackshit unless I absolutely have to.
+
+The case is well-designed for looking pretty, but I think they should have spent the extra $10 for a drive rack. There is no reason this couldn't just have 10 HDDs in it if one wanted. It's the difference between cheap and Lian Li (my daughter has Monolith though). The glass case is sexy; it's not aluminum black, but since I'm forced to keep it up on the shelf next to my desk I'm glad to see inside. I keep my other mobos posted on the wall right above me, so I like seeing inside [[m16]] (without the LEDs, as always). 
+
+Most everything went in without a hitch, though we couldn't find the backplate, lol. BIOS is what I expect from a mobo this expensive. 
+
+Memtesting. I've never tested this much RAM before; it takes forever to do a full pass.
+
+Fuck, bootable thumbdrive is throwing up errors. Systemd is taking care of a problem with AMD and Mobo vendors haven't fixed. I spent extra not to have to deal with this. At least I can post to fix this, not all b450 can do this. I'm grateful that instant flash out of BIOS exists too. This is not terrible.
+
+Shift+PgUP to scroll. I never have to do it. Cool.
+
+Also, BIOS upgrade was no go. I'm onto an older version of Arch now. I'm worried that full system upgrade will destroy me. We will find out.

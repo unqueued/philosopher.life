@@ -1,0 +1,13 @@
+created: 20181011234259716
+creator: h0p3
+fc-filter: [tag[guitar]]
+modified: 20190705040333915
+modifier: h0p3
+tags: filter-list
+title: Guitar
+
+//Trying out the new journal tiddler button here. I'm doing it the idiomatic TW way, I believe. Going to see if [[j3d1h]] and I can automate the renaming and hardlinks.//
+
+You know, I would love to have an ASCII/Unicode Tab section of this wiki. I think I'd need a tool chain to move from OCR -> standard editor -> ASCII conversion. Or: https://github.com/sn0v/OCR-tabber, Lol!
+
+{{Guitar: Focus}}

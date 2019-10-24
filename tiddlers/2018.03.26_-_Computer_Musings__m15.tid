@@ -1,0 +1,27 @@
+created: 20180326145134154
+modified: 20181029175224783
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.03.26 - Computer Musings: m15
+
+m15 can't afford to run /home off an SD card. It's absurdly slow. It really can only be for pure storage. I'm going to have reinstall and do it differently now. KDE's partition/disk tool forces root permissions, so I had to fix that as well. 
+
+Installed KDE. Meh. I like it on my desktop, but I think I'll stick to XFCE on the chromebook.
+
+I've decided to forego swap for now.
+
+Since this is the the umpteenth time I've done this, I might as well have it written down:
+
+```bash
+$ sudo pacman -S xorg-xbacklight
+$ xbacklight -inc 4
+$ xbacklight -dec 3
+```
+
+Gotta be able to hit 1 easily.
+
+```bash
+amixer set Master 3%-
+amixer set Master 3%+
+amixer set Master toggle
+```

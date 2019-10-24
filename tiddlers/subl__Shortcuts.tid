@@ -1,0 +1,193 @@
+created: 20190731035546188
+modified: 20190731035556855
+tags: subl
+title: subl: Shortcuts
+
+; Insert line after
+: ctrl+↵
+
+; Insert line before
+: shift+ctrl+↵
+
+; Move line/selection up
+: shift+ctrl+UP
+
+; Move line/selection down
+: shift+ctrl+DOWN 
+
+; Select line - Repeat to select next lines
+: ctrl+L
+
+; Select word - repeat select other occurrences
+: ctrl+D
+
+; Go to matching parentheses
+: ctrl+M
+
+; Select all contents of the current parentheses
+: shift+ctrl+M
+
+; Delete from cursor to end of line
+: ctrl+Kctrl+K
+
+; Delete from cursor to start of line
+: ctrl+Kctrl+BACKSPACE
+
+; Indent current line(s)
+: ctrl+]
+
+; Un-indent current line(s)
+: ctrl+[
+
+; Duplicate line(s)
+: shift+ctrl+D
+
+; Join line below to the end of the current line
+: ctrl+J
+
+; Comment/un-comment current line
+: ctrl+/
+
+; Block comment current selection
+: shift+ctrl+/
+
+; Redo or repeat last keyboard shortcut command
+: ctrl+Y
+
+; Paste and indent correctly
+: shift+ctrl+V
+
+; Select next auto-complete suggestion
+: ctrl+[SPACE]
+
+; Soft undo
+: ctrl+U
+
+; Quick-open files by name
+: ctrl+P
+
+; Goto word in current file
+: ctrl+;
+
+; Goto symbol
+: ctrl+R
+
+; Goto line in current file
+: ctrl+G
+
+; Close tag
+: alt+.
+
+; Scroll to selection
+: ctrl+Kctrl+C
+
+; Select tag
+: shift+ctrl+A
+
+; Select indentation
+: shift+ctrl+J
+
+; Select scope
+: shift+ctrl+[SPACE]
+
+; Toggle side bar
+: ctrl+Kctrl+B
+
+; Command prompt
+: shift+ctrl+P
+
+; Find previous
+: shift+F3
+
+; Find next
+: F3
+
+; Find
+: ctrl+F
+
+; Replace
+: ctrl+H
+
+; Find in files
+: shift+ctrl+F
+
+; Split view into two columns
+: shift+alt+2
+
+; Revert view to single column
+: shift+alt+1
+
+; Set view to grid (4 groups)
+: shift+alt+5
+
+; Jump to group 2
+: ctrl+2
+
+; Move file to group 2
+: shift+ctrl+2
+
+; Transform to lowercase
+: ctrl+Kctrl+L
+
+; Transform to uppercase
+: ctrl+Kctrl+U
+
+; Delete line
+: shift+ctrl+K
+
+; Delete word backwords
+: ctrl+BACKSPACE
+
+; Delete word forwards
+: ctrl+DEL
+
+; Add new line below with cursor
+: alt+ctrl+DOWN
+
+; Skip selection
+: ctrl+Kctrl+D
+
+; Split selection into lines
+: shift+ctrl+L
+
+; Add cursor at all occurrences of a word
+: alt+F3
+
+; Add new line above with cursor
+: alt+ctrl+UP
+
+; Return to single selection
+: ESC
+
+; Clear mark
+: ctrl+Kctrl+G
+
+; Switch location with mark
+: ctrl+Kctrl+X
+
+; Select to mark
+: ctrl+Kctrl+A
+
+; Set mark
+: ctrl+Kctrl+[SPACE]
+
+; Unfold all
+: ctrl+Kctrl+J
+
+; Unfold code
+: shift+ctrl+]
+
+; Fold code
+: shift+ctrl+[
+
+; Select all bookmarks
+: alt+F2
+
+; Previous bookmark
+: shift+F2
+
+; Next bookmark
+: F2
+
+; Toggle bookmark 
+: ctrl+F2

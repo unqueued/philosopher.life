@@ -1,0 +1,225 @@
+created: 20180705004543318
+creator: h0p3
+modified: 20181031035931171
+modifier: h0p3
+tags: Tulane
+title: 2015.01.06 - Symbolic Logic: Propositional Logic
+
+5
+
+
+Introduction
+
+FOL – First-order logic or First-order language is what we will be learning in this class, or at least, the foundation of it. FOL might be thought of as one very large language which we can divide up into a collection many sub-languages which all use the same logical connectives and syntactic grammar or structure. A sub-language of FOL can be very broad and expressive, somewhat like English (we will be translating English sentences into FOL), or very specific and lacking expressiveness, as we will see in restricted “blocks” language of Tarski’s World. In this lesson, we will use both of these sub-languages, English-translation and Tarski’s World to grasp the fundamental concepts of FOL.
+
+We will be specifying some important terminology and concepts in FOL which will pave the way for the rest of the semester. The concepts you learn in this section will be on your midterm and final exams, so pay attention, and take good notes.
+
+
+
+Atomic Sentences – Naively, we will think of atomic sentences as the basic building blocks of FOL. These are the smallest units with which we can do “logical stuff.” They can correspond to simple English sentences with names or individual constants and a predicate.
+
+Max ran, Max saw Claire, Claire gave Scruffy to Max.
+
+Tarski’s atomic sentences look like this:
+
+Cube(b), Larger(c, f ), and Between(b, c, d)
+
+These sentences say, respectively, that “b is a cube”, that “c is larger than f”, and that “b is between c and d”.
+
+Importantly, atomic sentences always contain two kinds of ingredients: individual constants (names) and predicate symbols (property and relation words). In the English to FOL translations, the nouns/names just are the individual constants, and the verbs serve as the predicate. In Tarski’s “blocks” language, the letters inside the parentheses are the individual constants, and the capitalized stuff outside the parentheses are the predicates.
+
+
+
+§ 1.1
+
+Domain/World/Universe – I’ll use these words interchangeably. Often we will talk about the real, existing world we find ourselves in; sometimes we will narrow it down to a restricted domain, like a classroom; we might even talk about hypothetical worlds, like those we will create and think about in the Tarski’s World program. Naively, a domain is just some non-empty world we have in mind – it is some universe, whether hypothetical or real, that has at least one object in it.
+
+Individual Constants – a.k.a. “names” are symbols that are used to refer to some fixed individual object in a universe, world, or domain. Names are always written in lower-case.
+
+The symbol “max” can point out a particular person.
+
+Likewise, “1”, a numeral, is an individual constant symbol that points out a particular number in the world. We could have represented the number one with a totally different symbol, i.e. a totally different individual constant using a dot or an “I”, as in roman numerals. Note the difference between syntax and semantics here. Syntax represents semantics. The numeral is syntactic – it is the written symbol. The number is semantic - it is a real concept or an object, and it is that which is symbolized by the numeral-symbol.
+
+Individual constants are part of the syntax of FOL. They point or pick out or refer to some fixed semantic object.
+
+English names aren’t precisely like FOL individual constants. In FOL:
+
+    Every individual constant must name an (actually existing) object in the domain.
+
+        “Santa Clause” in English doesn’t refer to an existing object. If our domain is the real world, then “Santa Clause” is not an individual constant because it can’t pick out anything in the domain. If our domain was some hypothetical world where there was a Santa-Clause-object in that world, then it would be perfectly fine to have an individual constant, “Santa Clause” to pick out that object.
+
+    No individual constant can name more than one object.
+
+        “Max” in English can refer to multiple objects; in FOL, a symbol points to exactly one object.
+
+    An object can have more than one name or no name at all.
+
+        Intuitively, you can realize that there are objects in the world which aren’t yet named. We don’t yet have syntax to directly pick out these semantic objects, and that’s okay. Further, you might also intuitively see that certain objects have multiple names.
+
+            I call my daughter names. At least for me, all of these are individual constants which pick out the same object in the real world.
+
+Unlike our English-to-FOL translation, in which we will use normal names as our individual constants, the blocks in Tarski’s World is very restricted. The individual constant symbols in the blocks language:
+
+a-f n1, n2,…, nn
+
+We will use these as the names of the various blocks that inhabit the Tarski worlds we will be examining. Generally, we will use a-f, particularly in the beginning part of this course. Again, note how these are all lower-case, and note how the previous requirements I explained also apply to the blocks language (a sub-language of FOL).
+
+    Every world must contain at least one block.
+
+    Any name that we use must name some block.
+
+    In a given Tarski world, no name refers to more than one block.
+
+    A block may have more than one name.
+
+    Some blocks may not have names.
+
+You’ll find the Tarski’s World program enforces these rules. This is not by accident.
+
+
+
+§ 1.2
+
+Predicate Symbols – a.k.a. “Relation symbols,” are symbols used to express either some determinate property of objects or some determinate relationship between objects. By determinate, we mean a property for which, given any object, there is a definite fact of the matter whether or not the object has the property. A predicate is non-vague, non-gradated, non-ambiguous, and lacks contextual sensitivity – where the matter at hand does not vary depending on your perspective of the world.
+
+English: Max likes Claire. FOL: Likes(max, claire)
+
+In English, the subject is “Max” and the predicate is “likes Claire”.
+
+In FOL, “max” and “claire” are logical subjects or individual constants, and the predicate “Likes” expresses a relation between the two names.
+
+Note that predicates are always written with first-letter capitalization.
+
+Every predicate symbol comes with a single, fixed arity, a number that tells you how many arguments it needs to form an atomic sentence. Individual constants are used (alongside something else we will learn about, called function symbols) as the arguments of predicates.
+
+Predicate(argument1, argument2)
+
+This is a binary predicate. It has an arity of 2. Unary predicates have one argument, binary have two, ternary have three, etc.
+
+The block language has many predicates with differing arities.
+
+Cube(a) is an atomic sentence which we interpret as “a is a cube”. Cube is a unary predicate.
+
+Smaller(a, b) is “a is smaller than b”, and it has two arguments which are individual constants in this case. The predicate, Smaller, has an arity of 2. Notice how Smaller(a, b) is different from Smaller(b, a).
+
+Between(a, b, c) is an atomic sentence which we interpret as “a is between b and c.” Between is a ternary predicate.
+
+Notice how the predicates express something about or demonstrate a relationship about the individual constants used as arguments in these atomic sentences.
+
+
+
+Translation - When translating between English and FOL, try to stay as close as possible to the surface grammar that you are translating.
+
+Consider the English sentence “c is between a and d”
+
+Two FOL sentences: Between(c, a, d) Between(c, d, a)
+
+The English sentence “c is between a and d” is translated into FOL as Between(c, a, d). Choosing the order of terms matters. So, while Between(c, d, a) is also true, because if c is between a and d, then c is also between d and a, the fact is that Between(c, a, d) matches the original grammar better. These two FOL sentences might have the same semantics, but they have different syntax – a different ordering of the arguments, and that matters in this class.
+
+
+
+§ 1.3
+
+Atomic Sentences (again) - A sentence formed by a predicate followed by the right number of names is called an atomic sentence. We write atomic sentences in the blocks language by combining a predicate (which always begins with a capital letter), followed by (in parentheses) one or more individual constants (which always begin with a lower case letter).
+
+There are kinds of notation we must consider, infix and prefix.
+
+Infix: a = b Prefix: =ab Cube(a) Larger(a, b)
+
+We will use the infix notation for the identity symbol, but if we wanted, we could use the prefix (but you won’t in this class). Excepting the identity symbol, we will write sentences in FOL using the prefix notation.
+
+Note that atomic sentences might also be called atomic “claims” or “propositions.” A claim is something that is either true or false. Each claim has a “truth value,” whether it be “false” or “true.” It must be one, and it can only be one at any given time in any one given respect in any given domain.
+
+Taller(claire, max) can be interpreted as “claire is taller than max”. Let’s say it is true, then it has a truth value of “true.” Consequently, Taller(max, claire), i.e. “max is taller than claire,” will have a “false” truth value.
+
+Introduce/Explore Tarski’s World
+
+Homework: 1.1-1.6
+
+
+
+§ 1.4
+
+General First-Order Languages
+
+All sub-languages of FOL share certain logical building blocks in common, logical connectives and syntactic rules which enable us to create atomic sentences and construct complex sentences. We’ve looked at some English to FOL translations, which may be a somewhat broad and generic sub-language of FOL, and a very narrow sub-language of FOL, the blocks language.
+
+Technically, we could modify or design a sub-language of FOL. In our English to FOL translations, we might consider two ways of translating the English “Claire gave Scruffy to Max” into different FOL sentences.
+
+Gave(arg1, arg2, arg3) Gave(claire, scruffy, max)
+
+GaveScruffy(arg1, arg2) GaveScruffy(claire, max)
+
+The first is more complicated (it has a predicate of arity 3) but gives you more flexibility—you can use it to say Claire gave Carl to Max simply by changing the second argument to the name Carl. The second predicate is simpler (arity 2) but less flexible. To write the statement about Carl using this language we’d need a new predicate:
+
+GaveCarl(claire, max) Gave(claire, carl, max)
+
+Indeed, we could even use a unary predicate:
+
+ClaireGaveScruffyTo(max)
+
+This inflexibility is not pleasing to work with. Hence, when creating predicates, try to make it easy to say everything you want to say with a small, flexible, and expressive vocabulary.
+
+Homework: 1.9
+
+
+
+§ 1.5
+
+Function Symbols – symbols that allow us to form name-like terms from names and other name-like terms. Functions are expressions which bring about more complex constants or referring expressions.
+
+father(me) can be translated as “My father.”
+
+It picks him out. Notice you don’t see xenoxillixong (perhaps the explicit individual constant we might use to pick him out).
+
+mother(father(me)) is the same as “My father’s mother” or “Mother of my Father”
+
+This is example of nested functions. Note that when nesting functions, the inner-most argument will always be an individual constant, else we wouldn’t be able to pick anything out (which is the purpose of a function in FOL).
+
++(2,3) is the same as “5” – it picks out or refers to 5.
+
+Again, we will use infix notation for mathematics though, so we can write this as 2 + 3 instead of +(2,3) or sum(2, 3).
+
+Note that in FOL, complex terms will pick out one actual object, no more. These would not work:
+
+mother(adam) mother(eve)
+
+They don’t pick anything out in our domain.
+
+
+
+Term - it is an expression that serves to pick out an individual object. There are two kinds of terms: simple and complex. Simple terms just are individual constants. Complex terms are the results of function symbols applied to a term. Obviously, complexity ranges.
+
+We need to be very careful to not confuse functions and predicates. They are similar in that both take terms as arguments, but they are very different. A function doesn’t result in anything with a truth value – it only picks something out. A predicate will result in a sentence, which has truth value.
+
+Father(gwb) father(gwb)
+
+Note the difference in capitalization. Both are well-formed expressions in our formal language, but they are very different. The latter is a function, also a complex term. Its job is to refer. It picks out the father of George Walker Bush. The former uses a predicate. It says that George Walker Bush is a father. Unlike the function symbol + individual constant, which only picks something out in our domain, the predicate + individual constant forms an atomic sentence, which is either true or false.
+
+While function symbols can be nested, predicate symbols cannot.
+
+Father(Father(gwb) father(father(gwb))
+
+The translation of the nested predicates would be something like: “George Walker Bush is a father is a father. That is non-sense. Nested predicates aren’t well-formed formulas of FOL. Note, however, that the nested function makes sense.
+
+We can use functions and predicates together to express complex and rich sentences:
+
+Taller(father(max), max) can be translated as: “Max's father is taller than Max”
+
+
+
+Example 1.12:
+
+    Claire’s father is taller than Max’s father.
+
+    John is Max’s father. (Apparently, better than “John is identical to Max’s father”)
+
+    Claire is taller than her maternal grandmother.
+
+    Max’s maternal grandmother is taller than his paternal grandmother.
+
+    Melanie and Claire have the same mother.
+
+
+
+HOMEWORK: 1.14

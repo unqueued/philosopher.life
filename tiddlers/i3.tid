@@ -1,0 +1,63 @@
+created: 20180724182132232
+creator: h0p3
+modified: 20190704042503029
+modifier: h0p3
+tags: Computing
+title: i3
+
+!! About:
+
+You want to actually tile with the tile manager. Setup as much as you can in the automation, learn to tile like it's second nature, and start building automated workflows for manual labor. This is an incredibly practical exercise. It is a DIY desktop from the ground up. You put everything there programmatically the way you want it. 
+
+It's the NixOS of package manager languages/APIs, it's the zsh of shells, it's the xonsh of scripting, it's the rust of zero-cost abstraction code, it's the nvim/emacs of metaprogrammable text environments, it's a highly configurable low-level ergonomics tool-framework which is pleasant to use.
+
+Script the living fuck out of it. Skiddie and fake until you make it. Earn the right to have opinions and habits. 
+
+I need to learn how to paint with the tile manager. Paint with tiles. Just as I would be able to reconstruct any state on the rubik's cube, I should be able to reconstruct any kind of visual structures, trees, or arrangement of objects on the screen with the tiling manager's hotkeys without having to think too hard about it. I want it to be second-nature painting to me.
+
+
+---
+!! Principles:
+
+* Talk about i3. Do stuff. GL.
+
+
+---
+!! Focus:
+
+* Log
+** [[2018.07.28 - i3: Macro EVERYTHING!]]
+
+* Files
+** /etc/[[i3status.conf]]
+** /home/h0p3/.config/compton.conf
+** /home/h0p3/[[.i3/config]]
+** /home/h0p3/scripts/[[i3-layout-autostart.sh]]
+** [[/usr/share/conky/conky_maia]]
+** [[/usr/share/conky/conky_shortcuts_live_maia]]
+
+* Tools
+** xorg-xev (know your keys)
+
+* Links
+** https://www.reddit.com/r/i3wm/top/
+** https://github.com/acrisci/i3ipc-python
+** https://github.com/ziberna/i3-py
+** https://github.com/xmendez/i3-scripts
+** https://github.com/spolu/dwm.vim
+** https://www.reddit.com/r/fossworldproblems/top/
+** https://i3wm.org/docs/layout-saving.html
+** http://jedihacker.philosopher.life/#Manjaro%20i3%20Heap:%5B%5BManjaro%20i3%20Heap%5D%5D
+** https://github.com/ziberna/i3-py
+
+
+---
+!! Vault:
+
+* (*crickets*)
+
+
+---
+!! Dreams:
+
+* [[Keyboard.life]]

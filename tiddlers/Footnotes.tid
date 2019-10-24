@@ -1,0 +1,25 @@
+aliases: [[Retroactive Footnotes]] [[Retroactive footnotes]] [[retroactive footnotes]]
+created: 20181109022838063
+creator: h0p3
+modified: 20190701203722077
+modifier: h0p3
+tags: [[Wiki Mechanic]]
+title: Footnotes
+
+//One of the elite aspects of my marginalia boils down to my profound reliance upon footnotes.//
+
+The footnote macro, $:/macros/danielo/footNote, was one of the first tweaks I ever made to my TW code. I think I added it within the first couple days of using this wiki; I was supremely annoyed that TW didn't already come with footnotes.
+
+I now have thousands of footnotes in this wiki.<<ref "f">> They are a crucial aspect of the dimensionality of this work. I like to think that footnotes are like extra tiddlers that will only ever be linked to one tiddler (so why make extra tiddlers for it?). They enable me to atomize/molecularize content in a programmatically fitting way. 
+
+Footnotes enable the content to flow as I prefer, without the worst kinds of interruptions. I'm often forced to turn my obsessive parenthetical statements into footnotes, especially when things get messy.
+
+Philosophers are footnote whores. I can't help it. Call it an addiction if you must.
+
+Currently, I have no naming conventions that matter, except one: I aim to use dates in footnotes to demonstrate adding content to a tiddler to which I might otherwise feel uncomfortable adding semantic content (e.g. dated material meant to serve as a log).<<ref "YYYY.MM.DD">> Retroactive footnotes are a different layer to this narrative.
+
+
+---
+<<footnotes "f" "I even have footnotes attached to some of my footnotes (almost always a joke).">>
+
+<<footnotes "YYYY.MM.DD" "This is just an example.">>

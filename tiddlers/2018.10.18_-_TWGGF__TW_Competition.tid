@@ -1,0 +1,14 @@
+created: 20181018191420905
+creator: h0p3
+modified: 20181219181841751
+modifier: h0p3
+tags: TWGGF
+title: 2018.10.18 - TWGGF: TW Competition
+
+Flexible text editors are major competitors. Emacs and vim ecosystems are solid examples. These are the only kinds of tools that ever force me to question whether or not I should move away from Tiddlywiki, especially when going the nodejs route. Tiddlywiki competes with these text editors in attempting to mimic or overlay an operating system; they are that powerful. We still don't know how WASM is going to change the web (https://github.com/rhysd/vim.wasm), but these competitors may become even stronger. TW is not as performant, CLI-oriented and connectable, or flexible in many contexts, and it doesn't have decades of maturity (software older than I am which is still chosen to be used today must be incredibly fit). TW tends to be more unified, portable (in some respects), visually appealing; more importantly, it comes batteries-loaded alongside a radically better learning curve.
+
+I suppose I use Tiddlywiki as primarily just-a-bunch-of-linked-textfiles with reasonable media interaction, sexy markup, sane defaults, low-hanging fruit plugins, and some automated sprankles on top. In a way, the more backend programmatic I want to be, the less I want to use Tiddlywiki. Often, when I feel the need to leverage the enormous commandline ecosystems available, I think it makes sense to just avoid the browser (though terminal emulators work fine enough in the browser) which inconveniently bottlenecks me with a VM that has to be bypassed.
+
+That said, I'm a hardcore fanboi, and it seems crazy to me that most people don't use TW. When I am a Tiddlywiki Apostle to my friends and family, I've often found they think it's too much work and it lacks the name recognition/network effect for them to take the risk of committing themselves to it. Tiddlywiki seems born for those who want to be able to own their tooling, data, and personal clouds. Most people don't care (I'm not claiming that is justified). In a way, the real competition that prevents TW uptake are specialized tools like Evernote which are so convenient; it takes 2-3 clicks to be sitting in a living-breathing driver's seat.
+
+TW competes with the sledgehammer generalists (like emacs and vim) which are borderline operating systems unto themselves, and thus it is also able to compete with many specialists because it can be tailored so effectively.

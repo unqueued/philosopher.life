@@ -1,0 +1,231 @@
+created: 20180705005547676
+creator: h0p3
+modified: 20181031035931171
+modifier: h0p3
+tags: Tulane
+title: 2015.01.06 - Symbolic Logic: Midterm
+
+```
+
+Name: _____________________________ Symbolic Logic Midterm – ..., Spring 2015
+
+
+
+Fill in the blanks. Write neatly, and make it fit. (each worth 2% of total)
+
+    Terms pick out objects in _____________________________________________.
+
+    The terms max and claire are individual ____________________.
+
+    The term father(arg1) is a _____________________ symbol; father(gw) picks out the ______________ of GW.
+
+    Predicate symbols express some ________________ of objects or some _________________ between objects.
+
+    Between(a, b, c) has an arity of _________________________.
+
+    A predicate followed by the right number of terms is called an _______________________________________.
+
+    An argument is valid iff when the premises are __________ the conclusion _____________________________ .
+
+    An argument is sound iff the argument is ___________________ and the premises are ___________________.
+
+    A ___________________ is a step-by-step demonstration that one statement is a consequence of some others.
+
+    The FOL translation of ‘Neither a is a cube, nor b is small’ is ___________________________________________
+
+    The English translation of ¬(P ∧ Q) is _____________________________________________________________
+
+    The FOL translation of ‘Either a is blue or b is red, but not both’ is ______________________________________
+
+    The DeMorgan’s equivalences are ¬(P ∧ Q) ⇔ ______________ and ¬P ∧ ¬Q ⇔ ______________.
+
+    Truth tables express the Boolean connectives, but are blind to the meanings of __________________________.
+
+Complete the truth tables. Circle the column of the main connective. Provide the strongest applicable tautological and logical labels. SumOf(x, y, z) should be read as “x is the sum of y and z.” (each worth 4% of total)
+
+_| ¬(P ∧ ¬P) ∨ ¬(P ∨ ¬P)
+
+
+
+
+
+Tautological Label:
+
+Logical Label:
+
+
+
+
+
+_|| ¬(P ∧ ¬P) | P ∨ ¬P
+
+
+
+
+
+Tautological Label:
+
+Logical Label:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_____________ | Taller(c,d) ∧ Shorter(c,d)
+
+
+
+
+
+
+
+Tautological Label:
+
+Logical Label:
+
+
+
+
+
+_____________ || Taller(c, d) | Shorter(c, d)	
+
+
+
+
+
+
+
+Tautological Label:
+
+Logical Label:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+__ | ¬Between(e, b, a) ∨ ¬Between(b, e, a) Tautological Label:
+
+Logical Label:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_ || SumOf(7, 2, 5) ∨ SumOf(7, 3, 4) | SumOf(7, 2, 5) ∧ SumOf(7, 3, 4)
+
+
+
+
+
+Tautological Label:
+
+Logical Label:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Provide either a formal proof or a written counterexample. P and Q are any FOL sentences. (each worth 12% of total)	
+
+Show: ¬¬((Dodec(c) ∨ Tet(b)) ∧ Cube(a)) Show: Tet(d)
+
+
+
+|1. Cube(a) ∧ ¬¬Tet(b)	|1. Larger(a, b)
+
+|2. c = b
+
+|3. ¬Larger(a, c)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Show: Dodec(a) ∧ (Cube(c) ∨ Tet(b)) Show: c = a ∧ ¬(P ∧ Q)	
+
+
+
+|1. (Dodec(a) ∧ Cube(c)) ∨ Tet(b)	|1. a = b
+
+|2. b = c
+
+|3. ¬P ∨ ¬Q
+```

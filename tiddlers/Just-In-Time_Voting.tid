@@ -1,0 +1,19 @@
+created: 20180608032926032
+creator: h0p3
+modified: 20180611005213196
+modifier: h0p3
+title: Just-In-Time Voting
+
+We need sound limits to pre-polling because our minds can and should change. Thus, our goal should be Just-In-Time (JIT) Voting, a due process executed by citizens.
+
+Pre-polling can be damaging to the democratic process because it's a form of unjustified political prejudice. It is unfair to your fellow citizens to say in advance of the election that you are unwilling to change your mind to any degree; that lacks intellectual integrity. Most people won't change their minds, but we must make ample room for the percentage of people who unknowingly will eventually change their minds; that space is crucial. We must respect the autonomy of our future selves.
+
+Pre-polling enables citizens to ignore the salient information presented between their artificially early vote and the final poll. Convenience in this case promotes ignorance, failing to maximize our Bayesian modeling of the political world, and essentially making decisions with less information than is obviously available to us. 
+
+Everyone needs to play the political game with as much information as they can manage to acquire and process. We have to collectively compute this political machine; nobody should be getting a free pass to choose not to spend their leisure time for the greater good to some non-trivial extent.
+
+Early voting is logistically necessary to some extent, but it needs to be strongly limited. With an effective digital election infrastructure, it would be eminently reasonable for people to vote within 24 hours of the final polling. [[Cryptographic E-Voting]] can build incredibly complex yet timely voting structures, and we should leverage our technological advantage for everything it's worth. In fact, near real time voting is likely quite possible.
+
+Ultimately, we want each person's political identity to be something they wrestle with and evolve each day. Elections must eventually grow to become closer to real time logistical compilation of the ever-evolving oceanscape of political preferences of citizens. We must continually edge closer and closer to low latency, high bandwidth democracy. We must adapt to have fine-grained, timely control of our governments. This is also another opportunity for plebiscitic voting.
+
+The primary curveball to JIT Voting is [[Proxy Voting]]. There is a tension here. At least on its face, however, we can resolve this problem by forcing people to vote for their proxy in the same timeframe as all the other voters.

@@ -1,0 +1,19 @@
+created: 20180428132143105
+modified: 20181029175224786
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.04.28 - Computer Musings: VMWare
+
+VMWare network wasn't working. No idea why not.
+
+`sudo systemctl start vmware-networks && sudo systemctl enable vmware-networks`
+
+Guess I had to do it manually (first time for everything; Manjaro is weird about virtualization). This is also a possible method:
+
+`sudo /usr/bin/modprobe vmnet && sudo vmware-networks --start`
+
+I picked up a W7 Lite iso. I now have a stripped XP and 7 that I legitimately like. They are very tight.
+
+---
+
+Turns out, PoE runs like absolute shit inside VMWare. I tuned it all as best I could. I'm at the limits of what I can do here. Too bad, so sad.

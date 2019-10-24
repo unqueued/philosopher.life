@@ -1,0 +1,38 @@
+created: 20180802180924920
+creator: h0p3
+modified: 20180802184336138
+modifier: h0p3
+title: Master-Verify-Slave.py
+
+```python
+#!/usr/bin/python3
+
+# Yup, it's ugly and unnecessary. Yup, the encoding is gross. It works.
+import nacl.encoding
+import nacl.signing
+import nacl.hash
+import binascii
+
+# The verification public key
+verify_key_hex = "5b0addf64aa52a67ac9c59031e7c15919717df39146c2d995f7f0745a2fc8fe2"
+verify_key = nacl.signing.VerifyKey(verify_key_hex, encoder=nacl.encoding.HexEncoder)
+
+# Signed Hash of "5249578e4cdfaec1484f0083df3e8b6e4af0cab0288c8156c31d6e94efe58308" slave public key
+signed_hash = "fda33c36f6e208ca16bf1a3da720ae0d1f9d9e757536f982f999d12b492b7abf"
+signature = binascii.unhexlify("ac1fd5e30df0e8ebd6e81e054c9158ecea43484d7802f0ec0cf4e150ddf7f0ce88c3aa77cf443cf9b044c36ab4f20c30f57347c0433c3adbd9dc8e5d79222c0a66646133336333366636653230386361313662663161336461373230616530643166396439653735373533366639383266393939643132623439326237616266")
+
+# Check hash of slave public key
+digest = nacl.hash.sha256("5249578e4cdfaec1484f0083df3e8b6e4af0cab0288c8156c31d6e94efe58308".encode(), encoder=nacl.encoding.HexEncoder).decode()
+if signed_hash == digest:
+    print("Signature Integrity Check Passed")
+else:
+    print("Signature Integrity Check Failed")
+
+# Check the validity of the signature
+# Will raise nacl.exceptions.BadSignatureError if the signature check fails
+try:
+    verify_key.verify(signature)
+    print("Signature Verified")
+except:
+    print("Signature Verification Failed")
+```

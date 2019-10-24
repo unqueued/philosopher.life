@@ -1,0 +1,72 @@
+created: 20170426145130390
+modified: 20170426145135056
+revision: 0
+title: AHK: Tribes Ascend
+
+```
+#IfWinActive ahk_class ahk_class LaunchUnrealUWindowsClient
+F1:: Suspend, toggle
+#NoEnv
+#SingleInstance force
+SendMode Input
+ 
+ 
+ 
+#IfWinActive ahk_class ahk_class LaunchUnrealUWindowsClient
+LButton:: ;
+while( GetKeyState("LButton", "P") )
+{
+Send {Click Down} ;
+Sleep, 30 ;
+Send {Click Up} ;
+Sleep, 30 ;
+}
+return
+ 
+ 
+ 
+#IfWinActive ahk_class ahk_class LaunchUnrealUWindowsClient
+$MButton:: ;
+{
+   Send {Click Down} ;
+   Sleep, 200 ; Let the user let up the mouse button
+   Keywait, MButton, D ;
+   Send {Click Down} ;
+}
+return
+ 
+ 
+ 
+#IfWinActive ahk_class ahk_class LaunchUnrealUWindowsClient
+$e:: ;
+while( GetKeyState("e", "P") )
+{
+Send {e} ;
+Sleep, 30 ;
+}
+return
+ 
+ 
+ 
+#IfWinActive ahk_class ahk_class LaunchUnrealUWindowsClient
+$f:: ;
+while( GetKeyState("f", "P") )
+{
+Send {f} ;
+Sleep, 30 ;
+}
+return
+ 
+ 
+#IfWinActive ahk_class ahk_class LaunchUnrealUWindowsClient
+$z:: ;
+while( GetKeyState("z", "P") )
+{
+Send {z} ;
+Sleep, 40 ;
+Send {Click Down} ;
+Sleep, 10 ;
+Send {Click Up} ;
+}
+return
+```

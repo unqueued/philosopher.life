@@ -1,0 +1,6 @@
+created: 20170428164906479
+modified: 20170428164954750
+revision: 0
+title: j3d1h: Autobackup to USB upon Mounting
+
+I'd like to have one or more physical copies of those things most important to me on USB drives. I'd like to plug them in, the program recognizes the device (we'd hardcode the UUID), and makes the appropriate backup. Encryption seems completely viable.

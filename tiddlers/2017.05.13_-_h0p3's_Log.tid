@@ -1,0 +1,67 @@
+created: 20170514213506813
+creator: h0p3
+modified: 20181118065245784
+modifier: h0p3
+revision: 0
+tags: [[Keeping My Enemies Closer]] [[h0p3's Log]]
+title: 2017.05.13 - h0p3's Log
+
+!! How is your health? Daily routine? 
+
+Better. Ice cream clearly was tearing me up, and I'm glad I stopped eating it. I've not noticed the same from cheese, thankfully. I've not had the same sort of trouble sleeping or serious pain since then.
+
+
+---
+!! What happened? How do you feel about it? What made you feel this way? Does it make you happy or unhappy? Why or why not?
+
+The whole family gathered today. We also saw my cousin (technically cousin-in-law, but frankly, I think of him as a brother grafted into my family) [[K]] last night. I like that man. 
+
+I was able to set up the RPi. I had difficulty connecting to the router from my laptop and went through a series of troubleshooting exercises (I could access the router admin console from my daughter's laptop, but it didn't operate nicely; it's an ISP router). My system logs did not point to anything wrong on my end (and I've connected before with this machine). I didn't find out what was wrong, although it magically started working. Persistence, I guess? Anyways, I got the RPi hooked up. I set it to DMZ on the router since I couldn't get forwarding to work (shit router). Hell, I couldn't even assign a static IP, yikes, even for the DMZ (I'd prefer to enforce it on the router rather than the RPi). The domain to reach my brother's house is dimbob.philosopher.life (although, I worry he has a dynamic IP, oddly). I made sure I could SSH into from the house, and Resilio sync is all set up; it can be managed from the internet. Even if I can't SSH, I have a backup solution through resilio (which pierces NATs beautifully) that automagically runs scripts for me (dangerous, I realize; perhaps I should set up with public key authentication). I'm glad I didn't install a DE; I can use it just fine without it. There's no reason to slow it down.
+
+I was able to visit my youngest brother's apartment and his workplace. I'm glad I did. We talked. He sadly wants to continue working like a slave for these people (it was interesting to hear my brother's SO say the same thing later that evening), even though he claims he could make better pay working fewer hours at other restaurants in town. I told him to keep his eyes and options open. It was really good to see him. He has a ways to go (he said the night before that he felt it was a waste of his time coming over at 11:30 since we were going to sleep and he'd rather just drink and smoke at his place than stay). Today, I was able to set up his tiddlywiki, firefox extension, directory structure, and resilio sync for him, I picked up his domain https://antsmelody.life/, set up the web server and the rest of the resilio chain for him on my machines as well; everything should be set. I showed him how to use it, etc. I hope he will spend time journaling and talking to himself. I told him to feel free to ask my daughter or me if he had any questions on how to get something to work as he wanted on the wiki. He needs to be empathically compassionate towards himself. I think he hates himself. I wish I could give him a hug as I write this.
+
+The beginning of the day went well. After lunch, my parents decided to attempt to argue about when we would meet up next year with the family. They clearly wanted it to be at their place (even dropping hints about the new furniture they bought for hosting us), and they refuse to even consider the reasons for why we don't want to go. They said that they would only come to my brother's house for a few hours on a single day and nothing more. There was a strong-arming component to it. We said we'd continue to meet at my brother's house, and this seemed best to everyone (except my parents).
+
+They do not appreciate how their children are not in a season of life where we can a year in advance and guarantee it. They literally expect us to revolve around them. Unlike them, we don't have hundreds of thousands of dollars in the bank; we're fighting to survive. We are facing typical Baby Boomer psychopathy.
+
+They took the children to buy clothes; it is a means of buying their grandchildren's love. Of course, afterward, they voiced their entitlement to my children multiple weeks out of the year. The fun and merriment stopped. They made it awkward. My father went on to accuse us of schooling our children 52 weeks out of the year like we are slave drivers. He clearly cannot contend with the fact that he was a shitty teacher/parent. As I said before, my success as a parent only serves to highlight their failures. Obviously, my children get several weeks off during the year. And, frankly, they did get a week off already with their grandparents this year.
+
+He went on to say visiting us while our children were in school would only allow them to see our children for an hour. His pointed implication assumes that our children are doing schoolwork when my parents are visiting. Frankly, that is just not true. Our children don't do schoolwork on those days when we have visitors, including my brothers and cousins. There are many other days where we give them the day off as well. 
+
+My dad raised his voice slightly and was obviously perturbed. He ordered us to work it out since he was obviously not satisfied. Sometimes he is an entitled<<ref "1">> asshole; that is to say, he lacks rational justification for what he delusionally believes is owed to him. He does not understand the reality of Hohfeldian rights and duties which obtain. Mom sat silently as my abuser just continued (she is complicit). 
+
+That my parents think spending time with my children is as important for my children as education is a failure to understand the nature of the world my children are facing and what it means to flourish as a human being. I think my parents believe we should be revolving around them. They take "honor thy father and mother" in an extreme way. 
+
+The conversation awkwardly moved onto more pleasant things. My father then decided to tell me that my son had complained that he didn't want new clothes because he couldn't fit them into his drawers.<<ref "2">> My father went on to uncharitably and condescendingly tell me to make sure my son's drawers were clean. I think the foolish hypocrite does not remember what my life was like at that age and how poorly he parented. More importantly, he did not take the time to consider the possibility that my son has been working on this very problem; that we all have, with him. My father talks to me like I'm mentally handicapped. Granted, I definitely have significant psychic struggles, and breaking out of depression is very hard. I think he forgets what life was like when he was raising us. I think he is an abusive hypocrite who ultimately doesn't have our best interests at heart. It would be kinder and wiser of the man to keep his mouth shut if he doesn't know how to politely and empathically converse with his children.<<ref "3">>
+
+
+---
+!! Can you better explain what happened? Do you have a technological, philosophical, empathic, or redpilled story to tell about the phenomenon? Clarify the narrative you just told yourself. 
+
+It is important to recognize that my parents are highly skilled manipulators. They grew up with it, and it has been fundamental to their careers as pastors and missionaries. I think my parents are lucky to be invited to see us at all. They were abusive. This is us trying to build a friendship with them despite our history. They continue to ignore reality. 
+
+My parents clearly were unhappy with having to see us on anything besides their terms. They felt they should be worshipped as creators of their children in what is basically a lower form of the worship they expect their creator God deserves from all humans. They fail to empathize with those who don't hold the same religious point of view, and hence they do not appreciate the terms on which our relationship exists at this point.
+
+I must contend with the fact that my parents are anti-intellectuals in certain respects. Sure, they value economics and HRD, and they previously had an interest in theology, biblical studies, and even evangelism in some respects (although that has waned as they've become increasingly Capitalist). They have lost their humanity in their psychopathy. They do not appreciate the struggle of being human outside of the scope of their narrow Christian lens; it limits their ability to empathize with others and meaningfully see the world through the eyes of others. 
+
+I believe they look at the educations their older children received and believe that "Liberal" (like a swear word) schools have poisoned their children's minds, turning their children away from Christian faith. They, of course, believe in memetic infections but are not open to the possibility that is they who are memetically infected. Ultimately, they do not support a heavy emphasis on the education and critical reasoning abilities of my children. They don't want what is best for my children. They think they do, but they don't actually.
+
+
+---
+!! What are you going to do about what happened?
+
+I'm going to let them head back to Thailand and think about it. I will set it aside. I have much bigger fish to fry in my life right now. Their feelings which result from their psychopathy is their burden to bear at this point. My children's well-being and happiness come before all else. 
+
+It is not my fault that my parents behave the way they do. I'm not responsible for their inability to effectively compromise, empathize, or acknowledge their abusive and manipulative approaches and behaviors. In some respects, I must protect my children from them.
+
+From now on, they will visit us. Hopefully, the power dynamics will be much improved by then, and maybe they will better appreciate the reality of our situations. I doubt our relationship will improve. 
+
+On a different note, I must not forget to send my brother the libgen URL. Furthermore, I need to send my other brother an invite to myanonamouse. I need to set up a VPN on the RPi and build ratio for him. 
+
+
+---
+<<footnotes "1" "I mean this in common parlance sense here rather than in a formal philosophical way.">>
+
+<<footnotes "2" "My son later told me that wasn't true. He claims his grandfather misunderstood him.">>
+
+<<footnotes "3" "I'm sure he would not be able to handle his own quip: 'If you have nothing nice to say, then say nothing at all.'">>

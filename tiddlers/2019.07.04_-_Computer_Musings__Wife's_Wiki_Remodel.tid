@@ -1,0 +1,32 @@
+created: 20190704170336428
+modified: 20190705021933417
+tags: [[Computer Musings]] [[Wiki Audit]]
+title: 2019.07.04 - Computer Musings: Wife's Wiki Remodel
+
+* Bob orchestration
+* Run down on link lists and what it means to automate listing
+* Imported and setup good plugins
+* Revamped appearance and basic behavior in settings
+* Bob version is old, upgraded
+* Commander kept crashing Bob again and again. We lost work, but also started losing bodies of tiddlers.
+* [[j3d1h]] and I are going duo now while the others work on the house.
+* We're going singlefile and locking correctly with each to edit. 
+* I've done all the major tagging, and it's clear that tag management is the way to go for her.
+
+She's in good shape to do this through tagging. It's a one-time [[The Remodeling]] for her that should help considerably. 
+
+---
+
+I've set [[Transclusion: Focus]] to [[Hub]]. Makes it easier to edit. No reason for the extra layer.
+
+---
+
+I've tried using a stylesheet to change the CSS for closing the gap on nested tabs, but the suggestion I have so far does not work. I must be doing something wrong in my inspection.
+
+---
+
+When we saw Commander and Bob failing for [[k0sh3k]]'s instance, we found tiddlers disappearing. We may need to script to walk through daily versions of the wiki to figure out what has been deleted. There is a possibility I am missing content.
+
+I deleted these today (after confirming the few stragglers that didn't belong had been replaced in the previous time I noticed this):
+
+`[prefix[/home/h0p3]]`

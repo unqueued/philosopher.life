@@ -1,0 +1,21 @@
+created: 20181227014040361
+modified: 20181228051125876
+tags: Computing Dreams
+title: The Ultimate USB
+
+I used to carry around a USB Wireless adapter and a multi-boot USB for various things (:P). It turned out to be useful to me again and again. The question for the perfect USB still exists, even if phones make them less important.
+
+* Tiny embedded OS
+* Wireless AP (pushed through host)
+* Anonymity/Privacy toolset (make it easy)
+* Wireless Adapter
+* Easy filesharing and meshing
+* Encrypted (duplicated/synced) i3 Manjaro Environment
+* 2-Factor Authentication 
+** One straight up, other requiring decryption
+* The troubleshooting/sysadmin toolset
+* Pentesting environment
+* Driveby/Hacksaw/Switchblade/etc.
+* More than one port size?
+
+I want a computer running in it just from having a power source, and I want it to help me use any computer I plug it into.

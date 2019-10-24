@@ -1,0 +1,75 @@
+created: 20180910143012425
+creator: h0p3
+modified: 20181104202339552
+modifier: h0p3
+tags: Sphygmus From
+title: 2018.09.10 - Sphygmus: Threads
+
+Dear h0p3,
+
+In this letter I'm managing my side of the conversation by dropping all the threads except one or two. Sitting on my responses until each one is completely ready doesn't seem right to me - rather, that would be letting my perfectionism and fear take over and get in the way.<<ref "dig">>
+
+Let's start with the elephant in the room.
+
+> Unless you are demonstrating something very leet to me, Light, I must warn you that you've likely revealed yourself through your domain registrar.
+
+I felt a visceral, intense, physically emotional reaction to reading your drafts of [[Pop and Lock|2018.09.04 - Sphygmus: Pop and Lock]] and the edits to my entry in your wiki. My heart was pounding, and my chest was tight. I still felt that ringing in my chest when I started drafting this response, and I've gone through several layers of feelings as I continue to return to your words and mine.
+
+A large part of my initial reaction came with feelings of betrayal and hurt that morphed into frustration with myself. <<ref "f">><<ref "s">><<ref "sp">> I'm not as leet as I imagine I am.
+
+The betrayal and hurt were projections, though. You have been honest about asymmetry, transparency, and the way you go about that in [[Gentle Clearnet Doxxing]]. I have privately questioned your implementation because I believe an argument could be made around curation: you gather together and present to your readers information that, while in the public domain, would otherwise have to be explicitly looked for.<<ref "EM">> Though obscurity-as-protection seems the obvious comeback.<<ref "fame">>
+
+In many ways, I am scared of other people following the rabbit trails I've left through the internet because I am or have been a person who follows the trails of others. I cannot really justify my own actions to myself, though, because more often than not they stem from morbid curiosity. If I follow the trails of others out of curiosity and snooping fascination, why wouldn't someone else follow mine?
+
+---
+
+You call me an artist several times throughout [[Pop and Lock|2018.09.04 - Sphygmus: Pop and Lock]], which I struggled with at first because I don't mentally use that word for myself. And yet, as someone who creates objects, I have started to feel some deep want to figure out how to be generous with or through those objects. When I'm making what I //really// want to make, deep in the act of creation, I'm not interested in whether or not someone likes it. I'm making it because I'm interested in making it.<<ref "ugh">> For example, I'm exploring the balance of negative and positive space through a combination of black, white, and textured areas in my current work-in-progress. I'm wrestling with this in particular because my piece is 18" by 24" and I usually work on 4" x 4" paper tiles. Transformation of scale is a huge issue here, no pun intended.
+
+Engaging in this dialogue with you feels like the first step towards being generous with the things I create. Sharing words in public is scary. Stepping out from the fog of detachment and invisibility into the real of connection and vulnerability is frightening. Somehow, though, that fear pales in comparison to the fear of sharing what I'm //really// interested in making with anyone at all.
+
+I'm afraid that this is pointless - I'm really, deeply scared that there is ''no point'' to [[Finding The Others]].<<ref "lk">> That I will travel through the pain of being vulnerable to find only nothing and emptiness. As the cliched quote goes, though, I would rather have tried and failed than to have never tried at all.
+
+-----
+
+Any ideas I have about where I'm going mechanically and structurally in my own wiki are currently gestating. I've started using too many note-taking programs and then stopped using them after some amount of time, so my current focus is to build the habit of actually using my wiki. I'm taking a lot of school notes in it, drafting these letters, keeping a to-do list, sort-of daily logs/journaling, and so on.<<ref "o">>
+
+Speaking of tags, I'm using them as the directory structure of my school notes. I use the "create tiddler here" to tag new class note entries, for example, and with a couple customized table of contents macros, they're automatically added to both the root tag tiddler and my sidebar listing. It's working pretty well for me.
+
+From where I'm standing, you could tag all your wiki audit logs with "wiki audit" and have a macro pull that list into your Wiki Audit tiddler. Saves you from having to copy and paste the new link in. However...it would involve more fiddling around with tags and macros to get your monthly audit setup working...and who knows what else would come up. I'm not sure that tags actually provide you with any benefit. From my brief skim of that one Evernote article, a lot of it rings true to my personal experience.<<ref "tag">> It will be interesting to keep up with [[Tagging Theory]].
+
+I'm definitely experimenting with different organizations and arrangements. Your last letter has almost become a free-form directory, with various sentences linked to new tiddlers where I'm drafting my responses. Perhaps they will become individual letters, or I'll consider selecting a certain number of tiddlers, exporting them as a static index.html, and hosting it on sphygm.us.<<ref "is">>
+
+I've also started to remix your structures - I'm trying to really embrace the "big tiddler made with lots of little tiddlers" concept, so I made a macro that emulates your directory template. My topic tiddlers have nothing in them except a `<<directoryTemplate>>` macro call. Within this macro, each area (Focus, Principles, etc.) is its own tiddler. For example, `$(currentTiddler)$: Focus`. In my macro, the headings are links to the sub-tiddlers, and below the headings are the transcluded contents of those tidddlers. I'm not sure if it's //really// the best way to go, but I was curious enough to try and build it. Let me know if you'd like the full macro code, too.
+
+Just continue emailing me your response's direct link, I think. I can always get the wikiText from your site when I want to paste it into mine. I do really like the idea of us keeping two sets of books - it seems friendly and honest and like a direct commitment to the process of communication. And I love Sublime Text's multi-select find&replace, so hand-grafting is essentially trivial.
+
+That's all for now!
+
+cheers,
+sphygmus
+
+ps. yes, I'm doing nightly backups! that was one of the first things I set up before transferring my local node.js files to my remote server. (more specifics on the reasoning for my wiki setup later.)
+
+---
+
+<<footnotes "dig" "Additionally I want to give each thread the time I need to really figure out what I have to say and how the words come together to convey it. My feelings are fast, but not my thoughts.">>
+
+<<footnotes "f" "after all of my thought and contemplation, I fucking doxxed myself because I was in a hurry and didn't want to lose the domain name (what were the chances of that tho, sheesh, my gut told me to slow down); because I was in a hurry, I didn't research why Namecheap wasn't showing WhoIsGuard for that particular domain; because I didn't research it, I didn't realize that self-doxxing was inherent to the .us TLD; and so, the consequences.">>
+
+<<footnotes "s" "I wasn't even planning on hosting content to sphygm.us from my current server, because I looked it up: you^^the general^^ can check the IP of one domain for other domains hosted there. See? I shoulda slowed down.">>
+
+<<footnotes "sp" "actually, in a weird way I'm grateful you pointed it out. this explains why I've been getting a much larger volume of spam calls lately...">>
+
+<<footnotes "EM" "I gather [[Eli Mellen]] was taking this point of view with the metaphor about pinning insects to boards and the bit about archiving.">>
+
+<<footnotes "fame" "You are curating, but in a document that is your personal horcrux. Is that significantly different from curation for the public eye? Would the fact that your wiki is a personal letter stop being an effective counter-argument if it suddenly became widely read?">>
+
+<<footnotes "ugh" "It's so easy for others in my life to say 'why don't you make art in this style or that style?' I love them, but it's not that simple or reductive.">>
+
+<<footnotes "lk" "I really love that you have this transcluded linkage.">>
+
+<<footnotes "o" "I may be going at this completely ass-backwards. Perhaps I will regret not starting off with any structure. On the other hand, the most successfully reorganization attempt of my computer hard drive (inspired by the [[library of congress' personal archive advice|https://blogs.loc.gov/thesignal/2016/05/how-to-begin-a-personal-archiving-project/]]) began with high level clumping of my huge # of existing files into 7 top level directories - and further clumping within those folders. I haven't touched most of what's inside the high level directories since my initial sort, but now I'm working within that structure so that any new files I create won't need to be reorganized later. My point being: I wasn't able to get that high level view without noticing the patterns in the individual content first. I'm sort of operating under that presumption here too.">>
+
+<<footnotes "tag" "Did I tag this topic using an uppercase letter or a lowercase letter? How many tags should I stick on this note? etc etc until it's just a pain in the ass that doesn't do anything better than hand-sorting or search can do.">>
+
+<<footnotes "is" "...hosting issues aside. or maybe I'll just shrug and host it on the same box I'm using now, IP domain back-tracing be damned.">>

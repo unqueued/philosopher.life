@@ -1,0 +1,20 @@
+created: 20180719140922123
+creator: h0p3
+modified: 20181112010058772
+modifier: h0p3
+tags: [[Link Log]]
+title: 2018.07.19 - Link Log: Maybe One
+
+* Confirm My Bias
+** http://www.bristol.ac.uk/news/2018/july/secularisation-economic-growth.html
+*** Well put.
+
+* Maymays
+** https://i.redd.it/b635fyep0va11.jpg
+
+* SCWR
+** https://github.com/warner/python-ed25519
+** https://blog.mozilla.org/warner/2011/11/29/ed25519-keys/
+** https://gist.github.com/atoponce/07d8d4c833873be2f68c34f9afc5a78a
+** https://github.com/pyca/pynacl/blob/master/src/nacl/bindings/crypto_scalarmult.py
+** https://pynacl.readthedocs.io/en/stable/_modules/nacl/public/#PrivateKey

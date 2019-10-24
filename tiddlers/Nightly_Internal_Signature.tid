@@ -1,0 +1,12 @@
+created: 20181009204133026
+creator: h0p3
+modified: 20190209012705332
+modifier: h0p3
+tags: Dreams Fulfilled
+title: Nightly Internal Signature
+
+Signature: `foobar`
+
+Verification Python Script:
+
+Internal JS verification? Could even be a forced calculation and a warning given to the user!

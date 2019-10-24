@@ -1,0 +1,27 @@
+created: 20180115173528198
+modified: 20190321173829398
+revision: 0
+tags: Rust
+title: 2018.01.15 - Rust
+
+* http://lucumr.pocoo.org/2015/5/27/rust-for-pythonistas/
+* http://intorust.com
+* https://www.evanmiller.org/a-taste-of-rust.html
+* [[Rust: remove_vowel]]
+* [[Rust: borrow_reference_slice]]
+* https://blog.rust-lang.org/2016/04/19/MIR.html
+* [[https://en.wikipedia.org/wiki/Rust_(programming_language)]]
+* [[https://en.wikipedia.org/wiki/Trait_(computer_programming)]]
+* [[https://en.wikipedia.org/wiki/Polymorphism_(computer_science)]]
+* https://en.wikipedia.org/wiki/Ad_hoc_polymorphism
+* https://en.wikipedia.org/wiki/Programming_paradigm
+
+---
+
+You want to avoid function_call(structure.clone()) as much as possible. That is really expensive. One idiomatic way to handle borrowing might be like this:
+
+(Input) -> FUNCTION -> (Input,Output)
+
+This enables you to fork data structures, maintaining the original, but also producing a mutated version of it as Output. 
+
+borrowing == immutability (except through certain carefully crafted APIs that are safe, like mutexes for multi-threading)

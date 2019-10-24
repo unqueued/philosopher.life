@@ -1,0 +1,69 @@
+created: 20190212231839369
+modified: 20190214032504118
+tags: TWGGF
+title: 2019.02.12 - TWGGF: Commander
+
+* https://groups.google.com/forum/#!topic/tiddlywiki/w9Bv-WulKw8
+* https://philosopher.life/#2019.02.12%20-%20TWGGF%3A%20Commander
+
+This is the perfect tool for someone who uses TW like I do. I have to massage my wiki. Thank you for making this gorgeous tool. I want to kiss your feet. I //strongly// agree: the functionality of this tool should be in the core. It's absurdly useful. It appears to be the second coming of TiddlerTool. I will joyously be testing it out.
+
+I have no expectations; I'm grateful to have the chance to use your software. What I want or would use, of course, may not be valuable to this project. You've asked for feedback, and I'm going to take the opportunity to give you my constructive ideas.
+
+* Enable search input boxes which do not require filter expressions.
+** Filter expression construction increases the cognitive load for the user.
+** TiddlerTool was outstanding for this because I could search by title, field, or tag, one at a time, to narrow things down.
+*** Searching based on specified content in the body would be useful.
+*** Searching by date ranges in title prefixes (e.g. YYYY.MM.DD - YYYY.MM.DD) would be useful to some.
+** Case sensitivity options may be useful.
+
+* Allow one to manually pick out exceptions.
+** The ability to select by checkbox can be extremely useful.
+** Applying batch operations to checked or unchecked enables a fuzziness in the initial search.
+** This may have an unworthy performance penalty.
+
+* Enable the ability to replace specified contents in the bodies of tiddlers.
+
+* I would request you optimize for performance.
+** I can tell you that once you start hitting thousands of tiddlers, these kinds of tools can sometimes become unwieldy and even broken. I have had them freeze and crash browsers and node many times.
+
+Your work is dope. Thank you!
+
+---
+
+You make an excellent argument. You've changed my mind. I want to modify my claim in light of it. 
+
+<<<
+On Commander and Empty.html, I would not want Commander, ideally not even tag manager and Tiddler manager in the core and thus always in empty.html because what ever I build should not automatically contain components which end users may use to break the designed wiki. Sure they may be included via plugins in a standard.html edition, but as plugins I can "chose to remove"
+<<<
+
+I can appreciate that. This reminds me of Linux distributions quite a bit. Part of the reason some distributions are more popular than others is because the barrier to entry is simply lower. There's a reason I hand a Fedora, Ubuntu, or Manjaro instead of an Arch, NixOS, or Gentoo to most people interested in trying Linux. 
+
+Sometimes I want a base, stripped-down, absolute bare minimal installation so I can develop exactly and only what I need in that system. In most cases, however, the average user (including me) benefits from a batteries loaded installation; they shouldn't have to bootstrap or build out from scratch. They shouldn't have to be an architect, nor should they have to install the python interpreter or openssh. Many kinds of tools should already be there for the average user.
+
+I think your argument demonstrates the need for at least two builds sitting on the frontpage of https://tiddlywiki.com/:
+
+* Bare Minimal Core
+* Standard Distribution
+
+My claim is that a tool like Commander belongs in a standard, one-size-attempts-to-fit-all version. Part of maximizing TW uptake is making it generally functional from the get go. Exactly what belongs in the standard distribution is something which should be debated.
+
+<<<
+A new possibility I can see using designed wiki templates, (or the proposed innerwiki plugin to run) is to publish a complete.html edition that includes tiddlywiki.com and additional plugins like commander and has a set of recipes that allows the user to export any of a set of standard editions. My New User Edition is somewhat similar but adds tools for the tiddlywiki student to maintain their own notes.
+<<<
+
+An architect tool would be sick. Unless they are walking through a tutorial, I still think the first TW a newer user downloads should be a  batteries-loaded one. After gaining experience, when they know more precisely what they want, then going either minimal core or using the complete architect makes far more sense.
+
+I also like how there are custom TW's built for specifically one purpose. That's also good. We still need a generalist that "just works."
+
+A "bloated" standard install should be the default for newcomers. They can optimize and compatibilize later if it matters (I suggest it won't most of the time).
+
+<<<
+Perhaps if we had deemphasised the empty.html prior to now, you would be putting an argument if commander should be in empty.html or standard html but in either case it should be a removable plugin and/or bundle.
+
+I do not think it should be the intention to install any optional tool in the core.
+<<<
+
+I agree to that. Keep the core as clean and minimal as possible. Have the package management do all the heavy lifting. Make it so users can strip things out of the standard distribution if they wanted to. A tool like Commander should be a default, didn't even have to install it, it's assumed you have it unless you specifically removed it (or went custom from the beginning) kind of tool in a standard, batteries-loaded distribution. 
+
+Commander, or a tool like it, would be a strong tiddler management tool which standard users shouldn't have to hunt to find and install. Every standard OS should come with a high-functioning file manager, and every standard TW should come with a high-functioning tiddler manager. 

@@ -1,0 +1,51 @@
+created: 20171228192500853
+modified: 20181225012321820
+modifier: h0p3
+revision: 0
+tags: [[Link Log]]
+title: 2017.12.28 - Link Log: Go Light
+
+* Stunning!
+** http://onlinelibrary.wiley.com/doi/10.1002/gch2.201600008/full
+*** I think viruses are alive, and I think memes are viruses, and I think that innoculation makes sense. I think this is a very abstract and inexact way to talk about something that is very complex, but I like it. In the same way that we see memetic weapons being created around us, I think we might just be able to created memetic medicine. In a sense, I feel like [[Antipleonasmic Catholicon]] is supposed to do that.
+
+* Confirm My Bias
+** https://today.duke.edu/2017/12/negative-portrayals-shooting-victims-lead-victim-blaming
+** https://krugman.blogs.nytimes.com/2013/12/28/bitcoin-is-evil/
+*** I am not surprised Krugman thinks this. I don't think he fundamentally understands the technical capacities, limits, and flexibility of the construction of this technology either. I'm betting he has other reasons that he's not pointing to just yet.
+** https://www.ncbi.nlm.nih.gov/pubmed/29210334
+*** First stone problem for me here. I was a dumb man.
+
+* Disconfirm My Bias
+** https://www.reddit.com/r/linux/comments/7mfnnf/fix_released_for_ubuntu_1710affected_lenovo_bios/
+*** I'm surprised there is any recovery.
+** https://newrepublic.com/article/146352/rise-fall-racist-right
+*** Hrm...is that right? If it is, then I am really not seeing the fabric.
+
+* Think About It
+** https://www.theguardian.com/environment/climate-consensus-97-per-cent/2017/dec/27/fake-news-is-a-threat-to-humanity-but-scientists-may-have-a-solution
+*** I am worried that such tools will ultimately be used to censor and shape the public will to even worse positions. We need an arbiter, a beginning point that we can trust. Trusting trust is the hard part of this process. The hack may be necessary, even if it is likely to fail. I don't know.
+** https://www.washingtonpost.com/news/the-fix/wp/2017/12/22/dave-chappelle-has-a-message-for-poor-white-trump-supporters/
+** https://qz.com/1165606/no-tipping-policies-are-bad-for-customer-satisfaction-according-to-research/
+
+* Fishy
+** https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Round-1-Submissions
+*** Ah ha, they are very worried about it too, and they should be. Here is my worry: like DES and AES, they may be able to break this. There is a serious problem in allowing them to monitor and trial it. I want to see more transparency in this process. It is one of the fundamental saviors that might be available to us.
+**** Classic McEliece with 1MB keys sounds interesting. That they are targeting very small plaintexts makes sense, as we will just use for the handshake.
+
+* Interesting
+** https://medium.com/@yonatanzunger/hard-and-soft-skills-in-tech-8be00216f67f
+** http://gittup.org/gittup/
+** https://medium.com/@victoriaxxviii/the-sick-sad-world-of-the-youtube-motivational-speaker-caf3e6bd81f0
+** https://arxiv.org/pdf/1710.09278.pdf
+
+* For my daughter:
+** http://nymag.com/selectall/2017/12/how-i-almost-made-millions-in-bitcoin.html
+** https://blog.filippo.io/the-scrypt-parameters/
+
+* For my son:
+** http://mywiki.wooledge.org/BashGuide
+
+* For my wife:
+** https://www.bloomberg.com/features/2017-future-of-automation/
+*** Tubular.

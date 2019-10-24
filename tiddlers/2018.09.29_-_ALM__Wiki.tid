@@ -1,0 +1,203 @@
+created: 20180930014754151
+creator: h0p3
+modified: 20181101045918943
+modifier: h0p3
+tags: ALM
+title: 2018.09.29 - ALM: Wiki
+
+```
+How's it going? It's been over a week since we talked.
+Wed 11:57 AM
+ Log week training for new work at work and doing lots of overtime as well not much time for much else now I will definitely give you a shout out this weekend.
+Wed 9:55 PM
+ Cool. Ttyl then.
+Wed 10:07 PM
+ I'd have to say that you have quite the decision on your hands.  Based on what all I have read on your wiki, things between your donors and you are in much worse condition than I had at first thought.
+6 hours ago
+ Aye
+5 hours ago
+ The material I have read through seems to be a bit in the past.  I couldn't quite put a finger on when you spoke to them last.  Also, your motivation behind asking me the question is not clear as well.  I fear that I might have missed important material by overlooking it on your wiki.
+5 hours ago
+ On a different note, it seems like you have found some others.
+5 hours ago
+ One of the wikis that was linked to is in a considerably different format than your own.  I didn't think that yours was easy to follow until I came across the wiki of this fellow.
+4 hours ago
+ I appreciate your looking through my wiki. It's still evolving and something I put a lot of work into organizing. The search tools are fairly strong. If have a particular kind of query you want but don't know how to formulate, let me know; I can try to come write the query or find out how to do so.
+4 hours ago
+ I'm not sure how you wish to sift through the wiki.
+4 hours ago
+ I gave you the reason for my motivation.
+4 hours ago
+ I have asked my friends to be my advisers, and you are one of them.
+4 hours ago
+ Well, I started under recent and new, followed the links you gave me and things linked from those pages.  Do you by chance have a tab related just for items of this or a family nature?
+4 hours ago
+ not really; this isn't the biggest fish I'm trying to fry in the wiki; search is your best option
+4 hours ago
+ Sorry if I do not remember clearly.  I recall you saying something to the effect of considering reaching out to your donors.  I do not recall a rationale other than that given.
+4 hours ago
+ I think you might have to empathize with larger sections of my wiki than just the family nature stuff to give advice in context.
+4 hours ago
+ So, I consider this a T42T question.
+4 hours ago
+ That is what I am afraid of.  I see something linked to but it is of quite a different subject.  You have certainly set quite a task in front of me.
+4 hours ago
+ I will do my best never the less.  Now, don't you go making material faster than I can digest it ,Emoji image of 'smile'
+4 hours ago
+ lol
+4 hours ago
+ I think you will have to hyperread me, like you would searching the web.
+4 hours ago
+ Hmmm.
+4 hours ago
+ I shall have the opportunity for lots of practice!
+4 hours ago
+ It means a great deal to me that you invest your time into understanding me to give me advice.
+4 hours ago
+ I think talking about the structure and nature of the wiki may help.
+4 hours ago
+ I've tried to be clear about it (but that doesn't mean I've done a good job)
+4 hours ago
+ Would you like a walkthrough over the phone (or in chat)?
+4 hours ago
+ I think it will make more sense with practice.
+4 hours ago
+ And, yes, I have been trying to find others =)
+4 hours ago
+ It's been a fascinating experience, and I'm glad to have the chance.
+4 hours ago
+ Chat would be preferred for now as there is lots of stuff going on in the house now and my attention is being bounced around at present.
+4 hours ago
+ Aye, makes sense, and you can re-read and think about it, etc.
+4 hours ago
+ So Root is actually my filesystem. Basically, every tiddler (current ~6k of them) is organized in those handful of directories.
+4 hours ago
+ Some tiddlers are found in multiple places (when I have a good reason for it), but most fit into a single category. It's very much a tree structure.
+4 hours ago
+ I've modeled (About, Principles, Focus, Vault, Dreams) after the scientific method.
+4 hours ago
+ If you see "About" "Principles" etc. in the tiddler itself, I consider it a directory. It is a project that I'm trying to grow.
+4 hours ago
+ Unfortunately, I don't know what it is supposed to look like in the end, and of course, it's messy.
+4 hours ago
+ I'm sorry if you find my mind palace super messy. This is not a simple task.
+4 hours ago
+ Most tiddlers are not directories.
+4 hours ago
+ You'll note that some tiddlers are dated, and some aren't. Those which are dated help form an explicit timeline for me to reason about (technically, through edit dates and snapshots, I have several timelines to reason about, and I often do). I actually consider those to be the most "blog" like aspects of my wiki.
+4 hours ago
+ Those without dates, however, I consider to be more like wiki than a blog.
+4 hours ago
+ my sidebar is how I really navigate my wiki
+4 hours ago
+ Hub is actually the Focus:{Focus}
+4 hours ago
+ I use it constantly, like an evolving, prioritized bookmark list
+4 hours ago
+ Pin is like having sticky notes on the side of desk, or something like that.
+4 hours ago
+ Open is a tool I use to navigate large story rivers (sometimes I'll have 15 tiddlers open)
+4 hours ago
+ You've seen New and Recent. Recent shows New + edited older tiddlers. I don't use Recent often, except at the end of the week. We read our wikis together on Sundays.
+4 hours ago
+ The advanced search can be very strong.
+4 hours ago
+ Filter expressions can allow you to create fairly complex queries that limits by title, tags, and content (I've only recently begun to use tagging mainly because my titles are metadata rich enough that I've not needed it).
+4 hours ago
+ Search for ["catdog"] in the bodies of any tiddlers with ["foo"] in their titles.
+4 hours ago
+ [search:title[foo]search:text[catdog]]
+4 hours ago
+ Search for ["catdog" and "spongebob"] in the bodies of any tiddlers with ["foo" or "bar"] in their titles.
+4 hours ago
+ [search:title[foo]] [search:title[bar]] + [search:text[catdog]search:text[spongebob]]
+4 hours ago
+ Context search is nifty hack, and I use it often.
+4 hours ago
+ So, I know you can't read it all (this wiki is much larger than you realize....it would be like reading a bookshelf). I'm not sure what you need to read, in what order, etc. There are sections that will be quite difficult to understand, imho.
+4 hours ago
+ I will have to rely upon your best judgment.
+4 hours ago
+ Perhaps you will want to think through topics. For example, my substance use. I actually think my point of view is extremely defensible. That may be something you will need to research and think about. Even [[AA]] (my chemist aunt) has positive things to say about my choice of ketamine for treating depression.
+4 hours ago
+ Yeah, on the subject of ketamine - I have heard it mentioned in the news as of late as a great aid against depression.
+4 hours ago
+ But you already know that Emoji image of 'grinning'
+4 hours ago
+ =) aye...I did not have the benefit of anyone telling me. I had to figure it out when everyone thought it was crazy.
+4 hours ago
+ I do think my of my wiki as a shield. It is clear that my donors do not read it at all. Someone interested in who I am, especially my own creators, would read it. It is a T42T test. It's a way to demonstrate to myself out loud that they don't actually care.
+4 hours ago
+ In the end, if we do form a relationship again, it will be because they've crossed a very significant bridge I've built.
+4 hours ago
+ I believe I've bent over backwards to explain my point of view as clearly as I can.
+4 hours ago
+ I want to you see that the radical transparency of my wiki is no accident.
+4 hours ago
+ This wiki is overdetermined. There are multiple sufficient causes for its existence. I write it for many reasons and to solve many problems. Those reasons have evolved since the beginning of this wiki, and I slowly improve my understanding of what I'm trying to build and why.
+4 hours ago
+ One of those causes: this wiki is a mediation device
+4 hours ago
+ One of the struggles I'm contending with in this wiki is a serious generational familial schism; it resembles, on average, the young vs. the old (some similarities to a component of the crisis society is experiencing at large). We've been ripped in half in the past decade. Unfortunately, there are victims here (including myself) which I must protect and champion. What is said in private to the victims is despicable; the gaslighting is evil. Privately addressing this has failed. I'm going to end this as fairly and openly as I can. I find myself an executive judge at the apex of a crucial conflict (I don't want to be the judge!), and I must show the young what they fight for and why. It's important that I demonstrate I'm clean, honest, and doing my best; it's yet another reason I work so hard to relinquish my privacy. I think every person in power should have to write a wiki like mine. To whom much is given, much is required. Of course, I am certainly not blameless, but I aim to be as blameless as I can and pursue justice.
+4 hours ago
+ I openly hold people accountable here. My hope is that we can resolve this crisis, restore the victims, forgive, and forge peace. If not, we will drive out the snakes with evidence sufficient to meet the requirements of Just War Theory. It is possible that over the next few years, vindication may start getting all Biblical up in here, yo. I'm going to start calling people in front of the moral courtroom to systematically show everyone what they are really made of. Unfortunately, I don't know who all my enemies are (and I may even be wrong about my enemies in crucial ways!).
+
+My enemies don't write down what they say in private for a reason. Those who wish for peace are going to consistently aim to speak extremely carefully with each other, and their behavior is going to back it up. I do not predict my enemies will have the balls to engage me in the open. If they do, I will unravel those loose-ends, dispel those lies, and force legitimate civility in a public pseudonymized arena. In a sense, I'm generating a Veil of Ignorance which provides the necessary information to all parties involved. To a large extent, the IRL Users know (or can guess or find) who is who, while the world will witness these pseudonyms.
+
+I must publicly demonstrate it to all parties involved as a matter of vindication, to pseudonymously make it public record, and to show that I am playing by The Golden Rule. Of course, balancing privacy is a complex problem here. This is my current best solution.
+4 hours ago
+ As you can see, I'm a deeply distrusting person after coming to form a more accurate theory of people's minds over the past few years. I actually agree to homo economicus description of human egoism (though, not to the presciption) for about 97% of the population.
+4 hours ago
+ I'm trying to do the right thing, even though I'm pretty sure I'm going to fail.
+4 hours ago
+ I should add that most of my advisers have already weighed in. The vote is "no" because they think the risks are simply too high (my brothers have been radically against it).
+3 hours ago
+ But, I value your advice! I want to know what you think and why.
+3 hours ago
+ Not making the expectations any lighter on me are ya?  But I am being silly when I should not.
+3 hours ago
+ Lol =)
+2 hours ago
+ If I knew how to make it easier for you, I would.
+2 hours ago
+ If you do have specific requests, please let m know. I will try to see what I can do.
+1 hour ago
+ Anyways, how's IPT and your sexy new computer?
+1 hour ago
+ Have you named your new box?
+No name for the box yet.  Have not got IPT yet.  Have been crazy busy
+1 hour ago
+ Makes sense
+1 hour ago
+ It sounds like work has been exceptionally busy this week too
+1 hour ago
+ Yeah, getting trained on a whole new role all in one week.  Seems like my team is being merged with another.  Since I seem to be the most productive performer on my present team they wanted.to get me trained in the new material first it seems.  The person who was training me said as much when I flat out asked her.
+22 minutes ago
+ Neat.
+21 minutes ago
+ You must be feeling fairly successful despite the stress.
+21 minutes ago
+ What's the new role?
+21 minutes ago
+ What team are you merging with?
+21 minutes ago
+ Why is there a merger?
+21 minutes ago
+ Will you have new bosses?
+21 minutes ago
+ The team we originally split off from.  Lots of same tools with some new ones.  Much more responsibility tho.
+20 minutes ago
+ I have a new boss, he is on site and I had interviews with him twice.  A good guy.  That is a perk.  Never, ever met the old boss.  He was in NJ.
+19 minutes ago
+ The woman who orchestrated the split off and the head of the team and her number 2 went to a different firm out of nowhere.  Crazy shit for real.
+18 minutes ago
+ I think I'd be tempted to dossier the folks I worked with to try and reverse engineer the power dynamics you are seeing (and look ahead).
+17 minutes ago
+ I would like to suggest The Gervais Principle again.
+17 minutes ago
+ Very short novella size book
+16 minutes ago
+ Shit has been more or less in limbo from the moment I started.  Once I got out of training and on my own we have these events take place.  Also, got a new director for the middle office segment of which I am a part.  She be rocking the boat something awful as well.  Shit has been a clusterfuck from the word go.
+16 minutes ago
+ Aye, sounds like you need notes.
+```

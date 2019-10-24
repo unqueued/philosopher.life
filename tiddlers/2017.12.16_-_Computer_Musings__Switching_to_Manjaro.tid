@@ -1,0 +1,12 @@
+created: 20171216231830143
+modified: 20181225002744553
+modifier: h0p3
+revision: 0
+tags: [[Computer Musings]]
+title: 2017.12.16 - Computer Musings: Switching to Manjaro
+
+I keep running into serious headaches with Ubuntu. For all the stuff that it makes easy, there are too many times where it gets in my way. I'm switching to Manjaro. I want cutting edge vanilla, but not bleeding edge. 
+
+I have so much to setup. It's kind of absurd.
+
+Can't connect to SSHTalk. My client is telling me aes256-cbc is deprecated. This newer version of SSH I'm using won't let me modify Ciphers in sshd_config, but I can -c flag it from the command line. Meh. 

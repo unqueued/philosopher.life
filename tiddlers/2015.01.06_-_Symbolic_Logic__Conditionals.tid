@@ -1,0 +1,506 @@
+created: 20180705005153521
+creator: h0p3
+modified: 20181031035931170
+modifier: h0p3
+tags: Tulane
+title: 2015.01.06 - Symbolic Logic: Conditionals
+
+13
+
+
+So far we only covered the 3 Boolean operators. Today we introduce 2 new truth-functional connectives, material conditionals and bi-conditionals. Regarding truth-functionality, please recall that the truth value of a compound sentence formed with such a connective is a function of (i.e., is completely determined by) the truth value of its components.
+
+
+
+SECTION 7.1
+
+Material Conditional, →
+
+
+
+Also commonly written with double bar arrow or the horseshoe (superset) symbol, ⊃, but not in this class.
+
+
+
+P → Q
+
+
+
+Our initial translation of it will be:
+
+
+
+“If P, then Q”
+
+“If Max is home then Claire is at the library”
+
+Home(max) → Library(claire)
+
+
+
+Just as the parts of a conjunction have names, conjuncts, and parts of a disjunction have names, disjuncts, the parts of a conditional have names:
+
+
+
+P → Q
+
+P is the antecedent (literally means “going before” in Latin)
+
+Q is the consequent (“overtaking or following closely” in Latin)
+
+
+
+We usually translate it as “if…then,” however, there are many other translations. Note the variation in word order: in English (unlike FOL) the antecedent (in this case P) doesn’t always come first.
+
+P → Q can be translated as:
+
+
+
+“P only if Q”
+
+“Q if P”
+
+“Q in case P”
+
+“Q provided that P”
+
+“Provided P, Q”
+
+“P is sufficient for Q” (This is the sufficient condition in analytic phil.)
+
+“Q is necessary for P” (This is the necessary condition in analytic phil.)
+
+“In the event that P, Q” (This is not a casual connection though, it is truth-functional.)
+
+“P implies Q”	(This is a bad translation, but sometimes it is used. Don’t use it, but learn to recognize when others misuse it. We’ll talk about it later.)
+
+
+
+Some of the translations may not fit your intuitions or your ear (especially if you don’t come from an analytic writing background). If you can’t convince yourself of it, then simply memorize it (many people do!). We don’t normally talk like some of these translations. I fear I will confuse you by going through examples for all of these translations, so I’m just flat telling you to memorize this. Like our previous translations, look for the key words, identify the components, and translate straight from your notes. Do not guess.
+
+
+
+Syntax for →: If P and Q are sentences, then so is P → Q
+
+Semantics for →: P → Q is true if P is false or Q is true.
+
+
+
+Truth Table for →: P Q | P → Q
+
+T T | T
+
+T F | F
+
+F T | T
+
+F F | T
+
+
+
+Notice how the only time P → Q is false is when P is true and Q is false. False P will always make P → Q true.
+
+
+
+The tricky part of the semantics of the material condition is that P is false and Q is true, making P → Q true. Just remember that we are interested in truth preservation. It doesn’t matter whether Q is true or false if P is false. For the sake of truth preservation, we are primarily interested in making sure that Q is true when P is true.
+
+
+
+If you commit to the truth of P → Q, then you commit to the falsity of P or the truth of Q (or both). Look at the truth table and see this is true (F’s for P and T’s for Q).
+
+
+
+P Q | P → Q | ¬P ∨ Q _
+
+T T | T F T
+
+T F | F F F
+
+F T | T T T
+
+F F | T T T
+
+
+
+In other words:
+
+
+
+P → Q ⇔ ¬P ∨ Q
+
+⇔ ¬(P ∧ ¬Q)
+
+
+
+The conditional adds no new expressive power to FOL. We’ve added it simply to make our lives easier in translation and thinking about sentences. Another equivalences of note (Contraposition):
+
+
+
+P → Q ⇔ ¬P ∨ Q
+
+⇔ Q ∨ ¬P
+
+⇔ ¬¬Q ∨ ¬P	(has the form: ¬A ∨ B, which is equivalent to A→ B)
+
+⇔ ¬Q → ¬P (Again, pay close attention to parentheses)
+
+
+
+I want to reinforce the semantics of this connective for you with an example.
+
+
+
+Consider a world in which:
+
+
+
+A is a small tet
+
+B is a large cube
+
+
+
+The following are true:
+
+Tet(a) → Cube(b)
+
+Small(a) → Tet(a)
+
+Dodec(b) → Large(b)
+
+Dodec(b) → Dodec(a)
+
+
+
+The following are false:
+
+
+
+Tet(a) → Dodec(b)
+
+Large(b) → Cube(a)
+
+Material Conditional vs. Logical Implication:
+
+
+
+Note how the material conditional is true or false relative to this particular domain. Even if the sentences which are true in this world, we could easily specify another domain in which these sentences would turn out false. This brings me to a crucial point, the difference between material conditional and implication.
+
+
+
+People sometimes read P →Q as “P implies Q.” This is handy, in that it gives you a way to read the FOL sentence from left to right, symbol-for-symbol, maintaining the word order. However, this is not a good translation. Do not use it! There is something deeply misleading about it, for it suggests a conflation between the truth of a material conditional and logical implication. That is because “P implies Q” is most often used as a shorthand for “P logically implies Q,” which expresses the relation of logical consequence.
+
+To say that “P logically implies Q” is to say that “Q is a logical consequence of P.” Sometimes we express logical implication in English with “if…then” sentences, but not all “if…then” sentences are simply material conditionals. Further, the mere fact that P → Q is true does not mean that P logically implies Q. It simply means that either Q is true or P is false in a particular domain, whereas P logically implies Q is the claim that P → Q is true in all domains (not just a particular one). Hence it is probably best to avoid translating → as “implies,” even though sometimes we talk about implication in terms of “if…then.”
+
+To claim P→ Q, the material conditional, is to say that in in a specified domain, when P is true, Q is true. But, we could easily specify a different domain in which the conditional relationship may be false. See our previous examples.
+
+To say “P logically implies Q” is to say that in all possible worlds, when P is true, Q must be true. This is logical consequence, and it is far stronger than the material conditional. The difference is that P→ Q can be true in one domain, but false in many others. If P implies Q is true in one domain, then it is true in all of them. Essentially, if P→ Q is a logical truth in itself, then P implies Q.
+
+All logical consequences are a special class of conditionals, but not all conditionals are forms of logical consequences.
+
+Corresponding Conditional (Associated conditional): With any valid argument, you can write a conditional which corresponds to it.
+
+
+
+|P1
+
+|P2
+
+|…
+
+|Pn
+
+|C
+
+|(P1 ∧ P2 ∧ … ∧ Pn) → C
+
+
+
+An argument deductively valid iff its corresponding conditional is a logical truth. If the antecedent is true, then the consequent must be true. We’ve only made truth-preserving steps in our argument, and so the conclusion necessarily must follow.
+
+
+Again, we might think of this as :
+
+
+
+|(P1 ∧ P2 ∧ … ∧ Pn) → C
+
+| ¬(P1 ∧ P2 ∧ … ∧ Pn) ∨ C
+
+
+
+Again, the argument is deductively valid iff the following disjunction is a logical truth. Let’s add some meat to these bones with an example:
+
+
+
+|1. Cube(a) ∨ Cube(b) Show: Cube(b)
+
+|2. ¬Cube(a)
+
+||3. Cube(a)	
+
+||4. ⊥	⊥Intro: 3, 2
+
+|| 5. Cube(b) ⊥Elim: 4
+
+||6. Cube(b)
+
+||7. Cube(b) Reit: 6
+
+|8. Cube(b) ∨Elim: 1, 3-5, 6-7
+
+
+
+Our claim was a strong one: since this argument is valid, then the following are logical truths. In fact, since we are using truth-functional connectives, and the predicates don’t matter, these are tautologies:
+
+
+
+Cube(a) Cube(b) | ((Cube(a) ∨ Cube(b)) ∧ ¬Cube(a)) → Cube(b)
+
+T T | T F F T
+
+T F | T F F T
+
+F T | T T T T
+
+F F | F F T T
+
+Take a tautologically valid argument, form a material conditional, where the conjunction of the premises is the antecedent, and the conclusion the consequent, and that that conditional will be a tautology. Another way of thinking about this:
+
+
+
+Cube(a) Cube(b) | ((Cube(a) ∨ Cube(b)) ∧ ¬Cube(a)) | Cube(b)
+
+T T | T F F | T
+
+T F | T F F | F
+
+F T | T T T | T
+
+F F | F F T | F
+
+
+
+Whenever the 1st sentence is true, the second is also true. Therefore, the second sentence is a tautological consequence of the first.
+
+
+
+If you take into account the meanings of predicates, moving out of the tautological world into the logical world, the same kind of reasoning applies.
+
+
+
+More Caveats:
+
+    Not every “if…then” statement in English is a material conditional.
+
+“If Max had been at home, then Carl would have been there too.”
+
+
+
+This isn’t a material condition because if the antecedent is false, then the entire conditional is false, which is not possible according to the truth table for material conditional.
+
+    Material conditions are not necessarily causal relationships. Here is an example causal:
+
+“If I move my computer mouse, then my cursor moves on the screen.”
+
+
+
+This is a causal relationship, which is stronger than a material conditional. Material conditionals aren’t necessarily temporal. Material conditionals are simply a truth-functional relationship between two sentences, P and Q. Nothing more is implied. You should not be thinking about a causaul connection in the conditional.
+
+
+
+Unless (the bastard):
+
+P unless Q
+
+¬Q → P
+
+
+
+“Ted will die unless Bob helps him.”
+
+
+
+You might reformulate it as:
+
+
+
+If Bob doesn’t help him, Ted will die.
+
+
+
+¬Helps(bob, ted) → Dies(ted)
+
+
+
+You might think of “unless” as being “if not.”
+
+
+
+Ted will die if not Bob helps him.
+
+
+
+If you are confused or this doesn’t immediately fit your intuitions, please memorize this. Note that some people prefer to translate unless as a disjunction.
+
+
+
+
+
+SECTION 7.2
+
+Material Biconditional, ↔
+
+
+
+Also commonly written with double bar arrow (which is our symbol for equivalence in this class) or tri-bar, but not in this class.
+
+
+
+P ↔ Q
+
+
+
+It should be translated as:
+
+
+
+P iff Q
+
+P just in case Q (quirky mathematicians to be thanked for this one)
+
+P is necessary and sufficient for Q
+
+
+
+“Max is home if and only if Claire is at the library”
+
+Home(max) ↔ Library(claire)
+
+
+
+P ↔ Q corresponds to P if, and only if, Q. It is thus really a conjunction of a pair of one-way conditionals using P and Q:
+
+
+
+P ↔ Q ⇔ (P →Q) ∧ (Q →P)
+
+
+
+Basically, this is the conjunction of the material condition both directions, hence material biconditional.
+
+
+
+Syntax for ↔: If P and Q are sentences, then so is P ↔ Q
+
+Semantics for ↔: P ↔ Q is true iff the truth values of P and Q match
+
+Truth Table for ↔: P Q | P ↔ Q
+
+T T | T
+
+T F | F
+
+F T | F
+
+F F | T
+
+
+
+Where they match, obviously, the biconditional is true. Where they don’t have matching truth values, this statement is false. Material biconditionals have the same truth values.
+
+
+
+If you commit to the truth of P ↔ Q, then you commit to the truth of P → Q and the truth of Q → P.
+
+
+
+Equivalences of Note:
+
+
+
+P ↔ Q ⇔ (P →Q) ∧ (Q →P) (already did it)
+
+P ↔ Q ⇔ (P ∧ Q) ∨ (¬P ∧ ¬Q)
+
+
+
+Biconditional vs. Logical Equivalence
+
+
+
+Before, we had to distinguish Conditionals from Logical Consequence. Now, we will also distinguish Biconditionals from Logical Equivalence. Equivalence is far stronger a claim than biconditionality.
+
+
+
+Biconditionality refers to two sentences having the same truth values in a specific domain. Logical equivalence refers to two sentences having the same truth values in all domains.
+
+
+
+P and Q are logically equivalent iff P ↔ Q is a logical truth. Another way to say this is: P ⇔ Q (English abbreviation of “is logically equivalent to” which isn’t FOL, it is our metalanguage, the language we use to discuss an object language) is true if and only if the FOL sentence P ↔ Q (truth functional connective of FOL, where FOL is our object langauge) is logically necessary.
+
+
+
+Consider a world in which c is a small tet.
+
+
+
+These three sentences are true:
+
+Tet(c) ↔ Small(c)
+
+Cube(c) ↔ Medium(c)
+
+Small(c) ↔ ¬¬Small(c)
+
+
+
+Note how Tet(c) is not equivalent to Small(c) in all possible worlds. That bi-conditional is true, but since the bi-conditional is not a logical truth, then the two component sentences, Tet(c) and Small(c) are not logically equivalent. Again, you can come up with a counterexample world where the bi-conditional relationship does not hold.
+
+
+
+Note that the second second is also true. The biconditional holds because both the antecedent and consequent are false; they share the same truth values. This biconditional is not a logical truth though, so the component sentences are not logically equivalent.
+
+
+
+However, we can look at the last sentence, as we see not only that the biconditional is true, but that in all possible worlds this biconditional is true. Hence, this these component sentences are logically equivalent.
+
+
+
+Homework: 7.1-7.8, 7.10-7.18, 7.25
+
+
+
+
+
+SECTION 7.3
+
+Conversational Implicature (from Paul Grice)
+
+
+
+Sometimes you communicate things in a sentence which aren’t a part of its truth conditions.
+
+
+
+“Joe’s great, he’s never drunk on Thursdays.”
+
+
+
+This implies he’s drunk the rest of the time. It is conversationally implied, but not logically implied. This is why conversational implicature should be kept in mind when translating natural language into formal language.
+
+
+
+Any part of what is communicated by a speaker in asserting S that can be canceled out by the speaker’s elaborating on what she without contradicting herself is an implicature of S and not part of S’s truth conditions.
+
+
+
+Just keep this in mind when translating.
+
+
+
+Worth Reading:
+
+
+
+Section 7.4 talks about truth-functional completeness. While I don’t require it, you should read it and try to understand it. The work done in that section is a easy, sneak-peak at what advanced logic is about (although 7.4 is not advanced, and most everyone in this class is capable of reading and understanding it).

@@ -1,0 +1,54 @@
+created: 20180719194338148
+creator: h0p3
+modified: 20180719200848061
+modifier: h0p3
+title: Install Resilio Sync in Manjaro As USER
+
+I really want to run it as my user. Fuck permissions. I've had plenty of trouble getting Resilio Sync to work cleanly on Arch systems, and this is the way I do it now (see other options in `/etc/rslsync.con`):
+
+```bash
+yaourt -S rslsync
+mkdir ~/.rslsync
+mkdir ~/.config/rslsync/
+nano ~/.config/rslsync/rslsync.conf
+```
+
+Modify the following and throw it into `rslsync.conf`:
+
+```
+{
+   "device_name": "monster-10",
+   "listening_port" : 4289, // 0 - randomize port
+
+/* storage_path dir contains auxilliary app files if no storage_path field: .sync dir created
+in current working directory */
+  "storage_path" : "/home/h0p3/.rslsync",
+
+/* set location of pid file */
+  "pid_file" : "/home/h0p3/.rslsync/resilio.pid",
+
+/* use UPnP for port mapping */
+  "use_upnp" : true,
+
+/* Enable WebUI */
+ "webui" :
+  {
+    "listen" : "0.0.0.0:4288"
+
+  /* preset credentials */
+   ,"login" : "h0p3"
+   ,"password" : "foobarpassword"
+  }
+
+}
+```
+
+```bash
+systemctl --user daemon-reload
+systemctl --user start rslsync
+systemctl --user status rslsync #make sure it's clean, check in your browser it's working too
+systemctl --user enable rslsync
+```
+
+
+

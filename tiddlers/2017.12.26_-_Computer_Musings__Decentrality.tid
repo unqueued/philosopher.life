@@ -1,0 +1,18 @@
+created: 20171226182816422
+modified: 20181029175224775
+modifier: h0p3
+revision: 0
+tags: [[Computer Musings]]
+title: 2017.12.26 - Computer Musings: Decentrality
+
+Confirmed IPFS/IPNS is doing its thang. Forgot to switch on my daemon (I thought I did with --now flag, but no go).
+
+gtk-gnutella setup. I wish had I more control over the icons in KDE.
+
+Turned off my giant Resilio Syncs. This is the wrong tool for the job. I hate to say it. Will I just byte the bullet and go for rsync?
+
+Cockatrice installed.
+
+Trying Zeronet build again.
+
+i2p and tor mostly setup. Daemonized, yes, but still some configs to work through.

@@ -1,0 +1,45 @@
+created: 20180930020147807
+creator: h0p3
+modified: 20181106233425811
+modifier: h0p3
+tags: kickscondor Note From
+title: 2018.09.29 - kickscondor: The Narrows
+
+> Very cool! My Recent pushes edited tiddlers to the top; I am not yet convinced your tool has the same behavior.
+
+If it doesn’t, it’s a bug. I use the `mtime` of the post’s file to arrange these, so I cannot sneak around it. If you can give me an example of the difference, I would really like to know!
+
+> Thank you for the Robustness principle. It’s beautiful.
+
+I’m glad you see it! I find it very profound—however, it is also somewhat cliché you could say, because it is only another sighting of ‘yin’ and ‘yang’ in the system. (I say ‘cliché’ not to belittle it, but to underscore how commonplace this strain of epiphany seems to be in the ‘eastern’ ways of thinking. I often think of the expression ‘if you meet the Buddha, kill him’—how do you both attempt to follow an archetype and to avoid archetyping that ideal too closely? But it does seem wise.)
+
+I wonder if you can also help me find some philosophical discussion about dichotomies and tradeoffs. For example, I find both socialism and capitalism very appealing—I truly can’t say which I prefer. I like that the library exists; and I like shopping for boots. I know there is a lot of negativity around this dualism (“this isn’t free-market capitalism”/“socialism hasn’t really been tried”) except that there seems to be respect for Denmark which has both free markets and high taxes, which certainly looks dualist (pluralist?—not sure the proper term) to me.
+
+So I wonder where in literature I might look for more about living/thinking pluralistically. My friends seem to see it as being hedonist, non-committal, ‘lukewarm’ and impossible. Well, yes—but it’s much more than that. It’s pluralism after all.
+
+>    I want to apologize for my constant ninja-edits. I have a thousand evolving things to say to you, and my drafts are just never done (as you have probably noticed).
+
+Change anything you want! You have my full trust. We are in a process of mental and lingual refinement. The tradeoff here is that I won’t be responding too closely to your words. I am going to not pick them apart—unless I want to tease out more understand or to encourage further ninja-edits.
+
+> Had to look that song and lyrics up. I keep an almost full size oil canvas reproduction of The Starry Night about four feet to the left of my desk.
+
+Yeah I guess now that I think about it, my thoughts were more on the painting than the song. But both are very intertwined for me. I had an uncle die of AIDS in his twenties. I was in third grade at the time. He was the rare uncle who is a friend—and he was a sensitive and stylish person. He was a painter and this was his favorite painting. My first experience crying emotively was when this painting and the song came on to the screen during a school assembly in fifth grade.
+
+I felt that he was ‘trapped’ in the painting—I looked into it and saw him. And also did not see him—just the dark, brilliant world without him. So he was also ‘free’ in the painting. I knew of Van Gogh’s troubled end and this added to the swirling spectre. It was as if the appearance on the screen of this image was an appearance of them—an impressive outward display of their presence in my soul. (Of course this was just a random slide that was thrown in there—I knew that even at the time, but it was as striking as if their photographs had been displayed.)
+
+> I am not asking the same from you, since I consider it unreasonable to ask it of you (but not of myself here). I hope to ‘go with the flow’ of your conversational style.
+
+This, along with the coincidence of the painting by your desk, is immense common ground for us! The principle of “my rules don’t apply to you, but you are free to look through them” (is this accurate?) seems woven throughout your wiki and I try to adhere to this perspective, too.
+
+> I’m considering adding compression internal to TW, but it violates my goal of keeping the source maximally readable. Unless I go for some alternative non-TW oriented loader, I’m like 99% sure I’m just going to stick to gzip and make people patiently wait (probably good for bouncing impatient trolls as well).
+
+So you don’t want to separate the wiki into separate pages? Or can’t? I thought there was a way of splitting tiddlers up. Or exporting or something.
+
+The monolithic file is the central issue I’d think—it contains an opaque filesystem. This is convenient for a lot of reasons: editing, transporting, searching.
+
+I have started a prototype for an idea I have—I will report back to you next week with some results. If I can somehow get access to some snapshots (say the last month’s worth)—that would be very useful.
+
+---
+
+I mentioned in my last comment wanting a month's worth of snapshots - but it's now clear to me where I can get them. ;) Disregard.
+- kicks

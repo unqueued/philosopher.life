@@ -1,0 +1,63 @@
+created: 20171213181244172
+modified: 20181224235148872
+modifier: h0p3
+revision: 0
+tags: [[Computer Musings]]
+title: 2017.12.13 - Computer Musings: Public Resilio Sync
+
+Sometimes I want to offer my services, tools, and resources to others. I can't tell if they really care enough about it, or want it, or would put in even the basic work to acquire it. Hence, I'm going to make it easy for myself. Here is what I will tell people.
+
+# Install Resilio Sync
+# Use the following read+write key: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA64
+#* That's 64 A's followed by the number 64. 
+#* This is easy for me to remember, and I can just give it to anyone.
+# Sign the Visitor Log and let me know what you need.
+
+Voila. Now we don't have to do any message passing (unless they want to do it through resilio). 
+
+I decided to create a visitor's log, just in case.<<ref "2018.12.24">>
+
+```
+// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // 
+//               ,,            ,,                                                            //
+// `7MMF'   `7MF'db            db   mm                       `7MMF'                          //
+//   `MA     ,V                     MM                         MM                            //
+//    VM:   ,V `7MM  ,pP"Ybd `7MM mmMMmm ,pW"Wq.`7Mb,od8       MM         ,pW"Wq.   .P"Ybm   //
+//     MM.  M'   MM  8I   `"   MM   MM  6W'   `Wb MM' "'       MM        6W'   `Wb :MI  I8   //
+//     `MM A'    MM  `YMMMa.   MM   MM  8M     M8 MM           MM      , 8M     M8  WmmmP"   //
+//      :MM;     MM  L.   I8   MM   MM  YA.   ,A9 MM           MM     ,M YA.   ,A9 8M        //
+//       VF    .JMML.M9mmmP' .JMML. `Mbmo`Ybmd9'.JMML.       .JMMmmmmMMM  `Ybmd9'   YMMMMMb  //
+//                                                                                 6'     dP //
+//                                                                                 Ybmmmd'   //
+//                                                                                           //
+// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // 
+//                                                                                           //
+//  Site: http://philosopher.life/                                                           //
+//  Email Address: h0p3@protonmail.com                                                       //
+//  Tox: FDD7005639C618263AB2EEDAB974F7576C7C0DED6217EED9E9DC0344C622E72AEEF7055F8B4D        //
+//  XMPP: h0p3@jabber.at                                                                     //
+//                                                                                           //
+// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // 
+//                                                                                           //
+//  Hello, guests. If you are so inclined, please sign this visitor log.                     //
+//  If you need something, please let me know                                                //
+//                                                                                           //
+// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // 
+```
+---
+
+I want to help my children be //terminal// snobs. People who know exactly what they are doing, what they want, and how to do it.
+
+---
+
+Server couldn't update...couldn't connect with apt-get, but could ping the servers. Here's the fix:
+
+`sudo vim /etc/gai.conf`
+
+Uncomment line 54:
+
+`precedence ::ffff:0:0/96  100`
+
+
+---
+<<footnotes "2018.12.24" "This has never been used. It was an interesting idea, and it has helped me think about what I want my [[RGB]] to be (and even how to reason about [[FTO]].">>

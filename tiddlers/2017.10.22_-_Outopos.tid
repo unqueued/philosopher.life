@@ -1,0 +1,11 @@
+created: 20171022202015435
+modified: 20181218014750448
+revision: 0
+tags: Outopos
+title: 2017.10.22 - Outopos
+
+Build the network inside the browser, WASM. 
+
+There will be admin/poweruser VMs to varying degrees, and there will always be userspace/average-joe VMs to varying degrees. The browser will eventually be the most robust VM if Google allows it. They'll probably change the fundamental layers of the foundation to such an ecosystem to break the previous. We see Firefox extensions about to die right now in part because of that. 
+
+WASM is "code once, deploy everywhere." Good programmers are going back into front-end development because of WASM. It's obvious that it will allow people to port and convert entire ecosystems into a highly sandboxed VM that every major platform can run. Smartphones made computers usable for truly stupid people. Unless you purposely go out of your way, it's very difficult to fuck your phone up, and so much information is backed up to the cloud for you (gratis, because they want your information, desperately), that even if you do, it's easy to start from scratch (device hopping included). That clean sandbox provides non-arbitrary but significant computing resources that will spawn a new wave of software that makes it simple for stupid people. I.e. I predict WASM is the beginning of an avalanche in software because it will be so ubiquitous given its power-to-risk ratio. Welcome to the increasing hardware and OS agnosticism of ecosystems evolve yet again.

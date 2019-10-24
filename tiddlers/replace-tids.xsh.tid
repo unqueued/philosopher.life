@@ -1,0 +1,14 @@
+created: 20181221161123660
+modified: 20181221165157229
+tags: [[One-Time Script]] [[Wiki: Scripts]] xonsh
+title: replace-tids.xsh
+
+```python
+#!/usr/bin/env xonsh
+
+cd /home/h0p3/stage/Daily/Wikis/ZEROTIDs
+lsoutput = $(ls).splitlines()
+for $ASDF in lsoutput:
+    cd /home/h0p3/stage/Daily/Wikis/tiddlers
+    cp $ASDF /home/h0p3/stage/Daily/Wikis/OUTPUT
+```

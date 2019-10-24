@@ -1,0 +1,32 @@
+created: 20180922213017485
+creator: h0p3
+modified: 20181201175113387
+modifier: h0p3
+tags: Sphygmus From [[Wiki Mechanic]]
+title: Auto-Wiki-Mator-Button
+
+!! Welcome to the Auto-Wiki-Mator-Button!
+
+This plugin comes with three buttons. In order to test these buttons out and see what they do, please also open [[Wiki Review: Focus]], [[Carpe Diem: Focus]], and [[Prompted Introspection: Focus]].
+
+* The default button: {{$:/plugins/sphygmus/reviewButton/button}} ([[link|$:/plugins/sphygmus/reviewButton/button]])
+* This button is tagged with `$:/tags/PageControls` - to change which button is placed where, change the tags on the buttons.
+* When you click the default button it will do the following:
+*# Create a new tiddler in the story list
+*#* This tiddler has its title and tags set by the plugin's configuration settings. For more information about how the title is formatted, check the [[Customizing Journal Tiddlers|https://tiddlywiki.com/#Creating%20journal%20tiddlers]] section of the TiddlyWiki documentation.
+*# Fill the body of the new tiddler with a bulleted list of all tiddlers created //yesterday//. This can be configured by changing the list filter used by the button.
+*# Appends the (bulleted & linked) title of the newly created tiddler to the [[Wiki Review: Focus]] tiddler.<<ref "hard">>
+* The all-in-one button: {{$:/plugins/sphygmus/reviewButton/button: all-in-one}} ([[link|$:/plugins/sphygmus/reviewButton/button: all-in-one]])
+*# Create a new tiddler in the story list
+*# Fills the body of the new tiddler with a list of all tiddlers created yesterday.
+*# Appends the (bulleted & linked) title of the newly created tiddler to the [[Wiki Review: Focus]] tiddler.
+*# Creates two new tiddlers titled & tagged based on the additional configs in the settings option of this plugin.
+*# Appends the (bulleted & linked) titles of the additional tiddlers to [[Carpe Diem: Focus]] and [[Prompted Introspection: Focus]], respectively.<<ref "hard">>
+* My personal button: {{$:/plugins/sphygmus/reviewButton/button: sphygmus}} ([[link|$:/plugins/sphygmus/reviewButton/button: sphygmus]])
+** This button is the same as the all-in-one button, minus the Prompted Introspection options.
+
+Please note that you must have a ''new line'' in the tiddlers to which links are being appended in order for the bulleted lists to work correctly! See the three tiddlers here for an example of what I mean.
+
+---
+
+<<footnotes "hard" "Yes, these are hardcoded into the button. I tried setting the target tiddlers as variables but imo it's lots of extra code for not that important a result. The target tiddler is called only twice in the button, and can easily be changed!">>

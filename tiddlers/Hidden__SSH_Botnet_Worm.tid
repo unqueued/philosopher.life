@@ -1,0 +1,216 @@
+created: 20180505131307364
+modified: 20181030025310854
+modifier: h0p3
+tags: Hidden
+title: Hidden: SSH Botnet Worm
+
+I've always fancied the idea of building a botnet that just automagically grows itself. 
+
+This idea is as old as SSH itself. But, it seems incredibly valuable non-the-less.
+
+You really want to hit routers and servers. You also want to erase your tracks. You will snag tripwires and raise alarms. You know many will be caught. This is why you have shard and decentralize very heavily. Losing one should not mean you lose them all. Brute force with smart dictionary climbing holds seems pretty hard to beat.
+
+Also, fun links:
+
+* https://www.botnets.fr/wiki/Main_Page
+* http://git.z3bra.org/ratox/files.html
+* https://blog.sucuri.net/2013/07/ssh-brute-force-the-10-year-old-attack-that-still-persists.html
+* https://github.com/forScie/SSHAttacker
+* https://github.com/ah8r/password-dictionaries
+
+!! Structure
+
+''Node Types/Flags:''
+
+* God
+** The Root Mesh Network
+*** Multi-Signature to control the rest of the botnet
+*** Compromises of a single machine stop nothing
+** Blackdropped and SwitchBladed remote servers I've personally setup
+*** Electricians are in an excellent position to do so
+** DC-netted over Tor and i2p
+*** Don't trust my own crypto more than I have to
+** Bruteforced reconnections
+** Maximum paranoia
+*** Tripwire sensitive
+*** Test each other constantly
+** I'll have to script connecting to each anonymously
+
+* Tiers of Scaling Angels
+** HAHP, high availability (98% uptime), high performance (CPU, Mem, Storage, and Throughput) nodes
+** HAMP, high availability, medium performance (missing a high performance attribute) nodes
+** URLP, UnNATed or UPNPable, relay, low performance (clearnet IPs) nodes
+
+* Minions 
+** Everything else
+
+
+''C&C:''
+
+Let us assume that the network can be enumerated by an adversary. Onion routed and DC-net cascades across the lattice of the botnet is a solid way to protect God. Nodes must trust other nodes as little as possible. We have to assume that at least some nodes (including God nodes) are compromised. We must use our resources efficiently, and we need a margin of error to (1) maintain my anonymity, (2) scale and prevent sybil attacks, and (3) prevent the network from being hijacked (even in shards). It's also crucial to have backup failover gameplans for resiliency while picking low-hanging, high-performance fruit first.
+
+* Communication Backbones
+** HAHP
+*** Ratox over Tor (i2p is not audited)
+*** Federated floodfill nodes that store shards of the botnet
+*** These angels talk with everyone, including God
+*** Trade information randomly with each other
+*** Commands from God are 
+** HAMP
+*** Ratox
+*** Direct Connect over clearnet
+*** These angels talk with HAHPs, each other, URLPs, and minions
+*** Trade information randomly with each other
+** URLP
+*** Direct Connect
+*** Act as relays
+** Minions
+*** 
+*** Direct Connect (attempt UPNP)
+*** Clearnet Message Passing
+**** Listening Only
+***** Reddit
+***** Voat
+**** Listening+Talking
+***** 8ch.net
+***** Pastebins+Imgur
+**** Signal in Title Options
+***** Invisign
+***** Random word bank trigger per context
+**** Message Options
+***** Short messages in text options
+****** Invisign in title or body
+****** Plaintext of body
+***** Long messages in image options
+****** Cryptographically secured information steganographically hidden in images
+****** Pixels or appended to the binary
+
+''Topology:''
+
+* Angels form their own mesh shards
+
+
+* Each node is connected to  to 2 other permanent nodes at all times. These form a DC-Net.
+
+others nodes through ratox at all times. A backup list of 10 others nodes is kept at all times.
+
+
+
+
+
+!! Maintenance
+
+Updates:
+
+* Check signature
+* Update 
+
+* Make sure connected to the botnet with plenty of nodes
+* Random rotation of nodes (don't get stuck)
+* Must hear from god once a month, otherwise begins searching for god.
+* 
+
+
+
+
+
+
+Once you're in:
+
+* Identify environment
+* Identify user permissions
+* Identify tools available
+* Identify resources
+** Benchmark CPU/Mem/Network_Throughput
+** Record drive space and any GPU
+* Map LANs
+* Call home with information
+
+* Monitor
+** Try to identify how often the node is online, for how long, etc.
+** Identify peak usage
+** Cede computational resources to owners as much as possible
+
+* Patching
+** Prevent updates.
+
+* Tripwires
+** Suspect nodes should alert themselves as being suspect
+
+* Rootkit
+** Should we hide our presence?
+
+* Attempt to change the SSH Port/User/Password/Key
+** Prevent others from rooting
+** The cost is that owners will find out, but this is likely worth it still.
+
+* On LAN:
+** If any other machines, attempt to break into those machines
+** Abusing every exploit available is worthwhile here
+
+
+
+Scanning:
+
+* Use distributed dictionary of IPs, otherwise brute force ipv4 and ipv6 addresses for targets
+** Attempt on ports: 22, 222, 2222, and 22222
+
+* Portscan
+** Only for high-performance nodes
+** Consider zmap
+** Only through Tor
+** Probably not worth it unless we have a specific exploit in hand
+
+* When SSHD is found:
+** Record ip/port
+** If ip-banned, share with other another node with stopping place to prevent redundant work.
+*** Must prevent sybil attack against my botnet here.
+
+
+
+Attacking:
+
+* Standard Dictionary attack
+** Start with root, traverse password dictionary, then move to next username, repeat
+
+* Brute force attack
+
+* Successfully attacked boxes:
+** Both attacker and attackee report to God
+*** Prevent sybil attacks
+*** Requires tripwires
+
+
+
+!! Developing Keys
+
+
+Multiple master keys:
+
+Password -> Argon2 -> MasterKey_1 -> Argon2 -> MasterKey_2 -> Argon2 -> etc.
+
+We can't do that for nodes though. Argon2 is out. It's too expensive. Perhaps delegation? http://www.bolet.org/makwa/...We could just throw a tiny roadblock up:
+
+Original_Key -> Random_QuantityOf_Hashes -> Child_Key -> Random_QuantityOf_Hashes -> Grandchild_1_Key -> Random_QuantityOf_Hashes -> Grandchild_2_Key -> etc.
+
+What about the Read+Write key structures of Resilio? We could implement that.
+
+
+
+
+
+
+Don't forget:
+
+* Run Tor/i2p as non-root, minimal permissions users
+
+
+
+Once you have a botnet:
+
+* Use actual exploits to grow it faster
+* Freedom Monkeywrenches
+** Advertisement clickthroughs
+* Parts of the network can be used for different tasks to which they are most suited
+* Force build physical and meshnetworks
+* Piracy network

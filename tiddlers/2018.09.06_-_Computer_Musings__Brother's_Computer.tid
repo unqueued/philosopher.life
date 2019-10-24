@@ -1,0 +1,59 @@
+created: 20180906171920547
+creator: h0p3
+modified: 20181029175224793
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.09.06 - Computer Musings: Brother's Computer
+
+Helped my brother install signal on his desktop. Hooked my brother up to zerotier and installed nomachine. He had to create a password for his account as well. We should be good to go for remoting in now.
+
+It's interesting to be googling for someone else.
+
+Setting up a windows machine with the basics for him.
+
+---
+
+`yaourt -S beaker-browser-bin` 
+
+Tried this early on ([[The Legacy Link Heap]]). Tried it again just for funsies, and didn't love it. Try it again?
+
+Because I'm a bad person:
+
+`sudo npm install -g dat`
+
+I fucking hate Ubuntu sometimes. Ugly hack to get an up to date copy of npm to eventually run:
+
+`curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -`
+
+Debian on RPi required some /etc/apt work. Manjaro is the only ez mode for me.
+
+The commandline tools are significantly nicer than the beaker browser itself. Perhaps IPFS should be added as well.
+
+I'm such a lazy fucker with permissions. 
+
+
+```
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+sudo npm install -g dat
+mkdir wiki-dat
+mkdir bin
+cd bin
+nano lazy_dat_sync.sh
+sudo chmod +x lazy_dat_sync.sh
+```
+
+...
+
+`sudo dat clone dat://554d20f199f556fed81a5f5ee72ca4544f470a47011cffce7dbf95b54e32d8ff/ /home/h0p3/wiki-dat`
+
+`sudo crontab -e`
+
+`* * * * * /home/h0p3/bin/lazy_dat_sync.sh`
+
+Oh, yeah: [[lazy_dat_sync.sh]] and [[lazy_dat_share.sh]]
+
+Fuck it. I really do hate getting it to work on ARM. Rust is fine. But, when I have to go through multiple ecosystems to get anything to fucking compile...ugh.
+
+---
+
+Need to redo the milligan thing. Will have pure CLI build ready. Might as well go manjaro at that point. She's not using it either.

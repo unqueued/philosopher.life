@@ -1,0 +1,20 @@
+created: 20171208213003727
+modified: 20171209000140184
+revision: 0
+title: Python: Script Timer
+
+```python
+############[Start Timer]############
+import time
+import os
+StartTimer = time.clock()
+#####################################
+
+# Foobar code goes here.
+
+#############[End Timer]#############
+EndTimer = time.clock()
+TotalRunTime = EndTimer - StartTimer
+print "\nRuntime:", TotalRunTime
+#####################################
+```

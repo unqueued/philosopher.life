@@ -1,0 +1,28 @@
+created: 20181102175911185
+creator: h0p3
+modified: 20181103054728361
+modifier: h0p3
+tags: [[Wiki Audit]]
+title: 2018.11.02 - Wiki Audit: Github Fail
+
+Hrmm...So, I've been playing with Unicode. I changed the title back to normal, and then gitpages dun borked on me (commits and rendering in my browser are just fine though). I like to push the boundaries sometimes, but this seemed completely safe to me (maybe it's TW that's the problem?). Gitpages' Jekyll threw up an error with no information at all. This is kind of ridiculous since there is nothing to build. I have a single html file, rofl. No specific errors were given, but unicode has to be the problem.
+
+The fix was to head to save the file from a text editor as utf-8 (but, it was always utf-8, right?). I do not understand what has gone wrong. My computer starts to freak out a bit with [[Unicode: Voldemort]]. Lol. Everything appears to have survived the re-encoding. How the fuck is gitpages that fragile?
+
+---
+
+[[j3d1h]] is working on [[Search of h0p3]]. The fact is that users of this site are unlikely to write their own filter expressions, even with tutoring. I have enormous amounts of structure built into this tool (and that is only increasing). We can leverage that very hard, and we should. I've done so much of the hard librarian work, and it's time to start building a tailored search tool for this wiki that enables anyone to dig with complex logic without having to do any major coding.
+
+She's going to be checking out the bidirectionality of Bob between browser and filesystem, and the bidirectionality of compiliaton/decompilation to the unified index.html file. I'm holding that static, unified file for as long as I can. This makes it difficult to have the real-time, non-race-condition-oriented, bi-directional, and complete access to the underling OS that I want. I want to be able to seamlessly edit from the server or single-file.
+
+---
+
+[[Monthly Auditable]] audit complete.
+
+---
+
+Continued [[Remembrall]] auditing. Slowly tagging, purging, categorizing, editing, etc.
+
+---
+
+Ugh, [[Root]]ed directories still didn't have their transclusionary pages deleted or all the aliases set. I think I've done that now.

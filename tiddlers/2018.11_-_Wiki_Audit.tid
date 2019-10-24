@@ -1,0 +1,60 @@
+created: 20181202002437804
+creator: h0p3
+modified: 20181202014735126
+modifier: h0p3
+tags: [[Wiki Audit]] [[Log Audit]]
+title: 2018.11 - Wiki Audit
+
+!! Log:
+
+* [[2018.11.01 - Wiki Audit: Auto]]
+* [[2018.11.02 - Wiki Audit: Github Fail]]
+* [[2018.11.03 - Wiki Audit: Slow]]
+* [[2018.11.04 - Wiki Audit: Wee Push]]
+* [[2018.11.05 - Wiki Audit: Tools]]
+* [[2018.11.06 - Wiki Audit: Stylesheets]]
+* [[2018.11.08 - Wiki Audit: Makeup Day]]
+* [[2018.11.11 - Wiki Audit: Doing a shit job, homie.]]
+* [[2018.11.12 - Wiki Audit: Editors]]
+* [[2018.11.15 - Wiki Audit: Grind]]
+* [[2018.11.16 - Wiki Audit: Remodeling]]
+* [[2018.11.17 - Wiki Audit: Push]]
+* [[2018.11.19 - Wiki Audit: Chat]]
+* [[2018.11.20 - Wiki Audit: PH's]]
+* [[2018.11.21 - Wiki Audit: Tidbits]]
+* [[2018.11.22 - Wiki Audit: Push]]
+* [[2018.11.23 - Wiki Audit: Aaaaand...We're Back]]
+* [[2018.11.24 - Wiki Audit: Links]]
+* [[2018.11.25 - Wiki Audit: Recent Obsession]]
+* [[2018.11.26 - Wiki Audit: Hub]]
+* [[2018.11.27 - Wiki Audit: Bob]]
+* [[2018.11.29 - Wiki Audit: Rube-Goldberg]]
+* [[2018.11.30 - Wiki Audit: Cmon, My Dude]]
+
+!! Audit:
+
+* Some of these I just jump into off a whim. I'm not sure if that's a good thing or not.
+** Hrm...I think it's important to have that whimsy at some point.
+* I clearly have a lot of plans.
+* [[The Remodeling]] is treacherously slow.
+** I need to be forgiving. I think it is completely fair to say I work ridiculously hard on this wiki.
+* I'm thinking Bob is going to become a real thing for me. I will be peeling apart of my development environment, but I can turn it off and work without it whenever I wish.
+** And, I will preserve the performance of users.
+** I think this will enable the hardcoding I desperately seek as well. 
+** I am excited.
+* I'm clearly having to make judgment calls in [[The Remodeling]].
+** I'm trying to be conservative about it, but sometimes I need to just take the open leap.
+* This may have been one of the most emotional months in the [[audit]] I've experienced since the beginning of this year.
+* The neat part is that [[Wiki Audit]] is often making long-term comments and analyses I'd normally see in my monthly audits. Something is working!
+* I keep seeing places to build logs. I wish I had clearer notion of how to do so effectively. This needs to become second nature to me; I shouldn't have to reason about how to solve this problem.
+** In fact, I'd like an automated way to do this. I just don't know all the rules of how to model doing this right now.
+* I'm still learning how to tag. It's a very slow process, and that's okay!
+* As my daughter points out, we've been messing with our git process quite a bit.
+** In fact, we've been working on the infrastructure a good deal.
+*** https://philosopher.life/ now serves about as fast as it's going to serve.
+**** 5.1.18 will possibly bring the "loading" image, so that may be one of the only other improvements I can make.
+*** I'm still heavily decentralized, it's real-time, it's basically free (though I still use to smooth some problems out), it's backed up and versioned hard, I can rebuild from a variety of failures, I do not rely upon or have to trust servers outside of [[m10]], and it's automated. 
+* I'm still balls deep in [[Alias]]ing.
+* Clearly, I have skipped a few days. =/
+** That's okay. You are forgiven, sir!
+* Again, I'm very proud of my work this month. I've been kicking ass in this log.

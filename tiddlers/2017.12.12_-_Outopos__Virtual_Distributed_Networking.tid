@@ -1,0 +1,32 @@
+created: 20171212195855927
+modified: 20181224234738007
+revision: 0
+tags: Outopos
+title: 2017.12.12 - Outopos: Virtual Distributed Networking
+
+Call it what you want, there are many names, kinds, type, and degrees. I want high-performance, nestable distributed virtual private networks with strong command-line access. This kind of network should be able to live on other networks, and that's the point. You never want to be tied down if you don't have to be. I have seen far too many incarnations, and I know none of them are right. What is it that I really need?
+
+* Flexible network topologies
+* Maximum choice for users regarding trust, privacy, anonymity, topology, etc.
+** There are always trade-offs, and we have to build something that gives users and devs the ability to pick those trade-offs.
+
+Examples (I've forgotten so many):
+
+* CJDNS/Hyperboria
+* Zerotier
+* Tinc
+* GVPE - https://debian-administration.org/article/695/Joining_disparate_hosts_into_a_VPN_with_gvpe
+* Meshbird
+* DMVPN (looks powerful)/https://sourceforge.net/projects/opennhrp/
+* https://wormhole.network/
+* https://github.com/meyerd/n2n
+* http://p2pvpn.org/
+* https://www.wireguard.com/
+* https://maidsafe.net/
+
+Also, we need storage/file systems:
+
+* https://storj.io/
+* IPFS
+* http://scuttlebot.io/
+* etc.

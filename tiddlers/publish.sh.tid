@@ -1,0 +1,12 @@
+created: 20190705020300343
+modified: 20190705021407252
+tags: [[Wiki: Scripts]] j3d1h bash
+title: publish.sh
+
+```bash
+#!/bin/bash
+
+sh /home/h0p3/fam-bob/k0sh3k/htmltotid.sh
+gawk 'BEGIN {RS = ""} ; /tags: .*Public.*/ {nextfile} /title: \$:/ {nextfile} ; {print FILENAME ; nextfile}' /home/h0p3/fam-bob/k0sh3k/Wikis/tiddlers/* | tr "\n" "\0" | xargs -0 rm
+sh /home/h0p3/fam-bob/k0sh3k/tidtohtml.sh
+```

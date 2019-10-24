@@ -1,0 +1,42 @@
+created: 20180102185404104
+modified: 20190705034350721
+revision: 0
+tags: Steganography
+title: Invisign
+
+These seem to very roughly ordered from the most steganographic to the least.
+
+```
+Te​​​​​​​​​​st - Zero Width Space
+Te‌‌‌‌‌‌‌‌‌‌st - Zero Width Non-Joiner
+Te‍‍‍‍‍‍‍‍‍‍st - Zero Width Joiner
+Te﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿st - Zero Width Non-Breaking Space
+Te⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠st - Word Joiner
+Te᠎᠎᠎᠎᠎᠎᠎᠎᠎᠎st - Mongolian Vowel Seperator
+```
+
+```
+Do you see the difference between these two objects?
+
+[Te​​​​​​​​​​st Te‌‌‌‌‌‌‌‌‌‌st Te‍‍‍‍‍‍‍‍‍‍st] [Test Test Test]
+```
+
+That is some black fangerprintin' magic right thar. Those first set of "Test" words have 14 characters instead of 4. Zero-width unicode characters are delicious as fuck. Steganography for the Web 2.0 World here we come.
+
+It's time to convert PGP clearsigning into zero-width encoded signatures that survive copy'n'pastes. Essentially, we can safely embed invisible signatures into what appears to be plaintext. I call it //Invisign// or //Invisiclearsign// (maybe one is the mechanism name and the other product name). 
+
+There are 6 such characters, but some "show up" in various usecases, while others remain invisible very consistently on various platforms, tools, etc. The more characters we have to work with, the better compression on the signature we can get. The first three, Zero Width Spaces+Non-Joiner+Joiner, are the way to go. 
+
+Thus, we must convert hexademical to ternary.  I like talking about Trits and Trytes. 
+
+This is a memetic tracer. I want to understand its full set of uses. 
+
+One could, for example, send ciphertexts through this means very easily. Timestamps against some blockchain, and plaintext as well. It doesn't simply have to be invisible clearsigning watermarks. There is a weird undercurrent to what this thing might be. You know how dogwhistling works, right? It seems like this has that.
+
+I'm thinking I could literally sign everything with it. Make a python script that allows copies, converts, and pastes including the invisign. Assuming I can trust my own computer (trusting trust!), I have a method of building trust in weird scenarios. 
+
+I love how sneaky this method is. It's truly clever. So many systems won't be looking for this. You'd really need to dig for it.
+
+* [[Invisign -h]]
+* [[Invisign -a]]
+* [[Invisign -l]]

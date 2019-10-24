@@ -1,0 +1,19 @@
+created: 20180214233032201
+modified: 20181029175224779
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.02.14 - Computer Musings: Deluge daemon demon!
+
+I cast thee out, Satan!!! My adversary is such a pain in my ass. God damnit, I don't fucking get it. I think 1200% CPU usage on 2 hyperthreaded cores is hilarious. I don't even know what that means, and I don't have time to dig around to understand it. I just need it to work. 
+
+I'm killing the webui to see if that is what it is. I'm happy to set watch folders; I especially want my add-ons back. I going back to just doing science now (although, I refuse to not have RSS...which I pray is not the problem). Perhaps I'm in denial. We will see.
+
+In any case, I may just have it auto-reset the daemon every hour or something. That would be the ugliest hack non-fix ever, although I don't think I'd see functional differences.
+
+Turned off the RSS for myanonamouse. I need points, but I don't give a shit. Eventually, I'll taper down. I can nothing to spend my points on.
+
+---
+
+Also, had to disable chroot on phone. I'm basically stuck with termux or something really simple. My battery life clearly can't handle more
+
+I setup an Ubuntu VM so that I have a secondary development environment. 95% of the time, I'm preferring Arch to Ubuntu, but I need to be able to handle the exceptions with grace.

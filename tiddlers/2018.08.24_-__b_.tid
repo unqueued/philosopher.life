@@ -1,0 +1,18 @@
+created: 20180824200706678
+creator: h0p3
+modified: 20181021032448264
+modifier: h0p3
+tags: /b/
+title: 2018.08.24 - /b/
+
+My phone's camera takes a picture that is lossy compressed to 2MB. That 2 million characters. If you have 5k character per page (fairly dense), that's 400 pages. Is a picture really worth 400 pages of text? Is my wiki only worth 9 pictures? Fuck that.
+
+I love my daughter's work on my portrait: 
+
+!!!!!!{{Portrait||Wiki: Center ASCII Art Settings}}
+
+`zstd -19 portrait.txt` = 2,376 bytes
+
+That's very expressive for the size. 
+
+I love text. 

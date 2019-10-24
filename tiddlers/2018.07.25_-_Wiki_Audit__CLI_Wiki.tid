@@ -1,0 +1,12 @@
+created: 20180725144829424
+creator: h0p3
+modified: 20181020180700980
+modifier: h0p3
+tags: [[Wiki Audit]]
+title: 2018.07.25 - Wiki Audit: CLI Wiki
+
+I'm considering going something like this:
+
+dotfiles -> Sanitizing Script -> NPM Tiddlywiki
+
+I don't love doing it by hand. I don't actually modify my dotfiles often though. The setup could be important for a lot of things though. In the end, I may end up doing a significant portion of my editing in CLI rather than the browser (a souped up VM GUI terminal)

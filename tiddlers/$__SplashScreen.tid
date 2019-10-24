@@ -1,0 +1,18 @@
+created: NaNNaNNaNNaNNaNNaNNaN
+modified: NaNNaNNaNNaNNaNNaNNaN
+tags: $:/tags/RawMarkupWikified/TopBody
+title: $:/SplashScreen
+type: text/vnd.tiddlywiki
+
+\rules only filteredtranscludeinline transcludeinline
+<div class="tc-remove-when-wiki-loaded">
+
+<style>
+body {
+  background-image: url("data:image/gif;base64,{{Wiki.gif||$:/core/templates/plain-text-tiddler}}");
+  background-position: center;
+  background-attachment: fixed;
+}
+</style>
+
+</div>

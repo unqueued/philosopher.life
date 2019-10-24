@@ -1,0 +1,62 @@
+created: 20190718050152961
+modified: 20190718162221022
+tags: [[Computer Musings]]
+title: 2019.07.18 - Computer Musings: m16 OTW
+
+[[monster-10]] is probably my favorite computer I've ever had. It has served me so well for many years now. Unfortunately, I've had several out of memory crashes (32GB including swap) in the past year, and I've been bottlenecked by my SSD's I/O to get anything done. On top of this, in part because of compression, I regularly max my CPU out in bursts (every core). It's freezing on me, and I have to wait; that has always been the sign to upgrade after trimming the software. I've lived for about 9 years on 16GB of RAM, and that ain't bad. Financially, I've not been able to afford a replacement, until now.
+
+For the first since [[monster]]-3, when x64 came out, AMD has the clear winner for me in both single-threaded and multi-threaded. The last time I built with AMD was a multi-seat for my offspring when they were 4 and 6. I'm excited to present the new components of [[m16]] in order of importance to me:
+
+* Ryzen 5 3600X
+* 64GB RAM
+* 1TB M.2 NVMe SSD  
+* 2x8TB HDDs in RAID-0
+* ASRock x570 Phantom Gaming 4
+* GTX 1650
+* Seasonic 450W
+* Tempered Glass, PSU-Shrouded ATX w/6 fans
+
+Some thoughts:
+
+* If I had more money and patience, ECC, upgraded to 2TB SSD, and another SSD in RAID-0 would be nice. I gamble with my bits now.
+* My assumption is longevity will be excellent on this machine, and I only anticipate growth in GPGPU and perhaps RAM (and I could move up to 128GB on this board). 
+** I spent maybe $20 per month for [[m10]] including electricity. I hope to get anywhere near that. 
+* Finally, I will not be out of RAM, and my CPU is going to be super comfortable with as many VMs as I want to run.
+* Yes, I'm still going to 1-for-1 Swap!
+* I'm so fucking pleased to have a large SSD, and it's pretty fast. I know I will feel the difference in many cases.
+** I'm also going back to having `/` and `/home` on the same drive. 
+* Back to using a RAID, but I really want to give my daughter every ounce of HDD space she needs, and I want to offload the server work entirely onto my machine.
+** This will free her up from having to do passthrough, and it will give her a dedicated Windows machine once we have the purchased laptops.
+** I decided against hotswap, though I have the bay drive. I'm not so much a hoarder anymore, but I do want to make sure I can preserve whatever I have.
+* Migration will not include any compute or storage hardware.
+** This is an opportunity to build from scratch.
+* This was an incredibly expensive build for me.
+* This computer is obviously not for any gaming or GPGPU.
+** But, it could easily be converted into a first-class gaming or ML box.
+** The GPU is a convenience, and I picked this because it was price-efficient for the performance.
+** It's about double the compute of [[m10]]'s GPU, and they were about the same price about 5-6 years apart.
+* Watercooling seemed irrelevant for this chip (even with OCing).
+* When I built [[m10]], it was because I brought it with me wherever I went. I don't anticipate that anymore. 
+* I'm not sure what I will be doing with [[m10]] now.
+* No T1 Hypervisor. I just don't see the point.
+** Would be nice to have PFsense router up, but I'm just not going to hold my breath.
+* I'm may not do passthrough (also, need another GPU for it).
+** [[m10]] will become a windows box then.
+* I anticipate blowing 10GB on Resilio Sync alone. There is no other option for the number of syncs, number of files, and size of files I've got here.
+* Modest single-threading gain at ~35%, though OC could push further (not for me these days).
+* Over double the multi-thread performance, jumping from 8 w/HT to 12. 
+* There are people who spend as much on a phone or a Chromebook as this machine, lol.
+
+Goals:
+
+# Assemble and test
+# Manjaro installation
+#* Test Sound
+# Fully-recorded and scripted construction of a reproducible development environment
+#* Right now, I would lose countless hours to a failed SSD, be it the root or home.
+# VMWare and Virtualbox installation.
+# Setup software, crontabs, syncs, backups, etc.
+## Torrenting will down on the SSD then get pushed to HDD for seeding.
+##* Will continue to allow seeding on Phoenix for now
+## Resilio Syncs that modify all the time stay on the SSD, and most will just stay on the HDD.
+##* Allocate storage space to each person.

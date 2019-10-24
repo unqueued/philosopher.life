@@ -1,0 +1,21 @@
+created: 20180206162156561
+modified: 20181029175224779
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.02.06 - Computer Musings: Backburner
+
+Well, stuff works. I need to set it aside to find a job.
+
+Getting 400 error on gmail. Clearing entire google cache is the only answer. I have no idea what is happening.
+
+`chrome://settings/siteData`
+
+I can't just clear gmail related stuff, I have to do it for all of google. My hypothesis, at the moment, is that it does not play nicely with geoIP changes from proxy and the newly assigned WAN IPs from switching router MACs.
+
+---
+
+Setup shadowsocks and openVPN servers for extended family.
+
+---
+
+Baloo is annoying.

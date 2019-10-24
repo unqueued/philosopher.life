@@ -1,0 +1,23 @@
+created: 20190110183511352
+modified: 20190110183635909
+tags: BDS97
+title: 2019.01.10 - BDS97: Routing Algos
+
+```
+[18:38:09] h0p3: https://yggdrasil-network.github.io/
+[18:38:57] BDS97: home: nice
+[18:39:12] BDS97: home: will definitely check that out, especially the ideas about routing
+[18:42:51] BDS97: home: not sure about this spanning tree thing
+[18:43:12] BDS97: home: it's definitely central to their network, hence the Yggdrasil
+[18:43:28] BDS97: home: but if that node is an actual, physical node, this is inherently centralized
+[18:44:29] BDS97: home: in which case the center, single point of failure, and single point of control is the global root node
+[18:46:02] BDS97: home: it's nice though, definitely a great proof of concept to Atropos Mesh (the last mile hopping wifi-to-wifi network)
+```
+
+```
+[10:40:02] h0p3: Before we finalize the protocol, I'm wondering if there are any other footholds we can add to it to improve routing speed.
+[10:40:32] h0p3: Obviously, centralization is a no go. 
+[10:41:29] h0p3: I am worried about how trust might centralize too far as well. Imaging Google throwing up the best Nodes on Atropos to the point that everyone trusts them. Could they break this?
+[11:22:11] h0p3: Look, I'm the worst about preoptimization being the root of evil. But, it seems to me that once a protocol is set, it's really fucking hard to change or extend it. TCP/IP is the example that just haunts me.
+[11:22:46] h0p3: If mutability was part of the original torrent protocol, the world would be a different place.
+```

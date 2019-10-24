@@ -1,0 +1,18 @@
+aliases: [[Monthly Auditables]] [[monthly auditable]] [[Monthly Audit]] [[monthly audit]] [[Monthly Audits]] [[monthly audits]]
+created: 20181101151451038
+creator: h0p3
+fc-filter: [tag[Monthly Auditable]]
+modified: 20190705040333919
+modifier: h0p3
+tags: [[Wiki Audit]] filter-list
+title: Monthly Auditable
+
+//Clearly, I value these logs highly. Auditing is hard work.//
+
+Warning! This button may overwrite Audits, but it may also duplicate them, somehow. If you press it more than once, it's your problem.
+
+<$edit-text tiddler="Audit Date" tag="input"/>
+
+<<audit-button>>
+
+{{Monthly Auditable: Focus}}

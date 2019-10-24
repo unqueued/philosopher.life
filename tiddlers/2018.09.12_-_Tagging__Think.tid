@@ -1,0 +1,111 @@
+created: 20180912201106194
+creator: h0p3
+modified: 20181022191943829
+modifier: h0p3
+tags: [[Tagging Theory]]
+title: 2018.09.12 - Tagging: Think
+
+It's interesting that people think I'm not thinking enough about the future in my structuring here. I feel like my linking structure is not reliant upon staying inside the TW format. Again, I think of these as simulating flat textfiles just linking to each other (which is unix as fuck to me). Am I just wrong here? Hardcoding does have something valuable going on. I will need to think with several people here. [[Sphygmus]] deserves most of my attention, and she likely understands the issue more directly than others.
+
+---
+
+https://onlinelibrary.wiley.com/doi/epdf/10.1002/meet.2008.1450450214?shared_access_token=sYPy5ypVO1m3CAjUTSQrAk4keas67K9QMdWULTWMo8MmTCSYXY7CJf6rxsmUxhzU7Pil_sS6CTdetXzwovDhOBiONBj1m-F5Yc7BNCXi8F-f_GjPNGzcPaJhaozn64yOQQInaodi7ZOrn9_DJLAGEOH7S7leI5PCuVmLvW5EQfA%3D&
+
+Excellent paper.
+
+Alright, so I'm just going to spill my guts. Gonna pretend I'm in MLIS school (was accepted at LSU's program, also their CS PhD...but, I went philosophy, my calling), and I'm gonna speak out against my professors. I'm standing on my hill, my tribe, and I'm going to confabulate until I die on it. That asshole [[h0p3]] always thinks he's right...at least he keeps it interesting.
+
+This does not look like great empirical testing (I love to make fun of librarians [with them], I know their math skills..."science" is almost the wrong word), but it does juice my intuitions. 
+
+For me, the strength of directories is that it //forces// me to think hierarchically. I don't get to put off decisions lazily, or if I do...it screams out to me that one of my directories (or all of them) is a "mere heap." Tags are insidious for me in this way, allowing me to be lazy. With directories, you are forced to see that your room is messy when it is. The messiness of tagging creeps up on you. That the order didn't rise is almost an accident. 
+
+It appears to be a will power issue. It's easy to see relations (imho); it's hard to force myself to rank those relationships into a meaningful purpose. In a way, tags allow me not to reason about the meaning of something (which can be a very valuable asset, as long as I come back eventually and do the lexical categorization work later...I'm a lazy fuck though) all the way down. 
+
+It is always my contention that knowing "where" something belongs in a wiki is a hard but necessary problem to solve. It's part of solving any problem, in a sense. Thought must be sequenced, structured, hierarchicalized, prioritized, etc. You have to nest the functions and resolve them until it spits out ONE answer (Hello, {[[About]]}). What is left over afterwards is the ineffable!
+
+Tags seem to give emergent, OOO, rhizome properties. They force us to be more macroscopic and lateral at times. Squishy flatness is sometimes what the doctor ordered.
+
+Directories tend to be more visual, but they don't have to be. Tags could just be directories with softlinks visually.
+
+Alright, the more I talk about this, the more I'm like "Why not both?" It's way more work, right? Does one of them have to be primary? Tagging and standard field usage seems much easier to automate. The core mechanics of the wiki are built around new construction with these fields. That alone seems to make me think there's something wrong with going directory/link structure. The pros are almost horrified by what I've done, lol.
+
+I am so worried that I'm confabulating here. I've poured an insane amount of time into this wiki, and that should be reason enough to dismiss me as biased (or an expert...since expertise is bias).
+
+I can say that in my usage of the web, tags have not been good exploration mechanisms for me. Links and directories + search continue to reign supreme. But, maybe that's because tags are still just too new and I'm too old or something (get off my lawn). 
+
+The analog/digital post-it thing wasn't explored? 
+
+''I need to understand what hierarchies in pure tags really looks like in TW.''
+
+[[The Salience]] must rise from the flatness. I am missing something stupid important or obvious here.
+
+Here's an example of where I'd prefer tagging: [[Link Log: Archetypal Comments]]. But, I'm not making a tiddler for each link, lol. I can see it for music and photos too (e.g. what if I want instrumentals only). A lot of the "tag" work I want to accomplish is stuff I'm not going to make a new tiddler for though. It's not important enough to me! Sometimes that's what directories just do: they show me what is really really important. 
+
+A directory is a tag (and the tags nest into hierarchies, and because I can multi-link [half the point of using a wiki!] I can make explicit the relationships between directories that share content). When you only have "one tag" to spend, you have to become more efficient in expressing semantic relevance. RELEVANCE is always the keyword in Library and Information science. I need to be lazy [[irwartfrr]]; help me obiwan.
+
+This might all be moot here. Yes, I can just hack together a structure outside TW in Python (I fucking hate Javascript...even though my daughter is learning it now, poor girl; I gave her all the delicious languages first), but why use TW then? The whole point of using TW is to not work harder than I have to. The hard part of my wiki will always be trying to stuff content into it; I've done the hardwork in structuring already (REDFLAG; are you confabulating, sir?). TW is clearly designed for using tags and non-title fields for organization. I don't understand what the point of the title field is besides human readability. 
+
+Why not blank-title or hashtrees with "tag" properties? Why not just live on tag bread alone? 
+
+Recall difference is big! My worry is that they've not talked about hierarchical organization nearly enough! This may also be a context specific thing. My memory works differently (it can be incredibly good at times and basically just normal in others). What happens when you start nesting directories? Nested directories are multiple tags; they show an important relationship.
+
+What does this discussion remind me of? I've seen this before. Directories are babby's first tags. It forces you to play safe. It's organizationally garbage collected. Don't you want to be all growed up, use that power tool, take off the training wheels, use dat unsafe Rust? Doesn't that just decide it? Just find a way to build hierarchies in tags that are just as easy to create and reason about.
+
+Human readability should be maintained. Keep titles enriched, but don't build the structure off them.
+
+1.4 labels sounds like .4 footholds to me.
+
+Trees and Venns are not accurate models, but they are fine beginning points.
+
+Temporality can be handled with either...I do that in my naming convention, for example.
+
+The goal is to be adversarial, greedy, efficient, never spend a moment tagging unless you absolutely must. Force yourself to do the directorial heavy-lifting, and when you want to stuff 1.4 pounds of category shit in a 1.0 pound bag, then add the second tag. Yeah, they trick tagging systems through naming conventions, but I can multilink and my naming conventions are tricks.
+
+---
+
+http://muse.tau.ac.il/publications/101.pdf
+
+[[Hub]] and [[Pin]] are solve this problem. That's the point! I want arbitrary depth. I want to instantly clump things together. I want an evolving bookmark process for my directory structures. From the commandline, I want ZSH autocompletions (like 3 different tools I use here), bitchin search, and `cd` trix to zip around. For GUI, I want to visually see what matters most. *sigh...When I see this, it makes me think I need to just go straight to vim and do this commandline.
+
+The fact is that I really do want to maintain a single file that is highly portable, signable, etc. 
+
+Directories starting with [[Root]] is the virtual file structure. //Access// is sidebar work.
+
+I feel like I'm reinventing the wheel here. Jesus, /smh. Have I learned nothing?
+
+One of the reasons I like using the wiki is it forces me to be compact, to use text, etc. I need to be forced to play within certain constraints, otherwise, I'm just going to end up with 2TB of bullshit. The whole point is to crystallize it. Ah, I used this reasoning before. Do I really, really need to tag then? Why not just keep it simple? I've gotten along just fine with hardlinks.
+
+Tagging could make it easier to spawn new tiddlers. That is the primary difference I can see. That alone might be worth it. I'm pretty slick on a keyboard, and I've decades of experience just making key combinations routine, but this is friction to lose. 
+
+It will be a lot of work to convert over, but it really might be worth it. Wish I knew.
+
+---
+
+https://www.nayuki.io/page/designing-better-file-organization-around-tags-not-hierarchies
+
+Beacon of hope here. Someone knows what it do (it be like it is).
+
+This person's right. But, I've said this before, if I choose to go tagging, especially with automation, I will be locking myself into TW. I feel like I've been careful not to lock myself into this thing. I'm 2 years in though. 
+
+This person gets it. Tags do remind me far more of relational databases (which bit me in the ass 15 years ago!...KEEP IT SIMPLE STUPID). Now, why don't we use this system? Is it really just inertia? I'd be interested to see raw performance addressed (which, apparently matters in TW...).
+
+Forced unique names, well, TW forces that one me. More importantly, I do value the ability to handle these as flatfiles!
+
+" non-scalable kludges" okay, okay, okay.
+
+What does TW look like built from Tags up? What I like about links is they are directly manipulable. Does the complexity of tagging force a cognitive load that makes it hard for me to make certain kinds of changes?
+
+Alright, this was a very fun article. Here's an argument against it: you're talking about gigantic, immensely complex file systems. More practical: I agree, ext4 is not the right answer, but the tooling for it is so consistent, it's so legacy that it always works (e.g. dropbox's latest support for file systems dropped).
+
+Do I really think my wiki is going to get that complex? Look, if I'm stuffing 10TB of data and 10 millions files into this with complex structures galore, yeah. The whole point of the wiki is go as simple as I can though! I'm supposed to be reductive! The hyperobject, [[The Good]] in my context, is so fucking large and impossible that my only hope is to climb with something that "just werx" in baby steps. I'm trying to simplify what I'm looking at on purpose. I could just archive my entire digital existence, but then I've defeated the purpose of modeling here. I'm trying to be a fucking hacker in this space...ain't nobody got time for doing the fancy steps...find the cracks and exploit them. This is [[Applied Computational Existentialism]]. Tell the story that you can't quantitatively. You have to be inductive. You have to guess. You are trying to capture the universe here in a nugget, but that has to be in ENGLISH not math as best you can. This is a HUMANITIES project. 
+
+Portability, performance, size, limiting the friction between what's in my head and what's on the screen, allowing me to see relationships I could not before, forcing me to PUT A NAME ON IT (represent it; signify, homie). You have no time. The average lifespan of an autist is 36 years (you have 3); most people looking at what you look at are going insane (killing themselves...you have maybe 20 years) in the past century. You are in a race to tell the story to your children before you die (or the world goes to shit). 
+
+I need to make sure that the really fancy work I'm doing is in the content, not the structure of the wiki. This is a ''__//NARRATIVE//__'' tool (WAKE UP!). The moment I'm trying to get too statistical with it, I feel like I've lost what it's really, really trying to do. How shiny do I really need to go? How quant will I go? 
+
+If it ain't broke, why fix it? What functionality do I want right now? 
+
+* Automated tiddler creation for ''logs''.
+** Specify all metadata automatically.
+** Specify basic templates in the body automatically: [[Wiki Review]]
+** Hardcoded everything to maximize portability (I could print the god damned thing out and trace it on paper)

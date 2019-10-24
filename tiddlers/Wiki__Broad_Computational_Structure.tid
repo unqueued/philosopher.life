@@ -1,0 +1,70 @@
+created: 20171104234114275
+modified: 20190705180123446
+revision: 0
+tags: APFVD [[Program Yourself]] Wiki
+title: Wiki: Broad Computational Structure
+
+See also: {[[Help|Help: On this Wiki]]}
+
+---
+!! About:
+
+//Oh, you're asking who is root? I'm still figuring that one out. Let me guess: it's me, right?//
+
+There is a somewhat unique set of nested data structures that comprise this wiki. The very way in which the wiki is structured dictates what kinds of algorithms I can run on it. I believe this is a non-trivial component of the applied computational existentialism employed on this wiki. Here I outline a crucial relationship between the broader syntactic structures of the wiki (its form) and the computational nature of it (its function).<<ref "1">>
+
+
+---
+!! Principles:
+
+* Define the F-ness of your each of your structures.
+* Show the links, synergy, tactics, and strategy of these structures.
+* Demonstrate what emerges from these structures.
+
+
+---
+!! Focus:
+
+* [[Wiki: Fundamental Epistemic Structure]]
+
+
+* Aboutness
+** Boot Sector and existential anchor
+** Narratival and dialectical
+** [[Fastmind]]-oriented
+
+* Principlesness
+** Quantified Application of About
+** Formal, defining, and guiding
+** [[Slowmind]]-oriented
+** Goal-Oriented about the Wiki
+
+* Focusness
+** The Present mostly, but also Past and Future Projects
+** Goal-Oriented about Life
+
+* Vaultness
+** The Past
+** Shows you when your work was and wasn't worth it.
+** Gives you data to mine! Find them patterns, diamonds, and repills.
+
+* Dreamsness
+** The Future mostly, but also Present Experience Machines
+
+
+---
+!! Vault:
+
+* Retired:
+** [[2017.11.04 - Retired: Wiki: Broad Computational Structure]]
+*** I want to point out that this initial attempt brought me a very long ways. It was a seed, and I'm glad I planted it.
+
+
+---
+!! Dreams:
+
+* It took a year to dream up, to finally see, and to implement the [About, Principles, Focus, Vault, Dreams] structure as both the overarching structure, but also a directory template. I need to continue to explore the implications of these structures and refine my search.
+
+
+---
+<<footnotes "1" "My goal isn't to peel them apart here, but to some extent we can.">>

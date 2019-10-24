@@ -1,0 +1,9 @@
+created: 20190727213112158
+modified: 20190728001015279
+tags: 1uxb0x [[Computer Musings]]
+title: 2019.07.27 - Computer Musings: BW
+
+SSD is having problems. Can't format, and it doesn't keep its partitions. No idea. On a hunch, opened it up. No rails on his SSD, it's lose in the cage. We found the rails and seated it. Then we found out he wasn't actually booting off the arch USB. Neat. 
+
+smartctl tests are fine. hdparm showed frozen, but unsuspended. Ended up using hdparm to wipe the SSD, and then we were cool. Spent time walking through what we were doing more explicitly with comprehension tests. Much better. It is not every 11yo who knows both the how and the why here. He got through to installation, though wireless is something he has to get working on his own.
+

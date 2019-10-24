@@ -1,0 +1,564 @@
+created: 20180518002146042
+creator: h0p3
+modified: 20181031035931164
+modifier: h0p3
+tags: Tulane
+title: 2012.12.15 - Epistemology: Lottery Paradox Paper with Comments
+
+//Bruce Brower's class//
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+SKEPTICISM, PROBABILITY, LOGIC, AND THE LOTTERY PARADOX
+
+1.1
+
+One of the first renditions of the Lottery Paradox can be traced back to Henry Kyburg in his book Probability and the Logic of Rational Belief.1 It has sparked an enormous amount of literature surrounding the problem. In this paper, I will address a standard, modern version of the Lottery Paradox, describe some problems with it, and offer a version which is closer to Kyburg’s original to deal with these problems.
+
+Before I get to the Lottery Paradox, I would like to first look at some background considerations which provide context and juice our intuitions about the nature of the Lottery Paradox. John Hawthorne offers a clever epistemology problem which motivates the Lottery Paradox. He begins with a story:
+
+[Many] normal people of modest means will be willing, under normal circumstances, to judge that they know that they will not have enough money to go on an African safari in the near future. And under normal circumstances, their conversational partners will be willing to accept that judgment as correct.
+
+
+
+However, were that person to announce that he knew he would not win a major prize in a lottery this year, we would be far less inclined to accept his judgment as true. We do not suppose that people know in advance of a lottery drawing whether they will win or lose. But what is going on here? The proposition that the person will not have enough money to go on an African safari this year entails that he will not win a major prize in a lottery. If the person knows the former, then isn't he at least in position to know the latter by performing a simple deduction?2
+
+
+
+With that in mind, consider the following argument which formalizes Hawthorne’s story:
+
+[1] S knows that S won’t have enough money to go on a safari this year.
+
+[2] If S knows that S won’t have enough money to go on a safari this year, then S is in a position to know that S will not win a major prize in a lottery this year.
+
+[3] Hence, S is in a position to know that S will not win a major prize in a lottery this year.3
+
+
+
+THAT IS A FORMALIZATION OF HAWTHORNE’S STORY, BUT WHAT IS INVOLVED IN MOVING FROM ‘S KNOWS P’ TO ‘S IS IN A POSITION TO KNOW Q’? WHAT IS IT TO BE IN A POSITION TO KNOW?
+
+
+
+
+
+
+
+As Hawthorne points out, many people are inclined to oppose [3]. In fact, it seems odd to even suggest that an agent knows he will not win the lottery, especially when he habitually buys lottery tickets. After all, if an agent “knew his ticket would lose, why would he have bought it?”4 Sure, it is exceedingly likely that S will not win a major prize in a lottery this year, but does this count as knowledge? There is always a chance, and we seem acutely aware of that fact. Perhaps knowledge requires such a high epistemic standard that something like [3] just isn’t plausible.5 Of course, this intuition which opposes [3], turns out to be problematic for the argument. For example, if we maintain [2], but deny [3] because of this problematic intuition, then we must deny [1]. It isn’t clear, however, that [1] is something we are really willing to sacrifice. Hawthorne is claiming that “S won’t have enough money to go on a safari this year” seems to be a sensible candidate for knowledge. Maybe he is right.
+
+
+
+1.2
+
+Hawthorne considers the possibility that this sort of problem can be extended to any number of areas of life. He explains that our ordinary propositions, such as “not having enough money to go on a safari this year,” are the everyday sorts of propositions we take ourselves to know.6 He further explains that for each ordinary proposition (or at least most of them) there is a corresponding lottery proposition which we do not take ourselves to know, such as winning the lottery, having one’s car stolen, or having a heart attack today, which will cause us to doubt that we know the matching ordinary proposition.7 And, while unnamed, there is also an entailment proposition, which connects the ordinary proposition P and lottery proposition Q, such that P  Q. The general form of the argument goes:
+
+    Know(Ordinary Proposition) Assumed
+
+    ~Know(Lottery Proposition) Assumed
+
+    Know(Ordinary Proposition)  Know(Lottery Proposition) Assumed
+
+    Know(Lottery Proposition)  Elim: 3, 1
+
+    ⊥	⊥ Intro: 4, 2
+
+
+
+We must deny one of the assumptions to escape the reductio. As considered in the safari example, it may be argued that 2 and 3 are the propositions in which we are most confident, and so 1 has to go. But, at least on Hawthorne’s model, to deny all ordinary propositions may turn out to be the denial of an enormous number of common-sense, ordinary propositions we claim to know. A kind of skepticism emerges from this position.
+
+Granting Hawthorne’s model, in order to avoid skepticism, we can maintain 1, and instead deny 2 or 3, which enables us to escape the reductio without sacrificing our knowledge of ordinary propositions. Denying 3, the entailment proposition, does not seem very appealing when we consider the web of inferences connected to each ordinary proposition. Hence, we may be motivated to deny 2, the claim that we do not know the lottery proposition. In effect, we may be driven to accept that we know lottery propositions. What does this entail?
+
+
+
+1.3
+
+Let us go back to the original example, where we will now deny the problematic intuition and simply accept [3]. How can we make sense of the claim: “S is in a position to know that S will not win a major prize in a lottery this year”? An adequate theory of knowledge would need to demonstrate that we can know propositions such as “S will not win a major prize in a lottery this year” at all. In some sense, this is tricky. We might think of knowledge as requiring that we form beliefs about things which are not merely probably true, but guaranteed to be true. Lottery events are events of chance and probability. We hesitate, as in the initial problematic intuition, to accept that we can know the outcome of an event with a probability less than 1. But, we may be driven to do so because of a possible problem of skepticism.
+
+Avoiding the kind of skepticism posed by Hawthorne’s set of ordinary/lottery propositions is not the only reason to agree that we can know the outcome of probabilistic events. In fact, there are many circumstances in which we might think (or hope) an adequate theory of knowledge would explain that we could know some proposition if that proposition had a sufficiently high chance of being true. For example, science, a realm which many of us would like to think generates knowledge, is filled with conclusions which are highly likely to be true, but not certain. Probabilistic justifications or theories of knowledge, at first glance, are well positioned to make sense of these very sorts of worries.
+
+We might think the best way out of many of these issues is to abandon our claims to knowledge (at least in many circumstances), and instead focus upon sufficient epistemic justification for rational acceptance. It seems plausible that many of our beliefs might be true, justified, and degettierized, but not to the point where we are inclined to think of these beliefs as knowledge.
+
+As far as I can tell, we can go back through the Hawthorne examples and replace “know” and “knowledge” with “rationally accept” and “rationally acceptable belief,” and we still have the same kind of problems. I THINK THIS IS REALLY DEBATABLE, AND IT DEPENDS ON WHAT GOES INTO RATIONAL ACCEPTANCE, ESPECIALLY IF IT MEANS SOMETHING LIKE “RATIONALLY ACCEPT, FROM AN EPISTEMIC POINT OF VIEW,” WHICH MIGHT PERMIT THAT GIVEN THE RISKS/REWARDS, IT MAY STILL BE WORTHWHILE TO RATIONALLY ACT A CERTAIN WAY ON WHAT WE MAY CALL “AN OUTSIDE CHANCE.” AS YOU KNOW, THE RELATION BETWEEN EPISTEMIC JUSTIFICATION AND PRACTICAL RATIONALITY IS ONE OF THE ISSUES HERE. I AM SUGGESTING IT MAY BE EPISTEMICALLY RATIONAL TO ACCEPT P, RATIONALLY (EPISTEMIC) ACCEPTABLE TO ACCEPT THAT IT IS POSSIBLE THAT NOT P, AND PRACTIALLY RATIONAL TO ACT ON THE POSSIBILITY THAT NOT P. Analogously, the Lottery Paradox (which is coming up momentarily) can be formulated for both knowledge and rational acceptance.8 Instead of knowing, I will focus upon rational acceptance and justified belief (without aiming for knowledge). Intuitively, I think many skeptical attacks which defeat probabilistic models of the broad epistemic concept of rationally acceptable belief are likely to defeat probabilistic models of the narrow epistemic concept of knowledge because knowledge appears to be a subset of rationally acceptable belief.
+
+At any rate, probabilistic rational acceptance looks promising on a number of fronts. Importantly, the kinds of probabilistic rules which define where one is justified in believing or rationally accepting a proposition is the exact kind of rule which the Lottery Paradox calls into question. Let us consider a fairly standard, modern version of the Lottery Paradox.
+
+
+
+2.1
+
+The Lottery Paradox tries to demonstrate that the following three epistemic principles (or their equivalents) are inconsistent:
+
+    A proposition φ is rationally acceptable if P(φ) > t, where P is a probability distribution over propositions and t is a threshold value close to 1.9
+
+    It is not rationally acceptable to believe in contradictions.
+
+    If each of the propositions φ and ψ are rationally acceptable, so is (φ & ψ).10
+
+
+
+The first principle is known as the Sufficiency Thesis; it is a probabilistic acceptance principle. The third principle is known as the Conjunction Principle.11 Note that by mathematical induction, we can generalize the Conjunction Principle to any finite number of conjuncts.12 The inconsistency of these principles is demonstrated by the following thought experiment.
+
+2.2
+
+Suppose the three epistemic principles above, where t = .99. Suppose a fair lottery of 100 tickets, where the selection of each ticket is equiprobable, and exactly 1 ticket will be randomly selected as a winner.
+
+Where n is the set of whole numbers 1 through 100, for each ticket, where the first ticket is T­1­, the second ticket is T­2, ­… , and the hundredth ticket is T­100­, there is a corresponding proposition claiming ‘ticket Tn is a losing ticket’, where the first proposition K­1­ corresponds to T1­, and so on.
+
+By supposition, we know the proposition ~(K­1 ­& K­2 ­& … & K­100­)­. In other words, the proposition “there is a winning ticket” is rationally acceptable.
+
+Since we know that each ticket is 1 ticket from a pool of 100, we know that for any K­n­, P(K­n­) = .99. Hence, by the Sufficiency Thesis, believing any particular K­n­ proposition is rationally acceptable.
+
+Since K­1 ­is rationally acceptable and K­2 ­is rationally acceptable, by the Conjunction Principle, the proposition (K­1­ & K­2­)­ is rationally acceptable. Since we know each Kn­ is rationally acceptable, we can continue to employ the Conjunction Principle such that (K­1­ & K­2­ ­& K­3­) is rationally acceptable, and (K­1­ & K­2­ ­& K­3­ ­­& K­4­) is rationally acceptable, and so on. Hence, by the repeated use of the Conjunction Principle, (K­1 ­& K­2 ­& … & K­100­) is rationally acceptable.
+
+We arrive at the contradiction between (supposedly) rationally acceptable propositions ~(K­1 ­& K­2 ­& … & K­100­)­ ­and (K­1 ­& K­2 ­& … & K­100­). In other words, we assumed there was a winning ticket, ~(K­1 ­& K­2 ­& … & K­100­)­­, and using our principles of rational acceptance, we deduced that there is no winning ticket, (K­1 ­& K­2 ­& … & K­100­). This violates the second principle.
+
+2.3
+
+I could stop here, but before I move on, I want to point out that many versions of the Lottery Paradox render the contradiction in terms of probability, presumably because it may be easier to see the problem in a more concrete way and because the point of the Lottery Paradox may be to attack probabilistic reasoning. The steps to do this are fairly straightforward.
+
+Since we rationally accept ~(K­1 ­& K­2 ­& … & K­100­), and ~(K­1 ­& K­2 ­& … & K­100­) ↔ (P(~(K­1 ­& K­2 ­& … & K­100­)) = 1), then (P(~(K­1 ­& K­2 ­& … & K­100­)) = 1), the proposition that the probability of there being a winning ticket is 1, is rationally acceptable.
+
+Since we rationally accept (K­1 ­& K­2 ­& … & K­100­), and (K­1 ­& K­2 ­& … & K­100­) ↔ (P((K­1 ­& K­2 ­& … & K­100­)) = 1) ↔ (P(~(K­1 ­& K­2 ­& … & K­100­)) = 0), then (P(~(K­1 ­& K­2 ­& … & K­100­)) = 0).
+
+While not a formal, direct contradiction, (P(~(K­1 ­& K­2 ­& … & K­100­)) = 1) and (P(~(K­1 ­& K­2 ­& … & K­100­)) = 0) propose that the probability of there being a winning ticket is both 1 (guaranteed to occur) and 0 (guaranteed not to occur).
+
+
+
+2.4
+
+Clearly, the Lottery Paradox demonstrates that the three epistemic principles lead to contradictions, and thus the three epistemic principles are inconsistent. Importantly, the Lottery Paradox is intriguing because one can nicely scale up the number of tickets in the lottery to any finite number, such that n >= t, allowing us to always produce a thought experiment in which the probability that any “ticket n is a losing ticket” is rationally acceptable (according the Sufficiency Thesis).
+
+In order to escape this inconsistency, we must jettison at least one epistemic principle. My gut instinct is to think the second and third principles are no-brainers; we should not be inclined to deny them. The first principle, the Sufficiency Thesis appears to be the principle we must jettison.
+
+Assuming that any relevant probabilistic acceptance principle will be similar enough to the Sufficient Thesis, the Lottery Paradox might require us to jettison all relevant probabilistic acceptance principles. The Lottery Paradox may be a serious threat to any probabilistic justification theory of rationally acceptable belief. I can’t provide a treatment of that claim in this paper, but for the sake of argument, let us assume the Lottery Paradox defeats all probabilistic justifications of rationally acceptable belief, which a skeptic might assume.
+
+We have good reasons to want a viable probabilistic rational acceptance rule. Many beliefs we want to think of as being rationally acceptable might turn out not be rationally acceptable otherwise. In addition, if the argument presented by a Hawthornian skeptic is correct, and we can’t justify belief in probabilistic propositions, such as lottery propositions, then many ordinary propositions (which may even be probabilistic propositions themselves) may not be justified either. How do we preserve the first epistemic principle?
+
+Either the second or the third epistemic principle must be wrong. The second looks rock solid (surely an epistemic rule which embodies the principle of non-contradiction would have to be!). Those who wish to preserve the probabilistic acceptance principles most likely need to find a way to deny the Conjunction Principle. What are the costs of denying the Conjunction Principle?
+
+At first glance, the Conjunction Principle looks to be a normal conjunction introduction rule. To deny conjunction introduction would probably have a domino weakening effect on the force of all the other logical connectives as well. So, the worry is that even if we can save the Sufficiency Thesis, the deductive strength of our inferences is weakened, and perhaps we lose truth-preservation as a property of our logic.
+
+3.1
+
+I believe we can gain insight into why we should deny the Conjunction Principle by inspecting the inferential moves we’ve made in the Lottery Paradox. In terms of propositional logic, the following inferential moves have to be successful:
+
+    K­1­ Assumption
+
+    K­2­ Assumption
+
+    (K­1­ & K­2­)	­& Intro: 1, 2
+
+
+
+Upon first reading, it seems as if we cannot possibly deny this sort of inferential move. Our assumptions were rationally acceptable, and surely any deduction from rational assumptions must also be rationally acceptable.
+
+Is this really what the probabilistic rationality theorist has in mind? Perhaps not. Instead, regarding the above Lottery Paradox, we are better served by evaluating the actual probabilities of the Lottery Paradox if we want to understand what probabilistic inferences are rationally acceptable.
+
+Problem:
+
+Let n denote the size (in terms of tickets) of a fair lottery with one winner. What are the odds that if you get m tickets that you will win?
+
+
+
+
+
+
+
+
+
+
+
+Solution:
+
+This is the formula which describes all finite lotteries, which someone who is explicitly employing the Sufficiency Thesis must turn to in order to evaluate the rational acceptability of the beliefs in the Lottery Paradox. That’s how we know P(K­1­)­ = .99. It is also the tool which helps us evaluate all the other probabilities, including conjunctions. So, instead of propositional logic, I think probabilistic rationality looks more like this:
+
+    P(K­1­)­ = .99 Mathematical Deduction
+
+    K­1­­ is rationally acceptable From 1 and Sufficiency Thesis
+
+    P(K­2­)­ = .99 Mathematical Deduction
+
+    K­2 is rationally acceptable From 3 and Sufficiency Thesis
+
+    P(K­1­ & K­2­) = .98	­Mathematical Deduction
+
+    (K­1­ & K­2­) is not rationally acceptable From 5 and Sufficiency Thesis
+
+
+
+The problem with our Conjunction Principle is that it seems to mislead us into thinking the logical inference is wholly analogous to the process of probabilistic inference. They are distinct. This discrepancy between probability and propositional logic raises some questions, such as: How does the probabilistic theory of rationality make sense of both kinds of reasoning? In this model, what is the role of logical conjunctions, or any logical connective for that matter? What are the odds that any given logical inference is true?
+
+I submit that those who employ the standard, modern Lottery Paradox have failed to demonstrate the connection between logic and probability. We can construct what I will call a logical probability calculus, which shows the relationship between symbolic logic (using probabilistic propositions) and probability.
+
+I THINK THIS IS A VERY INTERESTING MOVE, UNFORTUNATELY (DESPITE HAVING TAUGHT ELEMENTARY PROBABILITY THEORY LONG AGO), I AM JUST NOT FAMILIAR WITH HOW PEOPLE IN THIS AREA THINK ABOUT THE CONNECTION BETWEEN DEDUCTIVE LOGIC AND PROBABILITY, SO I CANNOT COMMENT ON WHETHER YOU ARE MAKING A MISTAKE HERE.
+
+
+
+3.2
+
+A logical probability calculus demonstrates how the probabilistic model can make sense of the conjunction of propositional logic, as well as all other connectives. So, let us assume the initial Lottery Paradox claims (and naming conventions) and the mathematical solution I’ve provided. So, for example, we know P(K­1) = .99, P(K­2) = .99, and P(K­1 & K­2) = (100 – 2)/100) = .98.13 These mathematical deductions will buy us some relevant probabilities of the other logical connectives with respect to K­1 and K­2. We can create a truth table which shows the relationship between all the logical connectives and probability. Let us assign variables to each row of the truth table of K­1 and K­2 (and add the semantics of the classical logical connectives). These variables will represent the probability of their row.
+
+K­1
+	
+
+K­2
+	
+
+~K­1
+	
+
+~K­2
+	
+
+K­1 & K­2
+	
+
+K­1 v K­2
+	
+
+K­1  K­2
+	
+
+K­1 ↔ K­2
+	
+
+Probability of Row
+
+True
+	
+
+True
+	
+
+False
+	
+
+False
+	
+
+True
+	
+
+True
+	
+
+True
+	
+
+True
+	
+
+C
+
+True
+	
+
+False
+	
+
+False
+	
+
+True
+	
+
+False
+	
+
+True
+	
+
+False
+	
+
+False
+	
+
+D
+
+False
+	
+
+True
+	
+
+True
+	
+
+False
+	
+
+False
+	
+
+True
+	
+
+True
+	
+
+False
+	
+
+E
+
+False
+	
+
+False
+	
+
+True
+	
+
+True
+	
+
+False
+	
+
+False
+	
+
+True
+	
+
+True
+	
+
+F
+
+
+
+Since we know that either row C, D, E, or F would obtain in the actual world, then C + D + E + F = 1. We know the following:
+
+    C + D + E + F = 1 Assumed
+
+    P(K­1) = .99 Assumed
+
+    P(K­2) = .99 Assumed
+
+    P(K­1 & K­2) = (100 – 2)/100) = .98 Assumed
+
+    P(K­1) = C + D From Truth Table
+
+    C + D = .99 From 2 and 5
+
+    P(K­2) = C + E From Truth Table
+
+    C + E = .99 From 3 and 7
+
+    P(~K­1) = E + F From Truth Table
+
+    E + F = 1 – (C + D) From 1
+
+    E + F = 1 - .99 = .01 From 6 and 10
+
+    P(~K­1) = .01 From 9 and 11
+
+    P(~K­2) = D + F From Truth Table
+
+    D + F = 1 – (C + E) From 1
+
+    D + F = 1 – .99 = .01 From 7 and 14
+
+    P(~K­2) = .01 From 13 and 15
+
+    P(K­1 & K­2) = C From Truth Table
+
+    C = .98 From 4 and 17
+
+    D = .99 – C From 6
+
+    D = .99 - .98 = .01 From 18 and 19
+
+    E = .99 – C From 8
+
+    E = .99 - .98 = .01 From 18 and 21
+
+    F = 1 – (C + D + E) From 1
+
+    F = 1 – (.98 + .01 + .01) = 0 From 18, 20, 22, and 23
+
+    P(K­1 v K­2) = C + D + E From Truth Table
+
+    P(K­1 v K­2) = .98 + .01 + .01 = 1 From 18, 20, 22, and 25
+
+    P(K­1  K­2) = C + E + F From Truth Table
+
+    P(K­1  K­2) = .98 + .01 + 0 = .99 From 18, 22, 24, and 27
+
+    P(K­1 ↔ K­2) = C + F From Truth Table
+
+    P(K­1 ↔ K­2) = .98 + 0 = .98 From 18, 24, and 29
+
+Therefore, we know the following propositions are true:
+
+P(K­1) = .99 P(K­2) = .99 P(~K­1) = .01 P(~K­2) = .01
+
+P(K­1 & K­2) = .98 P(K­1 v K­2) = 1 P(K­1  K­2) = .99 P(K­1 ↔ K­2) = .98
+
+
+
+
+
+
+
+3.3
+
+First, these propositions are special. We know they have to be true. Because we know all the starting propositions of this argument have a probability of 1, and because we’ve exclusively employed truth-preserving inferences, we know that the each of the above propositions have a probability of 1. So, we might think of it as this: P(P(A) = .99) = 1, P(P(B) = .99) = 1, P(P(~A) = .01) = 1, ­­and so on. In any case, even someone who is employing anything like the Sufficiency Thesis would agree to logical probability calculus. These logical moves might be infallible.
+
+Second, these propositions demonstrate the probability of each logical connective given the probabilities of K­1 and K­2. This is a taste of the list of propositions from which the probabilistic justification theorist selects candidates for rational acceptance. By the Sufficiency Thesis, where t = .99, we can select K­1­, K­2­, (K­1 v K­2­)­, and (K­1  K­2­) as candidates for rational acceptance, whereas as we cannot for the others, ~K­1­, ~K­2­, (K­1 & K­2­)­, and (K­1 ↔ K­2­).
+
+Note that in our example lottery, there is a logical probability calculus. It is much too long to put in this paper.14 The point is that we could at least make sense of questions we raised earlier about the discrepancy between probability and propositional logic. A logical probability calculus of the Lottery Paradox will not only demonstrate that P(~(K­1 ­& K­2 ­& … & K­100­)) = 0, but it will also provide us the probabilities of any of the logical connectives.
+
+Third, while there are infallible logical inferences, even on probabilistic rational acceptance models, it is clear that logical inferences which deal in propositions which have a probability less than 1 are fallible. But, this isn’t really a problem, right? Truth-preservation holds where we expect it, and it doesn’t hold where we deal with probabilities less than 1.
+
+
+
+4.1
+
+I think the first set of epistemic principles was constructed too hastily. These principles lack the nuance we need to defend justified belief in probabilistic propositions. Let us restructure the Conjunction Principle so that we can make better sense of the Lottery Paradox.
+
+We denote belief in φ as B[φ].
+
+    A proposition φ is rationally acceptable if P(φ) > t, where P is a probability distribution over propositions and t is a threshold value close to 1.
+
+    It is not rationally acceptable to believe in contradictions.
+
+    If B[φ] and B[ψ], then (B[φ] & B[ψ]).
+
+    If (B[φ] & … & B[ψ]), then B[φ & … & ψ].
+
+
+
+The first and second rules are original principles. We’ve done away with the Conjunction Principle, and in its place, we have two new principles. The third principle is akin to your standard conjunction introduction rule in logic. As in, if it is the case that I believe A and if it is the case I believe B, then it is the case that I believe A and I believe B. By mathematical induction, we can generalize this rule to any finite number of conjuncts.
+
+The fourth rule we will call the Belief Agglomeration Principle. It is an interesting rule which Kyburg himself considers in the original Lottery Paradox but which others seem to gloss over.15 Since I am not sure that any version of the fourth principle can be generalized for any finite number of conjuncts via mathematical induction, I’ve tried to describe it so that any conjunctive set of beliefs (B[φ] & … & B[ψ]), which we would receive from the third principle, can be converted into a single belief of the conjunction of all the propositions believed in the antecedent. Essentially, if it is the case that I believe A and I believe B, then I believe (A and B).
+
+The difference between the third and fourth principles is subtle, but significant. The third principle has to be true, it is plain logic. The fourth principle, however, isn’t obviously true. Note that complex proposition (A & B) is distinct from the set of atomic propositions A and B. I might, for example, believe A, and I might also happen to then come to believe B, but that does not necessarily entail that I then believe the proposition (A & B).
+
+With these new principles, let’s have another crack at the Lottery Paradox.
+
+
+
+4.2
+
+Suppose the four epistemic principles above, where t = .99. Suppose a fair lottery of 100 tickets, where the selection of each ticket is equiprobable, and exactly 1 ticket will be randomly selected as a winner.
+
+Where n is the set of whole numbers 1 through 100, for each ticket, where the first ticket is T­1­, the second ticket is T­2, ­… , and the hundredth ticket is T­100­, there is a corresponding proposition claiming ‘ticket Tn is a losing ticket’, where the first proposition K­1­ corresponds to T1­, and so on. By supposition, ~(K­1 ­& K­2 ­& … & K­100­), so B[~(K­1 ­& K­2 ­& … & K­100­)].
+
+Since we know that each ticket is 1 ticket from a pool of 100, for any K­n­, P(K­n­) = .99 is rationally acceptable, so for any K­n­, B[P(K­n­) = .99]. Since, B[K­1­] and B[K­1­], by the third principle, (B[K­1­] and B[K­2­]). Since for any K­n­, B[P(K­n­) = .99], we can continue to employ the third principle such that (B[K­1­]­ & B[K­2­]­ ­& B[K­3­]­), and (B[K­1­]­ & B[K­2­]­ ­& B[K­3­]­ & B[K­4­]­), and so on. Hence, by the repeated use of the third principle, (B[K­1­]­ & B[K­2­]­ ­& … & B[K­100­]­).
+
+Since (B[K­1­]­ & B[K­2­]­ ­& … & B[K­100­]­), by the Belief Agglomeration Principle, B[K­1 ­& K­2 ­& … & K­100­].
+
+We arrive at contradicting beliefs, B[(K­1 ­& K­2 ­& … & K­100)­] and B[~(K­1 ­& K­2 ­& … & K­100­)]. This is not allowed by the second principle.
+
+
+
+4.3
+
+Clearly, this version of the Lottery Paradox demonstrates the four epistemic principles are inconsistent. We must jettison at least one of them. Last time, it had to be the probabilistic acceptance rule because it was not appealing to jettison the other principles. This time, however, since we have split up the old Conjunction Principle to clarify the problem, we can see that while the third principle clearly can’t be jettisoned because it is logically necessary, the Belief Agglomeration Principle is a candidate for jettison.
+
+So, which is it, do we throw away the Sufficiency Thesis or the Belief Agglomeration Principle? We’ve already considered some of the implications of denying principles like the Sufficiency Thesis. What about the Belief Agglomeration Principle, what is the cost of denying it?
+
+By denying the Belief Agglomeration Principle, we never arrive at the contradiction. But, in trade, if we deny the possibility of agglomeration, we seem to have a messy heap of individual beliefs, but no way to relate those atomic propositions to form complex propositions. This would be intolerable, and so perhaps we may find the Lottery Paradox to be paradoxical for other reasons. Denying the Belief Agglomeration Principle, however, is not the same as denying agglomeration. If we deny the Belief Agglomeration Principle, how does agglomeration work?
+
+Note that the third principle is necessary to describe states of affairs. It need not be something which I am consciously employing at all. It is just a fact of the matter. The Belief Agglomeration Principle seems to do a different kind of work. It is the kind of principle I must intentionally employ. Perhaps I say to myself, “well I believe A and I believe B, so I believe (A & B).”
+
+This isn’t the kind of move which someone dedicated to employing the Sufficiency Thesis would make at all. Agglomeration isn’t that simple. When I believe A and I believe B, and I’m consciously thinking about the fact that I believe each, I may wish to agglomerate them such that not only (B[K­1­] and B[K­2­]), but also B[(K­1 ­& K­2­)], which is a more complex and interesting belief to hold. Agglomeration is important to probabilistic rational acceptance, it just isn’t truth preserving on probabilistic propositions, and so I have to employ the Sufficiency Thesis on any agglomeration, including this one, to decide the rational acceptability of the resulting proposition.
+
+So, when I hold (B[K­1­] and B[K­2­]), and I attempt to agglomerate this into B[(K­1 ­& K­2­)], I first must consider if P(K­1 ­& K­2­) > t. In this case, t = .99, and P(K­1 ­& K­2­­) = .98, as demonstrated by the logical probability calculus. Clearly, this particular agglomeration is not rationally acceptable.
+
+The Belief Agglomeration Principle really doesn’t fit in with the Sufficiency Thesis, and it should be denied. We can see that an expansion of this agglomeration denial is exactly why we don’t reach a contradiction. You end with B[~(K­1 ­& K­2 ­& … & K­100­)] and (B[K­1­]­ & B[K­2­]­ ­& … & B[K­100­]­), but these beliefs are not contradictions.
+
+While the Lottery Paradox would turn out not to be fatal to the remaining three principles, the odd thing which falls out of denying the Belief Agglomeration Principle is the following: the Sufficiency Thesis allows an agent to rationally accept sets of propositions that cannot all be true at the same time. That is what the Lottery Paradox really shows.
+
+
+
+
+
+
+
+5.1
+
+The Lottery Paradox seems to be a serious threat to probabilistic rational acceptance, and thus a threat to scientific belief and perhaps even belief in Hawthorne’s ordinary propositions. Upon closer inspection, however, we can see that the Lottery Paradox doesn’t generate the contradictions we thought it did. Refining these epistemic principles, we come to see more clearly where some versions of the Lottery Paradox get it wrong. It isn’t as clear that the Lottery Paradox is a threat to probabilistic rational acceptance, but it does seem to pave the way for future worries about probabilistic rational acceptance in terms of believing propositions which can’t all be true at the same time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bibliography
+
+    Douven, Igor, and Timothy Williamson. 2006. "Generalizing the Lottery Paradox". The British Journal for the Philosophy of Science. 57, no. 4
+
+    Hawthorne, John. Knowledge and Lotteries. Oxford: Clarendon, 2004.
+
+    Kyburg, Henry Ely. Probability and the Logic of Rational Belief. Middletown, Conn: Wesleyan University Press, 1961.
+
+    Nelkin, Dana K. 2000. "The Lottery Paradox, Knowledge, and Rationality". The Philosophical Review. 109, no. 3
+
+1 Kyburg, Henry Ely. Probability and the Logic of Rational Belief. Middletown, Conn: Wesleyan University Press, 1961: 197
+
+2 Hawthorne, John. Knowledge and Lotteries. Oxford: Clarendon, 2004: 2
+
+3Ibid., 2-3
+
+4 Nelkin, Dana K. 2000. "The Lottery Paradox, Knowledge, and Rationality". The Philosophical Review. 109, no. 3: 373
+
+5 To my eyes, [1] is actually harder to know than [3]. We could reconstruct Hawthorne’s argument so this wasn’t the case, but instead I will just set that matter aside.
+
+6 Hawthorne, John. Knowledge and Lotteries. Oxford: Clarendon, 2004: 5
+
+7 Ibid.
+
+8 Nelkin, Dana K. 2000. "The Lottery Paradox, Knowledge, and Rationality". The Philosophical Review. 109, no. 3: 374-376
+
+9 Douven, Igor, and Timothy Williamson. 2006. "Generalizing the Lottery Paradox". The British Journal for the Philosophy of Science. 57, no. 4: 755
+
+10 Ibid., 755-756
+
+11 Ibid.
+
+12 Ibid.
+
+13 It may be of interest to you that the reason P(K­1 & K­2) = .98, instead of P(K­1­) * P(K­2) = .99 * .99 = .9801, is because we are dealing with the probability of dependent events rather than independent events.
+
+14 The truth table alone would have 2^100 rows.
+
+15 Kyburg, Henry Ely. Probability and the Logic of Rational Belief. Middletown, Conn: Wesleyan University Press, 1961

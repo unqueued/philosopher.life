@@ -1,0 +1,34 @@
+created: 20180924172015803
+creator: h0p3
+modified: 20181104202339553
+modifier: h0p3
+tags: Sphygmus Note From
+title: 2018.09.24 - Sphygmus: (2) bugs ¯\_(ツ)_/¯
+
+oh, yeah, there are some funky things with the button that I haven't quite figured out. If what happened with "Auto-Wiki-Mator-Button" showing up on a ** line instead of a * line is what I think it is...well, I've had that happen before and I assumed it was because the title on the ** line was a tag title so got treated differently by the javascript? But that doesn't make sense b/c tag tiddlers are just...tiddlers, soooo?? Yeah, idk, ghost in the machine! I'm considering making an extension of the settings screen - I don't think a pop-up is possible (or if so idk off the top of my head how to work it) but theoretically the way it works I should be able to set up three single-line text edit areas where you can write the title.Title of each tiddler first, and then click the button, and have the tiddlers made with that title. Also making the carpe diem/prompted introspection tiddlers pop up in the story river should be doable. I'll look into it some time this week, probably! :)
+
+---
+
+lol! Nope, you didn't misunderstand anything! The settings was meant to be set-and-forget, b/c I've just been going back into the focus tiddlers and manually editing the links every time, after I decide what the title.Title is going to be. (I tag the logs mostly b/c it acts as a quick click back to the focus/root.) You were definitely thinking one step ahead of me in seeing that the settings could be used to change title.Titles on the fly! :) Now that I've realized this, though, I'm going to build a better solution than the settings page, hopefully something that will fit well into your Hub. <crosses fingers> 
+
+---
+
+aka the All-In-One Button, River style. This button does the same as the all-in-one button, but opens all the newly created tiddlers in the story river.
+
+!!! @@.highlight Please update your plugin before using the following! :) @@
+
+though I don't have any experience updating plugins, sorry! :\
+
+It's probably safest to uninstall it and then install the newest version? I assume that if you install the new version before uninstalling the old version it will just overwrite the old version's files but I don't //know// that.
+
+---
+
+{{$:/plugins/sphygmus/reviewButton/button: AIO River}} __''Core Daily Requirements''__:
+
+* [[TDL]]
+* [[Wiki Review]]
+** <$edit-text tiddler="$:/config/reviewButton/Title" class="tc-edit-field-value" class="reviewButton" tag=input />
+* [[Carpe Tempus Segmentum]]
+** <$edit-text tiddler="$:/config/reviewButton/carpeTitle" class="tc-edit-field-value" class="reviewButton" tag=input />
+* [[Prompted Introspection]]
+** <$edit-text tiddler="$:/config/reviewButton/introTitle" class="tc-edit-field-value" class="reviewButton" tag=input />

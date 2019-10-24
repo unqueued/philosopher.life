@@ -1,0 +1,36 @@
+created: 20171223152754686
+modified: 20171223154111892
+revision: 0
+title: Walkthrough: Setup Dolphin/KDE Samba Sharing in Manjaro
+
+I'm only using Samba to share read-only files to Kodi. I prefer SSH/SFTP for manipulating the filesystem. 
+
+You'll need Samba and kdenetwork-filesharing installed. If you are using Manjaro, this is already done for you.
+
+1. Create `/etc/samba/samba.conf` and paste the following into it:
+
+```
+[global]
+usershare allow guests = true
+usershare max shares =  100
+usershare owner only = true
+usershare path = /var/lib/samba/shares
+```
+
+2. Execute the following:
+
+```
+sudo mkdir -p /var/lib/samba/shares
+sudo groupadd shares
+sudo gpasswd -a $USER shares
+sudo chown root.shares /var/lib/samba/shares
+sudo chmod 1770 /var/lib/samba/shares
+sudo systemctl enable smbd nmbd
+sudo systemctl restart smbd nmbd
+```
+
+3. Logout and Login.
+
+4. Open Dolphin, Right-Click on Directory, Properties, Sharing, Share Tab, Enable Share with Samba, and Setup your "Share Settings."
+
+5. I'm using "Allow Guests" with Everyone set to "read only" for simple access.

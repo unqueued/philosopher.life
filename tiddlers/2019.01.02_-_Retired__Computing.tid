@@ -1,0 +1,126 @@
+created: 20190103021524659
+modified: 20190103021537228
+tags: Retired Computing
+title: 2019.01.02 - Retired: Computing
+
+!! About:
+
+//I dedicate this page to [[Monster-Φ]]; I love you! In a sincerely radical way, this wiki is about the virtue of personal computing.//
+
+<<<
+[Without the beginning and the end of [[The Good]]], computers are useless [by themselves]. They can only give you answers.<<ref "m">>
+
+-- Pablo Picasso
+<<<
+
+<<<
+I don't fear [all] computers. I fear the lack of [the right ones, and an excess of the wrong ones].<<ref "3">>
+
+-- Isaac Asimov
+<<<
+
+Don't let my demonstrations of ignorance fool you: I'm passionately devoted to computing. Computing is the essential desideratum of my vocation: philosophical inquiry. Computing is omnipresent, intimate, exquisite, fundamentally functional; it is the basis of reality as we can know it. The more I learn about computers, the more I treasure them. It is who and what we are, my precious.<<ref "4">>
+
+Programming a computer is about getting the computer to do what you want it to do. Traditionally, there are customary languages used to program a computer. Folks writing in an assembly instruction set, C, Python, or Brainfuck are certainly programming in the ordinary sense. There are, however, other kinds of inputs and computers though, and thus there are other kinds of programming. For example, the person who uses their mouse to provide inputs to navigate a website has programmed their computer in a trivial way (for them). Computing is a rich epistemic environment and telic //techne// which is far more generalizable than some people realize.<<ref "a">> That which isn't computable is ineffable.
+
+Programming is about principle, process, and representation. It's deeply philosophical and at the contextual core of what it means to be a person (or "to be" at all). Yes, humans are computers.<<ref "5">> We are programmable. Whatever it paradoxically means to say it: we have to get ourselves to do what we want ourselves to do. We need to wisely program ourselves, and that is what this wiki is about. 
+
+Admittedly, I can't explicitly express anything which isn't itself computing because expressions are computing (although it appears I can point to the mystically ineffable).<<ref "i">> I am convinced everything which is intelligible to we mere mortals is by definition computable; all else is transcendent. Thus, we should become the best, well-rounded programmers (including self-programming) we can be.
+
+With that said, I have decided to narrow the focus of this page to the customary sense of silicon-based computing. It has slowly evolved to be that while the wiki-at-large has taken on the grander paradigm of existential computing. Thus, here I talk about my favorite hobby, my discipline mistress: common denotative computing. I owe this practice so much. Thank you to all who have helped me compute. I am forever grateful.
+
+
+---
+!! Principles:
+
+* This should eventually be useful a knowledge and tool base for your children.
+* Build things you care about, and make your life happier with your technology.
+* Organization and planning seem especially valuable here, even just in virtue of how I build and run this wiki.
+* Don't forget to have fun!
+
+
+---
+!! Focus:
+
+
+* /b/unsorted
+** [[h0p3's Computing Antipleonasms]]
+** [[House_h0p3]]
+** [[Git Gud]]
+** [[Keyboard.life]]
+** [[Transcription]]
+** [[Cross-Consumer_GUI_Platform Tool Collection]]
+** [[Tagging Theory]]
+
+
+* [[Monster-Φ]]
+** [[monster-10]]
+** [[monster-13]]<<ref "p">>
+** [[Computing: Configs]]
+
+* Computing-Oriented Logs
+** [[Computer Musings]]
+** [[Aispondence]]
+** [[AIoutopIA]]
+** [[Outopos]]
+
+* [[Computing: Tool Collections]]
+** [[Firefox Extension Collection]]
+** [[Linux Tool Collection]]
+** [[Leet Tools]]
+** [[Computing: Scripts, Tricks, Cheatsheets, and Walkthroughs]]
+*** [[Pacman & Friends Cheatsheet]]
+
+* Humor
+** [[Glorious SSID Names]]
+
+* Purchasing
+** [[Buy A Phone]]
+
+---
+!! Vault:
+
+* Dead Projects
+** [[OpenWRT]]
+** [[Web Traffic Obfuscation]]
+** [[Dot Files]]
+** [[Computer Planning]]
+** [[Linux & POSIX-Compliant CLI Tool Collection]]
+
+* Retired:
+** [[2017.11.29 - Retired: Computing]]
+** [[2018.07.28 - Retired: Computing]]
+
+
+---
+!! Dreams:
+
+* I want a FF browser extension that extends FF's functions straight into TW. If I bookmark something in FF, I want it bookmarked straight into my wiki instead of merely the bookmark bar.
+
+* [[The Ultimate USB]]
+* Complete VPN Solution:
+** vpncloud, openvpn, wireguard, and shadowsocks
+* VM'd PF-Sense Router on HTPC
+* Full CLI and GUI usage of the wiki, abusing i3 hard
+
+* [[1st Class Translation Services Embedded in Linux Ecosystems]]
+
+* I'd like to see .py, .sh, .xsh and other filetypes naturally maintain the right visual encoding from field filetype without the triple brackets and make it simpler for eventually binding files to it.
+
+
+---
+<<footnotes "m" "They are mere instruments without intrinsic value. They are shells for [[The Good]].">>
+
+<<footnotes "3" "We are computers using computers. Given broad enough ranges of contexts, tools are inevitably double-edged swords. Of course, there is a face of computing we must fear (including ourselves).">>
+
+<<footnotes "4" "Some charitably interpreted variant of Plato, Aristotle, Spinoza, and Hegel's Gods know what it do.">>
+
+<<footnotes "a" "Admittedly, I'm still trying to refactor my perceptions of the physical world and minds through a computational lens/language.">>
+
+<<footnotes "5" "As an autistic person, I love computers because I think of them as exceptional minds (however imprisoned they may be), beautifully principled mechanisms which sometimes make sense to me. I can often more effectively develop accurate theories of mind of computers than I can humans, but that's because humans are far more complex computers than I had possibly imagined. It took me a long time to realize (too long because I didn't want to believe it for fear of losing my belief in freewill) that human minds are almost entirely reducible to computing; it's just a matter of degrees rather than kinds.">>
+
+<<footnotes "i" "Computing points to the beginning and ends of all functions.">>
+
+<<footnotes "5" "Before I had any real concept of what this wiki was, I made this page. This page is one of the original pages on this wiki. It was created somewhere between December 11-15th, 2016, before I started keeping daily snapshots. For a time, this wiki-page was for all things computing, mechanical or abstract, human or silicon, and otherwise. I am indebted to myself for taking the time to think of myself as a computer in this space. I deliberately forced myself to be open in scope, to go with the flow, to be organic, and to hope 'a rhyme, reason, and method to the madness will emerge.' It allowed this wiki to flourish. Good job, [[h0p3]].">>
+
+<<footnotes "p" "Previously known as: [[Wiki Computing|2018.08.03 - Retired: Wiki Computing]]">>

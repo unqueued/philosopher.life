@@ -1,0 +1,13 @@
+created: 20171206012431594
+modified: 20181222032744066
+modifier: h0p3
+revision: 0
+tags: [[Computer Musings]]
+title: 2017.12.05 - Computer Musings: Switching to ZSH
+
+It's time I grew up and tried ZSH. I'm so fucking lazy though. I'm going to go the oh-my-zsh route and configure from there. I'm'ma skiddie 'dis.
+
+* https://github.com/robbyrussell/oh-my-zsh
+* https://askubuntu.com/questions/283908/how-can-i-install-and-use-powerline-plugin
+
+Also, installed a color theme for vim because I'm having a hard time seeing it.

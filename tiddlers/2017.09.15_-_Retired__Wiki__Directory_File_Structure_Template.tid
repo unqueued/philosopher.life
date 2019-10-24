@@ -1,0 +1,108 @@
+created: 20170910003527189
+modified: 20181212043403769
+modifier: h0p3
+revision: 0
+tags: Retired
+title: 2017.09.15 - Retired: Wiki: Directory File Structure Template
+
+//See first: [[ass]] & [[titties]]//
+
+(obviously, optional)
+
+---
+!! [[Contextro]]:<<ref "2018.12.11">>
+
+//Something personal, profoundly valuable, optics, lens-giving, context-giving, etc., or a dedication. This is optional.//
+
+<<<
+Here is an optional quote
+
+--Author Found+Necessary
+<<<
+
+Talk about what the page is about, provide an introduction to understand its contents, the reasons for this directory file's existence. Talk about the goals, especially the means to ends relationships and consequential reasons you find in it.
+
+For example, this page exists solely to help me convert my entire wiki into something with a rigorous file structure. This allows me to be computational about it literally with my computer and also with my mind. It frames problems and provides me means to solving them.
+
+Obviously, this section is not optional.
+
+---
+!! Body:
+
+I've templated this page as a Directory File, but it doesn't really absolutely have to be one. I think it's just cool that way, and it brings it to life. Obviously, this section is not optional: every page has a body.
+
+Well, here's the template:
+
+```
+//See first: [[example]] & [[example]]//
+
+---
+!! Contextro:
+
+//Italicized Intro, quip, etc.//
+
+<<<
+Here is a quote.
+
+--Author
+<<<
+
+---
+!! Body:
+
+---
+!! Current:
+
+* (*crickets)
+
+---
+!! Vault:
+
+* (*crickets)
+
+---
+!! Ideabag:
+
+* (*crickets)
+
+---
+!! To-Do-List:
+
+* (*crickets)
+
+---
+
+<<footnotes "1" "(*crickets)">>
+```
+---
+!! Current:
+
+* [[(*crickets)]]
+
+---
+!! Vault:
+
+* (*crickets)
+
+---
+!! Ideabag:
+
+* (*crickets)
+
+---
+!! To-Do-List:
+
+* (*crickets)
+
+---
+!! Foobar:
+
+* (*crickets)
+
+---
+
+`<<footnotes "1" "(*crickets)">>`
+
+
+---
+<<footnotes "2018.12.11" "Templates have been ridiculously valuable to me, and I'm still learning how I wish to automate this through [[The Remodeling]]. I clearly didn't have my [[APFVD]] directory structure solidified early on. I really had no idea what kind of probabilistic reasoning and empirical method I was gunning for. I crawled toward it though. Without a doubt, I am still crawling and climbing that mountain. I'm proud of you, [[h0p3]].">>

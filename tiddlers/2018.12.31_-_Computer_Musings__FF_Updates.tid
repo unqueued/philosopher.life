@@ -1,0 +1,59 @@
+created: 20181231174334259
+modified: 20181231203405666
+tags: [[Computer Musings]]
+title: 2018.12.31 - Computer Musings: FF Updates
+
+[[Firefox Extension Collection]] updates!
+
+* More customization on AdNauseam
+* All Tabs Helper exploration
+** Setting new tabs opened adjacent again
+* Anesidora gone
+* Auto Tab Discard
+** Added ycombinator to exceptions
+** Back to default favicons
+** Modified discard conditions for cornercases
+* burlesco gone
+* Bypass Paywalls selected all :P
+* Still not sure what I think of Clear Cache on every reload of active.
+* Don't Fuck With Paste gone
+* Easy Youtube mp3 Add-on gone
+* Keeping Feedbro because I need an RSS reader, even if I don't care for this one. I shouldn't have to rummage in the pinch.
+* Tiddlyback (Filebackup) stays for just in case.
+* More options on Flagfox
+* Remove LessPass (simply useless in the end, last time I even try it)
+* Note taker gone
+* More Privacy Badger features
+* Turned G+ off in Reddit on Youtube
+* tabPreLoader tuning
+* tabwalk is gone
+* Camelizer is stupid, gone.
+* youtube classic gone
+* Zerowidth detection configuration improvements
+* Bye bloody vikings
+* Bye Cookie Autodelete
+* Enabled Decentraleyes again
+* Installed uMatrix again, nope.
+* Bye keepass
+* Bye Minerblock
+* Bye New Tab tools
+* Bye No Script
+* Bye Play/pause
+* Bye random user agent
+* Enable SmartProxy
+* Snaplinks enabled with Ctrl added due to scrollanywhere mod. Work gorgeously together!
+* Bye worldbrain's memex
+* Setup TrackMeNot again, less aggressive in some respects.
+* Installed Craigslist Fusion, uninstalled.
+* Enabled Firefox Multi-Account Containers again
+* Bye Temporary Containers
+* Refined Github is no go, tried several.
+* Open in Sidebar
+* Link Cleaner and Redirect AMP
+* NM. Privacy Badget is gone. Privacy Possum is here.
+* Disable Transitions and Animations
+* CanvasBlocker
+
+---
+
+~/Downloads/Wiki was deleted. I do not see how, who, or what. Fixed for now.

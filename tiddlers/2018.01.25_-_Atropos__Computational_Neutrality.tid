@@ -1,0 +1,14 @@
+created: 20180126035326556
+modified: 20190323160334641
+tags: Atropos
+title: 2018.01.25 - Atropos: Computational Neutrality
+
+Atropos aims to be hardware, firmware, OS, platform, framework, software, and language agnostic insofar as it meaningfully can.
+
+Some methods are more efficient than others. 
+
+The Atropos library is being prototyped in a language Snow finds comfortable, but it will ultimately be written in Rust. Rust slowly emerges as a contender for replacing C/C++ as a superior alternative. It's funded by people who aim for similar levels of agnosticism, and it has a serious academic community behind it.
+
+A Rust library will be highly portable, and in my estimation, it will eventually be as portable as C. It will be our job to make sure that other languages can easily use the Atropos library. We need wrappers/bindings for all major tools. We should hit network-based languages (e.g. Go) and the most popular languages first (e.g. Java and Python). We want our meme/tool to spread rapidly.
+
+We should aim for open source waters first. Frameworks and VMs that run everywhere get first dibs.

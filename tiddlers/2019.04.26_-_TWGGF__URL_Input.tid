@@ -1,0 +1,33 @@
+created: 20190426163413466
+modified: 20190426222324746
+tags: TWGGF
+title: 2019.04.26 - TWGGF: URL Input
+
+I'm sorry that I don't even know how to ask this question correctly. Is there a way to create a temporary or arbitrary doorway into TW with "input" from the URL? I have no idea if this is possible, but perhaps it may be something most people already know how to do. I'm clueless.
+
+* I would like to embed a search term or filter expression into a link to my wiki which would show the results.
+** Here's a link to a list of everything I wrote on 2019.04.21:
+*** https://philosopher.life/#:FOOBAR?2019.04.21
+** Here's a link to everything I wrote on 2019.04.21 opened in the storyriver:
+*** https://philosopher.life/#:FOOBAR?OPENINSTORYRIVER?2019.04.21
+** Here's a link to a search for python on my wiki:
+*** https://philosopher.life/#:FOOBAR?Python
+** Here's a link to a filter expression based search for all Prompted Introspections which mention "Vacation":
+*** https://philosopher.life/#:FOOBAR?[search:title[Prompted Introspection]search:text[Vacation]]
+
+* I want to select a look or mode from the URL.
+** https://philosopher.life/#:FOOBAR?Nightmode
+** https://philosopher.life/#:FOOBAR?Dyslexicmode
+** https://philosopher.life/#:FOOBAR?Fontsize=15,Mentat=On,HideSwearWords=On
+
+---
+
+Links don't seem to work here, but they do work...
+
+* https://philosopher.life/#:[sameday[20190421]]
+** Created Date
+* https://philosopher.life/#:[search[2019.04.21]]
+** title.Date
+* https://philosopher.life/#:[search[Python]]
+* https://philosopher.life/#:[search:title[Prompted%20Introspection]search:text[Vacation]]
+** With encoding. Would be nice to have url-encode filter macro to create it.

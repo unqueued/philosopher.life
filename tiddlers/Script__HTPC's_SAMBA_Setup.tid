@@ -1,0 +1,29 @@
+created: 20170217233936564
+modified: 20171130180159236
+revision: 0
+title: Script: HTPC's SAMBA Setup
+
+```bash
+#!/bin/bash
+
+# Before you run this script, you need your drives mounted first, obviously.
+
+# Install samba
+sudo apt-get update
+sudo apt-get install samba -y
+
+# You know the password
+sudo smbpasswd -a h0p3
+
+# Add the share to samba's config file
+sudo cat <<EOT >> /etc/samba/smb.conf
+[HTPC-Share]
+path = /mnt
+valid users = h0p3
+read only = no
+EOT
+
+# Start the service
+sudo service smbd restart
+```
+

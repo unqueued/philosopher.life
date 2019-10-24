@@ -1,0 +1,22 @@
+created: 20181130035437489
+creator: h0p3
+modified: 20181219181841751
+modifier: h0p3
+tags: TWGGF
+title: 2018.11.29 - TWGCF: Adding to Daughter's Question
+
+Hey TonyM,
+
+You are always gracious. Thank you. My 12yo daughter didn't see your post until it was bedtime, and I don't want to leave you hanging. She is trying to build a tool for me as part of her CS subject in school. She's trying to make a GUI search tool which can construct arbitrarily long filters. We're still brainstorming and just trying to make a prototype. The gist of it can be found here:
+
+https://philosopher.life/#Search%20of%20h0p3:%5B%5BSearch%20of%20h0p3%5D%5D
+
+The goal is to have a graphical tool for incrementally constructing an arbitrary number of atomic and complex sentences (built from atomic and other complex sentences using drop-down menus that include the previously constructed sentences). The final complex sentence will contain the main connective and will be the final filter for the search. Writing several complex filters back-to-back is labor intensive (some people who use my wiki cannot write them at all, but they know enough First Order Logic they could use a graphical tool), and I want to abstract away as much as I can.
+
+Performance matters to me here too. My wiki is fairly large (now pushing ~22MB of pure text in ~7k tiddlers), and I think it will only continue to grow year after year. There are certain kinds of filter-based tools which do not work on my wiki; it's simply too big. Presumably, this tool will also be used to wrap other search tools which I otherwise couldn't afford to use without complex filters first narrowing down the search space.
+
+There may be multiple ways to do this. We may even be wrong about what is possible or worthwhile here. We could certainly benefit from your expertise. Please advise us. What are your thoughts and what direction do you think we should go? 
+
+Sincerely,
+
+h0p3

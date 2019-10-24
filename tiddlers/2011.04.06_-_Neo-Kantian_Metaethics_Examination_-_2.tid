@@ -1,0 +1,438 @@
+created: 20170109233646596
+creator: h0p3
+modified: 20181031035931160
+modifier: h0p3
+revision: 0
+tags: LSU
+title: 2011.04.06 - Neo-Kantian Metaethics Examination - 2
+
+''[1][a]''
+
+	Korsgaard is very careful in her definition of a “moral reason." For the most part, moral reasons stem from moral principles – for example, “the fact that an act is unjust or unkind is a moral reason against it.”<<ref "1">> In addition, she claims there is a special category of moral reasons, derived from the proper application of the categorical imperative. If a person acts according to the guidance of the categorical imperative, then he or she acts from moral reasons – or, at least, according to a moral ‘ought’. Korsgaard does not, however, claim that all actions – even those allowable by the categorical imperative – stem from moral reasons.<<ref "2">>  This is a bit confusing, because other parts of her theory suggest that actions which unify one are the only things we can call actions – and that those actions are derived from the categorical imperative, and should, therefore, be considered actions with moral reasons. 
+
+In considering the differences in substantive and formal conceptions of morality, particularly regarding what it means to say we have a “moral reason” to do something, Korsgaard has an interest in preserving an “unconditionally binding” property of moral reason.<<ref "3">>   “Moral reasons” are products of a proper procedure or method of deliberation – it is in virtue of the procedure that moral reasons are significant and binding. The sort of procedure that Korsgaard endorses, the categorical imperative, which she believes is a formal conception of morality, produces unconditionally binding moral reasons. She wishes to dismantle procedures which don’t produce morals reasons which are unconditionally binding, such as those which might emerge from substantive conceptions of morality. 
+
+	 Korsgaard contends with Bernard William’s explanation of “should” and “morally ought.”<<ref "4">>  It seems to him that morals reasons are a subset of all the reasons used for deliberating what we should (in a non-moral sense), in an all-things considered sense, do in general. Each subset of reasons belongs to a ‘point of view’ such as a “moral point of view,” a “self-interested point of view,” and so on.<<ref "5">>  So, the question “What should I do?” can be broken down into a sub-question from each point of view, such as “What should I do from a moral point of view?” and “What should I do from a self-interested point of view?” and so on. Each question represents a “sub-deliberation” of the general deliberation of the question “what should I do?”<<ref "6">> 
+
+The “weighing model,” as a decision procedure, is about balancing reasons from different specific points of view to ascertain what one should do in general. <<ref "7">>  This is explicitly a procedure for figuring out whether one should or should not do some particular thing. In a decision to do one particular thing, some reasons are for one thing and some are against it. Whichever side, for or against, ultimately has the most weight (a detailed analysis of Korsgaard’s interpretation of this model can be found in part [B]) determines whether you should or should act in a certain way.
+
+The vital point is that the deliberation of the weighing model contrasts moral reasons, which stem from the moral point of view, from other types of reasons, which stem from other points of view.<<ref "8">>  Korsgaard believes that a substantive conception of morality of the weighing model, in contrast to a formal conception of morality, particularly the operation of the categorical imperative, has built into it the pitfall of the possibility of separating the sense of ‘moral should’ from (as a subset of) the ‘general should’. The problem then is that moral deliberation takes a backseat to the deliberation of the ‘general should’. Moral reason doesn’t seem unconditionally binding within this procedure, as other sorts of reasons may override moral reason.
+
+Korsgaard would likely agree that my moral point of view might provide strong moral reasons for me to be a good father to my children and to take proper action necessary to help them flourish. I might, on the other hand, not feel like doing this action. Perhaps some non-moral points of view offer quantitatively and qualitatively more robust reasons against this action of fatherhood (the self-interested point of view, for example, might point in this direction). By this conception of the weighing model, my moral reasons are outweighed by the reasons of my non-moral points of view. Thus, while from my moral point of view, I morally ought to do this fatherly action, I generally should not do this fatherly action. In this way, ‘moral oughtness’ loses its normative teeth; it is merely one of many points of view in domain of the ‘general shouldness’.
+
+Avoiding that distinction between ‘moral ought’ and ‘general should’, which Korsgaard believes to be caused by employing a substantive conception of morality, is the motivation behind her preference for a formal conception of morality, in particular the Kantian “testing model.”<<ref "9">>  She explains:
+
+<<<
+The way you are supposed to deliberate is to formulate a maxim, stating the complete package of considerations that together favor the performance of a certain action…the marshaling of relevant considerations…will still go on, but now it will be part of the work of formulating the maxim. You will still do some weighing and balancing, although now it will only be of considerations that plainly are generally commensurable—we need not assume a metric that makes any possible consideration commensurable with any other. Your maxim, once formulated, embodies your proposed reason. You then test it by the categorical imperative, that is, you ask whether you can will it to be a universal law, in order to see whether it really is a reason. Universalizability is a condition on the form of a reason, and if a consideration doesn’t meet this condition, then it is not merely outweighed—rather, it is not a reason at all.<<ref "10">> 
+<<<
+
+	The categorical imperative is an oven in which you bake maxims; it is a test of the universalizability of maxims. Universalizable maxims are the cakes that come out of the oven which are worth consuming. Notice that the categorical imperative is a formal principle. Let us see if it does the work she thinks it does.
+
+The complex part of the story begins with the formulation of the maxim. A maxim, which is a subjective principle, might usually be thought of as the set of {act, principle, end}. In this explanation of the maxim above, we are also marshaling together and adding to that set all other relevant considerations. So, the maxim as a complete package is the set {act, principle, end}∪{all other considerations}. This is our proposed reason, our proposed action even, which will be tested for universalizability by the categorical imperative.
+
+Interestingly, Korsgaard claims that weighing and balancing of commensurable considerations is part of the formulation of the maxim. This suggests that some of work of the weighing model is done as a part of formulating the maxim, and thus the weighing model, in some sense, is incorporated into this testing model.
+
+Only the maxims which pass the test of the categorical imperative, satisfaction being the universalizability of the maxim, can be said to be reasons for actions. If a proposed maxim doesn’t pass the test, then you can’t act on it, and you can’t use it as a reason to act, and it fails to be an action (as Korsgaard uses the word). And, so, we can see the categorical imperative essentially defines what really counts as action or true maxim or a moral reason, while the hypothetical imperative and proposed maxims play very subsidiary roles.gpg --verify check.sum.sig check.sum
+
+This model is crucial because it seems that the products of the categorical imperative are moral reasons entirely for or entirely against specific actions. This formal conception of morality neatly packs the relevant considerations which we might be worried about including in the procedure, which the weighing model is designed to handle, while also avoiding the mistake of making moral reasons a subset of all the reasons used to deliberate about what we generally should do. So, it seems that Korsgaard can plausibly “identify the general should of deliberation with the moral ought.”<<ref "11">>  
+
+Given Korsgaard’s remark, “we make ourselves the authors of our actions, by the way that we act,” she really must prefer the testing model over the weighing model.<<ref "12">>  By Korsgaard’s technical terms of art, in order for a person to perform an action, that person must be an agent. In order to be an agent, that agent must be unified. And, unifying yourself requires constituting yourself in accordance with the principle of practical reason, ultimately the categorical imperative. Essentially, “action requires agency, and agency requires unity,” and unity requires the categorical imperative.<<ref "13">>  Action, agency, and unity inter-define each other; all are subject to the categorical imperative; and therefore we say the categorical imperative is the constitutive principle of action. 
+
+Thus, the categorical imperative is normative for us, it binds us.<<ref "14">>  But, since this is Korsgaard’s major thesis, and this is what she means by the above remark, then she must prefer the testing model – the test itself being the categorical imperative. The very definitions of reason, action, and agency rest upon the use of this particular testing model.
+
+''[b]''
+
+Intuitively, we should object to Bernard Williams’ weighing model because it allows non-moral reasons to trump moral reasons – essentially, we shouldn’t agree to the notion that ‘moral ought’ is distinct from, as a subset of, the ‘general should’. Korsgaard does point out that her description of the two models doesn’t solve this problem,<<ref "15">>  but I think she passes the argument off as being in the right direction. My intuitive objection motivates me to deny Williams’ particular weighing model, but it doesn’t motivate me to deny weighing models and take up the testing model. I think is easy to slip into making the mistake of transferring the force of the intuitive argument against Williams’ weighing model to an argument which is both against all weighing models and in favor of a testing model like the categorical imperative.
+
+ If I were to deny, for the sake of argument, Korsgaard’s theory of self-constitution at large, and therefore lacked the crucial reasons she offers to motivate taking up a formal conception of morality, particularly the categorical imperative as a testing model, I remain unconvinced that the categorical imperative is obviously more plausible than well-constructed substantive conceptions of morality, such as utility or a plausible, non-relativistic weighing model.
+
+With that said, my objective is to specifically defend Williams’ weighing model. The virtues of Williams’ weighing model might be slim, but I think the manner in which Korsgaard presented the model missed some of the advantages of the argument, and so I will extend and clarify her interpretation of his weighing model. Charitably and carefully presenting Williams’ weighing model in a better light will illustrate more depth to the virtues of it. So, while I might not, in the end, agree to the weighing model, my defense of the weighing model will demonstrate that Korsgaard doesn’t provide us a well-made picture of Williams’ weighing model, and that a proper account will be more coherent and (somewhat) more plausible than she implies. 
+Korsgaard gives this example of the model:
+
+<<<
+You take a piece of paper, draw a line down the middle of the page, and write ‘‘for’’ on one side and ‘‘against’’ on the other, and then you start listing the relevant considerations…Then you add them all up somehow to see how strong the balance of reasons is ‘‘for’’ and how strong the balance of reasons is ‘‘against’’…On the ‘‘for’’ side you might write: ‘‘I would earn a lot of money’’ and ‘‘I would have more prestige.’’ Those, you say to yourself, are self-interested considerations. But perhaps on the ‘‘for’’ side you also write: ‘‘It would give employment to the local population’’ and on the against side you write: ‘‘It would damage the environment.’’ Those, you say to yourself, are moral considerations.<<ref "16">> 
+<<<
+
+A construction of the list she describes above likely looks something like this:
+                    Figure 1
+
+I’m taking liberties in interpreting a plausible meaning of “you add them all up somehow to see how strong the balance of reasons is ‘for’ and how strong the balance of reasons is ‘against.’”<<ref "17">>  All the reasons are stacked up on two sides of a single table, and they are balanced/weighed by adding the sum strength of reasons for and against. Notice that the number of reasons isn’t what matters; it is the weight of the reasons that decides. One really good reason for something might outweigh several less significant reasons against something.  In this case, the weighing model shows that you should not do X.
+
+I’ve marked this as a ‘general point of view’, and we should note that the ‘moral point of view’ and all the other specific points of view are not directly demonstrated by this illustration; perhaps in her example they’ve been collapsed into the general table. I’ve artificially grouped similar types of reasons together on each of the side, but I need not do that – they could be in any order and it wouldn’t matter. We should also notice that the notion of subdeliberation appears somewhat absent from this picture. 
+
+Unfortunately, it seems like only one giant deliberation. There is supposed to be a final deliberation, but preceding it, there should be subdeliberation(s) – and those, unfortunately, aren’t found in this illustration.
+
+Korsgaard’s example does not mesh well with other things she explains, including:
+
+<<<
+[1] The picture seems to be that, on the way to making a decision, you marshal together the considerations of a certain common type before balancing them against considerations of another type.<<ref "18">> 
+<<<
+<<<
+[2] If you think about deliberation this way, it is perfectly natural to talk about moral reasons and contrast them with other types of reasons.<<ref "19">> 
+<<<
+<<< 
+[3] When you make your ﬁnal decision, you might say something like: ‘‘well, there are some moral reasons against it, but they are outweighed by the moral reasons in favor of it, so on the whole morality favors it. And self-interest favors it too. Therefore, all things considered, it is what I should do.<<ref "20">> 
+<<<
+<<<
+[4] Then you might do some subdeliberation on these various types of considerations, and then balance out the results against each other. .<<ref "21">> 
+<<<
+
+Remarks [1], [2] and [3] suggest that each point of view is its own group of considerations/reasons, and the reasons belonging to a point of view are weighed/balanced/contrasted as one collective group against another collective group. The example she gives doesn’t make sense of this. Remark [3] is especially important to modeling because it points to multiple decisions in the process, and it seems to directly show how it isn’t the reasons of one type directly intermingling with reasons of others types in a weighing process, but rather the point of view as a whole is directly weighed against another point of view as a whole. 
+
+Remark [4] is clearly related to the other remarks, but within it there is also a vagueness which requires clarification. Bernard Williams explained part of the weighing model in this way (although he didn’t give this procedure an explicit name, he continually makes reference to a sort of ‘weighing’ throughout the book):
+
+One can of course ask, on a given occasion, "what should I do from an ethical point of view?" or "what should I do from a self-interested point of view?" These ask for the results of subdeliberations, and invite one to review a particular type of consideration among those that bear on the question and to think what the considerations of that type, taken by themselves, support. .<<ref "22">> 
+
+I bring Williams’ exact words up to help us make sense of an ambiguity in Korsgaard’s interpretation. She says, “Williams refers to these as questions of ‘subdeliberation,’” and “they could result in what Williams calls ‘subdeliberation,’” which leaves open the possibility that the sum of the questions results in but a single subdeliberation..<<ref "23">>  If that was the case, then there would be a single overarching subdeliberation and then a final deliberation. While this doesn’t immediately seem like it would be a worthy idea, perhaps there could a viable reason for setting the model up like this – just like subtotal and a total on some receipts. This doesn’t appear to be what Williams is saying. Intuitively, it makes more sense to say that each question results in its own subdeliberation, which I believe was Korsgaard’s intent; it wasn’t, however, explicitly stated.
+
+So, given all these descriptors, what should an accurate model look like? We see there are some holes in Korsgaard’s example, and it doesn’t seem to nicely relate to other very important aspects of the weighing model she describes. We need to try to make sense of these details to construct an example model which makes more sense. I’m going to show a thought process involved in building a plausible example.
+
+Admittedly, there is some level of uncertainty in how best to model. As a heads-up, my figures aren’t perfect, but I believe they’ll quickly demonstrate what I’m thinking. 
+
+This model looks a lot closer to what Williams intended, and it makes sense of most of the descriptors which posed problems to Korsgaard’s example. Note that we now have subdeliberations of specific points of view which feed into a final deliberation from the ‘general point of view’. You can imagine that there are many more subdeliberations, I’ve only shown three for brevity’s sake.
+Vitally, we need to recognize how the relationship between the subdeliberation tables and the master ‘general point of view’ table affects the outcome. In the case of Figure 2, the method of relation will result in the exact same outcome as Figure 1. Each side of each subdeliberation is summed and the results are transferred to the master table. What this amounts to is that the subdeliberations don’t really matter – having just one master table and no subdeliberations would have amounted to the same outcome. Surely this is not what is intended. Clearly, the relationship between the subdeliberations and the final deliberation won’t look like this.
+
+As we’ll look at two more figures, let’s assume that all points are of equivalent value  because (from what I can see) any weighing model which would constructed otherwise can be shown to be convertible to an equivalence point system with no change in outcome. It is easier this way. Just to be clear, each method of relating the subdeliberation tables to the master table I’ll be showing is a unique function – there is no redundancy. The argument is that depending on how we clarify Korsgaard’s description, we arrive at weighing models of varying merit. Let’s see another.
+
+Figure 3
+
+I’ve kept subdeliberations the same. But, in the end, the weight of the conclusion of each subdeliberation remains the same – each gets a vote. Note that this produces a different outcome from our original method – by this account, you should do X. This model relies heavily upon Remark [3]. Subdeliberations favor one thing over another, and then all things, particularly the conclusion of each subdeliberation, are considered. Voting is a type of weighing, it strictly weighs the quantity of the conclusions of subdeliberations. We might argue that this isn’t enough; we may also need to weigh the quality of each conclusion of a subdeliberation against the others. So, let’s look at that:
+
+Figure 4
+
+In Figure 4 we see that the relationship between the subdeliberation tables and the master table generates a different outcome from Figures 1 and 2. The method of relation is transferring the weighted points of the ‘winning’ side of each subdeliberation to the master table. Interestingly, the qualitative weight of each conclusion is transferred for a final weighing. This makes sense to me because perhaps I only have one or two small reasons for doing X from one point of view; then it seems that the weight of that point of view is less significant than a point of view with four or five substantial reasons against doing X. If this is a problem, then we should weigh the conclusions of subdeliberations in a non-vote – which is why Figure 4 seems more plausible a model than Figure 3.
+
+One of the weird aspects of the weighing model is figuring out what happens when both sides are equal. I’m sure a clause for the weighing model could be created to be a tiebreaker.
+
+So, I’ve done a lot of work to show the depth of constructing a more plausible weighing model. But I’m afraid that even this isn’t satisfactory. I worry that Korsgaard’s description is still missing the point. Part of the problem is that the weighing model isn’t about “Should I do X?” but rather “What should I do?” or “How should I live?” These are substantially broader than she demonstrates with her prototype of the weighing model. If she constructed the model correctly, I think she’d need to show more explicitly how it makes sense of the last questions rather than the first. She built this weighing model to provide “yes/no” answers, similar to the categorical imperative as a testing model. But the weighing model isn’t looking for an answer as simple as a yes or a no. 
+
+A proper weighing model will need to take into account all the possible alternatives of action available, and it will need to weigh between the various actions, using a subdeliberation/final deliberation model. There are various ways of doing this. You might, for example, imagine that there is a final vote or weight for each possible action, either a negative or positive weight (in degrees of course), which depend on whether or not your decision procedure for a particular “Should I do X?” determines whether you are for or against it, and to what degree. So, then it seems there an overarching deliberation and weighing procedure for the conclusions of the smaller “Should I do X?” and “Should I do Y?” and so on. Likely, the overall weighing model requires a detailed account of how it relates to the smaller single action deliberations and their weights.
+
+As a side note, one possible weighing model which technically fits Williams’ model, but certainly isn’t his intent (basically, it would be cheating), would be to have the value of moral reasons to astronomically outweigh any other type of reasons (or perhaps non-moral reasons may have zero weight), to the point that moral reasons are the only sort of reasons which actually ever end up mattering in the weighing model. That would clearly be against the spirit of Williams’ original objection, but it is an example of a weighing model that determines what to do from essentially moral reasons alone (which I prefer).
+
+Another worry I have is that it seems Korsgaard’s missing substantial principle and her robust maxims actually demonstrate her theory requires a hybrid, being both formal and substantive. But it seems that the weighing is also a hybrid. The weighing model is a formal principle; it is a way of deliberating. It is a function whose inputs are substantive arguments; but the model itself, the function of weighing inputs, seems very much like a formal principle to me. The contents which are input into the formal weighing model are substantive; they come preloaded with substantive values. But, arguably, maxims and the missing principle do something similar. Oddly, it seems as if her theory can be construed as a weighing model as well.
+
+	Interestingly, in seems that we can also argue for a weighing procedure of the maxims which are universalized by the categorical imperative. In this case, the categorical imperative test is contained by a larger weighing model. The “Should I do X?” deliberations, with ‘yes or no’ answers (although, they might also require some mechanism for weighting), which are but one part of Bernard Williams’ weighing model, can actually be replaced by the categorical imperative (although, perhaps some additions will be necessary). But, if this is case, then perhaps some form of a weighing model might ultimately be the decision procedure at large.  
+
+''[2][a]''
+
+	Korsgaard investigates the nature of the Kantian hypothetical imperative. What does it mean to say “if you will an end, you must will the means to that end?”.<<ref "24">> In particular, Korsgaard is worried about the interpretation of the relationship between “taking the means to an end” and “determining yourself to cause the end” as being analytic.<<ref "25">>  But, why should she be worried about the notion that: someone fails to take the means to an end if and only if that person didn’t determine themselves to cause the end? She is interested in preventing Kant’s view from degenerating “into tautology” such that “your end would be whatever you in fact pursue.”.<<ref "26">>  If this occurs, it seems to Korsgaard that the hypothetical imperative loses its normativity – it is important to her that a person can fail to meet the requirements of the hypothetical imperative. But, further, breaking up the analytic interpretation of the hypothetical will help promote one of her majors theses. [Significant Feature #1] Significantly, Korsgaard prefers to interpret the hypothetical imperative as a “constitutive principle of willing,” whereby a “person who wills an end constitutes himself as the cause of that end.”.<<ref "27">>  
+
+	Her view of rationality coincides with her interpretation of the hypothetical imperative. The vital feature of a rational mind is that it “acts not merely in accordance with laws, but in accordance with its own representation or conception of a law.”.<<ref "28">> This notion of rationality arguably has an element of free will attached to it. If we are merely acting in accordance with laws, then we aren’t really acting at all. We would be misrepresenting the state of affairs to claim that a rock which falls in accordance with the laws of physics was really acting in a meaningful sense – after all, it was the laws of physics causing the rock to fall. Likewise, a mind which is completely determined by laws, laws which aren’t the mind’s own conception as Korsgaard would have it, isn’t acting of its own accord. A rational mind must cause its own acts, and Korsgaard thinks it can only cause its own acts when it acts in “accordance with its own representation or conception of a law.” Korsgaard is claiming that when we generate our own maxims, we are generating our own conceptions of laws..<<ref "29">>  We act in accordance with our own conception of law. Thus, when we act upon our maxims, those acts really are ours; they are acts caused by our rational minds; we have determined ourselves; we have willed those acts. The self-determination of rationality demonstrates our responsibility and is a necessary condition to her the self-constitutive feature I highlighted above.
+
+	Korsgaard gives an example of a rational mind using logic. She parallels the principle of modus ponens (P → Q, P ⊢ Q) as a normative principle which describes the mental process of drawing a conclusion to the hypothetical imperative as a normative principle which describes the mental process of willing an action..<<ref "30">>  It makes that she has chosen modus ponens. It is easy to see how all other rules of inference might rely upon it in a deductive system. Conjunction introduction (P, Q ⊢ P ∧ Q) in a deductive system is applied via modus ponens. If P is true, and if Q is true, then P ∧ Q is true. Since P is true, and Q is true, therefore P ∧ Q is true. Modus ponens is a well-chosen example of drawing any sort of logical conclusion. We walk away with the notion that the hypothetical imperative is “a constitutive principle for the will” in the way that modus ponens is a constitutive principle of drawing logical conclusions.<<ref "31">>
+
+	She also tells us a psychological story (which she uses several times in the book) about how the hypothetical imperative unifies and constitutes the will. The story is basically that I, as an agent, can be in conflict over my desires and emotions, but I can choose not to conform to and ‘to be’ these desires and emotions. Only when I am overriding my desires and emotions, when I say “I am not you; my will is this,“ and when I “consciously pick up the reins, and make myself the cause of the end” can it be said that ‘I’ am willing an end rather than my desires and emotions.<<ref "32">> Without the capacity to employ the hypothetical imperative, it would be my desires and emotions which determine me; I would have not a will without the hypothetical imperative.<<ref "33">> Thus, to say that the hypothetical imperative is a constitutive principle for the will is to say that “I” willed something, in part because I’m employing the hypothetical imperative.
+
+	Korsgaard explains that in some sense, “there is no hypothetical imperative” because the “hypothetical imperative is not really a separate principle at all; rather, it captures an aspect of the categorical imperative: the fact that the laws of our will must be practical laws.”<<ref "34">> In another sense, however, Korsgaard does artificially separate the hypothetical imperative from the categorical imperative, but at the same time the she maintain the normativity of hypothetical imperative, which means we can fail to satisfy it. [Significant Feature #2] A very significant feature arises: the possibility of instrumental irrationality.<<ref "35">> 
+
+	An agent who is instrumentally irrational “does will the end, but cannot bring himself to take the means.”<<ref "36">> An agent who is instrumentally irrational does will an end and constitutes himself as the cause of that end, but Korsgaard believes he does it badly, because he cannot bring himself to take the means to that end. Korsgaard gives us an example:
+
+<<<
+For if someone shrinks from an agonizing medical procedure needed to save his life, it seems more plausible to say that he can’t face the means than that he doesn’t really will the end of continuing to live.<<ref "37">>
+<<<
+
+	In some sense, this man chooses not to take the means to this end, but at the same time he does will his end and he does determine himself to cause the end - he just does it badly. If this is the case, then Korsgaard might be successful in avoiding the tautological interpretation of the hypothetical imperative.<<ref "38">> I am not sure, however, if Korsgaard’s example strictly supports her own interpretation. I worry that Korsgaard needs to provide a stronger account of how degrees of agency and constitution are linked to failing to meet the normative requirements of the hypothetical imperative.
+
+	I see two versions of this story. The above way appears to be Korsgaard’s interpretation. A person can be influenced (which isn’t necessarily being ‘determined’) by an irrational impulse. The man may know that he is going to die if he doesn’t have the medical procedure to save his life. The rational thing to do is to have the procedure if his end is to live. However, irrationally, while he really does want to live, he is inclined to deny the procedure because of an overwhelming fear of pain. So, he has an irrational incentive that overrides his reason, and causes him not to take the means to his chosen end.
+
+	Another version of the story still supports the tautological interpretation of the hypothetical imperative. Perhaps the man really didn’t will to live at all, and that is why he didn’t have the agonizing medical procedure. He knew that willing the minimization of pain and suffering as an end was incompatible with willing to live as an end. What he really willed as his end was the minimization of pain and suffering to the exclusion of willing to live. And, he did take the means to that end. Obviously, Korsgaard doesn’t like this interpretation because it removes the normativity of the hypothetical imperative; but, it seems very plausible that we can make sense of the tautological interpretation, despite Korsgaard’s dislike of its inviolability. For now, I don’t see why we should deem her version of the story more plausible than this second version. 
+
+	Korsgaard concludes 4.3 with the following:
+
+To act is to constitute yourself as the cause of an end. The hypothetical imperative picks out the cause part of that formulation: by following the hypothetical imperative, you make yourself the cause. As we are about to see, the categorical imperative picks out another part of that formulation—that the cause is yourself. By following the categorical imperative, you make yourself the cause.<<ref "39">>
+
+	Here, she wraps up what she means about how there isn’t a hypothetical imperative, in some sense. Clearly, in another sense, we can artificially extract it from the categorical imperative because of the “distinctive feature[s] of action” it captures.<<ref "40">> 
+
+''[Criticism]''
+
+	One of the worries I have with this reading is how it might contradict Korsgaard’s previous criticism of Dogmatic rationalists. She denies that moral propositions are objective features of the world, existing independent of our minds.<<ref "41">> This criticism is found in both “The Normativity of Instrumental Reason” and again in sections 1.1.4-1.1.5 and 4.2 of Self-Constitution. It seems that the very same criticism she makes against the Dogmatic rationalist can also be applied to her argument. If this is true, then she’ll either need to give up her criticism of the Dogmatic rationalist or she’ll need to deny the parts of her argument which are subject to the Dogmatic rationalist criticism (both of which have an enormous set of implications for her theory at large). Here is the passage from 4.3 in question:
+
+<<<
+Rationality is a power of self-determination. This is a general point, not just a point about practical reason. Consider again the case of logic. Perhaps you don’t arrive at all your beliefs through reasoning, but when you do, it’s an act of self-determination, in the sense that the activity of your own mind is part of what produces the belief in you. Suppose you believe two premises, and a certain conclusion follows. You won’t automatically believe that conclusion, because you might not notice the connection between them. But if you do notice the connection, and put the premises together in the way suggested by the connection, then you do something: you draw the conclusion. In drawing the conclusion—or, as we say, in making up your mind, in constituting your mind—you determine yourself to believe it. The principle of modus ponens describes what you do when you draw the conclusion, but it is also a normative principle. In the same way, the hypothetical imperative describes what you do when you will an action: you determine yourself to be a cause, the cause of some end. But it is also a normative principle. It is a constitutive principle for the will.<<ref "42">>
+<<<
+
+	Modus ponens is paralleled to the hypothetical imperative; the relationship between an agent’s rational psychology and the world is parallel for both sorts of principles. Problematically, this relationship, at least in the case of modus ponens, appears to be a form of representationalism which Korsgaard vehemently denies in her earlier criticism of the Dogmatic rationalist concerning moral propositions and principles.	
+
+From the reading, we can see that the connection between two premises pre-exists any belief or awareness of its truth. That is to say, modus ponens as a rule of inference applies regardless of whether or not an agent exists or knows it to be the case. The story of rational psychology put forth is that the agent himself ‘draws the conclusion’, that modus ponens as a fact becomes introduced into the mind of the agent as a part of that agent’s willing to know the truth. Notice that what makes the internal representation of modus ponens coherent at all in the mind of the agent is its link to the objectivity of modus ponens as a rule inference in the world external to the agent. Modus ponens is not a valid rule of inference in virtue of the agent; instead, the belief of the agent is justified by its relationship to external reality; modus ponens is good rule of inference in virtue of reality. 
+ 
+Assuming this parallel between the logic of modus ponens and the hypothetical imperative as a practical reason holds, Korsgaard’s original criticism of Dogmatic rationalism is untenable; she can’t deny that practical reasoning such as the hypothetical and categorical imperatives are objective features of the world, existing independent of our minds. The representation of the moral law in our minds is coherent and justified solely in virtue of its link to the actual, objective moral law which is external to us in the world.
+
+Of course, Korsgaard might criticize the Dogmatic rationalist’s representationalist form of normative principles as lacking motivational force. But, she’s already said that modus ponens is a normative principle, and it is normative in virtue of being external to us – and yet we are motivated by it. The same line of reasoning should be offered for the hypothetical and categorical imperative. This view, however, has profound implications for what it means to be a self-determining and self-constituting agent in her theory.
+
+''[b]''
+
+Particularism eschews any kind of general rule-governed morality - reasons for acting are never based on generalities such as “don’t lie.” In a nutshell, Korsgaard answers particularism by claiming that incentives and desire can’t constitute you, but rather 'you' are over your desires. In, particularistic willing, incentives and desires dictate who you are, and thus you aren’t determining yourself. So, if we are to assume Korsgaard’s self-constitution theory, then particularistic willing isn’t willing at all.  Essentially, 'you' includes being under the operation of categorical imperative, a general rule, which is contrary to particularism. Let’s zoom in to see her argument, starting with Korsgaard’s initial concern with particularistic willing:
+
+<<<
+Particularistic willing would be a matter of willing a maxim for exactly this occasion without taking it to have any other implications of any kind for any other occasion.<<ref "43">><<<
+
+Particularistic willing within the framework of maxims and the categorical imperative amounts to over-specified and seemingly non-universalized maxims which fit your exact particular circumstance. In the particularistic maxim, the antecedent of a maxim is specified to the point that you’ll never find yourself in that circumstance again by definition, e.g. to exaggerate the point, the time/date and your GPS coordinates could be a part of the antecedent of the maxim, such that generalizing, universalizing, or demonstrating similarities to other circumstances is impertinent or impossible and no longer the purpose of the categorical imperative as a test of universalizability. So, there is a sense in which particularistic maxims are ‘universalized’, but a maxim of this sort is so specific that it no longer possesses any general guiding powers outside of a truly unique circumstance. Hence, this is why one might say that particularistic maxims aren’t really universalized in a meaningful way. 
+
+The categorical imperative becomes impotent in this paradigm. In a very theoretical sense, this formulation of the categorical imperative seems to provide an analytic, logically true notion of moral theory, much like how virtue and the virtuous agent are inter-defined. It comes at a cost, namely that these logically true statements of moral theory fail to provide substantial, concrete moral truths or a meaningful, practical decision procedure. While not completely explicated by Korsgaard, I believe this is part of what motivates her to deny particularistic willing.
+
+Korsgaard gives an example of an agent with conflicting/incompatible desires, A and B. The agent has “some principle that favors A over B,” and so this agent exercises his principle and chooses A.<<ref "44">> In this case, we can see the agent regards “the principle of choice as expressive, or representative” of himself and his causality. Vitally, the principle within the agent is not some third force within him which helps A win the conflict over B; the agent’s mind is not a battleground on which he is a “mere spectator” whereby his principle is the real cause of his action. Rather, it is in the agent’s “identiﬁcation with the principle of choice” on which he acts that enables us to say ‘he’ did something, not his principle. Essentially, self-determination requires self-identification with a principle on which you act.<<ref "45">> This example is parallel to the psychological story about how the hypothetical imperative unifies and constitutes the will that we saw in 4.3.
+
+According to Korsgaard, “particularistic willing makes it impossible for you to distinguish yourself, your principle of choice, from the various incentives on which you act” because “in order to will particularistically, you must in each case wholly identify with the incentive of your action.”46 If she is correct, and a person cannot constitute himself by wholly identifying himself with his incentives, then the person who employs particularistic willing isn’t actually willing at all; thus, he is not really agent because he does not constitute himself as the cause of an end. 
+
+This is clearly connected to her thesis in 4.3: the hypothetical imperative is a “constitutive principle of willing,” whereby a “person who wills an end constitutes himself as the cause of that end.”<<ref "47">> Particularistic willing is a determination of the self from some alien part within the person, not the person himself as a whole determining himself. Lacking self-determination prevents a person from truly willing an end and constituting himself as the cause of that end.
+
+''[3][a]''
+
+I am going to explain the structure of the argument in this chapter. In doing so, we’ll realize the defining qualities and the impact of Korsgaard’s conceptions of self-consciousness and reason, and then it will be obvious how the argument collapses without both of these notions. The argument in chapter 6 is expansive and very detailed; and so I’m going to explicate her argument section by section.
+
+''6.1  Instinct, Emotion, Intelligence, and Reason''
+
+''6.1.1''
+
+	Korsgaard sets out to differentiate the sort of will, action, and psychology of non-rational from those of rational animals (humans). Korsgaard provides a generous account of the psychology of non-rational animals, but she wishes to show an even ‘deeper sense’ of human agency, will, action, and identity by pointing out what is ‘up to us’ and how we determine ourselves, unlike non-rational animals.<<ref "48">>
+
+	There is a relationship between principles and incentives, namely “principles determine which incentives a creature is subject to as well as what she does about them.”<<ref "49">> Incentives seem to be the sort of thing which agents (both rational and non-rational) perceive, and the principles govern.  The principles are the laws of one’s causality. The will of non-rational animals stems from instincts because the principles of non-rational animals are instincts. Action can only be understood by how instinct determines the non-rational animal to move. Unlike non-rational animals, humans have a much stronger sense (perhaps ‘degree’) of agency in that we actually choose our principles. We are not determined by instinct. Our actions, our will, our laws of causality are ‘up to us’. 
+
+	We will see that humans are similar to the non-rational animals, possessing primitive psychological capacities, even some elements of instinct, but we also find that humans have something more than do the non-rational animals.
+
+''6.1.2-6.1.3''
+
+	These sections are focused on the notion of instinct. Korsgaard believes the impact of instincts differ among non-rational and rational animals. Instincts “structure an animal’s consciousness, his conception of the world, in ways that will enable him to survive and reproduce.”<<ref "50">> Korsgaard claims that the perceptions of animals come pre-loaded with practical, teleological significance, not requiring contemplation.<<ref "51">>
+
+<<<
+	There are two senses in which “instinct” is used, the narrow and the broad. The narrow sense refers:
+to an established connection between a representation (the incentive) and a certain primitively normative response, an automatic sense of the response as appropriate to or perhaps better called for by the representation.<<ref "52">>
+<<<
+
+	In considering instinctive action, Korsgaard wishes to narrow this range of connections to the sort which is less automated, “where there is room in consciousness to experience the response as called for or appropriate.”<<ref "53">>  While in non-rational animals, it seems that we can inevitably tell a deterministic story of how instinct automates behavior and psychology, the ‘knee-jerk’ reaction is not the interesting end of the spectrum which Korsgaard wishes to consider.
+
+''6.1.4''
+
+	This section is largely about Korgaard’s conception of emotion. She claims that emotions are “perceptions of reasons,” particularly “perceptions of practical reasons, reasons for action.”<<ref "54">> We should note that the way in which instincts operate in animals as a type of perception or emotion should be distinguished from how emotions operate, in a deeper and more complex sense, in the minds of humans.
+
+	Importantly, emotions aren’t the sort of thing we can choose or decide to have. They are responses of agents, likely in a slightly automated sense, which we don’t possess from reason. Emotions are a weaker form of response of agency, however, than something like action, which requires reason.<<ref "55">>
+
+	Korsgaard claims that “emotions can sometimes be judged morally good or bad, and this is in turn because an emotion is subject to standards of appropriateness and intelligibility.”<<ref "56">> This is interesting. At least some emotions aren’t ‘knee-jerk’ reactions, and that is part of what allows them to be subject to normativity. While Korsgaard isn’t clear on the matter here, I suggest that she must be maintaining that the sort of emotions in humans which can be judged as morally good or bad are not completely deterministic (hormonal, chemical, electrical impulses, etc.). If not, perhaps she is trying to relate these sorts of emotions to the type of normativity she believes belongs to the non-rational animals, but I am not convinced that works.
+
+	Further, “to have an emotion is to stand in the presence of a normative fact.”<<ref "57">> This is related to a weak sense of normativity for animals, which is based on the teleology built into their perception.<<ref "58">>
+
+''6.1.5-6.1.6''
+
+	The broader meaning of instinct is explained in relation to intelligence. This broader meaning of instinct includes “learned responses”<<ref "59">> and is thus linked pretty strongly to intelligence. Intelligence is the “ability to learn from…experiences,” the ability to “extend [one’s] repertoire of practically signiﬁcant representations…beyond those with which instinct (or the inventor) originally supplied,” and the “capacity to forge new connections, to increase your stock of automatically appropriate responses.”<<ref "60">> Both the non-rational animal and the human seem to possess, to some degree, some more than others, intelligence on this account.  
+
+Crucially, we are told that both non-rational animals and humans naturally have a teleological perception of the world.<<ref "61">> Human perceptions can move beyond this natural, teleological perception of the world. Differences in the degrees of intelligence, however, do not distinguish the nature of human perception of the world from the non-rational animal in a significant way.  The scientific (non-teleological) view of the world is an abstraction unique to rational animals, but intelligence is not sufficient for the creation of this worldview. Reason is the necessary ingredient which allows humans to detach from the naturally teleologically-loaded perceptions of the world common to all intelligent animals.<<ref "62">>
+
+Korsgaard says that reason is “the thing that makes us us.”<<ref "63">> This is somewhat a double-entendre. Clearly, reason has to be the thing which distinguishes non-rational animals from rational animals. But, further, Korsgaard’s use of the word ‘make’ is no accident – reason, as she uses the word, is central to how rational beings make their own selves, forms, and identities.
+
+''6.1.7''
+
+The capacity of ‘reason’ was very briefly introduced in the last section, and the capacity of ‘self-consciousness’ is strongly introduced in this one. Self-consciousness comes in different degrees and forms.<<ref "64">> Self-consciousness relates to different spaces: physical space, social space, and mental space. Self-consciousness is partly about locating the ‘self’ in a type of space, about relating and distinguishing the self from the things around it. Almost all animals are capable of the first, many the second; but it seems that only the very potent self-consciousness of agents like humans are capable of enabling an agent to locate himself in mental space.<<ref "65">>
+
+	To locate oneself in mental space is “to locate yourself with respect to your own thoughts and emotions, and in particular to know them as your own.”<<ref "66">> ‘You’ are distinct from your thoughts and emotions. Here it becomes evident how Korsgaard wishes to employ her dual meaning of the “I.” Paradoxically, in one sense, the “I” is the whole organism, with all its thoughts, emotions, physical parts, etc., and in another sense, the “I” is the self-consciousness within the mental space that is distinct from, aware of, and contained by the surrounding capacities and parts of the rational organism. I am not sure how we are meant to make sense of this dual “I.” 
+
+Korsgaard goes on to show the beginning of the philosophical work intended for self-consciousness:
+
+<<<
+We are aware, not only that we desire or fear certain things, but also that we are inclined to act in certain ways on the basis of these desires or fears. We are conscious of the potential grounds of our actions, the principles on which our actions are based, as potential grounds. And this, as I have argued elsewhere, sets us a problem that the other animals do not have.<<ref "67">>
+<<<
+
+ 	Here is a necessary moral, rational agent-making property. Animals aren’t aware or conscious of their principles (instincts) in the way we are. Animals can’t separate themselves from their principles. And, by ‘potential’, she isn’t pointing out how humans are aware that our ‘potential grounds’ will be our grounds in the future, and that we can’t do anything about it (like seeing the potential of an oncoming train from afar). As we will see, the ‘grounds’ of action are contingent; our ‘potential grounds’ are only potential because we have free will to choose them. She continues:
+
+<<<
+For once we are aware that we are inclined to act in a certain way on the ground of a certain incentive, we ﬁnd ourselves faced with a decision, namely, whether we should do that. We can say to ourselves: ‘‘I am inclined to do act-A for the sake of end-E. But should I?’’<<ref "68">>
+<<<
+
+	We get a glimpse of her terminology here. Incentives are the grounds (a type of reason) to act in certain ways. Inclinations are about having the proclivity to act in a certain way. One is aware, self-conscious, of one’s inclinations. It seems that awareness of inclinations is part of the crossroads for decision making, namely whether we will follow our inclination. We can contemplate and choose not to follow our inclination; we can refuse to act; we can refuse to use an incentive as a reason for acting in a certain way. Korsgaard explains that “self-consciousness is liberation from the control of instinct.”<<ref "69">> It seems that free will is located in our self-conscious awareness, and it is this sort of ‘control’ that differentiates us from animals. 
+
+Humans, however, are not so different from animals in that we have escaped our instincts. To Korsgaard, it may even be the case that the source of all the grounds on which humans act is instinctual (which doesn’t seem to make us much different at all from the animals in this aspect).<<ref "70">> It is likely the case that Korsgaard takes the time to describe the similarities between the human species and other animals specifically because being an animal is part of our human identity. She’s pointing out the primitive roots from which we came, demonstrating the animal-like teleological traces still left in our human biological identity. Despite our similarity to non-rational animals, Korsgaard emphasizes what differentiates us:
+
+<<<
+But instincts no longer determine how we respond to those incentives, what we do in the face of them. They propose responses, but we may or may not act in the way they propose. Self-consciousness opens up a space between the incentive and the response, a space of what I call reﬂective distance. It is within the space of reﬂective distance that the question whether our incentives give us reasons arises. In order to answer that question, we need principles, which determine what we are to count as reasons. Our rational principles then replace our instincts—they will tell us what is an appropriate response to what, what makes what worth doing, what the situation calls for. And so it is in the space of reﬂective distance, in the internal world created by self-consciousness, that reason is born.<<ref "71">> 
+<<<
+
+	Here the major philosophical work of self-consciousness is established. The degree and the form of self-consciousness of humans, that which differentiates us from the non-rational animals, is the capacity to determine ourselves and not to be determined by our instincts.  In modeling the human mind, Korsgaard posits a space of “reflective distance” between our incentives and responses. Without this reflective distance and our sort of self-consciousness, human minds would be closed under determinism, leaving no room to contemplate, choose, and do otherwise.
+
+	Self-consciousness is the locus of our free will and moral agency. The reflective distance, generated by self-consciousness, is the locus of the capacity to reason about how we will act. The principles within you, which if you so choose to, ‘replace your instinct’ providing an explanation of why you should accept one inclination rather than another. Self-consciousness of a certain degree and form, which humans possess, is a precondition to the reflective space which is, in turn, a precondition for reason. 
+
+''6.1.8''
+
+	So Korsgaard concludes that, “Reason, therefore, is not the same thing as intelligence.”<<ref "72">>  Arguably, reason is like intelligence in that it is concerned with contemplation, deduction, inference, etc. The difference between reason and intelligence lay in ‘where’ in the mind and ‘about what’ each capacity operates on. Intelligence can be found in many organisms (arguably even computers), largely dealing with the outward, teleologically perceived world.<<ref "73">>   Reason turns inward; and it is here that we can find the realm of normativity, in Korsgaard’s view.<<ref "74">>  In following Korsgaard’s story of the mind, intelligence is a precursor to reason, and both capacities are necessary for dealing with the normative realm and the world around us.
+
+''6.2  The Parts of the Soul''
+
+''6.2.1-6.2.2''
+
+	Korsgaard covers a Kantian story of Eve, the first human to make a “free rational choice.”<<ref "75">>  In becoming self-conscious, Eve is aware of the incentives operating in her.<<ref "76">>  Both “new objects of desire” and “new kinds of objects of desire” are made available to Eve because of reason which is born in her self-consciousness.<<ref "77">> 
+
+	Here we understand the title of the chapter - as Eve pioneers the journey of ‘being a human’, we find our species banished “from a world that is teleologically ordered by our instincts and presented as such by our incentives, a world in which we nearly always already know what to do.”<<ref "78">>  This expulsion from the garden is a shattering of our previous, albeit primitive, psychic unity that non-rational animals (which we once were, according to the story) possess. 
+
+	Self-consciousness and reason were the catalysts of our psychic disunity; and yet, they are also the capacities which make us special; they are the capacities and arenas in which we can gain back our psychic unity, a new, human, moral, psychic unity. 
+
+	As Korsgaard sees it, with the vast majority of our teleologically-loaded worldviews ruined, our fragmented identities, and our newly available wide-array of potential ends and actions, it is through a combination of intelligence and reason that we can “reconstruct a usable conception of the world” and construct “ethics to determine how to live our lives.” <<ref "79">>  Clearly, there is a potent method to the madness of her constructivist view of morality.
+
+''6.2.3-6.2.5''
+
+	We are introduced to an argument for the “parts of the soul” following Plato (and we’ll see this fleshed out in the next chapter). Non-rational animals, in some sense, don’t have “parts of a soul” because their “whole psychic system is closed and tightly knit.”<<ref "80">>  They are determined and unified, and in this way they aren’t broken into parts. Humans, however, can be said to have “parts of the soul” in this respect directly because of the psychic disunity originating from our self-consciousness and reason.<<ref "81">> Korsgaard explains the relationship of incentive to self-consciousness and reason in a compact form:
+
+<<<
+Self-consciousness is the source of reason. When we become conscious of the workings of an incentive within us, the incentive is experienced not as a force or a necessity but as a proposal, something we need to make a decision about. Cut loose from the control of instinct, we must formulate principles that will tell us how to deal with the incentives we experience. And the experience of decision or choice, the work of these principles, is a separate experience from that of the workings of the incentive itself.<<ref "82">>
+<<<
+
+	Within these experiences, we see there is a sort of work to be done: a work of making these experiences and parts work together and a work of unifying ourselves.
+
+	Korsgaard goes on to point out a difference between mere reaction and action. Knee-jerk reactions don’t involve self-consciousness and reason. The sorts of reactions which we can contemplate and control count towards action.<<ref "83">>
+
+	Self-consciousness not only necessitates principles of reason, but it also “transforms incentives into what Kant calls inclinations.”<<ref "84">> There is link between the deterministic, instinctual aspects of our mind, which are outside self-consciousness, and our reason, our principles, and our free will, which are inside self-consciousness.
+
+	In transforming incentives, self-consciousness produces inclinations.<<ref "85">> Korsgaard explains that self-consciousness makes “our inclinations into mental items.” Awareness of incentives enables us to reify them into inclinations. This product, this inclination, is an object with which reason and the will can work.<<ref "86">> So, we can see that “self-consciousness is the source of inclinations as well as of reason. Self-consciousness produces the parts of the soul.”<<ref "87">>
+
+''6.3  Inside or Outside?''
+
+	In response to a moral realist account of value and the properties of objects, Korsgaard explains:
+
+<<<
+At the basis of every desire or inclination, no matter how articulately we can defend it, is a basic suitableness-to-us that is a matter of nature and not of reason. Value is relational and what it is related to is our nature.<<ref "88">>
+<<<
+
+The realist says that your incentive is based upon the objective properties of an object; in some sense, value is one of the properties of the object. Anti-realism disagrees with this claim. Korsgaard thinks neither the realist nor the anti-realist have the right picture. She thinks that properties of objects are not irrelevant, but rather only relevant as related to the human condition. Again, it seems that a modest teleology is vital to her constructivist views. She continues:
+
+<<<
+It is our own choices that ultimately confer value on objects, even though our choices are responsive to certain features of those objects. In choosing objects, in conferring value on things that answer to our nature in welcome ways, an agent is afﬁrming her own value.<<ref "89">>
+<<<
+
+So, this ‘suitableness-to-us’ is connected to what is 'up to us'. Self-consciousness and reason are necessary capacities for making the sorts of choices which confer value on objects. Our self-consciousness provides the necessary distance from incentives for it to be “normatively undecided” as a mere inclination, giving us space to reason and choose what is normatively valuable.<<ref "90">> Without these capacities, values of objects and even the affirmation of one’s value (an important notion to Korsgaard) would not be possible. 
+
+Deliberation and action are complicated notions given this mental framework. Part of what accounts for action of humans is internal to self-consciousness and reason. This section concludes that “there is never any gap between decision and action. The conclusion of a practical syllogism is an action.”<<ref "91">> This nicely explains the close-knit relationship between action and agency.
+
+''Pull Yourself Together''
+
+	Here, Korsgaard combines the work she’s been doing for the past sections; this section is the conclusion of the chapter. She begins it by saying:
+
+<<<
+Self-consciousness opens up a space between the experience of the incentive and what previously had been the instinctive response, and that space transforms incentives into inclinations and governing instincts into free reason. Self-consciousness is therefore the source of a psychic complexity not experienced by the other animals, and it transforms psychic unity from a natural state into something that has to be achieved, into a task and an activity. Once we are self-conscious the soul has parts, and then before we can act it must be uniﬁed. At the very same time, and for the same reason, practical deliberation becomes necessary, for free reason need not follow inclination. We must now decide what to do.<<ref "92">>
+<<<
+
+This nicely demonstrates how self-consciousness and reason are the pillars of the argument presented in this chapter. Moreover, we can see how vital this picture of mental capacities is for Korsgaard’s theory at large. Deliberation about how you will act and who you are is for the sake of unity; and this is the resulting task assigned to those who have achieved and are plagued by (as in the way it generates our plight) self-consciousness and reason.<<ref "93">> Action and identity are combined in this way, and self-consciousness and reason are the mechanisms by which incentives/inclinations are generated, judged, acted upon and part of constituting an identity.<<ref "94">> And so, given our expulsion from the non-rational kingdom and our entrance into the rational kingdom:
+
+<<<
+The work of practical deliberation is reuniﬁcation, reconstitution: and the function of the principles that govern deliberation—the principles of practical reason—is the uniﬁcation of the self. So we arrive again at the conclusion of Chapter 4—the function of practical reason is to unify us into agents who can be the authors of our actions.<<ref "95">>
+<<<
+
+<<<
+For nature sets each human being a task: self-consciousness divides his soul into parts, and he must reconstitute his agency, pull himself back together, in order to act. And that need to reconstitute yourself introduces the necessity of exercising your freedom, and the opportunity of doing so creatively. In other words, every person must make himself into a particular person. So someone who says, ‘‘I want to make something of myself’’ is just describing the human condition. And it is because he makes himself into the particular person who he is that we hold him responsible for being who he is (1.4.3).<<ref "96">>
+<<<
+
+This work of practical deliberation, of reunification and reconstitution, of pulling one’s parts of the soul together, of choosing one’s (Aristotelian) form, all rest upon the pillars of our self-consciousness and reason. Without these things, we would be unified non-rational animals, still living in the garden, bound by our instinct, lacking free will, lacking depth and moral agency. Our plight to act, our particular sort of agency which is infused with commitments and endorsements, and our task of self-constitution are only coherent with an account of self-consciousness and reason.
+
+''[b]''
+
+With this organic story of our rational heritage, we can see the nature of unity and good action when Korsgaard lets us take a ‘look under the hood’ of human moral psychology. We see her picture of how incentives, inclinations, and our principles relate to our identity, self-consciousness, rationality, and our action. This is part of her providing a satisfactory account of good action. Unfortunately, I don’t see how she will be able to give a satisfactory account of evil action. That problem really clicks in this chapter.
+
+How does someone perform evil action in this schema? What prevents a human from choosing evil principles? Why can’t an evil person be unified in their evil? It seems that my incentives and inclinations might themselves be injected with desires and inclinations to what most people call evil acts. It seems like the psychological story which Korsgaard tells about unifying our identities in good action and deliberation is the exact same psychological story which we would tell about unifying our identities in evil action and deliberation. 
+
+Herein lies the problem - if there is evil unification, then exactly how does it count as being evil at all? According to Korsgaard’s theory, if a person is fully unified, then they, by definition, aren’t evil, but rather good. Evil seems good in this light. If there isn’t evil unification, and agency is defined in terms of unification, then who is the agent responsible for the evil? There doesn’t seem to be an agent on whom we can pin the evil action. 
+
+On one hand, I’m willing to accept there is evil unification and that there are evil principles we can choose. Perhaps not everyone can be a murderer and be ‘unified’, but it seems there are humans who truly aren’t disunified in being a murderer. Their whole organism might really be unified while containing that murdering identity. If this is the case, following Korsgaard’s theory, it seems as though, for those humans, it is perfectly acceptable, it is morally good that they murder. 
+
+On the other hand, if being unified is ‘by definition’ good, and we grant Korsgaard an unspoken assumption that acts like rape and murder can never be committed by a unified agent (and it isn’t clear why we must assume that at all), and true agents are only those organisms which are unified, then I don’t see how a rapist or murderer is an agent at all. According to this line of reasoning, why then do we even hold evil-doers accountable? Even if we apply the notion of degrees of agency, at best, it still seems like the rapist is only very minimally responsible. Psychic disunity seems to extend an umbrella-like plea of insanity to these evil-doing organisms in all cases of evil, even to those whom we want to say committed ‘cold-blooded, pre-meditated murder’.
+
+The story of Eve is ironic for this discussion. Traditionally, as the story goes, Eve’s action is an evil action – the first evil human action! It initially would have made sense if Korsgaard had said that Eve achieved self-consciousness and reason, was disunified, but then went on to re-interpret the traditional story to demonstrate that Eve actually didn’t commit the first action because she was disunified and was doing evil. It was no action; Eve was disunified. In fact, a case could easily be made for the notion that Eve was at the height of disunity, having just transformed into a new being, completely new to the world of the self-conscious and rational. Korsgaard’s psychology can show how Eve was evil, but Korsgaard can’t then say that Eve was a full-blown agent that performed true action. But, of course, then it seems like we can’t hold Eve accountable as an agent.
+
+The account Korsgaard gives us doesn’t seem evil at all. The story of Eve exemplifies an organism’s transition from non-rational to rational, it demonstrates the first disunity of humanity, but at the same time, Korsgaard claims this exemplifies the first free action. But, only good actions can be performed by agents. It seems then that Eve’s traditional evil action is actually a good one.
+Either Eve was evil and disunified but didn’t perform action, or Eve wasn’t evil and rather she was unified, but didn’t perform evil action. Obviously, if Korsgaard re-interprets the story entirely, removing this traditional element evil of the first evil human action, her account can make more sense of this particular interpretation of the story. The point, however, is that Korsgaard can’t (at least so far) give an account of evil action, and the traditional story of Eve is a perfect example of why she cannot.
+
+Part of the problem is that I’m unwilling to grant degrees of agency. Agency is modular – it is binary; you either are or you aren’t a moral agent in a given circumstance. At best, I will grant degrees of responsibility given an agent’s incentives and inclinations. It seems like a biologically compulsive liar is in some sense less responsible for lying than a regular agent. But, both are 100% agents, and if they switched circumstances, then they’d be switching degrees of responsibility of lying in this case. But, all else being equal, both agents remain equally responsible in all other circumstances. 
+
+---------------------------
+<<footnotes "1" " Christine Korsgaard, //Self-Constitution: Agency, Identity, and Integrity //(Oxford: Oxford University Press, 2009), 49">>
+<<footnotes "2" "Ibid., 51-52">>
+<<footnotes "3" "Ibid., 49">>
+<<footnotes "4" "Ibid.">>
+<<footnotes "5" "Ibid., 50">>
+<<footnotes "6" "Ibid.">>
+<<footnotes "7" "Ibid.">>
+<<footnotes "8" "Ibid., 51">>
+<<footnotes "9" "Ibid.">>
+<<footnotes "10" "Ibid.">>
+<<footnotes "11" "Ibid.">>
+<<footnotes "12" "Ibid., 45">>
+<<footnotes "13" "Ibid.">>
+<<footnotes "14" "Ibid.">>
+<<footnotes "15" "Ibid., 52">>
+<<footnotes "16" "Ibid., 50">>
+<<footnotes "17" "Ibid.">>
+<<footnotes "18" "Ibid.">>
+<<footnotes "19" "Ibid., 51">>
+<<footnotes "20" "Ibid., 50">>
+<<footnotes "21" "Ibid.">>
+<<footnotes "22" "Bernard Williams, //Ethics and the Limits of Philosophy.// (Hammersmith, London: Fontana Press, 1985), 6">>
+<<footnotes "23" "Christine Korsgaard, //Self-Constitution: Agency, Identity, and Integrity //(Oxford: Oxford University Press, 2009), 50">>
+<<footnotes "24" "Ibid., 68">>
+<<footnotes "25" "Ibid.">>
+<<footnotes "26" "Ibid.">>
+<<footnotes "27" "Ibid.">>
+<<footnotes "28" "Ibid.">>
+<<footnotes "29" "Ibid., 69">>
+<<footnotes "30" "Ibid.">>
+<<footnotes "31" "Ibid.">>
+<<footnotes "32" "Ibid.">>
+<<footnotes "33" "Ibid., 70">>
+<<footnotes "34" "Ibid.">>
+<<footnotes "35" "Ibid., 70-71">>
+<<footnotes "36" "Ibid., 71">>
+<<footnotes "37" "Ibid.">>
+<<footnotes "38" "Ibid.">>
+<<footnotes "39" "Ibid., 72">>
+<<footnotes "40" "Ibid.">>
+<<footnotes "41" "Christine Korsgaard. “The Normativity of Instrumental Reason” in //The Constitution of Agency: Essays on Practical Reason and Moral Psychology// (Oxford: Oxford University Press, 2008)">>
+<<footnotes "42" "Christine Korsgaard, //Self-Constitution: Agency, Identity, and Integrity// (Oxford: Oxford University Press, 2009), 69">>
+<<footnotes "43" "Ibid., 75">>
+<<footnotes "44" "Ibid.">>
+<<footnotes "45" "Ibid.">>
+<<footnotes "46" "Ibid.">>
+<<footnotes "47" "Ibid., 68">>
+<<footnotes "48" "Ibid., 110">>
+<<footnotes "49" "Ibid.">>
+<<footnotes "50" "Ibid., 110">>
+<<footnotes "51" "Ibid., 110-111">>
+<<footnotes "52" "Ibid., 111">>
+<<footnotes "53" "Ibid.">>
+<<footnotes "54" "Ibid., 112">>
+<<footnotes "55" "Ibid.">>
+<<footnotes "56" "Ibid.">>
+<<footnotes "57" "Ibid.">>
+<<footnotes "58" "Ibid., 113">>
+<<footnotes "59" "Ibid.">>
+<<footnotes "60" "Ibid.">>
+<<footnotes "61" "Ibid., 114">>
+<<footnotes "62" "Ibid.">>
+<<footnotes "63" "Ibid.">>
+<<footnotes "64" "Ibid., 115">>
+<<footnotes "65" "Ibid.">>
+<<footnotes "66" "Ibid.">>
+<<footnotes "67" "Ibid.">>
+<<footnotes "68" "Ibid.">>
+<<footnotes "69" "Ibid., 116">>
+<<footnotes "70" "Ibid.">>
+<<footnotes "71" "Ibid.">>
+<<footnotes "72" "Ibid.">>
+<<footnotes "73" "Ibid.">>
+<<footnotes "74" "Ibid.">>
+<<footnotes "75" "Ibid., 117">>
+<<footnotes "76" "Ibid.">>
+<<footnotes "77" "Ibid., 118">>
+<<footnotes "78" "Ibid.">>
+<<footnotes "79" "Ibid., 119">>
+<<footnotes "80" "Ibid.">>
+<<footnotes "81" "Ibid.">>
+<<footnotes "82" "Ibid.">>
+<<footnotes "83" "Ibid., 120">>
+<<footnotes "84" "Ibid.">>
+<<footnotes "85" "Ibid., 120-121">>
+<<footnotes "86" "Ibid., 121">>
+<<footnotes "87" "Ibid.">>
+<<footnotes "88" "Ibid., 122">>
+<<footnotes "89" "Ibid., 123">>
+<<footnotes "90" "Ibid.">>
+<<footnotes "91" "Ibid., 125">>
+<<footnotes "92" "Ibid.">>
+<<footnotes "93" "Ibid., 125-126">>
+<<footnotes "94" "Ibid., 126">>
+<<footnotes "95" "Ibid.">>
+<<footnotes "96" "Ibid., 130">>

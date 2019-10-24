@@ -1,0 +1,27 @@
+created: 20170415182959658
+creator: h0p3
+modified: 20181115173010345
+modifier: h0p3
+revision: 0
+tags: [[Realpolitik Speculation]] RPIN
+title: 2017.04.15 - Realpolitik Speculation: Parasitic Bitcoin Hashing: Wallet Burglary
+
+I have watched Bitcoin from the beginning. It came out when I lived in Thailand, and I screwed around with it (having hundreds or thousands of bitcoin was meaningless; it was just an intellectual exercise at the time), but I wasn't convinced it would become as big as it has become. That was a costly error, no doubt. Rampant market speculation has hyped it beyond what I could have imagined. I believe cryptocurrency is going to be fucking huge. I do not think Bitcoin will be it. I don't know what will successfully replace it.<<ref "1">> Eventually, people will see the cracks in Bitcoin's model though. Here is one such crack:
+
+Finding private keys which match random public keys in the blockchain may be feasible in some cases. Rainbow Tables may still be alive and well, this time as a means to treasure hunting/fishing. With the cost of mining being what it is, parasitic hashing designed to steal bitcoin from random wallets may eventually become the best use of one's hardware. Imagine that! This is a terrifying flaw in the currency's evolution (and likely what many cryptocurrencies would theoretically face if they too were to bloom to be as large as Bitcoin). I think we see yet another death marker for Bitcoin. 
+
+Essentially, even the most careful Bitcoin users that are capable of maintaining absolute security/secrecy of their private wallet keys will still be subject to random attacks about which they can do nothing! You always have a 1 in X chance per Y time period to lose your Bitcoin. That's quite a gamble. There is something not cryptographically sound enough about the currency that would allow us to maintain long-term, stable, trusted investments and holdings. 
+
+Clearly, parasitic hashing resistance is key to any success cryptocurrency. You simply can't have ASICs doing the work. It needs to cost you something, like Bcrypt/Scrypt-style hashing (although, technically, also ASIC-able to an extent). There are other ways to generate consensus on the blockchain, of course.
+
+One simple appearing way around this is to decentralize one's holdings into multiple wallets. But, given transaction costs, this too becomes infeasible. 
+
+Lord knows what will happen when quantum computing arrives. Theoretically, there are resistances to quantum attacks as well.
+
+It's very hard to build a currency correctly while also getting passed the network-effect hump (increasingly so). 
+
+I was wrong before, so maybe I am wrong again. Quantum resistant, bcrypted multi-sig may be the real solution. Perhaps Bitcoin-in-Practice will eventually fully integrate that behavior. I find it hard to believe though. So much hardware is specialized that it would wipe out the investments of the majority of miners on the network (and, by definition, you need their support). It is unclear how many more remaining protocol "hacks" are available.
+
+
+---
+<<footnotes "1" "Most likely, blockchain technologies may be privatized. If I were a betting man, that's where I'd bet. This has very different consequences though.">>

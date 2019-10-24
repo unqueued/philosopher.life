@@ -1,0 +1,86 @@
+created: 20181117084246668
+creator: h0p3
+modified: 20181127030548590
+modifier: h0p3
+tags: kickscondor To Note
+title: 2018.11.17 - kickscondor: Warranted Warrening
+
+I'm using [[Update Scanner|https://addons.mozilla.org/en-US/firefox/addon/update-scanner/]] in addition to RSS now. RSS monitors your frontpage and the scanner for ///all//. It works well enough. 
+
+> Part one of thirty-five.
+
+Neat. If any reason, I want to know why thirty-five. I had fun searching that number, and I come back empty-handed. 
+
+Also, I like that you use abstracts, teasers, or separate blurbs.
+
+> Sweet letter—//I’m going to dig into this further over the next while, I’m going not to say much here, because h0p3 has many things to do and I don’t want there to be any timer started just yet, in fact, let’s suppose that I’ve already written a very lengthy reply, but am just sitting on it, to let the wide variety of worthwhile non-hyperconversation things transpire.// Just want to mop a few fallen fruits off the floor.
+
+I was up into the night literally taking up your supposition. My wife smiled at me in the morning like I'm her one and only true doofus (though, my chillun may one-day catch up `/fingers-crossed`<<ref "r">>). I think I understand better now. I love that you mop up the fallen fruit, sir. I appreciate your digging, rabbitholing, and warrening<<ref "d">> with me. Forgive my verbal onslaught. Take as much time as you prefer. The salience that emerges is a gift to me.
+
+<<<
+>    My money is on WASM-Web 3.0 taking further down that rabbithole.
+
+I’m great with this, so long as we don’t lose hypertext in the process.
+<<<
+
+Ah, I cannot say what will happen (even if we are required to predict). I can be somewhat cynical sometimes (ha), and I've been [[pessimistic about WASM|2017.02.28 - Realpolitik Speculation: Web Assembly: The Browser VM as Decentralized Cloud]] for a while.<<ref "c">> I am convinced it will see widespread use because Google can apply pressure to competitors with it, but I'm not so convinced that will be a good thing on average (surprise!).
+
+What do you think when third-parties hand you a binary blob and say: "trust me and run this"? Obviously, I'm radically guilty of doing so all the way down in my stack. The opaque Web 3.0 will make it so I don't get to look under the hood and inspect the source unless I'm a [[reverse engineer|2017.03.28 - Realpolitik Speculation: The Future of Reverse Engineering]] (and even that will be under attack). The web will partially federate somewhat to leverage your hardware more effectively, though likely never P2P again (unless a couple miracles happen). I suggest WASM will be used to proprietarize the web even further. The most powerful companies in the world aren't going to make the mistakes of leaving it any more open than is necessary for them to maximize their profits (always beware g~~r~~eeks bearing gifts); capitalists know better.
+
+What this means for hypertext is unobvious to me, but I'm still not clear on the nature of hypertext. I'm actually still wrestling with what counts as hypertext. I'm the kind of pedantic asshole (surprise, again!) who believes intentionally clicking your mouse to achieve some output on your machine is legitimately programming a computer by definition. I would like to know what kind of output that one interacts with on the screen isn't hypertext. I don't mean to water it down, but it seems to have a ton of grey area to me. I swear I know hypertext when I see it, right? Lol.
+
+I don't think HTML and Javascript are going anywhere though. It's legacy and continues to have the most popular tooling in the world. I suspect those components will more commonly be dynamically generated on your own machine through WASM over time.
+
+I'm already pushing parts of Tiddlywiki to the limit. Part of me wishes performance bottlenecks in Tiddlywiki could just be rewritten in a language faster than Javascript. I know there are functions I cannot have otherwise. But, I like the Quine nature of TW. I generally despise trying to distinguish scripting from "real" programming (as my mouse example exemplifies), but there is something scripty about being able to look under the hood of the engine modifying itself, praying for it to always be readable. I feel like I want hypertext to be human readable inside and out.
+
+<<<
+Try to keep in mind that it’s not even Dat that excites me about Beaker.
+<<<
+
+I am surprised. Dat seems to be the centerpiece of Beaker.
+
+I think it is a great idea to keep the decentralized file-sharing application suite separate from the browser tool itself (for a bunch of reasons). A living, breathing Dat network is the interesting part of Beaker to me because I think it is by far the most difficult aspect of the entire process, but I could be completely wrong here (we'll get to that). I expect Firefox to be the browser I will use with the Dat protocol. Maybe Beaker will become my new Opera of yore or a social development environment.
+
+<<<
+It’s that you can read-write //entire locally synced folders// from the same languages ‘for which every computer has a virtual machine’. With Beaker, I can [[make an editable copy|https://beakerbrowser.com/docs/tour/#forking-or-copying-a-website]] of your wiki—even if it was split into tiddlers, even if it was in a thousand pieces.
+<<<
+
+That is exciting. It is quite likely I have failed to understand something obvious to you.
+
+Firefox can have a few holes poked into it and use an extension or third-party executable to accomplish the same thing, right?<<ref "f">> Beaker feels like a well-made prototype or proof-of-concept to me. I'm hoping Beaker's functionality will be integrated into FF and Chrome, but I may be thinking about it wrong.
+
+I am convinced decentralization needs to be written in a high-performance language. I don't think this is premature optimization either. Decentralized applications are huge resources hogs. That you can have python or javascript ports is a useful thing, but perhaps only in virtue of already having or achieving the high-performance version. I think this is one of the reasons i2p partially failed; I believe the Monero crowd rewrote it in C++ way too late. Zeronet seems to be a flop as well, and it was a resource hog too. IFPS and Dat seem to aim for agnosticism; there's hope.
+
+Beaker as a decentralized development environment may be the most important part. It seems ripe for collaboration. I fear I may be missing the point still though. I will continue to think about it, and I would be grateful for any help you can give me here.
+
+<<<
+Mmmm, yes—same here. One of my fave networks was Soulseek. You could connect to people and see all the files they were sharing. I ended up just raiding people’s shelves rather than trying to track down Pavement b-sides. But that required some kind of cohesive network where you can ‘see’ everyone.
+
+Wowowow-it’s still there! Just installed. There is a lot of good stuff still on here. How has it stayed so obscure and devout?
+<<<
+
+Soulseek rocks! =)
+
+My son has been using it quite a bit recently. I think after what.cd shutdown, many refugees continued using Soulseek. It has a lot of content on it, which is surprising given how that style of social networking has been dying out for a long time. I appreciate how open it is when so much of piracy is cliquish without reason.
+
+I don't think it aims to stay obscure, but I think most people simply couldn't be bothered to install a piece of software and learn to use it (a mistake I have made time and time again).<<ref "s">> Do you think the goal is to build something for everyone (not only in the sense that they //can// use it, but also would //want// to do use it)? I have no idea how to answer the question effectively.
+
+<<<
+>    A starting place for the opposite style seems like poetry or crystallized summation. It only shows semblances, outlines, glimpses, fragments, and impressions on purpose. I think it must be antipleonasmic.
+
+Yeah, this is a sweet letter. I hope there’s a worthy reply somewhere in my timeline.
+<<<
+
+It is possible you are saying you have already replied. I have thought about it. I am going to take the leap and assume you are in the midst of answering this question for yourself (I feel like I'm trying to do that for myself at least).
+
+
+---
+<<footnotes "r" "My running head-start is going to be hard to match.">>
+
+<<footnotes "d" "My daughter's word: [[2018.11.15 - Be A Good Dad: Rabbitholing]]. She has //Watership Down// on the brain.">>
+
+<<footnotes "c" "Even though I think it's fascinating, gorgeous, cool AF, etc.">>
+
+<<footnotes "f" "This is just the read portion, I believe: https://github.com/sammacbeth/dat-fox/blob/master/README.md">>
+
+<<footnotes "s" "Soulseek has a bespoke design, though I like it.">>

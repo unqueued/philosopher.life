@@ -1,0 +1,18 @@
+created: 20181125182535318
+creator: h0p3
+modified: 20181126172948279
+modifier: h0p3
+tags: [[Wiki Audit]]
+title: 2018.11.25 - Wiki Audit: Recent Obsession
+
+My stomach churns at the thought of losing my hardcoding, but I will continue down the path. It is obvious that I have low-hanging functional fruit to pick, and I must come back to find a way to automate the hardcoding. I now will be tagging for [[Recent Obsessions]].
+
+---
+
+I tried out 5.1.18 prerelease again. BTC has clearly done a damned good job. The hotkeys have changed; it appears there are important differences I will need to learn. I will also have to train myself to use it. I'm looking forward to it.
+
+---
+
+Installed 1.10 version of $:/plugins/hoelzro/full-text-search
+
+I've decided not to use auto-indexing because it's ridiculously expensive. I also had to reset it so that it will ask you to index if you wish to use it.

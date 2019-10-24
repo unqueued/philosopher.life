@@ -1,0 +1,65 @@
+created: 20180725172254440
+creator: h0p3
+modified: 20181005001153476
+modifier: h0p3
+tags: i3 m10
+title: /usr/share/conky/conky_shortcuts_live_maia
+
+```python
+conky.config = {
+	alignment = 'bottom_left',
+	background = true,
+	color2 = '5D7B86',
+	cpu_avg_samples = 2,
+	default_color = 'F9FAF9',
+	double_buffer = true,
+	font = 'Input:size=8',
+	draw_shades = false,
+	gap_x = 25,
+	gap_y = 25,
+	minimum_width = 200,
+	no_buffers = true,
+	own_window = true,
+	own_window_type = 'override',
+	own_window_transparent = true,
+	update_interval = 2.0,
+	use_xft = true,
+}
+
+conky.text = [[
+${color2}default mod: ${color}<Super>
+${color2}open new terminal: ${color}mod+Enter
+${color2}kill focused: ${color}mod+F4
+${color2}dmenu: ${color}mod+d
+${color2}bmenu: ${color}mod+Ctrl+b
+${color2}morc_menu: ${color}mod+z
+${color2}exit: ${color}mod+0
+
+${color2}open firefox: ${color}mod+F1
+${color2}open dolphin: ${color}mod+F2
+${color2}open sudo pacmanfm: ${color}mod+Shift+F2
+${color2}open sublime-text: ${color}mod+F3
+${color2}open sudo mousepad: ${color}mod+Shift+F3
+
+${color2}Resize Mode: ${color}mod+r
+${color2}split toggle: ${color}mod+q
+${color2}floating toggle: ${color}mod+Shift+space
+${color2}layout stacking: ${color}mod+s
+${color2}layout tabbed: ${color}mod+w
+${color2}layout toggle split: ${color}mod+e
+${color2}layout toggle all: ${color}mod+x
+
+${color2}focus parent: ${color}mod+a
+${color2}focus left (tabs): ${color}mod+Shift+Tab
+${color2}focus right (tabs): ${color}mod+Tab
+${color2}change focus: ${color}mod+[arrowkeys|jkl;]
+${color2}move focused: ${color}mod+Shift+[arrowkeys|jkl;]
+
+${color2}switch workspaces: ${color}mod+Ctrl+[arrowkeys|j;]
+${color2}switch to workspace 1-9: ${color}mod+[1-9]
+${color2}move to workspace 1-9: ${color}mod+Ctrl+[1-9]
+${color2}move+switch to workspace 1-9: ${color}mod+Shift+[1-9]
+${color2}workspace back & forth: ${color}mod+b
+${color2}move+switch back & forth: ${color}mod+Shift+b
+]]
+```

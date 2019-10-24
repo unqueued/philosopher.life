@@ -1,0 +1,24 @@
+created: 20171219012420354
+modified: 20171219012909572
+revision: 0
+title: Walkthrough: LFTP
+
+This is simply the fastest clean tool out there.
+
+Login:
+
+`lftp sftp://user@domain:port`
+
+Set your local download directory.
+
+`lcd /foo/bar`
+
+Navigate to where you want. 
+
+Download single file in 5 segments:
+
+`pget -n 5 foobar.avi`
+
+Download a directory, 5 files at time with 10 segments per file (that is 50 simultaneous threads):
+
+`mirror -P 5 --use-pget-n=10 FoobarDir`

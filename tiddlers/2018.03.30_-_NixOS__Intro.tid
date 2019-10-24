@@ -1,0 +1,93 @@
+created: 20180331003657086
+modified: 20180401214821396
+title: 2018.03.30 - NixOS: Intro
+
+* https://nixos.wiki/wiki/Cheatsheet
+
+Absolutely outstanding. The comparison with Ubuntu was absurdly useful.
+
+Nixpkg repos are obviously amazing for version control, distribution, etc. I adore it.
+
+Being able to build VMs on the spot is also incredible. There is a profound flexibility to this.
+
+ARM needs to be a first class citizen. Cross-compiling is beautiful.
+
+* https://nixos.wiki/wiki/Nix_vs._Linux_Standard_Base
+
+Profile and PATHing is gorgeous looking.
+
+It is definitely interested in self-hosting as much as possible. You want to develop Nix packages inside of Nix. 
+
+* https://nixos.org/nixos/nix-pills/why-you-should-give-it-a-try.html
+
+<<<
+ It however currently falls short when working with dynamic composition at runtime or replacing low level libraries, due to the need to rebuild dependencies. 
+<<<
+
+Oh Jesus. What possible way around this will we have?
+
+Fear not, you've sold me.
+
+* https://nixos.wiki/wiki/Hydra
+
+Looks exceptionally useful, and it should be fundamental to our testing.
+
+* https://medium.com/linode-cube/nixos-not-yesterdays-linux-distro-6648a07c8b
+
+Preach, yo!
+
+* https://www.distrowatch.com/?newsid=09979
+
+Interesting to see where it stands.
+
+* https://www.reddit.com/r/NixOS/comments/85ht29/deploying_private_github_repositories_to_nixos/
+
+Targeted building done well.
+
+* https://www.slant.co/topics/344/viewpoints/4/~best-linux-package-managers~nix#5
+ 
+Seems to me that I want to stay inside NixOS the entire time.
+
+* https://ramsdenj.com/2017/06/19/switching-to-nixos-from-arch-linux.html
+
+Already, VM->Arch->NixOS into just eventually being NixOS.
+
+* https://nixos.org/nixos/nix-pills/install-on-your-running-system.html
+
+Hrmm..
+
+This looks like a quick hack: https://github.com/jeaye/nixos-in-place
+
+Also, don't fucking touch /nix/store manually almost basically ever.
+
+Profiles are blowing my god damned mind. They are amazing. Rolling back generations, even at an atomic level, sounds sick. You can build exactly what you want.
+
+Oh, this is complex. I'm going to need to learn about it, slowly.
+
+God this system is amazing.
+
+* https://nixos.org/nixos/nix-pills/enter-environment.html
+
+I've clearly misunderstood how powerful this is. This is going to be able to run on any installation of linux. Yeah, you could run dockers (and it will in some cases), but you can also just run it alongside anything. This is a powerful Docker competitor.
+
+I have so much so learn. I'm going to just read the whole thing in a go and then jump into actually doing it. I want to understand as much I can in advance.
+
+* https://nixos.org/nixos/nix-pills/basics-of-language.html
+
+It looks like what I'll need to learn is a fairly small language. I am very pleased about this. I also don't think I mind it being functional. This seems to make it easier to reason about in some respects.
+
+I don't think I've never had statements before. This is my first time using pure expressions, but this makes good sense.
+
+`Let` is for inner expression, but they feel like statements to me. Listed statements with `;`'s. I suppose the expressions ought not infinigress.
+
+`With` is outstanding. Gimme dat.
+
+* https://www.atlassian.com/continuous-delivery/ci-vs-ci-vs-cd
+
+Clearly, NixOS is well-suited.
+
+* https://nixos.org/nixos/nix-pills/functions-and-imports.html
+
+Ah ha! I finally see it. This is going to take some getting used to, but that is very doable.
+
+I have a feeling that there is a lot to skiddie through in here, idioms, etc.

@@ -1,0 +1,10 @@
+created: 20190308161409485
+modified: 20190308181630921
+tags: [[Computer Musings]]
+title: 2019.03.08 - Computer Musings: Fans
+
+[[1uxb0x]] said he wants to be the one to take apart one of these fans. Cool. He tends to be careful with parts, so I'm not afraid. I'm not sold on this working since every mobo I've had for a long time tracks fanspeed. I can't seem to take control of BIOS, but I've not jimmied much with it. Could I disable the critical failure mode? I'm just not scared of heat, they downclock just fine. Overvoltage, I'm skeered.
+
+---
+
+Nope. Disabling the fans doesn't seem to be a good option. There's no obvious way to disable it cleanly. I'm scared to ruin the motor since that will trip the failure mode. 

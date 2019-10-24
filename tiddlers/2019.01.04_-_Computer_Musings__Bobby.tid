@@ -1,0 +1,8 @@
+created: 20190104150535056
+modified: 20190105034010273
+tags: [[RGM Notes]] [[Computer Musings]]
+title: 2019.01.04 - Computer Musings: Bobby
+
+I have been able to successfully edit remotely, but I start hitting memory errors on large tiddlers. Something aint right. This might be the savetrail plugin + FF mobile (maybe I should try another browser, duh doy), VPN (curious if so), or *gulp* Bob itself. XMPP to the rescue (for the most part; it doesn't play nice with markup languages).
+
+I tried FF private (or whatever). It is significantly better so far. Okay. Browser is my guess.

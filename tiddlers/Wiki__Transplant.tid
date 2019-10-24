@@ -1,0 +1,33 @@
+aliases: [[The Transplant]]
+created: 20190625030526831
+modified: 20190625030526831
+tags: Wiki [[Wiki Audit]] [[RGM Notes]]
+title: Wiki: Transplant
+
+I've some ridiculous number of hours in my wiki. It's been a solid tool, but I keep feeling like I need performance from it which it will never be able to provide. I'm going to have to migrate away someday, possibly, and I should begin with the development environment and backend as much as possible. 
+
+I'm going to try to pull the development environment out of the browser. I'm still probably boned on a phone, but Bob's synchronization should make it less painful. I need to capture functions of my particular TW and port them to subl+cli. When all the functionality I want can be ported and automated, only then will we consider a completely different front end. If we can get to a point where using the wiki itself even for reading is the wrong tool (assuming we can get there), then we'll be in good shape. I'm not convinced we can fully duplicate the functionality easily though (let's see how far as can take subl); some of this search work is going to be a different beast. Sometimes, the GUI might just be best, and if so, then we have to find the fitting balance.
+
+At the very least, this is a chance to build another kind of doorway into the wiki, and one which isn't so reliant upon javascript and TWcode (which seems to bottleneck me again and again). It might not be a full escape hatch, but it be a bridge.
+
+[[Subl]] is EZ, batteries loaded, extensible, reasonably performant (wildly better than my browser), usable on most desktops, and something which everyone in the family already enjoys. It should be an easier transition than to a more leet tool. There's a reasonabl chance that even if we take an escape hatch out of TW, the tooling we've built for [[subl]] will continue to be useful to a non-trivial [[dok]].
+
+Functions missing:
+
+* "modified" times need to be updated correctly
+* synchronized filenames and Titles
+* Create new tiddlers
+* Create [[CDR]]s, templates filled out
+* [[Firmcoding]] cronjob
+* Rich autocompletion tool based upon cronjob sweep of the files for titlenames (or perhaps some other tooling already exists)
+* Spell and grammar checking.
+
+
+---
+!! Dreams
+
+* The eventual reunion of the read and write UIs.
+* WASM/Containerized
+* Just-a-bunch-of-textfiles for git, parsing, syndication, and p2p ease
+* Extensible permissions structures (yikes, hard)
+

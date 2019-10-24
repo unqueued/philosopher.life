@@ -1,0 +1,11 @@
+created: 20180117214619451
+modified: 20190322052128115
+revision: 0
+tags: Rust
+title: 2018.01.17 - Rust
+
+I'm giving up on nvim for Rust. I'm having problems with basic things and right now, my editor needs to never be in may way. Unfortunately, for rust, that isn't possible. Rust's toolchain ecosystem sucks. That's okay. The Sublime route wasn't amazing. I tried VSCode. It also has its problems, but it looks like it may eventually be the first to be fully supported. That's what I'm going with for now. RLS can suck my balls. 
+
+---
+
+The compiler straight up tells me when when I don't need a variable to be mutable! I'm not used to strong types and immutability (because I suck at this), but the compiler makes it easier to push things through a narrow hole.

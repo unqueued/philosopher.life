@@ -1,0 +1,183 @@
+author: Thomas Elmiger
+core-version: >=5.1.12
+created: 20170915193325438
+description: EditButtons
+list: readme support
+modified: 20181117224335109
+name: Save/Cancel & close – Save and keep open
+plugin-type: plugin
+source: https://tid.li/tw5/plugins.html
+tags: 
+title: $:/plugins/telmiger/EditButtons
+type: application/json
+version: 1.0.2
+
+{
+    "tiddlers": {
+        "$:/language/Buttons/Cancel-Close/Caption": {
+            "text": "cancel & close",
+            "title": "$:/language/Buttons/Cancel-Close/Caption",
+            "tags": "",
+            "modifier": "Thomas Elmiger",
+            "modified": "20170914204107296",
+            "creator": "Thomas Elmiger",
+            "created": "20170914204041613"
+        },
+        "$:/language/Buttons/Save-Close/Caption": {
+            "text": "save & close",
+            "title": "$:/language/Buttons/Save-Close/Caption",
+            "tags": "",
+            "modifier": "Thomas Elmiger",
+            "modified": "20170914210017662",
+            "creator": "Thomas Elmiger",
+            "created": "20170914205946898"
+        },
+        "$:/language/Buttons/Cancel-Close/Hint": {
+            "text": "Discard changes and close this tiddler",
+            "title": "$:/language/Buttons/Cancel-Close/Hint",
+            "tags": "",
+            "modifier": "Thomas Elmiger",
+            "modified": "20170914204458205",
+            "creator": "Thomas Elmiger",
+            "created": "20170914204437669"
+        },
+        "$:/language/Buttons/Save-Close/Hint": {
+            "text": "Confirm changes and close this tiddler",
+            "title": "$:/language/Buttons/Save-Close/Hint",
+            "tags": "",
+            "modifier": "Thomas Elmiger",
+            "modified": "20170914214256855",
+            "creator": "Thomas Elmiger",
+            "created": "20170914210802887"
+        },
+        "$:/core/images/cancel-close-button": {
+            "created": "20170911161631900",
+            "creator": "Thomas Elmiger",
+            "text": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"tc-image-button edit-btn-icon cancel-close\" viewBox=\"0 0 22 22\">\n<g fill-rule=\"evenodd\">\n<path d=\"M11,13.114l-2.922,2.922c-0.26,0.287 -0.631,0.452 -1.019,0.452c-0.754,0 -1.375,-0.621 -1.375,-1.375c0,-0.388 0.164,-0.759 0.452,-1.019l2.922,-2.922l-2.922,-2.922c-0.288,-0.261 -0.452,-0.631 -0.452,-1.019c0,-0.754 0.621,-1.375 1.375,-1.375c0.388,0 0.759,0.164 1.019,0.452l2.922,2.922l2.922,-2.922c0.26,-0.288 0.631,-0.452 1.019,-0.452c0.754,0 1.375,0.621 1.375,1.375c0,0.388 -0.164,0.758 -0.452,1.019l-2.922,2.922l2.922,2.922c0.288,0.26 0.452,0.631 0.452,1.019c0,0.754 -0.621,1.375 -1.375,1.375c-0.388,0 -0.759,-0.165 -1.019,-0.452l-2.922,-2.922Zm0,9.058c6.034,0 11,-4.966 11,-11c0,-6.035 -4.966,-11 -11,-11c-6.034,0 -11,4.965 -11,11c0,6.034 4.966,11 11,11Zm0,-2.75c4.526,0 8.25,-3.724 8.25,-8.25c0,-4.526 -3.724,-8.25 -8.25,-8.25c-4.526,0 -8.25,3.724 -8.25,8.25c0,4.526 3.724,8.25 8.25,8.25Z\"/>\n</g>\n<path class=\"tc-mini-icon\" d=\"M17.5,22c-2.469,0 -4.5,-2.031 -4.5,-4.5c0,-2.469 2.031,-4.5 4.5,-4.5c2.469,0 4.5,2.031 4.5,4.5c0,2.469 -2.031,4.5 -4.5,4.5Z\"/><path class=\"tc-mini-icon-foreground\" d=\"M17.5,18.5l-1.5,1.6l-1,-1l1.6,-1.6l-1.6,-1.6l1,-1l1.6,1.6l1.6,-1.6l1,1l-1.6,1.6l1.6,1.6l-1,1l-1.6,-1.6l-0.1,0Z\"/>\n</svg>",
+            "title": "$:/core/images/cancel-close-button",
+            "tags": "$:/tags/Image",
+            "modifier": "Thomas Elmiger",
+            "modified": "20181120065428219"
+        },
+        "$:/core/images/done-close-button": {
+            "created": "20170914190201427",
+            "creator": "Thomas Elmiger",
+            "text": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"tc-image-button edit-btn-icon save-close\" viewBox=\"0 0 22 22\"><path d=\"M7,19c-0.537,0 -1,-0.5 -1,-0.5l-5.596,-6.616c-0.538,-0.54 -0.538,-1.41 0,-1.946c0.535,-0.536 1.407,-0.536 1.945,0l4.651,5.562l12.6,-13.1c0.537,-0.537 1.363,-0.537 1.9,0c0.536,0.536 0.587,1.413 0.05,1.95l-13.55,14.15c0,0 -0.463,0.5 -1,0.5Z\"/><path class=\"tc-mini-icon\" d=\"M17.5,22c-2.469,0 -4.5,-2.031 -4.5,-4.5c0,-2.469 2.031,-4.5 4.5,-4.5c2.469,0 4.5,2.031 4.5,4.5c0,2.469 -2.031,4.5 -4.5,4.5Z\"/><path class=\"tc-mini-icon-foreground\" d=\"M17.5,18.5l-1.5,1.6l-1,-1l1.6,-1.6l-1.6,-1.6l1,-1l1.6,1.6l1.6,-1.6l1,1l-1.6,1.6l1.6,1.6l-1,1l-1.6,-1.6l-0.1,0Z\"/></svg>",
+            "title": "$:/core/images/done-close-button",
+            "tags": "$:/tags/Image",
+            "modifier": "Thomas Elmiger",
+            "modified": "20181120065438063"
+        },
+        "$:/core/ui/Buttons/cancel-and-close": {
+            "text": "<$button tooltip={{$:/language/Buttons/Cancel-Close/Hint}} aria-label={{$:/language/Buttons/Cancel-Close/Caption}} class=<<tv-config-toolbar-class>>>\n<$action-sendmessage $message=\"tm-cancel-tiddler\"/>\n<$list filter=\"[all[current]get[draft.of]]\" variable=\"originaltiddler\">\n<$action-sendmessage $message=\"tm-close-tiddler\" $param=<<originaltiddler>>/>\n</$list>\n<$list filter=\"[<tv-config-toolbar-icons>prefix[yes]]\">\n{{$:/core/images/cancel-close-button}}\n</$list>\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<span class=\"tc-btn-text\"><$text text={{$:/language/Buttons/Cancel-Close/Caption}}/></span>\n</$list>\n</$button>",
+            "title": "$:/core/ui/Buttons/cancel-and-close",
+            "tags": "$:/tags/EditToolbar",
+            "modifier": "Thomas Elmiger",
+            "modified": "20170915114833907",
+            "description": "{{$:/language/Buttons/Cancel-Close/Hint}}",
+            "creator": "Thomas Elmiger",
+            "created": "20170911162241564",
+            "caption": "{{$:/core/images/cancel-close-button}} {{$:/language/Buttons/Cancel-Close/Caption}}"
+        },
+        "$:/core/ui/Buttons/save-and-close": {
+            "text": "<$fieldmangler><$button tooltip={{$:/language/Buttons/Save-Close/Hint}} aria-label={{$:/language/Buttons/Save-Close/Caption}} class=<<tv-config-toolbar-class>>>\n<$action-sendmessage $message=\"tm-add-tag\" $param={{$:/temp/NewTagName}}/>\n<$action-deletetiddler $tiddler=\"$:/temp/NewTagName\"/>\n<$action-sendmessage $message=\"tm-add-field\" $name={{$:/temp/newfieldname}} $value={{$:/temp/newfieldvalue}}/>\n<$action-deletetiddler $tiddler=\"$:/temp/newfieldname\"/>\n<$action-deletetiddler $tiddler=\"$:/temp/newfieldvalue\"/>\n<$action-sendmessage $message=\"tm-save-tiddler\"/>\n<$list filter=\"[all[current]get[draft.title]]\" variable=\"newtiddler\">\n<$action-sendmessage $message=\"tm-close-tiddler\" $param=<<newtiddler>>/>\n</$list>\n<$list filter=\"[<tv-config-toolbar-icons>prefix[yes]]\">\n{{$:/core/images/done-close-button}}\n</$list>\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<span class=\"tc-btn-text\"><$text text={{$:/language/Buttons/Save-Close/Caption}}/></span>\n</$list>\n</$button></$fieldmangler>",
+            "title": "$:/core/ui/Buttons/save-and-close",
+            "tags": "$:/tags/EditToolbar",
+            "modifier": "Thomas Elmiger",
+            "modified": "20170915115649595",
+            "description": "{{$:/language/Buttons/Save-Close/Hint}}",
+            "creator": "Thomas Elmiger",
+            "created": "20170531174454839",
+            "caption": "{{$:/core/images/done-close-button}} {{$:/language/Buttons/Save-Close/Caption}}"
+        },
+        "$:/core/images/done-button": {
+            "text": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 22 22\" class=\"tc-image-button tc-image-done-button\" fill=\"currentColor\" width=\"22pt\" height=\"22pt\"><path d=\"M7 19c-.422 0-.73-.23-1-.5L.404 11.884c-.538-.54-.538-1.41 0-1.946.535-.536 1.407-.536 1.945 0L7 15.5 19.6 2.4c.537-.537 1.363-.537 1.9 0 .536.536.587 1.413.05 1.95L8 18.5s-.578.5-1 .5z\"/></svg>",
+            "title": "$:/core/images/done-button",
+            "tags": "$:/tags/Image",
+            "modifier": "Thomas Elmiger",
+            "modified": "20181117224936639",
+            "creator": "Thomas Elmiger",
+            "created": "20170914191345424"
+        },
+        "$:/plugins/telmiger/EditButtons/readme": {
+            "created": "20170531175031820",
+            "creator": "Thomas Elmiger",
+            "text": "!! The Plugin\n\nThe [[EditButtons|$:/plugins/telmiger/EditButtons]] plugin makes editing of tiddlers more efficient by adding three buttons to the ''edit toolbar'': \n\n* Cancel & Close (Discard & Close)\n* Save & Close (Done & Close)\n* Save & Keep Open (Done & Reopen)\n\nInspired by Josiah and Richard William Smith. See Discussion in the [[Google Group|https://groups.google.com/d/msg/tiddlywiki/A4v-DqjN_D8/4hkOaaf0BQAJ]].\n\n!!! Versions\n\n!!!! 1.0.2\n* simpler button graphics (single svg)\n* simpler CSS (tiddler renamed)\n* documentation update\n\n!!!! 0.1.5\n* control colours via CSS\n* much cleaner construction using class names\n** edit-btn-icon (in variants cancel-close, save-close, save-open)\n** tc-mini-icon\n\n!!! Plugin components\n* buttons\n** $:/core/ui/Buttons/cancel-and-close\n** $:/core/ui/Buttons/save-and-close\n** $:/core/ui/Buttons/save-open\n* button graphics\n** $:/core/images/done-close-button\n** $:/core/images/cancel-close-button\n** $:/core/images/done-open-button\n* SVG\n** $:/core/images/done-button – a slightly modified core button. <br>Original: <$transclude tiddler=\"$:/core\" subtiddler=\"$:/core/images/done-button\"/> => {{$:/core/images/done-button}} \n* Hints and Captions you could translate\n** $:/language/Buttons/Cancel-Close/Hint\n** $:/language/Buttons/Cancel-Close/Caption\n** $:/language/Buttons/Save-Close/Hint\n** $:/language/Buttons/Save-Close/Caption\n** $:/language/Buttons/Save-Open/Hint\n** $:/language/Buttons/Save-Open/Caption\n* CSS\n** $:/plugins/telmiger/EditButtons/styles.css",
+            "title": "$:/plugins/telmiger/EditButtons/readme",
+            "tags": "Hacks ToDo",
+            "priority": "1",
+            "modifier": "Thomas Elmiger",
+            "modified": "20181120224609527"
+        },
+        "$:/core/ui/Buttons/save-open": {
+            "created": "20170916134122812",
+            "creator": "Thomas Elmiger",
+            "text": "<$fieldmangler><$button tooltip={{$:/language/Buttons/Save-Open/Hint}} aria-label={{$:/language/Buttons/Save-Open/Caption}} class=<<tv-config-toolbar-class>>>\n<$action-sendmessage $message=\"tm-add-tag\" $param={{$:/temp/NewTagName}}/>\n<$action-deletetiddler $tiddler=\"$:/temp/NewTagName\"/>\n<$action-sendmessage $message=\"tm-add-field\" $name={{$:/temp/newfieldname}} $value={{$:/temp/newfieldvalue}}/>\n<$action-deletetiddler $tiddler=\"$:/temp/newfieldname\"/>\n<$action-deletetiddler $tiddler=\"$:/temp/newfieldvalue\"/>\n<$action-sendmessage $message=\"tm-save-tiddler\"/>\n<$list filter=\"[all[current]get[draft.title]]\" variable=\"newtiddler\">\n<$action-sendmessage $message=\"tm-edit-tiddler\" $param=<<newtiddler>>/>\n</$list>\n<$list filter=\"[<tv-config-toolbar-icons>prefix[yes]]\">\n{{$:/core/images/done-open-button}}\n</$list>\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<span class=\"tc-btn-text\"><$text text={{$:/language/Buttons/Save-Open/Caption}}/></span>\n</$list>\n</$button></$fieldmangler>",
+            "title": "$:/core/ui/Buttons/save-open",
+            "tags": "$:/tags/EditToolbar",
+            "modifier": "Thomas Elmiger",
+            "modified": "20170916154824488",
+            "description": "{{$:/language/Buttons/Save-Open/Hint}}",
+            "caption": "{{$:/core/images/done-open-button}} {{$:/language/Buttons/Save-Open/Caption}}"
+        },
+        "$:/language/Buttons/Save-Open/Hint": {
+            "created": "20170916154230762",
+            "creator": "Thomas Elmiger",
+            "text": "Confirm changes – keep this tiddler open",
+            "title": "$:/language/Buttons/Save-Open/Hint",
+            "tags": "",
+            "modifier": "Thomas Elmiger",
+            "modified": "20170916154328885"
+        },
+        "$:/language/Buttons/Save-Open/Caption": {
+            "created": "20170916154007636",
+            "creator": "Thomas Elmiger",
+            "text": "save & keep open",
+            "title": "$:/language/Buttons/Save-Open/Caption",
+            "tags": "",
+            "modifier": "Thomas Elmiger",
+            "modified": "20170916154034272"
+        },
+        "$:/core/images/done-open-button": {
+            "created": "20170916150802062",
+            "creator": "Thomas Elmiger",
+            "text": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"tc-image-button edit-btn-icon save-open\" viewBox=\"0 0 22 22\"><path d=\"M7,19c-0.537,0 -1,-0.5 -1,-0.5l-5.596,-6.616c-0.538,-0.54 -0.538,-1.41 0,-1.946c0.535,-0.536 1.407,-0.536 1.945,0l4.651,5.562l12.6,-13.1c0.537,-0.537 1.363,-0.537 1.9,0c0.536,0.536 0.587,1.413 0.05,1.95l-13.55,14.15c0,0 -0.463,0.5 -1,0.5Z\"/><path class=\"tc-mini-icon\" d=\"M15.577,13.971c-1.606,0 -1.606,1.606 -1.606,1.606l0,4.817c0,0 0,1.606 1.606,1.606l4.817,0c1.606,0 1.606,-1.606 1.606,-1.606l0,-4.817c0,0 0,-1.606 -1.606,-1.606l-4.817,0Z\"/><rect class=\"tc-mini-icon-foreground\" x=\"15.927\" y=\"15.927\" width=\"4\" height=\"4\"/></svg>",
+            "title": "$:/core/images/done-open-button",
+            "tags": "$:/tags/Image",
+            "modifier": "Thomas Elmiger",
+            "modified": "20181120065422533"
+        },
+        "$:/plugins/telmiger/EditButtons/icon": {
+            "created": "20181113063926371",
+            "text": "{{$:/core/images/done-close-button}}",
+            "title": "$:/plugins/telmiger/EditButtons/icon",
+            "tags": "",
+            "modified": "20181113063958299"
+        },
+        "$:/plugins/telmiger/EditButtons/styles.css": {
+            "created": "20170914192742622",
+            "creator": "Thomas Elmiger",
+            "text": "/* Colours */\n\n.edit-btn-icon.cancel-close {\n    fill: rgba(255,0,0,0.75);\n}\n\n.edit-btn-icon.save-close,\n.tc-plugin-info .tc-plugin-info-chunk > svg.save-close {\n    fill: orange;\n}\n\n.edit-btn-icon.save-open {\n    fill: rgba(0,200,0,0.75);\n}\n\n\n/* Mini Icon Colours */\n\n.edit-btn-icon .tc-mini-icon {\n    fill: #000;\n}\n\n.edit-btn-icon .tc-mini-icon-foreground {\n    fill: #fff;\n}\n",
+            "title": "$:/plugins/telmiger/EditButtons/styles.css",
+            "tags": "$:/tags/Stylesheet",
+            "modifier": "Thomas Elmiger",
+            "modified": "20181120225758986"
+        },
+        "$:/plugins/telmiger/support": {
+            "created": "20181103150753927",
+            "text": "!! Support the Author\n\n''Hi!'' I’m Thomas, the author of [[tid.li/tw5/plugins.html|https://tid.li/tw5/plugins.html]]. Feedback is always welcome, as well as funding for maintenance, support and new projects :)\n\n---\n\n!!! One Time Support\n\nIf using my plugins just makes you happy, consider a one time payment via ~PayPal to reward the effort:\n\nhttps://www.paypal.me/telmiger\n\n---\n\n!!! Permanent Support\n\nIf my tools make you more productive or save you time in your job or your everyday life, you can support me as a Patron: \n\nhttps://www.patreon.com/telmiger\n\n---\n\n!!! Thank You\n\nSubstantial parts of my availabe time go to the deveopment of useful plugins for [[TiddlyWiki|https://tiddlywiki.com/]]. – Many others do the same and I would like to thank them all, especially [[Jeremy Ruston|https://tiddlywiki.com/#JeremyRuston]] and all the active members of the community!\n\n//Hereby I promise to share future revenues (if any) with other developers who’s works I use or who inspired me.//\n\nIf you like my work, I would be very happy to hear from you.\n\n''Thank you very much for your support!''<br>\n//Thomas//\n\nhttps://thomas-elmiger.ch",
+            "title": "$:/plugins/telmiger/support",
+            "tags": "",
+            "modifier": "Thomas Elmiger",
+            "modified": "20181104091650389",
+            "creator": "Thomas Elmiger"
+        },
+        "$:/plugins/telmiger/EditButtons/support": {
+            "created": "20181117205846710",
+            "text": "{{$:/plugins/telmiger/support}}",
+            "title": "$:/plugins/telmiger/EditButtons/support",
+            "tags": "",
+            "modified": "20181117205928865"
+        }
+    }
+}

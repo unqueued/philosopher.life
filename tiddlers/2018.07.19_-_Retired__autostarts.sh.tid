@@ -1,0 +1,21 @@
+created: 20180120033621594
+creator: h0p3
+modified: 20181115190624900
+modifier: h0p3
+revision: 0
+tags: Retired
+title: 2018.07.19 - Retired: autostarts.sh
+type: text/vnd.tiddlywiki
+
+```bash
+#!/bin/bash
+
+# Run dat wiki server for the LAN
+tiddlywiki /home/h0p3/Syncs/Dropbox/philosopher.life/npm-tiddlywiki/ --server 8080 $:/core/save/all text/plain text/html "" ""  "0.0.0.0"
+
+# Automounts
+sshfs -o password_stdin 192.168.1.100:/mnt /mnt/htpc <<< "password"
+sshfs -o password_stdin foobar@philosopher.life:/ -p 4222 -C /mnt/philosopher.life <<< "password"
+```
+
+Nope. No key. I know.

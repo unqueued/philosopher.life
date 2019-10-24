@@ -1,0 +1,22 @@
+created: 20181023180552183
+creator: h0p3
+modified: 20181029175224797
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.10.23 - Computer Musings: Fadi
+
+Someone joined my sync. Hello, //savior//.
+
+---
+
+Still having connection problems. Took a cruise through journalctl. I'm increasingly convinced the router is the problem, especially because we're having a hard time logging into (everything looks pretty good...though had to set UTC correctly).
+
+Tethering to my phone hasn't demonstrated any problems. 
+
+The weird part is that I'm the only one experiencing these problems now, none of the other devices have a connection issue (though, HTPC's /dev/sda drive is dying, even though S.M.A.R.T. claims it isn't...though I've had SATA ports die on me before). 
+
+Switched ethernet ports, and it's working. Uhhh...ok.
+
+---
+
+Upgrade.

@@ -1,0 +1,117 @@
+created: 20190725194259475
+modified: 20190725211120550
+tags: Outopos Highdeas
+title: 2019.07.25 - Outopos: Ghetto
+
+One question I ask myself is: how can I help someone join P2P wikidom without understanding almost anything (while still giving them easy access to change whatever they want)? IoTesque hell it may be, but I see no way around it. There has to be that "just werx" to it, and that's probably something I need to work on (even if only for myself). Middle game may be an out-of-the-box application which installs a daemon to run the VM or container and opens a browser on the host.
+
+TW is an interface that anyone can learn to construct and organize like a ghetto OS (even I can use it). I don't want to be beholden to any P2P network, especially since [[Atropos]] is my end target. I am honored to have the chance to reason with you about immediate, practical, realworld, this gits shit dun rite now usable prototypes. The tool I think I want to build has to connect with both of you. I guess my goal is to make TW interface with P2P tooling as they come along until I can commit more fully to some perfectionist vapor protocol which magically meets all of my requirements into [[infinigress]].
+
+It's great to see your message since it is overlapping with our schoolwork today where we reinvent every wheel into this terrible shoestring and gum [[monster]]. We're thinking about how to use all these tools (and poorly, since I have no idea what I'm doing). What I like about Tox is I know it works for transmission in all the situations I need it, but I'm convinced Dat can also do this.
+
+[[j3d1h]] and I are talking about how to build Bob with scripting over Ratox in something like Alpine (or take your pick) to have command line tooling for building an instant messenger (such a classic babby's first program for us). 
+
+In TW, hand me a key for a field and slap a "Chatroom" tag on it (not too difficult to build a UI for this in TW too), and we instantly have a ghetto chatroom that we construct on both ends. We don't have to agree to some representation unless we want to; our tiddlers don't need to be identical. This is just a ghetto TW5-Bob interface over the Tox protocol. Messages won't be instant though, that's for sure; it might be better to run a different web interface over it and not even touch TW.
+
+Hash each message, and you can build an asynch ghetto tumblr forum too, right? I've not thought enough about it, but first glance goes something like (ignore this garbage at will, please), probably with collapsible quotes here.
+
+```
+created: 20190725209340293
+modified: 20190725494949423
+keys: PUBKEY-1, PUBKEY-2, PUBKEY-3, PUBKEY-4, PUBKEY-5
+tags: Thread PUBKEY-1
+title: 2019.07.25 - NICKNAMEOFPUBKEY-1: Iran shit is fucked, homies. ლ(ಠ_ಠლ)
+
+> [REVEALABLE: PUBKEY-1, HASH, SIG] Did you see that thing with Iran today? I'm going to fucking puke. 
+>> [REVEALABLE: PUBKEY-2, HASH, SIG] Do you think this is another precursor to a WW3 so that Trump and the RNC can stay in power as capitalism's contradiction unfolds?
+>>> [REVEALABLE: PUBKEY-3, HASH, SIG] Fucking conspiracy theorist commie!
+
+>>> [REVEALABLE: PUBKEY-1, HASH, SIG] I don't know, dude. It's painful, and this is immoral. I'm dying inside.
+>> [REVEALABLE: PUBKEY-3, HASH, SIG] They don't deserve to use github like the rest of us, those persons over there.
+>>> [REVEALABLE: PUBKEY-1, HASH, SIG] STFU, asshole.
+```
+
+> [REVEALABLE: PUBKEY-1, HASH, SIG] Did you see that thing with Iran today? I'm going to fucking puke. 
+>> [REVEALABLE: PUBKEY-2, HASH, SIG] Do you think this is another precursor to a WW3 so that Trump and the RNC can stay in power as capitalism's contradiction unfolds?
+>>> [REVEALABLE: PUBKEY-3, HASH, SIG] Fucking conspiracy theorist commie!
+
+>>> [REVEALABLE: PUBKEY-1, HASH, SIG] I don't know, dude. It's painful, and this is immoral. I'm dying inside.
+>> [REVEALABLE: PUBKEY-3, HASH, SIG] They don't deserve to use github like the rest of us, those persons over there.
+>>> [REVEALABLE: PUBKEY-1, HASH, SIG] STFU, asshole.
+
+```
+created: 20190724209340293
+modified: 20190724494949423
+keys: PUBKEY-2, PUBKEY-3, PUBKEY-4, 
+tags: Thread PUBKEY-4 2019.07.24
+title: 2019.07.24 - NICKNAMEOFPUBKEY-4: Ascending to Heaven
+
+> [REVEALABLE: PUBKEY-4, HASH, SIG] Man, I found [[Project Ascension|PUBKEY-5/#Project%20Ascension]] today, and I'm cumming rainbows.
+>> [REVEALABLE: PUBKEY-5, HASH, SIG] Dude, it's amazing!
+>>> [REVEALABLE: PUBKEY-3, HASH, SIG] You are stealing from Blizzard Inc., and I'm going to report you to the police. 
+>>>> [REVEALABLE: PUBKEY-4, HASH, SIG] I love handcuffs, they are so kinky.
+>> [REVEALABLE: PUBKEY-3, HASH, SIG] Only a loser plays vidya games. Raise yourself up by your bootstraps.
+```
+
+> [REVEALABLE: PUBKEY-4, HASH, SIG] Man, I found [[Project Ascension|PUBKEY-5/#Project%20Ascension]] today, and I'm cumming rainbows.
+>> [REVEALABLE: PUBKEY-5, HASH, SIG] Dude, it's amazing!
+>>> [REVEALABLE: PUBKEY-3, HASH, SIG] You are stealing from Blizzard Inc., and I'm going to report you to the police. 
+>>>> [REVEALABLE: PUBKEY-4, HASH, SIG] I love handcuffs, they are so kinky.
+>> [REVEALABLE: PUBKEY-3, HASH, SIG] Only a loser plays vidya games. Raise yourself up by your bootstraps.
+
+```
+created: 20190723050534002
+modified: 20190725182356346
+keys: PUBKEY-1, PUBKEY-2, PUBKEY-4, PUBKEY-5
+tags: Forum Delightful 2019.07.25
+title: 2019.07.25 - Delightful: Cherries Picked
+
+> [REVEALABLE: PUBKEY-1, HASH, SIG] Did you see that thing with Iran today? I'm going to fucking puke. 
+>> [REVEALABLE: PUBKEY-2, HASH, SIG] Do you think this is another precursor to a WW3 so that Trump and the RNC can stay in power as capitalism's contradiction unfolds?
+>>> [REVEALABLE: PUBKEY-1, HASH, SIG] I don't know, dude. It's painful, and this is immoral. I'm dying inside.
+
+> [REVEALABLE: PUBKEY-4, HASH, SIG] Man, I found [[Project Ascension|PUBKEY-5/#Project%20Ascension]] today, and I'm cumming rainbows.
+>> [REVEALABLE: PUBKEY-5, HASH, SIG] Dude, it's amazing!
+```
+
+> [REVEALABLE: PUBKEY-1, HASH, SIG] Did you see that thing with Iran today? I'm going to fucking puke. 
+>> [REVEALABLE: PUBKEY-2, HASH, SIG] Do you think this is another precursor to a WW3 so that Trump and the RNC can stay in power as capitalism's contradiction unfolds?
+>>> [REVEALABLE: PUBKEY-1, HASH, SIG] I don't know, dude. It's painful, and this is immoral. I'm dying inside.
+
+> [REVEALABLE: PUBKEY-4, HASH, SIG] Man, I found [[Project Ascension|PUBKEY-5/#Project%20Ascension]] today, and I'm cumming rainbows.
+>> [REVEALABLE: PUBKEY-5, HASH, SIG] Dude, it's amazing!
+
+Unfortunately, I'm not sure how to connect all those pieces together well enough. It begins to look like I just want a distributed database or something, and I have no clue what I'm doing.<<ref "cap">> 
+
+As far as I can see, Ratox can also transmit files, even if we were just doing git push or whatever. Dat is already building some of this. I can grant you SSH access directly of Ratox though, build ghetto VPNs, whatever. 
+
+All this said, Dat should be part of the tooling for us. I want to enter your Dat key and automagically build a tiddler or opens a new tab that loads up local files of the custom site, .mkv, or pdf you've synced with me over Dat. I am a fan of mutable torrents, and Dat is the best tool at the moment for it that I can see.
+
+Sometimes I should be seeding files with a swarm, but othertimes that seeding is too expensive. Just sending messages and we each holding our own databases in some lossy way is the way to go.
+
+Sometimes I want to share some tiddlers we both synchronize with each other, like we're both committing resources to it. It's high-latency, but we own it together. I can scrape out of that Dat sync or merge it with my wiki however I see fit. This is expensive though. This isn't tested, but my guess is that I can maintain 1k Tox connections, but I'm not convinced I can do that with Dat (I may be wildly wrong), at least not until it is optimized. 
+
+I know I'm missing some titanic problems here. Still more reinventing the wheel too.
+
+* Tox data conditionally piped into tids with Bob seems to work in some cases.
+* Tox with git seems a lot like Dat to me.
+
+Looks like I just want a database that eventually arrives at tiddlers. The in-between part of the puzzle is by far the hardest part.
+
+`Newhash, Oldhash, [Message, [Conditions For Sharing]]`
+
+I can misrepresent what someone says on my wiki if I wanted to (I regularly fail to understand). Dat prevents that, but I believe it is also more expensive. It costs RAM and CPU to check (and recheck) that mutable thing and synchronize in a timely manner.
+
+* Public, don't need no key
+* F2F PUBKEY list, shared openly
+* Private Circle PUBKEY list, you ask each friend if you can intro them to each other
+
+What if F2F is some depleting thing? It can be anonymized to some extent. The problem with F2F is that everything is technically scrapable. Public just means I don't care who you share it with, but F2F means I only want you to share with someone you trust (hopefully, mutually trust). Private circle means only we should see it. Privacy can never be easily enforced here. 
+
+Could go by name, key, or even anonymize on behalf of others. For example, maybe you only want your signature on something in a private circle, but you would be willing to anonymously have it shared F2F.
+
+The more I look at this problem, the less I'm convinced it should be done in TW, as usual.
+
+
+---
+<<footnotes "cap" "I can barely spell CAP theorem.">>

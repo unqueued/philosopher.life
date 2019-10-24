@@ -1,0 +1,39 @@
+created: 20161215205820476
+modified: 20180106202806173
+revision: 0
+title: Chromium Extension Collection
+
+Always:
+
+* The Great Suspender
+* Deluminate
+* Lazarus: Form Recovery
+* Link Clump
+* Copy All Urls
+* Xirvik's
+
+* Pandora Listener
+* Hacker News Enhancement Suite
+* Reddit Enhancement Suite
+
+* Tampermonkey
+** Anti-anti-adblock
+* HTTPS Everywhere
+* Privacy Badger
+* Stop Tracking Me on Reddit
+* AdNauseum<<ref "1">>
+* uBlock Origin
+* uBlock Origin Extra
+
+Occasional Use:
+
+* Search the current site
+* Stylish
+* Disable Download Bar
+* Mailvelope
+* Craig Buster - Craigslist Mass Autoreply
+* Remote Torrent Adder
+* Secure Shell
+
+---
+<<footnotes "1" "Not fully compatible, but also just not as functional as actual uBlock Origin.">>

@@ -1,0 +1,22 @@
+created: 20181222055333930
+modified: 20181222083606271
+tags: [[Computer Musings]]
+title: 2018.12.21 - Computer Musings: Modeless Vimium
+
+```
+map <c-a-Left> previousTab
+map <c-a-Right> nextTab
+```
+
+---
+
+For Edit with Sublime Text
+
+```bash
+cd /opt
+sudo cp -r sublime-text2 sublime_text
+```
+
+For Edit with VIM text editor (nvim), see extension config.
+
+`terminator -p h0p3 -x /usr/bin/nvim %path;`

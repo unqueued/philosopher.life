@@ -1,0 +1,76 @@
+created: 20171103185732072
+modified: 20171103185732955
+revision: 0
+title: Alethic Terminology
+
+* Alethic Terminology (not talking about the Transcendental just yet)
+** Conjecture
+*** Rational
+**** A proposition based on incomplete information.
+***** Often assumed to be true, used as a hypothesis or assumption for conditional proofs.
+**** Rational conjectures are resolved with proofs (of the proposition or the negation)
+*** Empirical
+**** Linking scientific facts to explain a causal relationship without sufficient evidence for calling it //knowledge// in contexts with high alethic standards of justifications.
+**** When a conjecture can sufficiently explain or model a causal relationship, demonstrating significant predictive (or falsifying?) powers, we call it a //theory//.
+*** Narratival
+**** A critical reconstruction of the correct (whether Original or Charitable) meaning of a corrupt, contaminated, nonsensical, outdated, or illegible text.
+***** Note the Straussian blur of Exegesis and Eisegesis
+
+
+** Theory
+*** Rational
+**** 
+*** Empirical
+**** Theory is an internally consistent model explaining a scientific phenomenon or some mathematical principle sufficiently well that it is possible to achieve correct result in an empirical test.
+*** 
+
+** Postulate
+*** Rational
+**** 
+*** Empirical
+****
+*** Transcendental
+**** ??
+*** Empirical
+**** Postulate is an assumption made to move an intellectual process or developing a theory/model or deduction/induction forward. It established certain rules or frameworks of your process. It can be "wrong" - for example "frame of reference doesn't matter"
+
+** Axiom
+*** Rational
+**** 
+*** Empirical
+****
+*** Transcendental
+**** ??
+*** Axiom is a fundamental postulate assuming certain properties for the very basic ideas and concepts used in study. Axioms are so fundamental that unlike normal postulates they can't be "proven". A postulate can be proven wrong and therefore invalidate the whole model or theory - an axiom can't be really wrong. For example the fact that parallel lines never cross is an axiom of Euclidean geometry. If you assume the they can cross under certain conditons then you just create another (non-Euclidean) geometry.
+
+** Hypothesis
+*** Rational
+**** 
+*** Empirical
+****
+*** is an assumption made to explain something ad hoc, based on instinct or just an educated guess an insight that serves as a starting point and basis for further explanation. A hypothesis can be wrong - and put forward deliberately to be disproven.
+
+** Theorem
+*** Rational
+**** 
+*** Empirical
+****
+*** is a statement that requires formal proof and therefore must be based on on other theorems or axioms
+
+** Law
+*** Rational
+**** 
+*** Empirical
+****
+*** Law is a description of a general principle in nature that doesn't require a separate theory to explain it.
+
+** Assumption
+*** Rational
+**** 
+*** Empirical
+****
+*** Transcendental
+**** ??
+*** Often these are inductively supported conclusions. 
+
+** Corollary

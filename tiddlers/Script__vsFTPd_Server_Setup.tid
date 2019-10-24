@@ -1,0 +1,13 @@
+created: 20170322022655400
+modified: 20171130182223684
+revision: 0
+title: Script: vsFTPd Server Setup
+
+```bash
+sudo apt-get update
+sudo apt-get install vsftpd -y
+sudo cp /etc/vsftpd.conf /etc/vsftpd.conf.orig
+```
+
+
+

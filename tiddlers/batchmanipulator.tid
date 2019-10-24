@@ -1,0 +1,618 @@
+bm-display: singledata
+bm-field: tag
+bm-filter: 
+bm-filter-previous: aa [[bb bb]] cc dd ee [tag[frotz]]
+bm-filterlimit: +[limit[10]]
+bm-tag: 
+bm-value: frotz
+created: 20170723211815220
+creator: Mat von TWaddle
+field-filter: -created -creator -modified -modifier -tags -text -title
+modified: 20181220190104576
+modifier: h0p3
+tags: batchmanipulator [[Wiki: Tools]]
+title: batchmanipulator
+
+\define bm-addtofilter(tooltip, class)
+      <$button class="tc-btn-invisible bm-btn-addtofilter $class$"
+             tooltip="""$tooltip$""">
+          $(label)$&#10548;
+          <$action-setfield $tiddler=batchmanipulator
+              bm-filter-previous={{batchmanipulator!!bm-filter}} />
+          <$action-listops $tiddler="batchmanipulator" $field="bm-filter"
+              $subfilter="""[enlist<fieldselection>]""" />
+       </$button>&nbsp;
+\end
+
+\define concat() $(append2me)$ -[[$(tid)$]] 
+
+\define bm-removefromfilter()
+<$vars append2me={{batchmanipulator!!bm-filter}} >
+<$button class="tc-btn-invisible bm-btn-addtofilter bm-fontsmall bm-btn-tooltip bm-center">
+          {{$:/core/images/close-button}}
+   <div class="bm-tooltip">Remove from list</div>
+   <$action-setfield $tiddler=batchmanipulator
+         bm-filter-previous={{batchmanipulator!!bm-filter}} />
+   <$action-setfield $tiddler=batchmanipulator
+         bm-filter=<<concat>> />
+</$button>
+</$vars>
+\end
+
+\define addremove-btn(field, val, list)
+<$set name=list value="""$list$""">
+<$set name=addremove-this filter="""[[batchmanipulator]bm-field[tag]]"""
+          value="""$val$""" emptyValue="""$field$""">
+<$vars field="""$field$""">
+<$button class="bm-btn bm-btn-$(add-or-remove)$ tc-btn-invisible bm-btn-tooltip" >
+&nbsp;
+<div class="bm-tooltip">$(add-or-remove)$ $field$ : $val$</div>
+<$list filter="""[enlist<list>]""">
+  <$fieldmangler>
+     <$action-sendmessage 
+           $message="tm-$(add-or-remove)$-$(tag-or-field)$"
+           $param=<<addremove-this>>
+     />
+     <$macrocall $name="$(add-or-remove)$-$(tag-or-field)$" val="""$val$"""/>
+  </$fieldmangler>
+</$list>
+</$button>
+</$vars>
+</$set>
+</$set>
+<br>
+\end
+
+\define addremove-field-all(field, val)
+<$wikify name=field text="$field$" >
+<$wikify name=val text="""$val$""" >
+<$set name=add-or-remove
+          filter="""[enlist<thetids>!$field$<val>] [enlist<thetids>is[missing]]"""
+          value=add emptyValue=remove >
+   <$macrocall $name=addremove-btn
+                        field=<<field>>
+                        val=<<val>>
+                        list=<<thetids>>
+   />
+</$set>
+</$wikify>
+</$wikify>
+\end
+
+\define addremove-tag-single()
+<$set name=add-or-remove filter="""[[$(tid)$]!tag[$(val)$]] [[$(tid)$]is[missing]]"""
+          value=add emptyValue=remove >
+<$set name=t filter="""[[$(tid)$]]""">
+<$macrocall $name=addremove-btn
+              field=tag
+              val=<<val>>
+              list=<<t>> />
+</$set>
+</$set>
+\end
+
+\define addremove-field-single()
+<$list filter="""[[$(tid)$]!$(thefield)$[$(val)$]] [[$(tid)$]is[missing]!is[shadow]]""">
+<$button class="bm-btn bm-btn-add tc-btn-invisible bm-btn-tooltip">
+   &nbsp;
+  <div class="bm-tooltip">Set $(thefield)$ to $(val)$ (currently:
+     <$transclude tiddler=<<tid>> field=<<thefield>> />)
+  </div>
+  <$action-setfield $tiddler="""$(tid)$""" $(thefield)$="""$(val)$""" />
+</$button>
+</$list>
+<$list filter="""[[$(tid)$]$(thefield)$[$(val)$]]""">
+<$button class="bm-btn bm-btn-remove tc-btn-invisible bm-btn-tooltip">
+  &nbsp;
+  <div class="bm-tooltip">Keep the field ($(thefield)$) but remove value $(val)$
+  </div>
+  <$action-setfield $tiddler="""$(tid)$""" $(thefield)$="" />
+</$button>
+</$list>
+\end
+
+\define delete-tid-btn()
+  <$button class="tc-btn-invisible bm-btn bm-fontsmall" tooltip="Delete this tiddler">
+    <$action-deletetiddler $tiddler="""$(tid)$"""/>
+    {{$:/core/images/delete-button}}
+  </$button>
+\end
+
+\define bm-relations-table-row()
+<tr>
+<td style="text-align:center">
+   <$list filter="""[[$(tid)$]is[tiddler]]"""><<delete-tid-btn>></$list>
+</td>
+<td style="padding:0"><<bm-removefromfilter>></td>
+<td class="peek-hover">
+   <$link to="""$(tid)$""">$(tid)$</$link>
+   <div class="peek"><$transclude tiddler=<<tid>>/></div>
+   <$set name=label filter="""[tag<tid>count[]]""">
+   <$wikify name=fieldselection text="""[tag[<<tid>>]]""">
+   <$macrocall $name=bm-addtofilter
+       tooltip="Add as tag to filter"
+       class="bm-fontsmall"
+     />
+    </$wikify>
+    </$set>
+</td>
+
+<$list filter="""[[batchmanipulator]bm-field[tag]]""">
+  <$list filter="""[enlist<thetids>tags[]sort[]reverse[]] [[$(val)$]] +[reverse[]]""" 
+           variable="val">
+      <td><<addremove-tag-single>></td>
+  </$list>
+</$list>
+<$list filter="$(thefield)$ -tag">
+   <$list filter="""[enlist<thetids>fields[]] -created -creator -modified -modifier -tags -text -title +[sort[]reverse[]] [[$(thefield)$]] +[reverse[]]""" variable="thefield">
+      <td><<addremove-field-single>></td>
+  </$list>
+</$list>
+</tr>
+\end
+
+\define delete-all-items(items)
+  <$button popup=<<qualify "$:/state/batchDelete/$items$">>
+                 tooltip="Delete $items$" 
+                 class="tc-btn-invisible">
+    {{$:/core/images/delete-button}}
+  </$button>
+
+<$reveal state=<<qualify "$:/state/batchDelete/$items$">>
+               type="popup" position="belowleft" animate="yes">
+<div class="tc-block-dropdown-wrapper foo">
+<div class="tc-block-dropdown tc-edit-type-dropdown">
+<div class="tc-dropdown-item-plain">
+  Are you sure you wish to delete all these $items$?
+</div>
+<div class="tc-dropdown-item-plain">
+  <$button class="tc-btn">
+    Delete all these $items$
+    <$list filter=""" $items$ +[suffix[tiddlers]]""">
+       <$action-deletetiddler $filter=<<thetids>>/>
+    </$list>
+    <$list filter=""" $items$ +[suffix[tags]]""">
+       <$list filter="""$(thetids)$""">
+          <$action-setfield $tiddler={{!!title}} tags=""/>
+       </$list>
+    </$list>
+    <$list filter=""" $items$ +[suffix[fields]]""">
+      <$list filter="""$(thetids)$""" >
+        <$action-deletefield $(thefield)$ />
+      </$list>
+    </$list>
+  </$button>
+</div>
+</div>
+</div>
+</$reveal>
+\end
+
+\define bm-dragpill() 
+<$draggable filter={{batchmanipulator!!bm-filter}} class="bm-drag">ALL</$draggable>
+\end
+
+\define head-tags-1(val)
+<$list filter="""[enlist<thetids>$(tag-or-field)$s[]] +[sort[]reverse[]] [[$(val)$]] +[reverse[]]""">
+<$wikify name=newfilter text="""[tag[{{!!title}}]tags[]tagging[]] $(limit)$""">
+<th class="rotate"><div><span>
+<$button set="batchmanipulator!!bm-filter"
+               setTo=<<newfilter>>
+               class="tc-btn-invisible tc-tiddlylink green-link bm-btn-tooltip">
+  <$view field="title"/>
+  <div class="bm-tooltip">Apply relations filter</div>
+  <$action-setfield $tiddler="$:/batchmanipulator/temp" text=""/>
+</$button>
+</span></div></th>
+</$wikify>
+</$list>
+\end
+
+\define head-tags-2()
+<$list filter="""[enlist<thetids>$(tag-or-field)$s[]] +[sort[]reverse[]] -[[$(val)$]] [[$(val)$]] +[reverse[]]""">
+<th><div><span>
+  <$macrocall $name=addremove-field-all field=tag val="{{!!title}}" />
+  </span></div>
+</th>
+</$list>
+\end
+
+\define head-fields-1()
+<$list filter="""[enlist<thetids>$(tag-or-field)$s[]]  -created -creator -modified -modifier -tags -text -title +[sort[]reverse[]] [[$(thefield)$]] +[reverse[]]""">
+<$wikify name=newfilter text="""[has[{{!!title}}]get[{{!!title}}]tagging[]] $(limit)$""">
+<th class="rotate"><div><span>
+<$button set="batchmanipulator!!bm-filter"
+               setTo=<<newfilter>>
+               class="tc-btn-invisible tc-tiddlylink green-link bm-btn-tooltip">
+  <$view field="title"/>
+  <div class="bm-tooltip">Apply relations filter</div>
+  <$action-setfield $tiddler="$:/batchmanipulator/temp" text=""/>
+</$button>
+</span></div>
+</th>
+</$wikify>
+</$list>
+\end
+
+\define head-fields-2()
+<$list filter="""[enlist<thetids>$(tag-or-field)$s[]]  -created -creator -modified -modifier -tags -text -title +[sort[]reverse[]] [[$(thefield)$]] +[reverse[]]""">
+<th><div><span>
+<$macrocall $name=addremove-field-all field={{!!title}} val="""$(val)$""" />
+</span></div>
+</th>
+</$list>
+\end
+
+\define bm-relations-table-head()
+<tr style="border-bottom:1px solid silver;">
+<td colspan=3 style="text-align:right;">
+<$list filter="""[[batchmanipulator]bm-field[tag]]""">
+Apply tag to tiddler
+</$list>
+<$list filter="[[batchmanipulator]bm-display[relations]!bm-field[tag]]">
+Set ''$(val)$'' as value for:
+</$list>
+</td>
+  <<head-$(tag-or-field)$s-1>>
+</tr>
+<tr style="border-bottom:2px solid silver ">
+  <td style="text-align:center;position:relative"><<delete-all-items tiddlers>></td>
+  <td></td>
+  <td style="text-align:center;"><<bm-dragpill>></td>
+  <<head-$(tag-or-field)$s-2>>
+</tr>
+\end
+
+\define bm-relations-table()
+<table class="bm-table bm-relations-table">
+<<bm-relations-table-head>>
+<$list filter=<<thetids>> variable="tid">
+   <<bm-relations-table-row>>
+</$list>
+</table>
+\end
+
+\define remove-btn(item)
+  <$button  class="tc-btn-invisible bm-fontsmall " tooltip="Delete field $(thefield)$ and its value">
+      {{$:/core/images/delete-button}}
+      <$fieldmangler tiddler=<<tid>>>
+        <$action-sendmessage
+            $message=tm-remove-$(tag-or-field)$
+            $param="""$item$""" />
+      </$fieldmangler>
+  </$button>
+\end
+
+\define set-or-clear()
+<$list filter="""[[$(tq)$]has[$(thefield)$]]""">
+     <$button tooltip="Set  $(thefield)$">
+          ''!''
+          <$action-setfield $tiddler="""$(tid)$""" $(thefield)$={{$(tq)$!!$(thefield)$}} />
+          <$action-deletetiddler $tiddler='$(tq)$' />
+     </$button>
+</$list>
+<$list filter="""[[$(tid)$]has[$(thefield)$]]""">
+<$list filter="""[[$(tq)$]!has[$(thefield)$]]""">
+<$button class="bm-btn tc-btn-invisible" tooltip="Clear $(thefield)$">
+    {{$:/core/images/close-button}}
+  <$action-setfield $tiddler="""$(tid)$""" $(thefield)$="" />
+</$button>
+</$list>
+</$list>
+\end
+
+\define tid-qualify()
+temp/bm/<<qualify """$(tid)$""">>
+\end
+
+\define bm-singledata-table()
+<table class="bm-table">
+<tr class="bm-singledata-table-head">
+<td style="position:relative;"><<delete-all-items tiddlers>></td>
+<td></td>
+<td style="text-align:center;"><<bm-dragpill>></td>
+<td style="text-align:center;">
+    <<addremove-field-all "$(thefield)$" """$(val)$""">>
+</td>
+<td style="position:relative;text-align:center;">
+<$list filter="""[enlist<thetids>has:field[$(thefield)$]first[]] [[batchmanipulator]bm-field[tag]]""">
+  <<delete-all-items "$(tag-or-field)$s">>
+</$list>
+</td>
+<$list filter="[[batchmanipulator]!bm-field[tag]]">
+  <td style="text-align:center;">,,$(thefield)$,,<br>^^value^^</td>
+  <td style="text-align:center;">
+     <$button class="tc-btn-invisible"
+                    tooltip="Clear all $(thefield)$ fields">
+          {{$:/core/images/close-button}}
+        <$list filter="""$(thetids)$""">
+           <$action-setfield $(thefield)$="" />
+        </$list>
+     </$button>
+  </td>
+</$list>
+</tr>
+
+<$list filter="""$(thetids)$""" variable="tid">
+<tr>
+<td><<delete-tid-btn>>
+</td>
+<td style="padding:0"><<bm-removefromfilter>></td>
+<td class="peek-hover">
+   <$link to=<<tid>>><<tid>></$link>
+   <$set name=label filter="""[tag<tid>count[]]""">
+   <$wikify name=fieldselection text="[tag[<<tid>>]]">
+   <$macrocall $name=bm-addtofilter
+       tooltip="Add as tag to filter"
+       class="bm-fontsmall"
+     />
+     </$wikify>
+     </$set>
+<div class="peek"><$transclude tiddler=<<tid>>/></div>
+</td>
+
+<$list filter="[[batchmanipulator]!bm-field[tag]]">
+<td style="white-space:nowrap">
+   <<addremove-$(tag-or-field)$-single>>
+</td>
+<td>
+   <$list filter="""[<tid>has:field[$(thefield)$]]""">
+      <<remove-btn $(thefield)$>>
+   </$list>
+</td>
+<$wikify name=tq text=<<tid-qualify>>>
+<td style="padding-right:0; padding:0">
+   <$set name=placeholder filter="""[<tid>get[$(thefield)$]]""">
+      <$edit-text tag=input size=8
+         tiddler=<<tq>> field="$(thefield)$"
+         placeholder=<<placeholder>>
+      />
+   </$set>
+</td>
+<td class="bm-fontsmall bm-center">
+   <<set-or-clear>>
+</td>
+</$wikify>
+</$list>
+
+<$list filter="""[[batchmanipulator]bm-field[tag]]""">
+<td style="white-space:nowrap; text-align:center;">
+  <<addremove-$(tag-or-field)$-single>>
+</td>
+<td style="padding-top:0px;">
+<$set name=tgs value={{{ [<tid>get[tags]] }}}>
+<div class="bm-fontsmall">
+<$list filter="""[enlist<tgs>]""">
+    <$checkbox
+       tiddler=<<tid>>
+       tag={{!!title}}
+   />
+  <$wikify name=newfilter text="""[tag[{{!!title}}]tags[]tagging[]] $(limit)$""">
+    <$button set="batchmanipulator!!bm-filter"
+               setTo=<<newfilter>>
+               class="tc-btn-invisible tc-tiddlylink green-link bm-btn-tooltip">
+      <$view field="title"/>
+      <div class="bm-tooltip">Apply relations filter</div>
+      <$action-setfield $tiddler="$:/batchmanipulator/temp" text=""/>
+   </$button>
+   <$set name=label filter="""[tag{!!title}count[]]""">
+   <$wikify name=fieldselection text="[tag[{{!!title}}]]">
+   <$macrocall $name=bm-addtofilter
+       tooltip="Add as tag to filter"
+     />
+    </$wikify>
+    </$set>
+</$wikify>
+</$list>
+</div>
+</$set>
+</td>
+</$list>
+</tr>
+</$list>
+</table>
+\end
+
+\define bm-input-table()
+<table class="bm-table bm-input-table" >
+<tr>
+<td style="text-align:center; vertical-align:bottom">^^Back. Up. First. !^^<br>
+ <$button>
+   <$list filter="[[batchmanipulator]bm-display[singledata]]">
+      single data
+      <$action-setfield $tiddler=batchmanipulator  bm-display=relations/>
+    </$list>
+    <$list filter="[[batchmanipulator]!bm-display[singledata]]">
+       relations
+       <$action-setfield $tiddler=batchmanipulator bm-display=singledata />
+    </$list>
+</$button>
+</td>
+<td style="white-space:nowrap;">
+,,Select / type titles or 'filter'. Note &#91;&#91;space brackets&#93;&#93;.,,<br>
+<$edit-text class='tc-edit-texteditor' tag=input
+    default={{batchmanipulator!!bm-filter}}
+    tiddler="$:/batchmanipulator/temp/filter"
+    placeholder={{batchmanipulator!!bm-filter}}
+    />
+</td>
+<td style="vertical-align:bottom;padding:0;padding-bottom:5px;white-space:nowrap;">
+<$list filter="[[$:/batchmanipulator/temp/filter]has[text]] [[batchmanipulator]get[bm-filter]] +[first[]]">
+<$button class="bm-btn tc-btn-invisible" tooltip="Clear filter">
+    {{$:/core/images/close-button}}
+  <$action-setfield $tiddler="batchmanipulator" bm-filter="" />
+  <$action-setfield $tiddler="$:/batchmanipulator/temp/filter" text="" />
+  <$action-navigate $to="batchmanipulator"/>
+</$button>
+</$list>
+<$list filter="[[$:/batchmanipulator/temp/filter]has[text]]">
+<$button class="bm-alert bm-btn-tooltip">
+   !
+  <div class="bm-tooltip">Click to apply filter</div>
+    <$action-setfield $tiddler=batchmanipulator
+        bm-filter-previous={{batchmanipulator!!bm-filter}}    />
+    <$action-setfield $tiddler=batchmanipulator
+        bm-filter={{$:/batchmanipulator/temp/filter}}    />
+    <$action-deletetiddler $tiddler="$:/batchmanipulator/temp/filter"/>
+</$button>
+</$list>
+</td>
+</tr>
+<tr>
+<td style="text-align:center; vertical-align:top;">
+^^Current view^^
+</td>
+<td style="white-space:nowrap">
+<$select tiddler="batchmanipulator" field="bm-filter" default="""{{!!bm-filter}}""" >
+  <option value={{batchmanipulator!!bm-filter-previous}}>back to last filter</option>
+  <optgroup label='Filters based on user set values (i.e set them first)'>
+  <$list filter="""[[batchmanipulator]bm-field[tag]]""">
+     <option value="[tag[$(val)$]] $(limit)$">$(val)$ tag siblings</option>
+     <option value="[tag[$(val)$]tags[]tagging[]] $(limit)$">$(val)$ tag cousins</option>
+  </$list>
+  <$list filter="$(tag-or-field)$ -tag">
+     <option value="[has:field[$(thefield)$]] $(limit)$">field siblings: $(thefield)$</option>
+     <option value="[has:field[$(thefield)$]$(thefield)$[$(val)$]] $(limit)$">field+value siblings: $(thefield)$:$(val)$</option>
+  </$list>
+</optgroup>
+  <optgroup label='custom - Locate "XXX" in editmode to customize'>
+  <option value="[type[text/x-tiddlywiki]] $(limit)$">TWC to TW5 - remove type & changecount </option>
+  <option value="aa [[bb bb]] cc dd ee">titles for testing</option>
+  <option value="">...</option>
+</optgroup>
+</$select><$select tiddler="batchmanipulator" field="bm-filterlimit" default="limit[10]" >
+  <option value="+[limit[5]]">5</option>
+  <option value="+[limit[10]]">10</option>
+  <option value="+[limit[20]]">20</option>
+  <option value="+[limit[50]]">50</option>
+  <option value="+[limit[100]]">100</option>
+  <option value="">no.l</option>
+</$select>
+   <$wikify name=fieldselection text="{{batchmanipulator!!bm-filterlimit}}">
+   <$macrocall $name=bm-addtofilter
+       tooltip="(Optional) Add limit to filter"
+     />
+    </$wikify>
+</td>
+<td></td>
+</tr>
+
+<tr>
+<td style="white-space:nowrap;">
+,,Select or create what to manipulate:,,</td>
+<td>
+,,New or existing field value or tag to use:,,
+</td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td style="white-space:nowrap; text-align:right;">
+<$select tiddler="batchmanipulator" field="bm-field" default="tag">
+  <option value="tag">&nbsp;tags</option>
+  <option value="bm-new-field">&nbsp;[create new field]</option>
+  <optgroup label='fields'>
+    <$list variable="field"
+            filter="""[{!!bm-field}] [!is[shadow]!is[system]fields[]sort[]] -title -text -field-filter
+                      -bm-filter -bm-filter-previous -bm-filterlimit -bm-value -bm-field -bm-tag -bm-display -bm-message""" >
+        <option value=<<field>>><<field>></option>
+     </$list>
+  </optgroup>
+</$select>
+<$list filter="$(thefield)$ -tag">
+   <$set name=label filter="""[has[$(thefield)$]count[]]""">
+   <$wikify name=fieldselection text="""[has[$(thefield)$]]""">
+   <$macrocall $name=bm-addtofilter
+       tooltip="""(Optional) Add [has[$(thefield)$]] to filter"""
+       class="bm-fontsmall"
+     />
+     </$wikify>
+</$set>
+</$list>
+<$list filter="[[batchmanipulator]bm-field[bm-new-field]]"><br>
+  <$set name=placeholder
+      filter="[[batchmanipulator]get[bm-field]] -bm-new-field"
+      value={{batchmanipulator!!bm-name}}
+      emptyValue=" new field name"
+  >
+     <$edit-text tag=input size=15 
+         tiddler="$:/batchmanipulator/temp" field="bm-field"
+         placeholder=<<placeholder>>
+     />
+  </$set>
+<$button class="bm-alert bm-btn-tooltip">
+   !
+  <div class="bm-tooltip">Click to create field name</div>
+     <$action-setfield $tiddler=batchmanipulator
+         bm-field={{$:/batchmanipulator/temp!!bm-field}} />
+     <$action-setfield $tiddler="$:/batchmanipulator/temp" bm-field="" />
+  </$button>
+</$list>
+</td>
+<$list filter="[[$(tag-or-field)$]prefix[field]]">
+</$list>
+<td style="white-space:nowrap">
+<$set name=placeholder filter="""[[batchmanipulator]get[bm-value]]"""
+    value="""$(val)$"""
+    emptyValue="(new value)"
+>
+<$edit-text class='tc-edit-texteditor bm-fieldeditor' tag=input 
+     tiddler="$:/batchmanipulator/temp" field="bm-value"
+     placeholder=<<placeholder>>
+  />
+</$set>
+<$list filter="[[$:/batchmanipulator/temp]!has[bm-value]]">
+   <$set name=label filter="""[$(thefield)$[$(val)$]count[]]""">
+   <$wikify name=fieldselection
+       text="""[{{batchmanipulator!!bm-field}}[{{batchmanipulator!!bm-value}}]]""">
+     <$macrocall $name=bm-addtofilter
+         tooltip="(Optional) Add to filter"
+         class="bm-fontsmall"
+     />
+   </$wikify>
+</$set>
+</$list>
+<$list filter="""[[$:/batchmanipulator/temp]get[bm-value]]""">
+<$button class="bm-alert bm-btn-tooltip">
+   !
+  <div class="bm-tooltip">Click to apply value</div>
+  <$action-setfield $tiddler=batchmanipulator 
+       bm-value={{$:/batchmanipulator/temp!!bm-value}}
+  />
+  <$action-setfield $tiddler="$:/batchmanipulator/temp"
+        $field="bm-value"
+        $value=""
+   />
+</$button></$list>
+</td>
+<td>
+</td>
+</tr>
+</table>
+\end
+
+\define singledata() <<bm-singledata-table>>
+\define relations() <<bm-relations-table>>
+
+\define bm-inner()
+<$set name=tag-or-field filter="""[[batchmanipulator]get[bm-field]] -tag"""
+          value=field emptyValue=tag >
+<$set name=val value={{batchmanipulator!!bm-value}}>
+{{Xbatchmanipulator/peek}}
+<<bm-input-table>>
+<br>
+<$list filter="[[batchmanipulator]has[bm-filter]!bm-field[bm-new-field]]">
+    <$macrocall $name={{!!bm-display}} />
+</$list>
+</$set>
+</$set>
+\end
+
+<$set name=thetids filter={{batchmanipulator!!bm-filter}} >
+<$wikify name=limit text={{batchmanipulator!!bm-filterlimit}} >
+<$set name=thefield filter={{batchmanipulator!!bm-field}} >
+  <<bm-inner>>
+</$set>
+</$wikify>
+</$set>

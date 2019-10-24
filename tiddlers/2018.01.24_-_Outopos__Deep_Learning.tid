@@ -1,0 +1,14 @@
+created: 20180126034242375
+modified: 20190323155743676
+tags: Outopos
+title: 2018.01.24 - Outopos: Deep Learning
+
+Deep learning may actually be an effective way to improve indexing and trust-building. That is a project for another time. I would be interested in settings up the controls for someone to perform deep learning approaches to the network, but I don't think we should go that way. Let's stick to time-tested methods for now.<<ref "2019.03.23">>
+
+There is another worry about deep learning that is not so obvious: we don't actually understand the reasoning it employs. Imagine I trained my node to be 20% more effective (on what metrics we need) than what is hand-coded, except I've (without mentioning it to anyone) artificially trained it to be extra nice to a range IP addresses I've specified. Basically, there is non-neutral behavior embedded in the node's AI that we can't reverse engineer in any easy fashion. I can imagine lots of people might would use my node's AI without a second thought, but this encourages centralization of power.
+
+We need code that can be reviewed all the way down. Thus, the only way this can work is if the AI only gets to play with knob settings we can understand. The reasons for those knob settings can be opaque to us, but the ultimate mechanism cannot. Perhaps we want something more complex than knobs, but I am worried that identifiable information can slip through more complex control/logic systems which can be insidiously injected into AI's training.
+
+
+---
+<<footnotes "2019.03.23" "We call it 'TANNing' now. Lol.">>

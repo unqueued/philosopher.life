@@ -1,0 +1,68 @@
+created: 20190626201445307
+modified: 20190627010806355
+tags: [[Game Theory Agents]]
+title: Gradual
+
+* http://jasss.soc.surrey.ac.uk/20/4/12.html
+* https://www.researchgate.net/publication/2697047_Our_Meeting_With_Gradual_A_Good_Strategy_For_The_Iterated_Prisoner's_Dilemma
+* https://github.com/Axelrod-Python/Axelrod
+
+---
+
+tft_spiteful, spiteful_cc, winner12, gradual mem2, spiteful, tit_for_tat, slow_tft, hard_tft, soft_majo
+
+---
+
+What I like about [[Gradual]] is that it escalates punishment given memory. It scales against defecters, including the insidious. It holds a progressive grudge. What are more [[SO]] [[T42T]]esque variants of gradual?
+
+* Can I learn to trust you more and more, to lose my will to punish you as [[T42T]]'s avatar/homonculus of gradual's gradient? What is [[SO]] forgiveness?
+
+* It looks like we might be able to gradualize gradual. I want to place more emphasis on who you've been recently than who you were a decade ago. It makes my predictions more accurate.
+
+* How do we defeat the smart, [[SO]] always defectors and extortionists?
+
+* My problem with gradual and [[T4T]] is that it asks "how much should I punish?" rather than "how much should I forgive?". I have no idea how to even ask the sublationary dialectical question.
+
+* Ideal [[T42T]] into [[infinigress]]ive orders is resilient to exploitation to the extent that continued bouts or orders of exploitation requires your opponent to, on average, become an increasingly better person with you. The goal is to heal the sickness, not simply punish.
+
+* What is the algorithm of [[love]]?
+
+* How do we build ourselves to be price efficiently resistant to exploitation? Any algo I give definitionally is exploitable.
+
+* Probabilistic extortion is not how I've imagined [[Pavlov]], and their Pavlov looks much weaker and less problematic. It's not a [[SO]] vampire like mine.
+
+* How do we build more realworld looking simulations?
+
+* What about degrees of defection? What does it mean to cooperate or defect to an extent?
+
+* What about interferring noise, miscommunications, Hanlonian ignorance, and mistakes? How do we enable intention? We're aim to find if agents act from duty. The more noise, the more forgiving we have to be, right?
+
+* Should we ever reset our memory? Do people become new people? Is there a jubilee and a repentence?
+
+What variables can or should be deterministic in tournaments (perhaps "possible worlds")? eg. does noise vary during the tournament? This all sounds like spherical chickens in a vacuum again. There's no correct answer without context (except [[The Infinite]]), but how do we know our context without context, into [[infinigress]]?
+
+What about [[TOP]]-based decisions? What is Bayesian regret here? Assuming diminishing margins, what can we say maximins against everything?
+
+I want to see a maximin global utility calculation, not just survivorship and evolutionary populations answer. What does it mean to straddle collectivist and individualist perspectives in these games? The top algorithms aim to cooperate, and when they meet each other, no problems. How forgiving they are is another matter entirely, and it appears spitefulness is game-theoretically a "virtue" for the sake of both persona utility and tribal-consensus building.
+
+---
+
+[[Gradual]] seems to be a more spiteful [[T4T]] for handling [[SO]] exploitation. It's resilient to vampiric strategies which prey upon those who are simplistically too forgiving. Ultimately, I want to push for a more [[T42T]] variation of [[Gradual]] (and the arms race continues into [[infinigress]]!). 
+
+The problem with [[Gradual]] is that it holds the grudge far too long. Its retaliation is too progressive. It doesn't forgive in the sense that it doesn't forget at all. Time must heal wounds, some people change, and we can become different people. Moral agency is real (trying to talk to economists about "ought" rather than "is" here) even if it is rarely exercised correctly by most people. Incentivizing restoration and transformation instead of mere retribution is a hard problem.
+
+Trust is something which is earned, and it can be re-earned. It's part of how one must compute how much to forgive.
+
+Say I've known you for 10 years. On average, the last year I've known you is a marginally better explanation of who you are (for the sake of who you will be) than the first year I knew you. Maybe you defected a whole bunch early on, but we've earned trust and consistently cooperate most of the time; now those bad memories have faded for me, and I don't want them to be taken into account so heavily in thinking about who you are. Going back in time, there are diminishing marginal weighings of your history used to determine who I think you will be in the future.
+
+Similarly, though I think we have to use both in real life, iterations should demonstrate an increasing weight on the most recent information. This weight should be used to reduce the "n" variable of [[Gradual]]. The past is not forgotten entirely, but it fades. Perhaps //n// never goes all the way back down to 1, but it should reach for the infinitesimal (but I think this isn't forgiving enough). I appreciate how Breaking Bad or Good has real consequence and fits in the way I think weighing among minds like ours should go.
+
+When it comes to noise, [[Gradual]] is fucking awful. It is a terrible judge of intention, and that is really what this game is all about. It's not just about the moves someone made, it's about trying to reverse engineer why they made them. We're trying to develop theories of mind here. The punishment is too damn high! It's meaner than [[T4T]] in longer IPDs. 
+
+ML seems poised to build predictive "theories of mind" of opponents, which is what this is about. If you have memory, then you should be allowed to do arbitrary pattern recognition, right? Wittgenstein's rule-following always shows up; it's an arms race. Simplicity can also be in appearance, and efficiency appears to be what we're really after. What are cheap ways to gauge trustworthiness?
+
+What is [[T42T]] of weighted-[[Gradual]]? There are people I've known long enough that if and when they "defect," I don't think they intend it at all. In fact, with enough defection, I grow worried about their health or how their day is going. They wouldn't defect without a damn good reason. It's the opposite of retaliation. I'm gearing up to find a way to restore something more fundamental which eventually made it so that they couldn't even cooperate. I know they would have cooperated if they could have. That's who they are. I trust them that far down. You need significant evidence to show me otherwise.
+
+I think the forgiveness of weighted-[[Gradual]] can be tuned to start pushing //n// down past 1 (in a sense). We obviously must punish the wicked, including the complex and cleverly wicked, but we have to do it efficiently, with high-forgiveness, and the ability to rapidly become resilient to noise. It is the leap of faith from Socrates into Hanlon. Making //n// go negative needs to be logarithmic. 
+
+One of the largest problems the classic IPD doesn't develop is how the centralization of power continues to snowball. Extortion and exploitation grow until there is contradiction, and they aim to ride it until the pyramid collapses. Utility inequalities grow in iterations. Leverage and collusion eventually create environments which anyone without enormous starting capital is enslaved in an invisible prison. The socialist's question is how to develop class solidarity (consciousness is not a word I'm comfortable using here); it has to be collectively viral. [[Gradual]] does that, and weighted-[[Gradual]] does it even faster. Add in [[T42T]] for noise (and compensating for the vindictiveness of the escalation fo [[Gradual]]), and you got yourself a viral memeplex/strat there, homie. The elite are hunting for it though!

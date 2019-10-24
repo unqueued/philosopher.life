@@ -1,0 +1,26 @@
+created: 20181221155308239
+modified: 20181222065530179
+tags: [[Computer Musings]] [[Wiki Audit]]
+title: 2018.12.21 - Wiki Audit: Redline
+
+For the second day in a row, nodejs is pegging a core to the redline without an end in sight (and taking another core between chromium and rslsync). I imported ~80 tiddlers to deal with the crash from yesterday (rofl); this should not be expensive. What is happening?
+
+I must remind myself that I had plenty of problems with singlefile mode and infrastructure. It is an opportunity to learn and grow.
+
+I went to the directory and saw it cycling through each of the files I had attempted to import (overwrite), one-at-a-time, over and over. The safest option is just replacing .tids directly (I did it with Bob off in this case, but will try to test later with it on). I need a json->tid converter.
+
+Importing could become more dangerous for me at this point. =/ -- This is basic shit. It shouldn't be breaking at all.
+
+---
+
+I need to keep looking and developing an idea of what's wrong. I may have to ask, but I want to come with evidence and some guesses. It's important that I've tried to understand and solve it. These are difficult gremlins to replicate for others, I take it.
+
+---
+
+Alright, Tiddlytool needs way more computation time, but it can accomplish it. It burned for about a minute (and it appeared to have the file rotation thing going for a while too). 
+
+---
+
+Oh, I'm liking the modeless vimium tool. It's snappy. Alongside the ability to keep tabs full screen, it switches tabs quickly. I now have multiple keys for it, and that's fine with me. This is much closer to my workspace switching too. I'm thinking I may work to have the Open tab automagically activated when I switched browser tabs. What is this workspace I've jumped into? Perhaps that is a mistake though; I could see that being annoying sometimes.
+
+I'm more than willing to talk shit about Chrome, but their extensions (barring a few exceptions) are better than what FF offers. 

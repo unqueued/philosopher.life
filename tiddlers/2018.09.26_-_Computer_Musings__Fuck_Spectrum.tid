@@ -1,0 +1,14 @@
+created: 20180926194935335
+creator: h0p3
+modified: 20181029175224795
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.09.26 - Computer Musings: Fuck Spectrum
+
+This is getting ridiculous. Our interwebs connection is dropping multiple times a day. It's beginning to affect my children's ability to complete their schoolwork. This is not acceptable. 
+
+They claimed to have brought us //up to// 100mbps....but it's actually dropped to 30-35 on top of outages. I know they don't like how aggressively I use my connection. I've been throttled many times in my life. I'm a barrel of redflags to their DPI and trafficshaping.
+
+Talking to their techies is often disheartening (what happened to the techies that one could shibboleet with? They are a dying breed). Had one as a neighbor when we first moved here too. They have no fucking clue what their company policies are, what's actually happening on their network, etc. They "mindlessly" look away. Absolute garbage. I can even walk them through demonstrations of the throttling and disruption, and it doesn't matter. Reproducing the behavior just doesn't matter to them. Deny, Deny, Deny!
+
+The amount of fucking ipv6 rollBACK and NATing makes me sick. There's a non-zero chance that NAT traversal might actually get harder (it's impossible for a small percentage) for some segment of the population by design. I already have to fight firewalls on other networks, and now my ISPs may be conveniently shaping me into a consumer they can pin into a narrow tunnel that they squeeze and toll. I'm already forced to relay and holepunch my way out of this bullshit, and I think that may be a permanent problem for me. Will I always be forced to rely upon proxies, even if I'm the one rolling it out? We shouldn't have a Matrix server model; even that metadata should be [[T42T]] held by other peers on your behalf. This is only getting worse for my area. Am I going to have to rely upon steganographically masking my traffic over 443 to ipv4's of untrusted VPSs hosted on Google and Amazon's infrastructure just to even have a chance of using my own software on the "open" internet? Will I be gated out? The Western Great Firewall is already here, and the squeeze is happening on a number of political and technical fronts. Power continues to centralize, at least for Spectrum in my region. They have no real competition here. Where are my ivp6 gods?

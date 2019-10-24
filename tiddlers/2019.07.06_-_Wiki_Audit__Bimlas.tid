@@ -1,0 +1,8 @@
+created: 20190707035352246
+modified: 20190707035845585
+tags: [[Wiki Audit]]
+title: 2019.07.06 - Wiki Audit: Bimlas
+
+Bimlas the Hungarian Hacker isolated [[firmcode-all button]]'s presence on the sidebar as a fundamental problem for performance in this wiki. Pushing it to [[Buttons]] for now, and I see an immediate improvement. The wiki still isn't snappy, but after the discussion on the [[TWGGF]], I'm feeling more optimistic that there will almost always be significant performance improvements to be made. Between a real example and several knowledgable people (including the creator of TW), I don't think it's koolaid to think the wiki can still be usable until TW-X. 
+
+I'm hoping they either use Go or Rust. Go is a faster language to learn to write, and it's easy to read someone else's code. That's probably where it will *cough* go.

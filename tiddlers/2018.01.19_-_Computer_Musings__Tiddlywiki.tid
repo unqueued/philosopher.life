@@ -1,0 +1,29 @@
+created: 20180119184910296
+modified: 20190322044321154
+modifier: h0p3
+revision: 0
+tags: [[Computer Musings]]
+title: 2018.01.19 - Computer Musings: Tiddlywiki
+type: text/vnd.tiddlywiki
+
+I have now tried several options with serving Tiddlywiki. I wish there was a clean way for me to have individual tiddlers with automatic updating and building that didn't consume an arm and a leg. Such a system can be built, but I don't feel like it.<<ref "2019.03.22">>
+
+Make the server from an index.html file:
+
+```bash
+cd Syncs # Where I want to put the directory
+tiddlywiki philosopher.life --init server # Make a tiddlywiki directory
+tiddlywiki philosopher.life --load ~/index.html # Load contents of index.html file into new wiki dir
+tiddlywiki philosopher.life --server 8080 $:/core/save/lazy-all text/plain text/html "" "" "0.0.0.0"
+```
+(Anyone can edit that online, btw). 
+
+I tried out --build. Static might be able to solve my problem, but it doesn't look like it. Build is computationally expensive. If I do move that direction, I need to create a button/script for it to build, and I want to autobuild every hour or so. Hourly releases to the site is fine with me. 
+
+After playing with tiddlywiki.info, I found the build time can be reduced significantly, to a second or so. I'm happy to continue doing that every minute. So...boom. Resilio isn't play beautifully with it, but the rest of the process is working well.
+
+I've setup the snapshot script to git add the .tid folder as well.
+
+
+---
+<<footnotes "2019.03.22" "It took such a long time to find a way that worked. Yet again, I am indebted to my daughter.">>

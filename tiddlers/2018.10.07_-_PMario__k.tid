@@ -1,0 +1,19 @@
+created: 20181008201005540
+creator: h0p3
+modified: 20181020164416900
+modifier: h0p3
+title: 2018.10.07 - PMario: k
+
+hi
+
+<<<
+    > Can you describe a bit closer, what you want to do with the uni-link plugin? So I can try to create a test case, and do some "live-debugging"
+
+    Basically, I want to be able to use an arbitrary number of initial names to functionally resolve to a single tiddler with a final name (I want the world!).
+
+    My current awful noob hack (which is stupidly ugly) is to have multiple tiddlers which transclude the final one, but I would much rather not create a dozen tiddlers to point to just one, and I'd strongly prefer that all of them resolve to the same name.
+<<<
+
+I see. I'll have a closer look
+
+-m

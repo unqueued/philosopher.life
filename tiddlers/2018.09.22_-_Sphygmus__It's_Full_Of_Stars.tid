@@ -1,0 +1,55 @@
+created: 20180922121325566
+creator: h0p3
+modified: 20181104202339553
+modifier: h0p3
+tags: Sphygmus From
+title: 2018.09.22 - Sphygmus: It's Full Of Stars
+
+https://sphygm.us/#180920%20%E2%80%93%20To%20h0p3%3A%20It's%20Full%20Of%20Stars
+
+Dear h0p3,
+
+Once again I am going to drop a lot of threads in this letter. I apologize, and hope you will forgive me. You are generous in granting that it might carve out salience - I worry that I am avoiding your lines of questioning. I don't ''want'' to avoid them; I want to pick up all the threads and go down all the rabbitholes because there's so much there to be explored!<<ref "gb">>
+
+At the same time, whoo boy. Being out of school for two years, I had gotten used to having few other constraints on my time other than work. I'm slowly getting into the routine of classes in the morning and then working in the afternoon/evening but the first few weeks really took it out of me, both physically and mentally! I still feel horribly guilty and ashamed of my past academic failures<<ref "st">> so I worry that I'll fall back into old patterns. I have to trust myself that, since I both don't ''want'' to procrastinate my schoolwork and withdraw from class and also don't ''want'' to avoid your questions, I will do neither of those things! I hope you can trust me too, and understand that work and school and some of my IRL connections come first for me on the priority list.<<ref "!!">> :)
+
+And I see connections! This week in my anthropology course we read an article focused on gifting practices in hunter/gatherer societies. We discussed how often on the surface in our American culture, gifts are seen as having "no strings attached"<<ref "cav">> compared to other cultures where they are //all// about those strings, about building and maintaining and making explicit the varieties of relationships and reciprocity between people. You use the vocabulary of the gift in your letters and I think it's very fitting. While not physical objects empathy, consideration, kindness, attention, honesty, etc. are absolutely gifts we exchange to establish bonds and connections, and those gifts are especially clear in the practice of exchanging long form letters.
+
+I know that collections of the long-form letters of writers/philosophers/thinkers exist, and I think we follow in their footsteps here, even if it is online and not through paper. (Though it is is a nontrivial distinction - letters have a built-in time delay because of the post office and the physical distance of their travel.)
+
+Wiki code has a much lower mental cost, though. While it wasn't a direct challenge or request, I knew I wanted to set up [[the button|$:/plugins/sphygmus/reviewButton]] as soon as I saw your wishlist. I hope it is useful for you! If not, I would like to hear what changes you'd want to see in it.
+
+> It seems many major wiki users I've seen are spinning up multiple wikis, one for each task. Do you think you will go this direction? What do you think of trying to unify these tasks?
+
+I can see possibilities for having multiple wikis. If I decided a "day job/work" wiki<<ref "eg">> would be useful, I would keep it separate from my personal wiki. I don't see the point of splitting my link collecting out into a separate "bookmarks" wiki though - that's what my browser bookmark toolbar + folders are, and I don't see how single links in multitudes of tiddlers is useful.
+
+On the other hand, I do have single links in tiddlers, tagged "to ingest," but I'm not satisfied with that. I collect //so many// things to look at but don't have a dedicated way of dealing with them, so it ends up just being a pile I never look at. It would be nice to develop a system that feels right and works well for me in that regard.
+
+Hm, someone in the google group mentions having a wiki for their worldbuilding - I could potentially see doing that too - it's such a unified theme that maybe it hangs together and works best on its own - I don't have any such project yet that couldn't be built within my personal wiki.
+
+The thing about topic specific wikis - I could build one within my personal wiki and never have it interact with any of the other parts! I control what links where and is connected to what. While having it all-in-one doesn't make sense in a physical notebook that can get "cluttered," the same doesn't seem true of the digital. (The wiki might take up more storage space or be slower to load, but that's not the same thing as organizational clutter.)
+
+Starting up another wiki for public things has been interesting. It was a great chance to refactor a lot of my personal code from the layering of ancient cities into a neat Chicago grid. Switching back and forth between the two wikis is annoying ("have I fixed this bug in both places?") but hopefully once I transition my personal wiki onto the plugins I created that will lessen.
+
+Jumping straight to your concern about representing my authorship in your wiki - you see my solution demonstrated here! I was //enormously// pleased when I realized I could set up css per tag, so your letters are written in, well, your voice! If nothing else, there's one thing tags are good for. :)
+
+I'm guessing such a thing satisfies to some [[dok]] the representing-authorship-question for you? I don't have any code written for a "from sphygmus" tag in your wiki yet, though I have tried drafting it several times. I'm trying to figure out how I visually want it to look...the grey theme of my wiki looks fine with your black tiddlers, but the opposite, grey tiddler on black background, just looks washed out! I have considered a light grey background with black text, but I don't know if that goes too far beyond the color scheme of your wiki.<<ref "font">> What do you think?
+
+That's all I have time for right now! I'm really itching to get this online and sent to you - I'm so curious if the wiki button will be useful to you at all.
+
+cheers,
+sPhyGmuS
+
+---
+
+<<footnotes "gb" "and yes, I definitely go back and reread! Helps keep everything straight, and me from either repeating myself or missing something I'd drafted elsewhere and wanted to include.">>
+
+<<footnotes "st" "I have been a perfectionist procrastinator for the vast majority of my life, and though I know who I am now is not who I was then, I'm still not confident in the completeness of my change. Part of the reason for my wiki is this: to maintain an awareness of where I'm at so that I can take action if I need to.">>
+
+<<footnotes "cav" "though we then went on to discuss the various unspoken/implicit counterexamples.">>
+
+<<footnotes "!!" "Don't take me the wrong way - these letters are a priority for me too. I initiated the discussion - I have an obligation to either continue it or directly disengage!">>
+
+<<footnotes "eg" "Here I mean a wiki with nothing in it but work tool/project documentation, brainstorming, and general reference: probably shared.">>
+
+<<footnotes "font" "And I can't decide what font to use, either. Somehow the monospaced font I use doesn't feel right on your wiki to me, so I'm leaning towards a plain sans serif, but then which one?? I want it to //feel// right! | My visual sense is largely intuitive - I struggle to explain //why// a certain font works in a certain situation despite having strong opinions on such.">>

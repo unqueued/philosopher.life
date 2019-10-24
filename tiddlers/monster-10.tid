@@ -1,0 +1,47 @@
+aliases: [[m10]]
+created: 20180719014214806
+creator: h0p3
+modified: 20190718044234039
+modifier: h0p3
+tags: Monster-Φ
+title: monster-10
+
+//My Driver, My Love. Some pieces of the system should be represented here. I prefer to automate this, but I need to take the time to manually catalog some of it as well. What would you not want to remember how to find or build from scratch?//
+
+Specs: Intel Xeon E3-1240 v3, 16GB RAM, GeForce GTX 750 Ti, ASRock B85M-ITX, 120GB Kingston SSD (/ and swap), 250GB Samsung 840 SSD (/home), 1TB Wester Digital HDD (/mnt/storage), DVD/CD-Writer, CX500M 500W (the lone system fan, lol), LIAN LI PC-Q07B modded with velcro mounts for drives and cut to fit dual slot card (I've used almost every square inch of space, since it's about the size of a gallon of milk, and I've never had to clean it), Das Keyboard Model S Pro MX Blue, Anker Vertical Ergonomic Optical Wired Mouse, Logitech C920 Camera, 42" 1080p Vizio TV, 22" 1080p monitor.<<ref "m">>
+
+* [[m10: h0p3's crontab]]
+* [[m10: Root's crontab]]
+* [[m10: pacman & yaourt installed list]]
+* [[visudo]]
+
+* /etc/[[i3status.conf]]
+
+* /home/h0p3/[[.bashrc]]
+* /home/h0p3/[[.nvimrc]]
+* /home/h0p3/[[.zshrc]]
+
+* /home/h0p3/[[.i3/config]]
+
+* /home/h0p3/.config/shreddit/[[shreddit.yml]]
+* /home/h0p3/[[.config/terminator/config]]
+
+* /home/h0p3/scripts/[[compressed-backup.sh]]
+* /home/h0p3/scripts/[[dropbox_uploader.sh]]
+* /home/h0p3/scripts/[[i3-layout-autostart.sh]]
+* /home/h0p3/scripts/[[i3-net-speed.sh]]
+* /home/h0p3/scripts/[[i3-tox-login.sh]]
+* /home/h0p3/scripts/[[i3-window-criteria.sh]]
+* /home/h0p3/scripts/[[lazy_dat_share.sh]]
+* /home/h0p3/scripts/[[lussh]]
+* /home/h0p3/scripts/[[music-scraper.py]]
+* /home/h0p3/scripts/[[wiki-hash-sign.py]]
+* /home/h0p3/scripts/[[wiki-snapshot.sh]]
+* /home/h0p3/scripts/[[wikireview.py]]
+* /home/h0p3/scripts/[[ff_url_copy.xsh]]
+
+* [[/usr/share/conky/conky_maia]]
+* [[/usr/share/conky/conky_shortcuts_live_maia]]
+
+---
+<<footnotes "m" "It's a ridiculously compact machine. I've considered using a hotswap bay for additional drives, replacing the DVD/CD writer. But, ultimately, I'm probably more likely to move either a laptop (to maximize portability) or a used blade server next because RAM is so fucking expensive (and I would make use of 128GB of it given the chance).">>

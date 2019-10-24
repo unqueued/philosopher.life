@@ -1,0 +1,27 @@
+created: 20180728225722653
+creator: h0p3
+modified: 20180729042224803
+modifier: h0p3
+title: 2018.07.28 - Computers Musings: Mesh
+
+I was trying to help my friend ALM today. We ended up setting up a mesh network. [[Public Temporary Meshbird Networks for SSH/SFTP]]
+
+https://news.ycombinator.com/item?id=7730275 shows me I'm still in hard territory.
+
+vpncloud is still my best option.
+
+---
+
+Backups appear to be set. I still haven't got the wiki all sorted out on this front, but that's okay (it's in good shape still).
+
+---
+
+xset actually works; I was just using the wrong values (the values from the GUI component of this installation of i3 manjaro says it inversely). Yay. I love this massive init script. I set to always exec, just in case, eh?
+
+---
+
+A full-blown test run on [[compressed-backup.sh]]. Needed to change to include hidden files.
+
+Also, changed sync up...rsync was deleting the .sync...and I'm just going to fix it by keeping the entire archive inside another directory. rofl. Fucking around more with zstd. I would like to turn compression up on it. Tried xz instead, but it's so fucking slow (ridiculously). zstd ratio is "good enough" for the speed I'm getting out of it. Admittedly, the tooling for zstd in the ecosystem blows, but I can do it.
+
+xz could just be better when I'm IO bound. But, that's okay.

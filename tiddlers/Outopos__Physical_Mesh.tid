@@ -1,0 +1,13 @@
+created: 20180111003610736
+modified: 20180117021054816
+revision: 0
+title: Outopos: Physical Mesh
+
+We can use Atropos as a physical mesh network protocol. It can enable ISP's not to worry about building the last mile and instead just relying upon the neighborhood to use wireless mesh. This is a huge infrastructure improvement, and it would enable new ISP's really compete. 
+
+* https://startyourownisp.com/
+
+
+Tools:
+
+* https://github.com/svpcom/wifibroadcast

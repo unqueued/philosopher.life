@@ -1,0 +1,10 @@
+created: 20171221155727704
+modified: 20171221171458008
+revision: 0
+title: Walkthrough: Setup Anti-Adblocker
+
+The adblocker arms race continues. Presumably, you have uBlock Origin already installed.
+
+# Install [[Tampermonkey|https://tampermonkey.net/]]
+# Install the [[script|https://raw.github.com/reek/anti-adblock-killer/master/anti-adblock-killer.user.js]]
+# Head into uBlock options and turn on the anti-adblock filter.

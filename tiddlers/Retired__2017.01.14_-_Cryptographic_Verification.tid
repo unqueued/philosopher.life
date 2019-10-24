@@ -1,0 +1,68 @@
+created: 20161207023947185
+modified: 20170114232319448
+revision: 0
+title: Retired: 2017.01.14 - Cryptographic Verification
+
+Official distributions of h0p3's Wiki include checksum and signatures files for verifying the integrity and authenticity of your copy. These verification files are updated for every published edit (nearly real-time). With these files (and the right tools), you will be able to cryptographically verify the entire wiki, which is contained in a single html file (index.html). Let's hope this is never directly useful to us.
+
+Here's how to verify:
+
+If you don't already have them, download all three files (<a href="check.sum">check.sum</a>, <a href="check.sum.sig">check.sum.sig</a>, and <a href="index.html">index.html</a>). You'll need to have installed [[PGP software|https://gnupg.org/]] in order to verify the signature. Use the Ed25519 signature file (check.sum.sig) to verify the authenticity of the checksum file (check.sum). Assuming you are using gpg (or gpg2<<ref "1">>), you should open your commandline and navigate to the directory containing these files, and run the following command:<<ref "2">> 
+
+```
+gpg --allow-non-selfsigned-uid --keyserver keyserver.ubuntu.com --recv-keys 806820F2DCBA181F49F23364EF7E62B3CAB88302
+```
+You should see something like the following output:
+
+```
+gpg: key EF7E62B3CAB88302: public key "h0p3.xyz (h0p3) <h0p3@protonmail.com>" imported
+gpg: Total number processed: 1
+gpg:               imported: 1
+```
+You've successfully imported this wiki's public signing key from a keyserver. If you prefer, you can also manually import the full ascii-armored public signing key found at the bottom of this page. Now that you have imported the public signing key, you can verify the signature by running the following command: 
+
+```
+gpg --verify check.sum.sig check.sum
+```
+
+You should see something like the following output (note that the date/time when the signature was made will vary):
+
+```
+gpg: Signature made 12/06/16 22:00:35 Eastern Standard Time
+gpg: using EDDSA key EF7E62B3CAB88302
+gpg: Good signature from "h0p3.xyz (h0p3) <h0p3@protonmail.com>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 8068 20F2 DCBA 181F 49F2  3364 EF7E 62B3 CAB8 8302
+```
+
+The warning exists because you have not marked the key as trusted. Do you think this a forgery? You could compare the signing key to what is below, but if this page has been tampered with, then this entire process may have been tampered with. You find yourself in a "trusting trust" kind of predicament, wherein you have to accept that your first verification is trustworthy (or you can trust someone else's trust of this signing key). Only by trusting trust now will you be in a position to identify future attempts at forgery or tampering. Let's assume you trust this first verification (you can sign it, if you wish). 
+
+You have verified the signature file, and you are now able to verify future signatures. Only someone who possesses this wiki's private signing key (associated with the public signing key found at the bottom of this page) could sign the checksum file.<<ref "3">> 
+
+Next, use the SHA-512 checksum file (check.sum) to verify the integrity of the Wiki index.html file. I suggest [[sha512sum|https://en.wikipedia.org/wiki/Sha1sum]], [[hashfile|https://pypi.python.org/pypi/hashfile]], or [[Hashtab|http://implbits.com/products/hashtab/]] (you can figure this part out; it's easy).<<ref "4">> If the hash of index.html matches the hash found in check.sum (or if your hashing tool verifies they match for you), then you know your index.html file hasn't been tampered with by a third-party. To be clear, if you trust the signature verification of the checksum, and you trust the checksum of index.html (if the hashes match, you'd be crazy not to trust this part), then you trust index.html. Thus, your verification demonstrates you possess a bit-for-bit copy of the original signed by someone who possesses this wiki's private signing key.
+
+This wiki's public signing key:
+
+```
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mDMEWEy5zRYJKwYBBAHaRw8BAQdAbwcuJ9nDR4tiEDVPKK1Hn+dHodQ+4EwT/aWw
+HTyUFse0JWgwcDMueHl6IChoMHAzKSA8aDBwM0Bwcm90b25tYWlsLmNvbT6IeQQT
+FggAIQUCWEy5zQIbAwULCQgHAgYVCAkKCwIEFgIDAQIeAQIXgAAKCRDvfmKzyriD
+AuzkAP923f3hdKwPxYDdQLbMH1JknIioISavvYl2jd3NshasPgEAgQcTz05+FBBS
+wrlnbF9cJMIevkDMwSY0VqKNmqmexgC4OARYTLnNEgorBgEEAZdVAQUBAQdAD5sI
+kpVF15Vy4D3+UXzxUJUhux2GtDSAv3M6x08BnHkDAQgHiGEEGBYIAAkFAlhMuc0C
+GwwACgkQ735is8q4gwL73wD+MTyYIQNeW2gzbtMulkkP9rRIPIC/qBioh9GmHKP5
+XCwBAKIPigCzNfpDayDWvejfBVCE4mPf2rbv7hQqqz/eyeIJ
+=Tl4R
+-----END PGP PUBLIC KEY BLOCK-----
+
+```
+If you wish, you may use this key for authentication or encryption during [[contact|Contact]].
+
+---------------------------------------------------
+<<footnotes "1" "Some folks will need to replace 'gpg' in their commandline with 'gpg2.' Make sure you are using a newer version which handles ECC (specifically, curve25519).">>
+<<footnotes "2" "You may get an error that the key is not self-signed. I am not convinced it is a real problem. If I understand correctly (and I may not), it only enables you to detect a denial of service attack on keyservers, and that's it. I suggest the use of keyservers only because it gives you a nice one-liner to import the public key. I'm convinced your trust has to start on this page or by trusting someone else who trusts this page (I'm not in love with PGP's WOT model). I am not convinced self-signing buys us much in this case. I could be wrong. Would you, for example, really be more trusting if I clearsigned the public key? I don't see why. But, if it matters to you, this wiki, which includes the above public signing key, has been signed by the very same key.">>
+<<footnotes "3" "If someone were to break into my computer or steal the key from me, they could easily forge this. Public key cryptography is not a panacea to problems of digital trust. At best, it only authenticates a possessor instead of the creator or intended owner or user. You should always maintain reasonable doubt (using a very high epistemic standard in this context).">>
+<<footnotes "4" "I am aware that gpg can hash. I strongly dislike the tool though; I think's it is incredibly unintuitive and unwieldy. I'll stick with tools I really love when I can.">>

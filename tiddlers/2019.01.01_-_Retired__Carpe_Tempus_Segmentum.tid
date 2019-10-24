@@ -1,0 +1,94 @@
+created: 20190101213105403
+modified: 20190101213121083
+tags: [[Carpe Tempus Segmentum]] Retired
+title: 2019.01.01 - Retired: Carpe Tempus Segmentum
+
+!! About:
+
+//Momento mori. Seize your life; play it like an unparalleled video game, O Captain! My Captain!//
+
+<<<
+Forever is composed of nows.<<ref "1">>
+
+-- Emily Dickinson
+<<<
+
+<<<
+Life's too short to wake up with regrets. So love the people who treat you right, forgive the ones who don't and believe that everything happens for a reason. If you get a chance, take it. If it changes your life, let it. Nobody said it'd be easy, they just promised it would be worth it.
+
+-- Dr. Seuss
+<<< 
+
+In my quest to become a [[Eudaimonic Lifehacker]], I practice the art of [[Stoicism-fu]]. I reframe and refactor my perceptions to make the most of my life.<<ref "h">> I wish to take nothing for granted.<<ref "c">>  When I cannot be ecstatic, I [[hope]] to be satisfactorily content. My goal in this log is to gratefully count my blessings, see the sunny side, lick the spoon, and suck out the marrow as I talk about how I spent my time in each day, reflect a bit on what I value and my behavior, provide a quick commentary, and give myself yet another avenue to see patterns of [[The Beautiful]] in my life. 
+
+The maxim "carpe diem" is an abbreviation of the Horacian phrase "carpe diem, quam minimum credula postero," which can be translated as "Seize the day, put very little trust in tomorrow." That is the basic principle of these logs, although I believe we can polish this [[Diamond]] a bit. //Carpe tempus segmentum// is my rough translation of: seize the timeslice. The scope of seizure ranges from the pregnant present to at least one's lifetime. Here I capture my practice of seizing my timeslices.
+
+As practically as we can, we need to squeeze every drop of utility out of every scope of time.<<ref "2">> We must make the most of our time [[irwartfrr]] because we want to be maximally eudaimonic, we don't know how much we have left, and our time is a resource we can never renew. We must spend our lives wisely, efficiently, and with joy.<<ref "3">> Insofar as we can, we must at the same time empathize and identify with our future selves while still living in the moment.<<ref "4">>
+
+Seizing the timeslice isn't always fun and immediately gratifying; it's often painfully hard work. Life has its seasons. Seizing includes wrestling, and thus I must celebrate both my pains and pleasures as best as I can. Suffering is a source of meaning, and I must carefully reflect upon and even celebrate it. Eudaimonic joy's complexity extends far beyond mere hedonic bliss.<<ref "b">>
+
+I hope to hold myself accountable to this log's namesake, a maxim which we should all hope to live by. Essentially, I have to hold myself accountable to myself in this life journal. In the [[T42T]] of my practical [[Self-Dialectic]], these are the //tats// to [[TDL]]'s juicy //tits//. Go get 'em.
+
+
+---
+!! Principles:
+
+* Put a stamp on the day with a [title.Title]
+* Timeslice scopes are set in tandem, [[T4T]] or [[T42T]], with my [[TDL]]'s scopes.
+* Celebrate the small things too.
+* [[Wiki Review]] may also house [[Carpe Tempus Segmentum]] content, particularly for wiki-heavy days.
+* For wiki-heavy days, use [[Recent]] to gauge your day's work.
+
+
+---
+!! [[Focus|Carpe Diem: Focus]]:
+
+<$set name="mydate" value=<<now YYYY.0MM.>>>
+<<list-links "[tag[Carpe Tempus Segmentum]prefix<mydate>]">>
+</$set>
+
+
+---
+!! Vault:
+
+* Audits:
+** [[2017 - Carpe Diem Log]]
+** [[2018.01 - Carpe Diem Log]]
+** [[2018.02 - Carpe Diem Log]]
+** [[2018.03 - Carpe Diem Log]]
+** [[2018.04 - Carpe Diem Log]]
+** [[2018.05 - Carpe Diem Log]]
+** [[2018.06 - Carpe Diem Log]]
+** [[2018.07 - Carpe Diem Log]]
+** [[2018.08 - Carpe Tempus Segmentum]]
+** [[2018.09 - Carpe Tempus Segmentum]]
+** [[2018.10 - Carpe Tempus Segmentum]]
+** [[2018.11 - Carpe Tempus Segmentum]]
+** [[2018.12 - Carpe Tempus Segmentum]]
+
+* Retired:
+** [[2017.11.05 - Retired: Carpe Diem Log]]
+** [[2018.01.30 - Retired: Carpe Diem Log]]
+** [[2018.06.19 - Retired: Carpe Tempus Segmentum Logs]]
+
+
+---
+!! Dreams:
+
+* Be happy.
+
+
+---
+<<footnotes "1" "Infinity is composed of infinitesimals. I will remind you, however, Dasein experiences the pregnant present. I can still program smaller timeslices in the world, even if I can't directly experience them though.">>
+
+<<footnotes "h" "You might say I'm inclined to be a fairly pessimistic person.">>
+
+<<footnotes "c" "I needs to be carpen all them diems. Never take life for granite.">>
+
+<<footnotes "2" "Clearly, we need to first come up with a rational time-slice scope for our utility calculation. Obviously, what maximizes utility in the moment does not necessarily maximize utility in the long-term. But, how long-term are we talking about here? How do you know how to draw those lines? This, of course, is yet another epistemic problem for consequentialist reasoning (which I don't mean as a swear-word: no system of ethics can refuse to pay attention to causality and hence consequentialist reasoning). Perhaps at best, we come up with heuristic approximations for generating scope, and it is likely incredibly contextual. The Marshmellow Test actually has its limits too though. Thus, I do not have a great answer. I'm just pointing to a notion, not a solution. I agree, I am helping myself to a great deal here.">>
+
+<<footnotes "3" "Understanding that life has its ups and downs is crucial to ultimately being content, joyful, and satisfied. You have to take risks. You have to see how it all adds up.">>
+
+<<footnotes "4" "I don't believe I'm contradicting the Epicureans here (shun me as a heretic, but it's effectively stoic to me). Perhaps after some negotiation, I think Horace would have agreed with me, and I take us to be saying roughly the same thing.">>
+
+<<footnotes "b" "I do not understand [[The Good]], not even in my context.">>

@@ -1,0 +1,52 @@
+created: 20170620030156373
+creator: h0p3
+modified: 20190705051805539
+modifier: h0p3
+revision: 0
+tags: [[Wiki: Scripts]] python
+title: wikireview.py
+
+```python
+#!/usr/bin/python
+
+# wiki-review-log-converter
+# Hotkeyed shortcut to: `ctl+alt+w`. EZPZ. 
+
+# Copy the "New" or "Recent" section into command line, build the template I'll fill out, and make it paste-able.
+
+# Usage with something already in your clipboard:
+# ~$ wikireview.py
+# Just paste from your clipboard now!
+
+# Usage example from console: 
+# ~$ wikireview.py "Carpe Diem Log
+# 2017.06.19 - Prompted Introspection Log
+# Prompted Introspection Log
+# 2017.06.19 - Diet Log
+# Diet Log
+# 2017.06.19 - Wiki Review Log
+# 2017.06.19 - Pipefitting Log
+# Pipefitting Log "
+# Just paste from your clipboard now!
+
+# You'll want to install pyperclip
+# sudo -H python2 -m pip install pyperclip
+# sudo -H python3 -m pip install pyperclip
+import pyperclip
+import sys
+
+try: # Parse text from command line argument
+    text = sys.argv[1].splitlines()
+except: # Parse text from clipboard
+    text = pyperclip.paste().splitlines()
+
+# Format and generate clipboard string
+clipboard = ""
+for line in range(len(text)):
+    clipboard += "* [[" + text[line].strip() + "]]\n" + "** \n"
+
+# Load it into your clipboard
+pyperclip.copy(clipboard)
+spam = pyperclip.paste()
+```
+

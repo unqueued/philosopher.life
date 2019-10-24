@@ -1,0 +1,196 @@
+created: 20171216015037949
+creator: h0p3
+modified: 20181115190624900
+modifier: h0p3
+revision: 0
+tags: Retired
+title: 2018.08.03 - Retired: Linux Tool Collection
+
+//Skiddie for life. Keep the list short as fuck (and be okay with incompleteness). Assume standard software is already installed. Don't worry about dependencies. Perhaps one day, when I Nix+Gentoo it hard enough, I'll have a complete system listed out. Let's assume some sanity here first.//
+
+!! CLI:
+
+* Always
+
+** Learn You Something
+*** tldr
+
+** Sysadmin
+*** iotop
+*** powertop
+*** htop
+*** ncdu
+*** bmon
+*** nethogs
+*** iftop
+*** smem
+*** mtr
+*** discus
+*** inxi
+*** hwinfo
+
+** Shell
+*** xonsh
+*** oh-my-zsh
+*** byobu
+
+** Muh Files
+*** mc
+*** ranger
+*** fzf
+*** unrar
+*** dtrx
+
+** Web
+*** w3m
+*** browsh
+
+** Remote
+*** rslsync
+*** lftp
+*** sshuttle
+*** sshfs
+*** shadowsocks-libev
+
+** Package-managers
+*** npm
+*** nix
+*** snap
+*** pip
+*** pip3
+**** hashfile
+**** pynacl
+**** pyperclip
+**** when-changed
+**** py-figlet
+**** beautifulsoup4
+
+* Sometimes
+** neovim
+** weechat
+** finch
+** toxic
+** firetools
+** aria2
+** mbox-git
+** imagemagick
+
+
+!! GUI:
+
+* Always
+
+** Web
+*** chromium
+*** firefox
+*** firefox-developer-edition
+
+** Social
+*** pidgin
+**** pidgin-otr
+**** pidgin-xmpp-receipts
+*** signal
+*** keybase
+*** qtox
+*** hexchat
+*** discord
+
+** Media Consumption
+*** vlc
+*** kodi
+*** qmmp
+*** calibre
+*** cozy-audiobooks
+
+** Media Creation
+*** gimp
+*** masterpdfeditor
+
+** Sysadmin
+*** timeshift
+*** duplicity
+
+** Muh Files
+*** p7zip-gui
+*** dolphin
+*** synkron
+*** truecrypt
+*** veracrypt
+*** SUSE Studio Imagewriter
+
+** Remote
+*** filezilla
+*** qbittorrent
+*** nomachine
+*** networkmanager-openvpn 
+*** shadowsocks-qt5
+
+** Text
+*** sublime-text2
+*** diffuse
+*** visual-studio-code-bin
+
+
+* Sometimes
+
+** Games
+*** playonlinux
+*** steam-native
+*** cockatrice-client
+
+** Proprietary Convenience<<ref "h">>
+*** teamviewer-beta
+*** dropbox
+
+** Virtualization
+*** vmware-workstation
+*** virtualbox
+*** genymotion
+*** furiusisomount
+
+** Piracy
+*** soulseekqt
+*** amule-git
+
+** Laziness
+*** quickhash-gui-bin
+
+
+!! Scriptiness, Skiddiegodhood, and Fugly Idiosyncrasy
+
+* Skiddie Scripts
+** [[lussh]]
+* Just Compile & Install It Yourself
+** vpncloud.rs
+* Daughter's Contribution
+** you-get
+
+* One-of's
+** argon2
+
+
+!! Manjaro-related
+
+* cronie
+
+
+
+!! Dreams:
+
+* Strong Candidates
+** [[Ratox]]
+
+* Maybes
+** cmus
+** mpd+ncmpcpp
+** http://jrnl.sh/
+** nnn
+** keysniffer
+** mutt + offlineimap + notmuch
+** Etcher
+
+* Tried, and still Maybes
+** tuntox
+
+---
+<<footnotes "h" "Hate and fight it, but don't beat yourself up too much.">>

@@ -1,0 +1,65 @@
+created: 20190702221857776
+modified: 20190703052807696
+tags: [[Wiki Audit]] [[Tagging Theory]] [[FTO Log]]
+title: 2019.07.02 - Wiki Audit: Timelines
+
+I've decided I need to start nesting hierarchies more, especially on the sidebar which is dynamically generated. I don't know how to thin the space between the nested tabs.
+
+---
+
+I'm enabling tiddler folding.
+
+---
+
+I wish I could key-combo+click a link to "make new tiddler tagged with this one."
+
+---
+
+$:/plugins/wikilabs/info-tagmap
+
+Tried out, but I just don't see the point. It also becomes quickly absurd in my wiki which has large bodies of tiddlers with the same tag. This is probably a strike against how I tag.
+
+---
+
+$:/plugins/wimmoermans/history
+
+I've thought about it. I thought it was stupid, but sometimes this is the best way to recover or reason about how I got where I was going.
+
+---
+
+TOC still seems undoable.
+
+---
+
+Can make the toolbar blank out for the most part, but unfortunately, it doesn't work for all buttons.
+
+```
+/* TIDDLER TOOLBAR */
+
+.tc-tiddler-view-frame .tc-tiddler-controls svg { fill:transparent; }
+
+.tc-tiddler-view-frame .tc-tiddler-controls:hover svg, .tc-tiddler-view-frame .tc-tiddler-controls [aria-label~=close] svg, .tc-tiddler-view-frame .tc-tiddler-controls .tc-popup svg { fill:#cccccc; }
+```
+
+---
+
+$:/plugins/tongerner/tristate v0.1.11
+$:/plugins/tongerner/layout_adjustment v0.4.3
+
+I was fairly sure it wouldn't work, and it didn't.
+
+---
+
+I'm cleaning up all of the [[FTO Modes]], and Commander is kicking so much ass. I lurv it.
+
+I walked through all folks pages and cleaned up the formatting and tags.
+
+[[FTO]] has finally been [[remodeled]].
+
+---
+
+[[Tagcloud]] doesn't appear absurdly useful except for providing a quick image for newcomers. Perhaps one day, I'll get to a functioning mindmap (but javascript blows).
+
+---
+
+`#66ff66` is my green function color. Buttons which do unique shit get it.

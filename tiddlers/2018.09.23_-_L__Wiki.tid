@@ -1,0 +1,202 @@
+created: 20180924033833520
+creator: h0p3
+modified: 20181101042143580
+modifier: h0p3
+tags: L
+title: 2018.09.23 - L: Wiki
+
+```
+Someone wrote a plugin for my wiki as a gift!
+Sat 1:11 PM
+ :D
+Sat 1:15 PM
+ That’s awesome! What’s it do?
+Sat 1:15 PM
+ She made a button that I click which creates a new Wiki Review entry already populated with the previous day's tiddlers (in my standard formatting; I use a python script and CnP to do this...and she built it straight into the wiki now). It's automatically titled and tagged. It also hardcode appends it to my //Focus://(Wiki Review). Lol! I do not use tags (though that may change). I've never seen anything like her plugin, and it's specifically designed for this exact function.
+Sat 1:18 PM
+ This plugin should allow me to have multiple different automated journal entry buttons.
+Sat 1:19 PM
+ There are several pain in the butt things she had to accomplish to make this work, especially because TW is not designed to do what she made for me, imho.
+Sat 1:21 PM
+ D’aw
+Sat 1:22 PM
+ That’s an awesome gift.
+Sat 1:23 PM
+ Speaking of tiddlywiki, I’ve begun using one for my players as a hub of information.
+Sat 1:23 PM
+ Neat! How's it suiting your purpose?
+Sat 1:25 PM
+ Are you keeping notes of the game as it progresses. Do they get to see it?
+Sat 1:25 PM
+ Do you keep a DM copy vs a player copy?
+Sat 1:25 PM
+ (1) Well so far, though I’m still building it. 
+(2) I just started it so I haven’t had a chance to.
+(3) We have a document copy as DMs because our friend is hosting the wiki for us. (He got to it before I could ever ask you.)
+Sat 1:26 PM
+ (1) It may evolve many times. Mine still does! I hate to say it, but I feel like I still never know where I'm going with it (which is a good thing in many respects).
+Sat 1:59 PM
+ (2) I didn't mean to pressure you on it. I'm just intensely curious. This is a tool I adore. I'm a toolporn whore.
+Sat 2:00 PM
+ (3) What do you mean by document copy? How is he doing the hosting? In fact, what exactly are doing from a connection/data perspective when you edit it?
+Sat 2:01 PM
+ Hehehe, you didn’t don’t worry.
+Sat 2:00 PM
+ lolol, toolporn whore. XD
+Sat 2:01 PM
+ You might consider looking into the other worldbuilding and DM related TW's out there. It could save you a lot of time.
+Sat 2:02 PM
+ I skiddie hard.
+Sat 2:02 PM
+ I can access it through a url he shared with me, said it’s part of a personal server I think?
+Sat 2:02 PM
+ So I’m just editing the file directly.
+Sat 2:03 PM
+ Ah, I see.
+Sat 2:03 PM
+ You may wish to download a copy from time to time.
+Sat 2:04 PM
+ I’m tailoring it slightly so that it’s at least a little harder for my players to accidentally edit things lol.
+Sat 2:04 PM
+ The document copy is mostly for [[K]], though I am seriously considering building your all’s D&D game on a wiki.
+Sat 2:05 PM
+ I hate having to scroll through a document for the information when I could just link it all together.
+Sat 2:05 PM
+ And I’m realizing how incredibly helpful it would be now. XD
+Sat 2:06 PM
+ (Look... I’m slow on the uptake sometimes... lol)
+Sat 2:06 PM
+ (don't worry, I still don't understand the power of the wiki...if you have seen, I'm working on understanding just the basics of tagging and filters...which is newbie shit, and I have thousands of hours poured into this tool)
+Sat 2:07 PM
+ Hehehe
+Sat 2:07 PM
+ They’re helpful for a table of contents!
+Sat 2:07 PM
+ I’m using one for my players to make things easier to find.
+Sat 2:08 PM
+ Aye! The built in TOC and plugins still don't seem to fit what I want exactly. Most of the experts think I'm using the tool incorrectly (or they think there is no wrong way).
+Sat 2:09 PM
+ TW gives structure to the flatness.
+Sat 2:10 PM
+ the salience rises!
+Sat 2:10 PM
+ \o/
+Sat 2:12 PM
+ I should just send you a link so you can make suggestions for things. I’m trying to keep the wiki small so I don’t take all my friends’ storage but I know it’s not as pretty as it could be.
+Sat 2:12 PM
+
+Sat 2:13 PM
+ 4.2mb, it's tiny
+Sat 2:14 PM
+ and, that includes your embedded images (which I too avoid like the plague)
+Sat 2:15 PM
+ I don’t know the file size or where to find it. XD
+Sat 2:16 PM
+ I’m also not very far into adding all the bits.
+Sat 2:16 PM
+ you can "Save Page As" to download the wiki
+Sat 2:17 PM
+ I'm still not 100% sure how your friend has this setup, but I'd bet money on nodejs
+Sat 2:18 PM
+ No clue.
+Sat 2:18 PM
+ I’m a noob so I just let him do whatever.
+Sat 2:18 PM
+ Aye. That link is write access.
+Sat 2:19 PM
+ Do your players need to make modifications?
+Sat 2:19 PM
+ Collaboration on TW is actually, imho, an unsolved problem.
+Sat 2:19 PM
+ race conditions
+Sat 2:20 PM
+ internet trouble (my ISP is killing me)
+Sat 2:21 PM
+ clicking resend...
+Sat 2:22 PM
+ curious to see what goes through now, lol
+Sat 2:22 PM
+ If you are interested in the gift I was given: https://sphygm.us/]
+Sat 2:22 PM
+ includes drafts of responses
+Sat 2:22 PM
+ not sure how much you look at my Find The Others section
+Sat 2:23 PM
+ Wait what
+Sat 2:23 PM
+ No, my players shouldn’t need to make modifications but idk if my friend purposefully did that or not.
+Sat 2:23 PM
+ Either way, hiding the edit buttons from plain sight is fairly easy so I’m not worried.
+Sat 2:23 PM
+ I'm not sure what I'd do in his position either, so I can appreciate just making it open.
+Sat 2:24 PM
+ I'd bet he's hosting on his own machine with 8080
+Sat 2:25 PM
+ Yep!
+Sat 2:24 PM
+ I think a raspberrypi?
+Sat 2:24 PM
+ Well, as I said, I think you should be downloading copies. Own your data! =)
+Sat 2:26 PM
+ If that RPi dies, you lose it all.
+Sat 2:27 PM
+ if you want, I'll have [[j3d1h]] build a script for you.
+Sat 2:27 PM
+ A script for what?
+Sat 2:28 PM
+ (Am ignorant, be gentle)
+Sat 2:28 PM
+ to automatically download copies of that TW for you
+Sat 2:29 PM
+ Oh! That would actually be super helpful.
+Sat 2:29 PM
+ Then I don’t have to rely on my goldfish-esque memory. XD
+Sat 2:29 PM
+ this is only for the sake of not losing it
+Sat 2:30 PM
+ personally, I'd just host it myself!
+Sat 2:30 PM
+ Right hehe
+Sat 2:30 PM
+ you can build what your friend has made
+Sat 2:30 PM
+ for realsies
+Sat 2:30 PM
+ I’ve heard raspberrypi is a super simple “mini” server
+Sat 2:30 PM
+ Or at least that’s what I understand it as.
+Sat 2:30 PM
+ I keep one at [[JRE]]'s house as one of my external servers.
+Sat 2:31 PM
+ but, I think it is better to just use your desktop
+Sat 2:31 PM
+ :o
+Sat 2:42 PM
+ I definitely have space for it.
+Sat 2:42 PM
+ you probably have space for millions of wikis
+Sat 2:43 PM
+ I set this up for my brother [[AIR]].
+Sat 2:43 PM
+ If you would like me to remote in and set it up with you, I can do that
+Sat 2:44 PM
+ Hmm...
+Sat 3:48 PM
+ That would be pretty neat actually. I can’t say I’ll be all that great at it and it can’t be this weekend cause we’re not at home.
+Sat 3:48 PM
+ whenever works for you
+Sat 3:50 PM
+ You'll need to setup two pieces of software (which will be highly reuseable to you, should you like them). I'd be happy to chat with you while you install them. That way we can do the remote session whenever you want (and you can remote in from your phone to your house very easily, etc.)
+Sat 3:51 PM
+ :o
+Sat 3:51 PM
+ Ooooohhhh
+Sat 3:51 PM
+ Huge fan of these (even though I have serious disagreements with them): http://zerotier.com/
+Sat 3:51 PM
+ https://www.nomachine.com/
+Sat 3:51 PM
+ There are a lot of ways to do this; this is by far the method I know for this circumstance.
+Sat 3:52 PM
+ Honestly, for as little as I realize I know, I trust your opinions on these things
+```

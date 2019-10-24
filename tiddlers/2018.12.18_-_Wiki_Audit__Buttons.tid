@@ -1,0 +1,32 @@
+created: 20181218153815748
+modified: 20181219162217887
+tags: [[Wiki Audit]] [[Tagging Theory]]
+title: 2018.12.18 - Wiki Audit: Buttons
+
+I'm enjoying: https://groups.google.com/forum/#!topic/tiddlywiki/0thMc6tWhQA
+
+It's a valuable discussion. I come at it from a different angle.
+
+If the name of a tiddler isn't it, then links contained in the body are the fundamental [[FO]] connector of the wiki. I suggest that technically every object can be created in/with this FO connector,<<ref "f">> but it cannot be created easily, conveniently, or efficiently that way. Links enable you to point or embed content in a broader semantic rhizome. The [[SO]] tooling, imho, is the use of fields (tags and titles included). They are overlay structures which talk about [[FO]] objects which have links inside them. It's metadata (though, clearly Reference uses links themselves as light tags and metadata, and this cannot be ignored). 
+
+The more I use tags, the more fluid I feel with them. Let me say: I'm one rigid mofo in many contexts. Tags (and like fields when I generalize far enough) are the schizophrenic top-down modeling droids I'm looking for in the metadata game. Structural growth and automation will need to be the result of it. I must build very carefully around it to not box myself in inappropriately (while still building boxes on a path).
+
+I change titles and tags. Hardcoding makes this difficult, hence I need to find the firmcoding middleway. Look at this tiddler: I've slapped <<tag [[Tagging Theory]]>> on it. If I hardcode too far, then my process is too immutable. My worry is that it will show up in //Focus://[[Wiki Audit]] but not //Focus://[[Tagging Theory]]. I need the fuzzy, gunky ontology provided by the mutability of tagging and radical renameability. As usual, renaming and restructuring through tags makes hardcoding of any sort (even firm) a serious pain in the ass. I can see why some people structure entirely through tags and dynamically [[autogen]]ed lists, but failing to have the static even "appearance" of hardcoded links is also a mistake (without immutability, we can never efficiently traverse the current structures of the wiki correctly since it must be continuously computed on the fly instead).
+
+From what I can tell, the button workstation I must engineer will need to:
+
+* Make it absurdly easy to create buttons on the fly
+** The data-dictionary (and perhaps more complex) will be the central structure for this.
+** If there is too much friction here, then I won't do it when I should in too many cases.
+* Enable extremely complex behavior, including the assumption that I will have AHK/i3/xdotool bots to work on the wiki realtime (and scheduled)
+* Make it simple to update the firmcoding (while paying attention to race conditions as best I can)
+* Generate complex templating per project
+** These are the money beats.
+
+Clearly, this may take a long time to figure out. I think my long-term investment in this tooling will pay dividends. One of the hardest things to do in the wiki is to procedurally generate new projects on-the-fly. Eliminating the handwork that I can safely eliminate lowers the friction and maximizes my ability to leverage and think in that gunky ontology.
+
+The plan of attack seems clearer. I must find the firmcoding answer before I can do anything else. All the others constructions rely upon that mechanism (it shapes the rest of the machine).
+
+
+---
+<<footnotes "f" "In fact, I'm pretty convinced a large number of people live through tagging rather than leveraging linking. They have misunderstood what the fundamental connective tissue unit is in hypertext (tags may be links, but they aren't exactly links we can embed within the body, and that matters). Links and links and links!">>

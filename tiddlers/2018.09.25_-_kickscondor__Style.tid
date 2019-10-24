@@ -1,0 +1,40 @@
+created: 20180925212218534
+creator: h0p3
+modified: 20181106232820219
+modifier: h0p3
+tags: Note kickscondor To
+title: 2018.09.25 - kickscondor: Style
+
+https://www.kickscondor.com/sphygmus
+
+<<<
+So: I am interested in how we can cement this. I want to style my h0p3 quotes and my sphygmus quotes similarly—can we come to an accord on how to do this so that I can give YOU control over how these things look? Perhaps we could share CSS fragments on our respective sites?
+<<<
+
+I know basically nothing about CSS; I will need to learn how to do this. Continuing on my ignorance here: I have no idea what counts as a good standard for those fragments. I'm curious to see how this works though. I actually don't mind just being plainly quoted because that is how I try to approach my own work too, but I think it is cool to have my aesthetic fragment used to emulate me speaking out of your work (it's cool!).
+
+That Sphygmus will put her signature style into my wiki is in part a result of her handing me complete tiddlers (which includes footnotes and linking) designed specifically for my medium; there's no extraction or grafting process for me.<<ref "a">> I'm going to learn her stylesheet process for TW (may take me a bit). I'd like to give you a signature look of your choice in my wiki too!
+
+The CSS fragment idea is very interesting; it celebrates and signifies our participation in each others' identities and work. It is a gift to try to represent someone's aesthetic point of view or voicestyle in quotation. It's like reading a letter in someone's handwriting that you've seen many times before, conjuring memories like the smell of cinnamon rolls. 
+
+As usual, your words are thought provoking. I'm still contending with [https://www.kickscondor.com/things-we-left-in-the-old-web] too.
+
+Yet again to my ignorance: I clearly do not appreciate [[Art]] as well as others. I'm an uncouth pig here. I love consuming it as a drug, and I've (very poorly) made plenty of it before. Trying to emotionally communicate the cognitively ineffable is something I do take seriously (enough to be very particular about it). Forgive me for being the joyless buzzkill rhetoric-hawk. 
+
+I consider too much focus on appearance to be a redflag; I actually try to fight the instinct to care about it (often unsuccessfully). While I think coloring our words does impart some non-trivial meaning and signal something (just as facial symmetry, voice inflection, hairstyles, what car you drive, etc. are signals), I fear it is too often rhetoric rather than content.<<ref "r">> I'm really bad at separating these out, so perhaps I must be extra paranoid where others need not. Of course, I do care about how things look! I like appealing things, but I often find things appealing for the wrong reasons ("ohhh....shineeyy!!"). These biases and qualia problems can't be resolved, but I do think it can be mitigated and carefully considered.
+
+I'm especially interested in form as it relates to function; I want something productive (pleasant workspaces help me work, of course).<<ref "b">> I don't think I'm obsessed with minimalism (though I appreciate it), but rather plainness [[irwartfrr]]. If it works and it looks good enough: cool, I like that. I'm the kind of dude that will buy 5 identical shirts if I know they are cheap and comfortable. I want the majority of expressive work in my wiki to be in my words. Ideally, I want my words to carry as much of their meaning as possible without relying upon appearance (which I think can be nearly all of it), and only then do I want to work on appearance beyond function as the delicious bonus.<<ref "s">>
+
+I often do like the way my wiki looks ('tis luxurious vanity!), but in some respects, my wiki's aesthetic is kind of incidental. I'm going to bask in that accident, but I'm not going to attach myself to it (or it to me) too hard. I've tried to make certain kinds of moves that would leave me an escape hatch to feasibly transplant my work out of TW into other tools without too much hassle (I'm finding it nearly impossible to beat the unified all-in-one document for a number of reasons though). I try to keep that in the back of my mind about aesthetics. Admittedly, this is the best container I've found, and I have serious doubts I'm going to find a better one any time soon. I love the appearance because it has magical fun to it, but I desperately want to make sure it is not the semantics of my work. I have no idea how my work is going to be visually represented twenty years from now, but I have strong opinions on what I want the meaning to be. Styles come and go, but I don't want my substance to be ephemeral.
+
+Alright, so with that caveat in mind, I think this is a totally awesome idea. I will try to figure out how to do it. =)
+
+
+---
+<<footnotes "a" "Committing to TW silos me onto my 'turf' pretty hard, although I take that to be part of your point. I am trying to own my data, and if you want to see it, you'll have to do so from my context (which is largely a structural and functional matter, imho). Perhaps as some notion of WYSIWYG, you'll have to pilot my wiki through my own eyes as much as possible. The upfront price to learn my language/system is not fun, but it does make personal interaction incredibly personal once you do.">>
+
+<<footnotes "r" "I use plenty of site-specific and browser-wide tools to modify the appearance of websites. I have to cut through the noise as much as possible. I want simply organized text as much as possible. Time and time again it has been the thing which helps me pursue the truth. One thing I love about plenty of academic papers, sites, etc. is that they really don't give a shit what it looks like. They are making the bet that the merit of what they are saying is just as worthy in Verdana as Times New Roman.">>
+
+<<footnotes "b" "Boooo!!! That's boring, right? I must be missing the heart and soul of it somehow.">>
+
+<<footnotes "s" "In a blind, stripped-down test, I'd prefer to make it so even a paraphrase of something I've said would evoke: 'that sounds like [[h0p3]]' or '[[h0p3]] would like that' or 'you know who probably wouldn't stop blathering on about this if he were reading this with me right now?...[[h0p3]]' or 'omg, this sounds like that asshole [[h0p3]], lol.'">>

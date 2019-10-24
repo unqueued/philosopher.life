@@ -1,0 +1,10 @@
+created: 20190219182641432
+modified: 20190220004440220
+tags: [[RGM Notes]] Dreams
+title: 2019.02.19 - RGM Notes: Rust/WASM
+
+TW in Rust. Yup. I think it needs to happen. WASM is da way. Jeremy aims to make a new TW ~20 years from now. I think it will be the language to use. Build your interpreters and APIs on top of it.
+
+I am already pushing the limits of TW's performance. It's ridiculous.
+
+Perhaps this will be a project I should shoot for instead? No, [[Atropos]] is more important. I do think TW is a fantastic blueprint that fits into a bigger picture.

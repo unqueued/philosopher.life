@@ -1,0 +1,114 @@
+created: 20171208070115766
+modified: 20181224225100284
+modifier: h0p3
+revision: 0
+tags: [[Link Log]]
+title: 2017.12.08 - Link Log: 2AM & 2PM Slog
+
+* Stunning!
+** https://np.reddit.com/r/OldSchoolCool/comments/7i79s6/christmas_1989_was_memorable_for_my_low_income/dqwpru0/
+*** A powerful story.
+** Alpha-Zero Chess (I'm late to the party, I know)
+*** https://www.chess.com/news/view/google-s-alphazero-destroys-stockfish-in-100-game-match
+*** 4 hours of self-teaching, and it learned to be better at chess than the culmination of all the work we have put into it thus far. That's insane.
+*** Not the same hardware, also highly specialized 200 TFlop Tensorflow ASICs against a Stockfish arguably not on comparable hardware (but with the benefit of being programmed for many years, using knowledge built from a thousand years of play) without a fucking opener playbook. They could have done better, clearly. This was media event they contrived to have maximum impact (reasonable chance they did a few test runs until they got a result they liked within a 4-hour window). It's still amazing, but underhanded. Still 80k to 70mill move comparison, that is some sick generalizations going on.
+*** https://www.chess.com/news/view/alphazero-reactions-from-top-gms-stockfish-author
+**** Rofl, Nakamura. =)
+*** The question is whether or not they can extract new human-understandable generalizations about chess. It might. It's that different, despite the blackboxedness.
+*** 20 years later chess engine developers go through the same existential crisis chess players went through.
+*** This would be akin to a robot being given access to thousands of metal bits and parts, but no knowledge of a combustion engine, then it experiments numerous times with every combination possible until it builds a Ferrari. -or - Here's a car. Here are all the tunable parameters. Make it as fast or as efficient as possible. 
+*** Incomplete without a relevant XKCD: https://xkcd.com/1002/
+*** https://www.reddit.com/r/chess/comments/7igro1/alphazero_reactions_from_top_gms_stockfish_author/dqyrj9t/
+**** Stockfish creator fucking gets it. Preach, yo! 
+
+* KYS
+** http://www.nydailynews.com/news/world/assassins-killed-panama-papers-journalist-text-message-bomb-article-1.3680600
+*** State-level actors involved in this bullshit.
+** https://arstechnica.com/tech-policy/2017/12/forcing-kid-to-masturbate-for-cops-in-sexting-case-was-wrong-court-finds/
+** https://www.reddit.com/r/changelog/comments/7hkvjn/what_we_think_about_when_we_think_about_ranking/
+*** I want more control over my filter bubble. This keeps getting worse.
+
+* Preach, yo!
+** https://www.theringer.com/tech/2017/12/7/16743104/facebook-social-good-initiative
+*** Kinder than I'd have been.
+** https://www.youtube.com/watch?v=0lXX3dJUAGY
+*** Very high signal-to-noise ratio in this channel, as usual.
+** https://dubroy.com/blog/my-chi2010-talk-a-study-of-tabbed-browsing/
+*** This is exactly what I'm looking for in browsers. Give me adjustable toolsets to build workflows. You see it's a problem, right?
+*** https://hacks.mozilla.org/2017/12/webextension-tree-style-tab/
+**** But, this still doesn't solve my problem. It's a step closer. Nothing is pretty, and some of the solutions have to be OS dependent, imho (which aint gonna happen). None of the tools I've tried are good enough. I'm stuck with my performant, but ugly: open 5 windows with few dozen tabs related to each project. Let me say, this is similar to having workspaces for me. I can't live without them now. They a fundamental to my workflow.
+** http://www.rifters.com/crawl/?p=7809
+** http://nautil.us/issue/55/trust/the-resulting-fallacy-is-ruining-your-decisions
+*** So very hard to do.
+** https://www.bloomberg.com/news/features/2017-12-07/how-rodrigo-duterte-turned-facebook-into-a-weapon-with-a-little-help-from-facebook
+*** Bloomberg?
+
+* Confirm My Bias
+** http://www.newsweek.com/donald-trump-jr-wouldnt-tell-congress-about-chats-his-dad-citing-attorney-740670
+** http://www.lifehack.org/408873/scientists-explain-why-smart-people-prefer-fewer-friends
+** https://www.nytimes.com/2017/12/06/technology/cheap-consumer-devices-amazon.html
+** https://www.reddit.com/r/changemyview/comments/7i327z/cmv_reddit_chat_is_a_terrible_feature_and_should/
+** https://medium.com/@kristopolous/heres-what-s-happening-with-bitcoin-a4a11e0f835b
+** https://www.bloomberg.com/news/articles/2017-12-07/silicon-valley-is-sneaking-models-into-this-year-s-holiday-parties
+** https://www.washingtonpost.com/news/wonk/wp/2017/12/06/not-only-are-americans-becoming-less-happy-were-experiencing-more-pain-too/
+** https://qz.com/1149260/rich-countries-are-reducing-their-emissions-by-exporting-them-to-china/
+*** Something is programmatically wrong with that page. QZ. Fishy enough, eh?
+** https://imgur.com/gallery/u817J
+** http://www.discocrypto.com/#/
+*** Sounds good to me. =)
+
+* Disconfirm My Bias
+** https://drive.google.com/file/d/1b4p3d-gtHbFvkUbHYC8HSIviL-1ssC7V/view
+*** AMD is being more proactive about it. 
+
+* Think About It
+** https://www.theguardian.com/world/2017/dec/07/china-debt-levels-stability-risk-imf
+** https://np.reddit.com/r/politics/comments/7hzmae/obama_warns_of_complacency_notes_rise_of_hitler/dqvebxb/
+*** I also think Obama is quite responsible for the existence of Trump's Presidency in unexpected ways. Keep cramming neoliberalism down our throats, asshole.
+** https://www.theatlantic.com/technology/archive/2017/12/a-unified-theory-of-meme-death/546866/
+*** I clearly use the word "meme" more broadly. I get it; you're talking to year-1 4chaner here (and FB, and Reddit, etc.). 
+
+* Fishy
+** https://seekingalpha.com/article/4130195-just-bitcoin-bubble-far-worse
+*** Hard to trust this, despite some excellent points.
+** https://www.washingtonpost.com/news/the-switch/wp/2017/12/07/amazon-wants-a-key-to-your-house-i-did-it-i-regretted-it/
+*** You aren't nearly fearful enough.
+** https://www.reddit.com/r/dataisbeautiful/comments/7iek3g/mapping_reddit_communities_oc/
+*** Look at the admin's job offer too. Rofl. I feel more and more forced to give up my privacy and right to shape my filter-bubble over time because I'm addicted to signal-to-noise ratios, even proprietary ones.
+** https://www.reddit.com/r/politics/comments/7ifhz2/the_day_trump_jr_got_a_wikileaks_encryption_key/
+*** Confirm my bias too. People think I'm a conspiracy theorist when it comes to WikiLeaks. I'm dead fucking serious though. Something was not right; it changed.
+
+* Interesting
+** https://qz.com/1123875/the-material-that-built-the-modern-world-is-also-destroying-it-heres-a-fix/
+** https://www.nytimes.com/2017/12/07/science/brain-information-monkeys.html
+
+* Tools
+** https://grothoff.org/christian/habil.pdf
+*** Watched it for years. This is the first paper of its kind I've found.
+** https://2ton.com.au/sshtalk/
+*** Sexy
+
+* For my daughter:
+** https://gfycat.com/BitterExcitableFlea
+** https://www.polygon.com/2017/12/7/16739644/discord-100-million-users-safety
+** https://www.reddit.com/r/AskReddit/comments/58hae4/what_is_a_piece_of_reddit_history_every_redditor/d90f5f8/
+
+* For my son:
+** https://imgur.com/fujVeHM
+
+* For my wife:
+** https://www.ncbi.nlm.nih.gov/m/pubmed/28768407/
+*** I keep seeing a ton about this issue. Seriously. Even people in the tropics are having lower levels of vitamin D absorption. It's an epidemic, worldwide, I think; it is involved in a large number of health problems.
+** https://www.youtube.com/watch?v=sD09wopQPxg
+*** This is gorgeous.
+** http://homepage.divms.uiowa.edu/~jones/book/
+*** Perhaps a useless thing, maybe something worth keeping around. You may already know of better.
+** http://www.vqronline.org/essays-articles/2017/10/out-came-girls
+*** Scare-mongering, perhaps. Might be of fringe interest to you.
+** http://arthur-johnston.com/hacker_writes_a_childrens_book/
+*** I want this for the kids. It might be for young children, but I still want them to see it.
+
+* Maymays
+** https://giant.gfycat.com/DesertedSoreDrake.webm
+*** Very pretty
+** https://i.redd.it/tn986hrq8o201.png

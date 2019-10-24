@@ -1,0 +1,168 @@
+created: 20181003015943942
+creator: h0p3
+modified: 20190203014110266
+modifier: h0p3
+tags: $:/tags/Stylesheet Sphygmus kickscondor
+title: Personal Stylesheets
+
+@font-face {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Asap Regular'), local('Asap-Regular'), url(https://fonts.gstatic.com/s/asap/v8/KFOoCniXp96ayzse4A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+[data-tags*="From"][data-tags*="Sphygmus"] {
+    font-family: Asap;
+    color: #FFFFFF;
+    background-color: #2A2B30;
+    border: 0px solid #2A2B30;
+}
+[data-tags*="From"][data-tags*="Sphygmus"] .tc-titlebar {
+    background-color: #2A2B30;
+}
+
+
+@font-face {
+  font-family: Helvetica;
+  src: local('Helvetica'),
+       url(helvetica.woff);
+}
+[data-tags*="From"][data-tags*="1uxb0x"] {
+    font-family: "Helvetica", sans-serif;
+    color: #FFFFFF;
+    background-color: #050505;
+    border: 1px solid #8f47a1;
+}
+[data-tags*="From"][data-tags*="1uxb0x"] .tc-titlebar {
+    background-color: #050505;
+}
+
+
+@font-face {
+  font-family: Helvetica;
+  src: local('Helvetica'),
+       url(helvetica.woff);
+}
+[data-tags*="From"][data-tags*="j3d1h"] {
+    font-family: "Helvetica", sans-serif;
+    color: #FFFFFF;
+    background-color: #000029;
+    border: 0px solid #000029;
+}
+[data-tags*="From"][data-tags*="j3d1h"] .tc-titlebar {
+    background-color: #000029;
+}
+
+
+@font-face {
+  font-family: Helvetica;
+  src: local('Helvetica'),
+       url(helvetica.woff);
+}
+[data-tags*="From"][data-tags*="k0sh3k"] {
+    font-family: "Helvetica", serif;
+    color: #f5f5f5;
+    background-color: #00203c;
+    border: 0px solid #00203c;
+}
+[data-tags*="From"][data-tags*="k0sh3k"] .tc-titlebar {
+    background-color: #00203c;
+}
+
+
+[data-tags*="From"][data-tags*="kickscondor"] {
+  font-family: "Times New Roman", serif;
+  color: #ffffff;
+  background-color: #330314;
+  padding: 20px;
+  border: solid 1px #ff1166;
+  box-shadow: 5px 4px 0 0 #ff1166;
+}
+[data-tags*="From"][data-tags*="kickscondor"] .tc-titlebar {
+    background-color: #330314;
+}
+[data-tags*="From"][data-tags*="kickscondor"] h1 {
+  font-size: 20px;
+  color: #1a6;
+  padding: 0;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+}
+[data-tags*="From"][data-tags*="kickscondor"] hr {
+  border: none;
+  background: url("/images/pixelb.png") repeat-x;
+  width: 100%;
+  height: 8px;
+  padding: 8px 0;
+}
+[data-tags*="From"][data-tags*="kickscondor"] img.emoji {
+  margin: 0 .05em 0 .1em;
+  vertical-align: -0.1em;
+}
+[data-tags*="From"][data-tags*="kickscondor"] sup,
+[data-tags*="From"][data-tags*="kickscondor"] sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+[data-tags*="From"][data-tags*="kickscondor"] sub {
+  top: 0.4em;
+}
+[data-tags*="From"][data-tags*="kickscondor"] dl {
+  margin: 0 0 25px 0;
+}
+[data-tags*="From"][data-tags*="kickscondor"] dd {
+  margin: 0 0 25px 25px;
+}
+[data-tags*="From"][data-tags*="kickscondor"] s {
+  text-decoration: none;
+  background-image: linear-gradient(transparent 7px, #7f0833 7px, #7f0833 13px, transparent 13px);
+}
+[data-tags*="From"][data-tags*="kickscondor"] p {
+  line-height: 140%;
+  margin: 0 0 20px 0;
+}
+[data-tags*="From"][data-tags*="kickscondor"] p:last-of-type {
+  margin-bottom: 0;
+}
+[data-tags*="From"][data-tags*="kickscondor"] ul {
+  padding: 4px;
+  margin: 0 0 20px 0;
+}
+[data-tags*="From"][data-tags*="kickscondor"] li {
+  margin: 0 0 0 20px;
+}
+[data-tags*="From"][data-tags*="kickscondor"] blockquote {
+  font-size: 16px;
+  background-color: #330314;
+  padding: 14px;
+  margin: 20px;
+  border: solid 1px #ff1166;
+  box-shadow: 4px 3px 0 0 #ff1166;
+}
+[data-tags*="From"][data-tags*="kickscondor"] p.rt,
+[data-tags*="From"][data-tags*="kickscondor"] a.rt,
+[data-tags*="From"][data-tags*="kickscondor"] img.rt,
+[data-tags*="From"][data-tags*="kickscondor"] p.rt100 {
+  float: right;
+  margin: 0 0 6px 16px;
+}
+[data-tags*="From"][data-tags*="kickscondor"] p.rt100 {
+  width: 100px;
+  height: 100px;
+}
+[data-tags*="From"][data-tags*="kickscondor"] p.lt,
+[data-tags*="From"][data-tags*="kickscondor"] a.lt,
+[data-tags*="From"][data-tags*="kickscondor"] img.lt {
+  float: left;
+  margin: 0 16px 6px 0;
+}
+[data-tags*="From"][data-tags*="kickscondor"] p.ct {
+  text-align: center;
+}
+[data-tags*="From"][data-tags*="kickscondor"] a.ct > img,
+[data-tags*="From"][data-tags*="kickscondor"] img.ct {
+  display: block;
+  margin: 0 auto;
+}

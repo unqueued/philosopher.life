@@ -1,0 +1,972 @@
+created: 20180705004847478
+creator: h0p3
+modified: 20181031035931171
+modifier: h0p3
+tags: Tulane
+title: 2015.01.06 - Symbolic Logic: Logic of Boolean Connectives
+
+20
+
+
+§ 4.1
+
+Logical Truth – A sentence which is true in all possible worlds. There is no possible circumstance in which the sentence is false.
+
+
+
+We already have the notion of logical consequence (and we will develop an even deeper understanding of it in this chapter). A sentence is a logical consequence of a set of sentences if it is impossible for that sentence to be false when all the sentences in the set are true. We can define logical truth in terms of logical consequence.
+
+
+
+Suppose a given sentence is a logical consequence of every set of sentences, including the empty set. That means that it is impossible for that sentence to be false – it comes out true in every possible circumstance. Consider this general argument form:
+
+
+
+|1. P1
+
+|…
+
+|n. Pn
+
+|n+1. L (where L is a Logical truth)
+
+
+
+It doesn’t matter what the premises are, whether they are true or false, or how many there are (there could be none), the conclusion, a logical truth, always remains true. Essentially, a sentence is a logical truth iff it is a logical consequence of every set of sentences.
+
+
+
+We can’t form a counterexample to arguments of this structure, since we can’t show any case in which the premises are true are the conclusion false. The arguments are always valid because the conclusion, a logical truth, is always true, regardless of what the premises are.
+
+
+
+Tautology – A tautology is specific kind of logical truth that owes its truth entirely to the meanings of the truth-functional connectives it contains, and not at all to the meanings of the atomic sentences it contains. For example:
+
+
+
+Cube(a) ∨ ¬Cube(a)
+
+
+
+No matter what ‘a’ is, this sentence comes out true. And it owes its truth entirely to the meanings of ‘or’ and ‘not’. You could replace ‘Cube’ with any other predicate and ‘a’ with any other name, and the resulting sentence would still be true. Indeed, you could replace Cube(a) with any other sentence and the resulting sentence would still be true. This sentence is of the form:
+
+
+
+P ∨ ¬P
+
+
+
+Informally, we can just look and see that any sentence of this form is true in all possible worlds, i.e. it is the logical consequence of every set of sentences. Note, however, that refers to a special kind of logical truth. Sentences of this form as true in virtue of the truth-functional connectives rather than the meanings of the predicates, and for that reason, this logical truth is a special class, a tautology. We don’t care what P represents – it could be atomic or complex sentence.
+
+
+
+Note that P ∨ ¬P is not, strictly speaking, a tautology, since it isn’t a sentence at all in FOL. However, it is the form of sentences which are tautologies. This isn’t a real sentence in FOL, since P isn’t a sentence. P is just a placeholder for real sentences. The form only represents a sentence, but it isn’t itself a sentence. Again, sentences of that form would be:
+
+
+
+Cube(a) ∨ ¬Cube(a) Home(joe) ∨ ¬Home(joe)
+
+
+
+These are tautologies of the P ∨ ¬P form. Once in a while I may slip into speaking of the form itself as a sentence because it is easy to talk about it like that, but you must always remember that this is just a form, and not really a sentence of FOL. In dealing strictly with the truth-functional connectives, we should be blind to predicates and names, and hence we will sometimes slide into just talking about sentences of certain forms.
+
+
+
+Note that there are many tautologies (an infinite number actually). For example, here is the form of another tautology:
+
+
+
+¬A ∨ (A ∧ ¬B) ∨ B
+
+
+
+A tautology of that form could be:
+
+
+
+¬Cube(a) ∨ (Cube(a) ∧ ¬Small(b)) ∨ Small(b)
+
+
+
+You often won’t immediately know or quickly figure out if a sentence is a tautology. In this case, however, you can see it is a tautology just by thinking about it and offering an informal proof.
+
+
+
+Note how only one of the disjuncts must be true for the entire distjunction to be true. If (A ∧ ¬B) is false, then we know that one of the conjuncts is false. So, either ¬A or B or both must be true. But, that means that at least one of the remaining disjuncts must be true. Hence, the disjunction is true. So, either (A ∧ ¬B) is false, and the disjunction is true in virtue of the other disjuncts, or (A ∧ ¬B) is true, which makes the disjunction true. Hence, because there is no possible case in which a sentence of this form is false, in virtue of its truth-functionality (we don’t even have predicates in this case), it is a tautology.
+
+
+
+Sometimes, you won’t be able to just quickly think whether or not a sentence is a tautology using your natural reason, but you can make a chain of equivalences which will demonstrate to you that a logically equivalent sentence is a tautology. Take this form as an example:
+
+
+
+¬(A ∧ (¬A ∨ ¬¬B)) ∨ ¬¬B
+
+
+
+We can use chains of equivalence to convince ourselves that sentences of this form are tautologies.
+
+Chains of equivalences have this structure:
+
+
+
+P ⇔	P’
+
+⇔	P’’
+
+…
+
+
+
+As you know, we will only use the equivalence symbol to talk about FOL. We won’t make Fitch-style proofs with the equivalence symbol though. Some logic books will let you take shortcuts with equivalences in actual proofs, allowing substitutions in the proofs themselves, but we won’t. However, we will still use this tool to quickly express something or convince ourselves of certain things. Using this tool on our example:
+
+¬(A ∧ (¬A ∨ ¬¬B)) ∨ ¬¬B ⇔ ¬(A ∧ (¬A ∨ B)) ∨ B
+
+⇔ (¬A ∨ ¬(¬A ∨ B)) ∨ B
+
+⇔ (¬A ∨ (¬¬A ∧ ¬B)) ∨ B
+
+⇔ (¬A ∨ (A ∧ ¬B)) ∨ B
+
+⇔ ¬A ∨ (A ∧ ¬B) ∨ B
+
+
+
+The result of the equivalence is exactly the same as our initial example, which we know from our informal proof, must be the form of a tautology.
+
+
+
+Sometimes just thinking about a sentence and using chains of equivalence will be enough to convince yourself that a sentence is a tautology. That said, sometimes it isn’t enough, and sometimes you can be wrong. Take this example:
+
+
+
+¬A ∨ (A ∧ ¬B) ∨ B ⇔	(¬A ∨ A) ∧ (¬B ∨ B)
+
+
+
+Unfortunately, since we know so few equivalences, we aren’t in a position to create a chain of equivalences to bridge this gap. Now, we could try to continue to figure out and memorize more and more equivalences until we were eventually able to find a way to realize this equivalence is correct. But, that isn’t very practical.
+
+
+
+As you can see, trying to figure out which sentences of a certain form are tautologies and which aren’t using just our own natural reasoning and the equivalences we know can be messy, difficult, and will fail to scale up nicely with larger and more complex sentence forms. While the methods we’ve employed so far are valid informal proofs of sentences of a certain form being tautologies, they are not formal proofs. We will use the truth table as a kind of formal proof that some sentences or sentences of a certain form are tautologies.
+
+
+
+Truth Table - A truth table for a sentence P is an arrangement of truth values that shows the truth value of P in every possible situation as determined by the truth values of the atomic sentences occurring in P.
+
+
+
+General schematic for a Simple TT:
+
+
+
+Each Atomic Sentence with no Connective The Sentence/Sentence Form
+
+Pn … P2 P1 || conn’s P1 conn’s P2 conn’s … conn’s Pn
+
+… T T || T/F T/F T/F T/F
+
+… T F || T/F T/F T/F T/F
+
+… F T || T/F T/F T/F T/F
+
+… F F || T/F T/F T/F T/F
+
+… … … || … … … …
+
+
+
+Truth values under each sentence Truth values under each connective
+
+There is a set pattern of truth values here Truth values are deduced from left side and
+
+Represents all possible truth combinations the TT’s for the connectives
+
+i.e. at least all possible worlds
+
+    The number of rows in the table for a given sentence is a function of the number of atomic sentences it contains. If there are n atomic sentences, there are 2n rows.
+
+    Each row represents a possible assignment of truth values to the component atomic sentences.
+
+    On each row, the values of the atomic sentences determine the values of the compounds of which they are components. The values of the compounds of atomic sentences in turn determine the values of the larger compounds of which they are components. In the end, a unique value for the entire sentence is determined on each row.
+
+    There is pattern for generating the truth values of the atomic sentences. The right most column rotates T, F, and the next most right TT, FF, and the next TTTT, FFFF, and so on and so forth.
+
+Note how a truth table can be constructed with truth-functional forms of sentences or actual FOL sentences. For example:
+
+
+
+P Q || P ∧ Q	Cube(a) Small(b) || Cube(a) ∧ Small(b)
+
+T T || T T T || T
+
+T F || F T F || F
+
+F T || F F T || F
+
+F F || F F F || F
+
+
+
+Truth tables ignore the meanings of predicates and names, and they express the semantics of the truth-functional connectives. Truth tables, importantly, create a narrow space in the logical world concerned with tautologies, tautological consequence, and tautological equivalence.
+
+
+
+A tautology is a sentence that comes out true on every row of its main connective in the truth table.
+
+
+
+Cube(a) || Cube(a) V ¬Cube(a)
+
+T || T F
+
+F || T T
+
+
+
+Main Connective: The main connective of a non-atomic sentence is that connective such that no other connective operates on a larger (i.e., more complex) part of the sentence than it does. Here is the intuition behind a truth table:
+
+
+
+Sp’ S and Q are true while R is false
+
+i.e. Suppose a certain row on the left side of the truth table
+
+
+
+(S ∧ ¬Q) ∨ ¬¬R
+
+T T F
+
+F T
+
+F
+
+F
+
+F
+
+
+
+Put in values for atomics. That is a row on the left side of the truth table. Rotate between negations and the other connectives until you reach the main connective. The main connective’s truth value will tell you the full truth value of the sentence. The actual truth table looks like this:
+
+
+
+S Q R || (S ∧ ¬Q) ∨ ¬¬R
+
+T T T || F F T T F
+
+T T F || F F F F T
+
+T F T || T T T T F
+
+T F F || T T T F T
+
+F T T || F F T T F
+
+F T F || F F F F T
+
+F F T || F T T T F
+
+F F F || F T F F T
+
+
+
+Let us consider our previous example in truth tables:
+
+
+
+A B C|| ¬(A ∧ (¬A ∨ (B ∧ C))) ∨ B
+
+T T T || F T F T T T
+
+T T F || T F F F F T
+
+T F T || T F F F F T
+
+T F F || T F F F F T
+
+F T T || T F T T T T
+
+F T F || T F T T F T
+
+F F T || T F T T F T
+
+F F F || T F T T F T
+
+Note that the main connective column shows true all the way down. This is proof that sentences of the form in question are tautologies. In every possible world, in every possible truth combination for the atomics, sentences of this form as true. Sentences of this form are a logical consequence of any set of premises.
+
+
+
+The truth-table method is a finite, deterministic way to prove that a sentence or sentences of a certain form as tautologies. For sentences with few atomics in them, truth tables are often the easiest way to prove a sentence is a tautology. Note, however, that when there are many atomics to consider, truth-tables can easily become infeasible to work with.
+
+
+
+Main Connectives in Truth Tables Addendum: There is a slight problem with our definition of a tautology, in that it assumes that every sentence has a main connective.
+
+
+
+A ∧ B ∧ C ∧ D ∧ E
+
+
+
+The convention for truth tables on chained disjunctions or conjunctions is to group from the left.
+
+
+
+(((A ∧ B) ∧ C) ∧ D) ∧ E
+
+
+
+The convention generates the main connective for us.
+
+
+
+Tautologies, Logical Truth, and Tarski’s World necessities:
+
+
+
+Cube(a) ∨ ¬Cube(a)
+
+
+
+When we looked at this sentence we noted that it owed its truth entirely to the meanings of ‘or’ and ‘not’. You could replace Cube (both occurrences, of course) with any other predicate, and the resulting sentence would still be true. Indeed, you could replace the two occurrences of Cube(a) with any other sentence and the resulting sentence would still be true.
+
+
+
+Boole implements truth tables correctly, and it is blind to the meanings of predicates. Replacements have no effect in the truth tables. Sentences and sentence forms are treated the same. Because of this, Truth tables and the Boole program are limited; they can’t identify all kinds of necessities or logical truths, only tautologies. Consider this case:
+
+
+
+a = a
+
+
+
+In common parlance, we often say that when people utter “something is something” or “something equals something”, they have uttered a tautology (i.e. “the first rule of tautology club is the first rule of tautology club”). This is incorrect. The word tautology is thrown around very loosely in common parlance, but we will not use it loosely. It is a technical term of significance for us.
+
+
+
+a = a || a = a	(note that a = a is an atomic sentence of FOL)
+
+T || T
+
+F || F
+
+
+
+Clearly, a = a is not a tautology. It is, however, completely and obviously a logical truth. That is pretty astounding when you think about it. A really fundamental logical truth turns out not to be tautological. Truth-functional logic is severely limited in a sense.
+
+
+
+The truth tables also fail to understand other kinds of necessity (as will logical truth in this case). Consider this sentence:
+
+
+
+Cube(a) ∨ Tet(a) ∨ Dodec(a)
+
+
+
+Although this sentence always comes out true in Tarski’s World, we can imagine a circumstance in which it is not true:
+
+
+
+Sp’ Sphere(a)
+
+
+
+Because we can make the claim that ‘a’ is either a cube, tet, or dodec false, we can show it is not the logical consequence of all sets of sentences, thus this counterexample demonstrates the sentence Cube(a) ∨ Tet(a) ∨ Dodec(a) is not a logical truth. However, it is a necessity in Tarski’s world. We can say that it is a Tarski’s World necessity, because it comes out true in every world in Tarski’s World. It is a special feature of Tarski’s World that there are no objects other than cubes, tetrahedra, and dodecahedra. Consider these nested Euler’s circles:
+
+
+
+
+
+The strongest notion sits inside, and the weakest notion sits outside. Tautology is a subspecies of Logical truth, and Logical truth is a subspecies of TW necessity. All other sentences not captured in these three realms sit outside the outer circle.
+
+
+
+So Tarski’s World necessities form a large set of sentences that includes all logical truths and thus all tautologies. Every logical truth is a Tarski’s World necessity, but not conversely. Every tautology is a logical truth (and a TW necessity), but not conversely. Consider this example:
+
+
+
+¬(Larger(a, b) ∧ Larger(b, a))
+
+
+
+This is clearly Tarski’s World necessary. It is also logically necessary – it is a logical truth. This is not a tautology, for it depends on the meaning of the predicate. We can prove it is not a tautology with a truth table.
+
+
+
+Larger(a, b) Larger(b, a) || ¬(Larger(a, b) ∧ Larger(b, a))
+
+T T || F	T
+
+T F || T	F
+
+F T || T	F
+
+F F || T	F
+
+
+
+Please note there are two atomics, not one. There is a row of the main connective of this sentence which isn’t true, and thus, it isn’t a tautology. When we are blind to the meanings of the predicates and name, this sentence isn’t necessarily true. It is only necessarily true in virtue of the predicates and names.
+
+
+
+Note, however, that this sentence’s necessity is not limited to Tarski’s World, for it can never be true that both ‘a’ is larger than ‘b’ and ‘b’ is larger than ‘a’, even outside of Tarski’s World (take the real world as an example). In addition to being a TW necessity, this sentence is a logical truth. However, the sentence is not a tautology.
+
+
+
+Clearly, the top row of the truth table does not represent a logically possible world at all. Assuming you maintain the meanings of predicates and names, you can’t ever actually envision a world in which Larger(a, b) and Larger(b, a) are both true. Thus, there is a difference between logical possibility and tautological possibility.
+
+
+
+Logical Possibility (a.k.a. Contingency) - If a sentence is neither necessarily true nor necessarily false, then it is contingent. That means it is possible. For tautological possibility, or TT-possible, we mean that there are both false and true rows of the main connective of a sentence on the truth-table. Recall that TT-possible worlds are sometimes not actually logically possible. Conversely, Tarski’s World possible is very limited, and it does not capture all logically possible sentences. Notice that if we are considering possibility, rather than necessity, we have a different nest of Euler’s circles.
+
+
+
+
+
+The difference is that the TT-possible sentences—the ones that come out true on at least one row of their truth table—are included in the largest circle, and the TW-possible sentences are in the smallest circle. That is, a sentence may be TT-possible without being logically possible or TW-possible, although all TW-possibilities are also logically possible and TT-possible, and all logical-possibilities are TT-possible.
+
+
+
+Given some previous examples:
+
+    Cube(a) is TW-possible (and thus logically possible and TT-possible)
+
+    Sphere(a) is not TW-possible, but it is logically possible (and thus TT-possible)
+
+    ¬(Larger(a, b) ∧ Larger(b, a)) is neither TW-possible nor logically possible, but it is TT-possible.
+
+All other sentences sit outside this outer circle. Namely, TT-impossible sentences. Sentences which are necessarily false on the truth table. Consider this TT-impossible or TT-Necessarily-False sentence:
+
+
+
+Tet(b) || ¬[Tet(b) ∨ ¬Tet(b)]
+
+T || F T F
+
+F || F T T
+
+
+
+This sentence is clearly impossible. It isn’t just TW-impossible, and it isn’t just logically impossible, but it is TT-impossible. Note, however, that we can sentences which are logically impossible, but TT-possible.
+
+
+
+Smaller(a, b) ∧ Larger(b, a)
+
+
+
+This sentence is necessarily false qua the meanings of the predicates. It can’t be shown to be necessarily false on a truth table, but it is necessary false from the logical, rather than TT, scope.
+
+
+
+Homework:	4.1, 4.2, 4.4-4.7
+
+
+
+
+
+§ 4.2-4.3
+
+Logical and Tautological Consequence – When we consider tautologies and logical truths, we think about the properties of single sentences. Our truth-tables only had to evaluate a single sentence or sentence form. We are now ready to compare multiple sentences to each other, and to write truth-tables for multiple sentences. We will consider two kinds of logical relationship between sentences – logical consequence and logical equivalence.
+
+
+
+A sentence S is a logical consequence of a set of premises P1,…,Pn iff it is logically impossible for the premises all to be true while the conclusion S is false.
+
+
+
+S P1
+
+¬SameSize(a,b) is the logical consequence of Smaller(a, b)
+
+
+
+In any case where Smaller(a, b) is true, then ¬SameSize(a,b) must be true. Note, however, that Small(a,b) is not the logical consequence of ¬SameSize(a,b). It doesn’t go the other way around.
+
+
+
+Just as in the case of logical necessity/truth, logical consequence has a subspecies which can always be demonstrated by truth tables, namely tautological consequence. Again, you may think of these in terms of Euler’s circles.
+
+
+
+
+
+Tautological Consequence: S is a tautological consequence of P1,…,Pn iff the joint truth table for S and P1,…,Pn has no row where each of the P’s is true and S is false.
+
+
+
+P1	S
+
+A B || A ∧ B | A V B
+
+T T || T | T
+
+T F || F | T
+
+F T || F | T
+
+F F || F | F
+
+
+
+If you see all the rows on which A ∧ B, i.e. P1, is true (there is only one), and then you check to see if A V B, i.e. S, is also true at those rows. Hence, A V B, is a tautological consequence of A ∧ B. This makes sense from an intuitive perspective as well. If all cases where A ∧ B is true, then A v B must be true. Note, however, that A V B is not the tautological consequence of A ∧ B.
+
+
+
+While all forms of tautologically consequence are also forms of logical consequence, not all forms of logical consequence are forms of tautological consequence.
+
+
+
+P1	P2	S
+
+Cube(a) a = b b = c a = c || a = b ∧ b = c | Cube(a) | a = c
+
+T T T T || T | T | T
+
+T T T F || T	| T | F
+
+… … … … || … | … | …
+
+
+
+Notice how there is a line on which the S is true and the P’s false; thus S sentence can’t be a tautological consequence of the P’s, even though it is a logical consequence. Clearly, tautological consequence is a subspecies of logical consequence.
+
+
+
+Our proof system is an FOL proof system, and we will be able to prove logical consequence even when there isn’t tautological consequence in some cases. Take the previous example, we will eventually be able to show a = c is the logical consequence of the premises, even though it isn’t a tautological consequence. In fact, we could show that Cube(c) is a logical consequence of the premises.
+
+
+
+Lastly, according to our definition, there are some sentences that are logical consequences of any set of premises, even the empty set.
+
+
+
+a = a
+
+This sentence is necessarily true. No matter your assumptions, even if you make none at all, it is true. Hopefully, we have a better understanding of the definition of logical truth, namely that S is a logical truth iff S is a logical consequence of any set of sentences, including the empty set.
+
+
+
+Further these nested notions of logical and tautological consequence play directly into our definition of validity. As I said before, logical validity and consequence are brothers. The analogy relationship found amount the various Euler’s circles continues.
+
+
+
+
+Logical Validity: An argument is logically valid iff its conclusion must be true if its premises are true. Thus, it is also impossible for the premises to be true and the conclusion false.
+
+
+
+Tautological Validity: An argument is tautologically valid iff the conclusion is a tautological consequence of the premises, i.e. at every row on the truth table where the premises are all true, the conclusion is also true.
+
+
+
+Note, again, that certain logically valid arguments aren’t tautologically valid, and thus the truth table will fail to demonstrate all logically valid arguments.
+
+
+
+Now that we have more explicitly reframed our notion of consequence, we are in a great position to reframe out notion of equivalence.
+
+
+
+Logically Equivalence: Previously, we have defined logical equivalence by saying that sentences that have the same truth value in every possible circumstance are logically equivalent. This is correct. We can now offer, however, a different definition.
+
+
+
+S and S’ are logically equivalent iff S is a logical consequence of S’ and vice versa.
+
+
+
+Consider a previous example:
+
+
+
+¬SameSize(a,b) is the logical consequence of Smaller(a, b)
+
+We could introduce a symbol for logical consequence like we have for logical equivalence, but that won’t be necessary for this course.
+
+
+
+We noted that this doesn’t go the other direction. ¬SameSize(a,b) is not the logical consequence of Smaller(a, b). Hence, these two sentences are not logically equivalent, since that would require both sentences to be logical consequences of each other. This would be an example of logical equivalence:
+
+
+
+Smaller(a, b) ⇔ Larger(b, a)
+
+
+
+Both sentences are logical consequences of each other, hence they are logically equivalent.
+
+
+
+Again, like all of our broader logical notions, we have an analogous tautological relationship we can illustrate with Euler’s circles:
+
+
+
+
+
+Tautological Equivalence: Logically equivalent sentences whose equivalence is due to the meanings of the truth-functional connectives they contain are tautologically equivalent. Two sentences are tautologically equivalent iff those sentences are tautological consequences of each other.
+
+
+
+To see whether a pair of FOL sentences are tautologically equivalent, we construct a joint truth table for them. Two sentences are tautologically equivalent if they are assigned the same truth values on every row, i.e. they are tautological consequences of each other.
+
+
+
+A B || ¬(A ∧ B) | ¬A V ¬B
+
+T T || F T | F F F
+
+T F || T F | F T T
+
+F T || T F | T T F
+
+F F || T F | T T T
+
+
+
+Compare the truth values of each sub-table. The above table shows that both sentences are tautologically equivalent because they agree (have the same truth value) on every row under the main connective in their truth table. Clearly, they are tautological consequences of each other, hence they are tautologically equivalent.
+
+
+
+Tautological equivalence is a subspecies of logical equivalence; analogous to how tautological truth is a subspecies of logical truth, or tautological validity of logical validity, or tautological consequence of logical consequence. Likewise: every tautologically equivalent pair of sentences is logically equivalent, but some logically equivalent pairs are not tautologically equivalent pairs.
+
+
+
+a = b ∧ Cube(a) a = b ∧ Cube(b)
+
+
+
+Clearly, these have to be logically equivalent. One sentence is true iff the other sentence is true; they are logical consequences of each other. To say “a is a Cube” and “a = b” is logically equivalent to saying “b is a Cube” and “a = b.” But, this logical equivalence is not a tautological equivalence. Truth tables show these limits:
+
+
+
+a = b Cube(a) Cube(b) || a = b ∧ Cube(a) | a = b ∧ Cube(b)
+
+T T T || T | T
+
+T T F || T | F
+
+T F T || F | T
+
+T F F || F | F
+
+F T T || F | F
+
+F T F || F | F
+
+F F T || F | F
+
+F F F || F | F
+
+
+
+The second and third rows don’t match, hence they are not tautologically equivalent, even though they are logically equivalent.
+
+
+
+Logical Consistency: sentences are logically consistent if it is logically possible for those sentences to be true at the same time, i.e. the conjunction of these sentences is not necessarily false. If not, the sentences are said to be logically inconsistent.
+
+
+
+Obviously all logical consequences and equivalences are examples of logical consistency. There are, however, merely logically possible or contingent sentences which are logically consistent. For example:
+
+
+
+Cube(a) and Dodec(b)
+
+
+
+These sentences are logically consistent. It is logically possible for both sentences to be true at the same time, even though they have nothing to do with each other, and they are merely contingent sentences.
+
+
+
+One of way thinking about logically inconsistent sentences is to say the conjunction of the two sentences forms a sentence which is logically impossible.
+
+
+
+Tautological Consistency: sentences are tautologically consistent if there is a row on the joint truth table where all the sentences are true. If there isn’t a case in which all the sentences are true, then those sentences are not consistent (i.e., the conjunction of those sentences is false at every row). In that case, they are tautologically inconsistent.
+
+
+
+A B || A ∧ B | ¬A V B
+
+T T || T | F T
+
+T F || F | F F
+
+F T || F | T T
+
+F F || F | T T
+
+
+
+It is possible for the both to be true at the same time. Hence, they are tautologically consistent.
+
+
+
+Since consistency deals with logical possibility, consistency also has inverted Euler’s circles.
+
+
+
+
+
+Just as there are tautologically possible sentences that aren’t logically possible, there are tautologically consistent sentences which aren’t logically consistent. Here is an example of a tautologically consistent set of sentences which are not logically consistent:
+
+
+
+Cube(c ) Larger(a, b) Larger(b, a) || Larger(a, b) ∧ Larger(b, a)) | Cube(c)
+
+T T T || T | T
+
+T T F || F | T
+
+T F T || F | T
+
+T F F || F | T
+
+F T T || T | F
+
+F T F || F | F
+
+F F T || F | F
+
+F F F || F | F
+
+Obviously, a world in which Larger(a, b) and Larger(b, a) are both true, the top row, is logically impossible – it is always false. Thus, it isn’t possible for another sentence to be logically consistent with it. The truth table, however, is blind to the meanings of predicates and names, and thus it is TT-possible (tautologically possible).
+
+
+
+Awesome Facts:
+
+    All tautologies are tautological consequences of each other and thus are also tautologically equivalent.
+
+    All logical truths are logical consequences of each other and thus are also logically equivalent.
+
+    Tautological consequence, equivalence, and truth (tautology) relate to each other in the same that way Logical consequence, equivalence, and truth relate to themselves.
+
+    Tautological consequence relates to logical consequence in the same way that tautological equivalence relates to logical equivalence in the same way that a tautology relates to logical truth.
+
+Homework: 4.12-4.18, 4.20-4.24
+
+
+
+§ 4.4
+
+We’ve completed a fairly thorough analysis of tautological and general logical notions. The truth-tables provide the semantics for our truth-functional connectives, and these will underwrite and make explicit the rules and moves we will make in our Fitch-style proofs. The truth tables will also underwrite the Taut Con rule in the Fitch program, which again, makes uses of 3 rules which aren’t really a part of our language (they are merely instructional and illustrative rules of the program).
+
+
+
+Fitch, the program, has three special rules it allows you to use – the three cons: Taut Con, FO Con, and Ana Con. Thus far, we have dabbled with Ana Con. Now we will dabble with Taut Con. You will find that Taut Con is able to verify tautological consequence. It basically performs the same kind of analysis that would occur on a truth table.
+
+
+
+These are three methods, of increasing strength that Fitch (the program) uses to check for consequence:
+
+    Taut Con checks to see whether a sentence is a tautological consequence of some others. It pays attention only to the truth functional connectives. It ignores the meanings of any predicates that appear in the sentence and, when we introduce quantifiers into the language, it will ignore those as well. It is the weakest procedure of the three because it only catches tautological consequence, and misses the broader notions of consequence.
+
+        Cube(a) ∨ Cube(b)is a tautological consequence of Cube(a). Taut Con will verify this.
+
+    FO Con checks to see whether a sentence is a “first-order” consequence of some others. It pays attention not only to the truth functional connectives but also to the identity predicate and to the quantifiers. FO Con is Taut Con with more inferential strength to it.
+
+        While Taut Con cannot identify a = c as a consequence of a = b ∧ b = c, FO Con does.
+
+    Ana Con checks to see whether a sentence is an “analytic” consequence of some others. It pays attention not only to the truth functional connectives, the identity predicate, and the quantifiers, but also to the meanings of most (but not all!) of the predicates in the blocks language. Ana Con is the inferentially strongest of the three cons. This inference comes the closest of the three to capturing the notion of logical consequence.
+
+        SameSize(a, b) is an analytic consequence, but not a first-order consequence (and
+
+hence not a tautological consequence), of ¬Larger(a, b) ∧ ¬Larger(b, a). Ana Con will verify this, while the other cons will not.
+
+If a sentence is a tautological consequence of some others it is clearly also a first-order consequence and an analytic consequence of those sentences. But the converse does not hold—some first-order consequences are not tautological consequences, and some analytic consequences are not first-order consequences.
+
+For those paying careful attention, I’ve foreshadowed the fact that the Euler’s Circles diagrams are not complete. I’ve only given you part of the picture so far. We will not directly return to these concepts until the latter half of the class, where we introduce quantifiers.
+
+
+
+A Warning about Ana Con: The Ana Con mechanism does not distinguish between logical necessity and TW-necessity. That is, it counts at least some “Tarski World” consequences as analytic consequences along with logical consequences more narrowly conceived. An example will make this clear. According to Ana Con:
+
+
+
+Cube(b)is an analytic consequence of ¬Tet(b) ∧ ¬Dodec(b).
+
+
+
+(Obviously, this is not a first-order consequence, and hence not a tautological consequence either.)
+
+
+
+This happens because Ana Con pays attention not only to the meanings of some of the predicates, but also to some of the special features of Tarski’s World. Since in Tarski’s World there are only three shapes of blocks, it follows that there cannot be a Tarski World in which an object is neither a tetrahedron nor a cube nor a dodecahedron.
+
+
+
+But while that may be true for every Tarski World, it does not hold for every possible world. In general, it does not follow logically, from the fact that bis neither a tetrahedron nor a dodecahedron, that b is a cube—b might be a sphere. So this example does not seem to be a logical necessity, but only something weaker—a TW-necessity.
+
+
+
+Ana Con also has some other limitations. It misses certain TW-necessities, namely, those involving the predicates Adjoins and Between, which it does not understand. For example, ¬Large(a) is a TW-consequence of Adjoins(a, b), since it is impossible in a Tarski world for a large block to adjoin another block. But Ana Con will not recognize this consequence.
+
+
+
+Similarly, Ana Con does not understand any predicates that are not in the blocks language. Hence, it will not know that Older(b, a)is a logical consequence of Younger(a, b), since these predicates are not in the blocks language. So you must use Ana Con with caution!
+
+
+
+Homework: 4.26-4.30
+
+---
+
+
+
+3
+
+
+Individual Sentences: Necessity and Possibility in Tautological and General Logic contexts.
+
+
+
+Provide the strongest tautological and logical labels. (I find it easier to go inside-out with these examples)
+
+    ¬(P ∧ ¬P) ∨ ¬¬Q
+
+            Tautology, a.k.a. TT-Necessary
+
+            Sentences of this form are Logical Truths
+
+    ¬(Between(a, b, c) ∧ Between(b, a, c))
+
+            Tautologically Possible
+
+            Logical Truth, in virtue of the meaning of the predicates
+
+    ¬(¬Home(joe) ∨ Cube(a))
+
+            Tautologically Possible, a.k.a. TT-Possible
+
+            Logically Possible, a.k.a. Contingent
+
+    RightOf(a, b) ∧ LeftOf(a, b)
+
+            Tautologically Possible
+
+            Logically Impossible
+
+    ¬(P ∨ ¬P) ∧ ¬Q
+
+            Tautologically False or Tautologically Impossible, a.k.a. TT-False or TT-Impossible
+
+            Logically, sentences of this form are, Necessarily False, a.k.a. Logically Impossible
+
+                Recall, P and Q aren’t sentences of our language. They only represent sentences of our language. An example sentence of this form:
+
+                    ¬(Cube(b) ∨ ¬ Cube(b)) ∧ ¬Tall(joe)
+
+
+
+
+
+
+
+Multiple Sentences: Consequence, Equivalence, Consistency
+
+When not dealing with equivalence, when just looking in one direction, say from S to P:
+
+When dealing with equivalence, looking in both directions, concerning S and P:
+
+There is a problem with this graph. There are cases of tautological and logical inconsistency in which one sentence is actually the consequence of the other. Namely, every sentence is the logical consequence of a logically false sentence. That is not represented on this graph.
+
+¬ (P ∨ ¬P) and Q
+
+Clearly, the 1st sentence is tautologically impossible, but that means Q is the tautological consequence of it. They are tautologically inconsistent though.
+
+On one hand, they can’t both be true at the same time, because one of them can never be true, hence they are inconsistent. On the other hand, whenever the impossible is true (which is never), it does turn out that that every other sentence is true, hence every sentence is the consequence of the impossible.
+
+
+
+Provide the strongest tautological and logical labels. (I find it easier to go outside-in with these examples)
+
+    P and ¬P
+
+            Tautologically Inconsistent
+
+            Logically, sentences of these forms are inconsistent
+
+                Recall, P is not a sentence of our language. It only represents a sentence of our language. An example set of sentence of these forms:
+
+                    Cube(a) and ¬Cube(a)
+
+    Larger(a, b) and Smaller(a, b)
+
+            Tautologically Consistent
+
+            Logically Inconsistent
+
+    Cube(a) and Dodec(b)
+
+            Tautologically Consistent
+
+            Logically Consistent
+
+    ¬SameSize(a, b) and Smaller(a, b)
+
+            Tautologically Consistent
+
+            The 1st sentence is the Logical Consequence of the 2nd (but not the other way)
+
+    P ∧ Q and P
+
+            The 2nd sentence is the Tautological Consequence of the 1st
+
+            For sentences of these forms, the 2nd sentence is the Logical Consequence of the 1st
+
+                Recall, P and Q aren’t sentences of our language. They only represent sentences of our language. An example set of sentence of these forms:
+
+                    Cube(b) ∧ Dodec(a)) and Cube(b)
+
+    Smaller(a, b) and Larger(b, a)
+
+            Tautologically Consistent
+
+            Logically Equivalent
+
+    (Cube(a) ∨ ¬Cube(a)) and (Cube(a) ∨ ¬Cube(a)) ∧ ¬(Smaller(a, b) ∧ Larger(a, b))
+
+            The 1st sentence is the Tautological Consequence of the 2nd (not the other way)
+
+                P and P ∧ ¬Q LEARN TO ATOMICS, L2TFF
+
+            Logically Equivalent
+
+                Wherever the 1st sentence is true (which is always, it is a tautology), the 2nd sentence is also true (which is always, it is tautology conjoined with a logical truth, hence it is a logical truth), and vice versa. Whenever one sentence is true, the other is true, and that is because both sentences are always true. WRONG
+
+    SumOf(7, 2, 5) ∨ SumOf(7, 3, 4) and SumOf(7, 2, 5) ∧ SumOf(7, 3, 4)
+
+            The 1st sentence is the Tautological Consequence of the 2nd (not the other way)
+
+                P ∨ Q and P ∧ Q
+
+            Logically Equivalent
+
+                Wherever the 1st sentence is true (which is always, it is a tautology), the 2nd sentence is also true (which is always, it is tautology conjoined with a logical truth, hence it is a logical truth), and vice versa. Whenever one sentence is true, the other is true, and that is because both sentences are always true CORRECT
+
+    ¬(P ∨ Q) and ¬P ∧ ¬Q
+
+            Tautologically Equivalent
+
+            Logically, sentences of these forms are equivalent
+
+                Recall, P and Q aren’t sentences of our language. They only represent sentences of our language. An example set of sentence of these forms:
+
+                    ¬(Cube(b) ∨ Dodec(a)) and ¬Cube(b) ∧ ¬Dodec(a))
+
+
+
+
+
+
+
+SumOf(7, 2, 5) SumOf(7, 3, 4)
+
+
+

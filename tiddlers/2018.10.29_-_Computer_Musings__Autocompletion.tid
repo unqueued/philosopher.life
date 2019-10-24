@@ -1,0 +1,20 @@
+created: 20181029164441150
+creator: h0p3
+modified: 20181030030636000
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.10.29 - Computer Musings: Autocompletion
+
+I'm such a hypocrite. I think autocompletion for writing e-mails is this ridiculous slippery slope. Instead of cycling through the possibilities of how I might phrase something, Google hands me a suggestion, and I often just stop thinking and take it (although, to be fair, 75% of the time that's what I was intending to write in the first place). I am so lazy and curious about how to maintain that laziness.
+
+---
+
+The problem with applications is that I have to make sure everything runs as it was natively intended. My FF addons decimate the functionality of a lot of pages. Chromium with deluminate and dark theme installed. Not pleased about the sync problem here. Fuck it.
+
+---
+
+Still can't get VMWare running nicely on Arch. 
+
+```bash
+modprobe: WARNING: Module vmmon not found in directory /lib/modules/4.14.78-1-MANJARO
+```

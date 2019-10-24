@@ -1,0 +1,190 @@
+created: 20180126035127467
+modified: 20190323161307110
+tags: Rust
+title: 2018.01.25 - Rust
+
+When a variable comes into scope, it is valid. It remains so until it goes out of scope.
+
+String literals are immutable and known at compile time, but the String type is not (and hence uses the heap). You can convert a literal to a String type like this:
+
+```cpp
+let mut s = String::from("hello");
+
+s.push_str(", world!"); // push_str() appends a literal to a String
+
+println!("{}", s); // This will print `hello, world!`
+```
+
+Note the mutability with the `.push_str()` method.
+
+In C++, this pattern of deallocating resources at the end of an item’s lifetime is sometimes called Resource Acquisition Is Initialization (RAII)
+
+When you assign one variable to another, it drops the older variable:
+
+```cpp
+let s1 = String::from("hello");
+let s2 = s1;
+```
+Here we say that `s1` was //moved// into `s2`.
+
+s1 is now dropped; it's invalid. It cannot be used again. This prevents the double-free error in memory (where we try to drop both variables). Essentially, this is a shallow copy (instead of a deep copy) that destroys s1 in the process. 
+
+If we wanted a deep copy, then use the method `.clone()`. 
+
+```cpp
+let s1 = String::from("hello");
+let s2 = s1.clone();
+```
+
+Obviously, this is very expensive. Avoid unnecessary allocations when you can.
+
+There is an exception to moving as non-deep-copying, and that's when we use the stack rather than the heap.
+
+```cpp
+let x = 5;
+let y = x;
+
+println!("x = {}, y = {}", x, y);
+```
+
+This code doesn't fail like it would for String types on the heap, and that's because they're integers. If a type has the Copy trait, like integers, an older variable is still usable after assignment. Rust won’t let us annotate a type with the Copy trait if the type, or any of its parts, has implemented the Drop trait.
+
+Examples of variable types with the copy trait (or the possibility of copy traits):
+
+* All the integer types, like u32.
+* The boolean type, bool, with values true and false.
+* The character type, char.
+* All the floating point types, like f64.
+* Tuples, but only if they contain types that are also Copy. (i32, i32) is Copy, but (i32, String) is not.
+
+---
+
+Passing a variable to a function will move or copy, just like assignment. 
+
+```cpp
+fn main() {
+    let s = String::from("hello");  // s comes into scope.
+
+    takes_ownership(s);             // s's value moves into the function...
+                                    // ... and so is no longer valid here.
+
+    let x = 5;                      // x comes into scope.
+
+    makes_copy(x);                  // x would move into the function,
+                                    // but i32 is Copy, so it’s okay to still
+                                    // use x afterward.
+
+} // Here, x goes out of scope, then s. But since s's value was moved, nothing
+  // special happens.
+
+fn takes_ownership(some_string: String) { // some_string comes into scope.
+    println!("{}", some_string);
+} // Here, some_string goes out of scope and `drop` is called. The backing
+  // memory is freed.
+
+fn makes_copy(some_integer: i32) { // some_integer comes into scope.
+    println!("{}", some_integer);
+} // Here, some_integer goes out of scope. Nothing special happens.
+```
+
+Note that a variable can be dropped (have its memory freed on the heap) after its been moved into another function but before it goes out of scope in the initial function. A variable gets dropped at the end of the scope of its current function, but not necessarily its original function.
+
+It's possible to return multiple values in a tuple:
+
+```cpp
+fn main() {
+    let s1 = String::from("hello");
+
+    let (s2, len) = calculate_length(s1);
+
+    println!("The length of '{}' is {}.", s2, len);
+}
+
+fn calculate_length(s: String) -> (String, usize) {
+    let length = s.len(); // len() returns the length of a String.
+
+    (s, length)
+}
+```
+
+We can do the same thing as the above code, but with pointers (references) instead:
+
+```cpp
+fn main() {
+    let s1 = String::from("hello");
+
+    let len = calculate_length(&s1);
+
+    println!("The length of '{}' is {}.", s1, len);
+}
+
+fn calculate_length(s: &String) -> usize {   //&String s is pointing at String s1
+    s.len()
+}
+```
+
+References refer but do not own, so you can pass reference without passing ownership. The value a reference points to will not be dropped when the reference goes out of scope.
+
+We call having references as function parameters //borrowing//. 
+
+```cpp
+fn main() {
+    let s = String::from("hello");
+
+    change(&s);
+}
+
+fn change(some_string: &String) {
+    some_string.push_str(", world");
+}
+```
+
+Compile error because this is not a mutable borrow. This is an immutable borrow (a regular borrow). You can instead do a mutable borrow:
+
+```cpp
+fn main() {
+    let mut s = String::from("hello");
+
+    change(&mut s);
+}
+
+fn change(some_string: &mut String) {
+    some_string.push_str(", world");
+}
+```
+
+You can only have one mutable reference to a particular piece of data in a particular scope. The compiler prevents data races (which can be hard to find and reason about), which are the result of:
+
+# Two or more pointers access the same data at the same time.
+# At least one of the pointers is being used to write to the data.
+# There’s no mechanism being used to synchronize access to the data.
+
+You cannot have simultaneous references to the same mutable data. While multiple immutable references are allowed, only one mutable reference is allowed in a given scope.
+
+Rust never preserves references while freeing the memory it points to. Dangling pointers don't exist in Rust because they can't be compiled.
+
+```cpp
+fn main() {
+    let reference_to_nothing = dangle();
+}
+
+fn dangle() -> &String {
+    let s = String::from("hello");
+
+    &s
+} // s goes out of scope, memory is dropped (ruh-roh, yogi)
+```
+
+Instead, we should have returned the String directly. `-> &String` and returning just plain `s`.
+
+In short.
+
+# At any given time, you can have either but not both of:
+#* One mutable reference.
+#* Any number of immutable references.
+# References must always be valid.
+
+---
+
+Slices reference a contiguous sequence of elements in a collection rather than the whole collection. They do not have ownership.
+

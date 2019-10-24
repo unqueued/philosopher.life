@@ -1,0 +1,58 @@
+created: 20181101144437962
+creator: h0p3
+modified: 20181102070957959
+modifier: h0p3
+tags: [[Wiki Audit]]
+title: 2018.11.01 - Wiki Audit: Auto
+
+I still am not happy with the [[Autogen]] approach. I want fine-grained, detailed control of where objects go, in what order, but I also want to click a button and everything goes to sane default locations. Have and eat it too.
+
+Now that I'm going the tag based link list route, it's even easier to spin up a thousand tiddlers.
+
+---
+
+Added [[Monthly Auditable]] because I want a one-stop shop.
+
+---
+
+I switched naming on [[titletag]]s due to actual tag usage. I don't like that I've lost this complexity and naming, but I think it's the price I'm going to have to pay for now. =( Ugh. You know, if I find this wasn't worth it, I can always just delete the tags quite easily. I can always move back to doing it by hand. I will get used to my power tools.
+
+---
+
+Dream for [[Wiki Audit]]:
+
+* A tool which highlights linkable words or phases in the body of a tiddler, click-activated for formatting as link.
+
+---
+
+[[2018.11.01 - Self-Dialectic: /b/ Contra]] demonstrates to me that I don't have an effective enough method for searching (unless I'm going to bruteforce) for a tiddler which speaks to the relationships between [[/b/]] and {[[About]]}. Basically, I think I may have asked some version of this before, but I don't know how to quickly find it. This is a serious kind of problem worth solving on this wiki. I need to become a fucking grandmaster of searching this thing (not just categorizing and linking it together). 
+
+It needs to be more than "contains: [[/b/]] + {[[About]]}." That's way too fucking broad. They actually need to be in close proximity. The Context-based search is close to what I'm talking about here. This seems to be a generalized kind of query that I can improve upon and make as a consistently functioning tool, right?
+
+---
+
+I'm arguing with [[j3d1h]] about whether or not we should move to another kind of hosting here. Because we serve a single static index.html file, we really don't have to host it ourselves. The work seems largely irrelevant, and I'm not paying more than a buck a month for hosting this. We're going to try hosting it on https://m6ram.github.io.
+
+---
+
+It ended up being a lot easier than I thought it would be. Set ATL to https://live.philosopher.life. It appears the load times are significantly improved. 
+
+[[m10: h0p3's crontab]] now set for [[wiki-live-git.sh]] minutely (no room to make mistakes now, lol). At this point, I have little reason not to include the signature within the wiki itself.
+
+I can't say it's radically faster. I could setup Watch for faster realtime, but a minute is fine with me. 
+
+It shaves off .5s for my desktop, and about 8s(!) for my phone. That's not nothing. There's still improvements that could be made, but not much more. I think the splash screen (https://tiddlywiki.com/prerelease/#Creating%20a%20splash%20screen) may actually work, but I don't understand if gzip really enables that. I'm going to find out, eh? =)...Currently 22MB down to 7.7MB. That's still ridiculously fucking big. ZSTD appears strictly better in my usecase, but I'm also not qualified to say that either. This
+
+Now, I'm in charge of the backup, and someone else is in charge of the primary. That's fine with me, haha. 
+
+The throughput difference is evident. And, the bandwidth limit is essentially limitless. It's free hosting that I can push a diff to minutely.
+
+---
+
+This little jig, `<<list-links "[tag[FoobarTag]prefix[2018.10]]">>` is all I need for [[Monthly Auditable]]. It does the trick. 
+
+This is yet another strike against the need for hardcoding so much.
+
+---
+
+Drunken spree on ASCII and Unicode all up in this bitch. I adore the changes to $:/language/RecentChanges/DateFormat ROFL!

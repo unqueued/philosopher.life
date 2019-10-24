@@ -1,0 +1,14 @@
+created: 20171008162237809
+modified: 20171015232218737
+revision: 0
+title: Embed a Font as a Webfont Stylesheet in Tiddlywiki
+
+# Get your font
+# Use an online webfont generator (https://fontie.pixelsvsbytes.com/webfont-generator) or get your own toolchain
+# Upload your font file (".ttf", ".eot", ".woff", etc) 
+# Make sure you get CSS >> Base64 Encode
+#* Look inside the file
+# Generate your webkit: the output file is a ".zip" file containing a text file with the CSS code (foobarstylesheet.css)
+# Copy the CSS source from that file into a tiddler
+# Make sure the field font-family is what you want
+# Tag the tiddler [[$:/tags/Stylesheet]] and change the tiddler type to "Plain text (text/plain)"

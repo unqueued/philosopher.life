@@ -1,0 +1,256 @@
+created: 20181214011315772
+modified: 20181214035923590
+tags: [[Thine Text Art]]
+title: 2018.12.13 - Thine Text Art: Hello World
+
+I aim to build [[Home: ASCII Art Logo, 3]]. I need a workstation. Let's build one (slowly if we must, whatever).
+
+---
+
+Thinking MTG Brainstorm graphics.
+
+---
+
+I think it may be possible to Matrixrain highlight from within the ASCII Art. 
+
+This:
+
+```
+<head><style>*{margin:0;padding:0;line-height:1;overflow:hidden;}div{width:1em;position:absolute;}</style><script>
+w=window;n=w.innerWidth;m=w.innerHeight;d=document;q="px";function z(a,b){return Math.floor(Math.random()*(b-a)+a)}f=" 0123456789";for(i=0;i<45;i++)f+=String.fromCharCode(i+65393);function g(){for(i=0;i<90;i++){r=d.createElement("div");for(j=z(20,50);j;j--){x=d.createElement("pre");y=d.createTextNode(f[z(0,56)]);x.appendChild(y);x.style.opacity=0;r.appendChild(x)}r.id="r"+i;r.t=z(-99,0);with(r.style){left=z(0,n)+q;top=z(-m,0)+q;fontSize=z(10,25)+q}d.body.appendChild(r);setInterval("u("+i+")",z(60,120))}}function u(j){e=d.getElementById("r"+j);c=e.childNodes;t=e.t+1;if((v=t-c.length-50)>0){if((e.style.opacity=1-v/32)==0){for(f in c)if(c[f].style)c[f].style.opacity=0;with(e.style){left=z(0,n)+q;top=z(-m/2,m/2)+q;opacity=1}t=-50}}e.t=t;if(t<0||t>c.length+12)return;for(f=t;f&&f>t-12;f--){s=1-(t-f)/16;if(f<c.length&&c[f].style){c[f].style.opacity=s;}}}
+</script><body text=#0f0 bgcolor=#000 onload=g()>
+```
+
+
+
+Skiddie idea from: https://jamesyu.org/hot-spot/
+
+```javascript
+
+
+var setupFlicker = function(ctx) {
+	var flickerCB = function(items, previous, current) {
+
+		var delay = Math.floor(Math.random() * 1000 + 200);
+
+		if (previous !== undefined) {
+			items[previous].classList.toggle("hide");
+		}
+		items[current].classList.toggle("hide");
+
+		var next;
+		if (current + 1 == items.length) {
+			next = 0;
+		} else {
+			next = current + 1;
+		}
+
+		window.setTimeout(flickerCB, delay, items, current, next);
+	}
+
+	var flickerElements = document.getElementsByClassName("flicker");
+
+	for (var i = 0; i < flickerElements.length; i++) {
+		var items = flickerElements[i].getElementsByTagName("li");
+
+		for (var j=0; j < items.length; j++) {
+			items[j].classList.add("hide");
+		}
+
+		flickerCB(items, undefined, 0);
+	}
+};
+
+var setupSwitch = function(ctx) {
+	var elements = document.getElementsByClassName("switch");
+
+	for (var i = 0; i < elements.length; i++) {
+		// set the width to the calculated width
+		var el = elements[i];
+		var width = el.getBoundingClientRect().width;
+
+		el.style.width = width + 2 + "px";
+	}
+
+	ctx.flipElement = function(el) {
+		if (el.style.display == "none") {
+			el.style.display = "inline";
+		} else {
+			el.style.display = "none";
+		}
+	}
+};
+
+window.onload = function() {
+
+	setupFlicker(window);
+	setupSwitch(window);
+
+	// blast all paragraphs
+	$("p").blast({ delimiter: "word" });
+	var words = document.querySelectorAll(".colorize .blast")
+	var debug = document.getElementById("debug");
+
+	var bodyHeight = window.innerHeight; //document.body.clientHeight;
+
+	// cache the rects for perf
+	var rectHash = {};
+	for (var i = 0; i < words.length; i++) {
+  	var word = words[i];
+  	word.id = "word-" + i;
+  	var rect = word.getBoundingClientRect();
+  	rectHash[word.id] = { top: rect.top + window.scrollY, bottom: rect.bottom + window.scrollY };
+  }
+
+	for (var i = 0; i < words.length; i++) {
+		// copy data attributes
+		var block = words[i].closest(".colorize");
+
+		var sat = block.getAttribute("data-sat");
+		var range = block.getAttribute("data-range");
+		if (sat) words[i].setAttribute("data-sat", sat);
+		if (range) words[i].setAttribute("data-range", range);
+
+	}
+
+	var padding = 40;  
+	const numColors = 4;
+	const numDelays = 5;
+
+	var addColor = function(word) {
+		var color = Math.floor(Math.random() * numColors);
+		var delay = Math.floor(Math.random() * numDelays);
+
+		// get saturation and set default
+		var saturation = word.getAttribute("data-sat");
+		if (!saturation) saturation = "5";
+
+		// colorRange  
+		// 	0  => 0-3
+		//  1  => 4-7  (dark mode)
+		var range = word.getAttribute("data-range");
+		if (range == "1") {
+			color += 4;
+		}
+
+		var klass = "color-c" + color + "-d" + delay +"-s" + saturation;
+		
+		word.classList.add(klass);
+
+		if (!word.closest(".sustain")) {
+			setTimeout(function() {
+				word.classList.remove(klass);
+				word.colored = false;
+			}, delay * 1000);
+		}
+
+		word.colored = true;
+	}
+
+	var scroll = function() {
+
+		// TODO: if scrolling fast, need to calculate if we missed any lines and color them
+    var pos = window.pageYOffset;
+    //debug.innerHTML = pos;
+
+    for (var i = 0; i < words.length; i++) {
+    	var word = words[i];
+
+    	if (word.colored === undefined) {
+    		// this is the first run
+    		word.colored = false;
+    	} else {
+	    	var wordRect = rectHash[word.id];
+	    	var windowHeight = window.innerHeight;
+	    	var middle = pos + (windowHeight / 2);
+
+	    	if ((middle > wordRect.top - windowHeight / 8 ) && 
+	    			(middle < wordRect.bottom + windowHeight / 8))
+		     {
+		     	if (!word.colored) {
+		      	addColor(word);
+		      }
+
+		      // word switching to IDs
+					var s = word.closest('.switch');
+
+					// Ensure it's not already switching, and we're not
+					// triggering from the alt word
+		    	if (s && (word.className != "alt") && !word.switching) {
+		    		word.switching = true;
+		    		var main = s.getElementsByClassName("main")[0];
+						var alt = s.getElementsByClassName("alt")[0];
+
+						alt.style.display = "inline-block";
+						alt.classList.add("fadeOut");
+						main.style.opacity = "0";
+						main.classList.add("fadeIn");
+
+						// Capture for closure? But why?
+						var thisWord = word;
+
+						// reset the word
+						setTimeout(function() {
+							alt.classList.remove("fade");
+							alt.style.display = "none";
+							main.classList.remove("fadeIn");
+							main.style.opacity = "1";
+							thisWord.switching = false;
+						}, 2000);
+						
+		    	}
+
+			  } else {
+		    	if (word.colored) {
+			    	//removeRandomColor(word);
+			    }
+		    }
+		  }
+    }
+	};
+
+	var raf = window.requestAnimationFrame ||
+	    window.webkitRequestAnimationFrame ||
+	    window.mozRequestAnimationFrame ||
+	    window.msRequestAnimationFrame ||
+	    window.oRequestAnimationFrame;
+	var $window = $(window);
+	var lastScrollTop = $window.scrollTop();
+
+	if (raf) {
+	    loop();
+	}
+
+	function loop() {
+	    var scrollTop = $window.scrollTop();
+	    if (lastScrollTop === scrollTop) {
+	        raf(loop);
+	        return;
+	    } else {
+	        lastScrollTop = scrollTop;
+
+	        // fire scroll function if scrolls vertically
+	        scroll();
+	        raf(loop);
+	    }
+	}
+}
+```
+
+```html
+<div class="colorize" data-sat="6">
+<p>I drew in a quick breath. Then realized I wasn’t just hearing Millie’s or Evan’s thoughts. Some of the thoughts belonged to the people on the floor above us. People had woken up, and I were making their way into the other labs. I recognized their voices.</p>
+</div>
+
+<ul class="flicker">
+	<li style="color: #CB33CD">It's cold.</li>
+	<li style="color: #CDCB33">I hope I didn't offend her.</li>
+	<li style="color: #33CD37">I don't want to be here anymore.</li>
+	<li style="color: #33CD37">I lied.</li>
+	<li style="color: #CDCB33">I did cheat.</li>
+	<li style="color: #CB33CD">What an asshole.</li>
+	<li style="color: #33CD65">Today's gonna be good day.</li>
+	<li style="color: #9433CD">Why am I sad?</li>
+	<li style="color: #CDCB33">I did cheat.</li>
+</ul>
+```

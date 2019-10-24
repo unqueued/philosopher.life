@@ -1,0 +1,52 @@
+created: 20190720044310591
+modified: 20190720070403642
+tags: kickscondor Note To
+title: 2019.07.20 - kickscondor: Goodcat, Baddog
+
+https://www.kickscondor.com/fridaycat-the-friday-vid/
+
+`/raises-his-glass` - To your health and happiness, sir!
+
+<<<
+The Indieweb is all about sending messages to each other.
+<<<
+
+No. It's about enabling a particular set of privileged individuals to send messages to each other with only partial ownership of the means of production. It feels like a solution, but it surely is only half of one at best. Let us not kid ourselves about what it is. It's not an infrastructure which can reasonably sit inside my home, and it's not meant for poor or uneducated people. The lynchpin is that it targets the web more than the internet.
+
+Yes, you know it's in the realm of possibility for some TW users to join the indieweb. I'm gonna bet you could have it up and running in less than 60 minutes. What does it take? A VPS, domain name, nodejs, and some scripting, right? Bob would even give you realtime webmention updates without having to reload your browser, or you could even just decompile html files, insert the mention, and recompile.<<ref "v">>
+
+What makes TW so special is that I don't need to have a webserver. That's a significant reason why I use it. My ISP NATs me and by contract does not allow any form of serving (fuck 'em). Requiring a webserver in a datacenter using a domain name I don't own is a weakpoint I'm not going to accept. You want cohesion? Let's not build a system on the web which isn't meant to be owned by individuals of every stripe and status which can be so easily attacked by middleman between you and me.
+
+Are we talking past each other?<<ref "y">> =) That has never happened, not even onced! Perhaps you are coming from the federated side, and I'm coming from the P2P. I'm trying to meet you in the middle. As I have said, I am willing to build tooling for you, sir. I wouldn't do it for anyone else. I don't trust them like I do you. You can already have VPN access and P2P-based R+W access to Bob's .tids whenever you want. Sending me a message is as simple as a bash script, dropping a .tid file for you, or literally editing the tiddler yourself in my own Bob instance, but that's because I'm willing to [[trust|Root]] you.<<ref "t">> Obviously, most people aren't going trust anyone else like that.
+
+My [[RGM]] is built to go one direction. I own the means of production in it, and gitpages is simply free webhosting and another route for handing people snapshots. It's a convenience. I don't trust it, but I'll take the free lunch. I live in a country with concentration camps. I prepare for a world in which I will lose my domain name. I don't own it, and I don't like building an infrastructure which assumes that I own a name which I don't. I've mentioned or pointed to this elsewhere:
+
+* [[2018.11.27 - Computer Musings: Dimbobpi]]
+** Mentions you and dat =)
+* [[2018.08.26 - Legacy Spells: Future]]
+* [[2018.12.09 - TWGCF: Jailing Tiddlers]]
+* [[2019.07.16 - BDS97: LF]]
+
+This is important: I don't give a shit about my domain name.<<ref "d">> I don't really own it in the end, and I don't trust systems designed around the assumption that I own it. I have no will to build an ecosystem which I already know is dead-on-arrival for those who deserve not to be censored. If it requires DNS or a VPS/dedi/webhost, it's already a failure.<<ref "i">> That's 99.999999999999999999999% of the web. It's dead to me, no matter how much I use it. I serve my website over the web because no one is going to listen to me unless I do; it's too much of a chore to even enter a key. Their pursuit of convenience is why I have to give up way more privacy and power over my voice than I ought. 
+
+I'm trying to meet you halfway. We can P2Pify webmentions. Webmentions can become netmentions.
+
+If you want to send messages, why not Tox? Our conduit could be built upon something like http://git.2f30.org/ratox/file/README.html or https://pypi.org/project/dendrotox/. If you want to decentralize, why not go that direction?<<ref "k">> I can slurp up a message straight out of the pipe, encode it into a .tid, and push into Bob (or an awaiting approval area). That works for my toolchain, and it doesn't require a domain name or a VPS. This works right? This is how you can complete the conduit with me in a way that has moral merit. This is the kind of API I'd want to construct with you, and it would be reproducible. 
+
+Aside, but I think it's relevant: my daughter just came back from her trip, and I have visitors, but we are thinking about how we can sync our [[TDLs]] as a family. Should just be a tag-parser of .tids and one rsync away for us. Our wikis' contents are hopefully going to mesh together over P2P tooling soon enough.
+
+`/hug`
+
+
+---
+<<footnotes "v" "It is very expensive to decompile, and I don't see that changing unless there's a complete re-write out of javascript.">>
+
+<<footnotes "y" "Do you really need webmentions with me? One of the proofs that I give a shit about you is that I actually read what you have to say off your site. You can reach me in a number of ways, and posting to your own site is quite reasonable. I'm happy to scrape it too if need be. It might be the best of both worlds which we need.">>
+
+<<footnotes "t" "Almost everyone else is just gonna have to ping me with tools I trust.">>
+
+<<footnotes "d" "This is the second one.">>
+
+<<footnotes "k" "I'm fine with a key and no human-readable names, but I'm growing convinced Zooko's may be more solvable than it initially appears.">>
+
+<<footnotes "i" "I say that as a man who has domain names and serves in datacenters.">>

@@ -1,0 +1,107 @@
+created: 20190102013302801
+modified: 20190102013428514
+tags: [[Link Log]] Retired
+title: 2019.01.01 - Retired: Link Log
+
+!! About:
+
+//I dedicate this page to my [[monsters|Monster-Φ]]; without you, I'd truly be lost. Now, HMB while I virtue signal about my hyperreading.//
+
+<<<
+The matrix has its roots in primitive arcade games...in early graphics programs and military experimentation with cranial jacks... Cyberspace.  A consensual hallucination experienced daily by billions of legitimate operators, in every nation, by children being taught mathematical concepts...  A graphic representation of data abstracted from the banks of every computer in the human system.  Unthinkable complexity.  Lines of light ranged in the nonspace of the mind, clusters and constellations of data.  Like city lights, receding...
+
+-- Sony Hosaka Terminal, //Neuromancer//
+<<<
+
+For better or worse, digital //pharmakeia// is a fundamental force in my life. This habit has profoundly shaped and defined me. I've lived a stupid amount of my life on my computer, and that has afforded me a staggering array of cyber experiences and digital practices (not that I have much to show for it). While I have definitely slowed down, and perhaps even lost my emotional magic touch, I am still a force to be reckoned with. Here I quite imperfectly document a portion of my computer usage, namely my practices of hyperreading the ports 80 and 443 clearnet web firehose. I suggest you pay attention, deshi.
+
+I've been in the borderline crippling internet game for a while.<<ref "1">>  I think I'm an exceptional content aggregator and self-supplier (on which, I assure you, I do get high). Relevance is conceptually bound to contexts, and including the usual postmodern problematics, I fear you will not be able to stand in my shoes. Thus, with grief, anger, and loneliness, I concede that few are able to appreciate the narrative in these sequences that I do.<<ref 2">> Of course, I sound arrogant, and I mean no offense. Long-term, habitual drug-users may become biased connoisseurs of a sort, developing consumption rituals, refined systematic palates, and impeccable tastes for their drugs of choice. Consider it an act of big-balled Aristotelian magnanimity if you must; I'm accepting all challengers in this dialectic. 
+
+Essentially, my reality map is not always easy to appreciate; most digital natives simply haven't habituated the sixth sense virtuous perception of the digital+memetic chicken-sexer that I have. I was an Extremely Online internet addict long before even using the internet on a weekly basis was socially acceptable (at least where I grew up). I'm an autistic savant with at least 50,000 hours spent on his computer (generally the interwebs) by the age of 30.<<ref "3">> I do not exaggerate when I tell you that I've some non-trivial virtues of the practice of using this drug.<<ref "4">> Through addictive habituation, I've deeply embedded this practice into my [[fastmind]].
+
+In cyberspace, I've been around the block, traveled there and back again, and forgotten more than you might ever see or know. You may never have the chance to explore the dead roads I've been down or experience //The Stack// exponentially grow as I have. Nobody can see or understand it all, but some see and understand far more than others. I am an expert witness of this network. I'm what you might call //well-read// in this domain. Here I feel somewhat like a gatekeeper because I am a grandmaster, sad as it may seem.<<ref "5">> I'm an internet guardian, protecting the sacred grounds from intruders.<<ref "6">> I'm a nomadic survivor in the digital desert. I'm a recovering scholar who came from the bottom (3rd world education) up who doesn't play the academic game anymore, and now I think of myself as just a plain philosopher searching the giant experience machine hyperobject we call //The Internet//. I'm still a low-class user just like you, but with more time, talent, experience, and willpower (or lack thereof) on his hands. 
+
+Surely, you must fall on your knees before this delusional man-child internet addict. You are so very welcome to the fruits of my labor in my daily digital grind. With my insane integrity and virtuous perception, I pick out many morally [[salient]] features of this network on a daily basis. Come, partake with me. Take a hit.
+
+Just as I do for the rest of reality, I am always sifting through the sands of the internet for [[Diamonds]] and [[Redpills]]. Even when you become adept at tuning your [[S2NR]] up as high as it will go in a constantly evolving landscape, most of what you find is still bullshit.<<ref "7">> You're happy to have seen many things, but they usually have a single-use appeal to them. Some links are worth keeping though, and some moreso than others. Furthermore, it's important to document your information sources, your consumption habits, to analyze the data you feed your mind, and to be more reflective about the inferences you draw from and about this never-ending flood of data. I might understand about half of what I read, and that's okay. I have to keep exploring my epistemic periphery. In crucial respects, the internet is my looking glass for the rest of world; it's a heuristical tool for exploring and observing the hyperobject we call reality.
+
+Since I'm trying to centralize my data and maintain control of it, I've migrated most of my bookmarking and curation practices to the wiki instead.<<ref "8">> I am still looking for a better way to categorize and think about my links and tabs. I need to nip Garbage-In-Garbage-Out in the bud; I must harness and crystalize the externalized cognition housed in my browser into something internalized and useful in this wiki. One day, I hope to have the tools to mine this information for insight. May this be an epic annotated bibliography of the self-selected works from my primary channel of information consumption.
+
+
+---
+!! Principles:
+
+* In general, the goal is to create annotated links as both a long-term stream-of-conscious index and a bibliography of what I found worthy about I'm consuming.
+** Attempt to say at least something about the link. Sometimes you can't or won't, and that's okay too. Just do your best.
+** If you can find a link that belongs somewhere, grow that place.
+
+* Organize, analyze, and compute links in lists of archetypal comments.
+** When you can't fit a link into your archetypes, think about why, develop new ones and revise old ones.
+
+* Try not to hold links hostage in your browser.
+
+
+---
+!! Focus:
+
+```
+<$set name="mydate" value=<<now YYYY.0MM.>>>
+<<list-links "[tag[Link Log]prefix<mydate>]">>
+</$set>
+```
+
+* [[Link Log: Archetypal Comments]]
+* [[Link Log: The Stack]]
+* [[Reddit Theory & Practice]]
+* [[Link Log: Tagged Links, An IOU Rainy Day Reading List]]
+
+
+---
+!! Vault:
+
+* [[The Legacy Link Heap]]
+
+* Audits:
+** [[2017 - Link Log]]
+** [[2018.01 - Link Log]]
+** [[2018.02 - Link Log]]
+** [[2018.03 - Link Log]]
+** [[2018.04 - Link Log]]
+** [[2018.05 - Link Log]]
+** [[2018.06 - Link Log]]
+** [[2018.07 - Link Log]]
+** [[2018.08 - Link Log]]
+** [[2018.09 - Link Log]]
+** [[2018.10 - Link Log]]
+** [[2018.11 - Link Log]]
+** [[2018.12 - Link Log]]
+
+* Retired:
+** [[2017.11.09 - Retired: Link Log]]
+
+
+---
+!! Dreams:
+
+* Consider creating automated formatting and parsing tools.
+* Be your own WayBackMachine, literally keep copies of your links insofar as you can.
+* Start categorizing those links are more useful than others.
+* A complete link-by-link audit/categorization.
+
+
+---
+<<footnotes "1" "Proverbs 16:18">>
+
+<<footnotes "2" "I remind you that //ad hominem// critiques are not conceptually wrong in all cases. The virtuous agent has the right to wield them.">>
+
+<<footnotes "3" "It's hard not to be using the internet for almost any task at this point, even if only indirectly.">>
+
+<<footnotes "4" "Virtuous qua what? I don't exactly know. Of course, I will always have huge room for improvement. Nothing will ever be perfect. =)">>
+
+<<footnotes "5" "No fallacies, and he's so humble too! Turn that virtue signal up to 11!">>
+
+<<footnotes "6" "Get off my lawn!">>
+
+<<footnotes "7" "Including what you are reading right now. Got 'em!">>
+
+<<footnotes "8" "Unfortunately, for my first decade, I barely even bookmarked (not that they would have survived linkrot, and thewaybackmachine.org was a blip; browsers were also very rudimentary). I memorized the URL, IP, or even how I got to a location. I didn't realize it would be worth cataloging. Even the bookmarks I had were lost because I didn't take the time to transfer/sync them to my new machines. Much progress has been lost because it wasn't recorded. Although, even those things which I didn't bookmark ultimately played into how I thought about and used the internet (and perhaps life in general).">>

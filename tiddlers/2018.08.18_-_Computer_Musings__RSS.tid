@@ -1,0 +1,79 @@
+created: 20180818150918580
+creator: h0p3
+modified: 20181029175224790
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.08.18 - Computer Musings: RSS
+
+I swear every once in a while, I miss RSS feeds. The signal to noise ratio becomes almost useless to me. There is too much. I eventually find that it's not even worth trying. Each time, I try to pair down what I'm doing. Often, it's better to just use bookmarks and tabs in firefox (that is my preference perhaps). 
+
+I'm trying again! It possible nothing is going to beat just using the browser as my complete tool. 
+
+I tried QuiteRSS again. I can't even live with the coloration, and I'm not going to fix it. I tried a couple addons. I'm on Feedbro...not in love with several things either. I'm such a picky ignorant sumbitch.
+
+I'm going to keep better track (/fingers-crossed) in [[Link Log: The Stack]]
+
+---
+
+Zerotier time. I've watched this for years, and I didn't like it's centralization before and still don't. I'm giving up for now though. There aren't any decentralization tools that just work at this layer.
+
+Made an account. Made a network. This is the easiest fucking solution I've ever seen in my entire life. It's disturbing. I don't know whether to distrust this even more or cum in my pants.
+
+!! Arch
+
+`sudo pacman -S zerotier-one`
+
+`sudo systemctl enable zerotier-one`
+
+`sudo systemctl start zerotier-one`
+
+`sudo zerotier-cli join <network id>`
+
+Authorize. Shit just works, yo.
+
+
+!! Le Debian
+
+```
+curl -s 'https://pgp.mit.edu/pks/lookup?op=get&search=0x1657198823E52A61' | gpg --import && \
+if z=$(curl -s 'https://install.zerotier.com/' | gpg); then echo "$z" | sudo bash; fi
+```
+```
+sudo systemctl enable zerotier-one
+sudo systemctl start zerotier-one
+sudo zerotier-cli join <network id>
+```
+
+This is insane. Centralization makes life so much simpler. This is ridiculously easy. I'm just blown away. 
+
+---
+
+Piracy for [[K]]'s schoolbooks, also for his brother (offered, may take me up, I don't know)
+
+---
+
+SSH setup on [[monster-15]]
+
+Finding an SSH server for Android sucks. The system is simply not designed for it. There are lots of tools, but Android wasn't meant for this. 
+
+Updated [[Annotated Piracy Tools, Networks, and Sites Collection]] for Android. Confound this shitty ecosystem! Android is straight up infuriating!
+
+---
+
+Added some IRC servers for book piracy
+
+---
+
+I don't want Dropbox on m10 (memory whore), but I have plenty of RAM to spare on HTPC. That's the direction I've gone. Found out that .sync/archive for Resilio isn't versioning on my machine directly because it's being modified on my system!
+
+---
+
+Looked at trackers again. Considering Bibliotik to round out my book access. BTN is just not feasible. I also lack to social skills to get in (despite being qualified otherwise). Had to go way back in time to get access to some old accounts. 
+
+---
+
+Trying to rebuild [[JRE]]'s old machine. I can't get it to work. This is the third try. No go! Mobo, CPU, or Memory is dead. I don't have the parts to troubleshoot it. Stripped for parts.
+
+---
+
+Testing mic and video. Video's not the problem, but the mic on the camera isn't working for Discord. There are applications which function. qTox is one of them! Discord is a huge CPU whore too (it's ridiculous). 

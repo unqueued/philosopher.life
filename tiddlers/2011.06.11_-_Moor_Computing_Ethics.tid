@@ -1,0 +1,160 @@
+created: 20180517201349902
+creator: h0p3
+modified: 20181031035931161
+modifier: h0p3
+tags: LSU
+title: 2011.06.11 - Moor Computing Ethics
+
+```
+Overview of why Computing Ethics is a real topic:
+
+Technology is ‘logically malleable’ – it can be shaped and created to do almost anything.
+
+Computing has really revolutionized and expanded Information ethics.
+
+Because of technological permeation and integration, we have new and complex set of ethical problems.
+
+Policy Vacuums & Conceptual Muddles
+
+
+
+
+
+Moor disagrees with 2 positions:
+
+    “Routine Ethics” position – nothing special about them
+
+        Moor rebuts: this position underestimates the changes occurring in our conceptual framework
+
+    Cultural Relativism – computing is a global phenomenon, and as such, to proponents of CR, computing ethics is largely an intractable problem. CR don’t agree to universalized normative claims, which makes cross-cultural concerns, like computing, intractable.
+
+        Moor rebuts: this position underestimates the stability or our core values.
+
+“And yet our fundamental values, based on our common human nature, give us an opportunity for rational discussion even among cultures with different customs. The purpose of this chapter is to explain how it is possible to have both reason and relativity in computer ethics. Only with such an understanding is responsibility in computer ethics possible.”
+
+
+
+Computers are ‘logically malleable’ – they are general purpose machines.
+
+Computers are also ‘informationally enriching’. Computerized activities are informationalized – we must conceptualize those activities in terms of information. The activites and conception of those activities become informationally enriched – particularly when there is a feedback loop from the output of these computerized activities back into the activities and conceptions of the activities.
+
+Information processing is becoming the salient/defining feature of almost all activities.
+
+Example: Money. Moving from a paper-based economy to a digital economy. Monetary transactions are increasingly grounded in information. Money may come to be conceived as an elaborate computable function among people. In the computer age the concept of money is becoming informationally enriched. Automated trading included.
+
+Example: Warfare. Computerization and automation (e.g. drones) continue to revolutionize it. In fact, cyberwarfare is itself a new branch of warfare itself. Cryptography is old, but it has exploded in complexity because of technology. But, there are also new ones, like infecting Iran’s computer systems at a nuclear facility, designed specifically to destroy the nuclear hardware and set their nuclear program back 4-5 years. Also, power-grid, etc.
+
+Example: The concept of Privacy, which is covered later paper.
+
+Example: The legal concept of copyrights and intellectual property.
+
+Computers do more than merely store data. They extract, sort, search, access, change and produce data in ways that we can’t do otherwise.
+
+
+
+Computer ethics has two parts:
+
+    the analysis of the nature and social impact of computer technology
+
+    the corresponding formulation and justification of policies for the ethical use of such technology.
+
+
+
+Policy vacuum. Examples:
+
+    should a supervisor be allowed to read a subordinate’s email?
+
+    Or should the government be allowed to censor information on the Internet?
+
+Initially, there may no clear policies on such matters. They never arose before. Sometimes it may be simply a matter of establishing some policy, but often one must analyze the situation further.
+
+    Is email in the workplace more like correspondence on company stationary in company files or more like private and personal phone conversations?
+
+    Is the Internet more like a passive magazine or more like an active television?
+
+
+
+Conceptual Muddle. Solutions require a cycle of conceptual clarification and policy formulation and evaluation which may have to be repeated on an ongoing basis.
+
+
+
+“Because computers are logically malleable, they will continue to be applied in unpredictable and novel ways, generating numerous policy vacuums for the foreseeable future. Moreover, because computerized situations often become informationally enriched, we will continue to find ourselves in conceptual muddles about how precisely to understand these situations.”
+
+
+
+“Reasons within Relative Frameworks” - Cultural Relativism.
+
+His “position is that all interesting human enterprises, including computing, are conducted within frameworks of values. Moreover, these frameworks can be rationally criticized and adjusted. Sometimes they are criticized externally from the vantage point of other frameworks and sometimes they are critiqued internally. Some value frameworks, such as those in an emerging science like computer science, undergo rapid evolution. Other value frameworks are more stable. Value frameworks provide us with the sorts of reason we consider relevant when justifying particular value judgments. Human values are relative, but not simply in the shallow sense of Cultural Relativism. Our most basic values are relative to our humanity, which provides us with a shared framework in which to conduct reasoned arguments about what we ought to do.”
+
+Sounds Heideggerian.
+
+“To say that values are relative means that they are not absolute; it does not mean they are random or uncommon or uncriticizable.”
+
+
+
+Two-step presentation:
+
+    Argument for the ubiquity, inescapability, and relativity of non-ethical, everyday-type values.
+
+    Argument for reason and use of relativized ethical values.
+
+
+
+Non-ethical values saturate everything in our daily lives. Values of a discipline are included. Moor uses computer science as his example discipline. What makes a good computer program? Widely shared programming and syntax standards among computer scientists seem to be the sort of non-ethical values of the discipline. Given these standards, we can evaluate programs or other activities or objects within a discipline. These standards are not subject to empirical verification (objected-oriented programming->bug-free + easy to maintain code – causal fact vs. values)
+
+These non-ethical values and standards seem relative to the consensus of those in the discipline. Disciplines are defined by consensus, and progress in require these relative values.
+
+“non-ethical values play a role in our decision-making in all interesting human activities, including computer science. No escape to a safe realm of pure facts, even in science, is ever possible. The standards of value of a discipline may be widely shared, implicit, and go unnoticed, but they are always there. Moreover, every discipline has sufficient agreement upon what the standards are to conduct its business. Without some consensus on what is valuable, progress in a discipline is impossible.”
+
+
+
+Moor believes that the best way to ground ethical judgments, particularly in computer ethics, is “by asking whether we share any values as human beings. What do we have in common? I believe that there is a set of core values which are shared by most, if not all, humans.” Those core values that we share in common are what ground ethical judgments in Moor’s eyes.
+
+Whatever values which all human cultures share in common are the core values. Least common denominator – or it is mushy, less calculated, and more flexible than that?
+
+“These values provide some evolutionary advantages. Individuals and cultures that completely neglect the core goods will not exist for very long.”
+
+This seems like a different standard, an empirical standard. Also, does it commit the naturalistic fallacy?
+
+It seems as though Moor is implying that if we can accept the normativity of non-ethical values and standards as being grounded or justified from a type of ‘core-values’ or consensus amongst a discipline that we should therefore be willing to accept the normativity of ethical values and standards as being grounded and justified from a broader consensus among all people, the human core values.
+
+[Metaethics, normative ethics, applied ethics] – [Moral realism vs. Moral anti-realism] [CR is moral anti-realist] Where does the “core values” argument sit?
+
+Moor believes his “core values argument” answers cultural relativism. CR charges there are no universal moral claims, only claims which are specific to cultures, and normativity seems bound to cultures or ‘spheres of life’. CR also (fallaciously) claims (universally, lol) that we cannot judge or criticize other cultures ethical structures or value systems. Moor believes we should be able to reason, debate, and criticize values, even those of other cultures.
+
+The Core values are supposed to be pseudo-universal moral claims which humans, by consensus, have constructed. The core values are relativized not to specific cultures, but rather to all cultures (or perhaps even more broadly, to humanity as a whole). This may rebut CR’s essential claims, but it doesn’t seem to escape moral anti-realism (which is terrible). Constructivism and “values by consensus” fails to produce objective, moral truths which are independent of us (usual characteristics of ‘universal’).
+
+He claims (as a matter of fact) that relative doesn’t mean random. This seems to imply that he thinks he is above the charge of moral relativism. Perhaps he is above it from the position of moral anti-realism, but he isn’t above the charge from the position of moral realism.
+
+Where does the “core values” argument sit? It looks anti-realist. Perhaps he thinks this is a realist argument, it is difficult to tell. Either he’s wrong about this being a realist argument or he’s taking up the anti-realist position (I haven’t much to say if this is where he starts – we can’t go on to build normative ethical theories, in my view, if we can’t agree to moral realism).
+
+
+
+
+
+
+
+    Generic Tech Issues at work
+
+        Using company technology for personal use - Stealing “time” from your employer.
+
+            Using company phone or laptop for personal things.
+
+            Web surfing
+
+                Should you be doing it? When and where?
+
+                Content requirements - NSFW practices
+
+                Borderline between research and personal surfing - navigating company policy. Some are lax, some aren’t.
+
+                Break-time vs. work-time.
+
+        Bypassing firewalls and content filters, etc.
+
+        Basic communication ethics - don’t send raunchy images in emails.
+
+        What happens when you leave the company? Ethical IT exits. (“hacking is bad, mmmm’kay”)
+```
+
+

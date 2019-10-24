@@ -1,0 +1,249 @@
+created: 20170313010557234
+creator: h0p3
+modified: 20181031035931168
+modifier: h0p3
+revision: 0
+tags: Tulane
+title: 2013.11.06 - Skepticism, Pragmatism, and the Lottery Paradox
+
+//This paper changed my life. It was the beginning of the end of my academic philosophical career. It was the straw that broke this camel's back. I'm lucky to be alive.//
+
+''1.1''
+
+One of the first renditions of the Lottery Paradox can be traced back to Henry Kyburg in his book Probability and the Logic of Rational Belief.<<ref "1">> It has sparked an enormous amount of literature surrounding the problem. In this paper, I will address a standard, modern version of the Lottery Paradox, describe some problems with it, and try to clarify the puzzle with a more detailed version. By uncovering what I think is really going on in the Lottery Paradox, I hope to sketch out a more fundamental disagreement occurring between many of those who would continue to wield the Lottery Paradox, even after my clarification, and their target, proponents of probabilistic rational acceptance.
+
+''1.2''
+
+Proponents of probabilistic rational acceptance think it is rationally acceptable to believe propositions which are very likely true. On their view, there is an epistemic principle which sets out the minimum requirements for a proposition to be rationally acceptable (which I will often refer to as the Sufficiency Thesis). As long as the probability of a proposition is high enough to meet this requirement, then it is said to be rationally acceptable. 
+
+A probabilistic principle of rational acceptance is useful and practical. It would justify an enormous number of common-sense propositions we ordinarily think are rationally acceptable. Our everyday lives revolve around believing and acting upon beliefs which are often, at best, only very likely to be true. 
+
+If the Lottery Paradox is successful, then it demonstrates that probabilistic principles of rational acceptance can result in validating belief in contradictions as rationally acceptable. That would be intolerable. The Lottery Paradox would force us to give up probabilistic rational acceptance, which may amount to the denial of this enormous number of common-sense, ordinary propositions we would normally think of as being rationally acceptable. A kind of skepticism concerning these ordinary propositions may emerge from this position.
+
+I will show why the Lottery Paradox does not yield this fatal criticism, and I will argue that it does, however, yield another criticism. The paradox demonstrates that probabilistic rational acceptance can result in beliefs which are not altogether consistent. Rational acceptance can lead to false beliefs, even beliefs which must be false given some other set of beliefs validated by the principle. This criticism, however, is not obviously fatal to the probabilistic rational acceptance. 
+
+Toward the end of the paper, in coming to grips with this lesser criticism, I will attempt to sketch out why this lesser criticism leads us to a broader and perhaps messier disagreement occurring between many of those who would continue to wield the Lottery Paradox, even in light of my clarification, and those who wish to preserve probabilistic rational acceptance. 
+
+The Lottery Paradox may be construed as a discussion between a pragmatist and a skeptic, wherein the skeptic tries to attack the rationality of our ordinary beliefs which require the Sufficiency Thesis, and the pragmatist defends. Each employs a different standard, and both standards have merit. My sketch of this discussion will side with the pragmatist, suggesting his standard as being the appropriate standard to employ. 
+
+The actual result of the Lottery Paradox, the claim that it can be, in some cases, rationally acceptable to believe in a set of propositions which are inconsistent, is difficult to swallow. Essentially, many of us may intuit that this result of the second, lesser criticism isn’t a good thing. I will argue, however, that it can be the right thing.
+
+''2.1''
+
+The Lottery Paradox tries to demonstrate that the following three epistemic principles (or their equivalents) are inconsistent:
+
+# A proposition φ is rationally acceptable if P(φ) > t, where P is a probability distribution over propositions and t is a threshold value close to 1.<<ref "2">> 
+# It is not rationally acceptable to believe in contradictions. 
+# If each of the propositions φ and ψ are rationally acceptable, so is (φ & ψ).<<ref "3">>
+
+The first principle is known as the Sufficiency Thesis; it is a probabilistic principle of rational acceptance. The third principle is known as the Conjunction Principle.4 Note that by mathematical induction, we can generalize the Conjunction Principle to any finite number of conjuncts.5 The inconsistency of these principles is demonstrated by the following thought experiment.
+
+''2.2''
+
+Suppose the three epistemic principles above, where t = .99. Suppose a fair lottery of 100 tickets, where the selection of each ticket is equiprobable, and exactly 1 ticket will be randomly selected as a winner. 
+Where n is the set of whole numbers 1 through 100, for each ticket, where the first ticket is T­1­, the second ticket is T­2, ­… , and the hundredth ticket is T­100­, there is a corresponding proposition claiming ‘ticket Tn is a losing ticket’, where the first proposition K­1­ corresponds to T1­, and so on. 
+
+By supposition, P(~(K­1 ­& K­2 ­& … & K­100­)) = 1, hence by the Sufficiency Thesis, ~(K­1 ­& K­2 ­& … & K­100­) is rationally acceptable. In other words, the proposition “there is a winning ticket” is rationally acceptable. 
+
+Since each ticket is 1 ticket from a pool of 100, for any K­n­, P(K­n­) = .99. Hence, by the Sufficiency Thesis, any particular K­n­ is rationally acceptable. Since K­1 ­is rationally acceptable and K­2 ­is rationally acceptable, by the Conjunction Principle, the proposition (K­1­ & K­2­)­ is rationally acceptable. Since we know each Kn­ is rationally acceptable, we can continue to employ the Conjunction Principle such that (K­1­ & K­2­ ­& K­3­) is rationally acceptable, and (K­1­ & K­2­ ­& K­3­ ­­& K­4­) is rationally acceptable, and so on. Hence, by the repeated use of the Conjunction Principle, (K­1 ­& K­2 ­& … & K­100­) is rationally acceptable. 
+
+We arrive at the contradiction between (supposedly) rationally acceptable propositions ~(K­1 ­& K­2 ­& … & K­100­)­ ­and (K­1 ­& K­2 ­& … & K­100­). In other words, we assumed there was a winning ticket, ~(K­1 ­& K­2 ­& … & K­100­)­­, and using our principles of rational acceptance, we deduced that there is no winning ticket, (K­1 ­& K­2 ­& … & K­100­). This violates the second principle.
+
+''2.3''
+
+I could stop here, but before I move on, I want to point out that many versions of the Lottery Paradox render the contradiction in terms of probability, presumably because it may be easier to see the problem in a more concrete way and because the point of the Lottery Paradox is to attack probabilistic reasoning. The steps to do this are fairly straightforward.
+
+Since we have supposed ~(K­1 ­& K­2 ­& … & K­100­), and ~(K­1 ­& K­2 ­& … & K­100­) ↔ (P(~(K­1 ­& K­2 ­& … & K­100­)) = 1), then (P(~(K­1 ­& K­2 ­& … & K­100­)) = 1), the proposition that the probability of there being a winning ticket is 1, is rationally acceptable.
+
+Since we rationally accept (K­1 ­& K­2 ­& … & K­100­), and (K­1 ­& K­2 ­& … & K­100­) ↔ (P((K­1 ­& K­2 ­& … & K­100­)) = 1), and (P((K­1 ­& K­2 ­& … & K­100­)) = 1) ↔ (P(~(K­1 ­& K­2 ­& … & K­100­)) = 0), then (P(~(K­1 ­& K­2 ­& … & K­100­)) = 0), the proposition that the probability of there being a winning ticket is 0, is rationally acceptable.
+
+While not a formal, direct contradiction, (P(~(K­1 ­& K­2 ­& … & K­100­)) = 1) and (P(~(K­1 ­& K­2 ­& … & K­100­)) = 0) propose that the probability of there being a winning ticket is both 1 (guaranteed to occur) and 0 (guaranteed not to occur). 
+
+''2.4''
+
+Clearly, the Lottery Paradox demonstrates that the three epistemic principles are in conflict. Importantly, the Lottery Paradox is intriguing because one can nicely scale up the number of tickets in the lottery to any finite number, such that n >= t, allowing us to always produce a lottery thought experiment in which the probability that any “ticket n is a losing ticket” is rationally acceptable (according to the Sufficiency Thesis). Even extraordinarily high thresholds for rational acceptance, such as (1 – (1 / (the number of atomic particles in the universe))), have lotteries which demonstrate this contradiction.
+
+In order to escape this conflict, we must jettison at least one epistemic principle. At first glance, we might find the second and third principles to be no-brainers; we are not immediately inclined to deny them (although, later on I hope to show how we can deny the third principle). Thus, initially, the first principle, the Sufficiency Thesis, appears to be the principle we are forced to jettison, but at great cost. 
+
+Assuming that any relevant probabilistic acceptance principle will be similar enough to the Sufficiency Thesis, the Lottery Paradox might require us to jettison all relevant probabilistic acceptance principles. The Lottery Paradox may be a serious threat to any probabilistic justification theory of rationally acceptable belief. I can’t provide a treatment of that claim in this paper, but for the sake of argument, let us assume the Lottery Paradox defeats all probabilistic justifications of rationally acceptable belief, which a skeptic might assume.
+
+We have good reasons to want a viable probabilistic rational acceptance rule. Many beliefs we take as being rationally acceptable might turn out to be otherwise without a principle like the Sufficiency Thesis. For example, science, a realm which many of us would like to think leads us to propositions which are rationally acceptable, is filled with conclusions which are highly likely to be true, but not certain. The Sufficiency Thesis is well positioned to make sense of these issues. Further, many of our ordinary beliefs that we take to be rationally acceptable are nicely justified by the Sufficiency Thesis, and the rational acceptability of these beliefs may be jeopardized if we jettison the Sufficiency Thesis. How do we preserve the first epistemic principle?
+
+Either the second or the third epistemic principle must be wrong. The second looks rock solid (surely an epistemic rule which embodies the principle of non-contradiction would have to be!). Those who wish to preserve the probabilistic acceptance principles most likely need to find a way to deny the Conjunction Principle. 
+
+At first glance, the Conjunction Principle might appear to be akin to a normal conjunction introduction rule (later in the paper, I will suggest it is not that simple). When you rationally accept φ and ψ, inferring the conjunction of the pair seems, at first glance, rationally acceptable. I will attempt to clarify the Conjunction Principle by separating it into two aspects which, when combined, get us the same results. We will find that one aspect doesn’t need to be denied, but another aspect can and should be jettisoned to save the Sufficiency Thesis. 
+
+''3.1''
+
+I believe we can gain insight into why we should deny the Conjunction Principle by inspecting the inferential moves we’ve made in the Lottery Paradox. In terms of propositional logic, the following inferential moves have to be successful:
+
+# K­1­ 				--		Assumption
+# K­2­						-- Assumption
+# (K­1­ & K­2­)			--		­& Intro: 1, 2
+
+Upon first reading, it seems as if we cannot possibly deny this sort of inferential move. Our assumptions were rationally acceptable, and surely any deduction from rational assumptions must also be rationally acceptable. If K­1 and K­2 are true, then (K­1­ & K­2­) has to be true as well. 
+
+Is this really what the probabilistic rationality theorist has in mind? Perhaps not. Instead, regarding the above Lottery Paradox, we are better served by evaluating the actual probabilities of the Lottery Paradox if we want to understand what probabilistic inferences are rationally acceptable. 
+
+Problem: 
+
+Let n denote the size (in terms of tickets) of a fair lottery with one winner. What are the odds that if you get m tickets that you will win?
+
+Solution:
+
+	This is the formula which describes all finite lotteries, which someone who is explicitly employing the Sufficiency Thesis must turn to in order to evaluate the rational acceptability of the propositions in the Lottery Paradox. That’s how we know P(K­1­)­ = .99. It is also the tool which helps us evaluate all the other probabilities, including conjunctions. So, instead of propositional logic, I think probabilistic rationality looks more like this:
+
+#  P(K­1­)­ = .99 			--		Mathematical Deduction
+# K­1­­ is rationally acceptable		--	From 1 and Sufficiency Thesis
+# P(K­2­)­ = .99					-- Mathematical Deduction
+# K­2 is rationally acceptable		--		From 3 and Sufficiency Thesis
+# P(K­1­ & K­2­) = .98					--­ Mathematical Deduction
+# (K­1­ & K­2­) is not rationally acceptable		-- From 5 and Sufficiency Thesis
+
+The problem with our Conjunction Principle is that it seems to mislead us into thinking that logical inference is wholly analogous to the process of probabilistic inference. They are distinct. It is one thing to say “K­1 and K­2 are true, thus (K­1­ & K­2­) is true,” which is a logical consequence, and another to say “K­1 and K­2 are each so likely to be true that each is rationally acceptable, thus (K­1­ & K­2­) is so likely to be true that it is rationally acceptable.” The first kind, logical inference, has to be correct. The second kind, probabilistic inference, doesn’t have to be correct. In fact, the Sufficiency Thesis, where P(K­1­ & K­2­) = .98, explicitly prohibits such a move.
+
+Someone doing their best to employ the Sufficiency Thesis should be unwilling to accept this part of the Lottery Paradox proof: 
+
+Since K­1 ­is rationally acceptable and K­2 ­is rationally acceptable, by the Conjunction Principle, the proposition (K­1­ & K­2­)­ is rationally acceptable.
+
+The Conjunction principle isn’t following the very mathematical formula required to realize P(K­1­)­ = .99 in the first place. Something is wrong with the Conjunction principle, and we must correct it. 
+
+''4.1''
+
+I think the first set of epistemic principles was constructed too hastily. These principles lack the nuance we need to really understand what is at stake and how these principles should play out. Part of the problem might be that we’ve not been clear enough in specifying what kinds of things can be the objects of rational acceptability. On the following version of the Lottery Paradox, rational acceptability applies to both propositions and sets of propositions. Essentially, an individual proposition may be rationally acceptable, and sets of propositions may be rationally acceptable. With this in mind, let us restructure the beginning principles so that we can make better sense of the Lottery Paradox.  
+
+# φ is rationally acceptable if P(φ) > t, where P is a probability distribution over propositions and t is a threshold value close to 1. 
+# Contradictions and sets containing contradictions are not rationally acceptable.        e.g. neither (φ & ~φ) nor {X1, X2, …, (φ & ~φ), Xn} are rationally acceptable.
+# If φ and ψ are rationally acceptable, then {φ, ψ} is rationally acceptable.
+# If {φ, ψ} is rationally acceptable, then (φ & ψ) is rationally acceptable.
+
+The Sufficiency Thesis remains much the same. Importantly, it only applies to, evaluates, and filters through individual propositions, not sets of propositions.<<ref "6">> The Sufficiency Thesis validates and essentially generates the propositions used for the antecedent of the third principle, the Union Principle. The Union Principle generates sets of propositions (e.g. {φ, ψ}), which serve to feed the antecedent of the fourth principle, the Agglomeration Principle. The Agglomeration Principle joins the members of a set of propositions into a conjunction.
+
+The Sufficiency Thesis will not validate φ as rationally acceptable and then turn around and validate ~φ as rationally acceptable. It can only validate one or the other. It will invalidate (φ & ~φ) as well. As you will see, when we add the Union and Agglomeration Principles, from the Lottery Paradox, we will be able arrive at (φ & ~φ) as being rationally acceptable, which is prohibited by both the second principle and the Sufficiency Thesis.7 Note that the second principle does not prohibit inconsistent sets of propositions, such as {φ, ~φ}, rather it prohibits sets which contain explicit, direct contradictions, {(φ & ~φ)}. 
+
+We’ve done away with the Conjunction Principle, and in its place, we have two new principles, the Union and Agglomeration Principles, which taken together do the same kind of work as the Conjunction Principle. 
+
+The Union Principle enables us to accumulate or unify individual propositions into a set of propositions. According to this principle, if A is rationally acceptable, and B is rationally acceptable, then {A, B} is rationally acceptable. These are all distinct objects of belief or acceptance. It is one thing to believe A at some point in time, and another to believe B at some point in time, and yet another to believe A and to believe B at the same time.
+
+The Agglomeration Principle enables us to take a set of propositions and form a new proposition, a conjunction of the members of the set. According to this principle, if {A, B} is rationally acceptable, then so is (A & B). Importantly, there is a difference between the rational acceptability of the set of A and B as separate, individual propositions, {A, B}, and the rational acceptability of (A & B) as a joined or “agglomerated” proposition, (A & B). 
+
+The third principle is not obviously true, but it seems compelling. When rationally acceptable propositions are generated by the Sufficiency Thesis, it seems natural to just add them to a larger index of rationally acceptable propositions. By extracting it from the Conjunction Principle, we’re left with what I believe is a more controversial and less obvious fourth principle. Although the Agglomeration Principle is deniable, it has quite a bit of force to it.<<ref "8">>
+
+In splitting up the Conjunction Principle9 into more detailed principles, we will see more clearly the kinds of steps made that weren’t so clear in our original Lottery Paradox, and hopefully we can focus upon the contingent and plausibly deniable aspects of the Conjunction Principle. With these new principles, let’s have another crack at the Lottery Paradox. 
+
+''4.2''
+
+Suppose the four epistemic principles above, where t = .99. Suppose a fair lottery of 100 tickets, where the selection of each ticket is equiprobable, and exactly 1 ticket will be randomly selected as a winner. 
+
+Where n is the set of whole numbers 1 through 100, for each ticket, where the first ticket is T­1­, the second ticket is T­2, ­… , and the hundredth ticket is T­100­, there is a corresponding proposition claiming ‘ticket Tn is a losing ticket’, where the first proposition K­1­ corresponds to T1­, and so on. 
+
+By supposition, P(~(K­1 ­& K­2 ­& … & K­100­)) = 1, hence by the Sufficiency Thesis, ~(K­1 ­& K­2 ­& … & K­100­) is rationally acceptable. 
+
+Since each ticket is 1 ticket from a pool of 100, for any K­n­, P(K­n­) = .99. Hence, by the Sufficiency Thesis, any particular K­n­ is rationally acceptable. Since, K­1­ and K2 are rationally acceptable, by the Union Principle, {K­1­, K­2­} is rationally acceptable. Since any particular K­n is rationally acceptable, we can continue to employ the Union Principle such that {K­1­­, K­2­, K­3­} is rationally acceptable, and {K­1­­, K­2­, K­3­­, K­4­­} is rationally acceptable, and so on. Hence, by the repeated use of the Union Principle, {K­1­, K­2­, …, K­100­} is rationally acceptable.
+
+Since {K­1­, K­2­, …, K­100­} is rationally acceptable, by the Agglomeration Principle, (K­1 ­& K­2 ­& … & K­100­) is rationally acceptable. 
+
+By the Union Principle, since (K­1 ­& K­2 ­& … & K­100) is rationally acceptable and ~(K­1 ­& K­2 ­& … & K­100­) is rationally acceptable, then {(K­1 ­& K­2 ­& … & K­100)), ~(K­1 ­& K­2 ­& … & K­100­)} is rationally acceptable. We arrive at a set containing two propositions which are inconsistent; however, this is not yet a contradiction. Note how (so far) this is allowed by the second principle.
+
+Finally, by the Agglomeration Principle, since {(K­1 ­& K­2 ­& … & K­100), ~(K­1 ­& K­2 ­& … & K­100­)} is rationally acceptable, then so is [(K­1 ­& K­2 ­& … & K­100)­ & ~(K­1 ­& K­2 ­& … & K­100­)]. This is a contradiction, which violates our first and second principles.
+
+''4.3''
+
+This version of the Lottery Paradox demonstrates that the four epistemic principles are in conflict. We must jettison at least one of them. Last time, it seemed like it had to be the probabilistic acceptance rule because it was not appealing to jettison the other principles. This time, however, since we have split up the Conjunction Principle to clarify the problem, we can see where things go wrong. The Union Principle seems fairly innocuous. The Agglomeration Principle, however, seems to be the culprit that ends up violating the Sufficiency Thesis. The Agglomeration Principle is a strong candidate for jettison. 
+
+So, which is it, do we throw away the Sufficiency Thesis or the Agglomeration Principle? We’ve already considered some of the implications of denying principles like the Sufficiency Thesis. What about the Agglomeration Principle - what is the cost of denying it?
+By denying the Agglomeration Principle, we never arrive at a contradiction. But, in trade, if we deny the possibility of agglomeration, we seem to have a messy heap of individual beliefs, but no way to relate those atomic propositions to form complex propositions.  This would be intolerable, and so perhaps we may find the Lottery Paradox to be paradoxical for other reasons. Denying the Agglomeration Principle, however, is not the same as denying agglomeration. If we deny the Agglomeration Principle, how does agglomeration work?
+
+Perhaps I say to myself, “well I believe K­1­ and I believe K­2­, so I’m going to infer (K­1­ & K­2­).” We make that sort of inference all the time. Someone dedicated to employing the Sufficiency Thesis for determining the rational acceptability of (K­1­ & K­2­), however, would not accept this agglomeration tout court. Agglomeration itself is subject to the Sufficiency Thesis. 
+
+If it is rationally acceptable for me to have the set of beliefs {K­1, K­2­}, and when I attempt to agglomerate this into (K­1 ­& K­2­), then I first must consider if P(K­1 ­& K­2­) > t. In this case, t = .99, and P(K­1 ­& K­2­­) = .98. Clearly, this particular agglomeration is not rationally acceptable. Proper agglomeration, at least given the Sufficiency Thesis, doesn’t operate like proponents of the Conjunction Principle seem to think. 
+
+Granted, agglomerative inferences enable us to believe complex and interesting propositions, but their rational acceptability is still measured against the Sufficiency Thesis. Agglomeration is important to probabilistic rational acceptance; it just isn’t truth preserving on probabilistic propositions. I have to employ the Sufficiency Thesis on any agglomeration, including this one, to decide the rational acceptability of the resulting proposition. All inferences are subject to the Sufficiency Thesis – it serves as a kind of criterion of rational acceptability which filters, evaluates, and validates or invalidates any proposition.<<ref "10">>
+
+The Agglomeration Principle, as an inferential principle which artificially sits outside the scope of Sufficiency Thesis, goes against the very spirit of the Sufficiency Thesis. The whole point of the Sufficiency Thesis is that any inference or belief formation, including agglomeration, must meet the criteria set out in the Sufficiency Thesis. We shouldn’t sneak the process of agglomeration outside the scope of the Sufficiency Thesis, and hence we should deny the fourth principle. This saves the Sufficiency Thesis from the criticism generally levied against it by those who wield the Lottery Paradox, however, the game is not over.
+
+''5.1''
+
+By denying the Agglomeration Principle, we won’t arrive at the rational acceptability of [(K­1 ­& K­2 ­& … & K­100)­ & ~(K­1 ­& K­2 ­& … & K­100­)]. In fact, we wouldn’t even reach the intermediate conclusion that (K­1 ­& K­2 ­& … & K­100­) is rationally acceptable. As far as I can tell, {φ, ~φ} will never be a possibly validated set of propositions using the first three principles either.  
+
+The least intuitive set of propositions which these first three principles would deem rationally acceptable would be {K­1­­, K­2­, …, K­100­, ~(K­1 ­& K­2 ­& … & K­100­)­}. Essentially, this is the heap-like set of propositions that each ticket is a losing ticket and the proposition that not all the tickets are losing tickets. Admittedly, when phrased that way, the claim that this set of propositions is rationally acceptable does seem a pinch paradoxical. The Lottery Paradox still yields a nuanced and specific criticism of probabilistic rational acceptance, and at the heart of this criticism we will a find deep divide in intuitions concerning the nature of epistemic normativity.
+
+While the Lottery Paradox would turn out not to be immediately fatal to the remaining three principles in terms of deeming a contradiction to be rationally acceptable, the odd thing which falls out of denying the Agglomeration Principle is the following: an agent can rationally accept a set of propositions in which the members of that set cannot all be true at the same time. That is what the Lottery Paradox really shows.
+ 
+But, that’s okay, right?<<ref "11">> From a pragmatic standpoint, I think it is. From a skeptical standpoint, however, what falls out of the Lottery Paradox establishes that the Sufficiency Thesis is unusable and not an appropriate principle of rational acceptability. The ordinary and scientific propositions we want to think are rationally acceptable, which seem to rely upon the Sufficiency Thesis for their validity, may turn out to not be rationally acceptable from the skeptic’s point of view. The pragmatist hopes to defend the Sufficiency Thesis and the rational acceptability of the propositions it validates. 
+
+Essentially, the Lottery Paradox might be seen as a discussion between a skeptic and a pragmatist. Does the lesser criticism from the Lottery Paradox still defeat the Sufficiency Thesis, demonstrating the rational unacceptability of so many common and scientific propositions? This somewhat formal matter turns out to have severe practical implications. 
+
+On one hand, the skeptic employs a very high epistemic standard, deeming the actual results of the Lottery Paradox fatal to the Sufficiency Thesis, and thus to the rational acceptability of so many scientific and common-sense, ordinary propositions. From this view, epistemic principles, such as the Sufficiency Thesis, which lead us to inconsistent sets of beliefs are bad principles. They are flawed. They ought not be used, and they don’t count as the appropriate epistemic principles by which to guide our lives. Rational acceptance cannot be built upon the Sufficiency Thesis, as the skeptic sees it, since it is a foundation of quicksand. If the skeptic is correct, the lesser criticism of the Lottery Paradox rules out the viability of the Sufficiency Thesis as a principle of rational acceptability, which further rules out the rational acceptability of the many sorts of practical, ordinary, and also scientific propositions we might normally think of as being rationally acceptable.
+
+On the other hand, the pragmatist employs a lower epistemic standard, defining rational acceptance in context. The pragmatist finds the Sufficiency Thesis suitable for many human contexts. The pragmatist recognizes that we must live our lives, sometimes make snap judgments, holding various beliefs which are not fully coordinated with each other, and that despite trying our best, we will not live up to the standard of epistemic perfection. But, that is okay! Inconsistent sets of beliefs are bad, but that doesn’t mean they aren’t rationally acceptable in all circumstances. The pragmatist does not see the lesser criticism of the Lottery Paradox as delivering a fatal blow to the Sufficiency Thesis and the propositions validated by it. The pragmatist allows for major flaws (flaws in the sense of the epistemic good) in our ordinary human contexts; he allows for believing inconsistent sets of propositions (in some cases); and he allows the Sufficiency Thesis to be less than perfect or maximally good. On the pragmatist’s view, the lesser criticism of the Lottery Paradox neither jeopardizes the viability of the Sufficiency Thesis nor the rational acceptability of so many ordinary and scientific propositions.
+
+I’m drawn to both perspectives. I honestly don’t see a way to defeat the skeptic’s position on his own turf, from within his context, using his standard. Admittedly, I hold some of these skeptical intuitions at certain times. From this perspective, I desire for rational acceptability to keep its purity and presumably simple universalizability.<<ref "12">> To deny the possibility that it is ever epistemically permissible to believe some set of propositions which necessarily can’t all be true at the same time prohibits the Sufficiency Thesis. The skeptical part of me buys into that. From the skeptical perspective, however, it would not be rationally acceptable to hold so many sets of ordinary or scientific propositions at the same time. I cannot buy into that. I am drawn away from my skeptical intuitions. The costs are too high. I must be practical. How else can I live my life? 
+
+Ultimately, I believe many propositions that are acceptable to hold by themselves without respect to absolutely all the other propositions I believe. Perhaps some of my beliefs cannot be true at the same time, and I just don’t yet realize it. That has to be okay. What other option did I have? Perhaps when I attempt to reconcile or agglomerate my various beliefs, I may realize that I have beliefs which oppose each other, and then, and maybe I am required to bracket those conflicting beliefs until I find a solution. Yet, I won’t always be in a position to reconcile my beliefs. Sometimes it really is acceptable for me to believe in a set of propositions which are logically inconsistent. Being as rational as I can, limitations and all, has to be acceptable. From the pragmatic point of view, what falls out of the Lottery Paradox is not a knock-down defeat of probabilistic rational acceptance. Instead, it is merely an example of our epistemic limitations as human beings. 
+
+Ordinary human beings who do the best they can with what they have are bound to have some individual beliefs which are inconsistent – this is acceptable though. We are not computers who can test all of our proposed beliefs against all the combinations of beliefs we already hold with perfect accuracy and logic in all cases. Perfect coherence is not something we can purposely guarantee or achieve. We can’t be expected to flawlessly coordinate every single belief with all of our other beliefs. We don’t have the energy, time, or capacity for epistemic perfection. We are fallible and limited, but this is not a strike against rational acceptability from the perspective of practical epistemic duty.
+
+Granted, it might take becoming like an unlimited computer to root out our deep-seated epistemic flaws that are somehow not acceptable by a golden standard of rationality. But, why should we be held accountable for achieving the impossible? These flaws, this lack of rationality, have to be normatively acceptable. The adage “ought implies can” comes to mind. In a perfect world, we would be fully capable of rooting out our conflicting beliefs, and thus we would have strong epistemic duties. But, in this world, we can’t always do that work, and so the normative epistemic expectations have to be lower and practical by necessity. It would not be fair to judge otherwise.
+
+''5.2''
+
+I submit we feel the pull of two standards of rational acceptability, the epistemic good and the epistemic right.<<ref "13">> There is a golden standard – the good. This is an objective standard of rational acceptability by which the skeptic evaluates all agents. Only ideal epistemic agents satisfy this supreme standard. From this standard, the Sufficiency Thesis is a failure, and the propositions it validates are not rationally acceptable. Ideal agents would never employ the Sufficiency Thesis, since ideal agents, by definition, never arrive at an inconsistent set of premises. What epistemic principle(s) an ideal agent would employ? I don’t know (I’m not an ideal agent), but whatever principle(s) an ideal agent would employ would live up to the epistemic good. It would be wrong for an ideal agent to not fully partake of the epistemic good. Importantly, this skeptic believes everyone, ideal and unideal agents alike, are to be judged by and are exclusively subject to the epistemic good. Humans are not ideal agents, and they are hopelessly lost and irrational by this standard. Very little of what we believe could be rationally acceptable. Hence, by solely employing the epistemic good as the standard of rational acceptability for all agents, a kind of skepticism concerning the epistemic lives of humans emerges.
+
+The pragmatist, however, uses a lower, contextualized epistemic standard for human beings. The pragmatist thinks the epistemic good is the standard of rational acceptance for only the most ideal epistemic agents. We, as finite human beings, are not ideal epistemic agents, and we fall short of the standard of epistemic good – we are fallible and limited. Is this fallibility, however, unacceptable? No, not really. Only the most ideal and unlimited epistemic agents could be appropriately judged by or subject to that standard. Of course, we can admit that fallibility is not the ideal. Our epistemic limitations are a bad thing (the opposite of good), but not necessarily the wrong thing (the opposite of right).
+
+The epistemic right, as a normative epistemic standard, like any decent ethical standard, must scale with context and ability. Proper judgment of rational acceptance relies upon “right,” not the “good.” What might be right or rationally acceptable for a child to infer might be the wrong for a developed adult, a being with more experience and resources, to infer. Further, what might be the right or rationally acceptable inference to make may turn out to be epistemically bad. Depending on the circumstances and agent in question, a belief may be rationally acceptable even if it is a bad one which doesn’t meet the more rigid standard of the epistemic good. Even the adults among us who come closest to satisfying or achieving the epistemic good are like children when compared to an unlimited, infallible machine, but this is acceptable. What other options do we have?
+
+The sort of rational acceptability we should really be concerned with is the kind directly tied to the epistemic right, and that means rational acceptability must be contextualized.<<ref "14">> Acceptability is a judgment, and the only way to make it fair would be to take into account our fallibility and mental limitations. From this perspective, it does seem as though it can be rationally acceptable to hold beliefs which cannot all be true at the same time. 
+
+In one sense, from the standpoint of the epistemic good, it is always rationally unacceptable to believe a set of logically inconsistent propositions (even when those beliefs are merely an uncoordinated heap of individual beliefs). From the perspective of the epistemic good, I think the skeptic is correct. The skeptic cannot let go of the epistemic good and refuses anything less, and I see the force behind that view. When asked, “What kind of epistemic agent do you want to be?” you should respond “a good one,” and not merely “a right one.”<<ref "15">> We want to be better than we are. We don’t want to be fallible or flawed, even when it is outside of our control. That desire is not insignificant. It is the reason we feel the pull of the skeptic’s position, and the reason the Lottery Paradox still seems paradoxical. 
+
+In another sense, however, from the standpoint of the epistemic right, a highly contextual standard, it can sometimes be rationally acceptable to believe logically inconsistent propositions. That might be all that we are capable of doing in many circumstances. It would be fair to say we are irrational against the standard of epistemic good, but that doesn’t mean we are irrational given our circumstances. We have to make do with what we have, and rational acceptance must be understood in that light. It is our epistemic duty to reconcile our beliefs into as coherent a set as realistically possible, but we are not accountable for our circumstantial limitations. The Sufficiency Thesis really does seem appropriate to so many contexts in which humans find themselves.
+
+''5.3''
+
+I fear that those who would continue to employ the Lottery Paradox as an argument against probabilistic rational acceptance, even in light of my claim that what falls out of the paradox is a lesser criticism, are tempted to hold us accountable to the standard of the epistemic good rather than the epistemic right. Surely this can’t be correct. If the epistemic good is the sole standard of rational acceptance, then we are lost, and I do not see hope for us as profoundly fallible creatures. Holding humans accountable solely to the epistemic good results in a kind of skepticism about our epistemic lives. Why should we accept that skepticism?
+
+Granted, the Lottery Paradox does seem to make the Sufficiency thesis appear paradoxical from the standpoint of the epistemic good. But, that’s part and parcel of accommodating fallibility and limited mental resources in probabilistic rational acceptance. To say that rationally acceptable inferences might still end up being incorrect is just to say that the right inferences aren’t always good inferences. Proponents of the Sufficiency thesis seem to be already comfortable with our fallibility and the notion that epistemic duty is disconnected from the good in a way that those who would continue to wield the Lottery Paradox as a weapon don’t seem to agree to. It is already built into the assumptions of someone who would ever be willing to go along with the Sufficiency thesis that there is a chance that rationally acceptable inferences turn out to lead us to believe falsehoods and an inconsistent set of complex beliefs. 
+
+The Sufficiency Thesis does sometimes result in a bad set of beliefs, but this is far from saying it yields the wrong kinds of inferences or the wrong set of beliefs in a given context. I fear that the skeptic misses the point of the Sufficiency Thesis. The aim of the Sufficiency Thesis is an attempt to give an ideal answer to a practical question concerning fallible and limited minds; it is a pragmatic normative thesis which tries to give an objective shape to something which is highly contextual. We need something to work with, and the epistemic good alone cannot be our practical standard.
+
+The Sufficiency Thesis is pragmatic, and it seeks the epistemic right, not the epistemic good. Detractors of the Sufficiency Thesis who apply the epistemic good (but not the right) perhaps need not employ the Lottery Paradox in the first place; rather he should just go after the root assumption, which is essentially a disagreement about fallibility and the merit of thinking about rational acceptability in terms of the epistemic right. The skeptic needs to establish why his standard, the epistemic good, is the correct standard for all agents, including humans.
+
+''5.4''
+
+The Lottery Paradox at first seems to be a direct threat to probabilistic rational acceptance. Upon closer inspection, however, we can see that the Lottery Paradox doesn’t yield as fatal a criticism of probabilistic rational acceptance as we might have initially thought. The Sufficiency Thesis does not result in validating contradictions, although it can result in validating inconsistent sets of propositions. Upon clarification, it seems that not all worries are defused. The approach of this paper highlights the underlying worry that probabilistic rational acceptance can lead to believing propositions which can’t all be true at the same time. In wrestling with the implications of this criticism, we can see a struggle between pragmatic and skeptical perspectives.
+
+Need we give into this skepticism? I hope not. Can and/or should we set the epistemic good aside and instead focus on the epistemic right? I hope so. If we can successfully set aside the epistemic good, even partially, then maybe we will be able to endure the real criticism which the Lottery Paradox yields. In any case, we have to try. It may be the only practical option.
+
+Considering the Lottery Paradox in terms of the epistemic good and epistemic right may be the best direction to move forward. The skeptic may force us to enter a pragmatic perspective, to go back to the drawing board, to think in the context of the epistemic right, and to redefine what counts as rationality for human beings.
+
+----------------
+
+<<footnotes "1" "Kyburg, Henry Ely. //Probability and the Logic of Rational Belief//. Middletown, Conn: Wesleyan University Press, 1961: 197">>
+<<footnotes "2" "Douven, Igor, and Timothy Williamson. 2006. 'Generalizing the Lottery Paradox.' //The British Journal for the Philosophy of Science//. 57, no. 4: 755">>
+<<footnotes "3" "Ibid., 755-756">>
+<<footnotes "4" "Ibid.">>
+<<footnotes "5" "Ibid.">>
+<<footnotes "6" "Although, it can evaluate the elements of a set of propositions, and perhaps indirectly, it can make a judgment about a set of propositions by iterating over all the set’s elements.">>
+<<footnotes "7" "Technically, the second principle may be redundant. The Lottery Paradox will show that the Sufficiency Thesis, with the help of the Union and Agglomeration Principles, validates and invalidates a contradiction. Further, it may be argued that the Sufficiency Thesis also invalidates members of a set, and if a member of a set is rationally unacceptable, then the entire set may be rationally unacceptable. ">>
+<<footnotes "8" "Epistemic Closure may sit behind it.">>
+<<footnotes "9" "If each of the propositions φ and ψ are rationally acceptable, so is (φ & ψ).">>
+<<footnotes "10" "Clearly, purely logical inferences are always upheld by the Sufficiency Thesis. If some set of assumptions have a probability of 1, then the conclusions deduced from those assumptions also have a probability of 1. Probabilistic inferences are different, since, in these cases, assumptions generally have a probability less than 1, and the conclusions inferred from those assumptions generally have a probability less than 1 as well. Truth preservation is lost in many cases of probabilistic inference. Yet, we can still say that all kinds of inferences, whether probabilistic or logical, could be validated by the Sufficiency Thesis.">>
+<<footnotes "11" "I’m bringing my bias to the table here. The skeptic is well within in his rights to hold his position (it has enormous force), but I do not wish to hold that position. ">>
+<<footnotes "12" "Contexts are messy and complicated, but note that particularist and semi-particularist theories need not deny universalizable norms.">>
+<<footnotes "13" "To some extent, I am borrowing the concepts of ‘right’ and ‘good’ from traditional Virtue ethics.">>
+<<footnotes "14" "I say 'directly' because the right is connected to the good, somehow. ">>
+<<footnotes "15" "Somewhat similar to achieving eudaimonia, which is much more than being virtuous.">>
+
+---------------
+
+''Bibliography''
+
+Douven, Igor, and Timothy Williamson. 2006. "Generalizing the Lottery Paradox". //The British Journal for the Philosophy of Science//. 57, no. 4
+
+Hawthorne, John. //Knowledge and Lotteries//. Oxford: Clarendon, 2004.
+
+Kyburg, Henry Ely. //Probability and the Logic of Rational Belief//. Middletown, Conn: Wesleyan University Press, 1961.
+
+Nelkin, Dana K. 2000. "The Lottery Paradox, Knowledge, and Rationality". //The Philosophical Review//. 109, no. 3

@@ -1,0 +1,59 @@
+created: 20180224145139868
+modified: 20181029175224781
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.02.24 - Computer Musings: Maintenance and Tweak
+
+Fsearch doesn't have the ability to update from commandline. E-mailed about this.
+
+<<<
+Hey Christian,
+
+Fsearch is a wonderful tool. Currently, it uses 500MB of RAM for me. That's kind of expensive for me, so I only turn it on when I need it. So, what I currently do is set auto-update when applications starts and run a cronjob:
+
+0 2 * * * fsearch &; sleep 4h; kill $!
+
+This keeps the database up to date for me. Then when I want to use Fsearch, I start it, open preferences, goto the database tab, uncheck update at start, click okay, close the application, and restart it. After I'm done using it, I recheck the update at start.
+
+Basically, I can't search while it is updating the database. With no sense of entitlement, I would like to request one of two features:
+
+1) Enable the user to search while it is updating
+2) Enable a CLI update command, something like: fsearch --update.
+
+The first sounds complicated, but the second might not be too bad. This would enable me to update without having to constantly change settings to use Fsearch.
+
+Anyways, thank you for hearing me out.
+
+Sincerely,
+
+h0p3
+<<<
+
+---
+
+Putting out fires on my wife's computer. I know she hates doing it.
+
+---
+
+Saved my reddit history. Did the edit-delete trick with Shreddit. I have my doubts it works except in the most public sense. That's better than nothing though.
+
+---
+
+Setup syncs post my rm-fucktardedness =). 
+
+---
+
+Umm...My VMWare problem that I worked on for quite a while just...disappeared. It was solved from my last update. I have absolutely no idea why. Thank the maker!
+
+Converting vbox VMs to ova's then transfering to VMware. Also, setup `/VMs` on root SSD. Fuck it. I have the space, and I should.
+
+---
+
+I've setup qbittorrent and shadowsocks-qt5 on HTPC. Setup webui for the LAN and a watch folder that is Resilio synced. Very reachable. The idea is to let the seedbox do all of the heavy lifting for generating ratio and automated work. But, we won't burden it with stuff we want to download directly. Good news is that we're proxied behind the seedbox anyways. Bad news is that it doesn't appear we can seed. Will check before I let the family use it.
+
+---
+
+Setup encrypted backups of our files on wife's work computer.
+
+Setup Lubuntu on wife's work computer in Virtualbox. Autostart headless. Connected to vpncloud.rs network, so we can SSH in behind the NAT. Very nice!
+

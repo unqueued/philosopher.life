@@ -1,0 +1,15 @@
+caption: From
+created: 20191016230737953
+modified: 20191017000535346
+tags: Timelines
+title: FTO: From
+
+<div class="tc-menu-list-item">
+<$list filter="[!is[system]!prefix[Hidden:]!tag[Hidden]!tag[no-recent]tag[Letter]tag[From]!nsort[created]]">
+<div class="tc-menu-list-subitem">
+<$link to={{!!title}}>
+<$view field="title"/>
+</$link>
+</div>
+</$list>
+</div>

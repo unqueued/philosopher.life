@@ -1,0 +1,43 @@
+created: 20180116155049937
+modified: 20190322042040864
+modifier: h0p3
+revision: 0
+tags: [[Wiki Review]]
+title: 2018.01.16 - Wiki Review Log: Rustaceans
+
+* [[2018.01.15 - h0p3's Log: My Son]]
+** Edited.
+* [[Rust: borrow_reference_slice]]
+** That was a damned good video. I see that guy's name popping up a lot too.
+* [[Rust: Effective Borrowing]]
+** This section is not complete. I want to build something that my daughter can use to easily jump the hurdle of Rust.<<ref "2019.03.22">>
+* [[Rust: Unsafe Optimization]]
+** I'm interested when it is correct or simply too delicious to use the unsafe side of Rust
+* [[Rust: Safe Optimization]]
+** I want this to be bread and butter.
+* [[Rust: remove_vowel]]
+** I clearly have much to learn.
+* [[nvim]]
+** Needs work
+* [[.nvimrc]]
+** Y u no work, copy?
+* [[2018.01.15 - Computer Musings: nvim and Rust]]
+** Oopsed a title.
+* [[2018.01.15 - Rust]]
+** I'm very much enjoying it.
+* [[Rust]]
+** A solid foundation for one day.
+* [[2018.01.15 - Prompted Introspection Log: Trash Money]]
+** Samunwise.<<ref "2019.03.22-1">>
+* [[2018.01.15 - Wiki Review Log: CS]]
+** lol, it's okay that we've stopped on Invisign. My vision is clearer.
+* [[2018.01.15 - Carpe Diem Log: Rust]]
+** Seized as fuck.
+* [[2018.01.15 - To-Do-List Log: j3d1h's CS Path]]
+** Good. I like how I make the list the night before. I want to continue doing that.
+
+
+---
+<<footnotes "2019.03.22" "epic fail =(">>
+
+<<footnotes "2019.03.22-1" "Lol. Why didn't I keep this in the [[Prompted Introspection]]. Fixed.">>

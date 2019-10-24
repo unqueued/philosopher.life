@@ -1,0 +1,711 @@
+aliases: [[.i3/config]]
+created: 20190711112339123
+modified: 20190826155617841
+tags: dotfiles i3
+title: dotfiles: .i3/config
+type: text/plain
+
+# i3 config file (v4) 
+#################################################################################
+##        ,,               AW                               ,...,,             ##
+##        db              ,M'                             .d' ""db             ##
+##                        MV                              dM`                  ##
+##      `7MM  pd""b.     AW ,p6"bo   ,pW"Wq.`7MMpMMMb.   mMMmm`7MM  .P"Ybmmm   ##
+##        MM (O)  `8b   ,M'6M'  OO  6W'   `Wb MM    MM    MM    MM :MI  I8     ##
+##        MM      ,89   MV 8M       8M     M8 MM    MM    MM    MM  WmmmP"     ##
+##   ,,   MM    ""Yb.  AW  YM.    , YA.   ,A9 MM    MM    MM    MM 8M          ##
+##   db .JMML.     88 ,M'   YMbmd'   `Ybmd9'.JMML  JMML..JMML..JMML.YMMMMMb    ##
+##           (O)  .M' MV                                           6'     dP   ##
+##            bmmmd' AW                                            Ybmmmd'     ##
+##                                                                             ##
+#################################################################################
+##                                                                             ## 
+##   /home/h0p3/.i3/config                                                     ##
+##   Please see http://i3wm.org/docs/userguide.html for a complete reference!  ##
+##                                                                             ##
+##.i3/config#####################################################################
+
+### Set Variables
+
+# set mod key (Mod1=<Alt>, Mod4=<Super>) -- you can sub Mod1 in for $mod.
+set $mod Mod4
+
+# set workspace names
+set $wsgrave 0:/b/
+set $ws1 1:Wiki
+set $ws2 2:Web
+set $ws3 3:Files
+set $ws4 4:Text
+set $ws5 5:Stage⑤
+set $ws6 6:Stage⑥
+set $ws7 7:Virtualized
+set $ws8 8:Sound
+set $ws9 9:Public Chat
+set $ws0 10:Private Chat
+set $wsS2 S2:Second Screen
+
+# set terminal emulator (or through /etc/environment [e.g. TERMINAL=terminator])
+set $TERMINAL terminator -p h0p3
+
+### Babby's Fundamentals
+
+# start a terminal
+bindsym $mod+Return exec $TERMINAL
+bindsym $mod+Ctrl+t exec $TERMINAL
+
+# kill focused window
+bindsym $mod+Shift+q kill
+bindsym $mod+F4 kill
+
+# rofi launch menu
+bindsym $mod+d exec --no-startup-id rofi -terminal terminator -show run -modi run#window -theme Monokai -show-icons -sidebar-mode
+
+
+########################################################
+##                                                    ## 
+##   `7MM"""YMM                                       ##
+##     MM    `7                                       ##
+##     MM   d  ,pW"Wq.   ,p6"bo `7MM  `7MM  ,pP"Ybd   ##
+##     MM""MM 6W'   `Wb 6M'  OO   MM    MM  8I   `"   ##
+##     MM   Y 8M     M8 8M        MM    MM  `YMMMa.   ##
+##     MM     YA.   ,A9 YM.    ,  MM    MM  L.   I8   ##
+##   .JMML.    `Ybmd9'   YMbmd'   `Mbod"YML.M9mmmP'   ## 
+##                                                    ## 
+##Focus#################################################
+
+### Focused: [j,k,l,;] or [arrow keys]
+
+# change focus with 
+bindsym $mod+j focus left
+bindsym $mod+k focus down
+bindsym $mod+l focus up
+bindsym $mod+semicolon focus right
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# move focused window
+bindsym $mod+Shift+j move left
+bindsym $mod+Shift+k move down
+bindsym $mod+Shift+l move up
+bindsym $mod+Shift+semicolon move right
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# change focus between tiling / floating windows
+bindsym $mod+space focus mode_toggle
+
+# toggle sticky
+bindsym $mod+Shift+s sticky toggle
+
+# focus the parent container
+bindsym $mod+a focus parent
+
+# Browser Tab Navigation Emulation: Ctl+Tab "Focus" shift
+bindsym $mod+Tab focus right
+bindsym $mod+Shift+Tab focus left
+
+
+#################################################################
+##                                                             ##
+##   `7MMF'                                            mm      ##
+##     MM                                              MM      ##
+##     MM         ,6"Yb.`7M'   `MF',pW"Wq.`7MM  `7MM mmMMmm    ##
+##     MM        8)   MM  VA   ,V 6W'   `Wb MM    MM   MM      ##
+##     MM      ,  ,pm9MM   VA ,V  8M     M8 MM    MM   MM      ##
+##     MM     ,M 8M   MM    VVV   YA.   ,A9 MM    MM   MM      ##
+##   .JMMmmmmMMM `Moo9^Yo.  ,V     `Ybmd9'  `Mbod"YML. `Mbmo   ##
+##                         ,V                                  ##
+##                      OOb"                                   ##
+##                                                             ##
+##Layout#########################################################
+
+# Workspace to screen layout
+workspace "0:/b/" output HDMI-0
+workspace "1:Wiki" output HDMI-0
+workspace "2:Web" output HDMI-0
+workspace "3:Files" output HDMI-0
+workspace "4:Text" output HDMI-0
+workspace "5:Stage⑤" output HDMI-0
+workspace "6:Stage⑥" output HDMI-0
+workspace "7:Virtualized" output HDMI-0
+workspace "8:Sound" output HDMI-0
+workspace "9:Public Chat" output HDMI-0
+workspace "10:Private Chat" output HDMI-0
+workspace "S2:Second Screen" output HDMI-1
+
+# split orientation
+bindsym $mod+h split h;exec notify-send 'tile horizontally'
+bindsym $mod+v split v;exec notify-send 'tile vertically'
+bindsym $mod+q split toggle
+
+# toggle fullscreen mode for the focused container
+bindsym $mod+f fullscreen toggle
+
+# change container layout (stacked, tabbed, toggle split)
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+bindsym $mod+x layout toggle all
+
+# toggle tiling / floating
+bindsym $mod+Shift+space floating toggle
+
+# Open specific applications in floating mode
+for_window [title="alsamixer"] floating enable border pixel 1
+for_window [class="calamares"] floating enable border normal
+for_window [class="Clipgrab"] floating enable
+for_window [title="File Transfer*"] floating enable
+for_window [class="Galculator"] floating enable border pixel 1
+for_window [class="GParted"] floating enable border normal
+for_window [title="i3_help"] floating enable sticky enable border normal
+for_window [class="Lightdm-settings"] floating enable
+for_window [class="Lxappearance"] floating enable sticky enable border normal
+for_window [class="Manjaro-hello"] floating enable
+for_window [class="Manjaro Settings Manager"] floating enable border normal
+for_window [title="MuseScore: Play Panel"] floating enable
+for_window [class="Nitrogen"] floating enable sticky enable border normal
+for_window [class="Oblogout"] fullscreen enable
+for_window [class="octopi"] floating enable
+for_window [title="About Pale Moon"] floating enable
+for_window [class="Pamac-manager"] floating enable
+for_window [class="Pavucontrol"] floating enable
+for_window [class="qt5ct"] floating enable sticky enable border normal
+for_window [class="Qtconfig-qt4"] floating enable sticky enable border normal
+for_window [class="Simple-scan"] floating enable border normal
+for_window [class="(?i)System-config-printer.py"] floating enable border normal
+for_window [class="Skype"] floating enable border normal
+for_window [class="Timeset-gui"] floating enable border normal
+#for_window [class="(?i)virtualbox"] floating enable border normal
+for_window [class="Xfburn"] floating enable
+for_window [class="explorer.exe" title="Default - Wine desktop"] floating enable border normal
+
+
+
+##################################################################################################
+##                                                                                              ##
+##   `7MMF'     A     `7MF'            `7MM                                                     ##
+##     `MA     ,MA     ,V                MM                                                     ##
+##      VM:   ,VVM:   ,V ,pW"Wq.`7Mb,od8 MM  ,MP',pP"Ybd `7MMpdMAo.  ,6"Yb.  ,p6"bo   .gP"Ya    ##
+##       MM.  M' MM.  M'6W'   `Wb MM' "' MM ;Y   8I   `"   MM   `Wb 8)   MM 6M'  OO  ,M'   Yb   ##
+##       `MM A'  `MM A' 8M     M8 MM     MM;Mm   `YMMMa.   MM    M8  ,pm9MM 8M       8M""""""   ##
+##        :MM;    :MM;  YA.   ,A9 MM     MM `Mb. L.   I8   MM   ,AP 8M   MM YM.    , YM.    ,   ##
+##         VF      VF    `Ybmd9'.JMML. .JMML. YA.M9mmmP'   MMbmmd'  `Moo9^Yo.YMbmd'   `Mbmmd'   ##
+##                                                         MM                                   ##
+##                                                       .JMML.                                 ## 
+##                                                                                              ##
+##Workspace#######################################################################################
+
+# navigate workspaces next / previous
+bindsym $mod+Ctrl+Right workspace next
+bindsym $mod+Ctrl+Left workspace prev
+bindsym $mod+Ctrl+j workspace prev
+bindsym $mod+Ctrl+semicolon workspace next
+
+# switch to workspace
+bindsym $mod+grave workspace $wsgrave
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+bindsym $mod+0 workspace $ws0
+bindsym $mod+minus workspace $wsS2
+
+# Move focused container to workspace
+bindsym $mod+Ctrl+grave move container to workspace $wsgrave
+bindsym $mod+Ctrl+1 move container to workspace $ws1
+bindsym $mod+Ctrl+2 move container to workspace $ws2
+bindsym $mod+Ctrl+3 move container to workspace $ws3
+bindsym $mod+Ctrl+4 move container to workspace $ws4
+bindsym $mod+Ctrl+5 move container to workspace $ws5
+bindsym $mod+Ctrl+6 move container to workspace $ws6
+bindsym $mod+Ctrl+7 move container to workspace $ws7
+bindsym $mod+Ctrl+8 move container to workspace $ws8
+bindsym $mod+Ctrl+9 move container to workspace $ws9
+bindsym $mod+Ctrl+0 move container to workspace $ws0
+bindsym $mod+Ctrl+minus move container to workspace $wsS2
+
+# Move to workspace with focused container
+bindsym $mod+Shift+grave move container to workspace $wsgrave; workspace $wsgrave
+bindsym $mod+Shift+1 move container to workspace $ws1; workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2; workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3; workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4; workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5; workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6; workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7; workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9; workspace $ws9
+bindsym $mod+Shift+0 move container to workspace $ws0; workspace $ws0
+bindsym $mod+Shift+minus move container to workspace $wsS2; workspace $wsS2
+
+# workspace back and forth (with/without active container)
+workspace_auto_back_and_forth yes
+bindsym $mod+b workspace back_and_forth
+bindsym $mod+Shift+b move container to workspace back_and_forth; workspace back_and_forth
+
+# switch to workspace with urgent window automatically
+#for_window [urgent=latest] focus
+### The Scratchpad
+
+# move the currently focused window to the scratchpad
+#bindsym $mod+Shift+minus move scratchpad
+
+# Show the next scratchpad window or hide the focused scratchpad window.
+# If there are multiple scratchpad windows, this command cycles through them.
+#bindsym $mod+minus scratchpad show
+
+
+########################################################################
+##                                                                    ##
+##   `7MMF'  `7MMF'         mm   `7MM                                 ##
+##     MM      MM           MM     MM                                 ##
+##     MM      MM  ,pW"Wq.mmMMmm   MM  ,MP'.gP"Ya   .gP"Ya  M"""MMV   ##
+##     MMmmmmmmMM 6W'   `Wb MM     MM ;Y  ,M'   Yb ,M'   Yb '  AMV    ##
+##     MM      MM 8M     M8 MM     MM;Mm  8M"""""" 8M""""""   AMV     ##
+##     MM      MM YA.   ,A9 MM     MM `Mb.YM.    , YM.    ,  AMV  ,   ##
+##   .JMML.  .JMML.`Ybmd9'  `Mbmo.JMML. YA.`Mbmmd'  `Mbmmd' AMMmmmM   ##
+##                                                                    ##
+##Hotkeez##Hotkeys###################################################### 
+
+# TEST HOTKEY
+#bindsym $mod+Ctrl+Shift+t exec "sleep 2; mousepad"
+bindsym $mod+Ctrl+Shift+t exec /home/h0p3/scripts/test.py
+
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r restart
+
+# reload the configuration file
+bindsym $mod+Shift+c reload
+
+# Activate Scripts
+bindsym $mod+Ctrl+e exec /home/h0p3/scripts/wikiaudit.py
+bindsym $mod+Ctrl+w exec /home/h0p3/scripts/wikireview.py
+bindsym $mod+Ctrl+q exec /home/h0p3/scripts/sanitize-clipboard.xsh
+bindsym $mod+Ctrl+i exec /home/h0p3/scripts/invisicode.py
+
+# Firefox Copy Page URL
+bindsym Ctrl+Shift+z exec /home/h0p3/scripts/ff_url_copy.xsh
+
+# Media Control (MPRIS/playerctl)
+bindsym --release XF86AudioPlay exec playerctl play-pause
+
+#######NOT WORKING
+#bindsym XF86AudioRaiseVolume exec "amixer -q set Master 5%+ unmute"
+#bindsym XF86AudioLowerVolume exec "amixer -q set Master 5%- unmute"
+#bindsym --release XF86AudioMute exec "amixer -q set Master mute"
+bindsym --release XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume `pacmd list-sinks | awk '/* index:/{print $3}'` +5%
+bindsym --release XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume `pacmd list-sinks | awk '/* index:/{print $3}'` -5%
+bindsym --release XF86AudioMute exec --no-startup-id pactl set-sink-mute `pacmd list-sinks | awk '/* index:/{print $3}'` toggle
+
+
+# ASCII/Unicode Art
+#bindsym --release $mod+n exec xdotool type --clearmodifiers --window $(xdotool getwindowfocus) '¯\_(ツ)_/¯'
+bindsym --release $mod+n exec /home/h0p3/scripts/xdohack.xsh
+
+# Start Applications
+bindsym $mod+F1 exec --no-startup-id firefox-developer-edition
+bindsym $mod+F2 exec --no-startup-id dolphin
+bindsym $mod+Shift+F2 exec sudo pcmanfm
+bindsym $mod+F3 exec --no-startup-id subl
+bindsym $mod+Shift+F3 exec sudo mousepad
+bindsym $mod+Ctrl+m exec pavucontrol
+
+# Leave these alone
+bindsym $mod+t exec --no-startup-id pkill compton
+bindsym $mod+Ctrl+Shift+c exec --no-startup-id compton -b
+bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
+bindsym Print exec --no-startup-id i3-scrot
+bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
+bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
+
+#restart bob
+bindsym $mod+Shift+e exec --no-startup-id /home/h0p3/scripts/rebob
+
+#############################################################
+##                                   ,,                    ##        
+##   `7MMM.     ,MMF'              `7MM                    ##
+##     MMMb    dPMM                  MM                    ##
+##     M YM   ,M MM  ,pW"Wq.    ,M""bMM  .gP"Ya  ,pP"Ybd   ##
+##     M  Mb  M' MM 6W'   `Wb ,AP    MM ,M'   Yb 8I   `"   ##
+##     M  YM.P'  MM 8M     M8 8MI    MM 8M"""""" `YMMMa.   ##
+##     M  `YM'   MM YA.   ,A9 `Mb    MM YM.    , L.   I8   ##
+##   .JML. `'  .JMML.`Ybmd9'   `Wbmd"MML.`Mbmmd' M9mmmP'   ##
+##                                                         ##    
+##Modes######################################################
+
+### Tips
+#### -use binding modes in combination with [variables] in order to make maintenance easier
+
+### Set shut down, restart and locking features
+bindsym $mod+Escape mode "$mode_system"
+set $mode_system (l)ock, (e)xit, switch_(u)ser, (s)uspend, (h)ibernate, (r)eboot, (Shift+s)hutdown
+mode "$mode_system" {
+    bindsym l exec --no-startup-id i3exit lock, mode "default"
+    bindsym s exec --no-startup-id i3exit suspend, mode "default"
+    bindsym u exec --no-startup-id i3exit switch_user, mode "default"
+    bindsym e exec --no-startup-id i3exit logout, mode "default"
+    bindsym h exec --no-startup-id i3exit hibernate, mode "default"
+    bindsym r exec --no-startup-id i3exit reboot, mode "default"
+    bindsym Shift+s exec --no-startup-id i3exit shutdown, mode "default"
+
+    # exit system mode: "Enter" or "Escape"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+### Resize window (you can also use the mouse for that)
+bindsym $mod+r mode "resize"
+mode "resize" {
+    # These bindings trigger as soon as you enter the resize mode
+    # Pressing left will shrink the window’s width.
+    # Pressing right will grow the window’s width.
+    # Pressing up will shrink the window’s height.
+    # Pressing down will grow the window’s height.
+    bindsym j resize shrink width 5 px or 5 ppt
+    bindsym k resize grow height 5 px or 5 ppt
+    bindsym l resize shrink height 5 px or 5 ppt
+    bindsym semicolon resize grow width 5 px or 5 ppt
+
+    # same bindings, but for the arrow keys
+    bindsym Left resize shrink width 1 px or 1 ppt
+    bindsym Down resize grow height 1 px or 1 ppt
+    bindsym Up resize shrink height 1 px or 1 ppt
+    bindsym Right resize grow width 1 px or 1 ppt
+
+    # exit resize mode: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+
+################################################################################################
+##                                                                                            ##
+##         db                 mm                      mm                       mm             ##
+##        ;MM:                MM                      MM                       MM             ##
+##       ,V^MM.  `7MM  `7MM mmMMmm ,pW"Wq.  ,pP"Ybd mmMMmm  ,6"Yb.  `7Mb,od8 mmMMmm ,pP"Ybd   ##
+##      ,M  `MM    MM    MM   MM  6W'   `Wb 8I   `"   MM   8)   MM    MM' "'   MM   8I   `"   ##
+##      AbmmmqMA   MM    MM   MM  8M     M8 `YMMMa.   MM    ,pm9MM    MM       MM   `YMMMa.   ##
+##     A'     VML  MM    MM   MM  YA.   ,A9 L.   I8   MM   8M   MM    MM       MM   L.   I8   ##
+##   .AMA.   .AMMA.`Mbod"YML. `Mbmo`Ybmd9'  M9mmmP'   `Mbmo`Moo9^Yo..JMML.     `MbmoM9mmmP'   ##
+##                                                                                            ##
+##Autostarts####################################################################################
+
+# Go-go-gadget Muh Workspace Materials
+exec --no-startup-id i3-msg 'workspace 9:Public Chat; exec discord'
+exec --no-startup-id i3-msg 'workspace 0:Private Chat; exec signal-desktop'
+exec --no-startup-id i3-msg 'workspace 0:Private Chat; exec qtox'
+#exec --no-startup-id i3-msg 'workspace 9:Public Chat; exec hexchat'
+#exec --no-startup-id i3-msg 'workspace 9:Public Chat; exec telegram-desktop'
+exec --no-startup-id i3-msg 'workspace 0:Private Chat; exec pidgin'
+exec --no-startup-id i3-msg 'workspace 1:Wiki; exec chromium'
+exec --no-startup-id i3-msg 'workspace 1:Wiki; exec firefox'
+#exec --no-startup-id i3-msg 'workspace 2:Web; exec firefox-developer-edition'
+exec --no-startup-id i3-msg 'workspace 4:Text; exec subl'
+exec --no-startup-id i3-msg 'workspace 8:Sound; exec deadbeef'
+#exec --no-startup-id i3-msg 'workspace 8:Sound; exec vlc'
+#exec --no-startup-id i3-msg 'workspace 8:Sound; exec com.github.geigi.cozy'
+exec --no-startup-id i3-msg 'workspace 3:Files; exec dolphin'
+
+# Autostart System Components
+exec --no-startup-id xset r rate 250 150
+exec --no-startup-id xset s off
+exec --no-startup-id xset -dpms
+exec --no-startup-id nm-applet
+exec --no-startup-id clipit
+exec --no-startup-id dunst
+#exec --no-startup-id conky -c /usr/share/conky/conky_shortcuts
+exec --no-startup-id conky -c /usr/share/conky/conky
+
+# Open applications on specific workspaces (Use i3-window-criteria.sh for help)
+#assign [class="(?i)virtualbox"] $ws7
+#assign [class="(?i)dolphin$" instance="(?i)dolphin$" title="(?i)Dolphin$"] $ws3
+#assign [class="(?i)sublime_text$" instance="(?i)sublime_text$" title="(?i)Sublime Text 2$"] $ws4
+#assign [class="(?i)Gedit$" instance="(?i)gedit$" title="(?i)gedit$"] $ws4
+assign [class="(?i)Deadbeef$" instance="(?i)deadbeef$" title="(?i)DeaDBeeF-0.7.2$"] $ws8
+#assign [class="(?i)Com.github.geigi.cozy$" instance="(?i)com.github.geigi.cozy$" title="(?i)com.github.geigi.cozy$"] $ws8
+#assign [class="(?i)Hexchat$" instance="(?i)hexchat$" title="(?i)HexChat$"] $ws9
+assign [class="(?i)discord$" instance="(?i)discord$" title="(?i)Discord$"] $ws9
+assign [class="(?i)discord$" instance="(?i)discord$" title="(?i)Discord Updater$"] $ws9
+assign [class="(?i)Signal$" instance="(?i)signal$" title="(?i)Signal$"] $ws0
+assign [class="(?i)Pidgin$" instance="(?i)Pidgin$" title="(?i)Buddy List$"] $ws0
+assign [class="(?i)qTox$" instance="(?i)qtox$" title="(?i)qTox$"] $ws0
+assign [class="(?i)TelegramDesktop$" instance="(?i)telegram-desktop$" title="(?i)Telegram$"] $ws9
+
+# The Big Layout Autostart Script
+#exec /home/h0p3/scripts/i3-layout-autostart.sh
+#exec --no-startup-id /home/h0p3/scripts/autostarts.sh
+
+#start manjaro xfce vm
+#exec --no-startup-id VBoxManage startvm Arch-Home-VPS --type headless
+
+#########################################################
+##                         ,,                          ##
+##     .g8""8q.     mm   `7MM                          ##
+##   .dP'    `YM.   MM     MM                          ##
+##   dM'      `MM mmMMmm   MMpMMMb.  .gP"Ya `7Mb,od8   ##
+##   MM        MM   MM     MM    MM ,M'   Yb  MM' "'   ##
+##   MM.      ,MP   MM     MM    MM 8M""""""  MM       ##
+##   `Mb.    ,dP'   MM     MM    MM YM.    ,  MM       ##
+##     `"bmmd"'     `Mbmo.JMML  JMML.`Mbmmd'.JMML.     ##
+##                                                     ##
+##Other##################################################
+
+### Appearances, Borders, Font
+
+# Configure border style <normal|1pixel|pixel xx|none|pixel>
+new_window pixel 1
+new_float normal
+
+# Hide borders
+hide_edge_borders none
+
+# change borders
+bindsym $mod+u border none
+bindsym $mod+y border pixel 1
+bindsym $mod+n border normal
+
+# Font for window titles. Will also be used by the bar unless a different font
+# is used in the bar {} block below.
+font pango:Noto 11
+
+
+#############################################################
+##                                                         ##
+##   `7MMM.     ,MMF'                                      ##
+##     MMMb    dPMM                                        ##
+##     M YM   ,M MM  ,pW"Wq.`7MM  `7MM  ,pP"Ybd  .gP"Ya    ##
+##     M  Mb  M' MM 6W'   `Wb MM    MM  8I   `" ,M'   Yb   ##
+##     M  YM.P'  MM 8M     M8 MM    MM  `YMMMa. 8M""""""   ##
+##     M  `YM'   MM YA.   ,A9 MM    MM  L.   I8 YM.    ,   ##
+##   .JML. `'  .JMML.`Ybmd9'  `Mbod"YML.M9mmmP'  `Mbmmd'   ##
+##                                                         ##
+##Mouse######################################################
+
+### Tips:
+#### -bindsym [--release] [--border] [--whole-window] [--exclude-titlebar] [<Modifiers>+]button<n> command
+
+focus_follows_mouse yes
+
+# Use Mouse+$mod to drag floating windows
+floating_modifier $mod
+
+# click to kill
+bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
+
+
+###################################################
+##     ,,          ,,                            ##
+##     db         *MM                            ##
+##                 MM                            ##
+##   `7MM  pd""b.  MM,dMMb.   ,6"Yb.  `7Mb,od8   ##
+##     MM (O)  `8b MM    `Mb 8)   MM    MM' "'   ##
+##     MM      ,89 MM     M8  ,pm9MM    MM       ##
+##     MM    ""Yb. MM.   ,M9 8M   MM    MM       ##
+##   .JMML.     88 P^YbmdP'  `Moo9^Yo..JMML.     ##
+##        (O)  .M'                               ##
+##         bmmmd'                                ##
+##                                               ##
+##i3bar############################################
+
+### Start i3bar to display a workspace bar (plus the system information i3status if available)
+bar {
+    i3bar_command i3bar
+    #status_command i3status
+    status_command exec /home/h0p3/scripts/i3-net-speed.sh
+    position top
+
+### please set your primary output first. Example: 'xrandr --output eDP1 --primary'
+#   tray_output primary
+#   tray_output eDP1
+    #xrandr --output HDMI-0 --primary
+    bindsym button4 nop
+    bindsym button5 nop
+    font pango:Noto 12
+    strip_workspace_numbers yes
+
+    colors {
+        background #222D31
+        statusline #66ff66
+        separator  #454947
+
+        #                  border  backgr. text
+        focused_workspace  #F9FAF9 #16a085 #292F34
+        active_workspace   #595B5B #353836 #FDF6E3
+        inactive_workspace #595B5B #222D31 #EEE8D5
+        binding_mode       #16a085 #2C2C2C #F9FAF9
+        urgent_workspace   #16a085 #FDF6E3 #E5201D
+    }
+}
+
+### Theme colors
+# class                   border  backgr. text    indic.   child_border
+# client.focused          #556064 #556064 #80FFF9 #FDF6E3
+  client.focused          #66ff66 #556064 #80FFF9 #FDF6E3
+  client.focused_inactive #2F3D44 #2F3D44 #1ABC9C #454948
+  client.unfocused        #2F3D44 #2F3D44 #1ABC9C #454948
+  client.urgent           #CB4B16 #FDF6E3 #1ABC9C #268BD2
+  client.placeholder      #000000 #0c0c0c #ffffff #000000 
+  client.background       #2B2C2B
+
+
+###############################################################  
+##    ,,                                                     ##
+##    db                                                     ##
+##                                                           ##
+##  `7MM  pd""b.        .P"Ybmmm ,6"Yb. `7MMpdMAo. ,pP"Ybd   ##
+##    MM (O)  `8b      :MI  I8  8)   MM   MM   `Wb 8I   `"   ##
+##    MM      ,89 mmmmm WmmmP"   ,pm9MM   MM    M8 `YMMMa.   ##
+##    MM    ""Yb.      8M       8M   MM   MM   ,AP L.   I8   ##
+##  .JMML.     88       YMMMMMb `Moo9^Yo. MMbmmd'  M9mmmP'   ##
+##       (O)  .M'      6'     dP          MM                 ##
+##        bmmmd'       Ybmmmd'          .JMML.               ##  
+##                                                           ##
+##i3-gaps######################################################
+
+# Set inner/outer gaps
+gaps inner 14
+gaps outer -2
+
+# Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
+# gaps inner|outer current|all set|plus|minus <px>
+# gaps inner all set 10
+# gaps outer all plus 5
+
+# Smart gaps (gaps used if only more than one container on the workspace)
+smart_gaps on
+
+# Smart borders (draw borders around container only if it is not the only container on this workspace) 
+# on|no_gaps (on=always activate and no_gaps=only activate if the gap size to the edge of the screen is 0)
+smart_borders on
+
+# Press $mod+Shift+g to enter the gap mode. Choose o or i for modifying outer/inner gaps. Press one of + / - (in-/decrement for current workspace) or 0 (remove gaps for current workspace). If you also press Shift with these keys, the change will be global for all workspaces.
+set $mode_gaps Gaps: (o) outer, (i) inner
+set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
+set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
+bindsym $mod+Shift+g mode "$mode_gaps"
+
+mode "$mode_gaps" {
+        bindsym o      mode "$mode_gaps_outer"
+        bindsym i      mode "$mode_gaps_inner"
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+mode "$mode_gaps_inner" {
+        bindsym plus  gaps inner current plus 5
+        bindsym minus gaps inner current minus 5
+        bindsym 0     gaps inner current set 0
+
+        bindsym Shift+plus  gaps inner all plus 5
+        bindsym Shift+minus gaps inner all minus 5
+        bindsym Shift+0     gaps inner all set 0
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+mode "$mode_gaps_outer" {
+        bindsym plus  gaps outer current plus 5
+        bindsym minus gaps outer current minus 5
+        bindsym 0     gaps outer current set 0
+
+        bindsym Shift+plus  gaps outer all plus 5
+        bindsym Shift+minus gaps outer all minus 5
+        bindsym Shift+0     gaps outer all set 0
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+
+#######################################################################
+##                                                             ,,    ##
+##  `7MMF'   `7MF'                                           `7MM    ##
+##    MM       M                                               MM    ##
+##    MM       M `7MMpMMMb.`7MM  `7MM  ,pP"Ybd  .gP"Ya    ,M""bMM    ##
+##    MM       M   MM    MM  MM    MM  8I   `" ,M'   Yb ,AP    MM    ##
+##    MM       M   MM    MM  MM    MM  `YMMMa. 8M"""""" 8MI    MM    ##
+##    YM.     ,M   MM    MM  MM    MM  L.   I8 YM.    , `Mb    MM    ##
+##     `bmmmmd"' .JMML  JMML.`Mbod"YML.M9mmmP'  `Mbmmd'  `Wbmd"MML.  ##
+##                                                                   ##
+##Unused###############################################################
+
+### General
+# set default desktop layout (default is tiling)
+#workspace_layout tabbed <stacking|tabbed>
+
+# Set terminal emulator through /etc/environment (e.g. TERMINAL=terminator)
+#set $TERMINAL i3-sensible-terminal
+
+# exit i3 (logs you out of your X session)
+#bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+
+# get help!
+#bindsym $mod+Shift+h exec xdg-open /usr/share/doc/manjaro/i3_help.pdf
+
+# Lock screen
+#bindsym $mod+9 exec --no-startup-id blurlock
+
+# hide/unhide i3status bar
+#bindsym $mod+m bar mode toggle
+
+# Junk
+#bindsym $mod+F3 exec ranger
+#bindsym $mod+F5 exec terminal -e 'mocp'
+
+### Sound
+#exec --no-startup-id volumeicon
+#bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
+#exec --no-startup-id alsamixer
+#exec --no-startup-id pulseaudio
+
+### Screen brightness controls
+#bindsym XF86MonBrightnessUp exec "xbacklight -inc 10; notify-send 'brightness up'"
+#bindsym XF86MonBrightnessDown exec "xbacklight -dec 10; notify-send 'brightness down'"
+
+### Autostarts
+#exec --no-startup-id manjaro-hello
+#exec --no-startup-id blueman-applet
+#exec_always --no-startup-id sbxkb
+
+### Color palette used for the terminal ( ~/.Xresources file )
+# Colors are gathered based on the documentation:
+# https://i3wm.org/docs/userguide.html#xresources
+# Change the variable name at the place you want to match the color
+# of your terminal like this:
+# [example]
+# If you want your bar to have the same background color as your 
+# terminal background change:
+# background #14191D
+# to:
+# background $term_background
+# Same logic applied to everything else.
+#set_from_resource $term_background background
+#set_from_resource $term_foreground foreground
+#set_from_resource $term_color0     color0
+#set_from_resource $term_color1     color1
+#set_from_resource $term_color2     color2
+#set_from_resource $term_color3     color3
+#set_from_resource $term_color4     color4
+#set_from_resource $term_color5     color5
+#set_from_resource $term_color6     color6
+#set_from_resource $term_color7     color7
+#set_from_resource $term_color8     color8
+#set_from_resource $term_color9     color9
+#set_from_resource $term_color10    color10
+#set_from_resource $term_color11    color11
+#set_from_resource $term_color12    color12
+#set_from_resource $term_color13    color13
+#set_from_resource $term_color14    color14
+#set_from_resource $term_color15    color15
+
+### Nifty
+# Simulate ctrl+v upon pressing $mod+x
+#bindsym --release $mod+x exec --no-startup-id xdotool key --clearmodifiers ctrl+v

@@ -1,0 +1,15 @@
+created: 20180516155128127
+modified: 20181029175224787
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.05.16 - Computer Musings: Vault Script
+
+Connecting on Tox with the family again. Now that my wife has a working proxy at work, we could possibly move to that yet again. It is a battery drainer though. I need to find solutions to that problem.
+
+My daughter made this one-liner for me to help me with my notes migration:
+
+`libreoffice --convert-to html /path/to/input/folder/* --outdir /path/to/output/folder/`
+
+i.e.
+
+`libreoffice --convert-to html ./*.docx --outdir ./`

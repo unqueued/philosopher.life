@@ -1,0 +1,38 @@
+created: 20181219183019500
+modified: 20181220050812383
+tags: TWGGF
+title: 2018.12.19 - TWGGF: Bob on Linux
+
+Disclaimer: I am grateful to have the chance to use this software. I see it as my responsibility to get software working on my machines, and I do not mean to even imply an entitled attitude here (the chance to use Bob is a gift). Furthermore, I'm new to Bob (Jed knows what he's doing).
+
+Looking through my [[Wiki Audit]] notes, I can tell you that I was unable to get BobEXE to run on Ubuntu servers or i3 Manjaro (each with different errors). Running it manually, however, has worked nicely for me on various linux machines. My noob recommendation is to do it manually.
+
+---
+
+<<<
+Also h0p3, by "use it manually" do you mean by the "plugin" method rather than the "exe" version?
+<<<
+
+---
+
+Correct! It will cost you a few lines in the terminal to get it up and running, and it's easy to reproduce in every environment I've used. I don't know if this is the correct practice, but I'm running a Bob instance on different ports for each family member on my machine (though my wife wants to go back to singlefile for remote networking performance reasons). I run it from cron and have some other scripting too. I still have a ton to learn about this tool, but I don't see what advantage the executable would have for me in the long run.
+
+---
+
+<<<
+Not to derail the conversation too much, but why do you have different instances for each person?
+<<<
+
+---
+
+It is possible I have no idea what I'm doing. In fact, that's why I'm approaching this hedged-conservatively.
+
+I'd prefer to make sure we do not contaminate each other's work or processes (in the immortal words of The Offspring: "You gotta keep 'em separated."). It is possible one of us could accidentally affect the other, and this seemed to be a safer route.
+
+Modularizing the setup makes it so that someone can change their mind about how they want it done without much trouble. Switching my wife back to singlefile mode (we kept all the singlefile infrastructure in place and added Bob as a backend with a script to output the singlefile each minute for distribution) just took commenting two lines on crontab and killing her Bob process; we can turn it back on about that easily as well. We've also set up instant staging with a script for Bob in order to spin up new Bob instances painlessly so that we can experiment and because we were having trouble upgrading Bob.
+
+The ability to spin up multiple wikis is something I want for each of us, and I don't want it intermingled. I want to hand the full power of Bob to each person. Perhaps relatedly, I am considering the possibility that permissions and P2P/Federation structures may be built leveraging multiple wikis as well. I simply don't know enough about it, and this seemed kosher to me.
+
+I've crashed my Bob server a few times so far, and I don't want other people to lose their access or work because I broke mine (and vice versa). I encounter the browser nag which asks if my process has stalled/wait often enough, and I never want anyone touching my maxed out core (I simply don't know how multi-threaded the tooling is either). Process compartmentalization seems to have helped here. 
+
+Of course, I may be thinking about this all wrongheaded. I'm grateful for your thinking about this with me.

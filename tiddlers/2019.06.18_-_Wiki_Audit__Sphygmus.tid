@@ -1,0 +1,25 @@
+created: 20190619032301831
+modified: 20190619033905249
+tags: [[Wiki Audit]] Sphygmus
+title: 2019.06.18 - Wiki Audit: Sphygmus
+
+[[Sphygmus]] created two addons for this wiki, pointed out the value of automating the creation of templates, structure, and generic tooling. Her gift has caused me to transform how I use this wiki. One day, I [[hope]] to be a poweruser of my writing tools. She handed me my first hammer, and now I gratefully put it down. [[Firmcoding]] has replaced that hammer.
+
+[[Core Daily Requirement]] is going to be cleaned out un{[[Vault]]}ed for transclusion in the [[Hub]]. I leave this marker here for recovering part of her gift in my snapshots.
+
+```
+!!AIO River [[Auto-Wiki-Mator-Button]]: {{$:/plugins/sphygmus/reviewButton/button: AIO River}}
+
+;[[Wiki Review]]
+: <$edit-text tiddler="$:/config/reviewButton/Title" class="tc-edit-field-value" class="reviewButton" tag=input />
+;[[Carpe Tempus Segmentum]]
+:<$edit-text tiddler="$:/config/reviewButton/carpeTitle" class="tc-edit-field-value" class="reviewButton" tag=input />
+;[[Prompted Introspection]] - [[Generic Prompts]]
+:<$edit-text tiddler="$:/config/reviewButton/introTitle" class="tc-edit-field-value" class="reviewButton" tag=input />
+```
+
+`/salute`
+
+---
+
+[[The List]] is now in //Dreams://{[[Focus]]}. One day, I might get there. It is part of the inspiration for [[Φιλοσοφική ανάλυση]], a far less ambitious project.

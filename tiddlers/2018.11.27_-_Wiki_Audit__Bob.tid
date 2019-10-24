@@ -1,0 +1,101 @@
+created: 20181127135754507
+creator: h0p3
+modified: 20181219182615315
+modifier: h0p3
+tags: [[RGM Notes]] [[Wiki Audit]] [[Computer Musings]]
+title: 2018.11.27 - Wiki Audit: Bob
+
+Giving Bob a spin. Starting with BobEXE (because why deal with the nodejs mess if I don't have to?). 
+
+* It breaks the save button (as the git says).
+* I see no immediate way to export (dealbreaker), and the .tid files may be different than standard npm TW.
+* The bidirectional is ridiculously powerful. It was almost pornographic to see. 
+* Unfortunately, I hit immediate errors with BobEXE when I tried to just add another child wiki. 
+
+```
+fs.js:663
+  return binding.open(pathModule.toNamespacedPath(path),
+                 ^
+
+Error: ENOENT: no such file or directory, open '/home/h0p3/stage/Bob/languages/ca-ES/icon.tid'
+```
+
+Can't run it on Dallas or Kimsufi either. Different error.
+
+```
+events.js:136
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: spawn xdg-open ENOENT
+```
+
+The executable is officially alpha quality for linux (headless seems off the table). It's meant to be run on a Windows machine is my bet.
+
+---
+
+```bash
+git clone --depth=1 --branch v5.1.17 https://github.com/Jermolene/TiddlyWiki5.git
+git clone --depth=1 https://github.com/OokTech/TW5-Bob.git TiddlyWiki5/plugins/OokTech/Bob
+mkdir TiddlyWiki5/Wikis
+cp -r TiddlyWiki5/plugins/OokTech/Bob/MultiUserWiki TiddlyWiki5/Wikis/BobWiki/
+cd TiddlyWiki5
+node ./tiddlywiki.js Wikis/BobWiki  --wsserver
+```
+
+Like the executable, [[Recent]] doesn't show modifications from the filesystem direction.
+
+This did not break! =)
+
+This serves multiple wikis, but it doesn't actually combine them in any way. I think this is a feature others will find more useful than me. Those who spin up a lot of TWs and tailor them to each project will enjoy it quite a bit. My pursuit of unification is the antithesis. I was hoping this did something far more radical in somehow abstracting multiple wikis into one.
+
+Imported my wiki. How the fuck is 20mb taking that long to parse? Mind you, my browser renders it almost instantly. Perhaps that is a tool that we need to write in Rust? Perhaps I'm missing something stupid obvious here instead. NodeJS is faster, IIRC, but still clunky slow; the browser import was a mistake.
+
+I am strongly convinced the server should be written in a more performant language. Right now, the single file in my browser is more performant feeling than the Bob server (which is taking up almost a full gig of RAM), likely because of possibly lazy-loading from the SSD. Bob is shredding my CPU via FF too. 
+
+Ugh. That bidirectional hotness tho, amiright? I think a nightly script or built-in TW functions are the still good options here. Obviously, I'd prefer it all internal to TW mechanics. That may not happen.
+
+Perhaps KeeBoord + i3 + Xonsh + crontab will give me the real fucking hacks here. Why decompile the wiki, xonsh, recompile if I can keep it as is? Well, the latter can do it from pure CLI and doesn't take control of my desktop. I do sleep though! The naming conventions were a problem for Bob; will they be for nodejs by itself? I need to find out.
+
+Yet, this seems fairly interesting:
+
+* Private Resilio sync for manual Bob directory with scripts?
+** I simply can't accept having my private keys on a public server if I'm thinking straight about it.
+* Either run Bob or VPN into a server that does
+* 5-minute compilation on Dallas (because I'd rather not burn a core on it!), sync back, m10 signs and pushes
+* Sanitized synchronization scripts into and out of Bob on each device
+
+If one device gets owned, they all do. I think it would be a mistake to run commands remotely via TW. I need to see what precautions, if any, can be taken.
+
+You know, I only want to protect m10. I want to be willing to lose everything else. I should just VPN in m10's Bob. Ugh. The problem, of course, is that I don't get to edit offline. That DOES happen.
+
+Note that Bob does NOT serve encrypted TW correctly. This is a deal breaker for private, but that can be worked around.
+
+Here's what I like about the Keeboord/Xonsh route: I can use the output of the wiki as it is rendered in the wiki. It can also handle encrypted content (though I don't trust it). But, note, I can use Keeboord and Xonsh with Bob!
+
+Ugh. Alright, I've got a few different Rube-Goldberg machines in mind here. What would I like?
+
+* Automated config and dotfile backups and editing from the wiki?
+** Only some really...many I don't care enough about.
+* An overlay tool onto my OS?
+* A centralized C&C tool for my devices?
+* Music scripting
+* Automated tiddler creation
+* Automated chat log sanitization and insertion
+* HARDCODING!!!!!!!!!!
+** Keeboord+i3+Xonsh is the best short-term hack for this.
+* Eliminating race conditions!
+** Multi-editing
+* Sanitized speech-to-text straight into my wiki.
+** Preferably staged.
+* A truecrypt/veracrypt container that is mounted from the wiki?
+
+Lowering the friction to automation seems ridiculously valuable. It's hard to even understand what Bob buys me. I can't see that far.
+
+I am worried that the development environment peeled away from the viewer environment is unacceptable. It's important to me that the readability and searchability of the wiki either identical or favors single-file. 
+
+I also don't like relying upon beta software THIS fucking hard. If I do this, I want to do so based on the assumption there will be days that I edit the single file. Bob needs to be a pleasant-to-have when I have it backend that I cannot expect to have working. The single-file editing and delivery must always take precedence. Bob is a secondary but valuable addition.
+
+I want to bot my wiki. There are certain parts of the wiki that require you to "push" a button to get working. Why do that? I want to be able to emulate myself being at the wiki where reasonably possible. I want it to write itself. I want to take the work out of the bottable tasks, and I want to be able to tackle tasks which could only be accomplished because I could bot it. I want to be left doing the tasks which only a human can do.
+
+I am bending over backward to attempt to model my life in a unified container compressed down as far as I can take it. As usual, it's cool to see the feedback loop in how reading, writing, and structuring my wiki affects what I do outside. Unix as fuck: I want to work with text! 

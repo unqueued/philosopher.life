@@ -1,0 +1,85 @@
+created: 20180116022935785
+modified: 20190322041412837
+modifier: h0p3
+revision: 0
+tags: Retired
+title: 2018.01.16 - Retired: Rust: Effective Borrowing
+
+!! Resources:
+
+* https://rufflewind.com/2017-02-15/rust-move-copy-borrow
+* http://intorust.com
+
+
+!! Multivariable Vector Functions:
+
+Sometimes the right thing to do is to clone in some form. You might want to avoid borrowing:
+
+(Input) -> FUNCTION -> (Input,Output)
+
+This enables you to fork data structures, maintaining the original, but also producing a mutated version of it as Output.
+
+!! Shared Borrowing:
+
+Except through controlled environments, such carefully crafted APIs that are safe, like mutexes for multi-threading, Shared Borrowing passes immutable data structures. While a data structure is shared/borrowed, it is immutable; that's the heart of Rust's safety.
+
+To `move` is to let another function borrow it. Shared references move ownership of a variable to its reference (where the variable then become immutable), and then the reference is copied. e.g. `&foovar`, is a copy type. It's meant to be copied. It's cheap to copy it. A mutable variable is immutable when borrowed, but mutable otherwise.
+
+
+Use scoping to destruct shared references to gain back ownership of the variable:
+
+```cpp
+let mut foovar = format!("barbarbar");
+foovar.push("barbar"); //Mutable in current scope so far
+
+    {
+          let r: &String = &foovar; //variable r owns variable foovar until end of scope of r
+          foobar_function(r);
+          foobar_function(r);
+    } //end of scope of r, thus end of borrow of foovar
+
+foovar.push("ann"); //Mutable in current scope again, so this works...
+```
+
+
+!! Cheat Sheet:
+
+```cpp
+&String     //type of shared reference
+&str        //type of string slice
+
+fn greet(name: &String) {..}
+
+&name       //shared borrow
+&name[x..y] //slice expression
+
+```
+
+!! Mutable Borrowing:
+
+```
+name: String            Ownership: control all access, will free (destruct) when done.
+name: &String           Shared reference: many readers, no writers
+name: &mut String       Mutable reference: no other readers, one writer
+```
+The following two code snippets are equivalent:
+
+
+Use scoping to destruct shared references to gain back ownership of the variable:
+
+```cpp
+let mut foovar = format!("barbarbar");
+foovar.push("barbar"); //Mutable in current scope so far
+
+    {
+          let r = &mut foovar; //variable r owns variable foovar until end of scope of r
+          foobar_function(r);
+    } //end of scope of r (it destructs), thus end of borrow of foovar
+
+
+
+foovar.push("ann"); //Mutable in current scope again, so this works...
+```
+
+
+

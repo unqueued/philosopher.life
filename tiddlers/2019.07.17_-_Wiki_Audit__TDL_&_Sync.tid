@@ -1,0 +1,20 @@
+created: 20190717194758181
+modified: 20190717200633135
+tags: [[RGM Notes]] [[Wiki Audit]] Dreams
+title: 2019.07.17 - Wiki Audit: TDL & Sync
+
+The sidebar grows. I'm trying to be practical about it. That's what the sidebar has to be, right? =) RIGHT!?! ^^right?^^
+
+Shit's gettin' all dynamic up in here, fo' real, yo.
+
+The [[TDL]] directory is perhaps going to be rebuilt, to some extent, into the sidebar. [[Pins]] are temporary, just gunky putting it together on the fly, "where did I put that confounded thing?", and I'm fine if only my snapshots capture this data in the end. Or, insofar as I'm not, I can hack something out of the json into [[TDL]] logs. Perhaps that [[CDR]] is going to be transformed.
+
+$:/plugins/kookma/todolist delivers. I jibberjabbered with him today about it. Interesting response. He may work on the movement, but the tree notion isn't relevant enough to him.
+
+---
+
+With effective naming conventions, we will be able to use resilio sync and rsync to decentrally transfer .tids (or break down the html file) and merge them into our own wikis. We need a way to capture errors/exceptions, alert us, give us meaningful ways to correct it easily, etc. Naming convention is going to do so fucking much here.
+
+I like how the sync mechanism is just a dummy pipe. It could be fucking anything. The federated wiki importer/exporter that exists is manual. Our system would be automated.
+
+Perhaps coloration is exactly what we need.

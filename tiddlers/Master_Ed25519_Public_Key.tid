@@ -1,0 +1,66 @@
+created: 20180802165156408
+creator: h0p3
+modified: 20180909161556320
+modifier: h0p3
+title: Master Ed25519 Public Key
+
+//For those corneriest of cornercases...[[hope]]fully I didn't fuck this up, right?//
+
+<<<
+I want them to remain secret for as long as men are capable of evil.
+
+-- Neal Stephenson, //Cryptonomicon//
+<<<
+
+<<<
+The law does not allow me to testify on any aspect of the National Security Agency, even to the Senate Intelligence Committee.
+
+-- "Lt. General Lew Allen Jr., Director of the NSA"
+<<<
+
+<<<
+Cryptography is typically bypassed, not penetrated.
+
+-- Adi Shamir 
+<<<
+
+<<<
+If you think technology can solve your security problems, then you don't understand the problems and you don't understand the technology.
+
+-- Bruce Schneier, //Secrets and Lies// (2015)
+<<<
+
+Hear ye, hear ye:
+
+`5b0addf64aa52a67ac9c59031e7c15919717df39146c2d995f7f0745a2fc8fe2` is the One Pub_Key to Rule Them All!<<ref "q">> 
+
+I assume I've been pwned, and I assume it will continue to get worse in here. I think anytime my slave signature key would matter, my machine is already dead to me. I have to act on that possibility here. 
+
+This is the master public signature key. It is the permanent source of cryptographic authenticity. It is meant to allow me to revoke anything which is cryptographically revocable about this wiki and the [[h0p3]] identity. I will be able to recover proof of my identity from scratch (memory) with this tool.
+
+The slave key is the old key, which I still use. I am obviously very pwnable, and ultimately, the private key I use to automatically sign this wiki is basically just sitting there on my hard drive. I fuckup a lot too, so I need a way out. Anyone who took control of my box would own my identity. That's why this master key exists. It's a failsafe that only I can reproduce.<<ref "r">>
+
+I sign my slave keys with my master key like so, [[Master-Sign-Slave.py]]:
+
+{{Master-Sign-Slave.py}}
+
+You can verify these revocable slave keys with [[Master-Verify-Slave.py]]:
+
+{{Master-Verify-Slave.py}}
+
+Yes, I could memorize the Master private_key. If I were a younger man, I would. My memory is fading even though I'm forced to be my own escrow in this trusting trust problem. I can remember a strong password because it's a story embedded in other stories for me; but a hash will never have that mnemonic power for me anymore. Thus, the Master Key is password generated.<<ref "g">> It probably doesn't matter; I'm gonna bet I've screwed something up here too, lol. But, you never know, /shrug.
+
+[[Argon2-Password-Ed25519-Keygen.xsh]] is a xonsh script to generate it:<<ref "h">>
+
+{{Argon2-Password-Ed25519-Keygen.xsh}}
+
+
+
+---
+<<footnotes "q" "Until I start dealing with post-quantum...">>
+
+<<footnotes "r" "Excepting my own ineptitude, you probably need a rubberhose, assholes. That's the fucking point too! `/load https://imgs.xkcd.com/comics/security.png` ">>
+
+<<footnotes "g" "Good luck, /fingers-crossed">>
+
+<<footnotes "h" "I [[hope]] you never need to use this either. This is a fucked up thing to feel like I must create. If you ever do need this, [[h0p3]], you are welcome, sir.">>

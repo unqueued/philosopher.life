@@ -1,0 +1,25 @@
+created: 20180328173810608
+modified: 20180401213128412
+title: Recipe: Troubleshooting
+
+DDX
+
+```bash
+# Basic system monitor
+htop
+
+# Show who is online doing what
+w
+
+# Show network services
+sudo netstat -tulpen
+
+# Show disk space
+df -hi
+
+# Show history
+history
+
+# Error message
+sudo dmesg -w -H --level=err
+```

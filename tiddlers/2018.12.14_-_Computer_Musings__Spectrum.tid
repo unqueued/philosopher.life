@@ -1,0 +1,15 @@
+created: 20181214150209999
+modified: 20181214152045897
+tags: [[Computer Musings]]
+title: 2018.12.14 - Computer Musings: Spectrum
+
+The interwebs is still down for us. Daughter tested with me. It's at least not entirely our end. She made the call on my phone (since it is associated with the account) on the hotline. Indeed, they have complete outage in our area, they say. Mmmhmmm. Okay. Welp, nothing I can do about it for now. 
+
+Thank god for them tethers.<<ref "t">> We could bridge into it to make the signal strong enough for my son. We have plenty to do just over the LAN though.
+
+---
+
+My daughter discovered that (and I'm literally shocked) ipv6 on our WAN has been up (several pieces of software worked unexpectedly :P). Then a few minutes later ipv4 came up. I wonder if the call did something?
+
+---
+<<footnotes "t" "Tether, smother, and cover me, baby.">>

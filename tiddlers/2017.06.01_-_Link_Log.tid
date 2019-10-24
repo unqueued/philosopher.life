@@ -1,0 +1,20 @@
+created: 20170602015358457
+creator: h0p3
+modified: 20181122225044568
+modifier: h0p3
+revision: 0
+tags: [[Link Log]]
+title: 2017.06.01 - Link Log
+
+* http://www.thedailybeast.com/trump-exempts-entire-senior-staff-from-white-house-ethics-rules
+** They always were.
+*https://nakedsecurity.sophos.com/2017/05/31/chrome-bug-that-lets-sites-secretly-record-you-not-a-flaw-insists-google/
+** This is absurd. Given their track "record" (hehe), I don't trust them at all.
+* https://standardnotes.org/blog/4/metadata-is-the-data
+** It depends on how encryption is implemented, but it only minimizes what kinds of metadata can be collected. Let's be clear, much of this is still not solved by current standard cryptography techniques on the internet.
+* https://lwn.net/
+** Interesting subscription-funded Linux news site.
+* https://arxiv.org/pdf/1703.03779.pdf
+** Smart Contracts are going to be a big deal. Getting them right is very hard though. It creates a directly hackable legal system. It will take time before the right tools are built and the everyone understands what it is.
+* https://daringfireball.net/2017/06/fuck_facebook
+** I like this site. They often get it, although the arguments aren't always perfect (you are hereby forgiven).

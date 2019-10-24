@@ -1,0 +1,15 @@
+created: 20180219042535253
+modified: 20181029175224779
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.02.18 - Computer Musings: Compression
+
+I'm all about the awful hacks as of late. Crontab to the rescue of a skidiot!
+
+So, basically, it's either RSS feed plugin or Deluge itself, which is functionally the same. I'm leaving the hourly deluged restart. It's not a service I actually care about in 100% uptime; I'd be just fine with 95% uptime. Aggressive seeding from it seems to outpace even 100% uptime rtorrent, so I don't have a good enough reason to switch over besides my pride.
+
+Also, I've not found a way to force compression on ATL's lighttpd to recompress each update from lighttpd itself. The site requires someone to interact with lighttpd as a server to force compression. wget appears to be the wrong tool, so I'm going w3m. I could just do it on directory changes, but fuck it. I'm lazy. So, I'm going to burn bandwidth:
+
+`* * * * * w3m philosopher.life -dump > /dev/null`
+
+That does the trick.

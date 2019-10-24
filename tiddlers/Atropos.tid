@@ -1,0 +1,49 @@
+created: 20180119201530157
+creator: h0p3
+modified: 20190716014249104
+modifier: h0p3
+revision: 0
+tags: 
+title: Atropos
+type: text/vnd.tiddlywiki
+
+!! About:
+
+This is the decentralized dark mesh network protocol of [[Outopos]] built into minimal library for building/joining an atropos network. It is built to scale.
+
+
+---
+!! Principles:
+
+* Understand the differences between [[Atropos]] and [[Outopos]]
+
+
+---
+!! Focus:
+
+* [[Atropos Protocol Spec - 2.0: Layer 0]]
+* [[2018.01.19 - Atropos: Tunnel Types]]
+* [[2018.01.25 - Atropos: Computational Neutrality]]
+* [[2018.02.01 - Atropos: Kernel Integration]]
+* [[2019.07.15 - Atropos: Mobile]]
+* DHT
+* Trust
+
+
+---
+!! Vault:
+
+* (*crickets*)
+* [[Atropos Protocol Spec]]
+
+
+---
+!! Dreams:
+
+* To dream of more dreams for this page.
+
+
+```
+Package size max: (size - 96) / size  
+Package size min: (size - 160) / size)
+```

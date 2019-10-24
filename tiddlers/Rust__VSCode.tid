@@ -1,0 +1,9 @@
+created: 20180117213550996
+modified: 20180118150639071
+revision: 0
+title: Rust: VSCode
+
+`yaourt -S visual-studio-code-bin --noconfirm`
+
+`ctl+s` gets you to keyboard shortcuts...I use `ctl+b` for `cargo run`. 
+

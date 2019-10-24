@@ -1,0 +1,95 @@
+created: 20170315020306403
+creator: h0p3
+modified: 20181031035931146
+modifier: h0p3
+revision: 0
+tags: MTG
+title: 20?? - Solidarity
+
+Solidarity is a fascinating deck. It is one of the few that can truly win in response to something lethal on the stack. The deck itself, when played correctly is reactive. It sits and waits, sculpting its hand, optimizing combinations, waiting for the right time. Usually, you wait until the very end to combo (duh); you try to wait until you see that you are about to lose, or will lose during the turn. Pick the correct part of the turn to combo, and unleash your fury. You’ll say “In response to your lethal damage, I will win.” What other decks do this? Not many.
+
+Mind you, I’ve only played this deck for two days, but I am really enjoying it. It has done well in our ‘casual’ gauntlet, and I think we will build it. Our decks do not follow any B/R lists, but we usually have pretty low budgets, so we go unpowered, yet we have some pretty powerful decks. Academy, necro, even a pimped KCI  (who wouldn’t want to play 4x tinker?), you name it. I’m hoping to really perfect the decklist for general play in our group, so any suggestions would be greatly appreciated.
+
+Here is what I’ve come up with so far, which hasn’t strayed too far from the Legacy original:
+
+Spells-41:
+2 Brain Freeze
+4 High Tide
+4 Reset
+2 Turnabout
+4 Brainstorm
+4 Opt
+4 Impulse
+3 Frantic Search
+4 Meditate
+3 Three Wishes
+4 Remand
+2 Flash of Insight
+2 Cunning Wish
+
+Land-19:
+13 Island
+3 Flooded Strand
+3 Polluted Delta
+
+Sideboard
+3 Blue Elemental Blast
+2 Brain Freeze
+1 Chain of Vapor
+1 Echoing Truth
+1 Hurkyl's Recall
+1 Three Wishes
+1 Stifle
+2 Stroke of Genius
+1 Turnabout
+1 Force of Will
+1 Vision Skeins
+
+
+You’ll notice that it is slightly different from what you might netdeck, I’ll explain my reasoning. First off, I see the deck heading in two different directions. One is a control-combo foundation the other would be a pure combo-consistency basis. Control gives you versatility, protection, and answers, being quite forgiving in a short-sighted perspective, while, conversely, going for consistency gives you turn by turn land-drops and better hands altogether, but also gives you consistency mid-combo, for example, when responding to Gaea’s Blessing or working around a resolved Chalice of the Void.
+
+I have found that redundancy of a more pure combo, giving up some control, gives natural consistency, better responses (from a macro perspective), and more speed in the end. 
+
+Force of Will is the obvious card not included. I’ve decided to remove it because it is generally a card that is antithetical to what the deck is trying to do in some ways. The deck is a reactive deck in its entirety. Opponent puts lethal damage on the stack, I go lethal in response, if they can, they respond to me, and then I try and respond again. Going control allows you to eliminate some of their tempo (but at a large cost to you sometimes), and it also gives you answers on the stack itself. But, overall, going control does not help the very combo itself. It makes you more likely to stall, and less likely to go off earlier if you are put on a tighter clock. Why reach for the counter spell, when I could build a more consistent version that can disregard what my opponent did by going lethal once again? The deck is reactive in virtue of the consistency of its combo cards working together, not in virtue of any individually based reactive cards themselves (such as counters). Pushing the consistency has been far more effective in my metagame, even though I really, really hate to lose a card as powerful as Force of Will in a deck that can viably run them. It really took some decent testing to come to this point, especially as I am more comfortable as a control player.
+
+The base combo and order of spelling casting goes something like this::
+
+1.) Cast High Tides
+2.) Cast your Card advantage spell(s)…Meditate or Three Wishes 
+3.) Sculpt your hand with card quality spells, like Opt, Brainstorm, Peek, Impulse, Cunning Wish, Frantic Search
+4.) Pitch, shuffle, and pop lands and fetchlands to maximize the quality of cards in your hand and what you are drawing.
+5.) Reset, Turnabout, or Frantic Search to untap our lands and do it again
+6.) Rinse and repeat 1-5 until you amassed a major storm count with some breathing room for further responses, then Brain Freeze your opponent and Wish for Stroke of Genius or Vision Skeins to deck your opponent and win.
+
+This is just an order of how you play your cards. Of course, your actions must take into consideration a set of priorities that would still allow you continue to keep comboing. So, sometimes you’ll high tide, float mana, reset, and then cast your meditate, as you may not have had the mana to meditate and then reset, and so you are forced to reset before drawing. You have to stabilize your mana acceleration before you can even begin to worry about decking your opponent (most of the time). Your gas drawers help you stabilize, and later help you generate the massive storm and buffer you want before you pwn your opponent.
+
+Generally, this deck wants to drop a land each turn, right up until you need to combo, and then you’d be happy to never see a land again. And, before you can combo, you really need 3 land bare minimum, and at least 1 Hide Tide, 1 untap mechanic (preferably Reset), and 1 card advantage spell (preferably Meditate). While you can win without any one of these in your starting combo, it is very suboptimal and extremely limiting. You’ll usually only play spells during your opponent’s turn, and in the first few turns it will either be to Remand for tempo advantages or to sculpt your hand and library with Opt, Impulse, an Brainstorm, as all of these do no diminish the size of your hand, but help to optimize the quality of your hand and library in preparation for comboing. While I recommend casting these only during an end-step, once in a while, you will find mana-sources scarce and your hand lacking, and if you know your opponent is not going lethal next turn, you may consider drawing your 8th card, in hopes it is a land, and casting a card-quality spell if it isn’t to get your land, in this way you aren’t burning your spells unless you have to. But, most of the time, you’ll be working to grab your high tide/reset/meditate in hand as early as possible.
+
+Again, I can’t emphasize how important it is to have an actual card drawer that gives actual advantage. A hand without a meditate/three wishes is rarely viable. Sure, you might be able to generate the mana, but a failed opt+BS nets you nothing but a fizzle. Meditate turns your mana advantages in multiple threats, and serves as part of the real engine of this deck. All too often I think people get stuck simply because they haven’t valued true card advantage in this deck, especially as we have numerous ways to generate card quality, but have far more limited card advantage.
+
+So, that is the basics of this deck, here are my choices and why I’ve made them thus far:
+
+4x High Tide, 4x Reset: completely obvious. The only question would be in regards to whether we would want 1 of each in the sideboard to wish for, but in reality, this deck is better in redundancy than it is in finding answers. Generaly, the better a deck is built, the less it will want to use cards like Cunning Wish, and more likely it will be to have redundancy and proper proportions.
+
+19x Land, 6x of them Fetch: Dropping land is vital, and missing one or losing one is almost a Time Walk for an opponent. I think running 19 is really the bare minimum, as consistency is at a prime in a combo deck, and it won’t hurt this version as much as we are running what I consider to be an exceptionally powerful card, Frantic Search, to dispose of lands in hand or drawn within a Meditate or Three Wishes. I’d even consider putting this up to 20, as it can improve the value of Frantic Search mid-combo, while giving us more consistent early games and draws.
+
+2x Brain freeze: Only two? Yeah only 2. You never want this in your opening hand, and you really only need one, especially as Remand can be cast on the original brain freeze without removing the storm copies, allowing you to Brain freeze yet again (which is quite powerful when we play multiplayer), why waste more slots on a card that we only want to see once or twice at most?
+
+4x Remand: I ranted on the control, but I have a hard time removing this from the deck. Why? Remand is STILL a cantrip, and it is not a loss of card advantage like FoW’s -2 cards in hand. It isn’t a hard counter, but it provides tempo. In counterwar matchups, Remand can act as a hard counter as much as you’d really need it to, and against other decks it provides timewalks + 1 card. And, as explained, this is quite synergistic with Brain freeze, as you can also take a low storm count brain freeze and double it effectively with remand.
+
+4x Brainstorm: No real comments to make. Everyone knows they are immensely powerful with fetchlands, and in this deck, even your other card quality spells are synergistic with brainstorm, as you can help to get useless cards out of your hand for more useful ones.
+4x Opt: Many run Peek. Personally, I prefer the power of opt, as it gives me more, hehe, options. I usually know my opponent’s decklist, and I often have very good idea what they have in hand. Opt is more often superior to Peek, and can let me see 2 cards and get rid of stuff on top much more effectively.
+
+4x Impulse: This is a fantastic card, and will pull you out of some tight spots. You see four cards, and you clear the top of your library. Dig deep, get the one that really matters, and move along.
+
+3x Frantic Search: A powerful card. With land or Flashes in hand, it effectively has no drawback. It is better than free after high tide. It makes it possible to run more land heavy, but also proves to make the deck very resilient. It is a mini-reset, mini-meditate. However, it isn’t a great card until you’ve already started comboing, so I think 3x might be the best number to run (especially in testing).
+
+2x Cunning Wish: Down from the normal 3x, I think this card is another one I don’t wanna see too often at all. I’d prefer to have a strong draw card in this slot usually. But, it serves as versatility, and it can do some trix in a pinch. Plus, it grabs a real win for you post-brain freeze.
+
+4x Meditate: some go 3x for Cunning wish, I simply prefer redundancy. This is a must have card, and it is just as essential as casting high tide or reset. 
+
+3x Three Wishes: A controversial pick, and one that I have been quite satisfied, although maybe this should go down to 2x. It is a subpar Meditate, but this deck is always seeking more gas, and our little card quality cantrips simply don’t boost our actual capacity to continue the combo in a meaningful sense beyond sculpting. Gas is gas, and Three wishes is the next best pick to Meditate.
+
+2x Turnabout: A usual 2-3x, and it remains a sub-par reset, but can be versatile in gaining tempo advantages if necessary…sometimes a true timewalk. But, it is vital to untap, and so this really a 2x minimum from what I’ve tested. The inclusion of Frantic Search makes this less necessary.
+
+2x Flash of Insight: a 2x number that can do neat trix. I usually try and dump it via Frantic Search, but sometimes you’ll cast for 1. The flashback is hard to passup, especially when you really, really need a single card. I’m not particularly fond of it though.

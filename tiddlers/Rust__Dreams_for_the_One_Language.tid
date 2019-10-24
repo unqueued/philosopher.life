@@ -1,0 +1,13 @@
+created: 20180120205836138
+modified: 20180120212547041
+revision: 0
+title: Rust: Dreams for the One Language
+type: text/vnd.tiddlywiki
+
+* https://yosefk.com/blog/c-as-an-intermediate-language.html
+
+Rust needs to make it easy for other languages to use it. Can it though? It can make libraries that will be world class, and it does so because it is designed to build libraries for itself. 
+
+//Tarnish// is an extremely high-level language built on top of Rust. Rust's ecosystem will expand, and eventually, someone will use/build a language that leverages it in the same way that Python leverages C. Tarnish can compile down to Rust because it was designed to not even make you think about it. I think this idea is almost the anti-thesis of Rust, and so in a sense, we must dream of how to make it unnecessary or how to give effect shape to both Rust and Tarnish for the least amount of damage to arise (while promoting interoperability as much as possible).
+
+I there may come a point where multiple language paradigms fit what Rust does so directly that they can map onto like Tarnish. Entire ecosystems will blossom out of it. 

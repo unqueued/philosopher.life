@@ -1,0 +1,23 @@
+created: 20180803232858971
+creator: h0p3
+modified: 20180804044312600
+modifier: h0p3
+title: 2018.08.03 - Computers Musings: Dropbox
+
+Might as well get back to using it again for public information.
+
+`dropbox_uploader upload /home/h0p3/syncs/wiki-snapshots/* h0p3_wikisnapshots/`
+
+Apparently, my snapshots have not been taken...I've had to reverse engineer part of this process with my daughter's help.
+
+[[hash-convert-snapshots-zst.xsh]] written, and I've solved a bunch of problems.
+
+We now have good snapshots available to us.
+
+Btw, zstd might be blowing my goddamned mind...Might be placebo, since I don't see docs for this, but if feels like it's actually going faster and with higher compression the further along it gets in my corpus. It might be literally training itself on my corpus without using a dictionary explicitly!
+
+Also fuck yaourt in this case. Much better to just `git clone https://github.com/andreafabrizi/Dropbox-Uploader.git` and setup that way. 
+
+The new version is far more functional. It's so much more functional, that I can do a live one too.
+
+I'm considering just putting this on an external server...but no. The point is that I control the fundamental server, and everything else is parasitic on it. 

@@ -1,0 +1,9 @@
+created: 20171208224003187
+creator: h0p3
+list: $:/core/ui/Buttons/more-tiddler-actions $:/core/ui/Buttons/delete $:/core/ui/Buttons/permalink $:/core/ui/Buttons/info $:/plugins/bimlas/locator/viewtoolbar/open-in-sidebar $:/core/ui/Buttons/new-journal-here $:/core/ui/Buttons/close-others $:/core/ui/Buttons/edit $:/core/ui/Buttons/close $:/core/ui/Buttons/new-here $:/plugins/danielo/encryptTiddler/crypt-button $:/core/ui/Buttons/clone $:/core/ui/Buttons/export-tiddler $:/core/ui/Buttons/permaview $:/core/ui/Buttons/open-window $:/core/ui/Buttons/fold-others $:/core/ui/Buttons/fold $:/core/ui/Buttons/fold-bar
+modified: 20190709201710309
+modifier: h0p3
+revision: 0
+tags: 
+title: $:/tags/ViewToolbar
+

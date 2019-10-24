@@ -1,0 +1,41 @@
+created: 20181203162339369
+creator: h0p3
+modified: 20181203181632918
+modifier: h0p3
+tags: [[Computer Musings]] [[Log Audit]]
+title: 2018.11 - Computer Musings
+
+!! Log:
+
+* [[2018.11.04 - Computer Musings: SMS]]
+* [[2018.11.06 - Computer Musings: Son]]
+* [[2018.11.07 - Computer Musings: Fixin']]
+* [[2018.11.08 - Computer Musings: Hunting]]
+* [[2018.11.11 - Computer Musings: Mobile Typing]]
+* [[2018.11.12 - Computer Musings: Fangers]]
+* [[2018.11.13 - Computer Musings: Ghetto]]
+* [[2018.11.14 - Computer Musings: Update Scanner]]
+* [[2018.11.15 - Computer Musings: 2600k]]
+* [[2018.11.19 - Outopos: Distributed Chan]]
+* [[2018.11.23 - Computer Musings: TiddlyBackup Clusterfuck]]
+* [[2018.11.25 - Computer Musings: Serving]]
+* [[2018.11.26 - Computer Musings: CNAME]]
+* [[2018.11.27 - Computer Musings: Dimbobpi]]
+* [[2018.11.27 - Wiki Audit: Bob]]
+* [[2018.11.28 - Computer Musings: Antergos]]
+* [[2018.11.29 - Computer Musings: Memory]]
+
+!! Audit:
+
+* It's fascinating to see a [[Wiki Audit]] and an [[Outopos]] log in here! Tags make it messier, no doubt. I used to solve this with transclusions all the way, but when they literally share all the same content, I don't see why I shouldn't just tag.
+* Antergos is my go to Arch installer at this point.
+* I need to make progress on Bob. I am slowly. I think I could have the infrastructure running (for the most part) in about a day.
+** Though, I am still very concerned about compilation.
+** I like that I'm being methodical and keeping my current infrastructure intact. It's important to me that I can shut this down and not be forced to rebuild anything.
+* My remote servers continue to change. Dimbob is steady (minus the mishap this week).
+** Perhaps I should have a monitoring tool?
+* We have made significant improvements to our git infrastructure.
+** It ain't perfect, but it is beautiful to me.
+** We keep a local copy of all commits, a real-time that is reset nightly, and an actual nightly. We're taxing external resources too hard otherwise, and it allows us to make use of the real-time git properties. Rsync is the only other world class tool I know that handles diff distributions effectively (I forget for a couple tools like LFTP, which might just have rsync under the hood...too lazy to look).
+* It was interesting to see something reduced from a project down to a log. That is not usually how things go on my wiki.
+* Sad to see [[GB]] just petered out. I was willing to bend over backward too here. =/ Nope.

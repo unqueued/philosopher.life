@@ -1,0 +1,54 @@
+created: 20180907215420300
+creator: h0p3
+modified: 20181020180700986
+modifier: h0p3
+tags: [[Wiki Audit]]
+title: 2018.09.07 - Wiki Audit: Filterlists
+
+I have very little experience actually working with Tiddlywiki code. I think some of my constructions are best done in a vanilla way. However, there are functions which stand out to me. Search and building lists automatically need way more work. I think a lot of my processes could benefit from automation which should happen within Tiddlywiki itself.
+
+Tagging is the only major suggestion I've received. I've yet to find a good way to abuse it; there must be something wrong with how I visualize this.
+
+I hope to start making use of these mechanics more effectively. [[Filterlists]] might begin to be more useful, I do not know.
+
+---
+
+Grinding through https://dynalist.io/d/zUP-nIWu2FFoXH-oM7L7d9DM
+
+Stuff that catches my eye:
+
+* https://wikilabs.github.io/editions/bundler/
+* http://tiddlersidebar.tiddlyspot.com/
+* http://snowgoon88.github.io/TW5-extendedit/#About%20the%20Edit-CompText%20plugin
+** Not convinced this would help, but autocompletion has been amazing for me before...
+* http://dragndropmod.tiddlyspot.com/
+** Neat. Still, not obviously useful. I'm trying to keep this as thin as possible.
+* http://tw5magick.tiddlyspot.com/
+** Why should I use this when I can just make the tiddlers and transclude? I don't really need to alias that often. 
+
+Unilink:
+
+* https://www.youtube.com/watch?v=V9l-vipAoNw&feature=youtu.be
+* https://groups.google.com/forum/#!topic/tiddlywiki/pVqcVuNaTbA
+* https://wikilabs.github.io/editions/uni-link/
+* This looks like a damned good option. I've thought about it before. This just isn't a big enough problem for me yet. Will it become one? Am I limiting myself and just can't see it?
+
+* https://wikilabs.github.io/editions/advanced-search-plus/
+** Perhaps. But, I think just learning to write them of any complexity myself is the right way.
+
+http://contextplugin.tiddlyspot.com/
+
+YES! I have briefly considered this before. This is a fast way to search!
+
+Installed...HOLY FUCK! I LOVE IT!!! I wish I had this long ago. It's not perfect, and lacking filter expressions sucks. It's clearly very useful.
+
+* https://wikilabs.github.io/editions/edit-tabs/
+** Looks cool. Not worth it.
+* https://danielorodriguez.com/TW5-AutoTag/
+** Oh, I am lazy. But, the problem is that I don't see what I'd even want to build with tags. =/
+* http://maketid.tiddlyspot.com/
+** This does make me want to use tags. When tags are used as "directory membership" this makes it simple. Does this really speed up my process? In the end, my work is hardcoded.
+
+---
+
+I aim to keep as vanilla an "installation" as I can. 

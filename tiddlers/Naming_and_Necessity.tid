@@ -1,0 +1,89 @@
+created: 20190327025957386
+modified: 20190331023156622
+tags: [[Deep Reading]] Philosophy [[The Right]]
+title: Naming and Necessity
+
+//[[The Right]] is at stake, for all the marbles.//
+
+* Proper names don’t have Fregean senses.
+;
+
+* Kripke's Distinction
+** Giving the Meaning
+*** Semantics, Connotation
+*** Enumerated properties
+** Determining the Reference 
+*** Syntax, Denotation
+*** e.g. Functional descriptor or individual constant which pick out the same object in a domain.
+*** Crucially, two different references don't have to //mean// the same thing even though they route to the same referent object.
+;
+
+* Decoupling //Necessity// and //A Priori//
+** Necessary a posteriori: every identity statement whose terms are proper names is a necessary truth if it is true at all, yet most are understood empirically.
+*** Goldbach’s conjecture
+*** Water = H2O
+*** This table is made of wood
+** Contingent a priori
+*** The standard meter stick is one meter long
+*** Water boils at 100º C
+;
+
+* Names are rigid designators
+** Perhaps in contrast, descriptions are attributive designators
+** Rigidity Distinction
+*** A nonrigid designator designates different objects in different possible worlds. 
+**** ‘The inventor of bifocals’ is a nonrigid designator. 
+***** It is possible for the description to have exactly the same meaning while designating a person other than Franklin.
+
+*** A rigid designator designates the same object in every possible world in which it designates anything at all.
+**** Rigid designators pick out transworld identities.
+**** Benjamin Franklin is a rigid designator.
+***** It is possible for Franklin to be different in various possible worlds, but he would not be someone else.
+**** The object denoted by a rigid designator does not have to exist in every possible world (i.e. can be a contingent object). 
+**** The claim that a designator is rigid does not mean that we can’t imagine a possible world in which that designator is used differently from the way it’s actually used.
+**** It’s the way we (Wittgensteinialy?) use the designator in question that determines which object, in a possible world, it designates. 
+
+** Rigidity Version Disambiguation
+**# α is rigid1 iff α designates the same object in every possible world.
+**# α is rigid2 iff α designates the same object in every possible world in which that object exists. 
+**# α is rigid3 iff α designates the same object in every possible world in which α designates anything at all. 
+;
+
+* Fucking Searle's Cluster: A critique of any descriptivist theory which attempts to provide semantic content for names by means of descriptions.
+*# To every name or designator ‘X’, there corresponds a cluster of properties φ such that A believes ‘φ X’. 
+*# One of the properties, or some conjointly, are believed by A to pick out some individual uniquely. 
+*# If most, or a weighted most, of the φ’s are satisfied by one unique object y, then y is the referent of ‘X’.
+*# If the vote yields no unique object, ‘X’ does not refer. 
+*# The statement, ‘If X exists, then X has most of the φ’s’ is known a priori by the speaker. 
+*# The statement, ‘If X exists, then X has most of the φ’s’ expresses a necessary truth.
+;
+
+* Initial Baptisms and Causal Chains
+** Name users intend to refer to an object in a causal chain stretching back to the initial naming baptism.
+;
+
+* Identity Statements
+** Any true statement of the form ‘N = the φ’, where ‘N’ is a rigid designator and ‘the φ’ is a nonrigid designator, will be only contingently true.
+** Any statement of the form ‘N = M’, where ‘N’ and ‘M’ are rigid designators, will be a necessary truth if it is true at all.
+*** Thus, every identity statement involving proper names is either necessarily true or necessarily false.
+;
+
+---
+
+Looks way gunkier to me. How far can I push the differences in the contingent properties before it essentially becomes something other than what is rigidly designated?
+
+I waffle a lot here. I'm open to the claim that names are not merely disguised descriptions, though I have a hard time holding onto it.
+
+The Baptism looks like a cake-hack, an attempt to have rigid designators refer to their objects without epistemic mediation, except for intent. Maybe we can have it and eat it too, but god damn, I'm confused.
+
+I am struck by my previous locution: possiblity of possibility. When I draw this modal work in my mind, I see some [[SO]] modality too. I'm too stupid to know how to ask the question correctly.
+
+The conditions of rigidity seem wide open to me. It seems like objects emerge from an arbitrary number of possible worlds based upon intended usage. I don't mean to say we impose upon other possible worlds something, but maybe that is also possible (:P it never ends). Transworld identities are really fucking hard.
+
+Set a base clock cycle for our simulation, each of us has up to an infinite number of branches each cycle, and the overlap of these branches amount to possible worlds available to us. You, me, and Irene are the only people in the universe, and I would have 10 branches without you all, but with you all I only have 3 that overlap, then you limit the number of possible worlds available to me. There is a tree of possibility.
+
+The tree of possibility could possibly be different. That's the part that become [[SO]]ed about it.  I buy the Fregean work after the modality is settled. I see no way around that either.
+
+Also, I'm fucking pissed off at Sir Cogburn for not immediately pointing me to this book in non-classical. Thank you, Sir Pearson; it is good I can hear your voice 15 years later.
+
+This is a model for speaking about the modality of The Ship of Theseus.

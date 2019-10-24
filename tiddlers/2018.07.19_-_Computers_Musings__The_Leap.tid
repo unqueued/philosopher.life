@@ -1,0 +1,61 @@
+created: 20180719180036840
+creator: h0p3
+modified: 20180720011940715
+modifier: h0p3
+title: 2018.07.19 - Computers Musings: The Leap
+
+I spent quite a bit of today going through my dot, config, script, key, and password files. I've organized the major things I want to install. I have a vague picture which is sufficiently specific to work as a plan and vision now.
+
+EFI installation gave me some trouble, but that's okay.
+
+* 120gb SSD
+** 512mb Fat32 EFI
+** 16gb linuxswap (yes, I use it)
+** The Rest, ext4, mounted at /
+
+* 1tb HDD
+** ext4, mounted at /mnt/storage
+
+* 250gb SSD
+** ext4, mounted at /home
+
+---
+
+[[Install Resilio Sync in Manjaro As USER]]
+
+`sudo pacman -S firefox firefox-developer-edition`
+
+Logins, and setup Tiddlywiki backup extension. The wiki is operating.
+
+Syncs setup, going lowercase moreso
+
+Setup /home/h0p3/scripts
+
+`sudo pacman -S cronie`
+
+Setup crontabs
+
+Set .bashrc for h0p3 and root... I hate vi. vim and I are square, but might as well just make it ridiculously simple with nano.
+
+Used Pamac for...it handled failure very ungracefully. Looks like I should CLI this. Teamviewer install failed, key...
+
+`sudo modprobe vboxdrv`
+
+Set
+
+Modified `/etc/ssh/sshd_config/`
+
+```bash
+sudo systemctl start sshd.service
+sudo systemctl enable sshd.service
+```
+
+In case my daughter needs to get in.
+
+```bash
+sudo pacman -S python-pip
+sudo pip install nacl
+```
+
+Verification works.
+

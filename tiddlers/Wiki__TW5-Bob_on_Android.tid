@@ -1,0 +1,18 @@
+created: 20190914165427314
+modified: 20190915055649529
+tags: Computing Wiki Recipe
+title: Wiki: TW5-Bob on Android
+
+//Cleanse yourself before and after, ofc. I've assumed a working Bob instance elsewhere; the entire Bob directory is synced across my devices.//
+
+# Install Resilio Sync
+# In emulated storage, create and sync the Termux-TW5Bob directory from your other [[machines|monster]].
+# Install Termux
+
+```bash
+pkg upgrade
+termux-setup-storage #grant permission
+pkg install git nodejs
+cd ~/storage/shared/Termux-TW5Bob
+node ./tiddlywiki.js Wikis --wsserver &
+```

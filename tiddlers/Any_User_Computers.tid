@@ -1,0 +1,8 @@
+created: 20170916005414201
+modified: 20170916012034683
+revision: 0
+title: Any User Computers
+
+Make it so every device in my house can be used by anyone. Same credentials, same desktop, everything syncs, etc.
+
+Either the backbone is BTRFS or Resilio Sync. Make it so I login to my account on any computer we own. Perhaps centralized authentication?

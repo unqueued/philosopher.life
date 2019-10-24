@@ -1,0 +1,18 @@
+created: 20181018163220249
+creator: h0p3
+modified: 20181219181841750
+modifier: h0p3
+tags: TWGGF
+title: 2018.10.18 - TWGGF: References
+
+How can I automatically insert/replace the results of `<<list-links "[tag[Foobar]]">>` as a hard, static list of links into the tiddler generating it?
+
+Maybe that's a bad question or wrong-headed. I'm trying to transition from creating links and new tiddlers by hand to using "Create a new journal tiddler tagged with this one" or http://maketid.tiddlyspot.com/ for custom tiddler creation. It is convenient to be able to use: `<<list-links "[tag[Foobar]]">>` instead of entering links by hand, and I think I can programmatically build other kinds of lists that I would otherwise build by hand too. 
+
+Feel free to call me a stubborn luddite or heathen, but I strongly value static content in my wiki. I resist dynamic content as much as I can knowing that much of what I use and love about my wiki is programmatically generated on the fly (I greedily want to have my semi-static cake and semi-dynamically eat it too). At the moment, you can legitimately read the vast majority of my wiki from its source code using ctrl+f without much hassle, and I think that is agnostically a good thing. I like having static links in my tiddlers because they are performant in my browser and directly parseable outside of the browser.
+
+Further, static links enable References. Making connections in my wiki is half the reason I use my wiki, and the reference information tool allows me to recognize one the key ways my tiddlers are actually related to each other (via linking) from an individual tiddler's point of view. Given the number of tiddlers I'm working with (~6.5k), references are crucial to reasoning about where something belongs and how it relates to other things. Unfortunately, I've not found a way to make something dynamic, e.g. list-links, function with references (perhaps I'm missing something obvious). If a tiddler P generates a list-link that will include tiddler Q, I can't seem to know from tiddler Q's reference info that P (dynamically) links to Q. To my understanding, to build a reference tool that would show me this connection would require recursively generating all dynamic content in the wiki on the fly (ain't nobody got time fo' dat). To my eyes, links in the body of a tiddler function as lightweight tags for reference. Perhaps this is a problem best solved through fields. I do not know.
+
+I think my goal needs to be to update the static contents of my tiddlers from its dynamically generated content. I'm fine with this update occurring only upon rendering it, though it would be really cool to find a way to have a nightly button I could push to automatically run those updates too. From what I can see, this solves my reference problem while allowing automated tiddler creation and listing.
+
+What do you think? How do you solve this kind of problem?

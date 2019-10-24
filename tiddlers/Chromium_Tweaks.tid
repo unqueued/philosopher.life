@@ -1,0 +1,8 @@
+created: 20171213012837856
+modified: 20171213012909831
+revision: 0
+title: Chromium Tweaks
+
+Minimal Scrollbars:
+
+`chrome://flags/#overlay-scrollbars` set to `Enabled`

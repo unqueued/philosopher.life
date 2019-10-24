@@ -1,0 +1,51 @@
+created: 20180123150413898
+modified: 20190323152942996
+modifier: h0p3
+revision: 0
+tags: [[Computer Musings]]
+title: 2018.01.23 - Computer Musings: OpenWRT
+type: text/vnd.tiddlywiki
+
+Yesterday, I recovered my wife's wiki for her. I have multiple layers of redundancies, backups, and versioning. It's hard to capture every little thing. Dropbox saved us this time (Resilio's Archive wasn't close enough). Now that I know what this wiki will be, that it is so public, I'm willing to have Dropbox hold it for me as well. Thus, I'm modifying my workflow for it as well. It's kind of hard to beat having over 20GB at Dropbox for free with the detailed versioning they offer. Unfortunately, the Dropbox client and new npm client are insane memory whores. However, I am willing to pay that price. The wiki is so crucial as a tool, it deserves whatever it needs.
+
+I've fixed my scripts. Everything that must be working is working. I will now have a far more flexible workflow once I get there.
+
+---
+
+My DD-WRT routers are still alive. At 100mbit and very low memory, they simply aren't great. They are good, but not what I want. I used Ubiquiti, but the drive actually died. I went for another consumer-grade and was mildly happy with it. Twice, however, I have found evidence that it has been hacked. Firmware updates help. I want to go back to WRT-based solutions. Today, I attempt  to fix that on our router.
+
+I'm considering trying to Open-WRT (I've never used it, but I'm sure it is similar).
+
+* https://wiki.openwrt.org/toh/rosewill/rnx-ac750rt
+* https://forum.openwrt.org/viewtopic.php?pid=347582#p347582
+* https://forum.openwrt.org/viewtopic.php?pid=361524#p361524
+* https://forum.openwrt.org/viewtopic.php?pid=365864#p365864
+* https://www.dd-wrt.com/wiki/index.php/TFTP_flash#Using_atftp_on_Linux
+
+I've downloaded the files, but I have other fires to put out right now.
+
+---
+
+After kernel update, said I need to: `modprobe vboxdrv`
+
+Aaaaand....IT WORKS! I have no idea why, but fuck me, it does!
+
+Setting up a Win8.1 environment. Will continue to work on VMWare, since that is still my preference. But, at least I can now make my resume do what it needs to do.
+
+---
+
+FFUUUUUUUUUUUUUUUUCK YEAH! 
+
+I set the great suspender to leave my sites alone. I downloaded what I needed. I had fun figuring out how to set static IP in arch (it has been a while). TFTP failed the first two tries. The forums were useless. But, TFTP acted up (what's new?), so I disconnected everything but my box. Instant load! 
+
+Recovery image was good, except...it wasn't the right one. It wasn't OpenWRT. So...I scrounged on the forums and found another image. I did the same, and boom, it's up and running!
+
+Awesome!
+
+....reeeeeverse.
+
+I spent an hour and a half trying to get the WAN DHCP to lease an IP to me. I know better: restart the god damn modem. I can't my ISP to act appropriately. Done.
+
+Setting up shadowsocks on the router. 
+
+* https://www.violetgem.com/blog/install-shadowsocks-client-lede-openwrt/

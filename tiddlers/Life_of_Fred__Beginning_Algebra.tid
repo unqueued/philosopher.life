@@ -1,0 +1,56 @@
+created: 20171110033543748
+modified: 20171115194401803
+revision: 0
+title: Life of Fred: Beginning Algebra
+
+I'm covering, in my own way, the concepts index of Algebra 1. My kids have a serious leg up here with their background in symbolic logic. The notions of constants, variables, functions, domains, and proofs are all there for them. Replacements, equality, and equivalence make sense to them. We are able to make sense of some nitty-gritty that I didn't understand until much later in life. It's not just a bunch of rules to them. It makes sense.
+
+We are moving slowly for my taste, of course. I'm trying to give them everything I've got. We covered 3 of 18 concepts today. I'm very glad they completed the books they did. It tooks us right to the doorway for tutoring more directly. 
+
+---
+
+Topics Covered:
+
+* Absolute value
+* Arithmetic of the integers
+* Exponents
+* Fractional Equations
+* Fractions
+* Geometry
+* Inequalities
+* Laws
+* Multiplying and Factoring Binomials
+* Numbers
+
+We have 5 more left to cover in this book, and then we move to algebra 2. 
+
+There is a significant amount of overlap, so we'll probably finish peeking at the concepts next week. There is a real chance we start Geometry next week. It has a very significant amount of work to cover. I'm going to need to read through the Trig book carefully, but we may be able to advance very quickly through its concepts as well. This is optimistic, as usual. I will wait for them to complete everything up to calculus before I walk through it alongside them. I'm thinking they should demonstrate mastery through Khan as well. Only then should we do it. I will not be able to carry them completely on my shoulders as I swim in uncharted waters. 
+
+We pushed hard today, and we took longer breaks. We finished early, at 4 today as well. I keep dunking them in the deep waters and bringing them up for air. They've got a very strong initial survey of algebra so far. It's clear that with practice, they will master this, and it's not going to be difficult for them. 
+
+My son factors certain kinds of longer problems faster than my daughter. Neither are particularly adept at splitting terms and grouping to factor the harder trinomials, but my son is seeing it faster than my daughter. To be faster than my daughter takes some raw talent. 
+
+---
+
+We reviewed everything from the beginning again. I wanted to try and solidify it for them. This was the right choice because it enabled us to more deeply investigate solving linear and quadratic equations. Substitution methods and graphing came alive, and seeing the jump from pure quadratic solutions, to factoring methods, to completing the square, to the quadratic formula made sense. We covered an insane amount of ground in a single day. Most people I grew up with didn't cover that last bit of content until they were 17 years old. 
+
+I am very pleased to have given them a formal background in first order symbolic logic and an informal background in modal logic. The plus or minus concept can be very easily understood in terms of possible worlds, and it makes the real world quadratic equations come alive. It is easy to see which set of possible worlds we are in. Perhaps even more importantly, they can understand the notion of writing proofs in terms of showing the equivalence of sentences. That is, in every possible world, both sentences share the same truth values (semantics, etc.). Moving from one step to another is very strong in algebra. It goes beyond implication because we can universalize the biconditional (and not merely the conditional). 
+
+A lot of algebra can be mechanically broken down into just performing the same functional operation on both sides of the equation. The result is having numbers on either side of the equation that are identical to each other, but not identical to their previous values. However, the equation remains true in all cases where the previous equation was true (and vice versa, and false, etc.). That is to say, they are equivalent (since you can reverse or invert the function). It took me far, far too long to understand what I was doing in mathematics. Nobody told me. They didn't even try to point to it. The pieces are going to fall right into place for my kids. I can see it. 
+
+We have spent a good deal of time talking about the difference between //identity// and //equivalence//. We have a decent grasp on the first order logic notions of individual constants, variables, functions, predicates, and propositions. Algebra is going to truly come alive for them the next time we delve into FO logic, especially if we push into mathematical logic. There will be just a heartbeat away from understanding turing machines fundamentally. With some effort, they will understand completeness, compactness, and incompleteness with just enough set theory to be dangerous. 
+
+New topics included:
+
+* Quadratic Equations
+* Radicals 
+** We stopped in the middle of them
+* Two Equations and Two Unknowns
+
+I have to say, I struggled with one of the word problems we encountered. We are reaching the edge of what I remember and have practiced in the past decade. I'm having to re-learn some of this.
+
+I was going to push to the end of the first book, but I didn't. We could have if I didn't review. I'm glad we slowed down for just a bit. We filled in many blanks today.
+
+---
+
+We've completed it! Yay! I can see that practice and iteration over this content will be essential. The exposure, however, has been tremendously valuable. 

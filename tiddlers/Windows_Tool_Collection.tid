@@ -1,0 +1,117 @@
+created: 20161214010524084
+modified: 20190705051703792
+revision: 0
+tags: Computing Collection
+title: Windows Tool Collection
+type: text/vnd.tiddlywiki
+
+//Love it or hate, Windows has arguably the richest and most backwards compatible software ecosystem to date. It's nice to see older tools retaining their usefulness, and surprisingly, many remain the best or only tool of their kind for the lineage of Windows versions. A few of these tools must be pirated.//
+
+Administration, Local File Control, and OS mods:
+
+* 3DP Chip
+* [[7-zip|http://www.7-zip.org/a/7z1800-x64.exe]]
+* [[CCleaner|https://www.ccleaner.com/ccleaner/download/standard]]
+* [[Classic Shell|http://www.classicshell.net/downloads/]]
+* Dexpot
+* [[Everything|https://www.voidtools.com/downloads/]]
+* Find and Replace
+* Gamma Panel
+* Intel Burntest
+* Hiren's Boot Disk (I suggest automounting)
+* HP USB Disk Storage Format Tool
+* Huge Small File
+* HWinfo
+* KMSpico
+* Poweriso
+* Process Explorer
+* RBtray
+* Revo Uninstaller
+* Rufus
+* Teracopy
+* XYplorer
+
+
+Automation:
+
+* Advanced BAT to EXE Converter
+* Autohotkey
+* Filebot
+* Folder Monitor
+* Pulover's Macro Creator
+* Resilio
+* Synkron
+* Python 2.7 and 3.5
+
+
+Text Editing:
+
+* Sublime Text 2
+* Visual Studio Code
+
+
+Media:
+
+* Calibre
+* Gimp
+* Kodi
+* Microsoft Office
+* Sumatra PDF
+* VLC media player
+
+
+Op Sec:
+
+* GNUpg
+* Hashtab
+* Kee Pass
+* Open VPN
+* Proxy Searcher
+* PWGen
+* Quick Hash
+* Softether VPN Client (including vpngate server list)
+* Truecrypt 7.1a
+
+
+Piracy:
+
+* aMule
+* Apex DC++
+* Ares
+* qBittorrent
+* SABnzbd
+* Shareaza
+* Soulseek QT
+
+
+Remote Access:
+
+* Filezilla Secure
+* No Machine
+* Teamviewer
+* Bitvise SSH/SFTP Client
+
+
+Social Tools:
+
+* Hexchat
+* Pidgin
+* qTox
+* Retroshare
+
+
+Web and Web-like Tools :
+
+* Google Chrome (hate that I use it, but sometimes you need it)
+* i2p
+* Mozilla Firefox
+* Tor Browser Bundle
+* Zeronet Bundle
+
+
+Virtualization:
+
+* Nox
+* Sandboxie
+* Virtualbox
+* VMWare Workstation

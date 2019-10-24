@@ -1,0 +1,46 @@
+created: 20190209011616298
+modified: 20190210003608177
+tags: [[Wiki: Scripts]] Verify Python
+title: embedded-sig-verify.py
+
+```python
+#!/usr/bin/python3
+
+#Imports
+import nacl.encoding
+import nacl.signing
+import nacl.hash
+import binascii
+import re
+
+#Variables, because regex hates me :D
+resub = "【ツ】"+"▄▀▄▀▄▀▄▀▄▀[^▄▀【ツ】]+▀▄▀▄▀▄▀▄▀▄"+"【ツ】"
+
+#Public key, make sure this is h0p3's current one!!
+verify_key_hex = "5249578e4cdfaec1484f0083df3e8b6e4af0cab0288c8156c31d6e94efe58308"
+verify_key = nacl.signing.VerifyKey(verify_key_hex, encoder=nacl.encoding.HexEncoder)
+
+#Read embedded hash and signature into variables
+with open('index.html', 'r') as myfile:
+    data = myfile.readlines()
+    #Find the index of markers, pull out the stuff (hash/sig) in between
+    data = data[data.index('<pre>【ツ】'+'▄▀▄▀▄▀▄▀▄▀\n')+1:data.index('▀▄▀▄▀▄▀▄▀▄'+'【ツ】</pre>\n')]
+signed_hash = data[0].strip()
+signature = binascii.unhexlify(data[1].strip())
+
+#Check the digest of index.html against the embedded hash
+with open('index.html', 'r') as index_file:
+    #Get the file, but remove the hash/sig, because otherwise the test will always fail and is useless
+    data = re.sub(resub,"【ツ】"+"▄▀▄▀▄▀▄▀▄▀\n▀▄▀▄▀▄▀▄▀▄"+"【ツ】",index_file.read().strip()).encode()
+digest = nacl.hash.sha256(data, encoder=nacl.encoding.HexEncoder).decode()
+if signed_hash == digest:
+    print("Integrity Check Passed")
+    #Check the validity of the signature because integrity check passed
+    try:
+        verify_key.verify(signature)
+        print("Signature Verified: You possess a bit-for-bit copy of a wiki signed with h0p3's private key!")
+    except:
+        print("Signature Verification Failed: RUH ROH! If you feel safe, please {Contact} h0p3 over Tor with a fresh account.")
+else:
+    print("Integrity Check Failed: You do not possess a bit-for-bit copy, thus signature verification is useless.")
+```

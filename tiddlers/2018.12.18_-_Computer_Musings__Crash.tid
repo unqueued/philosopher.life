@@ -1,0 +1,18 @@
+created: 20181218184600188
+modified: 20181218190730410
+tags: [[Computer Musings]] Dreams Monster-Φ
+title: 2018.12.18 - Computer Musings: Crash
+
+For the second time this year, my computer has crashed due to lack of memory. 16GB RAM, 16GB Swap, and I'm chewing through it. Firefox, inevitably, becomes this monster on my system. I really can't have everything I want.
+
+I bootup into 7.5GB of memory usage. `/sigh`. Some problems are best solved by throwing more hardware at it, I think this is one of those cases.
+
+Alright, time to go dreaming:
+
+* A quiet system (size doesn't matter)
+* Maximum single-threading CPU performance with 6 physical cores minimum set for smooth type-1 virtualization w/passthrough
+* 64GB or more RAM
+* 2x 2TB M2 SSDs Mirrored
+* 2 or more 8TB HDDs in unRaid or equivalent
+* 2 or more GPUs for passthrough and VR
+* Built-in wireless, bluetooth, and 2x 10GB Ethernet ports

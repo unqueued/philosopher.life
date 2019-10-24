@@ -1,0 +1,64 @@
+created: 20171216192822757
+modified: 20180305160812026
+revision: 0
+title: Script: Arch Post-Install Script
+
+```bash
+#!/bin/bash
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#                                                  ,,    ,,       #
+#      `7MMF'                      mm            `7MM  `7MM       #
+#        MM                        MM              MM    MM       #
+#        MM  `7MMpMMMb.  ,pP"Ybd mmMMmm  ,6"Yb.    MM    MM       #
+#        MM    MM    MM  8I   `"   MM   8)   MM    MM    MM       #
+#        MM    MM    MM  `YMMMa.   MM    ,pm9MM    MM    MM       #
+#        MM    MM    MM  L.   I8   MM   8M   MM    MM    MM       #
+#      .JMML..JMML  JMML.M9mmmP'   `Mbmo`Moo9^Yo..JMML..JMML.     #
+#                                                                 #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Arch-Based Post-Installation "Batteries Loaded" Script          #
+# Please, do not blindly run this script.                         #
+# Read it, modify it, and then use it as you wish.                #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+# Make the usual directories
+mkdir ~/bin
+mkdir ~/scripts
+mkdir ~/src
+mkdir ~/src/go
+mkdir ~/stage
+
+# Setup zsh
+sudo yaourt -S antigen-git --noconfirm
+sudo chsh -s /bin/zsh
+chsh -s /bin/zsh
+
+# Aliases
+echo "alias v='nvim'" >> ~/.zshrc
+echo "alias vim='nvim'" >> ~/.zshrc
+
+# Pip Installs
+sudo pip install hashfile pynacl pyperclip when-changed pyfiglet
+
+# Pacman CLI Installs
+sudo pacman -S iotop smem toxic neovim tldr lftp mc htop ncdu bmon nethogs mtr aria2 w3m weechat finch sshuttle --noconfirm
+
+# Yaourt CLI Installs
+yaourt -S neovim-drop-in firetools mbox-git xonsh linuxbrew-git discus byobu dtrx neofetch --noconfirm
+
+# Pacman GUI Installs
+sudo pacman -S keepassxc deluge chromium opera vivaldi firefox-developer-edition kopete qtox filezilla hexchat kodi gimp calibre networkmanager-openvpn truecrypt playonlinux steam-native --noconfirm
+
+# Yaourt GUI Installs
+yaourt -S teamviewer-beta dropbox discord cockatrice-client ricochet-git soulseekqt amule-git p7zip-gui dropbox quickhash-gui-bin sublime-text2 visual-studio-code-bin google-chrome synkron nomachine --noconfirm
+
+# Resilio Sync
+sudo yaourt -S rslsync
+
+
+############# Cleanup #############
+
+# Update .zshrc
+source ~/.zshrc
+```

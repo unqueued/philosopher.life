@@ -1,0 +1,316 @@
+created: 20170202022713144
+modified: 20171217020309951
+revision: 0
+title: Script: Ubuntu 16.04 Desktop Post-Installation for Root
+
+```bash
+#!/bin/bash
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#                                                  ,,    ,,       #
+#      `7MMF'                      mm            `7MM  `7MM       #
+#        MM                        MM              MM    MM       #
+#        MM  `7MMpMMMb.  ,pP"Ybd mmMMmm  ,6"Yb.    MM    MM       #
+#        MM    MM    MM  8I   `"   MM   8)   MM    MM    MM       #
+#        MM    MM    MM  `YMMMa.   MM    ,pm9MM    MM    MM       #
+#        MM    MM    MM  L.   I8   MM   8M   MM    MM    MM       #
+#      .JMML..JMML  JMML.M9mmmP'   `Mbmo`Moo9^Yo..JMML..JMML.     #
+#                                                                 #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Ubuntu 16.04 Post-Installation "Batteries Loaded" Script        #
+# Please, do not blindly run this script.                         #
+# Read it, modify it, and then use it as you wish.                #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+############# Preparations #############
+
+# update + upgrade
+sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get autoremove -y && sudo apt-get autoclean -y
+
+# update pips
+sudo apt-get install python-pip -y
+sudo apt-get install python3-pip -y
+sudo pip2 install --upgrade pip
+sudo pip3 install --upgrade pip
+
+
+
+############# OS changes #############
+
+# Deja Dup/Duplicity Backup doesn't work without installing this first.
+sudo apt-get install duplicity -y
+sudo apt-get install python-gi -y
+
+# Typeface
+sudo add-apt-repository ppa:no1wantdthisname/ppa -y
+sudo apt-get update && sudo apt-get install libfreetype6 -y
+
+# Synaptic Package Manager
+sudo apt-get install synaptic -y
+
+# Ubuntu tweak
+wget -q -O - http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
+sudo sh -c 'echo "deb http://archive.getdeb.net/ubuntu xenial-getdeb apps" >> /etc/apt/sources.list.d/getdeb.list'
+sudo apt-get update
+sudo apt-get install ubuntu-tweak -y
+
+# Gnome tweak
+sudo apt-get install gnome-tweak-tool -y
+
+# Unity tweak
+sudo apt-get install unity-tweak-tool -y
+
+# Compiz config editor
+sudo apt-get install compizconfig-settings-manager -y
+
+
+
+############# CLI App Installations #############
+
+# SSHTalk
+wget https://2ton.com.au/standalone_binaries/sshtalk
+sudo chmod +x sshtalk
+sudo mv sshtalk /usr/bin/sshtalk
+sudo sed -i -e '$i \sshtalk\n' /etc/rc.local
+
+
+# TLDR
+sudo snap install tldr
+
+### NeoVIM
+sudo add-apt-repository ppa:neovim-ppa/stable
+sudo apt-get update
+sudo apt-get install neovim
+# Make nvim default
+sudo update-alternatives --install /usr/bin/vi vi /usr/bin/nvim 60
+#sudo update-alternatives --config vi
+sudo update-alternatives --install /usr/bin/vim vim /usr/bin/nvim 60
+#sudo update-alternatives --config vim
+sudo update-alternatives --install /usr/bin/editor editor /usr/bin/nvim 60
+#sudo update-alternatives --config editor
+
+# unrar
+sudo apt-get install unrar -y
+
+# Openssh - change to port 4222
+sudo apt-get install openssh-server -y
+sudo cp /etc/ssh/sshd_config /etc/ssh/sshd_config.factory-defaults
+sudo chmod a-w /etc/ssh/sshd_config.factory-defaults
+sudo sed -i 's/^Port 22.*/Port 4222/' /etc/ssh/sshd_config
+sudo systemctl restart ssh
+
+# Golang
+sudo add-apt-repository ppa:ubuntu-lxc/lxd-stable -y
+sudo apt-get update
+sudo apt-get install golang -y
+
+# lftp
+sudo apt-get install lftp -y
+
+# midnight commander
+sudo apt-get install mc -y
+
+# htop - top replacement
+sudo apt-get install htop -y
+
+# discus - disk usage display
+sudo apt-get install discus -y
+
+# ncdu - Disk Usage Tool
+sudo apt-get install ncdu -y
+
+# jed - text editor
+sudo apt-get install jed -y
+
+# bmon - bandwidth monitor
+sudo apt-get install bmon -y
+
+# nethogs - per process throughput monitor
+sudo apt-get install nethogs -y
+
+# byobu - Terminal multiplexer
+sudo apt-get install byobu -y
+
+# dtrx - Easy Decompression
+sudo apt-get install dtrx -y
+
+# mtr - Traceroute + Ping utility
+sudo apt-get install mtr -y
+
+# aria2c - Wget/Curl Replacement
+# Usage: aria2c foobar.com/file.xyz
+sudo apt-get install aria2c -y
+
+# w3m - Console Web Browser
+sudo apt-get install w3m -y
+
+# weechat - IRC client
+sudo apt-get install weechat -y
+
+# finch - all-in-One pidgin-like messaging client
+sudo apt-get install finch -y
+
+# inxi - System Info Viewer
+# Usage: inxi -Fi
+sudo apt-get install inxi -y
+
+# sshfs - Mount remote folder over SSH
+# Usage: sshfs name@server:/path/to/folder /path/to/mount/point
+sudo apt-get install sshfs -y
+
+# xonsh - Pythonic bash, let's upgrade pips
+# Usage: don't forget to prepend "#!/usr/bin/env xonsh" to your .xsh file
+sudo apt-get install python3-pip -y
+sudo pip3 install xonsh
+
+# when-changed - Do X when a file changes
+sudo pip install when-changed
+
+# hashfile - another hash tool
+sudo pip install hashfile
+
+# Ghetto SSH VPN
+# Usage: sudo sshuttle -r username@sshserver-ip 0/0
+sudo apt-get install sshuttle -y
+
+# Neofetch
+echo "deb http://dl.bintray.com/dawidd6/neofetch jessie main" | sudo tee -a /etc/apt/sources.list
+curl -L "https://bintray.com/user/downloadSubjectPublicKey?username=bintray" -o Release-neofetch.key && sudo apt-key add Release-neofetch.key && rm Release-neofetch.key
+sudo apt-get update
+sudo apt-get install neofetch -y
+
+
+
+############# GUI App Installations #############
+
+# Sound Device Control/Switching 
+sudo apt-add-repository ppa:yktooo/ppa
+sudo apt-get update
+sudo apt-get install indicator-sound-switcher
+
+# Hexchat IRC client
+sudo apt-get install hexchat -y
+
+# qBittorrent is still my favorite native GUI torrent client at this point. It is my uTorrent 2.2.1 replacement.
+sudo apt-get install qbittorrent -y
+
+# Chrome
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i ./google-chrome*.deb -y
+sudo apt-get install -f -y
+rm google-chrome-stable_current_amd64.deb
+
+# Furious Iso Mount 
+sudo apt-get install furiusisomount -y
+
+# Sublime Text 2 - don't forget a key
+sudo add-apt-repository ppa:webupd8team/sublime-text-2 -y
+sudo apt-get update
+sudo apt-get install sublime-text -y
+# Make Sublime Text 2 your default Text Editor
+sudo sed -i 's/^gedit*/subl/' /usr/share/applications/defaults.list
+
+# Pidgin + OTR
+sudo apt-get install pidgin pidgin-otr -y
+
+# Hexchat
+sudo apt-get install Hexchat -y
+
+# qTox
+sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/antonbatenev:/tox/xUbuntu_16.04/ /' >> /etc/apt/sources.list.d/qtox.list"
+sudo apt-get update
+sudo apt-get install qtox --allow-unauthenticated -y
+# Create auto-startup file
+sudo cat <<EOT >> ~/.config/autostart/qtox.desktop
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=qTox
+GenericName=Tox client
+Comment=qTox is a powerful Tox client that follows the Tox design guidelines.
+TryExec=qtox
+Exec=qtox %u
+Icon=qtox
+Categories=InstantMessaging;AudioVideo;Network;
+Terminal=false
+MimeType=x-scheme-handler/tox;application/x-tox;
+EOT
+sudo rm /etc/apt/sources.list.d/qtox.list
+
+# VirtualBox
+sudo su -c 'echo "deb http://download.virtualbox.org/virtualbox/debian xenial contrib" >> /etc/apt/sources.list' 
+wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install virtualbox-5.1 dkms -y
+
+# Filezilla
+sudo apt-get install filezilla -y
+
+# Kodi - use their repository because of Debian's lack of RAR
+sudo add-apt-repository ppa:team-xbmc/ppa -y
+sudo apt-get update
+sudo apt-get install kodi -y
+
+# VLC
+sudo apt-get install vlc -y
+
+# Gimp
+sudo apt-get install gimp -y
+
+#Calibre
+sudo add-apt-repository ppa:n-muench/calibre2 -y
+sudo apt-get update
+sudo apt-get install calibre -y
+
+# NoMachine
+wget http://download.nomachine.com/download/5.1/Linux/nomachine_5.1.62_1_amd64.deb
+sudo dpkg -i nomachine_5.1.62_1_amd64.deb
+
+# Openvpn for Network manager
+sudo apt-get install network-manager-openvpn network-manager-openvpn-gnome openvpn network-manager-vpnc -y
+
+############# Preparations #############
+
+# Truecrypt
+sudo add-apt-repository ppa:stefansundin/truecrypt -y
+sudo apt-get update
+sudo apt-get install truecrypt -y
+
+
+
+############# Requires user input #############
+# Resilio (btsync-GUI)
+sudo apt-get install curl -y
+sudo sh -c "$(curl -fsSL http://debian.yeasoft.net/add-btsync-repository.sh)"
+sudo apt-get update
+sudo apt-get install btsync-gui -y
+
+# Resilio (btysync NO GUI)
+#sudo sh -c 'echo "deb http://linux-packages.getsync.com/btsync/deb btsync non-free" > /etc/apt/sources.list.d/btsync.list'
+#wget -qO - http://linux-packages.getsync.com/btsync/key.asc | sudo apt-key add -
+#sudo apt-get update
+#sudo apt-get install btsync
+#sudo service btsync start
+
+
+
+############# Gaming #############
+
+# Steam
+sudo add-apt-repository multiverse
+sudo apt-get update
+sudo apt-get install steam -y
+
+# PlayOnLinux
+sudo apt-get install playonlinux -y
+
+
+
+
+############# Clean-up #############
+
+# update + upgrade
+sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get autoremove -y && sudo apt-get autoclean -y
+```

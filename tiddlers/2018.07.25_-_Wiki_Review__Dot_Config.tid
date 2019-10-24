@@ -1,0 +1,46 @@
+created: 20180725144300307
+creator: h0p3
+modified: 20181112010835234
+modifier: h0p3
+tags: [[Wiki Review]]
+title: 2018.07.25 - Wiki Review: Dot Config
+
+* [[.config/terminator/plugins/cluster_connect_config/config.json]]
+** Seems easy enough.
+* [[.config/terminator/plugins/cluster_connect.py]]
+** I'm not using this yet, but I want to have this set since I think this is one of the profound strengths of Terminator.
+* [[.config/terminator/plugins/LayoutManager.py]]
+** So, you can save them within Terminator itself (which is probably worth it), but I really do prefer the ability to click.
+** This is weird, since I'm ricing my mouse instead of just my keyboard. I think that's a good thing though.
+* [[.config/terminator/plugins/open_any_file_plugin.py]]
+** I think zsh is going to do this for me too. I'm interested to see what this does on the terminal emulator end of things.
+* [[.config/terminator/config]]
+** I ended up just customizing my own.
+* [[2018.07.24 - Wiki Audit: m10 rework]]
+** Jesus. Yeah, it desperately needs a new gameplan.
+* [[2018.07.24 - Prompted Introspection: Scary Dream]]
+** Life is short.
+* [[about:config]]
+** I need to collect more of this. I do this all the time.
+* [[Firefox]]
+** This will need a revamp. Tons of content goes in here.
+* [[/etc/environment]]
+** Not so useful, from what I can tell.
+* [[2018.07.24 - Computers Musings: PSYCH!]]
+** Renamed, Cataloged.
+* [[Terminator]]
+** There are far more hotkeys. I'll leave it alone for now.
+* [[Leet Tools]]
+** Hope to flesh this out today.
+* [[i3]]
+** Love my pep talk.
+* [[2018.07.24 - Self-Dialectic: Fu]]
+** Jazz
+* [[2018.07.24 - Wiki Review: i3]]
+** Well, I made a big dent, not just a scratch, yesterday. I hope to do the same today.
+* [[2018.07.24 - Deep Reading: Lost in the Cosmos]]
+** After we hit his theory, I'm beginning to be disappointed again.
+* [[2018.07.24 - Carpe Diem: i3 Grind]]
+** Completed
+* [[2018.07.25 - Daily TDL: It's Working]]
+** I'm carrying over the old stuff....bad habit?

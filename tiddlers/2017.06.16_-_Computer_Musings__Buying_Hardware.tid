@@ -1,0 +1,246 @@
+created: 20170616212546454
+creator: h0p3
+modified: 20181124235320372
+modifier: h0p3
+revision: 0
+tags: [[Computer Musings]]
+title: 2017.06.16 - Computer Musings: Buying Hardware
+
+This article bugged me:
+
+* http://www.pcworld.com/article/3200767/gaming/xbox-one-x-pc-build.html
+
+I think they were paid to say this bullshit. The claim is that you will struggle to build hardware even comparable to "loss-leader" hardware you'd find on an Xbox One. Let me dispell this bullshit for you right now. They have a mixture of ad-paid bias marketing manipulation and incompetence here. I smell Apple fanboi mixed with Consoletard. Disgusting.
+
+They gave two builds. I'm going to wreck them both.
+
+I built to her first build's initial specs (which far outstrip what an APU is going to hand you). 
+
+<a href="https://pcpartpicker.com/list/DQsxqk">PCPartPicker part list</a> / <a href="https://pcpartpicker.com/list/DQsxqk/by_merchant/">Price breakdown by merchant</a>
+<table class="pcpp-part-list">
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Item</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="pcpp-part-list-type">CPU</td>
+      <td class="pcpp-part-list-item"><a href="https://pcpartpicker.com/product/qmrcCJ/amd-cpu-fd8300wmhkbox">AMD - FX-8300 3.3GHz 8-Core Processor</a></td>
+      <td class="pcpp-part-list-price">
+        <a href="https://pcpartpicker.com/product/qmrcCJ/amd-cpu-fd8300wmhkbox">$89.99 @ Amazon</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="pcpp-part-list-type">Motherboard</td>
+      <td class="pcpp-part-list-item"><a href="https://pcpartpicker.com/product/C2mxFT/asus-m5a78l-m-plususb3-micro-atx-am3-motherboard-m5a78l-m-plususb3">Asus - M5A78L-M PLUS/USB3 Micro ATX AM3+ Motherboard</a></td>
+      <td class="pcpp-part-list-price">
+        <a href="https://pcpartpicker.com/product/C2mxFT/asus-m5a78l-m-plususb3-micro-atx-am3-motherboard-m5a78l-m-plususb3">$46.99 @ Newegg</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="pcpp-part-list-type">Memory</td>
+      <td class="pcpp-part-list-item"><a href="https://pcpartpicker.com/product/W2vRsY/patriot-memory-psd38g13332">Patriot - Signature 8GB (1 x 8GB) DDR3-1333 Memory</a></td>
+      <td class="pcpp-part-list-price">
+        <a href="https://pcpartpicker.com/product/W2vRsY/patriot-memory-psd38g13332">$39.99 @ Amazon</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="pcpp-part-list-type">Storage</td>
+      <td class="pcpp-part-list-item"><a href="https://pcpartpicker.com/product/2RPfrH/hitachi-internal-hard-drive-0f10311">Hitachi - Deskstar 7K2000 2TB 3.5" 7200RPM Internal Hard Drive</a></td>
+      <td class="pcpp-part-list-price">
+        <a href="https://pcpartpicker.com/product/2RPfrH/hitachi-internal-hard-drive-0f10311">$56.50 @ Amazon</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="pcpp-part-list-type">Video Card</td>
+      <td class="pcpp-part-list-item"><a href="https://pcpartpicker.com/product/pKX2FT/evga-geforce-gtx-1060-3gb-sc-gaming-video-card-03g-p4-6162">EVGA - GeForce GTX 1060 3GB 3GB SC GAMING Video Card</a></td>
+      <td class="pcpp-part-list-price">
+        <a href="https://pcpartpicker.com/product/pKX2FT/evga-geforce-gtx-1060-3gb-sc-gaming-video-card-03g-p4-6162">$179.99 @ Newegg</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="pcpp-part-list-type">Case</td>
+      <td class="pcpp-part-list-item"><a href="https://pcpartpicker.com/product/FvKhP6/xion-case-xon310bk">Xion - XON-310_BK MicroATX Mid Tower Case</a></td>
+      <td class="pcpp-part-list-price">
+        <a href="https://pcpartpicker.com/product/FvKhP6/xion-case-xon310bk">$23.98 @ Newegg</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="pcpp-part-list-type">Power Supply</td>
+      <td class="pcpp-part-list-item"><a href="https://pcpartpicker.com/product/HvTmP6/evga-power-supply-100w10430kr">EVGA - 430W 80+ Certified ATX Power Supply</a></td>
+      <td class="pcpp-part-list-price">
+        <a href="https://pcpartpicker.com/product/HvTmP6/evga-power-supply-100w10430kr">$21.98 @ Newegg</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="pcpp-part-list-type">Wired Network Adapter</td>
+      <td class="pcpp-part-list-item"><a href="https://pcpartpicker.com/product/xQtCmG/tp-link-wired-network-card-tf3239dl">TP-Link - TF-3239DL PCI 10/100 Mbps Network Adapter</a></td>
+      <td class="pcpp-part-list-price">
+        <a href="https://pcpartpicker.com/product/xQtCmG/tp-link-wired-network-card-tf3239dl">$7.80 @ OutletPC</a>
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td class="pcpp-part-list-price-note">Prices include shipping, taxes, rebates, and discounts</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td class="pcpp-part-list-subtotal">Total (before mail-in rebates)</td>
+      <td class="pcpp-part-list-subtotal-price">$502.22</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td class="pcpp-part-list-subtotal">Mail-in rebates</td>
+      <td class="pcpp-part-list-subtotal-price">-$35.00</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td class="pcpp-part-list-total">Total</td>
+      <td class="pcpp-part-list-total-price">$467.22</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td class="pcpp-part-list-price-note">Generated by <a href="http://pcpartpicker.com">PCPartPicker</a> 2017-06-16 17:09 EDT-0400</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+I can do it for $200 less than her stupid pricing, and I get better parts too! 
+
+This has 1TB more storage and my video card is significantly better than her choice. I threw in a wireless card to be cute, since she complained about it. Obviously, anyone who gives a shit will be wired, no if's-and's-or-but's about it. 
+
+I do not include an optical drive, and that's because I'm not an idiot. The best way to watch media or play games hasn't been through optical media in over a decade! I keep my optical drive in my primary machine only as a legacy device, just like I kept a 3.5" floppy drive until 2012. Seriously, I care about legacy. But, I'm not retarded; I don't use the thing but maybe once or twice in the lifetime of a computer. I'm going external next time.
+
+Note, I am below the $500 pricepoint. Let me grant, this system runs hot, but will be perfectly stable. Also, don't buy Windows, idiot. 
+
+The better-than-xbone-1 for $500 or less myth is debunked. Still crushing it.
+
+Alright, onto the second "upgraded" build, which is $818.
+
+My initial thought: they chose the terribly priced i5-7400 with Passmark score 7443 for $180. For $10 more you can buy the i5-7500 at 7981. Why the move from AMD to Intel here? An AMD FX-8350 Eight-Core at 8942 is $80 cheaper than her choice. Don't get me wrong, the reason to choose Intel is single-threading. It's the king.  If multi-threading was really what mattered, stick to AMD.
+
+Vitally, I still don't see games that are significantly multi-threaded. If you really just care about gaming, there is no difference between between 2 cores and 32 cores. It's really hard to write code that will actually make use of more cores. The author chose a dumb compromise. If you care about single-threaded and you want series multi-threaded performance, then buy a better CPU, else choose for price efficiency in single-threaded.
+
+Until I find the i5 variant, these are two correct possible roads to take:
+
+* $329 - Intel Core i7-7700K @ 4.20GHz at 12178
+* $150 - Intel Core i3-7350K @ 4.20GHz at 6925
+
+Let's be clear, her choice only has 75% of the single-threaded performance of either of my chips. I can pay $30 less and still completely wreck her chip in single-threaded performance (what matters; this was the reason to go Intel instead of AMD), or I can pay $150 more and buy a chip that not only has a heft single-threaded advantage but can also fucking destroy in the multi-threaded department.
+
+For the AMD fanbois (and I do prefer competition!), the AMD Ryzen 7 1700X is at the same pricepoint as the i7, and it does 14865, but the single-threading is still worse than all of the chips we are considering here. It's really bad when a $150 chip wrecks your +$300 chip in the most important performance metric for non-parallel tasks (and most parallel tasks should be handled by your GPU).
+
+<a href="https://pcpartpicker.com/list/P9kmZ8">PCPartPicker part list</a> / <a href="https://pcpartpicker.com/list/P9kmZ8/by_merchant/">Price breakdown by merchant</a>
+<table class="pcpp-part-list">
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Item</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="pcpp-part-list-type">CPU</td>
+      <td class="pcpp-part-list-item"><a href="https://pcpartpicker.com/product/tTVBD3/intel-core-i3-7350k-42ghz-dual-core-processor-bx80677i37350k">Intel - Core i3-7350K 4.2GHz Dual-Core Processor</a></td>
+      <td class="pcpp-part-list-price">
+        <a href="https://pcpartpicker.com/product/tTVBD3/intel-core-i3-7350k-42ghz-dual-core-processor-bx80677i37350k">$148.88 @ OutletPC</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="pcpp-part-list-type">Motherboard</td>
+      <td class="pcpp-part-list-item"><a href="https://pcpartpicker.com/product/rLs8TW/msi-motherboard-h110mgaming">MSI - H110M Gaming Micro ATX LGA1151 Motherboard</a></td>
+      <td class="pcpp-part-list-price">
+        <a href="https://pcpartpicker.com/product/rLs8TW/msi-motherboard-h110mgaming">$41.98 @ Newegg</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="pcpp-part-list-type">Memory</td>
+      <td class="pcpp-part-list-item"><a href="https://pcpartpicker.com/product/4QNypg/team-vulcan-8gb-2-x-4gb-ddr4-2400-memory-tlgd416g2400hc14dc01">Team - Vulcan 16GB (2 x 8GB) DDR4-2400 Memory</a></td>
+      <td class="pcpp-part-list-price">
+        <a href="https://pcpartpicker.com/product/4QNypg/team-vulcan-8gb-2-x-4gb-ddr4-2400-memory-tlgd416g2400hc14dc01">$99.99 @ Newegg</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="pcpp-part-list-type">Storage</td>
+      <td class="pcpp-part-list-item"><a href="https://pcpartpicker.com/product/x28H99/sandisk-ssd-plus-480gb-25-solid-state-drive-sdssda-480g-g26">SanDisk - SSD PLUS 480GB 2.5" Solid State Drive</a></td>
+      <td class="pcpp-part-list-price">
+        <a href="https://pcpartpicker.com/product/x28H99/sandisk-ssd-plus-480gb-25-solid-state-drive-sdssda-480g-g26">$128.99 @ Best Buy</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="pcpp-part-list-type">Video Card</td>
+      <td class="pcpp-part-list-item"><a href="https://pcpartpicker.com/product/Tv38TW/evga-geforce-gtx-1070-8gb-sc-gaming-acx-30-video-card-08g-p4-6173-kr">EVGA - GeForce GTX 1070 8GB SC Gaming ACX 3.0 Video Card</a></td>
+      <td class="pcpp-part-list-price">
+        <a href="https://pcpartpicker.com/product/Tv38TW/evga-geforce-gtx-1070-8gb-sc-gaming-acx-30-video-card-08g-p4-6173-kr">$389.99 @ Newegg</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="pcpp-part-list-type">Case</td>
+      <td class="pcpp-part-list-item"><a href="https://pcpartpicker.com/product/FvKhP6/xion-case-xon310bk">Xion - XON-310_BK MicroATX Mid Tower Case</a></td>
+      <td class="pcpp-part-list-price">
+        <a href="https://pcpartpicker.com/product/FvKhP6/xion-case-xon310bk">$23.98 @ Newegg</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="pcpp-part-list-type">Power Supply</td>
+      <td class="pcpp-part-list-item"><a href="https://pcpartpicker.com/product/HvTmP6/evga-power-supply-100w10430kr">EVGA - 430W 80+ Certified ATX Power Supply</a></td>
+      <td class="pcpp-part-list-price">
+        <a href="https://pcpartpicker.com/product/HvTmP6/evga-power-supply-100w10430kr">$21.98 @ Newegg</a>
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td class="pcpp-part-list-price-note">Prices include shipping, taxes, rebates, and discounts</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td class="pcpp-part-list-subtotal">Total (before mail-in rebates)</td>
+      <td class="pcpp-part-list-subtotal-price">$905.79</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td class="pcpp-part-list-subtotal">Mail-in rebates</td>
+      <td class="pcpp-part-list-subtotal-price">-$50.00</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td class="pcpp-part-list-total">Total</td>
+      <td class="pcpp-part-list-total-price">$855.79</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td class="pcpp-part-list-price-note">Generated by <a href="http://pcpartpicker.com">PCPartPicker</a> 2017-06-16 18:03 EDT-0400</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+Alright, I've gone over her arbitrary budget by $37, or 5% of her cost more, because this was the correct price point. Obviously, we can crush her performance at the $818 price point, but this is where raw price-efficiency should actually take us. 
+
+Let's be clear, for $37 more, we pickup:
+
+* a fucking SSD, which everyone post 2010 should be using in their machine. 
+** Even for a gaming machine, you'd be retarded not to get one. In fact, for the previous rig, I'd take a 120GB SSD instead of a 1TB HDD and just live within my space means.
+* a significantly stronger single-threaded CPU which remains quite competitive in multi-threaded performance against most consumer chips
+* 16 GB of RAM, not 8GB. Again, welcome to the 2010's.
+** I've had Chrome break 8GB of memory usage (with standard extensions). 
+* A GPU which destroys, jumping from 7957 passmark to 11015.
+** The heart-and-soul of a gaming rig. Dump your money into it.
+
+Note, it would be easier to go Z270, and I have forgotten a cooler. I have a bunch laying around. Throw $7 extra if you need one. 
+
+I'll tell you this isn't the machine I would buy for myself. I would jump for the i7, and at this point, I'd jump for 32GB of RAM too. But, I don't need that much GPU either. When I do, I'd rent it (but I'm not actually rendering games on my screen at that point).
+
+
+
+
+
+
+

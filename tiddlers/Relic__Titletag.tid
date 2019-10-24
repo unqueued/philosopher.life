@@ -1,0 +1,11 @@
+created: 20171024013920050
+creator: h0p3
+modified: 20181022184236797
+modifier: h0p3
+revision: 0
+tags: Relic
+title: Relic: Titletag
+
+//I have been thinking about automation for quite a while.//
+
+If you see a word with a colon at the beginning of a page title, you're looking at a Titletag. There are regular tags in this software, but Titletags can do even more for me. If we ever get complex automated programmatic transformations of the wiki, I'll be able to undo some damage, coax my data in the categories and formatting I need, etc.

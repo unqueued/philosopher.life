@@ -1,0 +1,19 @@
+created: 20180117014850139
+modified: 20180117153453218
+revision: 0
+title: Rust: Effective Borrowing: Cheatsheet
+
+```cpp
+String      // original ownership: control all access, will free (destruct) when done
+&String     // type of shared reference: many readers, no writers 
+&mut String // type of mutable reference: no other readers, one writer
+&str        // type of string slice
+
+fn greet(name: &String) {..}
+fn greet(name: &mut String) {..}
+
+&name       // shared borrow
+&mut name   // mutable borrow expression
+&name[x..y] // slice expression
+000
+```

@@ -1,0 +1,70 @@
+created: 20141212105914482
+creator: h0p3
+modified: 20191016231701049
+modifier: h0p3
+tags: $:/tags/Macro j3d1h
+title: $:/core/macros/timeline
+
+\define timeline-title()
+<!-- Override this macro with a global macro 
+     of the same name if you need to change 
+     how titles are displayed on the timeline 
+     -->
+<$view field="title"/>
+\end
+\define timeline(format:"DDth MMM YYYY",subfilter:"!prefix[Hidden:]!tag[Hidden]!tag[no-recent]",dateField:"modified")
+<div class="tc-timeline">
+<$list filter="[!is[system]$subfilter$has[$dateField$]!nsort[$dateField$]days:$dateField$[-7]eachday[$dateField$]]">
+<div class="tc-menu-list-item">
+█▓▒▒░░░░ <$button class="tc-btn-invisible tc-tiddlylink">
+<$list filter="[sameday:$dateField${!!$dateField$}!is[system]$subfilter$] +[days:$dateField$[-7]!nsort[$dateField$]]">
+<$wikify name=title text="""<$view field="title"/>""">
+<$action-navigate $to=<<title>>/>
+</$wikify>
+</$list>
+<$list filter="[sameday:$dateField${!!$dateField$}!is[system]$subfilter$] +[days:$dateField$[-7]!nsort[$dateField$]first[]]">
+<$wikify name=title text="""<$view field="title"/>""">
+<$action-navigate $to=<<title>>/>
+</$wikify>
+</$list>
+<span style="color:#66ff66"><$view field="$dateField$" format="date" template="$format$"/></span>
+</$button> ░░░░▒▒▓█
+<$list filter="[sameday:$dateField${!!$dateField$}!is[system]$subfilter$!nsort[$dateField$]]">
+<div class="tc-menu-list-subitem">
+<$link to={{!!title}}>
+<<timeline-title>>
+</$link>
+</div>
+</$list>
+</div>
+</$list>
+</div>
+\end
+\define timespace(limit:"100",format:"DDth MMM YYYY",subfilter:"",dateField:"modified")
+<div class="tc-timeline">
+<$list filter="[!is[system]$subfilter$has[$dateField$]!nsort[$dateField$]limit[$limit$]eachday[$dateField$]]">
+<div class="tc-menu-list-item">
+█▓▒▒░░░░ <$button class="tc-btn-invisible tc-tiddlylink">
+<$list filter="[sameday:$dateField${!!$dateField$}!is[system]$subfilter$] +[!nsort[$dateField$]]">
+<$wikify name=title text="""<$view field="title"/>""">
+<$action-navigate $to=<<title>>/>
+</$wikify>
+</$list>
+<$list filter="[sameday:$dateField${!!$dateField$}!is[system]$subfilter$] +[!nsort[$dateField$]first[]]">
+<$wikify name=title text="""<$view field="title"/>""">
+<$action-navigate $to=<<title>>/>
+</$wikify>
+</$list>
+<span style="color:#66ff66"><$view field="$dateField$" format="date" template="$format$"/></span>
+</$button> ░░░░▒▒▓█
+<$list filter="[sameday:$dateField${!!$dateField$}!is[system]$subfilter$!nsort[$dateField$]]">
+<div class="tc-menu-list-subitem">
+<$link to={{!!title}}>
+<<timeline-title>>
+</$link>
+</div>
+</$list>
+</div>
+</$list>
+</div>
+\end

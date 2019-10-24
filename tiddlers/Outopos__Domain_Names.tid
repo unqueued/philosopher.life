@@ -1,0 +1,29 @@
+created: 20180227030515260
+modified: 20180227035929267
+title: Outopos: Domain Names
+
+Some problems are harder than others to solve. Zooko's Paradox is never ultimately solved, although we keep edging closer and closer a practical semblance of an answer. Outopos should remain as agnostic in this issue as possible and leverage as many tools as available. 
+
+A domain name should be able to point to at least one the following things:
+
+* Another Primary Domain Name
+** Any number of secondary domain names in sequential order
+* A Primary IPv4 address on the internet
+** Any number of secondary IPv4 addresses on the internet in sequential order
+* A Primary IPv6 address on the internet
+** Any number of secondary IPv6 addresses on the internet in sequential order
+* A Primary Outopos Public Key of any kind
+** Any number of secondary Outopos Public Keys of any kind in sequential order
+* A primary 64-Byte block of data
+** Any number 64-Byte blocks of data in sequential order
+
+There are a number of DNS resolvers to consider:
+
+* The Internet's DNS system
+* Namecoin
+* Monero Openalias
+* Perhaps Blockstack
+
+Outonyms will be records of them all. Outopos-DNS resolves will be federated. Let us say X number of Outokens buys 1 Primary Outonym, and each round of secondary elements costs X/2 Outokens.
+
+Federations will require game-theoretically sound voting.

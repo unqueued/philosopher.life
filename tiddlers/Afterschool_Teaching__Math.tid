@@ -1,0 +1,23 @@
+created: 20181217165634279
+modified: 20181223200426585
+tags: [[Afterschool Teaching]]
+title: Afterschool Teaching: Math
+
+//You only have a few minutes each day. It can't be too serious. It might kill you inside, but you just have to own up to the fact you aren't going to be able to give these children what your children have. You are but one man with almost no time. You can't save them. You will only ever plants seeds and cushion blows.//
+
+* Concepts, Toys, etc.
+** Monty Hall Problem
+** Substitution Ciphers
+** Goldbach's Conjecture
+*** Every even integer greater than can be expressed as the sum of two (not necessarily distinct) prime numbers.
+** Collatz (3n+1) Conjecture
+*** Start with any positive integer n. Then each term is obtained from the previous term as follows: if the previous term is even, the next term is one half the previous term. If the previous term is odd, the next term is 3 times the previous term plus 1. The conjecture is that no matter what value of n, the sequence will always reach 1. 
+
+* Reading //Life of Fred//
+** I don't know their skill. I have to start from the bottom. Those at the bottom need my help the most, and the narrative will be enchanting to those who are already competent (you must iterate over concepts from different angles to enrich them!)
+* Math relays
+** Calculation grinds
+* 24
+** e.g. 2456 -- 4x5=20; 6-2=4; 20+4=24
+** OCRed (DO NOT TRUST): 3669 1569 2469 1466 0489 1147 3777 1579 2559 1467 5789 1227 3788 1679 2566 1068 1234 4458 2236 2568 2235 1256 4488 2237 2577 1258 4569 2207 2669 2258 4578 2208 2678 2269 1267 4677 2256 2788 2335 1268 4889 2267 2889 2357 1334 5667 2278 3345 2367 1347 2289 3347 2368 1055 1169 2337 3156 2379 1236 2338 3459 1237 2345 3889 2455 1588 1247 2347 4456 2468 1688 1219 0568 2179 1689 1269 2356 4569 2558 1789 1337 2358 4589 2588 1347 2366 4788 2569 2336 1356 2369 5568 2689 1358 2377 5668 3357 2447 1359 2446 5677 3368 2467 2007 5678 3377 3348 1137 2156 7889 3478 1079 2157 3578 3457 1556 2466 1228 3589 2167 1388 0078 
+** http://scripts.cac.psu.edu/staff/r/j/rjg5/Math24.htm

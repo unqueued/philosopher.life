@@ -1,0 +1,42 @@
+created: 20161211035845146
+modified: 20171030150653346
+revision: 0
+tags: KIN RPIN
+title: Tips for Using this Wiki
+
+Each tiddler will have a primary author (the part of myself responsible for voicing it) listed in the Tag name. This shows what I take to be the person who wants to show it on the wiki, the person who endorses it, or the persons (I don't see a reason for multi-tagging yet). Untagged will just be h0p3, and we'll have a tag for [[RPIN]] and [[KIN]]. This is a 3-party adversarial system in a way, much like the 2-party + electorate system in the United States. If h0p3 is to be free, then he must maintain his autonomy against [[KIN]] and [[RPIN]]. The point is to unify, not explode in the number of persons. That said, having more identities is not equivalent to being less unified. Maybe that is just the nature of disagreement with ourselves. I don't know. The healthiest election systems are weighted, provide multiple parties, etc. 
+
+<<<
+[[KIN]]: Ugh, I know [[RPIN]] is right about something: the most redpilled will emerge from the various groups of us to take over. The nice guy does lose. Maybe I can be metamodern in my redpilledness though, allowing for a new kind of [[KIN]] to emerge to interpret and respect them.
+<<<
+
+<<<
+[[RPIN]]: That is an astute observation. See: [[Christian Memetics]].
+<<<
+
+
+* The entire wiki is contained in a single html file (the index.html file you are viewing right now). 
+** If it is loaded in your browser, then you can still browse it even while offline. 
+** You can also save it for offline reading if you wish. 
+** Please note that if you are connecting to https://h0p3.xyz, then you may need to clear your browser cache or use private/incognito mode for updates.<<ref "1">> 
+* Internal links open up a new wiki-page below your current wiki-page, while external links are opened in a new browser tab.
+* Footnotes have a pop-up, but they can also be found at the bottom of the wiki-page.
+* The date below the title of each page shows when it was lasted edited. 
+* The button in the top-right corner opens the wiki's options, recent pages, search functions, etc. 
+* Your URL bar shows a re-usable link to the ordered layout of the wiki-pages you currently have opened. 
+** Clicking on a wiki-page title link will make it the primary "currently targeted" wiki-page in the ordered layout in your URL bar. 
+* There are many saveable custom options and configurations for offline users, but users are unable to make any modifications to the published wiki.
+*Don't forget to look through the homepage options (About, Projects, Connect, etc.).
+
+* Navigate by taking links forward, and clicking "X" in the top right-hand corner to go backwards. 
+** Note that Tiddlywiki doesn't have a hotkey for closing windows yet. 
+** You can back just use your browser hotkeys though: alt+left or alt+right to navigate through your history. 
+
+
+Tips for Authors:
+
+* Upgrade your Tiddler: http://tiddlywiki.com/upgrade.html
+
+-------------------------------------------------------------------------------------
+
+<<footnotes "1" "I've not yet figured out a way to permanently maintain no-cache metatags in Tiddlywiki (since it overwrites them).">>

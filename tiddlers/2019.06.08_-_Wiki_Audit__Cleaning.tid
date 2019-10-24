@@ -1,0 +1,44 @@
+created: 20190608144748744
+modified: 20190609040318236
+tags: [[RGM Notes]] [[Wiki Audit]]
+title: 2019.06.08 - Wiki Audit: Cleaning
+
+Working on search a bit. The "list" tab is not automatically showing up, and we've decided to tuck olvoldy a bit more.
+
+---
+
+Doing just a bit of [[The Remodeling]] today for fun. I have a billion messes to clean up in here. One of my hopes is that as I clean I become more and more comfortable not only with where everything is and should be (and how it should be related or structured), but that future work will naturally be saner. Otherwise, I just continue to make the same mistakes over and over again.
+
+---
+
+I am increasingly convinced (and I was already fairly convinced) that I simply cannot ever escape building standard hierarchical file structures from [[2019.06.07 - Tagging Theory: At Last]]. I need it to reason visually about my wiki. I can't remember or find some things without it. I think this becomes clearer the larger and more sprawling it gets (and I have no reason to think this won't continue to grow out of control; I'm at 30MB already<<ref "lt">>).
+
+---
+
+I've slowed down having to modify my tabs so often, especially since [[Hub]] is dynamically generated without [[firmcoding]] (a rule I try not to break, but I use it constantly, and it's specifically for me in this tool). [[Pin]] is something I modify though, I might as well make it cleaner and easier.
+
+Installed $:/plugins/TWaddle/TabLinks.<<ref "h">> Changed a bit of the coloration.
+
+I tried https://wikilabs.github.io/editions/link-to-tabs/, which is probably the classic. It fucks with the spacing on my tabs, and I'm far too vain for that. The hover is just hawter and won't distract. Plus, olvoldy.
+
+Also, drag'n'drop import isn't working smoothly. 
+
+Of course, I could not help myself. I went shopping for more plugins. I didn't find anything I adored. It's clear that others make much prettier wikis than I do, lol. There are so many ideas, but I feel flooded. I have no idea how I can actually use them, so I'm not. I'm a kid in a candystore or a shitty craftsman in a toolstore. I wants all of them, please.
+
+---
+
+[[Pin]] got cleaned up, it gave me an idea too. I'd like a wordsmithing toolshop, and I think my offspring might benefit from it as well. Also, [[Pin]] is starting to have the same feel as [[Hub]], and I'm wondering if I will move to more dynamic work in it. I could, but so far I'm pleased to manually define it. These are doorways I use often, they condense a great deal. Reducing the cognitive load in knowing how to get where I'm going is all too often my problem. I hate that feeling of holding something in my head and not knowing where the hell I'm going with it.
+
+---
+
+The [[Humor]] cloud is getting [[remodeled]] and filled out a bit. [[Art]] too. [[Humor]] is spiffy, and I think the project at large merits the [[Leet]] tag.
+
+---
+
+https://www.reddit.com/r/h0p3/ exists now. I don't think I'll ever use it, but I should reserve it. No user by the name of [[h0p3]] exists on Reddit, but they won't allow it to be registered (too short, I assume). I still strongly prefer to use tools that maximize our privacy, even when I'm going to post what we say.
+
+
+---
+<<footnotes "lt" "I've heard complaints from people that the site won't load. If you have a shit connection, even the 10MB gzipped wiki coming out of github is going to feel slow. Kids these days...back in the 90's, I regularly walked away from my [[monster]] to get something to drink as large objects loaded up for me. TWO fucking days we didn't have a phone so I could attempt to download Redhat. I wonder if the temporal price I paid for digital objects, even just loading a website, made it so I was conditioned to have a bias to think it was therefore more worthy. Perhaps if everything loads fast the world flattens in a way, nothing costs enough for us to think anything we load is worth something (which is a terrible inference, obviously). Naw. That's not quite right either.">>
+
+<<footnotes "h" "Uh, I don't know why that link doesn't work.">>

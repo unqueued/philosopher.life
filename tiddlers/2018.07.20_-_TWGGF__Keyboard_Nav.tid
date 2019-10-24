@@ -1,0 +1,20 @@
+created: 20180720222543050
+creator: h0p3
+modified: 20181219181841745
+modifier: h0p3
+tags: TWGGF
+title: 2018.07.20 - TWGGF: Keyboard Nav
+
+Tiddlywiki is a major workspace for me (https://philosopher.life/). One problem that continues to only grow larger for me is navigation. I can build my wiki to make it easier to navigate in some respects, but physically navigating is a crucial problem when I have a ton of tiddlers open at the same time (I regularly do). Right now I navigate with: "ctrl+f," the "Open" tab, my own linking structures, the search bar, arrowkeys, pg up/down, and "Scroll Anywhere" (FF extension) accelerated middle click scrolling. I really want a way to navigate the wiki with just my keyboard.
+
+What are the best practice methods for navigating Tiddlywiki with a keyboard? Is there any way to achieve the following?
+
+* Change the target tiddler by stepping up and down one tiddler at time in my "Open" tab, even if they are already open (pg up/down don't work if the tiddler is open, as it steps through the text).
+* Open/edit a target tiddler
+* Initialize (and perhaps deinitialize) a cursor in the body of a target tiddler.
+* Spider around the sidebar and tabs. 
+
+This may be far too much to ask. I fully recognize you owe me nothing, and I'm very grateful for what I have. I'm just trying to improve the increasing friction in my workflow. The problem of navigation is at the point where I'm considering just building flat text/tid files (for which I can find effective keyboard navigation tooling) and compiling them into Tiddlywikis, but at that point, why use Tiddlywiki? I really want to keep my workspace as self-contained as possible.
+
+Browser extensions, linux keyboard macro software, or anything you can think of is on the table for me. I'm reaching my ergonomic limits. Please, help me cast spells with my keyboard macros instead of my mouse.
+

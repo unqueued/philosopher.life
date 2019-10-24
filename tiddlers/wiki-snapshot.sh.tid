@@ -1,0 +1,107 @@
+created: 20171216013246862
+creator: h0p3
+modified: 20181203174303846
+modifier: h0p3
+revision: 0
+tags: bash [[Wiki Scripts]]
+title: wiki-snapshot.sh
+type: text/vnd.tiddlywiki
+
+```bash
+#!/bin/bash
+
+# logfile timestamp
+date +"%Y.%m.%d-%T" #Getting the date/time
+
+# Git
+TIME=`date +20%y.%m.%d` #The date, for the name of the folder
+H0P3=$TIME-h0p3.wiki-index.html #Name of said folder
+J3D1H=$TIME-j3d1h.wiki-index.html
+LUXB0X=$TIME-1uxb0x.wiki-index.html
+K0SH3K=$TIME-k0sh3k.wiki-index.html
+
+###
+
+cd /home/h0p3/syncs/j3d1h
+git config --global user.email "foo@mail.com"
+git config --global user.name "j3d1h"
+git add index.html
+git commit -m "$J3D1H"
+git push https://j3d1h:foobar@github.com/j3d1h/j3d1hs-wiki
+
+###
+
+cd /home/h0p3/syncs/1uxb0x
+git config --global user.email "foo@mail.com"
+git config --global user.name "1uxb0x"
+git add index.html
+git commit -m "$LUXB0X"
+git push https://1uxb0x:foobar@github.com/1uxb0x/1uxb0xs-wiki
+
+###
+
+cd /home/h0p3/syncs/bookwyrm
+git config --global user.email "foo@mail.com"
+git config --global user.name "k0sh3k"
+git add index.html
+git commit -m "$K0SH3K"
+git push https://k0sh3k:foobar@github.com/k0sh3k/k0sh3ks-wiki
+
+### 
+
+# Vars
+git config --global user.email "foo@mail.com"
+git config --global user.name "m6ram"
+FILENAME1=$TIME-h0p3.wiki-index.html
+FILENAME2=$FILENAME1.sig
+SRCDIR=/home/h0p3/Downloads/Wiki
+REALTIMEDESDIR=/home/h0p3/syncs/wiki-git/wiki-real-time
+NIGHTLYDESDIR=/home/h0p3/syncs/wiki-git/wiki-nightly
+ARCHIVEDESDIR=/home/h0p3/syncs/wiki-snapshots
+
+# Sign
+cd $SRCDIR
+python /home/h0p3/scripts/wiki-hash-sign.py
+
+# Nightly Commit
+cd $NIGHTLYDESDIR
+cp -f $SRCDIR/index.html $NIGHTLYDESDIR
+cp -f $SRCDIR/index.html.sig $NIGHTLYDESDIR
+git add index.html
+git add index.html.sig
+git commit -m "$H0P3"
+git push --set-upstream https://m6ram:foobar@github.com/m6ram/wiki-nightly master
+git push --set-upstream https://m6ram:foobar@gitlab.com/m6ram/h0p3s-wiki.git master
+git push --set-upstream https://m6ram:foobar@bitbucket.org/m6ram/h0p3s-wiki.git master
+
+# Make local archive snapshot
+cp index.html $ARCHIVEDESDIR/$FILENAME1
+cp index.html.sig $ARCHIVEDESDIR/$FILENAME2
+cd $ARCHIVEDESDIR
+tar -cf $FILENAME1.tar $FILENAME1 $FILENAME2
+zstd -f -19 -T7 $FILENAME1.tar
+rm $FILENAME1 $FILENAME2 $FILENAME1.tar
+
+python /home/h0p3/scripts/daily-wbm-archive.py
+
+sh /home/h0p3/scripts/dropbox_uploader.sh
+
+#---#
+
+cd $REALTIMEDESDIR
+rm -rf .git
+git init
+git remote add origin https://github.com/m6ram/m6ram.github.io
+cp -f $SRCDIR/index.html $REALTIMEDESDIR
+cp -f $SRCDIR/index.html.sig $REALTIMEDESDIR
+cp -f $SRCDIR/favicon.ico $REALTIMEDESDIR
+cp -f $SRCDIR/robots.txt $REALTIMEDESDIR
+echo "philosopher.life" > $REALTIMEDESDIR/CNAME
+git add index.html
+git add index.html.sig
+git add favicon.ico
+git add robots.txt
+git add CNAME
+git commit -m "$H0P3"
+git push --force --set-upstream https://m6ram:foobar@github.com/m6ram/m6ram.github.io
+```

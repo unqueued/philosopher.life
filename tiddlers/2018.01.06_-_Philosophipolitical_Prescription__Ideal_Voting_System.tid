@@ -1,0 +1,115 @@
+created: 20180106163746360
+modified: 20190106070236167
+revision: 0
+tags: [[The Original Position]]
+title: 2018.01.06 - Philosophipolitical Prescription: Ideal Voting System
+
+//A two party system is a one party state in disguise. If voting changed anything, they'd make it illegal.//<<ref "2019.01.06">>
+
+Voting is valuable when you have the right voting systems. Voting isn't valuable when the system is controlled, coerced, fraudulent, etc. Thus voting systems are critical. Importantly, they should be structured so as to decentralize power, to prevent "might makes right," and maximize the information available to citizens in general. This is a fundamental problematic we need to have solved yesterday. If we are going to solve our Seldon Crisis-Opportunity, then we have to get this down first. We need to have the machine which iteratively builds better and better basic power structures and trust-models. I present you with my solution.
+
+!! Holy-Grail Voting:
+
+We need a mathematically "good" answer (striving for perfection) to the game-theoretic problem of voting. I am not an expert, and so this is my best guess at the moment.
+
+The science of voting is a cross-discipline of mathematics/computer-science/economics/political science/philosophy. It's not a simple issue, and the perfect answer has not yet been found. Perhaps we have to vote on a set of axioms of what counts as a good voting system before we could determine which voting system to use (rofl). Until that point, however, we need to take a damned good first step. From my recent curation shotgun approach to hyperreading again on the topic, these were my favorite sources (you'd be surprised how many corners of the internet have something to say about this topic):
+
+* https://plato.stanford.edu/entries/voting-methods/
+* http://scorevoting.net/
+* http://electology.org/library
+
+I am convinced that ranged voting systems are clearly best. The critiques I've seen elsewhere do not actually understand ranged voting or do not see how it is still statistically best amongst the practical problems, particularly given Bayesian Regret. Ranged voting is the best at capturing or expressing (packing in maximum information into a single vote) preferences in game-theoretically sound ways. It is not clear the extent to which hybridizing voting systems is worthwhile. The analyses I've seen suggest simple ranged voting is highly pragmatic, although the "in-a-vacuum" mathematically best (which doesn't make it the right one to implement) could be quite complex logistically, educationally, and computationally. There are many trade-offs and feasibility considerations to balance.
+
+Importantly, I like that ranged voting is fundamentally about finding compromises between players in a game. Compromise demonstrates the use of the golden rule in a fundamentally practical way. My gut says (which is hardly a proof of anything) that you might not get exactly what you want on ranged voting, but on average the average person gets something closer to what they want in ranged voting than in any other voting system. This is a game-theoretically sound attempt to compromise in the reflective equilibrium. 
+
+Essentially, people attempting to practice the decentralized Categorical Imperative are unable to be cloned tokens comprising a "Perfectly Rational Hivemind," let alone one which can come to unconditionally unanimous agreement. Kant's project must be heuristic, compromisal, and practical in the political realm. 
+
+You might say there is fundamental diversity and disagreement even behind the best implementation of the veil of ignorance, and thus the reflective equilibrium is about iteration for being less wrong and more right each voting session. You can never full walk behind the veil of ignorance, stripping yourself of your arbitrary moral characteristics, your biases, and the details of your mind itself, but you can attempt to emulate the concept using ranged voting. It is clear that ranged voting enables profound evolutions in political landscapes by being arguably the current best-known implementation of the reflective equilibrium as a political (and not merely moral) project.
+
+The ranged voting system is a sufficiently game-theoretically sound method of collective reasoning and decentralizing power. Thus, I suggest we stick to a ranged-voting system for now. It is hedged-conservative safe, and yet an extreme improvement on what we have. This is a damned practical way to go. Essentially, in our iterative development, this is the right next step to take, even if it is simply one of many steps on our path to the maximally ideal holy-grail voting system.
+
+
+
+!! Cryptographic Logistics:
+
+Open Source Voting is absolutely necessary. It needs to be scrutinized. It is the only thing which can be trusted. At some point, we do have a trusting trust problem, however, we can and should make sure the system open. It's the only way.
+
+Furthermore, as terrifying as it might sound, I believe national ID's are useful to the people and not merely those in power. Let us pretend, for the moment, that the exploitation of national ID's (NID), which we already have to some extent, can be mitigated or avoided. We need something better than SSNs.
+
+NIDs should employ quantum-resistant public-key cryptography. It's obvious. It's flexible, fast, extensible, and secure. It's easy to remove, add, and replace keys. You can create multi-sigs, blockchains, and key-rings systems. Welcome to the 21st century!
+
+Is it important that a user can remember his private key? If so, then enable the following:
+
+`Salted Password` -> `Heavy Bcrypt` -> `privateKey` -> `publicKey`
+
+It would be useful for people to be to choose their own key pairs to some degree. 
+
+There will be a central agency that gives out ID's. That place is fucking Fort Knox. Arguably, it is one of the most important facilities in the state; it dictates who is and isn't a citizen in a direct way. Of course, hacking into such a system destroys it all. Thus, the network of computers which generates and stores private keys must be air-gapped against the rest of the world. You do want an air + paperwork gap for this. Much of the surrounding ecosystem that branches out into the state and local logistics can and should be automated. However, this step is so crucial that it must bear human and physical scrutiny. You need someone asking, "Does this smell right?"
+
+So, when I'm born, the usual paperwork happens which results in the NID Center generating a keypair for me on their air-gapped machines. Everyone will be issued two encoded cards: one is the public key card and the other private key card. These cards are either mailed to me or an office that my guardians pick them up at. When I'm an adult, I can (or must) change my NID to generate privacy of my identity from my guardians, etc. 
+
+How do you handle identity theft? Obviously, there are other kinds of information used to demonstrate that you are who you say you are to the NID Service. You do need paperwork. Being able to demonstrate a lineage of NIDs is also quite useful; how many people are going to have access to that? Ultimately, you need to be able to walk into an office, person-to-person, and show it. That is the ultimate demonstration of your identity. But, we can't expect that demonstration at every single turn; that is logistically unnecessary and inefficient. It really need only be done for births, death, identity thefts, and any spurious reason a citizen may have for wanting to change their NID keypair. The whole point is to centralize and limit the need to do personal verification.
+
+Alright, now when corporation asks for my ID, they are asking for my publicKey. I can hand that out freely. If I must authorize anything, then I sign it on a computer I trust. It must be illegal for anyone to wield anyone else's private key. Further, it must be against the law for an entity to require you to sign in front of them, with their equipment, or in any fashion that reveals your privateKey. In an ideal world, everyone has an air-gapped machine for signing. Basically, you get all the benefits of being able to hand someone an ID to lookup and store in their databases without giving them the authorization of a privateKey. If they get hacked, then so what? Nobody has your privateKey but you. Seems like a reasonable solution to the SSN problem. I'm betting many cornercases are solveable through the extensibility of cryptography.
+
+Crucially, a privateKey enables a profoundly functional signature and voting tool. I can walk up to a voting booth, go online, or mail-in my vote and confidently sign with my privateKey since I'm literally the only person who can do it. I can sign in the privacy of my own home and deliver the signed object. There are lots of options. 
+
+
+!! Anonymized Voting:
+
+* https://pdfs.semanticscholar.org/e1f9/44e4538de4425809f34069ed72b4ac0061f9.pdf
+
+It is crucial that people can vote anonymously. I'm not sure how best do it. I know it can be done though. 
+
+
+
+!! Voting Automation and Proxies:
+
+We need to maximize our ability to poll the set of citizens for relevant preference information. Public key cryptography is an ingredient to a larger set of improvements we desperately need.
+
+Voting must be legally required. You should be punished for not voting in a functional voting system (I wouldn't call the US voting system functional, to be clear). This may not seem very nice, but it is the only good way to fight against apathy and voterbase manipulation. Of course, if a citizen wants to vote randomly that is their legal right (even if it isn't their moral right), but they need to literally elect to do so each election. 
+
+Furthermore, I'm convinced voting must be automated. It's the only thing that makes sense. I see a lot of genius-quality people disagree with me on this. I'm fighting an uphill battle, I realize. Voting automation is the most effective way to ensure that people actually vote by making the logistics of voting low-cost. It enables faster election cycles, a variety of election processes, and more significantly, it enables us to create robust, complex, and flexible forms of representation through chains of proxy voters. 
+
+The goal is to create a voter web-pyramid. I have neither the time nor expertise to vote on every little thing. Hell, even some big things are just outside my abilities. However, I want to be able to enable certain experts to vote on my behalf because I trust them. We need to leverage the trust-networks we build in our private and personal lives more effectively to maximize the value and meaning of our votes. I want fine-grained control of how my vote is spent sometimes, but I also want to be able to make it easy on myself. We need to enable the capture of voter preferences in all kinds and degrees as best as possible. We also want to maximize the value and impact of rational trust.
+
+Essentially, citizens are given the ability to control their level and systems of representations and abstractions sitting between them and the final election. This is perhaps a variant of solving part of the //Federalism// problematic. Automation at this level is crucial to preventing the need for districts, gerrymandering, and the unnecessary centralization of power. Automation enables us to be cosmopolitan.
+
+Power needs to be centralized to some extent. It is a practical statesmanship and a logistical requirement that we do so. It can be a good thing. There are certain kinds of centralized power that we must prevent and others which we must achieve. It's hard to build political systems which can distinguish and achieve both. Automation enables this.
+
+
+
+!! Kids Voting
+
+Guardians receive voting powers from their children. Guardians will automatically point their children's votes at the guardian's voting choices. Basically, guardians vote on behalf of their children. They can elect, for example, to give their children the right to vote, etc. as well. Even for guardians that disagree, you could easily create tools wherein the child's vote is randomly distributed between them, etc.
+
+This makes it so youth are represented, even if they aren't capable of representing themselves. It also gives us a way to ease them into representing themselves and participating as citizens. 
+
+The wife-beater problem is difficult of course. But, we can't have everything we want. Going this route is the higher utility option. What is wrong about the husband who forces his wife to vote a particular way is not the voting system, but about the culture and relationships we have enabled and established.
+
+What about corporations which require you to give them your vote in order to have a job? How do we enforce the illegality of it?
+
+Maybe voting and proxying should be anonymized. 
+
+
+
+!! Campaigns, Media, and Corporate Power
+
+* This must be said better: corporate power must not increase beyond the sum of its constituent members. Anti-synergy, Anti-monopoly, Decentrality Principle maximization, etc. 
+** Of course, there are exceptions. This is a tricky thing to talk about.
+* Decentralized media, search, trust-building, power-structures, etc.
+** Take net neutrality and the hacker ethic and turn the volume to the max. 
+* Campaign finance reform
+** We must minimize how money influences elections.
+*** We need to build political memeplex ad-blockers and make them freely available. You should be able to shape your own filter-bubble. Nobody should have the legal authority to censor, but we individually have the morally justified political right (even if we don't have the moral justified moral right) to censor what we are going to pay attention to and agree with.
+
+
+!! Complexity, Psychology, Behavior, etc.:
+
+If you can't understand how to vote, maybe you shouldn't be voting. There is a reason we don't let 5-year-olds vote. The threshold to citizenship may be rising. Kant knows. There was a year where the average person didn't have a "password" to information or their identity beyond an SSN, and we eventually learned to be those kinds of people. Trust requires the right structures, and those structures sometimes must grow more complex. That is acceptable.
+
+Obviously, there is a learning curve to this system. It will be messy to bring about. It isn't perfect. We need a new set of balance of power theories for this revolutionary beast. 
+
+
+---
+<<footnotes "2019.01.06" "Did I forget all about this? Was this the beginning of it? I'm very happy to have jumped into this.">>

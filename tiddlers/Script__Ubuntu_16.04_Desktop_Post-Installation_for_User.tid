@@ -1,0 +1,81 @@
+created: 20161215205605994
+modified: 20171130181715873
+revision: 0
+title: Script: Ubuntu 16.04 Desktop Post-Installation for User
+
+```bash
+#!/bin/bash
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#                                                  ,,    ,,       #
+#      `7MMF'                      mm            `7MM  `7MM       #
+#        MM                        MM              MM    MM       #
+#        MM  `7MMpMMMb.  ,pP"Ybd mmMMmm  ,6"Yb.    MM    MM       #
+#        MM    MM    MM  8I   `"   MM   8)   MM    MM    MM       #
+#        MM    MM    MM  `YMMMa.   MM    ,pm9MM    MM    MM       #
+#        MM    MM    MM  L.   I8   MM   8M   MM    MM    MM       #
+#      .JMML..JMML  JMML.M9mmmP'   `Mbmo`Moo9^Yo..JMML..JMML.     #
+#                                                                 #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Ubuntu 16.04 Post-Installation "Batteries Loaded" Script        #
+# Please, do not blindly run this script.                         #
+# Read it, modify it, and then use it as you wish.                #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+############# Preparations #############
+
+# make the usual directories
+mkdir ~/bin
+mkdir ~/scripts
+mkdir ~/src
+
+# add Gopaths
+mkdir ~/src/go
+echo 'export GOROOT=/usr/local/go' >> ~/.bashrc
+echo 'export GOPATH=$HOME/src/go' >> ~/.bashrc
+
+# Set PATH and update .bashrc
+echo 'export PATH=$PATH:$GOROOT/bin:$GOPATH/bin:~/bin:~/scripts' >> ~/.bashrc
+source ~/.bashrc
+
+
+
+############# Aliases #############
+
+# upgrade - does it all
+echo 'alias upgrade="sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get autoremove -y && sudo apt-get autoclean -y"' >> ~/.bashrc 
+
+# Opens a file with whatever program would open by double clicking on it in a GUI file explorer.
+# Usage: try someDocument.doc
+echo "alias try='gnome-open'" >> ~/.bashrc 
+
+# History search (use: hs sometext)
+echo "alias hs='history | grep $1'" >> ~/.bashrc 
+
+# toxic - run the toxic CLI client
+echo 'alias toxic="cd ~/bin/toxic/ && ./run_toxic.sh"' >> ~/.bashrc 
+
+# push 'n' pop dem directories (a stack for 'cd')
+echo "alias +='pushd'" >> ~/.bashrc
+echo "alias - -='popd'" >> ~/.bashrc
+echo "alias ?='dirs -v'" >> ~/.bashrc
+
+# Delete current directory (ask for permission)
+echo "alias deldir='find . -mindepth 1 -delete'">> ~/.bashrc
+
+# update bashrc
+source ~/.bashrc
+
+
+
+############# User applications #############
+
+# toxic - cli tox client
+cd ~
+wget https://build.tox.chat/view/Clients/job/toxic_build_linux_x86-64_release/lastSuccessfulBuild/artifact/toxic_build_linux_x86-64_release.tar.xz
+dtrx toxic_build_linux_x86-64_release.tar.xz
+mv toxic_build_linux_x86-64_release ~/bin/toxic
+rm toxic_build_linux_x86-64_release.tar.xz
+
+```

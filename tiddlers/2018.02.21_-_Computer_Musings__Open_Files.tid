@@ -1,0 +1,19 @@
+created: 20180221182846893
+modified: 20181029175224780
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.02.21 - Computer Musings: Open Files
+
+I think deluged's problem may be that it has too many open files.
+
+`lsof | awk '{ print $2 " " $1; }' | sort -rn | uniq -c | sort -rn | head -20`
+
+In both `/etc/systemd/system.conf` and `/etc/systemd/user.conf`, below the `[Manager]` line in each add the line:
+
+* `DefaultLimitNOFILE=999999`
+
+Restart!
+
+`ulimit -a` should show `999999` for `-n` file descriptors.
+
+Brought back fail2ban, turned off the cronjob restarting.

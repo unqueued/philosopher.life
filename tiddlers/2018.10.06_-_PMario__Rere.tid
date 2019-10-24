@@ -1,0 +1,54 @@
+created: 20181006194548182
+creator: h0p3
+modified: 20181020164416898
+modifier: h0p3
+tags: PMario Letter
+title: 2018.10.06 - PMario: Rere
+
+Hey Mario,
+
+> I've seen your discussion about tagging in the group, but I didn't follow it till the end. ... I personally think, that your system with: YYYY.MM.DD - FooTag: BarTitle is a very good approach. I like it.
+
+Thank you. I was glad to have the opportunity to receive advice and theory in that thread. I too am convinced the naming convention is useful enough that I should aim to use tagging to achieve that which the naming convention cannot (though, perhaps I will also have redundancy too).
+
+> I think, you shouldn't change your system. Just add some tagging, so tags will complement your "battle tested" existing system. So some of your "hard-coded" lists can be transferred to dynamic lists over time. ....
+
+Agreed. I'm going to slowly work my way towards it. Perhaps I want to have my cake and eat it too here. I wish I could dynamically generate the hardcoded lists given some set of conditions. One of my worries is that References (which I find immensely valuable for this maze of a wiki) are only generatable (or should only be generated) by hardcoded links (if I tried to start stacking dynamic list generation inside each other [which I assume has a number of issues], this wiki could get really slow really fast).
+
+> The problem with dynamic lists and many tiddlers is performance. If a list is created, the core has to touch every tiddler... So your existing approach may be much more performant.
+
+6400 in two years. It might be the case that a decade from now I'll be looking at 30-40k tiddlers. I have my doubts that this process will become multiple-threaded in the browser, and I'm not convinced single-threaded performance is going to see major gains either. 
+
+Hardcoded links allow for almost complete non-evaluative static rendering of this wiki, and it has platform agnostic properties that I like as well. Hardcode makes it a bit easier to parse TWcode into some markup and convert links correctly to emerge out of the TW platform with my structure somewhat intact. But, I think TW is going to be my tool of choice for a very long time to come (I'm having a hard time conceiving of a replacement).
+
+> Do you want to use the "linking" or the "aliasing" feature?
+
+I'm sorry that I'm ignorant about this question. I believe aliasing is what matters to me. The "Darwinism" example is what I'm hoping to implement. 
+
+<<<
+>    * I have too many tiddlers (~6400 right now)
+
+Yea, that may be the problem. ... Uni-link adds some macros, that will have some overhead if you have many tiddlers. I'll need to test it, with your TW
+<<<
+
+I would greatly appreciate any help you are willing to provide. I have no idea what to do or where to begin. Your tool seems like the only correct option here, and I'm a little surprised (and I don't mean to sound entitled at all) that your plugin isn't actually a native function of Tiddlywiki. It seems like it would be a super common and useful thing, but I may not understand the implications of what you've built well enough or TW in general.
+ 
+<<<
+>    * There is a problem(s) tiddler which is causing this. I have no idea what to look for though.
+
+I don't think so. It may be a mixture of different things.
+<<<
+
+Roger that.
+
+> Can you describe a bit closer, what you want to do with the uni-link plugin? So I can try to create a test case, and do some "live-debugging"
+
+Basically, I want to be able to use an arbitrary number of initial names to functionally resolve to a single tiddler with a final name (I want the world!). 
+
+My current awful noob hack (which is stupidly ugly) is to have multiple tiddlers which transclude the final one, but I would much rather not create a dozen tiddlers to point to just one, and I'd strongly prefer that all of them resolve to the same name.
+
+Unfortunately, I also desperately want to keep References working. I'm completely restructuring the wiki, and thinking about where everything belongs and what its connected to is crucial spidering around and organizing it. I need to continue connecting the dots with reference, but I definitely want the naming superpowers that Unilink enables.
+
+Sincerely,
+
+h0p3

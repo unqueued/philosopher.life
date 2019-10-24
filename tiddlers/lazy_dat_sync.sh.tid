@@ -1,0 +1,27 @@
+created: 20180907013718763
+creator: h0p3
+modified: 20180907031909984
+modifier: h0p3
+tags: 
+title: lazy_dat_sync.sh
+
+```bash
+#!/bin/bash
+
+# Fuck you, crontab!
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:~/bin
+
+# dat sync with lock
+trap "rm -f /tmp/lazydatsync.lock" SIGINT SIGTERM
+if [ -e /tmp/lazydatsync.lock ]
+then
+  echo "lazydatsync is running already."
+  exit 1
+else
+  touch /tmp/lazydatsync.lock
+  dat sync /home/h0p3/wiki-dat
+  rm -f /tmp/lazydatsync.lock
+  trap - SIGINT SIGTERM
+  exit 0
+fi
+```

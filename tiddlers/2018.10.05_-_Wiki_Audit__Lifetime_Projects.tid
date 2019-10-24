@@ -1,0 +1,40 @@
+created: 20181005173113868
+creator: h0p3
+modified: 20181020180700989
+modifier: h0p3
+tags: [[Wiki Audit]]
+title: 2018.10.05 - Wiki Audit: Lifetime Projects
+
+When I created and tagged [[Lifetime Projects]], I was just trying to show that it belongs in both {[[Focus]]} and {[[Dreams]]}. But, then I saw it really belonged everywhere. It is [[Root]] again! What am I to do with this information? I clearly do not understand.
+
+---
+
+[[j3d1h]] and I cannot figure out how to make flexbox allow the sidebarlayout to be fluid-fixed. The wiki is completely unusable without the sidebar following me everywhere on the story river (my story rivers get huge). I am constantly engaging my sidebar. 
+
+Many hours have gone into trying to figure out the differences between an empty wiki, my current wiki, and [[Sphygmus]]' for this particular tool. There appears to be a difference between moving the plugin and grafting just the pieces. There is something about my wiki's setting that appears to make it work, but not empty.
+
+Keeboord is dead to us. I can't even make it work in empty/vanilla. That's alpha software still. Autocompletion for tags and links would be really nice; Select mode for navigating the story river would be fucking sick!
+
+Unilink is the only actual functional piece I absolutely need, since The Remodeling gives me ample reason to clean this mess up and build objects which have multiple pointers but ONE name. Unfortunately, the plugin doesn't allow references in my wiki (though, if I go back over a year, it can). I can't do my remodeling without seeing these references. I simply have to know what's using/pointing to each tiddler. I can't connect the dots correctly without this map. We have no idea why Unilink causes this fundamental break in my wiki (is it simply because it's so large?). Testing with import of my tiddlers into a template to see. This is becoming incredibly frustrating, lol. 
+
+!!FUCK
+
+Just a plain import of my tiddlers, no shadows touched. There's no reason this should fail. This is another PMario tool that starts to break down when you get to wikis my size. 
+
+This has been a rough two days. We can't seem to get ANYTHING to work correctly. This is ugly hack territory for a skiddie.
+
+---
+
+[[Sphygmus]] generously found out how to do it for us [[2018.10.05 - Sphygmus: css hack]]. Thank you! Still going to think on the scrollbar
+
+---
+
+Wow...one of the toughest parts of going through my old writing is being hit full force with my stupidity and knowing that decades later I'll probably be hit with the stupidity of this sentence as well. I simply can't give up though.
+
+Fuck me.
+
+You know what this shit tells me? Go fucking read. Alright, alright, alright.
+
+---
+
+Hypercynic was a wild rush back into time. It's tough to read myself these many years later.

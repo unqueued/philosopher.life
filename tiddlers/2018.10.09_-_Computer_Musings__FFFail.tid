@@ -1,0 +1,17 @@
+created: 20181009145953402
+creator: h0p3
+modified: 20181029175224795
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.10.09 - Computer Musings: FFFail
+
+Decided to do a system upgrade last night while I was drunk. Cool story, bro. FFDE crashed, and I couldn't get my sessions back. 
+
+* https://www.jeffersonscher.com/res/scrounger.html
+* https://www.jeffersonscher.com/ffu/scrounger.html
+
+SAVED MY ASS! Saved to my hard drive in case that shit disappears. Unfortunately, there are thousands of links in the output, and no footholds to parse it. I am clearly doing something wrong. Add-ons installed. Session Boss and Session Sync. Let's see what I like.
+
+---
+
+Bigger problem, my system time is fucked on reboot (I suspect our electrical problems in the house is to blame, but that is a mere hunch). Trying i3-Manjaro's bmenu option first for NTP. Otherwise, I'll set it up myself. No need for that manual shit. I suspect this may actually be part of the problem for FFDE, since it wouldn't even sync. 

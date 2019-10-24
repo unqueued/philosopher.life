@@ -1,0 +1,12 @@
+created: 20170602225514539
+creator: h0p3
+modified: 20180526164448247
+modifier: h0p3
+revision: 0
+title: Tiddlywiki Howto: Embed a Picture
+
+This is centered. It uses your root (for the webserver) directory...mine is /var/www/html. Thus /var/www/html/images/foobar.gif is where you'd find it. Since we sync our directories, you can just think of it as the wiki directory sitting inside of our ~/Downloads/ directory (since FF limits us to saving our wiki their).
+
+```
+<center> [img width=1300 [./images/foobar.gif]] </center>
+```

@@ -1,0 +1,247 @@
+created: 20180704234908674
+creator: h0p3
+modified: 20181031035931172
+modifier: h0p3
+tags: Tulane
+title: 2015.07.15 - Intro to Phil: Mind and Body
+
+The Incorporeal Mind: Descartes, Meditations
+
+    Dualism is the position that mental phenomena are, in some respects, non-physical, or that the mind and body are not identical.
+
+    For Descartes, the mind is a nonphysical substance. Descartes clearly identified the mind with consciousness and self-awareness and distinguished this from the brain as the seat of intelligence
+
+
+
+
+
+Mind-Body Correlations: Malebranche, Dialogues on Metaphysics
+
+    Malebranche is known for his occasionalism, that is, his doctrine that God is the only causal agent, and that creatures merely provide the “occasion” for divine action. On the old textbook account, occasionalism was an ad hoc response to the purported problem in Descartes of how substances as distinct in nature as mind and body are can causally interact. According to this account, Malebranche was driven by this problem with Cartesian dualism to propose that it is God who brings it about that our sensations and volitions are correlated with motions in our body.
+
+    Occasionalism is older than that. Aquinas, for example, gave the idea. Many Christian philosophers and theologians have given at least the seed of this idea before.
+
+
+
+
+
+The Problem of Other Minds: Mill, An Examination of Sir William Hamilton’s Philosophy
+
+    Given that I can only observe the behavior of others, how can I know that others have minds?
+
+        No matter how sophisticated someone's behavior is, behavior on its own is not sufficient to guarantee the presence of mentality
+
+        Philosophical Zombies
+
+        Inductive vs. Deductive reasoning
+
+            Justification, Reliabilism, etc.
+
+        Physicalist Solution
+
+            Easy-peasy
+
+            To be in a certain type of mental state is just to be in a certain type of physical brain state.
+
+            So, if we can detect that another individual is in a certain type of physical state, then we can know that they are in a certain type of mental state.
+
+            Thus, it seems that we can know, in a relatively unproblematic way, that other people are in certain mental states
+
+
+
+
+
+The Myth of the ‘Ghost in the Machine’: Ryle, The Concept of Mind
+
+    Ryle attempts to show that the "official doctrine" of mind/body dualism is false by asserting that it confuses two logical-types, or categories, as being compatible.
+
+        He states "it represents the facts of mental life as if they belonged to one logical type/category, when they actually belong to another. The dogma is therefore a philosopher's myth."
+
+
+
+
+
+
+
+Mind and Body
+
+    Consciousness –THE HARD PROBLEM
+
+        Chalmers:
+
+            It is undeniable that some organisms are subjects of experience. But the question of how it is that these systems are subjects of experience is perplexing. Why is it that when our cognitive systems engage in visual and auditory information-processing, we have visual or auditory experience: the quality of deep blue, the sensation of middle C?
+
+            How can we explain why there is something it is like to entertain a mental image, or to experience an emotion? It is widely agreed that experience arises from a physical basis, but we have no good explanation of why and how it so arises. Why should physical processing give rise to a rich inner life at all? It seems objectively unreasonable that it should, and yet it does.
+
+            The really hard problem of consciousness is the problem of experience. When we think and perceive there is a whir of information processing, but there is also a subjective aspect.
+
+    The mind–body problem is the problem of explaining how our mental states, events and processes—like beliefs, actions and thinking—are related to the physical states, events and processes in our bodies, given that the human body is a physical entity and the mind is non-physical.
+
+        Dualism
+
+            Substance dualism, which holds that the mind is formed of a distinct type of substance not governed by the laws of physics
+
+            Property dualism, which holds that mental properties involving conscious experience are fundamental properties, alongside the fundamental properties identified by a completed physics.
+
+                Although the world is constituted of just one kind of substance — the physical kind — there exist two distinct kinds of properties: physical properties and mental properties. In other words, it is the view that non-physical, mental properties (such as beliefs, desires and emotions) inhere in some physical substances (namely brains).
+
+        Monism
+
+            Physicalism, which holds that the mind consists of matter organized in a particular way
+
+                The common view, and where we see most “Theories of mind” come from.
+
+            Idealism, which holds that only thought truly exists and matter is merely an illusion
+
+            Neutral monism, which holds that both mind and matter are aspects of a distinct essence that is itself identical to neither of them.
+
+    Valuable problem in understanding:
+
+        Consciousness
+
+        Our identity
+
+        Souls
+
+        Our freedom, agency, and moral responsibility
+
+    Ontological commitments:
+
+        The value of the mind-body problem has often required significant and sometimes unintuitive metaphysical commitments.
+
+    Theories of Mind:
+
+        Identity Theory of mind; Type Physicalism
+
+            Mental events can be grouped into types, and can then be correlated with types of physical events in the brain. For example, one type of mental event, such as "mental pains" will, presumably, turn out to be describing one type of physical event (like C-fiber firings).
+
+        Behaviorism
+
+            The study of behavior should be a natural science, such as chemistry or physics, without any reference to hypothetical inner states of organisms as causes for their behavior.
+
+                Physicalist, but not reductive.
+
+            Considered a joke by neuroscience.
+
+        Functionalism
+
+            Its core idea is that mental states (beliefs, desires, being in pain, etc.) are constituted solely by their functional role – that is, they are causal relations to other mental states, sensory inputs, and behavioral outputs.
+
+            Since mental states are identified by a functional role, they are said to be realized on multiple levels; in other words, they are able to be manifested in various systems, even perhaps computers, so long as the system performs the appropriate functions. While computers are physical devices with electronic substrate that perform computations on inputs to give outputs, so brains are physical devices with neural substrate that perform computations on inputs which produce behaviors.
+
+    Neuroscience and Cognitive Science
+
+        Physicalist explanations of the mind
+
+    Machine Learning and Computer Science
+
+        Need not be physicalist, but thinks of the mind in terms of algorithms and mathematics.
+
+            Neural networks, deep learning, genetic algorithms, etc.
+
+            AI, Automated pattern recognition
+
+            Optimizing heuristics and statistical models for prediction
+
+            Optical Character recognition
+
+            Search engines
+
+        Turing Test
+
+            Test of a machine's ability to exhibit intelligent behavior equivalent to, or indistinguishable from, that of a human.
+
+            The conversation would be limited to a text-only channel such as a computer keyboard and screen so that the result would not be dependent on the machine's ability to render words as speech.[2] If the evaluator cannot reliably tell the machine from the human (Turing originally suggested that the machine would convince a human 70% of the time after five minutes of conversation), the machine is said to have passed the test.
+
+                Pornography websites, “Hey, babe…whatch’ you doin’ tonight?”
+
+                    Fail turing tests hard
+
+                Some are beginning to pass.
+
+            Note how intelligence may not be the same thing as consciousness and subjective experience. Thinking and feeling might be different.
+
+        Chinese Room:
+
+            "Suppose that I'm locked in a room and ... that I know no Chinese, either written or spoken". He further supposes that he has a set of rules in English that "enable me to correlate one set of formal symbols with another set of formal symbols", that is, the Chinese characters. These rules allow him to respond, in written Chinese, to questions, also written in Chinese, in such a way that the posers of the questions – who do understand Chinese – are convinced that Searle can actually understand the Chinese conversation too, even though he cannot. Similarly, he argues that if there is a computer program that allows a computer to carry on an intelligent conversation in a written language, the computer executing the program would not understand the conversation either.
+
+    Building a Brain/Mind:
+
+        Technology is slowly replacing body parts. We have artificial hearts. There are artificial eyes and ears. Maybe the brain and mind are replaceable.
+
+        Computers:
+
+            Our standards computers are built out of silicon and metals in complex circuits.
+
+            We could build them very differently though.
+
+                Quantum computing.
+
+                Oldschool transistors
+
+            Our brains, perhaps, might be built out of wacky materials.
+
+        The Chinese Nation Brain:
+
+            Suppose that the whole nation of China was reordered to simulate the workings of a single brain (that is, to act as a mind according to functionalism). Each Chinese person acts as (say) a neuron, and communicates by special two-way radio in the corresponding way to the other people. The current mental state of China brain is displayed on satellites that may be seen from anywhere in China. China brain would then be connected via radio to a body, one that provides the sensory inputs and behavioral outputs of China brain.
+
+            Thus China brain possesses all the elements of a functional description of mind: sensory inputs, behavioral outputs, and internal mental states causally connected to other mental states. If the nation of China can be made to act in this way, then, according to functionalism, this system would have a mind.
+
+            Would this arrangement have a mind or consciousness in the same way that brains do? Is it capable of feelings and thoughts?
+
+    Qualia
+
+        “the ways things seem to us”
+
+        Examples of qualia include the pain of a headache, the taste of wine, or the perceived redness of an evening sky.
+
+        The sensation of color cannot be accounted for by the physicist's objective picture of light-waves. Could the physiologist account for it, if he had fuller knowledge than he has of the processes in the retina and the nervous processes set up by them in the optical nerve bundles and in the brain?
+
+            If you believe in Qualia, then no.
+
+            Inverted Spectrum:
+
+                The inverted spectrum thought experiment, originally developed by John Locke, invites us to imagine that we wake up one morning and find that for some unknown reason all the colors in the world have been inverted.
+
+        Subjective Character of Experience: “What is like to be?”
+
+            Nagel argues that consciousness has an essentially subjective character, a what-it-is-like aspect. He states that "an organism has conscious mental states if and only if there is something that it is like to be that organism—something it is like for the organism
+
+        Philosophical Zombie
+
+            There could be physical duplicates of people, called "philosophical zombies", without any qualia at all.
+
+                These "zombies" would demonstrate outward behavior precisely similar to that of a normal human, but would not have a subjective phenomenology.
+
+                It is worth noting that a necessary condition for the possibility of philosophical zombies is that there be no specific part or parts of the brain that directly give rise to qualia—the zombie can only exist if subjective consciousness is causally separate from the physical brain.
+
+        The knowledge argument
+
+            Mary the color scientist knows all the physical facts about color, including every physical fact about the experience of color in other people, from the behavior a particular color is likely to elicit to the specific sequence of neurological firings that register that a color has been seen. However, she has been confined from birth to a room that is black and white, and is only allowed to observe the outside world through a black and white monitor. When she is allowed to leave the room, it must be admitted that she learns something about the color red the first time she sees it — specifically, she learns what it is like to see that color.
+
+        The scientific unfalsifiability and perhaps unverifiability of Qualia
+
+            Qualia is defined in such a way that it, by definition, can’t be scientifically unfalsified. Perhaps it can’t be verified either.
+
+            Smells like metaphysics.
+
+            Brainstorm Machine, Dennett:
+
+                Suppose [that] there were some neuroscientific apparatus that fits on your head and feeds your visual experience into my brain. With eyes closed I accurately report everything you are looking at, except that I marvel at how the sky is yellow, the grass red, and so forth. Would this not confirm, empirically, that our qualia were different? But suppose the technician then pulls the plug on the connecting cable, inverts it 180 degrees and reinserts it in the socket. Now I report the sky is blue, the grass green, and so forth. Which is the "right" orientation of the plug? Designing and building such a device would require that its "fidelity" be tuned or calibrated by the normalization of the two subjects' reports--so we would be right back at our evidential starting point. The moral of this intuition pump is that no intersubjective comparison of qualia is possible, even with perfect technology.
+
+        Swampman
+
+            Suppose Davidson goes hiking in the swamp and is struck and killed by a lightning bolt. At the same time, nearby in the swamp another lightning bolt spontaneously rearranges a bunch of molecules such that, entirely by coincidence, they take on exactly the same form that Davidson's body had at the moment of his untimely death.
+
+                This being, whom Davidson terms "Swampman," has, of course, a brain which is structurally identical to that which Davidson had, and will thus, presumably, behave exactly as Davidson would have. He will walk out of the swamp, return to Davidson's office at Berkeley, and write the same essays he would have written; he will interact like an amicable person with all of Davidson's friends and family, and so forth.
+
+            Perhaps there would nevertheless be a difference, though no one would notice it. Swampman will appear to recognize Davidson's friends, but it is impossible for him to actually recognize them, as he has never seen them before.
+
+                The Swampman has no causal history.
+
+
+
+
+
+
+

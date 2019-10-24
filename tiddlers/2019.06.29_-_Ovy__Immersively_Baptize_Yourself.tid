@@ -1,0 +1,80 @@
+created: 20190629223901603
+modified: 20190630004921838
+tags: Ovy To Letter
+title: 2019.06.29 - Ovy: Immersively Baptize Yourself
+
+Dear Ovy,
+
+I think it's awesome that you are diving in with excitement. I apologize for the frustations you are and will be experiencing. It does get easier!
+
+<<<
+I am not sure if this thing saved or not, so here I am writing it up once again. Oh well it helps my daily word count (is there a way of doing that on TW?).
+<<<
+
+There are some word count plugins for TW, but you'll have to do a bit of work to get them to do what you are asking. I do not know how to do it. I can guarantee it can be done though. 
+
+<<<
+Quite honesty, I do not know where to begin. Here is my progress sensei.
+<<<
+
+You aren't going to learn it overnight, over a week, or even over a month, imho (and I am no master at this; I'm still learning a ton). The learning curve slows down considerably, and then you make it fit you like a glove again and again such that you don't have to think about how to use the old paradigm as it evolves (blink of an eye, emotional, and visual reasoning, imho) in various contexts. 
+
+Immersive learning is the only correct answer though. My advice is to live in your wiki as much as you can. For now, spend as much of your time writing in your wiki as you can, and transplant it into other mediums as reposts when necessary. 
+
+Become proficient with the markup language, and rely upon it as heavily as you can. Learn how to structure your wiki through links and tags. Shape it so you are productive, play with settings, try different [[plugins|https://dynalist.io/d/zUP-nIWu2FFoXH-oM7L7d9DM]] (make sure you aren't just picking up gadgets and toys, you'll have to overcome the tool and productivity porn), and make sure you keep backups! Setting up nightly backups is the first thing you need to do after making it connectable on your devices. You will run into problems and you will make mistakes, and you will want to have at least one way to undo the damage or recover.
+
+<<<
+As I told you, my prime writing and thus journaling is on writer, the internet typewriter. It is everywhere, loyally. After I open it up on ipad, chromebook, iPhone, or anything. Any additional notes I put on zoho notes then transfer later. But I would like to have something for my archives (journal) where I can put pictures, turn it into a true chronicle of my life.
+<<<
+
+It will suit you well. I haven't yet found a better device for that goal than this one, or I'd be using it.
+
+<<<
+So this is how I have explored the wiki world so far:
+
+* I downloaded TW and tried to find a host that can sync across all my myriad devices. Quine was ok, primitive and loading it to tiddledrive was quite clunky. Further getting something from tiddledrive into Quine was a pain in the wiki. I also explored tiddlespot but then I heard that it transfers with no security. I posted on the google group for advice. Yeah I know, my apple is  clunky and has way too much DRM. So I need a central host that is secure. Of course everyone wants something that is free. 
+<<<
+
+There are going to many pain points in setting up your infrastructure. I think of TW as being skiddie friendly, but it's a slowly growing platform and community. I have a lot of trouble with [[Bob|https://github.com/OokTech/TW5-Bob]], but it is still the tool I'm going to recommend to you. Please try it. If you can get that working, then you can setup a [[VPN|https://zerotier.com/]].<<ref "v">> If you want to share your wiki with me, I suggest using this automated synchronization tool: [[Resilio Sync|Walkthrough: Resilio Sync]]. Eventually, we'll get you setup on a webserver or freehosting for distribution, but I cannot recommend owning your development infrastructure enough! I'm imagining that one day I might head to https://ovy.wiki/ to read what you have to say in a structure you've tailored and retailored to yourself.
+
+First things, get Bob working on one device that will be up 24/7, then make it so you can access your wiki running on one machine from all the other devices on your LAN, then set up backups and get autostarts working, then setup the VPN so you can read+write to your wiki from any device you own that has an internet connection (from WAN), then we can work on distribution (P2P distribution methods can provide privacy and automated updating, but you may want a public wiki which is distributed on the web). One step at a time though!
+
+If you can, try to keep records of how you did things in your wiki. You might want to look back on it.
+
+<<<
+* I am a fanatic of the terminal green screen, like apps such as dark room etc. If I could find a palette that mimics that, it would be great, also posted on the group.
+<<<
+
+I have no doubt you will change your themes, fonts, colors, buttons, and many other aesethic qualities and behaviors as your wiki evolves to suit you (and writing it will probably change you too!).
+
+<<<
+* So easy sync, always there, and a great dark room palette would be my present goals. 
+<<<
+
+I think the backups/versions are about as important as the syncing. One thing you might do is put the Tiddlywiki data in Dropbox, since that will automatically create a version history for you. You absolutely must install this plugin: $:/plugins/tiddlywiki/savetrail (it's saved my ass so many times, I've stopped recording it).
+
+<<<
+* let me say that your archives are stunning. It is like entering a stream of consciousness with a matrix style. I frankly can’t believe it only took you three years. 
+<<<
+
+High praise, thank you. It has been an enormous amount of work. I strongly recommend working on the wiki everyday, finding ways to integrate it into everything you do, and using it as a communications platform with others. 
+
+<<<
+* I am not sure how we maintain this conversation here. Or get notified of updates. Let me know.
+
+Ovy
+<<<
+
+For now, we will have an asymmetry where you must direct message me. It is possible we will have a P2P solution soon so that you can just leave messages in your wiki for me.
+
+There are ways to build notification tools, but I don't have an out-of-the-box solution for you. For now, you'll probably have to check that bookmark manually.
+
+That might not be fast enough for you sometimes. If you check [[Contact]], you'll find my preferred instant messaging tools you can use to reach me. While I have some moral problems with the nature of the tool: I have found several who prefer to speak with me over Discord as well. You can find me in the Tiddlywiki Discord server too.
+
+Sincerely,
+
+[[h0p3]]
+
+
+---
+<<footnotes "v" "These are free tools and services, but you can make your own versions of them. I'm trying to save you from having to pay a monthly fee in the cloud to connect your devices.">>

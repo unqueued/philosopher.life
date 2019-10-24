@@ -1,0 +1,19 @@
+created: 20190227175117604
+modified: 20190227175158862
+tags: 
+title: $:/core/ui/Actions/new-journal-here
+
+\whitespace trim
+\define journalButtonTags()
+[[$(currentTiddlerTag)$]] $(journalTags)$
+\end
+
+<$set name="journalTitleTemplate" value={{$:/config/NewJournalHere/Title}}>
+<$set name="journalTags" value={{$:/config/NewJournal/Tags}}>
+<$set name="currentTiddlerTag" value={{$:/HistoryList!!current-tiddler}}>
+<$wikify name="journalTitle" text="""<$macrocall $name="now" format=<<journalTitleTemplate>>/>""">
+<$action-sendmessage $message="tm-new-tiddler" title=<<journalTitle>> tags=<<journalButtonTags>>/>
+</$wikify>
+</$set>
+</$set>
+</$set>

@@ -1,0 +1,38 @@
+created: 20170312141759264
+modified: 20170312141840146
+revision: 0
+title: FOSS
+
+To be clear, there is a huge difference between merely open source software and FOSS. We should be supporting FOSS (and nothing less worthy). The question should be rephrased:
+
+Why people should use (FOSS) free *and open source* software?
+
+(1) The claim that "It doesn't cost anything" is not always true. I think anyone who has actually used a wide range of FOSS will tell you that while it is financially free, that doesn't mean there aren't costs involved in using it. Maybe you've heard the joke, "Linux is only free if your time has no value." Linux, of course, is only one example of FOSS, but the joke is a half-truth for FOSS in general. FOSS can be the wild west, and transitioning to it is sometimes not simple. Sometimes it takes valuable time and practice to implement and learn how to use FOSS, moreso, in some cases cases, than for proprietary counterparts. This barrier to entry varies though, and it isn't always a problem for FOSS. There are some kinds of software functions where the easiest to implement and use are FOSS. With that caveat in mind, I think the financial cost is also much lower than many people realize.
+
+Yes, just from the get-go, FOSS is financially cheaper. Depending on your circumstances, you could save an incredible amount of money using FOSS instead of proprietary software. Using FOSS, it is perfectly reasonable that you could save $100-200 (or far more in some cases) on software per machine (OS, Office Suite, etc.). Upgrades are free as well. 
+
+Free and open source software isn't just free, but in a many cases it can do the same job with much fewer resources. The software is often lightweight and computationally efficient. There is a reason the vast, vast majority of supercomputers and servers in the world run on FOSS foundations. That efficiency translates to everyday users as well. Instead of spending, say $500, for a machine designed for a specific task using proprietary software, you can often buy lower end hardware and get the same performance for $300-400 in some cases. 
+
+In fact, FOSS can run so well on low end hardware, you might not even need to buy hardware at all. A number of FOSS ecosystems are designed to run on incredibly slow and/or old hardware. You can take machines that would be thrown away by other people and simply re-purpose them with FOSS. FOSS can be lightweight enough (depending on which pieces of software you choose) to breathe life into old machines that would otherwise go unused. You can't recycle or easily make use of donated machines with propietary software. FOSS can make it simple and cheap.
+
+Lastly, FOSS pushes prices of propietary software down. It makes everything cheaper. Why would you pay $1,000-2,000 for a router with propietary firmware when you can use FOSS firmware that does the same thing with $50-100 hardware? A range of software products are cheaper because FOSS exists. In some cases, particularly newer computer markets, such as tablets and smart phones, FOSS warped the markets (favorably for consumers) from the beginning. Proprietary software has to be sold cheaper to compete. This is a good thing.
+
+
+(2) FOSS is certainly a wonderful tool for education. First, FOSS often sees more use worldwide, with language compatibility baked right into many FOSS products on purpose. The target audience is everyone, not just those with money - and sharing the wonderful world computing with everyone is a primary goal of FOSS. Second, there are a wide range of FOSS products specifically designed for education, and the low or no cost for these products is a winning combination for students or schools on a budget. Third, learning to use FOSS can be useful occupational training (this isn't why one should be educated, but it is a reason to be educated). FOSS is often the industry standard for many production environments. There are certain industries where FOSS is the de fact standard - the best tool for the job. Becoming familiar with many FOSS products can make your life easier in those industries.
+
+The Raspberry Pi is an examplar educational product of the FOSS community, imho. It is designed for compter literacy instruction, from basic computer science to programming and even automation/robotics. For some of us, it is a toy and a cheap way to do a fun project, but for some, it is an educational experience they couldn't have had otherwise. We are lucky to be part of that community.
+
+
+(3-4) FOSS, not merely open source software, is adaptable. It is improvable. It is safer. It is something you can mold to your interests and needs. It is the work of many people freely sharing beautiful, useful, and interestings digital objects which make our lives better.
+
+Importantly, I want to emphasize that FOSS is adaptable because it gives us the freedom to do so. As Stallman explains, the freedom supported and respected by FOSS is "the freedom to run it, to study and change it, and to redistribute copies with or without changes. This is a matter of freedom, not price, so think of “free speech,” not “free beer.” Let that sink in. The best reasons to use FOSS isn't because it is financially free, but because it concerned with respecting and promoting freedom.
+
+FOSS is a moral issue, not simply a financial one (although, financial considerations are also moral ones). Adaptability is just another way of saying, "I can use it the way I want to use it." FOSS respects people as having the dignity and right to use their computers as they wish. 
+
+Ultimately, FOSS is built upon principles of respect, sharing, and cooperation. FOSS is the product of whatever small bit of decency and moral virtue exists in human society. FOSS is ethical. Above all, that is the reason to use and support it. If you don't get it, then you really don't understand what FOSS is all about. 
+
+Computer ethics is a difficult topic. These machines are special, and they enrich moral situations in complex ways. It isn't easy to understand: how things work, responsibility and causation, or the various effects computation has on the rest of our lives. Ethical computation requires having the right foundation, and FOSS hits the mark. It exists for the right reasons, and it is built and used in the right way. It makes moral life less complex (which is a good thing). Putting something as important as computation in the hands of instutitions who are simply interested in making money (and not much else) has some pretty terrible consequences which are, unfortunately, not so obvious to the ordinary person. 
+
+Where possible, FOSS is the right choice.
+
+

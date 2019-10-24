@@ -1,0 +1,13 @@
+created: 20180227015533902
+modified: 20180407134614262
+title: Outopos: Cryptography
+
+* https://monocypher.org/
+
+Quantum Resistant Cryptography from the ground floor. It is clearly moving faster than I thought. I love 25519, but we can't use only it. We need to be ready for the new world before it comes, even at the cost of performance. For now, we pay the cost of both pre and post quantum. 
+
+* Each Node has a physical key.
+* Each Node has a user key for each user.
+* Each Node has a superuser key for each superuser.
+
+Users can belong to as many groups as they wish. A group can contain zero or more users. Each node and group is controlled by a one or more superusers.

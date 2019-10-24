@@ -1,0 +1,62 @@
+created: 20170318003911655
+list: 
+modified: 20171113154955982
+revision: 0
+tags: j3d1h
+title: j3d1h: Computer Wizard
+
+[[j3d1h]]'s got what it takes. She should be an excellent computer user. We'll work on social skills when we can. She will have the ability, no doubt. 
+
+I want to offer her an optional elective: spending 2 more hours a day (even on weekends) on computer science. This would give her 14 of the 15.722527473 hours needed per week to eventually hit the mythical 10k hour mark by the time she is 18. Solid practice will be worth it.
+
+* Programming Language
+** There are several programming languages I want my daughter to know and be familiar with. 
+** Know:
+*** Bash/Zsh + Python/Xonsh (control your computer)
+*** Autohotkey/Autoit/etc. (GUI-automation that is an incredibly cheaty-faced ugly hack, but it boasts absurd prototypability and high cost/benefit ratio)
+*** C (the father of performance)
+*** Golang (easy networking C/Python hybrid)
+*** Rust (safer, but still hard to write C; the only C-replacement contender; also has strong support for WASM)
+*** ~WebASM (WASM, a significant future ASM)
+*** ~OpenCL & CUDA (presumably, this will be the multi-threaded languages; be able to get nitty-gritty when you need to)
+
+**Familiarity: 
+*** C++ (absurdly large language and ecosystem, a legacy nightmare, but necessary to know)
+*** Java (because it just won't die, asshole)
+*** Julia (easy, safer, scientific C or better)
+*** SQL, preferably ~PostgreSQL (legacy code and business use)
+*** OCaml (for CS)
+*** Prolog (unique expressivity)
+*** HTML5 (technically turing complete, but markup languages are valuable to be familiar with)
+*** ARM ASM
+*** x64_86 ASM
+
+* Integrating Computer Knowledge into Our Personal Production Systems
+** Automate your life. Make the computer do all the work for you. If you have to spend over 5 minutes a day on that task, think about trying to automate it.
+** Make stuff you care about. Stuff you need. Stuff worth having.
+**  I want you to be able to create strong environments for using these tools. I want you to have wandered the landscapes of both theoretical and applied computer science. 
+** Build projects. Learn about requirements and specifications. Become someone who learns about the software development cycle.
+
+
+* Other Educational Requirements:
+** Overall, I need you to continue learning math as best as you can. You want to think abstractly and rigorously. Understand the beauty of math. It's a long climb. 
+*** Push hard into calculus before ~OpenCL
+** Given your aptitude for proofs, you could continue straight into discreet mathematics after Better Explained.
+*** Afterwards, you should move into algorithms and data structures. You will be able to think about data structures much better once you can do discreet mathematics.
+
+
+* Projects:
+** Current:
+*** Python/Xonsh/Bash
+*** Tiddlywiki
+*** Redstone in Minecraft
+
+** Future Projects 
+*** [[j3d1h: Make a backup for mom]]
+*** [[j3d1h: Reinstall for your mom]]
+*** [[j3d1h: Getting ethernet to your room]]
+*** [[j3d1h: Run an XMPP Server]]
+*** [[j3d1h: Autobackup to USB upon Mounting]]
+
+* Links
+** Python Data Structures/Algorithms - https://github.com/keon/algorithms

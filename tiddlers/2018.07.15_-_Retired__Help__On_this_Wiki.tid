@@ -1,0 +1,150 @@
+created: 20170404024233313
+creator: h0p3
+modified: 20190331014224409
+modifier: h0p3
+revision: 0
+tags: Retired
+title: 2018.07.15 - Retired: Help: On this Wiki
+type: text/vnd.tiddlywiki
+
+```
+       gp                                                         ,...                                  ,,     
+`7MMF' \/                        .g8"""bgd                      .d' ""                                `7MM     
+  MM   `'                      .dP'     `M                      dM`                                     MM     
+  MM     `7MMpMMMb.pMMMb.      dM'       ` ,pW"Wq.`7MMpMMMb.   mMMmm`7MM  `7MM  ,pP"Ybd  .gP"Ya    ,M""bMM     
+  MM       MM    MM    MM      MM         6W'   `Wb MM    MM    MM    MM    MM  8I   `" ,M'   Yb ,AP    MM     
+  MM       MM    MM    MM      MM.        8M     M8 MM    MM    MM    MM    MM  `YMMMa. 8M"""""" 8MI    MM     
+  MM       MM    MM    MM      `Mb.     ,'YA.   ,A9 MM    MM    MM    MM    MM  L.   I8 YM.    , `Mb    MM   ,, 
+.JMML.   .JMML  JMML  JMML.      `"bmmmd'  `Ybmd9'.JMML  JMML..JMML.  `Mbod"YML.M9mmmP'  `Mbmmd'  `Wbmd"MML. db 
+```
+
+!! About:
+
+// I dedicate this page to Sir GB, long was he my trusted advisor without even my knowledge of it. I [[h0p3]] I can do the same for myself.//
+
+<<<
+Hold on to your butts!
+
+-- Ray Arnold, //Jurassic Park//
+<<<
+
+It's a fact: this artwork is unconventional (that's the nice word for it).
+
+I've gotten a fair number of //wtf//'s and complaints about the difficulty of reading this wiki. I apologize for the inconvenience, confusion, and any other negative feelings I've stirred in you. The style of this wiki is hard to follow, and the project itself even harder to understand. I'm sorry about that. I apologize in my {[[About]]} section extensively on this topic. I hope it might eventually be something other than a Timecube or TempleOS to you.
+
+My audience is primarily those who know me very well, especially myself. Let me add, I'm a high-functioning autistic person, and even those who know me well have difficulty making sense of my work.
+
+My project is enormous, and it is difficult for me to organize by definition. There's ~250 single-spaced pages of text in a 1MB text file, and my wiki has averaged an increase of ~5MB in size per year. It's not easy to reason about this much content. My wiki is not conventional, but I also don't think it is harder to understand than it has to be at the moment given where I'm at. Let me add, I'm obsessed with it, and I may not be able to see as clearly about aspects of it as you can; my top-down modeling is sometimes very poor. Thus, I am always open to suggestions, but please make sure you've taken the time to understand where I'm coming from before launching into a diatribe.<<ref "dt">>
+
+<<<
+An __About__ section provides an intro, metanotions, context, and purpose to a page/directory (all directories are pages, but not all pages are directories). I hope to demonstrate //what it is, what it is for, why, //and inspirations in this section. Sometimes it is an abstract, sometimes it is meta about //Focus://, and sometimes it fulfills other roles (I can't fully answer the question yet). You'll note the top-level directory, {[[About|About, a.k.a. The Opening of the Rabbit Hole]]}, is the introduction to myself as a person (what this wiki is for and about). It is the most important page on this wiki. It is my existential anchor, the quintessential narrative of who I take myself to be.
+<<<
+
+Let's be clear: the wiki is ultimately addressed to me. I'm having a very long-term conversation with myself. It's a lifetool for me. However, you may, for whatever reason, find it worth reading this wiki.<<ref "1">> 
+
+You are reading the work of a high-functioning autistic savant. This page is meant for users other than myself. Thus, it will break some of the conventions I normally adhere to on the rest of this wiki. 
+
+On this page, I hope to help you get your bearings on this wiki. In doing so, to some extent, I've helped get my own bearings on this wiki. This is an exercise which benefits both of us. This page, the right sidebar, {[[About]]}, and {[[Principles]]} are the best introductions I can possibly give you at the moment to what this wiki is, to who I am, and to who I am trying to become (what I'm trying to accomplish). You might also find this page to be strongly related to the contents of [[Wiki: Broad Computational Structure]]. 
+
+Ultimately, I hope we both find this wiki to be breathtakingly honest, inspired in design, and hopefully even wise some day.
+
+
+---
+!! Principles:
+
+<<<
+A __Principles__ section is where [[h0p3]], the author, tells himself how he hopes to construct and use the page/directory. It is a section deeply involved in laws, mechanics, and //how//. It is the outline of my executive functioning for that branch of pages and information.
+<<<
+
+The top-level directory, {[[Principles|Principles of Programming Myself]]}, provides the rules and ideas for how the wiki will be constructed and evolve; it is the second most important page on this wiki. You will learn much about the nature of this wiki by reading it.
+
+
+---
+!! Focus:
+
+<<<
+A __Focus__ section points out the current focus (the meat and potatoes) of the page/directory. And, yes, you guessed it: the top-level directory, {[[Focus|Current Focus of h0p3's Wiki]]}, does the same work for the entire wiki as a whole.
+<<<
+
+You should read the logistical, audience-oriented top-level pages on [[Root]] (previously `[[{Home}]]`):
+
+# {[[Help|Help: On this Wiki]]}
+# {[[Connect|Ways to Connect to this Wiki]]}
+# {[[Verify|Cryptographic Verification]]}
+# {[[Contact|Contact h0p3]]}
+# {[[Legal|Legal Notice]]}
+
+As to the wiki, I suggest reading top-level directories in roughly this lexical order:
+
+# {[[About|About, a.k.a. The Opening of the Rabbit Hole]]} 
+# {[[Principles|Principles of Programming Myself]]} 
+# {[[Focus|Current Focus of h0p3's Wiki]]} 
+# {[[Vault|The Vault of h0p3]]}
+# {[[Dreams|Dreams of h0p3]]}
+
+The order isn't clean. There is enough interplay, synergy, reference, and complexity in these contexts that it will be difficult to actually peel them apart enough to have a perfect hermeneutic stack to read.<<ref "2">> If I ultimately knew exactly what I was doing on this wiki, we wouldn't have this problem. Alas, I can only do my fallible best, and thus you will have to do yours as well.
+
+I would like to point out the sidebar, which is immensely useful for staying current. The "New" tab shows newly created pages (sometimes referred to as tiddlers). "Recent" includes not only those newly created, but also those recently edited. The "Hub" tab helps me navigate and compute my wiki, but you might also find it useful.
+
+Since I write this for myself, I try to primarily pay attention to how it looks on my screen. You shouldn't have to unless you really wanted to (since this html file should be functional enough on most devices), but if you want to replicate my view, I'm using Firefox on Linux at 1920x1080 resolution on a 42" screen (it's very easy on my eyes). Also, I suggest reading the wiki in full screen to get the same effect. There's a full-screen button in the top right corner. For some browsers, you can just F11. This is the phenomenology of it for me, in case you are interested in maximizing your empathy here.
+
+As a side note to another technical annoyance you may experience, I'm sure it would annoy many computational minimalists that I willingly store virtually the entire site in a single self-editing html file (it makes it excellent for offline reading too). I'll grant that text files alone have something going for them, but this is a very special tool. This wiki is incredibly portable, functional, and malleable (while also being dead easy to use). I consider Tiddlywiki to be a skeuomorphic feat of software engineering (analogously, in time, I hope you will see the content of the wiki as doing something just as brilliant in creating an IDE for itself). How many virtually complete websites with this degree of functionality and content can you download in a few megabytes?<<ref "3">> Exactly. I think there is profound minimalist beauty to it. So, yeah, the http load times aren't great, but you can always just sync it instead.<<ref "4">> 
+
+Be sure to click on the (i) icon to see tiddler references and other metadata. This place may be very bumpy to navigate for quite a while to come.
+
+Vitally, I implore you to exercise empathy in your judgment.<<ref "5">>  You are reading my personal journal. We are parting with many privacy conventions here, and that means you should be exceptionally careful in your evaluation. After all, if you had taken the time to write and share a brutally honest personal journal, what do you think we would be tempted to say about yours?
+
+Here are some tools, FAQs, or walkthroughs for connecting to or understanding me or this wiki:
+
+* [[Walkthrough: Resilio Sync]]
+
+As always, feel free to {[[Contact|Contact h0p3]]} me with any questions. 
+
+
+---
+!! Vault:
+
+<<<
+A __Vault__ section is a place where I store my previous work. It is a place to see who I was, what I was doing, and to see how far I've come. You get the gist of {[[Vault|The Vault of h0p3]]} by now, right? If not, you can read the __About__ section of that page to understand it.
+<<<
+
+Think of "Retired:" subsections of page/directory Vaults as containing older drafts or versions.<<ref "6">> This wiki evolves, and sometimes I want direct evidence of it built into the wiki content-based structure itself (there are other kinds of versioning I use and have plans for). Here's an example of a //Retired:// version of this page.
+
+* Retired: {[[Help|Help: On this Wiki]]}
+** [[2017.10.06 - Retired: {Help}]]
+
+These sections help me see that my work is worthwhile and become more comfortable with making mistakes and revisions. They help me think about how this wiki is changing, and they provide me important narratives in self-reflection. I can guarantee they are part of the correct hermeneutic stack for anyone being particularly Straussian in their interpretation of this wiki. Seeing how a thing came to be will help you understand what the thing is.
+
+
+---
+!! Dreams:
+
+<<<
+A __Dreams__ section is a place to dream, to hope, to brainstorm, and to plan. It's about who I want to be, could be, or even otherwise. Ditto on the top-level directory {[[Dreams|Dreams of h0p3]]}.
+<<<
+
+For example, I would love to finish these for this page (and perhaps other audience-oriented top-level pages):
+
+* [[Walkthrough: XMPP]]
+* [[Walkthrough: AndTidWiki]]
+* [[Walkthrough: Tiddlywiki]]
+
+Lastly, except for when I've purposely italicized text (it will be at the very top of the page), if you see an italicized link, then I've not actually made a page for it. 
+
+Good luck, Godspeed, Godspell.
+
+
+---
+<<footnotes "dt" "Or, assuming I care enough to respond, you may find me verbally handing your ass to you in a detailed wall-of-text.">>
+
+<<footnotes "1" "For example, I have asked my wife, [[k0sh3k]], and my brother, [[JRE]], to help me reflect upon {[[Principles|Principles of Programming Myself]]} as well as read the contents of the wiki itself (my wife is also my editor). This is a lot to ask, but I trust their opinions and value their feedback. I realize I can't do it all on my own, and having input from them is useful. Of course, there may be other reasons. I don't necessarily know what yours are. I'd be happy if you made that abundantly clear to me.">>
+
+<<footnotes "2" "Especially if you analyzed the daily snapshots found in {[[Connect|Ways to Connect to this Wiki]]}. You will see this wiki is a work of art in progress.">>
+
+<<footnotes "3" "Less than 2MB compressed, which is the standard size of any webpage on the web anyway, but you can't multi-threaded download this one.">>
+
+<<footnotes "4" "And, that probably won't be changing. Few, if anyone besides myself, ever load this page, so I'm not worried about CDNs or optimizing performance beyond what is necessary for my own functioning.">>
+
+<<footnotes "5" "Matthew 7:5">>
+
+<<footnotes "6" "If a page has [[Retired:]] in it's title name, you are looking at a specific kind of [[Titletag]], which is a convention on this wiki that provides me significant computational logistical latitude.">>

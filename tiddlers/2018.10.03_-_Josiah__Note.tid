@@ -1,0 +1,48 @@
+created: 20181004050827142
+creator: h0p3
+modified: 20181023035812546
+modifier: h0p3
+tags: Note Josiah
+title: 2018.10.03 - Josiah: Note
+
+<<<
+Ciao h0p3
+
+Quick note: Your site has gone peculiar on layout on both FF & Chrome ...
+
+Capture.PNG<<ref "p">>
+
+
+I haven't forgotten you request for comments. I will when I have time. Hopefully not too long now.
+
+Best wishes
+Josiah
+<<<
+
+---
+
+<<<
+Ciao
+
+I found I suddenly had a bit of time ... so ...
+
+Comments as in "my pilot's seat; what would you change?"
+
+(I'm ignoring here the layout glitch I mentioned in my last email, though I'm listening to Glitch In The System. :-)
+
+1 - The lava flow on the left. It forces the page contents right. I suspect that is cramping in some conditions. Perhaps it could flow under the Tiddler box on some screen shapes with a decent level of overlay opacity?
+
+2 - Given your writing is central, and some of it is (beautifully) prolix, consider, I think the presentation of the Tiddlers for optimal reading. I can't give you a recipe.  I can only suggest thinking a bit about how the "box" (the individual Tiddler) is scaled. Ability to read it at full-screen might be good? Also maybe a scaling option to adjust font size (+ -)?
+
+3 - Have you tried look at it on on a smartphone? How does it fare? Would it matter?
+
+4 - How about a Tweet button? "Tweet a link to this" type of thing? Depends on whether you like idea anyone could get to know of it it. On how to do that I can point you to some ideas about how to do it.
+
+Its a start. Let me know if this is the kind of comment that is useful.
+
+Josiah, x
+<<<
+
+
+---
+<<footnotes "p" "I think Josiah is using something like a 2560x1440 screen. The image I use is 1080p, and I've hardcoded the margins (when I did, I was literally the only person looking at it, lol). $:/themes/tiddlywiki/vanilla/settings/backgroundimagesize had to go cover, I believe. IIRC, an older version of FF was fucking up.">>

@@ -1,0 +1,42 @@
+created: 20180608040431733
+creator: h0p3
+modified: 20180825233217414
+modifier: h0p3
+title: Cryptographic E-Voting
+
+Electronic voting increases the speed with which we can tally votes, enables more flexibility and expressiveness in our election cycles, provides maximal logistical accessibility for everyone to vote in convenient and yet timely manners, radically reduces the total costs of elections in the long-term, enables end-to-end auditable [[Secret Ballots]], enables us to mathematically prove our chains-of-custody, and allows us to demonstrate to ourselves that particular threat models have been handled. 
+
+Electronic voting is highly doubted by some and lauded as obvious by others. Computers, like all tools, are two-edged weapons. It is the nature of our progress as a species though, and we cannot escape it. Go on and use your ludditic paranoia to help us shape this computational infrastructure necessary to give birth the next radical incarnation of the [[The Original Position]].
+
+Cryptography provides authenticated integrity checks, signatures, privacy, anonymity, auditable accuracy, and other security benefits. It enables swift [[Just-In-Time Voting]], [[Secret Ballots]], and [[Proxy Voting]]. E-Voting is the only cost-effective, sustainable, and scalable indelible electoral ink for the 21st century. This system may make way for computationally complex voting, bidding, bargaining, rating, and many other collective judgment mechanisms.
+
+Obviously, our electronic election infrastructure must be paranoically penetration tested into oblivion, absolutely transparent all the way down. Let us set our [[Trusting Trust]] bar very low and our epistemic scrutiny bar skeptically high. The process must be collaboratively developed, tested, and audited with free and open source programming. We must build voter-verifiable paper audit trails, and the infrastructure must be decentrally-controlled (like a blockchain) by all citizens of society as much as possible. Our trust in the electronic election infrastructure must be built upon our personal relationships, trust, and social capital we've built outside the digital world, including trust in ourselves.
+
+For [[Secret Ballots]], we can cryptographically secure anonymity+privacy together. We must build the [[Outopos]] infrastructure to guarantee decentralized anonymous information transactions, including our votes. Voter registration may be a complex problem which likely must be tied to a papertrail.
+
+Energy, telecommunications, and computational infrastructure must be radically distributed to all members of society at the lowest costs possible. We must teach each other to have enough computational literacy to inspect the our technopolitical process in order to hold ourselves self-accountable. Citizens must prove the contribute to this network, and we must physically audit it regularly.
+
+I suggest incredibly simply and flexible data structures and world class algorithms be chosen from the beginning. I don't wish to pre-optimize, but I also want to point us in the right direction here. This is a project for building a citizenship device for everyone. 
+Leave the internet be; let's just start over. 
+
+We should spend entire blocks of radio frequency on this mesh project. We should implement the [[Atropos]] protocol over the air. Fiber networks can be used to provide a reliable and high throughput backbone to the wireless mesh networks connecting that logistically expensive last mile.
+
+At a hardware level, devices minimally should have the following:
+
+* 2 or more 10gbit ethernet ports
+* 2 or more USB-C ports
+* 1 or more HDMI ports
+* Built-in bluetooth, 2.4ghz, 5ghz, and Atropos frequency long-range wireless
+* ZFS mirrored vdev on 2 or more 250GB SSDs
+* 8GB ECC RAM
+* APU+FPGA
+** Atropos/Outopos Protocol ASIC (Based upon NaCL and likely one post-quantum solution)
+
+It's best if we are building and testing one model at a time. The ecosystem must be perfected inside and out. Let's modify Apple's model and run with it here. This device needs to be a computer-meshrouter-EVM which is not designed for planned obsolescence and should be easy to fix and maintain. Who owns and runs our voting apparatus? We do. The workers own the means of production! This is about decentralizing power down to the physical infrastructure as well.
+
+These devices should be heavily subsidized. New devices should be distributed every couple years to maximize access and the power of the election infrastructure. Solar and amplified long-range signals (we'll need to educate people on safety) should be the norm. We should regularly find ways to reward those who contribute to this network, giving everyone incentive to contribute to the network. We should also ensure the network topology does not centralize in ways that do not map cleanly onto population densities.
+
+At a software level, we should use NixOS from the beginning. We can leverage the GNU ecosystems. Bash and Python still make the best scripting languages, and high performance software should be built in Rust when possible. Keep it CLI-oriented. We have to go back to using the CLI as our method of interacting with our computers; clearly, digital literacy for the masses will be a key issue.
+
+
+

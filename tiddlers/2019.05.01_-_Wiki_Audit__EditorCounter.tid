@@ -1,0 +1,18 @@
+created: 20190501143534203
+modified: 20190501154454061
+tags: [[Wiki Audit]]
+title: 2019.05.01 - Wiki Audit: EditorCounter
+
+I've been eyeing $:/plugins/telmiger/EditorCounter for a while. Set to 1000 character for autosave. [[j3d1h]] is setting the plugin's characters to non-black for me because it doesn't show up. 
+
+Once in a while, I'm interested to know my word count. This may be a useful tool for that as well. The autosave may or may not be worth my time. I know that when I'm working on [[m14]], I'm constantly saving (this still might be a pain in the ass because I can't use extensions to hide saving popups and whatnot) because I'm still not confident that I won't be losing work. I do the same out of habit everywhere though. 
+
+I am marginally concerned about accidentally saving content that I'd prefer to have manual control over. Will I remember to uncheck autosave for such occasions? I don't know. This is a trial run, I guess.
+
+Telmiger builds interesting plugins, but their value is not always obvious to me.
+
+---
+
+The saving mechanism doesn't work with any consistency. Nope. That's not useful enough. It's gone, and it required removing tiddlers by hand. Eww.
+
+Uh...Even after reloading and deleting the plugin again, I'm stuck with shadowtiddlers. I don't recall running into this problem before, and I'm going to bet this is a Bob problem.

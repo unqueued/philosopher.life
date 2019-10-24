@@ -1,0 +1,40 @@
+created: 20190221192545329
+modified: 20190222155844255
+tags: [[Wiki Audit]] [[RGM Notes]]
+title: 2019.02.21 - Wiki Audit: TW5-Navigator LIVES!
+
+TW5-Navigator has some gotchas on my wiki. My wiki is clearly filled with technical debt, spurious customizations, and incompatibilities. It's legacy. I will eventually need to redo this all from scratch. For now, however, I am overjoyed to have a working fucking keyboard.
+
+---
+
+Currently, I can't jump straight into the body. Something is wrong with the targeting mechanism: I can't reach it. This means I still have to use a mouse. I'm going to practice without as best I can. I need to artificially punish myself, disincentivize, etc. for using a mouse atm. I want to force myself to find creative ways to do this. i3 was a godsend, and this might be as well. I should obsessively give myself reasons to go keyboard now. I may even go the vimperator route.
+
+---
+
+We're working on the loading screen. It works fine for our test TWs, but mine, as usual, has some bug in it.
+
+---
+
+So far, autocompletion has not been crazy relevant. I have used it though. It's hard to compare it to the browser-based keyboard mods and TW5-Navigator. Both are insanely strong compared to autocompletion.
+
+---
+
+Editing my wiki on the phone (with my folding keyboard) has become far more palatable with TW5Nav. No more zooming, no more hoping the button gets pressed. The keyboard does all the real work. It's so good, I might actually be able to live without a laptop. Also, I think it would be a good idea to find an easier way to open multiple tiddlers at once.
+
+It would also be useful to not have battery saver be so aggressive. Even an extra minute would be fine with me.
+
+---
+
+I'm still missing the keyboard shortcuts that I lose by dropping the toolbar. I'm so used to it.
+
+---
+
+Perhaps I should go back to trying to maintain a blank //h0p3's Wiki// template that is up-to-date. I don't think other people would really want to mimic what I have though. 
+
+---
+
+My enter and arrow keys got hijacked at the end of the night! WTF!...[[j3d1h]] hunted for the fix.
+
+---
+
+Also, the phone had failure midway through the evening. I'm frustrated.

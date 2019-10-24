@@ -1,0 +1,70 @@
+created: 20181005205112964
+creator: h0p3
+modified: 20181023035812546
+modifier: h0p3
+tags: Letter Josiah
+title: 2018.10.05 - Josiah: Pilot
+
+Dear Josiah,
+
+Thank you for your comments. I will continue to give them thought.
+
+<<<
+Quick note: Your site has gone peculiar on layout on both FF & Chrome ...
+<<<
+
+I think I fixed this by setting $:/themes/tiddlywiki/vanilla/settings/backgroundimagesize back to cover. IIRC, there was a flaw in some previous version of Firefox rendering that required a change. The layout works on all the screens available to me, but I've tried some virtual resolution tools to test it out. 
+
+Please let me know if it still doesn't work for you.
+
+<<<
+    1 - The lava flow on the left. It forces the page contents right. I suspect that is cramping in some conditions. Perhaps it could flow under the Tiddler box on some screen shapes with a decent level of overlay opacity?
+<<<
+
+I actually put it there simply because I was tired of blank blackness. I was thinking about two sidebars, but I've not found a reason for it (despite using my sidebar extensively in my development). So, I went for an image instead. Ideally, it only pushes content insofar as there is room on the screen.
+
+<<<
+    2 - Given your writing is central, and some of it is (beautifully) prolix, consider, I think the presentation of the Tiddlers for optimal reading. I can't give you a recipe. I can only suggest thinking a bit about how the "box" (the individual Tiddler) is scaled. Ability to read it at full-screen might be good? Also maybe a scaling option to adjust font size (+ -)?
+<<<
+
+My friend [[Sphygmus]] has a flexbox CSS tool in her wiki: https://sphygm.us/. It handles a lot of these problems, imho. Eventually, when I get it the way I like it, I will be using a version of her tool. I work on my wiki on a 42" 1080p screen, so everything is tailored to that. I [[hope]] to make the sizing more universal.<<ref "2018.10.12">>
+
+<<<
+    3 - Have you tried look at it on on a smartphone? How does it fare? Would it matter?
+<<<
+
+It's sufficiently functional on the [[phone|monster-14]] for me, but probably not others (it's extremely uncommon for me to edit my wiki on my phone). The [[ASCII art|ASCII & Unicode Art]] looks like junk on small devices, although CSS may clean that up somewhat; I've not tried it yet. It only matters insofar as it is the only device which some people use, imho. I want to make it at least somewhat pleasant to use for them. I think reading this much text on a phone is not a pleasant experience in the first place, but this isn't up to me. I also think serious use of the wiki requires the sidebar, which requires too much scrolling on the phone (particularly for larger story rivers).
+
+<<<
+    4 - How about a Tweet button? "Tweet a link to this" type of thing? Depends on whether you like idea anyone could get to know of it it. On how to do that I can point you to some ideas about how to do it.
+<<<
+
+Hehe, I'm going to remain an openly hostile punk to Twitter. As I hope to demonstrate in {[[Connect]]}, part of the reason I chose TW boils down to it being a tool beautifully suited for decentralization, offline use, fitting almost any file-transport system, platform agnosticism, and owning our data (and hence ourselves). I can see how that function would be useful to others, but I'd prefer not to use it. Thank you for the idea though!
+
+<<<
+    Its a start. Let me know if this is the kind of comment that is useful.
+
+    Josiah, x 
+<<<
+
+These are useful comments. Thank you! They appear driven towards making it useful for others, and I appreciate that quite a bit. [[Find The Others]] is a recent and still evolving project on this wiki, and I'm just now starting to think about how to make this wiki palatably functional for devices I don't own. I'm slowly working my way towards it.
+
+I would also be interested in comments about the structure, content, and procedures of the wiki as well. I have noticed that people focus on [[Recent]] but do not spend much time trying to understand the overall methodology of [[Root]]. Perhaps I've still not made it clear enough to myself to be able to make it clear enough to others. To my eyes, that's where to find the real magic of my second brain; it's the fundamental structure of how I model my self-modeling.
+
+An outgrowth model of that fundamental structure is the use of daily snapshots to generate a piece of transparent timelapse art.<<ref "s">> There's a [[psychedelic artist|Psychedelic Video Collection]], Android Jones (for all I know, this old hat to you), who makes videos of him creating his art. I adore them. Here's an example: https://vimeo.com/93218648. That was part of my inspiration for this. So far, I've got 600 days captured. One of my [[hyperconversation|2018.08.23 - kickscondor: Hyperconversations]] penpals, [[kickscondor]], has built a [[TiddlyWiki-loader|https://github.com/kickscondor/TiddlyWiki-loader]] for snapshots: https://www.kickscondor.com/taming-outlandish-tiddlywikis. It's fascinating, may aid with the fact my  wiki's already sizeable ~18MB of pure text, and it has interesting properties for decentralized protocols like dat.<<ref "p">>
+
+I feel like my snapshots give me license to make radical changes without losing my integrity, so I've recently begun a massive undertaking in my [[Wiki Audit: Remodeling]]. I'm walking through every single tiddler on this wiki. Even if I pushed through 100 tiddlers a day, it would take me 2 months to revamp the wiki. I would prefer to remodel with every ounce of wisdom you are willing to provide.
+
+Thank you for your generous comments and guidance. I will do my best, sir.
+
+Sincerely,
+
+[[h0p3]]
+
+
+---
+<<footnotes "2018.10.12" "I now see you have seen it already!">>
+
+<<footnotes "s" "The snapshots kill a significant number of very different birds with one stone.">>
+
+<<footnotes "p" "Beaker Browser and Tiddlywiki go nicely together. But, I'm probably preaching to the choir: https://groups.google.com/forum/#!searchin/tiddlywiki/Beaker$20Browser%7Csort:date/tiddlywiki/Q4yLWNn5CKs/nKi3Ux54BgAJ/.">>

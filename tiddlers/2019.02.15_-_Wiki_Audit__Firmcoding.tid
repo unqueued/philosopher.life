@@ -1,0 +1,52 @@
+created: 20190215215403941
+modified: 20190216043955348
+tags: Self-Dialectic [[Wiki Audit]]
+title: 2019.02.15 - Wiki Audit: Firmcoding
+
+Still brainstorming about firmcoding. Reasons for firmcoding:
+
+* I want the references in information. 
+** Links are green, light tags. 
+** Predicate relationships must be maximized.
+
+* I want to be able to read the wiki entirely from source code.
+** Text editors can do meaningful work on the wiki.
+** Printed copies are meaningful.
+** I want to maintain the escape hatch.
+
+* Static is performant and permanent.
+** Though it will cost more bandwidth and memory up front.
+** I want to pre-compute for my reader. I want to minimize how much computer power they need to read the wiki.
+** The more dynamic the wiki, the laggier it becomes.
+** I can't understand, see, or predict the future of dynamic content well enough.
+
+* Button will come alive!
+** I loves me the buttons.
+
+---
+
+[[APFVD]] creates multi-ordered agents for empirical dialectics. It's the scientific method incarnate. This is phenomenology.
+
+//About:// and //Principles:// are handwritten, and they always will be. I have a hard time seeing how those could ever be automated. They are the rationalist content, intuition pumps, hypotheses and functional design of the experiment, core narratives, and the qualitative/quantitive dialectics which I hope to eventually never need to have to touch. 
+
+//Focus://, //Vault://, and //Dreams:// are the temporal identities, processes, and sequences. Indeed, there's a feedback loop to //About:// and //Principles://, but ideally, the directory becomes unified enough in its criterion that [[SO]] legislation has solidified.
+
+Clearly, there will be nesting and dialectics between each directory/node/project/agent (whatever I should call it). That's how it works! 
+
+I can see automation for //Focus://, //Vault://, and //Dreams://. Imagine [[Wiki Audit]] and [[Dreams]] tags in a tiddler. Those could be autogened. I have some problems though...I do so much by hand...I might have to do more tiddler creation that I'm not ready to do. Sometimes I just don't know where I'm going.
+
+We could use fields to do this! Keep the list-link/filter expression code in there. We're going to need markers in the body. This is ugly. This is why we transclude. But, we get to a point where there are simply too many transclusions for my taste. I don't want to atomize like this.
+
+I fucking have markers though! WTF do you think [[APFVD]] is syntactically doing?
+
+---
+
+I'm still unsure how to complete [[Sphygmus]]' request for versioning. She reads [[Recent]], and I should make that convenient and useful to her. 
+
+I need a xonsh script to clean up versions. It will run nightly. This will be expensive; could probably be an extra .5mb in size. This beast ccontinues to grow out of control. I wish I could use something stronger than gzip! Make it a nightly difference (or two, to make snapshotting capture it).
+
+I'm only going to know hao2version once I've actually made one. That will dictate how to write the nightly script.
+
+---
+
+I still haven't touched the new wiki version stuff. I need to do something about it. I can hack scrolling as hard as I want, but keyboard nav is necessary. If I have to drop CSS to pickup navigation, I should. Function over form.

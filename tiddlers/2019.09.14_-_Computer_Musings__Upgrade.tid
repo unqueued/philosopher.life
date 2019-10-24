@@ -1,0 +1,20 @@
+created: 20190915054032150
+modified: 20190917000312256
+tags: [[Computer Musings]] [[Wiki Audit]]
+title: 2019.09.14 - Computer Musings: Upgrade
+
+Onto 5.1.21. I did very little beside some direction and working out what will be necessary for our transition in the [[RGM]]. My daughter hit a snag on hers (there should be no difference, so she has discovered something), but it was super clean on mine. 
+
+At this point, upgrade TW everywhere, Bob once.
+
+---
+
+Set up synced Bob instances. I prefer this to the VPN. There are  points of failure for serving remotely which I get to avoid this way. I'd rather accept working around the race condition (and, I can feel it) like I did from the beginning to pickup local server performance. 
+
+It's still not [[beautiful]] on Android via Termux. It's slow to initialize, but at this size, it's slow no matter how I cut it. That said, once it loaded up, it was usable. 
+
+We still have the VPN up, of course. And, it's necessary for editing each other's wikis during family time and whatever else pops up. Furthermore, the VPN has proven valuable for piercing bullshit firewalls for sync at both schools (and sync works nicely over LAN as well).
+
+---
+
+$:/core/macros/timeline `sort[$dateField$]` filters changed to `nsort...` per [[Sphygmus]]' advice. Skid. She knows what it do.

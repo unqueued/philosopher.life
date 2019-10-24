@@ -1,0 +1,12 @@
+created: 20170318002537372
+modified: 20170318003800209
+revision: 0
+title: Open Source Decentralized Gaming Servers
+
+How do you know someone isn't cheating in a game? A server guarantees it. A server acts as a third-party arbiter of whether or not clients are playing by the rules. The problem is that centralized game servers create opportunities to bottleneck player experiences in profound ways. Who owns the server? Are there other kinds of requirements to be on the server set by the owner? Essentially, you want servers that don't require any centralized server at all, no owners, and essentially, fewer social and economics barriers to entry.
+
+This limits what kinds of games can possibly be played. You must rely upon people giving up enough FLOPS, clock cycles, memory, GPGPU power, hard drive space, network speed, loads on their routers, and other kinds of virtual resources. Games should have minimum requirements. We need a kind of atropos network.
+
+Someone who builds an [[Atropos]] network needs to do something very important: builds apps with it. No network is going to be used unless (1) It's incredibly easy to proxy into it (2) it 
+
+The Atropos network should be written in Go and compiled into ~WebASM. 

@@ -1,0 +1,69 @@
+created: 20190102200043372
+modified: 20190102200144297
+tags: Retired [[Wiki Review]]
+title: 2019.01.02 - Retired: Wiki Review
+
+!! About:
+
+//Every language has an optimization operator: code commentary. Code never lies, however, while code comments sometimes do. Therefore, good code is its own best documentation. Do not fire-and-forget. Convert theory into practice by converting comments into effecting change in your code. Listen to yourself, build yourself up-to-code, and continue the conversation train by talking back to yourself while relentlessly improving your code [[bit by bit|Poem: Bit by Happiness]]. __Re__view it after you sleep on it!//
+
+<<<
+Talking to yourself is okay. Answering back is risky.
+
+-- Brian Spellman, //If the mind fits, shrink it//
+<<<
+
+<<<
+There can be only one permanent revolution — a moral one; the regeneration of the inner man...How is this revolution to take place? Nobody knows how it will take place in humanity, but every man feels it clearly in himself. And yet in our world everybody thinks of changing humanity, and nobody thinks of changing himself.
+
+-- Leo Tolstoy, //Three Methods Of Reform//
+<<<
+
+This [[/b/]]ish log is infused with the fundamental practice of listening and talking to my [[fastmind]]. I naturally do it, but sometimes I don't have the willpower or desire. This log forces me to read what I've written, to respond to it, and to have a conversation with myself (however minimal it may be). This is accountability proof of my existential grind and listening to myself. It's part of the woven skeleton of my self-communication. For now, all [[New]] content must pass through this filter. 
+
+Here I am forced to empathize with, interpret, and process my thoughts, even if only minimally. Sometimes it results in edits and revisions. Other times it solidifies or drives home the point to myself. At the very least, this is a quiet diagnostic process I run on this wiki to self-monitor. But, it has clearly served to enable my [[Self-Dialectic]], to ask the initial questions, and to reframe and revise my thoughts. Sometimes I'm just taking my pulse, but other times I really do get through to myself here.
+
+This log has proven its usefulness time and time again. So many transformations and crucial conversations with myself are the result of the tiny feedback loops generated in this log. These simple trains of thought and dialogue are sometimes quite faint, but I see them (even if it's reduced to qualia). This is a log filled with existential breadcrumbs and seeds. It is also a net to catch some low-hanging fruit I might otherwise miss. Spinning this plate has enabled to me to start spinning other more complex plates. 
+
+Significant transformations in {[[Principles]]}, {[[Focus]]}, and other emergent structures of this wiki are the result of the hardwork I've put into this log. This mundane appearing log is actually a key tool-habit for shaping myself. [[4DID]] molecular empires are built on these atoms of self-communication. The exact relationship between this log and [[Wiki Audit]] is not something I fully understand. I intend for this to be more atomic and less prescriptively future-oriented than the audit. My reviews are small descriptive stamps and gutteral reactions to my previous work.
+
+
+---
+!! Principles:
+
+* Use [[wikireview.py]] to format yesterday's [[New]] for today's review.
+* Read the contents of each entry, and write at least one comment about each entry.
+* You should respond to yourself. Sometimes you will have a chain of dialogue flowing from day to day.
+* This CPU's clock-cycle is 11.57µHz.
+
+
+---
+!! [[Focus|Wiki Review: Focus]]:<<ref "s">>
+
+```
+<$set name="mydate" value=<<now YYYY.0MM.>>>
+<<list-links "[tag[Wiki Review]prefix<mydate>]">>
+</$set>
+```
+
+---
+!! Vault:
+
+* Audits:
+** [[2017 - Wiki Review Log]]
+** [[2018 - Wiki Review]]
+
+* Retired:
+** [[2017.11.05 - Retired: Wiki Review Log]]
+** [[2018.06.19 - Retired: Wiki Review Log]]
+
+
+---
+!! Dreams:
+
+* Find the fitting relationship between [[Wiki Audit]] and [[Wiki Review]].
+* I only handle [[New]] material, but not [[Recent]]. I sometimes want to respond to my edits and revisions, not just my new material.
+
+
+---
+<<footnotes "s" "I am indebted to [[Sphygmus]] for her contribution to my Core Daily Requirements^^TM^^ process. She set me down a path.">>

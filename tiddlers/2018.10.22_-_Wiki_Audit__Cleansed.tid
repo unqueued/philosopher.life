@@ -1,0 +1,32 @@
+created: 20181022164843311
+creator: h0p3
+modified: 20181023153152521
+modifier: h0p3
+tags: [[Wiki Audit]]
+title: 2018.10.22 - Wiki Audit: Cleansed
+
+Deleted $:/plugins/TheDiveO/TwFusejs. It just freezes.
+
+---
+
+Tags for Voldemort, stripped in search.
+
+---
+
+Major additions to [[TW: Cheatsheet]]. Thank you, [[j3d1h]]. We're jumping headfirst into automated rendering. I hope we can come back and start digesting into hardcoded elements again.
+
+---
+
+Meh, decided the create date wasn't giving valuable information. It's often inaccurate, though technically solvable. I don't think it's worth my time. The edit dates should be loud and clear though.
+
+---
+
+So, I've had to deal with "--" throughout the wiki. I'm convinced Tiddlywiki is not consistent in how it parses and renders this (and I'm not consistent in how I use it either). I made ~22k replacements with 3 different 'to be replaced' options. I fear that I have radically made it harder to parse and do another replacement later in a safe way. 
+
+There are 7 places in the empty tiddler that I've replaced, and I'm changing some of them back just because I don't know what I'm breaking. Skiddie AF. Not even fixing it in full, lol.
+
+Living dangerously today.
+
+---
+
+Timelines are getting revamped. These are the voyages... =)

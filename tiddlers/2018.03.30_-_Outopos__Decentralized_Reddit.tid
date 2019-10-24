@@ -1,0 +1,68 @@
+created: 20180330162654088
+modified: 20181217072254883
+tags: Outopos
+title: 2018.03.30 - Outopos: Decentralized Reddit
+
+I keep begging for it. This is a post to someone on Reddit:
+
+I couldn't find the "Cafe" app (never heard of it, but that doesn't mean anything). I found this: https://nick92.github.io/coffee/. Pulled from AUR (Archlabs does look gorgeous, btw), but uninstalled immediately. It's not for me. At the end of day, I want to do my hyperreading in a browser (or terminal). I'm probably ungratefully picky and set in my ways.
+
+Forgive me for brainstorming and dreaming with you. Please ignore me if I am annoying you (I'm autistic, and I don't know where you draw your social lines). I, uh, ended up writing more than I thought I would (sorry, but thank you for sending me into a flowstate).
+
+I'm growing convinced that the Left is still missing a serious crowd-sourced curation voice for filtering for what is salient on the internet in general (and, again, Google is actively suppressing the Left). Getting over the Network Effect hump is also a non-trivial problem. Reddit, unfortunately, is the best housing I've found so far (but it continually loses its freespeech patterns for various reasons, and I expect far Leftist subreddits [which, on a sidenote, I already find too ban-happy] to eventually be snuffed out as this site becomes increasingly monetized). Unfortunately, strictly Leftists sites are siloed, which makes them too editorialized, censorable (which is necessary for filtering/shaping, but I mean this in an abusive sense), and too incentivized to keep you on their platform.
+
+Hubski and trust-related social networking have something important going on in how they enable us to shape our own filter-bubbles. Consent is crucial, and so is flexibility in our ability to tune our signal-to-noise ratios. Leveraging trust may be the only way to decentralize it as well.
+
+I'd want a tool which has a P2P (rather than merely federated) decentralized infrastructure that is performant, censorship resistant, low-hanging fruit privacy+anonymity capable (without bending over backwards), and which enables trust-based crowd-sourced curation/recommendation/search/filtering (and a cherry on top, pretty please). I've seen a ton of similar projects come and go over the years (I feel like an old man), and I realize I can't have everything I want. Unfortunately, I'm not qualified to build it either (thus, I have little right to whine). I also wouldn't want to reinvent the wheel, and I'm afraid that is what would end up happening (cue XKCD).
+
+I'm convinced there are two major considerations. I'd prefer a web-based approach which is likely the only cost-effective multi-platform method. Browsers are slowly becoming universal VMs for users of any device at this point. We can always build the fitting mobile and QT apps around the web-based approach after the fact. Further, we should build the tool in NixOS. Eventually, NixOS will be able to target WASM.
+
+I want something like a WASM-based Zeronet (I believe NAT piercing is possible with the help of volunteers) inside the browser (either by hitting any random site serving up the client to you or by an extension) which bootstrapped with DHT and shared mutable torrents of Leftist (or sadly any kind of) news content/link aggregations ranked using open-source algorithms, crowd-sourced filters, and controls that let the user tailor their experience. 
+
+The infrastucture, the means of production, must be owned and operated by its users. Consensus is almost inevitably subject to fighting sybil attacks unless controlled by a central authority (which defeats the purpose of consensus), and it appears that only constant, digitally literate vigilance and active participation using Friend-2-Friend-like trust models have a chance of succeeding (I'm a blockchain cynic in some respects). We don't need full blown network consensus, just rhizomatic, individuated consensi generated and tailored by and for each user.
+
+I imagine a tool in which I prefer to leave up 24/7, but which can be effectively bootstrapped into something useful within minutes. Signal-to-noise ratio improvements require investment. Let us form meaningful syndication layers/networks as easily as possible. In addition to manually adding the public keys one trusts, let us by default have new users bootstrapped into following random friends (perhaps based on keywords), and that by default, random friends (both from the internet and from friends of your friends) are periodically added (or at least recommended) to your following pool to help you explore and grow the network (it can be useful to bust you out of filterbubbles). 
+
+Of course, you should have the option to easily define your friends and opt-out/revert defaults. At the end of the day, I'm not interested in reading Nazi bullshit, although I will read what my enemies write from time to time just to know. It's much harder to find the salient information oasis, which is the problem I take us to be interested in solving.
+
+Perhaps each user stores a database of links with ranked voting (1-10 star system) upvotes (6-10) and downvotes (1-5) generated by themselves and those they trust (ranked voting is the largest amount of signal we can pack into a simple vote). 
+
+Personally, I want to see 10-star content at the top of my, then 9-star, and so on. 
+
+I can submit/share a link, and it shows up on the feeds of those following me (if they didn't have it already). If they like it (upvote it), then they share it with their friends, and so on. When I vote on a link, that information is used to update how much I "trust" (or agree with, or whatever) my friends. If friends continually submit links to me that I downvote, then their links need to show up lower in my feed, and perhaps eventually they should be automatically removed from my follower/friend pool (we need to make sane defaults, but also enable users to tweak these settings). 
+
+Insofar as someone I'm following tends to give the same rankings that I do, we share common ground, and that is a non-trivial signal (although, we obviously may vote for different reasons). I suggest that upvotes should mean more than downvotes because I will downvote (don't want to see) the vast, vast majority of content on the web (let me be crystal clear: I want to see points of view I disagree with, but I want to see them 
+
+Friends that continually submit links that I give a high rank value to should be given preference in my feeds, and I should be looking to bootstrap further into their friendship network (and beyond). 
+
+What shows up on my feed is a ranked-voting prioritized list of links generated from my real-time updated database. When a highly rank-voted consensus forms concerning a link, it should should jump to the top of my feed. 
+
+Maybe there are "New," "Hot," "Controversial," "Best," "Popular," "Old," "Voted On," "Viewed," etc. sorting algorithms. How these links churn is something I want to be able to tweak or heavily modify as a user (and I suspect in time, Tampermonkey scripts will run much of the show). It is crucial to democratizing information and power in the 21th Century that we avoid algorithms designed to maximize the chances that we will click on ads or give up personal information; these centralized sources of information control cannot be allowed to shape our filterbubbles, and thus we must opensource in order to foster consent and modification as much as possible. Perhaps far in the future, we will train our own neural networks to help each us filter and tailor to our own information needs, as that may be the only way to fight back against the supreme relevance that the giants will be serving to us from their impenetrable verticle silos (and hostile intentions). 
+
+At the very least, I will see a list of links which my friends have voted on. That is the preferred goal. I want to be directly following people who produce the highest signal-to-noise ratios for me. That said, lurkers, low-effort users, newcomers, problems of the Network Effect, and a host of other considerations may make this largely infeasible. Further, there may be other signal-to-noise ratio improvements available to us by not only accounting for what our friends are voting on, but what their trusted networks are voting on. Thus, I suggest we also include the possibility of accounting for the ranged voting values of "immediate friends of my friends" (and beyond?) in our databases as well. That is to say, I don't simply see only those links which my friends have voted on, but I also see the links which their friends have voted on too. The differential (or whatever word is appropriate) might be complex, but I wishfully hope it is practically solveable.
+
+---
+
+Perhaps there are several kinds of following methods. (1) I can follow someone's direct voting, (2) I can follow their agglomerated voting (where they have tabulated the vote given the sum of their friends), and (3) I can participate in the swarm of their database. I can periodically poll my friends, and they'll send me one
+
+Each user will maintain three databases: (1) their personal votes, (2) the agglomerated voting value of their friends votes, and (3) the agglomerated value of their friends' friends' votes.
+
+---
+
+My mutable voting database is shared in a swarm of my followers, and when I update it, the delta is distributed to the swarm participants.  
+
+If my voting pattern matches the voting pattern of a friend of a friend closely, then they should be automatically followed. I believe it is crucial that my voting input is the primary method of automatically finding, ranking the trustworthiness, and removing friends. User input should have serious impact on what they see, and they shouldn't have to worker harder than voting to train their databases and explore the network.
+
+I'm also open to each user having multiple categories/keys. For example, perhaps you are interested in my links on Technology, but you find my Economics links atrocious. If I were to consistently categorize my links, you might trust one of my categories but not the others. This is a good way to filter particular users for matters on which they clearly demonstrate expertise. Taking the time to do your categorization (would be nice if we had some sane defaults to start it off) makes you eminently more followable (even if only partially).
+
+You could set expiration timers, setup voting decay, and enforce resource limits as well. I prefer a way to force people to contribute/participate, but I'm willing to make concessions. It's obviously necessary to the health and performance of the network and its salience of its content that we incentivize participation and resource sharing (seed, yo). We'd need to keep in mind the possibility of needing to punish leechers and network abusers; there are ways to limit that behavior (though, I don't know if we can fully close the gap).
+
+Note how this protocol could be virtually adapted into federation fairly easily. Federations may evolve, and that's fine. You can't get P2P out of Federation, but you can get Federations to emerge out of P2P. The point is that the protocol should be built at an atomic level, as scaling up is possible while scaling down is not. Floodfill routers and volunteers can also enable significant improvements that actually can only be achieved through federation (unfortunately, there are problems in which Federation is the most decentralized possible feasible solution).
+
+Links might be fuzzy or stripped/normalized in some way (I don't know) to maximize the signal because it's easy to have two almost identical links which resolve to the same destination, and we'd want to group them if possible (although, we might actually unique posts in a sense, with titles, comments, etc.). Here's an example of yesterday's entry in my personal annotated link "voting" from yesterday: 
+
+I'd also prefer to address Zawinski's Law upfront (building with that in mind). But, at that point, we have to own up to it: we're building decentralized Reddit. Since I'm throwing in everything I want in my dream, I might as well be able to host content as well. Give me command line access (IPFS is not performant enough, but onto something).
+
+Like the Matrix protocol, we need to be able to easily run a server fulltime and connect to them with our other devices. Perhaps non-technical users would pay a couple bucks a month for a 3rd-party to host it or whatever (not preferred). We need seedboxes, and we need to make it so that the hundreds of connections you are making won't be bottlenecked by your stupid fucking ISPs bandwidth, throughput caps, or censorship practices. Mobile users probably don't want to drain their battery life that hard either (P2P will absolutely crush your battery life). 
+
+Lastly, to reiterate, I'm fairly confident there are ways to abuse this tool. They aren't obvious to me just yet.

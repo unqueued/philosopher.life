@@ -1,0 +1,176 @@
+created: 20181217063513825
+modified: 20181217063528058
+tags: Sphygmus
+title: 2018.12.16 - Sphygmus: Version 2
+
+```
+when you say "i feel like we have no solid examples to look at," what process are you referring to? the tiddlywiki hard-coding process?
+SUN 2:26 PM
+I've updated //sphygm.us with "Sphygmus' Buttons, V2"
+SUN 2:27 PM
+the plugin I've been working on yesterday and today
+SUN 2:27 PM
+it's an updated version of the all-in-one button, using a couple new & improved things
+SUN 2:27 PM
+The plugin description & details tabs lay it out, and I commented the various button codes to walk through the construction process. Start by looking at the Append button code and then the Wiki Review button code - those are the two main building blocks for the rest of the more complicated buttons.
+SUN 2:28 PM
+I didn't actually create a field for you to insert the Prompted Introspection's prompt before creation, but that would be pretty trivial to go back and add. It's not auto-inserting the next question, but would be one step closer to that.
+SUN 2:30 PM
+Yes, the hardcoding is what I was talking about. But, it is likely a more general question that I think I'm going to have to continually ask and answer.
+SUN 2:30 PM
+I love the nested icon for the button =)
+SUN 2:30 PM
+i didn't add a direct link to the plugin, you'll have to go into control panel/plugins to open it XP
+SUN 2:31 PM
+This is fascinating.
+SUN 2:32 PM
+I also, I vote to keep all swear words.
+SUN 2:32 PM
+The hardcoded list button and the monthly audit buttons are the two biggest new additions. You should be able to use the filter you have in your [[Monthly Auditable]] to create new hardcoded monthly audit tiddlers.
+SUN 2:36 PM
+the hardcoded list is more flexible
+SUN 2:36 PM
+i had to rename some of the "FUCk" variables for my own sanity in keeping different macros straight XD
+SUN 2:37 PM
+lol
+SUN 2:37 PM
+drafting code for me is definitely different than creating code I'll be able to come back to later and remember wtf I was doing
+SUN 2:38 PM
+anything goes when I'm drafting then I clean it up and add appropriate structure later
+SUN 2:38 PM
+That makes sense.
+SUN 2:38 PM
+oh! also when you installed my all-in-one button for the first time, you pointed out that you could tell the difference between it and your python script by the order in which the tiddlers were listed. I realized recently that you review in bottom-up fashion (dur, because you use the pop-up plugin).
+SUN 2:41 PM
+if you wanted to make this new version button sort in reverse created order just throw an exclam in front of the sort[created] (so it would be !sort[created]) and that'll be in the same order as your script was
+SUN 2:42 PM
+I think it's awesome that you know that, lol. [[j3d1h]] might be the only other person that realizes that fact.
+SUN 2:42 PM
+One of the hardcoding approaches I'm thinking about is basically converting any filterlist into the hardcoded output in a maximally automated fashion. The notion is that I can create unique filterlists (or macros with multiple filter lists) for a //Focus:// section (e.g. [[JRE]]), I can have an arbitrary number of them, and these hardcoded lists will be updated either from a single button, a script that traverses the wiki and clicks on all the buttons, or updates upon rendering the individual tiddler containing the filterlist.
+SUN 2:43 PM
+The more I look at your work, the more I convinced this should be internalized.
+SUN 2:43 PM
+yeah, I don't know if it makes more sense to review tiddlers in the order in which they were created, or in the order of most recent to oldest, or if it doesn't matter.
+
+also when/if you import the new button into your wiki, you'll want to change the review filter back to `days:created[-1]` ... It's at `days:created[-80]` on //sphygm.us so that something actually happens when you click the button, rather than there just being a blank tiddler, lol
+SUN 2:44 PM
+I'm not sure if the order matters. I can be a very visual reasoner, and I'm open to the possibility that matching order between sidebar and the review may provide minimal memory benefits (that, of course, is conjecture).
+SUN 2:46 PM
+There is a way in which hardcoding from button directly into the tiddler does not allow for changes to the title.Title without going back to edit the hardcoding. Going by tag and filterlist does allow it.
+SUN 2:47 PM
+I suppose I'm looking at something squishier here, like it's firmcoding instead of hardcoding.
+SUN 2:48 PM
+oh! so the lack of date manipulation macros in tiddlywiki is frustrating - it's impossible to auto calculate a different date based on the <<now>> macro (eg. you can't, say, take <<now>> and then decrement the month to get last month. So, if you want the monthly audits to say 2018.12, then you have to click that button on the last day of the month, and not the first day of the next month.
+SUN 2:49 PM
+> "hardcoding from button does not allow changes to title..."
+true, and that's one of the ways in which <<list-links>> really shines.
+SUN 2:50 PM
+i've generally been dealing with this by making the old name an alias whenever I rename a tiddler
+SUN 2:50 PM
+though I also have a find and replace tool that can be used to replace tiddler names in multiple places at once
+SUN 2:51 PM
+both of those reduce the friction from renaming a hardlinked tiddler
+SUN 2:51 PM
+tho the find and replace is the only one that keeps the references tab accurate - I believe aliases don't show up on that tab...?
+SUN 2:52 PM
+Right. So the tool that we're playing with a tool in Testing (took a break on the weekend) that will spit out the hardcoding for any arbitrary filter. This would allows us to update the title, which is updated in the filterlist, which would then be triggered to update the hardcoding.
+SUN 2:52 PM
+Exactly how to do this update per autogen'ed tiddler is not something I am sure about.
+SUN 2:53 PM
+Having the static cake and dynamically eating it too.
+SUN 2:53 PM
+On this approach, buttons would update hardcoding (though they don't have to) and provide the tagging and other templating specific to the project. I am happy to run a script nightly to update all the autogen tiddlers to guarantee it. And, as I said, it might be possible (though I don't know if it is a good idea) to auto-update the hardcoding upon rendering a tiddler that uses it.
+SUN 2:55 PM
+Aliases do not show up nicely in many contexts. I can't trust them as some kind of global reference, but they do the trick for hardcoded linking (which is my primary problem).
+SUN 2:57 PM
+hm, ok, if I understand you correctly: 
+
+* create a list-filter for the Focus section of [[JRE]] & update it on a button push / spit out the hardcoding for any arbitrary filter
+
+this should be doable already with my hard-coded link list button! the code would need to be changed a little bit, but that's already the essence of the button - to take a list-filter and transform it into a list of hardcoded links. tho you have to click the button for it to work; it's not triggered by updating a title.
+
+Could probably make one button with a million macros that update tens or twenties of [[Focus]] tiddlers though. ugly code but it would work.
+
+doing it for autogen'd tiddlers...really not sure.
+SUN 2:57 PM
+basically the button would use the hardcoded list macro to create the hardcoding for any arbitrary filter, and then you append/replace the focus tiddler's body text with the updated list, if that makes sense
+SUN 2:58 PM
+* and the append replace is triggered by the same button that creates the hardcoding, ofc.
+SUN 2:59 PM
+since you can trigger any number of things with one button
+SUN 2:59 PM
+Yes!
+SUN 2:59 PM
+One thing I like about your button is that I can change the titletag from the plugin. The "new journal tiddler" here does not give me control over that.
+SUN 3:02 PM
+yup!! i tried to expose as many settings as possible with these buttons
+SUN 3:03 PM
+switching to a data dictionary was really huge for being able to implement that
+SUN 3:03 PM
+Way down the line, if you continue developing this, you may consider field adjustments as well. There are number of "make your own button" approaches I've seen, but this one seems to make the most sense to me. This reminds me of Tiddlytool a lot.
+SUN 3:05 PM
+Eventually, the goal is to use [[Search of h0p3]] to rapidly construct arbitrarily complex arrays of list-links that I can tailor for any given section of a directory, including //Focus://, //Vault://, and //Dreams://.
+SUN 3:06 PM
+:D
+SUN 3:07 PM
+Do you think this is a bad idea in general? So, Kicks is concerned about losing the humanity in the process. I feel like I have to strike the right balance between using automation to actually help me build this hyperobject and choosing the right moments to handcraft (I would argue buidling the filterlists carefully just is a form of hand-crafting).
+SUN 3:08 PM
+hm, i think it depends on the list
+SUN 3:08 PM
+i've been remodelling my wiki and my [[wiki]] page is very much handcrafted right now
+SUN 3:09 PM
+hardcoded links everywhere in ways that I want to be able to control by hand, largely because of how I've sorted them
+SUN 3:09 PM
+other tiddlers, like my lists of wiki logs for a specific month, I don't see the usefulness of handcoding there
+SUN 3:10 PM
+it's just a list related to that topic, no special work necessary; I like the links to be hardcoded so I don't autogen but the list looks exactly the same as an autogenned list would look
+SUN 3:10 PM
+Aye. That's exactly where I want to have my cake and eat it too. When the listing is obvious and I can't come up with a reason to change it, then updated hardcoding from the filterlist makes sense. It does mean we can't footnote reference in this list itself or do anything different (err...I don't know how to do that safely when I reason about it).
+SUN 3:13 PM
+right. we can stick things in front of current body text, and we can stick things after current body text, but I don't know if it's possible to manipulate the body text directly
+SUN 3:15 PM
+Some projects can only be done hand-crafted, or at the least, they have to start out as hand-crafted until I sufficiently understand what I'm doing.
+SUN 3:16 PM
+^^ yup!!
+SUN 3:17 PM
+aside: ugh, i want to create special buttons for each of my [[X logs]] tiddlers, but I don't want the title to be the same as <<currentTiddler>> and I'm not sure how to put a button in the view toolbar for a //specific// view toolbar and not every single tiddler's view toolbar
+SUN 3:17 PM
+Ah, yes!
+SUN 3:17 PM
+I think it would be an ugly hack, likely, where it takes the currentTiddler and goes to a lookup table (or dictionary) to know which titletag you prefer (and other preferences).
+SUN 3:18 PM
+Hm, maybe that's not ugly.
+SUN 3:19 PM
+I don't know.
+SUN 3:19 PM
+h u h
+SUN 3:20 PM
+that
+SUN 3:20 PM
+could work
+SUN 3:20 PM
+that's interesting, i'll have to think about it
+SUN 3:20 PM
+yeah, actually, I like that. use the currentTiddler as an index for the title. hmhm
+SUN 3:21 PM
+I think the monthly audit button is something I'll teach my computer to click for me. I can just walk up and do it.
+SUN 3:31 PM
+I believe there are some things that can only be accomplished when you click a button in TW. Given that, I am convinced that some parts of automation should be external (though I do not know to what [[dok]]).
+SUN 3:33 PM
+This is like a workstation for building new buttons too. =)
+SUN 3:34 PM
+yeah the whole "must click a button to trigger" thing is a good argument for externalization of some things. I can just imagine a tiddler that has like 15 different buttons and at the end of the day you sit there and click all 15 to update different things
+SUN 3:37 PM
+sounds like a hassle haha
+SUN 3:37 PM
+This might not be an ideal way of solving the autogen/hardlink problem, but it's one way:
+
+Have ABC:Focus, ABC:Dreams, and ABC:Vault, transcluded into ABC. Click on a button in ABC; that button uses $(currentTiddler)$ to then hardcode a list-filter for each focus/dreams/vault, and then each hardcoded list is inserted into $(currentTiddler)$ :Dreams, $(currentTiddler)$:Vault, etc. The list filter I thiiiink??? could also use, say, tag[$(currentTiddler)$] in it
+SUN 3:40 PM
+Aye, that sounds like the best way.
+SUN 3:43 PM
+AFK. Family Time! I will respond eventually, ofc. =)
+SUN 3:44 PM
+:)
+SUN 3:48 PM
+```

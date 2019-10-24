@@ -1,0 +1,24 @@
+created: 20171212172303225
+modified: 20181224234642449
+modifier: h0p3
+revision: 0
+tags: [[Computer Musings]]
+title: 2017.12.12 - Computer Musings: Tiddlywiki Performance Problems
+
+My daughter and I have been working on a Tiddlywiki performance problem caused by {[[About]]}. We've been talking to the Tiddlywiki google group about it and troubleshooting.
+
+It's the tiddler itself + Firefox being awful. Tried Chromium, and it is better on the editor delay, but still not great. My graphics don't flow nicely in full screen in Chromium, and I'd need to set up another process for saving since it only allows you to work within the Downloads directory. Ugh.
+
+I'm not sure what we'll be doing at this point. Currently, I'm using "It's All Text" (which only works on ESR) to edit {[[About]]} inside Sublime (I don't have time to figure out how to make VIM do what I need it to do right now). This has its own problems because it doesn't play nice with multiple tiddlers being edited at the same time. It will overwrite other tiddlers with the content from {[[About]]} as found in Sublime Text. Ugh. 
+
+...
+
+Fuck it. I'm switching to Chromium.<<ref "2018.12.24">>
+
+---
+
+https://www.reddit.com/personalization?done=true
+
+
+---
+<<footnotes "2018.12.24" "Rofl. I am back at it a year later.">>

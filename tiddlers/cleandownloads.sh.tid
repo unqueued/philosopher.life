@@ -1,0 +1,12 @@
+created: 20181221211954402
+modified: 20181224025412187
+tags: [[Wiki: Scripts]] bash
+title: cleandownloads.sh
+
+```bash
+#!/bin/bash
+
+cd /home/h0p3/Downloads
+ls | grep -P "tiddlywiki\(\d*\).html" | xargs -d"\n" rm
+ls | grep -P "tiddlywiki \(\d*\).html" | xargs -d"\n" rm
+```

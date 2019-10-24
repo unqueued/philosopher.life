@@ -1,0 +1,6 @@
+created: 20170831014634776
+modified: 20170904021506038
+revision: 0
+title: Find Weight of Steel Pipe
+
+Weight = [Length of Pipe in Feet] x 10.68 x ((OD - [Wall Thickness]) x [Wall Thickness])

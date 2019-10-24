@@ -1,0 +1,48 @@
+created: 20181015214719508
+creator: h0p3
+modified: 20181020180700990
+modifier: h0p3
+tags: [[Wiki Audit]]
+title: 2018.10.15 - Wiki Audit: Aliases
+
+I present to you the solution: $:/plugins/mklauber/aliases
+
+Omg, I love it. It's exactly what I needed, and I feel like I just glossed over it. Fool! Forget Unilink. This handles aliasing just fine for me, and it even has a disambiguation page. I don't want to rely upon the disambiguation page as much as possible, since it is dynamically rendered. References work, biatch! Woot Woot!
+
+I looked through the long list of other plugins yet again. I want autocompletion, modified flexbox, and keeboord.
+
+---
+
+Found out that "Save As" is producing a failed copy. That is unacceptable. May need to start going through snapshots to see when that started failing.
+
+---
+
+Spent several hours playing with flexbox in an empty TW. I can't make the scrollbar move and I can't make it disappear.
+
+Flexbox is the only necessary tiddler if you play with vanilla metrics. 
+
+$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint seems to be the only metric that really matters. It has weird behavior. Empty or large numbers make it center, but then I lose the fixed-fluid. Otherwise, it keeps the setting I want. Breakpoint where it starts getting different at 1919 and then also 1920 (I have a 1080p screen...). Flexbox destroys sidebarbreakpoint, and that in turn affects all the others.
+
+~~I'm looking for identical tiddler width to what I have right now. I clearly have no idea what I'm doing since I can't even produce the story-river width I prefer.~~ Resizing sanity, usability on any screen size, and enabling non-maximized windows are my goals with this tool. It's all I need. I'm kind of surprised this isn't built-into TW.
+
+Alright, I'm fooling around with everything now systematically:
+
+* https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+* https://www.w3schools.com/cssref/default.asp
+* https://css-tricks.com/almanac/
+
+Flexbox is a nice tool. I just started stripping things out and trying out different options. 
+
+I've got something working! Woot! It might be identical on my screen, I'm not sure yet. It's damned close. I've actually not solved the problem though, lol. It still looks bad on other people's screens, although resizing may be better. Here's what is guaranteed working better: I can use it on half my screen!
+
+What I have working currently is yet another ugly hack. Jesus.
+
+Building out the template first, with all the goods. I want to be able to rebuild from near scratch, and I'll update my templates alongside my wiki at this point.
+
+I have basically very little experience in dealing with screens larger than mine (and the emulators aren't so great). I think I'll try this in VM, since it is the most realistic experience I can create without touching my system. I'd like to get the template in solid shape for all screen sizes and be done with it forever. The problem is that I have hardcoded both Story left position and Sidebar Width again. That defeats the purpose. I am at least a step closer though. 
+
+I may have to give up exactly what I want to make it nicely scale for everyone. Ugh, I am not sure I'm willing to make that sacrifice.
+
+---
+
+[[Sphygmus]]'s timestamps, sidebar hiding button behavior need to find their way over too. I simply must find a way not to hardcode it. Her method looks good on every screen resolution, period.

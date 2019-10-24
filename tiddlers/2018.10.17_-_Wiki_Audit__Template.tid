@@ -1,0 +1,38 @@
+created: 20181018015349423
+creator: h0p3
+modified: 20181020180700990
+modifier: h0p3
+tags: [[Wiki Audit]]
+title: 2018.10.17 - Wiki Audit: Template
+
+Template needs doin'. I've built it in stages. I have most everything in place now. Going to start adding new plugins as well.
+
+---
+
+Apparently, "Save Page As" is just plain broken on TW now. My need to create a template is much lower now. I'm making something only possibly useful, but I'm not sure I really need to transplant myself out of this place anymore. I didn't break it. Something else did.
+
+---
+
+Auto-download modified tiddlers plugin added to this wiki. I don't mind the spam. I care that much about versioning/backups.
+
+---
+
+I found out why my keyboard works; I'm using a Danielo plugin for it (looking through it, I can see it does more than I knew), lol. Also, keeboord for 5.1.17. I'm hoping post pre-release, I will be able to add it. That will be a powerful addition.
+
+---
+
+[[batchmanipulator]] is live. I'm going to try to avoid being pythonic here. Let's use the tools I can find, eh?
+
+$:/plugins/inmysocks/TiddlerTool is also live. I'm not sure batchmanipulator is even necessary with this tool. It's buggy, but fixable.
+
+It appears autocomplete (https://snowgoon88.github.io/TW5-extendedit/#About%20the%20Edit-CompText%20plugin) is at odds with Danielo's keyboard plugin, and the keyboard plugin is necessary because I use the $:/_toggle-editor-toolbar_preview in order to overcome Tiddlywiki's iframe problem for custom embedded fonts in tiddler editor. I'm not giving up my font in my editor, thus I can't give up the editor toggle (which I actually love having anyways). I highlight text and use my hotkeys even though I know the markup language. I also think that Keeboord, which I will eventually have in this wiki, is likely to sit in conflict with the autocompletion. We shall see. 
+
+Keeboard + autocompletion may not sit in tension. That would be sweet. In either case, I'll take native TW hotkeys over link autocompletion any day of the week.
+
+Perhaps I could use Danielo's keyboard plugin to active the "Creative Wikilink" built into Tiddlywiki. It doesn't let me walk through the list with arrow keys, which is unacceptable.
+
+The template is done for now. I have a tool for mass tagging. This is going to be much simpler now. Go, go, gadget.
+
+---
+
+[[j3d1h]] is working on a monthly link list that's generic (we can do it hardcoded per month). With that in hand, we will aim for a tool that automatically generates hardcoded link lists upon rendering a tiddler. With that, we can use the make new journal tiddler or even http://maketid.tiddlyspot.com/ to enormous effect, allowing us to dynamically generate our cake and statically eat it too. It follows my preferences for static/parseable content and keeping references intact.       

@@ -1,0 +1,1006 @@
+created: 20190618233150222
+modified: 20190619052048683
+tags: [[Be A Good Dad]] Antipleonasm [[Deep Reading]] k0sh3k
+title: Super Thinking: The Big Book of Mental Models
+
+//You should be familiar with most of these terms, MBA buzzwords, psychological concepts, critical reasoning practices, footguns, and, yes, models. Some of these notions merit significant study and reflection. Even Wikipedia often does a better job explaining these concepts than the book.//
+
+!! __Being Wrong Less__:
+
+; Inverse Thinking
+: Restate and think about a problem from an inverse perspective or in an inverse form. Stoically reframe and express the issue inside out, backward, upside down, or in reverse. Dialectically define the opposite conditions.
+
+; Unforced Error
+: Seek and destroy problems resulting specifically from one's own failure rather than in virtue of one's opponent.
+
+; Antifragile
+: Construct systems which benefit from otherwise incremental negative variability.
+
+; Arguing From First Principles
+: Isolate the underlying essentials and axiomatic assumptions from or upon which other ideas and facts are based or inferred.
+
+; De-risking
+: Test your assumptions to limit the chances they are wrong.
+
+; Premature Optimization 
+: Don't waste your time optimizing before de-risking so you limit how much work based on faulty assumptions you'd otherwise throw away.
+
+; Minimum Viable Product (MVP) 
+: A product with just enough features to be tested by real people.
+
+; Ockham’s Razor 
+: The simplest explanation is most likely to be true, i.e. Keep It Simple, Stupid!
+
+; Conjunction Fallacy 
+: As demonstrated by a Venn diagram, the probability of two events in conjunction is always less than or equal to the probability of either one of the events occurring alone.
+
+; Overfitting 
+: A failure to apply Ockham's Razor wherein an explanation introduces or relies upon unnecessary assumptions.
+
+; Frame Of Reference  
+: Your perspective in a context.
+
+; Framing 
+: How you convey or present a perspective, situation, explanation, or justification. 
+
+; Nudging
+: Indirect suggestion, rhetoric, phrasing, highlighting, subtle environment cues, or subliminal attacks on your autonomy meant to influence your beliefs or desires.
+
+; Anchoring
+: The tendency to focus or rely too heavily on first impressions or initial pieces of information when making decisions.
+
+; Availability Bias
+: The tendency to rely too heavily on information recently made available to you or to believe that which comes readily to mind is more representative than is actually the case.
+
+; Filter Bubble
+: A situation in which an Internet user encounters only information and opinions that conform to and reinforce their own beliefs, caused by algorithms that personalize an individual’s online experience.
+
+; Echo Chambers
+: An environment in which a person encounters only beliefs or opinions that coincide with their own, so that their existing views are reinforced and alternative ideas are not considered.
+
+; The Third Story
+: The sublationary story which a third, impartial observer would use to more objectively describe the conflict of a two-sided story.
+
+; Most Respectful Interpretation 
+: Interpreting the other parties’ actions in the most respectful way possible, giving them the benefit of the doubt.
+
+; Hanlon’s Razor 
+: Never attribute to malice that which is adequately explained by carelessness.
+
+; Fundamental Attribution Error 
+: Unfairly attributing others’ behaviors to their internal, or fundamental, motivations rather than external factors, especially when you would hypocritically judge yourself in the opposite manner.
+
+; Actor-Observer/Self-serving Bias 
+: The tendency to perceive oneself in an overly favorable manner.
+
+; [[Veil of Ignorance]]
+: Imagining ourselves ignorant of our particular place in the world.
+
+; Birth Lottery 
+: Since no one chooses the circumstances into which they are born, people should not be held responsible for them.
+
+; Just World Hypothesis 
+: The tendency to attribute consequences to—or expect consequences as the result of—a universal force that restores moral balance, e.g. karma and reaping what you sow.
+
+; Victim-blame 
+: When the victim of a crime or wrongful act is held entirely or partially at fault for the harm that befell them.
+
+; Learned Helplessness 
+: A subject's acceptance of their powerlessness: discontinuing attempts to escape or avoid the aversive stimulus, even when such alternatives are unambiguously presented.
+
+; Paradigm Shift 
+:
+
+; Semmelweis Reflex 
+:
+
+; Confirmation Bias 
+:
+
+; Backfire Effect
+:
+
+; Disconfirmation Bias
+:
+
+; Cognitive Dissonance
+:
+
+; Thinking Gray
+:
+
+; Devil’s Advocate Position
+:
+
+; Intuition 
+:
+
+; Proximate Cause Vs. Root Cause
+:
+
+; Postmortem
+:
+
+; 5 Whys
+:
+
+; Optimistic Probability Bias
+:
+
+; Tragedy Of The Commons
+:
+
+; Tyranny Of Small Decisions
+:
+
+; Free Rider Problem
+:
+
+; Public Goods
+:
+
+; Herd Immunity
+:
+
+; Externalities
+:
+
+; Spillover Effects
+:
+
+; Coase Theorem
+:
+
+; Cap-and-trade 
+:
+
+; Moral Hazard 
+:
+
+; Principal-agent Problems 
+:
+
+; Asymmetric Information 
+:
+
+; Adverse Selection 
+:
+
+; Market Failure
+:
+
+; Government Failure
+:
+
+; Goodhart’s Law
+:
+
+; Perverse Incentives
+:
+
+; Cobra Effect
+:
+
+; Streisand Effect
+:
+
+; Hydra Effect 
+:
+
+; Observer Effect
+:
+
+; Chilling Effect
+:
+
+; Collateral Damage
+:
+
+; Blowback
+:
+
+; Boiling Frog
+:
+
+; Short-termism
+:
+
+; Technical Debt
+:
+
+; Path Dependence
+:
+
+; Preserving Optionality
+:
+
+; Precautionary Principle
+:
+
+; Information Overload
+:
+
+; Analysis Paralysis
+:
+
+; Perfect Is The Enemy Of Good
+:
+
+; Reversible Decisions Vs. Irreversible Decisions
+:
+
+; Hick’s Law
+:
+
+; Paradox Of Choice
+:
+
+; Decision Fatigue 
+:
+
+; Murphy’s Law
+:
+
+; North Star
+:
+
+; Compound Interest
+:
+
+; Two-front Wars
+:
+
+; Multitasking
+:
+
+; The Top Idea In Your Mind
+:
+
+; Deep Work
+:
+
+; Eisenhower
+:
+
+; Decision Matrix  
+:
+
+; Sayre’s Law 
+:
+
+; Bike-shedding 
+:
+
+; Opportunity Cost 
+:
+
+; Opportunity Cost Of Capital 
+:
+
+; Best Alternative To A Negotiated Agreement 
+:
+
+; Leverage 
+:
+
+; High-leverage Activities 
+:
+
+; Pareto Principle 
+:
+
+; Power Law Distribution 
+:
+
+; Law Of Diminishing Returns 
+:
+
+; Law Of Diminishing Utility 
+:
+
+; Negative Returns 
+:
+
+; Burnout 
+:
+
+; Present Bias  
+:
+
+; Discount Rate
+:
+
+; Discounted Cash Flow
+:
+
+; Net Present Value (npv)
+:
+
+; Hyperbolic Discounting
+:
+
+; Commitment
+:
+
+; Default Effect 
+:
+
+; Parkinson’s Law 
+:
+
+; Hofstader’s Law 
+:
+
+; Loss Aversion 
+:
+
+; Sunk-cost Fallacy 
+:
+
+; Design Pattern 
+:
+
+; Anti-pattern 
+:
+
+; Brute Force
+:
+
+; Heuristic
+:
+
+; Algorithms
+:
+
+; Black Boxes
+:
+
+; Automation
+:
+
+; Economies Of Scale
+:
+
+; Parallel Processing
+:
+
+; Divide And Conquer 
+:
+
+; Reframe The Problem 
+:
+
+; Social Engineering 
+:
+
+; Natural Selection 
+:
+
+; Scientific Method 
+:
+
+; Inertia 
+:
+
+; Strategy Tax 
+:
+
+; Shirky Principle
+:
+
+; Lindy Effect
+:
+
+; Peak
+:
+
+; Momentum
+:
+
+; Flywheel
+:
+
+; Homeostasis
+:
+
+; Potential Energy
+:
+
+; Center Of Gravity
+:
+
+; Activation Energy
+:
+
+; C Ata Lyst
+:
+
+; Forcing Function
+:
+
+; Critical Mass
+:
+
+; Chain Reaction
+:
+
+; Tipping Point
+:
+
+; Technology Adoption Life Cycle 
+:
+
+; S Curves
+:
+
+; Network Effects
+:
+
+; Metcalfe’s Law
+:
+
+; Cascading Failure
+:
+
+; Butterfly Effect
+:
+
+; Luck Surface Area
+:
+
+; Entropy
+:
+
+; 2X2 Matrices
+:
+
+; Polarity
+:
+
+; Black-and-white Fallacy
+:
+
+; In-group Favoritism 
+:
+
+; Out-group Bias
+:
+
+; Zero-sum Vs. Win-win
+:
+
+; Anecdotal Evidence 
+:
+
+; Correlation Does Not Imply Causation 
+:
+
+; Confounding Factor 
+:
+
+; Hypothesis 
+:
+
+; Texas Sharpshooter Fallacy 
+:
+
+; Randomized Controlled Experiment
+:
+
+; A/b Testing
+:
+
+; Observer-expectancy Bias
+:
+
+; Placebo Effect
+:
+
+; Proxy
+:
+
+; Selection Bias 
+:
+
+; Nonresponse Bias
+:
+
+; Response Bias
+:
+
+; Law Of Large Numbers
+:
+
+; Gambler’s Fallacy 
+:
+
+; Clustering Illusion
+:
+
+; Regression To The Mean 
+:
+
+; Mean, Median, And Mode 
+:
+
+; Variance And Standard Deviation 
+:
+
+; Normal Distribution 
+:
+
+; Probability Distribution 
+:
+
+; Central Limit Theorem
+:
+
+; Confidence Interval
+:
+
+; Error Bars
+:
+
+; Conditional Probability
+:
+
+; Base Rate Fallacy
+:
+
+; Bayes’ Theorem· Frequentists Vs. Bayesians
+:
+
+; False Positive
+:
+
+; False Negative
+:
+
+; Power
+:
+
+; Null Hypothesis
+:
+
+; Statistical Significance
+:
+
+; P-value· Replication Crisis 
+:
+
+; Data Dredging 
+:
+
+; Publication Bias 
+:
+
+; Systematic Review 
+:
+
+; Meta-analyses 
+:
+
+; Pro-con List 
+:
+
+; Grass-is-greener Mentality
+:
+
+; Maslow’s Hammer
+:
+
+; Cost-benefit Analysis
+:
+
+; Inflation
+:
+
+; Sensitivity Analysis
+:
+
+; Garbage In, Garbage Out 
+:
+
+; Decision Tree 
+:
+
+; Expected Value 
+:
+
+; Utility Values 
+:
+
+; Utilitarianism 
+:
+
+; Black Swan Events 
+:
+
+; Fat-tailed Distributions 
+:
+
+; Systems Thinking 
+:
+
+; Chatelier’s Principle
+:
+
+; Hysteresis
+:
+
+; Monte Carlo Simulation
+:
+
+; Local Optimum Vs. Global Optimum 
+:
+
+; Unknown Unknowns
+:
+
+; Scenario Analysis
+:
+
+; Thought Experiment
+:
+
+; Counterfactual Thinking
+:
+
+; Lateral Thinking
+:
+
+; Groupthink· Bandwagon Effect
+:
+
+; Divergent Thinking Vs. Convergent Thinking
+:
+
+; Crowdsourcing
+:
+
+; Prediction Market
+:
+
+; Superforecasters· Business Case
+:
+
+; Arms Race
+:
+
+; Game Theory
+:
+
+; Prisoner’s Dilemma
+:
+
+; Nash Equilibrium 
+:
+
+; Tit-for-tat
+:
+
+; Reciprocity
+:
+
+; Liking 
+:
+
+; Social Proof 
+:
+
+; Scarcity 
+:
+
+; Authority 
+:
+
+; Social Norms Vs. Market Norms 
+:
+
+; Ultimatum Game 
+:
+
+; Distributive Justice Vs. Procedural Justice
+:
+
+; Appeal To Emotion
+:
+
+; Fear, Uncertainty, And Doubt
+:
+
+; Straw Man
+:
+
+; Ad Hominem
+:
+
+; Dark Patterns· Trojan Horse
+:
+
+; Bait And Switch
+:
+
+; Potemkin Village
+:
+
+; Mutually Assured Destruction
+:
+
+; Deterrence
+:
+
+; Carrot-and-stick 
+:
+
+; Containment 
+:
+
+; Stop The Bleeding 
+:
+
+; Quarantine 
+:
+
+; Flypaper Theory 
+:
+
+; Domino Effect 
+:
+
+; Slippery Slope Argument 
+:
+
+; Broken Windows Theory
+:
+
+; Gateway Drug Theory
+:
+
+; Loss Leader Strategy
+:
+
+; Appeasement
+:
+
+; Red Line
+:
+
+; Nuclear Option
+:
+
+; Zero-tolerance Policy 
+:
+
+; Call Your Bluff 
+:
+
+; War Of Attrition  
+:
+
+; Hollow Victory 
+:
+
+; Guerrilla Warfare 
+:
+
+; Generals Fighting The Last War 
+:
+
+; Punching Above Your Weight 
+:
+
+; Endgame 
+:
+
+; Exit Strategy 
+:
+
+; Hail Mary Pass 
+:
+
+; Burn The Boats 
+:
+
+; Joy’s Law 
+:
+
+; 10X Engineer
+:
+
+; 10x Team
+:
+
+; Introverts Vs. Extroverts
+:
+
+; Nature Vs. Nurture
+:
+
+; Iq Vs. Eq
+:
+
+; Generalists Vs. Specialists
+:
+
+; Commandos, Infantry, And Police
+:
+
+; Foxes Vs. Hedgehogs
+:
+
+; Managing To The Person
+:
+
+; Peter Principle
+:
+
+; Strategy Vs. Tactics
+:
+
+; Institutional Knowledge
+:
+
+; Unicorn Candidate
+:
+
+; Directly Responsible Individual (dri)
+:
+
+; Bystander Effect
+:
+
+; Power Vacuum
+:
+
+; Deliberate Practice 
+:
+
+; Spacing Effect 
+:
+
+; Weekly One-on-one 
+:
+
+; Radical Candor 
+:
+
+; Consequence-conviction Matrix 
+:
+
+; Fixed Mindset Vs. Growth Mindset
+:
+
+; Pygmalion Effect
+:
+
+; Golem Effect
+:
+
+; Impostor Syndrome
+:
+
+; Dunning-kruger Effect
+:
+
+; Maslow’s Hierarchy Of Needs
+:
+
+; Hindsight Bias
+:
+
+; Culture
+:
+
+; High-context Vs. Low-context
+:
+
+; Winning Hearts And Minds
+:
+
+; Loyalists Vs. Mercenaries
+:
+
+; Manager’s Schedule Vs. Maker’s Schedule
+:
+
+; Dunbar’s Number
+:
+
+; Mythical Man-month
+:
+
+; Boots On The Ground
+:
+
+; Arbitrage· Sustainable Competitive Advantage
+:
+
+; Market Power
+:
+
+; Consensus-contrarian Matrix
+:
+
+; Secrets
+:
+
+; Why Now?
+:
+
+; Simultaneous Invention
+:
+
+; First-mover Advantage Vs. First-mover Disadvantage
+:
+
+; Product/market Fit
+:
+
+; Resonant Frequency
+:
+
+; Customer Development
+:
+
+; Ooda Loop (observe, Orient, Decide, Act)
+:
+
+; Pivot
+:
+
+; Jobs To Be Done
+:
+
+; What Type Of Customer Are You Hunting?
+:
+
+; Back-of-the-envelope Calculation 
+:
+
+; Personas 
+:
+
+; Bright Spots 
+:
+
+; Beachhead 
+:
+
+; Idea Maze 
+:
+
+; Heat-seeking Missiles 
+:
+
+; Moats
+:
+
+; Lock-in 
+:
+
+; Switching Costs 
+:
+
+; Barriers To Entry And Barriers To Exit 
+:
+
+; Regulatory Capture 
+:
+
+; Winner-take-most Markets
+:
+
+; Only The Paranoid Survive
+:
+
+; Disruptive Innovations
+:
+
+; Crossing The Chasm
+:
+
+; Cargo Cult
+:
+
+; Circle Of Competence

@@ -1,0 +1,83 @@
+created: 20181007210138282
+creator: h0p3
+modified: 20181212153616192
+modifier: h0p3
+tags: [[Wiki Mechanic]]
+title: Search of h0p3
+
+Searching this wiki is a non-trivial problem. I think people need a dead simple tool for visually constructing arbitrarily complex queries. 
+
+I want to tailor predicates and their arguments to my particular wiki (e.g. [[title.Title]]). I want to construct FOL queries rapidly and visually. Think https://scryfall.com/advanced. Make it absurdly easy to research the wiki. This data is highly structured, and we can make very tailored searches like a controlled vocabulary.
+
+```
+           +---------------+                    +-------+         +---------------+
+1    not   |   Predicate   |      name          |  and  |   not   |   Predicate   |       name              + (new line)
+   +-----+ +---------------+ +----------------+ +-------+ +-----+ +---------------+ +----------------+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+           +---------------+                    +-------+         +---------------+
+2          |               |                    |       |         |               |                         + (new line)
+   +-----+ +---------------+ +----------------+ +-------+ +-----+ +---------------+ +----------------+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+3  
+   +-----+  ...
+```
+
+Boxes are drop-down menus.
+
+Predicate(name) just is an atomic sentence in FOL. We want to be able to construct arbitrarily complex sentences in FOL. We can construct truth-functional propositions line-by-line. New drop-down menus will include all previously constructed propositions. The last line is the main connective.<<ref "m">> It should be trivial to add common complex truth-functional connectives like xor, conditionals, and bi-conditionals (though I'm having a hard time seeing when that would be useful).
+
+Note that this allows us to insert a computationally expensive expression as late as possible in the resolution of the filter. Consider, for example, how fuzzy logics can be simply too expensive to use when iterating over this entire wiki. It would, however, be feasible to fuzzy search over a limited set of tiddlers which had already been narrowed through other filters first.
+
+The goal is to enable very complex predicates which can be added to this tool. Expensive work should be done toward the tail-end of construction whenever possible. 
+
+Predicate examples:
+
+* [[title.Title]] contains `_________`
+* Body fuzzy contains `_________`
+* [[Tag]] contains `_________`
+* Log contains `_________`
+* Log no earlier than `_________`
+* Log no later than `_________`
+* Alias contains `_________`
+* [[title.Tag]] fuzzy contains `_________`
+* Created date contains ...
+* Created no earlier than ...
+* Modified no later then ...
+
+There might be other switches, knobs, etc. 
+
+* case sensitivity
+* show as context or just the list
+* is a shadowtiddler/systemtiddler
+* change the ordering of the final output!
+
+The goal is to graphically abstract away from writing complex filter expressions and give us a chance to build more complex expressions from simpler ones without having to repeat ourselves. Furthermore, the goal is to be able to wrap the search capacities of other tools with this one. I want the one search to rule them all.
+
+Other outputs and possibilities:
+
+* Show me the final filter expression. I want to be able to CnP it, reuse it, and make sure the tool is even working correctly.
+* Allow me to perform operations over the results! TiddlyTool is a perfect example. 
+** Batch modifications:
+*** Add
+*** Remove
+*** Replace
+*** ?Iterated work?
+** I want to be able to make simultaneous batch modifications to:
+*** [[title.Title]]
+*** [[title.Tag]]
+*** Tag
+*** field name
+*** field contains
+*** tiddler name? (tricky as fuck...has to be iterated)
+* Search history?
+
+* Ideas
+** https://bimlas.gitlab.io/tw5-kin-demo/
+
+
+---
+<<footnotes "m" "Technically, there is room to optimize here instead of continuously recalculating any proposition which has been calculated before, but that can wait (I'm sure there are more optimizations to make).">>

@@ -1,0 +1,19 @@
+created: 20180301201955098
+modified: 20181029175224781
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.03.01 - Computer Musings: FL
+
+Setup IPT FL again. 15GB limit. Slowly go infinite, that's what I want. 
+
+I'm considering not automatically downloading from kimsufi to HTPC every minute because it is killing my seeding. I've set LFTP to be have 50 threads to get around peering issues. It's fast. 
+
+I'm considering this experimental option: https://superuser.com/questions/309063/how-can-i-prioritise-network-bandwidth-on-a-per-application-basis
+
+This is perhaps a better options: https://firehol.org/tutorial/fireqos-new-user/
+
+Meh. I'm not in love with either.
+
+---
+
+Cleaned up my home drive. 

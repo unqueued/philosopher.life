@@ -1,0 +1,32 @@
+created: 20181019195131548
+creator: h0p3
+modified: 20181130005420957
+modifier: h0p3
+tags: Letter Josiah To
+title: 2018.10.19 - Josiah: Tailoring
+
+Dear Josiah,
+
+Thank you for showing me the portrait view. I hadn't tried that resolution.<<ref "r">> I will continue to try to improve it. I realize it is not gorgeous on every device and screen. [[As I've said|2018.10.05 - Josiah: Pilot]], I hope to make the wiki useful on many screens. I have to strike a balance in cost tradeoffs here, especially since I am only one man. Making it usable for others isn't the same as making it equally functional or aesthetically pleasing across all devices. There are cases I'm going to have to lower my standards, including mobile and portrait.<<ref "p">> I take it that I will slowly improve in this area here since I don't find it pressing. I'm going to pick the low-hanging fruit, especially because I think there are much larger fires to put out on this wiki.
+
+I am strongly convinced that if you are building for mobile, then you have to actually tailor the entire experience for mobile. Not all sites and applications can or should be mobile friendly.<<ref "t">> When you do tailor to mobile, you'll either end up with two entirely different interfaces (and sets of functionality in most cases), or you can only deliver a mobile product (with everything else being secondary). I'm also not convinced my wiki is something which should be navigated by touch screen or explored on a small screen. My wiki really is meant to be read on a desktop or laptop.<<ref "pr">> I realize that's not how most people navigate the digital world. I'm not quite sure how to make my wiki something which is equally pleasurable to view and use on all devices. So far, I've not found a good CSS option, but hopefully I will.
+
+To some extent, I might always have to make the assumption my audience uses my wiki on a machine resembling something like mine (though not identical anymore). It is true: not all applications are (or can be) meant for all devices. Only some kinds of hardware can play many kinds of games, and there are a ton of tools which really can only fully function on a computer designed for it. I suggest the possibility that significant use of the wiki is simply too big to reasonably force through such a small hole. Serious use of my sidebar alongside the storyriver, opening several tiddlers, and reading footnotes are supposed to be the norm on my wiki.<<ref "u">> I design with that in mind, especially since I'm the one using it at least 95% of the time. 
+
+I am once again grateful to you for giving me the chance to think about the specification of my requirements and priorities. Thank you!
+
+Sincerely,
+
+[[h0p3]]
+
+
+---
+<<footnotes "r" "I've been using VMs and http://quirktools.com/screenfly/">>
+
+<<footnotes "p" "Almost all the people I know who have portrait screens also have access to landscape. I think portrait would require dissolving the left side entirely, since I consider the sidebar crucial. That's doable with CSS.">>
+
+<<footnotes "t" " Tiddlywiki, in my experience, is fairly poor in this respect. Even Wikipedia is just flat out a different experience on mobile.">>
+
+<<footnotes "pr" "Reading a linear book on a phone is one thing. Prolix rabbitholing a small web inside the wiki is hell on a phone. I think a mouse, keyboard, and larger screen are ideal for making sense of this wiki.">>
+
+<<footnotes "u" "I think a lot of devices cannot use the wiki as I intend.">>

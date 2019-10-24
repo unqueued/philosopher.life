@@ -1,0 +1,22 @@
+created: 20180330155247834
+modified: 20180330155549780
+title: Cronjob: Rsync Snapshots
+
+For non-hidden files/directories.
+
+```bash
+# 10 minute snapshot
+*/10 * * * * rsync -acr --delete --force --exclude=".*" --exclude=".*/" folder1/ folder2 
+
+# 1 hour snapshot
+0 * * * * rsync -acr --delete --force --exclude=".*" --exclude=".*/" folder1/ folder2
+
+# 1 day Snapshot @2am
+0 2 * * * rsync -acr --delete --force --exclude=".*" --exclude=".*/" folder1/ folder2
+
+# 1 week snapshot @2am on Sunday
+0 2 * * 0 rsync -acr --delete --force --exclude=".*" --exclude=".*/" folder1/ folder2
+
+# 1 month snapshot @2am on the 1st of the month
+0 2 1 * * rsync -acr --delete --force --exclude=".*" --exclude=".*/" folder1/ folder2
+```

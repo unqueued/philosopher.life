@@ -1,0 +1,13 @@
+created: 20180427231745304
+modified: 20181029175224786
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.04.27 - Computer Musings: Grep
+
+Asked daughter for a one-liner:
+
+`grep -Fr 'phrase'`
+
+---
+
+Neat problem with resilio to seedbox watch. May even be a loading problem for one torrent. I can't tell yet. rtorrent is the likely culprit.

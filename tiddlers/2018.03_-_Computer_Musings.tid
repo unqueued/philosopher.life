@@ -1,0 +1,37 @@
+created: 20180402150249726
+modified: 20181109015038566
+modifier: h0p3
+tags: [[Computer Musings]] [[Log Audit]]
+title: 2018.03 - Computer Musings
+
+!! Logs:
+
+* [[2018.03.01 - Computer Musings: FL]]
+* [[2018.03.02 - Computer Musings: vm]]
+* [[2018.03.03 - Computer Musings: Android]]
+* [[2018.03.04 - Computer Musings: New Browser]]
+* [[2018.03.05 - Computer Musings: Password Manager]]
+* [[2018.03.06 - Computer Musings: Miners]]
+* [[2018.03.12 - Computer Musings: Odd Page]]
+* [[2018.03.22 - Computer Musings: m14 & m15]]
+* [[2018.03.24 - Computer Musings: Pollution]]
+* [[2018.03.26 - Computer Musings: m15]]
+* [[2018.03.27 - Computer Musings: Hosting]]
+* [[2018.03.29 - Computer Musings: Obfuscation]]
+* [[2018.03.30 - Computer Musings: Resilio]]
+
+!! Audit:
+
+* I need to leave the seedbox alone. 
+* I need to setup federated social media platforms for my wife. She has to tell me what she wants though.
+* The web traffic obfuscation/pollution project has been a success in my view. I realize what others think about this. Forgive my arrogance. I think this is a non-trivial tool in the toolbox. I have seen differences in the content served to me. It does bust your filterbubble.
+** I like sticking it to "The Man" as well. I'm going to cost them a fortune in advertisements in the long-haul while shoving noise-fists up their asses.
+*** They do look for people trying to game the ad system. I've set AdNauseam to only click through on ads sometimes and have random user-agent settings. 
+*** I run TrackMeNot in my primary driver, FF, as well (but not the other tools).
+** Ultimately, I'd prefer we have a custom tool for this job. A Grease/Tampermonkey script that does exactly what I want to it to do. Being stochastic is crucial. I also want to shape the traffic more specifically than the other tools I've found. 
+* I've been pleased with Shreddit. It has made me more willing to use Reddit and not self-censor so much. The reputation retards can go fuck themselves.
+* I've made improvements to m14 and m15 in several ways. I'll continue to shape them. I need to get in a groove and habit of what I prefer.
+* I did my yearly hosting work. 
+* I need to kick the Resilio habit. This is not going to be easy. There's nothing in the same league with it.
+* I'm still trying to tailor and work the kinks out of FF. I am running into crashes, freezes, lethargy, etc. Vanilla FF is snappy, but something still isn't quite right. Several times I've had to do my work in Chrome. That said, I'm still happy with tons of FF functionality that I just didn't have in Chrome.
+* I am convinced that I should give shape to [[Outopos]] through [[NixOS]]. Systems programming with maximum scope allows me to be lazy, to abuse almost any library or executable. I want to leverage everyone's code.

@@ -1,0 +1,15 @@
+created: 20180304190231825
+modified: 20181029175224782
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.03.04 - Computer Musings: New Browser
+
+So, I've been hunting for a new browser. I've been getting absolutely demolished on RAM usage. It's stupid. There aren't a lot of engine choices, and so there aren't many serious competitors. 
+
+I desperately wanted to love Vivaldi. I've been an Opera fan since I was 13. The innovation was so obvious. Vivaldi has a ton going for it, and I want it to succeed. But, I simply can't use it full-time because the memory usage is insane. It's worse than Chrome/Chromium (and that's because it is Chromium with sugar). 
+
+I've moved onto Firefox Developer Edition. It's very up-to-date, and it's stable enough for me (I would argue I'm willing to accept instability for the sake of performance and flexibility<<ref"1">>). I'm struggling to find all the add-ons I need. However, it's so incredibly memory light. It's kind of crazy. So, it is a winner, right?
+
+
+---
+<<footnotes "1" "Well, I'd also argue that might be the case for my mental states as well. I think that's part of what good computing looks like sometimes. That isn't to say we don't want to develop rock-stability, but the best versions of that require instability.">> 

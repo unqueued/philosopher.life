@@ -1,0 +1,11 @@
+created: 20190228182757301
+modified: 20190228210052716
+tags: [[Wiki Audit]] j3d1h
+title: 2019.02.28 - Wiki Audit: j3d1h
+
+*Made a "create new journal tiddler tagged with this one" hotkey, which promptly broke (I'll fix it eventually!)
+*Removed the Tools tab, added the Keys tab (nothing new, really)
+*Cleared out `$:/config/DefaultSidebarTab`, meaning that, when the wiki starts, no sidebar tab is selected
+
+*Changed search results so you can walk through with arrow keys (see $:/core/ui/DefaultSearchResultList for what that code looks like)
+**Note: in your palette, general primary is that background-of-selected-tiddler grey. Don't change it to something bright, please.

@@ -1,0 +1,27 @@
+created: 20170610040358018
+modified: 20170610184546121
+revision: 0
+title: LDON Script
+
+!! The Farmer
+
+* Get the Key (may be worth doing twice to ensure it works; remember to keep silver up at all times)
+** Port to Bazaar
+** Warp to John the Wise
+** Buy an LDON key (don't forget to get group key when grouping)
+
+* Port to 68 - Butcherblock
+
+* LDON Farm Script
+** Constantly check for people joining the zone and invite them. We will share.
+
+
+
+
+
+!! The Leecher
+
+* Cast XP potion
+* Port to 57 - The Lesser Faydark
+* On zone into LDON (figure out trigger), warp to safe spot. 
+

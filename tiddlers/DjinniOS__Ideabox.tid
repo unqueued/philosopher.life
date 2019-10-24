@@ -1,0 +1,43 @@
+created: 20180331000614726
+modified: 20180331023642958
+title: DjinniOS: Ideabox
+
+* Plan9-esque
+* NixOS generated
+* Perfected bootstrapping into arbitrary network and permissions topologies
+* Should be goto OS for any federated or decentralizeable tool (including blockchains)
+* Set minimum permissions. Install as users.
+
+* Focus on high-performance command line software
+** Build its development+test environment in itself
+** IMUNS
+** Decentrally self-hosted with decentralized developer permissions/ranged-voting
+
+* ARM, x64 are required targets, and eventually hopefully WASM as well
+* Actively support VMs and containers
+
+* Ultimate languages:
+** Nix
+** Rust
+** Go
+** Xonsh
+
+* Script Families:
+** Nix
+*** Build minimal environment
+*** Intercompatible modules
+
+** Xonsh
+*** IMUNS Testing Scripts
+*** Nix Development Macros
+
+* Modules:
+** Decentralized Reddit
+** SyncThing
+** Meshed VPN (arbitrary topologies)
+** Incorporate [[Atropos]] protocol
+** Build [[Outopos]] trust notions
+
+---
+
+Nixpkg repo should be distributed Git, so my packages are self-hosted. Clients that can't afford it can even ask for packages to be held and built for them (for their architecture, possibly).

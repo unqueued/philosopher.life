@@ -1,0 +1,30 @@
+created: 20171205013058100
+modified: 20171205020020729
+revision: 0
+title: Python: Convert Chrome Bookmarks Export to Link Heap
+
+```python
+#!/usr/bin/python
+
+bookmarks = open("bookmarks.html","r")
+
+for line in bookmarks.readlines():
+
+    AddDate = line.find('ADD_DATE="')
+    Href = line.find('<A HREF="')
+    chrome = line.find('chrome-extension://')
+    fileflag = line.find('file://')
+
+    # Forget chrome extensions and local files
+    if chrome != -1:
+        continue
+    elif fileflag != -1:
+        continue
+
+    # Only print the goods
+    elif (AddDate != -1) and (Href != -1):
+        print("* " + line[Href+9:AddDate-2])
+
+bookmarks.close()
+```
+I used `sort -u inputfile > outputfile` to deduplicate and sort.

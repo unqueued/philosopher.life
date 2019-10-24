@@ -1,0 +1,20 @@
+created: 20181107211047923
+creator: h0p3
+modified: 20181107214155261
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.11.07 - Computer Musings: Fixin'
+
+[[j3d1h]] has replaced /mnt/fresh (sda) on HTPC with a spare. I do miss that about my gigantic lian-li case (from monster-7 and monster-8): hotswap is fuckin' hawt. She figured out permissions to get our seedbox sync script up and running.
+
+---
+
+My son has a shit connection (though a sweet fucking setup in his desk/bunkbed...42" screen, keyboard, mouse). I need to do something about that for him. We have a Ubiquiti AP that covers a great deal of distance. Will have [[j3d1h]] learn to use that as well. Frankly, since our Ubiquiti router died, we've been using bullshit. I had setup HTPC with all the necessities for virtualizing Pfsense while still having a working PC; that project failed. Our "Archer C7" under the hood eventually bricked. We went back to our trusty DD-WRT router of yore, but it is clearly feeling the heat. 
+
+---
+
+Finished setting up the basics for my son. I am lucky that I keep so many backups on his behalf. I was able to recover for him. Grammarly isn't working for him. I have no idea why it works on my machine at all. Everything that I'd think would matter is identical. He has some other tools. Had to recover his password manager password for him...(I know that shouldn't be possible).
+
+---
+
+Found one of the git problems, bitbucket is over 2GB? I do not understand why. Shows ~1GB for me. Doesn't matter. I'm not a bitbucket fan. It's literally just a redundancy.

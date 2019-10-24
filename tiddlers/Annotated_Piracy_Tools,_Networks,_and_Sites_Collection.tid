@@ -1,0 +1,146 @@
+created: 20161230012314504
+creator: h0p3
+modified: 20180818191458638
+modifier: h0p3
+revision: 0
+title: Annotated Piracy Tools, Networks, and Sites Collection
+
+You might often find legal access to your content, but when you can't, then you may have to pirate it. I've tried a lot of tools, sites, and communities. Few of them are worthwhile. For every item on this list, there are probably 10 replacements, alternatives, and complements I've tried which aren't listed. This is what I think is worthwhile, permissible, and practical. 
+
+*Books
+** I highly covet my book sources. It's //so fucking hard //to find worthy, long-lasting book sources. Ultimately, if I'm in deep need, I search through every piracy tool/site/network on this wikipage for books. You should try these first though, since they have the highest success rates for me.
+** ebooks.wtf: https://ebooklogin.com
+***Previously, https://ebooks.farm. I believe this is the lesser version/remake of https://library.nu (the best library I have ever used in my entire life [a modern Library of Alexandria]; I literally shed tears on its takedown). 
+***This site clearly exists to make money. Someone makes a very good living off this site. Too often, it is the only place I can find a copy of a book though.
+***They seem to have a working model for acquiring content. This is obviously far closer to what a morally acceptable version of book publishing model should look like (although, I think this is exactly what taxes should be paying for).
+***It used to be a much more hidden community. They may not be able to hide their operation well enough, I fear.
+**Imperial Library of Trantor: http://xfmro77i3lixucja.onion/
+*** Tor hidden site. 
+*** Relatively small collection, but uniquely curated and catalogued.
+*** Seems highly respectable to me.
+** Libgen: http://gen.lib.rus.ec/
+*** The distributed, open Library of Alexandria community right now.
+*** It is also the longest standing of these services due to its model.
+*** This is the first place you should check.
+** Mobilism: https://forum.mobilism.org/
+*** I've had an account with them for a long time. I don't care for it. I would only search here if I were desperate. Shady AF.
+** Myanonymouse: https://www.myanonamouse.net
+*** Only Bibliotik might compete in the private tracker world, but this is easy to get into, extremely easy to maintain a good account, very friendly (perhaps the friendlist tracker community I've ever been in), and has significant content. 
+**IRC
+***Undernet
+****Bookz
+****ebooks
+***~IRCHighWay
+****ebooks
+** 4shared: https://www.4shared.com/
+*** Decent filelocker, and with ad-blockers, easy to use.
+
+* IRC
+**This classic isn't going away for chat, and it may never. It just works. Small, realish-time communities pop up all the time. The protocol is very common. I lack the social skills (or at least the will power) to penetrate the darker parts of IRC social networks. I believe darker communities are moving to more appropriate tools though. All of that said, IRC piracy has been slowly dying for decades, but it still isn't dead.
+
+*P2P (in the standard sense)
+** For the truly desperate. If walking through sewers is necessary, then it's necessary.
+*** You should see this as a collection of networks which different tools access. Some tools can access multiple networks. Some tools make their own networks, etc.
+**aMule
+*** Clean program for eD2k and Kademlia network families. Not as automated as I'd like.
+**~ApexDC++
+*** This is my favorite client.
+*** I'm very inexperienced with these networks. Most are foreign, there are significant requirements to participate in many communities, and it looks like there are social ladders to climb (and perhaps some actually worth climbing). Protect yourself. My gut tells me there are some dangerous people on these networks. I would not hunt here unless I was truly desperate.
+**Ares
+*** Shady AF. Any fucktard can use it though. It has its own fairly large network, so it's worth at least having access. 
+**Shareaza
+*** Piece of shit software in many ways. Fairly configurable though. It hits the major gnutella networks (plus eDonkey). 
+** Soulseek
+*** It has its own network. The best 'standard' P2P network out there right now. Amazing for music. 
+*** Try this one first!
+
+*Piracy Source Curation
+** The piracy landscape is always in flux. It is an arms race. It is an ever changing set of distribution, organization, and incentives models. A good pirate must constantly be on the lookout for new sources, maintaining their current sources, and shittesting.
+**Torrent Forums
+***Every private tracker will have a forum. If you aren't a regular user, you should still periodically sweep through. You may find the keys to new private sources.
+***
+
+*Streaming
+**Music
+***Not actually illegal. You can rip if you want. If you don't stream, I suggest ripping from official hosting services (e.g. Youtube), SoulSeekQT (of the self-contained P2P networks), torrenting, "filetype:" searches on Google, and file search engines. Music is everywhere. As a sidenote, there is no https://what.cd anymore, but we may eventually see a successor.
+***Due to a tragedy, my redpilled postmodern view on aesthetics, and my evolving understanding of the nature of music and the human brain, I've stopped giving a shit about carefully curating music in a way. That isn't to say I don't listen to music. I listen to it all day, everyday. I just can't be bothered to rebuild after my tragedy: I had saved my music since 1997 on my computers+devices, and I eventually lost (despite RAID) a 500GB mp3 collection (nobody used FLAC back then, so this was a huge, hand-picked collection). In a way, it was a good thing. I feel far less defined by my music collection. I do save some music, but not much anymore. I have some music around just in case I don't have the interwebs, but when don't I have interwebs? At this point, I want automated curation. I don't have the time or heart to find my own music anymore. Streaming services which automagically develop playlists are perfect in this way.
+***Use uBlock Origin, and consider browser extentions/scripts for decrapifying the streaming experience
+***Pandora: https://www.pandora.com/
+**** I have almost 7,000 hours listened on Pandora. They really make it absurdly simple. You participate in the curation process in a very minimal way. I adore it.
+***Spotify: https://play.spotify.com
+***Soundcloud: https://soundcloud.com
+***Audiosplitter: https://audiosplitter.fm/
+**** Interesting model, no doubt. It's basically a wrapper on Youtube.
+
+
+*Torrenting
+**Methodology Preferences
+***Build and use a seedbox on a VPS in another jurisdiction. I still prefer ruTorrent to Deluge (except for certain kinds of ratio building).
+****Use the following bash script (with lftp), [[ for constant one-way multi-threaded, multi-segmented syncing from your seedbox to your HTPC/NAS. 
+**** If you can't have or don't want a seedbox, then a VM with a VPN that has been properly firewalled, automated, and locked down is the next best option.
+***Do the minimum to keep your accounts in goodstanding. Make sure you don't get kicked out for inactivity. 
+*** For a tracker worth having, rent a seedbox for a month to build insane ratio. 
+*** For a tracker you could afford to lose, consider cheating your ratio. It can be hard to find good cheating tools, and it's important that do you it intelligently. I've yet to be caught. Make sure your accounts are completely compartmentalized just in case.
+*** I strongly suggest automating your entire process.
+**** Automate the generation of ratio (a number of considerations here)
+**** Automatically grab content you want.
+**** Make it one-click from browser to seedbox to your library. Seriously. 
+**Public
+***As usual: give back. I have 2 Petabytes uploaded, so I'm good for a while (my ratio should be good for a decade or two, I assume). Also, I'd like to give you a friendly reminder to protect yourself. You need to use an internet condom (VPN, seedbox, or other proxy) at all times when using these sexy pirate holes. 
+***Torrent Project: https://torrentproject.se/
+**** At this point, a classic. It's on the order of what isohunt had achieved many years ago. 
+**** As usual, use adblockers and privacy tools. 
+***Zooqle: https://zooqle.com/
+****If your internet bullshit-detector sucks, this seems a reasonable place to find safe/verified content.
+****High-coverage public indexes with reasonable RSS options are rare. 
+**Private:
+***What counts as being private? Is it requiring registration? Is it requiring a certain degree of effort? Is it in the countermeasures the community/owner takes to hide users or avoid being taken down? I don't know. Consider these semi-private or borderline public if you need to.
+*** I've had a ton of private trackers. Dozens. Most are ultimately not worth the effort. I honestly don't want to put in the work to get into any of the conventionally "top" private trackers. It requires socializing I'm not interested in doing. I realize they offer better organization of their content, they can sometimes have nicer encodes (or at better at weeding out the bullshit), and they have niche and very hard to find content when they are specialized. This is generally replaceable for me though. The only niche content I ever really need access to is software and books though. When it comes to video and music, I'm far less picky. There comes a point where the human ear and eye can barely tell a difference, at least for uncultured swine like me.
+*** IPT: https://iptorrents.com
+**** I've used them for around 7-8 years. They have a well-earned terrible reputation amongst the drama-oriented piracy scene. Ultimately, like most people, they are incredibly shady and not a nice group of people on the internet. Their scam-generated community does result in one of the largest content libraries I've ever seen on the internet though. Nothing even comes close.
+***TL: https://www.torrentleech.org
+****This place has only become shadier over time. It may just go the way of IPT. It obviously makes a lot of money off the leechers. It has a fairly large content base though. Generating ratio isn't too hard, but it isn't braindead easy either (although, they've made a it easier over the years). I can't blindly download a TB here though like I can at IPT.
+
+* Usenet
+** You can acquire free access. 
+** It's old school, but also seems to poorly compete with torrent communities. 
+** Use this when you are desperate.
+
+* Web File Search Engines
+** You should technically use an internet condom (a proxy of some sort) for these. Because they are indexes and highly centralized, I believe attackers are more likely to go for a takedown than go after users though. In time, this may change (we'll see what Trump does).
+**FTP
+***Napalm FTP Indexer: https://www.searchftps.net/
+***Filewatcher: http://www.filewatcher.com/
+** Filediva: http://www.filediva.com/
+*** Search many major freehosting services.
+** Filechef: http://www.filechef.com/
+*** Broad index.
+** Google
+*** Google-fu will once in a while net you something that just can't be found anywhere else. I've found their ranking algorithm has made this less effective with each passing year though. I've not found a standard search engine to replace them though. They have a monopoly on the human capital (and likely the political and logistical capital) necessary to provide relevant search results. 
+** Special filetypes
+*** PDF-Giant: http://pdf-giant.com/
+**** Magazines
+
+* Android<<ref "a">>
+** Stores
+*** Aptoide
+*** Mobilism
+*** AC market
+*** TutuApp
+*** getapk.co
+** Sites (no idea)
+*** https://apk4free.net/
+*** https://ihackedit.com/
+*** https://apkmaniaxl.net/
+*** https://market.1mobile.com/
+*** https://onhax.me/
+*** https://andropalace.org/
+*** https://novahax.com/
+*** https://sadeemapk.com/
+*** https://karan.mobi/
+*** https://a2zapk.com/Apps
+
+
+
+---
+<<footnotes "a" "Sadly, this ecosystem just requires an entirely different piracy ecosystem too.">>

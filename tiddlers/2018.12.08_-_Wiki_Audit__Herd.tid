@@ -1,0 +1,35 @@
+created: 20181209045308795
+creator: h0p3
+modified: 20181209225916077
+modifier: h0p3
+tags: [[Wiki Audit]]
+title: 2018.12.08 - Wiki Audit: Herd
+
+[[Yo dawg, I herd you like philosopher.life in your philosopher.life]] 
+
+`/giggle-tears` - I kill myself sometimes. It's so childish and Thugnificent^^tm^^; I love it. I feel like I'm back on Angelfire (though there were niftier shenanigans to pull on that site).
+
+This is probably just a dumb toy. It is unbecoming of this art perhaps (like, maybe I'm failing in my principles here), but I like it! I much prefer reading their sites in their own tabs, lol (yeah, something uncouth about this). I enjoy the entrance to their rabbitholes in here too though; it feels like I'm looking out from my rabbithole mapped onto theirs. [[I see the light|Sphygmus]] at the end of the tunnel! It's celebratory. 
+
+Maybe, however, there is a good way to automatically open their links in another browser tab? I'd like that very much. It's possible that the functionality I'm looking for would be suited to the iframe, but I think sending a tab itself is a good idea (like I would for a normal link).
+
+Sad about the iframe nesting from what I can tell. My awful ASCII art, ofc, is grating.
+
+```
+<html><div align="center"><iframe src="FooURL"
+frameborder="0" width="100%" height="600"></iframe></div></html>
+```
+
+Something doesn't feel right about it, but I don't know how to put my finger on it. XFS? Also, the ability to be trolled is cute in this case. =) I actually love that there is a tiddler (rather than just a link) that allows them to dynamically display something in my wiki via their own sites.
+
+I actually wish I could use a tool like dat for the link. For example, it is always possible [[kicks]] could lose his URL (or so ICANN imagine such a thing), but he will never lose his dat private key (unless he so chooses).
+
+I wish I knew how to display a single tiddler as the page with this method.
+
+---
+
+You know, using the iframes, I wish I could click the hide sidebar button in the corner, and it would actually hide both sidebars, expanding the width of the story river to the edge of the screen (or nearly...as I think keeping the button easy to open the sidebar battlestation mode...which is not casual reading mode) could be useful to some folks. I need to keep digging and thinking.
+
+---
+
+[[Links: https://sphygm.us/]] (hrmm..no internal wiki link on tiddlers with URL names...`[[https://sphygm.us/]]` will always be an external link; is there a way to make exceptions in particular cases?) looks pretty damn snappy with [[Personal Stylesheets]]. Works with mouseovers too. =)

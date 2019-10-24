@@ -1,0 +1,27 @@
+created: 20190328174322558
+modified: 20190328180031215
+tags: [[Wiki Audit]] j3d1h
+title: 2019.03.28 - Wiki Audit: Core Daily Button
+
+* [[Core Daily Requirement Macros]]
+* [[Audit Macros]]
+* [[Audit Date]]
+
+For the Core Daily button, it makes new logs for any log tagged `Core Daily Requirement`, so new ones (if those ever happen) should be fine. Templates work, but aren't required. If there is a template, make sure its name follows the form `TDL: Template`, and if there isn't one, the log's body will remain blank. The form is this:
+
+```
+title: 2019.03.28 - TDL: 
+tags: TDL
+
+[whatever is in the template here]
+```
+
+Quick warning, pressing that button WILL overwrite any existing Core Daily Requirement logs for the day, unless they have a title.Title. Careful with that.
+
+---
+
+Sync killed. Hunting Bob gremlins. [[m10]] just saw the problem that I think I experienced on [[monster-14]] between two tabs. Bob normally kicks up a redflag, but this never happened. [[Recent]] was completely desynced between the tabs.
+
+---
+
+[[@]] is a thing now.

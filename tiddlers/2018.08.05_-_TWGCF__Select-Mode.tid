@@ -1,0 +1,32 @@
+created: 20180805151833208
+creator: h0p3
+modified: 20181219181841746
+modifier: h0p3
+tags: TWGGF
+title: 2018.08.05 - TWGCF: Select-Mode
+
+This post turned out longer than I expected. You'll have to forgive me if what I'm saying is weird or not useful to you. I'm thinking outloud. I want you to know, I love the tool you are building, and I'm intensely grateful. 
+
+> You can now select if you want to focus the text-editor or the title when editing a tiddler. I'll probably add shortcuts that will be active in select-mode to focus title, tags, editor, type and fields inputs
+
+Making shortcuts to target features for any focused tiddler is a damned good idea. I don't know how far you are going with this, and I might have the wrong vision. Building a framework to control a variety of standard components (perhaps beyond what you have already) of Tiddlywiki through a keyboard might be worthwhile. The more I think about this, the more I'm convinced some version of your plugin should be in Tiddlywiki's primary codebase (I always wonder if some aspects of the code will eventually go WASM, but that may defeat the purpose).
+
+Your tool is a hack for me. It allows to navigate and organize large workflows by hand, which is the intended purpose, but more importantly, it allows me to leverage non-JS ecosystems without NPM. I really do want to keep Tiddlywiki as self-contained as possible inside a single HTML. That's what is truly magic about it. The moment I'm leaving the browser to run NPM though, I feel like I should just be using some other tool besides Tiddlywiki (this may just be my incompetence though).
+
+I think I'm going to abuse your tool in a way that is simply the result of me not being able to figure out how to write my own JS modifications of the wiki. To me, you are giving us platform agnostic controls over the wiki, a ghetto API to a magical blackbox meant for skiddies like me.
+
+Back when I used Windows, I was an AutoHotKey fan. In many cases, I might not want or be able to touch the memory of a program, but I can programmatically tell you how to interact with it from the keyboard and mouse. Your tool may be a bridge for me. I'm interested in integrating a lot of python and bash (actually, xonsh) scripts into my TW. For example, I now use a tool that sanitizes my clipboard with replacements and pastes (because I have to move data from other programs through clipboard often enough). I also have a script which takes a list of tiddlers from "New" and organizes them into a nested list structure that I consistently use as a template. Automating tiddler creation, templating, and other processes through the keyboard may give me the Rube-Goldberg machine I always dreamed of. Thank you. =)
+
+If Tiddlywiki is a specialized self-contained VMed OS in my browser (Zawinski's law, give me the ability to decentrally mail tiddlers!), then maybe you're building some kind of visual commandline (I wonder what a console would look like in Tiddlywiki; a true commandline could be very powerful). I hope to read titles, xonsh parse and massage data, and use your tool to manually edit Tiddlywiki through xdotool and i3msgs. I can do this through NPM, but it requires decompiling and recompiling the Tiddlywiki (which I may just be forced to accept in the end); it has not been foolproof for me either. 
+
+On a side note, I'm forced to use this: https://philosopher.life/#%24%3A%2F_toggle-editor-toolbar_preview:%24%3A%2F_toggle-editor-toolbar_preview, a tool to disable toolbars, in order to maintain the font I want to have in the editor itself. Is this going to be a huge monkeywrench?
+
+My claim might be dumb, and perhaps it should not have any influence on what you are constructing because this is just one person's oddball usecase. I'll leave that up to you.
+
+> How did you imagine the search bar? How should it behave, what should it search for... ?
+
+I want to open search from keyboard, type stuff in, and use my keyboard to quickly navigate through the list. Currently, it has very poor highlighting, I must use Tab and Ctrl+Tab to move through the list (would love more options), and I have to Tab quite a bit to actually get to navigating the list in the first place. I suppose I may just fix this myself though (the highlighting I cannot).
+
+Some of the work that others to do with tagging I choose to do with titles (so far, I'm not seeing why I should switch over to tags, but I may be blind here). Eventually, I aim to be able to search by title and then search for text within those titles (that may be already possible, but I've not figured out how yet). I may end up having to write out a bunch of specialized query templates.
+
+Organizing my wiki is a very large matter of debate with myself. The softness of Tiddlywiki as software is exactly what I need as I figure out what it's supposed to look like. Search is ridiculously important, but I think I actually need to finds ways that are specifically tailored to the structures I have built. I will think more about your question.

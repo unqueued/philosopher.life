@@ -1,0 +1,33 @@
+created: 20190328172535972
+modified: 20190401163926417
+tags: $:/tags/Macro j3d1h
+title: Core Daily Requirement Macros
+
+\define cdr-tags(delta)
+`[[`$delta$`]]`
+\end
+
+\define cdr-template(delta)
+<$wikify name=temp text="""<$list filter="[[$delta$: Template]]"><$view field="text" /></$list>""">
+<<temp>>
+</$wikify>
+\end
+
+\define cdr-button()
+<$button tooltip="Create new tiddlers for all Core Daily Requirements" aria-label="cdr-button" class=<<tv-config-toolbar-class>>>
+<$set name="date" value=<<now YYYY.0MM.0DD>>>
+<$list filter="[tag[Core Daily Requirement]]">
+<$wikify name=title text="""<$view field="title" />""" >
+<$wikify name=template text="""<$macrocall $name="cdr-template" delta=<<title>>/>""">
+<$wikify name=log text="""<<date>> - <<title>>: """ >
+<$wikify name=log-tags text="""<$macrocall $name="cdr-tags" delta=<<title>>/>""" >
+<$action-setfield $tiddler=<<log>> tags=<<log-tags>> text=<<template>>/>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$list>
+</$set>
+{{$:/core/images/edit-button}}
+</$button>
+\end

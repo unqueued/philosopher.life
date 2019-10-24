@@ -1,0 +1,10 @@
+created: 20181211000910528
+modified: 20181211005510648
+tags: [[Wiki: Rube-Goldberg Machine]] [[Wiki Mechanic]] Music Dreams
+title: Wiki: Music
+
+As usual, I'm trying to throw my universe into this wiki. [[Music]] could be greatly improved by wikifying it.
+
+Well, I guess I may end up doing it. I may just have a tiddler for each song for the tagging metadata, to be able to talk about the song, etc. More importantly, it will directly modify the underlying OS in some cases. We'll have to learn how to do this nicely with Bob. The goal is to build the interface in the wiki. Perhaps it will modify a webtorrent or shoutcast server that can be piped into anyone rendering the singlefile wiki online. Anonymity for users is absolutely required. That alone may kill this. Perhaps it will just be a wrapper for me personally (which is fine).
+
+It probably would have a button and a tab on the sidebar. This is not a small project.

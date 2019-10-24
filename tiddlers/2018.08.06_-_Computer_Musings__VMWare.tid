@@ -1,0 +1,34 @@
+created: 20180806151147083
+creator: h0p3
+modified: 20181029175224790
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.08.06 - Computer Musings: VMWare
+
+Fucking keys. I'm a skiddie. I literally trust the AUR implicitly. It is pretty uncommon for me to read, let alone edit the packaging (although, it does happen). 
+
+`gpg --recv-keys C52048C0C0748FEE227D47A2702353E0F7E48EDB1`
+
+The fact is that VMWare is very performant. I require performance at times.
+
+Had to uninstall. I accidentally installed 12 (specifying it) instead of 14. Silly goose.
+
+---
+
+Freenode is now scanning users for vulnerabilities. Hmm.. Sent me down a quick rabbithole.
+
+---
+
+Desperately trying to get custom shortcuts in Firefox to work through an extension.
+
+---
+
+I've been reading the Tiddlywiki-dev forum more. In fact, this firefox browser has now become my Tiddlywiki browser; it's where I keep the [[h0p3]] identity compartmentalized/containerized in some respects.
+
+Also: https://xememex.com/
+
+Fuck Firefox. i3 time...took a script to use xdotools correctly...tough titties. [[ff_url_copy.xsh]]...Some bitchiness to deal with on this front as well.
+
+---
+
+Installed a ton from [[Linux Tool Collection]]

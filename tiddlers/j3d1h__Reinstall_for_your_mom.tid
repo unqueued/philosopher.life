@@ -1,0 +1,18 @@
+created: 20170416000823023
+list: 
+modified: 20171113154955983
+revision: 0
+tags: j3d1h
+title: j3d1h: Reinstall for your mom
+
+* Reinstall for your mom
+** Repartition mom's SSD, say make 30 gigs of space for her new /
+** Reinstall Ubuntu in that partition, but keep the now 30gigs smaller /home/user/ partition the same on her machine.
+** Make sure it runs.
+** Delete the 16GB partition and remove mention of it in Grub.
+*** Extra points if you make this a backup location for special data.
+
+
+----
+
+After testing, you found that it was a memory error. We can't replace, then force linux to not use those failing memory addresses as a temporary stopgap measure.

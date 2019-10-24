@@ -1,0 +1,26 @@
+created: 20181019043910296
+creator: h0p3
+modified: 20181029175224797
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.10.18 - Computer Musings: Packetloss
+
+Packetloss...and, I have a bigger problem:
+
+```
+TCL*Roku*TV*-*983   192.168.1.91	xx:xx:xx:xx:F8:CD	1 day 00:00:00
+Ashleys-MBP	    192.168.1.69	xx:xx:xx:xx:35:4C	1 day 00:00:00
+King-Trap-Lord	    192.168.1.68	xx:xx:xx:xx:56:CE	1 day 00:00:00
+iPad-8	            192.168.1.55	xx:xx:xx:xx:20:D1	1 day 00:00:00
+iPhone-7	    192.168.1.60	xx:xx:xx:xx:0E:CE
+```
+
+Hmm. Those are not any of my devices. I should have looked at how my daughter setup the router. She did not follow my instructions at all. Guess who setup an open wireless AP? /facepalm. Ok. This is my fault.
+
+I'm not concerned about our security here, and perhaps we should open up an AP designed exclusively to share (though, with throttling, since this is free).
+
+In any case, I think some of the problems I've found a lot more sense. Bandwidth usage off our NAS/HTPC which shares what's automatically downloaded from the seedbox makes way more sense. 
+
+---
+
+Setting up Divinity: Original Sin 2 in a VM. Looks like Wine is a no go. Nope. Passthrough required.

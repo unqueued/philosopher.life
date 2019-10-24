@@ -1,0 +1,37 @@
+created: 20180414164514358
+creator: h0p3
+modified: 20181101215436977
+modifier: h0p3
+tags: python [[Wiki Scripts]]
+title: daily.wbm.archive.py
+
+```python
+#!/usr/bin/python
+
+# This script requests TheWayBackMachine, archive.org, take a snapshot of the wiki.
+# I use it as a daily backup/snapshot tool. I hope not to abuse their service. I also hope they diff/delta store it (sorry if you don't, bro).
+
+import requests
+import time
+
+requests.get('https://web.archive.org/save/https://philosopher.life')
+time.sleep(60)
+
+requests.get('http//web.archive.org/save/https://k0sh3k.philosopher.life')
+time.sleep(60)
+
+requests.get('http://web.archive.org/save/https://1uxb0x.philosopher.life')
+time.sleep(60)
+
+requests.get('http://web.archive.org/save/https://j3d1h.philosopher.life')
+time.sleep(60)
+
+requests.get('http://web.archive.org/save/https://bookwyrm.philosopher.life')
+time.sleep(60)
+
+requests.get('http://web.archive.org/save/https://kokonut.philosopher.life')
+time.sleep(60)
+
+requests.get('http://web.archive.org/save/https://jedihacker.philosopher.life')
+time.sleep(60)
+```

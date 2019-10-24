@@ -1,0 +1,21 @@
+created: 20170218005652123
+creator: h0p3
+modified: 20181104044517433
+modifier: h0p3
+revision: 0
+tags: [[Computer Musings]]
+title: 2017.02.17 - Computer Musings: Fire Tablets
+
+* 7" Fire Tablets with Fire OS 5.3.1.0 to plain Nexus Android
+** Devs are making it harder and harder to gain control of these devices. I was lucky not to use wifi (and use it minimally when it was necessary for this procedure).
+** I've never done this from Linux, but it turned out to be crazy easy on the desktop end.
+** Found a great kit that said it sometimes did 5.3.1.0 after multiple tries (why it takes multiple tries blow my fucking mind, but it was true). 
+** Root took quite a while, threw on some other stuff, and it took a while to find a version of FlashFire that worked on this device.
+** I actually bricked the machine on the first ROM substitution.
+** Thankfully, unbricking wasn't too bad. Grabbed an image and pushed it on the device while in recovery mode through adb.
+** The second time went much faster, and I tried a slightly different ROM. Worked like a charm.
+** It's one of the cleaner installs of Android I've ever used. It's very bare. I adore it.
+** This was the second or third hardest time I've had taking control of a mobile device. This one was especially locked down.
+* [[j3d1h]] was setting up her grandpa's VM to autostart on our HTPC. Whatever she did seemed not to work. 
+** It was running hot anyways, so we took it apart, cleaned it, and attached the CPU-fan (which apparently needed some fixing anyways). 
+** Whatever the problem, there was no simply troubleshooting. So, we actually just reinstalled. It took about 2 hours to get it all together, but it's basically set now.

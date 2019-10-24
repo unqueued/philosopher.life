@@ -1,0 +1,123 @@
+created: 20180818062918779
+creator: h0p3
+modified: 20180818062947348
+modifier: h0p3
+title: 2018.08.17 - Eli: First Contact
+
+```
+Having fun exploring your site. Found you through kickscondor.
+For the record, your beard is far more luxurious than mine. Hopefully I'll be able to catch up in a few months.
+eli_oat
+hahaha, thanks so much - I've enjoyed poking around your wiki! 
+in grad school I tried to root my thesis in Derida's Archive Fever, and find myself thinking about it as I peruse your site
+h0p3
+Sounds like a book my wife and I need to put on our reading list.
+I'm trying to understand my own wiki as well, and I can see how that may be an important lense.
+What did you study in grad school?
+eli_oat
+technically my degree is in Human Ecology, which was a sort of ephermeral self-directed thing. I tried to focus on how the design of a thing, the form of a thing (be it physical, digital, or ephemeral) influenced the way that thing was preceived...e.g. how the deisgn of Facebook shapes the way folks communicate through it, or how the composition of a painting shapes the way it communicates earthiness, or something
+I leaned on archive fever because it sort of has this undercurrent of the archive, in archiving, becomes and archive of itself
+but derrida is also kind of the worst  :P
+h0p3
+I have many questions about your discipline. The relationship between form and function is something I don't understand well enough. The composition example seems like a very hard problem too.
+I look forward to the recursive archive thing.
+I'm fairly ignorant about Derrida, sadly. I have a hard time understanding him. One of his students was a teacher of mine. But, I'm really at analytic philosopher. I'm still working my way into understanding Continental and others.
+I love your reasons for your site, btw: owning your data and having fun. 
+eli_oat
+derrida is...thick. I came to him mostly through a book called Veils, which I recommend sinc eit is more grounded then most of his work (he wrote it with Cisoux (who's name I cannot spell))
+While I often referenced him, I ended up couchng a lot of my thinking in OOO (Object Oriented Ontology) and in HUman Geography
+so a little away from the classic philisophical space
+OOO is really interesting, and I think really pertinent to anything data-based, since it is concerned wth "hyperobjects." OR those objects/forces so large that they're difficult for an individual to perseive (e.g. climate change, the internet,e tc)
+h0p3
+some of my reasoning right now is oriented around OOO. I've been talking about it with my children quite a bit.
+eli_oat
+wicked!
+h0p3
+my worry is that OOO can never escape flatness, although it appears speculative realists are attempting to do so
+I'm not sure how they succeed
+eli_oat
+what do you mean by flatness (not disagreeing, just curious)
+EDITED
+h0p3
+normative and epistemic flatness, why is one thing better, more valuable, more salient, or prioritized over another
+I admire that OOO is contextualist, that it attempts to reason about what it means to observe from all perspectives
+(including what it's like to fail to understand or see a hyperobject)
+eli_oat
+ah, gotchya - that makes sense, what you say - I think that OOO most certainly seems to prioritize a certain agenda, and, when I was most into it, I think I didn't notice beucase it was in line with mine
+eli_oat
+yeah - portability is valuable to me
+I don't have a true database behind mine. i use the file system. Everything is stored as little JSON blobs
+which, while not pretty, are easy to parse and fiddle with
+https://eli.li/20180818025252.json
+h0p3
+that would strongly be my preference if I went CLI
+eli_oat
+I like showing the skin and bones, not just the preformance
+h0p3
+If I do go that route, it will be in virtue of nvim and/or emacs
+having jsons in flat files is something I can bash and python my way around
+I hate having my content embedded in a standard database; that has not worked out for me
+(but, I may just be incompetent)
+eli_oat
+no, I hear you. Tiddlywiki has its place, but beyond a certain size I think it becomes difficult to handle
+h0p3
+One of my problems with TW is that the nodejs server just isn't mature enough
+Do you mean size as in data, or do you mean structurally?
+eli_oat
+from my limited expirience with tiddlywiki I found that it started to fail me beyond a certain number of entries
+h0p3
+(data size wise, it's a pain to serve the entire wiki because it's slow...but you lose certain kinds of functions if you serve individual tiddlers)
+eli_oat
+once I reached a limit I couldn't keep track of everything
+h0p3
+Yes. That is a daunting task to me.
+It's somehow its strength and weakness (I don't mean to contradict myself here). 
+My kids and I spend a lot of time in our wikis; categorization is exceptionally hard (even with transclusions, multiple links, etc.). 
+I do hope it will form a powerful communication bridge between us. I legitimately believe I can express things through my wiki with a throughput and signal that I can't even in person.
+eli_oat
+I've got that impression
+I've read a bunch of your entries
+some were very...moving?
+h0p3
+I'm still thinking about my correspondence through the wiki with sites like yours and kickscondor. I want to make sure that I compatibilize myself with the wildwest ecosystem. It's an odd communication channel, and I'm not sure what to make of it.  It's definitely not like a linear conversation I'd have over a forum or IRC.
+eli_oat
+yeah, it is async...but not
+more like slow motion chat
+I find that I very rarely engage directly with folks
+instead I reference
+which seems...maybe disingenuous 
+h0p3
+You only have so much time in the day!
+eli_oat
+Hahaha, so true. That being said, I've been slowly planning out how to run a DnD-type game over blogs/IndieWeb
+h0p3
+Fascinating
+eli_oat
+a) because I miss playing those sorts of games
+b) I think the system can be greatly simplified 
+and not rely on the indieweb infrastructure. i think it can be accomplished with good ol' hypertext links
+and maybe some RSS for fun
+h0p3
+solid decentralization tools are very hard to come by (I would argue I've been at it since the Bittorrent white paper)
+I haven't had a group to play with, so I've been reading a lot of different manuals and dreaming of the day my son is old enough to play :P 
+I am very excited about a few systems by the same fellow at the moment: 
+- http://www.lamemage.com/microscope/
+- http://www.lamemage.com/kingdom/
+- http://www.lamemage.com/follow/
+h0p3
+Fascinating
+Added to the group's roleplaying document sync.
+I would invite you to our game, but I'm not allowed. I will be thinking about how to RP with you (it may be a while). 
+eli_oat
+thanks, no worries - I don't know if I have the time yet
+I can think abotu it while I work, but stealing away from life to play may not be in the cards for me, just yet
+I hope you all enjoy your game
+h0p3
+Why do you refer to yourself as an ewok?
+eli_oat
+You know, I don't really - it is just something I typed at some point, and it has become one of a small collection of bios I use
+blurbs without meaning that seems to say something about me
+I've gotta go - be well and thanks for connecting! 
+h0p3
+aye, you too, and ttyl
+```

@@ -1,0 +1,61 @@
+created: 20180705004511441
+creator: h0p3
+modified: 20181031035931170
+modifier: h0p3
+tags: Tulane
+title: 2015.01.06 - Symbolic Logic: Intro
+
+2
+
+
+Introduction
+
+The purposes, roles, and contexts of logic are legion. Explicitly, however, very few academic fields claim to use logic directly. Majors which tend to directly use logic include: mathematics, computer science, philosophy, and linguistics. That said, all fields and all matters of rational inquiry employ logic, even if only implicitly.
+
+Logic allows us to figure out where an argument has gone wrong, what good reasoning looks like, what bad reasoning looks like. We can point out gaps and flaws in arguments, and also prevent them, when we employ logic. Logic allows us to formalize, clarify, or make perspicuous bodies of thought which might initially seem squishier and grayer.
+
+The logic we will be learning is a language and a set of rules. We will be learning an artificial language in this class. We will use symbols to represent natural language, and we will have rules about how to manipulate these symbols, etc.
+
+There are many logic languages, many books on the topic, and many ways to learn logic. The book I’ve selected is fairly unique, and while it takes a while to get the ball rolling, it has an excellent mid and end game strategy with tools and depth unlike any other book I’ve seen. I’ll be following the book very closely. Technically, you could learn this on your own through the book. For those of you who aren’t self-motivated to be that auto-didactic, both using the software for homework and coming to class will suffice.
+
+This book comes with software that is extremely useful. You will need access to a computer with internet access throughout the semester – although it will not be necessary in class. I suggest Windows, since so many Mac/OSX users seem to have problems. I’m not in love with the Linux version of this program, but it does work. I assume you are competent with your own computers. Troubleshooting is generally not my problem in this class.
+
+The homework will be done in the software, and it will make up the largest portion of your grade. Very few people can learn logic without practicing, and we will do quite a bit of practice in this class, about 150-200 homework problems. This content can very fairly difficult; hence, we are going to practice a lot.
+
+You can submit your homework as many times as you want. You will receive an email detailing what you got wrong and to some extent why. I suggest doing your homework over and over until you get it all right. There is no reason not to get a 100% on your homework grade. The homework will be the building blocks necessary to understand future homework. Don’t fall behind, as you might not catch up.
+
+It would be foolish not to do the homework in a timely manner. I will have due dates, and if you don’t turn it in on time, then you will only get half credit. You should still turn in the homework just for half-credit, because without doing the homework, you won’t pass this class. I have never seen a student pass this class without doing the homework.
+
+If you aren’t keeping up with your homework, I won’t have much sympathy for you when you fall behind. Someone who shows up to class, does their homework before the next class, reads the book, and yet still struggles will have my sympathy. I will bend over backwards to make sure people who put in the effort do well in this class.
+
+You can work together on your homework. Everyone must turn in the assignment though. Note that cheating on the homework is about as much work as just learning to do it yourself (the software is tricky about this). Further, cheating on the homework will not help you pass the class. Even if you get 100% on the homework, if you make zeroes on the tests, you might not pass the class. The homework and class lecture will prepare you for the tests. Don’t deprive yourself of these opportunities.
+
+I strongly suggest you do most of the homework on your own. Students who meet in groups will find that a minority will do most of the work, and everyone else is copying without understanding. You will get destroyed on the tests if you’ve not actually understood your homework.
+
+I also strongly suggest solving problems on paper first and then transferring the answers to your computer. First, many problems are best solved in the free-form enabled by hand-writing. Second, you will want to be adept at writing this out, since you tests will be written exams. Students who only know how to do the problems on the computer may experience a speed bump when it comes to doing the exam by hand.
+
+I said this class was difficult, and I’m not joking. A significant portion of the class will either drop or fail. The vast majority, however, will make an A or B. This is class is difficult and can be a lot of work, but it is very worthwhile. Even students who perform poorly in the course generally find the topic to be very interesting. I must warn you: if you are in this class because you are afraid of math (some people aren’t here to learn logic, but rather to skip out on mathematics for their quantitative reasoning requirements), then this class may or may not be for you. This class has all the rigor of a mathematics class, even though we won’t be doing mathematics.
+
+On another note, please feel free to contact me with problems you have. When you send me an e-mail, don’t tell me “I don’t know how to do this” with nothing else. You need show me what you’ve tried, what your thought process is, where you are in the problem. Send me a screenshot of your work. I will not give you the answer, but I can nudge you in the right direction.
+
+We should say something briefly about the programs we will be using in the class:
+
+Tarski’s World – Tarski’s World lets you represent simple, three-dimensional worlds inhabited by geometric blocks of various kinds and sizes, and test first-order sentences to see whether they are true or false in those worlds. This program makes our work in symbolic logic come alive, become concrete in some sense, and is very useful to visual learners.
+
+http://ggweb.stanford.edu/support/manual/tarski
+
+Boole - Boole is an application that makes it easy to construct truth tables.
+
+http://ggweb.stanford.edu/support/manual/boole
+
+Fitch - Fitch is an application that makes it easy to construct formal proofs in first-order logic.
+
+http://ggweb.stanford.edu/support/manual/fitch
+
+Submit - Submit is a computer program that allows you to submit your homework exercises over the Internet to the Grade Grinder, a grading server that checks your homework and returns reports to you and, if you ask, your instructor.
+
+http://ggweb.stanford.edu/support/manual/submit
+
+Pages 5-7 in the book are useful for understanding how the software works.
+
+A digital copy of the book and the software will be posted on blackboard. Note, you will still need to buy your own copy, since only a new copy has the registration key necessary to submit homework.

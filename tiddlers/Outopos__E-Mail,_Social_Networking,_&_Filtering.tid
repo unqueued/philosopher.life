@@ -1,0 +1,44 @@
+created: 20180227030404371
+modified: 20180227044443387
+title: Outopos: E-Mail, Social Networking, & Filtering
+
+//Zawinski's Law: Every program attempts to expand until it can read mail. Those programs which cannot so expand are replaced by ones which can.//
+
+Mail is the beginning of a profound problem in computing, one which may be equivalent to the problem of search itself. I suggest, however, it is not. I think it is a smaller problem, but still a big one. Social networking in general is the mail problem multiplied by control flows, relevance algorithms, and public facing posts. How do you eliminate spam, punish spammers, and increase signal-to-noise ratios for each user's context in a decentralized network? Fuck me, I don't know. 
+
+If anyone can create an account and spam bullshit, who is going to stop them? How do we make it livable without instituting central authorities? I don't know. It's vitally important that users have the autonomy and authority to shape their own filter-bubbles as they see fit. We should, of course, enable them to use 3rd party tools, and we should incentivize 3rd party tools to be fair, democratic, and altruistic. 
+
+The goal here is satisfy Zawinski's Law before someone else does, especially if they do it poorly. We must control the implementation. Every system I've seen has failed. This is no small ask on the part of the devs.
+
+I also want to point out how //trust// might be different from whatever addiction-seeking algorithms we see employed the FB, Reddit, etc. There will be an eternal debate of relevance, [[The Good]], and [[The Right]] here.
+
+Outopos already has one insanely useful signal: Decentrust. Let me suggest there could be another one based on what Hubski and Retroshare are doing in terms of friend-to-friend networking. So, Outopos is unique in terms of automatically generating trust between nodes regarding the tit-for-tat trade of resources. Perhaps it should, inside that physical network, build a social trust rating as well. The worry, of course, is that this can be gamed and be subject to the Sybil attack. 
+
+There's a Bayesian kind of trust-building to be done here. 
+
+Also, it must be recognized that AI could be a crucial factor. We want the right knobs, levers, and buttons for AI to help us find what we are looking for (and/or what we need). 
+
+Ought we assign ratings of trust to the users we know on the network? This seems to be an insanely powerful signal. Imagine I am capable of assigning different ratings to a person. Maybe we will have evolving standards, so what I do is keep a data set for each person. 
+
+Imagine rating someone based upon factors I see in them. I have this degree of trust in them for X, and that degree of trust in them for Y. 
+
+Ah ha! There is a market for building effective filters, with real data from the user themselves. They train their own AI, perhaps using something programmed with basic defaults. 
+
+When I mark something as spam, it does something. It affects how my own node perceives and interprets the world around it, and I freely share my data with those who trust me, perhaps affecting them. 
+
+Can such a system ever be stable? Can it be abused? Is this an improvement upon natural IRL social systems? I don't know. It seems like it could be. 
+
+Can we defeat the centralization of power and information, especially in the age of AI? I don't know. We have to try though.
+
+Thus, imagine receiving a spam e-mail. You put in the work to mark it as spam. The key associated with it is banned from your node (and your other nodes learn of it). Those nodes which trust you learn of it. Your actions matter. Who sifts through the data, eliminating data from these keys for you? Why you and those you trust, of course! Now, perhaps those you trust aren't certain enough to block these keys, so personally, they'll still take a peek at e-mails from that key. But, whenever a key from that key would be sent to you, your friends play defense for you. 
+
+Ah, but can you Sybil attack your friends with infinite keys? This, of course, means, you will trade filtering duties with each other. You filter for them, and they filter for you. Ugh. I worry this problem cannot be solved in a fully decentralized manner. Isn't the point of filtering to make it so one node can benefit multiple nodes? If every node is required to implement all of the work of every single service they want by themselves, this will not be possible. We absolutely must trust others to do some of the work for us. Representation, therefore, is conceptually required of us. It is the only efficient method. 
+
+So what if we are required to agree to federated entities? How we do ensure the Federalism problem doesn't fuck us over? How do we guarantee effective representation? Ugh. I can see that voting is fundamental to this network. There is no other option. Proper representation begins with voting. This is a network based on voting and trust. 
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+created: 20180816002724582
+creator: h0p3
+modified: 20181029175224790
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.08.15 - Computer Musings: Whonix
+
+I've used Whonix for a long time. I love it.
+
+* https://www.whonix.org/wiki/DoNot
+* https://www.whonix.org/wiki/Warning
+* https://www.whonix.org/wiki/About
+
+Nothing new. Fun though. Setting up on Root drive.
+
+Hashes are fine. That's all I care about, legit.
+
+`chmod -R 777 /VMs` (755 failed) - I don't know why it lost the initial permissions too...
+
+`yaourt -S virtualbox-ext-oracle`
+
+Autostarts and i3 config updated.

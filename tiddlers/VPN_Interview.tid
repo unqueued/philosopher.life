@@ -1,0 +1,179 @@
+created: 20170312141135756
+modified: 20170312141555857
+revision: 0
+title: VPN Interview
+
+''How did you first find out about VPNs?''
+
+(I’m giving you more than you asked for in this section, but I don’t want to deceive you with a shallow
+answer.)
+
+I want to be clear about this question. The majority of people who use VPNs don't even know what a
+VPN really is. What do you mean by VPN? (I believe there are valuable comp-sci and philosophical
+questions about what even counts as a VPN or a functional network for that matter. I’ll set those aside
+for now though.) Let me try to give a quick account of the standard term.
+
+VPN stands for Virtual Private Network. Roughly, a VPN is a secure private network which sits on top of
+or operates through unsecure networks. In most cases, a VPN is used to extend a private network (like a
+home or corporate network) over a public one (like the internet). In a way, a VPN can be used to create
+a virtualized WAN. Standard VPN tools use a cryptographically secure tunnel between a client and
+server, enabling the client to remotely participate in the server's LAN. You might imagine this as running
+a secure, digital LAN cable from your client over the internet to the server’s LAN. Obviously, there are
+many uses for this, and the ability to proxy is just one of them.
+
+In my opinion, the majority of people who use VPN's in non-commercial settings, however, only use
+them as a secure tunnel to a server which acts as a proxy to the clearnet. Users seeking the proxy
+function of a VPN are provided two significant features: 1) a degree of privacy, namely middlemen (like
+ISPs) cannot modify or meaningfully inspect the encrypted information passed between the VPN client
+and server, and 2) a degree of anonymity, since users connecting to third party internet services are able
+to masquerade as coming from the server’s IP rather than their own.
+
+VPNs, however, are used for far more than proxying. Thus, I wonder if you are really asking about proxy
+services here.
+
+If so, I first encountered proxy services (which weren't standard VPNs) in the 90s, learning about
+penetration testing. That said, I often prefer VPNs to other proxy techniques because good VPN
+protocols/tools are open source, heavily field tested, reliable, fast (5-10% throughput overhead, with a
+reasonable increase in latency), widely available, and, most importantly, they make it really easy to force
+all of your internet traffic through the VPN tunnel (there are exceptions). In the anonymity+privacy arms
+race we face in the digital era, VPNs have been one of the few efficient, effective, and yet easy to use
+tools available to the masses.
+
+VPNs are not perfect, but they are often good enough. I think a VPN is often a cost-efficient and effort-
+efficient way to gain significant privacy and anonymity for many users. I feel morally obligated to say
+this: Anyone with significant privacy or anonymity needs (i.e. getting caught would result in major fines,
+going to jail, or worse) should NOT rely upon just a VPN! Individuals should evaluate their risks and
+understand what their tools buy them (we can't afford to be illiterate in these matters). In many cases,
+an openVPN service will suffice. Users might also benefit from rolling their own VPN (via a VPS or
+dedicated server) rather than relying upon a third party service.
+
+I'm not even sure when I first encountered a standard VPN, but I know I used a VPN to play LAN games
+over the internet with friends as a teenager. I also used VPNs to grab files from my home computer from
+my dad's workplace. These VPNs were not used for the sake of proxying.The first paid VPN service I used for the sake of proxying was about ten years ago. I found out about these VPN proxy services because I had been searching for a method to provide privacy against Comcast's packet inspection, primarily to prevent their routing algorithm from throttling my torrent connections (one of the first and worst violators of net neutrality principles which ISPs used to follow), and to provide anonymity against trackers and other swarm participants as just a bonus (pirates weren't hunted down in the same way back then, so it was just a bonus).
+
+''How did you get involved with VPNs and the TOR network?''
+
+For standard VPNs: gaming, penetration testing, and pirating. Searching the internet and reading books
+is how I first understood anything about them.
+
+As far as I’m concerned, Tor is a VPN. It’s a really specialized kind of VPN with a well-designed
+architecture and protocol for a variety of threat models. When it comes to anonymity+privacy, Tor is a
+sledgehammer. No other single tool is as effective at handling so many problems that users face. For
+example, Tor is one of the few tools available when you can’t afford to trust a VPN provider. Tor is not
+perfect (even if it is better than standard VPNs). Again, I feel morally obligated to say: Anyone with
+significant privacy or anonymity needs (i.e. getting caught would result in major fines, going to jail, or
+worse) should NOT rely upon just Tor!
+
+I don’t remember when I first heard about Tor. I think I stumbled upon it on 4chan and/or some tech
+news sites many years ago. I tried it out for fun, but, for the longest time, it wasn’t much more than a
+toy for me. I didn’t become strongly invested in Tor as an instrument of freedom and human rights until
+maybe 7 years ago.
+
+''What made you interested in additional levels of online security and anonymity? Why do you use
+VPNs and other online privacy tools?''
+
+I’ve been interested in privacy and anonymity since I was twelve. I read many non-fiction books and
+articles on hacking, cryptography, the history of US intelligence agencies, censorship, etc. as a teenager.
+Fiction also opened my eyes. After reading 1984 and Animal Farm, I dove into Orwell's work, and others.
+Reading tech news sites, following forums and other social media sites, and talking with people have
+helped cultivate my interest in privacy and anonymity as well.
+
+These issues really struck me even harder when I moved to Thailand. I got to see first-hand how
+censorship plays out in Thailand (and I only now see how incredibly effective the wealthy and powerful
+aristocracy of first-world Western nations are at censoring and controlling the flow of information). I
+was able to see the real moral value of piracy there as well, and it’s an experience that has led to my
+rejection of the moral basis of Anglo-American intellectual property regimes. For both censorship and
+piracy, standard VPNs, Tor, i2p, etc. have been invaluable to me.
+
+Over time, I’ve come to see how important anonymity and privacy tools are for people in all nations.
+These tools are social, political, educational, and economic equalizers and mobilizers. Many parts of our
+lives require or are vastly improved by having access to anonymous and/or private information
+exchanges. These tools help overcome censorship and enable us to subvert politically and sociallycoercive forces. These tools are necessary for overcoming global class warfare and the oppression of the
+poor and disenfranchised. I strongly believe that people have a human right to freely access non-private
+information and to use their minds as they fit, and these are crucial tools for the people in what I believe
+is the primary digital war of the information age.
+
+''Can you expand on your involvement with TOR?''
+
+I started by donating money to foundations for it. Eventually, I realized that I could hunt around for
+better deals on VPSs and contribute directly to the network myself. So, I’ve run relays, bridges, and exit-
+relays for years. I can’t afford much, but I do what I can. At one point, about 1% of Tor traffic went
+through my relays. Unfortunately, I can’t run an exit node anymore. It’s a dangerous and difficult thing
+to do on someone else’s servers.
+
+''Do you think that Americans are becoming more conscious of online security?''
+
+Maybe. It depends on what you mean by “becoming more conscious” and by “online security.”
+Here’s a shitty, simple, and honest answer to what you probably mean by that question: Some
+Americans, yeah, but the masses, not much. It’s a complex issue.
+
+Improving one’s technical aspects of computer security practices is hard work. It requires literacy and
+effort to implement. There is a risk/reward problem that acts as a barrier to the adoption of
+improvements in security practices.
+
+As an example of this complexity, from my reading and experience, I don’t believe that Millennials are
+any more computer literate than older generations. Their technical security practices are just as bad as
+older generations. I believe younger generations, however, have a different ethos and value privacy and
+anonymity more highly than older generations. It often doesn’t play out with privacy and anonymity
+through standard technical means, though. It plays out in more practical and social ways, through what
+they say online, the kinds of communities they join, how they compartmentalize their digital lives, etc.
+This is a kind of security practice with a certain kind of awareness.
+
+Do you mean to ask whether or not I think VPN usage is on the rise? I’m pretty sure it is just a fact that it
+is on the rise. More and more people are joining the technical arms race. Why do they use them? Some
+for piracy, others to masquerade as coming from the US or other origins (content can be censored and
+blocked by nation or area), others for professional reasons, etc.
+
+''Were you surprised at Edward Snowden’s revelations? Did they impact the way you browse, or were
+you already deep into extra security before?''
+
+I was not surprised. I’m not trying to sound conceited. I think I’ve been paying attention for a while,
+though (besides history and it repeating itself, we’ve had many public hints), and I’ve a minimal enough
+technical knowledge and imagination to make an educated guess about the US government’s capacities
+and practices.There’s a ton more than just “the way I browse” at stake here. I use the internet for a lot more than browsing http sites.
+
+Part of the impact is that I’m more willing to talk about the issues with people, and I feel even more
+vigilantly aware of how it affects our lives. A lot of people would have considered the lesson and claims
+from those revelations as a conspiracy theory or something irrelevant to their lives before. Now we can
+have a somewhat more open discussion about it.
+
+I still think there are many barriers to the changes we need, and I am not hopeful that we’ll do anything
+about it. I don’t think most people are technically literate enough to understand what’s happening
+(which isn’t their fault), and I think they are busy doing other things with their lives (understandably).
+Further, even for those who understand these problems, many people have just given up on securing
+their privacy and anonymity, as if the loss is inevitable or a deep inconvenience.
+
+For example, I don’t even use a VPN or Tor to protect and mask my everyday traffic. It’s just not worth it
+for me. I’ve got a 150mbit connection, and I’m not willing to sacrifice my bandwidth or add 250ms
+(which can easily add seconds to each complete connection) for my everyday stuff. I want that
+anonymity and privacy, but the cost is too high.
+
+There are other things I do, however, which aren’t a sacrifice for me. With a decent enough computer,
+having the full complement of privacy extensions in my browser doesn’t require any performance
+sacrifices. I stay away from mobile as much as I can for a multitude of security reasons (I cannot
+recommend it enough). I’m selective in my ISP (as selective I can be with the very few options available).
+I try to be more mindful and supportive.
+
+''Do you think the US is still better than most countries regarding online privacy since there are no
+mandatory data retention laws?''
+
+I think the US is among the worst, if not the worst. Plenty of nations do awful things to their people, but
+few are as good at hiding or misdirecting away from it as the wealthy and powerful interests of the US.
+Also, there is a difference between what laws are on the books and what is actually practiced.
+Further, this isn’t just a nation-state problem. Many significant adversaries do not have political borders,
+multi-national corporations being a solid example.
+
+''Do you think governmental attempts to crack down on VPNs and encryption will be successful?''
+
+Yes, to some large extent. This is a tricky question in that the answer is both technical and political. On
+the technical side, take China and their nationwide firewall as an example. They are only getting better
+at it, too. Many governments are working their way toward having the technical capacities to control the
+flow of information, including the disruption or prevention of VPNs, encryption, etc. I have no doubt the
+US government is capable, and I think they probably will to some extent.I hope governments won’t succeed. I hope we find a way to win the arms race as the 99%. I don’t think we will win, though, at least not on a large scale. There will always be a remnant that exist through obscurity and steganography.
+
+''What is your opinion on the recently passed USA FREEDOM act?''
+
+Lol. It’s a sign of hopelessness and farce. There’s no way to say this nicely or politely. It was a
+demonstration of the aristocracy’s rhetoric and false compromises, as well as our inability to do
+anything about the military-industrial-congressional complex of our nation. That it has any support from
+the populace demonstrates how uneducated and/or brainwashed they are.

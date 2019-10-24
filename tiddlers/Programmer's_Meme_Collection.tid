@@ -1,0 +1,119 @@
+created: 20171106160407190
+creator: h0p3
+modified: 20181227005915451
+modifier: h0p3
+revision: 0
+tags: 
+title: Programmer's Meme Collection
+
+* You do not need a garbage collector if you do not produce garbage.
+* Make it as simple as possible, but not simpler.
+* One man’s constant is another man’s variable.
+* Every program is a part of some other program and rarely fits.
+* Symmetry is a complexity-reducing concept; seek it everywhere.
+* It is easier to write an incorrect program than understand a correct one.
+* A programming language is low level when its programs require attention to the irrelevant.
+* It is better to have 100 functions operate on one data structure than 10 functions on 10 data structures.
+* Get into a rut early: Do the same process the same way. Accumulate idioms. Standardize. The only difference(!) between Shakespeare and you was the size of his idiom list - not the size of his vocabulary.
+* Everything should be built top-down, except the first time.
+* Every program has (at least) two purposes: the one for which it was written, and another for which it wasn’t.
+* A program without a loop and a structured variable isn’t worth writing.
+* A language that doesn’t affect the way you think about programming, is not worth knowing.
+* There will always be things we wish to say in our programs that in all known languages can only be said poorly.
+* Simplicity does not precede complexity, but follows it.
+* A picture is worth 10K words - but only those to describe the picture. Hardly any sets of 10K words can be adequately described with pictures.
+* It is easier to change the specification to fit the program than vice versa.
+* Fools ignore complexity. Pragmatists suffer it. Some can avoid it. Geniuses remove it.
+* In seeking the unattainable, simplicity only gets in the way.
+* In programming, as in everything else, to be in error is to be reborn.
+* When we write programs that “learn”, it turns out that we do and they don’t.
+* Don’t have good ideas if you aren’t willing to be responsible for them.
+* Computers don’t introduce order anywhere as much as they expose opportunities.
+* In man-machine symbiosis, it is man who must adjust: The machines can’t.
+* You can’t communicate complexity, only an awareness of it.
+* The only constructive theory connecting neuroscience and psychology will arise from the study of software.
+* Within a computer natural language is unnatural.
+* It goes against the grain of modern education to teach children to program. What fun is there in making plans, acquiring discipline in organizing thoughts, devoting attention to detail and learning to be self-critical?
+* All specs are fundamentally underspecified; if they weren't, we'd be able to compile them directly to machine code.
+* The curious task of programming is to demonstrate to management how little they really know about what they imagine they require.
+* Most of you are familiar with the virtues of a programmer. There are three, of course: laziness, impatience, and hubris.
+* Inside every large program is a small program struggling to get out.
+* Never underestimate the bandwidth of a station wagon full of tapes hurtling down the highway.
+* Omit needless code
+* It's easier to ask forgiveness than it is to get permission.
+* Beauty is the ultimate defence against complexity.
+* UNIX was not designed to stop its users from doing stupid things, as that would also stop them from doing clever things.
+* A data structure is just a stupid programming language.
+* The problem it solves is not hard, and it does not solve the problem well.
+* The Eight Fallacies of Distributed Computing: (1) The network is reliable, (2) Latency is zero, (3) Bandwidth is infinite, (4) The network is secure, (5) Topology doesn’t change, (6) There is one administrator, (7) Transport cost is zero, and (8) The network is homogeneous.
+* Unix is simple. It just takes a genius to understand its simplicity.
+* First, solve the problem. Then, write the code.
+* Compatibility means deliberately repeating other people’s mistakes.
+* Use foresight and pessimism to avoid getting into situations where you need to demonstrate exceptional programming ability.
+* Hofstadter’s Law: It always takes longer than you expect, even when you take into account Hofstadter’s Law.
+* My definition of an expert in any field is a person who knows enough about what’s really going on to be scared.
+* Every language has an optimization operator. In C++ that operator is ‘/<<ref "1">>/’
+* Theory is when you know something, but it doesn’t work. Practice is when something works, but you don’t know why. Programmers combine theory and practice: Nothing works and they don’t know why.
+* Hiring more bad programmers just increases our perceived need for them.
+* Program testing can be a very effective way to show the presence of bugs, but is hopelessly inadequate for showing their absence.
+* Parkinson's Law: Work expands so as to fill the time available for its completion.
+* What I cannot build, I do not understand.
+* When I am working on a problem I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong.
+* I have always found that plans are useless, but planning is indispensable.
+* A fool with a tool is a more dangerous fool.
+* The best things are simple, but finding these simple things is not simple.
+* Some problems are so complex that you have to be highly intelligent and well informed just to be undecided about them.
+* If you’re not part of the steamroller, you’re part of the road.
+* Simplicity carried to the extreme becomes elegance.
+* You’re bound to be unhappy if you optimize everything.
+* A distributed system is one in which the failure of a computer you didn’t even know existed can render your own computer unusable.
+* Fashion is something barbarous, for it produces innovation without reason and imitation without benefit.
+* Forgive him, for he believes that the customs of his tribe are the laws of nature!
+* It is a painful thing to look at your own trouble and know that you yourself and no one else has made it.
+* The best is the enemy of the good.
+* Perilous to us all are the devices of an art deeper than that which we possess ourselves.
+* True glory consists in doing what deserves to be written; in writing what deserves to be read.
+* A good way to have good ideas is by being unoriginal.
+* The trick is to fix the problem you have, rather than the problem you want.
+* Security is a state of mind.
+* Languages that try to disallow idiocy become themselves idiotic.
+* “Design patterns” are concepts used by people who can’t learn by any method except memorization, so in place of actual programming ability, they memorize “patterns” and throw each one in sequence at a problem until it works.
+* Don’t ever make the mistake that you can design something better than what you get from ruthless massively parallel trial-and-error with a feedback cycle. That’s giving your intelligence far too much credit.
+* Debugging is like being the detective in a crime movie where you are also the murderer.
+* A good programmer is someone who looks both ways before crossing a one-way street.
+* Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the Universe trying to produce bigger and better idiots. So far, the Universe is winning.
+* C is memory with syntactic sugar
+* Premature optimization is the root of all evil
+* If you don't make mistakes, you're not working on hard enough problems. And that's a big mistake.
+* Optimization hinders evolution
+* Choose the right data structures, and the code will write itself.
+* To iterate is human, to recurse divine.
+* Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.
+* There are two ways of constructing a software design. One way is to make it so simple that there are obviously no deficiencies. And the other way is to make it so complicated that there are no obvious deficiencies.
+* Nine people can’t make a baby in a month.
+* Linux is only free if your time has no value.
+* Software sucks because users demand it to.
+* Programs must be written for people to read, and only incidentally for machines to execute.
+* Any code of your own that you haven't looked at for six or more months might as well have been written by someone else.
+* Walking on water and developing software from a specification are easy if both are frozen.
+* Pick 2: {Done On Time, Done On Budget, Done Properly}
+* Some people, when confronted with a problem, think "I know, I'll use regular expressions." Now they have two problems.
+* In theory, there is no difference between theory and practice. But, in practice, there is.
+* The difference between theory and practice is smaller in theory than in practice.
+* If a theory doesn't translate to practice, then the theory is simply incomplete.
+* You can use an eraser on the drafting table or a sledgehammer on the construction site.
+* If debugging is the process of removing software bugs, then programming must be the process of putting them in.
+* The fool wonders, the wise man asks.
+* Any fool can use a computer.  Many do.
+* There are only two industries that refer to their customers as ‘users’.
+* A computer lets you make more mistakes faster than any invention in human history.
+* Dance like nobody is watching, code like everybody is.
+* Sometimes you have to cut legacy support to allow the new product to bloom.
+* Testing is easier than debugging.
+* Without a prototype, don't build a final product.
+* Never optimize before measuring
+* Refactor or rewrite, there is no patching unmaintainable legacy code
+
+
+---
+<<footnotes "1" "Ironically, I cannot write the comment operator in Tiddlywiki markup code, and I'm not going to figure out how right now.">>

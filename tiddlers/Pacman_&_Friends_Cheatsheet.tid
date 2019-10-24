@@ -1,0 +1,9 @@
+created: 20180803233812808
+creator: h0p3
+modified: 20180804232714449
+modifier: h0p3
+title: Pacman & Friends Cheatsheet
+
+`sudo pacman -Rnsu foobar` # uninstall foobar package
+
+`yaourt -Ss foobar` # search for packages with foobar in their name

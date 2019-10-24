@@ -1,0 +1,41 @@
+created: 20190209014040647
+modified: 20190209170326704
+tags: [[Wiki: Scripts]] Verify Python
+title: embedded-wiki-hash-sign.py
+
+```python
+#!/usr/bin/python
+
+#Imports
+import nacl.encoding
+import nacl.signing
+import nacl.hash
+import binascii
+import re
+
+#Variables, because regex hates me :D
+resub1 = "【ツ】"+"▄▀▄▀▄▀▄▀▄▀[^▄▀【ツ】]+▀▄▀▄▀▄▀▄▀▄"+"【ツ】"
+resub2 = "【ツ】"+"▄▀▄▀▄▀▄▀▄▀\n▀▄▀▄▀▄▀▄▀▄"+"【ツ】"
+
+#Remove the current hash and signature
+with open('/home/h0p3/Downloads/Wiki/index.html', 'r') as inp:
+    inpvar = inp.read().strip()
+with open('/home/h0p3/Downloads/Wiki/index.html', 'w') as out:
+    out.write(re.sub(resub1,"【ツ】"+"▄▀▄▀▄▀▄▀▄▀\n▀▄▀▄▀▄▀▄▀▄"+"【ツ】",inpvar))
+
+#Set up signing key
+signing_key_hex = ""
+signing_key = nacl.signing.SigningKey(signing_key_hex, encoder=nacl.encoding.HexEncoder)
+
+#Set up hash
+with open('/home/h0p3/Downloads/Wiki/index.html', 'r') as index_file:
+    data = index_file.read().encode()
+checksum = nacl.hash.sha256(data, encoder=nacl.encoding.HexEncoder)
+signed = signing_key.sign(checksum)
+
+#Stick the hash and signature in
+with open('/home/h0p3/Downloads/Wiki/index.html', 'r') as inp:
+    inpvar = inp.read().strip()
+with open('/home/h0p3/Downloads/Wiki/index.html', 'w') as out:
+    out.write(re.sub(resub2,"【ツ】"+"▄▀▄▀▄▀▄▀▄▀\n"+checksum.decode()+"\n"+binascii.hexlify(signed).decode()+"\n▀▄▀▄▀▄▀▄▀▄"+"【ツ】",inpvar))
+```

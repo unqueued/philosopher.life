@@ -1,0 +1,19 @@
+created: 20190426161832236
+modified: 20190426171555492
+tags: $:/tags/AdvancedSearch/FilterButton j3d1h Mod
+title: Filter search open all
+
+<$reveal state="$:/temp/advancedsearch" type="nomatch" text="">
+<$button class="tc-btn-invisible">
+<$wikify name=filtera text="""{{$:/temp/advancedsearch}}""">
+<$wikify name=filterb text="""<<filtera>> +[!sort[title]]""">
+<$list filter=<<filterb>> >
+<$wikify name=title text="""<$view field="title"/>""">
+<$action-navigate $to=<<title>>/>
+</$wikify>
+</$list>
+</$wikify>
+</$wikify>
+{{$:/core/images/new-button}}
+</$button>
+</$reveal>

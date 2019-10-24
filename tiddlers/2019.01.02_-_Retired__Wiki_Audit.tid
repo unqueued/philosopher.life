@@ -1,0 +1,112 @@
+created: 20190102165126979
+modified: 20190102200201423
+tags: Retired [[Wiki Audit]]
+title: 2019.01.02 - Retired: Wiki Audit
+
+!! About:
+
+//In empathizing with your persistent [[4DID]], you must diligently, fearlessly, and kindly-mercilessly re-envision, revise, edit, and debug yourself and your work. Love yourself by holding yourself accountable to yourself because you're worth it. Whatever it may paradoxically mean to say it: be the philosopher king of your agent-city in your self-analyses and syntheses. Think about how the sausage is made, sir.//
+
+<<<
+[Only kings, presidents, editors, and people with tapeworms have the right to use the editorial 'we'.]
+
+-- George H. Derby & Roscoe Conkling
+<<<
+
+<<<
+Do not just slay your demons; dissect them and find what they've been feeding on.
+
+-- Andres Fernandez, //Simple Twist of Fate: The Man Frozen in Time//
+<<<
+
+This log is a function of my [[Program Yourself]] and [[Deconstruction Obligates Reconstruction]] axioms. I'm here to take a retrospective existential inventory with a qualitative changelog, create rolling-release forward-thinking accountability feedback loops, and radically reshape myself with knowledge of myself. Here I capture my habits of existential maintenance, incremental macroscopic wiki restructuring, and employing my [[SO]] Frankfurtian volition. As always, I aim to explicitly exercise my autonomy.
+
+You might be tempted to think of this as just another [[Wiki Review]].<<ref "w">> In Wiki Review, I tend to give my visceral reactions to my writing only a day later. This is useful because it extends my short-term memory, keeps me thinking about the problem, helps me see my train of thought over a period of time, and it's also a part of the feedback loop mechanisms of the wiki. The Wiki Review is potent, however, it has severe limitations. This Audit is meant to have the long-term macroscopic powers the Review lacks.
+
+My Review only results in minor revisions and edits (beyond imperfectly, to say the least) because it's hard to improve work you just created. You can't effectively dissociate just a day later, and hence it will only be the initial sweep in my [[Self-Dialectic]]. When you walk away from your work and come back to it months later, when you stand back and see what you've created from a more objective point of view, where it isn't so painful to think about it differently or alter it, you can truly recreate it. That's what this Audit is all about.
+
+Progress is the result of oscillating between brutally honest disintegration ([[redpills]]) and hard-won reintegration ([[diamonds]]). Part of our plight as humans is recognizing that permanent unification isn't pragmatic and, in a way, lacks integrity itself. The real work never ends; the story goes on. We must always wrestle with ourselves. Never give up! Wrestle gently when you can, and painfully when you must, all for the sake of learning to be a [[Eudaimonic Lifehacker]]. 
+
+Erasers are pencils wielded by someone else. Writers revise stories as unsatisfied readers. This is part of the paradox of the [[Self-Dialectic]]. We must become someone else to edit ourselves. Indeed, one of the most useful tactics for revision, editing, and debugging boils down to pretending someone else wrote it in order to see it with fresh critical eyes. Only then, when you distance yourself from yourself and your work, when you dissociate, can you shred and kill-off your work and those parts of yourself. 
+
+Digesting myself is already hard work. Self-surgery, however, is uniquely painful, PTSD inducing even. We must pass the Gom Jabbar test. Perhaps suffering is necessarily part of what gives our human stories meaning. Even so, suffer no more than is necessary. //Kindly// dominate yourself again and again; make it your existential habit.
+
+As the illustrious [[/b/]] has long pointed out, you must take risks in order to evolve, thus: shrewdly virtue signal to yourself, prove your progress to yourself, and continually demonstrate how your pain was worth it. Constantly zooming in and out of the forest to work on patches of trees requires metanarrative<<ref "1">> strategies and delayed gratification. Cleaning your house is easier when you incrementally clean day by day; avoid the crisis of letting your house erode, devolve, breakdown, and pile up into mere heaps and shambles. Do not be scared, and do not procrastinate. Get your existential hands dirty each day.
+
+[[h0p3]], you have to be okay with imperfection even while striving for the practically ideal. Learn from your mistakes. Dive in, please.<<ref "2">>
+
+
+---
+!! Principles:
+
+* Efficiently crawl your wiki and triage your remodeling.
+* Depth search by [[Root]], in order from //All// from //More// Tab, or some similar alternative.
+** Brute force all tiddlers
+** Do an audit of all the snapshots?
+* Take a [[Retired:]] snapshot of every major directory on New Year's Eve.
+
+
+---
+!! Focus:
+
+```
+<$set name="mydate" value=<<now YYYY.0MM.>>>
+<<list-links "[tag[Wiki Audit]prefix<mydate>]">>
+</$set>
+```
+
+* [[Filters]]
+* [[Tagging Theory]]
+* [[Wiki: TDL]]
+* [[Wiki Audit: Purged]]
+* [[Tags]]
+* [[Wiki Mechanic]]
+* [[The Remodeling]]
+* [[Monthly Auditable]]
+* [[Log Audit]]
+* [[wikiaudit.py]]
+* [[Wiki Audit: Yearly Checklist]]
+* [[Wiki: Rube-Goldberg Machine]]
+
+
+---
+!! Vault:
+
+* Audits:
+** [[2017.10 - Yearly Audit Log]]
+** [[2017.11 - Wiki Audit Log]]
+** [[2017.12 - Wiki Audit Log]]
+** [[2018.01 - Wiki Audit Log]]
+** [[2018.01-05 - Wiki Audit Log]]
+** [[2018.06 - Wiki Audit]]
+** [[2018.07 - Wiki Audit]]
+** [[2018.08 - Wiki Audit]]
+** [[2018.09 - Wiki Audit]]
+** [[2018.10 - Wiki Audit]]
+** [[2018.11 - Wiki Audit]]
+** [[2018.12 - Wiki Audit]]
+
+* Retired:
+** [[2017.11.25 - Retired: Yearly Audit Log]]
+** [[2018.06.19 - Retired: Wiki Audit Log]]
+
+
+---
+!! Dreams:
+
+* [[Wiki Audit: Rainy Day Fixin]]
+* [[Wiki: Hardcoded Linking]]
+* [[TWederation]]
+* [[Search of h0p3]]
+* [[Wiki Audit: The Button Project]]
+* Actually work on {[[Vault|The Vault of h0p3]]} and {[[Dreams|Dreams of h0p3]]}. 
+* [[Program Yourself]] needs to be more closely tied to this log.
+* A tool which highlights linkable words or phases in the body of a tiddler, click-activated for formatting as link.
+
+
+---
+<<footnotes "w" "Unfortunately, I'm still not able to perfectly peel them apart.">>
+
+<<footnotes "1" "Everything above the [[SO]] seems to collapse into the [[SO]]. Thus, it appears there are only two orders in the dialectic, two fighters (even if it seems there are many more); the [[FO]] and the [[SO]]. The sublator is that which provides the hierarchical integration between the two orders though, which is either reducible to [[SO]] or metalogic itself.">>
+
+<<footnotes "2" "I can hear myself speaking to my children as I speak to myself here.">>

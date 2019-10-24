@@ -1,0 +1,20 @@
+created: 20190601173329288
+modified: 20190601173900068
+tags: [[Wiki Audit]] [[RGM Notes]] [[Computer Musings]]
+title: 2019.06.01 - Wiki Audit: Savetrail
+
+Seems Bob failed silently again. Looked perfectly fine on my screen on [[monster-10]]! As usual, savetrail saves the day again. 
+
+---
+
+[[Monthly Auditables]] didn't work perfectly this time, but it is adjustable. It's nice to glance through what is being hardcoded out of it before committing to writing.
+
+[[Wiki Audit]] hasn't been getting used. Time to own up and put it on the shelf as far as auditables go. That is okay. Also, [[Afterschool Teaching]] will be coming down as well. Let's see if it comes back or what replaces it!
+
+---
+
+Resilio Sync doesn't like how Bob deletes files, but we can do it manually just fine. That ended up being part of the fix.
+
+---
+
+Our git script failed as well, but it runs fine manually. I am confused.

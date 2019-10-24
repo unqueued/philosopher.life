@@ -1,0 +1,138 @@
+created: 20180108202124440
+modified: 20190107051858260
+revision: 0
+tags: Outopos
+title: 2018.01.08 - Outopos: Trust
+
+//Decentrust Model//
+
+This is the socialist principle at work in computational ethics, the golden rule applied.
+
+Force people to participate in and give to the network. Incentivize intelligent trust-building behavior by building a network designed for it.
+
+We need to by default play based upon the assumption that we aren't playing a zero-sum game. It obviously doesn't have to be. To make room for "miscommunication" we will enable some copykitten (higher trust thresholds, obviously) behavior. We can also attempt to build consensus and sharing trust as a (freely given) commodity of information based on the trust networks we've built.
+
+Trust is earned by literally exchanging tit-for-tat style. For example, I'm willing to pass up to 1 MB for you insofar as you are willing to pass 1MB for me, with some extra mercy for mistakes and generosity to encourage growth. In fact, I so much want to build social capital in you (and virtue signal to anyone who will listen), even if I don't need anything from you right now, that I will continue doing you digital favors to some extent. Essentially, it's possible to break down units of trust so tiny that I can easily afford to tit-for-tat in trusting you more and more. You might screw me in the end, but I can offset it to some degree by making it cost you something to earn that trust in the first place. Essentially, increasing my trust can have its risks significantly mitigated, particularly when not everyone is an asshole. Continually building trust at higher rates is worth it. We want to see explosions of trust that happen to capable of mitigating just the systematic disasters. This is the risk-adjusted application and moral exploitation of altruistic behavior, golden-rule following, and empathy in networking.
+
+We will build trustShards, networks of people who have built up trust with each other. trustShards can grow to any size, and as long as at least one node is a member of two trustShards, it can act as a router between them. This is virtual mesh networking in a brutal world. 
+
+Importantly, I want the unit of trust to scale up to the history of trust I've built with you. I also want measurements, damnit. I want to measure different kinds and degrees of trust. I want to build trust molecules from atoms. We should have an evolving list of testable trust-attributes and metadata. I want generically extensible data structures and algorithms because this network one day might be built on computationally-interpreted trust signals and decisions. We want it to be highly extensible. Imagine making controls and data designed for deep learning; what would you choose? 
+
+What trust-signals will we be capturing about the other players on the network?
+
+* Trust Tests
+** Are you using me or those I trust to spam others by proxy?
+*** They might be able to tell me you spammed.
+** Are you actually giving me or those I trust information you claimed to (me or those I trust you) possess?
+*** When you say you have something, but don't give it, then I remember it and also tell those I trust about it too. 
+** Are you actually giving information to others when you claim you have?
+
+* Generosity Matching
+** Average throughput you provide
+*** 2-to-1 matching. I will aim for an average that is twice yours. You can always increase your average throughput and I'll increase mine insofar as I can. In rapid tit-for-tat scaling up like this, we eventually saturate someone's connection. You can always be a leech that pays the minimum 50%, but you can never take me for everything I'm worth. Crucially insofar as you are resource-poor and can't continue to tit-for-tat, I'm not going to punish you; this is more than fair.
+** Total Bandwidth you provide
+*** 10-to-1 matching. Throughput is very expensive, and that is why we must punish stinginess by being more stingy ourselves. Bandwidth, however, is almost free. This is a safer risk. You still have to give me a signal that you would do the same for me, but I'm not going to be so vigilant about it. When they get to that ratio, then you either route real traffic through them or you manufacture traffic just to test them. Perhaps it sounds weird to manufacture traffic, but trust is really fundamental to what this network is. 
+* Total Storage you provide
+** 1-to-1 matching. Storage is quite expensive. We should always expect someone to store something for us if we are storing anything for them. They make the offer, and we can freely reject or accept it.
+* Computation on my behalf.
+** Rust-VM or WASM-VM; needs to be stupid tight.
+** 1-to-1 matching. Computation is easily the most expensive of the bunch. We should always expect something in return. They make the offer, and we can freely reject or accept it.
+
+//Note, perhaps these matching ratios can be adjusted the more trust we've established. This isn't set in stone. Honestly, someone on a cable modem with bad upload speed should eventually be able to earn enough good will that they still max out their DL speed.//
+
+You can tit-for-tat these, test them, etc. Some of these are about whether or not they do what they say they do, and some of these are about making sure they aren't too stingy. Someone who is stingy with their resources should receive the same treatment back (and, unfortunately, we must punish people with low-end resources, capping what we give them because we can't know either way if they are lying). Detecting lies is important. We should have a sanity check to make sure anyone who says they have something for us but doesn't send it to us is banned. That's easy. We also need to make sure people aren't lying. We have to weed out bad actors from our tunnels. We can leverage our own trustShards to run diagnostics in testing trustworthiness. 
+
+Say I'm (X) and you're (Y), the primary testee. I'll create an anonymized trustTestLoop through a random set of nodes from my trustShard (P), (Q), (R), (A), (B), and (C). 
+
+`(X) -> (P) -> (Q) -> (R) -> (Y) -> (A) -> (B) -> (C) -> (X)`
+
+None of you know what you are handling, since I'm the last layer of the onion. I have good reasons to believe that my trustShard is trustworthy, and so this mostly just a test for you. Let's say you are trust-worthy, then I have even more reasons not to doubt my own trustShard and you gain some trust with me. I can see that you are a good faith proxy. It's very hard to collude here as well. However, it is possible that the trustTestLoop won't complete. If it doesn't complete because someone in the chain went offline, then the people before you, you, or the nodes after you will snake back with a connection failure. I can then test the connection failure. If it were not a connection failure, then I should then run anonymized diagnostics (using completely different members of my trustShard) on the entire chain to draw more accurate conclusions.
+
+We should also be selfish. I can't keep everyone in my trust shard, but I want to randomly seek out people with resources like mine, who share like I do, and who are as trustworthy as I am. I want trust and generosity to clump together. I literally want the best throughput I can get. This will naturally federate. Good faith, high-resource actors will clump together. The goal is to get the best performance you can. 
+
+Metrics of Preference:
+
+* Latency
+* Uptime
+* Length of time we've trusted each other
+
+The trust tests narrow down who we are willing to play with (bans), generosity matching helps us narrow down the playing field to who we want to play with (raw performance) and the metrics of preference can highlight exactly who we are going to play with (obvious tradeoffs for anonymity here, but it is probably worth paying for most people).
+
+I think that trade might be a reasonable possibility. Perhaps I want more throughput because my DL speed is 100mbit, but my upload is only 10mbit. With only 10mbit, I'm in a bad position to make use of my download speed.  I'm willing to sacrifice my drive space and computation for your throughput. 
+
+Perhaps we should make use of absoluteTrust as well. If I'm connecting to my proxy server which is quite fast, I want to leverage it's trust, not mine from podunk nowhere. Hence, I want my proxy server to recognize prefer my traffic, to be my slave, and to always trust what I'm doing. I'm not just part of its trustShard. It trusts me absolutely. There are no limits or caps on what I can ask of it.
+
+
+!! Trust Tests
+
+If you burn me, I'll give you the benefit of the doubt once more before giving you a scaling ban. We all need room for error, but we also need to punish those who don't play fair when we have amassed sufficient evidence for it. If you fail a trustTest, then I give you one more chance before a ban. The more social capital we've built in each other, the more chances I'm going to give you too. For a node I've never met it goes like this:
+
+* Two trustTest failures in the same hour period results in a 1-hour ban.
+* Two 1-hour bans in the same day period results in a 1-day ban.
+* Two 1-day bans in a the same month period results in a 1-month ban.
+* Two 1-month bans in the same year period results in a 1-year ban.
+
+Forgiveness exists even for randos, but punishment scales up.
+
+However, this might be a too harsh for nodes we've otherwise had a stable relationship with. Let us say that for each day you've not failed one of my trustTests I give you one unit of surplusTrust, which means I will give you an additional trustTest before banning you. For every trustTests you fail, I remove one from your surplusTrust. If you pass my tests for a week, then you have 2 natural + 7 surplus trustTests. If you fail a test, then you spend one of your surplus. Essentially, after each day of being clean, I give you a free trustTest failure to spend without any consequence at some point in the future. 
+
+
+!! Sharing Trust
+
+Can I leverage the trust databases other people I trust have created?
+
+
+
+
+!! Ranged Voting
+
+If I have a trust score for someone, that is my vote for them. Thus, when I am polled on how much I trust them, I'm in a sense, voting for them. Elections are only held amongst those in my trustShard. I poll them for a trust score on someone and generate my trustShard's score for them. This is a great place to start with someone. I can bootstrap people very quickly into my trustShard when I have more evidence to think they will fit in. 
+
+Imagine I keep an 1-byte trust-score for everyone IP or Key I've ever contacted. Imagine we all sharded distributed database of each of our trust-scores in each other. If a group of us share a friend in common, we know what we each think of our friend. We compare notes. The more I trust you, the more weight your opinion has in determining what I take to be the group's trust in our friend. Hrmm...if I have 1,000 large trust shard, that 1k-bytes of data for a single node. That's too much. This can't scale high enough. Imagine if you wanted to have 1 million in your trust shard. That's 1mb. Meh, that is totally doable now that I think of it. 
+
+Perhaps this gives me thresholds for knowing how I can recommend to my friends and who I can't. I want to be rewarded for good recommendations. 
+
+Should I let some random scrape me for my trustShard metadata? I think it should be somewhat resistant to scraping. Let's start small and build our way up. Or we go balls out...Or we only make this something done on an individual basis. 
+
+Eh, I think I should largely stick to gathering data only from friends. I could perhaps chain my way to someone, but that seems excessive. The goal is to always be hunting for better friends for my trustShard. I should randomly be testing a different random person around the world each hour. The goal is make it so that I quickly bootstrap find The Others. When we've established a relationship, I can ask them for recommendations. They can recommend me to the best on their list + a random? I don't know.
+
+One of my worries is that top servers are just going to be constantly tested all day. But, in a way, that needs to happen.
+
+
+
+---
+
+
+
+People can sell the trust on their keys? Maybe. What if I could transfer the trust I earned? I farmed trust and sold it to those who needed some. Why not create a currency? Boom, now I can either earn my trust on the network, or I can pay for it with currency. This is how I get paid. Proof-of-Stake is the way to go, or I centrally control it period. Ugh. No. If trust can be transfered from keys, then sybil really owns us. It's the "starter" item problem in gaming (they need to be worth 1 gold for a reason). Thus, people will need to directly sell their keys. They will have to earn the reputation. Currency, thus is not useful here. Hrm....Not unless I'm getting paid for it. I can guarantee no sybil attack is occurring, get paid, and enable the transfer. Nobody can sybil attack feasibly when it costs too much to do it. This must be understood. I can scrape the entire network with the network itself. 
+
+The masterKey will always have access to throughput/bandwidth, storage, and computation. I need to build a distributed computer. Let us take a tithe of 10%. For the total throughput you share, I get 10% of it, and the same for bandwidth, storage, and computation. People who are wealthy in trust must also be contributing the most to the network. They have the most to gain and lose, and the "fair share" must scale up. 10% of resources can be devoted to search, tracking, hosting, and whatever else the network needs. 
+
+a secretFailSafeMasterKey might need to exist.
+
+
+# Build physical network (even if it is virtualized over the internet)
+## Trust building here
+# Build a virtual network inside
+## Anonymous networks
+
+ I keep an account tab for each userPublicKey I've actually exchanged information with. I know how much trust I've built in you, and I know how much you've built in me. If you fuck me over, but I'll ban you. Sure, you can continue your behavior with others, but eventually they will ban you too. Ultimately, this will push cheaters onto a prisoner's island on the network. In a sense, we build hard-coded reputation with individuals we've interacted with on the network. 
+
+When two nodes disagree, I take the trusted consensus. Perhaps trusted nodes share their information as best as they can. They form a shard of trust. 
+
+Two trust tallies:
+
+* KeyID
+* IPID
+
+This is a kind of sharded distributed trust ledger. A blockchain devoted to literally building trust. 
+
+I can be perma-trusted. My key can override the network when necessary. I am an oracle. Can I create lower oracles, nodes that I have excellent reasons to trust serve as my federation of oracles? Imagine I wanted to poll the network rapidly with maximum signal-to-noise ratio, I want oracles, badly. These are i2p floodfill routers, they are xmpp servers, they are tor nodes, etc. We need to shard the network. 
+
+Can we synergize, cultivate, and enable larger trust-structures to emerge once we have atomic building blocks of trust? Perhaps. Imagine
+
+I want a master-key notion. I want to be able to have lots of keys that build-up trust for my master-key. Perhaps I want to contribute heavily to the network. Furthermore, perhaps I want to run my own shard cluster. 
+
+Automatically 3 length tunnels in and out. Lowest latency preferred. 
+
+It would be useful to just keep a list of every IP:key we've connected to. No IP may have more than 5 entries for us, and new ones replace the oldest. This could be represented in a very tiny imprint on our hard drive. 100bytes could basically cover the information we needed, I believe.

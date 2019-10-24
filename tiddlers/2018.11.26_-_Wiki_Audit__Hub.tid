@@ -1,0 +1,16 @@
+created: 20181126172545653
+creator: h0p3
+modified: 20181127061333229
+modifier: h0p3
+tags: [[Wiki Audit]]
+title: 2018.11.26 - Wiki Audit: Hub
+
+[[Recent Obsessions]] is a thing, and I decided [[PH]] deserves to be there too. I think the mechanic I want to have for hardcoding probably needs to be a modification of the core of Tiddlywiki. I think I need to explain to the gurus a solid case example and why this solves it. It's got a channel-lock thing going on.
+
+---
+
+I'm letting go of the curly brackets in title.Titles. When I wasn't relying heavily upon JS in this tool, it was fine. Now, I am concerned it will be a gremlin monkeywrench stealthily making my life harder. The risk isn't worth it at this point.
+
+---
+
+I worked my way to 2017.07.07. It's become relaxing at this point!

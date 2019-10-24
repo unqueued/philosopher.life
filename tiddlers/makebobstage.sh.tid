@@ -1,0 +1,26 @@
+created: 20181214163302350
+modified: 20181214185749717
+tags: [[Wiki: Scripts]] bash
+title: makebobstage.sh
+
+```bash
+#!/bin/bash
+
+rsync -acr --delete --force /home/h0p3/syncs/bob/* /home/h0p3/stage/bobstage/stage/
+echo '{
+  "scripts": {
+    "NewWiki": "tiddlywiki #wikiName --init #editionName"
+  },
+  "wikis": {
+  },
+  "ws-server": {
+    "port": 8090,
+    "host": "0.0.0.0",
+    "autoIncrementPort": false
+  },
+  "heartbeat": {
+    "interval": 1000
+  }
+}' > /home/h0p3/stage/bobstage/stage/Wikis/settings/settings.json
+node /home/h0p3/stage/bobstage/stage/tiddlywiki.js /home/h0p3/stage/bobstage/stage/Wikis --wsserver
+```

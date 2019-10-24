@@ -1,0 +1,62 @@
+buttonone: asdf
+created: 20191014165201034
+modified: 20191021161345125
+tags: j3d1h
+title: workspace buttons
+
+\define quoteTitle() <<topLink>>
+\define switchWS1()
+<$wikify name="CWS" text="$:/workspace/{{$:/workspace/currentWorkspace}}">
+<$set name="topLink" filter="[list[$:/workspace/WS1]first[]]">
+<$wikify name="top" text=<<topLink>> >
+<$action-setfield $tiddler=<<CWS>> $field="list" $value={{$:/StoryList!!list}} />
+<$action-setfield $tiddler="$:/StoryList" $field="list" $value={{$:/workspace/WS1!!list}} />
+<$action-setfield $tiddler="$:/workspace/currentWorkspace" $field="text" $value="WS1" />
+<$action-navigate $to=<<top>> $scroll="yes" />
+</$wikify>
+</$set>
+</$wikify>
+\end
+\define switchWS2()
+<$wikify name="CWS" text="$:/workspace/{{$:/workspace/currentWorkspace}}">
+<$set name="topLink" filter="[list[$:/workspace/WS2]first[]]">
+<$wikify name="top" text=<<topLink>> >
+<$action-setfield $tiddler=<<CWS>> $field="list" $value={{$:/StoryList!!list}} />
+<$action-setfield $tiddler="$:/StoryList" $field="list" $value={{$:/workspace/WS2!!list}} />
+<$action-setfield $tiddler="$:/workspace/currentWorkspace" $field="text" $value="WS2" />
+<$action-navigate $to=<<top>> $scroll="yes" />
+</$wikify>
+</$set>
+</$wikify>
+\end
+\define switchWS3()
+<$wikify name="CWS" text="$:/workspace/{{$:/workspace/currentWorkspace}}">
+<$set name="topLink" filter="[list[$:/workspace/WS3]first[]]">
+<$wikify name="top" text=<<topLink>> >
+<$action-setfield $tiddler=<<CWS>> $field="list" $value={{$:/StoryList!!list}} />
+<$action-setfield $tiddler="$:/StoryList" $field="list" $value={{$:/workspace/WS3!!list}} />
+<$action-setfield $tiddler="$:/workspace/currentWorkspace" $field="text" $value="WS3" />
+<$action-navigate $to=<<top>> $scroll="yes" />
+</$wikify>
+</$set>
+</$wikify>
+\end
+\define switchWS4()
+<$wikify name="CWS" text="$:/workspace/{{$:/workspace/currentWorkspace}}">
+<$set name="topLink" filter="[list[$:/workspace/WS4]first[]]">
+<$wikify name="top" text=<<topLink>> >
+<$action-setfield $tiddler=<<CWS>> $field="list" $value={{$:/StoryList!!list}} />
+<$action-setfield $tiddler="$:/StoryList" $field="list" $value={{$:/workspace/WS4!!list}} />
+<$action-setfield $tiddler="$:/workspace/currentWorkspace" $field="text" $value="WS4" />
+<$action-navigate $to=<<top>> $scroll="yes" />
+</$wikify>
+</$set>
+</$wikify>
+\end
+<$button actions=<<switchWS1>>>Load<br>WS1</$button> <$edit-text tiddler="workspace button data" field="ws1" class="tc-edit-texteditor"/>
+
+<$button actions=<<switchWS2>>>Load<br>WS2</$button> <$edit-text tiddler="workspace button data" field="ws2" class="tc-edit-texteditor"/>
+
+<$button actions=<<switchWS3>>>Load<br>WS3</$button> <$edit-text tiddler="workspace button data" field="ws3" class="tc-edit-texteditor"/>
+
+<$button actions=<<switchWS4>>>Load<br>WS4</$button> <$edit-text tiddler="workspace button data" field="ws4" class="tc-edit-texteditor"/>

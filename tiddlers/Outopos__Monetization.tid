@@ -1,0 +1,70 @@
+created: 20180227014331876
+modified: 20180227162041673
+title: Outopos: Monetization
+
+//I'm brainstorming here. Better to have it be free and untainted than have it fail to come into being.//
+
+Outopos isn't for profit, but it needs money to actually grow.
+
+The developers should get paid to work on Outopos, but it should be voluntary, never inhibit the network, never prevent it from being open source, never enable censorship, and never enable the centralization of control. This is a place to list methods to monetize development.
+
+One of our problems in the network is finding a way to make sense of the variegated real-money values in storage space, storage speed, RAM, CPU, GPU, throughput, bandwidth (and whatever other resources there may be). We need a conversion tool, and a currency is the best method for balancing these values. Monetization is necessary for this as well.
+
+
+!! Outokens
+
+Welcome to charitable botnet monetary policy!
+
+Let us assume the Outopos Agency can uniquely generate cryptographic tokens to give to other users. Transactions are instant, creation is controlled by the Agency's master key, but Outokens cannot be destroyed. Perhaps the Outoken ledger can be distributed as a mandatory sharded ledger (how do you prove someone is holding the ledger, or how do you incentivize it?). Users can exchange Outokens as a kind of currency inside the Outopos network. 
+
+Meh. How about this:
+
+Donations of computational resources are tokenized. The Outopos Agency offers Outokens that can be spent on computational resources by proxying through the Outopos Agency network. 
+
+
+!! Donations
+
+* You can donate money directly to a non-profit foundation.
+* You can donate/pledge computational resources directly to the official dev-group's master key. 
+** Opt-in request of up to 5% cap.
+* You can donate Outokens back to the official dev-group's master key.
+
+
+!! Lotteries
+
+Unsavory as it might appear, I'm not conceptually against gambling, particularly if it does not play off immediate gratification skinnerbox rewards. Gambling which is not exploitative is a rational form of entertainment. Lines must be drawn and never crossed, but it can be done.<<ref "mg">>
+
+* You pay computational resources or Outokens to the official lottery mastery key.
+** If you win, you receive a bunch of computational resources or Outokens.
+
+
+!! Sell Outokens
+
+Directly monetize the computational donations of others.
+
+
+
+!! Outoken Mixer
+
+The Outopos Agency will mix tokens for you. Anonymizing them if you trust the agency.
+
+
+!! Outoken Exchange
+
+Perhaps an outoken has to buy particular kinds of services or other kinds of tokens. It's just a currency. It should be able to trade into anything. Running an exchange makes it easy.
+
+
+
+!! Bounties
+
+Contributors who build something the Outopos Agency needs can be rewarded in cash or Outoken bounties!
+
+
+
+!! Why should you not like this?
+
+* Is this a pyramid scheme?
+
+
+---
+<<footnotes "1" "I will remind you that even in skill based games like 'Magic the Gathering', it can be computationally demonstrated to be a form of gambling in current official tournament structures for the vast, vast majority of players.">>

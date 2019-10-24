@@ -1,0 +1,10 @@
+created: 20170630153157897
+modified: 20170630153235449
+revision: 0
+title: Unformat Text Without Code Block on Tiddlywiki
+
+```
+"""
+Text to be unformatted goes here.
+"""
+```

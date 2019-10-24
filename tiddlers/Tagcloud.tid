@@ -1,0 +1,22 @@
+created: 20190703023859481
+modified: 20190703024818466
+tags: 
+title: Tagcloud
+
+\define link(showcount: none) <span style="display: inline-block">@@font-size: calc(0.6em + $(count)$px / 20); <$link><$text text=<<title>> /></$link>@@</span>
+
+<$edit-text tag=input type=range tiddler="$:/temp/cloud/range"/> {{$:/temp/cloud/range}} &nbsp;
+
+@@text-align: center;
+<$list filter="[tags[]!is[system]]">
+<$list filter="[all[current]tagging[]rest{$:/temp/cloud/range}first[]]" variable=_>
+<$vars
+    title={{{ [all[current]] }}}
+    count=
+{{{ [all[current]tagging[]count[]] }}}
+>
+<$macrocall $name=link showcount={{$:/state/tag-cloud-count}} />
+</$vars>
+</$list>
+</$list>
+@@

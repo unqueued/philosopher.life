@@ -1,0 +1,42 @@
+created: 20190720204341284
+modified: 20190720204500446
+tags: kickscondor From Note
+title: 2019.07.20 - kickscondor: Prescription Sightdawgs
+
+https://www.kickscondor.com/comments/prescription-sightdawgs/
+
+> Requiring a webserver in a datacenter using a domain name I don’t own is a weakpoint I’m not going to accept. You want cohesion? Let’s not build a system on the web which isn’t meant to be owned by individuals of every stripe and status which can be so easily attacked by middleman between you and me.
+
+Yes, of course—this isn’t clear from the vid, but my prototype requires no server and runs strictly from Beaker Browser. We’re square on that, right?
+
+I understand if you have your criticisms of that—I do, too! But it’s not federated, it’s peer-to-peer. (In a BitTorrent sense.) So I’m not sure where we have a beef. I don’t want federation. Don’t put me with those people.
+
+> Yes, you know it’s in the realm of possibility for some TW users to join the indieweb. I’m gonna bet you could have it up and running in less than 60 minutes. What does it take? A VPS, domain name, nodejs, and some scripting, right?
+
+This is why I showed the gif of the jacked motorcycle man. It would be pointless bravado. I’m not as lit on the Indieweb as all that.
+
+> I have no will to build an ecosystem which I already know is dead-on-arrival for those who deserve not to be censored. If it requires DNS or a VPS/dedi/webhost, it’s already a failure. That’s 99.999999999999999999999% of the web. It’s dead to me, no matter how much I use it.
+
+I feel like you’re taking point blank headshots here because they make you feel good. I agree with you! Put the gun down already.
+
+This prototype is purely to mock up the ‘feel’ of this world that could be. I am only restyling the conduit here—not anything else. To try to look past the ‘newsfeed’ or ‘forum’ view. To me, this is an actual problem—because I see Dat and Secure Scuttlebutt trying to mimic it. It’s paltry, but it’s a piece that still has to be rethought. I guess my thinking is that if I can provide a vision for how a tool like this could work, perhaps that could spark some optimism for ‘progress’ on this front.
+
+> It’s a convenience. I don’t trust it, but I’ll take the free lunch.
+
+This is my same reasoning for using Webmentions or Beaker. It’s here; it’s partway there.
+
+Tox is cool, LF is cool. I’m just not working on that part of the pipe at the moment. I have some personal urgency—trying to stay on top of my list of ‘others’. Our (your and my) way of messaging works great. I’m not trying to alter that. I’m just trying to give myself a simple dashboard so I can see what’s going on. (By the way, your blog isn’t in my ‘real-time’ feed because Beaker is crashing on the large wiki file size. But I am close to solving that.)
+
+In our past couple messages, you have some salt for the bourgeois types that inhabit all these quarters—some of whom you seem to count as ‘others’ as well—but I am definitely mining this group and very interested in it. Perhaps I’m wrong and I’m only granting the word ‘privileged’ some kind of perjorative heft. The way I see it, the middle class can be a rich source of progression because: they have enough resources to build things and they usually have a strong desire to move out of ‘petit’ status—if this is aligned with a looking backwards to the poor—well, you seem to appreciate LF (made by ZeroTier, Inc.) and Tox (made by TokTok Ltd.)—so you must see some utility in this group, too.
+
+> I serve my website over the web because no one is going to listen to me unless I do; it’s too much of a chore to even enter a key. Their pursuit of convenience is why I have to give up way more privacy and power over my voice than I ought.
+
+Well, how can you communicate with the public if you are lost in some layers of cryptography and routing deep behind some series of anonymous hashes? Yeah, there can be a network for that—but there’s going to be a public Web that mirrors the sensibilites (or lack thereof) of the mainstream. The ‘surface’—this is where everyone is going to be.
+
+It seems to me that there’s no system that’s uncrackable—so interfacing with the mainstream is just risky. If an utterance can be read even, it can be attacked. (I might be leaking too many details of my life or character, there are chinks in the armor.)
+
+> I live in a country with concentration camps.
+
+And I will go to the camps when it’s my time. Daniil Kharms did it. For writing that a carpenter fell out of a window—no one understood it. Can a technology really save us from this?
+
+Slash hug, dawg. Always glad you even take the time to listen. When you say we ought to have ‘privacy and power’ for our voice: I don’t even deserve to talk. I do realize that.

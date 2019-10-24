@@ -1,0 +1,8 @@
+created: 20180116004458876
+modified: 20180116005309984
+revision: 0
+title: Rust: Unsafe Optimization
+
+!! str vs. [u8]
+
+Only if you are absolutely sure your input data is valid UTF-8 can you avoid checking overhead by using: `str::from_utf8_unchecked(_)`

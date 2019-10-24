@@ -1,0 +1,60 @@
+created: 20180210065252467
+modified: 20180225051936988
+title: vpncloud.rs
+
+Setup vpncloud.rs mesh:
+
+<<<
+```bash
+sudo pacman -S rustup --noconfirm
+rustup default nightly
+yaourt -S vpncloud #edit PKGBUILD
+```
+
+Where:
+
+* 10.0.0.1/24 = home.philosopher.life
+* 10.0.0.2/24 = ks.philosopher.life
+* 10.0.0.3/24 = philosopher.life
+* 10.0.0.4/24 = dimbob.philosopher.life
+* 10.0.0.5/24 = milligan
+
+Add and change the following to `/etc/vpncloud/h0p3vpn.net`:
+
+```
+peers:
+   - home.philosopher.life:3210
+   - ks.philosopher.life:3210
+   - philosopher.life:3210
+   - dimbob.philosopher.life:3210
+magic: "76706e02"
+shared_key: "foobarchangeme"
+ifup: "ifconfig $IFNAME 10.0.0.x/24 mtu 1500"
+ifdown: "ifconfig $IFNAME down"
+user: "nobody"
+group: "nobody"
+```
+
+Add the following to `/usr/lib/systemd/system/vpncloud@.service`:
+
+```
+[Unit]
+Description=VpnCloud network '%I'
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/vpncloud --config /etc/vpncloud/%i.net --daemon --log-file /var/log/vpncloud-%i.log --pid-file /run/vpncloud-%i.run
+WorkingDirectory=/etc/vpncloud
+PIDFile=/run/vpncloud-%i.run
+
+[Install]
+WantedBy=multi-user.target
+```
+
+```bash
+sudo systemctl enable vpncloud@h0p3vpn
+sudo systemctl start vpncloud@h0p3vpn
+```
+<<<

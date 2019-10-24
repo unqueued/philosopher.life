@@ -1,0 +1,11 @@
+created: 20180413222859172
+modified: 20180413224254996
+title: Outopos: CLI Centric
+
+We need patchworks of tools growing together. This is too complex to build some monolithic architecture for. Reproducibility is key. Let us not make the mistakes of our predecessors as best as we can. 
+
+We also have to look at our J-Curve/horseshoe option here. Going monolithic means a single application, and then we work on making sure all platforms can use it. The other end is to just build the platform itself from OS-up and enable other people to virtualize it. Why limit ourselves? There are certain kinds of performance and efficiency that can be accomplished through the top-down approach instead of the bottom-up that we can leverage.
+
+It seems obvious that the NixOS approach is the way to go. If targeting a hardware architecture, it is as broad as linux; if targeting an OS architecture, it's as broad as anything which can virtualize linux. That's broad enough (and will continue to broaden, in light of the death of Moore's Law). 
+
+It seems obvious that we must go back to our Unix Philosophy roots to build the next generation decentralized tool. We haven't been thinking big enough.

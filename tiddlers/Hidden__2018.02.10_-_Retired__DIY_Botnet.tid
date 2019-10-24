@@ -1,0 +1,98 @@
+created: 20170106234835712
+creator: h0p3
+modified: 20181118170259794
+modifier: h0p3
+revision: 0
+tags: Hidden
+title: Hidden: 2018.02.10 - Retired: DIY Botnet
+
+DIY has some benefits. Not a public toolchain, topology, protocol, or source. You might also just ride upon the coat-tails of highly trusted software (which makes the executable much harder to point out). Good botnets have a backup (or two). 
+
+The Zeroth problem to consider is how to build it safely (which requires understanding everything before it, and recursively applying the Zeroth problem to the Zeroth problem tokens). You'd need to build it inside a close virtual network. Take it off the ethernet, and run it competely disconnected. Make a lot of small VPSes. Learn to control them. Build tools for them. Cleanse it of identifying information, make it anonymized, and spread it like cancer.
+
+
+First problem to consider is DHT. Make it so that we are always trying to reconnect in various ways to the network. Multiple DHT access atempts are totally reasonable. Running our own DHT would be fine. The more options the better. Anonymity pushes back though. Backup plans are even harder in a way.
+
+Ask yourself constantly, for each object and relationship: what if this fails?
+
+OpenDHT, write in python for ease, C++ when performance is key.
+
+We need to nest DCNets for the backbone of the anonymous control of the botnet. Major control and updates can be done slowly if necessary. 
+
+Run your own DHT. Even the entrance needs to be run by ourselves. 
+
+Nest DHTs. Each DHT will be a DCNet. 
+
+It needs built-in self-protection mechanisms.
+
+*Anti-malware should have a hard time stopping.
+*It should be difficult to be caught (maximally)
+
+What about 10 member DCNets. Hrmm...how do we dyanmically and automatically and maximally decentrally, and securely, generate these DCNets over the DHT?
+
+Ultimately, I have a lot of respect for a methodical, random traversal of the DHT and other network anchors. Make it impossible to take out all the anchors. Make it easy for every iteration of the project to have all the anchors (get your anchors right the first time). 
+
+Self-Organizing Anonymous Network (SOAN)
+
+We want a secure, optimized SOAN for a botnet.
+
+DHT first, Footholds after, Brute-force after.
+
+Mixing IoT and a regular box botnet would be powerful. You get the sheer numbers and basic throughput you want from that many, and you still have power to do what you need.
+
+You should spread it via switchblade. 
+
+Switchblade for basic network, and build a real botnet on top of it (control the broader network from a smaller one that is handmade). 
+
+No. Switchblade is stupid. It's anonymous from the beginning or nothing.
+
+
+
+----------------------------------------
+
+Small DIY Switchblade Botnet
+
+*Free decentralization from Resilio
+**DHT access right out of the box
+**Easy network topology organization into clusters
+**Enables 3+ DCNet clusters for anonymity
+
+
+The DCnet clusters are interesting. Why not infinitely nested clusters of 3? e.g. A, B, and C each have 3 computers. ....actually, this sounds like I'm running DHT inside DHT. What does it take?
+
+3 is minimum, but more is better for reliability? What about 7? Lucky number, eh? 4 is minimum to deal with a single point of failure. 
+
+Resilio Switchblade Botnet
+
+Join multiple syncs
+
+------------------------------------------
+
+AMPRnet digitized into a LAN. BTSync over that. Max 100 is fine. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

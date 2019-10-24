@@ -1,0 +1,8 @@
+created: 20170404002516350
+modified: 20171022201929637
+revision: 0
+title: WASM Tiddlywiki
+
+WASM tiddlywiki. You could closesource that. Learn Rust. Profit. 
+
+Build a network that lives inside of browsers. If you ever need to split, you just clone Firefox and build around that. 

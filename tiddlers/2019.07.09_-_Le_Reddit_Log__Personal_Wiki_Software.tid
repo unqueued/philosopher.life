@@ -1,0 +1,24 @@
+created: 20190709185012820
+modified: 20190709185108642
+tags: [[Le Reddit Log]]
+title: 2019.07.09 - Le Reddit Log: Personal Wiki Software
+
+https://www.reddit.com/r/TheMotte/comments/cb18sy/anyone_use_a_personal_wiki_software_to_catalog/
+
+I do, though I think you've seen mine at least once.
+
+You can have any of those online without too much effort. They are all strong options. It depends on what you mean by ease of publishing. They have different properties. Why are you thinking Tiddlywiki won't be fitting for you? It's very hackable, but that might be more time consuming than you want.
+
+I suggest trying them all out. Given the amount of time you may pour into your wiki, it will be worth giving them all a test drive.
+
+<<<
+I love the idea of tiddlywiki but I need more organization for each specific page, topic, subtopic, category, etc. I need a structured format so you can quickly see the organization of a whole bunch of different ideas, and I need ease of use and traverse (not for me, for the eventual reader). It's too easy to get lost on TiddlyWiki, not know where to begin, not know the sub-categories of each topic, etc.
+
+I think with MediaWiki, I can create a main page (or pages) that can convey the organization of the ideas more efficiently. But I really wish there were something I didn't need a server for, like completely offline.
+<<<
+
+Others will find a traditional looking wiki easier to reason about at first glance, and you might as well. TW can have every bit of the structure and formatting of these others, but you have to build it.
+
+There is something to be said about not having a structure forced on your perception but instead having one organically grow. The more likely your thoughts are to be transformed and require restructuring, the more I would recommend TW. It reuses data like none other; it's a rapid thought prototyping tool par excellence. However, I agree most people experience vertigo with TW; they will tend to have far more practice with a more traditional wiki. If a comforting UI is the deciding factor, stick with MediaWiki. Note, of course, you can separate the development environment from the final product; think in one and eventually present in another.
+
+There is a difference between "no server" and "completely offline." You may still want a server when you are completely offline for multiple simultaneous access and bi-directional updates between browser and file-system. I cannot recommend owning your data highly enough.

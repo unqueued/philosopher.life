@@ -1,0 +1,64 @@
+created: 20180530162859293
+creator: h0p3
+modified: 20180531120115801
+modifier: h0p3
+title: 2018.05.30 - Letters: Nate "nomasters" Toup
+
+<<<
+Hey Nathan,
+
+I didn't realize it at the time of contacting you, but you are the author of killcord. I found your tool about 5 weeks ago. That's awesome. I think your work is truly moral, which is the highest praise I can give anything. I can see why you would get a kick out of the legal notice too, =). Thank you for the kind words about my site (and indirectly my life). I work very hard on it.
+
+To answer your question, I adore Tiddlywiki. I've tried a number of tools, and this one turned out to be dead simple for me. I think vimwiki and org-wiki are interesting too. Tiddlywiki lets me dive into an undistracted flowstate nicely. The reading and writing of it look almost identical, which is visually ergonomic for me and helps me with my memory. I've found it useful that it's contained in a single html file while still giving me the npm route of breaking the tiddlers into flat textfiles (my daughter parses it with python as well). Single files sites have some unexpectedly elegant properties to them. I realize it is not the most performant for visitors because it's ~14mb of uncompressed text. It looks nice enough (to my eyes) without too much effort on my part, which is also a plus. In any case, I find the tool to enable me to be very productive on multiple devices and OSes, with or without an internet connection (which happens to me out in the field).
+
+Hugo looks quite good. I'm a fan of the minimalist, static web from both aesthetic and functional perspectives. It looks like a tool that Go was born to build. What have you enjoyed most about it?
+
+I don't have a pointed question for you just yet. I'm hoping to understand your response to the comments here: https://news.ycombinator.com/item?id=17171665
+
+Sincerely,
+
+h0p3
+<<<
+
+<<<
+Wow. I'm again flattered that you found killcord. I've been quietly working on the next alpha and I'm pretty excited about it. I've gotten some solid feedback from the community and I'm working on abstracting out what I'm calling "providers" so you can swap out the storage and api/backend layers to fit your needs. This is part of a bigger plan to support "private disclosures" as well, so that maybe you want to setup a killcord but you want the audience to be fellow activists or loved ones, etc. 
+
+I'm also playing with the idea of support Shamir Secret Shares so that you can break up the decryption key into lets say... 5 parts where any 3 can decrypt the key. This could be really interesting if disclosures to a small group also need a verified trust component as well. 
+
+I hope that doesn't sound too abstract, but I'm very excited about whats coming with killcord.
+
+Yeah, I'm surprised I hadn't come across Tiddlywiki before. It seems like a really neat project. I appreciate the simplicity of the structure. Though it is 14MB, for sure, its still pretty neat that it makes it easy for you to translate your thoughts into bits with so little friction. super cool.
+
+With Hugo, I'm only posting about once per month. My process for writing is pretty slow and a lot of it takes place in my head while I'm on a run (a time I use for deeper thinking). I'll typically throw some ideas into a markdown file, sort of stream of consciousness and then walk away for a day or so and then come back to it a couple of times. Finally I sort out the structure I want to use and figure out what point I'm trying to make. Lots of rewriting and reflowing until I feel like I've got my idea down.
+
+So with hugo it helps me sort out these sort of posts
+
+To get a new idea started its:
+
+hugo new posts/unquantified.md
+
+and then I just start editing the file
+
+If I want to see what my site will look like locally, I run:
+
+hugo server -D --disableFastRender
+
+I can keep this running and if I make changes to the post and save the markdown file, it live-reloads the generation. Though I will admit, I don't use that feature much (if at all). I'm pretty comfortable in markdown these days and as I've outlined above, my "crafting" of a post is a bit more like chipping away at a piece of marble than free-flowing ideas.
+
+As for my responses to the post, it looks like I had 4 of them, total. Is it about my answers specifically or why I chose to only respond to those 4?
+
+I debated not responding at all, since I really don't typically spend time on online social services, so I'm fascinated to know what you are curious about.
+
+Oh yeah! your email was signed with a key id: 0xDAB8575F , but I can't seem to find that signature.
+
+The ones I can find are:
+9182F9C0
+F05925C8
+CAB88302
+
+Want to shoot me your pubkey for DAB8575F?
+
+Talk to you soon.
+
+nathan
+<<<

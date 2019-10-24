@@ -1,0 +1,56 @@
+created: 20170427152230760
+modified: 20190705053725598
+revision: 0
+tags: Wiki [[Program Yourself]]
+title: Wiki: Scheduled Practices
+
+Having a conversation with myself means I should spend non-trivial amounts of time reading my own work. I need to engage in the habit of actively listening to myself in order to make use of this feedback loop. I can't leave it up to chance. Thus, I must schedule and plan the practices of working on my wiki. Schedule making new content, and schedule digesting it. 
+
+Below you will find a list of processes that I aim to consistently practice.<<ref "1">> I hope to habituate it as a reflex. This is key to programming oneself. My only worry is that I'll continue piling things on until it becomes unwieldy and too much work. I need to be careful here. It is all too easy to create unmanageable and impossible tasks sets for myself. Apply the KISS principle.
+
+Note that this section is perhaps more transient and malleable than other sections of {[[Principles|Principles of Programming Myself]]}. It's the nature of the beast. Consider it firmware, middleware, dynamic rather than static (on that gradient), or more RAM-like than ROM-like.
+
+* Daily
+** [[Diet Log]]
+*** Be wise with what you eat. It affects you in a multitude of ways: socially, physically, and mentally. You have much to gain by being disciplined in this area. Empathize with yourself.
+** [[h0p3's Log]]
+*** Some of the hardest work you do on this wiki is in this log. This is the real grind. Do it.
+** [[Link Log]]
+*** This is fun. It's intellectually stimulating. It can also be incredibly useful. Use it as a means to curate tools and information, to help you build your life and reframe the world. 
+** [[Pipefitting Log]]
+*** If you are spending most of your day working on something, you should spend a considerable amount of time writing about it. 
+** [[Prompted Introspection Log]]
+*** You ask and answers random introspective questions. Run with whatever hits you. See where it leads. Never stop writing.
+** [[Wiki Review Log]]
+*** You must force yourself to have a conversation with yourself. You should not "fire and forget." This is part of holding yourself accountable to maintaining key feedback loops on this wiki. Let us hope that this log will feed information to {[[Focus|Current Focus of h0p3's Wiki]]}. This seems like a basic way to grind the meta. 
+*** Re-read all "New" (not Recent) content created the previous day. Reflect upon it. Edit and revise it. Listen to yourself. 
+
+* Weekly
+** [[DCK Meditation Log]]
+*** You are staving off depression. Do not let your guard down. This is part of your self-monitoring, but it is also an opportunity to explore. Recall that hallucinogens and dissociatives activate and expand your consciousness. Awareness must be harnessed. Use yourself for yourself in a long-term and wise manner.
+** [[Family Log]]
+*** Your family is important to you, right? Collect data. Systematically inquire. Integrate yourselves. Teach your children how to think about life and how to live.
+** [[Family Wikis Log Collection]]
+*** This wiki is clearly the best tool you've ever used. Your family needs access to it as well. It may take them a while to wield it well (not that you wield it well). Take the time to guide them. More importantly, take the time to integrate yourself into their lives at this level. This is what being family is about. It's about caring about each other's lives. Remember to treat everyone with respect. This is no place for censorship or heavy-handedness. Be open and kind. Be empathic. This is truly a way to stay connected from any distance. We must be ourselves on our wikis. 
+** [[Homeschooling Log]]
+*** While you will be a traveling worker, you still need to be a strong participant in your children's education. This is mostly a planning tool for now. Perhaps it will grow into more.
+
+* Monthly
+** Audit and archive your daily and weekly logs. Read them, digest them, summarize them. 
+** {[[Focus|Current Focus of h0p3's Wiki]]} Log
+*** You've been looking for a way to make principled, systematic, consistent decisions about the nature of {[[Projects|Projects on this Wiki]]}. Let's hope this is the tool.
+
+* Quarterly
+** Audit and Review your Monthly archives. 
+** Edit/revise and adjust your trajectory.
+
+* Yearly
+** [[Annual Wiki Review]] Log
+*** Summarizing and cataloging it in {[[Vault|The Vault of h0p3]]} would be completely reasonable. What better way to handle it? You've been searching for a way to understand the fitting places to draw the timeslice lines. Why not this way? It is quite systematic and holds you accountable. Furthermore, you can always reshape it. It doesn't have to be set in stone. This is just one strong looking possibility.
+** Don't forget to summarize.
+
+Right now, the only scheduled practices I have are updating and auditing my layers of logs. I may eventually have other kinds of maintenance, updating, or evaluative practices that the logs aren't suited for. This should kind of be like the crontab of this wiki. 
+
+---
+
+<<footnotes "1" "Previously found on [[Logs Collection]]. I'd like to point out that I consider it a bad practice to have two copies of the same data. Keeping them synchronized will eventually fail. There should only be one place to store it. Screw symbolic links (implementable, but why complicate this?).">>

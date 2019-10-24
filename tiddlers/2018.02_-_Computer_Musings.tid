@@ -1,0 +1,53 @@
+created: 20180301225033688
+modified: 20190326205741719
+modifier: h0p3
+tags: [[Computer Musings]] [[Log Audit]]
+title: 2018.02 - Computer Musings
+
+!! Logs:
+
+* [[2018.02.01 - Computer Musings: Seedbox Problems]]
+* [[2018.02.02 - Computer Musings: Ricing Seedbox]]
+* [[2018.02.03 - Computer Musings: Cont Seedbox]]
+* [[2018.02.04 - Computer Musings: OpenWRT Router]]
+* [[2018.02.05 - Computer Musings: Virtualized Router]]
+* [[2018.02.06 - Computer Musings: Backburner]]
+* [[2018.02.07 - Computer Musings: Seedbox Redeux]]
+* [[2018.02.09 - Computer Musings: Seedbox Tweaking]]
+* [[2018.02.10 - Computer Musings: VPNCloud]]
+* [[2018.02.11 - Computer Musings: Routing]]
+* [[2018.02.12 - Computer Musings: RPi]]
+* [[2018.02.14 - Computer Musings: Deluge daemon demon!]]
+* [[2018.02.15 - Computer Musings: Clean]]
+* [[2018.02.17 - Computer Musings: Silly]]
+* [[2018.02.18 - Computer Musings: Compression]]
+* [[2018.02.20 - Computer Musings: Sync]]
+* [[2018.02.21 - Computer Musings: Open Files]]
+* [[2018.02.22 - Computer Musings: Tentatively Solved]]
+* [[2018.02.23 - Computer Musings: VM-Mill]]
+* [[2018.02.24 - Computer Musings: Maintenance and Tweak]]
+* [[2018.02.25 - Computer Musings: Shreddit]]
+* [[2018.02.27 - Computer Musings: Meddling]]
+* [[2018.02.28 - Computer Musings: Tweak]]
+
+!! Audit:
+
+* Tor ended up being useless in this case. When I need it, I just use it from my house. Although, I do think I should VPN to mask it. I'm all too often lazy about it. I believe this is why I've found my router hacked thrice, it generally coincides with that usage. 
+* Deluge took a while to fix. I'm still tweaking it to what I want. Recall, of course, that my last installation using ruTorrent lasted for years. I barely touched it after I got it the way I liked it. I'll get there with this as well.
+* Never did that OpenWRT router to do everything I wanted it to do...the Virtualized approach also failed. That's okay.
+* I received 3 thanks you's from extended family for the proxy/vpns.
+* vpncloud.rs has been half successful. I love that it is a nat-piercer.
+* The RPi is now functioning. I love it.
+* I've got SSHFS doing what I need it to do.
+* I've not needed my VMs. I use them when I do, but otherwise don't need them. I need to think about that more.
+* I still want to get my phone functioning in a way that I love. I have most of my devices setup very well. 
+* That ghetto hack on ATL's compression is beautiful. I can feel the difference.
+* I'm disappointed that I didn't solve the Deluge problem faster and more efficiently. Pointless desert wandering that I could have avoided if I were smart about it.
+* I've been contacting devs more often about their software. I'm glad I have. My opinions matter.
+* I've annoyed many people with my shreddit. Tough.<<ref "2019.03.26">>
+* I have less I need to accomplish on the computers. I think we are set for a while. I'm glad. Much of our system has been overhauled and tweaked.
+* Good computing, sir. 
+
+
+---
+<<footnotes "2019.03.26" "I've stopped mentioning it now. Sorry folks.">>

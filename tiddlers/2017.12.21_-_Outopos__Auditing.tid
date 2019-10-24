@@ -1,0 +1,7 @@
+created: 20171221170756405
+modified: 20181225004929578
+revision: 0
+tags: Outopos
+title: 2017.12.21 - Outopos: Auditing
+
+How should code be audited? It's obvious that any serious FOSS privacy platform requires auditing. Third-party audits are a crucial signal. Codebase needs to be fairly small. The core needs to be easily understood.

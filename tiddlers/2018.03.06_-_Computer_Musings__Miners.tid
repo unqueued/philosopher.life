@@ -1,0 +1,33 @@
+created: 20180306190454738
+modified: 20181029175224783
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.03.06 - Computer Musings: Miners
+
+Someone is trying to mine using my computer. Lol. My FF console is puking up errors:
+
+```
+Firefox can’t establish a connection to the server at wss://webminepool.tk:8892/.  base.js:338:23
+uncaught exception: abort({}) at jsStackTrace@blob:https://potnotes-miner-0001.bitballoon.com/63ad56ea-c148-4df5-a6f3-57dd3669aec3:1:18390
+stackTrace@blob:https://potnotes-miner-0001.bitballoon.com/63ad56ea-c148-4df5-a6f3-57dd3669aec3:1:18561
+abort@blob:https://potnotes-miner-0001.bitballoon.com/63ad56ea-c148-4df5-a6f3-57dd3669aec3:1:117808
+doNativeWasm/<@blob:https://potnotes-miner-0001.bitballoon.com/63ad56ea-c148-4df5-a6f3-57dd3669aec3:1:29520
+
+If this abort() is unexpected, build with -s ASSERTIONS=1 which can give more information.
+```
+
+=( /sadface. Uninstalled. I actually reviewed it, and I reported it as well. Found a replacement.
+
+It looks like AdNauseam's uBlock Origin features which I'd enabled were doing their work.
+
+---
+
+I'm going to store passwords in my private wiki and KeePassXC. I realize, one is significantly stronger than the other for passwords (Argon2 is no joke). My Firefox account stores my web passwords as well. Nothing is absolutely awful about what I'm doing, although it's not even close to bullet proof. That's okay.
+
+---
+
+Two-password mode (one for authentication on their side, and once for decryption on your side) is actually the right way to do it on Protonmail.
+
+---
+
+Tango Down. Potnotes is dead. My report killed it. =)

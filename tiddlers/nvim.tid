@@ -1,0 +1,17 @@
+created: 20180115193350991
+modified: 20180115203852270
+revision: 0
+title: nvim
+
+Resource:
+
+* http://vim.wikia.com
+
+Tools:
+
+* https://github.com/tpope/vim-fugitive
+* https://github.com/scrooloose/nerdcommenter
+
+Configuration:
+
+* [[.nvimrc]]

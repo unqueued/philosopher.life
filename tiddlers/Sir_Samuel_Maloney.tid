@@ -1,0 +1,177 @@
+created: 20180403212511788
+modified: 20180407125757496
+title: Sir Samuel Maloney
+
+//Forgive me when I read into your writing that which you did not intend. RIP//
+
+https://www.reddit.com/r/NationOfAtlantis/comments/4j9i5o/faq_artificial_intelligence/
+
+Idealism. I don't see the value in his goal here, but it may not be expressed well enough for me to appreciate.
+
+https://www.reddit.com/r/NationOfAtlantis/comments/4ixtc4/faq_ethics_axiom_of_truth_aot/
+
+I'm a Golden Rule fanatic. This claim is clearly philosophical in a number of ways. Axiom of Truth (AOT): "The right to know the truth trumps the right to get what you want." He was not careful enough in his Hohfeldian target selection, and that ambiguity is a problem. I am fairly convinced there is a [[Diamond]] here though, but I'm already on that path. It's obvious to me that "knowing the truth" and "being good" is simply more important than "being happy." It's nice when they are consistent and align with each, but that's why you need a rule to prioritize them.
+
+https://www.reddit.com/r/NationOfAtlantis/comments/4ha0c6/faq_religion/
+
+<<<
+By Gödel's incompleteness theorem, there is no way to prove, but it is still implied (for many reasons including its’ higher probability) the conclusion that there is something outside this finite human existence that I am aware of; be it God, or some more complex concept. 
+<<<
+
+Gödelism is his religion. He's preaching to the choir. I am sad that he never got to collaborate with me. He was an brilliant and quirky mama-jama too. I think Samuel, Roger Penrose, and me would have something important to talk about.
+
+<<<
+Because of the aforementioned, I don’t judge others’ faith; however, for myself, at least, I know this existence to be a test, or a lesson – but not a game.
+<<<
+
+What isn't a game, a narrative, a process, an algorithm+data_structure, a meaning? I think you mean "mere" game, as if it is ultimately meaningless. I hear you, Brother Samuel!
+
+<<<
+I can even clearly see that there is an intended role for the player to take. The highest score possible is obtained by saving the world by acting congruent to the ultimate good (which is essentially “the golden rule” that you’ve already heard of). Obviously the test or lesson would be spoiled if one could prove God. That is even why the player has to actively save the world; they can’t just hope that they are right and thus things will get better or don't matter. Instead, one simply has to recognize (have faith) that such a role exists, and then simply strive to stay congruent to that to the end. I’m sure it will be difficult, but I know myself, so I believe that I can absolutely do it! I hope you all can too! One thing you can do is to please share this, so that the whole world can start thinking this way! If enough people realize the above, then it will become a self fulfilling prophecy. I hereby call this religion Gödelism.
+<<<
+
+Sounds Christ-like to me. Our calling, Brother, could not have been higher. I'm enthralled with the fact that you see the "Game" and the notion of a score. The philistines among the postmodernists would guffaw at us. I'm afraid that I'm convinced your "win-conditions" aren't obviously accurate or correct. I'm still trying to figure this out. 
+
+I don't care about the credit (which goes to all of the Gödels of history). I beat you to the punch on naming this religion (but, it is clear that many, many philosophers saw it too). You are free to see my wiki snapshots (and, I've been working on this problem for at least 15 years). That said, I'm so happy to have found another who sees it. 
+
+<<<
+Theorem: There is > 50% chance of a God/force/something outside this finite human experience.
+
+Proof: There are infinite ways to look at it. Really it is about infinity.
+
+There being nothing is one possibility. There being a God is another. There being a fractal universe where each evolved life that then created the next is another. I could go on; but you should see already, that there is as small as one to infinity odds of nothing being the case.
+
+Here is a fun thought experiment that I invented (obviously it is an aggregate of my genetics and all the other things I've experienced):
+
+Imagine if you created a simulation that was able to evolve intelligent life, yet you made the simulation so that those inside would have no way to prove that it is a simulation, that you exist, Etc. Do you think they would ever realize that you had to exist?
+
+Therefor [sic], I think it is evident that it is less than a 50% chance that life is meaningless. Q.E.D. ;)
+<<<
+
+I'm mining your brief work for [[Diamonds]] and [[Redpills]], but I'm afraid this proof isn't even a decent argument. I am very appreciate of your willingness to explore the notion of possibility though. Few have the balls and integrity to do it, and even fewer to at least try to say it outloud.
+
+The thought experiment is one of many crucial ones to think about. Unfortunately, it does not advance your thesis. I'm sorry, sir.
+
+<<<
+Alternate Theorem/Proof Wording: Since the complete first order logic proves the incompleteness of any other model yet proposed, the only valid explanation so far is that our existence is the thinking/processing of a mind that is assuming some possible yet unprovable axiom. Q.E.D.
+<<<
+
+Bingo. DING DING DING DING! Aristotle and Spinoza articulated versions of it as well. You see the light!
+
+I am so sad that you could not read my [[Being of Meaning]]. I found you too late, sir. I could only wish there was an afterlife so that I communicate that fact to you. Alas, I have no reason to think you exist anymore, except in memory and carbon footprint.
+
+<<<
+Update (20160606): Upanishadic Philosophy: That assumption is the difference (universe) from the one (absolute reality).
+
+Update (20160607): We are Shiva. Obviously we chose the best possible difference to experience. Make existence noble! KRINVANTO VISHVAM ARYAM!
+<<<
+
+This I cannot speak to. Again, your win-conditions are not obviously correct to me. 
+
+<<<
+This is just my religion, it is not the official religion of Atlantis. I like hanging out with people of other religions actually, interesting perspectives on life. Really, the state religion of Atlantis - I guess - is that due to the incompleteness theorem, there can be no state religion, as no one can know for sure. People are free to believe what they want.
+<<<
+
+Ruh-roh. We disagree. Free in political autonomy, yes. Free as in agency-autonomy, probably. Free as in moral permissibility? Doesn't look like it to me, homie. I cannot relativize that far.
+
+<<<
+The first proof proves you can't prove a certain statement in our accepted (or any*) model of math and logic. The second proof proves that proving that statement is the exact same as trying to prove the consistency of the whole system. Thus, our model of everything is unprovable. This means we cannot prove the existence or non-existence of God/Etc.
+
+The first proof is very simple actually, only basic set theory needed:
+
+R = {All formulas in PM that take one variable.}
+
+R_n = be formula #n if we were to count them in arbitrary order.
+
+R_n(x) = calling formula n with arbitrary parameter x.
+
+K = {n E Z | !provable(R_n(n))}
+
+Consider S(i): i E K
+
+S <=> R_q
+
+R_q(q) <=> S(q) <=> q E K <=> !provable(R_q(q))
+
+Q.E.D.
+
+Thus, q is not in K if it is provable that q is in k, and q is in K if it is not provable that it is in K. This means that if q is in K then it is not provable that it is so.
+
+Not quite a contradiction, instead, incomplete. The whole logical model ends up misaligned when you try to fill in the last piece. It does not mean it is wrong. This means every* model cannot prove itself.
+
+    - Any model that includes arithmetic (anything that defines multiplication).
+<<<
+
+I appreciate how you realize Gödel's proof demonstrates that faith is conceptually required of us, be it in either direction. You're a rational mystic!
+
+-=][ Rabbitholed ][=-
+
+* https://www.reddit.com/r/NationOfAtlantis/comments/4h9jyv/faq_physical_location/
+
+<<<
+The point is that what the declaration is describing is a distributed nation. Physical location is not a variable in membership or 'living there'. If you are a member, then the law of the land that you are standing on is that of Atlantis. The only exception to that that I can think of right now is if you are a willing invited guest somewhere; then obviously in that case, you respect the law of the land you step on to. However, if you were say born in a country and didn't choose that when you were born, then wherever you stand is Atlantis. If you moved some place where the government is illegitimate because they are complicit in crimes against humanity including the genocide of any species (thus likely all western nations are illegitimate, maybe not Hungary I guess, up to each Atlantians living there to decide), then the land in that country that any such member is standing on is automatically Atlantis.
+
+Eventually we will buy contiguous blocks of land, as well as overthrow local governments where their populations have become minorities of the lands they claim dominion over to such a degree that there will be no war and it is justified since they will likely still try to claim dominion over us though we have all succeeded and out number them. We can then negotiate with the remaining (non Atlantian) people on how to divide up the land so that Atlantians who want to live together can live together apart from those they wish to exclude. The worst case that is possible is that people are relocated to richer lands (DCP will force us to deal fairly with them). Every society already relocates people by pricing them out of neighborhoods. If you don't comprehend that, even just property tax does that! DCP will force us to deal more fairly and honestly than that! Thus, there will be no exterminations! Humanity does not want their history to be blighted with any more such things as the Armenian Genocide, which is evidenced by the fact that the Turkish people as a whole still do not want to admit to carrying it out: https://www.youtube.com/watch?v=8HzZXIchBhQ
+. However, freedom of association is a human right that shall be restored. With the distributed consensus protocol (DCP), we can all get along.
+<<<
+
+I respect the hope here. I'm not sure this is actually the structure I'd be looking for. I wish this person learned more about socialism. They have a very strong Libertarian bent (which I understand), but many of the solutions to the problems they want fixed are on the other side the spectrum.
+
+* https://www.reddit.com/r/NationOfAtlantis/comments/4h619n/saving_all_races_the_declaration_of_independence/
+
+<<<
+I hereby declare the creation of the sovereign entity that tentatively shall be known as the Nation of Atlantis.
+
+We are a globally distributed meritocratic democracy. Membership is open to all species of mankind, in fact, all intelligent entities that share our two unifying key principals:
+<<<
+
+Sounds like an attempt at decentralizing power for cosmopolitan reasons. Meritocratic, I'm afraid, I can't fully agree to. These kinds of moves have all the idealism in the world, but not enough pragmatism. I say that knowing that we must have an ideal in mind. There is no escape from that. 
+
+<<<
+    We believe that intelligent life has a right to determine its own future; which especially means that the only acceptable form of manipulation of that entity's will is by presenting argument consisting only of a full objective revelation of absolute truth honestly available. "We know better", "trust us", Etc., are all absolutely immoral.
+<<<
+
+What about when intelligent lives disagree? Either one or both parties lose in the dialectic. You mean they have a right to determine their own future barring these exceptions, namely rational discourse. I fully appreciate the goal. Unfortunately, you'll have to engage in paradoxixcal, contradictory behavior to even attempt to achieve such a thing. It's clear that respecting people as persons of reason is central to his argument, which is as Kantian as you get.
+
+<<<
+We believe that every entity that is not an active enemy has the right to exist. This specifically means that every human race and species has the right to exist as distinct races and species. Speciation is how evolution works. Species have a right to exist. To deny them that right is genocide. Armenians, Japanese, Swedish, Kenyans, Etc., all are natural allies of each other in preserving their species against the genocidal globalist parasites.
+<<<
+
+Why does species have a right to exist? Why subspecies? There is something odd here. I think we would both be accused of racism, and I assume neither of us would ever wear that mantle. I think you want a kind of Just War Theory.
+
+<<<
+That is right: Jews who want to remain Jewish, Muhammad Ali who publicly stated he wanted his kids to be black (https://www.youtube.com/watch?v=oVpfcq4pV5U) and agreed Caucasian’s should have the same right, Europeans who do not want their own nations (and people) to be destroyed, Japanese, Kenyans, Etc, everyone who wants their kids to look like themselves, all of us are inherent ALLIES! BY BLOOD! We are allies in preserving our blood lines! Our beautifully diverse human blood lines! Let us not destroy human diversity under the guise of celebrating it! It is not the African/Arabs/Etc’s who actively are attacking our blood line! It is the parasites who usurped control of our nations and opened our borders and fund wars in the others’ countries driving them here! I am hereby calling for all races to unite in a world wide revolution!
+<<<
+
+I admire the sentiment is some respects. How do you think this will be accomplished? 
+
+I disagree with the xenophbia, but I agree with the usurpation and proxy wars. So close in some respects.
+
+<<<
+Is loving the beauty of the diversity that our Creator purposely created (some would say at the tower of Babel) a sin? Or is the real evil the purposeful destruction of that diversity that God has created!
+<<<
+
+I do not see the absolute value in diversity. I'll enjoy and celebrate it, but I'm not convinced it is as crucial as you do.
+
+<<<
+If your bloodline is already mixed, then you are a hybrid. If there are many hybrids of similar ratio to you, then you are already a group that may wish to form collectives like essentially all other races naturally do. There is nothing necessarily wrong with an individual choosing to mix even; the problem is more the rate of mixing, and most especially the forced mixing (‘forced-integration’) which uses the coercive tactics such as mentioned near the end of this declaration. Forced integration is genocide. People are free to mix, as that is one way that good traits can be shared across races in evolution; too high a rate of mixing however destroys the separate species, thus destroying the genetic diversity that drives evolution's creativity. Likely, some mixed groups will get together and form their own mixed nations – some even where all mixes are welcome. Other mixes will want to diverge off into their own unique combination. The Amish have a right to diverge if they want; they play correctly, letting their children leave with the Rumspringa tradition of their culture. If two races want to mix, that is up to them. But if individuals from those races don’t want to hybridize, they want to see their species continue in their descendents, then it is their right to stay distinct, and to raise their children with an education and culture that strongly teaches them to do the same. That is how evolution and culture work. That is the right of cultures and races. It is their genome, their destiny, their decision. Your value is not to destroy my race. It is to have a good life. My value is not to prevent your good life. My value is to not have my race destroyed. We are not in conflict. Let us work together to make this world better for everyone.
+
+We are therefor a fractal nation of the Human genus.
+
+We are organized as sub nations who are all allied in one uniting purpose: to free the world from necessary evil.
+<<<
+
+Sounds like a Libertarian Utopia vision, but I'm not convinced this is the real problem. I wish you stopped worrying about race and species so much. Human genus (or even larger than that) and look at class warfare. 
+
+I'm afraid I'm done with this section.
+
+* https://london.ctvnews.ca/wife-of-man-shot-dead-by-london-police-speaks-out-1.3243183
+* http://lfpress.com/2018/01/31/hearing-set-for-woman-charged-after-deadly-raid/wcm/9dae3b55-9c05-5356-1c89-4e74dd72e379
+* https://www.newsbtc.com/2017/01/05/sam-maloney-creator-of-morphis-and-dpush-shot-dead-by-london-police/
+* http://nationalpost.com/news/canada/who-was-samuel-maloney
+
+Sad. All parties look suspicious.
+
+* https://web.archive.org/web/20170206204456/http://redmine.morph.is/redmine/projects/morphis/repository
+
+

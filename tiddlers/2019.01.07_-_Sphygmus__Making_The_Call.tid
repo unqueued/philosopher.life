@@ -1,0 +1,43 @@
+created: 20190114031636466
+modified: 20190114031649758
+tags: Sphygmus
+title: 2019.01.07 - Sphygmus: Making The Call
+
+```
+https://philosopher.life/#2019.01.06%20-%20TWGGF%3A%20Wikis
+JAN 6 5:20 PM
+You make the call.
+JAN 6 5:21 PM
+thinking about it! there's some significant changes that need to happen before it would be available for public use -- mostly, I need to add variables in (the same way vanilla lets you input the breakpoint options) so that it's not hardcoded, and I need to figure out how to zero out the vanilla variables without including shadow tiddler overrides
+MON 1:37 AM
+there is so little documentation for theme creation....
+MON 1:37 AM
+I'm curious -- why do you not like the atomization of deep reading into daily logs that are then transcluded?
+MON 1:38 AM
+I definitely want that thread to grow. I would love to see a bunch of good examples to think about it. Nobody has responded to him yet, lol.
+MON 1:39 AM
+I don't like the atomization because it created too many tiddlers for no reason. I think it will slow down computation of the wiki.
+MON 1:40 AM
+It was valuable to be able to measure and experiment, but now I simply don't engage in it for [[Deep Reading]].
+MON 1:41 AM
+oohhhh ahah I didn't realize it was a reply to someone else! yeah, post it :)
+MON 1:41 AM
+ah, gotcha! yeah, I liked it because it was easy to see what you'd added each day when checking the wiki :P but I can also understand the tiddler explosion problem
+MON 1:42 AM
+we might be the only two wikis with a vast & decent amount of written content respectively...most of the public wikis I've seen are mostly either plugin/testing wikis, or really barebones note-taking. David Gifford I think has the most complete one I think & I can't read it cause of the language barrier.
+MON 1:43 AM
+Aye.
+MON 1:44 AM
+Why do you think TW doesn't see more use?
+MON 1:45 AM
+I think it takes WAY more effort and research to set up than other note-taking programs, and can seem unintuitive at first. It's not quite the same as MediaWiki, and it's very different from something like Evernote or OneNote. But really I think the set-up is the biggest barrier to entry, especially when you consider that most people probably want the cloud flexibility that both OneNote and Evernote provide out of the box.
+MON 1:50 AM
+Aye. 2 click FB/Google account signup straight into a polished driver's seat from any device.
+MON 1:51 AM
+exactly!
+MON 1:52 AM
+MediaWiki was 1-clicky from cpanel too for "self-hosted" on a VPS.
+MON 1:52 AM
+yeah, I definitely considered going that route at one point.
+MON 1:52 AM
+```

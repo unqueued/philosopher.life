@@ -1,0 +1,25 @@
+created: 20180721161939888
+creator: h0p3
+modified: 20180722020357091
+modifier: h0p3
+title: 2018.07.21 - Computers Musings: Still Deep Underwater
+
+I need a GUI file browser. Somethings I just need to do with my mouse. Dolphin is by the best tool I've ever used, and I've tried many commanders, etc. 
+
+Setup Dolphin, and I don't know what it is, but it looks even sexier on the i3 variant than the KDE?
+
+Working on Alsa (damn you to hell). Reading the ALSA archlinux documentation. Sound test passes...
+
+`~/.asoundrc`
+
+```
+pcm.!default {
+    type hw
+    card 1
+    device 3
+}
+```
+
+`alsactl kill rescan`
+
+I have no control over volume at all, even at the application level! This is fucking crazy.

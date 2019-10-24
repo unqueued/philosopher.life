@@ -1,0 +1,28 @@
+created: 20190708164559662
+modified: 20190709041423782
+tags: [[RGM Notes]] [[Wiki Audit]] [[Computer Musings]]
+title: 2019.07.08 - Wiki Audit: Infuriating
+
+More of those fucked up missing tiddlers from Bob which I can't explain. That is infuriating! 
+
+Setup rsync folders again until this is smoothed out (or perhaps I'll just keep it). Good thing I manually keep backups anyways (on top of zstd archives, git, and others). Made two one-time scripts from the data which poured out of advanced search on `/home/h0p3`. I see how Bob handles `.meta` and `.txt` better now, and eventually filebackups and [[dotfile]] control will probably be built upon this; but, with this many fuckups, I'm not convinced it is rocksolid enough even with tripwires to engage in the private+public (and TC-based backup) [[RGM]]. Thank goddess for macros; it's faster than hacking together through CLI pipes, and I get to reason about the data more directly.
+
+`/home/h0p3` tripwires and perhaps automated correction needs to come. This is gum and shoestring bullshit, I realize. Any decent user would debug and fix the fundamental problem. Bob is still alpha software though, and I think it's better to hack around it entirely for now, but perhaps I'm wildly mistaken here. I'm hesitant to speak with Jed on the matter since I don't think we see eye-to-eye enough on the nature of my project for him to reason about it with me; he's perplexed by how I use his software too, imho. No doubt, his software his beautiful.
+
+We're going to need to script going through the snapshots and searching for these missing tiddlers. I'm not sure how we are going to do that just yet. It's gonna be fascinating if we have to [[html-to-tid.sh]] hack our way through this shit. Perhaps we really should just git the Bob structures here. We could create those posthoc as well. I'm pluggin' holes in a leaky boat.
+
+After speaking with TonyM on slim tiddlers, I am reminded of my discussion with [[kicks]] about versioning pieces of the wiki. It's much cheaper on dat versioning this way (though I still think this isn't the right way to build a tool that will be universal). Unfortunately, there's no loading from what I can tell; that would have to be fixed in TW itself. I actually search the bodies, not just the metadata; the bodies ARE the fundamental [[FO]] metadata in my wiki. That's part of what is interesting about it as hypertext.
+
+---
+
+Looking into minifiers (obfuscation as compression, but I just want it slim). The zstd hack is way uglier, and I think it makes versioning awful. I think I should only go that route as a matter of last resort. It looks like minification with gzip is still better than plain gzip. Is it worth losses in readability and parsing outside nodejs? 
+
+Nope, 100k difference, not worth my CPU burn every minute. The vast majority of the html file, of course, is the content.
+
+---
+
+I've realized that I want a browser to sit inside of [[subl]]. I want the skiddie programmatic control 10 layers deep there. I can connect them in several ways, but I wish they were unified.
+
+---
+
+I have no idea what happened to [[Recent]]. Why the fuck in 2019.07.07 not rendering? Ugh, lol.

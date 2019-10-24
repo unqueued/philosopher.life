@@ -1,0 +1,19 @@
+created: 20180421181455346
+modified: 20181029175224786
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.04.21 - Computer Musings: Ping Problems
+
+I can make HTTPS requests and surf just fine. I can ping everything inside my LAN. I can't ping anything outside the LAN. 
+
+Found it.
+
+Router pings fine. m10 pings 8.8.8.8 fine. ipv4 is fine, but ipv6 is not. DNS resolution problem.
+
+This is extremely annoying. I've set it on the router and m10. I can't seem to force 8.8.8.8 and 2001:4860:4860::8888. 
+
+I'm incompetent, and that's okay!
+
+Oh jesus, KeepassXC has NOT been storing my data! That's it. I'm done. I will just store it by hand from now on. It's already insanely manual anyways. I had such high hopes for it. What a waste of my time!
+
+Things are falling apart, and I'm annoyed.

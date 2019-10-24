@@ -1,0 +1,50 @@
+created: 20190402003434794
+modified: 20190402005843338
+tags: [[Wiki Audit]] [[Log Audit]] Dreams
+title: 2019.03 - Wiki Audit
+
+!! Log:
+
+* [[2019.03.01 - Wiki Audit: Disable]]
+* [[2019.03.04 - Wiki Audit: Firmcoding]]
+* [[2019.03.07 - Wiki Audit: Firmcoding]]
+* [[2019.03.13 - Wiki Audit: Firmcoding (again)]]
+* [[2019.03.18 - Wiki Audit: Commander]]
+* [[2019.03.19 - Wiki Audit: VMs]]
+* [[2019.03.20 - Wiki Audit: A Cycle]]
+* [[2019.03.21 - Wiki Audit: Firmcoding and Tagging]]
+* [[2019.03.23 - Wiki Audit: Virtual Storyrivers]]
+* [[2019.03.24 - Wiki Audit: Leak]]
+* [[2019.03.26 - Wiki Audit: Cake]]
+* [[2019.03.27 - Wiki Audit: Bob Hates]]
+* [[2019.03.28 - Wiki Audit: Core Daily Button]]
+* [[2019.03.29 - Wiki Audit: All Over]]
+* [[2019.03.30 - Wiki Audit: Tweaks]]
+
+!! Audit:
+
+* I didn't do it everyday. =/
+* Lots of ideas and {[[dreams]]} in here.
+* Bob continues to kill me, and yet, I'm addicted.
+** I'm so torn on it. There's nothing else like it. I bend over backwards for this piece of shit. I hate nodejs. I hate running a server.
+*** I really should attempt to move to a git model if I can. Performance is king. I'm paying a ridiculous tax to this tyrant.
+** So many things don't work nicely in anything except singlefile.
+* Commander hasn't worked perfectly, but it works well. I'm glad we can start to carve this turkey up.
+* Serious turnover in plugins. 
+** I'm still hoping TW5-Nav will come alive again. We may try again later.
+* It's official, 5.1.19 was a complete bust.
+** Gonna sound entitled and skeptical here: will there be an upgrade that matters again?
+* [[j3d1h]]'s labor is so obvious in this machine. It's a complex thing for a 13yo to understand let alone build. Give her a couple more years, and she will know more than I do about computing in almost all cases.
+** I don't know what the next step for her needs to be. I think the social end is probably the most important thing. She needs to study people, practice, etc.
+* I'm still open to the possibility that I'm going to be editing in nvim/spacemacs. This may become a dumber tool in the end.
+** I really don't want to do that. I'm still convinced there is something special about sharing a pilot's seat between the reader and writer. 
+* [[The Remodeling]] is back, and it is slower than ever. Bob is too fucking slow. 
+** What if we made a tool that opens singlefile, extracts a date range out of recent, and then inserts it. I can then edit arbitrary singlefiles and merge them. 
+*** Git seems like only sensible option.
+*** The kids need to feel comfortable with git.
+* I've seen a new plugin set that looks like it attempts to have virtual story rivers. This seems like it could be stripped down to something extremely simple. [[Open]] should be souped up with it.
+* One interesting thing is that I'm convinced this should be VMed regardless of the methodology used. It is likely a bunch of tools which should be combined together. 
+* I can't get over the "neuron" signal strength claim. There really may be something there.
+** Except, I have no intention of being that explicit. It's already work just trying to put solid tags on these fucking tiddlers.
+* The wiki and [[RGM]] continue to evolve at a brisk pace for me.
+** It's probably absurdly glacial to someone who knows what they are doing. I am a slow learner.

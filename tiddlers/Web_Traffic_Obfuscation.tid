@@ -1,0 +1,124 @@
+created: 20180304002211095
+modified: 20190705185248934
+tags: Computing
+title: Web Traffic Obfuscation
+
+I am well aware of the severe limitations and flaws of this activity. I'm also convinced it is a non-trivial defense and attack. This is monkeywrenching, and it doesn't need to be perfect.
+
+I aim to: 
+
+* at least partially blur my web identity by polluting my web traffic
+* burst my unelected filter-bubbles 
+* disrupt the signal-to-noise ratio of targeted advertising against me while wrecking their wallets
+* shove random noise-fists up my ISPs' asses
+
+Sites/Scripts:
+
+* https://github.com/essandess/isp-data-pollution/blob/master/isp_data_pollution.py
+** I'll wait on it.
+* https://github.com/benyanke/internet_noise_bash/blob/master/generate_noise.sh
+** Seems adaptable.
+* https://fascinatedbox.github.io/RuinMyHistory/Ruin.html
+** Seems pretty weak.
+
+Extensions (none are great):
+
+* Noiszy
+** Randomly open sites
+* Chaff
+** Randomly open sites
+* TrackMeNot
+** Random searches
+
+Make Me Happy:
+
+* AdNauseam
+** Valuable noise-maker and spends advertisers dollars
+* AutoMute
+** I don't want to hear anything
+* Random User-Agent
+** Fuck it.
+* I'm not robot catpcha clicker
+** No idea if it is useful. 
+
+
+Noisy Sites:
+
+```
+https://politipage.blogspot.com/
+https://polurls.com/red/
+http://polurls.com/blue/
+https://theshitlordhub.blogspot.com/
+https://news.google.com/
+https://news.yahoo.com/
+https://www.bing.com/news
+https://www.aol.com/news/
+https://tubegalore.com/
+https://www.nakedcapitalism.com/category/links
+http://hackurls.com/
+http://raddle.me/
+
+
+abcnews.go.com
+aljazeera.com
+bbc.com
+bloomberg.com
+breitbart.com
+cbsnews.com
+chron.com
+cnet.com
+cnbc.com
+cnn.com
+drudgereport.com
+forbes.com
+foxnews.com
+huffingtonpost.com
+indiatimes.com
+latimes.com
+money.cnn.com
+msnbc.com
+nationalgeographic.com
+nbcnews.com
+nypost.com
+nytimes.com
+reuters.com
+shareblue.com
+theatlantic.com
+theguardian.com
+thehill.com
+time.com
+usatoday.com
+usnews.com
+washingtonpost.com
+wsj.com
+reddit.com
+
+youtube.com
+imgur.com
+diply.com
+4chan.org
+espn.com
+imdb.com
+lifedaily.com
+
+news.ycombinator.com
+stackoverflow.com
+github.com/explore
+
+baidu.com
+qq.com
+
+ebay.com
+craigslist.org
+yelp.com
+zillow.com
+
+tubegalore.com
+xvideos.com
+pornhub.com
+livejasmin.com
+```
+
+I've been unhappy with:
+
+* http://makeinternetnoise.com/index.html

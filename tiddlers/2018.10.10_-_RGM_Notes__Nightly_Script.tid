@@ -1,0 +1,34 @@
+created: 20181009201247255
+creator: h0p3
+modified: 20190705054601632
+modifier: h0p3
+tags: [[Wiki Audit]] [[RGM Notes]] j3d1h
+title: 2018.10.10 - RGM Notes: Nightly Script
+
+//One of the goals of this script is to eliminate heavy JS usage and maximize the "just a bunch of links" self-integration. Clients should have maximum performance and little to compute. I want to keep TW as static as possible. I hope to minimize the size of this wiki file and the computation necessary to use it, though some features, like search, really require dynamic work.//
+
+# Begin logfile
+# Close FF
+# Initial backup
+# Create stage
+# Decompile
+# Tagging
+#* If "Titletag:" then make sure it is tagged "Titletag" as well.
+# Hardlink insertions
+#* Converting automated lists into hardcoded ones
+#** Perhaps scraped out of the browser post-rendering, roflmao.
+#* In dated material, YYYY.MM.DD, I'm fine with all keywords being automatically replaced with links. It is better to overlink rather than under. Unfortunately, there is a lot of room to screw up here. I need to think about the implications here.
+#** At the very least, names in [[FTO]] can always be linked.
+# Wiki Tag and Title Resets?
+#* I want to be able to change a Tiddler's Title and automatically have all links in the wiki automatically adjusted. This will require some serious thought.
+#* Not sure if I change title if I should remove the old tags?
+# dotfile overwrites
+# Sanitization (need an exceptions file)
+# Internal signature
+# Recompile
+# Cleanup stage
+# Snapshots
+# Distribution
+# Open FF
+# End logfile
+

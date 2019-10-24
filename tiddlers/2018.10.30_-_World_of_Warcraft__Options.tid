@@ -1,0 +1,20 @@
+created: 20181030225537828
+creator: h0p3
+modified: 20181030225822288
+modifier: h0p3
+tags: [[World of Warcraft]]
+title: 2018.10.30 - World of Warcraft: Options
+
+* VMWare
+** Not playing nice with Manjaro
+** Performance is likely bullshit
+* KVM switch
+** Multiple hardware
+* Moonlight Stream
+** Multiple hardware
+* Passthrough
+** Xeon =/
+* Dual Boot
+** Huge interruption on workflows
+
+We could centralize into multi-seating again. One Windows machine. Ugly though. Multi-seat into moonlight across the network seems like a damned good option.

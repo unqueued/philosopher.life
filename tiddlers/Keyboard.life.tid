@@ -1,0 +1,42 @@
+created: 20180804205323928
+creator: h0p3
+modified: 20180806211355072
+modifier: h0p3
+tags: 
+title: Keyboard.life
+
+//Demousify your life//
+
+<<<
+They don't think it be like it is...but it do.
+<<<
+
+!! General Computing (pretty often correct)
+
+* Highlighting
+** Ctrl+Shift+arrowkey := highlight a step in that direction
+** Ctrl+Shift+Backspace := delete line
+
+* Clipboard
+** Ctrl+c := copy
+** Ctrl+v := paste
+** mod+Ctrl+q := [[sanitize-clipboard.xsh]] paste
+
+* Changing focus
+** Ctrl+Tab := shift focus to the right
+** Ctrl+Shift+Tab := shift focus to the left
+
+
+!! Uniques
+
+* [[Tiddlywiki Hotkeys]]
+* [[.i3/config]]
+* [[Firefox]]
+** Ctrl+Shift+z := copy URL of current page (ctrl+l, then ctrl+c)
+
+
+!! F'ekin Lateral Thinkin'
+
+* Muh DAS Mechanical Keyboard Specific
+** The "right-click" mouse button key (neat)
+** Media

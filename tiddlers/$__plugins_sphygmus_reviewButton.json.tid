@@ -1,0 +1,169 @@
+author: sphygmus
+core-version: >=5.0.8
+dependents: 
+description: Wiki Review Tiddler Button
+list: readme settings details
+plugin-type: plugin
+revision: 0
+source: https://wiki.sphygm.us
+title: $:/plugins/sphygmus/reviewButton
+type: application/json
+version: 1.0.0
+
+{
+    "tiddlers": {
+        "$:/config/reviewButton/Tags": {
+            "title": "$:/config/reviewButton/Tags",
+            "created": "20180828020649454",
+            "modified": "20180915203452982",
+            "tags": "",
+            "type": "text/vnd.tiddlywiki",
+            "text": "[[Wiki Review]]"
+        },
+        "$:/config/reviewButton/Title": {
+            "title": "$:/config/reviewButton/Title",
+            "created": "20180828020822475",
+            "modified": "20180915203442850",
+            "tags": "",
+            "type": "text/vnd.tiddlywiki",
+            "text": "YYYY.0MM.0DD – Wiki Review: PH"
+        },
+        "$:/config/reviewButton/carpeTags": {
+            "title": "$:/config/reviewButton/carpeTags",
+            "created": "20180828020822475",
+            "modified": "20180915203442850",
+            "tags": "",
+            "type": "text/vnd.tiddlywiki",
+            "text": "[[carpe diem]]"
+        },
+        "$:/config/reviewButton/carpeTitle": {
+            "title": "$:/config/reviewButton/carpeTitle",
+            "created": "20180828020822475",
+            "modified": "20180915203442850",
+            "tags": "",
+            "type": "text/vnd.tiddlywiki",
+            "text": "YYYY.0MM.0DD – Carpe Diem: PH"
+        },
+        "$:/config/reviewButton/introTags": {
+            "title": "$:/config/reviewButton/introTags",
+            "created": "20180828020822475",
+            "modified": "20180915203442850",
+            "tags": "",
+            "type": "text/vnd.tiddlywiki",
+            "text": "[[prompted introspection]]"
+        },
+        "$:/config/reviewButton/introTitle": {
+            "title": "$:/config/reviewButton/introTitle",
+            "created": "20180828020822475",
+            "modified": "20180915203442850",
+            "tags": "",
+            "type": "text/vnd.tiddlywiki",
+            "text": "YYYY.0MM.0DD – Prompted Introspection: PH"
+        },
+        "$:/plugins/sphygmus/reviewButton/button": {
+            "title": "$:/plugins/sphygmus/reviewButton/button",
+            "caption": "{{$:/core/images/new-journal-button}} {{$:/plugins/sphygmus/reviewButton/hint}}",
+            "created": "20180915212943717",
+            "description": "{{$:/plugins/sphygmus/reviewButton/caption}}",
+            "modified": "20180916164154069",
+            "tags": "$:/tags/PageControls",
+            "type": "text/vnd.tiddlywiki",
+            "text": "\\define concat()\n\n* [[$(ThisCreator)$]]\n\n\\end\n\n\\define journalButton(cur, add)\n<$button tooltip={{$:/plugins/sphygmus/reviewButton/hint}} aria-label={{$:/plugins/sphygmus/reviewButton/caption}} class=<<tv-config-toolbar-class>> >\n<$action-setfield $tiddler=\"Wiki Review: Focus\" text=\"$cur$$add$\"/>\n<$wikify name=\"journalTitle\" text=\"\"\"<$macrocall $name=\"now\" format=<<journalTitleTemplate>>/>\"\"\">\n<$setReview name=\"wikiReviewText\" filter=\"[!is[system]days:created[-1]!days:created[0]sort[created]get[title]]\">\n<$reveal type=\"nomatch\" state=<<journalTitle>> text=\"\">\n<$action-sendmessage $message=\"tm-new-tiddler\" title=<<journalTitle>> tags=<<journalTags>> text={{{ [<journalTitle>get[]] }}}/>\n</$reveal>\n<$reveal type=\"match\" state=<<journalTitle>> text=\"\">\n<$action-sendmessage $message=\"tm-new-tiddler\" title=<<journalTitle>> text=<<wikiReviewText>> tags=<<journalTags>>/>\n</$reveal>\n<$list filter=\"[<tv-config-toolbar-icons>prefix[yes]]\">\n{{$:/core/images/new-journal-button}}\n</$list>\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<span class=\"tc-btn-text\"><$text text={{$:/language/Buttons/NewTDL/Caption}}/></span>\n</$list>\n</$setReview>\n</$wikify>\n</$button>\n\\end\n<$vars journalTitleTemplate={{$:/config/reviewButton/Title}} journalTags={{$:/config/reviewButton/Tags}} carpeTitleTemplate={{$:/config/reviewButton/carpeTitle}} introTitleTemplate={{$:/config/reviewButton/introTitle}} >\n<$wikify name=\"journalTitle\" text=\"\"\"<$macrocall $name=\"now\" format=<<journalTitleTemplate>>/>\"\"\">\n<$vars ThisCreator=<<journalTitle>> >\n<$macrocall $name=\"journalButton\" cur={{Wiki Review: Focus}} add=<<concat>> />\n</$vars>\n</$wikify>\n</$vars>"
+        },
+        "$:/plugins/sphygmus/reviewButton/button: AIO River": {
+            "title": "$:/plugins/sphygmus/reviewButton/button: AIO River",
+            "caption": "{{$:/core/images/new-journal-button}} {{$:/plugins/sphygmus/reviewButton/hint}}",
+            "created": "20180921154311356",
+            "description": "{{$:/plugins/sphygmus/reviewButton/caption}}",
+            "modified": "20180921183318408",
+            "tags": "",
+            "type": "text/vnd.tiddlywiki",
+            "text": "\\define concat()\n\n* [[$(ThisCreator)$]]\n\n\\end\n\n\\define carpcat()\n\n* [[$(ThisCarpe)$]]\n\n\\end\n\n\\define introcat()\n\n** [[$(ThisIntro)$]]\n\n\\end\n\n\\define journalButton(cur, add, carp, new, intro, plus)\n<$button tooltip={{$:/plugins/sphygmus/reviewButton/hint}} aria-label={{$:/plugins/sphygmus/reviewButton/caption}} class=<<tv-config-toolbar-class>> >\n<$action-setfield $tiddler=\"Wiki Review: Focus\" text=\"$cur$$add$\"/>\n<$action-setfield $tiddler=\"Carpe Diem: Focus\" text=\"$carp$$new$\"/>\n<$action-setfield $tiddler=\"Prompted Introspection: Focus\" text=\"$intro$$plus$\"/>\n<$wikify name=\"journalTitle\" text=\"\"\"<$macrocall $name=\"now\" format=<<journalTitleTemplate>>/>\"\"\">\n<$setReview name=\"wikiReviewText\" filter=\"[!is[system]days:created[-1]!days:created[0]sort[created]get[title]]\">\n\n<$reveal type=\"nomatch\" state=<<introTitle>> text=\"\">\n<$action-sendmessage $message=\"tm-new-tiddler\" title=<<introTitle>> tags=<<introTags>> text={{{ [<introTitle>get[]] }}}/>\n</$reveal>\n<$reveal type=\"match\" state=<<introTitle>> text=\"\">\n<$action-sendmessage $message=\"tm-new-tiddler\" title=<<introTitle>> tags=<<introTags>>/>\n</$reveal>\n\n<$reveal type=\"nomatch\" state=<<carpeTitle>> text=\"\">\n<$action-sendmessage $message=\"tm-new-tiddler\" title=<<carpeTitle>> tags=<<carpeTags>> text={{{ [<carpeTitle>get[]] }}}/>\n</$reveal>\n<$reveal type=\"match\" state=<<carpeTitle>> text=\"\">\n<$action-sendmessage $message=\"tm-new-tiddler\" title=<<carpeTitle>> tags=<<carpeTags>>/>\n</$reveal>\n\n<$reveal type=\"nomatch\" state=<<journalTitle>> text=\"\">\n<$action-sendmessage $message=\"tm-new-tiddler\" title=<<journalTitle>> tags=<<journalTags>> text={{{ [<journalTitle>get[]] }}}/>\n</$reveal>\n<$reveal type=\"match\" state=<<journalTitle>> text=\"\">\n<$action-sendmessage $message=\"tm-new-tiddler\" title=<<journalTitle>> text=<<wikiReviewText>> tags=<<journalTags>>/>\n</$reveal>\n\n<$list filter=\"[<tv-config-toolbar-icons>prefix[yes]]\">\n{{$:/core/images/new-journal-button}}\n</$list>\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<span class=\"tc-btn-text\"><$text text={{$:/language/Buttons/NewTDL/Caption}}/></span>\n</$list>\n</$setReview>\n</$wikify>\n</$button>\n\\end\n<$vars journalTitleTemplate={{$:/config/reviewButton/Title}} journalTags={{$:/config/reviewButton/Tags}} carpeTitleTemplate={{$:/config/reviewButton/carpeTitle}} carpeTags={{$:/config/reviewButton/carpeTags}} introTitleTemplate={{$:/config/reviewButton/introTitle}} introTags={{$:/config/reviewButton/introTags}} >\n<$wikify name=\"journalTitle\" text=\"\"\"<$macrocall $name=\"now\" format=<<journalTitleTemplate>>/>\"\"\">\n<$wikify name=\"carpeTitle\" text=\"\"\"<$macrocall $name=\"now\" format=<<carpeTitleTemplate>>/>\"\"\">\n<$wikify name=\"introTitle\" text=\"\"\"<$macrocall $name=\"now\" format=<<introTitleTemplate>>/>\"\"\">\n<$vars ThisCreator=<<journalTitle>> ThisCarpe=<<carpeTitle>> ThisIntro=<<introTitle>> >\n<$macrocall $name=\"journalButton\" cur={{Wiki Review: Focus}} add=<<concat>> carp={{Carpe Diem: Focus}} new=<<carpcat>> intro={{Prompted Introspection: Focus}} plus=<<introcat>> />\n</$vars>\n</$wikify></$wikify></$wikify>\n</$vars>"
+        },
+        "$:/plugins/sphygmus/reviewButton/button: all-in-one": {
+            "title": "$:/plugins/sphygmus/reviewButton/button: all-in-one",
+            "caption": "{{$:/core/images/new-journal-button}} {{$:/plugins/sphygmus/reviewButton/hint}}",
+            "created": "20180921154311356",
+            "description": "{{$:/plugins/sphygmus/reviewButton/caption}}",
+            "modified": "20180921183318408",
+            "tags": "",
+            "type": "text/vnd.tiddlywiki",
+            "text": "\\define concat()\n\n* [[$(ThisCreator)$]]\n\n\\end\n\n\\define carpcat()\n\n* [[$(ThisCarpe)$]]\n\n\\end\n\n\\define introcat()\n\n** [[$(ThisIntro)$]]\n\n\\end\n\n\\define journalButton(cur, add, carp, new, intro, plus)\n<$button tooltip={{$:/plugins/sphygmus/reviewButton/hint}} aria-label={{$:/plugins/sphygmus/reviewButton/caption}} class=<<tv-config-toolbar-class>> >\n<$action-setfield $tiddler=\"Wiki Review: Focus\" text=\"$cur$$add$\"/>\n<$action-setfield $tiddler=\"Carpe Diem: Focus\" text=\"$carp$$new$\"/>\n<$action-createtiddler $basetitle=<<carpeTitle>> tags=<<carpeTags>> />\n<$action-setfield $tiddler=\"Prompted Introspection: Focus\" text=\"$intro$$plus$\"/>\n<$action-createtiddler $basetitle=<<introTitle>> tags=<<introTags>> />\n<$wikify name=\"journalTitle\" text=\"\"\"<$macrocall $name=\"now\" format=<<journalTitleTemplate>>/>\"\"\">\n<$setReview name=\"wikiReviewText\" filter=\"[!is[system]days:created[-1]!days:created[0]sort[created]get[title]]\">\n<$reveal type=\"nomatch\" state=<<journalTitle>> text=\"\">\n<$action-sendmessage $message=\"tm-new-tiddler\" title=<<journalTitle>> tags=<<journalTags>> text={{{ [<journalTitle>get[]] }}}/>\n</$reveal>\n<$reveal type=\"match\" state=<<journalTitle>> text=\"\">\n<$action-sendmessage $message=\"tm-new-tiddler\" title=<<journalTitle>> text=<<wikiReviewText>> tags=<<journalTags>>/>\n</$reveal>\n<$list filter=\"[<tv-config-toolbar-icons>prefix[yes]]\">\n{{$:/core/images/new-journal-button}}\n</$list>\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<span class=\"tc-btn-text\"><$text text={{$:/language/Buttons/NewTDL/Caption}}/></span>\n</$list>\n</$setReview>\n</$wikify>\n</$button>\n\\end\n<$vars journalTitleTemplate={{$:/config/reviewButton/Title}} journalTags={{$:/config/reviewButton/Tags}} carpeTitleTemplate={{$:/config/reviewButton/carpeTitle}} carpeTags={{$:/config/reviewButton/carpeTags}} introTitleTemplate={{$:/config/reviewButton/introTitle}} introTags={{$:/config/reviewButton/introTags}} >\n<$wikify name=\"journalTitle\" text=\"\"\"<$macrocall $name=\"now\" format=<<journalTitleTemplate>>/>\"\"\">\n<$wikify name=\"carpeTitle\" text=\"\"\"<$macrocall $name=\"now\" format=<<carpeTitleTemplate>>/>\"\"\">\n<$wikify name=\"introTitle\" text=\"\"\"<$macrocall $name=\"now\" format=<<introTitleTemplate>>/>\"\"\">\n<$vars ThisCreator=<<journalTitle>> ThisCarpe=<<carpeTitle>> ThisIntro=<<introTitle>> >\n<$macrocall $name=\"journalButton\" cur={{Wiki Review: Focus}} add=<<concat>> carp={{Carpe Diem: Focus}} new=<<carpcat>> intro={{Prompted Introspection: Focus}} plus=<<introcat>> />\n</$vars>\n</$wikify></$wikify></$wikify>\n</$vars>"
+        },
+        "$:/plugins/sphygmus/reviewButton/button: sphygmus": {
+            "title": "$:/plugins/sphygmus/reviewButton/button: sphygmus",
+            "caption": "{{$:/core/images/new-journal-button}} {{$:/plugins/sphygmus/reviewButton/hint}}",
+            "created": "20180921154311356",
+            "description": "{{$:/plugins/sphygmus/reviewButton/caption}}",
+            "modified": "20180921183318408",
+            "tags": "",
+            "type": "text/vnd.tiddlywiki",
+            "text": "\\define concat()\n\n* [[$(ThisCreator)$]]\n\n\\end\n\n\\define carpcat()\n\n* [[$(ThisCarpe)$]]\n\n\\end\n\n\\define journalButton(cur, add, carp, new)\n<$button tooltip={{$:/plugins/sphygmus/reviewButton/hint}} aria-label={{$:/plugins/sphygmus/reviewButton/caption}} class=<<tv-config-toolbar-class>> >\n<$action-setfield $tiddler=\"Wiki Review: Focus\" text=\"$cur$$add$\"/>\n<$action-setfield $tiddler=\"Carpe Diem: Focus\" text=\"$carp$$new$\"/>\n<$action-createtiddler $basetitle=<<carpeTitle>> tags=<<carpeTags>> />\n<$wikify name=\"journalTitle\" text=\"\"\"<$macrocall $name=\"now\" format=<<journalTitleTemplate>>/>\"\"\">\n<$setReview name=\"wikiReviewText\" filter=\"[!is[system]days:created[-1]!days:created[0]sort[created]get[title]]\">\n<$reveal type=\"nomatch\" state=<<journalTitle>> text=\"\">\n<$action-sendmessage $message=\"tm-new-tiddler\" title=<<journalTitle>> tags=<<journalTags>> text={{{ [<journalTitle>get[]] }}}/>\n</$reveal>\n<$reveal type=\"match\" state=<<journalTitle>> text=\"\">\n<$action-sendmessage $message=\"tm-new-tiddler\" title=<<journalTitle>> text=<<wikiReviewText>> tags=<<journalTags>>/>\n</$reveal>\n<$list filter=\"[<tv-config-toolbar-icons>prefix[yes]]\">\n{{$:/core/images/new-journal-button}}\n</$list>\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<span class=\"tc-btn-text\"><$text text={{$:/language/Buttons/NewTDL/Caption}}/></span>\n</$list>\n</$setReview>\n</$wikify>\n</$button>\n\\end\n<$vars journalTitleTemplate={{$:/config/reviewButton/Title}} journalTags={{$:/config/reviewButton/Tags}} carpeTitleTemplate={{$:/config/reviewButton/carpeTitle}} carpeTags={{$:/config/reviewButton/carpeTags}} >\n<$wikify name=\"journalTitle\" text=\"\"\"<$macrocall $name=\"now\" format=<<journalTitleTemplate>>/>\"\"\">\n<$wikify name=\"carpeTitle\" text=\"\"\"<$macrocall $name=\"now\" format=<<carpeTitleTemplate>>/>\"\"\">\n<$vars ThisCreator=<<journalTitle>> ThisCarpe=<<carpeTitle>> ThisIntro=<<introTitle>> >\n<$macrocall $name=\"journalButton\" cur={{Wiki Review: Focus}} add=<<concat>> carp={{Carpe Diem: Focus}} new=<<carpcat>> />\n</$vars>\n</$wikify></$wikify>\n</$vars>"
+        },
+        "$:/plugins/sphygmus/reviewButton/caption": {
+            "title": "$:/plugins/sphygmus/reviewButton/caption",
+            "created": "20180828021316098",
+            "modified": "20180915204714198",
+            "tags": "",
+            "type": "text/vnd.tiddlywiki",
+            "text": "Creates a new Wiki Review tiddler"
+        },
+        "$:/plugins/sphygmus/reviewButton/details": {
+            "title": "$:/plugins/sphygmus/reviewButton/details",
+            "created": "20180916172800502",
+            "modified": "20180916174029019",
+            "type": "text/vnd.tiddlywiki",
+            "text": "This tiddler uses a customized `<$set>` widget (found as `<$setReview>` in the button code) to make the plain text list of the previous day's created tiddlers available to the new-tiddler-message widget. This customized `<$set>` widget uses an edited version of the stringifyList javascript code to change how the input array is concatenated. Specifically, instead of adding `[[ ]]` and space separating the array items, it adds `\\n * [[ ]]` to each array item (and then space separates them). This allows the tiddler titles to both be links and new bulleted lines when inserted into a new tiddler.\n\nThe `<$setReview>` widget takes a filter as a parameter. The default filter is `[!is[system]days:created[-1]!days:created[0]sort[created]get[title]]`. This removes system tiddlers from the list, selects everything from yesterday and today inclusive, removes those from today, sorts the titles by the time created (oldest at the top), and finally specifically selects the titles. More info on how the days operator can be found [[here|https://tiddlywiki.com/#days%20Operator]].\n\nThis button also uses several widgets and the button's \"set\" and \"setTo\" parameters to insert the created tiddler's title as a link into the [[Wiki Review: Focus]] tiddler. Thanks to several discussions on the Google Group that helped me figure out how to set this up!"
+        },
+        "$:/plugins/sphygmus/reviewButton/hint": {
+            "title": "$:/plugins/sphygmus/reviewButton/hint",
+            "created": "20180828021214477",
+            "modified": "20180915204700316",
+            "tags": "",
+            "type": "text/vnd.tiddlywiki",
+            "text": "new Wiki Review"
+        },
+        "$:/plugins/sphygmus/reviewButton/readme": {
+            "title": "$:/plugins/sphygmus/reviewButton/readme",
+            "created": "20180916164830456",
+            "modified": "20180916172551533",
+            "tags": "",
+            "type": "text/vnd.tiddlywiki",
+            "text": "This plugin adds [[a \"new Wiki Review\" button|$:/plugins/sphygmus/reviewButton/button]] to the Page Controls list. When this button is clicked, all the tiddlers created yesterday (and not today) are selected, formatted into a bulleted list, and inserted into a new tiddler which is then shown; the title of the new tiddler is also appended as a bulleted list item to the end of the [[Wiki Review: Focus]] tiddler.\n\nSee the \"settings\" tab for the plugin's current title and tag settings, and to modify for your own needs. The \"details\" tab goes into more technical specifics about the plugin's functioning.\n\nThis plugin is made for h0p3!\n\n---\n\nNote: you have to use the [[AutoTagger Plugin|http://www.tiddlytools.com/#AutoTaggerPlugin]] in order to tag newly-made tiddlers with the date."
+        },
+        "$:/plugins/sphygmus/reviewButton/settings": {
+            "title": "$:/plugins/sphygmus/reviewButton/settings",
+            "created": "20180916165333452",
+            "modified": "20180916172544085",
+            "tags": "",
+            "type": "text/vnd.tiddlywiki",
+            "text": "|! Review Title:||! Review Tags:|\n| {{$:/config/reviewButton/Title}} || {{$:/config/reviewButton/Tags}} |\n| <$edit-text tiddler=\"$:/config/reviewButton/Title\"/> || <$edit-text tiddler=\"$:/config/reviewButton/Tags\"/> |\n|! Carpe Title:||! Carpe Tags:|\n| {{$:/config/reviewButton/carpeTitle}} || {{$:/config/reviewButton/carpeTags}} |\n| <$edit-text tiddler=\"$:/config/reviewButton/carpeTitle\"/> || <$edit-text tiddler=\"$:/config/reviewButton/carpeTags\"/> |\n|! Intro Title:||! Intro Tags:|\n| {{$:/config/reviewButton/introTitle}} || {{$:/config/reviewButton/introTags}} |\n| <$edit-text tiddler=\"$:/config/reviewButton/introTitle\"/> || <$edit-text tiddler=\"$:/config/reviewButton/introTags\"/> |"
+        },
+        "$:/plugins/sphygmus/reviewButton/stringify.js": {
+            "title": "$:/plugins/sphygmus/reviewButton/stringify.js",
+            "text": "/*\\\ntitle: $:/core/modules/utils/luci.js\ntype: application/javascript\nmodule-type: utils\n\nVarious static utility functions.\n\n\\*/\n(function(){\n\n/*jslint node: true, browser: true */\n/*global $tw: false */\n\"use strict\";\n\n// Stringify an array of tiddler titles into a list string\nexports.stringifyReview = function(value) {\n\tif($tw.utils.isArray(value)) {\n\t\tvar result = [];\n\t\tfor(var t=0; t<value.length; t++) {\n\t\t\tvar entry = value[t] || \"\";\n\t\t\tif(entry.indexOf(\" \") !== -1) {\n\t\t\t\tresult.push(\"\\n* [[\"+entry+\"]]\\n\"+\"**\");\n\t\t\t} else {\n\t\t\t\tresult.push(entry);\n\t\t\t}\n\t\t}\n\t\treturn result.join(\" \");\n\t} else {\n\t\treturn value || \"\";\n\t}\n};\n\n})();\n",
+            "type": "application/javascript",
+            "module-type": "utils",
+            "created": "20180915201317214",
+            "modified": "20180915202156796",
+            "tags": ""
+        },
+        "$:/plugins/sphygmus/reviewButton/stylesheet": {
+            "title": "$:/plugins/sphygmus/reviewButton/stylesheet",
+            "created": "20180916164830456",
+            "modified": "20180916172551533",
+            "tags": "$:/tags/Stylesheet",
+            "type": "text/css",
+            "text": ".reviewButton {\n\twidth: 100%;\n}"
+        },
+        "$:/plugins/sphygmus/reviewButton/widget.js": {
+            "title": "$:/plugins/sphygmus/reviewButton/widget.js",
+            "text": "/*\\\ntitle: $:/core/modules/widgets/setReview.js\ntype: application/javascript\nmodule-type: widget\n\nSet variable widget\n\n\\*/\n(function(){\n\n/*jslint node: true, browser: true */\n/*global $tw: false */\n\"use strict\";\n\nvar Widget = require(\"$:/core/modules/widgets/widget.js\").widget;\n\nvar SetWidget = function(parseTreeNode,options) {\n\tthis.initialise(parseTreeNode,options);\n};\n\n/*\nInherit from the base widget class\n*/\nSetWidget.prototype = new Widget();\n\n/*\nRender this widget into the DOM\n*/\nSetWidget.prototype.render = function(parent,nextSibling) {\n\tthis.parentDomNode = parent;\n\tthis.computeAttributes();\n\tthis.execute();\n\tthis.renderChildren(parent,nextSibling);\n};\n\n/*\nCompute the internal state of the widget\n*/\nSetWidget.prototype.execute = function() {\n\t// Get our parameters\n\tthis.setName = this.getAttribute(\"name\",\"currentTiddler\");\n\tthis.setFilter = this.getAttribute(\"filter\");\n\tthis.setSelect = this.getAttribute(\"select\");\n\tthis.setTiddler = this.getAttribute(\"tiddler\");\n\tthis.setSubTiddler = this.getAttribute(\"subtiddler\");\n\tthis.setField = this.getAttribute(\"field\");\n\tthis.setIndex = this.getAttribute(\"index\");\n\tthis.setValue = this.getAttribute(\"value\");\n\tthis.setEmptyValue = this.getAttribute(\"emptyValue\");\n\t// Set context variable\n\tthis.setVariable(this.setName,this.getValue(),this.parseTreeNode.params);\n\t// Construct the child widgets\n\tthis.makeChildWidgets();\n};\n\n/*\nGet the value to be assigned\n*/\nSetWidget.prototype.getValue = function() {\n\tvar value = this.setValue;\n\tif(this.setTiddler) {\n\t\tvar tiddler;\n\t\tif(this.setSubTiddler) {\n\t\t\ttiddler = this.wiki.getSubTiddler(this.setTiddler,this.setSubTiddler);\n\t\t} else {\n\t\t\ttiddler = this.wiki.getTiddler(this.setTiddler);\t\t\t\n\t\t}\n\t\tif(!tiddler) {\n\t\t\tvalue = this.setEmptyValue;\n\t\t} else if(this.setField) {\n\t\t\tvalue = tiddler.getFieldString(this.setField) || this.setEmptyValue;\n\t\t} else if(this.setIndex) {\n\t\t\tvalue = this.wiki.extractTiddlerDataItem(this.setTiddler,this.setIndex,this.setEmptyValue);\n\t\t} else {\n\t\t\tvalue = tiddler.fields.text || this.setEmptyValue ;\n\t\t}\n\t} else if(this.setFilter) {\n\t\tvar results = this.wiki.filterTiddlers(this.setFilter,this);\n\t\tif(this.setValue == null) {\n\t\t\tvar select;\n\t\t\tif(this.setSelect) {\n\t\t\t\tselect = parseInt(this.setSelect,10);\n\t\t\t}\n\t\t\tif(select !== undefined) {\n\t\t\t\tvalue = results[select] || \"\";\n\t\t\t} else {\n\t\t\t\tvalue = $tw.utils.stringifyReview(results);\t\t\t\n\t\t\t}\n\t\t}\n\t\tif(results.length === 0 && this.setEmptyValue !== undefined) {\n\t\t\tvalue = this.setEmptyValue;\n\t\t}\n\t} else if(!value && this.setEmptyValue) {\n\t\tvalue = this.setEmptyValue;\n\t}\n\treturn value || \"\";\n};\n\n/*\nSelectively refreshes the widget if needed. Returns true if the widget or any of its children needed re-rendering\n*/\nSetWidget.prototype.refresh = function(changedTiddlers) {\n\tvar changedAttributes = this.computeAttributes();\n\tif(changedAttributes.name || changedAttributes.filter || changedAttributes.select || changedAttributes.tiddler || (this.setTiddler && changedTiddlers[this.setTiddler]) || changedAttributes.field || changedAttributes.index || changedAttributes.value || changedAttributes.emptyValue ||\n\t   (this.setFilter && this.getValue() != this.variables[this.setName].value)) {\n\t\tthis.refreshSelf();\n\t\treturn true;\n\t} else {\n\t\treturn this.refreshChildren(changedTiddlers);\n\t}\n};\n\nexports.setReview = SetWidget;\n\n})();\n",
+            "type": "application/javascript",
+            "module-type": "widget",
+            "created": "20180915200629094",
+            "modified": "20180915202328565",
+            "tags": ""
+        }
+    }
+}

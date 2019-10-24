@@ -1,0 +1,38 @@
+created: 20181217180217314
+modified: 20181218071024632
+tags: [[RGM Notes]] [[Wiki Audit]]
+title: 2018.12.17 - Wiki Audit: 18 On Hold
+
+So, 5.1.18 has been a clusterfuck. They have no official testing, and I can tell. A sufficient number of problems have arisen such that 5.1.19 must be immediately released. Imho, they need to set aside the core functions and build a test suite. I don't know enough about the wiki to do that. Interestingly, I think a test-wiki is exactly what would allow newcomers (and slowpokes like me) to actually understand the internals of the wiki. The documentation is a mess, and testing may be a way to stabilize that.
+
+Give me documentation like i3, python, or arch, and I can at least look like I know what I'm doing enough to build what I want. Maybe this is my fault still though.
+
+I'm going to wait. `/sadsniff` I will wait for you KeeBoord, Kin, link autocompletion, and loading screen!
+
+---
+
+I am not convinced I will be able to improve my handle on (or mitigation of) the race condition gremlins in Bob. Part of the issue is that I edit too quickly. I've noticed that if I wait a minute, the locks drop. The fact is that I really want to pop in, edit, pop-out/save in seconds in many cases. The lag is annoying.
+
+[[Sphygmus]]' firmcoding is the {[[focus]]}. Once we have a firmcoding process in place, I will have no excuse not to revamp every directory for it. From there, we move onto [[Search of h0p3]] to supercharge her firmcoding and button workstation (among other things).
+
+Also, her update is now to 2.1 on the plugin! =)
+
+---
+
+Tiddlytool has to be reset PER tab in Bob. Ugh. I can see why he abandoned it.
+
+---
+
+Can we build a testing suite that doesn't take up too much space? Perhaps this is a tool that [[j3d1h]] and I need to build. It WOULD teach us about TW in a radical way. That might not be a terrible idea. Meh. This seems like the wrong thing somehow. What I would like more than testing TW across the board is really a benchmarking tool. If not that, unique snippets, idiomatic expressions, and [[diamondic]] approaches to problems should be captured. [[TW: Cheatsheet]] is a very minimal start, I suppose.
+
+It is interesting to see that Jermolene really does mean for this project to only last for 20 years (eh, I might not be around anyway, but perhaps...I don't know how long it will take me to write this...part of me hopes and thinks it will be a lifetime [and part obviously doesn't]). He has already mentioned //TWX// and how he would build the next generation different from TW5. Considering the HUGE fucking gap between TWC and TW5, I am worried about being too specific in the tooling. Many of the tools built for TWC simply do not port over to TW5. This is a very strong case for trying to be vanilla in everything.
+
+Will there be a TWX? Again, static content is the key. I can refactor quite a bit. Building as statically as I can will go a long way.
+
+---
+
+I have made it through 2017.10. Can I finish? 2 months to go in 2 weeks!
+
+---
+
+Hey, you know you need, [[h0p3]]? You need another [[Core Daily Requirement]]!! ROFLMAOWTFPWNBBQSAWCE!!!! Awww sheeeeeeit.
