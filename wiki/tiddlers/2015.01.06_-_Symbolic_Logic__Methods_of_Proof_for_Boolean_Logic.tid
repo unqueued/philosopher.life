@@ -1,0 +1,741 @@
+created: 20180705004957021
+creator: h0p3
+modified: 20181031035931171
+modifier: h0p3
+tags: Tulane
+title: 2015.01.06 - Symbolic Logic: Methods of Proof for Boolean Logic
+
+12
+
+
+§ 5.1
+
+In this chapter, we will examine informal proof methods and inferences using the Boolean Connectives. These informal methods and inferences will underwrite our formal methods in the Fitch-style proof system. To some extent, you likely already have a grasp of many of these inferences from ordinary, natural reasoning, but also from your work with truth tables.
+
+
+
+Let’s consider some simple, valid, informal inference steps which will underwrite our formal rules. Note, these are not formal schematics or explanations of how we will employ these inferences in Fitch – I’m just trying to juice your intuitions.
+
+
+
+Conjunction Elimination, ∧ Elim - From a conjunction of any number of sentences, one may infer any one of the conjuncts.
+
+
+
+From P ∧ Q: infer P (or infer Q).
+
+
+
+|P ∧ Q
+
+|P
+
+
+
+P is the tautological consequence of P ∧ Q.
+
+
+
+We can use a truth table to prove that P is the tautological consequence of P ∧ Q. From now one, we are just going to assume that any case of conjunction elimination is provable, and that it won’t be necessary (even though it is possible) to prove it on the truth table.
+
+
+
+Note how the starting sentence, P ∧ Q, is more informative than the resulting sentence, P. We can also generalize this inferential move to conjunctions of any size.
+
+
+
+From P1 ∧ P2 ∧ … ∧ Pn: infer Pi (where ‘i’ is between 1 and ‘n’)
+
+infer P1 ∧ P2 (and so on)
+
+
+
+Every Pi is the tautological consequence of P1 ∧ P2 ∧ … ∧ Pn
+
+
+
+Conjunction Introduction, ∧ Intro - From any number of sentences, one may infer the conjunction of these sentences.
+
+
+
+From {P, Q}: infer P ∧ Q
+
+
+
+|P
+
+|Q
+
+|P ∧ Q
+
+
+
+P ∧ Q is the tautological consequence of {P, Q}
+
+
+
+Just a heads up: while the intro rule is theoretically capable of being generalized for generating arbitrarily large conjunctions, in practice, we will only use Conjunction Intro to introduce simple conjunctions with two conjuncts and no more. Thus, in practice, we won’t be doing this:
+
+
+
+From {P1, P2, …, Pn}: infer P1 ∧ P2 ∧ … ∧ Pn
+
+
+
+Disjunction Introduction, ∨ Intro - From any sentence, one may infer a disjunction of any number of sentences containing that sentence as a disjunct.
+
+
+
+From P: infer P ∨ Q
+
+infer P ∨ Z
+
+infer P ∨ (Q ∧ ¬Z) (and so on)
+
+
+
+|P
+
+|P ∨ Q
+
+
+
+P ∨ Q is the tautological consequence of P
+
+
+
+Note how the starting sentence, P is especially more informative than the resulting sentence, P ∨ Q.
+
+
+
+Negation Elimination, ¬ Elim – From any double negated sentence, one may infer the sentence without those two negations.
+
+
+
+From ¬¬P: infer P
+
+
+
+|¬¬P
+
+|P
+
+
+
+P is the tautological consequence of ¬¬P
+
+
+
+Alright, so that is it for easy and intuitive informal methods. Again, these can all be proven on the truth table, but we are now going to simply assume these inferential moves are valid. These are the immediately obvious ones. The others will take a bit of work to understand.
+
+
+
+The Fitch deductive system employs a pair of Intro/Elim rules for each connective. We already have the formal Intro/Elim rules for Identity and we covered the informal reasoning which supports those formal rules. We have just now considered the informal reasoning which will eventually support our Intro/Elim rules for Conjunction, as well as the Disjunction Intro rule and the Negation Elim rule. However, you will notice that we’ve not considered the informal reasoning which will support the formal rules for Disjunction Elimination and Negation Introduction. The rest of the chapter is devoted to the informal reasoning which will underwrite these rules. At the end of this chapter, you should be able to provide informal reasoning for the Intro/Elim rules of Identity and all three Boolean operators.
+
+
+
+For, the two inferences we are about to cover, they also represent tautological consequence, we lack the necessary information to use our truth tables to prove tautological consequence. Rest assured, the following proof methods can be demonstrated as inferences of tautological consequence – the truth table will also underwrite these.
+
+
+
+Suggested Reading and Practice Work: Chapter.Section 5.1 Problems 5.1-5.6
+
+
+
+§ 5.2
+
+In most cases, proofs allow us to extract new information from the information we already have. Recall that every step of a proof (formal or informal) should be easily understood and significant. Easily understood means easy to see the step is valid, i.e. it is easy to see that the result of the step is a logical consequence of the previous information. Easiness, obviously, is audience sensitive. You have to strike a balance between being making significant moves in your proof and making sure they are easy enough to follow. On average, our margin of significance is fairly low in this class; we have to be pedantic. The following informal proof method, which we refer to as Proof by Cases, will underwrite our formal Disjunction Elimination rule, and it has a higher than average margin of significance, and subsequently, you should expect it be harder to follow and comprehend than the other informal inferences.
+
+
+
+Proof by cases: In a proof by cases, one begins with a disjunction (as a premise, or as an intermediate conclusion already proven). One then shows that a certain consequence may be deduced from each of the disjuncts taken separately. One concludes that that same sentence is a consequence of the entire disjunction.
+
+
+
+From P ∨ Q, and from the proofs that S follows from P and S also follows from Q: infer S.
+
+
+
+The general proof strategy looks like this: if you have a disjunction, then you know that at least one of the disjuncts is true—you just don’t know which one. So you consider the individual “cases” (i.e., disjuncts), one at a time. You assume the first disjunct, and then derive your conclusion from it. You repeat this process for each disjunct. So it doesn’t matter which disjunct is true—you get the same conclusion in any case. Hence you may infer that it follows from the entire disjunction. In practice, these cases are each a small subproof.
+
+
+
+In our example, P ∨ Q is assumed to be true. Since P ∨ Q is assumed to be true, we know at least one the disjuncts, P or Q, is true. We don’t necessarily know which of these two disjuncts are true, but we know that at least one must be true. Because at least one must be true, if you prove that S follows from P, and that S follows from Q, then you’ve proven S follows from P ∨ Q. And, since P ∨ Q is assumed true, and since we’ve proven S follows from P ∨ Q, then we can infer S.
+
+
+
+Assume P ∨ Q
+
+Prove S follows P (case 1)
+
+Assume P (for the sake of argument), prove S
+
+Prove S follows Q (case 2)
+
+Assume Q (for the sake of argument), prove S
+
+You’ve proven S follows from P ∨ Q
+
+Since P ∨ Q is true (by assumption), infer S
+
+
+
+Here is the generalized schematic of the informal Proof by Cases:
+
+    To prove S is the tautological consequence of P1 ∨ P2 ∨ … ∨ Pn, show that S is a tautological consequence of each disjunct.
+
+    Since P1 ∨ P2 ∨ … ∨ Pn is assumed to be true, then S is the tautological consequence of P1 ∨ P2 ∨ … ∨ Pn
+
+P1 ∨ P2 ∨ … ∨ Pn	(Assume)
+
+If P1, then S (case 1 subproof to prove this)
+
+If P2, then S (case 2 subproof to prove this)
+
+…
+
+If Pn, then S (case 3 subproof to prove this)
+
+Thus, if P1 ∨ P2 ∨ … ∨ Pn, then S.
+
+Since P1 ∨ P2 ∨ … ∨ Pn is true (by assumption), infer S
+
+
+
+Proof by Cases is specific to disjunctions. Proof by cases underwrites F’s disjunction elimination (∨ Elim)
+
+Sp’	(Cube(c) ∧ Small(c)) ∨ (Tet(c) ∧ Small(c))
+
+Show: Small(c)
+
+
+
+Case 1 – Cube(c) ∧ Small(c)
+
+Small(c) ∧ Elim
+
+
+
+Case 2 – Tet(c) ∧ Small(c)
+
+Small(c) ∧ Elim
+
+
+
+This exhausts the possibilities. So, Small(c)
+
+
+
+Sp’ (Home(max) ∧ Happy(carl)) ∨ (Home(claire) ∧ Happy(scruffy))
+
+Show: Happy(carl) ∨ Happy(scruffy)
+
+
+
+Case 1 – Home(max) ∧ Happy(carl)
+
+Happy(carl) ∧ Elim
+
+Happy(carl) ∨ Happy(scruffy) ∨ Intro
+
+
+
+Case 2 - Home(claire) ∧ Happy(scruffy)
+
+Happy(scruffy) ∧ Elim
+
+Happy(carl) ∨ Happy(scruffy) ∨ Intro
+
+
+
+This exhausts the possibilities. So, Happy(carl) ∨ Happy(scruffy)
+
+
+
+Before I move on, I to emphasize again that truth tables are capable of underwriting any application of the “proof by cases” method. We currently don’t have the necessary information to understand why though, so I will pass over the proof of this.
+
+
+
+Suggested Reading and Practice Work: Chapter.Section 5.2 Problems 5.7-5.11, 5.14
+
+
+
+§5.3
+
+Proof by contradiction: Also called indirect proof or reductio ad absurdum. In a proof by contradiction, one assumes that one’s conclusion is false, and then tries to show that this assumption (together with the argument’s premises) leads to a contradiction. Since contradictions are logically impossible, we know the conclusion cannot be false if all the premises are true—i.e., that the conclusion must be true if the premises are true. That is to say, that the conclusion is a logical consequence of the premises.
+
+
+
+Suppose you want to prove ¬S from P1, P2, ..., Pn, assume S, show that a contradiction arises from S and P1, P2,...,Pn, thus S is false: infer ¬S
+
+
+
+We are establishing a negative conclusion. You assume S, which is equivalent to the negation of the argument’s conclusion, and treat it as a premise along with P1, P2, ..., Pn. You then try to deduce from these assumptions a contradiction—a pair of sentences that contradict one another, e.g., Q and ¬Q. Since contradictions are impossible, and usually the reason we arrived at a contradiction was because we assumed S, then we know S has to be false, i.e., we should infer ¬S. (The exception is that the premises are inconsistent, which means we can deduce anything).
+
+
+
+Essentially, we are showing that S is not logically consistent with the premises. Whenever the premises are true, S must be false. But, that is just the same as saying that whenever the premises are true, ¬S is true. But that is just the same as saying that ¬S is the consequence of the premises.
+
+
+
+A contradiction is a sentence which is necessarily false, such as A and ¬A, or inconsistent claims like Cube(c) and Tet(c). The surd symbol, ⊥, represents a contradiction.
+
+
+
+⊥: Absurd, Surd, bottom, falsity, the false, contradiction, necessarily false, the impossible
+
+
+
+Surd comes in different flavors, and that is because surd is representative of the notion of impossibility.
+
+
+
+Cube(b) ∧ ¬Cube(b)
+
+
+
+In virtue of the meanings of the predicates, results in absurdity – it is a logical contradiction, it is a logical impossibility. We know that tautological impossibility is a subset of logical impossibility, and thus surd can also represent tautological impossibility.
+
+
+
+A ∧ ¬A
+
+
+
+This is absurd, since all the rows are false on the truth table; it is a tautological contradiction, it is tautologically impossible.
+
+
+
+With surd in hand, here is a rough sketch of what is happening in the reductio:
+
+
+
+|P1 T
+
+|P2	T
+
+|… T
+
+|Pn T
+
+|S ?
+
+|… (draw some intermediate conclusions if necessary)
+
+|⊥ F
+
+
+
+We’ve already established, by assumption that P1, P2, ..., Pn are true. The question is whether S is true or false. If we can show a contradiction arises when S is true (alongside the premises), then we know the culprit to blame for that contradiction, S. Since we know the premises are true, and we know the premises and S eventually culminate in a contradiction, then S can’t be true at the same time that the premises are true. If we know S can’t be true, then we know ¬S has to be true.
+
+
+
+Sp’:	Large(b)
+
+Small(c)
+
+Show: ¬SameSize(b, c)
+
+Assume for reductio: SameSize(b, c)
+
+By the assumption that b and c are the same size, and the premise that b is large, we may deduce c is large. It is impossible for c to be large and small at the same time. Surd. Thus, ¬SameSize(b, c)
+
+
+
+Sp’:	¬Cube(a)
+
+Show: ¬(Cube(a) ∧ Dodec(b))
+
+Assume for reductio: Cube(a) ∧ Dodec(b)
+
+
+
+By our assumption, Cube(a) ∧ Dodec(b), thus we know a is a cube. By our supposition, a is not a cube. It is impossible for a to be a cube and not a cube at the same time. Surd. Thus, ¬(Cube(a) ∧ Dodec(b)).
+
+
+
+Sp’:	Cube(c) ∨ Dodec(c)
+
+Tet(b)
+
+Show: b ≠ c
+
+Assume for reductio: b = c.
+
+Case 1: Cube(c)
+
+We have Cube(c) and Tet(b). But, since b=c, we have a Tet(c). It is impossible for Cube(c) and Tet(c) to be true at the same time. Surd.
+
+
+
+Case 2: Dodec(c)
+
+Then we have Dodec(c) and Tet(b). But, since b=c, we have Tet(c). It is impossible for Dodec(c) and Tet(c) to be true at the same time. Surd.
+
+
+
+Since this exhausts the cases, the premises plus b = c lead to impossibility, i.e. surd. Thus, b ≠ c
+
+
+
+Not all proofs by contradiction demonstrate tautological consequence, some are only logical consequence. When proofs rely upon the meanings of predicates, then we can only make logical (and not tautological) claims about consequence. There are some proofs by contradiction, however, that demonstrate tautological consequence. For example:
+
+
+
+Cube(a) Dodec(b)) || ¬Cube(a) ∧ (Cube(a) ∧ Dodec(b)) | ¬(Cube(a) ∧ Dodec(b))
+
+T T || F F T | F T
+
+T F || F F F | T F
+
+F T || T F F | T F
+
+F F || T F F | T F
+
+
+
+Clearly, ¬Cube(a) ∧ (Cube(a) ∧ Dodec(b)) is tautologically impossible. It is absurd. Anything follows from absurdity. Every sentence is the consequence of absurdity. In this case, we know the second sentence is the tautological consequence of the first. The first sentence is never true, which means that every sentence ends up being true when the first sentence is true.
+
+
+
+Suggested Reading and Practice Work: Chapter.Section 5.3 Problems 5.7-5.14
+
+
+
+§ 5.4
+
+Arguments with inconsistent premises - If a set of premises is inconsistent, any argument having those premises is valid. This is vacuously true. It is trivially the case. If you start with absurdity, then anything you say afterwards is going to be a consequence of it. Inconsistent premises get you absurdity, and thus any conclusion which follows from it will be a logical consequence. Therefore, any argument with inconsistent premises is valid. If the premises are inconsistent, there is no possible circumstance in which they are all true. So no matter what the conclusion is, there is no possible circumstance in which the premises are all true and the conclusion is false.
+
+
+
+But no such argument is sound, since a sound argument is not only valid but has true premises.
+
+
+
+Why should we be interested in arguments with inconsistent premises? Well, we know that if you can derive a contradiction ⊥from a set of premises, the set is inconsistent. (If it were possible for the premises all to be true, then since we have derived ⊥from them, it would have to be possible for ⊥to be true, and this clearly is not possible.)
+
+
+
+We may not know, at the start, that our premises are inconsistent, but if we derive ⊥from them, we have established that they are inconsistent. If a set of premises, or assumptions, is inconsistent, it is important to know this. And being able to deduce a contradiction from them is an excellent way of showing this. We may not be able to show, using logic alone, which premise is false, but we can establish that at least one of them is false.
+
+
+
+A Connection between validity and inconsistency
+
+Consider this valid argument:
+
+
+
+T |Cube(a) ∨ Cube(b)
+
+T |¬Cube(a)
+
+T |Cube(b)
+
+
+
+The argument is valid because it is impossible for the premises to be true and the conclusion false, i.e. it is valid because the conclusion is the logical consequence of the premises. In fact, this is a case of tautological consequence:
+
+
+
+Cube(a) Cube(b) || (Cube(a) ∨ Cube(b)) ∧ ¬Cube(a) | Cube(b)
+
+T T || T F F | T
+
+T F || T F F | F
+
+F T || T T T | T
+
+F F || F F T | F
+
+
+
+When an argument is valid, its conclusion is a logical consequence of its premises. Another way to put this is to say that it would be inconsistent to assert the premises and deny the conclusion. This means that for an argument to be logically valid is for the conjunction of the set of premises and the negation of the conclusion to be logically inconsistent.
+
+
+
+Take the conclusion of a valid argument, throw a negation on it, and that conclusion will be logically inconsistent with the premises. In our example:
+
+
+
+Cube(a) Cube(b) || (Cube(a) ∨ Cube(b)) ∧ ¬Cube(a) | ¬Cube(b)
+
+T T || T F F | F
+
+T F || T F F | T
+
+F T || T T T | F
+
+F F || F F T | T
+
+
+
+
+
+We know from just looking at this that the conclusion is not the tautological consequence of the premises, since there is a row where the premises are true and the conclusion false.
+
+
+
+Recall the diagram we had. To claim tautological inconsistency is a very strong claim. It is possible that two sentences aren’t tautological consequences of each other, but are still tautologically consistent. You will note, however, that the truth table shows that the negation of the conclusion of a valid argument results in the strong claim that the sentences are tautologically inconsistent.
+
+
+
+In all cases, for an argument to be valid is for its premises to be logically inconsistent with the negation of its conclusion. That is not a light statement.
+
+
+
+Suggested Reading and Practice Work: Chapter.Section 5.4 Problem 5.27
+
+
+---
+
+
+
+6
+
+
+Problem 4.27
+
+
+
+|1. Cube(a) ∨ Cube(b) Show: Cube(b) ∨ Dodec(d)
+
+|2. Dodec(c) ∨ Dodec(d)
+
+|3. ¬Cube(a) ∨ ¬Dodec(c)
+
+
+
+There is a cheaty way to solve any problem that allows you to use Taut Con (when it enables you to cite more than 1 line). Recall that a valid argument is such that the conclusion is the consequence of the premises. So far, we’ve only been dealing in tautological consequence in our Fitch-style proofs (it will stay that way until we get to quantifiers).
+
+
+
+|1. P1	Show: S
+
+|2. P2
+
+|3. P3
+
+|…
+
+|k. Pn
+
+|k + 1. S Taut Con: 1, 2, 3, …, k
+
+
+
+The above is equivalent to this:
+
+
+
+|1. P1 ∧ P2 ∧ … ∧ Pn	Show S
+
+|2. S Taut Con: 1
+
+
+
+The difference is just the use of conjunctions which limits how many lines Taut Con needs to cite. Hence, if you are allowed to cite more than one line for Taut Con, you can be sneaky and build the equivalent conjunction statement:
+
+
+
+|1. P1	Show: S
+
+|2. P2
+
+|3. P3
+
+|…
+
+|k. Pn
+
+|k + 1. P1 ∧ P2	Taut Con: 1, 2
+
+|k + 2. P1 ∧ P2 ∧ P3	Taut Con: k+1, 3
+
+|…
+
+|k + k – 1. P1 ∧ P2 ∧ … ∧ Pn	Taut Con: k + k – 2, k
+
+|k + k. S Taut Con: k + k -1
+
+
+
+(Technically, it is a line longer than it needs to be, but I’m making the last step a single citation for clarity).
+
+
+
+However, this cheap trick, which demonstrates the immense power of the Taut Con rule, is not the way in which you should choose to wield it. You should use Taut Con to actually make leaps of logic rather than abuse the very definitions of validity and consequence. Now is the time to begin training your logic muscles. The point of this exercise was to make you exercise – to force you to explore, to juice your intuitions. Taut Con, as a rule, is really like having training wheels. In a few weeks, we are not going to have those training wheels, we’ll be using our Intro/Elim rules to do all of the work, and this will become far more difficult.
+
+
+
+|1. Cube(a) ∨ Cube(b) Show: Cube(b) ∨ Dodec(d)
+
+|2. Dodec(c) ∨ Dodec(d)
+
+|3. ¬Cube(a) ∨ ¬Dodec(c)
+
+|4. ¬Cube(a) ∨ Dodec(d) Taut Con: 3, 2
+
+|5. Cube(b) ∨ Dodec(d) Taut Con: 4, 1
+
+
+
+
+
+Informally, we might be able to convince ourselves pretty quickly. Take (2), if Dodec(c) is true, then we know that ¬Cube(a) must be true from (3), since the other disjunct, ¬Dodec(c), would contradict our assumption. Thus, we might say that whenever Dodec(c) would be true, ¬Cube(a) would be true. Thus, we replace Dodec(c) in (2) with ¬Cube(a), giving us (4), ¬Cube(a) ∨ Dodec(d). Similarly, using (4) and (1), we can see that if Cube(a) is true in (1), then Dodec(d) must be true in (4), else we have a contradiction. Thus, we can make the same replacement, of Cube(a) with Dodec(d). Giving us, Dodec(d) ∨ Cube(b), which is equivalent to Cube(b) ∨ Dodec(d). QED.
+
+
+
+In some contexts, that would count as an informal proof. Given the difficulty of the problem
+
+A more pedantic informal proof of this, which is more than just convincing ourselves, requires a step-by-step demonstration that the conclusion is a consequence of the premises that will take longer. Note, however, the way we convinced ourselves of the validity of this argument sheds light on the correct informal proof (and will also, therefore, shed light on the correct formal proof in the Fitch system).
+
+
+
+Let us remove the training wheels of Taut Con, momentarily, and see exactly what kind of elaborate work it was doing for us, namely in terms of our informal proofs by cases and contradiction.
+
+
+
+Take (2), Dodec(c) ∨ Dodec(d), and build an overall proof by cases around it; our goal will be (4), ¬Cube(a) ∨ Dodec(d).
+
+
+
+Proof by cases, using Dodec(c) ∨ Dodec(d)
+
+C1: Dodec(c)
+
+
+
+Take (3), ¬Cube(a) ∨ ¬Dodec(c), and build a proof by cases around it, nested inside the first case of our overall proof by cases; our goal will be ¬Cube(a) ∨ Dodec(d) for this proof by cases as well.
+
+
+
+Proof by cases, using ¬Cube(a) ∨ Dodec(d)
+
+C1’: ¬Cube(a)
+
+¬Cube(a) ∨ Dodec(d) ∨Intro	
+
+C2’: ¬Dodec(c)
+
+
+
+Recall that if your premises are inconsistent, that means absurdity follows, and that means anything is the consequence of those premises. Obviously, we have a contradiction here, between C2’ of the inner proof by cases and C1 of the outer. How do we harness this contradiction? Previously, we made a giant leap of logic using Taut Con. However, since we being pedantic here, we need to make a proof by contradiction. We know that with ¬Cube(a) with ∨Intro gives us what we need, so let us assume Cube(a) and prove that absurdity arises, thus giving us ¬Cube(a).
+
+
+
+Assume for reductio: Cube(a)
+
+⊥, from our contradictory premises
+
+Thus, Cube(a) must be false, and via proof by contradiction, we know ¬Cube(a)
+
+
+
+Note that because had a contradiction to begin with, we could have proved anything we wanted. In this case, however, that we had something specific in mind that we needed, and we can make the same moves as in C1’ now:
+
+
+
+¬Cube(a) ∨ Dodec(d) ∨Intro
+
+
+
+Since all possibilities have been exhausted, ¬Cube(a) ∨ Dodec(d) follows from ¬Cube(a) ∨ Dodec(d).
+
+
+
+Note, however, that this only worked because we’ve done a proof by cases nested inside another proof by cases. C1 was vital to completing C2’, since C2’ required a proof by contradiction.
+
+
+
+C2: Dodec(d)
+
+¬Cube(a) ∨ Dodec(d) ∨Intro
+
+
+
+Since all possibilities have been exhausted, ¬Cube(a) ∨ Dodec(d) follows from Dodec(c) ∨ Dodec(d).
+
+
+
+Thus, our current argument is of this form:
+
+
+
+|1. Cube(a) ∨ Cube(b) Show: Cube(b) ∨ Dodec(d)
+
+|2. Dodec(c) ∨ Dodec(d)
+
+|3. ¬Cube(a) ∨ ¬Dodec(c)
+
+|4. ¬Cube(a) ∨ Dodec(d) Proof by Cases, using (2)
+
+
+
+I want to note this is an oversimplication, but it will do for now. It is important to see that the same methods we used to arrive at intermediate conclusion (4) will get us to our final conclusion (5).
+
+
+
+Proof by cases, using Cube(a) ∨ Cube(b)
+
+C1: Cube(a)
+
+
+
+Proof by cases, using ¬Cube(a) ∨ Dodec(d)
+
+C1’: ¬Cube(a)
+
+
+
+Assume for reductio: ¬Cube(b)
+
+⊥, from our contradictory premises
+
+Thus, ¬Cube(b) must be false, and via proof by contradiction, we know Cube(b)
+
+
+
+Cube(b) ∨ Dodec(d) ∨Intro
+
+
+
+C2’: Dodec(d)
+
+Cube(b) ∨ Dodec(d) ∨Intro
+
+
+
+Since all possibilities have been exhausted, Cube(b) ∨ Dodec(d) follows from ¬Cube(a) ∨ Dodec(d).
+
+
+
+C2: Cube(b)
+
+
+
+Cube(b) ∨ Dodec(d) ∨Intro
+
+
+
+Since all possibilities have been exhausted, Cube(b) ∨ Dodec(d) follows from Cube(a) ∨ Cube(b).
+
+
+
+Hence, our final “simplified” argument form looks like this:
+
+
+
+|1. Cube(a) ∨ Cube(b) Show: Cube(b) ∨ Dodec(d)
+
+|2. Dodec(c) ∨ Dodec(d)
+
+|3. ¬Cube(a) ∨ ¬Dodec(c)
+
+|4. ¬Cube(a) ∨ Dodec(d) Proof by Cases, using (2)
+
+|5. Cube(b) ∨ Dodec(d) Proof by Cases, using (1)
+
+
+
+Taut Con saved us from doing a lot of work. You will find that our formal proofs will mimic the same moves that the informal proofs do, but will do so in a compact, symbolized manner.

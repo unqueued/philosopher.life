@@ -1,0 +1,36 @@
+created: 20181003160301700
+creator: h0p3
+modified: 20181020180700988
+modifier: h0p3
+tags: [[Wiki Audit]]
+title: 2018.10.03 - Wiki Audit: The Checklist
+
+[[Wiki Audit: Remodeling]]
+
+{{Wiki Audit: Remodeling}}
+
+---
+
+Tried the Unilink plugin. It solves one of my problems nicely, but unfortunately, it breaks references. That's unacceptable to me. It freezes my Xeon; I don't even want to know what it looks like on another machine. Transclusion is the way to go for now...I think.
+
+---
+
+Tried adding KeeBoord for faster tag completion. I keep getting this error:
+
+`TypeError: this.wiki.addToStory is not a function`
+
+---
+
+The Complete Audit is extremely search intensive. Hrmm...Maybe I should call this //The Remodeling//.
+
+---
+
+SnR: "{Home}" for "[[Root]] (previously `[[{Home}]]`)"
+
+---
+
+Dropping a no non-sense asswhoopin' on {[[Principles]]}. FUCK YEAH!
+
+---
+
+Uh...I can't italizice/bold from shortcuts anymore? What's the difference?

@@ -1,0 +1,15 @@
+created: 20170217233630950
+modified: 20181115190624894
+modifier: h0p3
+revision: 0
+tags: Retired
+title: 2017.11.30 - Retired: Linux Scripts
+
+* [[HTPC's Seedbox LFTP Sync (1-way) Script]]
+* [[HTPC's SAMBA Setup Script]]
+* [[Headless Lubuntu DE Setup Script]]
+* [[Backup File to Archive Script]]
+* [[Lighttpd + Letsencrypt Setup Script]]
+* [[vsFTPd Server Setup Script]]
+* [[Cockatrice Ubuntu 16.04 Setup Script]]
+* [[Whitelist-Only DNSmasq Setup]]

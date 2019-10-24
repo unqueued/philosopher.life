@@ -1,0 +1,46 @@
+created: 20180721221821143
+creator: h0p3
+modified: 20181225000307046
+modifier: h0p3
+tags: TWGGF bash
+title: 2017.12.14 - Diego Mesa: CLI
+
+<<<
+Just sharing a simple bash script I use to quickly make a new tiddler with some default parameters and open it (in sublime text as I already set sublime text to be the default program to open .tid files) on my mac:
+
+```bash
+#!/bin/bash
+
+TW_LOC=...EDIT THIS TO POINT TO YOUR tiddlers/ DIRECTORY...
+TID_TAGS="[[TEMPORARY TID]] EDIT"
+TID_TEXT="My New Tiddler Text"
+
+if [ "$1" == "" ]; then
+    TID_TITLE="temp"
+else
+    TID_TITLE="$1"
+fi
+
+if [ ! -f "$TW_LOC/$TID_TITLE.tid" ]; then
+    echo -e "Creating new empty tiddler with name: $TID_TITLE.tid"
+   
+    echo -e "created:" `date -u +%Y%m%d%H%M%S` "\nmodified:" `date -u +%Y%m%d%H%M%S` "\ntags:$TID_TAGS\ntype: text/vnd.tiddlywiki\ntitle: $TID_TITLE\n\n$TID_TEXT" > "$TW_LOC/$TID_TITLE.tid"
+   
+    open "$TW_LOC/$TID_TITLE.tid"
+else
+    echo "Error - file with name $TID_TITLE.tid already exists."
+fi
+```
+
+    * It has one optional parameter which is the title of the tiddler. 
+      **  If no title is given, it just uses "temp". 
+    * If the file exists, it prints an error and does nothing
+    * If the file doesn't exist, a new tiddler is created in TW_LOC with configurable tags and text. 
+    * It assigns UTC time to created and modified
+
+This is very simple and in no way deals with any corner cases like titles with punctuation, etc. It has served me well for quickly jotting down notes, so I just share here in case its useful to others as well/
+
+Best,
+
+Diego
+<<<

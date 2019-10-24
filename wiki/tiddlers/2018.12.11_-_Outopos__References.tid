@@ -1,0 +1,10 @@
+created: 20181211193223149
+modified: 20181217072254884
+tags: Outopos
+title: 2018.12.11 - Outopos: References
+
+Continuing on from yesterday, it's clear to me that if we aren't going to rebuild the hardware infrastructure, then we have to inject ourselves into the hostile, centralizing internet. This means that making a network that cannot be taken down will rest upon seeding decentralized applications with significant collections of longstanding, trustworthy guardian-class nodes of The Federation. Tor's model is a failure because it's centralized; they can take you off their network at will. Decentralized authority should not be built like that.
+
+Basically, when an application fires up and tries to enter the network, who controls the gateways? Currently, there are many different unique entrances to various DHTs. It doesn't take a genius to take these down, and advanced threats can even monitor them for metadata. They are points of failure. Having a reference to have someone open the door for you is necessary. I've talked about the possibility of brute-forcing this (as a last resort), but I think it makes far more sense for developers to realize this is something which should be constantly updated in their own software. The list of references to The Federation should be expansive, fault tolerant to a fault almost.
+
+Even the Peers should maintain and even test extensive automated lists of nodes here. It's not that expensive, and it's necessary for the health and defensive of the network. If we don't actually give a shit about The Republic, the social and technical infrastructure will crumble.

@@ -1,0 +1,14 @@
+created: 20181128233815334
+creator: h0p3
+modified: 20181129022510233
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.11.28 - Computer Musings: Antergos
+
+So, Manjaro Architect does not play nicely with Virtualbox when you want to just make a stripped minimal server install (I've never not installed a DE with the tool though). I tried Antergos' installer, and it was smooth sailing. Several excellent default options. Including the VBoxService it automagically installs: 54mb RAM usage. Yeah, I'll take that. Lol.
+
+I've set up 3 nodes for kicks, and if I see more dats worth supporting I'll add em; dimbob still isn't very easy to reach most of the time.
+
+---
+
+The git facepalm appears solved thanks to [[j3d1h]]'s help.

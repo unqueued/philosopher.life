@@ -1,0 +1,46 @@
+created: 20180407000733116
+creator: h0p3
+modified: 20180530232048712
+modifier: h0p3
+title: Logic Symbols
+
+Copy'n'paste key template: `=, ≠, ¬, ∧, ∨, 🡒, 🡘, ∀, ∃, ⊥, □, ⊤, ◇, ⇒, ⇔, ⊢, ⊨`
+
+* =
+** identity predicate, equal to, "is", picks out the same object in our domain as
+* !=, ≠
+** is not equal
+
+* ¬
+** negation, not
+* ∧
+** conjunction, and
+* ∨
+** disjunction, or
+
+* 🡒
+** conditional, if/then
+* 🡘
+** conditional, if and only if
+
+* ∀
+** universal, for all
+* ∃
+** existential, there exists some
+
+* ⊥
+** logically false, necessarily false, surd, falsum
+* □, ⊤
+** logically true, necessarily true, logical truth
+* ◇
+** logically possible, contingent
+
+* ⇒
+** logical consequence, material implication, a conditional true in all possible worlds
+* ⇔
+** logical equivalence, material equivalence, //iff// true in all possible worlds
+
+* ⊢
+** turnstile, syntactically provable
+* ⊨
+** double turnstile, semantic entailment

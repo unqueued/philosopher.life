@@ -1,0 +1,18 @@
+created: 20180731150131141
+creator: h0p3
+modified: 20181029175224789
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.07.31 - Computer Musings: Tweaks
+
+`xev` is wonderful tool for finding muh keys. Had to setup the media key for cozy audioplayer because I'm now back on Infinite Jest. Deadbeef was easier to setup on this front, but that's part of why I chose it. 
+
+Admittedly, while I do strongly admire the CLI-only approach, and I can see value in it, there are simply too many pieces of GUI software which are easier and more effective.
+
+---
+
+[[autostarts.sh]] is still not running correctly. I'm putting `sleep 15` up on it. I'm hoping that will fix it. It runs just fine from the terminal. Don't know why i3 isn't running it.
+
+---
+
+Setup `h0p3swiki@gmail.com` for forums. Can't forward to protonmail. "error" lol. I don't give a shit.

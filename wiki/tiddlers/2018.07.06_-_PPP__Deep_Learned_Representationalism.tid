@@ -1,0 +1,18 @@
+created: 20180706212203177
+creator: h0p3
+modified: 20180706235224268
+modifier: h0p3
+title: 2018.07.06 - PPP: Deep Learned Representationalism
+
+* https://blog.insightdatascience.com/the-unreasonable-effectiveness-of-deep-learning-representations-4ce83fc663cf
+* https://en.wikipedia.org/wiki/Histogram_of_oriented_gradients
+
+Our telos "fundamentally appeal[s] to our perception." "The way we perceive things is a strong predictor of" what we take to be [[The Good]]. Clearly, we seek fundamentally efficient heuristics that border on being simplistically analog in their elegance. The representation of the salience is some kind of rule of thumb we gutterally know in our trained virtue-theoretic neuronal structures of the fastbrain.
+
+Deep learning can "automatically extract meaningful representations when trained on a large enough dataset." Our goal, then is to automate that automation recursively, turn up the salience in the meanings of our representations, and to train with optimized and efficient datasets. We must "adapt to data evolution, and how fast our model can run."
+
+The method discussed uses an "expressive vector representation, or embedding" to "calculate their similarity by looking at how close their vectors are to each other." This enables one to use "ahead of time" compilation and "common embeddings" for text to image search.
+
+The entire goal is to compress the representation. This is lossy compression in stages. These very sparse representations are quite accurate. It begins to look like analog/analogical reasoning. This is the Bayesian aspect of reasoning at work, increasing our confidence with an efficient empirical tool.
+
+"Summing two word vectors" seems like a good start. Surely there is still an efficient yet far more effective way to model than this. Let me also say, we are starting to climb the Turing Test tower now.

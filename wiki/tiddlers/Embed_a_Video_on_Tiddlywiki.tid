@@ -1,0 +1,11 @@
+created: 20170812132550143
+modified: 20170916225028103
+revision: 0
+title: Embed a Video on Tiddlywiki
+
+```
+<video controls autoplay loop> 
+    <source src="./images/foobar.webm" type="video/webm">
+    Your browser does not support the HTML 5 video tag.
+</video>
+```

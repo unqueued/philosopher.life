@@ -1,0 +1,39 @@
+created: 20181028193456918
+creator: h0p3
+modified: 20181029051502888
+modifier: h0p3
+tags: [[Wiki Audit]]
+title: 2018.10.28 - Wiki Audit: Custom Macro
+
+Thank you again, [[j3d1h]]. 
+
+[[Custom List Macros]] now contains another.
+
+`<<list-related>>`
+
+```
+\define list-related()
+<$macrocall $name="list-links" filter="[prefix[$(currentTiddler)$:]]"/>
+<$macrocall $name="list-links" filter="[tag[$(currentTiddler)$]!prefix[$(currentTiddler)$:]!regexp[\d\d\d\d.\d\d.\d\d - .*]]"/>
+<$macrocall $name="list-links" filter="[regexp[^\d\d\d\d\.\d\d\.\d\d - $(currentTiddler)$]]"/>
+<$macrocall $name="list-links" filter="[regexp[^\d\d\d\d\.\d\d\.\d\d - .*]tag[$(currentTiddler)$]!regexp[^\d\d\d\d.\d\d.\d\d - $(currentTiddler)$]]"/>
+\end
+```
+
+I have one template to edit now. Gorgeous!
+
+---
+
+Tagging and some automation.
+
+---
+
+Naming convention fixes.
+
+---
+
+Played with code appearance. Meh.
+
+---
+
+Omg, did I just finish my letter to [[kicks]]? Yes, I did other [[h0p3]], yes I did. Lol.

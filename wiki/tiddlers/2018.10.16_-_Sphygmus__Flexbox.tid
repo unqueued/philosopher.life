@@ -1,0 +1,39 @@
+created: 20181016133903956
+creator: h0p3
+modified: 20181104202339555
+modifier: h0p3
+tags: Sphygmus Note From
+title: 2018.10.16 - Sphygmus: Flexbox
+
+I see you've been trying to get flexbox working for you! That's a fun rabbithole for me to go down, and perhaps for you as well. I'm definitely still going have a go at the fixed/fluid setup, but just because I like both CSS and solving problems, I'm finicky, and I would someday like to have these refined enough to be usable standalone themes. I think it's awesome you're tackling this and making it your own!
+
+I did want to pass along some of my own experience that might help you build a setup that works for you. I built my flexbox from the ground up - that is, I deleted //all// the code in any of the vanilla theme related tiddlers to get to the "ugly Times New Roman squashed in weird ways" base html. That got rid of all the weird and hard to pin down conflicts I was having with the vanilla code (and is also why I default include zeroing out the vanilla code changes in my plugin).
+
+In terms of specific code thoughts...[[this website|https://meyerweb.com/eric/css/edge/]] is flexible b/c it uses percentages & ems for the measurements. I would probably use absolute positioning on the sidebar & percentages for its width, while `justify-content: flex-start;` the story river so that it doesn't overlap with the sidebar, then set the flex-basis percentages for its width. Ideally you would find the right percentage to get the tiddlers in your story river to be the same width as they are now on your screen. This does create the problem that the story river is on the left side of the screen and not centered...I see two solutions to that:
+
+# add an invisible sidebar div with a flex-basis matched to the width of the fixed sidebar and go back to justifying the content center (probably the most ideal solution in terms of CSS but also edits the default view template)
+# add a really wide left margin/padding (whichever one exhibits the wanted behavior) with a percentage width, to push the story river tiddlers into the center.
+
+okay I really have to start and finish my last answer on this take-home exam before I leave for class in 20 min. 😱
+
+---
+
+Hi h0p3,
+
+I hope the constant note-sending is alright! I want to help but I also don't want to get in your way - and then I see something and itch to clarify, sooo lots of notes.
+
+So when I said I deleted all of the vanilla code, I was specifically referring to everything in [[$:/themes/tiddlywiki/vanilla/base]].<<ref "list">> The flexbox setup is specifically related to the layout/construction of the building blocks (divs) of the page and in order to put the building blocks together I found it necessary to start without //any// CSS affecting their construction. That way, there isn't some unknown layout CSS making divs behave in funky ways.
+
+Specific funkiness: with my flexbox CSS installed, the "fluid-fixed/fixed-fluid" dropdown menu in the theme settings doesn't change anything about my code - only what's in that vanilla/base code. When you flip to fixed-fluid and put a value in the "sidebar breakpoint" the vanilla CSS adds `position: fixed` to the sidebar-scrollable div, and that breaks the flex (because my code doesn't change that value and therefore doesn't override it). Position values remove divs from the flex grid so they are no longer considered flex children, rendering flex-basis and other child flex properties invalid.
+
+If you go to the dropzone div<<ref "dev">> and do this: `justify-content: center` then you'll see the sidebar become visible...and then you can use the vanilla sidebar width setting in the control panel to set the width of the sidebar with a ''percentage'' (eg. 35%, like the former flex-basis value) and aha!! This is even closer to not-hacky than my previous solution! The scroll on the sidebar is broken, but fixed when you change `tc-sidebar-scrollable: { bottom: 0 }` to `tc-sidebar-scrollable: { top: 0 }`. I think this is pretty damn close to a working solution for flexbox fixed-fluid.
+
+okay, i'll step away for now! :)
+
+cheers, sphygmus
+
+---
+
+<<footnotes "list" "you can find a super useful list of everything that is affecting your CSS in `Control Panel > Info > Advanced > Stylesheets`, with tiddlers on the top being overwritten by the tiddlers below.">>
+
+<<footnotes "dev" "if you know this already, forgive me, but I wanted to be sure! I'm doing all of this value changing in the development tools (ctrl-shift-i in chrome, unsure about firefox). They are incredible for experimenting on the fly, seeing //everything// that's affecting a div, and so on. Once I've figured out what's going on and written my CSS code there, then I write it in a stylesheet tiddler.">>

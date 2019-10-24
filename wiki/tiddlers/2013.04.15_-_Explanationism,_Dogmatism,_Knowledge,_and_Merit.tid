@@ -1,0 +1,72 @@
+created: 20170313002200450
+modified: 20181031035931166
+modifier: h0p3
+revision: 0
+tags: Tulane
+title: 2013.04.15 - Explanationism, Dogmatism, Knowledge, and Merit
+
+''1.''
+
+In “Internalist Responses to Skepticism,” Jonathon Vogel tracks various internalist approaches to the problem of skepticism. He offers criticisms of what he refers to as apriorism and dogmatism, and then endorses his own approach, explanationism.<<ref "1">> Explanationism, roughly, is the claim that a coherence among ordinary beliefs concerning our perceptual experiences justifies the belief in the negation of skepticism (e.g. –BIV). On this view, the patterns of our ordinary experiences are better explained by our rich set of ordinary beliefs, a “real-world hypothesis” (RWH), than the “brain in a vat” hypothesis (BIV). 
+
+In this paper, I outline three related worries about Vogel’s argument. First, explanationism may not be different enough from the dogmatist position. In addition, explanationism may fail to provide knowledge, and hence, by his own criteria, Vogel’s theory may fail to escape skepticism. Finally, it isn’t clear why we should assume that explanationism results in RWH having more explanatory merit than BIV.
+
+''2.''
+
+Vogel sketches out dogmatism in a couple ways:
+
+By themselves, particular perceptual experiences in some way justify us in believing various propositions about the world. Each of these propositions entail –BIV, and one’s justified belief in such a proposition justifies, in turn one’s belief that –BIV. Thus we have local empirical justification for holding –BIV.<<ref "2">>
+
+(DOG) If it looks to one that X, then one is thereby prima facie justified in believing that X.<<ref "3">>
+
+	The Moorean response to skepticism is very much in line with the kind of dogmatism that Vogel has in mind. Vogel walks us through several examples which illustrate the differences between dogmatism and explanationism, and, to be fair, there are differences. My worry, however, is that explanationism may only be merely a grander, coherentist version of Moorean dogmatism. Indeed, in footnote 39, Vogel perhaps anticipates this worry, as he “ruefully” acknowledges that explanationism may suffer from similar problems faced by dogmatism, particularly regarding hypothesis confirmation.
+
+	The mile-high view of the structure of both the dogmatist and explanationist arguments seems to be: I have two competing propositions A and B; I am more confident in A than B; thus, I am justified in believing A. The dogmatist may use a single ordinary belief in the existence of his hand to counter skepticism, while the explanationist uses the sum of ordinary beliefs to do it. One employs local empirical justification, and the other global empirical justification. They both, however, seem to have the same sort of root principle beneath them.
+
+There is a kind of Occam’s razor or ‘best explanation’ principle which leads to this confidence found in both dogmatism and explanationism.<<ref "4">> Setting aside whether or not the principle employed by explanationism gets us where Vogel thinks it does (for example, it isn’t clear to me that RWH is necessarily simpler than BIV), I worry that explanationism might ultimately be unsatisfying to the skeptic in parallel ways to dogmatism because of its reliance upon a best explanation principle. 
+
+Surely a best explanation principle has a lot of force to it. I’m not sure what to do with it though. My gut instinct is to say that the skeptic seeks an epistemic standard higher than can be reached with such a principle, and perhaps both dogmatism and skepticism outright miss the point. If we let the skeptic set the epistemic standard as high as certainty, then even seemingly decent principles, like Occam’s razor, may not survive. 
+
+With that said, I admire the scope of Vogel’s explanationism. Explanationism responds to the skeptical argument that a “person’s experience is globally unveridical” with an argument that attempts to demonstrate how a person’s experience is globally veridical, unlike the possibly less appropriate scope of local veridical justification in the dogmatist’s argument. 
+
+''3.''
+
+	Vogel spells out skepticism from the internalist perspective as follows:
+
+*1a. In order to know M, you need to know that various possibilities of massive sensory deception do not obtain.
+*1b. In particular, you need to know that you are not a brain in a vat (–BIV) stimulated so that it falsely appears to you that M.
+*1c. In order to know –BIV, you have to be justified in believing –BIV.
+*1d. But you are not justified in believing –BIV. 
+*1e. Therefore, you do not know M.5
+
+Vogel claims that falsifying argument 1d generates “an internalist answer to skepticism.”<<ref "6">> He argues that if “premise 1d of the skeptical argument is false…skepticism is refuted.”<<ref "7">>  I disagree, and I wish to stress that while falsifying 1d is certainly a worthy response, it is not a finishing blow to skepticism. 
+
+While Vogel is worried most about 1d, 1b is the key premise with which I am most concerned. It follows from 1a, and 1a seems to derive from the closure principle, and it certainly seems plausible.<<ref "8">> If we agree to these premises, then we agree that defeating the skeptic requires demonstrating that we know –BIV. I’m not sure why Vogel begins his argument with this task (not a small one at that), but never resolves it later in his paper. He seems to gloss over this weighty requirement, even though he boldly claims explanationism is a “solution to the problem of skepticism” at the end of his paper.<<ref "9">> Perhaps he is right, but he didn’t get us there in his argument. 
+
+Suppose explanationism justifies the belief –BIV. To be (mildly) justified in believing –BIV, which is what Vogel seems to think explanationism buys us, may be necessary but not sufficient for knowing –BIV. Vogel does not neatly close this gap for us. Even if he does get us to the point where we are justified in believing –BIV to some extent, which is a significant accomplishment, it unfortunately does not seem as though explanationism gives us knowledge of –BIV, and that’s a problem for Vogel, given the criteria he set out. 
+
+The skeptic’s epistemic requirement is very high: knowledge, not merely justified belief. Since explanationism may fail to provide knowledge of –BIV, it is not clear that Vogel completely diffuses the skeptic’s argument. If he is right, he only gets us part of the way there. It would be no small feat to demonstrate that we can be justified in believing in the external world, even if we don’t necessarily know. Skepticism, however, still seems to survive his argument.
+
+''4.''
+
+	Vogel claims RWH explains the sum of our sensory experiences, E*, better than BIV, and thus we are justified in accepting RWH, and consequently, in accepting –BIV. At least some real-world hypotheses are thought to be simpler and more unified than BIV hypotheses, and thus some RWH’s are better at explaining E*. On Vogel’s view, any version of BIV should be rejected because it is comparatively too complex and perhaps ad hoc. Should we really agree that some RWH necessarily has more explanatory merit than all BIV hypotheses? 
+
+	Indeed, some models of BIV, perhaps even the usual ones, will build on top of a RWH (possibly in an ad hoc manner) an abstraction, an extra layer, an added mechanism, or an additional agent which explains E*. On such models, BIV is thought to be more complex than RWH, and therefore such models have less explanatory merit than RWH. But is this the case for all BIV hypotheses? This seems to be what Vogel needs, and yet it is far from clear that this is true. 
+
+Further, the skeptic need not convincingly demonstrate a case where BIV is simpler than RWH – he merely needs to open our eyes to the possibility of such a thing. Is it at least possible that some BIV hypothesis could have more explanatory merit than real-world hypotheses? Maybe, I really don’t know. That’s a problem for a theory which relies upon showing not only that the usual BIV hypotheses have less explanatory merit than at least one RWH, but that all BIV hypotheses must have less explanatory merit than some RWH. 
+
+''5.''
+
+Ultimately, the skeptic always seems to be in a position to call into doubt principles of best explanation and the results of those principles. Simplicity may not be enough. Even justified belief in the external world doesn’t seem to be enough to finally defeat the skeptic, as the skeptic can continue raising the epistemic bar out of reach. 
+
+------------------
+
+<<footnotes "1" "Jonathon Vogel, 'Internalist Responses to Skepticism,' in// The Oxford Handbook of Skepticism//, ed. John Greco (Oxford: Oxford University Press, 2008): 533-556">>
+<<footnotes "2" "Ibid., 535">>
+<<footnotes "3" "Ibid., 539">>
+<<footnotes "4" "Ibid., 545">>
+<<footnotes "5" "Ibid., 533">>
+<<footnotes "6" "Ibid., 537">>
+<<footnotes "7" "Ibid., 544">>
+<<footnotes "8" "Very broadly, we might explain the principle in this way: If S knows (or S is justified in believing) P, and S knows (or S is justified in believing) P entails Q, then S knows or S can come to know (or S is justified in believing or S is justified in coming to believe) Q. Admittedly, some version of this principle seems like it must be correct. ">>
+<<footnotes "9" "Ibid., 550">>

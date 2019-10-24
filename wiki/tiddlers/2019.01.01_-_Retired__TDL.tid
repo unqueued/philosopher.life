@@ -1,0 +1,112 @@
+created: 20190102035234721
+modified: 20190102035236241
+tags: Retired TDL
+title: 2019.01.01 - Retired: TDL
+
+!! About:
+
+//Planning your life is one of the unique joys of autonomy. Don't let life merely happen to you. Forgive your [[fff]] self, sir. Just get started. Do your best. Go on: minmax your character, [[h0p3]].//
+
+<<<
+It is easier to resist at the beginning than at the end.
+
+-- Leonardo da Vinci
+<<<
+
+<<<
+Every minute spent in organizing, an hour is earned.
+
+-- Benjamin Franklin
+<<< 
+
+I suppose the unspoken zeroth rule/proposal of each ''T''o-''D''o-''L''ist ([[TDL]]<<ref "dr">>) is to write the rest of my TDL.<<ref "f">> Make sure you check ~~one~~ zero off the list, homie.
+
+Here I budget my precious time, even if only one day at a time.<<ref "g">> These are planned opportunities to plan the grind of the joyous computational game of my life.<<ref "h">> Living out my {[[Principles]]}, I partially implement my [[Program Yourself]] axiom here. In a sense, this log boils down to tiny, practical {[[Dreams]]} which I habitually call into {[[Focus]]}. Practical wisdom, of course, is conceptually linked to discovering (or constructing) [[The Right]] maxims.<<ref "x">>
+
+I cannot help but feel embarrassed by this directory of unwise expenditures of my time. This log screams out how much I'm a vicious, akratic, heterodoxical, hypocritical fool. Of course, I'm also autistic, and my executive functioning is dysfunctional in ways that are not easy to debug and tease apart. I do not, however, wield my excuse as an autonomy-defeater; I'm just pointing out how difficult it is for me to be well-integrated.<<ref "a">> I hope to fearlessly repent and turn my failures into success. I also can't manage what I don't measure. 
+
+I must tame my procrasturbation and shturmovshchina [[irwartfrr]] with this log and overcome the dread of empathizing with my persistent [[4DID]] in some paradoxically [[T42T]] fashion. In this case, affective attitude (motivation) rather than mechanics is the hard part. I have to earn it! Thus, here I emotionally climb Mount Habit. This is a way to demonstrate to myself that I can and should just //get it done//. 
+
+Clearly, I engage in basic legislative practices in this log. Writing it down enables me to hold myself self-accountable. Essentially, this is a thin internal power dynamics mechanism to provide at least faint checks and balances on the basic executive rule over my elastic city-state identity. I will continue to improve my Bayesian predictive powers necessary to code more effective moral expectations of my autonomy.
+
+Sometimes I see this as my "To ''Don't'' List," since I'm slicing away at the marble slab of 10,000 opportunity costs in order to reveal the salient prescriptive sculpture within. Again, my ineptitude is profound. I can only [[hope]] to repeatedly take the opportunity to plan for my [[Carpe Tempus Segmentum]] log to flourish.
+
+May this one day grow into a tool for practical long-term planning.<<ref "p">>
+
+
+---
+!! Principles:
+
+* Write simple, quantifiable, tangible lists.
+* Be honest, make sure you don't expect too much or too little of yourself.
+* Try to write your To-Do-List for the next day before you go to sleep.<<ref "s">>
+* Work on least fun to most fun when possible. Do the hardest lifting first, and as your emotional muscles weaken, your tasks get easier and easier. 
+* Don't expect yourself to complete everything. You aren't perfect: prioritize and triage.
+* Post-mortem via your [[Carpe Tempus Segmentum]] and [[Wiki Review]] logs.
+
+
+---
+!! [[Focus|TDL: Focus]]:
+
+<$set name="mydate" value=<<now YYYY.0MM.>>>
+<<list-links "[tag[TDL]prefix<mydate>]">>
+</$set>
+
+
+* [[Calendar]]
+* [[Standing TDL]]
+* [[2018 Resolutions]]
+* [[Shopping List]]
+
+
+---
+!! Vault:
+
+* Audits:
+** [[2017 - To-Do-List Log]]
+** [[2018.01 - To-Do-List Log]]
+** [[2018.02 - To-Do-List Log]]
+** [[2018.03 - To-Do-List Log]]
+** [[2018.04 - To-Do-List Log]]
+** [[2018.05 - To-Do-List Log]]
+** [[2018.06 - To-Do-List Log]]
+** [[2018.07 - To-Do-List Log]]
+** [[2018.08 - TDL]]
+** [[2018.09 - TDL]]
+** [[2018.10 - TDL]]
+** [[2018.11 - TDL]]
+** [[2018.12 - TDL]]
+
+* Retired:
+** [[2017.11.05 - Retired: To-Do-List Log]]
+** [[2018.01.30 - Retired: To-Do-List Log]]
+** [[2018.06.19 - Retired: To-Do-List Logs]]
+
+* It's dead, Jim
+** [[Procrasturbator List]]
+
+
+---
+!! Dreams:
+
+* Find a way to formally engage in long-term kinds of planning.
+* Find an intelligent way to form To-Do-Lists for multiple contexts.
+* Find a way to create "To-''Don't''-Lists." 
+
+
+---
+<<footnotes "dr" "Reminds me of //TL:DR//.">>
+
+<<footnotes "f" "Something, something...first rule of Fight Club, and so on and so forth.">>
+
+<<footnotes "g" "You gotta start (and restart) somewhere, homie.">>
+
+<<footnotes "h" "Habits of Highly Effective Ejaculators">>
+
+<<footnotes "x" "Act + Motivation = Action. Universalize to the particulars of your context, sir.">>
+
+<<footnotes "a" "I'm not trying to whine or bath in awkwardness. Honesty isn't always fun.">>
+
+<<footnotes "s" "It may [[help|https://www.ncbi.nlm.nih.gov/pubmed/29058942]] you sleep.">>
+
+<<footnotes "p" "This counts as a long-term plan, right?">>

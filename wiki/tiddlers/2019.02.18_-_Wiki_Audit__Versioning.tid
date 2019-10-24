@@ -1,0 +1,18 @@
+created: 20190218181021358
+modified: 20190219191413974
+tags: [[RGM Notes]] [[Wiki Audit]]
+title: 2019.02.18 - Wiki Audit: Versioning
+
+This is a useful tool to [[others]]. I'm not sure how useful it will be to me because I keep my snapshots at the ready, but I may find it wonderfully useful too. From the looks of it, I'm always going to need to make snapshots highly available. How much versioning is appropriate? Arguably, //Vault:// sections of each [[Directory]] are also doing this, but I know they tell a story which I need to see. 
+
+I don't want to manually force versions. I want to be able to ctrl+enter like I always do (even on my phone). I want to replace the save button, period. Unfortunately, all the versioning tools keep entire copies. Imagine making 100 saves to {[[About]]} in a day. It's not inconceivable to have days in which I've made a 1000 edits. That would be a thousand tiddlers. Nothing is storing just the diffs; those diffs are generated via stored images on the fly instead.
+
+Ideally, we'd keep the original tiddler for the day as the temp shadow tiddler version, and this would be diff'ed against the current real tiddler. I wouldn't mind keeping even a couple days worth then. As the tooling available stands now, I think it's best to wipe out my versioning each night. Doing that means the versioning sticks in the wiki only for up to 24 hours (usually far less), and it will remain in the snapshots.
+
+Real-time-ish, this works like a charm. If you read it a day later, however, then it doesn't buy you too much. You still have to look at a snapshot. What does this do? It saves you from having to do the diff by hand.
+
+I suppose this will be the first iteration of the tooling. Hopefully, I'll figure out a better method in time.
+
+---
+
+Currently, just trying to figure out how jd has altered saving. After that, we script the temp version .tid deletion into the nightly script AFTER our snapshot commits.

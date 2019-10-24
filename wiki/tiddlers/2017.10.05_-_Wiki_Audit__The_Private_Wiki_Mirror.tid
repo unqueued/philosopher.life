@@ -1,0 +1,15 @@
+created: 20171005213822429
+modified: 20190705053303075
+revision: 0
+tags: [[Wiki Audit]]
+title: 2017.10.05 - Wiki Audit: The Private Wiki Mirror
+
+I want a single wiki that does it all. I have personal information that is simply private. I'd like to add it to my knowledgebase, but I also don't want to even ever send that information to anyone else (encrypted or otherwise). 
+
+Here's how to do it:
+
+* Truecrypt container, automounted, The Private version is stored in that.
+* When I make an edit the private version, it stays only in the private version.
+** Anything I want to be public shouldn't be written in there.
+** This also makes it incredibly easy for me to convert private information into public. 
+*** I can just export and import tiddlers.

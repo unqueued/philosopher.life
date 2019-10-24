@@ -1,0 +1,20 @@
+created: 20190610105514715
+modified: 20190612031438701
+tags: [[Wiki Audit]] j3d1h
+title: 2019.06.10 - Wiki Audit: Vanity
+
+Fixed the search results needing to be clicked on - I had changed the setting in `$:/config/SearchResults/Default`, which broke it for some reason. Just deleted the tiddler to reset it. Also fixed Polymath Craftsman, it didn't have the `fc-filter` field, which it needs.
+
+Worked on the wiki's gif. Compression is what made the fuzzy gray background, for some reason. I traced over the stripes with a white, used a color exchange to make the rainbow colors, repeat for the other layers/frames. Tried exporting as a gif, but it gave me that gray background, so I ended up exporting each frame. h0p3 figured out Imagemagick worked, so he did that, and now it's a clean gif.
+
+---
+
+I can't really tell much of a difference between the old background color's blackness and the sidebar/tiddler blackness. It didn't bother me. But, I can see on those with better screens than I have, there is a sizable difference. 
+
+Played with optimization on the pngs and gifs, and we can get it down to 200k. I'm not going to finesse the tradeoffs here; it's good enough for now. I think it looks more pastel for some people than on my screen. The joys of using a TV as a monitor: it's easy to make it look good on my screen.
+
+---
+
+The wiki's splash jumps upon the full load. I screwed around in $:/SplashScreen.
+
+We weren't using background properties for positioning. This partially solved it. My FF sidebar still threw a curveball, but I think it is sorted. My phone throws another. It's not great, but it's legible. 

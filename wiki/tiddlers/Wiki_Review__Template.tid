@@ -1,0 +1,10 @@
+created: 20190401163938537
+modified: 20190404181832126
+tags: [[Wiki Review]] j3d1h
+title: Wiki Review: Template
+
+<$vars front="* [[" back="]]">
+<$list filter="[days:created[-1]!days:created[0]!prefix[Hidden:]!tag[Hidden]!tag[no-recent]!is[system]!is[shadow]sort[created]reverse[]]"><<front>><$view field="title" /><<back>>
+** 
+</$list>
+</$vars>

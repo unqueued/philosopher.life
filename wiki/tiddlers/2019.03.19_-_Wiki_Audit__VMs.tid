@@ -1,0 +1,14 @@
+created: 20190319173028264
+modified: 20190319174054385
+tags: [[RGM Notes]] [[Wiki Audit]] Dreams
+title: 2019.03.19 - Wiki Audit: VMs
+
+I don't like the ordering on [[Core Daily Requirement]], but we will be rebuilding [[Sphygmus]]' work soon (whatever soon means), I believe. It will be a button to click an arbitrary number of buttons.
+
+---
+
+I think the VMs should be networked rather than shared drive. I should be able to peel them apart and run them wherever. I should push the daily reset to 4am instead. I'm rarely awake that late.
+
+There is no replacing AHK tooling. Technically, could run windows with linux subsystem. Fuck that. Just keep them separated. It's an ugly hack, but it works. It solves classes of problems for me. I guess I'll run two VMs just for the wiki. Who knows, maybe Apple will become so dominant I'll be forced to run 3. Android makes it 4. That's the point of virtualizing though. I maximize my access to tooling and environments.
+
+Imagine an hourly [[Firmcode]], imagine waking up and having my daily's all set for me. Imagine a Bob tab where that is already loaded (that will be trickier, but doable). All I do is fill in the blanks. Take the menial tasks out of the equation.

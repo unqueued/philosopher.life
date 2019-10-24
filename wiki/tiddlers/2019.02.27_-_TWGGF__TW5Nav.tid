@@ -1,0 +1,34 @@
+created: 20190227162037599
+modified: 20190307192333288
+tags: TWGGF Unsent
+title: 2019.02.27 - TWGGF: TW5Nav
+
+Disclaimer: I consider myself a mere TW-pilot, not an engineer. I am not entitled to your help, and I'm grateful for the opportunity to use your tools and ideas. Please discard this user's thoughts at will.
+
+I have finally been able to get TW5-Navigator to operate on my wiki. It's amazing. Between Bob's tabbing for multiple workspaces, Bob's synchronized filesystem, and TW5Nav's control, I have a nearly platform agnostic virtual desktop environment for TW.<<ref "njs">> Even as a huge fan of tiling window managers, I still cannot appreciate how far TW5-Navigator might take TW.
+
+Perhaps I am just wildly incompetent (you should take that seriously). It is my opinion that TW5-Navigator taxes my ability to use other kinds of plugins out of the box. I have had to make plugin sacrifices to use TW5Nav, and I'm trying to figure out how to compatibly gain certain functions back. 
+
+* Console
+* Text Substitutions - True Autocomplete
+* Replacing the functionality of Link autocompletion
+* Replacing the functionality of Danielo's keyboardSnippets (adding keyboard shortcuts)
+* Replace snowgoon88's edit-comptext
+
+$:/config/EditorTypeMappings/text/vnd.tiddlywiki
+text -> comptext
+
+
+  
+Editor with some on-line completion capabilities (disabled)
+$:/plugins/snowgoon88/edit-comptext
+0.8.1
+
+
+Shows a tiddler preview when hovering internal links (disabled)
+$:/plugins/tobibeer/preview
+0.5.6
+
+
+---
+<<footnotes "njs" "It may have something to do with the size of my wiki, but I believe it is nodeJS's poor performance that makes navigation unsmooth and slow. Singlefile performance is excellent, and if TW5Nav continues to radically minimize the friction between me and my wiki, I may be forced to move away from Bob (weeping over the loss of it). I can't see that far ahead yet.">>

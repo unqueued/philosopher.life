@@ -1,0 +1,14 @@
+created: 20180728232956005
+creator: h0p3
+modified: 20181101045918939
+modifier: h0p3
+tags: ALM
+title: 2018.07.28 - ALM: i3 and Linux
+
+We talked at length about i3. I'm still trying to convince him.
+
+We talked about the machine he wanted to build. I ended up saying he should just save more and go for more hardware with an iterative build. Ryzen 5 with graphics is the way to go. He will be happier for it.
+
+We worked on resilio; he wasn't following my instructions very well. But, we got there.
+
+We setup a meshbird meshvpn to ssh in. It worked, I send notifications to him, but he only saw it after I pointed it out? We do have a tool though. This is good. I will setup vpncloud with him.

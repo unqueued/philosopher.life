@@ -1,0 +1,37 @@
+created: 20170704144655446
+modified: 20171208213300844
+revision: 0
+title: Python: Tox-2-Wiki Text Formatter for Link Log
+
+```python
+#!/usr/bin/python
+
+# Parse the copy'n'paste into command line to clean it up for pasting straight into a link log. Presumably, it is already formatted, it just has some metadata on the front we don't like.
+
+# Usage example from console: 
+# ~$ wikireview.py "[11:34:20] asdf-123: * https://www.nature.com/news/2011/110411/full/news.2011.227.html
+# [11:34:31] asdf-123: ** No, no, no. People are ideally rational, right?
+# [11:42:02] asdf-123: * https://youtu.be/dbo1a5WzXX8
+# [11:42:07] asdf-123: ** Beautiful, frisson"
+
+# Just paste from your CnP clipboard!
+
+# You'll want to install pyperclip
+# sudo -H python2 -m pip install pyperclip
+# sudo -H python3 -m pip install pyperclip
+import pyperclip
+import sys
+
+# Parse text from command line argument
+text = sys.argv[1].splitlines()
+
+# Format and generate clipboard string
+clipboard = ""
+for line in range(len(text)):
+    clipboard += text[line][21:] + "\n"
+
+# This is magic I don't understand. Thank you. Just paste away!
+pyperclip.copy(clipboard)
+spam = pyperclip.paste()
+
+```

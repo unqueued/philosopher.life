@@ -1,0 +1,9 @@
+created: 20171206040415266
+modified: 20171207043550569
+revision: 0
+title: Computing Paranoia
+
+* https://bash-prompt.net/guides/server-hacked/
+** Building tripwires.
+* https://github.com/zboxfs/zbox
+** Zbox is a zero-knowledge, privacy-focused embeddable file system.

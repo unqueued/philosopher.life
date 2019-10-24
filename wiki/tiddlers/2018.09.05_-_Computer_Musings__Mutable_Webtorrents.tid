@@ -1,0 +1,8 @@
+created: 20180906040220956
+creator: h0p3
+modified: 20181029175224792
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.09.05 - Computer Musings: Mutable Webtorrents
+
+I've seen several attempts at similar tools. Ultimately, I hope to host a version of this site across browsers. Basically, I want resilio sync in the browser. I don't mean running a custom browser or service underneath it. I'm worried that such a thing ultimately won't be supported by Chrome (which ends the discussion, imho).

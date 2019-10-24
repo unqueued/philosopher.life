@@ -1,0 +1,14 @@
+created: 20180726212206344
+creator: h0p3
+modified: 20181020171458603
+modifier: h0p3
+tags: TDL
+title: 2018.07.27 - Daily TDL: Push
+
+* Generate backups for m10
+** A sync'd backup is preferred, rsync is a good tool, yeah?
+** Timeshift for root...
+* Setup VMs
+* zsh
+* nvim
+* FFDE Cleanup

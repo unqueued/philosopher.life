@@ -1,0 +1,8 @@
+created: 20171017014432245
+modified: 20171017014435285
+revision: 0
+title: Add New Row of Tabs in Tiddlywiki
+
+```
+<<tabs "Sitemap New Recent Open" "New Recent Open" "Recent Open" "Open">>
+```

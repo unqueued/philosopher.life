@@ -1,0 +1,15 @@
+created: 20171104173425618
+modified: 20171208212337896
+revision: 0
+title: Python: Replace Text Up to a Delimiter
+
+```python
+#!/usr/bin/python
+
+text = """
+1. What is your interpretation of one of your recent dreams?
+"""
+
+for line in text.strip().splitlines():
+	print("*" + line[line.find(".")+1:])
+```

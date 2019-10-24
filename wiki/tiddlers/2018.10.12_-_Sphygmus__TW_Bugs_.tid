@@ -1,0 +1,24 @@
+created: 20181013040906149
+creator: h0p3
+modified: 20181107013816736
+modifier: h0p3
+tags: Sphygmus Note To
+title: 2018.10.12 - Sphygmus: TW Bugs?
+
+//See: [[2018.10.10 - Sphygmus: nihil titulum]]//
+
+---
+
+I am still giving thought to the timeline for {[[Vault]]}. I have to recreate my past, and unfortunately, I don't trust my own memory. But, dated material already present in the wiki offers a cool opportunity. That may be dynamically generated too. I think I have several months of work ahead of me on this kind of issue as I transition. Perhaps it will mark Version 3.0. =)
+
+Don't worry about titles, btw. I'm happy to make them myself. Either way is cool.
+
+To be an overly literal smartass (I am the worst), what you are seeing is definitely in your head. That's part of how you can see anything. Alright, alright, JK! =) You have probably encountered these a couple times, but it's generally very rare.
+
+The changing default Tabs and the remnants of old search is a result of TW being saved in those states (to my knowledge). This is likely one of the differences between nodejs and plain html (unless I broke something long ago). I usually clear my search before saving out of habit, though you may have caught me with my pants down. The control panel setting for $:/core/ui/ControlPanel/Settings/DefaultSidebarTab just doesn't work for me, and it never has (IIRC).
+
+If I had my choice, visitors would always see [[Hub]] first, since I consider it crucial to see what I'm {[[Focus]]}ing on and how I primarily engage or reason about my own wiki in any given snapshot. [[Root]] gives a very high-level virtual filesystem (everything in the wiki can be found in those directories), but [[Hub]] (i.e. //Focus://{[[Focus]]}) is how I spider around my own web 80% of the time. [[The Remodeling]] is pushing [[Pin]] and other tabs into higher use rate. I cannot say I'm doing a good job here, of course. 
+
+I hope to use [[One-Time Scripts]] to massage the wiki and eventually have an idea of what I really need in that [[Wiki: Nightly Script]]. My ignunt prejudice against js knows no bounds. One other worry I have is that customizing TW too far can prevent you from being able to upgrade parts of it, and that may only get worse over time. 
+
+Have you tried [[Bob|https://github.com/OokTech/TW5-Bob]]? Looks cool. There is work being done to make nodejs TW play better with bash. Browsers are never going to let JS execute anything outside the sandbox. But, https://github.com/ibnishak/Timimi, gives me hope that nodejs still won't be absolutely mandatory. I did not realize Mozilla and Google were enabling this behavior. I can't see far enough into the future.

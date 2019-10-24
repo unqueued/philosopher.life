@@ -1,0 +1,11 @@
+created: 20181209193210132
+modified: 20181209193913460
+tags: bash [[Wiki: Scripts]]
+title: tid-to-html.sh
+
+```bash
+#!/bin/bash
+
+tiddlywiki /home/h0p3/syncs/bob/Wikis --rendertiddler $:/core/save/all index.html text/plain
+mv /home/h0p3/syncs/bob/Wikis/output/index.html /home/h0p3/Downloads/Wiki/index.html
+```

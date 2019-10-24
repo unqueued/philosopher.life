@@ -1,0 +1,30 @@
+created: 20171207031921602
+modified: 20181222034354660
+modifier: h0p3
+revision: 0
+tags: [[Be A Good Husband]] [[Computer Musings]]
+title: 2017.12.06 - Computer Musings: Making W10 Liveable For My Wife
+
+I installed:
+
+* Resilio Sync
+* Bitvise SSH/SFTP Client
+** Setup basic profile for her
+* Sublime Text
+* HP USB Disk Storage Format Tool
+** Because it's a library, and this is a very unique tool that solves problems others won't be able to.
+* No Machine
+* 7-zip
+* CCleaner
+* Everything
+* Find and Replace
+* Synkron
+** Because she should automate file transfers, backups, etc.
+
+I also installed a wireless adapter to connect to the Guest network. The ethernet connection is firewalled, preventing access to the DHT entirely (ridiculous!), but the wireless does not. I tried Forcebinding, but the anti-malware wasn't letting me (tried several routes). I found out that Resilio powerfully has this feature built-in:
+
+* https://forum.resilio.com/topic/43030-force-bind-sync-to-specific-network-adapter/
+
+I'm having my daughter poke a hole in our router for my wife to SSH into her laptop remotely, the same for NoMachine.
+
+I also tried to turn on dev mode to startup the built-in linux subsystem. The machine took 30 minutes of continual rebooting. It's slow as fuck, and I was claiming it was the HDD (not an SSD, my only hardware complaint). Eventually, I was able to prove it to her when we logged in. I believe this problem should be worked out by tomorrow, but we will see. My wife is unhappy that her computer appears slower at the moment than it was. I think she is freaking out like I've broken something. It's her shiny new toy, and I get that. I also know what I did.

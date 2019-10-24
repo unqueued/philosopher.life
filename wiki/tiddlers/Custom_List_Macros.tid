@@ -1,0 +1,124 @@
+created: 20181016235510421
+creator: h0p3
+modified: 20190714091614630
+modifier: h0p3
+tags: $:/tags/Macro [[Wiki Mechanic]] j3d1h
+title: Custom List Macros
+
+\define list-field(filter,fieldname)
+<!-- This macro:
+       1. Searches for every tiddler with a specific field (fieldname)
+       2. Makes a bullet-pointed list of the titles as links
+       3. Displays the contents of the field (fieldname) on the same line, next to its respective tiddler, as links
+       Originally for use in the Alias tiddler. -->
+<ul>
+<$list filter="$filter$">
+<li>
+<$link to={{!!title}}>
+<$transclude field="caption">
+<$view field="title"/>
+</$transclude>
+</$link>: <$transclude field="$fieldname$"><$view field="$fieldname$"/></$transclude>
+</li>
+</$list>
+</ul>
+\end
+
+\define list-related()
+<!-- This macro lists:
+      1. Everything that is prefixed "x:"
+      2. Everything that is tagged "x", is not prefixed "x:", and is not a log
+      3. Everything that is a log and is titletagged "x"
+      4. Everything that is a log, is tagged "x", is not titletagged "x", and is not a retired x
+      All as separate bullet-pointed lists, where x is the tiddler this macro is called in. -->
+<$macrocall $name="list-links" filter="[prefix[$(currentTiddler)$:]]"/>
+<$macrocall $name="list-links" filter="[tag[$(currentTiddler)$]!prefix[$(currentTiddler)$:]!regexp[\d\d\d\d.\d\d.\d\d - .*]]"/>
+<$macrocall $name="list-links" filter="[regexp[^\d\d\d\d\.\d\d\.\d\d - $(currentTiddler)$]]"/>
+<$macrocall $name="list-links" filter="[regexp[^\d\d\d\d\.\d\d\.\d\d - .*]tag[$(currentTiddler)$]!regexp[^\d\d\d\d.\d\d.\d\d - $(currentTiddler)$]!regexp[^\d\d\d\d.\d\d.\d\d - Retired: $(currentTiddler)$]]"/>
+\end
+
+\define list-nonlog-related()
+<!-- This macro lists:
+       1. Everything that is prefixed "x:"
+       2. Everything that is tagged "x", not prefixed "x:", is not a log, and is not an audit
+       Both as separate bullet-pointed lists, where x is the tiddler this macro is called in. -->
+<$macrocall $name="list-links" filter="[prefix[$(currentTiddler)$:]]"/>
+<$macrocall $name="list-links" filter="[tag[$(currentTiddler)$]!prefix[$(currentTiddler)$:]!regexp[\d\d\d\d.\d\d.\d\d - .*]!regexp[\d\d\d\d.\d\d - .*]]"/>
+\end
+
+\define directory-lists()
+<!-- This macro lists:
+       1. Everything that is prefixed "x:"
+       2. Everything that is tagged "x", is not prefixed "x:", is not a log, and is not an audit
+       3. Everything that is a log and is titletagged "x", as well as everything that is a log, is tagged "x", is not titletagged "x", then combines both of these, removes retired tiddlers, filters them to be prefixed with the current year and month, and sorts by title
+       As separate bullet-pointed lists. -->
+<$set name="mydate" value=<<now YYYY.0MM.>>>
+<$macrocall $name="list-links" filter="[prefix[$(currentTiddler)$:]]"/>
+<$macrocall $name="list-links" filter="[tag[$(currentTiddler)$]!prefix[$(currentTiddler)$:]!regexp[\d\d\d\d.\d\d.\d\d - .*]!regexp[\d\d\d\d - .*]!regexp[\d\d\d\d.\d\d - .*]]"/>
+<$macrocall $name="list-links" filter="[regexp[^\d\d\d\d\.\d\d\.\d\d - $(currentTiddler)$]] [regexp[^\d\d\d\d\.\d\d\.\d\d - .*]tag[$(currentTiddler)$]!regexp[^\d\d\d\d.\d\d.\d\d - $(currentTiddler)$]] -[regexp[^\d\d\d\d.\d\d.\d\d - Retired: $(currentTiddler)$]] +[prefix<mydate>] +[sort[title]]"/>
+</$set>
+\end
+
+!! list-field
+
+#Searches for every tiddler with a specific field (fieldname)
+#Makes a bullet-pointed list of the titles as links
+#Displays the contents of the field (fieldname) on the same line, next to its respective tiddler, as links
+
+Originally for use in the Alias tiddler. Input is a filter and the name of the field to display. Usage:
+
+`<<list-field "[tag[asdf]]" "aliased">>`
+
+Example of output:
+
+*[[a]] : [[1]] [[x]]
+*[[b]] : [[2]] [[y]]
+*[[c]] : [[3]] [[z]]
+
+---
+
+!! list-related
+
+Lists:
+
+#Everything that is prefixed "x:"
+#Everything that is tagged "x", is not prefixed "x:", and is not a log
+#Everything that is a log and is titletagged "x"
+#Everything that is a log, is tagged "x", is not titletagged "x", and is not a retired x
+
+All as separate bullet-pointed lists, where x is the tiddler this macro is called in. No input. Usage:
+
+`<<list-related>>`
+
+---
+
+!! list-nonlog-related
+
+Lists:
+
+#Everything that is prefixed "x:"
+#Everything that is tagged "x", not prefixed "x:", is not a log, and is not an audit
+
+Both as separate bullet-pointed lists, where x is the tiddler this macro is called in. No input. Usage:
+
+`<<list-nonlog-related>>`
+
+---
+
+!! directory-lists
+
+Lists:
+
+#Everything that is prefixed "x:"
+#Everything that is tagged "x", is not prefixed "x:", is not a log, and is not an audit
+#This strange thing.. 
+##Lists everything that is a log and is titletagged "x"
+##Lists everything that is a log, is tagged "x", and is not titletagged "x"
+##Combines both of these lists
+##Removes retired tiddlers
+##Filters them to be prefixed with the current year and month
+##Sorts by title
+
+As separate bullet-pointed lists. No input. Usage:
+
+`<<directory-lists>>`

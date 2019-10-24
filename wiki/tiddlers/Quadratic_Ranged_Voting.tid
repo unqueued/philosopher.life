@@ -1,0 +1,39 @@
+created: 20180608194941274
+creator: h0p3
+modified: 20180831153110759
+modifier: h0p3
+title: Quadratic Ranged Voting
+
+Ranged Voting (RV) enables us to express a model of our perceptions of the value-relationships found between competing options. It simplistically enables us to show which options are more valuable than others to us, and to what cardinal degree. It improves the bandwidth-throughput of a given vote because it adds an extra dimension on which to graph the intensity of our preferences as they relate to each other. It is a lossy-compressed theory of our minds in the context of an election, a self-reported miniature model which has far more bits of information packed into it than a standard ballot. 
+
+Ranged voting enables us to represent ourselves inside a vote with far more Bayesian accuracy than a standard vote, and in effect, enables us to collectively empathize with more accurate theories of our society's constitutive minds. A ranged vote is a cost-effective, salient data structure to input into [[The Original Position]] election algorithm; it helps us extract an accuratized golden-ruled democratic will of the people from ourselves.
+
+Ranged voting isn't new. It famously destroys FPTP problematics. It has powerful utilitarian arguments behind it. It's super [[Original Position|The Original Position]]y. There's something fundamentally correct about what it's trying to capture; it's moving in the right direction of decentralizing power in a stable manner. Entire classes of fraudulent election-algorithm malware is made infeasible with ranged voting.
+
+Enter the new-kid on the voting bloc: Quadratic Voting (QV). Naively, QV grants a set rate of political capital to voters who bid on elections by buying votes with their political capital; this converts elections into auditable, low-friction free markets. This political capital, henceforth known as Voice Tokens (VTs), buys votes at quadratic costs.
+
+* 1 vote costs 1 VT
+* 2 votes cost 4 VTs
+* 3 votes cost 9 VTs
+* 4 votes cost 16 VTs
+* ...
+
+QV captures a more detailed model of the intensity of our preferences by making us pay to have a louder voice in any particular election. It enables us to take risks in speaking our mind in [[The Original Position]], to make ourselves vulnerable, to put our money where our mouth is, to engage in risk-management in how we spend our political capital. QV attempts to convert the fundamental political process into an overtly ideal market in a vacuum (with homo economicus and spherical, frictionless chickens).
+
+Let's be honest, political capital is almost entirely centralized with the very elite in the current state of affairs. There is no representation of the majority's desires; it's a facade. Long have we known there is no correlation between the will of the people and what is legislated, enforced, and adjudicated. QV is a method for us to simulate a fairer political economy and find ways to prevent the corrupting gamification of the simulation itself through a variety of cryptographic and physical security measures. Your vote obviously counts in QV, and you have real reasons to make it count as much as you can, to know what you really want, and to have reasoned about it with your frontal lobes (your utilitarian, economic, slowmind).
+
+QV is a fair marketplace of ideas, enabling minorities to overrule the indifference of the majority at the cost of being able to have as strong a voice in future elections. Of course, a majority with strong opinions on a matter will overrule minorities with a strong opinion; this fairness is preserved.
+
+I suggest we combine RV and QV into Quadratic Ranged Voting (QRV). I have no mathematical proof for you on the matter, only an intuition. If RV increases the throughput bandwidth of our voices, then QV gives us a fair method to temporarily increase the voltage of our voices. Both appear to improve the signal-to-noise ratio of voting.
+
+Voters who have an opinion about the value-relationships found between competing options can express this information in a single ranged vote ballot. Some people, however, will have more intense preferences for this ranged vote expression to influence the election than others. In other words, by combining the two methods into QRV, we are able to pack what I believe are two logically inequivalent dimensions of voter preferences into an election. Ultimately, I take QRV to be a more complete representation of our algorithmic identities than either ranged voting or QV by themselves. 
+
+We might, for example, give voters at least more than one VT per election. With [[Compulsory Voting]], they are required to spend at least one VT to provide one ranged vote to the election. Beyond that, however, it will be up to the voter to decide if they want to have a stronger voice in that particular election than a single vote. They will have to manage their VT political capital and decide when it is most important to them to spend it to influence the election.
+
+I wildly conjecture that RV and QV are unique preference dimensions which act as the dialectical 0-and-1 building blocks necessary to construct more complex computational theories of our collective hivemind. 
+
+QRV is a price-efficient means to extracting honest political preferences out of voters, which is necessary for constructing the fairest version of [[The Original Position]] available to us. There are a number of serious logistical considerations and worries one might raise. The idea, however, has so much merit that we should charitably attempt to answer these challenges.
+
+Exactly how [[Proxy Voting]] and [[Secret Ballots]] fit together is already a complex problem, but ensuring that it leaves no major attack vector for economic capital to influence how political capital is spent in QRV is crucial. The brightest line must be drawn here. If we fail, then we've profoundly accelerated the manner in which the crisis of capitalism will subvert all political processes with maddening efficiency.
+
+There are major risks and rewards here. Desperate times call for desperate measures. If we want to prevent the next mass extinction (and the slavery coming before it), if we hope to solve our postmodern existential crisis, we need to be radically constructive in the dialectic. We should strongly consider the possibility that QRV generates the lowest Bayesian regret currently available to us, that is to say, is has the lowest expected avoidable human unhappiness consequences. It appears to be a strong method to approximate a unified agent of ourselves at any given timeslice.

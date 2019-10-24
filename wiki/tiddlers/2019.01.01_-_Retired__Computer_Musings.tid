@@ -1,0 +1,72 @@
+created: 20190102000349341
+modified: 20190102000426649
+tags: Retired [[Computer Musings]]
+title: 2019.01.01 - Retired: Computer Musings
+
+!! About:
+
+//When I'm not celebrating my monsters, I sweat the small stuff or complain about it.//
+
+<<<
+All of humanity’s problems stem from man’s inability to sit quietly in a room alone.
+
+-- Blaise Pascal
+<<<
+
+<<<
+There are 2 hard problems in computer science: cache invalidation, naming things, and off-by-1 errors.<<ref "1">>
+
+-- Abraham Lincoln, //The Art of Computer Programming//<<ref "l">>
+<<<
+
+[[Computing]] is one of the oldest projects on this wiki. Even before I understood that I would be logifying parts of many of my projects, before [[Computer Musings]] officially existed, I was writing notes for it. Here I record progress, mishaps, administration logs, and random thoughts about computing which I didn't leave in [[/b/]] or elsewhere. There's always work to do on our computer farms. I don't push hard at it, but I still take it seriously.
+
+This is one of my lifelong hobbies. I work on my computers. Lots of dudes tool around the house, but I spend a non-trivial portion of my tinkering time and energy on my family's computing infrastructure. This is a useful game for me, and it's important that my children learn how to do it as well. I hope I never become jaded about computing in such a way that I only see it as a chore to be avoided rather than a joyous practice integrated into my identity.
+
+
+---
+!! Principles:
+
+* Gather your writings on silicon computing here.
+* Transclude where appropriate.
+
+
+---
+!! Focus:
+
+```
+<$set name="mydate" value=<<now YYYY.0MM.>>>
+<<list-links "[tag[Computer Musings]prefix<mydate>]">>
+</$set>
+```
+
+
+---
+!! Vault:
+
+* Audits:
+** [[2017 - Computer Musings]]
+** [[2018.01 - Computer Musings]]
+** [[2018.02 - Computer Musings]]
+** [[2018.03 - Computer Musings]]
+** [[2018.04 - Computer Musings]]
+** [[2018.05 - Computer Musings]]
+** [[2018.06 - Computer Musings]]
+** [[2018.07 - Computer Musings]]
+** [[2018.08 - Computer Musings]]
+** [[2018.09 - Computer Musings]]
+** [[2018.10 - Computer Musings]]
+** [[2018.11 - Computer Musings]]
+** [[2018.12 - Computer Musings]]
+
+
+---
+!! Dreams:
+
+* Use this as a systematic tool for growing the love of my hobby.
+
+
+---
+<<footnotes "1" "Alternatively: 'There are 2 hard problems in computer science: we only have one joke and it isn't funny.'">>
+
+<<footnotes "l" "Though I am not convinced it is morally obligated in all contexts, I generally aim to be accurate in my quoting. Just in case it may need to be said, since this is a stupid meme, I am joking in my citation.">>

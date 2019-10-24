@@ -1,0 +1,28 @@
+created: 20181209184516638
+modified: 20181210062512850
+tags: [[Wiki Audit]]
+title: 2018.12.09 - Wiki Audit: Bob
+
+Bob is operational. I am experiencing lag in some cases that I do not in pure browser form. Tiddlertool is taking a beating (and it was already barely usable for me). Yikes. Still, anything Tiddlertool can do, I will be able to accomplish xonshically. That is more than a fair trade. =)
+
+We're setting up the rsyncs a bit differently. Going to have resilio sync setup as well now. Thinking about how best to git this; since it is already fragmented, we can do this cleanly. Perhaps I should add dat? Maybe later when I'm convinced dat is the way to go. I hope Dat will become a drop-in-replacement (especially if it can just be integrated straight into TW).
+
+Without giving up the static index.html file, I finally have multiple tabs for editing my wiki as well as commandline access to my wiki. 
+
+`/cum-rainbows` Huzzah!
+
+That said, I aim to use the multiple tabs sparingly for now. This is workspacing all over again. Use it only for the right workload. Windows inside windows, functions inside functions. Nest, copulate, and explode.
+
+It's neat to have my family editing my wiki directly.
+
+---
+
+It's fascinating to look back at [[/b/]]'s evolution. I just started writing without imposing models. Some models emerged for me. I keep grinding away. I worry that I am not actually working hard enough to model, that I'm not taking large enough risks here. That's certainly not the way it feels to me though. I feel like I have a lot of buns in the oven, and I don't know which ones will pan out. I venture into the unknown, but I never know if I do it well enough. As usual, this is empirical. What more can I do besides just engage in the practice?
+
+[[2018.12.07 - kickscondor: h0p3]] is an interesting piece of writing. It caused me to re-read everything in //Focus://[[kickscondor]].
+
+Hell, I just read {[[About]]} again (it's been too long...used to be once a week). That page has grown so much this year. The narratival commitment is there.
+
+---
+
+I made a small push into 2017.09.

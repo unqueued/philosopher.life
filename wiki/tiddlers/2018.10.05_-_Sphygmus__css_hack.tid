@@ -1,0 +1,20 @@
+created: 20181005210117883
+creator: h0p3
+modified: 20181104202339554
+modifier: h0p3
+tags: Sphygmus Note From
+title: 2018.10.05 - Sphygmus: css hack
+
+saw your comment about a fixed sidebar - it's a super hacky solution, but:
+
+.tc-dropzone {
+     height: 100vh;
+}
+.tc-story-river {
+     overflow: auto;
+}
+.tc-sidebar-scrollable {
+     overflow: auto;
+}
+
+will make the sidebar stay fixed, when added to the proper spots in [[$:/plugins/sphygmus/core/stylesheet/flexbox]]. it's ugly in the smaller screen sizes b/c I don't add padding to the sidebar to account for the scrollbar in the middle of the river (and ugly b/c of the scrollbar in the middle but i'm not sure right now how to fix that... :/) but yeah, it should do the basic trick!

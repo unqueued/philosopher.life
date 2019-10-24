@@ -1,0 +1,10 @@
+created: 20181008230624199
+creator: h0p3
+modified: 20181020180700989
+modifier: h0p3
+tags: [[Wiki Audit]]
+title: 2018.10.08 - Wiki Audit: Mechanics
+
+I'm building mechanisms for helping me complete this audit. [[Remembrall]] is working now effectively enough. It's a bookmark as I grind through this. I can feel the lag of it...perhaps this is not the right way.
+
+Work is underway on the tagging script. We're going to build a nightly xonsh script to do the work for us. Tagging can be done nightly for set queries. Hardcoded link list insertions as well. Eventually, we'll have signatures too.

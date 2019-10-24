@@ -1,0 +1,34 @@
+created: 20180821164015549
+creator: h0p3
+modified: 20181029175224790
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.08.21 - Computer Musings: No, It Died
+
+black-wolf-0 is down and out. We're going to strip it for parts. The SSD will still be useful, the RAM we will keep. Alternatively, we could try to sell it, but meh. I don't even want to risk selling something that I'm not convinced someone could fix. Thar be demons in there.
+
+My son is working on his sync to m15 again. His new computer, an insane machine for $130, looks pretty sweet. 
+
+---
+
+j3d1h is working on the git issue for me. I like that we are going back to build a complete inventory this time. Git was just a versioning backup tool, practically a redundancy. It wasn't complete either. I just wanted to make sure it would be hard to take down. Now we're doing it write. I've massaged the files quite a bit for her, and I've given her the other tools to piece it together. I'm glad she is working on this project.
+
+---
+
+My daughter is setting up her rsync to the 2TB drive she has working now in her machine. I'm having her do the same as I've got. A nightly file-for-file rsync copy of home, timeshifts for root, and a weekly compressed backup script which is resilio synced to HTPC.
+
+---
+
+I have a huge problem from xonsh, clearly. Something is very wrong, and I think it has to do with misuse of pacman on my end. I'm not sure what I've done. 
+
+Doing a system update and reboot. Let's do first things first.
+
+---
+
+Perhaps we test networks in [[Outopos]] for content. Do they provide the right randomized hashes of parts of files? Do they actually store files we care about. We can give people "trust" ratings based upon this, and people can set their own thresholds. We should test others on the network who say they have a file. That's part of how we know.
+
+Automated testing procedures and the trust networks built on that are super fucking important. That might be at the heart of good decentralization to prevent the need for trackers and federation.
+
+---
+
+Xonsh, pip, and pyperclip installed and working. Not sure what's up. =/

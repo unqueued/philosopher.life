@@ -1,0 +1,121 @@
+aliases: [[Verify]] [[verify]]
+created: 20180719034131877
+creator: h0p3
+modified: 20190213010106132
+modifier: h0p3
+tags: Root Readme Directory Draft RGM
+title: Cryptographic Verification
+
+!! About:
+
+//Even when we don't have the moral right to say just anything, we must always enable and maintain the political right to free speech, especially for our enemies and outgroups. Speak and sign digital Navajo, decentralize information power, securely communicate with [[others]], own your voices and minds insofar as you ought, and exercise your political rights or you will lose them. This political action page exists for those cornercases...//<<ref "ir">>
+
+<<<
+We kill people based on metadata.
+
+-- Bruce Schneier, //Data and Goliath: The Hidden Battles to Collect Your Data and Control Your World//
+<<<
+
+<<<
+Cryptography shifts [to some [[dok]]] the balance of power from those with a monopoly on violence to those who comprehend mathematics and security design.
+
+-- Jacob Appelbaum 
+<<<
+
+<<<
+When cryptography is outlawed, bayl bhgynjf jvyy unir cevinpl [only outlaws will have privacy].
+
+-- John Perry Barlow
+<<<
+
+<<<
+Who dares not speak his free thoughts is a slave.
+
+-- Euripides, //The Phoenician Women//
+<<<
+
+Like any tool, cryptography can be instrumentally used for good or evil ends. Cryptography provides us the means to semi-automatically generate particular kinds of trust, and it must radically serve as part of the foundational digital infrastructure we use to construct and maintain our [[T42T]] relationships in the digital age. Our moral (though obviously not current political) rights to anonymity and privacy scale with the power differentials between political adversaries. Information advantages must always benefit those at the bottom.<<ref "ia">> All else being equal, as a matter of [[The Golden Rule]], those with power must be radically transparent before those who have none, and those who have no power have the moral right to protect their information from the centralization of power.<<ref "ult">>
+
+Applied appropriately, cryptography acts as a pre-emptively enforced cluster of Hohfeldian rights against your loved ones, friends, anons, skiddies, blackhats, dark-triads, transnational corporations, Big Brother, Capitalists, Peter Thiel, le ilerminaty, aliens,<<ref "al">> and a remarkable number of legitimate adversaries, which at times may even include ourselves.<<ref "st">> It is your moral obligation to own your data and effectively decentralize power [[irwartfrr]]! The workers must own the means of production; we must equalize asymmetrical information power dynamics as best we can. You owe Humanity a profound contribution to and participation in an information system meant to serve those who need it most.<<ref "f">> Using cryptography correctly is a realpolitik behavioral vote for the decentralization of power.
+
+Official distributions of h0p3's Wiki include a [[Real-Time Embedded Wiki Signature]] for verifying the integrity and authenticity of your copy. The hash and signature of that hash are injected into that tiddler for every published edit. 
+
+I previously used PGP (GnuPG as my last tool) to sign this wiki. PGP has to be one of the worst "best in class" toolsets I've ever used. It doesn't "just work," and it desperately needs to. Instead, I'm attempting to cut out the middleman to more directly use the crypto library I actually trust. I generate signatures through [[PyNaCL|https://github.com/pyca/pynacl]], a gorgeous binding to the state of the art [[NaCL|https://nacl.cr.yp.to/]] crypto library.<<ref "2">> I believe my key will be useful until quantum computing becomes feasible.<<ref"3">> PGP buys the same verification as my process. The difference is that my process is literally programmable in every major language. It ain't pretty, and it might even be awful, but it works.<<ref "ps">>
+
+
+---
+!! Principles:
+
+* Continually improve this process.
+* Build tools which maintain fitting degrees of privacy, anonymity, authenticity, and integrity in my context.
+* Enable surprising portability, decentrality, and distributivity.
+
+
+---
+!! Focus:
+
+* [[Real-Time Embedded Wiki Signature]]
+* [[Master Ed25519 Public Key]] for h0p3's Wiki:<<ref "mk">>
+** 5b0addf64aa52a67ac9c59031e7c15919717df39146c2d995f7f0745a2fc8fe2
+* Current Slave Ed25519 Public Key for h0p3's Wiki: 
+** 5249578e4cdfaec1484f0083df3e8b6e4af0cab0288c8156c31d6e94efe58308
+
+Authentication is fairly straightforward. Download a copy of the wiki, and make sure the filename is `index.html` (or modify the script). Create and run [[the following script|embedded-sig-verify.py]] in the same directory as the html file.<<ref "nacl">>
+
+{{embedded-sig-verify.py}}
+
+To be clear, you're going to have to initially trust the public key is h0p3's to begin with.<<ref "tt">> Further, if you trust the signature verification of the checksum, and you trust the checksum of index.html (if the hashes match, you should), then you trust index.html. Thus, this authenticity+integrity verification process demonstrates you possess a bit-for-bit copy of the original signed by someone who possesses h0p3's private signing key.
+
+Please note the key used to sign this wiki is obviously sitting on my hard drive. I can never guarantee I'm clean or that someone else doesn't possess the current slave private_key. Hence, I have introduced the [[Master Ed25519 Public Key]] to afford myself the opportunity to semi-conveniently revoke (and create) this wiki's current slave key from scratch in an emergency on a clean box.
+
+Because of the way Tiddlywiki's node.js server compiles this .html file, downloading from a web server will not provide a bit-for-bit copy.<<ref "per">> [[My daughter|j3d1h]] and I are working on that. For now, use resilio, git, or a direct download method.
+
+
+---
+!! Vault:
+
+* [[Nightly Internal Signature]]
+
+* Retired: 
+** [[Retired: 2017.01.14 - Cryptographic Verification]]<<ref "4">>
+** [[2017.09.10 - Retired: Cryptographic Verification]]
+** [[2018.07.18 - Retired: Cryptographic Verification]]
+** [[2019.01.02 - Retired: Cryptographic Verification]]
+
+
+---
+!! Dreams:
+
+* [[Vanity Keys]]
+* [[Invisign]]
+* Eventually, find and implement reasonable post-quantum crypto.
+
+
+---
+<<footnotes "ir" "While this process may never actually be needed, it isn't irrelevant. I prepare for the possibility of its necessity, but I [[hope]] it will never be needed. Better safe than sorry!">>
+
+<<footnotes "ia" "At least on maximally cognitivist and realist theories of [[The Good]] and [[Right]], this makes sense. For example, the law of diminishing marginal utility demonstrates my claim, as do Rawlsian approaches. I don't have to convince the Libertarians or anarchists most of the time.">>
+
+<<footnotes "ult" "Ultimately, we must deprivatize our lives with each in order to build honest relationships with integrity at all, but the manner in which this is accomplished must be decentralized and controlled by individuals.">>
+
+<<footnotes "al" "Who have almost paradoxically traveled at least near light speed but somehow lack quantum computers...">>
+
+<<footnotes "st" "I am such a stupid user sometimes; it's a wonder that I let myself have sudo access to my own life at all.">>
+
+<<footnotes "f" "Find a way. Some ways are better than others, not all ways work for everyone. You still gotta do your best.">>
+
+<<footnotes "2" "I am aware of that maxim: Don't roll your own crypto. This maxim can be applied at different levels in the cryptography process. While I openly admit my shallow understanding of cryptography, I remain convinced this is a reasonably safe exception to that maxim. Famous last words, I know. Talk to me about it if it bothers you, please. [[Audit]] me!">>
+
+<<footnotes "ps" "Or, I'm pretty sure it does, lol.">>
+
+<<footnotes "mk" "Please note that this wiki is signed by a revocable slave key; the [[master key|Master Ed25519 Public Key]] is my just-in-case Mr. Backup Plan for revoking and creating new slave keys on my keyring; it is the best post-pwned ex nihilo identity reconstruction I can muster at the moment.">>
+
+<<footnotes "nacl" "Don't forget to first install [[PyNaCL|https://github.com/pyca/pynacl]]; pip is easiest.">>
+
+<<footnotes "tt" "The snapshots might help you establish that trust, or you could verify with someone else you trust to have h0p3's public signature key, or could even just {[[Contact]]} me to see if I pass some version of your turing test to demonstrates I am author of this site (there's a reasonable chance no one else is going to speak just like me even if they tried, and you can probably tell the difference).">>
+
+<<footnotes "per" "See: [[2019.02.10 - TWGGF: Signing Diff]].">>
+
+<<footnotes "3" "Not that it would ever matter in this case, but I'm not naive enough to think rubber-hose cryptanalysis isn't the first step a state-actor would use against me. Regardless, I still think cryptography is immensely useful to us.">>
+
+<<footnotes "4" " I believe this was the first official 'Retired:' I ever made on this wiki. For now, I break with my {[[Principles|Principles of Programming Myself]]} conventions to preserve the ornament for myself in the code. Obviously, I didn't know what I wanted, but I figured it out.">>

@@ -1,0 +1,257 @@
+created: 20180911174411183
+creator: h0p3
+modified: 20181101050029688
+modifier: h0p3
+tags: ALM
+title: 2018.09.08 - ALM: The Build
+
+```
+how goes it, homie?
+Fri 7:05 PM
+ Hey man.  It is going well.  Just got home from work.  How about you?
+Fri 7:22 PM
+ It goes well. School with the chillun, walked with wife, read and write
+Fri 7:24 PM
+ applied for a fact checker position with WikiTribune
+Fri 7:24 PM
+ would be neat to land that
+Fri 7:24 PM
+ what you up to this weekend?
+Fri 7:24 PM
+ Cool beans.  I might get started on putting my computer together tonight.
+Fri 7:24 PM
+ Pics!
+Fri 7:25 PM
+ Right now I'm trying to figure out where the wifey is.
+Fri 7:25 PM
+ Pics will come once I get started.  Fo sho!
+Fri 7:25 PM
+ I am very excited!
+Fri 7:26 PM
+ I am too I've been sitting on the part since Wednesday and haven't had time to get started yet.
+Fri 7:26 PM
+ 
+Fri 8:09 PM
+ It's alive!  But won't install Manjaro lolz
+Fri 10:27 PM
+ Yay!
+Fri 10:45 PM
+ What's manjaro doin?
+Fri 10:45 PM
+ The usb media has old kernel and wont boot on my system
+Fri 10:46 PM
+ lol
+Fri 10:46 PM
+ I've never had that happen before
+Fri 10:47 PM
+ Yeah, it sux the install hangs
+Fri 10:47 PM
+ I'm sorry =/
+Fri 10:47 PM
+ huh
+Fri 10:47 PM
+ Currently trying to think of other options that would be available
+Fri 10:47 PM
+ wait, you can get into live manjaro?
+Fri 10:47 PM
+ I can get to the grub splash, when it hands I can get into a CLI
+Fri 10:48 PM
+ hangs
+Fri 10:48 PM
+ =/
+Fri 10:48 PM
+ I wish I knew what to do about that.
+Fri 10:49 PM
+ I have no idea
+Fri 10:49 PM
+ I can think of some very ugly hacks, like installing debian and then doing an arch install in-place (seen some neat VPS hacks like that too).
+Fri 10:50 PM
+ you might just go straight for arch too
+Fri 10:50 PM
+ Antergos makes it simple
+Fri 10:50 PM
+ My Google search seems to show that if I use Manjaro architect I can choose the needed kernel on that during install.
+Fri 10:52 PM
+ aye
+Fri 10:52 PM
+ that's worth trying
+Fri 10:52 PM
+ Do you think I could do it?
+Fri 10:52 PM
+ yes
+Fri 10:52 PM
+ I think you don't have enough confidence in yourself.
+Fri 10:53 PM
+ have a computer running next to it, google as go
+Fri 10:53 PM
+ as you go
+Fri 10:53 PM
+ You got an HDD, eh?
+Fri 10:53 PM
+ It might take a couple tries to get it the way you want
+Fri 10:54 PM
+ Yes and I also got an nvme Drive
+Fri 10:54 PM
+ I did go for the 16GB of memory though
+Fri 10:55 PM
+ you won't regret it
+Fri 10:55 PM
+ why nvme?
+Fri 10:55 PM
+ S**** and giggles mostly
+Fri 10:56 PM
+ lol
+Fri 10:56 PM
+ Have you looked into Type 1 Hypervisor?
+Fri 11:00 PM
+ Also, now that you have a sick machine, you sticking with XFCE?
+Fri 11:00 PM
+ never heard of it
+Fri 11:00 PM
+ it's like a baremetal VM host, very thin
+Fri 11:01 PM
+ I really hate KDE.  I like xfce and cinnimon
+Fri 11:01 PM
+ You could also go for a hackintosh
+Fri 11:02 PM
+ I have looked into elementary, which is based on looking like mac, and I dont like it either
+Fri 11:02 PM
+ I've tried elementary many times...not a fan
+Fri 11:03 PM
+ I didn't like my hackintosh either though
+Fri 11:03 PM
+ I am going to try Manjaro Architect and see how that turns out.  I am flashing it as we speak
+Fri 11:05 PM
+ noice
+Fri 11:06 PM
+ I have learned that cable management is a bitch and that I should have bought a modular power supply
+Fri 11:07 PM
+ It does look way nicer, and if you are constantly in  your machine, it makes sense.
+Fri 11:08 PM
+ I don't care for my machines anymore.
+Fri 11:09 PM
+ ...
+Fri 11:09 PM
+ I don't open them up.
+Fri 11:09 PM
+ Ah
+Fri 11:09 PM
+ I've opened m10 once...that was to replace the RAM.
+Fri 11:09 PM
+ My struggle is almost always software. Trying to find the exact environment I love.
+Fri 11:10 PM
+ The part I was most worried about was putting the motherboard standoffs in and then screwing the mobo down.  Never done that before
+Fri 11:11 PM
+ aye, especially since you can short the board if you screw that up
+Fri 11:11 PM
+ ok the flashing is done and now it is time to try it
+Fri 11:11 PM
+ When you have the curiosity/freetime you will need to try a tiling manager again (openbox was also nice). It has changed my life.
+Fri 11:12 PM
+ I know you don't think of yourself as a multi-tasker. I suggest that with 16GB of memory, you will have the opportunity to change your mind.
+Fri 11:13 PM
+ how goes it?
+Fri 11:54 PM
+ No luck yet.  The architect is difficult
+Fri 11:54 PM
+ yeah, it makes you specify way too much, imho
+Fri 11:54 PM
+ but, I suppose that's the point of it...reminds me of Ubuntu Server edition
+Fri 11:55 PM
+ You mentioned antergos earlier what is that?
+Fri 11:56 PM
+ https://antergos.com/
+Fri 11:57 PM
+ EZ Arch
+Fri 11:57 PM
+ Ah
+Fri 11:57 PM
+ it's an arch installer
+Fri 11:57 PM
+ I still prefer Manjaro.
+Fri 11:59 PM
+ I feel like a beta tester with Arch. I know it has gotten better/less breakage.
+Sat 12:00 AM
+ Hell yes!  Manjaro running on the new machine after using the architect.  It took several attempts but it works!
+Sat 7:47 PM
+ yay! =)
+Sat 8:06 PM
+ Indeed
+Sat 8:06 PM
+ inxi -Fi
+Sat 8:25 PM
+ por favor
+Sat 8:25 PM
+ you ricing? =)
+Sat 8:32 PM
+ Hopefully this may be of use to you, filling out the corners: https://philosopher.life/#Linux%20Tool%20Collection:Root%20%5B%5BLinux%20Tool%20Collection%5D%5D
+Sat 8:41 PM
+ I will look into that
+Sat 8:41 PM
+ I am indeed setting the desktop up and getting programs installed
+Sat 8:41 PM
+ inxi -Fi
+Sat 8:42 PM
+ I want to see
+Sat 8:43 PM
+ ?
+Sat 8:42 PM
+ oh a command
+Sat 8:42 PM
+ System:
+  Host: manjaro Kernel: 4.19.0-1-MANJARO x86_64 bits: 64 
+  Desktop: Cinnamon 3.8.8 Distro: Manjaro Linux 
+Machine:
+  Type: Desktop Mobo: Gigabyte model: B450 AORUS M v: x.x 
+  serial: <root required> UEFI: American Megatrends v: F1 date: 06/26/2018 
+CPU:
+  Topology: Quad Core model: AMD Ryzen 5 2400G with Radeon Vega Graphics 
+  bits: 64 type: MT MCP L2 cache: 2048 KiB 
+  Speed: 1567 MHz min/max: 1600/3600 MHz Core speeds (MHz): 1: 1510 2: 1529 
+  3: 1866 4: 1727 5: 2290 6: 2389 7: 2011 8: 2087 
+Graphics:
+  Device-1: AMD Raven Ridge [Radeon Vega Series / Radeon Vega Mobile Series] 
+  driver: amdgpu v: kernel 
+  Display: x11 server: X.Org 1.20.1 driver: amdgpu,ati unloaded: modesetting 
+  tty: N/A 
+  Message: Unable to show advanced data. Required tool glxinfo missing. 
+Audio:
+  Device-1: AMD driver: snd_hda_intel 
+  Device-2: AMD driver: snd_hda_intel 
+  Sound Server: ALSA v: k4.19.0-1-MANJARO 
+Network:
+  Device-1: Realtek RTL8111/8168/8411 PCI Express Gigabit Ethernet 
+  driver: r8169 
+  IF: enp3s0 state: up speed: 1000 Mbps duplex: full mac: e0:d5:5e:d9:ef:5a 
+  IP v4: 192.168.1.203/24 type: dynamic noprefixroute scope: global 
+  IP v6: fe80::a206:7af:5304:ef52/64 type: noprefixroute scope: link 
+  WAN IP: 172.5.53.136 
+Drives:
+  Local Storage: total: 2.04 TiB used: 7.15 GiB (0.3%) 
+  ID-1: /dev/nvme0n1 vendor: Kingston model: SA1000M8240G size: 223.57 GiB 
+  ID-2: /dev/sda vendor: Western Digital model: WD20EZRZ-00Z5HB0 
+  size: 1.82 TiB 
+Partition:
+  ID-1: / size: 218.57 GiB used: 7.06 GiB (3.2%) fs: ext4 
+  dev: /dev/nvme0n1p2 
+  ID-2: /boot size: 511.0 MiB used: 92.1 MiB (18.0%) fs: vfat 
+  dev: /dev/nvme0n1p1 
+Sensors:
+  System Temperatures: cpu: 49.8 C mobo: N/A gpu: amdgpu temp: 49 C 
+  Fan Speeds (RPM): N/A 
+Info:
+  Processes: 241 Uptime: 1h 11m Memory: 14.69 GiB used: 2.15 GiB (14.6%) 
+  Shell: bash inxi: 3.0.21
+Sat 8:43 PM
+ not adding old SSD to this system?
+Sat 8:46 PM
+ I might at a later time.  The kids are gonna be using the old system and it is less work to work with it as it is now.
+Sat 8:46 PM
+ I think you should leave the SSD in for them instead.
+Sat 10:26 PM
+ Yeah
+Sat 10:25 PM
+ they'll try a computer with just an HDD some day and it will blow their minds
+Sat 10:26 PM
+ hahaha
+```

@@ -1,0 +1,121 @@
+created: 20180619201402497
+creator: h0p3
+modified: 20180622161249164
+modifier: h0p3
+tags: 
+title: Ithkuil
+
+!! About:
+
+//The crazy-hard yet hyperaccurate conlang candidate which may one day give birth to my family's Atreidian Second-Foundation "Speedtalk" Battle Language.//<<ref "l">>
+
+<<<
+The problem with defending the purity of the English language is that English is about as pure as a cribhouse whore. We don’t just borrow words; on occasion, English has pursued other languages down alleyways to beat them unconscious and rifle their pockets for new vocabulary.
+
+-- James D. Nicoll
+<<<
+
+<<<
+Ithkuil makes you say what you mean and mean what you say.
+
+-- John Quijada
+<<<
+
+That's exactly what I aim to do in this wiki: I consider "saying what I mean" (A⊢B⇒A⊨B) and "meaning what I say" (A⊨B⇒A⊢B)<<ref "g">> to be necessary for honesty, integrity, and respecting the dignity of rationally autonomous language users. It's my moral duty to push my use of natural language to its logical limits. 
+
+Ithkuil isn't ready! Problematically, it is esoteric. But, it may be one day useable. I'm so looking forward to it!
+
+
+ I have prescriptive opinions about how to construct effective symbolic logic systems and programming languages, and I see no reason not to engage in the same kind of prescriptive reasoning about natural, everyday language. 
+
+As usual, [[ridtyawtr]]. The natural languages which have evolved without radical design are truly not ideal; we could do a lot better. Asimov's Second Foundation lhas long been a fictional example of (overly) ideal linguistics for me. I think we can practically engage in this activity without devolving into gnosticism.
+
+If you were going to plan and engineer a personal cryptophasic auxiliary artificial language, what would it be? If you intended to primarily speak with language with primarily yourself but perhaps your closest family (and maybe AI), what makes a good high-performance, low-level language after you've mastered it, especially in the context of my wiki? 
+
+Surely it must be elegantly designed and profound. I'd want it to apply cutting edge computational linguistics.<<ref "a">> I'd want something empirically measurable, and perhaps something which enables one to make non-trivial formal proofs about it. I'm looking for:
+
+* extreme analytic and antipleonasmic qualities
+* state-of-the-art linguistic ultrapurity and prescription
+* godlike in the ability to be meta without resorting to mere metaphor
+* low friction processing fluency
+* reasonable corpus planning
+* powerful cognitive distortion resolution
+* opinionated and obvious idiomatic usage
+* crystal clear, effort-reductive decision making for building abstractions
+** built-in deterrents to non-standard usage and hypercorrection
+* strong availability, affect, and representativeness heuristics generation and framing techniques for memeplexes of exceedingly high complexity
+* preference for built-in safety against attribute substitution, cognitive bias, ambiguous hermeneutics 
+
+
+I want eliminate vagueness and linguistically force myself to the limit of precision. Make it explicit, leave nothing to conversational implicature. I need a tool that makes it easy to systematically generate names and predicates for those gaps which current natural languages don't have words for. I need a language to conquer all meanings.
+
+
+
+reformation of standard natural language problematics, crystal clear standardization, and the ability to adapt, upgrade, and maintain the language.
+
+Like every new XKCD standard, I want to handle or steal all the features of every other protocol and making a unified perfect one for my context. 
+
+Because I'm convinced language profoundly influences our perceptions of the "thing in itself" (which likely includes models and representations), I'd want it to possess profound ethnolinguistic and weak Sapir-Whorfianist linguistic relativist properties,<<ref "w">> especially insofar as it enables me to mitigate the maladaptive components of my autistic linguistic modeling.<<ref "c">> I need to solve hypocognition problems.
+
+* Make soundness and incompleteness easy to appreciate or prove.
+* Pay very special attention to "be" existential quantifier and identity predicate usage. (Not sure what we really want)
+
+In my experience with symbolic logic, you want to get this shit right. Your syntax and semantics have profound relationships with each other, and you want limit friction while maximizing the scope and detail of your natural inferences with the language. Even the little things matter.
+
+The Esperanto community defines itself (in English) as a "stateless diasporic linguistic minority." I prefer to think of my interest in Ithkuil as an opportunity to model and reason with myself and my family using a computationally optimized natural language. It is a pragmatic philosophical concern, but it obviously has some political implications. For example, it's a powerful form of steganography.
+
+While Python, a very high level-language, is more concise than C, a lower-level language, it is generally not more precise. Benchmarks and real-world usage demonstrate it clearly enough. [[Rust]] is fascinating because it aims to give you the concision of Python through zero-cost abstractions and a safer multi-threaded precision than C. I am convinced that Rust will eventually hit the network effect and revolutionize systems programming (especially when hardware manufacturers step up to the plate with it). Unfortunately, Rust is really fucking hard to learn compared to Python, but in the end, it builds better foundational software. I think a conlang like Ithkuil may be similar to Rust in acquisition difficulty and unique expressivity.
+
+Things I don't give a shit about:
+
+* Phonoaesthetics
+* 
+
+Insofar as Ithkuil merely demonstrates what language could be instead of what it should be, we must change it.
+
+
+
+---
+!! Principles:
+
+* [[SCWR]] into Ithkuil, linguistics, and the computational theory of mind necessary to use and/or build a damned fine private-ish language.
+* Be exact, careful, and truly thorough.
+* Use it or lose it, thus you should practice daily.
+* Make mini-games of it, and enjoy the grind.
+* Prefer not to reinvent the wheel, but make it your own when it's the low-hanging fruit option.
+
+
+---
+!! Focus:
+
+* Log
+** [[2018.06.19 - Ithkuil: Attál]]
+
+* [[Ithkuil: Primer]]
+
+* Links
+** http://www.ithkuil.net/
+
+
+---
+!! Vault:
+
+* (*crickets*)
+
+
+---
+!! Dreams:
+
+* To dream of more dreams for this page.
+
+
+---
+<<footnotes "l" "I want a language which makes Saint Leibniz cum in his pants. Unfortunately, mathematics can only take us so far, and there appear to still be some powerful natural language advancements which might leverage the verbal cognition better than pure formal, symbolic logic reasoning.">>
+
+<<footnotes "g" "I know we can't. We can, however, push that boundary very far. I'm very perplexed as to Quijada's disdain for Wittgenstein, Russell, and Gödel. He has either failed to understand their point, or he has solved something incredible.">>
+
+<<footnotes "a" "Which appears to be a valuable problem in psycholinguistics, neurolinguistics, and computer science; computational theory of mind is really at the heart of the matter. Ithkuil appears to have non-trivial NPL properties.">>
+
+<<footnotes "w" "The strong determinism thesis may be ultimately implied at some level too, even despite the widespread belief it has been disproved. I don't believe I necessarily have a dog in this fight.">>
+
+<<footnotes "c" "It pleases me that Linguist-Chomsky and Pinker would be annoyed by what I'm doing. It is possible, however unlikely, that Ithkuil may possess some NLP properties as well (but I'm not holding my breath).">>

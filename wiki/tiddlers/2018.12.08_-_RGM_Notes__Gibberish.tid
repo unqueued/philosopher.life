@@ -1,0 +1,43 @@
+created: 20181209032639198
+creator: h0p3
+modified: 20181210021002152
+modifier: h0p3
+tags: [[RGM Notes]] /b/
+title: 2018.12.08 - RGM Notes: Gibberish
+
+Sorry if this is gibberish. Again, ignore at will.
+
+Of course, this may just be [[https://xkcd.com/927/]] standards problem. Yup. This may not be useful to anyone either. It may just be me that would like it.
+
+---
+
+Perhaps this is what Beaker Browser should be used for, and I'm thinking about it all wrong. I very much like using any browser I want to edit my wiki (I like the performance of FF and Blink, and add-ons matter). 
+
+With Bob, I believe I can just distribute .tid files real-time (much easier on the versioning for dat too). I suppose each time a tid file is modified, it could be signed as well. Each tid would carry its own signature (perhaps invisign it or maintain the signature in a field [that sounds much better]). Among so many other things, I've not explored Bob enough to see far enough here, but the multi-wiki notion may be just what the doctor ordered for twederation.
+
+Because Bob can have access to the commandline, I am very worried about safety here. I would want, for example, easy dat control access through the wiki controls itself to add new users, etc. Unfortunately, I think this is a mistake. This is above my paygrade besides wrapping someone else's tiddlers entire in code (and eliminating their ability to use that particular kind of code). This would guarantee something immutable and uncomputed is all that can make it into my wiki (without me explicitly changing that).
+
+I have no experience with twederation more than is necessary for my own personal use thus far. That is unacceptable.
+
+I would like to eventually move towards a scripted environment that hooks together dat and bob (with excellent automated scraping tools to induct single-file wikis and beyond). Decentralization means both having an explicit network designed for twederation but also being able to serve that singlefile however we wish (insofar as it is feasible, we must never be beholden to any one particular network or protocol). I am increasingly convinced Bob is the foundation of that tool. I should probably connect with Jed about this, but I aim to come to him without being idiotic swine (and, I am sure he knows how blind I am). He clearly has serious vision, and I do not want to be arrogantly ignorant in how I think with him.
+
+There are threads of conversations about how to P2P/Federate Tiddlywiki. I've not seen anything I love or working great (but, it could easily be the case that I've missed the obvious!). Perhaps that's the tool I should work towards building (even if only for family members).
+
+A Bob setup or executable with dat/hypercored appropriately used could go a long way (though, I seem to have significant permissions problems with the dat tooling: likely because I'm a fool). I am even fine with a docker or full-blown VM (like this a lot) to run the server in. It could be Ubuntu-flavored for nice integration into Windows' Linux-subsystem (meh). This is Termuxable, but I think the VPN->[0.0.0.0:8080 Bob remote server behind a firewall] is a better idea (Matrix model may be the only practical way); I think the battery drain on my phone would likely be unacceptable.
+
+Actually, I very much like the VM or jail idea. Ugh. Yeah, it's painful to make something that can't hurt you without forcing the user to jump through some hoops to connect the dots they want connected. Access to the host file system should be manually entered. I think it would be extremely common to want the host file system to have access to the .tids (and other files hosted in those directories). That might not be necessary though since you could likely always import the files over the browser. There are likely a lot of different acceptable ways to solve this problem. I am not an expert enough to know the best direction.
+
+Another thing I like about the VM is that I can automatically set up a great deal of other tooling. Making it generically easy to add new way to host, manage hosting, or scrape is a good thing.
+
+Obviously, not everyone wants a wiki. [[Kickscondor]]'s site is hard-crafted art; mine is cookie-cutter to the extreme. I need a box to think inside of; there's no other way for me to be productive. This tool would be unnecessary for him (and likely [[Sphygmus]] who can craft whatever she wants). 
+
+Is this all a dumb fucking idea? Why?
+
+Tiddlywiki is a self-modifying IDE Quine with absurd mobility. Bob makes Tiddlywiki an HTML5 terminal emulator. Is TWcode dumbed down HTML all over again? Yeah, kinda. There are handful of things I need to accomplish in a markup language, and the fancy power of anything more complex is wasted on a philistine like me. 
+
+I both do and do not like that Tiddlers are like AMP. You force something into a particular standard protocol box and leave everything else to wither. To my understanding, Tiddlers can 
+
+In a way, the end singlefile product for reading can be fully virtualized inside a browser, and the Bob development environment for reading+writing perhaps should also be virtualized to some non-trivial extent for safety.
+
+
+

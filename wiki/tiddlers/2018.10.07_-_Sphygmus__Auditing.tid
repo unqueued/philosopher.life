@@ -1,0 +1,104 @@
+created: 20181007202217941
+creator: h0p3
+modified: 20181020164416900
+modifier: h0p3
+tags: Letter Sphygmus
+title: 2018.10.07 - Sphygmus: Auditing
+
+Dear Sphygmus,
+
+You continue to help me. Thank you. Your [[Auto-Wiki-Mator-Button]] and your Flexbox tools are direct additions to this wiki (or will be, when I've come to grips with them). They are constructive [[diamond]]ic seeds to me. I've enjoyed thinking about the title.Titles altogether for my [[Core Daily Requirements]]; it is a unique experience for me. 
+
+I am extremely grateful to you for thinking about my [[Wiki Audit]] with me (it can be a lonely desert to wander). I'm spending a non-trivial amount of my {[[Focus]]} on it. I think I need to turn it up to 11 now (I hope I can find the will power, lol). I have a lot of raw materials, and it's time I start connecting the dots together for another emergence. I do not know what I'm looking to cut from the marble slab to maximize the salience. I've only got my gut to go on here. I will continue to think very carefully about your advice, friend. Your vision matters to me.
+
+I can almost guarantee you've seen my notes for you, but I want to reference them in the letter for context:
+
+* [[2018.09.29 - Sphygmus: MUD]]
+* [[2018.10.02 - Sphygmus: Wrong Again]]
+
+You've also given me notes:
+
+* [[2018.10.04 - Sphygmus: hotkeys]]
+* [[2018.10.05 - Sphygmus: css hack]]
+
+I'm enjoying the ability to leave each other notes. It's cool.
+
+<<<
+just popping in to say - I'm watching your wiki auditing with interest! Crib as much or as little of the flexbox stuff from my site as you want. :)
+<<<
+
+Thank you for allowing me to crib from you, to use your excellent work to improve mine, and for being so generous with your tooling. 
+
+I fear I fail to [[T42T]] both you and [[kickscondor]] by failing to reciprocally build a useful tool for you. I'm trying to think of how I can contribute to your lives and art as much as you have for me. I apologize for not knowing how to do that. I feel inept like someone who doesn't know how to buy a good Christmas present for their friend (and that makes me a bad friend). I don't know you well enough to figure out how to create a gift that you'll love and use. I'm sorry! I'm thinking about it. 
+
+<<<
+I keep struggling with wanting to link to or transclude specific sections of tiddlers, and the resounding answer from the google group and github being "put it in its own tidder."
+<<<
+
+Oh, I know that feeling. It's entangled. There's a tradeoff here, though I do not understand it well enough. You can only take that advice so far down because at some point it is counterproductive. I actually think it's a mistake to atomize everything. It's too much work and computationally inefficient (both at the TW level and in terms of your semantic work), even if it provides enormous flexibility.
+
+I can only give you my intuition, which may be entirely wrong! I think you have to be inductive here. Part of the issue is we're trying to crystallize and unify an enormous world of content in the wiki. I think most people are building 1 TW to do one task well, and I would seek atomization pretty often in those contexts. There's something different, imho, about trying to piece the parts into one unified whole; we are forced to oversimplify.
+
+The wiki is a powerful tool for constructing relationships between information. Something is missing in TW for it not to be able to handle this important case more effectively. 
+
+<<<
+(see, I usually have one "Log" tiddler going each day that's my scratchpad for to-dos, random thoughts, just anything that I feel like writing about that day. In addition to the carpe diem and wiki review logs I've been keeping. So I want to pull threads out of the daily scratchpad logs, but I also want to preserve the context of the train of thought that day...but maybe that's what snapshots are for...)
+<<<
+
+This is not a problem I have solved. I have used [[/b/]] as an outlet valve (among other things). I have a tendency to just put things where they belong if I've figured out where to put it. I think preserving that context and the unified log is valuable. It's an irreducible timeline. I think everyone works a bit differently here. My son has a tendency to atomize, my daughter the other direction towards the unified heaps. The Goldilocks zone is contextual.
+
+Snapshots can do this, yes, though I don't think that's the real purpose of snapshotting.<<ref "s">> Most of the time, if I'm using a snapshot, it's to find or deal with a screwup, to demonstrate the evolution of something (though, this may just be what you are saying), or provide some other security properties. Generally, you want to actively tell yourself the story as directly as you can. Snapshots allow you to piece together and tell yourself stories from the past, but I'm not convinced that is what you really want here. It sounds like you want to show yourself a large current story in a unified way while also showing where the constitutive pieces belong. I do not know how to peel it apart and put it back together well enough (I'm still actively working on that problem myself). 
+
+Snapshots allow you to shed memories with integrity, to focus, crystallize, and sift for what matters most. You have to let some of your work go, cut loose the baggage, to kill your darlings, etc. You want to be able to retrace the dialectical growth of your wiki, but you can't afford to get bogged or weighted down by it too far (I am likely a failure in this respect!). You will wrestle with your wiki, and the synthetic sublation will be the output. That's my insane theory so far at least.
+
+As you suggest, perhaps you should take specific content into tiddlers that you can categorize but also transclude into the unified log. This preserves your ordering, and it gives you categories. This only becomes tedious (and inefficient) when the content for the atom is a tiny amount. But, at that point, perhaps you should just accept the redundancy of content (where editing one doesn't affect the other). I run into this often, but I fear it is some constantly changing contextual beast I can give no rule of thumb for myself.
+
+I am interested to know where you go with this issue. I'm sorry if I'm useless to you here, but I feel your pain! I would like to know your thoughts and ideas about your carpe diem, wiki review, and scratchpad "Log" tiddlers too. You've got the ball rolling, and it sounds like you are optimizing how you bring order to the chaos (a titanic task, imho).
+
+Also, this is something random I found: https://tiddlywiki.com/prerelease/editions/text-slicer/index.html. It's not clear to me that you could use it, but maybe. 
+
+<<<
+anyway hotkeys! for some reason, they don't work if the editor toolbar is hidden, only when it's visible. I'm guessing that's what's happening for you here!
+<<<
+
+Thank you. I was able to get them to work for me again. I keep the editor toolbar hidden in order for the editor body to display my Zing font. The hotkeys stopped working with the Link autocompletion plugin. It's a damned shame too, since I've been growing fond of it. I'm still fleshing out my [[Wiki: TDL]] and [[The Remodeling]]. Hopefully, I'll find a way to get autocompletion back; the hotkeys are too important to give up though (especially if I ever manage to make Keyboord and Select Mode work for me).
+
+<<<
+saw your comment about a fixed sidebar - it's a super hacky solution, but:
+
+.tc-dropzone { height: 100vh; } .tc-story-river { overflow: auto; } .tc-sidebar-scrollable { overflow: auto; }
+
+will make the sidebar stay fixed, when added to the proper spots in $:/plugins/sphygmus/core/stylesheet/flexbox. it's ugly in the smaller screen sizes b/c I don't add padding to the sidebar to account for the scrollbar in the middle of the river (and ugly b/c of the scrollbar in the middle but i'm not sure right now how to fix that... :/) but yeah, it should do the basic trick!
+<<<
+
+Thank you for the hack! [[j3d1h]] and I will continue to look for a way to push the scrollbar over. I've talked about this a bit with [[Josiah "TiddlyTweeter" Hincks]] too (I think you might get along very well with him).
+
+So, forgive my dumb questions: How often do you use TW on your phone? How does a common use of your wiki on your phone go? How important do think it is that TW is tailored for phones? You've put some serious work into, more than I've seen anyone else (but, I've probably not seen enough to make a judgment). It appears to me that you are much more adept at juggling your devices and building your own cloud than I am. This is a skill I desperately hope for my children to learn (I feel like a dog too old to learn new tricks, but that may be a rationalization-excuse).
+
+Also, I'm still giving thought to your fabulous [[Auto-Wiki-Mator-Button]]. I'm still wandering that rabbithole. There is something crazy right about it, imho. Tiddler titles do so much work. I am still convinced by my title naming conventions.<<ref "c">> I very much like the hardcoding too. There is wiggle room, but perhaps not every project needs immediate hardcoding. The "new journal here" could be modified to imitate the button you've made to include the name of the origin/host/parent in the new journal tiddler's title. Typing out the title.Title wouldn't be a problem when the lists are automatically generated.
+
+I think I should consider just committing to TW completely. [[kickscondor]] isn't even convinced I can leave TW if I wanted to (I think that's not true, but I think I'm increasingly convinced that I wouldn't want to). Perhaps I should move towards more automation of list generation.
+
+`<<list-links "[insert filter here]">>`
+
+Even for monthly audits, I could just create list-links that are filtered by date. But, I like having my lego pieces. I like being able to insert things and handle exceptions by hand.
+
+There is a chance I might be able to automatically generate cake and eat it hardcoded too. Your button is that kind of hybrid push, and I'm still thinking on it.
+
+I don't know if this is possible, but I've asked [[j3d1h]] to look into a way to make it so that when a tiddler is opened in the story river it is computed on the fly (but not at TW start runtime). The idea is to have list-links not simply automatically generated but to have those automatically generated results converted to hardlinks where are inserted into the tiddler (or related tiddler) in question. Your button handles this by moving to "the next line," which a clean way to handle it. This move is different, though perhaps untenable. Maybe this is a job for nightly python.<<ref "n">> I'm considering having a time when I bring everything down to run external scripts. Hardlinks could be calculated and inserted each night (though, I want to make sure handwork is always preserved). This all feels like a bad hack, but I'm not sure what else to do.
+
+I feel like a luddite here. Hardcoding as much as possible has interesting performance properties. It makes References crazy strong and fairly performant in my wiki. There's no recursion or calculating every automatically generated list on my wiki to search through them. [[Leet]]'s list is automatically generated. [[hlexicon]] is a member of that list. [[hlexicon]] does not show [[Leet]] as a reference. In this case, the tag does a version of reference work for us, but I can easily imagine using filter expressions as hand-crafted pre-made queries that aren't going to have that property. I like being able to trace the networks of references. References are crucial kinds of tags, imho. 
+
+As you can see, I still don't know what I'm doing, lol. ¯\_(ツ)_/¯ That's okay. We do what we can. I hope life is going well for you. I will savor the light that shines through the cracks.
+
+Sincerely,
+
+h0p3 
+
+
+---
+<<footnotes "s" "You might consider just git committing on every change. You really could capture everything space efficiently.">>
+
+<<footnotes "c" "Talking to the Unilink dev about it as well: [[2018.10.06 - PMario: Response]]">>
+
+<<footnotes "n" "Thinking nodejs to decompile, xonsh (actually the whole thing in xonsh) to do the heavy-lifting in question of the .tids, nodejs to recompile. This might also be the perfect space to put a nightly crypto-signature straight into the wiki as well. Also, [[j3d1h]] will be creating a script to automatically tag the wiki given input lists. I think she'll go python first and perhaps go js after.">>

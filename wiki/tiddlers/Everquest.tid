@@ -1,0 +1,50 @@
+created: 20170602223301234
+modified: 20190918025024982
+revision: 0
+tags: Games
+title: Everquest
+
+I've decided to begin playing an MQ2 bot based server with my brother. It reminds me of an idle game. I like the idea a lot.
+
+!! Links
+
+* http://leetsauceforums.proboards.com
+* http://www.macroquest2.com/wiki/index.php/Main_Page
+* http://everquest.allakhazam.com/
+
+!! Current To-do:
+
+* Gear
+** Augments
+*** Augments in all my gear
+*** 20-vanity slot aug for epic?
+** Kael Armor
+** Power Sources
+** Balls of Leet
+
+* LDON
+** Create LDON bot
+*** [[LDON Script]]
+
+*** Will have a reset timer.
+*** Random "/warp s" solves certain problems
+** Create LDON Token Leechers/Rebirthers
+*** Increase VM to 12GB RAM + 6 Cores
+
+* Accounts
+** Create a "main" account
+** Create a "script" testing account
+
+* Kill Script
+** Implement Clicky Gear in Scripts
+** Create "Win" Button Script
+*** Set it to use the button at will, or better yet, to blow it when I drop below X% health.
+** Cleanup
+*** Keep item list
+*** Avoid mobs list
+*** Better unsticking
+*** Stop casting the healing potion incessantly.
+
+
+* Ubaid Script
+** Beep when he pops. Put this in all scripts.

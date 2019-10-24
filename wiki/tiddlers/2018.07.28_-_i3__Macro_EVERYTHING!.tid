@@ -1,0 +1,14 @@
+created: 20180728185041512
+creator: h0p3
+modified: 20180728193953067
+modifier: h0p3
+tags: 
+title: 2018.07.28 - i3: Macro EVERYTHING!
+
+I want a cheap macro for saving this wiki by hand on ... I need to build a script for building i3 scripts, particularly wielding the mouse and keyboard. Once I can reliably and quickly make those scripts, there are plenty of things that I can "pipe" together visually.
+
+i3 is about building a single init script that gives you the ability to build whatever you want, on boot, on condition, on anything. It's performant pseudocode.framework for rapidly building your own OS.
+
+If the GUI is the handtool and the CLI is the powertool, i3 allows you to marry them together with a pseudocode-like integration of your hand and powertools with the dimensionality and order you want.
+
+It's very clear to me that i3 mimics AHK for me on Windows. I am able to bot things that most people didn't realize were effectively bottable through AHK. Against clicker/idle games, my bots regularly destroy standard OCR-based programming and memory-based botting. I've safely botted against a variety of adversaries with AHK using VMs. I'm at home in telling you how to build things with handle tools in many cases. I actually feel like a very reasonable (and completely [[fff]]) programmer in this hackish, ugly realm of automation.

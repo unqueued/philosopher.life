@@ -1,0 +1,114 @@
+created: 20170531193732659
+creator: h0p3
+modified: 20181121231138553
+modifier: h0p3
+revision: 0
+tags: [[Polymath Craftsman]] Pipefitting
+title: 2017.05.31 - Pipefitting Log
+
+We were put into torque class we were supposed to attend weeks ago. We came in a day later. The teacher rushed the content from yesterday thankfully. Below are my notes. I had to take tests at the end of the day for certifications.
+
+This class is funded by Snap-on. It is one large advertisement. Even the walls are plastered in Snap-on advertisements, in a government-owned facility. The teacher is constantly selling to us. We could have learned this in probably 2 hours. The goal is to get the students accustomed to Snap-on tools. 
+
+Mechanical Torque:
+
+* Length x Force = Torque
+* The ASME accuracy is from 20-100% of the full scale.
+* Prior to use, set the wrench to 50% of the full scale and exercise the wrench at least three times in both directions.
+* The minimum recommended cycle for recalibration is one year.
+* Formula
+** TA = Torque Applied (the value you want to pull)
+** TW = ?? pull wrench set ??
+** (TA x L) / L + Adapter = TW
+
+* Always store wrench at the lowest setting (not zero)
+
+* Verify the needle setting is at zero on Dial type torque wrenches before use. 
+
+I need to ask my brother if he uses a torque wrench/screwdriver for his electrical work. 
+
+
+
+ID a Standard (American) bolt:
+
+* Bolts with three straight lines indicate you are working on a standard bolt 
+** Take the number of lines and add 2 to find the Grade
+*** e.g. 3 lines would be grade 5
+** Most common grades: 2, 5, and 8
+** The higher the grade, the stronger the steel.
+
+* e.g. 1/4 x 20 x 2, Grade 5
+** First number is Diameter of bolt measured at the shank
+** Second number is the number of threads per inch (TPI), thread pitch
+** Third number is the Length of the bolt, from the bottom of the head to the bottom of the bolt
+*** Don't include the width of the head
+
+ID a standard (American) nut:
+
+* A standard nut has grades. 
+** If you have two marks with a point between then: grade 5
+** If you have two marks side by side on points, then: grade 8
+** Grade 2 has no marks
+
+Metric bolt:
+
+* e.g. M8 x 1.25 x 30, Grade 8.8
+** First number, M8 is the diameter in MM on the shank
+** Second number, thread pitch, MM from crest to crest. Measures from the from the top of one thread to the top the next thread.
+** Third number, length in millimeters
+
+** They write the grade on the bolt
+* If you have two numbers on the bolt:
+** First number is tensile strength MPA (megapascals)
+** Second number is % of tensile strength, gives you the yield point
+*** Yield point = where a bolt stretches beyond its elasticity
+
+Metric Nut:
+
+* If you see a number 8, then it is metric grade 8 bolt. 
+
+There are 4 phases of fastening:
+
+* Run-down
+** The free running of the nut down the bolt
+* Alignment
+** When we get to components to act as one solid piece
+* Elastic
+** Where the bolt stretches and snaps back to maintain its size
+* Plastic
+** Do not do; this is the permanent deformation of a bolt.
+
+90/10 rule:
+
+* 90 percent of all pressure applied is to overcome friction
+* 10 percent of all pressure applied is to stretch the bolt
+
+
+This is an open book test, rofl.
+
+Site:
+
+* nc3certs.com
+** user: my email
+** mypassword: password1 (jesus christ)
+
+The first test is torque theory test. Click on the eyeball.
+
+Page numbers to reference during the test:
+
+* 10-15
+* 17-24 (definitions)
+* 26-27 (markings)
+* 30 (markings)
+** bolt is a spring
+* 43 
+** torque is expressed in length and weight units
+*** length x force = torque
+* 50-51
+* 53
+* 57-58
+
+Anything that increases friction reduces torque:
+
+* Lubrications decreases friction, increases clamping force
+* Rust does the opposite

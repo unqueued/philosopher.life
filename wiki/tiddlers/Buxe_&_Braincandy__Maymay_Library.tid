@@ -1,0 +1,249 @@
+created: 20191005230533426
+modified: 20191006015336551
+tags: Library [[Buxe & Braincandy]] Links
+title: Buxe & Braincandy: Maymay Library
+
+!! Fancy
+
+* Hotlink/Coldlinks Button to toggle [iframe/hotlink|coldlink]
+
+
+!! Structure of Tiddler:
+
+* Title
+* Tags
+* Body:
+** Link
+** Display [iframe/hotlink|coldlink]
+** Ditty Comments
+** `<br>`
+* field
+** hotlink
+** coldlink
+
+---
+
+!! Secondary Tags:
+
+* Web Archived
+* Images
+** A site, but image heavy.
+* Maymays
+** Hotlinkable images
+* 1-3
+* Person
+* Guide
+* Politics|Money
+** Socialism
+* Paranoia
+* Tech
+* Documentary
+* Vidya
+* Epistemology
+* Ethics
+* Anonymity
+* Tool
+* Git
+* News
+* Forum
+* PDF
+* Debate
+
+
+!! ----------
+
+
+!! Conversation:
+
+* [[GOP Reddit Redpiller Exposed|https://www.reddit.com/r/politics/comments/67hium/a_gop_lawmaker_has_been_exposed_as_a_notorious/]]
+** 3, Politics|Money, Conversation
+
+* [[Stolen Identity Advice|https://web.archive.org/web/20170427005419/https://reddit.com/r/StolenIdentity/comments/67lggi/what_to_do_if_you_know_or_you_think_your_identity/]]
+** 3, Politics|Money, Tech, Guide, Conversation, WebArchived
+
+* [[Philosophy of Science Denial|https://np.reddit.com/r/worldnews/comments/67675m/neil_degrasse_tyson_science_deniers_in_power_are/dgoftnv/]]
+** 3, Epistemology, Politics|Money, Conversation
+
+* [[Trump Has Fired Comey|https://www.reddit.com/r/politics/comments/6a8jsf/megathread_fbi_director_comey_fired/?sort=top]]
+** 3, Politics|Money, Trump, Conversation
+
+* [[Why the disdain for and mistreatment of free speech?|Why the disdain for and mistreatment of free speech?]]
+** 3, Politics|Money, Conversation
+
+
+
+
+!! News Articles
+
+* [[Alt Right Counterculture|https://nymag.com/intelligencer/2017/04/beyond-alt-understanding-the-new-far-right.html]]
+** 3, Politics|Money, Article
+
+* [[Wisconsin’s Voter-ID Law Suppressed 200,000 Votes in 2016|https://www.thenation.com/article/wisconsins-voter-id-law-suppressed-200000-votes-trump-won-by-23000/]]
+** 3, Politics|Money, Article, Paranoia
+
+
+
+!! The Mind
+
+* [[Cognitive Bias Field Manual|https://capablemen.com/guides/cognitive-bias/]]
+** 3, Epistemology, Guide
+
+* [[Why You’re Biased About Being Biased|http://nautil.us/blog/-why-youre-biased-about-being-biased]]
+** 3, Epistemology, Article
+
+* [[Roger Penrose On Why Consciousness Does Not Compute|http://nautil.us/issue/47/consciousness/roger-penrose-on-why-consciousness-does-not-compute]]
+** 3, Epistemology, Physics
+
+* [[What is Metamodernism?|https://metamoderna.org/metamodernism/]]
+** 3, Epistemology, Politics|Money
+
+
+!! Tech:
+
+* [[WASM Resources|https://github.com/mbasso/awesome-wasm]]
+** 3, Tech, Awesome, Collection
+
+* [[The Linux Kernel|https://consolia-comic.com/comics/kernel]]
+** 3, Tech, Linux, Images
+
+* [[Asking Tech Questions|http://rion.io/2017/02/09/why-wont-you-answer-my-question/]]
+** 3, Tech, Guide
+
+* [[Build Yourself a Linux|https://github.com/MichielDerhaeg/build-linux]]
+** 3, Tech, Guide, Git
+
+
+!! Computing
+
+* [[ELI5 Zero-Knowledge Proofs|https://pages.cs.wisc.edu/~mkowalcz/628.pdf]]
+** 3, Tech, Guide, PDF
+
+
+
+!! Being Moral:
+
+* [[No Feigning Surprise|https://jvns.ca/blog/2017/04/27/no-feigning-surprise/]]
+** 3, Guide, Images, Epistemology, Ethics
+
+* [[How to Avoid Going to Jail under 18 U.S.C. Section 1001 for Lying to Government Agents|https://corporate.findlaw.com/litigation-disputes/how-to-avoid-going-to-jail-under-18-u-s-c-section-1001-for-lying.html]]
+** 3, Politics|Money, Guide, Paranoia
+
+* [[Why the Rich Don't Give to Charity|https://www.theatlantic.com/magazine/archive/2013/04/why-the-rich-dont-give/309254/]]
+** 3, Politics|Money, Article
+
+* [[Why are crime victims being jailed?|https://www.bbc.com/news/world-us-canada-39662428]]
+** 3, Politics|Money, Article
+
+
+
+
+
+!! Interviews
+
+* [[A Marxist Critique of Identity Politics|https://www.seattleweekly.com/news/a-marxist-critiques-identity-politics/]]
+** 3, Socialism, Interview
+
+* [[Digging In The Trash|https://bittersoutherner.com/digging-in-the-trash-david-joy]]
+** 3, Socialism, Interview
+
+
+
+
+!! Paranoid: 
+
+//To all the people out there suffering from anxiety: you are not alone, there is someone behind you.//
+
+* [[Deanonymization|https://georgetownlawtechreview.org/re-identification-of-anonymized-data/GLTR-04-2017/]]
+** 3, Tech, Anonymity, Paranoid, Article
+
+* [[Browser Fingerprinting|https://browserprint.info/]]
+** 2, Tech, Anonymity, Tool, Paranoid
+
+* [[Liquidity Pyramid|http://demonocracy.info/infographics/world/lqp/liquidity_pyramid.html]]
+** 3, Money, Images, Politics|Money, Paranoid, Article
+
+* [[Social Media For The Rich|https://www.theverge.com/2017/4/26/15407144/exclusive-social-media-the-league-best-of-all-worlds-rich-kids]]
+** 3, Money, Tech, Politics|Money, Paranoid, News
+
+* [[Targeting Patient Data|https://web.archive.org/web/20170221034501/https://www.protenus.com/blog/a-virtual-goldmine-why-criminals-target-patient-data-part-1]]
+** 3, Health, Tech, Paranoid, News
+
+* [[Feudalism and the “Algorithmic Economy”|https://medium.com/@ebonstorm/feudalism-and-the-algorithmic-economy-62d6c5d90646]]
+** 3, Tech, Paranoid, Socialism
+
+* [[Opensnitch Firewall|https://github.com/evilsocket/opensnitch]]
+** 3, Tech, Paranoid, Git, Tool
+
+* [[Facebook Exploits Vulnerable Users|https://www.news.com.au/technology/online/social/leaked-document-reveals-facebook-conducted-research-to-target-emotionally-vulnerable-and-insecure-youth/news-story/d256f850be6b1c8a21aec6e32dae16fd]]
+** 3, Tech, Paranoid, News
+
+* [[Attacked Over Tor|https://www.hackerfactor.com/blog/index.php?/archives/762-Attacked-Over-Tor.html]]
+** 3, Tech, Paranoid, Article, Anonymity
+
+* [[Hundreds of Apps Can Listen for Marketing ‘Beacons’ You Can’t Hear|https://www.wired.com/2017/05/hundreds-apps-can-listen-beacons-cant-hear/]]
+** 3, Tech, Paranoid, Article
+
+* [[Data Laundering|https://blog.ouseful.info/2012/02/03/several-takes-on-the-definition-of-data-laundering/]]
+** 3, Tech, Paranoid, Article
+
+* [[Why the Next 10 Days Are Critical to the Internet’s Future|https://blog.mozilla.org/blog/2017/05/08/next-10-days-critical-internets-future/]]
+** 3, Tech, Paranoid, News
+
+
+!! Wikipedia
+
+* [[Limits of Computation|https://en.wikipedia.org/wiki/Limits_of_computation]]
+** 2, Tech, Wikipedia
+* [[Abilene Paradox|https://en.wikipedia.org/wiki/Abilene_paradox]]
+** 2, Politics|Money, Wikipedia
+
+
+!! Socialism
+
+* [[Co-operatives, Unions, Democracy|https://www.marxists.org/archive/luxemburg/1900/reform-revolution/ch07.htm]]
+** 3, Socialism, Classic
+
+* [[Barack Obama's $400,000 speaking fees reveal what few want to admit|https://www.theguardian.com/commentisfree/2017/may/01/barack-obama-speaking-fees-economic-racial-justice]]
+** 3, Socialism, Article
+
+* [[Supporting Cube|https://www.invent-the-future.org/2013/07/20-reasons-to-support-cuba/]]
+** 3, Socialism, Article
+
+* [[At least nine Donald Trump transition staffers ‘register as lobbyists’ despite US President's promised six-month ban|https://www.independent.co.uk/news/world/americas/us-politics/donald-trump-transition-staff-lobbyist-register-us-president-six-month-ban-issues-betsy-devos-a7718106.html]]
+** 3, Socialism, News, Trump
+
+* [[Trump fired Sally Yates the day she offered review of evidence Flynn was compromised|https://shareblue.com/sally-yates-was-fired-the-trump-fired-sally-yates-the-day-she-offered-evidence-flynn-was-compromisedday-she-invited-trump-admin-to-review-evidence-showing-flynn-was-compromised/]]
+** 3, Socialism, News, Trump
+
+
+
+!! Vidya
+
+* [[Felix Colgrave|https://www.youtube.com/user/MasterAardvark]]
+** 3, Person, Vidya
+
+* [[Peasants for Plutocracy: How the Billionaires Brainwashed America|https://www.youtube.com/watch?v=mWnz_clLWpc]]
+** 3, Documentary, Paranoid, Politics|Money, Vidya
+
+* [[The 5 Filters of the Mass Media Machine|https://www.youtube.com/watch?v=34LGPIXvU5M]]
+** 2, Documentary, Paranoid, Politics|Money, Vidya
+
+* [[The Bayesian Trap|https://www.youtube.com/watch?v=R13BD8qKeTg]]
+** 3, Vidya, Epistemology
+
+* [[WTF is Metamodernism|https://www.youtube.com/watch?v=6mYtG6KIv98&list=PLB-c2qZE5PsIXgSn_-saR3iQ8VRZ9xFrd&index=3]]
+** 2, Vidya, Epistemology
+
+* [[Millennials Don't Stand A Chance|https://www.youtube.com/watch?v=ARDfbMJpMqQ]]
+** 3, Vidya, Political|Money, Debate
+
+
+
+!! Jiffs
+
+
+
+!! Maymay
+
+* [[Am I The Only Who: Senatorial Exemption|https://i.redd.it/ifppv5d6povy.jpg]]
+** 3, Maymay, Politics|Money

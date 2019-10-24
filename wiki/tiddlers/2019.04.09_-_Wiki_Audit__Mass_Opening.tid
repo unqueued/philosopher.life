@@ -1,0 +1,29 @@
+created: 20190409204904937
+modified: 20190410011633161
+tags: [[Wiki Audit]] j3d1h
+title: 2019.04.09 - Wiki Audit: Mass Opening
+
+Edited [[$:/core/macros/timeline]] and [[$:/language/RecentChanges/DateFormat]] to make the open-full-day links. I can explain the bit of code here, so why not? Here's all it does:
+
+#Create a button (that does all the stuff below)
+#*Style it like a link
+#*Color it footnote green
+#*Make its text a date, the one that would normally go above every day in New and Recent
+#List all the tiddlers for that day, and open/go to them all, one by one
+#List the first tiddler for that day, go back to it (aka the top of the list)
+
+The rest was already in timeline, such as the links below each date. Also, had to move the cool fade-bracket-things into timeline itself, so they wouldn't become links.
+
+In other news, created [[The 1000]] (list of the last 1000 modified tiddlers, I don't suggest going there), and stuck it in the More tab in the sidebar.
+
+---
+
+I'm shocked that I've touched 1k tiddlers in the past month. That's insane.
+
+---
+
+Why is [[.i3/config]] missing? Ugh.
+
+---
+
+I'm in lurv with EditButtons. I feel like a fucking idiot (but, cmon, I am an idiot with respect to this and so much more) for not having used them before. It's not just control of the story river either (which is outstanding). I like being able to force saves on my phone. Just now, I was swapping out unicode symbols in [[Firmcoding Macros]] and it bypasses how slow Bob can be (I only wish I kept my place like an anchor), and it was rapid.  

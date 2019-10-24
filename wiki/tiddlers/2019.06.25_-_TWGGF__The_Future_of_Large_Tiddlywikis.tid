@@ -1,0 +1,304 @@
+created: 20190625041553639
+modified: 20190707033532941
+tags: TWGGF
+title: 2019.06.25 - TWGGF: The Future of Large Tiddlywikis
+
+What does the future hold for large Tiddlywikis? What can I do right now to start optimizing my TW to be usable while still huge. I am grateful to the TW contributors and those who made one of my browser engines. This has to be one of the best FOSS communities I've ever had the privilege of participating in. I need the advice of experts.
+
+There's only so much optimization TW5 and the browsers which run it can achieve. We're hitting the limits of single-threaded performance, and I am not convinced there are many huge gains left for javascript in the browser on high-end x86_64 CPUs (I desperately hope I'm wrong). Performance for large TWs is looking a bit grim. I'm trying to look down the road 10 years from now and ask myself if my Tiddlywiki is going to be the right tool for the job. It's an amazing rapid-prototyping tool, but maybe it can't be made performant enough. What do you think?
+
+Even though I'm still a noob at it, [[I use TW a lot|https://philosopher.life/]]; I'm an addict. In 3 years, I've amassed 10k tiddlers of almost pure text in a 30MB TW (that's ~60 novels in length), and I don't see myself slowing down. I don't do anything fancy, but this tool is heavily integrated into my life. I'm a unificationist too: part of the strength of this tool is that I don't have to separate it into unconnected documents. I want to search, navigate, hyperlink, and construct the whole. Unfortunately, the tool is getting slower and slower for me. I'm pretty worried I need to move away from Tiddlywiki.
+
+The standout property of Tiddlywiki is that I get to serve a self-modifying IDE+Product as a single html file (though I no longer develop it without Bob). The client's browser does most of the calculation, and I don't have to rely upon having a server which does anything more than dishing out static files; I'm not beholden to centralized webservers (though I still use github for now). I adore how it is censorship resistant, cryptographically signable, easy to distribute, and it runs on almost any device (though, at this point, my wiki barely runs on a phone). It's perfect for P2P-serverlessness. There is nothing else like it in this respect unless I'm handing someone a complete VM or container, but that doesn't work nicely in a browser. There is no replacement as far as I can tell. 
+
+I've probably made plenty of mistakes in attempting to optimize, but I'm trying. I try to stick to hardlinks, and I do my best not to generate anything dynamically when I can. There's only so much optimizing one can do for complex filter expressions. I even bend over backward to do what I call "[[Firmcoding]]" in which dynamically generated lists are pre-computed into static indexes (basically, this enables link references to function, limits clientside computation, and if I have to move out of Tiddlywiki, all of my linking structures are still hardcoded). What kinds of precomputing can I do here to help the client side? I've only started really using tags this past year, and I just ripped out all of the tags to find almost no performance gains either. Do I have too many tiddlers? Do I need to start finding ways to molecularize (rather than atomize) content into larger tiddler bodies and then build specialized parsing for those large tiddlers? I'm growing desperate.
+
+I feel like I'm going to puke. I've seen this coming for a while, and I've been burying my head in the sand hoping it wasn't true. This is my evolving horcrux-pensieve, and now I feel like a hermit crab who might have to find another shell. I'm heartbroken at the thought. This is the best damn tool I have ever used in my entire life; I can't bear to lose it. NO! NO! NOO!!!!!!!!! `/hissy-fit`.
+
+Is there no hope for me here? Will the next TW-X be built with WASM? What other toolset do you recommend for me? Where should this pilgrim go, and what should he do?
+
+---
+
+I am overwhelmed by all the thoughtful responses. Thank you for thinking and talking about it with me! I appreciate your taking the time to soothe and inform a fool like me so kindly. I'm humbled to hear from all of you.
+
+!! @ Mark S.
+
+<<<
+Have you tried the 5.1.20 prerelease ? It's supposed to have indexing optimizations that will allow larger TW files. If so, it will be a real game changer.
+
+Good luck
+<<<
+
+Thank you! My info says I'm running 5.1.20 prerelease, but my core in plugins says 5.1.19. I cannot say I've seen performance improvements, but I may not even have the upgrade.
+
+<<<
+What are the performance issues you are encountering?
+
+I'm a touch typist, but I could only get about two words ahead when typing. But according to your blog, if it's not fiction, you use typewriter for creating content, so typing shouldn't be a big deal.
+
+It does take about 7 seconds to save with the default saver, but that's not too bad. I would turn off auto save if I was were going to be making a lot of tiddlers.
+<<<
+
+I've been keeping nightly snapshots of my wiki for a long time now, and it feels like it is getting slower in general. Walking through my snapshots, the following immediately stand out as getting slower over time: opening tiddlers, button responsiveness, odds of a hangup on scrolling through lots of tiddlers, time to get a cursor to show up, and searching. Don't get me wrong, this is still usable. I'm just looking down the road ten years from now, and it seems feasible my wiki is going to be +100MB in size with +40k tiddlers; if performance grows worse at a similar rate (without serious optimization), I would probably end up with something unusable.
+
+
+!! @ TonyM
+
+<<<
+h03p,
+
+Sounds like this is a case where TiddlyWiki's success means your demand on it increased. As they say, "our needs expand to fill the resources available".
+<<<
+
+Preach, yo! I'm so grateful to have the chance to use it. It has changed who I am.
+
+<<<
+    You are aware of performance improvements with indexing in the 5.1.20 pre-release?
+<<<
+
+I am not well-acquainted, but I am excited. 
+
+<<<
+    You can move content to skinny tiddlers and external media files canonicalURL
+<<<
+
+I've not tried it. Assuming I understand it, I think it's an interesting idea. It may solve some loading problems (though it might get tricky). I am not a fan of losing the self-containment, but I'm willing to pay that price in some cases. The problem is still that I need the content to be searchable. No matter how I do it, it's going to have to load everything into memory.
+
+<<<
+    You can use html object tags to include external content at "run time"
+<<<
+
+I can't say I understand what this is either. From the looks of it, it could function like iframes. I use something like this in some cases, but I still need almost everything in my wiki to be searchable from the get go.
+
+<<<
+    You can use node to access static versions of tiddlers, without loading the wiki.
+<<<
+
+That would improve performance radically. I have gone out of my way to limit how much structure I lose when going static through my Firmcoding. The loss of dynamic tooling is huge though. 
+
+<<<
+    Are you aware of Jeremys Amazon Web Services deployment of a large tiddlywiki?
+<<<
+
+That's pretty awesome. It gives me hope that my large tiddlywiki will thrive. I won't be relying upon Amazon if I can help it.
+
+<<<
+    There are plenty of ways to integrate independant wikis so it is always possible to divide and conquer
+<<<
+
+I suggest it depends on the case. I search my entire wiki all the time. The divide and conquer of my domain seems best handled inside a single tiddlywiki. 
+
+<<<
+    You could also insert subroutines that are processed elsewhere with some cunning design.
+<<<
+
+I may not be understanding what you are claiming here. This may allow for some multi-threading. If we are talking about offloading it to a computer which my reader does not own: I will not have a server if I can help it. If there is worthy pre-processing which can be embedded in the wiki that is eventually distributed, I'd happily burn my machine time and bandwidth to save my end-users some resources.
+
+<<<
+    Custom indexing, compression another tricks could be used in extreme circumstances.
+<<<
+
+I am all ears! What makes for good indexing in TW?
+
+Compression is an interesting issue. One of the problems I face is that my wiki is painfully large to download all at once. If you have a gigabit connection, it doesn't really matter, but if you are slurping through an 8mbit straw, then you might as well get yourself a glass of water waiting for it to load like it's dialup all over again in 2019 (unless you take my P2P option, in which case it is always syncing). I'm happy to train something like zstd to fit my wiki (I already use it as another nightly snapshot/backup method). Gzip is no competition for it, and that would save some downloading time. 
+
+<<<
+I use tiddlywiki a lot, it is one of my main applications suits, mostly self build wikis. This means I load a lot more in my browsers than most. I have a 16GB Ram laptop. As a result I lifted the maximum ram available to Chrome and FireFox (in their settings) so they can use a greater share of my laptops ram and they perform even better as a result. If we move from executables to browsers we should give browsers the resources they need. People forget this because they are so often working to reduce the wikis use of browser resources they forget they can give the browser more resources.
+<<<
+
+This isn't a problem I've run into yet. I'm also not just building this for myself. I would tackle my wiki differently if I were the only person who used it. I want to make assumptions based on the defaults of users who aren't going to take the time to modify their browsers.
+
+<<<
+Sometimes the best method is loosely coupled TiddlyWikis. I can drag and drop tiddlers and tiddler bundles between wikis using an iframe and the multi-user and multi-access methods that continue to be developed will only make this easier.
+<<<
+
+I adore the modularity and access improvements I've seen in the TW ecosystem year after year. I don't think this fits my usecase.
+
+<<<
+I do not think we need more threads
+I think it can adapt a great deal, not to mention new developments to respond to future issues.
+ 
+...
+
+Try my suggestions above if this persists, give us the opportunity to address it. I do not think you will need to move away, just tackle it differently.
+<<<
+
+Thank you for that. I appreciate how people gather together here and try to tackle problems. There is goodwill in this community! I'd like to point out that you kindly volunteer your time again and again in this community. Even though I may be a slow (and at times arrogant) pupil, I'm lucky to have the chance to hear your voice.
+
+<<<
+I don't try and get my primary wiki working on mobile, I design independent solutions and integration as needed.
+<<<
+
+I'm not too concerned with it for myself either; I despise and profoundly mistrust my phone. I think even with perfect performance, my wiki just isn't suited to a phone. It works enough for emergencies or I find workarounds. Unfortunately, I think it is a penalty I impose on those who might prefer to read my wiki on mobile, and I'm unhappy about that. 
+
+<<<
+Do not get desperate until you have followed all leads. Recent discussions suggest in computation intensive tiddlers, you can take a snapshot (to a static Tiddler) and show that rather than the active tiddler) so no widget tree update will be necessary when other things change. In an application I am building, I am creating a mechanism to identify when such a refresh may be needed and indicate as such.
+ 
+...
+
+I believe your anxiety is unwarranted.
+ 
+...
+
+If TWX makes this simpler for you I do not know, but I seriously believe we have the technology to avoid what ever you may throw at it, just sometimes you may need to re-engineer things. TiddlyWiki is extensible in so many directions out of the box, and easy to modify and extend. 
+
+Regards
+Tony
+<<<
+
+You are a source of optimism for me. I feel better already.
+
+<<<
+One more thing,
+
+Do not assume your current methods are the optimal methods. Perhaps you just need to redesign some components. Are your filters efficient? Do they eliminate the largest number of tiddlers in the first filter operator?
+<<<
+
+No doubt. I'm barely literate here. I don't use many filters in my wiki. Most of it is built by hand as "just a bunch of text files" linked together. I'll take a look again though.
+
+<<<
+, should you be giving yourself read only views, rather than always having inline editing....
+
+Regards
+Tony
+<<<
+
+I don't know what this means. It's safe to assume I'm making a mistake here as well.
+
+
+!! @ Jed
+
+<<<
+If you already use Bob than you can use it to manage multiple wikis. I suspect that most of the time you don't have any reason to have full access to 30MB worth of text. So splitting things out into separate wikis by category would be my first suggestion. Since you are already using statics links you could have permalinks in other wikis instead of links pointing to a tiddler in the current wiki.
+
+My advice comes down to 'it is built to be modular, so let it be modular'
+<<<
+
+I have considered your suggestion. It's very reasonable. Were the nature of my project different, I would begin there. It seems like the obvious starting point to defeating problems of scale. Small wikis are snappy! A friend of mine told me today that my wiki in his "browser moved like a donkey in mud."
+
+Unfortunately, as far as I can tell, it isn't functionally identical. Call me crazy, but I like to think I'm building a piece of hypertext literature in my wiki (even if it is a pile of junk ;P), and that unification is fundamental to its goal. I'm not trying to be needlessly stubborn: I have an artistic and philosophical point to make in its prolix unification. I realize this is impractical. There may be a method of modularizing without any functional loss I just don't see or understand yet. 
+
+Your suspicion is correct. Most of my work doesn't require complete access, but it often does. My readers and I search my entire wiki often (not just a section of it, though we're happy to use filter expressions when we can). I realize it's not ideal in some respects.
+
+I'm indebted to you for wrestling with me here, and also I'm indebted to you for Bob. Thank you for developing it. I have multiple wikis (soon to be further unified as well), but I aim to automatically manage them through shell scripting, which your tool enables beautifully. I use your tool almost entirely for simultaneous editing and bi-directional synchronization. You enable me to create many doorways into my wiki I could not otherwise enjoy.
+
+
+!! @ Jeremy Ruston
+
+<<<
+Hi h0p3
+
+Great post, thank you for sharing your hopes and fears!
+<<<
+
+Ha, sometimes I am not as much my name as I would like.
+
+<<<
+With regard to performance improvements and optimisations in general, I’ve found that whenever I’ve gone in pursuit of them I’ve been able to squeeze better and better performance out of the core itself. As you know, I’m working with very large wikis too, and as I’ve encountered serious issues I’ve tried to fix them, and largely succeeded.
+
+I’ve found that to be true at all levels of the design: if I can measure the performance of something then I can almost certainly improve it. The vital component is to be working with real-world data.
+<<<
+
+In addition to creating TW, I appreciate that you work on large TWs for a living. I can't say I'm within even leagues of your skill here. I will do what I can with what little I know.
+
+<<<
+With regard to browsers, I’m much more bullish that we’ll continue to see significant improvements, particularly for the large processes that browsers require for these large wikis.
+
+One interesting point about TiddlyWiki is that the refresh algorithm is inherently parallelisable: refresh processing of sibling nodes is completely independent  of one another. So, to the extent that browsers will expose more multicore functionality in their quest for performance, we’re in a good position to benefit.
+<<<
+
+Excellent! I am glad to be wrong. This is music to my ears. It's good to hear several people are optimistic here.
+
+<<<
+Looking further to the future, my thinking for some time around TWX is to write it in an LLVM-compatible language, and compile it to WebAssembly for the Web. (I hesitated to write that because we really shouldn’t de-rail this discussion, but it does seem relevant that I’m planning a long term future for TiddlyWiki).
+<<<
+
+I'm interested in it. This is still speculation, but I appreciate knowing that is the direction. I realize I can be fairly pessimistic, but knowing that eventually I'll be able to migrate (with some massaging) my TW5 into TWX gives me more hope this will be a lifelong tool. 
+
+<<<
+Anyhow, probably the best we can do at the moment is to continue to improve the performance monitoring tools so that anyone can make observations of their own wikis, and we can figure out how best to act on the resulting telemetry (i.e. without everybody having to send a copy of their private wikis to me!)
+
+Best wishes
+
+Jeremy
+<<<
+
+Thank you. I'll need to become better at using those tools. 
+
+If there ever is a testing gauntlet, my wiki snapshots might be a reasonable addition. They are real-world and public. They scale up from tiny to large: https://github.com/m6ram/. 
+
+<<<
+The file at https://philosopher.life/ isn't as big as that, so I think h0p3 was referring to a private wiki.
+
+Best wishes
+
+Jereym
+<<<
+
+The vast majority of my content is in that public wiki. That one is sitting at 29.3MB. It's in the ballpark here.
+
+
+!! @ Mat 
+
+<<<
+h0p3
+
+for you site https://philosopher.life have you tried disabling plugins? From what I've heard, 10000+ mostly text based tiddlers shouldn't be a problem in TW. My (not very qualified) guess is that you're using some plugins or templates that cause a lot of repeated and nested iterations or recursions.
+<<<
+
+Your guess is as good as mine. I've tried disabling plugins, ripping out all the tags, and I didn't really see significant gains (certainly not worth the functional loss). I don't know what I'm doing, and I'm not really sure how to learn how to know what I'm doing either (which is my fault). It seems reasonable that it should be slower as it gets bigger. There's no way not to pay some penalty for something like a wiki-wide search.
+
+<<<
+A quick look at your plugin list shows you have the Kin filter plugin. I imagine this is a pretty system taxing plugin IF used in some template that is called all the time. 
+<<<
+
+Locator is very expensive in my wiki, but (from what I can tell) there is no other tool like it. To lose it in my wiki, I'd have to write my own code running on my OS to replace it, but then it would only work for me. I consider it irreplaceable for users of my wiki, and I don't even tag like an intermediate user of TW.
+
+<<<
+Maybe you're using a ToC that is active all the time? These are, I assume, recursive cratures.
+<<<
+
+I'm not sure if I even have a ToC I've constructed in my wiki. They don't seem to fit how my brain works just yet. There are structures like it in the linking. You should be able to find every single tiddler from [[Root]], but I've not done tagging like that yet (still ~1400 untagged tiddlers to go and probably some more Elmer's Glue). Still, there are likely many mistakes in my wiki. I'm not sure how to find the ones which really matter for performance, but I hope to learn.
+
+<<<
+I note these two overwritten shadow tids. I'm guessing all things "historiy" iterates through all tiddlers contiuosly to be up to date. 
+$:/plugins/wimmoermans/history/HistoryTab
+$:/plugins/wimmoermans/history/HistoryTab2
+
+I did not look at your tagging structure but if there is extensive cross tagging then maybe this would also tax the system. I'm just guessing. (If anyone has facts on these things, please shout out.)
+
+<:-)
+<<<
+
+I am not a talented tagger. You would be severely disappointed by it. I also have no idea what you mean by cross tagging. I've seen that tags have a cost, but now that I'm starting to use them more, I'd only be willing to lose them if I were going to use fields which performed similar functions. There may be some important optimizations to make here too. I appreciate you directly troubleshooting with me here!
+
+
+!! @ bimlas 	
+
+<<<
+h0p3,
+
+First of all, a great respect for you and for the unique design of your wiki! I haven't read your writings yet, but what I've seen is like it.
+<<<
+
+High praise, thank you. I'm also dumbstruck by Kin and Locator; they are amazing. I love your public wiki too. I hope to [[remodel]] part of my wiki in virtue of the search tool you've constructed. I feel like fanboi who gets to shout out to folks who build tools he uses every day. I'm lucky to meet the Hungarian hackers I do.
+
+<<<
+I started to investigate what could be the problem and tried the following (after each steps, I checked whether the speed had improved by switching between the "Hub" and "Keys" sidebars).
+
+    I have disabled all plugins; the speed has improved a little, but not so much
+    Disabled background; nothing changed
+    I closed every tiddler; it became faster very, very minimally (ASCII art might have to be put in the form of an image)
+
+If every tiddler is closed, what can slow down the system? Just because there are many tiddlers in it, it can't slow down yet. So I was looking for tamplets that are constantly present and can slow down the wiki ($:/tags/ViewTemplate, $:/tags/PageTemplate, $:/tags/SideBarSegment), but I could not find it. Then I noticed the button in the menu bar: firmcode-all button. I do not quite understand what it is doing, but after deleting this tiddler, the wiki has greatly accelerated.
+
+TiddlyWiki is only slowed down mostly by what is displayed. For example, if you have a very complex and slow filter (which uses Kin for example), it will not affect the speed until you open the tiddler containing it. So when you look for a "general" speed error, you should first start with the currently visible and template tiddlers.
+
+I hope I could help.
+<<<
+
+That is an excellent point! It is a significant improvement too. 
+
+That firmcode button is a paranoic tool I use for hypertexting. I often prefer the results of list-links (or similar) to be hardcoded in my wiki. It enables me to use tools other than my browser to reason about the structure of my wiki, and it enables link references to be more complete in my wiki. I use that information button to see link references all the time. Tagging is not the fundamental relationship structure of my wiki: the links in the body of my tiddlers are. I prefer static, hard links to dynamically generated wherever I can, and firmcoding helps me with that.
+
+Thank you for testing and explaining. I can feel the difference in that. I must continue to hunt! Clearly, there is much improvement available to me.

@@ -1,0 +1,29 @@
+created: 20171216014311157
+modified: 20171217041007775
+revision: 0
+title: Python: Sign
+
+```python
+#!/usr/bin/python3
+
+# sudo pip install pynacl
+import nacl.encoding
+import nacl.signing
+import binascii
+
+# Key 
+signing_key_hex = ""
+signing_key = nacl.signing.SigningKey(signing_key_hex, encoder=nacl.encoding.HexEncoder)
+
+# Read checksum file
+with open('index.html.sum', 'r') as myfile:
+    data=myfile.read().replace('\n', '')
+bytes = str.encode(data)
+
+# Sign checksum data
+signed = signing_key.sign(bytes)
+
+# Write signature file
+with open("index.html.sig", "w") as text_file:
+    text_file.write(binascii.hexlify(signed).decode())
+```

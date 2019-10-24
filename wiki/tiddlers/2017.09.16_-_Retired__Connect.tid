@@ -1,0 +1,38 @@
+created: 20170916223755513
+modified: 20181213034152683
+modifier: h0p3
+revision: 0
+tags: Retired
+title: 2017.09.16 - Retired: Connect
+
+The following methods can acquire the latest official version of this wiki:<<ref "1">>
+
+* Visit [[https://h0p3.xyz/|https://h0p3.xyz]] in a web browser.<<ref "2">>
+** Grabbed http://philosopher.life/ as well. Haven't setup https yet.
+* Join the [[Resilio|https://www.resilio.com/individuals/]] (formerly btsync) swarm with read-only key at: [[B4OWUSIS36KT27PXSJIYYTTL5MYPOCL7W|https://link.getsync.com/#f=var-www-html&sz=73E6&s=3E5S6FV4LRD7SS2TUEYTN4ZDEFT5SB6X&i=CFC2UQTLPYQFCSDLXLA3KH7Q2XAGGNBNO&p=CCJG3IT7Z63BKGMTMHF5IH5QARYUCPH4]]
+* [[Contact]] me and I can send it to you however you wish.
+
+This wiki changes. For posterity's sake, I keep a daily snapshot collection. You can join the Resilio swarm for it with read-only key at: [[BY7DL6VWCYLOEGXQUWEHH7LNT5EK6UCLL|https://link.getsync.com/#f=h0p3.xyz&sz=44E6&s=DBJ2FIZ5WDCRJ24HINZNVFFUDKGH3AU7&i=CNMB6FJQ34QBT5STXDV5WKVWISGVGY3NO&p=CCJG3IT7Z63BKGMTMHF5IH5QARYUCPH4]]<<ref "3">>
+
+As a sidenote, I'm sure it would annoy many computational minimalists that I willingly store virtually the entire site in a single self-editing html file. I'll grant that text files alone have something going for them, but this is a very special tool. This wiki is incredibly portable, functional, and malleable. I consider Tiddlywiki to be a skeuomorphic feat of software engineering. How many virtually complete websites with this degree of functionality and content can you download in a few megabytes?<<ref "4">> Exactly. I think there is profound minimalist beauty to it. Yeah, load times aren't great.<<ref "5">> You can always just sync it instead. 
+
+The following sites are my family's wikis:
+
+* 1uxbox's wiki: [[http://kokonut.life]]
+** Resilio read-only key: BP5NMZQF25EICLU27RAWM3AIXRWSNL2CM
+* j3d1h's wiki: [[http://jedihacker.life]]
+** Resilio read-only key: BDCX3UO5NOBGPGT2LFZU2527IMXKCOY3T
+*k0sh3k's wiki: [[http://bookwyrm.life]]
+** Resilio read-only key: B3LKP7KPMNMNWRF75CKLTRB3EIJJTLCNM
+
+
+---
+<<footnotes "1" "I used to have more methods. But, I believe this was fun yet irrelevant, at least for now.">>
+
+<<footnotes "2" "To guarantee you receive the latest edition of this wiki, clear your browser cache or use private/incognito mode. While I don't force redirects, you can and should access the h0p3.xyz site using HTTPS.">>
+
+<<footnotes "3" "Hear my plea O' Lord, God of Existence, may this not be a record of my descent into arrogant madess. Amen.">>
+
+<<footnotes "4" "Less than 2MB compressed, which is the standard size of any webpage on the web anyways, but you can't multi-threaded download this one.">>
+
+<<footnotes "5" "And, that probably won't be changing. Few if anyone besides myself ever load this page, so I'm not worried about CDNs or optimizing performance (especially not for your shitty machine ;P).">>

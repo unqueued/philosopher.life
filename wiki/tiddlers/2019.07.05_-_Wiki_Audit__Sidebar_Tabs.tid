@@ -1,0 +1,20 @@
+created: 20190705181050298
+modified: 20190706015411846
+tags: [[Tagging Theory]] [[Wiki Audit]]
+title: 2019.07.05 - Wiki Audit: Sidebar Tabs
+
+The sidebar tabs and search popup now appear correctly. [[Stylesheet: Nested Tab Spacing]]. I suppose it could be unified, but I don't see the point just yet.
+
+---
+
+I am growing increasingly concerned by how much lag I'm experiencing in this wiki. None of the options are great. I still want to emit one object, and I want it calculated client side. I need to start trying to isolate the performance bottlenecks if I'm going to stay in TW. This is going to fail. WASM is the only way. Ugh. I have to go fully custom at that point, and I am not competent. 
+
+http://erwanm.github.io/tw-community-search/#TagsOptimizations
+
+The wiki has grown significantly slower with the use of tags and more. I could afford to go off fields. It would require changing the wiki structures all over the place. Just a bunch of text files is really hard to beat. I will lose gunkiness to do this. [[Tagging Theory]] is going to be pissed.
+
+FUCK. [[j3d1h]] ripped out the tags to show me it isn't faster by any significant margin. I need an expert.
+
+---
+
+~1400 untagged tiddlers. Ugh. Well, I made the mess, and it's time to clean it up.

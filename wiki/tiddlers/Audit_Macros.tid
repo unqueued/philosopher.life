@@ -1,0 +1,46 @@
+created: 20190328155548772
+modified: 20190402003426816
+tags: $:/tags/Macro j3d1h
+title: Audit Macros
+
+\define audittext(delta, audate)
+<$vars front="* [[" back="]]">
+
+`!! Log:
+
+`
+
+
+<$list filter="[regexp[$audate$.\d\d - $delta$]]"><<front>><$view field="title" /><<back>>
+</$list>
+
+`
+!! Audit:
+
+`
+
+</$vars>
+\end
+
+\define audittags(delta)
+`[[`$delta$`]] [[Log Audit]]`
+\end
+
+\define audit-button()
+<$wikify name=date text={{Audit Date}}>
+<$button tooltip="Create audit tiddlers for Monthly Auditables" aria-label="audit-button" class=<<tv-config-toolbar-class>>>
+<$list filter="[tag[Monthly Auditable]]">
+<$wikify name=title text="""<$view field="title" />""" >
+<$wikify name=audit text="""<<date>> - <<title>>""" >
+<$wikify name=audit-tags text="""<$macrocall $name="audittags" delta=<<title>>/>""" >
+<$wikify name=audit-text text="""<$macrocall $name="audittext" delta=<<title>> audate=<<date>>/>""" >
+<$action-setfield $tiddler=<<audit>> tags=<<audit-tags>> text=<<audit-text>>/>
+</$wikify>
+</$wikify>
+</$wikify>
+</$wikify>
+</$list>
+{{$:/core/images/edit-button}}
+</$button>
+</$wikify>
+\end

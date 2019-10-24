@@ -1,0 +1,62 @@
+created: 20181207044548854
+creator: h0p3
+modified: 20181207062412675
+modifier: h0p3
+tags: [[Reddit Theory & Practice]] Outopos [[The Original Position]]
+title: Ideal Reddit Improvements
+
+//I've said it before, and I'll say it again.//
+
+It seems obvious to me that I should be able to choose the moderators for myself. I should have a choice in who censors and shapes what I see. This is informational autonomy. It's a librarian's principle. I think it may even be my moral right in the 21st Century given what is computationally possible. I think decentralizing the power to shape filter bubbles and censor (even for [[The Salience]]) is among one of the most important democratizing effects available to us in variations of [[The Original Position]] applied in most (if not all) media contexts.
+
+Conde Nast is never going to let this happen because they aren't going to give up final control of the platform. Decentralized Reddit is necessary. High performance for such a beast is hard. Every single decentralized Reddit I've tried has been an abject failure, and that is not any one person's fault. No one person can build that thing well. It's an insanely difficult feat of engineering. Even Reddit itself has not been stable for a decade (I still see the servers down in 2018). Decentralized computation is ridiculously expensive and slow, and it can be radically counter-intuitive to debug or predict. I only know enough about CS to know I don't know how to reason carefully enough about it.
+
+I don't know the degree to which is it more optimally Federated rather than P2P. That is a key problem to know the answer before you design the protocol.
+
+Obviously, I don't think you should be writing this in anything other than [[Rust]]. Make it run on every device at maximum safety and speed. It's the only chance you have of making a real competitor. A network built on worldclass Python is not good enough in this case (unless it is purely a wrapper avoiding Python's pitfalls); even the Torrent network is proof of that (and I value Deluge [among other python torrent applications] quite a bit). This is not premature optimization. Go ahead and start it as a simple protocol that is robust and flexible, but make it designed for performance from day one. Centralization (even has a network of CDNs, etc.) will always pragmatically have the speed advantage whenever it wants (though at costs often not worth paying). One short way to say it: make it so my phone (that fucking garbage device) wants to run it (I hate that fact) because that's what the average person has. Building nodes should be dead simple, and I should have reason to use everything piece of hardware I have to support and participate on the network. I should be rewarded for it with trust.
+
+It is clear, from [[Outopos]], that [[T42T]] resource trading is key. NAT-piercing, storing objects for others, computing and proxying for others to some extent, and computing your own results for the sake of distributing trustworthy thoughts about [[The Great Human Conversation]] is critical to the future of decentralized Reddit (and perhaps most volunteer-run sharded networks that do anything serious).
+
+It's a fact that the government actually has to fund these tools. No company is going to give up that power. Capitalism will never produce this absolutely crucial tool; it just doesn't give a shit about the average person on purpose.
+
+Alright, so back to it: I want to be able to decide who I trust, and I should be able to leverage their trust and the shard of trust around them. I'd like to be seen as trustworthy too. Of course, this will create echo chambers, which are not conceptually wrong. Some of the most important work in history is simply based on schools of thought. Busting out of echo chambers shouldn't be too hard though. I want to see how other people think about the content of Reddit with ease.
+
+I shouldn't have to say I love a link; I should be able to make several expressions about it that you don't have to read unless you want to on purpose. Your computer should understand my signals about it and automatically compute and weigh those values (alongside the others you trust) to help you pick out what is salient. Aggregation must automatically implement and leverage viral trust. I want to be able to say, "I trust [[kickscondor]] on these matters, [[JRE]] on these matters, Obama's on these matters, etc." to whatever [[dok]] I wish. 
+
+When I trust your opinion (which generally can be very different from mine), I also want to see what your friends trust. I should be able to make at least one hop. If I notice one of your friends is particularly good at picking out was is salient, imho (and given the automation available), I should be able to follow the trail. Even if you are simply proxying your friend to keep each of us anonymous (I should have the chance to ask if they would reveal themselves or if they must be proxied), I should be able to onion route myself (sybil and other attacks, yeah, but perhaps mitigatable).
+
+Maximizing [[S2NR]] can be automated tremendously, and it could scale with my resources and willingness to trade resources. I'd love to permanently be uploading and downloading in search for someone who my computer thinks I should trust (and exploring the chains of people they are connected to whom my computer thinks I should trust as well). I want to be able to abuse GPUs and ML to increasingly accurate models as I update and provide more and more signal. I want my computation infrastructure to be automagically orchestrated to do this.
+
+I think each person must control some non-trivial portion of their own computing in order to participate (and obviously, I think we should constantly be giving computers away to those who need it most as a political duty and as a society at large). It's important that the workers own the means of production, especially at this level.
+
+Again, I think there is room for [[Quadratic Ranged Voting]] here. This is e-voting. I suppose you will need to vet people. How do you know someone is not a bot? You converse with them. I suppose many of us would want to leverage bots, but at least we would have the choice and chance not to here. It should be a basic principle that my computing capital should not enable to me to beget more voting power on this network other than enabling more people to find me (and to find others I trust more quickly). However, my signals should do all the talking (even if those signals are derived from computation about others, what they want to see, etc...though clearly there is danger here).
+
+Perhaps I store a dictionary of a set of references to objects on the network (IPFS hosted?) and my signals for each reference. Exactly how you might find the salience in these signals is up to you and your computing. Perhaps some algorithms are wildly more effective than others. That is an area that could grow tremendously. The ranking inside the dictionary is the ranged voting. The quadratic voice cost might just be that I say "listen to me" more loudly in some cases. Who is the story of this capital? There is no centralized keeper here. You either can build the network through ad hoc shards that give rise to emergence from desired cooperation or you have a failure of a network. [[T42T]] must win. I'm not sure how to implement the quadratic vote concept into this yet, but it could be extremely useful for communicating very quickly. 
+
+When someone says "trust me more than usual," that is something you have to test. They have to earn the right to ask such a thing of you. That trust-building can be automated to some non-trivial extent. Quadratic voting is an opportunity to rapidly build up how much I'm willing to trust you. People who are willing to sacrifice their social capital to show me something I need to see, if it turns out they are correct in the end, I should reward them (right?). Hrm, it is going to be so easy to build drugs here. Who has the best taste in cumshot compilations, right?
+
+---
+
+Evil Demon time: imagine a computer that researched your preferences indirectly before you connected to them (several ways this might occur) and made guesses about what you would want to see. These are demon-proxies tailored specifically for you. Each person has their own demon-proxy (Google is attempting to do this in how they build individually tailored results). Those proxy's build up enough trust that they can all be simultaneously used to have ever person trust in the same thing that they otherwise wouldn't have.
+
+That would be punished, but perhaps that is already too much of a threat. Again, literal contact might be the only way to distinguish at this point. This sounds ludditic, but I'm not sure how else to handle such a problem. There is a way in which this tool should be about empowering the word of mouth and avoid bottable amplification. How the users chose to use the network, unfortunately, is just as important as how you design it.
+
+---
+
+It might help for my computer to come back periodically and ask me about my ratings. Perhaps I will rate them different over time. There are some things which will maintain high ratings for a long time, and others which were one-hit wonders. Perhaps I will have times where I just want to see one-hit wonders, and other modes where long-term value is the very thing I'm looking to snowball. The difference between drug-seeking and truth-seeking should be easy for me to distinguish and separately pursue.
+
+Maintaining multiple identities (or mixing them like the dogs in that one book my brother JRE talks with me about...in this wiki in [[Deep Reading]]) would be crucial.
+
+---
+
+Obviously, this will be adjustable (perhaps automagically), but an hourly update with folks (unless that is more than they want to spend) seems reasonable. Send a hash of your table (or what you have from them). I gotta say, there are folks that I want to see there updates the minute they come out. Some people it would be fine if I only saw their signals update once in a great while. I don't know how to scale it, but that is another factor to control for.
+
+I suppose I should ask for their "advice" and it should be freely given when I ask (assuming we are cooperating) to whatever time limit they set. I should also be able to go the other direction and say, I'm ready whenever they want to send me anything at any time. Which is cheaper for them? That should be the default. Them sending me changes to their tables whenever they want is more robust.
+
+Donating resources should be possible (and automated as far as possible). I am, again, worried about the relationship between computational capital and social capital. Perhaps we need to be able to pay developers over the network. I don't know what a Reddit Gold for this would be like. I am worried about having any blockchain-bullshit get on my clean shoes though. Trust is the only commodity that should matter.
+
+Can I trust others to speak on my behalf? That is testable. Yes (minus some odd occasions), usually. They could filter in a very fine-grained way though.
+
+---
+
+I want my computer to search all the networks for me, finding the paths of least resistance and building an increasingly higher [[S2NR]] for me. The only work I should be doing is giving my human opinions about things, reading, and interacting with others. I want to choose my mods, or choose those who choose those who choose my mods for me, and I only want as much choice as I choose to exercise. Making moving from voiceless lurking to having an opinion count for something.

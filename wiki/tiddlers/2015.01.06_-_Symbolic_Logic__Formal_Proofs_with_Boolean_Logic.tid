@@ -1,0 +1,1448 @@
+created: 20180705005100404
+creator: h0p3
+modified: 20181031035931170
+modifier: h0p3
+tags: Tulane
+title: 2015.01.06 - Symbolic Logic: Formal Proofs with Boolean Logic
+
+24
+
+
+We are expanding F in this chapter, primarily we are adding the Boolean connectives and a way to deal with ⊥ to our formal, F-style proofs. Each connective will have two rules, an introduction rule and an elimination rule. Introduction rules will allow you to create sentences which use the introduced connective; you prove statements containing the symbol. Elimination rules prove things from statements already containing the symbol, generally giving you a sentence without the symbol.
+
+
+
+§ 6.1
+
+Conjunction elimination - ∧ Elim
+
+
+
+|k. P1 ∧ P2 ∧ … ∧ Pn
+
+|…
+
+ |n. Pi ∧Elim: k (watch for groupers)
+
+
+
+Where ‘i’ picks out any of number in the range 1-n.
+
+
+
+This rule allows you to prove something from conjunctive statements, namely the conjuncts. You can eliminate the conjunction symbol and extract a conjunct with this rule. Note how line k must show up before line n.
+
+
+
+Notice this important point: the conjunction to which you apply ∧Elim must appear by itself on a line in the proof. You cannot apply this rule to a conjunction that is embedded as part of a larger sentence. For example, this is not a valid use of ∧Elim:
+
+
+
+|1. ¬(Cube(a) ∧ Large(a))
+
+|2. ¬Cube(a) ∧Elim: 1
+
+
+
+The reason this is not valid use of the rule is that ∧Elim can only be applied to conjunctions,
+
+and the line that this “proof” purports to apply it to is a negation. And it’s a good thing that
+
+this move is not allowed, for the inference above is not valid—from the premise that a is not a
+
+large cube it does not follow that a is not a cube. a might well be a small cube (and hence not
+
+a large cube, but still a cube).
+
+
+
+This same restriction—the rule applies to the sentence on the entire line, and not to an
+
+embedded sentence—holds for all of the rules of F, by the way. And so Fitch will not let you
+
+apply ∧Elim or any of the rules of inference to sentences that are embedded within larger
+
+sentences.
+
+
+
+Conjunction introduction – ∧ Intro
+
+
+
+|k. P1
+
+|…
+
+|l. P2
+
+|…
+
+|m. P1 ∧ P2 ∧Intro: k, l (order matters)
+
+
+
+This rule forms a conjunctive sentence, i.e. it introduces a new conjunction symbol.
+
+
+
+Be careful with groupers:
+
+|1. A V B
+
+|2. C
+
+|3. (A V B) ∧ C ∧Intro: 1, 2
+
+
+
+Don’t forget to use parentheses in this case. You have not correctly used the rule if you end up with:
+
+
+
+A V B ∧ C
+
+
+
+This sentence is ambiguous. You can always add parentheses, either to disambiguate (in which case you must), or to make it more aesthetically pleasing (always nice).
+
+
+
+Importantly, if you want to form a larger conjunction, you’ll need to use multiple steps in this class. When in doubt, take more steps than fewer steps. For example, you shouldn’t do this:
+
+
+
+|1. P
+
+|2. Q
+
+|3. R
+
+|4. P ∧ Q ∧ R ∧Intro: 1, 2, 3
+
+
+
+Instead, you need to do this:
+
+
+
+|1. P
+
+|2. Q
+
+|3. R
+
+|4. P ∧ Q ∧Intro: 1, 2
+
+|5. P ∧ Q ∧ R ∧Intro: 4, 3
+
+
+
+Here is another example of breaking it down into pedantic steps. Don’t do it this way:
+
+
+
+|1. A ∧ B ∧ C	Show: C ∧ B
+
+|2. C ∧ B ∧Elim: 1
+
+
+
+You can see that this overly generous application of ∧Elim switches the conjuncts as they appear in the premise. That may be a fine and obvious move for something as simple as this, but it would get out of hand and become too difficult to see (for my taste) in more complex applications. Hence, the correct way to prove this, at least for our class, will be this:
+
+
+
+|1. A ∧ B ∧ C	Show: C ∧ B
+
+|2. B ∧Elim: 1
+
+|3. C ∧Elim: 1
+
+|4. C ∧ B ∧Intro: 3, 2
+
+
+
+This is extremely readable, clean, and it will scale up in readability for more complex problems. When in doubt, be pedantic, elaborate, etc. Recall that proofs are context and audience sensitive, and we must err on the side of caution, since it is far greater mistake to fail to demonstrate a step clearly to your audience than it is to overelaborate a bit.
+
+
+
+
+
+§ 6.2
+
+Disjunction Introduction – ∨ Intro
+
+
+
+|k. Pi
+
+|…
+
+ |n. P1 ∨ … ∨ Pi ∨ … ∨ Pn	∨ Intro: k
+
+
+
+This rule tells you that if you have a sentence on a line in a proof, you may enter, on a new
+
+line, any disjunction of which it is a disjunct. (Pi here represents any of the disjuncts, including the first or the last.)
+
+
+
+|1. P
+
+|2. P ∨ Q ∨ Intro: 1
+
+|3. X ∨ P ∨ Intro: 1
+
+|4 Q ∨ P ∨ X ∨ Intro: 1
+
+
+
+Since P is true, then any chain of disjunctions with P inside it must be true.
+
+
+
+Disjunction Elimination – ∨ Elim
+
+
+
+Probably one of the most powerful rules – it corresponds to the proof by cases from chapter 5. Recall that proof by cases allows you to conclude a sentence S from a disjunction P1 ∨ P2 ∨ … ∨ Pn if you can prove S from each of the disjuncts P1 through Pn.
+
+
+
+Each of the cases in “proof by cases” will be expressed in a subproof in F.
+
+
+
+Subproof: A proof that occurs inside a larger proof. A subproof involves the temporary use of an additional assumption, which functions in a subproof the way the premises do in the main proof under which it is subsumed.
+
+
+
+We place a subproof within a main proof by introducing a new vertical line, inside the vertical line for the main proof. We begin the subproof with an assumption(any sentence of our choice), and place a new Fitch bar under the assumption:
+
+
+
+|Premise
+
+|…
+
+||Assumption for subproof
+
+||…
+
+|…
+
+
+
+The subproof may be ended at any time. When the subproof ends, the vertical line stops, and
+
+the next line either “jumps out” to the original vertical proof line, or a new subproof may be
+
+begun. Subproofs make use of assumptions. Assumptions are temporary! It is as if we are asking ourselves a hypothetical question: “What if some P were true?” Subproofs are easy to use incorrectly.
+
+
+
+As we’ll see, ∨Elim involves the use of two (or more) subproofs, entered one immediately after the other. We will employ a formalized version of the proof by cases. Here is the schematic of ∨Elim:
+
+
+
+|k. P1 ∨ … ∨ Pn
+
+|...
+
+||xn. P1	(Case 1, Subproof)
+
+||...
+
+||xm. S
+
+||yn. Pn	(Case 2, Subproof)
+
+||...
+
+||ym. S
+
+	|ym+1. S ∨Elim: k, xn-xm, yn-ym
+
+
+
+What the rule says is this: if you have a disjunction in a proof, and you have shown, through a sequence of subproofs, that each of the disjuncts (together with any other premises in the main proof) leads to the same conclusion, then you may derive that conclusion from the disjunction (together with any main premises cited within the subproofs).
+
+
+
+This is clearly a formal version of the method of proof by cases. Each of the Pi represents one of the cases. Each subproof represents a demonstration that, in each case, we may conclude S. Our conclusion is that S is a consequence of the disjunction together with any of the main premises cited within the subproofs.
+
+
+
+Whenever you are using a rule, you should know what your goal is for that rule. When using subproofs, you need to know what the goal of the subproof needs to be. Sometimes it will the be final conclusion, sometimes it will be surd, sometimes it will be something else entirely.
+
+
+
+When you start a subproof, you must know: (1) what rule you are using, (2) what you will assume in the subproof, (3) the goal of the subproof, and (4) what you will discharge.
+
+
+
+Let’s look at a few examples:
+
+
+
+| 1. (B ∧ A) ∨ A	Show: A
+
+||2. B ∧ A
+
+||3. A ∧Elim: 2
+
+||4. A
+
+||5. A Reit: 4
+
+|6. A ∨Elim: 1, 2-3, 4-5
+
+
+
+|1. (A ∧ B) ∨ (C ∧ B)	Show: B
+
+||2. A ∧ B
+
+||3. B ∧ Elim: 2
+
+||4. C ∧ B
+
+||5. B ∧ Elim: 4
+
+|6. B ∨ Elim: 1, 2-3, 4-5
+
+
+
+|1. (A ∧ B) ∨ (C ∧ B) ∨ B	Show: B
+
+||2. A ∧ B
+
+||3. B ∧ Elim: 2
+
+||4. C ∧ B
+
+||5. B ∧ Elim: 4
+
+||6. B
+
+||7. B Reit: 6
+
+|6. B ∨ Elim: 1, 2-3, 4-5, 6-7
+
+
+
+It is vital to realize that the assumption and any intermediate conclusions occurring inside a subproof can only be used in that subproof.
+
+
+
+|1. (A ∧ B) ∨ (C ∧ D)	Show: B ∨ D
+
+||2. A ∧ B
+
+||3. B ∧ Elim: 2
+
+||4. B ∨ D ∨ Intro: 3
+
+||5. C ∧ D
+
+||6. D ∧ Elim: 5
+
+||7. B ∨ D ∨ Intro: 6
+
+|8. B ∨ D ∨ Elim: 1, 2-4, 5-7
+
+
+
+Note how A ∧ B, as an assumption for the subproof, is only efficacious inside the subproof. It cannot be used outside the subproof. The same for C ∧ D. We don’t really know which ones are true or false, only that at least one of them must be true in order to have line 1. You cannot, therefore, deduce this on line 9:
+
+
+
+|8. B ∧ Elim: 2
+
+
+
+This occurs outside the subproof. Remember that the assumption and intermediate conclusions of a subproof, excepting what is discharged by our rules which directly employ subproofs, cannot be used outside the subproof. A subproof is just a hypothetical. It says, “let’s us assume for the sake of argument that X is true, what would follow from it?” That doesn’t make X or anything which follows from X true, except in the very specific discharges of ∨ Elim, and our other rules of F which allow us to show logical consequence from proper use of subproofs.
+
+
+
+It is permissible, however, to cite lines outside of a subproof, in the main proof, if you wish. You’ve already established those lines are true.
+
+
+
+Lastly, I want to note that subproofs can nest inside subproofs, for example, when we try to use ∨Elim inside another ∨Elim. We’ll see some examples later of this.
+
+
+
+Homework: 6.1-6.6
+
+
+
+
+
+§ 6.3
+
+As previewed in our informal proof by contradiction, we need a way to establish and work with ⊥ before we can delve into the negation rules, specifically ¬Intro.
+
+
+
+Surd Introduction - ⊥ Intro
+
+
+
+|k. P
+
+|…
+
+|l. ¬P
+
+|...
+
+ |n. ⊥	⊥ Intro: k, l
+
+
+
+The least negated line is cited first. For example:
+
+
+
+|k. ¬¬P
+
+|…
+
+|l. ¬P
+
+|...
+
+|n. ⊥	⊥ Intro: l, k
+
+
+
+We will be very picky. This is not acceptable:
+
+
+
+|1. P ∧ ¬P
+
+|2. ⊥	⊥ Intro: 1, ?
+
+
+
+The semantics are obvious, but the we must follow the syntax of our system and language correctly. To the letter of the law, not merely the spirit. So, this is the correct way:
+
+
+
+|1. P ∧ ¬P
+
+|2. P ∧Elim: 1
+
+|3. ¬P ∧Elim: 1
+
+|2. ⊥	⊥ Intro: 2,3
+
+
+
+Further, it is important to note that ⊥Intro, as set out in F, only works for tautological contradictions. So, for example, these sentences are logically inconsistent, but we can’t derive ⊥ in the F-system:
+
+
+
+|1. Cube(a)
+
+|2. Tet(a)	
+
+|3. ⊥	⊥ Intro: 1,2 (Ana Con would work though)
+
+
+
+This is a contradiction, and thus logically we could conclude ⊥. However, in our logic system, we will not be able to make this move. At this point, F-style proofs only show tautological consequence, and they are blind to the meanings of predicates. We will not be able to prove logical consequence which rests upon the meanings of predicates in this formal system.
+
+
+
+Moving on, it is very common to use ⊥intro within the context of a subproof. If you can arrive at ⊥, using ⊥Intro, from your premises, then your premises are proven to be logically inconsistent. ⊥ generally behaves like other sentences in the language.
+
+
+
+|1. A ∨ B Show: ⊥
+
+|2. ¬A
+
+|3. ¬B
+
+||4. A
+
+||5. ⊥	⊥Intro: 4, 2
+
+||6. B
+
+||7. ⊥	⊥Intro: 6, 3
+
+|8. ⊥	∨Elim: 1, 4-5, 6-7
+
+
+
+⊥Intro is the goal of the subproofs, and ⊥ is discharged via ∨Elim here.
+
+
+
+Surd Elimination - ⊥ Elim
+
+
+
+|k. ⊥
+
+|…
+
+ |n. P ⊥ Elim: k
+
+
+
+Where P is any sentence of the language. Anything follows from absurdity. Recall, every sentence is the logical consequence of a logically impossibility. In any case where a logically impossible sentence is true (which is never), every other sentence is also true. Any sentence, therefore, is the logical consequence of ⊥, and that is inference is heart of ⊥Elim. For example:
+
+
+
+|1. Cube(a) ∨ Cube(b) Show: Cube(b)
+
+|2. ¬Cube(a)
+
+||3. Cube(a)	
+
+||4. ⊥	⊥Intro: 3, 2
+
+|| 5. Cube(b) ⊥Elim: 4
+
+||6. Cube(b)
+
+||7. Cube(b) Reit: 6
+
+|8. Cube(b) ∨Elim: 1, 3-5, 6-7
+
+
+
+|1. A ∨ B Show: P
+
+|2. ¬A
+
+|3. ¬B
+
+||4. A
+
+||5. ⊥	⊥Intro: 4, 2
+
+||6. B
+
+||7. ⊥	⊥Intro: 6, 3
+
+|8. ⊥	∨Elim: 1, 4-5, 6-7
+
+|9. P ⊥Elim: 8
+
+
+
+Note that we could have done it a bit differently:
+
+
+
+|1. A ∨ B Show: P
+
+|2. ¬A
+
+|3. ¬B
+
+||4. A
+
+||5. ⊥	⊥Intro: 4, 2
+
+||6. P ⊥Elim: 5
+
+||7. B
+
+||8. ⊥	⊥Intro: 6, 3
+
+||9. P ⊥Elim: 8
+
+|10. P ∨Elim: 1, 4-6, 7-9
+
+
+
+Negation Elimination - ¬Elim
+
+
+
+|k. ¬¬P
+
+|…
+
+ |n. P ¬Elim: k
+
+
+
+Note that it only removes two negations, no more. This is not acceptable:
+
+
+
+|1. ¬¬¬¬P	Show: P
+
+|2. P ¬Elim: 1
+
+
+
+The correct way is this:
+
+
+
+|1. ¬¬¬¬P	Show: P
+
+|2. ¬¬P ¬Elim: 1
+
+|3. P ¬Elim: 2
+
+
+
+Note that you can only use ¬Elim on sentences which are entirely double-negated. Thus, you can’t do it in this case:
+
+
+
+|1. Q ∧ ¬¬P	Show: Q ∧ P
+
+|2. Q ∧ P ¬Elim: 1
+
+
+
+The main connective is a conjunction, and thus is sentence is a conjunction which happens to contain a complex sentence, ¬¬P. You cannot make the substitution inside it. You must break it apart, do your work, and put it back together. The correct way:
+
+
+
+|1. Q ∧ ¬¬P	Show: Q ∧ P
+
+|2. ¬¬P ∧Elim: 1
+
+|3. P ¬Elim: 2
+
+|4. Q ∧Elim: 1
+
+|5. Q ∧ P ∧Intro: 4, 3
+
+
+
+This may seem like useless work, but there is a reason for this simplicity. We want it to be perfectly obvious what happens, no matter how complex the inference. For steps this small, it seems like extra work, but as we approach sentences which are significantly longer and harder to understand, we want to take small, obvious steps. Substitutions are evil! Do not take shortcuts. We are making proofs here, and we will be pedantic.
+
+
+
+Negation Introduction - ¬Intro
+
+
+
+This is our formal version of the method of indirect proof, or proof by contradiction. It requires the use of a subproof. The idea is this: if an assumption made in a subproof leads to ⊥, you may close the subproof and derive as a conclusion the negationof the sentence that was the assumption.
+
+
+
+||k. P
+
+||…
+
+||n. ⊥
+
+ |n+1. ¬P ¬Intro: k-n
+
+
+
+Remember that ⊥ is Contradiction, established by finding Q ∧ ¬Q, which is impossible. If you can arrive at ⊥ from a premise, then it necessarily can’t be true. This is a reductio. Assume for the sake of proving the negation.
+
+Unlike proof by contradiction, where we can start with a negated sentence, reduce it to absurdity, and then conclude in the non-negated sentence, we cannot in F-style proofs. Thus, this is unacceptable:
+
+
+
+||k. ¬P
+
+||…
+
+||n. ⊥
+
+|n+1. P ¬Intro: k-n
+
+
+
+Intro rules will “Introduce” a brand new connective. Hence, the correct way to do this:
+
+
+
+||k. ¬P
+
+||…
+
+||n. ⊥
+
+|n+1. ¬¬P ¬Intro: k-n
+
+|n+2. P ¬Elim: n+1
+
+
+
+As you see, we’ve introduced another negation here. That is what you’ve got to do.
+
+
+
+Let’s consider a few examples:
+
+
+
+|1. ¬Cube(a)	Show: ¬(Cube(a) ∧ Dodec(b))
+
+||2. Cube(a) ∧ Dodec(b)
+
+||3. Cube(a) ∧Elim: 2
+
+||4. ⊥	⊥Intro: 3, 1
+
+|5. ¬(Cube(a) ∧ Dodec(b)) ¬Intro: 2-4
+
+
+
+|1. ¬P ∧ ¬Q	Show: ¬(P ∨ Q)
+
+||2. P ∨ Q
+
+|||3. P
+
+|||4. ¬P ∧Elim: 1
+
+|||5. ⊥	⊥Intro: 3, 4
+
+|||6. Q
+
+|||7. ¬Q ∧Elim: 1
+
+|||8. ⊥	⊥Intro: 6, 7
+
+||9. ⊥
+
+|10. ¬(P ∨ Q) ¬Intro: 2-9
+
+
+
+With ¬Intro and ¬Elim, it turns out that we do not really need the ⊥Elim rule.
+
+
+
+|1. ⊥	Show: P
+
+||2. ¬P
+
+||3. ⊥	Reit: 1
+
+|4. ¬¬P ¬Intro:2-3
+
+|5. P ¬Elim: 4
+
+
+
+⊥Elim is included in F to make proofs shorter, more natural, because we have discussed at length the nature of logical consequence and logical impossibility, and because it would be a damn shame to break our “intro/elim” rule symmetry.
+
+
+
+Lastly, and I will say this a million times, when you are stuck, try ¬Intro.
+
+
+
+Homework: 6.7-6.16
+
+
+
+
+
+§ 6.4
+
+The Proper Use of Subproofs – Don’t Fuck it up
+
+
+
+It is important that you understand how to use them properly, since if you are not careful, you may “prove" things that don't follow from your premises. Here is an example of what “not to do.”
+
+
+
+|1. (B ∧ A) ∨ (A ∧ C)
+
+||2. B ∧ A
+
+||3. B ∧ Elim: 2
+
+||4. A ∧Elim: 2
+
+||5. A ∧ C
+
+||6. A ∧Elim: 5
+
+|7. A ∨Elim: 1, 2-4, 5-6
+
+|8. A ∧ B ∧Intro: 7, 3
+
+
+
+Step 8 is a blunder. B is deduced from an assumption. B can only be used within that assumption, never outside. B is only true on the assumption B ∧ A. Once assumption B ∧ A subproof ends, we can’t use the assumptions or deductions made within it, except for those intro/elim rules like ∨Elim, which specifically point out what we can deduce or “discharge” from subproofs.
+
+
+
+In justifying a step of a subproof, you may cite any earlier step contained in the main proof, or in any subproof whose assumption is still in force. You may never cite individual steps inside a subproof that
+
+has already ended.
+
+
+
+Most non-trivial proofs are going to require subproofs, and many of them will require nested subproofs. You’ll need to get comfortable working in multiple subproofs.
+
+
+
+|1. Red(a) ∨ Small(b) Show: Cube(c)
+
+|2. Cube(c) ∨ ¬Small(b)
+
+|3. ¬Red(a) ∨ Cube(c)
+
+||4. Red(a)
+
+|||5. ¬Red(a)
+
+|||6. ⊥	⊥Intro: 4, 5
+
+|||7. Cube(c) ⊥Elim: 6
+
+|||8. Cube(c)
+
+|||9. Cube(c) Reit: 8
+
+||10. Cube(c) ∨Elim: 3, 5-7, 8-9
+
+||11. Small(b)
+
+|||12. Cube(c)
+
+|||13. Cube(c) Reit: 12
+
+|||14. ¬Small(b)
+
+|||15. ⊥	⊥Intro: 11, 14
+
+|||16. Cube(c) ⊥Elim: 15
+
+||17. Cube(c) ∨Elim: 2, 12-13, 14-16
+
+|18. Cube(c) ∨Elim: 1, 4-10, 11-17
+
+
+
+Homework: 6.18-6.20
+
+
+
+
+
+§ 6.5
+
+Strategy and Tactics
+
+    Throughout all steps, when possible, try to keep in mind what the sentences in your proof mean (sometimes this will help).
+
+    Your first step in trying to construct a proof should be to convince yourself that the argument is valid, that the conclusion is a consequence of the premises.
+
+        The way in which you convince yourself will often give you hints, footholds, or even the outright strategy for the formal proof.
+
+        If can’t convince yourself, try to come up with a counterexample (which is proof that it isn’t valid).
+
+    If it any different than how you might initially convince yourself, try giving an true informal proof, the kind of proof you might try to use to convince a fellow classmate. Often the basic structure of your informal reasoning can be directly formalized using the rules of F. For example, if you use proof by cases, then you'll almost surely formalize the proof using disjunction elimination.
+
+    Look for an overall strategy, and divide and conquer with smaller tactics. Often this means breaking the problem up into smaller problems. You’ll often look for the overall strategy, and starting filling in the gaps.
+
+    Sometimes, when you are stuck, you can work backwards to identify the middle/intermediate goals.
+
+    Constantly ask yourself: What do I have and what do I need?
+
+        Remember to use Elim rules to extract information out of sentences with logical connectives. If you have only Disjunctions to work with, you probably need to use ∨Elim to extract information out of them.
+
+    When you are stuck, use ¬Intro.
+
+These are some general ideas, strategies, and tactics you should explore problems with. They won’t always help, and only a few might apply.
+
+|¬P ∨ ¬Q	Show: ¬(P ∧ Q)
+
+
+
+We are already convinced of the validity, since this is DeMorgan’s, and we know how the truth tables play out. We can offer an informal proof which can guide a formal one, if we wish:
+
+
+
+Assume for reductio: P ∧ Q
+
+Case 1: ¬P. But, from our assumption, P. ⊥
+
+Case 2: ¬Q. But, from our assumption, Q. ⊥
+
+We’ve exhausted the possibilities, hence ⊥.
+
+Since P ∧ Q results in ⊥, we know ¬(P ∧ Q). QED.
+
+
+
+We can model the formal proof after this informal one.
+
+
+
+|1. ¬P ∨ ¬Q	Show: ¬(P ∧ Q)
+
+||2. P ∧ Q
+
+|||3. ¬P
+
+|||4. P ∧Elim: 2
+
+|||5. ⊥	⊥Intro:4, 3
+
+|||6. ¬Q
+
+|||7. Q ∧Elim: 2
+
+|||8. ⊥	⊥Intro: 7, 6
+
+|| 9. ⊥	∨Elim: 1, 3-5, 6-8
+
+|10. ¬(P ∧ Q) ¬Intro: 2-9
+
+
+
+Let’s try another (Counterexample required):
+
+|1. Dodec(e)
+
+|2. Small(e)
+
+|3. ¬Dodec(e) v Dodec(f) v Small(e)
+
+|4. Dodec(f)
+
+
+
+We can’t seem to convince ourselves this is valid. We need a counterexample to show it.
+
+
+
+Consider a world in which ‘e is a small dodec’ and ‘f is a cube’.
+
+The 1st premise is true in this world, since e is a dodec.
+
+The 2nd premise is also true in this world, since e is small.
+
+The 3rd premise is true in this world, since e is small and Small(e) is one of the disjuncts of this premise.
+
+But, the conclusion is false in this world because f is not a dodec.
+
+
+
+Homework: 6.21-6.22, 6.24-6.27 (don’t turn in the informal proofs, just the formal ones), 6.28-6.32
+
+
+
+§ 6.6
+
+Proofs without premises
+
+
+
+In F, we can prove many logical truths without any premises. It makes sense that we can prove many logical truths, particularly tautologies (and FO truths) without premises because these are all consequence of every set of premises, including the empty set.
+
+
+
+Let’s consider a few examples:
+
+
+
+|____ Show: a = a ∧ b = b
+
+|1. a = a =Intro
+
+|2. b = b =Intro
+
+|3. a = a ∧ b = b ∧Intro: 1, 2
+
+
+
+
+
+|____ Show: ¬(P ∧ ¬P) (Law of Non-Contradiction)
+
+||1. P ∧ ¬P
+
+||2. P ∧Elim: 1
+
+||3. ¬P ∧Elim: 1
+
+||4. ⊥	⊥Intro: 2, 3
+
+|5. ¬(P ∧ ¬P) ¬Intro:1-4
+
+
+
+|____ Show: P ∨ ¬P (Law of Exluded Middle)
+
+||1. ¬(P ∨ ¬P)
+
+|||2. P
+
+|||3. P ∨ ¬P ∨Intro: 2
+
+|||4. ⊥	⊥Intro: 3, 1
+
+||5. ¬P ¬Intro: 2-4
+
+||6. P ∨ ¬P ∨Intro: 5
+
+||7. ⊥	⊥Intro: 6, 1
+
+|8. ¬¬(P ∨ ¬P) ¬Intro: 1-7
+
+|9. P ∨ ¬P ¬Elim: 8
+
+
+
+Keep the last one in your back pocket. You’ll sometimes be forced to pull it out of no where. For the record, when ¬Intro, in general, still fails you, you may be facing a problem that requires you to write the law of excluded middle on a line (which requires ¬Intro).
+
+
+
+Homework: 6.33-6.42
+
+---
+
+
+
+11
+
+
+Introducing Double Negation:
+
+
+
+This kind of proof comes in handy once in a while.
+
+
+
+|1. P ∧ S	Show: ¬¬P
+
+||2. ¬P
+
+||3. P ∧Elim: 1
+
+||4. ⊥	⊥Intro: 3, 2
+
+|5. ¬¬P
+
+
+
+Commutativity for Conjunction:
+
+
+
+Let’s step through one direction of some famous equivalences.
+
+
+
+|1. P ∧ Q	Show: Q ∧ P
+
+|2. P ∧Elim: 1
+
+|3. Q ∧Elim: 1
+
+|4. Q ∧ P ∧Intro: 3, 2
+
+
+
+Commutativity for Disjunction:
+
+
+
+|1. P ∨ Q	Show: Q ∨ P
+
+||2. P
+
+||3. Q ∨ P ∨Intro: 2
+
+||4. Q
+
+||5. Q ∨ P ∨Intro: 4
+
+|6. Q ∨ P ∨Elim: 1, 2-3, 4-5
+
+
+
+Associativity for Conjunction:
+
+
+
+If there are parentheses, then you need to obey them. Our system doesn’t require parentheses for these sentences, but if they are present, then we need to follow them.
+
+
+
+|1. (P ∧ Q) ∧ R	Show: P ∧ (Q ∧ R)
+
+|2. P ∧ Q ∧Elim: 1
+
+|3. P ∧Elim: 2
+
+|4. Q ∧Elim: 2
+
+|5. R ∧Elim: 1
+
+|6. Q ∧ R ∧Intro: 4, 5
+
+|7. P ∧ (Q ∧ R) ∧Intro: 3, 7
+
+
+
+Associativity for Disjunction:
+
+
+
+|1. (P ∨ Q) ∨ R	Show: P ∨ (Q ∨ R)
+
+||2. P ∨ Q
+
+|||3. P
+
+|||4. P ∨ (Q ∨ R) ∨Intro: 3
+
+|||5. Q
+
+|||6. Q ∨ R ∨Intro: 5
+
+|||7. P ∨ (Q ∨ R) ∨Intro: 6
+
+||8. P ∨ (Q ∨ R) ∨Elim: 2, 3-4, 5-7
+
+||9. R
+
+||10. Q ∨ R ∨Intro: 9
+
+||11. P ∨ (Q ∨ R) ∨Intro: 10
+
+|12. P ∨ (Q ∨ R) ∨Elim: 1, 2-8, 9-11
+
+
+
+I won’t show the other way around, since it is trivial if you can do these.
+
+
+
+Distributivity for Conjunction to Disjunction of Conjunctions:
+
+
+
+|1. P ∧ (Q ∨ R)	Show: (P ∧ Q) ∨ (P ∧ R)
+
+|2. P ∧Elim: 1
+
+|3. Q ∨ R ∧Elim: 1
+
+||4. Q
+
+||5. P ∧ Q ∧Intro: 2, 4
+
+||6. (P ∧ Q) ∨ (P ∧ R) ∨Intro: 5
+
+||7. R	
+
+||8. P ∧ R ∧Intro: 2, 7
+
+||9. (P ∧ Q) ∨ (P ∧ R) ∨Intro: 8
+
+|10. (P ∧ Q) ∨ (P ∧ R) ∨Elim: 3, 4-6, 7-9
+
+
+
+Distributivity for Disjunction of Conjunctions to Conjunction:
+
+
+
+This is the other direction.
+
+
+
+|1. (P ∧ Q) ∨ (P ∧ R)	Show: P ∧ (Q ∨ R)
+
+||2. P ∧ Q
+
+||3. P ∧Elim: 2
+
+||4. Q ∧Elim: 2
+
+||5. Q ∨ R ∨Intro: 4
+
+||6. P ∧ (Q ∨ R) ∧Intro: 3, 5
+
+||7. P ∧ R
+
+||8. P ∧Elim: 7
+
+||9. R ∧Elim: 7
+
+||10. Q ∨ R ∨Intro: 9
+
+||11. P ∧ (Q ∨ R) ∧Intro: 8, 10
+
+|12. P ∧ (Q ∨ R) ∨Elim: 1, 2-6, 7-11
+
+
+
+Distributivity for Disjunction to Conjunction of Disjunctions:
+
+
+
+|1. P ∨ (Q ∧ R) Show: (P ∨ Q) ∧ (P ∨ R)
+
+||2. P
+
+||3. P ∨ Q ∨Intro: 2
+
+||4. P ∨ R ∨Intro: 2
+
+||5. (P ∨ Q) ∧ (P ∨ R) ∧Intro: 3, 4
+
+||6. Q ∧ R
+
+||7. Q ∧Elim: 6
+
+||8. R ∧Elim: 6
+
+||9. P ∨ Q ∨Intro: 7
+
+||10. P ∨ R ∨Intro: 8
+
+||11. (P ∨ Q) ∧ (P ∨ R) ∧Intro: 9, 10
+
+|12. (P ∨ Q) ∧ (P ∨ R) ∨Elim: 1, 2-5, 6-11
+
+
+
+Distributivity for Conjunction of Disjunctions to Disjunction:
+
+
+
+The other direction.
+
+
+
+|1. (P ∨ Q) ∧ (P ∨ R)	Show: P ∨ (Q ∧ R)
+
+|2. P ∨ Q ∧Elim: 1
+
+|3. P ∧Elim: 2
+
+|4. P ∨ (Q ∧ R) ∨Intro: 3
+
+
+
+DM1, Conjunction of Negated Conjuncts to Negated Disjunction:
+
+
+
+|1. ¬P ∧ ¬Q Show: ¬(P ∨ Q)
+
+||2. P ∨ Q
+
+|||4. P	
+
+|||5. ¬P ∧Elim: 1
+
+|||6. ⊥	⊥Elim: 4, 5
+
+|||7. Q
+
+|||8. ¬Q ∧Elim: 1
+
+|||9. ⊥	⊥Elim: 7, 8
+
+||10. ⊥	∨Elim: 2, 4-6, 7-9
+
+|11. ¬(P ∨ Q) ¬Intro: 2-10
+
+
+
+DM2, Negated Disjunction to Conjunction of Negated Conjuncts:
+
+
+
+|1. ¬(P ∨ Q)	Show: ¬P ∧ ¬Q
+
+||2. P
+
+||3. P ∨ Q ∨Intro: 2
+
+||4. ⊥	⊥Intro: 3, 1
+
+|5. ¬P ¬Intro: 2-4
+
+||6. Q
+
+||7. P ∨ Q ∨Intro: 6
+
+||8. ⊥	⊥Intro: 7, 1
+
+|9. ¬Q ¬Intro: 6-8
+
+|10. ¬P ∧ ¬Q ∧Intro: 5, 9
+
+
+
+
+
+DM3, Disjunction of Negated Disjuncts to Negated Conjunction:
+
+
+
+|1. ¬P ∨ ¬Q	Show: ¬(P ∧ Q)
+
+||2. P ∧ Q
+
+|||3. ¬P
+
+|||4. P ∧Elim: 2
+
+|||5. ⊥	⊥Intro:4, 3
+
+|||6. ¬Q
+
+|||7. Q ∧Elim: 2
+
+|||8. ⊥	⊥Intro: 7, 6
+
+|| 9. ⊥	∨Elim: 1, 3-5, 6-8
+
+|10. ¬(P ∧ Q) ¬Intro: 2-9
+
+
+
+DM4, Negated Conjunction to Disjunction of Negated Disjuncts:
+
+
+
+What do we say to death? Not today! When stuck, use ¬Intro.
+
+
+
+|1. ¬(P ∧ Q)	Show: ¬P ∨ ¬Q
+
+||2. ¬(¬P ∨ ¬Q)
+
+|||3. ¬P
+
+|||4. ¬P ∨ ¬Q ∨Intro: 3
+
+|||5. ⊥	⊥Intro: 4, 2
+
+||6. ¬¬P ¬Intro: 3-5
+
+||7. P ¬Elim: 6
+
+|||8. ¬Q
+
+|||9. ¬P ∨ ¬Q ∨Intro: 8
+
+|||10. ⊥	⊥Intro: 9, 2
+
+||11. ¬¬Q ¬Intro: 8-10
+
+||12. Q ¬Elim: 11
+
+||13. P ∧ Q ∧Intro: 7, 12
+
+||14. ⊥	⊥Intro: 13, 1
+
+|15. ¬¬(¬P ∨ ¬Q) ¬Intro: 2-14
+
+|16. ¬P ∨ ¬Q ¬Elim: 15
+
+
+
+Equivalence of the Boolean Consequents of Implication Expansion (i.e., DM3 in Action):
+
+
+
+These DM proofs are useful in proving lots of things which rely upon Boolean Connectives. A large number of difficult Boolean based proofs are derivates of DM proofs.
+
+
+
+|1. ¬P ∨ Q	Show: ¬(P ∧ ¬Q)
+
+||2. P ∧ ¬Q
+
+|||3. ¬P
+
+|||4. P ∧Elim: 2
+
+|||5. ⊥	⊥Intro:4, 3
+
+|||6. Q
+
+|||7. ¬Q ∧Elim: 2
+
+|||8. ⊥	⊥Intro: 6, 7
+
+|| 9. ⊥	∨Elim: 1, 3-5, 6-8
+
+|10. ¬(P ∧ ¬Q) ¬Intro: 2-9
+
+
+
+Exercise 5.17
+
+
+
+|1. Cube(a) ∨ Tet(a) ∨ Large(a) Show: a = b ∨ a = c
+
+|2. ¬Cube(a) ∨ a = b ∨ Large(a)
+
+|3. ¬Large(a) ∨ a = c
+
+|4. ¬(c = c ∧ Tet(a))
+
+||5. ¬Large(a)
+
+|||6. Cube(a)
+
+||||7.¬Cube(a)
+
+||||8. ⊥	⊥Intro: 6, 7
+
+||||9. a = b ∨ a = c ⊥Elim: 8
+
+||||10. a = b
+
+||||11. a = b ∨ a = c ∨Intro: 10
+
+||||12. Large(a)
+
+||||13. ⊥	⊥Intro: 12, 5
+
+||||14. a = b ∨ a = c ⊥Elim: 13
+
+|||15. a = b ∨ a = c ∨Elim: 2, 7-9, 10-11, 12-14
+
+|||16. Tet(a)
+
+|||17. c = c =Intro
+
+|||18. c = c ∧ Tet(a) ∧Intro: 17, 16
+
+|||19. ⊥	⊥Intro: 18, 4
+
+|||20. a = b ∨ a = c ⊥Elim: 19
+
+|||21. Large(a)
+
+|||23. ⊥	⊥Intro: 21, 5
+
+|||24. a = b ∨ a = c ⊥Elim: 23
+
+||25. a = b ∨ a = c ∨Elim: 1, 6-15, 16-20, 21-24
+
+||26. a =c
+
+||27. a = b ∨ a = c ∨Intro: 26
+
+|28. a = b ∨ a = c ∨Elim: 3, 5-25, 26-27

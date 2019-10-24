@@ -1,0 +1,24 @@
+created: 20190716014259893
+modified: 20190716040603460
+tags: Atropos
+title: 2019.07.15 - Atropos: Mobile
+
+* Mobile should not serve unless explicitly requested by user.
+* Holepunching doesn't always work, and we are reliant upon fallbacks and federations of relays. I expect to continue to lose this war against ISPs.
+* Mobile should not participate on the DHT except for discovery.
+** It has to be tuned.
+* Heartbeats have to be minimized.
+* Mobile may lose out on safety features to pickup performance.
+* Matrix model blows, though relays must charitably proxy for others. I'll glady burn VPS or VM compute and bandwidth for consensus, preventing bad actors, etc.
+** It's likely the case that F2F models have to arise wherein relationships you've built with others result in their proxying for you. 
+* Probably can't drop below 2 relays on any given client.
+
+---
+
+https://github.com/zerotier/lf
+
+Ah, a piece of the router shows up.
+
+I think this should be the federated backbone we've been planning. It's expensive as fuck, aims to detect assholes, has lots of parameters for trust, and it's fast. We won't utter the "B" word, but it is necessary. I'd very much like nameservers built on such a thing. Federation exists to enable P2P or bust. 
+
+I'm curious to see if there is a way to marry a DHT network to such a backbone. Oracles can be sentinels. Partial LF nodes might bridge. DHT buys us the P2P scaling we want.

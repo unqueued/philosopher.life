@@ -1,0 +1,8 @@
+created: 20180109175533704
+modified: 20190107052039093
+modifier: h0p3
+revision: 0
+tags: [[Computer Musings]]
+title: 2018.01.09 - Computer Musings: Whitelist for Daughter
+
+It's that time of the month again. I decided to force whitelist only on my daughter. Thank god for the Arch wiki because I was getting frustrated. That place has the answers (or points you to them) at least 75% of the time. Write-protect `/etc/resolv.conf` did it.

@@ -1,0 +1,26 @@
+created: 20170406233748527
+modified: 20170625205917162
+revision: 0
+title: Idle Oil Tycoon
+
+This is a very clean skinner box. It has to be one of the simplest I've encountered. You try to maximize your experience number, and that's it. It's not time consuming, so feel free to chase it like an addiction.
+
+At the surface level, the GUI is at times brilliant in its straightforwardness, but also not very pretty in a sense. That it gives you the information up front to plan around, however, is still worth the ugliness of its general structure (the aesthetic is pleasing overall though). 
+
+This is one of the better plain idlers I've ever used. There's no bullshit to it. Every button is meaningful, even if it is really simple. Snowballing has an elegant feel to it in this game. The multipliers are pleasing to me, and the reset progression fits my schedule nicely. It's the kind of idler that you walk up, hit a few buttons, and walk away for hours. You make your investments, but there's no awful grind feeling. It rewards grinding, but it's completely fine feeling not to. 
+
+Optimizing both your reset strategy in general and your ergonomic implementation of the strategy for opening out of your resets is, as in any decent idler with the prestige of meaningful longer-term replayability, the real functions to understand. The honing of your reset strategy just fundamentally is the gameplay of this game. It's the only metagame that matters. But, when you look a bit deeper, you see the reset strategy is not obviously straightforward. The game is about optimization, growing it through theory-making and testing.
+
+I have not read the wiki for this game. I worry it will lose its appeal the moment I do. There is enough simplicity to this game that the mathematically correct play may be too obvious from the wiki. In a way, researching the metagame too directly can ruin this game like cheating or god-mode in many games. Therefore, be indirect and more visceral in your metagaming. Enjoy exploring it by hand and being a subconscious, self-taught virtue-theoretically excellent data scientist with it.
+
+* Early Game
+** Experience is what you are really grinding for. Maximizing your experience rate is everything. All other goals emanate from that one number. If you were building a neural network to play this game, this is the value that you will be training strategies to maximize.
+** This stage is tap heavy, but in a pleasing way. You have to bounce around in the early game to bootstrap yourself as fast as possible. 
+** The first retirement/reset makes a huge difference, the second less so, and so on and so forth. Classic skinnerbox, as I said.
+
+* Mid Game
+** At this stage, the opener out of the reset has a very clean to flow it. It's quite easy to get back to where you were. In a sense, you quickly rewarded for doing the right thing.
+*** It's click heavy for the first 2-minutes, and then you slowly trail off. You come back to it intermittently to make the final investments before your big "push."
+** Deep runs that last for days are unworthy here (and definitely useless in the Early Game). Reset once or twice a day. You're methodically climbing that experience hill. 
+
+... Actually, it stopped being fun.

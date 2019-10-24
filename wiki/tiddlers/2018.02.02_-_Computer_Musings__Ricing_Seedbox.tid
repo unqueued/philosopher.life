@@ -1,0 +1,51 @@
+created: 20180202225224056
+modified: 20190326215359041
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.02.02 - Computer Musings: Ricing Seedbox
+
+I've been trying lots of tools out. 
+
+I'm adding to [[Walkthrough: Arch Seedbox Setup]]. There are some features I want to keep.
+
+Also substracting:
+
+Setup Clearnet Available Tor Socks5 Proxy:
+
+<<<
+```bash
+sudo pacman -S docker --noconfirm
+sudo systemctl enable docker
+sudo systemctl start docker
+
+sudo docker run -d --name tor_socks_proxy -p 0.0.0.0:42915:9150 peterdavehello/tor-socks-proxy:latest
+sudo docker stop tor_socks_proxy
+```
+
+Put the following in `/etc/systemd/system/torproxy.service`
+
+```
+[Unit]
+Description=Tor Socks Proxy Docker
+After=docker.service
+
+[Service]
+User=root
+Restart=always
+ExecStart=/usr/bin/docker start tor_socks_proxy
+ExecStop=/usr/bin/docker stop tor_socks_proxy
+
+[Install]
+WantedBy=local.target
+```
+
+```bash
+sudo systemctl enable torproxy.service
+sudo systemctl start torproxy.service
+
+# remote socks5 tor proxy test
+curl --socks5-hostname ks.philosopher.life:42915 ipinfo.io/ip
+# local socks5 tor proxy test
+curl --socks5-hostname 127.0.0.1:42915 ipinfo.io/ip
+```
+<<<

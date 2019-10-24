@@ -1,0 +1,34 @@
+created: 20181124173011709
+creator: h0p3
+modified: 20181125145044519
+modifier: h0p3
+tags: Sphygmus To Note
+title: 2018.11.24 - Sphygmus: Where's My Wiki?
+
+[[2018.11.23 - Sphygmus: Whoa, Dude]]
+
+(1)
+
+I am pleased that you noticed! You were the only person outside of my immediate family that did.
+
+I can mostly answer your question here: [[2018.11.23 - Computer Musings: TiddlyBackup Clusterfuck]]. I was pretty horrified when I realized that my work may have been lost. I touched about 150 tiddlers in that time frame.
+
+This is not the only time I have had to rescue lost or even purposely deleted work.
+
+(2)
+
+Woot for Linux! =) Why are you making the jump? It is a vortex!
+
+I adore Manjaro because it's so batteries loaded (I like Arch, but I'm too lazy for Arch<<ref "l">>). KDE is a powerful ecosystem;<<ref "k">> I would argue it is the most complete desktop environment available on linux, and it's very customizable. I think that's one of my favorite functional aspects of linux; I like tinkering and tailoring my digital home. I hope you love it. I'm interested to see how far you might go to tailor your system. You might even like ricing your system. If you keep a log of your exploration of it, I would like to see it one day. I like to look at screenshots too (blackout whatever is sensitive). I'd like to know how you feel and think about it.
+
+You might also consider hopping around distributions (though, I'm a Manjaro fanboi<<ref "n">>). I like to try them out in virtual machines for a while, though somehow that's really not the same as living in the environment.
+
+Ha, I'm glad you like the favicon. It was fun to make. [[j3d1h]] and I have been thinking about how to incorporate it into an ASCII art piece for [[Root]] or even as an animated replacement for the background of the wiki.
+
+
+---
+<<footnotes "l" "There is Antergos too. In any case, I like being able to walk up to a machine and have a working installation almost immediately with sane defaults.">>
+
+<<footnotes "k" "I still use KDE on a couple of devices, but I use i3 on [[monster-10]]. Yet on i3, I use KDE's Dolphin file manager. Even with only half the functionality, it's still better than every other GUI option.">>
+
+<<footnotes "n" "I also stand in awe of NixOS. I think that or something like it will change computing. It's above my paygrade.">>

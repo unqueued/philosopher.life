@@ -1,0 +1,25 @@
+created: 20180117205631993
+modified: 20180117214159470
+revision: 0
+title: Rust: Installation
+
+```bash
+#!/bin/bash
+
+curl -sf https://static.rust-lang.org/rustup.sh | sudo sh
+
+rustup install nightly
+rustup default stable
+
+rustup component add rls-preview
+rustup component add rust-analysis
+rustup component add rust-src
+
+cargo install racer
+cargo install clippy
+cargo install rustsym
+cargo install rustfmt
+cargo install ripgrep
+```
+
+Fucking rls blows. It's miles away from where it needs to be. Still, the idea is very interesting.

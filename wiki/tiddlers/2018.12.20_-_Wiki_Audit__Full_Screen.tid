@@ -1,0 +1,68 @@
+created: 20181220144832517
+modified: 20181221061124316
+tags: [[Computer Musings]] [[Wiki Audit]]
+title: 2018.12.20 - Wiki Audit: Full Screen
+
+With Bob's multi-tab superpower, I have stopped going full-screen. This feels like a huge change to me. Normally, I have this distraction-free environment that is hyper-{[[Focus]]}ed. I lose ~12% of the top portion of my screen, and it's noisy up there. 
+
+Currently, the "Wiki" workspace from top to bottom:
+
+# i3 status bar
+# i3 tabbed windows bar
+# FF tabs
+# FF omnibar, buttons, addons
+# FF bookmark bar
+# Le Wiki
+
+I'm pretty sure I need to download enough malware toolbars to bring that tree of toolbars down to at least halfway down on my screen. =) 
+
+I need to think about whether or not this is interrupting my flowstate too much. I really fucking hate the F11 fullscreen because it does that jump thing. Autists don't like surprises! I'm so lazy:
+
+https://support.mozilla.org/en-US/questions/1201225
+
+What I prefer about the F11 action is that I can rotate between tabs without having to constantly turn full screen on. Once ~~saved~~ full-screened, always ~~saved~~ full-screened. Alright, maybe I'll make this modification.
+
+---
+
+I am annoyed by that lack of solid search and replace features in TW. This is fucking insane. I cannot manage my text in an easy programmatic manner. For example, I want to tag those [[Prompted Introspection]]s containing:
+
+`!! Respond to the following:`
+
+with [[Antipleonasm Analysis]]. 
+
+I would much rather this tooling exist in the Wiki. I can do this somewhat easier in singlefile mode. I suppose the halfway measure here is xonshically answering this problem. We will get to that tooling. The ability to continue programmatically shaping this document with ease is something I must cultivate again and again.
+
+''Sphygmus has come to the rescue!'' -- [[Search Text or Title Tagger]]
+
+---
+
+It's not resilio sync! The race-condition/reversion just happened again. Ugh, the only options left are either the minutely script (I do not understand why that would be a problem) or Bob itself. I need to test (maybe rsync and then node build from the rsynced directory; I could also try and just time it by hand...if I come to Jed with this claim, I need to make sure I'm correct). Otherwise, this is a problem with Bob itself. I really need the race conditions to go away desperately. I need to test this, ugh. =( This a gamebreaking problem still.
+
+---
+
+[[The Remodeling]] has hit the origins of [[Wiki Audit]]. It's a wild fucking ride! Again and again I have not understood what I am doing. I cannot give up, of course. Even when I stand in awe of this absurdly ambitious project, sometimes I become metaphorically dizzy. I believe most people would think what I'm doing here is insane. I <3 you too, folks. =)
+
+In a weird way, this [[remodeling]] has become a sort of harvest to me. I put in so much fucking work into this wiki, and I'm now piecing it together into a more coherent whole. It's like I pushed out a bunch of brix (need le TP for muh bunghole), I've done the [[/b/]]ish thing that picked through them for the [[diamonds]] and [[redpills]] (including emergences), and built more beautiful structure out of it. It is moving to see the fruit of my labor; this really is my life. I'm reapin' it.
+
+---
+
+More Tiddlytool shaping. I still have dots to connect. I'm pleased to be bruteforce traversing my wiki. I would miss many of these things. ''I had another fuckup. Please write it down!''
+
+* [[Wiki Audit Log]]
+* [[Polymath Craftsman Log]]
+
+---
+
+My [[Log Audit]]s are partially inaccurate now that I'm tagging older material. It seems like these audits will need to be modified to include the others. Firmcoding and footnotes should get me there, I think.
+
+---
+
+It's odd that I've not had anything I felt should be [[Wiki Audit: Purged]]. Am I not being consistent here?
+
+---
+
+I had a massive crash. I lost ~250 tiddlers worth in [[Recent]]. I had the savetrail, thankfully. Bob, clearly, was fucking up for quite a while too; none of the singlefiles were even close. I couldn't import them all at once in FF, but it works in Chromium (haven't had a reversion yet either). And, as I inevitably find after using FF for a while, Chromium comes back to being the most performant browser. I've set it to be my browser for editing the wiki, but I'm keeping my identities on FF.
+
+Something else is wrong though. Check orphans, there are a ton `/home/h0p3/syncs/bob/Wikis/tiddlers` which went fucking crazy (IIRC, I attempted to tag these when it crashed). Welp, I set aside a copy of the daily backup of the tids. This would be a fine thing to programmatically solve. It turns out that I have the 0 byte .tids sitting in last modified. Maybe this will be [[1uxb0x]]'s first real assignment in python or bash? I don't know.
+
+This is a lossy enterprise, and I'm grateful to have the backups. I'm plumb skeered to use TiddlerTools now though, and I don't see a replacement. That will make [[The Remodeling]] considerably worse.

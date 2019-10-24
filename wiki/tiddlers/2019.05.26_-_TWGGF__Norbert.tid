@@ -1,0 +1,28 @@
+created: 20190526055823020
+modified: 20190526063940781
+tags: TWGGF
+title: 2019.05.26 - TWGGF: Norbert
+
+Hey Norbert,
+
+I've fired up an Ubuntu VM with you. I think the easiest way to use TW on Linux will be through the nodejs server. You can find instructions here: https://tiddlywiki.com/static/Installing%2520TiddlyWiki%2520on%2520Node.js.html
+
+Here's a quick and dirty way to do it in your terminal:
+
+```bash
+sudo apt install nodejs npm -y
+sudo npm install -g tiddlywiki
+mkdir wiki
+tiddlywiki wiki --init server
+tiddlywiki wiki --listen &
+```
+
+Head to 127.0.0.1:8080 in your browser (you can make lots of bookmarks into your wiki). 
+
+Run it at startup with crontab or Ubuntu's startup applications wizard (make sure to change USERNAME in the path):
+
+```bash
+@reboot /usr/local/bin/tiddlywiki /home/USERNAME/wiki --server
+```
+
+I strongly urge you to automatically and constantly backup your tiddlywiki files. 

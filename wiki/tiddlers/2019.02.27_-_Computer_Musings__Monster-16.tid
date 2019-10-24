@@ -1,0 +1,18 @@
+created: 20190227181604870
+modified: 20190227185211887
+tags: [[Computer Musings]]
+title: 2019.02.27 - Computer Musings: Monster-16
+
+Since black-wolf-2 is dead, and I've had to replace it. I decided the cheapest route is actually to hand monster-10 to my son and replace my GPU with his stronger card. My system is overkill for him, but that is okay. He will have fun gaming.
+
+I've bought a used server for $350 today (including shipping). Assuming everything works, it will be a significant downgrade in some respects and a huge upgrade in others.
+
+Hello, [[monster-16]].
+
+---
+
+How I kind of envision future computers:
+
+Single-threaded monster CPU, lots of lower end cores to handle the usual, FPGA for on the fly improvement, and then GPU for the lowest embarrassing tasks. (Technically, lots of turing complete devices nested already)
+
+Reminds me of Cache stages, RAM, SSD's, etc.

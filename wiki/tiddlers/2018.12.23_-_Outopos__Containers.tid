@@ -1,0 +1,22 @@
+created: 20181223164429949
+modified: 20181224031348143
+tags: Outopos
+title: 2018.12.23 - Outopos: Containers
+
+https://github.com/genuinetools/binctr
+
+Hm. `/squint` Is that you? It's not agnostic, but it might wrap the ecosystems nicely, I believe. The moment someone has to learn to use the clusterfuck of containerization options, our tool is dead. As usual, if you can't package a simple binary, you have a tool which only ~~curious~~ ~~enthusiasts~~ masochists will use.
+
+Singular and static linking.
+
+`Most importantly you need userns in your kernel (CONFIG_USER_NS=y) or else this won't even work.` Meh.
+
+Okay, I need to step back. The containerization of everything might be a mistake. It's not just a baremetal issue. Packaging containers that have any lifetime to them is not fun. Maybe with Nix you can build the script which builds these things though. I'm worried about yet another hurdle for upstream getting it down.
+
+Alright, I also don't know nearly enough about this space. I'm a noob, in fact. I still have to make guesses though. No progress is made without that exploration.
+
+Mobile dictates this ecosystem, particularly Android (and perhaps Fuschia, which we have waited forever for...might drop it too). It is possibly they could switch over to ChromeOS, and I would be thrilled with that (but that isn't my guess) If you cannot fit into that model, you will not have a universal tool. Google continues to push all ecosystems into using the browser as the universal terminal (which I'm not entirely opposed to, but they make moves which are immoral to do it [beyond their other insanity]).
+
+This almost settles it. It seems so convenient. Can we build [[Outopos]] in the browser exclusively? Chrome exerts ridiculous control. Do we bow before that control? Do we enable them to, with the flick of a switch, turn off a single necessary cog in our machine that destroys us? Indeed, we have a root access to our ecosystem to our enemies! Ugh. NO! NO NO NO NO! ''FUCK NO!'' -- The ability to play in the Chrome ecosystem must only ever be a convenience. The backbone cannot be there.
+
+What gives us maximum latitude on the hardware then? Is that even the right question?

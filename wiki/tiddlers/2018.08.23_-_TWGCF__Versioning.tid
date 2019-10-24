@@ -1,0 +1,35 @@
+created: 20180823171123111
+creator: h0p3
+modified: 20181219181841748
+modifier: h0p3
+tags: TWGGF
+title: 2018.08.23 - TWGCF: Versioning
+
+I believe I care a good deal about my versioning (it's part of what makes my wiki what it is, imho). It's fairly common for me to go back in time to see what the original tiddler or structures in my wiki were. Sometimes I have to recreate something, sometimes I'm making a comparison, and sometimes I'm just trying to better understand the story I'm telling myself in my wiki.
+
+I think there is too much in TW that can't be nicely versioned within TW itself. There are some problems which really are best handled in TW itself, but I'm not convinced versioning at large is one of them (that may just be a bias in how I use TW though). I think versioning is a kind of backup, and there are a lot of valuable ways to backup one's TW. Versioning other kinds of software I run on my system can be a lot more complicated, imho.
+
+Leveraging the fact that TW meaningfully and usably fits into a single file is really convenient, imho. Simultaneously using a number of versioning/backup systems for TW is one of its strengths in my eyes. I feel like versioning the entire TW solves my problems nicely (and, I specifically keep some versions of my tiddlers in my TW by hand to tell a story). I'm surprised this is considered a defect by others. I fear I am missing something important. 
+
+---
+
+I'm afraid I don't know what you mean. I'm going to assume I use both extra systems and solo methods?
+
+My wiki is practically my horcrux/personal talisman, so I'm pretty obsessed with making sure I don't lose it. I keep a lot of backups and redundancies. I don't know how to draw the lines for others. Let me just drive home how crazy and incompetent I am at the same time folks:
+
+I'm currently reworking my git, but git is one tool I use (I'll be using every git provider I can get my hands on). I also use dropbox (solid versioning which I've had to use a couple times), archive.org, resilio sync archives (my goto for when I oops in my own base), rsync cronjobs of my entire wiki directory (I have it just in case, but I've not needed it), a compressed daily snapshot collection (this is actually what I use for looking through old versions), the file-backups extension (quick way to solve plenty of snafus), and my system backups (haven't needed it for myself, but it has saved my family's butts many times). I also regularly make backups by hands onto thumbdrives which I distribute to family and friends when I travel.
+
+---
+
+Josiah got snippy. Perhaps I'm wrong about him?
+
+---
+
+Have I not been talking about versioning? I'm sorry if I'm mistaken or wasting your time.
+
+I currently have 265 different versions of my wiki from the past 5 days each saved on both resilio sync (across a couple boxes) and dropbox (I can go back much further if I need). I think of my daily snapshots as versions as well (I use them that way). I'm convinced I am relating my past edits to the present. Tell me a date and time to roll back to, and I can do that in seconds. Give me a string to search in my versions, and I can do that. I do aim to be able to replay the changes in my wiki over time. Some tools are incremental (delta/diff) and others full (each have their benefits).
+
+Perhaps your distinction is about an optimization problem I'm misunderstanding.
+
+Sincerely,
+- h0p3

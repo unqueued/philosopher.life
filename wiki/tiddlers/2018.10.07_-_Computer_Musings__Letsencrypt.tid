@@ -1,0 +1,71 @@
+created: 20181007130720549
+creator: h0p3
+modified: 20181029175224795
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.10.07 - Computer Musings: Letsencrypt
+
+This is almost comical. My ineptitude is loud and clear again. 
+
+Firefox was throwing up this error for me yesterday:
+
+<<<
+Peer’s Certificate has expired. HTTP Strict Transport Security: false HTTP Public Key Pinning: false
+<<<
+
+Could be just on my end, but 99% sure it isn't.
+
+I have no idea why I have so much trouble with letsencrypt; it's EZ mode, right? Every once'd in a while, something goes wrong with letsencrypt for me.
+
+certbot tells me it's not expired. Thus, I'm clearly missing something. Let's just do it all over again (and then again, and so on), that will fix it, right? Fuck me.
+
+```bash
+sudo certbot revoke --cert-path /etc/letsencrypt/archive/philosopher.life/cert1.pem
+sudo certbot revoke --cert-path /etc/letsencrypt/live/philosopher.life/web.pem
+sudo apt-get autoremove --purge certbot
+sudo apt-get install certbot
+```
+
+Can't pass letsencrypt test without temporarily killing the forced https lines in `/etc/lighttpd/lighttpd.conf`
+
+```
+$SERVER["socket"] == ":443" {
+ssl.engine = "enable"
+ssl.pemfile = "/etc/letsencrypt/live/philosopher.life/web.pem" # Combined Certificate
+ssl.ca-file = "/etc/letsencrypt/live/philosopher.life/chain.pem" # Root CA
+server.name = "philosopher.life" # Domain Name OR Virtual Host Name
+server.document-root = "/var/www/html" # Document Root
+server.errorlog = "/var/log/lighttpd/error.log"
+}
+
+$HTTP["scheme"] == "http" {
+$HTTP["host"] == "philosopher.life" { # HTTP URL
+url.redirect = ("/.*" => "https://philosopher.life$0") # Redirection HTTPS URL
+}
+}
+```
+
+```bash
+sudo certbot certonly --webroot -w /var/www/html -d philosopher.life -d www.philosopher.life
+sudo cat /etc/letsencrypt/live/philosopher.life/cert.pem /etc/letsencrypt/live/philosopher.life/privkey.pem > /etc/letsencrypt/live/philosopher.life/web.pem
+```
+
+Restore lighttpd.conf lines
+
+```bash
+sudo service lighttpd restart
+sudo certbot renew --dry-run
+sudo crontab -e
+```
+
+`6 1,13 * * * certbot renew --renew-hook "service lighttpd restart"`
+
+I'm missing something stupid obvious to someone who isn't a skiddie here. I predict a failure on 2019-01-05. For the giggles, I may just run this next time:
+
+```
+sudo cat /etc/letsencrypt/live/philosopher.life/cert.pem /etc/letsencrypt/live/philosopher.life/privkey.pem > /etc/letsencrypt/live/philosopher.life/web.pem
+```
+
+I could just write the script to completely rekey every 3 months. Ah, my insanity. The Rube Goldberg Computing life. 
+
+Also, I should consider moving away from lighttpd. 

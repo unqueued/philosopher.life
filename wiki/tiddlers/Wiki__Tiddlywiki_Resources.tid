@@ -1,0 +1,80 @@
+created: 20170924123307039
+creator: h0p3
+modified: 20190705052909449
+modifier: h0p3
+revision: 0
+tags: [[Program Yourself]] Wiki
+title: Wiki: Tiddlywiki Resources
+
+!! About:
+
+Sometimes I've searched for something before, or I've run across something interesting, or I've found a treasure trove. When I find a pot of resources for or about Tiddlywiki, I should document them. This is that catalog.
+
+---
+!! Principles:
+
+* Even if you don't need it now, do you reasonably suspect you might need it some day?
+* Was it hard to find? Would you rather not have to search for it again?
+* Does it give you ideas?
+* Does it have tools?
+
+---
+!! Focus:
+
+* Treasure Troves
+** https://dynalist.io/d/zUP-nIWu2FFoXH-oM7L7d9DM
+
+
+* Keyboard Navigation
+** http://keeboord.tiddlyspot.com/
+
+* Addons:
+** http://bjtools.tiddlyspot.com/
+** https://www.reddit.com/r/TiddlyWiki5/wiki/pluginsandresources?v=2631c80e-be99-11e6-8d01-1210657e6c26
+** http://www.tiddlytools.com/
+** http://tongerner.tiddlyspot.com/
+** http://www.checkettsweb.com/oldindex.html
+** http://tw5topleft.tiddlyspot.com/
+** https://github.com/felixhayashi/TW5-TiddlyMap
+** http://rumkin.com/tools/tiddlywiki/#SortableGridPlugin
+** http://rumkin.com/tools/tiddlywiki/#WhatLinksHerePlugin
+** https://github.com/welford/twexe
+** http://mathcell.tiddlyspot.com/
+** http://inmysocks.tiddlyspot.com/#Change%20Log
+** http://gwiz.tiddlyspot.com
+** http://tiddlystuff.tiddlyspot.com/
+** http://ooktech.com/jed/ExampleWikis/TriggerActions/
+** https://tobibeer.github.io/tw5-plugins/#background-1
+** http://tw5topleft.tiddlyspot.com/
+
+* Automation
+** https://github.com/ng110/TiddlPy
+** http://filetotid.tiddlyspot.com/
+** https://github.com/OokTech/TW5-Gatekeeper
+
+* Official
+** http://tiddlywiki.com/upgrade.html
+
+* Resources:
+** https://tiddlywikitips.com/
+** http://softwareas.com/tiddlywiki-internals-1-of-3-architectural-concepts/
+
+* Hosting
+** https://github.com/danielo515/TW5-auto-publish2gh-pages
+
+* News, Forums, Communities
+** https://groups.google.com/forum/#!forum/tiddlywiki
+
+---
+!! Vault:
+
+* (*crickets)
+
+
+---
+!! Dreams:
+
+* Eventually implement this:
+** https://wikilabs.github.io/editions/uni-link/
+*** So "Maxim, Maxims, maxim, and maxims" all point to "Maxim"
+

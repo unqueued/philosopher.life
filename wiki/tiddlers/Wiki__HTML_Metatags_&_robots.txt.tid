@@ -1,0 +1,30 @@
+created: 20190710185556245
+modified: 20190710193917605
+tags: [[Wiki: Tiddlers of Note]] $:/tags/RawMarkup
+title: Wiki: HTML Metatags & robots.txt
+type: text/plain
+
+<meta name="robots" content="nofollow">
+<meta name="googlebot" content="noindex">
+
+<meta name="le-robots.txt reprint" content='Never forgetti: ✈ ▌▌
+
+############################################################################
+##                                                        ,...  ,...      ##
+##   `7MM"""YMM                 `7MM                    .d` "".d` "" OO   ##
+##     MM    `7                   MM                    dM`   dM`    88   ##
+##     MM   d `7MM  `7MM  ,p6"bo  MM  ,MP`     ,pW"Wq. mMMmm mMMmm   ||   ##
+##     MM""MM   MM    MM 6M`  OO  MM ;Y       6W`   `Wb MM    MM     ||   ##
+##     MM   Y   MM    MM 8M       MM;Mm       8M     M8 MM    MM     ``   ##
+##     MM       MM    MM YM.    , MM `Mb.     YA.   ,A9 MM    MM     ,,   ##
+##   .JMML.     `Mbod"YML.YMbmd`.JMML. YA.     `Ybmd9`.JMML..JMML.   db   ##
+##                                                                        ##
+##robots.txt################################################################
+
+User-agent: *
+Disallow: /
+Noindex: /
+
+# Except you, WBM...you`re cool.
+User-agent: ia_archiver
+Allow: /' />

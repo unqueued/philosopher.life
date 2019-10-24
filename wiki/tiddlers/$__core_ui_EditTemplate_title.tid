@@ -1,0 +1,63 @@
+created: 20190221165348846
+modified: 20190221170516735
+tags: $:/tags/EditTemplate
+title: $:/core/ui/EditTemplate/title
+
+<$edit-text field="draft.title" class="tc-titlebar tc-edit-texteditor" focus="true" tabindex={{$:/config/EditTabindex}} cancelPopups={{$:/config/EditCancelPopups}} refreshTiddler="$:/HistoryList" refreshCondition={{{ [[$:/HistoryList]get[current-tiddler]removeprefix<currentTiddler>suffix[]addprefix[true]] ~[[false]] }}} refreshAction="focus-scrollto"/>
+
+<$vars pattern="""[\|\[\]{}]""" bad-chars="""`| [ ] { }`""">
+
+<$list filter="[all[current]regexp:draft.title<pattern>]" variable="listItem">
+
+<div class="tc-message-box">
+
+{{$:/core/images/warning}} {{$:/language/EditTemplate/Title/BadCharacterWarning}}
+
+</div>
+
+</$list>
+
+</$vars>
+
+<$reveal state="!!draft.title" type="nomatch" text={{!!draft.of}} tag="div">
+
+<$list filter="[{!!draft.title}!is[missing]]" variable="listItem">
+
+<div class="tc-message-box">
+
+{{$:/core/images/warning}} {{$:/language/EditTemplate/Title/Exists/Prompt}}
+
+</div>
+
+</$list>
+
+<$list filter="[{!!draft.of}!is[missing]]" variable="listItem">
+
+<$vars fromTitle={{!!draft.of}} toTitle={{!!draft.title}}>
+
+<$checkbox tiddler="$:/config/RelinkOnRename" field="text" checked="yes" unchecked="no" default="no"> {{$:/language/EditTemplate/Title/Relink/Prompt}}</$checkbox>
+
+<$vars stateTiddler=<<qualify "$:/state/edit/references">> >
+
+<$reveal type="nomatch" state=<<stateTiddler>> text="show">
+<$button set=<<stateTiddler>> setTo="show" class="tc-btn-invisible">{{$:/core/images/right-arrow}} 
+<<lingo EditTemplate/Title/References/Prompt>></$button>
+</$reveal>
+<$reveal type="match" state=<<stateTiddler>> text="show">
+<$button set=<<stateTiddler>> setTo="hide" class="tc-btn-invisible">{{$:/core/images/down-arrow}} 
+<<lingo EditTemplate/Title/References/Prompt>></$button>
+</$reveal>
+
+<$reveal type="match" state=<<stateTiddler>> text="show">
+<$tiddler tiddler=<<fromTitle>> >
+<$transclude tiddler="$:/core/ui/TiddlerInfo/References"/>
+</$tiddler>
+</$reveal>
+
+</$vars>
+
+</$vars>
+
+</$list>
+
+</$reveal>

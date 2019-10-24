@@ -1,0 +1,68 @@
+created: 20170910164946531
+modified: 20181115190624889
+modifier: h0p3
+revision: 0
+tags: Retired
+title: 2017.09.10 - Retired: Cryptographic Verification
+
+Official distributions of h0p3's Wiki include checksum and signatures files for verifying the integrity and authenticity of your copy. These verification files are updated for every published edit (nearly real-time). With these files (and the right tools), you will be able to cryptographically verify the entire wiki, which is contained in a single html file (index.html). Let's hope this is never directly useful to us.
+
+I previously used PGP (GnuPG as my last tool) to sign this wiki.<<ref "1">> PGP has to be one of the worst "best in class" toolsets I've ever used. I hate the software ecosystem, its unusability and incompatibility, as well as its poor logistics and social design. I've wasted far too many hours over almost two decades on that piece of shit. I'm moving on. 
+
+Instead, I'm cutting out the middleman (fuck you, PGP) and more directly using the crypto library I actually trust. I now generate signatures through [[PyNaCL|https://github.com/pyca/pynacl]], a gorgeous binding to the state of the art [[NaCL|https://nacl.cr.yp.to/]] crypto library (imho, we are rapidly moving into a cryptographic monoculture relying exclusively on the NaCL algorithms).<<ref "2">> I believe my key will be useful until quantum computing becomes feasible.<<ref"3">> When PGP is actually functioning, it buys the same verification as my process (they use the exact same library). The difference is that my process is literally programmable in every major language. It's hilariously easier than PGP. You can even verify it by hand if you want to.
+
+This wiki's public Ed25519 signature verification key:
+
+```
+5249578e4cdfaec1484f0083df3e8b6e4af0cab0288c8156c31d6e94efe58308
+```
+
+Here's how to verify the authenticity and integrity of this wiki:
+
+If you don't already have them, download all three files (<a href="index.html.sum">index.html.sum</a>, <a href="index.html.sig">index.html.sig</a>, and <a href="index.html">index.html</a>). 
+
+Use the Ed25519 signature (index.html.sig)  to verify the authenticity of the checksum file (index.html.sum).
+
+You can either find/write your own tool or use mine to verify the signature. Run this script (don't forget to first install [[PyNaCL|https://github.com/pyca/pynacl]]; pip is easiest) in the same directory as the three files you downloaded.
+
+```
+#!/usr/bin/python3
+
+import nacl.encoding
+import nacl.signing
+import binascii
+
+# The verification "public" key
+verify_key_hex = "5249578e4cdfaec1484f0083df3e8b6e4af0cab0288c8156c31d6e94efe58308"
+verify_key = nacl.signing.VerifyKey(verify_key_hex, encoder=nacl.encoding.HexEncoder)
+
+# Read sig file
+with open('index.html.sig', 'r') as myfile:
+    data=myfile.read().replace('\n', '')
+signed = binascii.unhexlify(data)
+
+# Check the validity of the signature
+# Will raise nacl.exceptions.BadSignatureError if the signature check fails
+try:
+    verify_key.verify(signed)
+    print("Signature Verified")
+except:
+    print("Signature Verification Failed")
+
+```
+
+Next, use the SHA-512 checksum file (index.html.sum) to verify the integrity of the index.html file. I suggest [[sha512sum|https://en.wikipedia.org/wiki/Sha1sum]], [[hashfile|https://pypi.python.org/pypi/hashfile]], or [[Hashtab|http://implbits.com/products/hashtab/]]. Use hashfile like this:
+
+```
+hashfile -c index.html.sum
+```
+
+Assuming you've already authenticated the checksum file, if the hash of index.html matches the hash found in index.html.sum (or if your hashing tool verifies they match for you), then you know your index.html file hasn't been tampered with by a third-party. To be clear, if you trust the signature verification of the checksum, and you trust the checksum of index.html (if the hashes match, you'd be crazy not to trust this part), then you trust index.html. Thus, your authenticity+integrity verification demonstrates you possess a bit-for-bit copy of the original signed by someone who possesses this wiki's private signing key.
+
+-------------------------
+
+<<footnotes "1" "You can find the old verification wikipage here: [[Retired: 2017.01.14 - Cryptographic Verification]]">>
+
+<<footnotes "2" "I am aware of that maxim: Don't roll your own crypto. This maxim can be applied at different levels in the cryptography process. While I openly admit my shallow understanding of cryptography, I remain convinced this is a safe exception to that maxim.">>
+
+<<footnotes "3" "Not that it would ever matter in this case, but I'm not naive enough to think rubber-hose cryptanalysis isn't the first step a state-actor would use against me. Regardless, I still think cryptography is immensely useful to us.">>

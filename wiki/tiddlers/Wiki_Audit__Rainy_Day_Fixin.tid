@@ -1,0 +1,38 @@
+created: 20181212042309957
+modified: 20190705180940417
+tags: [[Wiki Audit]] Dreams
+title: Wiki Audit: Rainy Day Fixin
+
+* All the `/emote`'s
+* Make code and ASCII art not look like garbage 
+* Go back through my [[audit]]s to find all my [[Wiki Audit: Rainy Day Fixin]].
+** You lazy sumbitch.
+* Orphans
+* Missing Links
+** Oh, god.
+** [[Sphygmus]] points out that [[Alias]]es count as missing links. Perhaps I will need to eliminate aliases from the list.
+* Remove images (ASCIIification when I can).
+** All-in-one.
+* Body-text-to-tag (sane, controllable, etc.)
+* Per directory button structures. I want to be able to define the buttons in the top right corner per tiddler, and I want to be able to customize the functions of those buttons.
+* Creating links automatically (or make it much easier to do manually) for known words. Retroactively add linking.
+* Cleanup/delete drafts
+* ~~Tag `!! Respond to the following:` of [[Prompted Introspection]] with [[Antipleonasm Analysis]]~~
+** [[Sphygmus]] is a bawss.
+* Link All Titles of Books/Videos/etc. that exist in the wiki, otherwise just italicize?
+* Check for tiddlers with zero tags
+** That should almost never happen
+* [[hlexicon]] substitutions (going to require searching)
+* Don't forget to firmcode the old [[Log Audit]]s to take into account newly tagged old content that will need to be audited (with footnotes, eh?)
+* Matrixrain and/or JYU pattern within [[Root]]'s [[Text Art]].
+
+* Ancient:
+** Import relevant bookmark work
+** Import relevant Reddit work
+** Interpret Less Wrong
+** Interpret Daoism
+** Interpret https://meaningness.com/
+** Interpret The Stack
+** Interpret XKCD and SMBC
+** Interpret http://tvtropes.org
+** Evaluate other Internet Rabbit Holes

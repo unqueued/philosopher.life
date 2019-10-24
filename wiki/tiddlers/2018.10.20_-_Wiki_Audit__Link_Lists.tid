@@ -1,0 +1,43 @@
+created: 20181020165856039
+creator: h0p3
+modified: 20181021041926935
+modifier: h0p3
+tags: [[Wiki Audit]]
+title: 2018.10.20 - Wiki Audit: Link Lists
+
+Thanks to my daughter:
+
+```
+<$set name="mydate" value=<<now YYYY.0MM.>>>
+<<list-links "[tag[Tag]prefix<mydate>]">>
+</$set>
+```
+
+---
+
+$:/plugins/inmysocks/TiddlerTool isn't quite operational. I've had to tinker with it to make it work. Hardcoded 1000 results in both batch and results (instead of 100). This tool lags super fucking hard on this wiki (even at 100).
+
+I'm blowing [[Recent]] up, lol.
+
+Lots of tagging and lots of list-link automation.
+
+---
+
+The [[Core Daily Requirement]] is going to be automated. Audits will be hard-coded. I need to work on automating hard-coding for audits and in the primary directories. I also want an All-In-One button for this as [[Sphygmus]] demonstrated was possible. I have a couple thoughts on how to do this. It's getting closer (despite the fact that I'm making a mess).
+
+---
+
+Asked daughter for list-links:
+
+* Everything with Tag with "YYYY.MM.DD - titleTag"
+* Everything with Tag without "YYYY.MM.DD - titleTag"
+
+---
+
+Trying to add two more search functions:
+
+* $:/plugins/hoelzro/full-text-search
+** $:/plugins/hoelzro/progress-bar (prereq)
+** index built per session
+* $:/plugins/TheDiveO/TwFusejs
+** This looks really good, but I think it's not going to work.

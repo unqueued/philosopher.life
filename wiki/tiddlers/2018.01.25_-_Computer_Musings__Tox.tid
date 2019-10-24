@@ -1,0 +1,19 @@
+created: 20180126034623174
+modified: 20190323160524578
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.01.25 - Computer Musings: Tox
+
+Git is pushing again, but it still isn't doing the .tid folder. Thank you, [[j3d1h]]. 
+
+---
+
+I do not understand why the toxic.conf isn't actually working. Autolog is my preference.
+
+---
+
+Also, I had a giant clusterfuck with NPM tiddlywiki today. I almost lost everything, except 5 layers of backups and two forms of versioning that caught it. That software is not to be trusted. It does not work as advertised.
+
+I switched over back to index.html work from Chromium. I'll find a way to ensure this doesn't fail later on.
+
+I inserted the .tid files by hand. Fuck it. It is what it is. Fixing this fuckup took 2 of my primetime night hours away. That sucks. Welp, it is what is it!

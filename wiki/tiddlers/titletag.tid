@@ -1,0 +1,13 @@
+aliases: [[Titletag]] [[title.tag]] [[title.Tag]] [[TitleTag]] [[Titletagged]] [[titletagged]] [[Titletags]] [[titletags]] [[titleTags]]
+created: 20181011012839185
+creator: h0p3
+modified: 20181220165623131
+modifier: h0p3
+tags: hlexicon [[Wiki Mechanic]]
+title: titletag
+
+//See: [[hlexicon]]//
+
+---
+
+titletag := the historical archiving tag embedded in a tiddler's title,  e.g. `YYYY.MM.DD - titletag: title.Title`

@@ -1,0 +1,46 @@
+created: 20180804191527950
+creator: h0p3
+modified: 20180804215016286
+modifier: h0p3
+tags: 
+title: sanitize-clipboard.xsh
+
+```python
+#!/usr/bin/xonsh
+
+# Call it "Sanitized Paste" if you want.
+# mod+Ctrl+q
+
+# Clipboard cleansing i3-able script. I need to easily remove certain words from bodies of text with a commandline. I want to do this in my clipboard. It's important that I have a ridiculously easy time safely moving text into this wiki.
+
+import pyperclip
+import sys
+import re
+
+# Perhaps should make this dictionary a file itself...
+# Dictionary for replacement...  'Nono-phrase':'Replacement-phrase'
+Nonos = {
+    'foo':'bar',
+    'ass':'titties',
+    'asdf':'fdsa'
+}
+
+# Slurp it in
+try: # Parse text from command line argument
+    text = sys.argv[1]
+except: # Parse text from clipboard
+    text = pyperclip.paste()
+
+### Do teh sex.
+# For phrases embedded anywhere in text
+pattern = re.compile('|'.join(Nonos.keys()))
+# For whole words
+#pattern = re.compile(r'\b(' + '|'.join(Nonos.keys()) + r')\b')
+clipboard = pattern.sub(lambda x: Nonos[x.group()], text)
+
+# Load it into your clipboard
+pyperclip.copy(clipboard)
+spam = pyperclip.paste() 
+# Paste that bitch from hotkey
+xdotool key --clearmodifiers ctrl+v
+```

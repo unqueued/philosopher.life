@@ -1,0 +1,11 @@
+created: 20171210205031505
+modified: 20171210205131487
+revision: 0
+title: Tiddlywiki Howto: Regex Search
+
+* Open the $:/AdvancedSearch panel (click the magnifying glass icon next to the regular sidebar search input field)
+** In $:/AdvancedSearch, switch to the "Filter" tab
+* To search titles, enter your search syntax like this:
+** `[regexp[your phrase here]]`
+* To search tiddler text, enter your search like this:
+** `[regexp:text[your phrase here]]`

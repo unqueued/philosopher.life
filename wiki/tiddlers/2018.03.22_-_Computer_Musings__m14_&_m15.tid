@@ -1,0 +1,11 @@
+created: 20180322193518146
+modified: 20181029175224783
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.03.22 - Computer Musings: m14 & m15
+
+I'm working on making m14 something I enjoy using, and m15 is getting and OS refresh from GalliumOS to Manjaro XFCE. Having a seriously hard time getting a USB that fully works (I've pulled all the normal methods out, and I'm even trying for ghetto hacks like USB Passthrough to VM).
+
+Tried isohybrid out. Gave an error message, but it did write it. Tried it out, and it gave me a kernel panic (but a step closer).
+
+SUSE Studio Imagewriter is outstanding! It did it. Also, checksum didn't show up correctly. That helped fix the problem as well.

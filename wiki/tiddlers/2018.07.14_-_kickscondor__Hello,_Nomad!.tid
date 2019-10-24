@@ -1,0 +1,90 @@
+created: 20180714205925804
+creator: h0p3
+modified: 20181106232007885
+modifier: h0p3
+tags: kickscondor Letter To
+title: 2018.07.14 - kickscondor: Hello, Nomad!
+
+```
+                                                        ,,                                                             ,,                  
+`7MM"""Yb.                                  `7MM        db        `7MM                                               `7MM                  
+  MM    `Yb.                                  MM                    MM                                                 MM                  
+  MM     `Mb  .gP"Ya   ,6"Yb.  `7Mb,od8       MM  ,MP'`7MM  ,p6"bo  MM  ,MP',pP"Ybd  ,p6"bo   ,pW"Wq.`7MMpMMMb.   ,M""bMM  ,pW"Wq.`7Mb,od8 
+  MM      MM ,M'   Yb 8)   MM    MM' "'       MM ;Y     MM 6M'  OO  MM ;Y   8I   `" 6M'  OO  6W'   `Wb MM    MM ,AP    MM 6W'   `Wb MM' "' 
+  MM     ,MP 8M""""""  ,pm9MM    MM           MM;Mm     MM 8M       MM;Mm   `YMMMa. 8M       8M     M8 MM    MM 8MI    MM 8M     M8 MM     
+  MM    ,dP' YM.    , 8M   MM    MM           MM `Mb.   MM YM.    , MM `Mb. L.   I8 YM.    , YA.   ,A9 MM    MM `Mb    MM YA.   ,A9 MM    ,, 
+.JMMmmmdP'    `Mbmmd' `Moo9^Yo..JMML.       .JMML. YA..JMML.YMbmd'.JMML. YA.M9mmmP'  YMbmd'   `Ybmd9'.JMML  JMML.`Wbmd"MML.`Ybmd9'.JMML.  dg 
+                                                                                                                                          ,j 
+                                                                                                                                         ,'  
+
+```
+
+I enjoyed your article (https://www.kickscondor.com/2018/07/02/things-we-left-in-the-old-web/). In my case, you're preachin' to the choir.
+
+The //cosmopolitan empire// isn't terribly cosmopolitan. It's not good for communities in general, at least not insofar as they aren't economically or politically exploitable.
+
+<<<
+It gets lonely out here and I’m talking to myself again.
+<<<
+
+I know the feeling. If it matters, I'm listening.
+
+<<<
+This might be reaching: I think an actual home—a blog or a home page—gave people time to represent themselves.
+<<<
+
+It's important to form accurate representations of yourself even if only for yourself. To do it in public is morally valuable because deconstructing and constructing yourself out in the open casts some sunlight on the process (keeping us out of temptation, in some cases). 
+
+I like that other people can get a very palpable view of who I am through my site (if they wish to invest the time). If you really want to know who I am, you can know (it's been a very useful tool in my life). 
+
+Ultimately, representing ourselves in the grand dialectic, in [[The Original Position]], is about making sure we are autonomous in at least political, technological, and moral dimensions. We have to learn to be ourselves with each other using The Golden Rule as effectively as possible (the world depends upon it).
+
+<<<
+At first I thought these were very odd. Reading some one’s comment on your blog from their web page seemed… a mess. But, after tinkering for a bit, I’m sold! In practice, the blogs are forced to clean things up if they want to participate.
+<<<
+
+I am sold on it myself. I know I can communicate who I am, what I'm thinking, etc. with very low friction on my own medium-turf. My message integrates well into my identity when I use my own tools. 
+
+I read several of my family's wikis (cheaply not public with a p2p tools like Resilio Sync),<<ref "r">> and sometimes we respond to each other through out wikis. It can be much easier for me to explain myself within my own world/toolset.
+
+I'm actually hunting for others engaged in a similar practice. You mention me [[here|https://www.kickscondor.com/linkto/]]. You went looking for more, and I'm on a similar hunt as an extension of my [[Find The Others]] axiom. 
+
+I'm curious to see if webmentions is something that will work with Tiddlywiki. I'm not sure if it is ultimately the process I'm looking for. It reminds me of Google Alerts in some respects. This issue is a complex one, and decentralizing it (even to the federated rather than p2p level) isn't easy. Those in power aren't going to help us build meaningful relationships which they can't exploit (be it directly or indirectly), and so it's up to the indie web to do it. I hope the little guys win.
+
+<<<
+Dat transmits your blog from your actual home. We all want decentralized, right? I don’t think we need to be peer-to-peer to be decentralized. However, I’m impressed at the robustness of this network—and the quality of the Beaker Browser.
+<<<
+
+Impressive, but not primetime ready. If you don't serve it over the actual web, it doesn't matter (except to people like us). Dat protocol FF-integration may push it further (if Chrome goes that direction, as with WASM, then it may actually go somewhere). I have [[hope]]. I think we have to decentralize as hard as we can because I think that's at the very core of Leftism, of the workers owning the means of production: decentralize power. There are some functions which definitionally cannot be efficiently p2p decentralized, of course.
+
+<<<
+Static sites still seem pretty crucial. The hosting fees are low. You can handle high traffic in spurts. And you can publish anywhere without needing to set up a bunch of software. So much innovation could still happen here!
+<<<
+
+I've thought about the move many times myself. One day I may move that direction with the public facing side of this wiki. 
+
+<<<
+Why am I not excited by Mastodon? Or Secure Scuttlebutt? Or micro.blog?
+
+These seem like great projects. My main issue with them is that everything posted is, once again, reduced to gray and white with a bit o’ blue. (In Mastodon’s case, invert those colors.) They address decentralization, but not the other bits.
+
+Now, just let me know you’re out there. If I link to you and you link to me, that’s a pretty good start I’d say.
+<<<
+
+Decentralization has to happen at a hardware level. I'm not convinced it will occur, but I think most people are content being frogs boiled alive. 
+
+I have some other questions/thoughts looking over your identity online:
+
+* How's the life of being a teacher?
+** I think it is a very noble pursuit, btw.
+* I very much appreciate your criticism of the web, our digital social interactions with each other in significant ways, as "a move away from custom design, the lack of a 'home page' feeling, and the hostility toward self-promotion." I admire your honest pursuit of the indieweb, which is what owning ourselves, our relationships, and our communities requires.
+* What are some things you're glad to have built (whether from the learning experience or the raw utility of the object) with microchips/SoCs/ microcontroller-motherboards, etc.?
+* I won't be checking the twitter account (made it literally just to send the message to you). {[[Contact]]} has my information, and I'll be looking at your site as well.
+
+Sincerely,
+
+[[h0p3]]
+
+
+---
+<<footnotes "r" "I realize who owns it, that it isn't FOSS, etc. There is no competition. The only competitor coming is IPFS (which has grander ambitions), but it is lightyears behind the performance of this specialized tool.">>

@@ -1,0 +1,50 @@
+created: 20180505202757313
+modified: 20181030025310852
+modifier: h0p3
+tags: Hidden
+title: Hidden: iGodnet
+
+Meh, trash
+
+* Me
+** [Whonix Workstation:  Ratox/tuntox/Tahoe-LAFS/etc.] -> [Whonix Gateway: Tor] -> [Custom VM Gateway using VPN client] -> [Neighbors Wi-fi]<<ref "1">> -> [Clearnet: Monero/Zcash VPN Server] -> [Tor Network] -> [i2p Network] -> [God]
+
+* God
+** ??
+
+* Angels
+** Angel nodes are long-term, high performance, high uptime, highly secure computers used as the federated C&C servers of shards
+*** Includes Blackdropped and SwitchBladed servers I've personally setup
+**** Bruteforced reconnections
+**** No digital or physical fingerprints
+** Each node has tripwires
+** Angels are where information trickles up into a dead-drop to be collected by God
+** Uses Ratox/tuntox/Tahoe-LAFS/etc. over i2pd to connect with God and Kings
+
+* Kings
+** Kings are disposable high performance boxes where uptime is irrelevant
+** Uses Ratox/tuntox/Tahoe-LAFS/etc. over i2pd to connect with Angels
+** Ratox/tuntox over clearnet
+** Used to direct connect over clearnet to Plebs
+** Used to publicly post on clearnet forums/mail/pastebins/etc.
+** 
+
+* Plebs
+** Incapable of Ratox/tuntox
+** Receives direct connect or publicly posted control
+
+Tools:
+
+* [[Tahoe-LAFS]]
+* [[Ratox]]
+* [[Tuntox]]
+* [[i2pd]]
+
+Ideas:
+
+* Simplify/Automate this with NixOS as well.
+* Imunes testing facility
+* Tahoe-LAFS
+
+---
+<<ref "1" "Ham Radio, physical mesh networks, and local blackdrops could go even further. Paranoia.">>

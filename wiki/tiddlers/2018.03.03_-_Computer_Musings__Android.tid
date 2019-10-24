@@ -1,0 +1,17 @@
+created: 20180303215316546
+modified: 20181029175224781
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.03.03 - Computer Musings: Android
+
+I've tried several Android emulators. I preferred to try the no-no's of emulating inside a VM first for maximum control, but that is a no go. I've settled on GenyMotion. It's okay. I've crashed it a couple times already playing around with clicker games and android-based automation.
+
+---
+
+Setup more specific autoremove rules in deluge. Let's see if it plays correctly over the next 2 weeks.
+
+---
+
+[[Web Traffic Obfuscation]]:
+
+{{Web Traffic Obfuscation}}

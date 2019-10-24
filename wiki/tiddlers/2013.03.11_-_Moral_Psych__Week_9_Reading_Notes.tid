@@ -1,0 +1,164 @@
+created: 20180518132401707
+creator: h0p3
+modified: 20181031035931166
+modifier: h0p3
+tags: Tulane
+title: 2013.03.11 - Moral Psych: Week 9 Reading Notes
+
+Nichols – Mindreading & Batson
+
+Affect system, “Concern Mechanism,” which is minimal capacity for mindreading; minimal being the attribution of distress to another.
+
+Mind-reading: attributing mental states to others and predicting others’ behavior
+
+What is the relationship between mindreading and altruistic motivation?
+
+Nichols argues that a sophisticated mindreading capacity is not necessary for altruistic motivation.
+
+
+
+One might argue there is no mindreading. But, this doesn’t make sense of why people don’t just ‘leave’ the situation and instead try to help. This is a dumb argument though, as that isn’t altruism at all, right?
+
+
+
+
+
+On the categoricity of child suffering: Thailand, it is commonly asserted that orphan children deserve to suffer because it is their Karma. People will feed dogs before they feed orphan children.
+
+
+
+Emotional Contagion View
+
+“when we ‘catch’ another’s affect. Some capacity for emotional contagion is present at birth as evidenced by the fact that infants will cry when they hear the cries of another infant (Simner, 1971). The capacity for emotional contagion thus does not require the capacity for perspective taking.”
+
+
+
+Altruistic Sympathy
+
+Sympathy is a special form of empathy, and it doesn’t require mindreading.
+
+
+
+Perspective Taking accounts of altruistic motiviation:
+
+“First, the agent determines the beliefs and desires of the person in distress. Then the agent pretends to have those beliefs and desires. These pretend-states are then operated on automatically, leading to affective states that are similar to the target’s state, i.e., distress. These unpleasant affective states then motivate the agent to eliminate the problem at its source, viz., the other person’s distress.”
+
+
+
+Explain altruistic motivation is very young children. They are too young for perspective taking, a robust kind of mindreading, but not too young for minimal mindreading.
+
+
+
+The Concern Mechanism
+
+Functional mechanism; input (presentation that attribute distress), output (affect that motivates altruistic behavior).
+
+Makes sense of children and autistic individuals, even though these groups lack perspective taking.
+
+
+
+Blair – Empathy, Responding to the emotions of others
+
+Argues against unitary empathy process. Blair dissociates 3 divisions of empathy: cognitive (theory of mind), motor, and emotional. 2 kinds of empathic dysfunction: autism and psychopathy. Autistic individuals lack in cognitive and motor, but not emotional. Psychopaths lack a specific form of emotional empathy, but are not impaired otherwise.
+
+Cognitive (theory of mind) empathy:
+
+The ability to represent the mental states of others (thought, desires, beliefs, intentions, and knowledge). Might be necessary for emotional empathy (although, it isn’t clear how autists work then).
+
+Motor Empathy and the perception-action model:
+
+The tendency to automatically mimic and synchronize facial expressions, vocalizations, postures, and movements with those of another person. Primitive sympathy, mirror neurons.
+
+Emotion empathy:
+
+Affects probabilities of behaviors
+
+---
+
+
+
+Altruism among non-human animals is restricted to kinship. Amongst humans, even strangers will often demonstrate reciprocal altruism. Reciprocal altruism is still based upon long-term self-interest.
+
+Behavioral, rather than psychological, altruism is examined.
+
+“Wewill show that the interaction between selfish and strongly recipro-cal individuals is essential for understanding of human cooperation.We identify conditions under which selfish individuals trigger thebreakdown of cooperation, and conditions under which stronglyreciprocal individuals have the power to ensure widespreadcooperation. Next we discuss the limits of human altruism thatarise from the costs of altruistic acts. Finally, we discuss theevolutionary origins of the different forms of human altruism. Weare particularly interested in whether current evolutionary modelscan explain why humans, but not other animals, exhibit large-scalecooperation among genetically unrelated individuals, and to whatextent the evidence supports the key aspects of these models.”
+
+Altruistic punishment; Ultimatum games, paying a cost to prevent unfair outcomes.
+
+The ultimatum games seems very simple. I wonder if that is a problem.
+
+Trust/Trustee, works even at very high stakes. Public goods experiments, however, devolve over repeated gameplay (10 rounds or more). Selfishness breaks down cooperation – altruists are disappointed.
+
+Just because we are selfish doesn’t mean we have to be, right?
+
+2-person tit-for-tat strategies work, n-person prisoner’s dilemmas don’t lead to cooperation
+
+How do we map reputations and what they do?
+
+---
+
+ Notes from Loewenstein’s Lecture
+
+
+(A significant portion of this is taken straight from the lecture. Unfortunately, I don’t know which words are mine and which are his. All credit obviously goes to Loewenstein. I’m simply trying to demonstrate that I paid attention and took notes).
+
+
+At first, people thought emotion was just arousal plus cognitive labeling. Until fairly recently, we lacked the neural signatures of these emotions. Loewenstein looked for these signatures. He recruited 10 actors trained to self-induce nine emotional states: anger, disgust, envy, fear, happiness, lust, pride, sadness, shame (with calm being the baseline). Machine learning algorithms sifted through fMRI scans of these actors. The machine output a ranked list of emotions which count as the guess of which emotion was being induced.
+
+
+With this tool, Loewenstein sought to answer 3 major questions:
+
+
+    Within subject classification:
+
+        Can we predict the emotion being experience by a participant on the basis of his/her other activations?
+
+    Between subject classification:
+
+        Can we predict the emotion being experienced on the basis of other participants’ neural activation?
+
+    Cross-modal classification:
+
+        Can we predict what type of picture a participant is looking at on the basis of neural action from the self-induced emotion trials?
+
+
+The tool proved useful. Within subject classification: 83% of the guesses were correct.
+
+Between subject classification: ~70% were correct. Cross-modal classification was a bit more complex, the top emotion 60% was correct, and the correct answer was in top 2 ranked guesses 80% of the time. Interestingly, the method also told us which emotions are similar or clustered together. With this tool, we possess emotional signatures across episodes, individuals, and different types of experience.
+
+
+This tool is significant for many reasons. For example, self-reporting is not accurate, many emotions aren't accessible consciously. An fMRI/Heuristic tool would be more accurate and objective. It can help us uncover mixed emotions.
+
+
+Emotions constitute 'superordinate programs' that orchestrate a concerted psycho-physiological response to recurrent situations of adaptive significance in our evolutionary past, such as fighting, falling in love, escaping predators, and experiencing a loss in status.
+
+
+Emotions, according to this perspective, are not reducible to effects occurring in specific parts of the brain, specific feelings, motivations or appraisals, but can and typically do involve a wide array of physiological and psychological changes, including effects on perception, attention, inference, learning, motivation, and physiology.
+
+
+Emotions reprogram us. A series a studies demonstrate this.
+
+
+Endowment Effect: People become attached to objects in their possession and reluctant to part with them. High selling, low buying prices. Sadness and disgust examined; what do they signal? What do they appraise? What actions (tendency) are associated with them? How is the Endowment Effect affected by our emotions?
+
+
+Sexual arousal study. Men answered questions while either masturbating or abstaining. Arousal changes who you are and what you like. Some interesting/messed-up questions were asked. Tame ones: “Would you tell her you love her (if you don't)?” and “Would you slip her a drug?” - yeah, arousal had enormous impact. People are impatient and take more risks when aroused.
+
+
+Emotions transform us. Since our emotions change so much, it seems like our identity is somewhat unstable. Further, “reprogram” is an odd word. It seems more like it changes how we respond in the moment, but “programming” seems to have a longer lasting notion built into it. How do emotions affect us in the long term? This wasn’t made very clear in the lecture.
+
+
+Loewenstein talked about a Hot/cold empathy gap (briefly and in a rushed manner). He discussed a study about thirst and hikers, emphasizing emotion perspective taking. How does thirst/hunger feel for the hiker? How would you feel? He considers a teacher's feedback. How would I behave if I got negative feedback? How am I different from this other person?
+
+
+“Chickening out” is due to people failing to anticipate their emotions. Most people have no problem saying they will bungee jump, but chicken out later. Show people a scary film, and they are less likely to plan to bungee jump. They are more in touch with their own fear, apparently. What does this mean? I don't think they are better at predicting/anticipating, only that they have a certain emotion which shades the context. Loewenstein wasn’t clear on this.
+
+
+Another example would be drug addiction. If you aren't craving a drug, it is hard to imagine what addiction to a drug would be like. It is difficult to imagine addiction having so much force/weight/influence on your behavior, that's why people are possibly willing to start in the first place (even if they cognitively know what might happen). This gap causes over-optimism about quitting smoking occurs, but it also explains intolerance and lack of empathy toward addicts.
+
+
+Life outlook is also affected by this gap. Suicide may be impulsive. Hopelessness is a great indicator. Hot-Cold Empathy gap explains why we feel like we will never feel any better when we are experiencing hopelessness, and hence why some people may have the impulse to kill themselves when they have this emotion. Suicidal feelings are crisis-oriented and acute in nature. That's why so many people don't succeed in suicide after having tried it. His “94% lived or died of natural causes” statistic doesn’t necessarily show that suicide is impulsive behavior. easy to be cavalier to death went you aren't immediately facing it. Further, willingness to trade length of life for quality of death changes over time. Young people think life isn't worth living when you are old. Life becomes more and more precious to you as you get older and closer to actual death.
+
+
+Loewenstein concludes that emotional insufficiency seems to be at the root of many of our (modern) problems. Modern world, threats aren't the same (no predators). Climate change, for example, unfolds gradually, happens to other people and generations. Our emotional system has not prepared us for this. We are not affected enough to solve these problems.
+

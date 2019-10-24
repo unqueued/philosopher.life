@@ -1,0 +1,7 @@
+created: 20180227020740740
+modified: 20180227053136674
+title: Outopos: Sharing Computational Resources
+
+Outopos should work to support whatever containers are necessary. Being platform agnostic/universal is highly prized. Extreme efficiency, usability, and safety are paramount. Docker seems to be the best tool available right now, but Outopos could move on to do many things.
+
+The goal is to seemlessly enable users to share resources with other users in a safe, efficient, and reliable manner. A currency of computational resources flows forth. Trust becomes empowered when backed by the power of shared computation.

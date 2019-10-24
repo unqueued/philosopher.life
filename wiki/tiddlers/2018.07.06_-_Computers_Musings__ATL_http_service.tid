@@ -1,0 +1,68 @@
+created: 20180707015251474
+creator: h0p3
+modified: 20180707051802129
+modifier: h0p3
+title: 2018.07.06 - Computers Musings: ATL http service
+
+I'm having trouble getting ATL to serve. This is a problem. Sync is working. Could be our ISP. We all seem to be having trouble. Could just be my router or ISP. Also, an unexpected device on Resilio Sync. 
+
+`netstat -taucp | grep` and couple other tricks.
+
+4G shows a connection that works to the site. This appears to be on my end.
+
+VPN connects, but wouldn't let me connect to ATL (although can reach other sites fine enough). I can see it's a DNS leak. FUCK. That's my fault. Regardless, it's not working.
+
+`wget --output-document=/dev/null http://speedtest.wdc01.softlayer.com/downloads/test500.zip` 
+
+ATL, KS, dimbob, and my phone check out. We are getting fucked by our ISP. I hate them so much.
+
+Lots of fun stuff to look through as usual, e.g.: 
+
+* http://www.tomshardware.com/answers/id-2405687/weird-hops-100-packet-loss-isp.html
+
+Running MTR traceroutes, and packetloss (enormous) begins on Charter's servers (this still may not mean anything). This includes only the beginning of my packetloss up to the last of charter's known servers in the traceroute.
+
+To ATL:
+
+```
+ Host                                             Loss%   Snt   Last   Avg  Best  Wrst StDev
+ 9. crr02sghlga-tge-0-4-0-4.sghl.ga.charter.com   28.7%   109   36.4  96.2  30.1 163.2  41.6
+10. bbr02atlnga-bue-3.atln.ga.charter.com         37.6%   109   39.8 102.8  30.5 169.1  41.5
+11. bbr02atlnga-tge-0-2-0-0.atln.ga.charter.com   33.9%   109   36.3  95.8  31.7 163.7  40.7
+```
+
+To KS:
+
+```
+ Host                                             Loss%   Snt   Last   Avg  Best  Wrst StDev 
+ 7. bbr01gnvlsc-bue-800.gnvl.sc.charter.com        2.8%    72   40.9  85.9  33.3 168.7  43.7
+ 8. bbr01aldlmi-tge-0-0-0-13.aldl.mi.charter.com   4.2%    72   51.5 100.0  46.1 181.2  43.4
+ 9. bbr02ashbva-bue-5.ashb.va.charter.com          6.9%    72   47.1  99.8  45.5 170.5  42.8
+10. bbr02chcgil-bue-3.chcg.il.charter.com          2.8%    72   67.2 114.7  62.9 185.6  41.6
+11. prr01chcgil-bue-4.chcg.il.charter.com          6.9%    72   63.6 110.3  60.2 197.3  42.1
+```
+
+To Speedtest.net:
+
+```
+ Host                                             Loss%   Snt   Last   Avg  Best  Wrst StDev
+ 4. 2001:506:100:5c00::2                          36.3%    91    8.9  10.5   5.2  41.1   4.6
+ 5. 2001:506:100:5c0d::5                          27.5%    91   14.2  15.2   9.4  32.2   3.1
+ 6. bbr01spbgsc-tge0-1-0-0.spbg.sc.charter.com    28.6%    91   19.2  19.8  10.7  28.6   3.8
+ 7. 2001:506:100:8::5                             47.3%    91   37.9  39.8  31.9  46.5   3.5
+ 8. 2001:506:100:f::6                             19.8%    91   50.7  51.9  43.1 148.7  12.1
+ 9. bbr02ashbva-tge0-0-0-2.ashb.va.charter.com    24.2%    91   54.7  54.6  42.6 134.5  11.9
+10. bbr02chcgil-tge0-0-0-6.chcg.il.charter.com    28.6%    91   69.7  71.0  59.4 139.5   9.9
+11. prr01chcgil-tge2-1.chcg.il.charter.com        36.7%    91  100.2  71.8  66.4 100.2   4.6
+```
+
+To Github:
+
+```
+ Host                                             Loss%   Snt   Last   Avg  Best  Wrst StDev 
+ 7. bbr01gnvlsc-bue-800.gnvl.sc.charter.com        7.4%   108   42.2  40.2  30.7  86.2   6.4
+ 8. bbr01aldlmi-tge-0-0-0-13.aldl.mi.charter.com   1.9%   108   53.6  53.8  46.5  91.0   4.9
+ 9. prr01ashbva-bue-3.ashb.va.charter.com          5.6%   108   45.3  46.5  40.6  70.3   3.1
+```
+
+I pay through the nose for this bullshit.

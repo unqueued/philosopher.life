@@ -1,0 +1,52 @@
+created: 20180309204227782
+modified: 20180310175930172
+title: Idle Duels
+
+# Grind to l337 mode.
+# At some point, defense borders on irrelevant in this game, and attack is everything.
+# Script click adds to get a ton of gold quickly.
+# Bootstrap into +10 Unique items
+#* There is perfect gear, but because you are at the mercy of rolling randomly, just aim for extremely high damage.
+
+Priority of Stats on Sword:
+
+* Sword Effect: Shadow Concealer
+** Crit damage and not missing are huge. These are the money beats.
+* Attack
+* ACC
+* Speed
+* Sword Effect: Flaming Sword
+** 10% damage against 50% of your opponenets, i.e. +5% average DPS.
+* Sword effect: Poisoned Blade
+** It's the only other form of raw damage, but it's close to not +5% average DPS. 
+* Sword effect: Confusing Blade
+** Essentially 1 in every 10 of your swings will caused them to hit themselves for 100% of their damage.
+** Your damage is likely far, far higher than theirs. This is perhaps the strongest mix of offense and defense, but since we don't care about defense, then this is always subpar to Poisoned Blade.
+* Sword effect: Freezing Sword
+** Offensive only in the sense that it slows down their ability to heal from striking you. Otherwise, this is defense.
+* Sword effect: Self-Healing Strikes
+** Strong if you are having a hard time surviving. l337 modes heals after every fight, and you don't want attrition battles. You want assinations and alpha-strikes.
+
+Priority of Stats on Armor:
+
+* Armor effect: Confusion Shield
+** Without this effect, 50% of your opponents will cut your DPS by 20%, i.e. a ~10 cut in your average DPS.
+* Armor effect: Ice Shield.
+** That's ~10% damage (possibly less; I don't know weapon speed limits in this game) against 50% of your opponents. i.e. a ~5% to your average DPS
+* DEF
+** Offensive only as a debuff to 50% of your opponents who heal off damaging you, effectively increasing their effective HP by 10% of the damage they deal.
+* Armor effect: Shadow concealer
+** If your opponent misses you, then you prevent their healing while still being the strongest of the remaining defensive buffs.
+* DEX
+** You want to force your opponent to miss you so they don't heal. 
+* Armor effect: Fire Shield
+** Lowers healing on opponents by 10% against less than 50% of your opponents.
+* Armor effect: Poison Shield
+** Lowers healing on opponents by less than 10% against less than 50% of your opponents.
+* Probably irrelevant
+** Armor effect: Self-Healing Armor
+** HP 
+
+
+
+

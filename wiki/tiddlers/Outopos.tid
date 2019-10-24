@@ -1,0 +1,112 @@
+created: 20171014230007667
+creator: h0p3
+fc-filter: [tag[Outopos]]
+modified: 20190705040333919
+modifier: h0p3
+revision: 0
+tags: ehyeh [[Lifetime Projects]] Computing Dreams filter-list
+title: Outopos
+type: text/vnd.tiddlywiki
+
+!! About:
+
+//Enter the place that cannot be. May it be the triumph of the commons.//
+
+Can I see heaven? No. But, I might be able to see what heaven on the internet should look like.
+
+I want to replace the Internet. I want to democratize and decentralize its power structures, costs, and protocols. I hope to prevent and avoid censorship and the evils of selfishness. We must mathematically build something resistant to human nature for the sake of global happiness. The Internet is federated and grows increasingly centralized. In time, informational freedom (a fundamental political power) will be sealed off from us, and it will be completely owned and operated by our masters. Net neutrality dies a faster and faster death. The time is now or never. We must build something from the ground up. My dream is Outopos.<<ref "1">>
+
+I want to make a Kantian strain of an effective marketplace of computers offering other random computers microservices with only one currency: trust. 
+
+Outopos is a fundamentally decentralized Internet replacement run by its users. Some of what makes a good botnet is what we need to prevail against those who oppose the decentralization on information. There are no central controllers or agencies to coerce cooperation (and thankfully no gatekeepers or censors either), but we have the wild west's problem of figuring out how to build trust in the state of digital nature as well. It is fundamentally concerned with remaining maximally resistant to the Randian memeplex infecting large swathes of humanity. It is Copyfree while being platform, ecosystem, and hardware neutral/agnostic. It focuses on idiotproof, turnkey user-controlled privacy, anonymity, social constructs, and search capacities. 
+
+Possession is 9/10ths of the law; thus I believe I must possess and control my own data.
+
+We must decentralize as far as is feasible. There are limits in computer science to what can be decentralized and distributed. Let's take ourselves to the practical limits and set ourselves up for success.
+
+
+---
+!! Principles:
+
+* This is a huge fucking problem. Keep breaking it into smaller problems.
+* Define what you are trying to solve. Come up with the answers.
+* Give examples.
+* Make the right decisions early. Inertia is incredibly powerful; eventually, it cannot be stopped, only guided and shaped from within.
+** Imagine what the world would have been like if the Internet Protocol itself was written correctly the first time.
+
+---
+!! Focus:
+
+* https://github.com/redecentralize/alternative-internet
+
+{{Outopos: Focus}}
+
+* [[DjinniOS]]
+* [[Atropos]]
+* [[Outopos: Decentrust]]
+* [[Outopos: Cryptography]]
+* [[Outopos: Monetization]]
+* [[Outopos: Sharing Computational Resources]]
+* [[Outopos: E-Mail, Social Networking, & Filtering]]
+* [[Outopos: Domain Names]]
+* [[Outopos: Voting]]
+* [[Outopos: Agnosticism]]
+* [[Outopos: Topologies]]
+* [[Outopos: CLI Centric]]
+
+* Meh
+** [[Outopos: Physical Mesh]]
+** [[Outopos: Preoptimization Fantasy]]
+** [[DjinniOS (ˈGeniusˈ)]]
+** [[Outopos: Tools]]
+** [[Outopos: Wishlist]]
+
+* Resources:
+** https://courses.engr.illinois.edu/cs525/sp2018/index.html
+** https://news.ycombinator.com/item?id=16785878
+** https://news.ycombinator.com/item?id=14873083
+** https://www.quantamagazine.org/scant-evidence-of-power-laws-found-in-real-world-networks-20180215/
+** https://en.wikipedia.org/wiki/Advogato
+** http://datasys.cs.iit.edu/reports/2012_Qual-IIT_ZHT.pdf
+** http://bits.citrusbyte.com/16-decentralized-apps-you-may-see-this-year/
+** http://researchly.leobosankic.com/2018/04/16/re-creating-applications-decentralized-way/
+** http://theory.stanford.edu/~tim/papers/routing.pdf
+** https://defcon.org/images/defcon-26/DEF%20CON%2026%20voting%20village%20report.pdf
+
+* Log:
+** [[2017.10.14 - Outopos]]
+** [[2017.10.22 - Outopos]]
+** [[2017.11.06 - Outopos: Build a VMed OS]]
+** [[2017.11.30 - Outopos: The B-Word]]
+** [[2017.12.04 - Outopos: The Aggregator]]
+** [[2017.12.05 - Outopos: Moderator Island]]
+** [[2017.12.11 - Outopos: Recursive IPFS]]
+** [[2017.12.12 - Outopos: Virtual Distributed Networking]]
+** [[2017.12.21 - Outopos: Auditing]]
+** [[2018.01.08 - Outopos: Trust]]
+** [[2018.01.10 - Outopos: Atropos]]
+** [[2018.01.18 - Outopos: Inverse Multiplexing]]
+** [[2018.01.21 - Outopos: Fuzzing]]
+** [[2018.01.24 - Outopos: Compression]]
+** [[2018.01.24 - Outopos: Deep Learning]]
+** [[2018.01.30 - Outopos: Families]]
+** [[2018.02.01 - Outopos: Linux Agnosticism]]
+** [[2018.02.26 - Outopos: Blockchain]]
+** [[2018.03.30 - Outopos: Decentralized Reddit]]
+** [[2018.04.02 - Outopos: Daughter's Notes]]
+** [[2018.09.28 - Outopos: FC Quarantine]]
+
+
+---
+!! Vault:
+
+* (*crickets*)
+
+---
+!! Dreams:
+
+??
+
+---
+
+<<footnotes "1" "Previously conceived of as Atropos, which is not relegated to the fundamental UDP-wrapped protocol.">>

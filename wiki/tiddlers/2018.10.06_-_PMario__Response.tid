@@ -1,0 +1,40 @@
+created: 20181006183716377
+creator: h0p3
+modified: 20181020164416898
+modifier: h0p3
+tags: PMario Letter
+title: 2018.10.06 - PMario: Response
+
+Hi,
+
+>    I want to use https://wikilabs.github.io/editions/uni-link/ in https://philosopher.life/. 
+
+I've seen your discussion about tagging in the group, but I didn't follow it till the end. ... I personally think, that your system with: YYYY.MM.DD - FooTag: BarTitle is a very good approach. I like it.
+
+I think, you shouldn't change your system. Just add some tagging, so tags will complement your "battle tested" existing system. So some of your "hard-coded" lists can be transferred to dynamic lists over time. ....
+
+The problem with dynamic lists and many tiddlers is performance. If a list is created, the core has to touch every tiddler... So your existing approach may be much more performant.
+
+>    I'm running into a problem where checking on References for a tiddler freezes the TW completely. I ended up getting an empty TW and exporting my tiddlers to it, and it was still freezing. I think at least one of two things is happening:
+
+
+Do you want to use the "linking" or the "aliasing" feature?
+
+>    * I have too many tiddlers (~6400 right now)
+
+
+Yea, that may be the problem. ... Uni-link adds some macros, that will have some overhead if you have many tiddlers. I'll need to test it, with your TW
+ 
+
+>    * There is a problem(s) tiddler which is causing this. I have no idea what to look for though.
+
+
+I don't think so. It may be a mixture of different things.
+
+-------------
+
+Can you describe a bit closer, what you want to do with the uni-link plugin?
+So I can try to create a test case, and do some "live-debugging"
+
+have fun!
+mario

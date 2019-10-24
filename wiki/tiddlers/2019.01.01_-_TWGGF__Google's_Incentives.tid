@@ -1,0 +1,29 @@
+created: 20190101193014234
+modified: 20190107173804501
+tags: [[Realpolitik Speculation]] TWGGF
+title: 2019.01.01 - TWGGF: Google's Incentives
+
+* https://groups.google.com/forum/#!topic/tiddlywiki/MhVsFURHpoM
+* https://philosopher.life/#2019.01.01%20-%20TWGGF%3A%20Google's%20Incentives
+
+I've waited a while to respond to this. I might as well join. 
+
+Imho, Google's indexing isn't just poor for https://tiddlywiki.com/ but for all TWs. I grant SEO can be improved for TW, but I am not convinced this problem is going to be solved anytime soon (and most likely not at all).
+
+I'm fairly cynical about the matter. Google has enormous incentives to punish us for not channeling and packaging content into mobile/cache-friendly formats, static tooling, oversimplified atoms of content, and models which maximize their profits. Given their dominance, they can force others to play by their rules, and you won't defeat them on their own turf. They aim to optimize how we build their walled-garden for them,<<ref "l">> track and model users efficiently, and control the masses through a world-class advertisement machine.<<ref "t">> They don't want you to own your identities except insofar as it benefits them. They don't want you to have dynamic control over your data because it's not price efficient for them (static is cheaper to handle) and they also want you to pay (directly or indirectly) for the privilege of using services on or built in virtue of their infrastructure instead.<<ref "a">>
+
+TW embodies the hacker ethic: it is antithetical to Google's ends (and the means to those ends). They have no incentive to enable the decentralization of information power except insofar as it has asymmetrically disrupted their competition. I expect we will continue to be punished for trying to own our data with a tool like TW. Perhaps that will change one day; TW would need to become mainstream enough for them to find it worth specifically parsing, mapping, etc.<<ref "p">>
+
+If SEO matters to you, you are likely relegated to using TW as a CMS or development environment but never as the complete final product. It is possible that TW still isn't the best pick there either.
+
+I hate to say it, but I think TW is the wrong tool for the job even if that's not TW's fault.
+
+
+---
+<<footnotes "l" "They want to be the sole lense through which you see and use the internet (and more).">>
+
+<<footnotes "t" "~85% of their revenue is generated through advertisement. I'm tinfoil-hat enough to believe that's only most of the equation.">>
+
+<<footnotes "a" "Dynamic control over your data, which they are fighting against, is a necessary condition to achieving several forms of digital autonomy.">>
+
+<<footnotes "p" "PDFs are a fine example, but TW is radically more dynamic.">>

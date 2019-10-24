@@ -1,0 +1,17 @@
+created: 20180116225643218
+modified: 20180116230258395
+revision: 0
+title: Rust: Strings
+
+The to_string() method converts from a &str into a String. Strings are automatically converted into &str when you borrow a reference to them.
+
+```cpp
+fn main() {
+    let s = "Jane Doe".to_string();
+    say_hello(&s);
+}
+
+fn say_hello(name: &str) {
+    println!("Hello {}!", name);
+}
+```

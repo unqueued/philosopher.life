@@ -1,0 +1,128 @@
+created: 20181214021413716
+modified: 20181221180309548
+tags: [[Testing & Staging]]
+title: Test
+
+\define bodyTextFilter(delta)
+<$vars front="* [[" back="]]">
+
+<$list filter="[prefix[$delta$:]]"><<front>><$view field="title" /><<back>>
+</$list>
+
+<$list filter="[tag[$delta$]!prefix[$delta$:]!regexp[\d\d\d\d.\d\d.\d\d - .*]]"><<front>><$view field="title" /><<back>>
+</$list>
+
+<$list filter="[regexp[^\d\d\d\d\.\d\d\.\d\d - $delta$]]"><<front>><$view field="title" /><<back>>
+</$list>
+
+<$list filter="[regexp[^\d\d\d\d\.\d\d\.\d\d - .*]tag[$delta$]!regexp[^\d\d\d\d.\d\d.\d\d - $delta$]]"><<front>><$view field="title" /><<back>>
+</$list>
+
+</$vars>
+\end
+
+\define newTidButton()
+<$vars newTid="test-JRE" filterTid="JRE">
+<$wikify name=newTidText text="""<$macrocall $name="bodyTextFilter" delta=<<filterTid>>/>""" >
+
+<$action-setfield $tiddler=<<newTid>> tags="hardcopies [[Testing & Staging]]" text=<<newTidText>>/>
+
+</$wikify>
+</$vars>
+\end
+
+<$button actions=<<newTidButton>> >Hardcoded List Button</$button>
+
+Finished
+
+---
+
+```
+<$list filter="[prefix[$delta$:]]"><<front>><$view field="title" /><<back>>
+</$list>
+<$list filter="[tag[$delta$]!prefix[$delta$:]!regexp[\d\d\d\d.\d\d.\d\d - .*]]"><<front>><$view field="title" /><<back>>
+</$list>
+<$list filter="[regexp[^\d\d\d\d\.\d\d\.\d\d - $delta$]]"><<front>><$view field="title" /><<back>>
+</$list>
+<$list filter="[regexp[^\d\d\d\d\.\d\d\.\d\d - .*]tag[$delta$]!regexp[^\d\d\d\d.\d\d.\d\d - $delta$]]"><<front>><$view field="title" /><<back>>
+</$list>
+```
+
+```
+\define bodyTextFilter(delta)
+<$vars front="* [[" back="]]"><$list filter="$delta$"><<front>><$view field="title" /><<back>>
+</$list></$vars>
+\end
+
+\define newTidButton()
+<$wikify name=newTidText text="""<$macrocall $name="bodyTextFilter" delta=<<myFilter>> />""" >
+<$wikify name=newTidTitle text="""<$macrocall $name="now" format="Letters From h0p3: September"/>""">
+
+<$action-sendmessage $message="tm-new-tiddler" title=<<newTidTitle>> tags="hardcopies" text=<<newTidText>> />
+
+</$wikify></$wikify>
+\end
+
+<$set name="myFilter" value="[tag[/b/]limit[10]]">
+
+<$button actions=<<newTidButton>> >Hardcoded List Button</$button>
+
+</$set>
+
+Sphygmus (original)
+```
+
+```
+\define bodyTextFilter(delta)
+<$vars front="* [[" back="]]"><$list filter="$delta$"><<front>><$view field="title" /><<back>>
+</$list></$vars>
+\end
+
+\define newTidButton()
+<$wikify name=TextOne text="""<$macrocall $name="bodyTextFilter" delta=<<filterOne>> />""" >
+<$wikify name=TextTwo text="""<$macrocall $name="bodyTextFilter" delta=<<filterTwo>> />""" >
+
+<$action-setfield $tiddler="Test-Output" tags="hardcopies" text=<<TextOne>><<TextTwo>>/>
+
+</$wikify></$wikify>
+\end
+
+<$set name="filterOne" value="[prefix[$(currentTiddler)$:]]" name="filterTwo" value="[tag[$(currentTiddler)$]!prefix[$(currentTiddler)$:]!regexp[\d\d\d\d.\d\d.\d\d - .*]]">
+
+<$button actions=<<newTidButton>>>Hardcoded List Button</$button>
+
+</$set>
+
+Sphygmus (edited)
+```
+
+```
+\define mymegatext()
+<$vars front="* [[" back="]]"><$list filter="[tag[/b/]limit[10]]"><<front>><$view field="title" /><<back>><br>
+</$list></$vars>
+\end
+
+\define mybutton()
+<$wikify name=mytext text=<<mymegatext>>>
+<$action-setfield $tiddler="Test-Output" tags="hardcopies" text=<<mymegatext>>/>
+</$wikify>
+\end
+
+<$button actions=<<mybutton>>>
+set Errands
+</$button>
+
+h0p3 (edited)
+```
+
+```
+<$list filter="[tag[/b/]limit[20]]">
+<$view field="title"/>
+</$list>
+```
+
+<$list filter="[tag[/b/]limit[5]]">
+<$link to={{!!title}}><$view field="title"/></$link>
+</$list>
+
+<<mymegatext>>

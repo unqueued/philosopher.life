@@ -1,0 +1,20 @@
+created: 20180212161619335
+modified: 20181029175224779
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.02.12 - Computer Musings: RPi
+
+Having trouble with btsync on rasbian. I'm going to simplify and upgrade to stretch.
+
+I've finally figured out how to use upnpc more effectively. Also, I can sshuttle into the remote router GUI! That is amazing!
+
+* https://www.howtoforge.com/tutorial/how-to-upgrade-debian-8-jessie-to-9-stretch/
+* https://linuxconfig.org/raspbian-gnu-linux-upgrade-from-jessie-to-raspbian-stretch-9
+
+I'm running into trouble though. So, I'm not going to actually push it through. It will wait.
+
+Took a while to remove the several installations of btsync and resilio sync from the system. Had to delete a group as well. I must admit, Resilio Sync has made significant improvements to the performance of their software over the years. I can feel the difference.
+
+---
+
+Fucking Deluge. I don't understand it. I've turn off all autoremove features. That seems to do something, and I'm hoping that's it. I really don't want to manually have to do this though, although, I can.

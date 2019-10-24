@@ -1,0 +1,19 @@
+created: 20180127172555574
+modified: 20190323162139278
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.01.27 - Computer Musings: Kimsufi
+
+My system doesn't seem to REISUB out of the box.
+
+`echo 1 | sudo tee /proc/sys/kernel/sysrq > /dev/null `
+
+Haven't tested it yet, but hopefully it does now.
+
+---
+
+{{Walkthrough: Arch Seedbox Setup}}
+
+---
+
+I ended up not using a reverse proxy. That may be a huge mistake. 

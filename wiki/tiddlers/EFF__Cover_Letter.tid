@@ -1,0 +1,93 @@
+created: 20190201012347881
+modified: 20190727062040517
+tags: [[Cover Letters]] EFF To Leet Letter
+title: EFF: Cover Letter
+
+//Will the real cover letter please stand up?//
+
+```
+
+`7MM"""Yb.                                  `7MM"""YMM  `7MM"""YMM `7MM"""YMM 
+  MM    `Yb.                                  MM    `7    MM    `7   MM    `7 
+  MM     `Mb  .gP"Ya   ,6"Yb.  `7Mb,od8       MM   d      MM   d     MM   d   
+  MM      MM ,M'   Yb 8)   MM    MM' "'       MMmmMM      MM""MM     MM""MM   
+  MM     ,MP 8M""""""  ,pm9MM    MM           MM   Y  ,   MM   Y     MM   Y   
+  MM    ,dP' YM.    , 8M   MM    MM           MM     ,M   MM         MM      ,, 
+.JMMmmmdP'    `Mbmmd' `Moo9^Yo..JMML.       .JMMmmmmMMM .JMML.     .JMML.    dg 
+                                                                             ,j 
+                                                                            ,'  
+```
+
+I'm afraid no matter how I write this letter to you, it may come off as arrogant, shameless, entitled, combative, or crazy.<<ref "i">> I'll just bite the bullet and drop the pretense of formality [[here|https://www.youtube.com/watch?v=B1BnKd7RrjE]]. I'm going to lay out for you, and anyone else paying attention,<<ref "pa">> why I'm one of your darkhorse candidates for the [[Privacy and Surveillance Activist|https://www.eff.org/opportunities/jobs/privacy-and-surveillance-activist]] position.<<ref "b">>
+
+I am a moral philosopher by trade, but I'm out of the academic game.<<ref "hs">> I cherish applied ethics just as much as metaethical theory, and that's why I've been profoundly concerned for decades with privacy, free speech, surveillance, intellectual property, and what we owe to each other mediated through our machines (especially our minds). My vocational work is about the soup-to-nuts technical implementations, politics, moral justifications, and metaphysics of information (and hence the preconditions for knowledge and wisdom).<<ref "EFF">>
+
+As far as my praxis goes:
+
+* I do my best to use free and open source computers.<<ref "st">>
+* I explore and test a wide variety of tools which generate privacy, anonymity, and decentrality. I'm actively seeking to frustrate and subvert surveillance capitalism, censorship, and the corruptions of centralized power.
+* I ran 1% of the Tor network by throughput for years,<<ref "tor">> volunteered an unknown amount of routing for i2p, and ran other kinds of proxies and private networks for public use.
+* [[BDS97]] and I are almost finished planning and implementing [[Atropos Protocol Spec - 2.0: Layer 0]] (layers 0-3 in total) of a high-performance decentralized P2P network protocol library implemented in [[Rust]] with scalable privacy, anonymity, and modular extensibility as first-class citizens.
+* I'm currently at 2PB of upload on public torrent trackers.
+* I spend time fallibly [[role-modeling|Public Self-Modelers]] and kindly evangelizing the gospel of owning our data, building identity-aware personal technical infrastructures (conditions for owning our autonomy and identities), E2E principles (including E2EE communications), and maximally P2P (but federation-tolerating by necessity) decentralization of power (including information). I drag my family and friends, both online and offline, kicking and screaming onto the only roads I'm convinced are headed for the promised land.<<ref "iro">>
+* Perhaps grotesquely to some, I write a massively personal wiki out in the open, in part, to demonstrate what trust, vulnerability, honesty, transparency, accountability, privacy, anonymity, and free speech really mean to me and why.<<ref "con">>
+
+To call me preachy is an understatement. If I believe I'm morally obligated to say it, nobody is going to shut me up (though I speak kindly and carefully). Of course, I can also write in different styles; it depends on my audience. There are bright lines, however, that I do not cross in my communications. Even in applications of just war theory and [[forgiving retaliation|T42T]], I am morally opposed to rhetoric which uses others as //mere// means; I do not treat [[others]] as mere functional blackbox tools to manipulate. I'm here to serve [[Humanity]] with morally justified strategies. I [[hope]] you give me the chance to do it with you. So, while I'm not usually slick or normal, I can be highly personal, formal, plain, and instructive.<<ref "bw">>
+
+You should have some context and reasons for why I chose those particular writing samples.<<ref "ws">>
+
+* [[2014.11.10 - Challenges in Quasi-Lockean Intellectual Property Theory]]
+** This is a chapter of my dissertation. I can write academically sound work, and I want you to see one of my writing styles.<<ref "l">>
+** This is also part of my evidence that I am profoundly concerned with the work you are doing at EFF as a whole.
+* [[2018.12.05 - JYU: Thank You For The Gift]]
+** This is a personal letter to an ex-Facebook employee. I'm showing him why this wiki is technically and ethically different from FB.
+** Grassroots advocacy can be extremely personal. Sometimes I speak to large audiences, and sometimes I'm speaking 1-on-1 with folks. I'm doing both here.
+* {[[Contact h0p3]]}
+** Here I show where the rubber meets the road in the conflicts between free speech and privacy+anonymity.
+** This is one of the more controversial parts of the wiki. I'm not sure how you are going to respond to it (if at all), and it may dictate quite a bit between us. As you can imagine, those who speak with me tend to be or become fairly privacy-conscious and aware of how they expose their identities (as well as why we sometimes have to take the risk).
+* {[[Cryptographic Verification]]}
+** This is me putting my money where my mouth is. As with so many things, I'm no expert in cryptography, but I value it and will continue learning about its theory and practice.
+
+Here are two bonus writing samples I've not included in the application, but I'm convinced they will be of practical interest to this job and those I work with:
+
+* [[E.T. The Extra-Terrestrial]]
+** This is a weird choice; it's only tangentially related. I chose this because I want you to see what it's like when I attempt to persuade you of something you might not want to believe that I do. This is a rhetorical point I need to make with you. That's part of the job.
+* [[Afterschool Teaching]]
+** This is me in a workplace a few hours a day. How will you feel working with someone like me? Indeed, my job application is as radically, cringeworthily transparent as I can make it. In front of everyone, this is a doorway into the living proof I'm honestly telling you who I am online, offline, at-work, off-work, inside and out. 
+** Can you tolerate living with transparency like me in your organization? I aim to be kind, but that doesn't mean I'm always nice. I'm going to speak truth to power, including your own.<<ref "fu">>
+
+I don't know how to give a properly succinct tour of my identity's intersectionality with the EFF's work. There's simply too much ground to cover. My [[Link Log]] will be a deluge of my handpicked media diet, much of which is right on topic. My conversations in [[Find The Others]] is consumed with our identities. Even a quick search of the wiki as a whole demonstrates the following wordcount: crypt* 284, priv* 445, surveillance 77, anon* 186, identi* 606, VPN 114, electro* 56, comput* 1465, and counting. Some of my speculative, big {[[dream|Dreams of h0p3]]}, rough-draft work can be found in [[The Original Position]], [[Outopos]], and [[AIoutopIA]]. I also think the technical choices in this [[wiki's infrastructure|RGM]] show my practical interests in identity-awareness and decentralization. Finally, the wiki itself is an example of what I think is really at stake; I [[hope]] you hear me thundering out of it.
+
+I'm going to be a privacy and surveillance activist whether you pay me or not. Those goals and values are integrated into my identity and vocation. I've endorsed you for a long time, and I would be honored to be an endorsed voice of the EFF. 
+
+Sincerely,
+
+[[h0p3]]
+
+
+---
+<<footnotes "i" "Fair enough, I'm probably a nobody to you. I'm forced to virtue signal to you here; HMB, please. I'm sorry if you feel this is a waste of your time. I'm not clowning you (but I do like a good joke). It's a pleasure to meet you. Regardless of the outcome, I'm proud to apply. Please let me know if I can {[[help|Help: On This Wiki]]} you on this wiki.">>
+
+<<footnotes "pa" "One day, there may be dozens of us! `/waves to the 3-Lettered agencies, 5-Eyed lackeys, and transnational corporate adversaries`.">>
+
+<<footnotes "b" "Call it Aristotelian magnanimity if you are being oh-so-charitable. This is a balls-out approach, and surely you will think I'm making a fool of myself. Well, I believe it's my best shot at demonstrating not only who I am to you but also what makes me a non-trivial candidate. I'm going to take the tone that maximizes my odds, however slim, of getting this job. At the very least, you'll be able to call me honest, genuine, and not boring.">>
+
+<<footnotes "hs" "Since leaving academia, I've been homeschooling my offspring, [[1uxb0x]] and [[j3d1h]], picking up jobs to help pay the bills, and writing this wiki (~25 MB of plaintext).">>
+
+<<footnotes "st" "Stick a quarter in me and I'll tell you how much I hate my phone for days.">>
+
+<<footnotes "tor" "I woke up to the fact that I can't accept their networking model, hence my work with [[BDS97]] on what is roughly an QUIC protocol multiplexed over arbitrary onion routes designed for making something like a cjdns wherein nodes practice [[The Golden Rule]] as the fundamental cooperation model (which makes it far superior to blockchains).">>
+
+<<footnotes "EFF" "I've been using and advocating your tools (or similar) to anyone who will listen (those poor folks). See: [[Firefox Extension Collection]].">>
+
+<<footnotes "iro" "The irony of the fact that I provide little privacy to those who speak with me is not lost on me: not one iota.">>
+
+<<footnotes "con" "Even the earliest snapshots of this wiki will demonstrate it. See {[[Ways to Connect to this Wiki]]}, if you are interested. You can even watch this letter grow in my snapshots as it was being drafted each day.">>
+
+<<footnotes "bw" "But wait, there's more! You can plainly see I also appreciate the value of [[calculated humor|https://www.latlmes.com/tech/humor-is-key-to-workplace-success-1]] in the workplace.">>
+
+<<footnotes "l" "I want you to see that I can learn to write different styles as well.">>
+
+<<footnotes "fu" "I'm worried this is going to come off as //fuck you//. I apologize if you find me offensive. Like any organization, the EFF needs ferocious beasts who wrestle for the correct balance and coherence of transparency, honesty, openness, free speech, privacy, anonymity, and holding each other accountable to [[The Golden Rule]] as a [[T42T]] game-theoretically sound principle all the way down. As I expect in empathy with everyone, I aim to be your mirror, transparent window, and proxy.">>
+
+<<footnotes "ws" "I understand you specifically asked for links to my writing samples instead of copies of the documents. I considered handing you the links while also delivering the wiki as a single-file document (despite your reasonable reservations) because I think it says something technically interesting about my work and process discipline. My site is designed to be difficult to censor, to carry with it all the necessary context and unified tooling, and to be signable. It's obviously far from perfect, but it's not a boring prototype.">>

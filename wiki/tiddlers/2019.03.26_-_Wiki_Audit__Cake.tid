@@ -1,0 +1,63 @@
+created: 20190326171856170
+modified: 20190326235819116
+tags: [[Computer Musings]] [[Wiki Audit]] j3d1h
+title: 2019.03.26 - Wiki Audit: Cake
+
+Chrome is better on [[monster-14]], but I just learned I experienced another loss of updates from yesterday. Thankfully, I could recover. There are no warning signs that it's not working, at all! This is absurd.
+
+Singlefile is already radically more performant, and now I'm not convinced the loss is worth it. I can feel the difference in my browser's lag with my cursors, typing, and basic navigation. I'll spend the compute for it too, but it needs to function.
+
+Nodejs is probably never going to be effective enough. The virtualized storyriver may be the only option. It's not the same, not by a longshot.
+
+Fuck me. We use simultaneous multi-device all the time. I can't have my cake and eat it too. Maybe git is the out. Of course, part of me thinks moving to doom/spacemacs/nvim is the answer. Nothing is perfect. Socrates would go singlefile.
+
+---
+
+Tried going back to singlefile. I tried the old extensions, and they don't work! I didn't try Timimi, but Chromium isn't meant to be supported. It sucks that there isn't a single Chromium tool that work because the Chrome-extensions are simply vastly superior to what I can find in Firefox. 
+
+None of the options work well. =(
+
+This is a matter of my automated incompetence.
+
+I am lucky to have a daughter kicking ass with me.
+
+---
+
+Tried tagging every Deep Reading log.. and they all got deleted? Oops.
+
+The .tid files are empty. Also, the paths of the .tid files are in the wiki, as empty tiddlers. Not all these path tiddlers are deleted ones, and I can't find a specific pattern, either. It looks like the automatically-changed (aka firmcoded or touched by commander) tiddlers get deleted. Here they are (just a general list):
+
+*Foci of several (but not all) firmcoded directories
+*Every tiddler matching the filter `[regexp[\d\d\d\d.\d\d.\d\d - Deep Reading Log]]` in the history of h0p3's wiki.
+**In other words, every log titletagged "Deep Reading Log", with or without the title.Title. 
+*A single Link Log h0p3 was working on
+
+That foci list seems to be a list of all Autogenned - and therefore all firmcoded - directories. It used to stop at Donors, but then the list got shorter - or, rather, duplicates started appearing.
+
+As for the Deep Reading logs, I tagged them all using Commander, so that might have something to do with it.
+
+I don't know about that Link Log. It's an old one he was auditing.
+
+This part is when we tried moving away from Bob, but this made h0p3's wiki instantly unusable. AndTidWiki+Resilio worked for the phone, none of the extensions worked on m10.
+
+Off the bat, I can think a few reasons for this problem:
+
+*Whatever the heck was the problem before
+**I don't want to go searching through the Computer Musings and Wiki Audit logs, but h0p3 says that something like this has happened before.
+*Restarting Bob when it's still making changes
+**We did this a couple times, and each time it seemed to get worse. Might just be me.
+**Actually makes the Link Log make sense.
+*Making big changes all at once
+**Commander, firmcoding, and importing all seemed to do this. Maybe it's just editing multiple tiddlers at a time, then saving them all at a time, that breaks it.
+***Might also be why it gets to such a slow crawl we have to restart Bob!
+
+Importing the missing stuff, deleting the path tiddlers, and hoping this never happens again!..
+
+Well, as soon as I pressed the button for firmcoding, the following happened (and seems to happen every time):
+
+*node goes haywire
+**Took up all the CPU looping over the .tid files
+*I restart it
+*The path tiddlers show up again, foci empty
+
+If I press the button again, it's just fine, though. It goes crazy when those tiddlers aren't there, but when they are it works as expected.

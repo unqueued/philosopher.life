@@ -1,0 +1,9 @@
+created: 20180409024107144
+modified: 20181029175224785
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.04.08 - Computer Musings: Letsencrypt
+
+Had a problem with Letsencrypt on this ATL. Nothing short of uninstalling including the repository and reinstalling would solve it. I'm not sure why that worked.
+
+Set yolo autoupdates, btw.

@@ -1,0 +1,86 @@
+created: 20181116021507286
+creator: h0p3
+modified: 20181116044222918
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.11.15 - Computer Musings: 2600k
+
+Guess whose daughter was accidentally hiding the ol' i7-2600k chip in one of her drawers? Someone's gen2 i3 is getting an upgrade. I'm thinking that will become HTPC too. 8GB of RAM is enough to get shit done.
+
+---
+
+Setting up syncs for folks. 
+
+Noticed that [[Jop]]'s sync is hosted by magus, [[ALM]]'s box. His sync, however, isn't connected at all. Lol.
+
+---
+
+Well, my concern for the real-time git is merited. This needs to be fixed, rofl.
+
+```
+h0p3@m10 ~/syncs/wiki-git/m6ram.github.io/                                                                                             22:58:53 ⏲ 
+$❯ git-sizer --verbose
+Processing blobs: 3613                        
+Processing trees: 1813                        
+Processing commits: 1815                        
+Matching commits to trees: 1815                        
+Processing annotated tags: 0                        
+Processing references: 3                        
+| Name                         | Value     | Level of concern               |
+| ---------------------------- | --------- | ------------------------------ |
+| Overall repository size      |           |                                |
+| * Commits                    |           |                                |
+|   * Count                    |  1.81 k   |                                |
+|   * Total size               |   417 KiB |                                |
+| * Trees                      |           |                                |
+|   * Count                    |  1.81 k   |                                |
+|   * Total size               |   242 KiB |                                |
+|   * Total tree entries       |  6.44 k   |                                |
+| * Blobs                      |           |                                |
+|   * Count                    |  3.61 k   |                                |
+|   * Total size               |  30.6 GiB | ***                            |
+| * Annotated tags             |           |                                |
+|   * Count                    |     0     |                                |
+| * References                 |           |                                |
+|   * Count                    |     3     |                                |
+|                              |           |                                |
+| Biggest objects              |           |                                |
+| * Commits                    |           |                                |
+|   * Maximum size         [1] |   236 B   |                                |
+|   * Maximum parents      [1] |     1     |                                |
+| * Trees                      |           |                                |
+|   * Maximum entries      [2] |     5     |                                |
+| * Blobs                      |           |                                |
+|   * Maximum size         [3] |  21.7 MiB | **                             |
+|                              |           |                                |
+| History structure            |           |                                |
+| * Maximum history depth      |  1.81 k   |                                |
+| * Maximum tag depth          |     0     |                                |
+|                              |           |                                |
+| Biggest checkouts            |           |                                |
+| * Number of directories  [2] |     1     |                                |
+| * Maximum path depth     [2] |     1     |                                |
+| * Maximum path length    [2] |    14 B   |                                |
+| * Number of files        [2] |     5     |                                |
+| * Total size of files    [4] |  21.7 MiB |                                |
+| * Number of symlinks         |     0     |                                |
+| * Number of submodules       |     0     |                                |
+
+[1]  2aa9fb44c23e1268fcc619316860d03a72b67864 (refs/heads/master)
+[2]  d1c2a7aaa053b24d46c54722825900f2052df882 (refs/heads/master^{tree})
+[3]  d35ce67f7948ab7f42477e29341e5542a277ebb6 (c92837767f1c3ae867885df7b86251e5fd18f827:index.html)
+[4]  fc4c7f4c83bd35ef261ebfce0a73c5280256ddfe (c92837767f1c3ae867885df7b86251e5fd18f827^{tree})
+```
+
+Holy fuck. I'm almost certain that has to change. I think it's neat to keep all the edit history, but I think this is a ridiculous burden for others. I think the repo shouldn't be huge. How the fuck has github not said anything to me yet? ROFL. I'm going to bet there aren't many single files that are edited hundreds of times a day on github, lol. I must be slipping under the radar of their automated flagging, but I have no idea how or why. https://www.youtube.com/watch?v=-ZNKR9wFe8o -- Sorry boyos!
+
+Actual size on my hard drive is ~6.8GB. That's huge. Note, individually compressed daily snapshots (with ZSTD at max) sits at 7.2GB. Lol! What may end up happening is I maintain two gits. Considering how much I value this thing, I don't mind spending TB's of drive space on its real-time diffs. So, I can keep two sets of books here. 
+
+I still care about real-time updates, but I think I'll only keep them on a daily basis. Git has been great, but my process needs to change.
+
+* Personally hosted git repo: complete edit history
+** Should likely just torrentify this.
+* Publicly hosted git repo: nightly snapshots only + current day's complete edit history
+** At snapshot time, we reverse the day's commits and just commit the final day's snapshot.
+
+What does this look like on my end? I guess rsync/cp twice, two git commits. Nightly snapshot reverses the damage. I've never seen anything like this before, but I'm a crackpot, right? =) If this doesn't work, then I think I'll just offer https://live.philosopher.life/ through resilio and offer nightly only for the public git. Meh. I don't like that. Hopefully, we can make this work.

@@ -1,0 +1,19 @@
+created: 20180817152136160
+creator: h0p3
+modified: 20181029175224790
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.08.17 - Computer Musings: TW
+
+I found that memory leak in file-backup extension, and I've been working with the dev. Tried the prerelease of the patch, and it eventually borked my system. =/
+
+Still working the bugs out.
+
+---
+
+I still don't have everything I need up and running. Yikes! Git is still fucked.
+
+---
+
+Encryption extension pack installed on vbox. We're good to go. Setup manjaro testing grounds. I can't make the changes in production now. I can't afford for this to not work.
+

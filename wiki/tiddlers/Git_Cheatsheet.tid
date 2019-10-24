@@ -1,0 +1,61 @@
+created: 20180421160329428
+modified: 20180421161118608
+title: Git Cheatsheet
+
+!! Basics:
+
+```
+git init	                                          Sets current local directory as a Git Repository
+
+git clone git@github/username/repo.git	                  Clone the desired repository if it doesn't exist locally on your computer. 
+                                                          Make sure to also cd into your cloned repository after.
+
+git checkout -b 'branchname'	                          Creates a new branch called branchman and switch to the new branch.
+
+git add .	                                          Adds files in local directory for commit.
+
+git commit -m 'Comment here'	                          Commits the files to be pushed to Github repository.
+
+git push origin master	                                  Push files to the Github repo under the branch name 'master.'
+```
+
+
+!! Remote:
+
+```
+git init	                                          Init git to access git commands such as git remote.
+
+git remote add origin https://github.com/user/repo.git	  Add a remote from a repository.
+
+git remote rm destination	                          Removes remote named 'destination.'
+
+git remote -v	                                          Checks for the current remote.
+```
+
+
+!! Syncing local project with a repository:
+
+```
+git clone git@github/username/repo.git	                  Clone the desired repository if it doesn't exist locally on your computer. 
+                                                          Make sure to also cd into your cloned repository after.
+
+git remote add upstream git@github/username/repo.git	  Add the remote to the cloned repository if it doesn't already exist. 
+                                                          Use 'git remote -v' to check if remote exists.
+
+git fetch upstream	                                  Fetches all the upstreams that exist on your repository.
+
+git pull upstream master	                          Pulls and syncs your local project with the master branch.
+```
+
+
+!! Delete:
+
+```
+git reset HEAD FileName	                                  Undo a git add . for file called FileName.
+
+git reset --hard HEAD^	                                  Resets the current branch one commit backwards.
+
+git reset --hard HEAD	                                  Discards all local changes to the current branch.
+
+git branch -d branch_name	                          Deletes the branch branch_name.
+```

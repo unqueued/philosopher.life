@@ -1,0 +1,627 @@
+created: 20180705004657560
+creator: h0p3
+modified: 20181031035931170
+modifier: h0p3
+tags: Tulane
+title: 2015.01.06 - Symbolic Logic: Logic of Atomic Sentences
+
+15
+
+
+§ 2.1
+
+Argument - any series of statements in which one (called the conclusion) is meant to follow from, or be supported by, the others (called the premises). An argument is a piece of reasoning (a sequence of statements) attempting to establish a conclusion. The conclusion is intended to follow from, be a consequence of, or be supported by the remaining statements, the premises. It is not two people yelling at each other. Here is a famous one:
+
+All humans are mortal. Socrates is human. Therefore, Socrates is mortal.
+
+The first two statements are the premises, and the last is the conclusion, which is supported by the premises. Note that, in logic, we often re-write arguments (in fitch-bar or tri-dot notation):
+
+| All humans are mortal. All humans are mortal.
+
+| Socrates is human. Socrates is human.
+
+| Socrates is mortal. ∴ Socrates is mortal.
+
+
+
+Premises are up top, and the conclusion at the bottom, with either a fitch-bar or tri-dot to indicate that it is the conclusion which is meant to follow from the premises. We will be using the fitch-bar notation in this class. This is a really clean example, but a lot of arguments are not so clearly laid out for us. Sometimes the conclusion is found in the middle of the argument or even as the first sentence, and the remaining sentences are the premises. For example, we might see the previous famous argument written in a different order:
+
+
+
+Socrates is mortal since Socrates is human and because all humans are mortal.
+
+
+
+The conclusion and premises aren’t as neatly ordered as before, but it amounts to the same argument form. When we break this argument down, we will get the same form as before, with the premises on top and the conclusion at the bottom, below the fitch-bar.
+
+
+
+There are signals in normal English for which argumentative sentences are which.
+
+
+
+Conclusion: therefore, thus, hence, so, consequently
+
+Premises: since, after all, because
+
+
+
+Logical Validity – An argument is logically (a.k.a., deductively) valid iff (if and only if) its conclusion must be true if its premises are true. Another way to say this: an argument is logically valid if it impossible for the premises to be true and the conclusion false. Repeat. Memorize this. Imprint this into your mind. This is the central concept of the class, and we will spend the rest of the class fleshing out various meanings, circumstances, and entailments of validity.
+
+The word “impossible” is important here. The fact that an argument’s conclusion is actually true does not make the argument valid — validity requires that there be no possible circumstance in which the premises would be true and the conclusion false. Similarly, the fact that an argument contains a false premise means nothing about the argument’s validity or invalidity. Some arguments with false premises are valid, and others are invalid. What matters is whether there is any possible circumstance in which the premises would be true and the conclusion false.
+
+A valid argument with these truth values is impossible:
+
+T | Premise 1
+
+T | Premise 2
+
+T | …
+
+T | Premise n
+
+F | Conclusion
+
+
+
+Remember, to have a valid argument, there is no possible world in which all the premises are true and the conclusion false. Note, however, many valid arguments can have these truth values in some possible worlds:
+
+
+
+T | Premise 1 T | Premise 1
+
+F | Premise 2 F | Premise 2
+
+T | … T | …
+
+T | Premise n	T | Premise n
+
+F | Conclusion T | Conclusion
+
+
+
+Here is an example of an invalid argument:
+
+
+
+T | All humans are mortal.
+
+T | Lucretius is mortal.
+
+T | Lucretius is human.
+
+
+
+It just so happens that the premises and conclusion are both true, but that doesn’t make this a valid argument. This argument is invalid because it is possible for the premises to be true and the conclusion false. In this case, consider a world with Socrates and Plato, who are mortal humans, and Lucretius, a mortal honey badger. The premises are true, right? All humans turn out to be mortal, and Lucretius is also mortal. However, Lucretius is not a human, since he is a dog. Hence, this argument is invalid because in some possible world, the premises can all be true, but the conclusion false.
+
+Compare this to our initial example:
+
+T | All humans are mortal.
+
+T | Socrates is human.
+
+T | Socrates is mortal.
+
+
+
+In this argument, if the premises are true, the conclusion necessarily must be true. Essentially, it is impossible to conceive of a world in which the premises are true and the conclusion false.
+
+
+
+Validity is concerned with “if the premises are true, then the conclusion must also be true,” however, it does not tell us if the premises or conclusions are true at all. Here is an example of a valid argument that has a false conclusion.
+
+If I am Harry Potter, then I am a wizard. I am Harry Potter. Thus, I am a wizard.
+
+If the premises are true, then the conclusion must be true. This is valid. But, notice that the second premise is false, and the conclusion may or may not be false. Logical validity and truth values in the real world do not track each other.
+
+Another way to talk about logical validity is in terms of logical consequence. This is where one sentence, statement, or claim follows logically from others. This consequence is necessary and something about which we can be absolutely certain. The conclusion of a logically valid argument is said to be a logical consequence of the argument’s premises. Logical consequence and validity are brothers.
+
+Additionally, we might talk about logical validity and consequence in terms of truth preservation. If you put true premises in, you can only get true conclusions out. Truth preservation is extremely important to good reasoning. We want to move from true premises to only true conclusions, and validity is the indicator or structure of that goal.
+
+Good arguments are at the very least valid arguments (depending on what we mean by “good”). Sometimes, however, a good argument needs to be more than just valid, it also needs to be sound. The Harry Potter argument is valid, but it is not sound. Soundness tracks the truth values of the premises and conclusion.
+
+
+
+Soundness - An argument is “sound” iff both 1.) it is logically valid and 2.) its premises are all true.
+
+If the argument is valid and the premises are true, then what do we know about the conclusion? It must be true as well.
+
+From our examples: The Harry Potter argument is valid, but not sound. The Mortality of Socrates argument is valid, and since its premises are all true, it is also sound.
+
+All sound arguments are valid, but not all valid arguments are sound. Valid arguments can have false premises, but sound arguments can’t.
+
+
+
+§ 2.2-2.4
+
+Proof - A proof is a step-by- step demonstration that one statement, S, is a logical consequence of some statements, P1, P2, … ,Pn.
+
+Proofs are special, carefully designed arguments which demonstrate a conclusion follows a set of premises. In a good proof, when the premises, P1, P2, … ,Pn, are true, the conclusion, S, must also be true; i.e. S is the logical consequence of the premises.
+
+
+
+Good proofs tend to make small steps that are obvious and intuitive. We would like to think that rational persons will recognize the validity, truth preservation, and absolute certainty of each step. Further, the hope is that if a chain of small, obvious steps from a set to premises successfully lead to a conclusion, then that conclusion must also be taken as obviously following from the premises. If we were uncertain about any of the steps, then the proof is doubtable. A good proof should erase all doubt in the minds of rational folks that the conclusion follows from the premises.
+
+Sometimes a proof will be a one-step deduction, for example:
+
+| If I like candy, then I like pizza. | P1
+
+| I like candy. | P2
+
+| I like pizza. | S
+
+
+
+Sometimes a proof will require multiple deductions. Given the following three premises (P1-P3), I can prove that I like beer using two proof-arguments back to back:
+
+
+
+| If I like candy, then I like pizza. | P1
+
+| I like candy. | P2
+
+| If I like pizza, then I like beer.	| P3
+
+| I like pizza. | S
+
+
+
+Now, we can then turn our conclusion, S, into a premise, and make a new argument.
+
+
+
+| If I like candy, then I like pizza. | P1
+
+| I like candy. | P2
+
+| If I like pizza, then I like beer. | P3
+
+| I like pizza.	| P4
+
+| I like beer. | S
+
+
+
+By making two valid arguments in succession, we can prove that I like beer from our initial three premises. Unfortunately, this takes more time than we’d like, it has redundancies in it, and perhaps there are extra premises that we don’t need in each argument. In logic, we are lazy, and we like to shorten this process while improving readability. Hence proofs which require multiple deductions to get to our final conclusion can be collapsed into a more succinct form.
+
+
+
+All the deductions which occur before the final conclusion, S, we call intermediate conclusions. Let us label intermediate conclusions as I1, I2, …, In. The previous set of arguments can be collapsed in this way:
+
+
+
+| If I like candy, then I like pizza. | P1
+
+| I like candy. | P2
+
+| If I like pizza, then I like beer. | P3
+
+| I like pizza. | I1
+
+| I like beer. | S
+
+
+
+Using two steps, this proof cleanly demonstrates our final conclusion is the logical consequence of the starting premises. Each step is obvious and intuitive. This is absolutely essential to a good proof.
+
+Note that all good proofs are valid arguments, but not all valid arguments are good proofs. Here is a valid argument which isn’t a proof:
+
+| a is a cube | Cube(a)
+
+| a is large | Large(a)
+
+| a is identical to b | a = b
+
+| if b is a large cube, then c is a tetrahedron. | (Large(b) ^ Cube(b)) -> Tet(c)
+
+| c is a tetrahedron | Tet(c)
+
+
+
+For some people, this is obviously valid, but not to everyone. In a proof, the validity should be obvious to everyone. In this case, the leap from the premises to the conclusion is too large. It is a valid leap - the conclusion is a logical consequence of the premises, hence this is a valid argument. However, just because it is a valid argument doesn’t mean this is a proof.
+
+
+
+A proof will demonstrate the intermediate steps in these leaps of logic, while valid arguments don’t have to (although, good arguments, a standard broader than validity, tend to resemble proofs). Proofs will unfold valid arguments for us, making explicit all of the intermediate steps required to get to the conclusion. The language we will be learning will enable us to show, in a step-by-step demonstration, that the conclusion of this argument is a logical consequence of the premises. In this case, there are many intermediate conclusions, many small deductive steps that is, which are required to prove that the conclusion follows from the premises.
+
+
+
+To give you a taste of a formal proof for this argument (you won’t be expected to do this yourself for many weeks):
+
+
+
+|1. Cube(a) |1. P1
+
+|2. Large(a) |2. P2
+
+|3. a = b |3. P3
+
+|4. (Large(b) ^ Cube(b)) -> Tet(c)	|4. P4
+
+|5. Cube(b) =Elim: 1, 3 |5. I1
+
+|6. Large(b) =Elim: 2, 3 |6. I2
+
+|7. Large(b) ^ Cube(b) ^Intro: 6, 5 |7. I3
+
+|8. Tet(c) ->Elim: 4, 7 |8. S
+
+
+
+You may not understand what I’ve done here. That is fine. The point is to give you a glimpse as to what proofs are going to look like in this class. You will find this proof of our argument is itself a valid argument. This proof has broken down the leap into smaller, intermediate steps that are obvious and perhaps pedantic. It took us 4 steps to reach the conclusion. The work of making proofs, like this one, is the primary skill of this class.
+
+
+
+
+
+Kinds of Proofs -There are two general kinds of proofs, formal and informal.
+
+
+
+Formal Proofs must be in a formal language using explicitly specified rules. Informal proofs do not necessarily need explicitly specified rules and methods. Linguistic competence (including syllogistic logic) is much like it.
+
+Formal and informal proofs only differ in style only, but don’t differ in rigor. Rigor, meaning, each step of the proof follows from previous steps by/of necessity. It is part of truth preservation. Assuming some set of propositions is true, and take small inferential steps which result in other true propositions.
+
+Sp’: Cube(b); c = b Show: Cube(c)
+
+Informal Proof:
+
+Since c = b, c and b have exactly the same properties (are identical), but b is a cube (i.e. Cube(b)), and since being a cube is a type of property, then c is also a cube (Cube(c)).
+
+Formal proof (Fitch-style FOL):
+
+|1. Cube(c)
+
+|2. c = b
+
+|3. Cube(b) =Elim: 1,2
+
+
+
+Deductive systems are necessary for presenting formal proofs. We will be using “script” “F”, which I will call Fitch. There are many systems of rules we could use express the logic of FOL, and we will be using a very minimalist system with very few rules and simple schematic for demonstrating proofs. Some language systems which use 30 or 40 rules, but I find that unwieldly and ugly, hence we are going to stick to a minimal system. Here is a general schematic of formal FOL proofs in the Fitch-style:
+
+
+
+| 1. P1
+
+| 2. P2
+
+| …
+
+| n. Pn
+
+| n+1. I1	(justification for I1)
+
+| n+2. I2	(justification for I2)
+
+| …
+
+| n+k. Ik (justification for Ik)
+
+| n+k+1. S (justification for S)
+
+
+
+We have any number of premises at the top, the Fitch bar, and any number of intermediate conclusions which bridge the gap between what you are given as premises and what you are trying to prove in the end, S. Proofs can be any number of lines long – lines will always be numbered in complete formal Fitch-style proofs.
+
+Every line will have exactly one sentence on it (be it an atomic or complex sentence). Every sentence, and essentially, every line in a fitch-style proof is going to either true or false.
+
+Each step in a formal proof must be entered in accordance with some precisely stated rule of the formal system of rules. By applying a rule to some previous line or lines in a proof, we provide a justification for entering a new step in a proof.
+
+A justification, then, cites a rule and the lines to which the rule is being applied in order to generate the line being introduced. The justification, at the side, shows the legitimacy of writing down the line; the application of the rules.
+
+This sounds very complicated right now, but in time this structure will make a lot of sense.
+
+We are now ready to learn our first two rules of Fitch, =Intro and =Elim.
+
+
+
+Identity Introduction, =Intro:
+
+One foundational claim we take for granted is that identify is reflexive. Everything is self-identical.
+
+a = a
+
+We will not offer proofs of a claim like this one. It is just assumed. It is a rule of our language that we can introduce self-identity propositions at any time in a proof.
+
+ | k. n = n =Intro
+
+The mark points to the sentence that the rule entitles you to enter.
+
+Where n is any term, at any point in the argument, on line k, you may assert the above. This rule allows us to introduce identity statements into proofs. It tells us that any sentence of the form, whatever = whatever, can be validly inferred from whatever premises are at hand, or from no premises at all. Essentially, this rule embodies the principle of reflexivity of identity.
+
+Let me repeat, the claim that something is identical to itself is the logical consequence of any set of premises, including the empty set. The identity introduction rule is fairly special, since it will not require any line citation, and that is because it follows from any set of premises.
+
+Note that we call this an identity introduction rule. This is because we are introducing a brand new identity symbol in our proof.
+
+
+
+Identity Elimination, =Elim:
+
+Another foundational claim we take for granted is the indiscernibility of identicals (Leibniz’ name for it). Essentially, if a = b, then a and b have exactly the same properties. Things which are identical are indiscernible (you can’t tell them apart). They are the same thing. This is basis of the identity elimination rule in our formal language.
+
+|k. P(n) |k. n = m
+
+| … | …
+
+|l. n = m |l. P(n)
+
+| … | …
+
+|q. P(m) =Elim: k, l  |q. P(m) =Elim: l, k
+
+
+
+Where P(n) is any sentence in which the term n appears. Note that the order of sentences n = m and P(n) don’t matter, however, the justification line citations do matter.
+
+P(n) is the property statement. In our justification, we will state the property statement first in “=Elim: k, l” assuming line k is the property statement.
+
+This rule tells you that you may substitute m for n wherever you like, provided that you have the sentence n = m. This rule embodies the principle of indiscernibility of identicals.
+
+Please note that the term order of the identity sentence matters. We can replace occurrences of n in P(n) with m, but the proof isn’t the other way around. We should read the identity sign as:
+
+“Any instance of n can be replaced with m.”
+
+Hence this is not okay:
+
+|k. P(m)
+
+| …
+
+|l. n = m
+
+| …
+
+|q. P(n) =Elim: k, l
+
+
+
+Line l. tells us that any instance of n and be replaced with m. In this case, however, we attempted to replace the m in line k. with an n to produce like q. =Elim does not allow us to do this. If line l. was m = n, then this would work.
+
+
+
+Please note the “P()” predicate in the identity elimination. There is a reason we cannot have this:
+
+| k. n
+
+| …
+
+| l. n = m
+
+| …
+
+| q. m =Elim: k, l
+
+
+
+Names aren’t sentences! Every line must be a sentence. Every line must be capable of being either true or false. A name cannot be true or false. We need atomic or complex sentences, which require a predicate and name(s). Note, however, that n = m is a sentence. It is capable of being either true or false. All of our rules will generate sentences.
+
+
+
+Lastly, when we say, “Any instance of n can be replaced with m,” the replacement doesn’t have to be all instances; it can be just one instance. For example:
+
+
+
+|k. m = m
+
+| …
+
+|l. n = m
+
+| …
+
+|q. m = n =Elim: k, l
+
+
+
+Notice that although the rule is called an “elimination” rule, although nothing is really being eliminated. The idea is that we have used (eliminated?) an identity sentence in the process of arriving at a conclusion. That is, we are arguing “from” an identity sentence, and in that sense we are “eliminating” it.
+
+
+
+
+
+General Claim about Rules in Fitch-Style FOL – In Fitch, each logical symbol has a pair of rules associated with it: an introduction rule, which tells you how to get a sentence containing that logical symbol into a proof, and an elimination rule, which tells you how to deduce something from a sentence containing that logical symbol. For this reason the rules in a system like Fitch are sometimes called “intro/elim” rules. Thus, =Intro tells us how to enter a new identity sentence (we can enter a = a) in our proof, and =Elim tells us how to use an identity sentence (n = m) as a premise.
+
+
+
+By midterm we will have 5 symbols, with one intro and one elim rule for each symbol, thus 10 rules. In a moment, we will add a special rule to this which is neither an intro nor an elim rule, making it 11. This will form the foundation of our language. If we lucky, we will have 2 more symbols, each with an intro and elim rule – so, if we are lucky, we’ll have 15 rules to learn in this class.
+
+
+
+
+
+Reiteration Rule , Reit:
+
+This is the exception in Fitch. It is a rule that isn’t an elim or intro rule. It has no symbol either.
+
+| k. p
+
+| …
+
+	| l. p Reit: k
+
+
+
+If we have a sentence at some previous line, we can reiterate that line later one. Sometimes we’ll do this for aesthetic reasons, and sometimes we’ll need to be able to restate a sentence we already had to fulfill certain requirements of our other rules.
+
+
+
+
+
+More on Identity – If you recall, identity is symmetric and transitive.
+
+Symmetry: for all a and b, if a=b, then b=a
+
+Transitivity: for all a,b, and c; if a=b, and b=c, then a=c
+
+Informal argument for symmetry:
+
+Let a and b be arbitrary. Sp’ a = b Show: b = a
+
+By reflexivity of = (identity), we have a = a. But, by the indiscernibility of identicals, a and b have exactly the same properties. So, it follows that b = a.
+
+Semi-formal argument for symmetry (there is a formal way to translate the “for all” component of the definition, but we won’t be able to do that until much later in the course):
+
+|1. a = b	
+
+|2. a = a =Intro
+
+|3. b = a =Elim: 2, 1
+
+
+
+In the blocks language, the predicate SameSize is capable of being reflexive, symmetrical, and transitive.
+
+Every block is the same size as itself (reflexive);
+
+If you have two blocks of the same size, then they are symmetrical;
+
+If you have a, b, c with the same size between any 2 sets of these, then all 3 are transitively the same size.
+
+
+
+Example:
+
+
+
+|1. SameRow(a, a) (show SameRow(b,a))
+
+|2. b = a (can’t replace any ‘b’ with ‘a’ because no b’s here)
+
+|3. b = b =Intro
+
+|4. a = b =Elim: 3, 2
+
+|5. SameRow(b, a) =Elim: 1, 4
+
+
+
+It might at first seem that this proof should be a one-step application of =Elim. But notice that the way we have stated this rule requires that we replace the first name in the identity sentence, b, for the second, a, but we want to substitute the other way around. So we need to derive a = b as an intermediate conclusion before we can apply =Elim.
+
+
+
+Ana Con – The software offers you a few mechanisms which are like rules, but are not really rules of our language. Ana Con is one of three such mechanisms. You won’t be able to use these mechanisms on our tests, but you will need to understand and use these mechanisms in your homework. The concepts you learn from the mechanisms, however, will be crucial to many test questions.
+
+This is a mechanism that is built into the Fitch computer executable, the software that comes with the book, not the language Script F we use for proofs. It basically checks to see whether a conclusion does indeed follow from its premises.
+
+As we will see, Ana Con uses a broader notion of logical consequence than is strictly allowed in FOL. Importantly, Ana Con understands and can analyze the meanings of most of the predicates in the blocks language.
+
+Open Fitch.exe, show Larger(a, b) follows from Smaller(b, a) using Ana Con
+
+For example, in FOL we cannot deduce, but Ana Con will validate this:
+
+|1. Smaller(b, a)
+
+|2. Larger(a, b) Ana Con
+
+
+
+The reason we can’t validate or deduce this in FOL is because the inference depends on the meaning of the predicates, and FOL is blind to the meanings of the predicates. Given the meanings of the predicates Larger and Smaller, we may note that it is not possible for the first sentence to be true and the second false. So there is a clear sense in which the inference in question is valid. This sense, however, cannot be proven in FOL.
+
+Ana Con doesn’t have this limitation. Ana Con’s inferential abilities sit is outside the scope of FOL. Ana Con takes the meanings of the predicates into account. So we’ll say that Larger(a, b) is an analytic consequence of Smaller(b, a), even though it is not a first-order consequence of it.
+
+We are learning FOL in this class, and thus, we won’t be able to prove the following argument with the formal tools we have (although, we can easily give an informal argument that isn’t in FOL).
+
+FOL, clearly, has some limitations. There are many obvious and valid arguments which can’t be proven in FOL. You need to understand these limits and why! The use of the Ana Con rule in your homework will clarify this for you, and it will demonstrate to me that you really understand the limits of FOL.
+
+To be clear: Ana Con is not a rule of our language, but it is a rule that you will sometimes need to use in your homework.
+
+Homework: 2.8, 2.10 (Submit these only – no written work)
+
+2.15-2.20
+
+
+
+§ 2.5
+
+Counterexamples – We’ve been demonstrating logical consequence in our proofs. We can also demonstrate non-consequence, not via proofs, but rather via counterexamples.
+
+When we establish that an argument is valid, we establish something quite general. That is, that it is impossible for the premises to be true and the conclusion false. To put it another way, we establish that in every possible situation in which the premises are true, so is the conclusion.
+
+Conversely, to establish that an argument is invalid, we must show that it is not valid. We must demonstrate that it is possible for the premises to be true and the conclusion false. To put it another way, we must specify a hypothetical world in which the premises are true and the conclusion is false.
+
+So when we show an argument to be invalid, we need not prove anything general. It is sufficient to describe a possible situation in which the premises are true and the conclusion is false.
+
+To prove S is not a consequence of P1, P2,…, Pn, show it’s possible for the P’s to all be true and S to be false. You can do this by providing a counterexample.
+
+A counterexample is a possible situation/circumstances/world in which P1, P2,…, Pn are all true and S is false.
+
+| Joe Biden a politician. |P1	
+
+| Few politicians are honest.	|P2
+
+| Biden is not honest. |S
+
+
+
+We need to specify a possible world/domain in which the premises are true at the conclusion false:
+
+
+
+T | Joe Biden a politician. T |P1	
+
+T | Few politicians are honest.	T |P2
+
+F | Biden is not honest. F |S
+
+
+
+If this is possible, then the argument can’t be valid by definition (hence it must be invalid). Valid arguments, by definition, are such that when the premises are true, it is impossible for the conclusion to be false.
+
+
+
+A complete counterexample will specify a domain, and then verify that the premises are true and the conclusion false. A counter example will specify a world and verify that the argument is invalid, i.e. that the conclusion is a non-consequence of the premises.
+
+
+
+Specify: Let the world be such that Biden is a politician, and few politicians are honest, and Biden is among the honest politicians.
+
+
+
+Verify: Premise 1 is true because Biden is a politician, as specified.
+
+Premise 2 is true because few politicians are honest, as specified.
+
+The conclusion is false because Biden is honest, as specified, rather than not honest, as concluded in the argument. Thus, the argument is invalid.
+
+
+
+This is the style of counterexample you will provide on your exams. Note, however, that you will also be required to provide counterexample Tarski worlds for your homework.
+
+
+
+
+
+Open Tarski’s World, create a counterexample world to the following argument:
+
+
+
+|LeftOf(a, b)
+
+|RightOf(c, a)
+
+|LeftOf(b, c)
+
+
+
+Note how, given the premises, the conclusion can possibly be true, but it isn’t necessarily true. That means it isn’t valid.
+
+
+
+Our written method can handles this argument as well.
+
+
+
+Specify: Let the world consist in 3 cubes: a, b, and c. a is to the left of b, and c is between a and b.
+
+
+
+Verify: Premise 1 is true because a is to the left of b, as specified
+
+Premise 2 is true because c is to the right of a, since it is between a and b, and a is to the left of b, as specified.
+
+The conclusion is false because b is not to the left of c, rather it is to the right of c, since c is in between a and b, and a is to the right of b, as specified. Thus, the argument is invalid.
+
+
+
+Homework: 2.21, 2.24-2.27

@@ -1,0 +1,29 @@
+created: 20170404012154373
+modified: 20171103020819997
+revision: 0
+title: Tiddlywiki Howto: Center Objects
+
+```
+@@display:block;text-align:center;
+
+foobartexthere
+
+@@
+```
+
+```
+using pure HTML:
+   <div style="text-align:center;">[img[...]]</div>
+```
+```
+using wikitext inline CSS:
+   @@display:block;text-align:center;[img[...]]@@
+```
+```
+using a CSS rule in a tiddler tagged with $:/tags/Stylesheet:
+   .center { display:block; text-align:center; }
+and then write:
+   @@.center [img[...]]@@
+```
+
+Note that "display:block" is required for centering to work, otherwise the left/right extents of the containing element fit the content (i.e., match the image dimensions) and there will be no extra whitespace to center the image within.

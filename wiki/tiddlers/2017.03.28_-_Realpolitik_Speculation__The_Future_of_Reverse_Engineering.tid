@@ -1,0 +1,29 @@
+created: 20170329011433701
+creator: h0p3
+modified: 20181118204540945
+modifier: h0p3
+revision: 0
+tags: [[Realpolitik Speculation]] RPIN [[Computer Musings]]
+title: 2017.03.28 - Realpolitik Speculation: The Future of Reverse Engineering
+
+Over the years, I've come across a lot of novel obfuscation and DRM techniques. Some are more fun and interesting than others, but none are unbeatable. Yet. 
+
+Reverse engineering is one of the few ways we have to guarantee that intellectual property (IP) rights are merely legal barriers rather than technological and epistemic barriers. Essentially, without reverse engineering, a significant portion of IP would be trade secret protected to the Nth degree. Natural technical monopolies would arise more frequently, and they would be much harder to break. In the technical world, these monopolies would start breeding, clumping together, and devouring the rest of the ecosystem.
+
+Without reverse engineering, we'd have market distortions ripe for an even stronger degree of exploitation, enslavement, and fleecing than we already have. Therefore, I take reverse engineering to be part of the toolkit necessary for maintaining some degrees and kinds of freedom from the exploitation of capitalist pigs. 
+
+Capitalists are fighting back, and hard. One obvious example is the centralization of computing into vertical data/computation silos. It's hard to reverse engineer that which you never have access to (or only have minor access to). You can only attempt to understand what they do from the outside and script your own (like ~WoW private servers, but on an epic scale). You probably don't have the hardware or the human capital for it either. Hint: you can't replace Google for internet search at this point. Nothing comes close (and it's been that way for a long time). 
+
+We must maintain our ability to understand what IP owners are doing at a technical level. Without it, we are lost. It has already begun on multiple fronts. The sky is falling. The fight is not over though. We can still win. Here is an example of when we will begin to lose the ability to fight back and reverse engineer (assuming it is even possible):
+
+//Black-box cryptographic obfuscation//
+
+We may get to a point where cryptography will obfuscate programs so as to guarantee that we cannot possibly have a sufficient amount of computing power to reverse engineer it. This is a non-trivial problem actively being worked on in the field of cryptography. Such breakthroughs may exist (and may have already been found by state-actors). If it ever becomes viable, there will be software that we, the people who often only access the binary at best, cannot understand or dissect for ourselves by definition. 
+
+Imagine running a full suite of software which isn't just a bunch of blackbox binary blobs to you, but are literally blackbox binary blobs to everyone (even the experts among experts). You literally cannot know what it is fully doing, and no one can. Without the ability to reverse engineer it, you have lost control of your machine in fundamental ways. 
+
+This will be the beginning of extremely powerful malware. But, beyond malware, the software ecosystem will radically evolve because of it. Incentives and behaviors change when technical capacities do, especially when significant power imbalances arise. This is part of that two-edged sword of cryptography. 
+
+The Crypto-Blackbox Walled Garden is coming. This is only one sufficient cause for the death or near death of reverse engineering, at least insofar as it benefits the masses. There are other surfaces to attack. Our power equalization tools are increasingly vulnerable and may eventually become obsolete.
+
+The future of reverse engineering continues to look grimmer each passing decade. There will be a point of no return. Our masters are busy locking us out of the fleeting utopia they are creating just for themselves.

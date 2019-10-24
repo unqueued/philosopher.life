@@ -1,0 +1,12 @@
+created: 20190717201632831
+modified: 20190809041204155
+tags: 
+title: $:/plugins/kookma/todolist/data/Family: TDL/tasks
+type: application/json
+
+{
+    "2019.07.17-161631459": "Get [[TDL]] tabs setup.",
+    "2019.07.17-161656406": "Build Syncs between our wikis, need exception handling and convention",
+    "2019.07.18-235754246": "We need to build out bookmarks mapping onto each others wikis. Where are places you should be checking?",
+    "2019.08.08-211203623": "Shoping: Dishtabs"
+}

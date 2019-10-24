@@ -1,0 +1,164 @@
+created: 20180517214231647
+creator: h0p3
+modified: 20181031035931162
+modifier: h0p3
+tags: Tulane
+title: 2012.10.04 - Autonomy: Ekstrom Notes
+
+Summary:
+
+(There are a lot of moving parts in this theory, so I’m oversimplifying a great deal in my summary)
+
+Ekstrom claims to be solving a regress problem in autonomy that is similar (and related) to the regress problem in epistemology. She believes coherentism, naively the acceptance of a circular or holistic justification for beliefs of autonomous desires/actions, is the solution to these regress problems.
+
+Autonomy is acting on your own reasons. Exactly what “you” are and what counts as “your reasons” is the basis of the paper. Ekstrom builds some important definitions in the first half, and then provides a rigorous set of definitions in the latter half of the paper.
+
+    Preferences are those first-orders desires from which one effectively acts (if and when one acts) that have been positively evaluated by a second-order desire based upon an agent’s standard of good.
+
+    A Character System is a time-slice of agent which contains both the preferences and the set of propositions accepted by an agent. Belief Acceptance clearly aids preference-formation.
+
+    Naively, One’s Self is (1) one’s character system, (2) the power to fashion/refashion that character system. However, the True, Central Self is the subset of acceptances and preferences that cohere together.
+
+    Authorized Preferences are those preferences which cohere amongst our other preferences and acceptances. Authorized Preferences have other preconditions, etc.
+
+    Very naively, Coherence is about the long-lasting and deep elements of who we are as a person. I believe there is some kind of root character system which is logically consistent with itself.
+
+The last section, the technical part, is a formal account of coherentism (which offers a formal account of many of the previous concepts). I’m not entirely sure I understand it, and regardless, it is not the kind of thing which can be nicely summarized. Ekstrom’s account attempts to layout preference-formation and competition. The hope is that by offering a kind of circular/holistic account of autonomy, she answers some the fundamental questions of identity and defeats the regress problems in epistemology and autonomy.
+
+
+
+Thoughts:
+
+I have little sympathy (at this point) for coherentism – at the least, it isn’t very satisfying as an answer to these regress problems. Circular reasoning is circular reasoning.
+
+An enormous amount of this theory hinges upon evaluating desires based upon one’s standard of good. I’d like a formal account of the standard of good. Is one’s standard of good merely a set of beliefs, or is it also a set of desires? If they are desires, is that a complication for this theory? Consider: I believe X is the good. I cannot hold that belief unless I also desire X – that is what it means for X to be normative in my eyes. What then does it mean for me to desire the standard of good?
+
+Further, how can we talk about moral responsibility in this case? I may do something wrong, something I know is wrong, and yet it may not have been me doing it. Using her example, I may think that I really am accepting to cuss my siblings out. I did it, and I wanted to do it. I knew it is wrong, and I wanted to do it. I am responsible for that. That was me doing it. What distinguishes the desires I act from as being “mine” or not mine seems arbitrary in this theory, it only has to do with whether or not I’ve formed beliefs and evaluated these desires based upon my conception of the good. Why can’t I simply desire to do an action, and not want to think about the good – why can’t I choose to ignore the good?
+
+Also, if I do not cohere well enough, am I not a person? What if there are multiple coherent sets? Am I multiple characters? Does one need to cohere more than another? Despite a formal account, I am still not quite sure what counts as coherent?
+
+Authorized preferences have the precondition that I must be “comfortable owning” them. Who is the “I” in this? One must be whole-heartedly behind it. Why can’t the coherent “I” not have any reservations? Why can “I” have any contradictions in me? Where does this “I” come from - does it magically appear when I have a large enough and logically consistent enough set of preferences and acceptances?
+
+I am at a loss for what is meant by “valuable to prefer,” etc.
+
+---
+
+
+
+Autonomy = Acting on your own reasons (599)
+
+Must define what is means for a reason to count as “one’s own” + what constitutes the ‘self’
+
+“Any plausible analysis of freedom ought to give some account: (i) the availability of alternative possibilities, and (ii) self-determination.'” (599)
+
+Why should I agree to alternative possibility? What does that even mean? When you are programmed like a robot, and you are determined to do X, then there is only one possibility. Those kinds of cases, I can agree to the ‘alternative possibility’ condition. I’m trying to think of the times where I don’t agree to the alternative possibility condition – my problem is that I’m having a hard time conceiving a circumstance. So, let’s say you I’ve been given drugs to paralyze me and I’m sitting in a sensory deprivation chamber. I still have choices about what I will think about, etc – those are alternative possibilities. With respect to moving my limbs or doing anything physically, well, yeah I don’t have a choice. I’m not free with respect to those things, yet I still am free in some very important psychological sense. I’m worried about Frankfurt’s demon though – it seems like there is a way in which there is practically no other alternative, but theoretically I am still free.
+
+Autonomy is her ‘self-determination’ condition, right? So, autonomy seems to be a precondition to freedom.
+
+Ekstrom claims to be solving a regress problem in autonomy that is similar to the regress problem in epistemology, what I believe is the internalist-based regress (600). What justifies beliefs? If we point to other second-order beliefs to justify them, then we may need to justify those SO beliefs, hence the regress. She believes the coherentist position is the solution. Is it really? I don’t find the epistemologist coherentist position to be compelling at all – I’m wary of a similar approach to autonomy.
+
+Two different ways to generate the regress of volitions (601)
+
+The Evaluative Regress – The usual problem. Frankfurt tries to solve it through the ‘decisive commitment to the first-order desire’, but “the termination is arbitrary in the absence of any grounds for stopping the ascent to higher-order desires.” (602) To me: It seems that to autonomy really exists in that decisive commitment, not where Frankfurt thinks (in the orders). The problem of autonomy is either deeply incomplete (on my interpretation of Frankfurt) or the regress still stands if one denies my interpretation.
+
+Interestingly, what the regress seems necessary to embrace (602). What makes any N-Order desire “own’s own” is that there is a N+1-order desire for it (positive evaluation from 601). Also, and this isn’t spoken, but I assume from Ekstrom’s analysis, it requires an N+2-order “scrutiny” of the corresponding N+1, which may or may not be N+2’s positive evaluation of N+1. This regress seems necessary to embrace because there is an “absence of a separate account of the internality of particular second-order desires, an account of that in virtue of which they can confer ‘internal status’ on certain desires of the first-level, the regress of higher-order desires remains.” (602)
+
+“The second problem for hierarchical accounts is the problem of identification.” (602) One must identify oneself with one’s first order desire to be autonomous (free for Frankfurt), yet it seems as though the second-order volition is what the self identifies with (that is what does the identifying with), and somehow first-order desires become external to us, as they are external to the second-order desires. The problem, however, is that it seems completely arbitrary that one should identify oneself with one’s second-order desires (603). What makes that higher-order desire so special or significant? Why is that order the real me?
+
+“There are actually two problems of identification here: (i) An agent or self is to be identified with what? What is essential to a self? And (ii) What is it for a self to identify with some desire, course of action, or belief, deeming it as one's own?” (603)
+
+
+
+Preference
+
+“(i) For a certain first-level desire to be effective in action, when or if one acts, and (ii) that is formed in the search for what is good.” (603)
+
+Wait, that second one seems really awkward. What does it mean to be evil or to desire evil or be autonomously wrong-doing?
+
+What are the mechanics behind evaluating a “first-level desire with respect to some standard of goodness?” Also, this seems subjectivist and bordering on moral anti-realism.
+
+Evaluation is not necessarily performed consciously! (603)
+
+Susan the Shoplifter (604). The end is to “avoid giving an overly straight-laced impression.” Shoplifting is not a mean to Susan’s pursuit of the good, which presumably means that “avoiding giving an overly straight-laced impression” is not a means to Susan’s pursuit of the good. This end is a “passing desire” Susan is ashamed to have. Her FO desire must be evaluated by a SO desire, an evaluation which isn’t arbitrary, but based upon Susan’s conception of the good.
+
+“A preference…is formed because one finds a certain first-level desire to be good, either in itself or as a means in a particular instance to realizing one’s general conception of the good.” (604)
+
+My initial worry: Susan’s conception of the good may be arbitrary. Also, what does it mean to have a conception of the good? Will this be a problem? Ekstrom appears to answer the ‘arbitrariness’ problem Frankfurt has…but does she really?
+
+Ekstrom doesn’t care much about whether or not ‘preferences’ are higher-order or just special first-order desires. (604) I’m worried about this, as this distinction seems crucial to considering whether or not she really escapes the regress. Further, I may disagree about what the ‘intentional object of each is the states of affairs of some first-order desire being effective in leading one all the way to action’ as somehow not being really about the first-order desire. And, I don’t know why this is important. To my intuition, the man on an island who desires to destroy the world (and yet can’t) wants it, whether he knows he can be effective or not. If he could, he would – that is the autonomous him, governing his desires, without much worry about the state of affairs, right?
+
+“Preferences are the results of higher-order states, since they are , by definition, the output of reflection about first-order desires, reflection that occurs as the agent evaluates those first-level desires with respect to the standard of goodness” they have. (605)
+
+Ekstrom sounds like an internalist virtue ethicist in her explanation of Bill and use of the word “salient” on 605, as well as the use of “character” and the subjectivity concerns I have.
+
+The exam/novel student example highlights how important the “standard of good” is to this theory. Importantly, it really seems as though the student is trying to form beliefs about desires, connecting them to the “standard of good,” and evaluating which desires one wants based on desiring the standard of good.
+
+What does it mean to desire the good? How does that work in this theory? It seems circular. I desire the good because when I evaluate my standard of good, it seems good to desire the good.
+
+Somehow there is a kind of rationality built into this model. Can one evaluate poorly, and is that action still autonomous? Like, what if I do a bad job of generating the beliefs that connect one desire instead of another to my standard of good? I still tried though, and is that enough to say I’m autonomous? What if the standard of good is too complex, and I can’t make a complete and thorough evaluation because it would take too long? Am I still autonomous?
+
+
+
+The Self and Authorized Preference
+
+Character System – 1) the set of propositions accepted by an agent S at a time T, and (2) the preferences of S at T. (606)
+
+Acceptances aid the agent in preference-formation, indicating “what sorts of actions and states of affairs are instrumentally and intrinsically good.” (606)
+
+One’s self is (1) one’s character system, (2) the power to fashion/refashion that character system. (606)
+
+This paper reads like an analytic-continental-hybrid, virtue ethicist writing an epistemology paper about autonomy, and yet it is clear!
+
+The evaluative faculty for fashioning character (maybe not the same as evaluation above) is internal to the self. (606) And, it is the faculty for fashion one’s character according to one’s standard of good.
+
+Is one’s standard of good merely a set of beliefs, or is it also a set of desires? If they are desires, is that a complication for this theory? Consider: I believe X is the good. I cannot hold that belief unless I also desire X – that is what it means for X to be normative in my eyes.
+
+Somehow, this evaluation which forms preferences seems too mechanical. I have beliefs about the good. I have FO desires. I evaluate whether or not FO desires are a means to the good. If so, I’m being rational and autonomous when I act on those FO desires.
+
+How can we talk about moral responsibility in this case? I do something wrong, something I know is wrong, and yet it wasn’t me?
+
+What makes her account of character so effective, in Ekstrom’s eyes, is that it individuates and distinguishes unique agents. (607)
+
+Ekstrom wants perpetuity, consistence, and continuousness in identities/character. We cannot be in a state of perpetual flux. (607) How quickly can we change ourselves and still be called ourselves?
+
+Condemned (rather than accepted) desires, which are not preferences, may still be acted on. In some “weak” sense these are our desires, but they aren’t really our desires, those must be accepted.
+
+Counterpoint: I think that I really am accepting to cuss my siblings out. I fucking did it, and I wanted to do it (what assholes!!?!). I know it is wrong, and I wanted to do it. I am responsible for that. That was me doing it and wanting it. What distinguishing the desires I act from as being “mine” or not mine seems arbitrary in this theory, it only has to do with whether or not I’ve formed beliefs and evaluated these desires based upon my conception of the good. Why can’t I simply desire to do an action, and not want to think about the good – why can’t I choose to ignore the good?
+
+What makes this a coherentist position? Ah ha, the answer is next!
+
+The true, central self is the subset of acceptances and preferences that cohere together. Authorized preference requires coherence among our preferences and acceptances. (608)
+
+If don’t cohere well, you aren’t a person.
+
+What if there are multiple coherent sets? Am I multiple characters? Does one need to cohere more than another? What does it mean to cohere?
+
+Coherence requires “long-lasting” elements (608).
+
+She seems to think she escaped addictive desires on 608. I don’t see how.
+
+She is claiming that we must be able to “defend” – which is about consciously being able to make explicit. (608) But evaluation doesn’t require consciousness, she says.
+
+Authorized preferences have the precondition that I must be “comfortable owning” them. Who is the “I” in this? One must be whole-heartedly behind it. This seems weird – she means the coherent “I” assumedly. Why can’t the coherent “I” not have any reservations? Why can “I” have any contradictions in me?
+
+“Valuable to prefer” - ?? (608)
+
+From my perspective, Coherentism isn’t about “who I am” but rather “what justifies my beliefs?” I find it awkward to have a coherentist view of the self. This reminds me of Korsgaard a lot.
+
+
+
+Autonomy
+
+Definitions from 611 on (I’m fucking lazy)
+
+Coherence:
+
+[A preference coheres with a character system] IFF [ Either (That preference is more valuable than any competing preference to the agent based upon their character system) or (…
+
+
+
+“When preferences compete, I consider the elements of my character system, to see which of the competitors it is more valuable for me to prefer. That is, I check the competitors against the coherent system of what I prefer and accept. The competitor that gets defeated or neutralized is the one that is not authorized, while the one that survives is authorized.” (612)
+
+There are a lot of moving parts in this theory.
+
+Self-determination is said to occur when an authorized preference is causally related to the performance of its corresponding act(s). (614)

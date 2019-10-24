@@ -1,0 +1,10 @@
+created: 20170413023543747
+modified: 20170413172944149
+revision: 0
+title: Decentralized WeChat
+
+WeChat is a monster. It's disgusting. It is spreading. We already do much of it, but they have come closer to perfectly the centralization of information/power/control over populations with it. This is the way the world is going.
+
+We desperately need a p2p service which runs in WASM and probably Golang (or Rust) which is highly extensible. We need Linus to Linux on this Messaging+ problem. Piercing through NATs is really hard fucking work though.
+
+Monetizing it isn't easy. Open-sourcing goes a long way. You still need a foundation that shapes it. 

@@ -1,0 +1,19 @@
+created: 20170423181339415
+modified: 20170423181520573
+revision: 0
+title: Diet Log Template
+
+```
+|customTable|k
+|Food|Calories|h
+|||
+|||
+|||
+|||
+|||
+|||
+|||
+|||
+|||
+|Total||f
+```

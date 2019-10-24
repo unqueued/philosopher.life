@@ -1,0 +1,77 @@
+created: 20180517222602864
+creator: h0p3
+modified: 20181031035931162
+modifier: h0p3
+tags: Tulane
+title: 2012.09.17 - Epistemology: Externalism vs. Internalism Debate
+
+The Lottery Paradox
+
+Perhaps I have greatly misunderstood the Lottery Paradox (forgive me if I have). The Lottery Paradox doesn’t seem so obviously problematic to me. It may, in the end, actually demonstrate a problem somehow, but it doesn’t do it well, in my view. At the very least, the way in which Bonjour presents the Lottery Paradox seems unfair.
+
+Let me reconstruct the Paradox as Bonjour presents it and (very briefly) try to evaluate whether it does the work Bonjour thinks it does.
+
+Assume there is a fair lottery with 100 tickets sold. For each possible n, where n >= 1 and n <= 100, “Ticket number n will lose” has a .99 probability of being true. The probability there will be a winning ticket (from these 100) is 1.00, and the probability of any particular ticket winning is 0.01. 
+
+Further, if we assume that “a belief is adequately justified to satisfy the requirement for knowledge if the probability its truth, relative to its justification, is 0.99 or greater,” then for any particular n, believing “Ticket number n will lose” is adequately justified to satisfy the requirement for knowledge.
+
+Bonjour’s critical assumption is this: If we are epistemically justified in believing the statement “Ticket number n1 will lose” and the statement “Ticket number n2 will lose,” then we are epistemically justified in believing the conjunction of these statements. 
+
+I believe this is essentially what Bonjour is claiming:
+
+On the left side, we have a standard proposition logic substituting for the statements to their right.
+
+```
+A ------------- [Ticket number n1 will lose]
+B ------------- [Ticket number n2 will lose]
+A & B --------- [Ticket number n1 will lose] & [Ticket number n2 will lose]
+
+By exaggerating this through multiple conjunctions, an absurdity supposedly emerges. It is thought to look something like this:
+
+A -------------	[Ticket number n1 will lose]
+B -------------	[Ticket number n2 will lose]
+C -------------	[Ticket number n3 will lose]
+D -------------	[Ticket number n4 will lose]
+. 
+.
+.
+A & B --------- [Ticket number n1 will lose] & [Ticket number n2 will lose]
+A & B & C -----	[Ticket number n1 will lose] & [Ticket number n2 will lose] & [Ticket number n3 will lose]
+.
+.
+.
+```
+
+The conjunction of the logical propositions is pretty basic. If 100 propositions are true [P1, P2, . . ., P100], then the conjunction of all 100 propositions, e.g. [P1 & P2 & . . . & P100], is also true. The idea of the Lottery Paradox is thought to be similar to propositional logic. The right hand process, seen above, is continued until we arrive at the following claim, which I will refer to as X:
+
+X = [Ticket number n1 will lose] & [Ticket number n2 will lose] & . . . & [Ticket number n100 will lose]
+
+What is X saying? X is the claim that Ticket numbers 1 through 100 will all be losing tickets. If one is epistemically justified in holding any particular [Ticket number n will lose], then Bonjour claims we are, on this account, epistemically justified in holding the conjunction of all particular [Ticket number n will lose]. Thus, we would be epistemically justified in holding X. 
+
+But, X is contradictory to the initial information about the game, namely, there is 1.00 probability that one of the 100 tickets will win. Given that fact about the game, X is both justified (through this conjunctive process) and unjustified given the contradiction. This is taken to be a serious problem for a probabilistic satisfaction of the requirements of knowledge.
+
+I don’t, however, agree to what is happening here. 
+
+The mistake is thinking that logical inference is wholly analogous to the process of probabilistic inference. For example, at least in classical thought (set aside fuzzy logics, etc.), A is either true or false. There isn’t a degree in between. [Ticket number n1 will lose] is dealing in degrees and probability. Yes, it either true or false that [Ticket number n1 will lose], but the probability that it true or false isn’t binary, it comes in degrees, 0.99 in this case. Because of this, probabilistic inference doesn’t appear to inherit the kind truth functionality we see in logic. Forget the conjunctions, they are the wrong tools for this problem.
+
+While I agree with these moves:
+
+```
+A ------------- a.k.a. “A is true”
+B -------------	a.k.a. “B is true”
+A & B ---------	a.k.a. “A is true, and B is true”
+
+I can’t agree with these moves:
+
+[Ticket number n1 will lose] --	This has a 0.99 probability
+[Ticket number n2 will lose] --	This has a 0.99 probability
+[Ticket number n1 will lose] & [Ticket number n2 will lose] --	This has a 0.99 probability
+```
+
+But, [Ticket number n1 will lose] & [Ticket number n2 will lose] does not have a 0.99 probability. The probability is less than 0.99. 
+
+Note that at the last stage of the argument, we are doing finite math (not logic) when realizing the probability of X is 0.00 – that’s how Bonjour could arrive at the contradiction in the first. But, if I can infer the probability X, then why can’t I also be allowed to infer the probability of [Ticket number n1 will lose] & [Ticket number n2 will lose], which is less than 0.99? Clearly, the conjunction of these two beliefs falls below the threshold of satisfaction required for knowledge. 
+
+Even assuming this probabilistic theory, one would not be justified in believing X. Surely, there is no contradiction or obvious absurdity that arises. 
+
+Granted, all this is not to say that logical inference (such conjunctions) have no meaning in a probabilistic account of knowledge (they certainly do mean a lot). The nature of logical inference is just awkward and perhaps unintuitive when working in a theory based on probabilistic satisfaction of the requirements of knowledge.

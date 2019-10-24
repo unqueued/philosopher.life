@@ -1,0 +1,11 @@
+created: 20180804050720175
+creator: h0p3
+modified: 20180804050747654
+modifier: h0p3
+title: i3-tox-login.sh
+
+```bash
+#!/bin/bash
+
+xdotool key --clearmodifiers f o o b a r p a s s w o r d Return
+```

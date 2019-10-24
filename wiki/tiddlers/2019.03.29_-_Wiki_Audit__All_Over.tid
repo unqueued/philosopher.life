@@ -1,0 +1,34 @@
+created: 20190329155434925
+modified: 20190330050705628
+tags: [[RGM Notes]] [[Wiki Audit]] j3d1h
+title: 2019.03.29 - Wiki Audit: All Over
+
+Changed up the buttons - `firmcode-all` is now a page button (removed from [[Transclusion: Focus]]), and uses 🞖 instead of the journal button. `firmcode` now uses 🞋.
+
+Upgraded Bob (although I'm not quite sure it upgraded), loaded in the tiddlers.
+
+---
+
+So far so good with our buttons. We've not had the loop condition occur again either. `/fingerscrossed`
+
+---
+
+Bye:
+
+* $:/plugins/BurningTreeC/navigator
+* $:/plugins/hoelzro/progress-bar
+* $:/plugins/BurningTreeC/escapecss
+* $:/plugins/hoelzro/full-text-search
+* $:/plugins/snowgoon88/edit-comptext
+
+I'll need to ask [[j3d1h]] if we need $:/plugins/matabele/action-maketid
+
+5.1.19 brought me very little so far except that sexy splash (I'll take tits). Bob has been sick, however much a pain in the ass it has been.
+
+Surfing for plugins. I've yet to try Bimlas' brilliant tooling out. I don't want to blow a tab on it though. I do want it to automatically operate in the search bar though. 
+
+I'm trying out elmiger's modified edit button plugin. I've thought about it for a long time. I'm wondering if we can hotkey that shit. It would be worthwhile for mobile alone. I'm fairly paranoid on the phone because I've had dozens (of us) problems.
+
+Danielo's snippets might enable special hotkeys, but I can also say it doesn't seem to enable me to have substitutions.
+
+My daughter needs to look at https://tid.li/tw5/hacks.html#%24%3A%2F_telmiger%2Fextract. We keep talking about this problem. There are certain things which shouldn't be atomized into tiddlers.

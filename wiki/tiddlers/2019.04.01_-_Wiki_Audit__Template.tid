@@ -1,0 +1,24 @@
+created: 20190401174833231
+modified: 20190402001306543
+tags: [[Wiki Audit]] j3d1h
+title: 2019.04.01 - Wiki Audit: Template
+
+Added [[Wiki Review: Template]], which works pretty well for now. I'm not sure why Antipleonasm Analysis is being doubled - it doesn't happen outside of Bob.
+
+---
+
+It didn't double today. Everything initially appears clean. I have no idea how to reproduce it.
+
+---
+
+I need to try Codemirror again. It might untangle the font problem. 
+
+---
+
+[[dziggetai]] thinks it may be a mistake to go the [[Firmcoding]] route. He thinks it artificially limits the wiki, and he's convinced I should go heavier on tag-mechanics. Though he denies it, he likely knows something I do not here; I barely understand how this tool works. I [[hope]] to see as he does.
+
+I'm lucky to have anyone wrestle with me on this topic. I'm completely out of my league.
+
+---
+
+Nope. m14 failure without any indication again. Savetrail and fixing by hand works for now.

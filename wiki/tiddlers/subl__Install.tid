@@ -1,0 +1,72 @@
+created: 20190731035658377
+modified: 20190802060811571
+tags: subl
+title: subl: Install
+
+[[Install repo, subl, then uninstall repo|2019.06.24 - Computer Musings: Sublime Text 3]]
+
+{{2019.06.24 - Computer Musings: Sublime Text 3}}
+
+Install package manager by running the following in [[subl]]'s console:
+
+```
+import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) 
+```
+
+Search for and batch install [[packages|https://packagecontrol.io/]] by dropping something like the following into Preferences -> Package Settings -> Package Control -> Settings-User:
+
+```json
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"All Autocomplete",
+		"ASCII Decorator",
+		"AutoFileName",
+		"AutoPEP8",
+		"BreakLines",
+		"Browser Integration",
+		"ChangeQuotes",
+		"DeleteBlankLines",
+		"Duplicate And Increment",
+		"Expand Selection to Quotes",
+		"Expand Selection to Whitespace",
+		"Extract Lines",
+		"Figlet Big ASCII Text",
+		"FileDiffs",
+		"Google Spell Check",
+		"Gremlins",
+		"Indent Respectful Sort",
+		"Keep Lines With Word",
+		"LinesMultisets",
+		"MultiEditUtils",
+		"Oddly",
+		"Package Control",
+		"PackageDev",
+		"Pandoc",
+		"Repeat Macro",
+		"SelectionTools",
+		"SelectUntil",
+		"SFTP",
+		"SideBarEnhancements",
+		"Sort Lines By Selection",
+		"SortBy",
+		"Split Line",
+		"StringUtilities",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeREPL",
+		"Surround",
+		"SwapStrings",
+		"Text Pastry",
+		"Trailing Punctuation",
+		"TransposeCharacter",
+		"Trimmer",
+		"WordCount"
+	]
+}
+```

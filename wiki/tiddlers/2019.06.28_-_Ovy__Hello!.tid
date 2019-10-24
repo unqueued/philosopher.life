@@ -1,0 +1,80 @@
+created: 20190629001227209
+modified: 20190629021552906
+tags: Ovy Letter To
+title: 2019.06.28 - Ovy: Hello!
+
+```
+
+`7MM"""Yb.                                    .g8""8q.                         
+  MM    `Yb.                                .dP'    `YM.                       
+  MM     `Mb  .gP"Ya   ,6"Yb.  `7Mb,od8     dM'      `MM `7M'   `MF'`7M'   `MF'
+  MM      MM ,M'   Yb 8)   MM    MM' "'     MM        MM   VA   ,V    VA   ,V  
+  MM     ,MP 8M""""""  ,pm9MM    MM         MM.      ,MP    VA ,V      VA ,V   
+  MM    ,dP' YM.    , 8M   MM    MM         `Mb.    ,dP'     VVV        VVV   ,, 
+.JMMmmmdP'    `Mbmmd' `Moo9^Yo..JMML.         `"bmmd"'        W         ,V    dg 
+                                                                       ,V     ,j 
+                                                                    OOb"     ,'  
+
+```
+
+It's [[good]] to meet you, [[nomad]]! Please check out the [[Readme]], make yourself at home, and let me know if and how I can [[help]] [[you|Ovy]].
+
+Dude, I lived in New Orleans for years! We lived pretty close to Rivershack and then in Metairie (next to the aqueduct near the Mall). We miss the food so much.
+
+<<<
+"There is always a master, and an apprentice" - The Emperor
+<<<
+
+That is a heckuva quote. I'm often looking for masters as well. Currently: [[WWDD]] and some [[Saints]]. I should mention: you might find me to be a madman. I may not be your cup of tea in the end, but I'm happy to help you as best as I know how.
+
+<<<
+Below is a response on the system that I use, let me know if you don't get it. Let me know what medium you prefer for communication.
+
+https://writer.bighugelabs.com/share/3d5zy6pu
+<<<
+
+For now, I'd prefer [[e-mail|Contact]] unless there is a place online I can follow. As to my responses, you can follow [[New]]/[[Recent]] or just bookmark and visit: https://philosopher.life/#Ovy. From now on, I will be leaving my messages on the wiki for you. So, check here for them!
+
+We first need to get a tiddlywiki working for you before we can work on distribution. You can pass messages to me through e-mail or chat (or you can post them on the tool you've got for now) until we've found a comfortable method for distributing your wiki (assuming you want to communicate over your wiki as well). 
+
+<<<
+Behold here is what I use, entertaining and inspiring but just not the freedom I need for making my Omnibus mind notebook, I call the Archives. I don't have the option for photographs or anything fancy, but there is the blissful ticky tack of a typewriter.
+<<<
+
+I like that phrase "omnibus mind notebook," and yes, wikis are extremely well-suited to archiving. I think you are going to love this tool (though it may cause vertigo at times).
+
+I can appreciate the tool you're using, and I can see you've been on the hunt, trying various methods, etc. I think you will vastly prefer owning your data and distribution methods in the end (you may even find you want to build your site by hand more than Tiddlywiki enables). It's a lot more work up front, but you'll be able to make it yours in a number of crucial respects. You'll basically build your own cloud to some extent.
+
+<<<
+I usually type on a chromebook, use an ipad, have a macbook laptop and a pc desktop one of the biggest reasons why I use this internet typewriter is because I open it and my writing is there, without doing anything at all.
+<<<
+
+I bet you may want to edit your wiki on your phone too eventually. This process is significantly easier if you are just making your wiki work on one device, but jumping into making it accessible on all of your devices up front is reasonable. There are different ways to handle this.
+
+Make sure you read the front page of https://tiddlywiki.com/.
+
+I've never used [[Tiddlydrive|https://lordratte.gitlab.io/tiddlydrive/#installation-guide]] before, but that might be the easiest route. You can use Google as your cloud for now. That should work across all of your devices.
+
+Another option is to use the platform specific options and synchronize the file yourself with P2P tooling. I think this is not an easy route to go, but you do own your cloud more this way.
+
+You can run the nodejs tiddlywiki server (I use Bob instead). You may run it on a VPS and access it from any internet connected device, but you'll have to set up security to make sure only an authorized user could modify (or see) the wiki. I know a lot of people who prefer this option; it solves a class of networking problems for you.
+
+I run Bob (which is a souped up nodejs server) at home, and then any device on my home network can easily access it. I setup VPN clients on all my mobile devices which can also access my home server while I'm away from home. Imho, this is the best way to do it,<<ref "f">> but I believe I am in the extreme minority on this one. My suggestion is to run Bob on a computer which is up 24/7 (you could use your PC desktop, an RPi you have laying around, or whatever).
+
+The reason I like Bob: I can modify the wiki from multiple tabs, windows, and devices simultaneously, and those changes are automatically synced to all devices. It's also really easy to have multiple wikis if you want them: some private, some [[public|Public Self-Modeler]], some for work, some for elaborate [[Dungeons and Dragons]] world and character building, a portfolio, a tool for your ESL students, etc. I prefer to keep mine as unified as possible, and I'm betting (just from the sounds of it) you probably will too.
+
+<<<
+But I would definitely like something bigger, and your wiki-journal/wiki-virtual reality is fascinating and I would like one of my own. So if you are looking for another apprentice I would be honored.
+
+Ovy
+<<<
+
+I'll do what I can to help you. I am not an expert in this tool in too many regards. It seems to get the job done for me (though I'm worried I'm outgrowing it or pushing it to its limits). It would be my honor to help you use a wiki, and I'd be delighted to have the chance to speak with you from site to site. If you do go that direction, you might want to think about what kind of domain name you want.
+
+Sincerely,
+
+[[h0p3]]
+
+
+---
+<<footnotes "f" "There are some fancy things you can do when you run it on your own machine which cannot or should not be matched by running it on someone else's, and I trust my own device far more than someone else's.">>

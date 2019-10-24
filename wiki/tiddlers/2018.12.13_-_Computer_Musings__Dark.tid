@@ -1,0 +1,14 @@
+created: 20181213182915934
+modified: 20181214151247080
+tags: [[Computer Musings]]
+title: 2018.12.13 - Computer Musings: Dark
+
+Owly isn't playing nice with Bob. Bye Owly, hello Dark Mode (whitelisting just works better). I prefer Owly's look a billionty percent.
+
+---
+
+Tango WAN Down! Fuck. Even the router is hairy, but it came back. Is this a power problem? It's so weird to see both hit. "Tether Me Softly" off [[m14]] at least gets [[m10]] back online.
+
+---
+
+Bob is absolutely destroying anything remoting in over the LAN or WAN. I'm talking 100% CPU usage on these browsers. Even [[m10]] is feeling the fuckin' heat at times. I don't know if this is nodejs or Bob. Singlefile doesn't have these problems. It's weird how much compute power is being thrown at this thing. 

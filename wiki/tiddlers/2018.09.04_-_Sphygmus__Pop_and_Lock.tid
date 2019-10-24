@@ -1,0 +1,165 @@
+created: 20180904190829206
+creator: h0p3
+modified: 20181003020346839
+modifier: h0p3
+tags: Sphygmus
+title: 2018.09.04 - Sphygmus: Pop and Lock
+
+Dear Sphygmus,
+
+Sorry I'm taking a while to respond. I've been lazy, and my monthly audit (which generally takes priority over my other projects) takes it out of me.
+
+<<<
+so, I wrote the first letter and made a proton mail account at like...12:30 am, on the verge of falling asleep. I assumed (!) that I'd remember what password I used, and didn't set a recovery email. sheesh. You'd think I'd have learned my lesson when I lost some very meaningful photos in a mega.nz account that I didn't write down the master key for...
+<<<
+
+I know your pain. I have been there more times than I can count (and I know it's going to keep on happening). I've tried a lot of options, and none of them work for me. If you ever find a password manager (and routine) to rule them all, let me know. At this point, I write it down in an encrypted wiki and abuse my browser's sync in many cases as well. I'd use this wiki, but it doesn't automatically lock individual tiddlers (yuck). Despite my interest in computer security, my praxis is hypocritically lazy. I'm sure a legit hacker/expert would look at how I do things (e.g. [[Computing]]) in profound disgust.
+
+I'm worried about recovery e-mail addresses for my protonmail. I don't use one. I am mighty tempted.
+
+<<<
+[[h0p3]],
+
+I pasted your letter into my wiki<<ref "WK">> and none of the footnotes worked - and then I realized I included TWCode in my first letter without remembering it was my personal code.<<ref "D">> Having come to this realization, I will be sure to change it before emailing it to you. It is interesting to share a medium that has the same roots, but different branches. We've each made comfortable wiki homes for ourselves, molded in different ways.<<ref "cf">> I am curious what other interactions of wiki code will come up over time.
+<<<
+
+I noticed that, and I wasn't sure why your code was different. You wrote/edited the footnote code? That is awesome. Would you prefer me to do a replacement of "footnotes" for "footer"? Would you prefer I e-mailed the document to be placed in your own wiki? You do that for me, and I have no problem doing the same for you. Perhaps there's a sense in which we both keep two sets of books in this practice. You are correct that we have different branches, and I think we're forced to do some handwork to graft. Outside of my footnotes, I think most of my work is vanilla TWcode (that may change). If we started introducing more complex, non-vanilla mechanics, this will require even more handwork grafting (which I'm fine with...I do that very often for the output of other software).
+
+<<<
+<<footnotes "WK" "I've only been using it for roughly three weeks now. I'm still very much in the infancy of molding it to my needs, and discovering what those needs are through using it.">>
+<<<
+
+Please forgive me for figuring out how best to quote and format. This is a feeling out process for me. Bear with my experimentation. It's unobvious to me what the best practices of this should be. I think in time I'll figure it out. I'm still playing with it as I write this letter.
+
+It's awesome that you are writing/modifying your own code for Tiddlywiki in the first three weeks.<<ref "tw">> I couldn't even fathom what this tool was in my first three weeks. I'm completely incompetent in this area, and I'm envious that you can just jump in and do it. You are going to be a wizard with this tool. I think I had footnotes in my first three weeks, but I certainly didn't write any code, lol. I basically skiddie the entire way inside the wiki (although I do a bit of coding work outside it). I'm currently hoping to eventually get my hands on SelectMode from BurnTreeC. True keyboard navigation opens doors for me, especially since I hope to abuse i3wm with it.
+
+Where do you think you are going mechanically and structurally? What are your categories/organization principles? I certainly didn't know 3 weeks in, but I'd like even have a notion of your intuitions at this point. I am super interested in what you have to come up with in the longrun. Even if you can't send me your wiki, maybe you could strip it down to just the vanilla mechanics for me to think about.
+
+<<<
+<<footnotes "D" "I was immensely frustrated by the plugin's design choice to implement two different kinds of footnote pop-ups called by essentially the exact same word, so I changed it. That level of customization is one of the really lovely things about TWiki for me.">>
+<<<
+
+I really haven't done much work on this front. I should go exploring again. It's an odd ecosystem. I worry I'm too complacent on the issue. There's a point where I feel like it takes all of my energy to use the wiki as it is already is; it's already so difficult to structure the content of it, let alone the TW mechanics.
+
+<<<
+<<footnotes "cf" "I'm suggesting that you've made the //place// of your wiki comfortable, fitting the font and the scale to match your screen, however uncomfortable the content may or may not be to wrestle with.">>
+<<<
+
+No doubt! It really does have the mind-palace thing going on. It's nice to be able to tailor the height of the ceilings, kitchen countertops, and rails for the stairs to my body's height. It's my hobbit hole. I would like to make it more comfortable to other users, but not at the expense of my own experience of the thing (since I spend vast amounts of time in it). You Gandalf's are forced to duck inside until I figure out a better way.
+
+I assume you are doing the exact same kind of work, and as an artist, I have no doubt it must be gorgeous and functional. I'd be interested to know your findings and preferences.
+
+<<<
+The poetry in "sphygmus" is subsequent to the choice of the word. I had been thinking about how to become visible since I read [[2018.08.23 - kickscondor: Hyperconversations]]. I felt called out for not participating in the compact of transparency with you both, and that I needed to acknowledge (thank you.) your influence on the construction of my wiki home. I didn't know what to say<<ref "c">> or in what form to say it, and I had to figure out what privacy I wanted and how to implement it. Toward that end, I wanted a pseudonym that would also work as a domain name, separate from the couple I already have.<<ref "URL">> The .us domain is absurdly cheap on Namecheap right now, and I am drawn to domain names that integrate the TLD into a word; I looked through [[a list of words ending in -us|https://www.wordfind.com/ends-with/us/]] and a lot of the words I thought were cool are already (predictably) taken - sphygm.us<<ref "dx">> was not. Somehow the word domain holders missed that one!
+<<<
+
+How did you come to read kickscondor? Do you consider yourself a member of the indieweb community (I presume so)? That TLD name integration strategy is clever and beautiful to me.<<ref "ls">>
+
+<<<
+<<footnotes "c" "(not that I have any more of a clue now)">>
+<<<
+
+It's a tricky problem. The conditions for the French Revolution(s) relied upon many analog privacy mechanics no longer available to us. Computers make everything more complex because they are essentially simulated physical universes. Possibility is pushed to its limit. I do not enjoy the task, but we must engage in it as best we can.
+
+<<<
+<<footnotes "URL" "One of the things I'm thinking about is the idea of a 'portfolio website' and how, as someone sideways stepping towards the label 'artist', I want to approach it. I despise the 'johnsmith.com' trend - it doesn't feel right for me - and yet I want any domain I choose for the purpose to be meaningful or embedded with myself. I've found a solution that fits nicely in large part because it does hold pieces of IRL me. At some point I might feel comfortable working from that domain at large, but I'm not there yet.">>
+<<<
+
+I am extremely ignorant about how to become a marketable person in general. I know some artists, but I'm not sure how much their portfolio sites help them. 
+
+Since you are an artist (and I'm really new at this), I'd like to understand how you understand the relationship (epistemic and ontological) between an artist and their art.
+
+<<<
+<<footnotes "dx" "It is also being used as a user name by several other people online, which helps obfuscate any pinpointing attempts.">>
+<<<
+
+That does help. In the end, I think this obfuscation only works against automation as it currently exists (and, I'm quite open to the tin-foil possibility of not even that). It's a good idea, but there are other fundamentals that must be considered. In the end, this is a very technical problem. Even writing stylometry is eventually going to give you away. Obscurity, a form of steganography to my eyes, might be the primary thing I have going for both of us; only a handful of humans on the planet even know (or would care) this wiki exists. 
+
+<<<
+It's been...five or six years? since my class with Lisa Ruddick. I recognized her as my former professor through the article by her references to DW Winnicott and Christopher Bolas - the class was about interpreting literature through the lenses of various psychological theories, and we read several works by those theorists. Much of her article went over my head (I'm not embedded in the critical English milieu) but the sense I got from it of the field makes me glad I didn't pursue English further. I'd rather build up our senses of self, rather than tear them away.
+<<<
+
+I don't have the verbal reasoning to pursue academic English (I'm more of a quant guy who wishes to engage the humanities). I do try to appreciate it as best I can though. 
+
+Your last claim is fascinating. I think about that issue pretty often. I think that growth is often reliant upon an dialectic oscillation between construction and deconstruction. Lisa claims to be a Modernist, so I'm curious about why you might imply she's tearing it away; maybe she is a postmodernist instead.
+
+Do you consider your art and approach to be //metamodern//?
+
+<<<
+My major went from "interdisciplinary studies" to "visual arts major philosophy minor" to "visual arts major" over the course of my time in Chicago. It's a complicated story<<ref "s">>, but I left and went back home with three classes to go before graduating. I'm just this semester taking classes at a different university to transfer back to uChicago to complete my degree.
+<<<
+
+It sounds like you've got a well-rounded education compared to a lot of students I've had in my classes. Why'd you choose uChicago?
+
+<<<
+<<footnotes "s" "I'm not averse to sharing - the shift in myself from the time I left until now has been in large part due to accepting and being honest about this experience - but it probably deserves its own letter. My thoughts on occupation, current and future, will also make up an entirely different piece!">>
+<<<
+
+Yes, another time another letter. It may even be a couple years before you've fully digested it. I know I'm still digesting my school experiences these years later, especially as I teach my children.
+
+<<<
+[[That|Antipleonasmic Catholicon]] is a directory I haven't explored yet! I shall investigate further. (I have no ideas for a title; just an observation that [[the butterfly effect|https://en.wikipedia.org/wiki/Butterfly_effect]] is linked to our interconnectivity in my mind.)
+<<<
+
+Yes, The Butterfly Effect is definitely a part of it. The causal threads are chaotically explosive.
+
+<<<
+> Who are your mentors, idols, and people who shape you the most? What is most salient to you? Where do you hope to go in the desert, and why, nomad?
+
+I will ruminate on these questions! I want to be sensitive in regards to length (walls of text can be hard to digest) and I think it will be better for answers to develop individually. I'm trying to figure out the balance of dialogue and topicality and exposition here. The process of getting to know someone through the medium of letters seems very different from that of becoming absorbed in personal writings.<<ref "pal">>
+<<<
+
+You know I'm a wall-of-texter. I strongly prefer to address every thread you drop for me too.<<ref "t">> Will it be okay if I leave it to you to manage the conversation in this regard? I realize you will pickup and drop whatever you choose to. 
+
+I see my personal writings as letters to myself. This wiki is a gigantic letter to myself. In fact, I think consciousness may ultimately boil down to parts of ourselves telling ourselves the stories of ourselves to ourselves (if I could say that cleaner without losing the literal semantics, I would).
+
+Perhaps there needs to be a difference here though. I will think more on it, and I'm listening to your advice on how to shape this better. I'm working on the assumption that one of the strengths of using wikis as our communication tools for letter writing is that we get to reference and tell a multi-threaded story. It's a high bandwidth exchange. There are the 1st personal, 2nd personal, etc. empathy considerations which I'm likely not understanding (on top of just lacking experience here). 
+
+<<<
+<<footnotes "pal" "My best childhood friend was a pen pal and even then to some extent I thought about conversational give and take. I had a formula - a greeting, some paragraph wishing them well, a chatty body section with what I wanted to say, then several closing paragraphs addressing particulars from their letter - and those closing paragraphs were essential to making the connection. I think we are pointing to similar things when you say 'I aim to demonstrate what you say matters to me.'">>
+<<<
+
+Agreed. We are pointing to the same thing. I think you clearly have more practice at this too. I wonder how much the formula is particularized to our context. 
+
+<<<
+Speaking of personal writings, the impenetrability of your top level directories lay in the compounding of personal and specialized vocabulary<<ref "lg">> that I didn't/don't fluently understand (salience, qualia, telos, sublator, contextualist, relativist, lexical, Bayesian, etc). I found my way through being curious about how you are actually working with the wiki every day. I've read a lot of the pages in [[New]], and explored your higher level pages through them.
+<<<
+
+Thank you for telling me. I will need to think more about that. There's a modeling problem in general which I hope to make plainer, but the language barrier I can't solve to some extent, imho (particularly for {[[About]]}, since it really is addressed to me). There's an irreducible complexity issue, imho. I'm sorry if it's frustrating too (I know I have family that don't even attempt to think about it). I think it's a hard problem to solve.
+
+Aside, you might find my snapshot collection interesting: {[[Connect]]}. I've been keeping nightly snapshots of my wiki for almost 2 years now. It has unfolded and grown a lot. You should consider doing the same, imho. At the very least, the timelapse art is interesting, but I think revealing the structural evolution of your own wiki will matter to you. It's been a valuable experience and tool for me, and it may become even more valuable in time (with machine learning).
+
+<<<
+<<footnotes "lg" "lg ↣ language! wk ↣ wiki, d ↣ design, cf ↣ comfort, c ↣ clue, url ↣ url, dx ↣ dox, s ↣ sharing/shift, pal ↣ penpal">>
+<<<
+
+Gotcha! Sometimes the footnote names themselves highlight the story in a single single/word.
+
+<<<
+It is significant to me that you described my letter as kind; thank you.
+
+deeply, s.
+<<<
+
+Hopefully, we'll be penpals for a long time. Do you still penpal with your childhood friend?
+
+Sincerely,
+
+h0p3
+
+
+---
+<<footnotes "t" "I realize it may be annoying. It's how I roll; it's part of my (Leo) Straussian interpretation/hermeneutics approach.">>
+
+<<footnotes "tw" "The Tiddlywiki forums are super useful. I wished I used them from the beginning.">>
+
+<<footnotes "ls" "Unless you are demonstrating something very leet to me, Light, I must warn you that you've likely revealed yourself.">>
+
+---
+
+<<<
+Walls of text...woo baby. I'm at 3,230 words and that's after I decided to quickly bullet-point outline the rest of my letter draft before going to bed. It feels like I'm pushing against the constraints of "letter" and I'm curious how better to structure it given the way we're writing in and through our wikis. How can I (we?) take advantage of the wiki to organize and hyperlink our thoughts and responses? I'm going to experiment with this.
+
+see you in a couple days,
+sphygmus
+<<<

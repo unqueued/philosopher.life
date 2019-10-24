@@ -1,0 +1,75 @@
+created: 20170408051110770
+modified: 20190705175706378
+revision: 0
+tags: Wiki [[Program Yourself]]
+title: Wiki: Construction Principles
+
+//Abstraction is the elimination of the irrelevant and the amplification of the essential.//
+
+
+* Hierarchical lists
+** Lexical, alphabetical, and other orderings have meaning and purpose.
+** Alphabetically arranged unless you have a good reason.
+** Avoid the "weighing" problem when you're not there yet.
+** Have links you will click on and use. 
+*** Change it wisely and often.
+*** Lose the dead weight, and reason about why the project failed.
+** Keep it clean. 
+
+* Every major Wiki-Directory of Directories can have some default directories
+** /b/ - Random - The Playground of the Sandbox - Seed
+** Log
+** Current Plan
+** Planning
+** Vault (highlights the overall conversation, it is meta about the log)
+** etc.
+
+* Use logs and templates. 
+** Systematically ask yourself questions, answer them, and have data to work with. 
+** You are doing science on yourself. Treat yourself like an operating system. Do things that are generally very practical with computers to your mind. Be meta about yourself.
+
+* One must periodically iron the wrinkles out of the wiki. 
+** Do a detailed comb through it. Be vicious with your own work. Edit, revise, analyze, and synthesize!
+
+* Maximize the dimensionality of the wiki. 
+** e.g. footnotes, tags, tiddlers/wikipages themselves, titles, bullet points, sentence-lists, etc. 
+** Hold in tension many domains, strings, and orders of thought.
+** Maximize your metativity.
+
+* If it is a choice between going formal and missing the semantics or saying what needs to be said, and writing it ugly, sillily, or oddly, but still capturing everything you need, then go ahead and do the latter.
+
+* Maximize the way you appropriately capture "Who I Was, Who I Am, and Who I Will Be."
+
+* Document your progress.
+** Date of original posting
+*** Not all posts should be dated "YYYY.MM.DD --" since they are more likely to morph or constitute much longer-term thoughts.
+** Date of last modified
+** Give meta-accountings for what you are doing. Find the structures and trends in your thought patterns.
+
+* Tags
+** Apply [[1uxb0x]], [[j3d1h]], and [[k0sh3k]] tags (and others if applicable) in order to quickly generate lists of content meant for or about a person that is dearest to me.
+** Apply a KIN or RPIN tag whenever we strongly suspect it belongs to them.
+*** If this is a tug of war between RPIN and KIN, then we should study our shape. Apply the Williams' Moral Weighing model, What percentage is RPIN of the wiki compared to KIN at any given time slice? Who is winning? That's where reason takes us friend. Love yourself. Accept who you are. Only then will your reason truly control how you shape yourself at a fundamental level in your [[Frankfurtian Feedback Alignment|2017.03.15 - Frankfurtian Feedback Alignment]] of your FO-SO paired selves. 
+
+# The Structure of a Parent Page on this wiki
+## //See first: [[ example ]] & [[example]]// 
+### - - - 
+## //Italicized Intro, quip, etc.//
+## <<<
+##  quote 
+## <<<
+
+Intro/About/etc.
+## Main Body of Text
+## Current Time Period (usually month)
+## Vault
+## Ideabag
+## Foobar
+##  
+
+
+* Lists are lexically ordered when numbered.
+
+---
+
+*** I think the "unanswered" or blank, never-made pages on this wiki, those links mean something. My audience can just ask me what I mean by them right now. I hope to find the ones really worth fleshing out this way.

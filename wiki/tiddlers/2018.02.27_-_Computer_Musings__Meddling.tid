@@ -1,0 +1,9 @@
+created: 20180227174326529
+modified: 20181029175224781
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.02.27 - Computer Musings: Meddling
+
+m10-home-h0p3 is the backup of my home directory. I keep encrypted copies of it backed up in several places. I want to be able to reconstruct my home directory very quickly, and I never want to lose what matters most to me. I keep forgetting that resilio sync has the habit of archiving everything deleted for a long time. I need to stop that for this across the devices I use.
+
+Trackers eventually see that I'm not seeding through shadowsocks (although it appears normal for days). So, I'm going to have to kill that route.

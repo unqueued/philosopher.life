@@ -1,0 +1,18 @@
+created: 20180131035151040
+modified: 20190325030931363
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.01.30 - Computer Musings: i2pd
+
+I'm failing to get i2pd to actually compile. Ugh. I can't test it this way. I tried extracting the binary and configs from other installers, but I found I lack the correct libraries. This is the wrong back. I'm going the Docker route now.<<ref "2019.03.24">>
+
+I've found two i2pd docker images.
+
+* https://github.com/hexaedron/i2pd-docker
+* https://hub.docker.com/r/purplei2p/i2pd/
+
+Installed on ATL (from deb) and KS (docker)
+
+
+---
+<<footnotes "2019.03.24" "So lazy, lol. I don't even remember why I was playing with this.">>

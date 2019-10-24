@@ -1,0 +1,19 @@
+created: 20180414022637876
+modified: 20180414024016222
+title: Russell's Paradox
+
+* Set of all sets that do not contain themselves
+* Consider a group of barbers who shave only those men who do not shave themselves.
+* For set-builder notation, `x = {a: a is not in a}` leads to a contradiction.
+
+Demonstrates a contradictions which arises from Frege's claim that one could freely use any property to define further properties. Russell attempts to solve this problem using a theory of //types//, a hierarchy of objects: numbers, sets of numbers, sets of sets of numbers, etc. 
+
+Zermelo replaces the axiom:
+
+`for every formula A(x) there is a set y = {x: A(x)}` with the axiom:
+
+`for every formula A(x) and every set b there is a set y = {x: x is in b and A(x)}` thus Russell's paradox becomes: 
+
+`let y = {x: x is not in x}, is y in y`
+
+ 

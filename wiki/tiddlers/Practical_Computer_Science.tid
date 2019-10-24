@@ -1,0 +1,29 @@
+created: 20170321222511852
+modified: 20170321232732632
+revision: 0
+title: Practical Computer Science
+
+h0p3pwiki.exe is a project now. For now, let's just make it a Xonsh or Python script (we can alias or /bin path it) that does it all. You're writing useful software. What counts as useful? You'll know it when you see it. You will begin to see how to write useful software by writing software for me. You'll see how it achieves important goals for me, and then you'll start to realize that you have things you want to write for yourself. When that time comes, you'll program for yourself. You're going to write software for my wiki until you figure out what you want to write for yourself of similar difficulty level and in the same topic (which is Bash/Python based).
+
+I think I need a tool that can search through my archive daily snapshot backup (find it on [[Ways to Connect to this Wiki]]). I need to be able to type it in command line, and it pops up with the answers I want. 
+
+Here's an example search I have in mind:
+
+Right now, I'd like to be able to show the date ranges of important wiki-pages that I want to archive or in some way label as being from a specific time period. For example, I want [[Self]] to be a huge wiki-page. I think I should go back through my archive and figure out when articles were first really germinated, then I can datestamp it. I can see that it is a matter of progress. Maybe not everything in the wiki needs that feel. Plenty do not. I like having ones that don't have timestamps. But, I also need some that have timestamps desperately. Help me get timestamps. 
+
+I can imagine wanting to make lots of different kinds of searches. Make it easy on me. I want to add your script to my system. I want to type:
+
+```
+h0p3@m10:~$ h0p3wiki -search foobar
+```
+It should return a list of dates, how often it was mentioned, etc. I want to be able to trace memes in my wiki.
+
+Maybe there can be date ranges I can add. Maybe this is a bunch of different regex searches of the .html file. Whatever it is, I want you to make it absurdly simple for me. We can add use cases as time goes on. 
+
+Also, that reminds me on your current project, I would love to be able to call it like 
+
+```
+h0p3@m10:~$ h0p3wiki -recentscript  
+```
+
+I'm literally going to add it to aliases and use it as a personal tool. Don't root me! =)

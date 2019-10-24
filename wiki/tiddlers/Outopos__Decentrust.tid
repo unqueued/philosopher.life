@@ -1,0 +1,138 @@
+created: 20180113023214658
+modified: 20180227014115354
+revision: 0
+title: Outopos: Decentrust
+
+If it is a blockchain, Outopos is not a standard one. There could be a distributed ledger, but that is not the goal. Each node is its own epistemic agent with its own ledger. Trust is the currency which is mined on this network, and only those players working with each other can directly earn it. Proof of Trust is literally owned at atomic transaction scales. 
+
+We seek to apply the golden rule in our computation and ensure others do so as well by default. The golden rule entreats us to not assume we are playing a zero sum game with other players and instead build long-term empathic relationships through trust. Trust is necessary for cooperation, sharing resources, and enabling larger objects and organizations to emerge from the rationally self-interested individuals (floating in cyberspace or otherwise). 
+
+What is the most effective way to create trust and charity on a dark meshnet? We must incentivize golden-rule following behavior by designing a network self-organized around trust-building. We must force people to participate fairly automatically building trust while defending against attackers and parasites. We must wisely negotiate peering resource trading. [[This|http://ncase.me/trust/]] is the game-theoretic strategy we hope to build around to generate explosions of trust and mitigate risks in our network-based implementation of the golden rule. 
+
+Individual nodes can discover who is trustworthy and who isn't, and they can also share this information with others. To the extent others trust my opinion, they can leverage my knowledge as well. That's the epistemic backbone of the network. You know you can trust yourself (you don't have much of a choice), and in time, you learn to trust the judgements of others as well. So, how does one earn trust?
+
+Trust is earned by exchanging tit-for-tat (copykitten) style, with some extra mercy for mistakes, technical problems, and miscommunications. Fortunately, because we're dealing in computational resources, we can begin trust building in incredibly small denominations and rapidly work our way up (remarkably different from human-to-human interactions). Automation makes it easy to continually test someone's trustworthiness, and hopefully continual trust-building will be an unforced natural result of implementing the network protocol itself. Thankfully, given that we feel more free to take risks with our computational resources, it will also be very easy to encourage growth otherwise not possible in more IRL scenarios.
+
+Here's an example of tit-for-tat: I'm willing to pass up to 1 kB for you insofar as you are willing to pass 1 kB for me. We trust-test each other. After we see the other plays fair with at least 1 kB, we scale up to 2 kB for our next trust-test, then 4 kB, and so on.
+
+Relationship initiators will always pay the cost first as a gesture of goodwill and for network stability.<<ref "sy">> Similarly, denomination scaling is expected to begin with the initiator.
+
+
+If you fail, I give you one more chance, and after that, my copykitten strategy bans you. This is a hedged-conservative strategy.
+
+There may be folks who contribute asymmetrically as a method of building trust. 
+
+In fact, at some point, I so much want to build social capital in you (and virtue signal to anyone who will listen), even if I don't need anything from you right now, I will continue doing you digital favors to some extent. You might screw me in the end, but I can offset it tremendously. In the end, my trust-building is worth it because not everyone is an asshole, and in the end, assholes will get what's coming to them in Outopos. Survival and flourishing in Outopos is based upon being consistently trustworthy by demonstrably following the golden rule.
+
+The denomination of trust I'm willing to extend to you scales with the history of trust I've built with you. Additionally, there are perhaps different kinds of trust-attributes we're measuring, testing, and exchanging. This metadata will enable extensibility, calibration, and flexible decision making.<<ref "1">> What trust-signals will we be capturing about the other players on the network?
+
+Accountable Resources/Services:
+
+* Average throughput
+** 2-to-1 matching; denomination doubles until we hit someone's limit. This is generous tit-for-tat. I will aim for an average that is 200% of yours. You can always increase your average throughput and I'll increase mine insofar as I can. In rapid tit-for-tat scaling up like this, we eventually saturate someone's connection or whatever limit they have in place.
+** We have to punish people for throttling and reward them for not.
+** 2-to-1 matching enables us deal with asymmetric DL/UL speeds while also applying the maximin principle. Essentially, we are overcoming diminishing marginal utility of throughput and maximizing global throughput-based utility for those with the fewest resources.
+
+* Total Bandwidth
+** 1-to-1 matching; denomination double at each. 
+** 10-to-1 matching. Throughput is very expensive, and that is why we must punish stinginess by being stingy ourselves. Bandwidth, however, is almost free. This is a safer risk. You still have to give me a signal that you would do the same for me, but I'm not going to be so vigilant about it. When they get to that ratio, then you either route real traffic through them or you manufacture traffic just to test them.
+** Conversely, if I know I've If I'm reaching my 10-to-1 buffer with someone else, then I will try to build trust with other nodes. 
+
+* Total Storage
+** 1-to-1 matching. Storage is quite expensive. We should always expect someone to store something for us if we are storing anything for them.
+*** 2-to-1 is a bad idea. Say there are 4 nodes that are matching storage with me. I can store 4 node's worth of data on 2 of them and have the other two for free. 
+** We could use RAID5, or hell, mount across the network with whatever file system we wanted. 
+** They make the offer, and we can freely reject or accept it.
+
+* Computation on my behalf (WASM VM)
+** 1-to-1 matching. Computation is easily the most expensive of the bunch. We should always expect something in return. 
+** They make the offer, and we can freely reject or accept it.
+
+Everyone has to use throughput/bandwidth to participate in the network. Not everyone will want to trade storage and computation, and they shouldn't have to. We'll need to find a way to match people together possibly; that is a good way to forge alliances across any distance. 
+
+Each resource will be its own Trust Account. If you fail to store information for me but continue to proxy for me, should I throw the entire relationship away? That seems like a waste. If I learn I can't trust you in one thing, that doesn't necessarily mean I can't trust you with anything. Thus, modularizing trust is likely going to give us the best bang for our buck. Now that we have accounts, we can test.
+
+Strong Trust Tests (direct deception):
+
+* Are you actually giving me information you claimed to possess?
+* Are you actually proxying for me?
+* Are you actually storing information for me?
+* Are you actually computing for me?
+
+Lies and deceptive violations of my trust are huge red flags. If I catch you red-handed, then you deserve to have my trust in you dissolved. However, mistakes happen, we all need room for error, and we must apply the copykitten maxim according to the golden rule. Essentially, when we have amassed sufficient evidence that someone doesn't play by the rules, we should punish them (punishments should scale with the crime). If you burn me this bad, I'll generously give you the benefit of the doubt once more before giving you a scaling ban. It doesn't matter who you are, if you lie to me twice in one of the Strong Trust Tests, then I know I can't trust you in that respect.
+
+# Two Trust Test failures in the same X-time period results in an X-time period ban. After the ban is lifted...
+# Two X-time period bans in the same 2X-time period results in a 2X-time period ban. After the ban is lifted...
+# Two 2X-time period bans in the same 4X-time period results in a 4X-time period ban. After the ban is lifted...
+# and so on...
+
+Forgiveness and earning back my trust exists, but punishment scales up. 
+
+Not all trust-signals have Strong Trust Tests. I can't always gather strong evidence, but sometimes even weak evidence is worth considering. 
+
+Weak Trust Tests (indirectly using me as mere means):
+
+* Are you using me to spam others by proxy?
+* Are you using me to interact with those I have banned?
+* Are you spamming me with requests or attempting to drain my resources?
+
+If I have reasons to think you are using me to hurt others or help those who don't deserve my help, then I'm inclined to hold that against you. It's easy to misinterpret here. However, patterns of behavior that emerge from Weak Trust Tests are trust-signals we should act upon. Perhaps it isn't a ban, but instead a throttle. 
+
+There are some inductive trust-signals we might also consider. As they say: stereotypes exist for a reason. While it isn't deductively sound reasoning, that also doesn't make it epistemically useless to us either.
+
+Fishy Trust Tests:
+
+* Are you cycling through many keys on the same IP?
+* Are you associated with a shard of nodes I've learned not to trust?
+
+Again, this is ugly. It's positively prejudiced. However, even minor resistance here may mitigate significant attacks. At the very least, gathering data about this is useful for Atropos network admins. 
+
+
+
+
+Networks of people who have built up trust with each other are TrustShards. TrustShards can grow to any size, and as long as at least one node is a member of two TrustShards, it can act as a router between them.
+
+
+
+
+---
+
+Resources:
+
+* https://www.stellar.org/papers/stellar-consensus-protocol.pdf
+* https://en.wikipedia.org/wiki/Decentralized_autonomous_organization
+
+---
+
+Meh:
+
+However, this might be a too harsh for nodes we've otherwise had a stable relationship with. Imagine your friend was depressed or had a bad day; you wouldn't let that spoil the entire friendship. The more social capital we've built in each other, the more chances I want to give you.<<ref "2">> Let us say that for each week you've not failed one of my Trust Tests I give you an additional Trust Test before banning you. In the end, someone I trusted can dissolve into just another rando, but I want to give them the benefit of one-time spendable additional Trust Tests before losing their friendship with me.
+
+
+
+
+---
+
+Indirect Trust:
+
+Perhaps I can vouch for someone. My trust earns them an "in," even if only temporarily. Perhaps if I give an "in," and it fails, then I am docked. My social status declines for letting someone "in" who failed to maintain trust. To prevent sybil attack problems, we might just say each person keeps an average all of the "in's," and then compares individuals based on that. So, even if the average trust is only 5%, someone who 10% of the time tells me about a trustworthy person is doing wildly better than average. I'm far more likely to take their word for it. 
+
+
+
+
+
+
+
+
+
+
+
+
+---
+<<footnotes "sy" "The Atropos protocol cannot distinguish 3-hop tunnels from million-hop tunnels. Theoretically, I can congest the network by building insanely long out-tunnels. Imagine if I made transactions with every node online with zmap-like packet capacities. A z-map amplification attack could generate enormous amounts of meaningless traffic. Tunneling is awkward in that it leverages my proxy's trust-relationship with another node instead of mine. What do we do about this?">>
+
+What if I made a million-hop tunnels Outopos must defend against congesting the network with cheap tricks.">>
+
+<<footnotes "1" "Imagine making controls and data designed for deep learning; what would you choose?">>
+
+<<footnotes "2" "Unless this is a sunk cost fallacy...">>

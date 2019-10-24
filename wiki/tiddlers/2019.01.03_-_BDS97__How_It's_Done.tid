@@ -1,0 +1,318 @@
+created: 20190103191337989
+modified: 20190103191703161
+tags: BDS97
+title: 2019.01.03 - BDS97: How It's Done
+
+```
+[01:09:13] h0p3: Sorry, I'm taking fucking forever. It's my fault.
+[01:09:23] h0p3: It's been a hell of a week.
+[11:56:57] h0p3: I love that you made a firefoxbook, btw. 
+[11:57:18] h0p3: I still use my C720. Serves as our HTPC once again.
+[11:58:03] BDS97: home: nice
+[11:58:11] BDS97: home: mine is a Toshiba Chromebook 2
+[11:58:42] BDS97: home: cheapest I could find three years ago with an x86 cpu and a full HD screen
+[11:59:11] BDS97: home: it took me like two weeks to get bored of stock chromeos and start experimenting with dev mode
+[11:59:52] BDS97: home: for a long time it had an ubuntu 16.04 I was dual booting on it, even got a 128 GB SSD to replace its stock 16 GB drive
+[12:00:09] BDS97: home: it started to get cramped with both chromeos and ubuntu
+[12:00:26] BDS97: home: but until now I kept a chromeos on it, it was just more convenient
+[12:01:00] BDS97: home: chrome was a better browser until firefox quantum happened, and I had some problems with ubuntu and sleep mode
+[12:01:20] BDS97: home: so it was just my secondary device for browsing stuff anywhere
+[12:01:31] BDS97: home: the same thing people use their phones for, I just don't trust my phone
+[12:01:55] BDS97: home: it's basically my designated on-the-go router and two factor device for the few things that require it
+[12:02:05] BDS97: home: or don't offer any better option
+[12:02:28] BDS97: home: but a few weeks ago it started to get problematic
+[12:02:53] BDS97: home: it refused to connect to my phone's hotspot, which was a huge weakness
+[12:02:56] BDS97: home: still no idea why
+[12:03:25] BDS97: home: sorry, go ahead, I'll finish this later
+[12:04:29] h0p3: I bought mine only because I could hardmod it and I wanted the kids to have experience with a linux machine (took a couple more years before they'd use it fulltime on their desktops).
+[12:05:03] h0p3: I also replaced that 16GB SSD with a 128GB recently. Had to cut out a speaker to make room for it.
+[12:05:43] h0p3: Agreed on Chrome. I hate to say it, but I still find aspects of Chromium that are better than Quantum (despite using FF as my main driver).
+[12:07:09] h0p3: I also used it in place of a phone for a long time too! =)
+[12:07:24] h0p3: For the exact same reason: I don't trust my phone. I fucking hate my phone.
+[12:07:42] BDS97: home: I didn't even bother rooting my last two phones
+[12:07:57] BDS97: home: did that to my first one and a few more afterwards
+[12:08:09] BDS97: home: but since I don't do anything important on it, what's the point?
+[12:08:24] h0p3: I gotta have ad blocker and a few other things. But, I get your point.
+[12:08:41] BDS97: home: yeah, agreed
+[12:08:58] BDS97: home: the few apps I use are either productivity stuff or authenticators
+[12:09:02] h0p3: It's weird to carry a computer around with me that I fundamentally do not own.
+[12:09:16] BDS97: home: exactly!
+[12:09:38] BDS97: home: I hate that most modern platforms try to keep the admin rights for themselves
+[12:09:54] BDS97: home: even windows started doing that, with UWP
+[12:11:48] h0p3: We will never own our identities if we do not own our data and the algorithms that are instrumental to our ends. The centralization of power continues. Those admins know it too. They only want us to have thin client terminals which track, monitor, and mine us for ways to extract more capital from or through us. 
+[12:12:08] h0p3: I have no fucking clue why I'm seeing some Linux folks beginning to trust M$ because of the subsystem inclusio.
+[12:12:48] h0p3: There's enough abominations in the Windows ecosystems, and history is plenty indication.
+[12:12:55] BDS97: home: linux folk here, I think MS has improved a lot since Ballmer resigned
+[12:13:05] BDS97: home: don't get me wrong, I still don't trust them with my data
+[12:13:09] BDS97: home: don't think I ever will
+[12:13:31] BDS97: home: but if you told me five years ago they'll make my favorite code editor, I'd laugh in your face
+[12:13:38] h0p3: rofl, I know right, lol
+[12:14:20] BDS97: home: IMO Google turned out a lot worse
+[12:14:30] BDS97: home: also something I wouldn't have guessed five years ago
+[12:16:18] h0p3: Google is straight up more powerful. That amplifies their damage and likely enables practices others cannot afford. Dominance is dangerous.
+[12:16:34] h0p3: I agree that MS has made improvements too.
+[12:17:22] BDS97: home: they're not just more powerful, in the last few years they turned into the same corporate crap we linux folks started hating Microsoft for
+[12:17:52] BDS97: home: it's actually relevant to why I decided to completely remove chromeos from my firefoxbook instead of just keeping it there as a secondary OS
+[12:18:16] BDS97: home: it started pushing crap like connecting the phone and the device together, android apps (on a laptop?), etc.
+[12:18:44] BDS97: home: it also started crashing sometimes when I closed all incognito tabs, which is something I do a lot
+[12:18:54] h0p3: That is weird.
+[12:19:00] h0p3: How many tabs we talking?
+[12:19:31] BDS97: home: I'm not a tab hoarder, usually have 5-10 tabs per monitor at most
+[12:19:40] BDS97: home: and when I look up random stuff, it happens in incognito
+[12:19:46] h0p3: (I am the worst kind of hoarder, lol)
+[12:19:51] BDS97: home: that can go anywhere between the same amount or just 1 tab
+[12:20:02] BDS97: home: but it only ever crashed when I closed the last tab
+[12:20:10] BDS97: home: and I think I found out why
+[12:20:23] BDS97: home: if some request is still going on in the background
+[12:20:26] BDS97: home: at least that's my guess
+[12:20:59] BDS97: home: but I can't do anything about it because even if it's mostly open source, the update mechanism of chromeos works well against modifications
+[12:21:17] h0p3: They know how to build worldclass botnets.
+[12:23:37] h0p3: Speaking of, I was taking a look at that Google Router (neighbor just bought one). Seems like good hardware for the price. It is possibly they are using it as a lossleader like with the first chromebooks just to get enter the market. They say you can turn off telemetry/phone-home, lol. 
+[12:23:52] h0p3: The price of "just werx" is too high.
+[12:23:53] BDS97: home: lol indeed
+[12:24:13] BDS97: home: I've been noticing a rise of mesh routers lately
+[12:24:21] BDS97: home: those seem kinda weird
+[12:24:31] BDS97: home: vendor lock-in incidents, reduced configuration, etc.
+[12:24:35] BDS97: home: we've seen this a few times
+[12:24:48] BDS97: home: I'll stick with openwrt, thanks
+[12:25:41] BDS97: home: btw, about that, I'm getting more and more convinced we'll need to start making our own routers at some point
+[12:25:55] BDS97: home: it's mostly connected to the whole last mile jumping mesh network thing
+[12:26:46] h0p3: I bought a bunch of 2-ethernet cards cheap, throw in a cheap machine, and boom: pfSense router. I failed to pass it through the virtualized pfSense (and route everything through the VM). 
+[12:26:51] h0p3: I'm just not that leet.
+[12:27:07] h0p3: I agree that we will have to eventually make our own.
+[12:27:34] h0p3: Currently using OpenWRT instead though.
+[12:27:40] BDS97: home: I don't know if we can still teach the public to configure their hardware, but if we can't, custom hardware is likely the only way to go with routers
+[12:28:03] BDS97: home: btw why did you try virtualizing pfSense?
+[12:28:17] BDS97: home: does it need a VM or is the machine just doing something else too?
+[12:28:27] h0p3: Because it was our old HTPC, i5-6500, 16GB RAM, NAS storage, etc. It was going to be the one-stop shop.
+[12:29:36] h0p3: Daughter's x-mas present was that, a bigger SSD, and a GTX 1060. Setting up passthrough so she can game.
+[12:29:51] BDS97: home: nice
+[12:30:14] BDS97: home: yeah, passthrough sounds great, I've thought about setting it up a few times
+[12:30:27] BDS97: home: probably got another thing to motivate me
+[12:30:43] BDS97: home: on windows, I use veracrypt to encrypt my drives
+[12:30:50] BDS97: home: finally got around encrypting my game drive too
+[12:30:55] BDS97: home: everything works perfectly
+[12:31:00] BDS97: home: except for Forza Horizon 4
+[12:31:25] BDS97: home: the one game that should really work on an OS made by MS, because, well, it was made by MS too
+[12:31:33] h0p3: lol
+[12:31:51] BDS97: home: currently it's sitting on an unencrypted 120 GB SSD I had laying around
+[12:31:55] BDS97: home: it has nothing but the game on it
+[12:32:11] BDS97: home: and every time I move it to a Veracrypt drive it just crashes
+[12:32:18] BDS97: home: either on start or when getting into the game
+[12:32:26] BDS97: home: of course it doesn't give me an error message, why would it
+[12:32:46] BDS97: home: "everything is fine, your game just exited, we aren't planning on doing anything about it"
+[12:33:01] h0p3: Hm. I cannot think of a reason why that would occur.
+[12:33:18] BDS97: home: me neither, but it seems to only happen on veracrypt-encrypted drives
+[12:33:34] BDS97: home: my guess would be some incompatibility in the filesystem driver, but why the hell would a game have to worry about that?
+[12:34:05] BDS97: home: anyway, my next best guess on how it should be solved is storing the entire operating system in an image file on a LUKS-encrypted drive
+[12:34:26] BDS97: home: then simply virtualizing Windows
+[12:34:31] h0p3: yup
+[12:36:37] h0p3: I held onto Windows for games. They know how to encourage people to build stuff people want to use for their ecosystem. Will it be possible for them to one day make Visual Studio something which only truly functions on Windows?
+[12:37:29] BDS97: home: as in the old Visual Studio?
+[12:37:34] BDS97: home: isn't that just an IDE?
+[12:38:02] BDS97: home: as for why most games use windows, I think DirectX is responsible for it
+[12:38:12] BDS97: home: it's way better than OpenGL was
+[12:38:20] h0p3: Yeah, I think it's just an IDE.
+[12:38:35] BDS97: home: now Vulkan is pretty much the same as Dx12, but not many developers are making the jump to Linux yet
+[12:39:05] BDS97: home: as for Visual C++ (their framework that goes with Visual Studio), it's just a view framework, one of the easiest things to replace in a game
+[12:39:16] h0p3: Maybe 2019 will be the year of the linux gaming desktop.
+[12:39:23] h0p3: (nope)
+[12:39:29] BDS97: home: yeah, we say that every year
+[12:39:45] BDS97: home: Steam did make a lot of progress with Proton, that's awesome
+[12:39:51] h0p3: yes
+[12:40:16] BDS97: home: but without a AAA studio supporting it and _actually making games_ (looking at you, Valve) we won't get any widespread adoption of linux
+[12:40:30] h0p3: They are going to build for phones.
+[12:40:32] BDS97: home: wow, tox supports markdown?
+[12:40:40] h0p3: Lol, neat. =)
+[12:41:02] BDS97: home: you mean artifact or what it was called?
+[12:41:16] BDS97: home: the TCG that Valve announced
+[12:42:25] h0p3: I don't know anything about that. I'm just convinced that AAA studios will find mobile more enticing than building anything designed for GNU/Linux.
+[12:42:36] BDS97: home: oh
+[12:42:38] BDS97: home: yeah, that's true
+[12:42:53] BDS97: home: dO yOu GuYs NoT hAvE pHoNeS?
+[12:42:56] h0p3: lol
+[12:43:35] BDS97: home: yeah, mobile made the whole "simulated gambling and other addiction models" thing acceptable
+[12:43:58] BDS97: home: it's not really an original idea, EA has been doing it for a while in FIFA
+[12:44:12] h0p3: I suggest every game I've ever played is a skinnerbox.
+[12:44:24] BDS97: home: this entire loot box epidemic is just them and a few other studios applying the tried and true strategy to their other games
+[12:44:29] h0p3: at least any standardly defined games*
+[12:45:20] h0p3: Look, they are just offering a service that people want. That's a *good* thing, right? The market dictated it. Who are you to question that?
+[12:45:41] h0p3: lol
+[12:45:42] BDS97: home: riiight
+[12:46:06] BDS97: home: yeah, that sounds like social media every time you remind people not to preorder
+[12:46:19] BDS97: home: "but bethesda has been reliable"
+[12:46:42] BDS97: home: btw just looked up that skinnerbox thing, and yeah, there's way too much truth in it
+[12:47:50] h0p3: That is one thing I like about speaking with you in real time, btw: you regularly browse alongside our chats. I don't know why more people don't seem to engage in that with us (maybe I'm just talking to the wrong people?).
+[12:48:45] h0p3: I'm going to stick to MTG over Artifact.
+[12:48:59] h0p3: I have too much of my brain invested in that game to switch.
+[12:49:00] BDS97: home: i
+[12:49:16] BDS97: home: sorry, input focus problem
+[12:49:36] BDS97: home: btw my experience with TCGs is quite limited, but MTG always sounded cool
+[12:50:17] BDS97: home: my parents were a little bit restrictive when I was young enough to get into that, and when I could, it just ended
+[12:50:33] BDS97: home: as in the physical TCG era, at least where I live
+[12:51:29] BDS97: home: maybe there are still clubs or stuff like that, and that sounds awesome, but when I was in 6th grade or something like that people around me regularly played a few TCGs
+[12:53:18] h0p3: Same. My biological donors were worried about demonic possession, the occult, etc. I played Pokemon instead. It took many years for MTG to evolve into something as vivid as it became. It's weird being a dad now because I have to figure out how to carefully expose my children to the world of gaming in such a way that they aren't addicted to it like I have been. Developing that control is hard. I also want them to understand how these are mediums in which we explore and express ourselves. We've been using MTG this past month to help ourselves tell stories with each other using digital cardboard. It's been a useful tool (especially for my autistic son).
+[12:54:31] BDS97: home: yeah, that's one thing I'm a bit worried about
+[12:54:46] BDS97: home: don't know if I've ever told you that I'm 21
+[12:55:09] BDS97: home: (I think you could have guessed, a few of my usernames end in 97, including reddit where we first interacted)
+[12:55:13] h0p3: Aye =)
+[12:55:21] h0p3: I'm 33.
+[12:55:42] BDS97: home: great to know
+[12:56:04] BDS97: home: my 21 is just young enough to miss the wave with most of these great old games
+[12:56:11] BDS97: home: like, I never played pokemon and stuff
+[12:56:25] BDS97: home: but old enough that I didn't get caught up in the whole mobile gaming thing
+[12:56:50] BDS97: home: I did try gaming on my phones and that one tablet I once had, but never really got hooked on it
+[12:57:22] BDS97: home: and as kind of an outsider, it just seems weird
+[12:57:48] h0p3: That all makes sense to me. You are kind of caught between two different time periods in that respect.
+[12:57:58] BDS97: home: (sorry, 5 min afk, don't stop typing)
+[13:00:06] BDS97: home: okay, I'm back
+[13:00:39] h0p3: I have a gift I'd like to give you. You may or may not think it is valuable. I look back in my wiki (which has turned into what may be my life's project) in auditing every tiddler in 2017 (probably around 2 thousand), and I greatly appreciate how seriously you took speaking with me. It's been a rollercoaster for both of us. 
+[13:02:12] h0p3: To a man who clearly appreciates privacy and anonymity, I'd actually like to officially let you know my actual identity (if you didn't already know it). You would be the second person I've ever had the privilege to trust in that way. You aren't a stranger to me, and I trust you (I am NOT asking you to reciprocate).
+[13:03:37] h0p3: My daughter helped me design some identity cards for my wiki, one set with my IRL info and the other with my pseudonym's info. If you ever find an address for me to safely mail them to, I will.
+[13:03:54] h0p3: ***************************************************************************** 
+[13:04:55] h0p3: My name is [[h0p3]] REDACTED. I live at 123 Sesame Lane; REDACTED. My phone number is REDACTED.
+[13:05:04] h0p3: *****************************************************************************
+[13:05:19] BDS97: home: wow
+[13:05:26] BDS97: home: yeah, that's not a small thing, I completely understand you
+[13:07:01] BDS97: home: My name is REDACTED, I live at REDACTED. My phone number is REDACTED
+[13:07:22] BDS97: home: I know you didn't ask me, just wanted to express the trust is mutual
+[13:08:20] h0p3: =) That is a wonderful experience. It is so rare to be able to trust. Thank you! That expression means a great deal to me.
+[13:09:23] BDS97: home: Thank you too! Agreed on the whole thing.
+[13:10:42] BDS97: home: btw, there was this message I didn't completely understand
+[13:11:01] BDS97: home: "That is one thing I like about speaking with you in real time, btw: you regularly browse alongside our chats. I don't know why more people don't seem to engage in that with us (maybe I'm just talking to the wrong people?)."
+[13:11:23] h0p3: I said that poorly (I swear to god I'm a native English speaker). 
+[13:13:37] h0p3: I mean to say: most people I know do not take the time to search the ideas, words, names they don't recognize in a conversation in real time. It is the hallmark of a valuable conversation to me flipping to my browser to look things up (and take the links you give me) as we are talking. It's easier to do asychronously outside of the realtime conversation, but it seems special to me to have people who take the time to think out loud with me using the tools at their disposal.
+[13:14:13] BDS97: home: oh, I get it, thanks
+[13:14:18] BDS97: home: that's a rare thing?
+[13:14:35] h0p3: That has been my experience.
+[13:14:46] BDS97: home: I thought it was natural, but I never tried to observe it in other people
+[13:15:47] BDS97: home: although since I'm out of high school, most people I talk to are programmers, and we do tend to do a lot more than most people around computers
+[13:18:02] h0p3: Yes, that makes good sense. It could easily be just a matter of practice in many cases. If you aren't used to the cognitive load of using multiple pieces of software together, it probably isn't something you'd reach for often. It's likely second nature to programmers.
+[13:18:26] BDS97: home: it may also have to do a few things with the physical setup of my computer
+[13:18:36] BDS97: home: like, right now, there are three monitors in front of me
+[13:18:48] BDS97: home: one of them has this chat
+[13:19:06] BDS97: home: the middle one has the Rust documentation right now
+[13:19:12] BDS97: home: and the rightmost one is a music player
+[13:19:36] BDS97: home: (google play music, because it's convenient and I like feeding google with worthless data while I keep the things that matter off the record)
+[13:20:09] BDS97: home: I find it very inconvenient to multitask with a single monitor
+[13:20:31] h0p3: I still use TrackMeNot to try and burst my filter bubbles and feed them worthless data too. =)
+[13:20:56] BDS97: home: wow, that's awesome
+[13:21:11] BDS97: home: kind of like the hostile adblocker I can't remember the name of
+[13:21:19] h0p3: I use AdNauseam too =)
+[13:21:25] BDS97: home: yeah, that one
+[13:21:51] h0p3: Have to keep it on low percentage, otherwise you get captcha'd to death (some sites will even recognize it and no longer offer you access at all).
+[13:22:27] h0p3: I can understand the inconvenience of a single monitor. There are something which just can't be virtualized.
+[13:23:05] h0p3: I think that's why some people still use physical books alongside their machines. It's an analog screen.
+[13:24:17] h0p3: My eyes aren't what they used to be (or so it feels). I use a 42" TV about 20" away from my face. 
+[13:25:01] h0p3: It's like having a huge font to read, working on a machine hooked into an IMAX threater. Reminds me of my brother's VR too.
+[13:27:52] h0p3: I kept switch DE's until i3. It has made a single screen experience joyful again. Screenspace is easy to control and automated in large part. Workspaces are first-class citizens. I've thought about adding another monitor, but I don't see the point anymore. If I had smaller screens (I'm colorblind and not one who absolutely need fancy graphics) though, I would definitely want multiples.
+[13:29:15] BDS97: home: Yeah, I went the multiple small screens route
+[13:29:23] BDS97: home: my side monitors are 22"
+[13:29:40] BDS97: home: my middle one was 22" too, but then I decided to switch to a freesync, then a g-sync one
+[13:29:50] BDS97: home: neither had smaller options than 24"
+[13:30:03] BDS97: home: but I like to think in terms of resolution, not physical size
+[13:30:29] BDS97: home: all three are 1080p, just like both of my laptops
+[13:30:36] h0p3: 1080p here as well
+[13:30:47] h0p3: I'm not sure how I would benefit from anything else.
+[13:31:14] BDS97: home: yeah, eye problems aren't great
+[13:31:26] BDS97: home: my mom uses a 27" 1080p screen just because she can see it better
+[13:31:42] BDS97: home: the largest TV in the house is 32"
+[13:31:48] BDS97: home: it's a bit weird to compare the two
+[13:32:04] BDS97: home: but I completely understand why you don't want a larger resolution
+[13:32:16] BDS97: home: honestly, that's why I never switched to 1440p or 4K
+[13:32:32] BDS97: home: I have glasses and they work, but the improvement is still not that much
+[13:33:35] BDS97: home: what the multi-monitor stuff and 1080p does give me is "screen real estate" for programs
+[13:33:51] BDS97: home: I get borderline claustrophobic at 1366x768
+[13:34:13] h0p3: Ha, lol. Yeah. 
+[13:34:55] h0p3: I can feel the pressure once I start hitting 3 columns. Tiling Windows Managers give a great deal of control.
+[13:35:24] BDS97: home: yeah, I'm looking at i3 screenshots now
+[13:35:29] BDS97: home: way better use of screen space than I ever had
+[13:37:34] BDS97: home: usually, I go the "just throw more screen at it" route
+[13:38:10] BDS97: home: I have a 2x2 workspace arrangement that I've been using before Ubuntu switched to Unity
+[13:38:19] BDS97: home: and just set everything else up that way
+[13:38:41] BDS97: home: this didn't change while I kept adding monitors
+[13:38:56] BDS97: home: so now I have 12 virtual monitors at once, on 3 physical ones
+[13:39:10] BDS97: home: usually the top right cluster goes for browsing
+[13:39:19] BDS97: home: Firefox laid out to three monitors, for convenience
+[13:39:30] BDS97: home: the top left is for work
+[13:39:42] h0p3: That makes excellent sense. Good "muscle memory" in that.
+[13:40:07] BDS97: home: I like it because it's easy to switch
+[13:40:13] BDS97: home: don't have to keep track of where I am
+[13:40:17] BDS97: home: going to top left?
+[13:40:26] BDS97: home: just ctrl+alt+left and up
+[13:40:50] BDS97: home: the up I rarely need, because the bottom workspaces get use, but even when they do it's just simpler this way
+[13:41:06] BDS97: home: back when I first set it up I experimented with 3x3 but it's a bit too much
+[13:42:31] BDS97: home: the bottom left one is the "offhand", it gets overflow from the work screen
+[13:42:37] BDS97: home: and the bottom right is just the extra one
+[13:43:07] BDS97: home: there have been like two cases when I filled them up completely
+[13:43:08] BDS97: home: at all
+[13:43:23] BDS97: home: in the ~6-7 years of my linux experience
+[13:44:42] h0p3: I use different setups for each workspace. Fullscreen wiki. My web browser windows are tabbed (kinda makes a tree of tabs within tabs).
+[13:45:05] h0p3: I often have hundreds of tabs open (even though my wiki is the primary bookmark holder).
+[13:45:55] BDS97: home: wow
+[13:46:04] BDS97: home: you weren't joking when you said you were a tab holder
+[13:46:06] BDS97: home: *hoarder
+[13:46:28] BDS97: home: dammit, now I'm going to start doing spelling mistakes based on similarly pronounced words?
+[13:46:38] BDS97: home: I'm not even a native speaker to do that
+[13:46:42] h0p3: lol
+[13:47:13] BDS97: home: seriously, never seen a European mix up your and you're or their or they're
+[13:47:27] BDS97: home: (maybe British people, they're native speakers too)
+[13:47:41] BDS97: home: we make different kind of mistakes
+[13:48:01] BDS97: home: weird sentence structures, inconsistent prepositions, etc.
+[13:49:31] h0p3: I have zero room to talk, lol. I think it's a miracle that I can write anything which other people understand. I make 5 mistakes for every one you do. My language use is getting worse, imho. 
+[13:50:30] h0p3: I know a lot of people who don't write almost ever. They'll do speech-to-text. They voice control their computers or click on shiny buttons. That's it.
+[13:51:09] h0p3: I don't think writing is going away, but non-trivial portions of the population may never exercise that muscle where I live.
+[13:51:22] BDS97: home: wow
+[13:51:27] BDS97: home: that's just weird
+[13:51:49] BDS97: home: when Apple removed the headphone jack I've joked that in five years they won't have a screen
+[13:51:51] BDS97: home: just Siri
+[13:51:56] BDS97: home: never thought it would actually make sense
+[13:53:01] BDS97: home: what did they do before speech to text existed?
+[13:55:06] h0p3: They wrote more, or they called. 
+[13:55:53] h0p3: Millenials are not more computer literate even if they've (on average) integrated technology into their everyday stack more than older generations.
+[13:56:19] h0p3: Literacy in general appears to be in decline (though perhaps I am "get off my lawn" here)
+[13:56:35] BDS97: home: no, I agree with you on that
+[13:56:52] BDS97: home: and blame the Apple-like oversimplified, locked-out user experience
+[13:56:57] BDS97: home: the same thing we both hate our phones for
+[13:58:02] BDS97: home: around the same time everyone got into tech
+[13:58:12] h0p3: What got you interested in computers?
+[13:58:48] BDS97: home: I can't really pinpoint that, I've been playing on them from a very early age
+[13:59:03] BDS97: home: Need for Speed Underground 2 alone is roughly half my childhood
+[13:59:12] h0p3: Lol!
+[13:59:27] h0p3: I have played the originals. That was an important part of my childhood too. 
+[13:59:43] BDS97: home: I always wanted to make games for them
+[14:00:02] h0p3: You disgusted by the industry to do that now, I take it.
+[14:00:10] BDS97: home: no, I still want to
+[14:00:20] BDS97: home: but I'm not going to work at a random gaming company
+[14:00:30] BDS97: home: it's not even disgust
+[14:00:47] BDS97: home: like, I'm not going to work at EA, but they aren't the only company there is
+[14:01:07] BDS97: home: and there are still a few honest ones, like CD Projekt Red or Cloud Imperium
+[14:01:31] BDS97: home: also, indie gaming is stronger than ever
+[14:01:50] BDS97: home: when those companies fail, it's rarely malice, it's just incompetence
+[14:02:23] h0p3: I have no idea how to enter that industry. 
+[14:03:11] BDS97: home: my plan is just going straight at it, making games and hoping they succeed
+[14:03:28] BDS97: home: the first few will be on mobile
+[14:03:33] BDS97: home: yeah, that market is disgusting
+[14:03:43] BDS97: home: but it's a great opportunity exactly because of that
+[14:03:55] BDS97: home: if you don't go the disgusting way, it's a lot easier
+[14:04:13] BDS97: home: basically, everyone else sacrifices their ability to compete with you for their own profit
+[14:04:24] BDS97: home: they just don't realize, because everyone else does it too, so it's a level playing field
+[14:04:54] BDS97: home: I'm not talking about analytics, big data, and addiction models, those are indeed an advantage for the disgusting side
+[14:05:12] BDS97: home: but I can't remember the last mobile game I found that was genuinely fun
+[14:05:48] h0p3: I only play them on the shitter or to automate them from virtual machine (I love building complex autoclicker scripts).
+[14:06:06] BDS97: home: wow, that's great
+[14:06:20] BDS97: home: never tried building bots for existing games
+[14:06:44] BDS97: home: had my go at trying to write some code for games I thought were good
+[14:07:02] BDS97: home: but I can't bring myself to program for a game I don't like
+[14:07:55] h0p3: I think a lot of programmers and techies I know stop enjoying using their computers eventually. I think it is because they choose to spend their time at work building something they don't really value. They alienate themselves from themselves in the process.
+[14:08:27] BDS97: home: I hope that won't happen to me
+[14:08:38] h0p3: Same! Lol.
+[14:08:49] BDS97: home: programming is my hobby first and job second, so I don't really think I'm exposed
+[14:08:57] BDS97: home: but I can definitely agree on some parts of it
+[14:09:55] BDS97: home: when I can see through a game and look at the intern-level code holding their heap of graphics effects together, masking a game that's basically nothing more than Half-Life 2 with a different map and story, that's kinda illusion-breaking
+[14:10:09] BDS97: home: and not really helpful for enjoyment
+[14:10:26] BDS97: home: anyway, sorry, have to go afk for like 20 minutes
+[14:11:23] h0p3: I have to go to work too. I have question or two I want you to think about for me (which I'm sure you've tried to answer many times): What is a game? What is valuable about games?
+[14:11:39] h0p3: I'm still on the hunt for an answer.
+[14:12:33] h0p3: It's happening, btw: https://9to5google.com/2019/01/02/android-runtime-app-support-fuchsia/?xyz
+```

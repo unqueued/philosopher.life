@@ -1,0 +1,100 @@
+created: 20171105184949687
+modified: 20190326202334391
+modifier: h0p3
+revision: 0
+tags: Retired
+title: 2018.01.30 - Retired: Carpe Diem Log
+type: text/vnd.tiddlywiki
+
+!! About:
+
+//Momento mori. Play life like an unparalleled video game, O Captain! My Captain!//
+
+<<<
+Forever is composed of nows.<<ref "1">>
+
+-- Emily Dickinson
+<<<
+
+The maxim "//carpe diem//" is an abbreviation of the Horacian phrase "//carpe diem, quam minimum credula postero//," which can be translated as "Seize the day, put very little trust in tomorrow." 
+
+We should squeeze every drop of utility out of every moment.<<ref "2">> We must make the most of our time because we want to be maximally happy, we don't know how much we have left, and our time is a resource we can never renew. We must spend our lives wisely, efficiently, and with joy.<<ref "3">> We must at the same time empathize and identify with our future selves while still living in the moment.<<ref "4">>
+
+Here I count my blessings, talk about how I spent my time in general each day, reflect a bit on what I value and my behavior, provide a quick commentary, and give myself yet another avenue to see patterns in my life. I hope to hold myself accountable to this log's namesake, a maxim which we should all hope to live by.
+
+
+---
+!! Principles:
+
+* Rename the [title.Title] at the beginning of the next day.
+** Put a stamp on it. Remember it. Have it ready as an narrative object you can quickly access.
+** Use //PH// in the title to claim loud and clear: "replace me" to your audience.
+* This is a daily log. 
+** The //Focus// section contains each day for the past month, and then each month's logs are consolidated and audited at the beginning of the next month.
+* Keep it brief and use bullet-points.
+* There should be a strong feedback loop relationship between this log and the [[To-Do-List Log]].
+* Take the opportunity to ask yourself in your [[Wiki Review Log]] if you seized the day.
+** Do you wish you did something differently?
+* Celebrate your happiness and blessings. Lick the spoon, suck out the marrow, etc.
+* Shotgun approach, triage, and pick low-hanging fruit until you have more effective tactics and strategies.
+
+
+---
+!! Focus:
+
+* [[2018.01.01 - Carpe Diem Log: Son's B-Day]]
+* [[2018.01.02 - Carpe Diem Log: Dive]]
+* [[2018.01.03 - Carpe Diem Log: Hover]]
+* [[2018.01.04 - Carpe Diem Log: Aboutitude]]
+* [[2018.01.05 - Carpe Diem Log: Fiery]]
+* [[2018.01.06 - Carpe Diem Log: Writing!]]
+* [[2018.01.07 - Carpe Diem Log: Fam]]
+* [[2018.01.08 - Carpe Diem Log: Trust]]
+* [[2018.01.09 - Carpe Diem Log: The Room]]
+* [[2018.01.10 - Carpe Diem Log: Uncodified]]
+* [[2018.01.11 - Carpe Diem Log: Damn Son]]
+* [[2018.01.12 - Carpe Diem Log: Dishes]]
+* [[2018.01.13 - Carpe Diem Log: Busy]]
+* [[2018.01.14 - Carpe Diem Log: Rustacean]]
+* [[2018.01.15 - Carpe Diem Log: Rust]]
+* [[2018.01.16 - Carpe Diem Log: Sleep]]
+* [[2018.01.17 - Carpe Diem Log: NPM]]
+* [[2018.01.18 - Carpe Diem Log: Rusticle]]
+* [[2018.01.19 - Carpe Diem Log: AIR]]
+* [[2018.01.20 - Carpe Diem Log: Jobbo]]
+* [[2018.01.21 - Carpe Diem Log: Meet]]
+* [[2018.01.22 - Carpe Diem Log: Unvirtualized]]
+* [[2018.01.23 - Carpe Diem Log: Sysadmin]]
+* [[2018.01.24 - Carpe Diem Log: Kahuna]]
+* [[2018.01.25 - Carpe Diem Log: No NPM]]
+* [[2018.01.26 - Carpe Diem Log: Call]]
+* [[2018.01.27 - Carpe Diem Log: Sleepless]]
+* [[2018.01.28 - Carpe Diem Log: Shabbat]]
+* [[2018.01.28 - Carpe Diem Log: Household]]
+* [[2018.01.29 - Carpe Diem Log: PH]]
+
+
+---
+!! Vault:
+
+* Audits:
+** [[2017 - Carpe Diem Log]]
+
+* Retired:
+** [[2017.11.05 - Retired: Carpe Diem Log]]
+
+
+---
+!! Dreams:
+
+* Should my reflection be occurring more directly and explicitly in the logs themselves?
+
+
+---
+<<footnotes "1" "Infinity is composed of infinitesimals.">>
+
+<<footnotes "2" "Actually, we need to first come up with a rational time-slice scope for our utility calculation. Obviously, what maximizes utility in the moment does not necessarily maximize utility in the long-term. But, how long-term are we talking about here? How do you know how to draw those lines. This, of course, is yet another epistemic problem for consequentialist reasoning. At best, we come up with heuristic approximations for generating scopes. I must say, I think I've seen some people work so hard their entire lives that they do not really experience leisure until it is too late. Obviously, this is also incredibly contextual. The [[Marshmellow Test]] actually has its limits too though. Thus, I do not have a great answer. I'm just pointing to a notion, not a solution. I agree, I am helping myself to a great deal here.">>
+
+<<footnotes "3" "Understanding that life has its ups and downs is crucial to ultimately being content, joyful, and satisfied. You have to take risks. You have to see how it all adds up.">>
+
+<<footnotes "4" "I don't believe I'm contradicting the Epicureans here. I think Horace would have agreed with me, and I take us to be saying roughly the same thing.">>

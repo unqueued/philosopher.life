@@ -1,0 +1,10 @@
+created: 20181226175256962
+modified: 20181231001213427
+tags: [[Be A Good Dad]]
+title: 2018.12.26 - Be A Good Dad: Computers
+
+My kids and I have been working on building their machines. We've had more hiccups than I anticipated. I'm pretty worried about [[1uxb0x]]'s machine at this point. Getting the room cleaned and organized enough to do this emulate a KVM switch, having tons of trouble just posting. Teaching both my children at the same time with custom machines has been difficult. 
+
+My daughter's was easiest. She's now got 2 SSDs (one for each OS), 1 HDD for Windows, 3 for the family's NAS, and her 1060. She's installed i3 from scratch and moving her home onto the new drive. She'll need to setup passthrough first. She'll setup NFS shares for the NAS, the lftp script (eventually switching to seeding directly from it), and the resilio syncs for the family. 
+
+I do not understand. The H61S BIOS is updated to support ivy bridge, and it posts. I now only have access to one DIMM, and I still can't get PCI 3.0 to work (plus it is backwards compatible). 

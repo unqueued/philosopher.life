@@ -1,0 +1,23 @@
+created: 20181203200117900
+creator: h0p3
+modified: 20181204043507424
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.12.03 - Computer Musings: Fire Tablets
+
+My children haven't touched their shitty Fire tablets and for good reason. Their phones and computers are simply better tools. I can't root or reimage these. Instead of throwing them away, I'm converting them unconnected devices for bathrooms (though, they aren't airgapped...since I'm lazy enough that I prefer to transfer files over wifi; this could be solved too, but I'm also too lazy for that).
+
+Reset, disposable ID, and then sideload:
+
+* Google Account Manager APK
+* Google Services Framework APK
+* Google Play Services APK (use this version instead of if you have the 2017 Fire HD 8)
+* Google Play Store APK
+
+---
+
+I'm giving FF Tree Style Tab sidebar another shot. They made some serious improvements (I adore how configurable it is), including the ability to step normally through my tabs with my keyboard (which was a dealbreaker for me before). I already use [[i3]] to tab my windows, but it's a fact that I still have tree groupings inside each window. This is yet another hierarchical tool, and I'm willing to blow part of my screen for it. I've put in on the right side to match this wiki too. =)
+
+---
+
+Added another custom filter to AdNauseam: https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt

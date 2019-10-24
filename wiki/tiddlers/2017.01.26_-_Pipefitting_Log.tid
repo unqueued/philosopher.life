@@ -1,0 +1,102 @@
+created: 20170127014242435
+creator: h0p3
+modified: 20181103034914961
+modifier: h0p3
+revision: 0
+tags: [[Polymath Craftsman]] Pipefitting
+title: 2017.01.26 - Pipefitting Log
+
+Today I didn't have any computer labwork to do because I'm done (minus OSHA-10 [not part of the curriculum, but I'm doing it because I was advised of its value], but I'm very close to done). Since I threaded pipes well enough yesterday, I was allowed to start working on "drawings" as my teacher called it (I call them schematics; I predict I will hear many different names for it).<<ref "1">> Basically, he handed me a schematic:
+
+* I understood what it looked like
+** I built a wire replica for good measure, but this one was as simple as it got
+* I did the math to find the correct lengths and angles
+** I checked my work twice. 
+*** If I get it wrong here, I will have wasted enormous amounts of time and energy. I want to be intelligent in my laziness (to work hard in the right way at being lazy).
+* I found the unprocessed pieces I needed
+** I made sure I had decent fittings especially. Our pipe, fittings, etc. (the raw materials of our trade) are unacceptably used and chewed up because the school skimps and cost-cuts a bit too hard. I mean that in a grateful way too. Further, that isn't to say I don't need practice with these materials (I will deal with used parts in the field plenty. But, most of the work is done with much higher quality (new) material because the labor alone is so expensive that you want new parts. I would like my shop to match as best as possible the conditions of the field. 
+* I would generally (with exceptions) cut, ream, and thread. I'd clean, test (3-ish spins by hand, but 4 is fine). and also dismount it. I'd measure if necessary, then cut, ream, and thread. I'd give a final clean, measure it, and if it passed set in my 
+* We went to the table, secured pieces in place, and started screwing our threaded pipe together<<ref "1">>
+** We had to reorient and resecure the object being produced many times.
+** We needed to know the directions to place the object in, and we needed to know which direction to put in a new fitting (and essentially where the next pipe would be installed.
+*** The further you could see into the future here, the fewer reorientations and adjustments you'd need to make. This is a key point of efficiency.
+*** I hope to become very good at this. I will practice rotations in my mind because I will constantly be rotating these larger schematic objects I'm building. It's part of the building process. Being able to orient myself (or it) instantly will call me to intuitively know the right way to build these objects. The efficient, fast, and lowest effort way to build them. Work smarter, not harder. This is about measuring twice before you cut in a process-management sort of way. There are a stream of things we do in a certain order. The goal is to build the right streamlined process. 
+* I spent time balancing things because a peer said I should. The teacher came by and said we didn't need to. He told us to break it down, and he gave me another schematic to do.
+
+I'm working out how I should setup my workspaces and workflow (and on how I want to develop it and learn to test). 
+
+* Should I get used to measuring on the threader?
+** It's harder to make sure you get it right. There isn't much space, it's a dangerous place (the torque on this machine is insane, and even if you feel safe, why take the risk?), you feel rushed when you do it that way, and I've seen a lot of actually measurement mistakes happen after relying upon measuring at the threader. 
+*** I fear I need the right measuring dance and tool to get this done well. I should think about it.
+** I wish I had the schematic and math with me and that marking it on the threader would be the way to go. It would be nice to just bring the raw pipe up, bang them out all on the spot, and then bring them to the table to do the work. Walking between the table over and over is a waste of time.  
+* I found it best to keep my pieces organized and separated in piles. I also drew out my schematic on the table with my pieces (2-d). This made it very easy to put together.
+** It was weird that my teacher did not immediately understand what I had done on the table. It was obviously useful.
+* I measured more often than I needed to. We want to measure enough and at the right confusingly called TL) times to avoid risks, but we need to make sure we are efficient about it. For now, you measure too often, but work to find when it isn't necessary, and find out exactly why it was necessary when it was.
+
+So, the dream process (as I understand it) goes like this:
+
+# Receive and understand schematic
+# Write quantity of each fitting type we need
+# Write the Nominal Size TO90, 2TO90, Flanges, and if necessary TO45, 2TO45 
+## I've made up these names. It's a decent convention though.
+## Find "90's" TO (takeouts) on page 90 (delicious coincidence) in my manual.
+## Assuming BF is 45° (it has been so far), find "45's" TO in Notes section of my manual (teacher just gave them to us to write down). 
+###I should actually understand this better and have my own extensive cheat sheet. 
+
+# Write the CL (cut length) of individual pipes 
+## I have no idea why this part isn't done in a CAD program. It seems like it would be the best way to do it. Why rely upon humans for calculations?
+## Find special travel lengths (anything that isn't taking a 90° angle on the isometric graph)
+### The easy ones show two 45° angles. 
+#### We immediately know our BF° 
+#### We can easily calculate our Travel length (hypotenuse) =  √(a^^2^^ + b^^2^^)
+### Special Travel Boxes (literally show a box on the isometric graph)
+#### TL of Travel (also sometimes called TL) ≈ √(Run^^2^^ + Set^^2^^ + Rise^^2^^) to the nearest 1/16th of an inch.
+#### Roll° ≈ tan^^-1^^(Set/Run) to the nearest whole degree.
+#### Rise° ≈ sin^^-1^^(Rise/Travel) to the nearest whole degree.
+#### BF° (Bottom Fitting, but also identical to the top fitting in parallel Runs) ≈ cos^^-1^^(cos(Roll°) * cos(Rise°)) to the nearest whole degree.
+## Construct formulas for each pipe
+### Subtract True length from appropriate TOs: here are the combinations I've seen:
+#### TL - (TO90)
+#### TL - (2TO90)
+#### TL - (TO90 + Flange)
+#### TL - (TO90 + TO45)
+#### TL - (2TO45)
+## Solve formulas for each pipe
+## Check formulas and answers to each pipe
+### Make sure you got the math right. Your theoretical measurements need to be checked twice because the application of theory is a metaphorical cut. You have to start trusting trust in the move from doxa to praxis, and therefore you should double check your doxa because you won't be able to undo the damage it causes when you get it wrong. This sounds paranoid and like a lot of work, and perhaps I will become so adept that I won't need to measure twice in my math. For now, assume you make mistakes: you are not a virtuous pipefitter (although, you can strive to be a virtuous pipefitter apprentice). 
+# Gather pipefittings and the raw pipe (we have to hunt through scraps)
+## Organize it. Have a workflow.
+# Cutting and Threading
+## Check equipment
+## Work from largest to small pipes
+### If you make a mistake, the lost effort can be mitigated by building other smaller pieces from our mistaken piece.
+## Pre-measure (again!) the pipe to make sure it can produce the threaded pipe we want to make
+## The Cycle:
+### Mount
+### Cut
+### Ream
+### Thread
+### Dismount
+### Clean
+### Test
+#### It can be skipped, but it is unclear when and why. 
+##### You obviously must do it on the first one. 
+##### If you did it once every pipe, then doing it on the first thread seems best since, if there's a problem, then you haven't wasted too much work. 
+### Measure and mark
+### Repeat
+# Tape/Seal your pipethreads
+## I suggest laying out the taped pipe in the schematic's isometric build pattern (with fittings at the joints) on the table. Know where you are, where you are going, and how it fits. If you can't, then at least have an ordering to retrieve the part you need when you need it. We want an efficient assembly line.
+# Building the Object in the Schematic
+## You may need a second person. The counter-leverage (need a word) is necessary for certain turns of the pipe/fittings.
+## The order is not always clear. Think about this one. Your teacher had no advice to give other than possibly starting with the largest one (he did not have much to say here). Your building space and mounting requirements may dictate much of what counts as the right order.
+## Make it level and plumb along all necessary axes while being "tight enough" (still unclear on what counts as that)
+# ???
+# Profit
+
+My teacher does a measurement after all the cuts where he adds his TO's to his CL by overextending his measuring tape. It does not seem necessary or useful to me. I do not see why he wants to do it that way another than as another check on whether or not he did the math right. If you trust your math (and you should be the time you are cutting), then why not just check your actual cut pipe lengths to the CL variable?
+
+
+---
+<<footnotes "1" "Tangent: I think my teacher's vocabulary is interesting. He knows his job, no doubt. He's an excellent practitioner, highly respected in our small community. He doesn't seem to understand the theory of his job very well though. It's like how my dad says my grandpa can't perform algebra and doesn't really understand that he is actually implementing algebra in his everyday work. We use basic trig every day (which I barely understand), but my teacher doesn't even know the word //hypotenuse//. He gives us formulas literally as a step-by-step choreography on our calculators (you push this button, then this button, and so on...) without a sufficient understanding or interest in how or why or what he is doing. He doesn't understand the formulas themselves, and I worry he doesn't even care that he doesn't understand. It makes me both impressed and sad at the same time. It is clear that significant portions of the intellectual part will be me doing all the lifting (which is fine, ultimately, we all learn alone [even when we have a teacher]).">>
+
+<<footnotes "2" "That is literally the gayest sentence I have ever written.">>

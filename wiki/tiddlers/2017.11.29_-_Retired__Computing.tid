@@ -1,0 +1,71 @@
+created: 20161214005733892
+modified: 20181221180506426
+modifier: h0p3
+revision: 0
+tags: Retired
+title: 2017.11.29 - Retired: Computing
+
+This wiki-page is for all things computing, mechanical or abstract, human or silicon, and otherwise. That may sound odd. I'm not sure what doesn't count as computing or what isn't computed. Perhaps everything which is intelligible is by definition computable. Of course, many will worry that I broaden the meaning of computing to a point of absurdity, where the word itself no longer retains particularistic enough meaning that we can usefully wield it. I don't know what to say to you besides, look and try to see it again.
+
+Programming a computer is about getting the computer to do what you want it to do. It's that simple. Do you have a goal? You've intersected with computing. Computing is deeply telic. Ultimately, I take computation to be deeply related to Aristotle's God (my gut says that Spinoza isn't useless here either). Of course, being me, I would think and feel that way.
+
+Traditionally there are different languages used to //program// a computer (in the ordinary sense of the term). The folks writing in an assembly instruction set, C, Python, or Brainfuck are certainly programming for a particular set of computers (for a specific compiler/interpreter and hardware architecture). Those belong to a specific class of sequential inputs to a computer. There are other kinds of "inputs" though and thus other kinds of programming.  The person who uses their mouse to provide inputs to navigate to a website has programmed their computer in a trivial (for them) way. Computing is a rich epistemic environment and //techne//. As such, computer users need to use and produce their data and algorithms (very generalized notions here) by using the right tools, frameworks, paradigms, and abstractions. We should become the best, well-rounded computer programmers we can be,
+
+It must be said: humans are computers. We are programmable. We have to get ourselves to do what we want ourselves to do. We need to wisely program ourselves. That is what this wiki is about, after all. Thus, we should become the best, well-rounded self-programmers we can be. This very inclusive definition of programming reminds me of one of my most inclusive definitions of the concept of philosophy I've encountered. Because I can't put my finger on it for you (my virtues won't translate nicely to yours), I'm left saying something unfortunately nebulous: it is quite practical for being so theoretic.
+
+Given the broadness and difficulty of the topic, I fear that I will put myself in a bind if I artificially limit the scope of this page or force categories beyond what feels natural. I'm going to go with the flow. While the organic may be ugly, I'm hoping a rhyme, reason, and method to the madness will emerge.
+
+* /b/
+** [[Computer Planning]] 
+** [[Stupid Ideas]]
+** [[Computing Log]]
+** [[Childish Computer Pranks]]
+** [[Frugal Computing]]
+** [[Physically Pwning a Computer]]
+** [[Mobile Phone To-Do-Checklist]]
+
+* Coding
+** [[Coding with my Daughter]]
+** [[Autohotkey Scripts]]
+** [[Formatting Scripts]]
+
+*Linux & POSIX-Compliant OSes
+**[[Crontab]]
+**[[Linux & POSIX-Compliant CLI One-Liner Tricks Collection]]
+**[[Linux & POSIX-Compliant CLI Tool Collection]]
+**[[Linux Scripts]]
+**[[Ubuntu 16.04 Desktop Post-Installation Root Script]]
+**[[Ubuntu 16.04 Desktop Post-Installation User Script]]
+** [[One-Line CLI Wonders]]
+
+* [[Monster-Φ]]
+
+*Piracy
+** [[Annotated Piracy Tools, Networks, and Sites Collection]]
+
+* Questions about Computing
+** [[Why don't we all go NaCL for every service?]]
+
+* Self
+** [[Autism and Social Technology]]
+** [[Self-Hacks]]
+
+*Web Browsers
+** [[The Art of Bookmarks]]
+**[[My Browser Bookmarks]]
+**[[Google Chrome Extension Collection]]
+
+* Wiki
+** [[This Wiki's Host's: lighttpd.conf]]
+** [[Wiki Scripts]] 
+
+*Windows
+**[[Windows Tool Collection]]
+
+* Musings
+** [[2017.04.22 - Computer Musings]]
+** [[2017.06.16 - Computer Musings]]
+** [[2017.10.14 - Computer Musings]]
+** [[2017.11.07 - Computer Musings: Internet Laws]]
+** [[2017.11.16 - Computer Musings: Downgrading Firefox 57 to ESR for TiddlyFox]]
+** [[2017.11.22 - Computer Musings: Personal Information IP Rights]]

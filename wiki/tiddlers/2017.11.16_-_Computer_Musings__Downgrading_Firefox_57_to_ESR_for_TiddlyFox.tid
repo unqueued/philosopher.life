@@ -1,0 +1,29 @@
+created: 20171116153325578
+modified: 20181221003710596
+modifier: h0p3
+revision: 0
+tags: [[Computer Musings]]
+title: 2017.11.16 - Computer Musings: Downgrading Firefox 57 to ESR for TiddlyFox
+
+Mozilla fucked us. We've known it was coming, and today was the day: the Firefox Apocalypse. They don't want to let users do potentially dangerous things with extensions, and that costs us flexibility and power. As beautiful as FF57 is, I'm out. Outside of privacy considerations (answerable) and FOSS support, Firefox extensions were the only reason to use Firefox. Now they have a broken extension ecosystem compared to an already larger and usually more effective Chromium extension ecosystem. 
+
+I've tried the alternatives to TiddlyFox, and I'm not happy with any of them. Unfortunately, this is the best option. Remove FF57 from your system, since it does not co-exist nicely with ESR (although, this can be fixed to some extent). That means, of course, that I'm done with Firefox as a standard web browsing tool. They've bifurcated their userbase, and I'm clearly not their target audience. I have hopes for Quantum still, but I won't be beta testing it. They broke essential userspace. I need it to work now, not later.
+
+Downgrade:
+
+```
+sudo apt-get autoremove --purge firefox
+sudo add-apt-repository ppa:mozillateam/ppa
+sudo apt-get update
+sudo apt-get install firefox-esr
+```
+
+The fact is that I'm not browsing with it, so I don't give a shit about updates. In fact, I want my tool to stay the same. I could have just reverted to 56, but fuck it. This is easier, and in the off-chance, I wanted to upgrade, I could. After ESR's installation, enable unsigned extensions (unfortunately) and prevent updates (i.e., don't use this browser installation for anything but your Tiddlywiki):
+
+# Goto //about:config// in your URL bar. 
+# Set the following flags to //false//
+#* xpinstall.signatures.required
+#* app.update.auto
+#* app.update.enabled
+#* app.update.silent
+# Goto the Add-ons menu and enable TiddlyFox

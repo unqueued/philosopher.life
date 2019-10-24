@@ -1,0 +1,135 @@
+created: 20190114042146859
+modified: 20190331001922427
+tags: [[TW Discord]] dziggetai
+title: 2019.01.12 - TW Discord: I AM NOT A GURU!
+
+```
+h0p3: Thanks for making this place. It's a good idea. IRC is basically dead.
+[7:21 PM] GneissKnight: Of course! IRC hurts my eyes.
+[7:22 PM] GneissKnight: Also, that's some fancy styling you've got there
+[7:22 PM] GneissKnight: I dig
+[7:42 PM] GneissKnight: @h0p3 man I'm looking at your wiki and I feel like I'm on acid
+[7:42 PM] GneissKnight: I've never taken acid
+[7:43 PM] GneissKnight: but I feel like this is what it feels like
+😄
+1
+[7:43 PM] h0p3: high praise, sir, thank you :smiley:
+😌
+1
+[7:46 PM] GneissKnight: This is insane
+[7:46 PM] GneissKnight: I love it
+January 12, 2019
+[7:27 AM] jbaty: I want to thank @h0p3 for philosopher.life. It's what finally got TiddlyWiki to "click" for me.
+😃
+1
+[8:55 AM] jbaty: What's the etiquette around inviting others to this server? Is it a free-for-all or do we need to have @GneissKnight approve first? In other words, can I share the invitation link publicly?
+[10:04 AM] GneissKnight: @jbaty you can invite as you please, server is open to anyone with interest in tiddlywiki :slight_smile:
+[10:04 AM] jbaty: Great, thanks!
+🙏
+1
+[9:40 PM] h0p3: @jbaty  -- https://philosopher.life/#2019.01.12%20-%20jbaty%3A%20Hello%2C%20Nomad!
+[9:43 PM] jbaty: Amazing. I will definitely join the conversation. Thank you!
+😋
+2
+[9:50 PM] GneissKnight: @h0p3 I aspire to maintain the volume of writing you've got down alone. Using TW as an expounded blog/wikipedia is fascinating
+😊
+1
+[9:51 PM] GneissKnight: it reminds me a lot of the internet in the early 2000's in it's freeform approach to levels within levels of "Thought-digging"
+[9:53 PM] h0p3: Thank you. I think TW is an amazing tool for that approach too.
+[9:55 PM] GneissKnight: I've been building out a means to create SRDs for tabletop RPGs within TW and it becomes so easy to just off-handedly mention something that you can define when it strikes you as appropriate.
+[9:56 PM] h0p3: That is a perfect usecase.
+[9:57 PM] mklauber: @GneissKnight are you thinking 5e?
+[9:57 PM] GneissKnight: @mklauber Pathfinder 2e actually
+[9:58 PM] mklauber: Ah. Still, I'll post my 5e stuff tomorrow. I've got a monster stat block format plugin you might be interested in.
+[9:58 PM] GneissKnight: I'd love to see that
+[9:59 PM] mklauber: I've also got all the monsters and spells from 5e in there too, but I need to separate out the non srd stuff.
+[9:59 PM] GneissKnight: I also actually plan on using it for campaign management, an equally useful endeavor.
+[10:00 PM] mklauber: Yeah, I'm slowly building all my tools towards that. Encounter planning is the next step. I wanted monsters and spells first.
+[10:01 PM] mklauber: I've also got a built in sound board, if you use a speaker at the table.
+[10:01 PM] GneissKnight: I also think it makes a fantastic worldbuilding tool for any type of fiction writing
+[10:01 PM] h0p3: I do not understand why TW is wildly popular among DMs (and other roles) for superbly narratival games (for those collectively told stories which tend to only be limited by imagination). TW handles the quantitative mechanics elegantly, while helping you marry it to the qualitative.
+[10:03 PM] GneissKnight: @h0p3 I think the act  of building a believable world is the perfect use for TW primarily because the structure by which it operates mirrors the way that the world works
+[10:03 PM] h0p3: Agreed!
+[10:04 PM] GneissKnight: it has a form so malleable that it barely has one, but is wrapped in something so simple at it's surface that anyone can make it into anything
+[10:05 PM] h0p3: Narrative hacking.
+[10:05 PM] h0p3: I'm not very talented at RPing (I'm the worst kind of metagamer), but I have dabbled with character creation:  https://philosopher.life/#Sir%20Prasino%20Keimeno%20Arkouda%20of%20Ingtown
+[10:05 PM] mklauber: My DM planning is rarely structured, so being able to use filters to organize things planned afterwards works. As my mind jumps so does tw.
+👍🏼
+1
+[10:07 PM] GneissKnight: @h0p3 I know the rulebook for a ruleset that isn't even out yet better than our DM does. Everybody has their thing they enjoy
+[10:07 PM] GneissKnight: there's room for both, for sure.
+[10:07 PM] GneissKnight: I find a lot of CS majors tend to be the "Kill monsters and break the game" type
+[10:08 PM] h0p3: @mklauber  I bet that works both in and outside the game. For long campaigns, being able to search in real time and pull up the relevant tiddlers could be outstanding. I have no practice with it. I'm just imagining here.
+[10:09 PM] GneissKnight: @mklauber So far my plan is to create narrative threads that could be followed but only if the party deems them worth following. Eventually I will advance those story points without the players involvement and shift the way the world works
+[10:09 PM] mklauber: Absolutely.  I've run a campaign that way and it was wonderful. Instantly pull up notes on NPCs.
+[10:10 PM] mklauber: And what I did as well was copy my notes to a player wwiki I published when the players found them. Instant reference
+[10:10 PM] GneissKnight: ha, I made a config table for that.
+[10:11 PM] GneissKnight:
+
+[10:11 PM] GneissKnight: My job requires me to work in SQL databases pretty regularly so I am a fan of tables
+[10:12 PM] GneissKnight: I have yet to decide what I'll do as far as making my wiki available.
+[10:13 PM] mklauber: It started as me just making session notes, and publishing those.
+[10:13 PM] mklauber: Then I started liking in the NPCs they meet.
+[10:13 PM] mklauber: *linking
+[11:40 PM] GneissKnight: @h0p3 You'll have to enlighten me sometime on how you got those extra toolbar options in the top of each of your tiddlers
+[11:41 PM] GneissKnight: rather, how you configured them to also appear visible(edited)
+[11:43 PM] GneissKnight: @mklauber my ADHD addled millennial brain made me realize very quickly that the way the linking works is very much to the tastes of how I think
+[11:43 PM] GneissKnight: started in a similar manner when I originally ditched worldanvil.com for being to heavy on presentation.
+[11:45 PM] h0p3: @GneissKnight  $:/ControlPanel -> Appearance -> Toolbars -> View Toolbar
+[11:46 PM] GneissKnight: ahhhh
+[11:46 PM] GneissKnight: curious if I could add my own buttons there..
+[11:48 PM] h0p3: [[Sphygmus]] and I are working on customizing buttons. There are many steps I have to take to get there though. One of my goals is to maximize the hardcoding of  my wiki (this is antithetical to how many people use TW). Once my daughter, [[j3d1h]] and I have found a method we like, we'll be able to make those buttons sing a special tune per context.
+[11:49 PM] h0p3: I am new to figuring out how TW really works under the hood.
+[11:49 PM] GneissKnight: Keep me posted on that. From a UI perspective that could lead to a very interesting route.
+[11:50 PM] GneissKnight: Currently I have a bunch of buttons that create specific tiddlers nested in one GM tools section.
+[11:50 PM] GneissKnight:
+
+[11:51 PM] GneissKnight: nesting those in more places would be downright useful.
+[11:54 PM] h0p3: Here's one valuable difference between the Google Group and Discord: I don't feel nearly the same anxiety trying to say something. This medium is lower social friction for me.
+[11:55 PM] GneissKnight: it is meant to be low impact conversation
+[11:55 PM] GneissKnight: emphasis on conversation
+[11:55 PM] GneissKnight: not uh... Communication
+[11:55 PM] GneissKnight: Difference between the two, I think.
+[11:59 PM] Shp: on that note I'd like to say hi everyone! h0p3, you are my hero!(edited)
+😊
+1
+👉🏼
+1
+January 13, 2019
+[12:00 AM] h0p3: I have been working on your letter. You've been sending me down a rabbithole, sir.
+[12:01 AM] Shp: so have you, my soon-to-be greatest friend.
+[12:01 AM] Shp: I am now trying to learn Ithkuil. it is brilliant and for me way too complex.
+[12:01 AM] h0p3: It's so beautiful!
+[12:01 AM] Shp: but I'm in love with the ideas behind it so I'm not giving up yet.
+[12:02 AM] h0p3: Ithkuil's creator has not responded to me. He should have a finalized "practical" form in a year or two, I believe.
+[12:03 AM] GneissKnight: Oh man. What did you guys start me on
+[12:04 AM] Shp: I'm intrigued to see that.
+[12:04 AM] Shp: I am not sure if its possible, but I'd like to eventually have thoughts in Ithkuil
+[12:05 AM] h0p3: Preach, yo. I am afraid that we are too old for it. I believe only someone learning it from birth even has a chance.
+[12:05 AM] Shp: on topic: I just found Edit-CompText plugin and it is AWESOME!
+[12:07 AM] Shp: I believe adults learn more effectively, just have to keep making mistakes, I have hope :stuck_out_tongue:
+[12:08 AM] GneissKnight: Adults learn more effectively, but not more efficiently unfortunately
+[12:08 AM] GneissKnight: I'm not sure there is anything more absorbent than a 5 or 6 year old's brain
+[12:13 AM] h0p3: I can't use Edit-CompText yet. I want to though; so hawt. I still have to get TW5-Navigator to work first. Unfortunately, a sufficient threshold of incompatible plugins make it so I can't have everything I want. I am convinced keyboard navigation is worth giving up a lot though. I'm hoping to eventually get to Edit-CompText without losing any functions (and I naively believe TW5-Navigator is going to help me do that).
+[12:19 AM] Shp: yes. tw5-navigator is first. then this. I keep hoping that eventually all keyboard navigation will be natively supported in tw. and luckily it seems to me it is the future of tw.(edited)
+[12:21 AM] Shp: @h0p3 what timezone are you in?
+[12:25 AM] h0p3: UTC -4
+[12:25 AM] h0p3: Eastern, US
+[12:26 AM] h0p3: err UTC-5
+[12:26 AM] h0p3: I'll get there.
+😀
+1
+[12:30 AM] Shp: Will Sphygmus be joining us here at the discord?
+[12:31 AM] h0p3: That remains to be seen. I sent her an invite this afternoon. I [[hope]] she does.
+[12:33 AM] h0p3: I'm convinced she will read these words no matter what though. :smiley:
+[12:34 AM] Shp: and here I was thinking that I found a way to not be on the record :smile:
+[12:34 AM] h0p3: haha
+[12:34 AM] Shp: so naive of me.
+[12:36 AM] Shp: I wrote you a PM here on discord so that we don't waste people's time with off-topic talk
+[3:40 PM] Sapphomo: ooo la la Edit-CompText is some goodness; trying to get exact tiddler names can be a pain. im going to call the feature "summoning" in my wiki :3
+[3:40 PM] Sapphomo: but now i need to check out navigator TOO
+[5:02 PM] mklauber: @GneissKnight @h0p3 I've posted my "TW for RPGs" on a topic on the google group here: https://groups.google.com/forum/#!topic/tiddlywiki/18jQ5gy0L-k
+Google Groups
+Google Groups allows you to create and participate in online forums and email-based groups with a rich experience for community conversations.
+[5:05 PM] h0p3: @mklauber  It's gorgeous. I will be linking that to some family members.
+```

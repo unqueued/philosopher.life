@@ -1,0 +1,35 @@
+created: 20180710001320622
+creator: h0p3
+modified: 20180711140333502
+modifier: h0p3
+tags: 
+title: 2018.07.09 - Mark Slater: RSS
+
+<<<
+Hi there, 
+
+Does philosopher.life have an RSS feed? 
+
+-- Mark Slater
+<<<
+
+Hi [[Mark|Mark Slater]],
+
+It's good to hear from you. I am sorry, but I do not have an RSS feed. I'm flattered that you seek one. I'm not convinced it is worth it even to you, but I could be wrong. I'm interested to know what you see in the wiki's structure and content that makes for a viable RSS feed. 
+
+My family and I read our wikis together on Sundays for our family time. We use the "New" and "Recent" tabs in the sidebar as something a bit like an RSS tool. Here's an example: [[New]]. I must warn you; these are very noisy. There are a lot of mundane details and posts which I'm having a hard time seeing you interested in. That said, with RSS feeds and regex, you can filter to improve the signal-to-noise ratio. 
+
+Did you have any particular filters in mind? I have a couple ideas, but I'd like to know what you are looking for. I'm not sure what you personally think is worth RSSing. Beyond "New" and "Recent," here are some examples I have in mind:
+
+* There are particular tiddlers you want to see whenever they've been updated.
+** Sometimes I only change a couple words though.
+* There are particular logs you'd want to track.
+** This often has a lot of noise too, but there are few exceptions I can come up with.
+* You want to read the extended sequence of my public letters to you as a federated user-generated RSS-based mail/forum.
+** I've seen work for RSS feeds to be slurped into one's wiki, so that could build something kind of neat.
+
+There are several crucial aspects of this wiki which are not blog-like and aren't terribly conducive to RSS-style reading and interpretation, imho. Perhaps unfortunately, my wiki is built: chaotically, piecemeal, and not in palatable or enjoyable sequences. I will continue to think about and investigate the matter. Thank you for calling it to my attention.
+
+Sincerely,
+
+[[h0p3]]

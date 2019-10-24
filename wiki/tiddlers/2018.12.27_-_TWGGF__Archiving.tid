@@ -1,0 +1,140 @@
+created: 20181227183539638
+modified: 20181228042801686
+tags: Josiah TWGGF [[FTO Log]] Help AI
+title: 2018.12.27 - TWGGF: Archiving
+
+{{Text Art: Welcome!||ASCII: 100%}}
+
+* https://groups.google.com/forum/#!topic/tiddlywiki/sYNTSAu2u5M
+* https://philosopher.life/#2018.12.27%20-%20TWGGF%3A%20Archiving:%5B%5B2018.12.27%20-%20TWGGF%3A%20Archiving%5D%5D
+
+It must be said, we're in radical conjecture territory here. Even if you are understandably only half-joking, I'll try to give you a serious (yet obviously [[fallible and flawed|fff]]) answer.
+
+I write my wiki primarily to myself, and I consider my data (including my wiki) to be an extension of my identity. Even if I suck at it, using my wiki is how I want to think.<<ref "t">> It will have done its job if it serves me until I die: everything else is grace and gravy. Of course, I would be flattered if my wiki could be of interest to [[others]],<<ref "c">> and I aim to {[[help]]} them as best I can. 
+
+<<<
+There is an interesting MYTHOS in modern online working that touches TiddlyWiki too ...
+
+That commiting a TW is an act of "archival frucitude".
+<<<
+
+You'll have to forgive me. I might not be interpreting "frucitude" correctly. I'm assuming you mean it is fruity, looney, or wrongheaded. I'm going to infer that until you correct me. Your question lures me into providing my crazy answer to it (//surprise!//).
+
+`"Resident paranoid autistic-schizoid desert madman reporting in for duty, sir!"; /salute` 
+
+My wiki is intensely personal: it's my avatar. Archiving matters a great deal to me, even if only for me and my [[family|The Others]] (I doubt anyone besides my kids might care about this wiki 60 years from now). My preservation goal is easier than the one you've set out. If someone else thought it worthy enough to preserve my work after I'm done with it, they will find a way. Imho, I make it easy enough.<<ref "nit">>
+
+I think your concern is with digital preservation, not just online work. Obviously, an enormous amount of data has been lost, and our rate of production continues to skyrocket. It is difficult to create or define what is [[salient]] in the unending flood of information.<<ref "sal">>
+
+Digital preservation is a non-trivial problem, although analog is no picnic either. 
+
+My wife is a librarian, and they just found an obsolete analog record in their archives for which there is no reading device anymore (you might have to custom build something to read it at this point). One lesson to draw: archiving on paper is a reasonable way to go. Thus, I am trying to print a copy each year,<<ref "6">> and I'll be keeping it out of light, heat, oxygen, and moisture.<<<ref "prep">> I'm currently designing my wiki to hard/firmcode all the content (including my lists) so that it can be viably read from the source code (which enables several digital portability properties as well); I'm trying my best not to give that up.
+
+There are a number of digital ways I preserve my wiki too.
+
+<<<
+The problem is the barriers ...
+
+    1 - after you left this vorple coil WHO will renew your internet account forever?
+<<<
+
+I know you are joking, and I will jokingly ask: what makes you think you need an internet account?<<ref "i">>
+
+There are 10,000 ways to transfer files, and TW's compilation-portability is exceptional. If you can make any digital thing live on or offline against the sands of time, entropy, and censorship, TW seems a good pick (especially if you stick to plaintext content). Of course, I can just e-mail the complete document, upload it to random FTP servers with a bot, push it across messaging apps, compress and print my wiki into a sequence of QR codes onto a small stack of paper, encode my wiki into [[zero-width characters|Invisign]] which are then steganographically smuggled into digital documents I suspect may last a long time, append it to maymays to distribute on imageboards,<<ref "mm">> throw it on yet another blockchain, pastebin it, sneakernet it with USBs, and serve it on any filehosting solution. Almost anyone can serve my wiki on almost any platform (even unintentionally in some cases).<<ref "plat">> I posit that TW is born for easy decentralization because it is so self-contained and can run in a virtual machine on practically every computer on the planet.
+
+Unless those who govern the centralization of information prevent it (or exploit its development), it is possible that computation will decentralize yet again. If a torrent can live for 15 years, maybe it can live for 150. Maybe dat, IPFS, or [[some other contender|Outopos]] will make it so we host each other's identities and metadata in [[Tit For Two Tats]] cooperation.<<ref "seed">> I am not optimistic here, but if a new generation of //commonly// used federated and P2P tooling comes out, TW will easily live on in it.
+
+Some archive steps I take besides printing:
+
+* All the regular backups and redundancies.
+* https://github.com/m6ram/<<ref "git">>
+* https://web.archive.org/web/*/http://philosopher.life/
+* P2P redundancies (each with their own archives); some run by family and friends.
+* Occasional USB backups, and I physically hand these to some people for safe keeping.
+
+Digital archiving will come and go. If maximum preservation is the goal, distribute it into everything you can. At the very least, build an [[infrastructure|RGM]] for yourself that allows you to connect to and easily disseminate your wiki into ever-evolving digital ecosystems.
+
+Again, my current goal in archiving beyond my personal use is to make my self-modeled self-model available to my children (even in times of turmoil) in case they ever decided they'd want it. This is a much easier problem to solve than what you've set out for us. That said, I've pointed to some options for preservation without maintaining your internet account forever. It probably depends on whether or not future persons decide it's worth preserving any of the locations you've stored your wiki (and your wiki at all in many cases).
+
+<<<
+    2 - Will, in 342 years, HTML 798 still support your wiki?
+<<<
+
+Predicting the future is hard work. When I'm keepin' it real about the state of the planet, I'm fairly pessimistic. I'm open to the possibility there won't be sapient life on our planet 342 years from now. Setting that aside, assuming intelligent life continues, I have no idea if there will be computers, and if there are any, I don't know how much they might evolve. Perhaps the transhumanists are correct (I simply don't know), in which case, I would be confident future beings could make sense of the source code (for which there will be mountains of other examples).
+
+Outside of plaintext, HTML is about as universal as it gets in the digital world, and I predict it will continue to dominate UI's as the Web Browser becomes the one true GUI terminal to rule them all. To my eyes, it's not unreasonable to think it will be usable (or at least there will be toolchains designed to read old HTML/JS).
+
+<<<
+    3 - In 2,360 will anyone understand your patois?
+<<<
+
+Few seem to understand mine now, lol!<<ref "w">> For philosophical reasons, I suggest no one ever fully can. Understanding and modeling ourselves and others (and perhaps most of reality) only ever comes in probabilistic degrees of confidence (and the rest is faith). Parts of my wiki will never be intelligible to someone who doesn't know me in person, parts require being me in my timeslice to understand the qualia, parts will require having read the whole from various doorways and directions, parts are fairly technical discussions that will become obsolete, and I suggest there's plenty of gibberish I myself will eventually fail to understand (I've run across one such blurb recently in my re-reading and [[audit]] of 2017). Who knows what someone will make of my hieroglyphic emotes and corrupted [[ascii/unicode art|ASCII & Unicode Art]].<<ref "e">> I work hard to structure my wiki and define [[my personal vocabulary|hlexicon]], and that might help with the patois problem. While I [[hope]] to engage in an unconventional [[hyperconversation]] with [[Humanity]], in the end, most of my wiki is standard English written just for me.
+
+Writing my wiki in English has some advantages. You are free to call me out for my cultural insensitivities. English is one the most popular languages of commerce, politics, and academics; it may be a strong lingua franca as well. It has sociopolitical inertia behind it. I'm not convinced any artificial auxiliary languages are going to make it (but, I love [[Ithkuil]]). It's reasonable to think that as China, India, and Brazil develop further, so too will their memeplexes and languages penetrate the world. I do not know if there will be a particular family of languages everyone will speak in 2360. English is a non-trivial contender, especially in the digital world where it continues to be disproportionately dominant.
+
+I grant the rate of change in [[The Great Human Conversation]] is growing geometrically. Looking at the past may not help during this explosion which has no foreseeable end (well, not any good ends I can see). Perhaps no language will look anything like it does today. 
+
+I hope high-accuracy, automated translation will become a reality. That would solve many problems for us. Generalized AI may also completely answer this. While I cannot say such a thing will exist, I [[write letters to AI|Aispondence]] in my wiki. If future humans cared to read my work at all, it is possible they'd be augmenting their reading (of the work directly or summations) with the aid of AI as well. Thus, I am open to the possibility that future readers will hyperread, surf, slurp up, or download my semantics better than any current humans alive do. I am even open to the perhaps absurd possibility that a chatbot or VR world could be trained from my wiki snapshot corpus.
+
+I have strong doubts, but I still aim to make it easy on them in some respects (and current people who might want to get to know me). This problem can never be solved perfectly, but I try to give a strong internal point of view (which is not to say I'm effective!). My wiki is now ~23MB of hand-crafted text. There are about 30,000 links pointing to tiddlers in my wiki, and each remodeling seems to give it more and more structure and relation (making it easier to do so as well). I hope for the narratives of each tiddler to coherently map strongly onto the rhizome of all the others. Indeed, even this post is written and interlinked on my wiki.
+
+One way in which I hope to be interpreted is through my reference to external work (which includes my [[link]] to this thread). Obviously, this can be said for all languages, but when I talk about "[[The Categorical Imperative]]," there is a body of literature I'm referencing. When I talk about a [[book|Deep Reading]], I'm digesting and pointing to anchors or lenses to interpret my work. I currently have categorized and at least partially commented on about 20,000 links to the web in my wiki.<<ref "a">> That information might also offer yet another window into my language games. I realize I'm just a blip in [[The Matrix]], [[The Great Human Conversation]], but I [[aim|IA2DYJ]] to link myself as effectively as I can to the thoughts of [[others]].<<ref "m">>
+
+Thus, I don't know the answer to your question, but I'm trying to make moves in my wiki which could help solve that problem.
+
+<<<
+Personally I shall print upon vellum and bury it in the hope the aliens may find it.
+
+Semi-serious, Josiah
+<<<
+
+Yessir. =) Good luck! `o7`
+
+
+---
+<<footnotes "t" "I throw myself into the void of this tool I believe in. I race to make my wiki my nearly all-compassing interface to [[myself|h0p3]] and the world.">>
+
+<<footnotes "c" "I'm certainly interested in yours!">>
+
+<<footnotes "nit" "I even keep real-time diffs of my wiki for some hypothetical absurdly obsessive nitpicker.">>
+
+<<footnotes "sal" "Which is also different from what the market takes to be [[salient]].">>
+
+<<footnotes "6" "Doubled-sided, barest minimum margins, small but legible font.">>
+
+<<footnotes "prep" "Indeed, though I hope it never comes, I prep for reading a snapshot of my wiki in tragic circumstances.">>
+
+<<footnotes "i" "Is that air you are breathing?">>
+
+<<footnotes "mm" "WTF, umm, why is that simple gif 15MB in size? OMG, look at the compressed wiki appended to it!">>
+
+<<footnotes "plat" "Obviously, walled-garden platforms which require you to force your identity into nice little boxes for them to model (and then use that model to exploit you) might not find your handcrafted model of yourself to be so useful to them. In this case, stick it to the man! Own your data and yourselves; exercise your autonomy in your wiki! Hack your wiki to hack your life.">>
+
+<<footnotes "seed" "Seed to >1 ratio, homies, [[Humanity]] will thank you.">>
+
+<<footnotes "git" "I've used more gits before, but I don't see the point right now.">>
+
+<<footnotes "w" "We all have that problem to varying [[dok]]. It's part of being human.">>
+
+<<footnotes "e" "For example, [[E.T. The Extra-Terrestrial]]">>
+
+<<footnotes "a" "Assuming any portion of them survive linkrot.">>
+
+<<footnotes "m" "It's an important function to being sufficiently empathic.">>
+
+---
+
+<<<
+I just realized what the ultimate solution is to having your most precious archives preserved for all, or nearly all, eternity. Anything based purely on recording on some substrate (rock, paper, plastic, silicon) will
+
+1) Breakdown
+2) Never be discovered.
+
+So you need something that will continuously repair itself, AND continuously present itself for inspection.
+
+The answer is to transcribe you records into DNA. Then transfer the DNA into field mice, or rats. Then release them. Now your archives will be continually recreating themselves and spreading themselves around the globe and maybe even into space. Eventually they will come to the attention of some future researcher, who will have your thoughts decoded just to see who's been messing with his specimens.
+
+-- Mark [S.]
+<<<
+
+The wetware biotech immortal jellyfish facehugger wiki will consume us all like The Blight, spreading unstoppably, injecting its memes into everything and everyone. It will sublate everything in The Dialectic! Oh noes! Archivists of the future will need special suits and containment fields.

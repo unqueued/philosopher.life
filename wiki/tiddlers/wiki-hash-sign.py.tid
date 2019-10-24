@@ -1,0 +1,29 @@
+created: 20180719040628473
+creator: h0p3
+modified: 20190705180742772
+modifier: h0p3
+tags: [[Wiki: Scripts]] python
+title: wiki-hash-sign.py
+
+```python
+#!/usr/bin/python3
+
+import nacl.encoding
+import nacl.signing
+import nacl.hash
+import binascii
+
+# Key derived from ...
+signing_key_hex = ""
+signing_key = nacl.signing.SigningKey(signing_key_hex, encoder=nacl.encoding.HexEncoder)
+
+# Hash index.html
+with open('index.html', 'r') as index_file:
+    data=index_file.read().encode()
+checksum = nacl.hash.sha256(data, encoder=nacl.encoding.HexEncoder)
+
+# Sign checksum, write checksum and signature to index.html.sig file
+signed = signing_key.sign(checksum)
+with open("index.html.sig", "w") as text_file:
+    text_file.write(checksum.decode() + '\n' + binascii.hexlify(signed).decode())
+```

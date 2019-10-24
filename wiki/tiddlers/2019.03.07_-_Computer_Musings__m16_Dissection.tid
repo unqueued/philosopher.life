@@ -1,0 +1,32 @@
+created: 20190307164230685
+modified: 20190307174609428
+tags: [[Computer Musings]]
+title: 2019.03.07 - Computer Musings: m16 Dissection
+
+I've opened it. The case was designed for it, though I still think Lian Li are better. Regardless, the internals are gorgeous. It's weird to see only half the RAM slots used with 128GB (supposedly).
+
+No dust, special plastic lid/container over the good stuff. The fans sit above the drives; they are externally detachable. Lol! It feels like legos.
+
+I can get SATA to fit the SAS ports on hotswap. I'm missing two of the drive trays. I'll have to cobble something together for that shit. It's finicky too.
+
+There is a weird USB port and microSD built into the one of the PCI-based risers. Conveniences for the pros, I assume.
+
+Removable PCI modules. Wat. Am I in heaven?
+
+Nope. Bad news, bro: 6 PCI slots, only two x16, and unfortunately, they are at the top. I can't use double-slot. ARG! I can't dremel my way out of this one cleanly (well, I don't want to!). I may have to do it. FUCK.
+
+Uh, there's a card here, and I don't know what it is. Never seen anything like it. Never seen them ports before. Surely, it must be a CIA surveillance device. I'm just going to wait until I have an OS to see what it is.
+
+That looks like a very expensive PSU. 2 Ethernet ports, praise jeebus. Will dump some other nic cards to make it more convenient. I really should be able to route with this, and not just as an edgerouter.
+
+This is designed for a container I do not own. The "ears" that stick out look fragile to me. 
+
+Fired it up. [[j3d1h]] says it sounds like a wind tunnel simulator. It's crazy loud. It boots up fine. The BIOS is unlike anything I've ever seen. It's slow, has a lot of pausing breakpoints and then automatically carries on. Manjaro spits up a couple errors about BIOS, but  I connected to the interwebs. VGA ports suck. =(
+
+Bad news is that the BIOS requires the fans to be in place or I get a critical failure. I might be able to turn that off, but I doubt it. I could manually disable the fans themselves, but it might also detect that, lol. That might need to be the next step. 
+
+Alternatively, I could fine other ways to muffle it. I might even be able to just run it out side, lol. Problems thus far I have to solve:
+
+* VGA blows, you need even a minimal single slot GPU.
+* The fans are hell. 
+** If I can't solve this, forget the graphics.

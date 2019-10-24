@@ -1,0 +1,55 @@
+created: 20180118183945182
+modified: 20190322043124377
+revision: 0
+tags: Outopos
+title: 2018.01.18 - Outopos: Inverse Multiplexing
+
+The Atropos protocol should come concurrency-batteries loaded. Inverse multiplexing is a concurrency-based core strength of this mesh network protocol. With it, we can unleash privacy generating noise while greatly improving performance through bottlenecks (e.g. artificial peering throttle). More importantly, it will enable more complex network topologies to emerge.
+
+Here is a minimal example of connection bonding, or what I call layer-1 tunnel imuxing:<<ref "2019.03.22">>
+
+```
+       --- node2 --- 
+     /               \
+node1                 node4 
+     \               /
+       --- node3 ---
+```
+
+Perhaps nodes 2 and 3 don't have as much throughput as node1 and node4. Bonded together, however, they do. Obviously, I can bond a whole bunch of connections together this way. Down the road, having designed the protocol for tunnel imuxing will enable me to trivially bond and load-balance multiple network connections. 
+
+From a game-theoretic standpoint, being able to bond connections means I have more reason to care about having good relationships with all nodes, be they big or small, since it all adds up. While I may give preference to faster nodes, I won't disregard slow ones. The more the merrier. 
+
+In addition to scheduling trust-tests of nodes on the network, Atropos-speaking clients should use statistical imuxing to determine the correct number of bonds. 
+
+Tunnel imuxing agglomerates a node's resources and social capital, encourages playing nice with everyone, and improves privacy.<<ref "1">>
+
+Zooming our scope in on the above topology, here is a minimal example of what I call layer-0 node imuxing:<<ref '2">>
+
+```
+       --- thread1 --- 
+     /                 \
+node1                   node2 
+     \                 /
+       --- thread2 ---
+```
+
+I can rapid fire tons of packets to you, you catch them in whatever order you get them, put them together, and voila. Inverse multiplexing maximizes our throughput while transmitting packets under low MTU ceilings. We have to multi-thread our way through the bottleneck.
+
+Atropos clients should use statistical imuxing to determine the correct number of threads, but there is a problem worth solving before that: packet-size. As we migrate to ipv6 (slowly), we will see the safe packet size increase, and Atropos should be built to take advantage of that. 
+
+We currently use a safe default, but it should not be the end goal. The goal is to build a protocol that has the ability to use variable packet sizes. Someone seeking maximum anonymity shouldn't change this, but for the average joe, this is a worthy trade-off. This is a low-hanging fruit problem. I will trade the privacy and anonymity characteristics of a non-standardized packet size if that means I achieve 20% more throughput.
+
+Packet-size should be negotiated between two nodes in their context. Being prepared for automatic variable packet-size expansion should be baked into Atropos. The goal is to establish the largest viable packet size between two nodes because content density matters. We can improve throughput performance in a non-trivial number of cases (especially when this takes off and people start configuring routers differently to accommodate the protocol). We should build a protocol that fits the current climate but is also designed to grow with our technology rather than merely reinforcing mistakes of the past.
+
+To summarize:
+
+* Every node is layer-0 node imuxing across a physical network
+* Every node is layer-1 tunnel imuxing across multiple tunnels
+
+---
+<<footnotes "1" "There is noise here that generates some privacy, although it is not clear if this has any effect on anonymity properties of the network (presumably, it's bad for us).">>
+
+<<footnotes "2" "Although, I often see this referred to as plain multiplexing. That is not how I think of the problem.">>
+
+<<footnotes "2019.03.22" "I'm glad I talked about this with [[BDS97]]. It's part of the core problem that must be solved.">>

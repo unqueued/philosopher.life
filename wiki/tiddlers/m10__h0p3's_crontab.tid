@@ -1,0 +1,53 @@
+created: 20180224020455192
+creator: h0p3
+modified: 20190801033043727
+modifier: h0p3
+tags: monster-10 config
+title: m10: h0p3's crontab
+
+```bash
+# Minutely torrent-watch mv
+* * * * * mv /home/h0p3/Downloads/*.torrent /home/h0p3/syncs/torrent-watch
+
+# Minutely upload wiki to git
+* * * * * sh /home/h0p3/scripts/wiki-live-git.sh
+
+# Nightly compressed wiki snapshot script
+0 2 * * * /home/h0p3/scripts/wiki-snapshot.sh
+
+# Nightly shreddit
+0 2 * * * cd /home/h0p3/.config/shreddit && shreddit
+
+# Nightly Backup of Home to Storage
+0 2 * * * rsync -acr --delete --force --exclude=".sync" /home/h0p3/ /mnt/storage/syncs/m10-home-h0p3
+
+# Weekly Compressed Backup of m10 @3am on Monday
+0 3 * * 1 /home/h0p3/scripts/compressed-backup.sh 
+
+
+### Wiki rsync snapshots
+
+# 10 minutely wiki snapshot
+*/10 * * * * rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/Downloads/Wiki/ /home/h0p3/syncs/wiki-snapshots/Cron-Backups/Tenminutes
+*/10 * * * * rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/syncs/bob/ /home/h0p3/syncs/wiki-snapshots/Bob-Backups/Tenminutes
+
+# Hourly wiki snapshot
+0 * * * * rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/Downloads/Wiki/ /home/h0p3/syncs/wiki-snapshots/Cron-Backups/Hourly
+0 * * * * rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/syncs/bob/ /home/h0p3/syncs/wiki-snapshots/Bob-Backups/Hourly
+
+# Daily wiki snapshot @2am
+0 2 * * * rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/Downloads/Wiki/ /home/h0p3/syncs/wiki-snapshots/Cron-Backups/Daily
+0 2 * * * rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/syncs/bob/ /home/h0p3/syncs/wiki-snapshots/Bob-Backups/Daily
+
+# Weekly wiki snapshot @2am on Sunday
+0 2 * * 0 rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/Downloads/Wiki/ /home/h0p3/syncs/wiki-snapshots/Cron-Backups/Weekly
+0 2 * * 0 rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/syncs/bob/ /home/h0p3/syncs/wiki-snapshots/Bob-Backups/Weekly
+
+# Monthly wiki snapshot @2am on the 1st of the month
+0 2 1 * * rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/Downloads/Wiki/ /home/h0p3/syncs/wiki-snapshots/Cron-Backups/Monthly
+0 2 1 * * rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/syncs/bob/ /home/h0p3/syncs/wiki-snapshots/Bob-Backups/Monthly
+
+#start bob on boot + every 5 minutes
+@reboot node /home/h0p3/syncs/bob/tiddlywiki.js /home/h0p3/syncs/bob/Wikis --wsserver
+*/5 * * * * node /home/h0p3/syncs/bob/tiddlywiki.js /home/h0p3/syncs/bob/Wikis --wsserver
+```

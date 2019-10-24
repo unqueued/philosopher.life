@@ -1,0 +1,57 @@
+created: 20171212202233513
+modified: 20171212231225654
+revision: 0
+title: Outopos: Preoptimization Fantasy
+
+Fine, fine you retarded idealistic bastard. Let's do it. Go bonkers. I'm the philosopher king, so I get the final key.
+
+The Ruling Class:
+
+* Democratically Elected
+** Sybil Attack? Ruling class decides and places mechanisms in place to detect and prevent.
+*** Nodes have to X-number of days old?
+*** Ruling Class can test nodes.
+* Exists inside the network itself.
+* Game-theoretically sound multi-sig approach to voting for:
+** Altering the codebase
+** Updates
+** Voting people on and off the island
+** etc.
+* All assets decentrally stored on the network itself.
+
+Currently stuck between two OSes. One looks perfect on the outside, and the other looks like it is guaranteed to do the job.
+
+* Alpine Linux
+** Incredibly lightweight; the BSD of Linux.
+** Designed for embedded, virtualization, and networking. That's literally what we are doing.
+** The only reason not to choose this is for fear that it won't be maintained, but with Docker backing, it really may blossom.
+
+* Arch Linux
+** Lightweight for a mainstream vanilla distro.
+** Easy to make yours.
+** Highly crowd-sourceable, especially for this project, which many likeminds would admire.
+
+Decentralized it to the Nth degree. To the best our abilities, every point of centralization is a point of failure to eliminate. I don't even know where to begin on this topic.
+
+Bootstrapping into the network needs to be world-class.
+
+* NAT Traversal
+* IP Sources
+** DNS, Namecoin, and Centralized Node Repositories
+** DHT
+** Nightly Built List of IPs of volunteers with automatically checked high uptime+performance
+** Brute-force Searching for Peers
+*** Zmap scanning the internet for nodes.
+**** Blacklists included.
+
+Topologies will vary. They need to be censorship resistant, private, anonymous when preferred, and extremely flexible. Performance is critical. Testing needs to be tuneable and provide important information. The network should work together.  
+
+* P2P Mesh
+* Federated Mesh and Sharding
+* Proxy Chains
+* Subnets
+* Nested VPN of all the above.
+
+Crypto:
+
+* Great fucking question.

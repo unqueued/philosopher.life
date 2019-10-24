@@ -1,0 +1,29 @@
+created: 20180414154703008
+creator: h0p3
+modified: 20180526162531165
+modifier: h0p3
+title: ATL: Crontabs
+
+User `crontab`:
+
+```
+# Force compression
+* * * * * w3m philosopher.life -dump > /dev/null
+0 1 * * * w3m jedihacker.philosopher.life -dump > /dev/null
+0 1 * * * w3m kokonut.philosopher.life -dump > /dev/null
+0 1 * * * w3m bookwyrm.philosopher.life -dump > /dev/null
+
+# Nightly Snapshot to Archive.org
+0 2 * * * /home/h0p3/bin/daily.wbm.archive.py
+
+# Clean out w3m, just in case of fuck ups:
+0 2 * * * rm -rf /home/h0p3/.w3m
+```
+
+Root `crontab`:
+
+```
+6 1,13 * * * certbot renew --renew-hook "service lighttpd restart"
+0 3 * * * apt-get update && apt-get upgrade -y && apt-get autoremove -y && apt-get autoclean -y && reboot
+0 1 * * * rm -rf /var/cache/lighttpd/compress/*
+```

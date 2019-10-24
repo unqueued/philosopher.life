@@ -1,0 +1,69 @@
+created: 20170401012759886
+modified: 20171130182142484
+revision: 0
+title: Script: Lighttpd + Letsencrypt Setup
+
+```bash
+#!/bin/bash
+
+### Replace all instances of foobar.domain in this script with your actual foobar.domain
+
+# Install lighttpd server; default serves /var/www/html
+sudo apt-get install lighttpd -y
+sudo service lighttpd restart
+
+### Setup HTTPS
+# Open port SSL port
+sudo apt-get install ufw -y
+sudo ufw allow 443
+
+# Install LetsEncrypt
+sudo apt-get install letsencrypt -y
+sudo letsencrypt certonly --webroot -w /var/www/html -d foobar.domain -d www.foobar.domain
+sudo letsencrypt renew --dry-run --agree-tos
+cd /etc/letsencrypt/live/foobar.domain
+sudo cat privkey.pem cert.pem > ssl.pem
+cd /etc/ssl/certs
+
+# Generate key; this can take quite a while
+sudo openssl dhparam -out dhparam.pem 4096
+
+# create configuration file
+sudo cat <<EOT >> /etc/lighttpd/conf-enabled/letsencrypt.foobar.domain.conf
+$SERVER["socket"] == ":443" {
+     ssl.engine = "enable" 
+     ssl.pemfile = "/etc/letsencrypt/live/foobar.domain/ssl.pem" 
+     ssl.ca-file =  "/etc/letsencrypt/live/foobar.domain/fullchain.pem"
+     ssl.dh-file = "/etc/ssl/certs/dhparam.pem" 
+     ssl.ec-curve = "secp384r1"
+     ssl.honor-cipher-order = "enable"
+     ssl.cipher-list = "EECDH+AESGCM:EDH+AESGCM:AES256+EECDH:AES256+EDH"
+     ssl.use-compression = "disable"
+     setenv.add-response-header = (
+    "Strict-Transport-Security" => "max-age=63072000; includeSubdomains; preload",
+    "X-Frame-Options" => "DENY",
+    "X-Content-Type-Options" => "nosniff"
+)
+ssl.use-sslv2 = "disable"
+ssl.use-sslv3 = "disable"
+}
+EOT
+
+# Restart your http server
+sudo service lighttpd restart
+
+# Setup autorenew in crontab
+(crontab -l ; echo "0 1,13 * * * letsencrypt renew") | crontab -
+
+
+
+
+
+
+
+
+
+
+
+
+```

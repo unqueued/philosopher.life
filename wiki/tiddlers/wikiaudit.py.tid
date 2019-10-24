@@ -1,0 +1,29 @@
+created: 20181101173215746
+creator: h0p3
+modified: 20181101173231071
+modifier: h0p3
+tags: python [[Wiki Audit]]
+title: wikiaudit.py
+
+```python
+#!/usr/bin/python
+
+# Turn a list into a hardcoded linked list.
+
+import pyperclip
+import sys
+
+try: # Parse text from command line argument
+    text = sys.argv[1].splitlines()
+except: # Parse text from clipboard
+    text = pyperclip.paste().splitlines()
+
+# Format and generate clipboard string
+clipboard = ""
+for line in range(len(text)):
+    clipboard += "* [[" + text[line].strip() + "]]\n"
+
+# Load it into your clipboard
+pyperclip.copy(clipboard)
+spam = pyperclip.paste() 
+```

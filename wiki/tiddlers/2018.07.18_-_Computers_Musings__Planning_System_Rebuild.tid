@@ -1,0 +1,28 @@
+created: 20180718165250503
+creator: h0p3
+modified: 20180719133641911
+modifier: h0p3
+title: 2018.07.18 - Computers Musings: Planning System Rebuild
+
+Alright. I'm feeling ready to leave KDE. As usual, I'm hopping again. That's the way it works.
+
+I need to clear out my browser. I need to tie up all my loose ends before I do this. m15 can act as a go between if I must for the wiki itself.
+
+I think I need to just bite the bullet and move to i3.
+
+* https://lobotuerto.com/blog/you-need-to-know-about-i3/
+
+I like certain aspects of it. I still need to be able to get things done with my mouse though. I can't have everything...
+
+It's a fact that I can't remember what I'm looking for sometimes. I can't juggle everything in my head at once, and I need the visual breadcrumbs and tools I have for finding the actual tools I need in the moment sometimes. 
+
+i3 appears to have a learning curve, but we can manage it (right?).
+
+Checklist:
+
+* Final software preferences check
+** Be specific, right?
+* Final credentials, passwords, keys check
+* Final scripts check
+* Two backup, and preferably rollback image check
+* ...

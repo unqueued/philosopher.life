@@ -1,0 +1,30 @@
+created: 20181021145058694
+creator: h0p3
+modified: 20181022034152496
+modifier: h0p3
+tags: [[Wiki Audit]]
+title: 2018.10.21 - Wiki Audit: Alias
+
+[[Root]] directories didn't get fully aliased. Derp. I have so many things to cleanup now. =)
+
+---
+
+One of the ways I'm going to reason about tags is to start visualizing [[Tags]] as sending messages to an inbox. Each project is telic, and it is therefore calculated in [[The Original Position]] of the competing Frankfurtian desires in me.
+
+---
+
+The fact is that automatic tagging on a button is what I have to abuse.
+
+---
+
+Right now, I'm having a difficult time finding a way to make automated hardcoding to be resilient and not brittle. If I'm going to automate it, I really need it to "just werk." I am very fast by hand, and with KeeBoord, I can throw down. Automatically attaching metadata is the goal. In fact, I need to update [[The Remodeling]] in light of that.
+
+God damnit, do I just give in here and try to piece the static back together when I can?
+
+---
+
+$:/core/ui/ViewTemplate/subtitle + $:/language/Tiddler/DateFormat = The necessary information.
+
+---
+
+The Blue ~~Pills~~ Tags are blue now.

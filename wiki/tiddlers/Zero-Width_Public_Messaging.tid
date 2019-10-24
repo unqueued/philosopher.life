@@ -1,0 +1,21 @@
+created: 20180913040144180
+creator: h0p3
+modified: 20190705034630648
+modifier: h0p3
+tags: Steganography
+title: Zero-Width Public Messaging
+
+//In honor of [[Leo Strauss]]//
+
+I have seen many zero-width marks in the wild. It's time I start taking them more seriously. Call me paranoid, but I must remain open to the possibility that this may be useful, no matter how strongly I doubt it. As a [[hope]]ful pessimist, I can never be certain of what the world is or where it's going, hence I continue to develop this suspicious playbook.
+
+This process could be built into many things. It's loud as fuck to someone looking for it, so perhaps it is merely a redflag (some institutions already automatically parse for it). Steganography is an overchoreographed feint within a feint; if your enemy is ready for it, it's a profound weakness. Yet, the vast majority aren't looking for it. Yes, this is almost guaranteed to be merely an esoteric toy exercise. I doubt quasi-quietly broadcasting messages in the open, clearsignature watermarking, and radioactive tracers of copy‌​‌‍‌​‌​​‌‌​‌​‍​‍‌‌​‌‍‌‍‌​‍‍‍​​​​‍‌​​​​‌​‌​‍​‌‌‍‌‌​‍‌​‌‍‌‍‍‌‍‍‍‍‌​‌‍‍‌​‌‌​​​‌​‍‌‍‌‍​‌‌‍​​‌‌​‍‍‌‍​‌​‍​‌​‍‌‍​​‍‌​​‍‌‍‌‌​​‌‍‌​‍‍‍pasta text penetrating the interwebs will ever be useful.<<ref "c">> 
+
+* https://addons.mozilla.org/en-US/firefox/addon/zerowidth-detection
+* [[invisicode.py]]
+
+Similar to {[[Verify]]}, I remain open to gnostic hail-mary pass steganography and shibboleth. I'd rather it were just a fun game. May it never be useful to us!
+
+
+---
+<<footnotes "c" "Yup. This borders on lunacy and the delusions of mere simulation.">>

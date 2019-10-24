@@ -1,0 +1,40 @@
+created: 20161215205538780
+modified: 20161215205540277
+revision: 0
+title: Linux & POSIX-Compliant CLI Tool Collection
+
+```
+# # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#                                   ,,                #
+#       MMP""MM""YMM              `7MM                #
+#       P'   MM   `7                MM                #
+#            MM  ,pW"Wq.   ,pW"Wq.  MM  ,pP"Ybd       #
+#            MM 6W'   `Wb 6W'   `Wb MM  8I   `"       #
+#            MM 8M     M8 8M     M8 MM  `YMMMa.       #
+#            MM YA.   ,A9 YA.   ,A9 MM  L.   I8       #
+#          .JMML.`Ybmd9'   `Ybmd9'.JMML.M9mmmP'       #
+#                                                     #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+lftp                The only FTP client
+mc                  Midnight Commander, a file explorer
+htop                Top Replacement
+discus              Disk Usage Display
+ncdu                Disk Usage Tool
+jed                 Text editor
+bmon                Bandwidth Monitor
+byobu               Terminal multiplexer
+dtrx                Easy Decompression
+mtr                 Traceroute + Ping utility
+aria2c              Wget/Curl Replacement                           Usage: aria2c foobar.com/file.xyz
+w3m                 Console Web Browser
+weechat             IRC client
+finch               All-in-One Pidgin-like messaging client
+toxic               Tox client 
+bleachbit           Disk cleaner
+inxi                System Info Viewer                              Usage: inxi -Fi
+openssh-server      Standard SSH Server (change the port)
+btsync              Decentralized filesharing                      
+sshfs               Mount remote folder over SSH                    Usage: sshfs name@server:/path/to/folder /path/to/mount/point
+xonsh               Pythonic bash               
+```

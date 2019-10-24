@@ -1,0 +1,12 @@
+created: 20181011012009080
+creator: h0p3
+modified: 20181130063347422
+modifier: h0p3
+tags: hlexicon [[Wiki Mechanic]]
+title: title.Title
+
+//See: [[hlexicon]]//
+
+---
+
+title.Title := The narratival title appended to the end of a log tiddler's complete title, e.g. `YYYY.MM.DD - titletag: title.Title`

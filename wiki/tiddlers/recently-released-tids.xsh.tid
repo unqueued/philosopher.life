@@ -1,0 +1,23 @@
+created: 20190213070844620
+modified: 20190213235119917
+tags: [[Wiki: Scripts]] j3d1h Sphygmus Xonsh
+title: recently-released-tids.xsh
+
+```python
+#!/usr/bin/env xonsh
+
+# Generate list of .tids in processing stage directory
+cd /path/to/processing-dir 
+lsoutput = $(ls).splitlines()
+
+# Generate the "released" field line
+date = $(date -u +"%Y%m%d")
+date = date.replace('\n','')
+date = date.replace('"','')
+$FIELD = "released: " + date + "000000000"
+
+# Prepend $FIELD to the beginning of each .tid, and move to destination
+for $FILE in lsoutput:
+    sed -i "1i$FIELD" $FILE
+    mv $FILE /path/to/shared-destination
+```

@@ -1,0 +1,24 @@
+created: 20181218180726071
+modified: 20190705044747751
+tags: [[Random Letter]] Letter To
+title: 2018.12.18 - blair@blairreeves.me: Preach
+
+Hello Blair,
+
+I stumbled upon your http://blairreeves.me/2018/12/12/the-internet-as-television/ post. Preach, yo. 
+
+I suggest profound decentralization is at the heart of succeeding in that vision. A Web 3.0 built upon sending [[others]] the static (and open source) components to compile and run the site dynamically clientside<<ref "d">> enables us to own our data and algorithms;<<ref "o">> it is the only escape from the centralization of power.<<ref "w">> Unfortunately, it may require nation-state level resources to build an effective tool.<<ref "c">> The end-to-end principle must be applied to peers, and until we are functional peers on the internet, our intermediaries pwn and MITM attack us. I [[hope]], but I do not predict we will acquire our [[Humanity]] again. Perhaps it is a topic we can explore together.
+
+Sincerely,
+
+[[h0p3]]
+
+
+---
+<<footnotes "d" "Which [[WASM|2017.02.28 - Realpolitik Speculation: Web Assembly: The Browser VM as Decentralized Cloud]] could technically accomplish, moving us away from the mainframe yet again in the dialectic of computing.">>
+
+<<footnotes "o" "At least to the [[dok]] we do not technologically own our data, we do politically own ourselves.">>
+
+<<footnotes "w" "As arrogant as it sounds, I think this single html file wiki is a non-trivial example.">>
+
+<<footnotes "c" "Centralization is so efficient in some regards, and it is the natural hegemon/sublator in the material dialectic of Capitalism. Selfishness is easy to incentivize and difficult to overcome.">>

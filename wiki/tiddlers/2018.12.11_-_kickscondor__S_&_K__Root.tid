@@ -1,0 +1,32 @@
+created: 20181211203034437
+modified: 20181211203229725
+tags: kickscondor From [[Root User]] Note
+title: 2018.12.11 - kickscondor: S & K: Root
+
+https://www.kickscondor.com/comments/s-and-k:-root/
+
+<<<
+h0p3
+
+Tell me how I’m being an idiot like only good friends can, please (you may already be doing so, and I ask you to forgive my ignorance as I come to grips with it). It is possible that I’m not making ridiculous mistakes here, but I am aware that is unlikely. I beg for your advice and wisdom in constructing this; I also recognize I may be reinventing the wheel, poorly. Perhaps I have misunderstood how to accomplish my goal. What is your opinion? What should I be clearer about? Where is this failing? What should I do instead? I am not asking you to build anything; I’m asking you to check my work and tell me if my building plans are stupid (because they might be). You may be wondering: “what is the purpose of this?” like I’m being too paranoid, inefficient, or insane. Perhaps this is incoherent, and I ask you to feel at liberty to say it.
+<<<
+
+Hate to say this, brother—but I actually think I follow your diagram, hahah—I mean what can I say, it’s terribly complex, but sometimes these things have to be. Yeah and like you say: Rube Goldberg. I say go for the madcap every time. If I tried to diagram my structure in dashes-and-pipes, it’d be like that, too, actually. Ten layers of tooling. Salud.
+
+You seem quite good at stepping back and asking what the hell you’re doing. I’m going to keep a close eye on all of this, because I think the moment will come when we can bridge Indieweb and your world. It actually won’t offer you much—I think it’ll just automatic copy-and-paste is all. Depends on your feelings about syndication—seems like we both have complicated feelings about RSS. Which, to me, makes it a ripe topic.
+
+<<<
+    As I have tried to say to both of you, I’m very interested in hardcoding my links. I want hardlinks statically sitting in a tiddler rather than some filterlist rendering upon opening a tiddler. The recursion problem is so serious for javascript that it cannot be performant enough to enable me to rely upon anything other than significant hardlinking. I think Bob may be the key to enabling hardcoding in a way that I can do.
+<<<
+
+Oh, I agree with you—I do the same thing on my site. I don’t ever use a query (filterlist)—I always hardcode links. It’s too important to lay it out right. It also forces me to limit the amount of meta-pages I have. I think they have to be used judiciously because people aren’t going to wade through a whole lot of meta. Those kind of automatic pages always lead to bland, repetitive layouts.
+
+It’s evident that you hand-build your pages and they are 10x more appealing as a result (e.g. your link logs are ace).
+
+<<<
+    My goal is to construct a signed wiki (and snapshots) that I can distribute however I need. I desperately aim not to centralize the distribution process any more than is necessary or reasonable low-hanging fruit (perhaps that will change). The fact is that I want to tie this wiki to my commandline to accomplish certain tasks, and that means Bob is absolutely critical (for keeping it real-time). I still want to produce a single html file to maintain whatever distribution model I see fit, but that is very doable for me now, I believe.
+<<<
+
+This is sweet—I am trying to do a lot of the same things. In fact, I’ve just got things working so that I can post from different machines at last. I’m going to end up very close to the top-half of your diagram: all my posts and layouts get checked in to Git, but I still need to do a bit of work on my outputs to Dat and single-file HTML.
+
+You have any other pointed questions—weak points you’re worried about?

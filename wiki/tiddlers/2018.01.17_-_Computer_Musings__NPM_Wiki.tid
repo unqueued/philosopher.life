@@ -1,0 +1,26 @@
+created: 20180117204449704
+modified: 20190322051938261
+modifier: h0p3
+revision: 0
+tags: TWGGF [[Computer Musings]]
+title: 2018.01.17 - Computer Musings: NPM Wiki
+
+Asked google groups for tiddlywiki two separate questions.
+
+<<<
+I use a stylesheet with a font embedded in it that looks something like this:
+
+@font-face { font-family:'customfont'; src: url('data:application/octet-stream;charset=utf-8;base64 ...
+
+This is the font I want inside and out in the wiki. I don't want any other font. In the Settings of Theme Tweaks of Appearance of ControlPanel, I've set 'Font Family', 'Code font family', and 'Editor font family' all to this custom font. This works, except for the actual tiddler editor font (and its Title when being edited). The font for the editor can be changed, but so far, I can't get it to use my custom font. I'm sure I must be missing something obvious. At the very least, I need a mono-spaced font, so I just have 'mono' set in 'Editor font family'. This still isn't my preference. 
+
+Please help me. I don't know if I've given you enough information, but I don't know what other information would be useful to give (I don't know what I don't know).
+<<<
+
+<<<
+I have a Tiddlywiki html file that is ~10.5MB in size, and even after compression, it's ~3MB in size. It is slow to load from the web if you don't have a fairly fast connection, and it's only getting slower (this monster continues to snowball). I've been trying out the npm tiddlywiki server, and I'm pleased to see tiddlers are broken down into .tid files (incredibly useful); I think it's really elegant. This got me to thinking that it might be possible to serve individual tiddlers upon request (instead of all of them at once), which would greatly reduce load times over the web. Assuming the npm server doesn't already do this (it's possible that it might given the different performance feel of the npm served content compared to the local .html file), what is the best way (if any) to server individual tiddlers instead of the entire tiddlywiki all at once? Also, in case it might change your answer (although, I'm not sure how it would), I think I want to use a reverse-proxy from a more standard webserver to the npm tiddlywiki server.
+
+This is a different question, but I noticed .tid files I've added manually aren't served until I've restarted the tiddlywiki server daemon. Is there a good way to update the daemon without restarting? If there isn't, are there any problems I need to be concerned with restarting the daemon automatically whenever the tiddlers folder is modified? 
+<<<
+
+You get the point of what I've been working on. I like it, but it's not there just yet. 

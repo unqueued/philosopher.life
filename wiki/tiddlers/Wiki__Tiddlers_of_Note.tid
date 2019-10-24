@@ -1,0 +1,92 @@
+created: 20171017005105306
+creator: h0p3
+modified: 20190705052007740
+modifier: h0p3
+revision: 0
+tags: Wiki
+title: Wiki: Tiddlers of Note
+
+!! About:
+
+This Tiddlywiki index.html file is not the stock Tiddlywiki. I've made some valuable changes that I need to be able to reverse engineer, revert, rebuild, and reproduce. I also need to be able to figure out how things work when I forget. I record notable tiddlers/pages here for my convenience.
+
+---
+!! Principles:
+
+* Can it break?
+* Are there problems with updates?
+* Are you modifying shadow and system tiddlers?
+* Will you remember how this works years later without writing it down?
+
+---
+!! Focus:
+
+<<list-links "[tag[Wiki: Tiddlers of Note]]">>
+
+* [[Root]]
+** Transclusion: [[Home]]
+** Transclusion: [[Root]] (previously `[[{Home}]]`)
+
+* Add-ons, Plugins, etc.
+** [[$:/macros/danielo/footNote]]
+*** Footnotes add-on.
+** [[$:/plugins/tiddlywiki/highlight/styles]]
+*** Config for highlight plugin
+** [[$:/_toggle-editor-toolbar_preview]]
+*** Enable/Disable Editor Toolbar
+*** Necessary to overcome Tiddlywiki iframe problem for custom embedded fonts in tiddler editor
+
+* ASCII & Wiki Art
+** [[Wiki: Center ASCII Art Settings]]
+** [[Home: ASCII Art Logo]]
+** [[Home: ASCII Art Logo, 2]]
+** [[Portrait]]
+** [[Wiki: Center ASCII Poem Settings]]
+** [[Wiki.gif]]
+** [[$:/SplashScreen]]
+
+* Sidebar<<ref "1">>
+** $:/tags/SideBar
+** [[New]]
+*** You'll find [[Titletag]] filters in the code here. 
+**** Currently: "NSFW:" and "NSFL:"
+** [[Hub]]
+** [[Map]]
+** [[$:/core/macros/timeline]]
+*** Change the "Recent" Tab (and others)
+
+* Stylesheets
+** [[StyleSheet-Zing]]
+** [[StyleSheet]]
+*** Currently doing nothing
+
+* Transclusions worth mentioning...
+** Lazy TLD Links:
+*** [[About]]
+*** [[Principles]]
+*** [[Focus]]
+*** [[Vault]]
+*** [[Dreams]]
+** [[Transclusion: Focus]]
+** [[Transclusion: Dreams]]
+
+* Shadowtiddlers edited:
+** [[$:/config/EditorTypeMappings/text/vnd.tiddlywiki]]
+*** text -> comptext
+
+---
+!! Vault:
+
+* Add-ons, Plugins, etc.
+** [[$:/plugins/danielo515/2click2edit]]
+*** Double-click to edit.
+
+
+---
+!! Dreams:
+
+* (*crickets)
+
+
+---
+<<footnotes "1" "Sidebar tab names are forced to be the name of the Tiddler">>

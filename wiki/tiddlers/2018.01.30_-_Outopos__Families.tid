@@ -1,0 +1,8 @@
+created: 20180131024002494
+modified: 20190325060101136
+tags: Outopos
+title: 2018.01.30 - Outopos: Families
+
+That I own a group of nodes is important. Often, I will want some of my nodes to form families, networks unto themselves. Often, I prefer this information were private, but there are times when it would be better if I could make them public. Thus, I suggest we have both private and public node family methods. Perhaps we should be able to group them together in multiple ways. The goal is to be able to create nodes which identify with each other as family members.
+
+May the public families are really Tribes. Tribes sounds very external. It would be nice to easily create network topologies of any kind in this way. The goal is to be incredibly flexible and expressive.

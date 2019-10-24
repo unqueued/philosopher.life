@@ -1,0 +1,133 @@
+created: 20180115160317247
+modified: 20180206213349277
+revision: 0
+title: Rust
+type: text/vnd.tiddlywiki
+
+!! About:
+
+//Although it may be easier to ask forgiveness than to get permission, it is also easier to use an eraser on the drafting table than a sledgehammer on the construction site. Indeed, it is easier to write an incorrect program than understand a correct one. A language that doesn’t affect the way you think about programming is not worth knowing. In programming, as in everything else, to be in error is to be reborn.//
+
+//Yes, it will be really difficult! Simplicity does not precede complexity, but follows it. You do not need a garbage collector if you do not produce garbage. Choose the right data structures, and the code will write itself. Use foresight and pessimism to avoid getting into situations where you need to demonstrate exceptional programming ability.//
+
+//Go forth, fearless into that abyss; learn what you didn't even know you didn't know!//
+
+<<<
+When the whole world is running towards a cliff, he who is running in the opposite direction appears to have lost his mind.
+
+--C.S. Lewis
+<<<
+
+Here I document learning //Rust//, a demanding language. I want to learn it for myself and my daughter. This is the language I'm asking my daughter to really put the time in to understand because I think it will be an incredibly valuable investment in her future.
+
+Rust has a significant academic community behind it, and I do not take that lightly. If Mozilla tanks (fuck Google), then it might be the death spiral of the language. I think Rust will continue to pick up steam though.
+
+Importantly, I think there is a very bright future for Rust. It has the raw recursive and multi-threadable power of functional languages with some high-level language abstractions that feel imperative to make it easier to get shit done. Productivity, safety, and performance is very hard to achieve. The learning curve and time waiting for the ecosystem to develop is the only thing standing in the way.
+
+The tooling around it is new, but it grows. The build system is gorgeous. Dependency heaven, cargo is slick, installation is a breeze, and it's obviously designed to be very productive. POSIX is first class, and you can see it. The ecosystem grows, and it appears to be steered/farmed by people who know what they are doing. The barrier to entry is high enough that there is less bullshit in the ecosystem. Rust isn't a C killer, it's a C++ killer.<<ref "1">> Give it time.
+
+Rust's compiler makes you do a lot of heavy lifting to even get off the ground, but it points you in the right direction and helps you ergonomically steer clear of hard to detect pitfalls in the spaghetti of C++. The compiler-chain is clearly world-fucking class too. 
+
+Rust aims to be a small language for the power of its libraries. I love the iterative, well-built, tight-knit kernel of optimization Rust is shooting for. The zero-cost abstractions notion of Rust is basically trying to compile high-level concepts down to safe low level code in the most optimized way possible. Rust's ownership model almost guarantees that libraries will be good if they are functional. It continues to force everyone to build on good foundations all the way up. Dependency heaven won't be turning into dependency hell anytime soon in Rust. 
+
+Dealing with errors at compile time instead of run time is obviously wise for building software meant to last. You remove the subtle (monster) bugs by language design, and that leaves you the obvious ones. 
+
+Language optimization seems to be a key issue to the developers as well. The MIR primitives are unsafe for Rust users, but not so much for programming language theory experts; their optimization before LLVM is yet another way in which Rust is going to have an advantage. They've made it so that only experts can create safe things from unsafe things. Furthermore, their gating model enables the developers to be informed in making their decisions and avoid large catastrofucks.
+
+Rust forces you to reason wisely about your program. There is a higher cognitive load necessary to accomplish anything in Rust, but it saves you heartache down the line. As languages continue to spaghetti as they attempt to reason about multi-threading, or become overly specialized (see Golang), Rust will be in the small pack of generalized C competitors for a world in which Moore's Law is dead. C continues to hit walls in a world of concurrency. Rust is easy to read (performs you expect it will) and reason about because the original programmer had to do all that work up front for you. This wisdom is the reason Rust can be both fast and safe at the same time. 
+
+Rust is a form of philosophical Modernism (or Metamodernism) applied in the domain of programming language theory. We seek confidence (if not certainty) in our demand for safety. What it's trying to accomplish is beautiful.
+
+
+
+---
+!! Principles:
+
+* Collect resources, examples, and idioms.
+* Build something if you can.
+
+
+---
+!! Focus:
+
+* [[2018.01.15 - Rust]]
+* [[2018.01.16 - Rust]]
+* [[2018.01.17 - Rust]]
+* [[2018.01.18 - Rust]]
+* [[2018.01.20 - Rust]]
+* [[2018.01.21 - Rust]]
+* [[2018.01.24 - Rust]]
+* [[2018.01.25 - Rust]]
+
+* [[Coding Challenges|https://www.reddit.com/r/learnprogramming/comments/43upct/31_coders_games_and_puzzle_sites/]]
+** [[Topcoder|https://www.topcoder.com/challenges/?pageIndex=1]]
+** [[Project Euler|https://projecteuler.net/]]
+** [[Hacker Rank|https://www.hackerrank.com/dashboard]]
+** [[Code Chef|https://www.codechef.com/]]
+** [[Code Wars|https://www.codewars.com/]]
+** [[Leet Code|https://leetcode.com]]
+
+* Terms, Concepts, Documentation, and Teachers
+** [[Techopedia|https://www.techopedia.com/dictionary]]
+** [[Rust Documentation|https://www.rust-lang.org/en-US/documentation.html]]
+** [[Rust Youtube Channel|https://www.youtube.com/channel/UCaYhcUwRBNscFNUKTjgPFiA/videos]]
+** https://learning-rust.github.io/docs/a1.why_rust.html
+
+* Articles
+** https://tinkering.xyz/posts/introduction-to-proc-macros/
+** http://asquera.de/blog/2018-01-29/rust-lifetimes-for-the-uninitialised/
+** https://rreverser.com/writing-complex-macros-in-rust/
+** https://arthurtw.github.io/2014/11/30/rust-borrow-lifetimes.html
+
+* Books
+** [[Why Rust?|http://www.oreilly.com/programming/free/files/why-rust.pdf]]
+** [[The Rust Programming Book]]
+** [[Rust for Undergrads|https://github.com/rustindia/Rust-for-undergrads]]
+
+* Collections & Software Ecosystem:
+** [[Crates|https://crates.io/]]
+** [[Rust Learning Compilation|https://github.com/ctjhoa/rust-learning]]
+** [[Awesome Rust|https://github.com/rust-unofficial/awesome-rust]]
+
+* Communities
+** [[Rust User Forum|https://users.rust-lang.org/]]
+** [[Stackoverflow|https://stackoverflow.com/]]
+** [[Reddit|https://reddit.com/r/rust/]]
+
+* Tools
+** [[Rust Linting|https://github.com/rust-lang-nursery/rust-clippy]]
+** [[Rust: VSCode]]
+
+* [[Outopos]]
+** [[Tokio|https://github.com/tokio-rs/tokio-proto]]
+
+* Antipleonasmic Catholicon
+** [[Rust: Effective Borrowing]]
+** [[Rust: Safe Optimization]]
+** [[Rust: Unsafe Optimization]]
+** [[Rust: Conventions & Stylistic Idioms]]
+** [[Rust: Simple Idioms]]
+** [[Rust: Recipe Idioms]]
+** [[Rust: Testing]]
+** [[Rust: Strings]]
+** [[Rust: Installation]]
+
+* [[Rust: Source Code]]
+
+
+---
+!! Vault:
+
+* (*crickets*)
+
+
+---
+!! Dreams:
+
+* [[Rust: Dreams for the One Language]]
+* highlight.js syntax highlighting template for Rust! Make it pretty on this wiki.
+* Join all the Rust communities!
+
+
+---
+<<footnotes "1" "C is the father of languages for single-threading. It was already very dangerous for single-threading, but it's much harder to reason about it for multi-threading. C++, that sprawling beast, seems unlikely to make the turn for C. Rust is able to leverage C code for single-threading while making it easy to build safe abstractions and multi-threading on top of it. Rust is replacing what C++ hopes to be in a world in which multi-threading is the only serious way to improve computation given that we've begun to hit the physical limits for shrinking transistors.">>

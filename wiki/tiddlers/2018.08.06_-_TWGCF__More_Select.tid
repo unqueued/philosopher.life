@@ -1,0 +1,41 @@
+created: 20180806154853465
+creator: h0p3
+modified: 20181219181841747
+modifier: h0p3
+tags: TWGGF
+title: 2018.08.06 - TWGCF: More Select
+
+<<<
+I actually want to go further with this keyboard-centered approach. There's the sidebar that can be made key-boardable, too... basically everything that forces me to use my mouse where under i3 I'd always just press a shortcut is a target for select-mode.
+
+I think you're right that something like this should be in TW's codebase.
+<<<
+
+Agreed! We've talked about the sidebar before. I have very strong opinions about the sidebar. 
+
+I know how I would like to navigate my sidebar right now (although, I'd probably change my method with more complex tooling), but I fear I am too specific (and don't know how to generalize it for everyone's usecases). 
+
+I want to use a hotkey to enter "sidebar mode," select tabs from hotkeys, and perhaps have a mode for each tab. For example, on my Hub (https://philosopher.life/#Hub:Hub), I want to step up and down through the major sections, and then select from the links inside those lists. 
+
+As far as I'm concerned, the sidebar is fundamental to navigating the wiki, and salient navigation of complex structures is what a wiki is all about. Keyboard control of it is necessary to allow me to "load" tiddlers into my story river.
+
+<<<
+I tried that nodejs-approach but the missing live-reload killed it for me.
+<<<
+
+YES! There are a lot of problems surrounding it.
+
+To me, this is the one of the key areas in which Tiddlywiki could make a quantum leap. The browser's VM continues to be tightened again and again, and running a server is literally the only option around it. Unfortunately, I believe it's computationally unoptimized. I blow a whole core just to recompile every minute with nodejs. JS makes this beautiful in the browser, but the server itself needs another language, imho.
+
+I'd want edit priority given to the CLI. 
+
+This is no small task though, and I think most people have no use for it (at least initially).
+
+
+<<<
+@DemoniWaari also mentioned this search-functionality. I think I'll add the quick-search by keyboard function and then we can discuss the content of the search results...
+
+Thanks for your feedback and thoughts!
+<<<
+
+I am very excited by this. I think it is actually an entirely different problem than keyboard navigation, and arguably an even larger problem. It would, of course, be an enormous contribution. Advanced search that a user can easily tailor to the structures they build in their own wiki is necessary. This is where the flexibility of Tiddlywiki may continue to shine for a long time to come.

@@ -1,0 +1,49 @@
+created: 20180108183420528
+creator: h0p3
+modified: 20181007134603562
+modifier: h0p3
+revision: 0
+title: Walkthrough: LetsEncrypt + Lighttpd
+
+```bash
+sudo su
+certbot certonly --webroot -w /var/www/html -d philosopher.life -d www.philosopher.life
+
+# Skipping for now
+#chown :www-data /etc/letsencrypt
+#chown :www-data /etc/letsencrypt/live
+#chmod g+x /etc/letsencrypt
+#chmod g+x /etc/letsencrypt/live
+
+cat /etc/letsencrypt/live/philosopher.life/cert.pem /etc/letsencrypt/live/philosopher.life/privkey.pem > /etc/letsencrypt/live/philosopher.life/web.pem
+```
+
+Inject the following into `/etc/lighttpd/lighttpd.conf`
+
+```
+$SERVER["socket"] == ":443" {
+ssl.engine = "enable"
+ssl.pemfile = "/etc/letsencrypt/live/philosopher.life/web.pem" # Combined Certificate
+ssl.ca-file = "/etc/letsencrypt/live/philosopher.life/chain.pem" # Root CA
+server.name = "philosopher.life" # Domain Name OR Virtual Host Name
+server.document-root = "/var/www/html" # Document Root
+server.errorlog = "/var/log/lighttpd/error.log"
+}
+
+$HTTP["scheme"] == "http" {
+$HTTP["host"] == "philosopher.life" { # HTTP URL
+url.redirect = ("/.*" => "https://philosopher.life$0") # Redirection HTTPS URL
+}
+}
+```
+
+```bash
+service lighttpd restart
+certbot renew --dry-run
+```
+
+If you pass the test, then set cronjob, `crontab -e`, to run this before expiration (I just do twice a day as recommended):
+
+```
+6 1,13 * * * certbot renew --renew-hook "service lighttpd restart"
+```

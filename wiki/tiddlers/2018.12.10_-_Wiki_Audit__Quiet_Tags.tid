@@ -1,0 +1,52 @@
+created: 20181210192123427
+modified: 20181211062322411
+tags: [[Wiki Audit]] [[Tagging Theory]] Rabbitholed
+title: 2018.12.10 - Wiki Audit: Quiet Tags
+
+-=[ Rabbitholed ]=-
+
+I have now seen that there is a valuable, practical difference for me between normal tags and the ability to just tag from fields. There are lists that I want tiddlers to show up in as a normal tag, but I also think eventually there would simply be too many tags. I want to keep visual tags to be read by everyone every time. I can't have too much noise up there. This is a [[S2NR]] problem.
+
+I aim to use quiet tags as bookmarks. It is clear that most people won't search, and it helps to have a tutor in telling the narrative by pointing more effectively. I must pick out the [[salience]] inside me for [[others]] in a reasonable way too.
+
+---
+
+I have to move to 5.1.18 TW and 1.1.1 Bob. I want the splash screen (thinking will use the favicon, perhaps blown up, as the splash). I desperately want Keeboord. Kin and Else will be necessary for [[Search of h0p3]]. I would like to get link autocompletion too. 5.1.18 is a serious jump. Unfortunately, I had breakage when I tried (and I don't understand why).
+
+---
+
+[[Wiki: Music]]
+
+---
+
+The bad news is that Bob is still just as large a memory whore as extension-based singlefile saving (and perhaps this is a FF issue or related to the sheer size of this wiki).
+
+---
+
+For 5.1.18, I may hate the saving mechanism.
+
+In its $:/core/ui/Buttons/save-wiki I must make a change:
+
+`<$wikify name="site-title" text="{{$:/SiteTitle}}.html">`
+
+to
+
+`<$wikify name="site-title" text="foobar.html">`
+
+---
+
+[[TWederation]] appears even more unlikely the more I look at it. Ultimately, I am going to mod that shit by hand. That's okay though, right? Modding what tiddlers I'm going to seed makes good sense. 
+
+I checked out webtorrents again while thinking about [[Wiki: Music]] and [[TWederation]]. Dat's mutability is already winning that fight though (sadly, nothing is going to touch the performance of higher performance languages when you want to host thousands and thousands of files, which I anticipate to be necessary for healthy users of the interwebs [those addicts :P]). WebRTC just isn't performant no matter how you cut it, and it likes a signaling server (yet another reason for federating holepunching bridges, encrypted metadata storage, and DHT entrances as hard as fucking possible qua [[2018.12.10 - Outopos: Ideal Federation]]).
+
+It seems possible for webrtc dat to lazy-load individual tiddlers over dat into a basic TW shell from any browser. If you are going to use javascript, why not just integrate the damn thing into TW itself? Sounds slow. I still want to distribute a complete singlefile instead. Yeah, forget archiving (unless it's a daily thing?). ZSTDed diffs over dat are going to be necessary. 
+
+Is there a Quine problem here? What about a Bob problem? 
+
+It would be absolutely sick to have the dat-based seeding of TW already embedded inside the core. Rendering the wiki would automatically have you join a swarm. It would nice to be able to update across that. I would adore the ability to send a minimal page that bootstraps into my wiki over the browser and then continues to mutably update and seed. The fact is that Beaker-Browser is built for this, but I need a tool that works in all browsers. Because only a tiny few actually give a shit, decentralization has to be so simple that people don't even need to understand what it's doing (though, I think they should); it just has to werk for the masses.
+
+Will this problem eventually be solved? I do not know. Will Google allow this web to exist? Why would they? Many of their business models exist only in virtue of the centralization of power. My adversaries are so ridiculously powerful. As usual, I convince myself that hardware decentralization models are the only way to reliable and effective answer. The workers must own the means of production; yes, yes, good, good, tally-ho (`/giggle`, I sound a bit like [[kicks]]).
+
+---
+
+I'm almost about to [[/b/]] this, but this feels like an [[audit]] because I was reading my wiki. I've been doing that more recently. This wiki is getting huge. The evidence of my love for my brother [[JRE]] is tremendous. I only made it halfway through. It was an emotional rollercoaster. 

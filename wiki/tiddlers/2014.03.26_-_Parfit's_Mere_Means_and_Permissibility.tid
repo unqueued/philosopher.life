@@ -1,0 +1,83 @@
+created: 20170312235515885
+modified: 20181031035931169
+modifier: h0p3
+revision: 0
+tags: Tulane
+title: 2014.03.26 - Parfit's Mere Means and Permissibility
+
+In this paper, I analyze Derek Parfit’s position on whether or not the requirement to treat others never merely as a means is a sufficient criterion of moral permissibility.<<ref "1">> Parfit seems to employ his own definition of treating people merely as a means, and that heavily influences his discussion of Kant and permissibility.<<ref "2">> I worry his criticism of Kant is not as strong as he thinks, but I’m partial to the motivational component which Parfit embeds in treatment of persons as mere means.
+
+Parfit begins by considering the Mere Means Principle (MMP1), which is the claim that treating anyone merely as a means is morally impermissible.<<ref "3">> Before he can dissect MMP1, Parfit must distinguish treating as means (TM) from treating merely as a means (TMM). Indeed, this is a key question: what does Parfit mean by TM and TMM?<<ref "4">> He starts with the notion of use. In the Scientists example, both are said to treat the animals as means. He explains, however, that the second scientist does not treat the animals as merely means because “her use of them is restricted by her concern for their well-being.”<<ref "5">> For Parfit here, TMM is an act/reason pair, where the way we regard an object is part of our motivation for acting in a particular way.<<ref "6">>
+ 
+In analyzing the first rough definition of TM, Parfit distinguishes “doing something to someone as a means of achieving some aim” from “treating this person as a means.”<<ref "7">> I don’t understand this distinction. In the Broken-Rib example, I believe the intuitive claim should be that the doctor’s use of my body is TM, but not TMM, which is why it could be morally permissible.<<ref "8">> Parfit doesn’t think this is even a case of TM, although he provides little evidence for this claim.
+
+Parfit moves on to providing a rough definition of TMM, a conjunction of TM and regarding someone’s well-being and moral claims as completely irrelevant.<<ref "9">> In responding to Kamm’s criticism and the example of the slave-owner who gives only the slightest weight to the well-being of his slaves (which is not strictly TMM), Parfit essentially claims that the rough definition of TMM is not wrong, but rather MMP1 isn’t effective enough. It seems as though Kamm and Parfit are looking for a bi-conditional criterion of impermissibility – roughly: TMM ↔ Wrong – which MMP1 isn’t fit for in the first place, since it only goes one direction.<<ref "10">> While he doesn’t phrase it this way, Parfit seems to be agreeing here that TMM (as he defines it) alone, is too weak an antecedent for the bi-conditional, which is why he spends so much time strengthening it in this chapter.<<ref "11">>
+ 
+In order to wrestle with the wrongness found in the Slave-Owner example, and attempting to be charitable to Kant, Parfit expands MMP1 to MMP2, which adds a clause of coming close to TMM.<<ref "12">> The coming close clause increases the burden of motivation, where we are required to not only not totally disregard a “person’s well-being or moral claims,” but also to not give “too little weight” to them.<<ref "13">> MMP2’s form is roughly: (TMM ∨ ComeClose) → Wrong. Since the slave-owner comes close, this principle condemns his choice.<<ref "14">>
+
+Parfit goes on to flesh out the semantics of ¬(TMM ∨ ComeClose), namely “we do not treat someone merely as means, nor are we even close” if (1) “our treatment of a person is governed or guided in sufficiently important ways by some relevant…direct concern for the well-being or moral claims of the person” or (2) employing a policy wherein we would “choose to bear some great burden for this person’s sake.”<<ref "15">> We can understand MMP2 as saying: ¬Wrong →  ¬((1) ∨ (2)), which, again, is only a one-directional criterion.
+
+The slave-owner who never whips his slaves because he believes it would wrongly give him sadistic pleasure isn’t properly motivated, and thus might still be accused of TMM according to (1).<<ref "16">> In examining the Scientists again, Parfit temporarily assumes that “cruelty to animals is wrong because it dulls our sympathy.”<<ref "17">> He goes on to claim that if this were the sole motivation of the second scientist, she would be guilty of TMM according to (1) because she wasn’t relevantly worried about their well-being.<<ref "18">> He also limits the coming close clause with the Chinese Bandits example, wherein he is inclined to believe bandits did not even come close to treating his mother as a mere means by robbing her of only half her belongings.<<ref "19">> I find this odd, since to my eyes, they obviously gave too little weight to her well-being or moral claims.<<ref "20">>
+ 
+Here we see that, for Parfit, TM is clearly about an act (whatever reason there is for the act doesn’t really matter), when he claims that “whether we are treating someone as a means depends only on what we are intentionally doing.”<<ref "21">> Conversely, TMM depends on our “underlying attitudes or policies,” particularly regarding counterfactuals of “what we would have done, if the facts had been different.”<<ref "22">> The focus of TMM is not the act, but the reason or policy for that act. TMM is TM with the wrong motivation or policy. 
+
+Parfit claims that Kant implies that “it is wrong to regard any rational or sentient being as a mere tool,” which assumes that motivation is an object of permissibility, and Parfit agrees to this claim.<<ref "23">> I’m not sure if that is an accurate portrayal of Kant, but it makes sense that Parfit would agree because his definitions of TMM revolve around reasons to act, but not so much the acts themselves (just as long as the acts are cases of TM). Kant, according to Parfit, implies TMM is necessarily a case of “acting wrongly.”<<ref "24">> This is likely the heart of the disagreement. He seems to be arguing that he and Kant and have different definitions of TMM; for Kant, TMM is a wrong act, and for Parfit, TMM is a wrong motivation. 
+
+Admittedly, it is odd that Parfit at the same time believes Kant takes motivations to be an object of permissibility, but also that TMM is necessarily and conceptually linked to wrong acts. In particular, since Kant seems to agree to the bi-conditional, TMM ↔ Wrong, and since for him TMM is a wrong act, then all cases of impermissibility boil down to wrong acts. But if that is true, then why should Parfit think that Kant would agree to motivations as being objects of permissibility?  
+
+Parfit shows there are choices which are morally wrong, even cases of TMM, which don’t rely upon a wrong act, but rather a wrong motivation. The Gangster who takes up a policy of treating a coffee seller as a vending machine, as a mere means, as someone whom he doesn’t kill only because it is easier to acquire coffee the usual way, is said to be wrong solely because of “his attitude to this person,” but “he does not act wrongly.”<<ref "25">> Similarly, the Egoist who saves a drowning child motivated solely by reward, hasn’t acted wrongly, but has simply had the wrong motivation.<<ref "26">> These examples also cry out to my intuitions as cases of TMM, and what makes these choices wrong are the motivations, not the acts. If Parfit reads Kant correctly, then I think Kant is wrong about the requirements of TMM, since I would disagree with him about the objects of permissibility.
+
+To save Kant from the Gangster and Egoist examples demonstrating TMM without acting wrongly, Parfit tentatively adds (3) to (1) and (2), where TMM is not the case when we know “our acts will not harm this person.”<<ref "27">> By using (3), the Gangster and Egoist, who know their acts will not harm, are not to be accused of TMM. The motivational component of TMM still matters, but it is simply honed (in an arguably ad hoc manner). Even (3) does not save Kant, according to Parfit. The Mutual Benefit example, where Green marries Gold instead of murdering him because marriage is the easiest way to get some of Gold’s wealth, would not be condemned by (3).<<ref "28">> Parfit still thinks this is a case of TMM. Unlike Parfit, I don’t quite see a relevant difference between the Gangster/Egoist examples and the Mutual Benefit example. 
+
+Speaking of Green, Parfit says “we should not claim that these acts are wrong,” but rather “given this man’s self-interested motives, his acts do not have what Kant calls moral worth.”<<ref "29">> Again, I take Parfit to be arguing that Green’s motivation is morally impermissible (this explains the wrongness), while his act, in itself, remains permissible.<<ref "30">>
+In an effort to help Kant not condemn the acts of the previous examples, Parfit expands MMP2 to MMP3. MMP3 conjoins an “if our act will also be likely to harm this person” clause with the antecedent of MMP2.<<ref "31">> MMP3 is of the form: (LikelyHarm ∧ (TMM ∨ ComeClose)) → Wrong. At this point, Parfit, by his own admission, is entertaining too strong an antecedent for determining if never treating persons merely as a means is a sufficient criterion of moral permissibility or worth.<<ref "32">>
+ 
+By his own definition of TMM, Parfit has clearly shown examples where someone has done wrong but wasn’t strictly treating anyone merely as a means.<<ref "33">> Essentially, Parfit believes moral impermissibility is not sufficient for TMM, i.e. ¬(Wrong → TMM). Equivalently, we can say that Parfit believes that not treating anyone merely as a means is not sufficient for moral permissibility, i.e. ¬(¬TMM → ¬Wrong).<<ref "34">> 
+
+Unfortunately, I fear something unintentionally underhanded has occurred in the way Parfit has deployed his own definition of TMM against Kant. I can’t quite put my finger on it though. Parfit spends a lot of time on his own definitions of TMM. Does Parfit give Kant’s definition of TMM a fair shake? That remains unclear to me. I strongly agree with Parfit, however, on the claim that “it is wrong to regard anyone merely as a means.”<<ref "35">> 
+
+It is clear we don’t have a choice over what acts are available to us. Most of us, however, would be willing to buy the claim that we choose how to act from the set of acts available to us. Much of moral philosophy surrounds the question of how persons ought to act, and rightly so, since we have a choice in the matter. Further, it is unclear if we have a choice over what motivations are available to us (arguably, we don’t). Even if we don’t, however, it seems as though we also have a choice over what motivates our acts. Is there an ought for motivation? I assume so. 
+
+To be clear, when I claim one ought to be motivated to act in a certain way, I’m claiming that it is morally impermissible not to be motivated to act in that way. That’s just what ought means. To say one ought to act from duty is to say it is morally impermissible not to act from duty. We might take Kant as claiming that moral permissibility is acting in conformity with the moral law, while moral worth requires not only our act to conform to the moral law, but also to be correctly motivated by the moral law to act in that way. Moral permissibility, on this view, only makes demands on how one ought to act, while moral worth makes demands both on how one ought to act and be motivated. If that is an accurate portrayal of Kant’s position, then I believe Kant’s notion of moral permissibility is incomplete. Moral worth normatively extends Kant’s moral permissibility. What we really ought to choose isn’t simply an act, but rather both the right act and the right reason for it. On my view, the conditions of moral worth are the conditions of real moral permissibility. Essentially, the moral law governs choices of acts and motivations.
+
+Moral permissibility is about choosing the right kind of act/reason pair. Some act/reason pairs might be wrong regardless of one’s reason (e.g. destroying the universe with a doomsday device). Conversely, any act/reason pair with an act not done for the right reason is impermissible. There are multiple ways for a particular act/reason pair to be morally impermissible, and that appears to be the heart of Parfit’s disagreement with Kant on the topic of mere means.
+
+If I use Parfit’s definition of TMM, then I’m convinced that it isn’t a sufficient criterion of moral permissibility. What I like about his definition is that it captures the permissibility of motivation. It isn’t clear to me that Parfit’s definition is the right one, though. Surely there is more to treating people as a means than he has suggested. 
+
+-------------------------
+
+<<footnotes "1" "Parfit, D., & Scheffler, S. (2011). //On what matters: Volume one//. Oxford: Oxford University Press: 212-232">>
+<<footnotes "2" "Parfit slow-rolls his audience with a detailed examination of a staggering sequence of principles and cases. He engages in a hypothetical dialectic with Kant, where he takes up what he believes is the Kantian position, then he shows a flaw, then he tries to improve the Kantian position, then shows a flaw, and rinse and repeat. I cannot do justice to all the details in this chapter. Getting at Parfit’s ultimate argument is not simple; charitably interpreting his argument-style requires meticulous parsing. There are a thousand moving parts in his argument, and it is difficult to hold them all.">>
+<<footnotes "3" "Ibid., 212. ">>
+<<footnotes "4" "He does not clearly define these terms from the outset. We must slowly piece together what he thinks. Oddly, he doesn’t much discuss Kant’s definitions.">>
+<<footnotes "5" "Ibid.">>
+<<footnotes "6" "Parfit seems to be implying that TM has to be a kind of act, while the reason for the act remains irrelevant. We should note that Parfit sometimes uses the word treat to mean more than simply act, particularly in the case of TMM.">>
+<<footnotes "7" "Ibid., 213">>
+<<footnotes "8" "Ibid.">>
+<<footnotes "9" "Ibid.">>
+<<footnotes "10" "Conversely, a bi-conditional criterion of permissibility would roughly be ¬TMM ↔ ¬Wrong. Unfortunately, MMP1 is only TMM → Wrong.">>
+<<footnotes "11" "Oddly, however, this is not how he designs the principles, despite his argument moving in that direction in many cases. I regret that I may not fully understand the method to Parfit’s madness (or genius).">>
+<<footnotes "12" "Ibid., 214. Parfit is strengthening the antecedent so that it captures more cases, and so that it may serve as the antecedent of the bi-conditional.">>
+<<footnotes "13" "Ibid.">>
+<<footnotes "14" "He says, on 214, 'condemns this man’s acts.' I read Parfit as taking MMP2 to condemn the motivation and not simply the act. The reason MMP2 can nail the slave-owner while MMP1 can’t is ultimately due to the slave-owner choosing the wrong motivation or policy from which the act springs. The reason MMP2 succeeds in condemning the slave-owner where MMP1 fails is a result of strengthening the motivational requirements.">>
+<<footnotes "15" "Ibid. Condition (1) seems to be the real issue at stake.">>
+<<footnotes "16" "Ibid.">>
+<<footnotes "17" "Ibid.">>
+<<footnotes "18" "Ibid., 214-215">>
+<<footnotes "19" "Ibid., 215">>
+<<footnotes "20" "It is sometimes difficult to draw the line, to know precisely when (1) is satisfied or not. For my intuition, this case so clearly crosses the line that I worry I’ve misunderstood Parfit’s point.">>
+<<footnotes "21" "Ibid. There is a reason for the act, since that is part of the definition of an intentional act, but it doesn’t matter what the reason is.">>
+<<footnotes "22" "Ibid.">>
+<<footnotes "23" "Ibid.">>
+<<footnotes "24" "Ibid., 216">>
+<<footnotes "25" "Ibid.">>
+<<footnotes "26" "Ibid.">>
+<<footnotes "27" "Ibid., 217">>
+<<footnotes "28" "Ibid.">>
+<<footnotes "29" "Ibid.">>
+<<footnotes "30" "I’m not convinced this is the best way to think about moral permissibility, but it seems to be the way Parfit rolls.">>
+<<footnotes "31" "Ibid.">>
+<<footnotes "32" "Ibid. I only have so much room in this paper. I have to find a stopping place. There are more moves going on later in this chapter, but they aren’t absolutely necessary to answering the question (or if they are, I certainly don’t have space to show it).">>
+<<footnotes "33" "Ibid. 232">>
+<<footnotes "34" "Whether or not TMM is a necessary condition of moral permissibility is another matter. ">>
+<<footnotes "35" "Ibid.">>

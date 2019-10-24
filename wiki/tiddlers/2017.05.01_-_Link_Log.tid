@@ -1,0 +1,21 @@
+created: 20170502012145252
+creator: h0p3
+modified: 20181118044319428
+modifier: h0p3
+revision: 0
+tags: [[Link Log]]
+title: 2017.05.01 - Link Log
+
+* Opensourced version of an interesting personal firewall tool - https://github.com/evilsocket/opensnitch
+* Trump doesn't like the constitution today because it gets in the way of his agenda, boohoo - https://www.independent.co.uk/news/world/americas/us-politics/donald-trump-us-constitution-archaic-really-bad-fox-news-100-days-trump-popularity-ratings-barack-a7710781.html
+* Facebook performing unethical scientific experiments for the sake of gaining money - http://www.news.com.au/technology/online/social/leaked-document-reveals-facebook-conducted-research-to-target-emotionally-vulnerable-and-insecure-youth/news-story/d256f850be6b1c8a21aec6e32dae16fd
+* Wealthy give to charity for status; The Charity Market is a failure - https://www.theatlantic.com/magazine/archive/2013/04/why-the-rich-dont-give/309254/
+* Intel's ME is officially known to have a backdoor.<<ref "1">> - https://semiaccurate.com/2017/05/01/remote-security-exploit-2008-intel-platforms/
+** Omg, color me sooo fucking surprised...anyone paying attention knew that. The timing and the way in which it is becoming more public knowledge is what we must actually question.
+** https://downloadmirror.intel.com/26754/eng/INTEL-SA-00075%20Mitigation%20Guide%20-%20Rev%201.1.pdf
+* Read about it, but seeing it is even harder to swallow - https://digg.com/video/trump-cbs-interview-walk-away
+* Phone-based SSH authentication for your Desktop - https://krypt.co/
+
+
+---
+<<footnotes "1" "And, yet, I'm addicted to that single-threaded performance. For the love of God, I hope AMD catches up and opensources their rootkit.">>

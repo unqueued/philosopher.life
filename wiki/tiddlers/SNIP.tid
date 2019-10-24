@@ -1,0 +1,18 @@
+created: 20190210163535859
+modified: 20190210174949835
+tags: [[Wiki Mechanic]]
+title: SNIP
+
+Some objects do not deserve to redundantly exist on this wiki (which is growing faster than I anticipated), e.g. an error log. I could atomize that content into separate tiddlers which are then transcluded, but again, they don't deserve to exist redundantly, and they certainly don't deserve the cost of increasing my tiddler count. This mechanic is a "mv" of some content to another tiddler which leaves a pointing trail to the referred content. The convention is:
+
+Origin: `[[-=[ SNIP ]=-|FOOBARTIDDLERLINK]]`<<ref "mu">>
+
+Destination: `-=[ PASTE ]=-`<<ref "r">>
+
+I believe there are addons I've seen which could accomplish this. I've not yet found an idiomatic solution to this problem. This is [[PH]] [[Wiki Mechanic]] until I have a solution which feels right. 
+
+
+---
+<<footnotes "mu" "I just don't care about multiples for now. Whatever.">>
+
+<<footnotes "r" "Recall that Information's references will noisily map to the origin. I don't think this will ever matter. This content is just not [[salient]] enough most likely.">>

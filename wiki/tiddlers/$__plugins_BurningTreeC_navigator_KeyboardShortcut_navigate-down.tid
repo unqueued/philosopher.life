@@ -1,0 +1,14 @@
+created: 20190221170744235
+key: ((navigate-story-down))
+modified: 20190221170803271
+tags: $:/tags/KeyboardShortcut
+title: $:/plugins/BurningTreeC/navigator/KeyboardShortcut/navigate-down
+
+\import $:/plugins/BurningTreeC/navigator/macros/navigation
+
+<$set name="navigationTiddler" value={{{ [list[$:/StoryList]after{$:/HistoryList!!current-tiddler}] ~[list[$:/StoryList]nth[1]] ~[[HistoryList]get[previous-focus-tiddler]] }}}>
+<$macrocall $name="story-navigation" actions="""
+<$action-navigate $to=<<navigationTiddler>>/>
+"""/>
+</$set>
+

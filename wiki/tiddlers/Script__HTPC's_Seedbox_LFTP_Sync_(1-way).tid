@@ -1,0 +1,44 @@
+created: 20170211183101296
+modified: 20171130194131767
+revision: 0
+title: Script: HTPC's Seedbox LFTP Sync (1-way)
+
+```bash
+#!/bin/bash
+
+# Fuck you, crontab!
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:~/bin
+
+# Input your information
+login="user"
+pass="pass"
+host="host:port"
+remote_dir="/foo/bar"
+local_dir="/stuff/things"
+
+# LFTP Sync with lock
+trap "rm -f /tmp/seedboxsync.lock" SIGINT SIGTERM
+if [ -e /tmp/seedboxsync.lock ]
+then
+  echo "seedboxsync is running already."
+  exit 1
+else
+  touch /tmp/seedboxsync.lock
+  lftp -u $login,$pass $host << EOF
+
+  # Are you lazy?
+  #set ssl:verify-certificate false
+
+  # use-pget-n 5 = how many segments to break each file into (it parallelizes each file)
+  # mirror -c -P5 = how many parallel simultaneous file downloads 
+  set mirror:use-pget-n 5
+  mirror -c -P5 --log=seedboxsync.log $remote_dir $local_dir
+  quit
+EOF
+  rm -f /tmp/seedboxsync.lock
+  trap - SIGINT SIGTERM
+  exit 0
+fi
+
+
+```

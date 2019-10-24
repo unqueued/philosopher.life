@@ -1,0 +1,80 @@
+created: 20180928193837749
+creator: h0p3
+modified: 20181106232908040
+modifier: h0p3
+tags: Note kickscondor To
+title: 2018.09.28 - kickscondor: WAFF
+
+So, I'm not sure what the difference is between my //Notes// and my //Letters// yet (maybe there isn't one!). I lack definitions and consistency here. I'm experimenting with spectrums in the hyperconversation medium still; it may take me quite a while to see what practices are worthwhile. I mean to be more informal, loosey-goosey, and less structured in this practice.
+
+<<<
+Which is my new, unfiltered page that can be used just like your 'recent changes' tab.
+<<<
+
+Very cool! My [[Recent]] pushes edited tiddlers to the top; I am not yet convinced your tool has the same behavior. Also, I actually use [[New]] and almost never [[Recent]], but that's often because there is too much noise when I look at edits. I will need to give more thought about how to build something useful to others here.
+
+I think some people are interested in only a particular set of tiddlers, and it might help if I just wrote the search queries for them or gave a nice tool. Perhaps something like: https://scryfall.com/advanced (previously the illustrious https://magiccards.info). I'm still thinking about it. There is work to be done in making this wiki more consumable for others, and I can't expect everyone to study TW, JS, and my bespoke structures enough to search my wiki like I can (there's some give and take here).
+
+<<<
+I am sending this reply with a musky pork pie smell. See the attached WIFF file.
+<<<
+
+I'm sorry for being ignorant here. I can't seem to find the WIFF file. In fact, I've never even heard of that filetype (had to look into it, and I'm still confused). You must have a very interesting computing background!<<ref "m">>
+
+Thank you for the Robustness principle. It's beautiful. You remind me of how illiterate I am in the CS tradition. If you have anymore [[antipleonasmic]] principles, please send them my way. I aspire to be a wisdomwhore.
+
+<<<
+Ha-ha! Well, you are becoming very endeared to me, hawk. And you are right to keep us all in check. The buzz that you do kill—and it’s certainly not a buzzard-sized buzz—is not any buzz that was killed just 'cause.
+<<<
+
+Lol. =) I love you too, kicks. Thank you for the 'ack' too! 
+
+<<<
+Oh, I see this in you and I applaud it—loudly, standing—an ovation which goes in a great arc, knocking over the drinks of everyone else standing around me. (Part of this ovation is a simple appreciation of your last epic missive, which is due.)
+<<<
+
+I appreciate that. Thank you. I hope it will be useful to us. You sent me into a deepthink, and I'm grateful for the opportunity. I want to apologize for my constant ninja-edits. I have a thousand evolving things to say to you, and my drafts are just never done (as you have probably noticed).
+
+If you want versioning (more than mere 'has been updated' signals through [[Recent]]), please let me know. It's already there in my snapshots, but I can make it more explicit, detailed, and easier to find (there is a balance in the workload between us I wish to [[T42T]] strike with you, and I prefer I bear the bulk of the burden). Demonstrating my integrity with you (not merely "to you") in the dialectic is important to me (I'm like a broken record).<<ref "d">>
+
+<<<
+I only side more toward art because I get so much out of it. I can’t think of a reasoned argument that has transfixed me as much as “Starry, Starry Night” has. And I don’t reach for a reasoned argument when life has fallen apart, but for Neil Young. (I am not arguing with you here—I know you have these things, too, and that you love cartoons and songs and shows and all that. And, come on—you are nuts for ASCII art, amirite? Alas, I also do fall into the trap you’re talking about of form over function.)
+<<<
+
+Had to look that song and its lyrics up. I keep an almost full size oil canvas reproduction of //The Starry Night// about four feet to the left of my desk. Your song sent me on a small journey: [[2018.09.28 - Music Exploration: Starry, Starry Night]]; it has been a long time since I've heard many of these songs. Your art choices (among a few other signals) make me think you are older than I am (though, I am likely a very poor judge).
+
+Alright, so I am "not arguing" with you about your "not arguing" with me in your "non-argument" (Xzibit in your Xzibit), but I believe there is a meaningful informal argument in that song (though, I cannot claim to be an effective interpreter). There are premises supporting conclusions there. It might not be formal, carefully reasoned, scholastic, or designed to withstand enormous scrutiny. I refuse to deny that it has semantic content. I think it is a memetic vessel.
+
+Yeah, I am nuts for ASCII art! I grew up with it. I adore its compression, portability, and building the extraordinary out of the ordinary. I admire  extreme realism, but at some point, it phenomenologically ceases to be what I might normally call art (though, clearly it is techne!). ASCII art sometimes feel like it pushes the other direction (even though it's almost always trying to be realistic). It also fits the all-text goal of the wiki (which I know I violate), and yet it's cheaty-faced about it. I hope it's more than vanity, lol.
+
+I think we're in deep philosophical territory here. I aim to be humble in generating a theory about the nature of the aesthetic, [[The Beautiful]] as it relates to [[The Good]]. I have seen my teachers fail many times here.
+
+<<<
+Alright, so with all those caveats in mind, we may end up doing this all by hand and passing tiddlers around—I’m also going to play with some styled RSS tonight and see what happens. And we’ll toss some ideas around.
+
+One thing I know for sure: I don’t want to go too crazy on fonts, because I don’t want readers to have to load ten Web Fonts to make this work. That would be EXACTLY fonts over functions. But the basic colors and stuff—worth a try, yeah?
+<<<
+
+Agreed! 
+
+I'm still thinking about how to deal with my growing TW filesize. Someone has built something I've been thinking about for a while, a loading graphic: https://groups.google.com/forum/#!topic/tiddlywiki/QIZQX7Jy61s. Unfortunately, I believe that means I wouldn't get to rely upon my webserver's compression. At ~19MB uncompressed, that's probably unacceptable. I'm considering adding compression internal to TW, but it violates my goal of keeping the source maximally readable. Unless I go for some alternative non-TW oriented loader, I'm like 99% sure I'm just going to stick to gzip and make people patiently wait (probably good for bouncing impatient trolls as well).
+
+I'm interested to see what your expertise sees and does in TW. If you have any approaches, pointers, guesses, or gut instincts about it, please let me know. As you've probably discovered, I have almost no idea what I'm doing here. I feel like it's difficult to find wisdom about this tool.
+
+<<<
+(One time you asked if you should read Vigoleis—no, don’t. He’s mine. And it’s like Infinite Jest, it will take you way too long to read and you’ll never want to read it again. Infinite Jest also wasn’t for me.)
+<<<
+
+10-4, Good Buddy. I will avoid it like the idiosyncratic plague unless my curiosity overwhelms me (I do love giving into it ;P). Let me say that one day I hope I can take that leisurely stroll, but right now I'm on the manic telic warpath.
+
+<<<
+I feel this way about the words, too, for sure—but also the appearance. It’s like remembering //The Three Stigmata of Palmer Eldritch// for both the chitinous foreheads inside and the orange-red cover of the bug-eyed man with the robotic hands. It all comes flooding back like that.
+<<<
+
+Granted! I know that feel. 
+
+
+---
+<<footnotes "m" " It is also possible this is a metaphor that I am misinterpreting.">>
+
+<<footnotes "d" "I am ''not'' asking the same from you, since I consider it unreasonable to ask it of you (but not of myself here). I hope to 'go with the flow' of your conversational style.">>

@@ -1,0 +1,67 @@
+created: 20180727212002871
+creator: h0p3
+modified: 20180728032459192
+modifier: h0p3
+title: 2018.07.27 - Computers Musings: Gtrdn
+
+Fuck yeah, layout autostart is set. Now that I'm just building that shit by hand, I'll do that for any workspace creation. This is basically AHK + n52 esque scripting for Linux, giving me full a real command line to work with. The tooling, no doubt, could be better; the user strives to be less retarded (but it's hard!). This works though. 10 seconds after I see a desktop, my script cleans up the workspaces into something usable. Restarting is a joy! KDE simply could not do this correctly, despite trying quite hard to make it work (that buggy POS).
+
+I've setup plain rsync backups. I also want to be able to rollback a week. I'm considering just compressing it though. I want to use resilio sync to make redundancies of my backups.
+
+Kids should have something today as well. They will probably use backintime over SSH to HTPC /mnt/backsync/THEIRNAMEFOOBAR.
+
+---
+
+http://conky.sourceforge.net/variables.html
+
+After running my backup programs, I do want Conky to show me individual IO's. Meh:
+
+```
+${color0} Root: R=${color1}${diskio_read /dev/sdc} ${alignr}${color0}W=${color1}${diskio_write /dev/sdc}
+${color0} Home: R=${color1}${diskio_read /dev/sda} ${alignr}${color0}W=${color1}${diskio_write /dev/sda}
+${color0} Stor: R=${color1}${diskio_read /dev/sdb} ${alignr}${color0}W=${color1}${diskio_write /dev/sdb}
+```
+
+```
+${color0} Root: ${color1}${diskiograph_read /dev/sdc 8,60} ${alignr}${color0}${color1}${diskiograph_write /dev/sdc 8,60}
+```
+
+Ugly shit. Found this though:
+
+```
+use_spacer left
+pad_percents 2
+```
+
+Purty.
+
+```
+${color0}Read                          ${color0}Write
+${color0} Root: ${color1}${diskio_read /dev/sdc}${color0}/s ${alignr}${color0}${color1}${diskio_write /dev/sdc}${color0}/s
+${color0} Home: ${color1}${diskio_read /dev/sda}${color0}/s ${alignr}${color0}${color1}${diskio_write /dev/sda}${color0}/s
+${color0} Stor: ${color1}${diskio_read /dev/sdb}${color0}/s ${alignr}${color0}${color1}${diskio_write /dev/sdb}${color0}/s
+```
+
+Got it closer...I'm going to weave them instead.
+
+---
+
+God damnit, my RPi's rslsync is a piece of shit sometimes. I've turned off archiving before...it brought it back? Out of space. I think I will keep my weekly backups compressed and distributed.
+
+---
+
+Kill off all old backup syncs. Deleted old backups too. Goodbye!
+
+I'm only keep a non-compressed copy on HTPC. I'll be compressing weekly backups. Resilio sync across HTPC, KS (encrypted), and RPI set. 
+
+My wife has a full copy of my nightly snapshot on her work computer too (encrypted).
+
+---
+
+I want to set my default file opener to mousepad, but on second thought...subl it is. Dolphin really does need KDE, but I just can't find a fucking replacement that I like. KDE Dolphin spoils ya. Non-KDE Dolphin is an EZ way to have significant functionality, although it still is missing a lot (tons of pieces just don't work at all).
+
+I also need to find a way to get my keyboard to maintain settings. I have no idea why it is losing them.
+
+FFDE seems to be in good shape now. Sync is lovely, as always.
+
+`yaourt -S antigen-git` for muh zshrc EZmode

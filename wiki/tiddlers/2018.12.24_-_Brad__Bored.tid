@@ -1,0 +1,103 @@
+created: 20181224223502094
+modified: 20181224223515192
+tags: Brad
+title: 2018.12.24 - Brad: Bored
+
+```
+Sup dawg merry Christmas!
+1 HR AGO
+=) Merry Christmas!
+1 HR AGO
+Whatcha doing
+1 HR AGO
+Reading and writing.
+1 HR AGO
+Boreing
+1 HR AGO
+Lol.
+1 HR AGO
+:grinning:
+1 HR AGO
+https://philosopher.life/
+1 HR AGO
+I am very bored
+1 HR AGO
+Set up a virtual machine!
+1 HR AGO
+Try new software out.
+1 HR AGO
+(read and write about it ;P)
+1 HR AGO
+(I keep notes about my computing; some things become so technical you can't remember everything)
+1 HR AGO
+I read that fake wiki page but I don't know how to use it or what to do with it
+1 HR AGO
+Fake wiki page?
+1 HR AGO
+What does fake mean?
+1 HR AGO
+That's what it said it was
+1 HR AGO
+?
+1 HR AGO
+Ah.
+1 HR AGO
+=)
+1 HR AGO
+Yeah, it's fake like that.
+1 HR AGO
+Sometimes fake things, like fictional stories, are worth thinking about.
+1 HR AGO
+You probably have to enjoy reading and exploring a lot to use and enjoy that wiki.
+1 HR AGO
+Your own words said that I ain't trying to be mean I can't figure out how to read the story
+1 HR AGO
+So what sounds like fun to you?
+1 HR AGO
+Well I used VMware and built a virtual machine and it worked with my drivers but it encodes video like crap I have it enabled in the bios too, don't know what to try next
+35 MIN AGO
+You'll need to setup passthrough.
+34 MIN AGO
+If your encoding is GPU based.
+34 MIN AGO
+I did
+34 MIN AGO
+the CPU end of things which be extremely performant.
+34 MIN AGO
+No it's cpu based
+34 MIN AGO
+You handing enough cores to it?
+34 MIN AGO
+Don't know I enabled 4
+33 MIN AGO
+Got 4 left
+33 MIN AGO
+The CPU instructions from the VM are passed directly to the CPU.
+33 MIN AGO
+on the host machine
+33 MIN AGO
+If it is setup correctly, you should not be able to see a significant difference.
+32 MIN AGO
+It does fine except for video encoding
+32 MIN AGO
+Right, I'm saying that should be almost identical.
+32 MIN AGO
+Maybe I should enable more cores
+31 MIN AGO
+Let me try it again fresh start might fix it
+30 MIN AGO
+CPUs are built for virtualization these days. It should be almost native. Try virtualbox as well.
+30 MIN AGO
+(VMWare has the best performance in my benchmarking of the type 2 hypervisors)
+30 MIN AGO
+K
+29 MIN AGO
+What you said
+29 MIN AGO
+I'll be interested to know your benchmark differences.
+28 MIN AGO
+I'm going to try to allocate more ram
+27 MIN AGO
+Too
+27 MIN AGO
+```

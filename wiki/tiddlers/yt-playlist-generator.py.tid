@@ -1,0 +1,42 @@
+created: 20180618201902453
+creator: h0p3
+modified: 20190705035049722
+modifier: h0p3
+tags: Music python j3d1h
+title: yt-playlist-generator.py
+
+```python
+#!/usr/bin/python
+import random
+
+#Set up variables
+linelist = []
+finallist = []
+finalstring = "https://www.youtube.com/watch_videos?video_ids="
+with open ('inputlinks.txt','r') as f :
+    linelist = [line.rstrip() for line in f]
+replays = 0
+replayed = 0
+
+#Parse out our input links and make a list
+for line in linelist:
+    if "https://www.youtube.com/watch?v=" in line:
+        line = line.split('https://www.youtube.com/watch?v=', 1)[-1]
+        line = line.replace("]", "")
+        #Do the replays, higher stages getting played more often
+        while replayed != replays:
+            finallist.append(line)
+            replayed = replayed + 1
+        replayed = 0
+    #Figure out where stages are
+    elif line.startswith("* "):
+        replays = replays + 1
+    #Stop when we reach the end of the list
+    elif "---" in line:
+        break
+
+#Turn the list into our YouTube link
+random.shuffle(finallist)
+finalstring = finalstring + ",".join(finallist)
+print(finalstring)
+```

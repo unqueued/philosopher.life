@@ -1,0 +1,52 @@
+created: 20181212034349851
+modified: 20181212074227501
+tags: [[Wiki Audit]]
+title: 2018.12.11 - Wiki Audit: Mo' 18
+
+[[j3d1h]] and I are discussing 5.1.18 and 1.1.1 still. We played around some. We are currently still in staging. The issue is that we want to practice upgrading Bob and the wiki version with Bob (since we've done neither before). Instructions aren't entirely clear, and the best method is far from clear. We want to set ourselves up to have an upgrade process/policy for this for future cycles. It's disheartening to see some of the functionality I've come to like or rely upon may disappear or change (but, this is par for the course in most of my games ;P). 
+
+It is clear that waiting for 5.1.18 is not acceptable simply because I need to incrementally make the changes now instead of waiting for 5.1.19. It is possible that I won't be able to significantly recover. This is the problem with tailoring too hard with this tool. I am worried that eventually an upgrade will come along that I simply cannot take. Once I'm off the developer's track, I'm screwed. They do a damned good job with the core, but this is still very much beta-feeling ecosystem to me. Documentation and tooling is an absolute clusterfuck, but their community is extremely cordial and helpful.
+
+In thinking about what I can do best for this community, I think there are a few roles I fit better than average:
+
+# Comparatively, I can define some of the philosophical aspects of TW pretty well.
+#* Even though I regularly explain that I don't know what this is, I know far more about what it is than some people who code it.
+# I can offer/be a reasonably solid public rolemodel and living usecase.
+#* I think it's fair to say there are no public examples anything like mine (I'm not sure if there are any private ones either). Most people are incredibly private when they even begin to make something like what I have here.
+# I have a non-trivial understanding of decentralization (though, I am no expert), and I can develop this further.
+#* I've had a couple good tricks for accessing my wiki which others have not mentioned.
+#* I'm passionate about it, and this is something I would be interested in testing and even coding further.
+# I can help shape where TW goes through argumentation.
+#* I made the case that KeeBoord should be built into the core, and BTC agreed and did it!
+#* Talking about Quarantine actually got Jermolene's attention.
+#* My discussion of tagging solidified what counts as effective tiddler naming conventions for a couple people.
+
+---
+
+I already broke my suggestion to myself. I'm at 3 tabs editing this wiki. Oh, god. This is going to get out of hand. Give me an inch, and I'm going to take a mile. ROFL. Well, I might as well explore it and figure out how to do this well. It interesting that I've survived in a single maximized window for so long; it's forced me into constructing things I might otherwise not have needed to for survival. 
+
+---
+
+Let me say, yet again, I love being able to ask a family member to just write it in my wiki. Every one of us had to write in another's wiki at this point. It's fascinating! From an infrastructural (though not semantic, ethical, and existential) point of view, [[Root Users]] is coming alive. Rock on, homie.
+
+---
+
+I think my wife immediately has enjoyed jumping on the zerotier train in this case (we've been using it and vpncloud.rs to enable resilio sync to pierce the fucking firewall at her work too). This time, it's an IP assigned in our VPN that allows her to access the Bob server [[j3d1h]] setup for her on [[m10]]. My daughter is officially doing more admin work than I am in the house. I hope to get my son there as well; I so desperately want them to feel at ease building and maintaining their computational lives.
+
+I wonder if I will ever get to teach them penetration testing with any depth. I might be an amateur, but I've been one for a long time.
+
+---
+
+I've noticed "ctrl+f" now has a lag to it. I'm starting to type immediately after from muscle memory, and it's fucking with the text in the wiki itself. Lag that breaks my habits suck (and, as usual, not the good kind of suckin').
+
+---
+
+Once again I sing the praises of self-reflective and retroactive [[Footnotes]] as I engage in [[The Remodeling]]. How many people in history have had the opportunity (and awareness) to recursively write marginalia in this way? Fragmented though it may be, this is a different kind of story-telling. Obviously, there are flaws to my method, but I am blown away. I say again, this reminds me so much of my [[H-book]].
+
+---
+
+I'm experiencing rollback trouble while editing the SiteSubtitle. There is a race condition problem in Bob. I've found one. Multi-tab is NOT absolutely safe (even got a "leave" nag, which shouldn't happen), I believe. It is still so powerful that I will continue to use it. Ugh. This is not a cognitive load I wish to spend. I can only spend so much time looking over my shoulder.
+
+---
+
+I made it through 2017.09.15 for [[The Remodeling]]. Stopping to respond to my work slows me down. It is clear that some kinds of logs and artifacts stand out more than others though.

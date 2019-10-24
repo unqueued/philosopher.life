@@ -1,0 +1,269 @@
+created: 20170312231116814
+modified: 20181031035931168
+modifier: h0p3
+revision: 0
+tags: Tulane
+title: 2013.12.09 - Formalizing the Correlativity Theses of Hohfeld and the Working Theory of Rights
+
+''1.1 – Context and Introduction''
+
+Welsey Hohfeld proposed a systematic framework of rights nearly a century ago. His analysis has remained remarkably useful in exploring and describing the concept of rights, both legal and moral. Although some general form of his theory may be widely accepted in many circles, the details are still being hashed out. Exactly how the various kinds of rights presented in the Hohfeldian framework relate to each other, what they mean, and what they entail, are still open matters of debate in moral and political philosophy. In this paper, I will be focusing on two particular schools of Hohfeldian analysis. The first school accepts Hohfeld’s own correlativity thesis.<<ref "1">> Roughly, this thesis claims that Hohfeldian primary jural positions (claim/right, duty, liberty/privilege, and no-claim) imply or are correlated with other primary jural positions, and the likewise for the secondary jural positions (power, immunity, disability/no-power, and liability).<<ref "2">> The second school, what I will refer to as the correlativity thesis of the Working Theory of Rights, builds on top of the first school’s premises a more controversial set of correlative relationships between the primary and secondary jural positions.<<ref "3">> Essentially, the secondary jural positions imply specific primary jural positions. I will not be arguing in defense of these approaches to Hohfeldian rights, rather I will be formalizing and taking up their assumptions, and then pointing out some significant conclusions which follow from the premises.
+
+The Hohfeldian framework is often presented as tables of correlatives and opposites among eight distinct jural positions:
+
+[img[hohfeld-1.png]]
+
+Primary Jural Positions: 
+
+For this table, Hohfeld believed the top rows were correlated to the respective members of the bottom rows, represented here with black, vertical arrows. For someone to have a claim implies that someone has a duty (and vv.). The same correlative relationship is also thought to hold for liberty and no-claim, and likewise for the secondary jural positions. Similarly, Hohfeld believed the grey, diagonal lines represented a relationship of opposites. The opposite of a claim is a no-claim (and vv.), the opposite of duty is a liberty, and so on. 
+
+While this table is a useful starting place, I believe it is not comprehensive. Given the assumptions of the two schools of thought I examine in this paper, I will present a more thorough explanation of the relationships to be found among the traditional Hohfeldian jural positions found in these tables. Further, I will argue that a slightly different set of tables offer an enhanced understanding of the jural positions. 
+
+Hohfeld’s eight jural positions (or incidents) form a kind of language for describing various legal (and possibly moral) rights positions in which agents find themselves. How useful is this language? Hohfeld indicated that this language had a property of completeness, in the sense that these terms could express all legal rights positions.<<ref "4">> The completeness of such a language seems contentious. After all, we might wonder how this language could adequately express complex legal positions. I will not defend the completeness of the Hohfeldian language/framework, but I will work from the assumption that it is plausible.
+
+We can think of Hohfeld’s eight jural positions as atomic jural positions.<<ref "5">> Various kinds of atomic jural positions can be combined to form complex or molecular sets of jural positions. For example, a molecular duty to a group of people could be reduced to a set of atomic duties to each member of that group.<<ref "6">> As another example, some kinds of rights seem to be clumped together as a molecule of different kinds of atomic jural positions. For example, a property right may include: (a) a claim against others interfering with your property, (b) a power to waive or transfer that claim right, (c) a liberty to use your property, and (d) immunity from others modifying your claim, power, and liberty rights to that property.<<ref "7">> On this view, any molecular collections of rights can be reduced to atomics.
+
+The language of atomic Hohfeldian jural positions might plausibly be complete in its ability to describe all of the various kinds of legal rights positions. I will be formalizing these atomic jural positions into predicates of first-order logic, since they seem to be the building blocks we would use to formally describe more complex sets of rights.
+
+After formalizing Hohfeld’s original jural positions, I will argue that there are actually eight kinds of primary jural positions (rather than the traditional four), and I will only temporarily argue there are four secondary jural positions. Further, I will show exactly what is analogous about the logical relationships between primary and secondary positions, and I will argue that they aren’t identical sets of logical relationships. I will also argue that the correspondence between these jural positions is not merely biconditional but actually a relationship of logical equivalence, and this should help solidify exactly what it means to call something a jural position. Lastly, I will show how the correlativity thesis of the Working Theory of Rights can be formalized, and I will show that the secondary jural positions are really molecules which can each be reduced to sets of two particular atomic, primary jural positions. In effect, I will demonstrate how the two schools of thought together yield a table of eight atomic jural positions, and further that what we traditionally think of as the secondary jural positions are really just a special class of rights-molecules which are reducible to and describable in terms of these atomic, primary eight.
+
+''1.2 – Formalizing the Traditional Primary Jural Positions''
+
+The first school of thought, Hohfeld’s correlativity thesis, can be formalized using four premises.<<ref "8">> The first two premises claim correlative relationships between the primary jural positions, and the third and fourth premises claim correlative relationships between the secondary jural positions. We’ll examine the first two premises in this section.
+
+Where φ is a particular behavior:
+
+*“A has a claim that B φ” is translated as Claim(A, B, φ) 
+
+*“B has a duty to A to φ” is translated as Duty(B, A, φ)
+
+*“A has a liberty to φ with respect to B” is translated as Liberty(A, B, φ)
+
+Premise 1: 	“A has a claim that B φ iff B has a duty to A to φ”
+
+*Claim(A, B, φ) ↔ Duty(B, A, φ) 
+
+Premise 2: 	“A has a liberty to φ with respect to B iff it is not the case that B has a claim that A ¬φ”
+
+*Liberty(A, B, φ) ↔ ¬Claim(B, A, ¬φ)
+
+Transitivity will enable us to logically interrelate claims, duties, and liberties. Since we have assumed a biconditional relationship between claims and duties (premise 1), and we have assumed a biconditional relationship between liberties and claims (premise 2), we can establish a biconditional relationship between liberties and duties. Essentially, since we know: 
+
+*¬Claim(B, A, ¬φ) ↔ ¬Duty(A, B, ¬φ)
+
+And, since Liberty(A, B, φ) just in case ¬Claim(B, A, ¬φ), then we know:
+
+*Liberty(A, B, φ) ↔ ¬Duty(A, B, ¬φ)
+
+The rule for converting a duty into a claim (and vv.) is simple – replace the predicate and switch the first two arguments. The rule for converting a claim into a liberty (and vv.), however, is slightly more complicated – replace the predicate, negate the entire sentence, switch the first two arguments, and negate the third argument. The rule for converting a duty into a liberty (and vv.): replace the predicate, negate the entire sentence, and negate the third argument. With these rules in mind, we can convert any one of these three primary jural positions (claim, liberty, or duty) into either of the other jural positions.
+
+''1.3 – Eight Kinds of Primary Jural Positions''
+
+Given our rules, we can generate the following eight sets of unique jural relationships:
+
+[img[hohfeld-2.png]]
+
+This is the extended table of all possible jural positions between A and B regarding φ and ¬φ. Note that the grey, vertical line shows a relationship of opposites. The black, horizontal arrows show the biconditional, correlative relationship. 
+
+Each box shows three jural positions related by the correlativity thesis. A jural position implies two others. Take the top-right box: a claim, Claim(A, B, φ), has both a corresponding duty, Duty(B, A, φ), as well as a no-liberty, ¬Liberty(B, A, ¬φ). The same is true for the other sets. 
+
+As I will argue later, these sets aren’t really three different yet correlated jural positions, but rather each set of relationships is one atomic jural position with three different expressions of the same semantic content.<<ref "9">>
+ 
+Only three predicates are necessary, but there are many combinations to consider. The table above suggests there are actually eight kinds of primary jural positions. I submit that there aren’t simply four kinds of primary jural positions. If “no-claim” is really a genuine kind of jural position, then so are “no-liberty” and “no-duty,” and this is true in both directions, from A to B and from B to A, regarding both φ and ¬φ, hence eight unique kinds of jural positions.
+
+In a footnote, Hohfeld provides some perspective on the notions of correlatives and opposites. He explains:
+
+Note that in dealing with the correlatives, we are looking at the same situation from the point of view of first one and then the other of the two persons involved, but that when dealing with jural opposites we are looking at two different situations from the point of view of the same person, i.e. in one situation he has, for example, a right, in the other, “no-right.”<<ref "10">>
+
+The opposite of Claim(A, B, φ) is ¬Claim(A, B, φ). According to Hohfeld, the opposite jural positions must be understood from the point of view of the same person. We might think of Claim(A, B, φ) from the point of view of agent A, in some sense, and the opposite or negation of it, ¬Claim(A, B, φ), also from the point of view of agent A. They are opposites because they use the same atomic sentence, just one is negated and the other isn’t. Employing this exact same reasoning, we can see that the direct opposite of Duty(A, B, φ) is ¬Duty(A, B, φ), and the opposite of Liberty(A, B, φ) is ¬Liberty(A, B, φ). The extended table above shows this.
+
+Hohfeld’s traditional table does not clearly show the opposite relationships for duties and liberties. From the traditional table, the opposite of duty, Duty(A, B, φ), is a liberty. What is this liberty though? If it is from the same point of view, agent A’s, regarding B and φ, then the traditional table may falsely lead us into thinking the opposite of Duty(A, B, φ) is Liberty(A, B, φ). Hohfeld is actually claiming, however, that the opposite of Duty(A, B, φ) is Liberty(A, B, ¬φ). Note how the correlative liberty is regarding ¬φ, not simply φ. The traditional table does not make this clear, but the extended does.
+
+The extended table shows that the opposite of Duty(A, B, φ) is ¬Duty(A, B, φ), and ¬Duty(A, B, φ) implies that Liberty(A, B, ¬φ). Since the Hohfeldian opposites rely upon negating entire jural positions, and given the his correlativity thesis, we can see from the extended table how the opposite of duty implies a particular kind of Liberty, not about φ from A’s point of view, but rather about ¬φ from A’s point of view.
+
+The extended table presents Hohfeld’s argument more clearly than the traditional table. Essentially, with the extended table, we can both apply the reasoning from the quote above, which shows that opposites rely upon negations of the entirety of jural positions, and we can cleanly account for Hohfeld’s negations of φ regarding liberties (given the correlativity thesis).
+
+Regarding Hohfeld’s notion of correlativity, we will also find that extended table more clearly presents Hohfeld’s argument more so than the traditional table. Both the traditional and extended table show that Claim(A, B, φ), from the point of view of agent A, is correlated to Duty(B, A, φ), from the point of view of agent B. Likewise for the other direction, Duty(A, B, φ) and Claim(B, A, φ). However, when we consider liberty, Liberty(A, B, φ), the traditional table may falsely lead us into thinking the correlative jural position is ¬Claim(B, A, φ). Hohfeld’s argument, however, is that Liberty(A, B, φ) is correlated to ¬Claim(B, A, ¬φ). Just as in the case of opposites, the correlatives hinge upon negating φ, which the extended table shows and the traditional does not as clearly. 
+
+Further, the extended tables have more fully developed each position. A situation in which someone has a claim, Claim(A, B, φ), is not just correlated to a duty, Duty(B, A, φ), but it is equally correlated to a no-liberty, ¬Liberty(B, A, ¬φ). The traditional table does not make this as clear, partly because no-liberty and no-duty aren’t included in the traditional table. 
+
+Ultimately, I’m inclined to think there eight kinds of primary jural positions because agent A can be legally positioned to B regarding φ or ¬φ in exactly eight distinct ways. 
+
+''2.1 - Formalizing the Traditional Secondary Jural Positions''
+
+The remaining two premises of the first school of thought, Hohfeld’s correlativity thesis, are examined in this section.
+Where ψ is a particular primary or secondary jural position:
+
+*“A has a power over B regarding B’s ψ” is translated as Power(A, B, ψ)
+*“B has a liability under A regarding B’s ψ” is translated as Liability(B, A, ψ)
+*“A has immunity from B regarding A’s ψ” is translated as Immunity(A, B, ψ)
+
+Premise 3: 	“A has a power over B regarding B’s ψ iff B has a liability under A regarding B’s ψ”
+
+		*Power(A, B, ψ) ↔ Liability(B, A, ψ)
+
+Premise 4:	“A has immunity from B regarding A’s ψ iff it is not the case that B has a power over A regarding A’s ψ”
+
+		*Immunity(A, B, ψ) ↔ ¬Power(B, A, ψ)
+
+Transitivity will enable us to logically interrelate powers, liabilities, and immunities. Since we have assumed a biconditional relationship between powers and liabilities (premise 3), and we have assumed a biconditional relationship between immunities and liabilities (premise 4), we can establish a biconditional relationship between immunities and powers. Essentially, since we know: 
+
+*¬Power(B, A, ψ) ↔ ¬Liability(A, B, ψ)
+
+And, since Immunity(A, B, ψ) just in case ¬Power(B, A, ψ), then we know:
+
+*Immunity(A, B, ψ) ↔ ¬Liability(A, B, ψ)
+
+The rule for converting a liability into a power (and vv.) is simple – replace the predicate and switch the first two arguments. The rule for converting a power into an immunity (and vv.), however, is slightly more complicated – replace the predicate, negate the entire sentence, and switch the first two arguments. The rule for converting a liability into an immunity (and vv): replace the predicate and negate the entire sentence. With these rules in mind, we can convert any one of these three secondary positions (power, immunity, or liability) into either of the other jural positions.
+
+''2.2 – Four Kinds of Secondary Jural Positions''
+
+Similar to the primary jural positions, we can generate the following four sets of relationships:
+
+[img[hohfeld-3.png]]
+
+This is the extended table of all possible power, liability, and immunity relationships from A to B regarding ψ. Note that there is no ¬ψ, hence there are fewer combinations of secondary jural positions to consider.  From this table, we can see that the opposite of Power(A, B, ψ) is ¬Power(A, B, ψ), just as the standard Hohfeldian opposites shows. Further, the opposite of Liability(A, B, ψ) is ¬Liability(A, B, ψ), which just is correlated to Immunity(A, B, ψ).
+
+Here, we can agree with the standard Hohfeldian analysis. From what we have now, I’m inclined to think there four kinds of secondary jural positions because agent A can be legally positioned to B regarding ψ in exactly four distinct ways.<<ref "11">>  
+
+''2.3 – Comparing and Contrasting the Logical Relationships of Primary and Secondary ''
+
+There are some interesting similarities between the logical relationships amongst the primary jural positions and amongst those of the secondary jural positions.
+
+The translation of the primary jural positions to first-order logic (FOL) predicates has a similar structure to the translation of the secondary jural positions to FOL predicates. They all employ ternary predicates. These predicates all demonstrate a relationship from agent A to agent B regarding some behavior or jural position, φ or ψ. 
+
+Further, the transitivity of each set of jural positions is virtually identical. The highly parallel argument structures (1.2 and 2.1) make that very clear. The only major difference I find is that the primary predicate conversions require a negation on φ, when converting from a liberty to the claim or duty (and vv.), while secondary predicate conversions do not require a negation on ψ, when converting from immunity to power or liability. This had impact on the quantity of combinations we had to consider.
+
+The relationship between the predicates liberty/claim/duty, regarding agents A and B with respect to φ, is not perfectly analogous to the relationships between the predicates immunity/power/liability, regarding agents A and B with respect to ψ. Albeit, the transitive relationships are basically identical. The result of this was that I concluded there were eight primary jural positions, but still only four secondary jural positions.
+
+''2.4 – Logically Equivalent Positions''
+
+So far, I’ve carefully stated these relationships as mere biconditionals (which is what I’ve run into in the literature), which is not as strong a statement as claiming that they are logically equivalent. Just to be clear on the difference, consider a world in which c is a small Tetrahedron. These three sentences are true:
+
+*Tet(c) ↔ Small(c)	    
+*Cube(c) ↔ Medium(c)	  
+*Small(c) ↔ ¬¬Small(c)
+
+The first two sentences are true in our world, but they aren’t logical truths because they aren’t true in all possible worlds. The last sentence, however, is a logical truth. If a biconditional is true in all possible worlds (i.e. true in every model) – and is, therefore, a logical truth – then the biconditional results in a logical equivalence. Since Small(c) ↔ ¬¬Small(c) is a logical truth, then Small(c) ⇔ ¬¬Small(c). 
+
+Take another biconditional example: P is larger than Q iff Q is smaller than P. Syntactically, these are different sentences:  Larger(P, Q) and Smaller(Q, P). Semantically, however, they are the same. These sentences are just expressions of the same relationship between P and Q. Since Larger(P, Q) ↔ Smaller(Q, P) is a logical truth in virtue of the meanings of the predicates, then Larger(P, Q) ⇔ Smaller(Q, P). These are logically equivalent sentences. The same thing, however, is occurring in conceptual analysis of the predicates of Hohfeldian jural positions.
+
+I am claiming that our biconditionals have been too weak and inexpressive. Since we are performing conceptual analysis, these relationships are stronger, and we should really claim that these are logically equivalent. Consider this kind of jural position:
+
+*Claim(A, B, φ)  	↔ Duty(B, A, φ) 
+* Duty(B, A, φ)  ↔ ¬Liberty(B, A, ¬φ) 
+
+We might think of them as being three different jural positions, one position for A and two for B, which simply correspond to each other. If they really are three different jural positions instead of one, then we should continue to express these relationships as biconditionals. Yes, the biconditionals are true; these sentences do share the same truth values. But, given the meanings of these predicates, I believe the relationships are stronger (analogous to the Larger and Smaller example). These sentences have the same semantics, which is why they are logically equivalent. Part of what it means for A to have a claim that B φ just is for B to have a duty to A to φ, which just is that B has a no-liberty to not φ with respect to A. The members of this claim/duty/no-liberty trio are conceptually bound to each other, and it doesn’t make sense to separate these as different jural positions. They are three different ways of expressing the same fundamental jural position shared between A and B regarding φ. 
+
+Essentially, I believe there isn’t a possible world in which the biconditionals are false, which would mean those biconditionals are logical truths. Hence, my claim is stronger:
+
+*Claim(A, B, φ)  	⇔  Duty(B, A, φ) 
+*Duty(B, A, φ) ⇔ ¬Liberty(B, A, ¬φ)
+
+The same kind of reasoning holds for all the other kinds of jural positions outlined in the final tables of sections 1.3 and 2.2. Thus, it should be much clearer as to what we call a jural position, and why. Each set from our tables is really just one jural position with three expressions. Hence, there are eight primary jural positions and, tentatively, four secondary jural positions.<<ref "12">>
+ 
+On a side note, one of the results of regarding these biconditionals as equivalences is that ψ, in the case of our secondary jural positions, is a not as simple an object as we thought. A particular ψ does not belong to any one individual, but rather to two agents. Thus, when we say “A has a power over B regarding ψ,” we must recognize that it is not simply B’s ψ, but a jural position of B and some other agent. That jural position is their jural position together – we may have three expressions of that jural position, but it has the same semantics.
+
+''3.1 – Correlativity Thesis of the Working Theory''
+
+We now pass on to the second school of thought, the correlativity thesis of the Working Theory of Rights, which posits another set of logical relationships between the primary and secondary jural positions. Again, I will not be defending this position, but I will formalize it, demonstrating how the secondary jural positions can be reduced to a specific set of primary jural positions. We have the tools to make the Working Theory of Rights’ claims perspicuous. 
+
+You will note that I didn’t offer any detailed semantics to our predicates so far. For example, I never fleshed out exactly all of what a claim-right means, even though I considered how it is logically related to the other primary jural positions given our commonly agreed upon premises. One nice thing about presenting the logical relationships in this way is that we don’t need to have agreed upon exactly all of what counts as a claim-right in order to understand certain things about these jural positions. Maybe some theories of claim-rights have additional details or definitions of exactly what counts as a claim-right. This may be okay though.  Just as long as we agree to Premises 1-4 (which many people seem willing to do) and the logical equivalence argument in section 2.4, then the rest of my argument falls out of it. Hence, I’ve been able to overlook some of the defining characteristics of these jural positions. In order to juice our intuitions about the Working Theory of Rights’ reduction, however, I will need to briefly add some semantic meat to the bones of these predicate symbols. 
+
+3.2 – Power, Atomic and Molecular
+
+Hohfeldian power is the legal capacity to introduce, extinguish, or change some primary or secondary jural position. For example, you have the power to revoke my (hypothetical) liberty to not leave your home. You have the power to change our shared jural position. You can extinguish a liberty I had to not leave your home, revoking Liberty(Me, You,¬LeaveYourHome), and instead introduce a no-liberty for me to not leave your home, ¬Liberty(Me, You, ¬LeaveYourHome). Note our equivalences:
+
+*Liberty(Me, You, ¬LeaveYourHome) 	⇔  ¬Duty(Me, You, LeaveYourHome)  ⇔  ¬Claim(You, Me, LeaveYourHome)
+
+*¬Liberty(Me, You, ¬LeaveYourHome) 	⇔  Duty(Me, You, LeaveYourHome) ⇔  Claim(You, Me, LeaveYourHome)
+	
+When you exercise your power, our first jural position is extinguished, and the second is introduced to us. Note how the exercise of this power is just one behavior. Since P v ¬P, if you extinguish P, then you introduce ¬P. At least for now, we can think of this as an atomic power, although later, I will show that even atomic powers are really molecular jural positions (when they are reduced to primary jural positions).
+
+Interestingly, while atomic power can’t be broken down into two different acts in this case, there may be cases where certain things we might initially think are atomic instances of power are actually molecular, and they can be broken down into more atomic parts. For example, if I exercise the power to change how much money you owe (let’s say I make it so you owe me 50% less, but it could have been 1%, 2%, etc.), then I’m extinguishing P, but introducing Q (rather than merely ¬P). Hence, this power is already molecular, since introducing Q implies extinguishing P, it seems that a power to introduce Q is molecular. 
+
+It may be even more molecular, depending on how we want to think about it. We might claim that I have an extinguishing power paired with some introduction power for making you owe me 50% less money. But, I also have an extinguishing power paired with some introduction power for making you owe me 1% less money. The same is true for 2%, and so on. Hence, my so-called power to change how much money you owe is really molecular, and it can be broken down into a tightly knit molecule of a great many number of atomic powers. Hopefully this elucidates how there are cases of what we took to be atomic powers which turned out to actually be molecular powers, and it showcases the expressiveness of Hohfeld’s language. 
+
+The Working Theory of Rights claims that this legal capacity is a liberty to modify our jural position. Essentially, on this theory, if you have a power, then you have the liberty to introduce, extinguish, or change a particular jural position. Note that this is still speaking in terms of atomic jural positions. 
+
+One counterexample to this correlation between liberty and power could involve conflicting powers and duties not to exercise those powers in a certain way by the Supreme Court. Let us say SCOTUS has the legal power to make rulings – that is, to change jural positions for a great number of agents. Supposedly, included in this power is the ability to make a bad ruling, to modify some jural position in a bad way (whatever the standard of badness may be). Now suppose they also have a legal duty not to make a bad ruling. Thus, SCOTUS won’t have a liberty to use that power in a certain way – that is, they don’t have a liberty to make a bad ruling. Thus, it doesn’t appear that power is always a liberty. This may be paradoxical for the Working Theory of Rights, as if this conceptually possible power and duty combination can’t be explained if we agree to the claim that power is a liberty. 
+
+The correlativity thesis of the Working Theory of Rights, if it is correct, suggests this counterexample has employed a molecular set of jural positions, but acted as if it was atomic. If we assume the Working Theory of Rights correlativity, then what is really going on in this example is that SCOTUS has a very large set of atomic powers, but no member of that set is a power to make a bad ruling or interpretation. They only have the powers necessary to make good rulings. Any of the ruling powers SCOTUS has, given our assumptions, is such that it will be not be a power to make a bad ruling. This is not paradoxical, however, for the Working Theory of Rights. SCOTUS has liberties to make certain kinds of modifications of jural positions, just as long as they are not bad modifications, in this case. Conversely, SCOTUS doesn’t have liberties to make modifications of jural positions which are bad. The Working Theory of Rights seems capable of expressing the legal positions of SCOTUS. The reduction from power to liberty may be plausible.
+
+It is important to see that, on the Working Theory of Rights, we are often mistaken about the nature of power; many things which people are tempted to treat as atomic powers are not, in fact, atomic – they’re molecular. But, as we will see, given the reduction, we will find that even atomic powers are not really atomic jural positions in the same way as the primary jural positions.
+
+''3.2 – Preliminary Relationship Between Primary and Secondary Jural Positions''
+
+If the correlativity thesis of the Working Theory of Rights is correct, then power is reducible to a particular liberty to introduce, extinguish, or change a jural position.
+
+Additionally, assuming the Working Theory’s correlativity thesis, Hohfeldian liability requires that the liable agent must abide by whatever changes someone makes to his jural positions, just as long as the agent who made the change had the legitimate power to do so. In our example, if you have the power to introduce a duty to me to leave your home, then I am liable to you regarding the changes you could make to our shared jural position. Essentially, I have a duty to abide by your modification of our jural position. I have a duty to abide by your changes stemming from your power – I must obey you in this respect. 
+Since we can flesh out the semantics of power in terms of liberty to modify and liability in terms of duty to abide, let us formalize the logical connection between the primary and secondary jural positions as set out by correlativity thesis of the Working Theory of Rights.
+
+''3.3 – Formalizing the Relationship between Primary and Secondary Jural Positions''
+
+Maintaining our previous translations and predicates, and where X(ψ) is the act of introducing, extinguishing, or changing ψ, and where Abide(X(ψ)) is the act of abiding by the results of X(ψ):
+
+Premise 5: 	“A has a power over B regarding ψ ⇔ A has the liberty to X(ψ) with respect to B”
+
+	*Power(A, B, ψ) ⇔ Liberty(A, B, X(ψ))
+
+Premise 6:	“A has a liability under B regarding ψ ⇔ A has a duty to B to abide by B’s X(ψ)”
+
+	*Liability(A, B, ψ) ⇔ Duty(A, B, Abide(X(ψ))
+
+Note the logical equivalence, which is stronger than a biconditional. The claim is a controversial one; the semantics of “A has a power over B regarding ψ” are the same as “A has the liberty to X(ψ) with respect to B,” and similarly for liability. This gives us a strong bridge between the primary and secondary jural positions. We can speak about power in terms of a specific kind of liberty. This liberty can be equivalently expressed as a no-duty or no-claim. Further, we can speak about liability in terms of a specific kind of duty, which can be equivalently expressed as a claim or no-liberty.
+
+Given such a strong correlation between the primary and second jural positions in these premises, we can see a reduction of power, liability, no-power, and no-liability down to specific primary jural positions.  
+
+*Power(A, B, ψ) 	⇔ Liberty(A, B, X(ψ))		⇔ ¬Duty(A, B, ¬X(ψ))	⇔ ¬Claim(B, A, ¬X(ψ))	
+*¬Power(A, B, ψ)	⇔ ¬Liberty(A, B, X(ψ)) ⇔ Duty(A, B, ¬X(ψ)) ⇔ Claim(B, A, ¬X(ψ))
+*Liability(A, B, ψ) ⇔ Duty(A, B, Abide(X(ψ))	 ⇔ Claim(B, A, Abide(X(ψ))	⇔ ¬Liberty(A, B, ¬Abide(X(ψ))	
+*¬Liability(A, B, ψ) ⇔ ¬Duty(A, B, Abide(X(ψ)) ⇔ ¬Claim(B, A, Abide(X(ψ)) ⇔ Liberty(A, B, ¬Abide(X(ψ))	
+
+
+This is a table of the reduction of power, liability, no-power, and no-liability, as secondary jural positions, to an equivalent set of primary jural positions. It isn’t, however, complete. The problem is not that we’re missing immunity and no-immunity, as the semantics of Immunity(A, B, ψ) are captured by ¬Liability(A, B, ψ), and ¬Immunity(A, B, ψ) by Liability(A, B, ψ). The reduction of immunity and no-immunity to primary jural positions would be identical to the reduction of no-liability and liability. What is missing, however, is the fact that Power(A, B, ψ) is equivalent to Liability(B, A, ψ). Hence, Power(A, B, ψ) is not just Liberty(A, B, X(ψ)), but it is also Duty(B, A, Abide(X(ψ))). The following should make that point clear:
+
+*Power(A, B, ψ) 		⇔ Power(A, B, ψ)	⇔ Liberty(A, B, X(ψ)) ⇔ ¬Duty(A, B, ¬X(ψ)) ⇔ ¬Claim(B, A, ¬X(ψ))
+*Power(A, B, ψ) 	⇔ Liability(B, A, ψ)		⇔ Duty(B, A, Abide(X(ψ)))⇔ Claim(A, B, Abide(X(ψ)))	⇔ ¬Liberty(B, A, ¬Abide(X(ψ)))
+
+Thus, power is reducible to the two specific primary jural positions:
+
+*Power(A, B, ψ) 	⇔ Liberty(A, B, X(ψ))	⇔ ¬Duty(A, B, ¬X(ψ))	⇔ ¬Claim(B, A, ¬X(ψ))				
+*Power(A, B, ψ) 	⇔ Duty(B, A, Abide(X(ψ))) ⇔ Claim(A, B, Abide(X(ψ)))⇔ ¬Liberty(B, A, ¬Abide(X(ψ)))
+
+Clearly, the opposite, ¬Power(A, B, ψ), would be reducible to two distinct primary jural positions as well (just throwing around negations). In fact, in the same manner, each of the secondary jural positions can be reduced to two distinct primary jural positions, one where φ = X(ψ), and another where φ = Abide(X(ψ)).
+
+''3.4 – Implications and Conclusion''
+
+First, the reduction shows just how remarkably versatile and expressive the primary jural positions can be. Second, formalizing the reduction demonstrates that the secondary jural positions are not actually atomic but, rather, molecular. The semantics of secondary jural positions can be reduced to two atomic, primary jural positions. 
+
+To me, this signifies that the real heavy lifting in this conceptual analysis is born upon the backs of the primary jural positions. Those may be the only real kinds of jural positions. What we call the secondary jural positions aren’t really kinds of jural positions, after all – they are just important classes or subsets of the various possible primary jural positions. We only give these particular classes/subsets names because it useful for quickly describing and understanding various legal arguments. 
+
+These two schools of thought, the correlativity theses of Hohfeld and the Working Theory of Rights, may or may not be correct. If they are correct, then some interesting conclusions fall out of their premises: there are eight combinations or kinds of atomic, primary jural positions; the logical relationship found between the traditional primary jural positions ends up not being identical to the logical relationship found between the traditional secondary jural positions; each of these jural positions have three logically equivalent expressions (using the predicates claim, duty, and liberty); and, lastly, the traditional secondary jural positions are really molecular positions which are reducible to a specific set of atomic jural positions.
+
+----------------
+
+<<footnotes "1" "Hohfeld, Wesley N. 'Some Fundamental Legal Conceptions as Applied in Judicial Reasoning.' //The Yale Law Journal// 23, no. 1 (November 1913): 16-59. http://www.jstor.org/stable/785533. ">>
+<<footnotes "2" "I will provide a more detailed set of premises which define this correlation later in the paper.">>
+<<footnotes "3" "Steiner, Hillel. 'Working Rights.' //In A Debate Over Rights//, by Matthew Kramer, Nigel Simmonds, and Hillel Steiner, 233-300. Oxford: Oxford University Press, 2002.">>
+<<footnotes "4" "Corbin, Arthur. 'Forward.' //In Fundamental Legal Conceptions as Applied in Judicial Reasoning//., by Wesley Newcomb Hohfeld and Walter Wheeler Cook. New Haven: Yale University Press, 1964. pgs. 27 and 64.">>
+<<footnotes "5" "Later, I will go into more detail about what it means for a jural position to be atomic, and I will eventually deny that the traditional secondary jural positions are atomic.">>
+<<footnotes "6" "It remains a point of contention about whether or not a collection of individuals can form an agent said to be participating in an atomic duty, claim, liberty, etc. Hohfeld may have aimed for jural positions to be exclusively between two individuals. I’m not sure how much it matters though, and so I will set that aside for now. ">>
+<<footnotes "7" "Even these may be molecular and can be broken down into atomics. E.g. maybe (b) is the really a combination of two different atomic powers.">>
+<<footnotes "8" "I’ve presented the correlativity thesis in terms of premises because they are debatable (and hence might be false), but also because a valid argument based on these premises will demonstrate what logically follows if we assume the premises to be true (which a significant portion of moral and political philosophers seem to do).">>
+<<footnotes "9" "Hohfeld may have held this view himself, but I am not sure.">>
+<<footnotes "10" "Hohfeld, Wesley Newcomb, and Walter Wheeler Cook. Fundamental Legal Conceptions as Applied in Judicial Reasoning, and Other Legal Essays,. New Haven: Yale University Press, 1923. pg 10, n. 13.">>
+<<footnotes "11" "My conclusion, however, will deny that this is truly an atomic jural position like the primary jural positions.">>
+<<footnotes "12" "Again, my conclusion will argue that what are normally called the secondary jural positions aren’t atomic jural positions at all, but, rather, molecules. It isn’t clear to me that they deserve to be called a kind of jural position in the same way as the primary jural positions.">>
+
+----------------------
+
+Bibliography
+
+Corbin, Arthur. "Forward." //In Fundamental Legal Conceptions as Applied in Judicial Reasoning//., by Wesley Newcomb Hohfeld and Walter Wheeler Cook. New Haven: Yale University Press, 1964.
+
+Hohfeld, Wesley N. "Some Fundamental Legal Conceptions as Applied in Judicial Reasoning." //The Yale Law Journal //23, no. 1 (November 1913): 16-59. http://www.jstor.org/stable/785533.
+
+Hohfeld, Wesley Newcomb, and Walter Wheeler Cook. //Fundamental Legal Conceptions as Applied in Judicial Reasoning, and Other Legal Essays//,. New Haven: Yale University Press, 1923.
+
+Steiner, Hillel. "Working Rights." I//n A Debate Over Rights//, by Matthew Kramer, Nigel Simmonds, and Hillel Steiner, 233-300. Oxford: Oxford University Press, 2002.

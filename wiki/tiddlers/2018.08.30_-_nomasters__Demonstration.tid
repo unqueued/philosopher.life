@@ -1,0 +1,33 @@
+created: 20180830203023434
+creator: h0p3
+modified: 20180830203027228
+modifier: h0p3
+title: 2018.08.30 - nomasters: Demonstration
+
+```
+ok - node module is now on npm https://www.npmjs.com/package/hashmap-client
+h0p3
+Nice! =)
+rjrbt
+The dev who is going to be working with me on the mobile app said she'd work with me on the landing page now too
+and we plan to have a runable demo on the landing page that hooks into prototype.hashmap.sh
+h0p3
+that is a good idea
+rjrbt
+yeah, I know this thing makes sense in my head, but is still very abstract to almost everyone else
+h0p3
+I know that feeling quite a bit. =)
+rjrbt
+its more concrete than I think people assume, but its hard for people to grok that without something that has buttons and instant feedback.
+h0p3
+Demonstration is always a valuable shortcut
+rjrbt
+one thing I know we'll do though, is set the Max TTL to be shorter, like 1 hour or so
+I have a feeling that if this gets picked up on Hacker News we might be handling quite a bit traffic for a short period of time
+h0p3
+I think you should make it as clean as you can before it hits HN.
+rjrbt
+100%
+that's why I've spent this extra time on a proper JS lib
+its actually got 100% test coverage too, I just finished that up today
+```

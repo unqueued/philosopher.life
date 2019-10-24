@@ -1,0 +1,44 @@
+created: 20180422184158475
+modified: 20180422184402172
+title: reddit_user_harrass.py
+
+```python
+#!/usr/bin/python
+
+import sys
+import traceback
+import praw
+
+BOT_USERNAME = ''
+BOT_PASSWORD = ''
+BOT_CLIENT_ID = ''
+BOT_CLIENT_SECRET = ''
+
+TARGET_SUBREDDIT = ''
+TARGET_USER = ''
+MESSAGE = ""
+
+
+def harass():
+    reddit = praw.Reddit(username=BOT_USERNAME,
+                         password=BOT_PASSWORD,
+                         client_id=BOT_CLIENT_ID,
+                         client_secret=BOT_CLIENT_SECRET,
+                         user_agent='UserHarasser v0.1 by /u/throwaway_the_fourth for /u/testmatchelitist. See https://redd.it/6ulado.')
+
+    try:
+        for comment in reddit.subreddit(TARGET_SUBREDDIT).stream.comments():
+            if not comment.saved and comment.author == reddit.redditor(TARGET_USER):
+                comment.save()
+                comment.reply(MESSAGE)
+    except BaseException as e:
+        if type(e) == KeyboardInterrupt:
+            sys.exit(0)
+        else:
+            traceback.print_exc()
+
+
+if __name__ == '__main__':
+    while True:
+        harass()
+```

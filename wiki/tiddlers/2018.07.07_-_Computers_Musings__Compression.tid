@@ -1,0 +1,47 @@
+created: 20180707155351498
+creator: h0p3
+modified: 20180708033701482
+modifier: h0p3
+tags: 
+title: 2018.07.07 - Computers Musings: Compression
+
+```
+Jul 07 15:57:35 h0p3 lighttpd[6869]: 2018-07-07 15:57:35: (plugin.c.131) Cannot load plugin mod_compress more than once, please fix your config (we may not accept such configs in future rel
+```
+
+Derp. Fixed.
+
+Also some other fiddling, and `sudo chown www-data:www-data /foo/bar` still didn't fix a permission error I found.
+
+Still failing the basic test:
+
+`curl -sILH 'Accept-Encoding: gzip,deflate' https://philosopher.life/ | grep --color 'Content-Encoding:'`
+
+FF Dev tools shows compression, as does http://www.gidnetwork.com/tools/gzip-test.php.
+
+---
+
+Remember [[2018.04.08 - Computer Musings: Letsencrypt]]? So, my cert expired...which is weird because:
+
+```
+Processing /etc/letsencrypt/renewal/philosopher.life.conf
+-------------------------------------------------------------------------------
+Cert not yet due for renewal
+
+-------------------------------------------------------------------------------
+
+The following certs are not due for renewal yet:
+  /etc/letsencrypt/live/philosopher.life/fullchain.pem expires on 2018-09-06 (skipped)
+No renewals were attempted.
+No hooks were run.
+```
+
+Yeah, so I've still screwed something up. This is annoying. 
+
+`certbot revoke --cert-path /etc/letsencrypt/live/philosopher.life/cert.pem`
+
+`sudo apt-get autoremove --purge certbot`
+
+`sudo apt-get install certbot`
+
+Ran through [[Walkthrough: LetsEncrypt + Lighttpd]] without the permissions. Fuck it.

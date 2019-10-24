@@ -1,0 +1,45 @@
+created: 20190321165654953
+modified: 20190705040032002
+tags: [[Tagging Theory]] Self-Dialectic j3d1h [[Wiki Audit]]
+title: 2019.03.21 - Wiki Audit: Firmcoding and Tagging
+
+Removed the `tag-list` FC macro, replaced with `filter-list`. It doesn't do enough to be its own thing.
+
+Added tags and fields to:
+
+(not listed yet)
+
+Also, tagged the following logs:
+
+*[[2018.01.12 - Ribbonfarm]]
+*[[2018.01.16 - Ribbonfarm]]
+*[[2018.01.17 - Ribbonfarm]]
+*[[2018.01.18 - Ribbonfarm]]
+*[[2018.01.20 - Ribbonfarm]]
+*[[2018.01.21 - Ribbonfarm]]
+*[[2018.01.23 - Ribbonfarm]]
+*[[2018.01.24 - Ribbonfarm]]
+*[[2018.01.25 - Ribbonfarm]]
+*[[2018.01.29 - Ribbonfarm]]
+*[[2018.01.31 - Ribbonfarm]]
+*[[2018.01.15 - Rust]]
+*[[2018.01.16 - Rust]]
+*[[2018.01.17 - Rust]]
+*[[2018.01.18 - Rust]]
+*[[2018.01.20 - Rust]]
+*[[2018.01.21 - Rust]]
+*[[2018.01.24 - Rust]]
+*[[2018.01.25 - Rust]]
+
+Filters: `[regexp[\d\d\d\d.\d\d.\d\d - [Rust/Ribbonfarm]`
+
+---
+
+* Needs Tagging
+** Atropos
+
+I stopped at [[2018.01.20 - Carpe Diem Log: Jobbo]] in [[The Remodeling]]. I'm not used to having the chance to relive my life like this. 2018 had a much richer set of logs, and my ability to see through my previous eyes, to see the [[Moth Languages]] and breadcrumbs for myself, to remember to remember even the little things is still blowin' my mind. There's a way in which my memory is dying, but there is a way in which this horcrux-pensieve preserves and reactivates so much for me. My assumption is that most of this will fade too though, and I'm probably confabulating on top of missing more than I realize. It's a novel experience for me nonetheless.
+
+---
+
+Sometimes I wish I could specify the "strength" or "weight" of the tags as properties and relationships. It reminds me of a neuron too. That level of codification is so particularized it feels like blackbox connectionism. Gunky as fuck!

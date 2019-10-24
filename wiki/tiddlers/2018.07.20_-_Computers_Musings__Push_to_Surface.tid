@@ -1,0 +1,19 @@
+created: 20180720143204441
+creator: h0p3
+modified: 20180720202557348
+modifier: h0p3
+title: 2018.07.20 - Computers Musings: Push to Surface
+
+I have a lot of work to do on monster-10. I can't even get my TV's sound to work. =/ I'm used to having sound trouble in linux; that's like...totally normal. Neither Pulseaudio nor Alsa work in this case.
+
+I'm glad I found a way to have multiple maximized browsers in a workspace (yay tabbed workspace!), and I love that I can have individual settings for any given workspace. I regularly have multiple browser windows filled with tabs, and I only want maximized browsers 99% of the time...except when I really need to do work in a browser next to a bunch of terminals (which a tiling manager was born to do). If I didn't find a way to do this, it would be a deal breaker. I spend a fuckton of time in my browsers.
+
+I can tell that I'm looking for a cross between a standard workspace with alt+tabbing crossed with the tiling. There are certain kinds of workflows which fit one or the other, but not both.
+
+I need to find a way to turn off the lockscreen. That is irrelevant to me.
+
+Part of the issue here is that I don't know how this particular version of i3 Manjaro has been constructed, and I need to get under the hood to change some of the behavior which others would normally find very useful. I don't want to put this together by hand though. I can tell someone riced it for me out of the box, and I love it.
+
+Also, Signal gave me an advertisement. Ugh. =( - I hope Keybase succeeds. Also, I need a darkmode, please. Don't kill my eyes.
+
+Changed my cursors to something bright. I like it to be super loud to me on the screen.

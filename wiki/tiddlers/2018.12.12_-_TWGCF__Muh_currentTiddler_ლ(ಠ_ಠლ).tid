@@ -1,0 +1,27 @@
+created: 20181212225336365
+modified: 20181219181852726
+tags: TWGGF
+title: 2018.12.12 - TWGCF: Muh currentTiddler ლ(ಠ_ಠლ)
+
+In 5.1.17, I use the following for //Title of new journal tiddlers// ($:/config/NewJournal/Title):
+
+`YYYY.0MM.0DD - $(currentTiddler)$: `
+
+When I upgrade to 5.1.18, it gives me the output:
+
+`2018.12.12 - $(currentTiddler)$: `
+
+How can I gain the original functionality back?
+
+---
+
+<<<
+I don't know if it's a bug or a feature, but I notice that now if you use
+
+`YYYY <<currentTiddler>>`
+
+
+That it works.
+
+-- Mark [S.]
+<<<

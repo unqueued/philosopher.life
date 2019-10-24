@@ -1,0 +1,12 @@
+created: 20180126034216167
+modified: 20190323155656233
+tags: Outopos
+title: 2018.01.24 - Outopos: Compression
+
+Because we are tunneling, I think throughput becomes more and more significant than raw CPU usage. Essentially, I think compression is super important. Those tunneling will spend less CPU processing packets not destined for them, which is fair. More importantly, this enables higher throughput on the network in general. Throughput is expensive; embarrassingly parallel CPU tasks are not (and increasingly less expensive with each passing year). Finally, compression is a blanket to eliminate the need for applications to do this. We want to make the barrier to entry for high-performance routing as low as possible.
+
+[[Zstandard|https://facebook.github.io/zstd/]] is the clear winner. I'd prefer compression was the default, and only if the client knows he doesn't need it should he turn it off. Are you torrenting video files? Fine, turn off compression. Does your webserver already compress the content? Fine, turn it off. Compression should be default, and only when you know it will improve your performance should you turn it off.
+
+* https://crates.io/crates/zstd
+
+My only concern is the possible interactions with compression and cryptography, but I'm still in low-hanging fruit territory here. Unless it's a massive fuckup, we should take the performance bait.

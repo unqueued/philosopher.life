@@ -1,0 +1,104 @@
+created: 20180709040953190
+creator: h0p3
+modified: 20180710174936390
+modifier: h0p3
+title: 2018.07.10 - WookieNeo: Late
+
+Hi [[WookieNeo]],
+
+I apologize for taking so long.<<ref "l">> Also, I apologize for using my wiki, instead of Reddit, as my medium of expression in this case (I do not intend to annoy you). I generally find it easiest to say what I'm thinking with this tool.
+
+I have the annoying habit of attempting to respond to every thread of reasoning people lay down for me. Tell me to cool it if you prefer.
+
+<<<
+Hey I replied to you post about your wiki. I have had the same thought about friends and family. I decided to keep it closed for the most part. A nice thing about dokuwiki is the level of user permissions. So I can open up access in very specific ways to specific people.
+<<<
+
+Running actual userland software has serious advantages. I will be interested to see if and how you decide to integrate other processes or data from your machines over the command line into dokuwiki. This has not been a fun process for Tiddlywiki, imho. I must admit, more than once, I've wished I could make more use of this end. I really value Tiddlywiki's ability to be stored in a single html file though. Do you think I might be overvaluing it?
+
+<<<
+I have loved meandering your wiki! I am much younger than you in all likelihood, at 23. I too have a background in computers (programming and sysadmin).
+<<<
+
+I have no formal training, and my last job programming computers was back when you were 12. I'm 32, so not much older (or so it feels sometimes<<ref "g">>). My work background is mostly in philosophy. I [[love|Monster-Φ]] computers though! What technical thing has been holding your fascination lately?
+
+<<<
+I dont have much advice for you on an area which you have put considerably more time than I, but I appreciate you asking about it. This is a topic I have though about, how best to organize and approach a wiki for journaling. I am starting to use tags more as I found something resembling a directory structure too limiting and hard to maintain.
+<<<
+
+I am increasingly interested in this precise problem. I cannot, for the life of me, figure out a way to make tagging worthwhile enough. That may be due to my naming conventions, but I suspect it is most likely due to my incompetence.
+
+Can you give me a couple quick examples of when tagging did something amazing for you? So far, I've find that directory structures with effective naming and my search bar make my tagging useless so far. Again, I believe this is my incompetence (forgive me for asking something which probably appears obvious to you). 
+
+<<<
+dokuwiki calls its directory equivalent a namespace. I am aiming to avoid nested namespaces and stick to well defined namespaces and then using tags. 
+<<<
+
+Why? I am sure you have an excellent reason. Please help me visualize it. In almost all likelihood, I'm blind to something very important here! Please help me think about it.
+
+<<<
+I am also starting to break topics down into multiple pages. I have found it hard to maintain old pages and keep them updated and so having more pages helps with separation of concerns. 
+<<<
+
+I have struggled with this exact problem in multiple respects, and I'm sure my ineptitude is pretty obvious. I am so glad to hear you thinking about this. I hope you will find the magic silverbullets that I can't seem to find. Please elaborate. This topic is important to me.<<ref "o">> If there is only one thing you respond to in this letter, make it about this issue, please. 
+
+<<<
+really I am beginning to see the wiki structure as being similar to good software design.
+<<<
+
+Which is probably why I am so awful with it! I don't have nearly enough practice with good software design practices. I'm not convinced my mind is built for it, but I must try.
+
+<<<
+https://wiki.fallalex.com/
+
+there is a link to my wiki. I have mostly used it to record processes for work or fun related to sysadmin work
+<<<
+
+I can see that. I've been poring over your wiki. I'm not very familiar with dokuwiki, so it's been interesting for me. It clearly has several advantages over Tiddlywiki. I have questions for you about the wiki as a tool for you:
+
+* When and how often do you make use of the Word and Tag clouds?
+* You don't like social media, but are willing to use the wiki as some kind of social media tool. Can you tell me more about this decision?
+* What is the most awesome plugin you've used and why?
+* How often do you use the backlinks feature?
+
+I have some random thoughts and comments about your wiki's contents as well:
+
+# What ubiquiti product do you use? Do you like it? I used to have one, but it ended up dying on me. I've been thinking about going back since I've failed to:
+#* compile OpenWRT for my non-supported router enough to install the uncommon plugins
+#* turn my HTPC into a router (routing all traffic through PFSense in a VM). 
+# Your XKCD choices tell me about who you are, and if I may say, I think many of them are quite relatable to the work we are doing in our wikis. I'm trying to do some similar kinds of work in [[Art]] and [[Identifying With Fictional Characters]].
+# I was thinking about your work on dynamic IPs. I see you like sshuttle too (a beautiful tool, imho). Even if only for fun, I think you should try this tool out (it's entirely possible you already have tried many tools like it):
+#* https://github.com/dswd/vpncloud.rs
+#** It's pretty sick, seriously. You may find some of your dynamic IP concerns, NATs, and other worries disappear with this tool.
+#** I have another that I've been thinking about as well. What decentralized tools do you like the most? What are your thoughts about it? I'm a man always on the lookout to understand it better (or so I feel).
+# How have you been using your RPi(s)?
+#* Pihole?
+# Why are you interested in the Microbial Genomes Atlas?
+# You have a lot of computers. Your lab looks pretty sick. Did you build your own hackintosh?
+
+<<<
+as far as "structural approaches to thinking" I am really just starting out but I have been avoiding daily updates and instead only updating it when I have new thoughts that I think need to be fleshed out. 
+<<<
+
+This is an important problem. I hope you will reason about it carefully. Fleshing out when and why you should flesh things out, for example, turns out to be no small task, imho.
+
+<<<
+– WookieNeo
+<<<
+
+I'm curious about your name. Why did you choose it, what does it mean to you?
+
+Lastly, I want to apologize for taking so long to respond (and you should feel free to take as long as you desire in responding to me). Please forgive my autistic social conventions; if there are particular rules you want me to follow in our [[T42T]] cooperative language game, then please explain.
+
+
+Sincerely,
+
+[[h0p3]]
+
+
+---
+<<footnotes "l" "If it matters, you can see I've been exceptionally busy in the past week.">>
+
+<<footnotes "g" "Which I take to be, surprisingly, a non-trivial medical sign">>
+
+<<footnotes "o" "I mean no offense at all, but I think it is highly unlikely you have come to understand over the past week just how much difficulty I've had with this issue in my wiki.">>

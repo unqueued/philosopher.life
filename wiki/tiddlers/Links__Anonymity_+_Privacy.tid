@@ -1,0 +1,49 @@
+created: 20170426162943267
+modified: 20170514223959286
+revision: 0
+title: Links: Anonymity + Privacy
+
+Technology is a double-edged sword. Use it wisely, for good and producing happiness. This is a toolkit and library that I care about. I've been building it for quite a while.
+
+* Cloud Storage and Backups
+** https://www.digitalocean.com/community/tutorials/how-to-use-duplicity-with-gpg-to-securely-automate-backups-on-ubuntu
+** https://www.boxcryptor.com/en/
+
+* Doxxing
+** https://www.truepeoplesearch.com/
+
+* DNS
+** https://dnscrypt.org/
+** https://github.com/simonclausen/dnscrypt-autoinstall
+
+* Fingerprinting
+** https://browserprint.info/#fingerprint
+
+* i2p
+** https://www.whonix.org/wiki/I2P
+
+* Information
+** https://www.youtube.com/watch?v=7G1LjQSYM5Q&feature=share
+** http://stop-prism.org/
+
+* Messaging
+** https://bitmessage.org/wiki/Main_Page
+
+* Tor
+** https://www.reddit.com/r/onions/comments/3kko94/security_by_advanced_obscurity_ssh_though_tor/
+** https://github.com/patrickod/docker-tor-hidden-services
+
+* VM
+** Qubes
+*** https://www.reddit.com/r/Qubes/
+*** https://jrruethe.github.io/blog/2015/09/12/setting-up-qubes/
+
+* VPN
+** Software
+*** http://www.freelan.org/
+*** https://github.com/adrelanos/VPN-Firewall
+*** https://sourceforge.net/projects/vpnchains/
+
+* VPS
+** http://cryto.net/~joepie91/bitcoinvps.html
+

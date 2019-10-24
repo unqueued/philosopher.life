@@ -1,0 +1,112 @@
+created: 20180727050927771
+creator: h0p3
+modified: 20190409225021089
+modifier: h0p3
+tags: 
+title: i3-layout-autostart.sh
+
+```bash
+#!/bin/bash
+
+# ~~Keybase and~~ FFDE fucking hates you, precious.
+sleep 10
+
+# $wsgrave 0:/b/
+i3-msg 'workspace 0:/b/'
+sleep 0.4
+
+# $ws1 1:Wiki
+i3-msg 'workspace 1:Wiki'
+sleep 1
+xdotool key --clearmodifiers Return
+sleep 0.4
+#i3-msg 'splitv; fullscreen toggle'
+i3-msg 'layout tabbed'
+sleep 0.4
+
+# $ws2 2:Web
+i3-msg 'workspace 2:Web'
+sleep 2
+xdotool key --clearmodifiers Return
+sleep 3
+i3-msg 'layout tabbed'
+sleep 0.4
+
+# $ws3 3:Files
+i3-msg 'workspace 3:Files'
+sleep 0.4
+i3-msg 'layout tabbed'
+sleep 0.4
+
+# $ws4 4:Text
+### Eventually switch to terminals...
+i3-msg 'workspace 4:Text'
+sleep 0.4
+i3-msg '[class="(?i)sublime_text$" instance="(?i)sublime_text$" title="(?i)Sublime Text 2$"] focus'
+i3-msg 'move right; splitv'
+sleep 0.4
+i3-msg 'resize grow width 50'
+sleep 0.4
+i3-msg 'resize grow width 50'
+
+# $ws5 5:Stage⑤
+i3-msg 'workspace 5:Stage⑤'
+sleep 0.4
+
+# $ws6 6:Stage⑥
+i3-msg 'workspace 6:Stage⑥'
+sleep 0.4
+
+# $ws7 7:Virtualized
+i3-msg 'workspace 7:Virtualized'
+sleep 0.4
+
+# $ws8 8:Sound
+i3-msg 'workspace 8:Sound'
+sleep 0.4
+
+# $ws9 9:Public Chat
+i3-msg 'workspace 9:Public Chat'
+sleep 0.4
+i3-msg 'layout tabbed'
+sleep 0.4
+
+# $ws0 10:Private Chat
+i3-msg 'workspace 10:Private Chat'
+sleep 0.4
+/home/h0p3/scripts/i3-tox-login.sh     # Ghetto AF: xdotool key --clearmodifiers f o o p a s s w o r d Return
+sleep 1
+i3-msg 'focus parent; focus parent; layout splitv; layout splitv'
+sleep 0.4
+i3-msg '[class="(?i)Signal$" instance="(?i)signal$" title="(?i)Signal$"] focus'
+sleep 0.4
+i3-msg 'move left; move left'
+sleep 0.4
+i3-msg '[class="(?i)qTox$" instance="(?i)qtox$" title="(?i)qTox$"] focus'
+sleep 0.4
+i3-msg '[class="(?i)Keybase$" instance="(?i)keybase$" title="(?i)Keybase$"] focus'
+sleep 0.4
+i3-msg 'move down'
+sleep 0.4
+i3-msg 'resize grow height 30'
+sleep 0.4
+
+# $wsgrave 0:/b/
+i3-msg 'workspace 0:/b/'
+sleep 0.4
+
+# Remove Urgency Marks - Install wmctrl!
+sleep 1; for win in $(wmctrl -l | awk -F' ' '{print $1}'); do wmctrl -i -r $win -b remove,demands_attention; done
+
+# VMs
+#VBoxManage startvm m10-VM-Ubuntu --type headless
+#VBoxManage startvm Whonix-Gateway --type headless
+#VBoxManage startvm Whonix-Workstation
+
+# Automounts
+sshfs -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3 j3d1h@192.168.1.100:/ -C /mnt/htpc
+sshfs -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3 h0p3@philosopher.life:/ -p 4222 -C /mnt/atl
+sshfs -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3 h0p3@ks.philosopher.life:/ -p 4222 -C /mnt/kimsufi
+sshfs -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3 pi@dimbob.philosopher.life:/ -p 4222 -C /mnt/dimbob
+#sshfs -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3 h0p3@192.168.1.97:/ -C /mnt/vmubuntu 
+```

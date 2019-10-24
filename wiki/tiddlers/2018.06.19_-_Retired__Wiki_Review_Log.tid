@@ -1,0 +1,92 @@
+created: 20171105191047987
+creator: h0p3
+modified: 20181115190624899
+modifier: h0p3
+revision: 0
+tags: Retired
+title: 2018.06.19 - Retired: Wiki Review Log
+type: text/vnd.tiddlywiki
+
+!! About:
+
+//Every language has an optimization operator: code commentary. Code never lies, however, while code comments sometimes do.<<ref "1">> Therefore, good code is its own best documentation. Do not fire and forget. Convert theory into practice by converting comments into effecting change in your code. Listen to yourself, continue the conversation train by talking back to yourself and relentlessly improving your code.//
+
+<<<
+Talking to yourself is okay. Answering back is risky.
+
+-- Brian Spellman
+<<<
+
+This log is infused with the fundamental practice of listening and talking to myself. I naturally do it, but sometimes I don't have the will power or desire. This log forces me to read what I've written, to respond to it, and to have a conversation with myself (however minimal it may be). This is accountability proof of my existential grind and listening to myself. It's part of the skeleton of my self-communication. For now, all new content must pass through this filter. 
+
+Here I am forced to empathize with, interpret, and process my thoughts, even if only minimally. Sometimes it results in edits and revisions. Other times it solidifies or drives home the point to myself. At the very least, this is a quiet diagnostic process I run on this wiki to self monitor. But, it has clearly served to enable my self-dialectic, to ask the initial questions, and to reframe and revise my thoughts. Sometimes I'm just taking my pulse, but othertimes I really do get through to myself here.
+
+This log has proven its usefulness time and time again. So many transformations and crucial conversations with myself are the result of the feedback loops generated in this log. The trains of thought and dialogue are sometimes quite faint, but I see them. This is a log filled with existential breadcrumbs and seeds. It is also a net to catch what I might otherwise miss. Spinning this plate has enabled to me to start spinning other more complex plates. Significant transformations in {[[Principles]]}, {[[Focus]]}, and other emergent structures of this wiki are the result of the hardwork I've put into this log. This mundane appearing log is actually a key tool for shaping myself.
+
+
+---
+!! Principles:
+
+* This is a daily log.
+** The Focus section contains each day for the past month, and then each month's logs are consolidated and audited at the beginning of the next month.
+* Copy the previous day's [[New]] entries off the sidebar, and format them with [[Python: Wiki Review Log Formatter]], shortcut-hotkeyed to: ctl+alt+w. Paste the results into the next day's log.
+* Read the contents of each entry.
+* Write at least one comment about each entry.
+* You should respond to yourself. Sometimes you will have a chain of dialogue flowing from day to day.
+* At the top of the page, you may write meta comments with a linebreak separation for the standard meat and potatoes commentary. Prioritize these.
+* Hold yourself accountable by asking yourself:
+** Am I following through? Does this work? Does it help me? How can I improve it? Is it overwhelming, or is it feasible? Am I asking the right questions? Do I have the correct expectations?
+* Don't forget to mark where applicable:
+** `-=[ Rabbitholed ]=-`
+
+
+---
+!! Focus:
+
+* [[2018.06.01 - Wiki Review Log: Minor Progress]]
+* [[2018.06.02 - Wiki Review Log: Shotgun]]
+* [[2018.06.03 - Wiki Review Log: Barndoor Tango Down!]]
+* [[2018.06.04 - Wiki Review Log: Normal]]
+* [[2018.06.05 - Wiki Review Log: People]]
+* [[2018.06.06 - Wiki Review Log: Socialism]]
+* [[2018.06.07 - Wiki Review Log: Game Theory]]
+* [[2018.06.08 - Wiki Review Log: Original Position]]
+* [[2018.06.09 - Wiki Review Log: Vote]]
+* [[2018.06.10 - Wiki Review Log: Exploratory]]
+* [[2018.06.11 - Wiki Review Log: Round]]
+* [[2018.06.12 - Wiki Review: Matrix]]
+* [[2018.06.13 - Wiki Review: Jest-Prep]]
+* [[2018.06.14 - Wiki Review: Brief]]
+* [[2018.06.15 - Wiki Review: Huh]]
+* [[2018.06.16 - Wiki Review: WHOOPS!]]
+* [[2018.06.17 - Wiki Review: Not Long]]
+* [[2018.06.18 - Wiki Review: Brief]]
+* [[2018.06.19 - Wiki Review: Odd]]
+
+
+---
+!! Vault:
+
+* Audits:
+** [[2017 - Wiki Review Log]]
+** [[2018.01 - Wiki Review Log]]
+** [[2018.02 - Wiki Review Log]]
+** [[2018.03 - Wiki Review Log]]
+** [[2018.04 - Wiki Review Log]]
+** [[2018.05 - Wiki Review Log]]
+
+* Retired:
+** [[2017.11.05 - Retired: Wiki Review Log]]
+
+
+---
+!! Dreams:
+
+* Find the right relationship between [[Wiki Audit Log]] and [[Wiki Review Log]]. It seems like I need to streamline this feedback loop.
+* I only handle [[New]] material, but not [[Recent]]. I sometimes want to respond to my edits and revisions, not just my new material.
+* Perhaps should create a more complex stack of work. Many logs don't require much more work or digestion, but some pages are avenues that should be taken. These are paths to walk down. How can I harness the information I have to build better existential tools?
+** Perhaps it is a problem of not knowing what I don't know.
+
+
+---
+<<footnotes "1" "I am aware this isn't exactly true in the case of the contents of this wiki. It's definitely a messy issue. However, I believe the spirit of the claim here is still very useful to me.">>

@@ -1,0 +1,89 @@
+created: 20190710011448772
+modified: 20190721064730624
+tags: TWGGF bimlas [[Tagging Theory]]
+title: 2019.07.09 - TWGGF: Bimlas
+type: 
+
+https://groups.google.com/forum/#!topic/tiddlywiki/xAe_fvhzoCY
+
+
+Thank you for the update!
+
+I have a question which is off topic, and please feel free to tell me to go figure it out. How can I make the locator sidebar button in the view toolbar automatically open the Locator sidebar tab? I might, for example, be in the Recent tab in the sidebar, and when I click that button, I'd like it to switch to the Locator tab in my sidebar. This is convenient for me, but I think it's crucial for a user of my wiki who doesn't know what your tool does; they won't know to look at that tab. 
+
+
+<<<
+h0p3,
+
+Unfortunately, as far as I know, this is not possible. To understand why, create a new tiddler with the following content:
+
+<<tree prefix:"$:/state/">>
+
+Switch between tabs and watch this tiddler: new state tiddlers are created, such as $:/state/tab/sidebar--595412856. If you open these tiddlers and switch between tabs again, you will understand that the wiki stores the current state in them (which tab is open). If you change the text of these tiddlers, the currently selected tab will be modified according to the text.
+
+The problem is that the number in the name of tiddler can be variable. Although 595412856 seems to be constant in every case, I think it is not a good idea to treat it as a fact, because it may change under certain circumstances. Since we cannot determine the state tiddler's name precisely, we cannot modify it, so we cannot open the corresponding sidebar tab with a button.
+
+P.S.: Recently I forgot to mention that this [[guide about tagging|https://praxis.fortelabs.co/a-complete-guide-to-tagging-for-personal-knowledge-management/]] can be helpful in your [[Remodeling]].
+<<<
+
+<<<
+Thanks, TonyM, it seems to work (while h0p3 do not changing the title of "Maps" tab), so I attaching the modified button: I've added two lines for it to open the right tabs:
+
+$:/plugins/bimlas/locator/viewtoolbar/open-in-sidebar
+<<<
+
+Thank you for this mod! Also, thank you for the tagging theory link. I speak a bit about that particular link here: [[2019.06.07 - Tagging Theory: At Last]]. I only see part of what your tool can do, but I must gush about it. Please ignore at will the autistic schizoid describing what it feels like to use it in the following word-salad wall-of-text.
+
+Locator allows me to traverse some of the gunkiness of my wiki with both a rich set of ad hoc paths and the means to sanely narrow or grow the search space. You've given me an interactive nested-doorway device for incrementally unrolling known and unknown structures in my wiki. Delightfully, I don't have to know all that much up front to find what I'm looking for in many cases. Meaningful hierarchies arise from limited input and manual planning on my part via a gradual revelation. To various degrees, I don't have to know the boundaries of where I'm going or what I'm looking for; you allow me to bootstrap one off the other. [[Salience]] has a higher chance of emerging from smaller bits of information while wearing your plateau-hopping mapper goggles.
+
+In a way, your tool is very fast; it's an exploration hack. I could technically explore all of this without your tool, but you lower the friction for me to rapidly explore different perspectives, angles, or scopes in a rhizome. I wouldn't have the energy to connect all those dots by hand; hence this is a powertool. While I may be dead wrong, I suspect those who are more diligent in their hard-coded tag-based organization practices will not find as much value from your tool as those who have a more freeform and carelessly sprawling approach to structuring their wikis via tags (like mine) because it picks low-hanging fruit. You turn some apparent heaps into stacks. Your tool is a GUI abstraction for rapidly stepping back and forth through doorways in my wiki by automating the construction of complex filter expressions in stages with minimal effort; even someone who doesn't know anything about TW can learn to use your tool.
+
+I visualize my wiki in directory-like hierarchies built into the bodies and names of my tiddlers. I am wired to visualize in hierarchies, not tags. You make what is hard to remember about the fluid messiness and dimensionality of tags easier to visualize; I feel like a flatlander who has another tool for testing the nature of the 3D hyperobjects he can't quite perceive. Maybe tags are a higher-ordered glue for me, and your tool a lubricant which lowers the cognitive load. I think your tool empowers lazier tagging for that fluid arbitrary relationship construction (since tags also serve as functional properties in other cases). I've not built a single tag-based TOC in my wiki, and now I can traverse my wiki as if I had written all of the intuitive tag-based TOCs I wished I had. I am curious to know if this search-force multiplying tool gives rise to tagging strategies only feasible in virtue of it.
+
+I have two tangent ideas for hopefully everyone to think about long-term.
+
+First, I'm convinced your tool is a working, scalable, and performant example of a broader class of relationship-representation tools for more visually reasoning about knowledge so well-suited to wikis. I simply can't use real-time mindmapping visualization tools on my wiki as I'd like to because they are too slow (for now). I hope to see more graphical tooling like yours which abstracts over meaningful types of filter/query construction. If you play Magic, https://scryfall.com/advanced is a fantastic example of what it means to give a user meaningful navigational control without forcing them to write dozens of SQL queries. I'm convinced a [[graphical way to construct First-Order Logic expressions|Search of h0p3]] (and hence arbitrarily complex filter expressions) will always be a promising direction.
+
+Second, I use TW as an ergodic hypertext writing tool. Links are green-threaded tags for me. To put it into perspective, I have hundreds of tags, but I have tens of thousands of links internally pointing in my wiki (and also outside to the web and other networks). Some people think the meanings of words are defined in terms of how we use them, and there is something to that. Similarly, the meaning of my tiddlers are often in virtue of how they are linked to and from each other in my wiki; tags only express a portion of the structure I'm trying to construct. Rapid navigation of child backlinks in $:/core/ui/TiddlerInfo/References and ancestor links stripped out of bodies (perhaps fields as well) might be somewhat parallel to what is achieved in your tooling.
+
+Perhaps I've said nothing new or valuable to you, but I've said it just in case. Your tool is [[Leet]], sir. Thank you for your work, and you've given me a lot to think about.
+
+---
+
+<<<
+h0p3,
+
+I'm sorry for the delayed response, but I'm trying to spend my little free time on implementing new ideas.
+
+Thank you very much for your kind words. Although I do not understand exactly what you wrote, because my English knowledge and Google Translate are not enough for accurate translation, but it seems like you like what I have done. :)
+
+>    meaningful navigational control without forcing them to write dozens of SQL queries
+
+If you are thinking of implementing Search of h0p3 then there is an attempt, but I think a graphical solution would not replace, but complicate the flexibility of text filters. In my opinion, an auto-completion for Advanced Search would be some kind of solution.
+
+>     Rapid navigation of child backlinks in $:/core/ui/TiddlerInfo/References and ancestor links stripped out of bodies (perhaps fields as well) might be somewhat parallel to what is achieved in your tooling.
+
+ Sorry, but I don't understand: could you write an example of what you would like to see?
+<<<
+
+<<<
+h0p3,
+
+About the "searching GUI": this is what I mean under "auto-completion":
+
+https://bimlas.gitlab.io/demo/tw5/advanced-search-filter-with-completion.html
+
+Click in and out to the entry until popup is not shown. It's currently doing nothing but lists the names of filters that match the text you type. To be truly functional, I need to implement additional filters.
+
+The principle would be to wait for the name of a filter after every "[" and "]" character (for example at the "*" characters in "[*all[*shadows]*tag[*foo]*]") and show the completions based on the name of the semi-typed filter to the name of the entire filter, as the code-completion works in an IDE.
+
+https://raw.githubusercontent.com/tboox/xmake-vscode/master/res/completion.gif
+<<<
+
+Ah, take all the time you need. We have busy lives. Also, to be fair, it's probably better for you to ignore me and work on those awesome things in your freetime. I adore what you've done.
+
+Autocompletions are useful if you know roughly what code you want to write in the first place. Tiddlywiki could make even stronger use of them, no doubt. It's much faster to build syntactically correct expressions with it, and it can lower the friction to build, in this case, filter expressions quite rapidly. I do not deny this, and, of course, I'm in favor of such development. My point is that it only helps someone who already knows what they are doing because it is not an abstraction. 
+
+I do not know why a graphical solution to constructing filter expressions would necessarily complicate the flexibility. I am surprised to see this claim from you since your tool appears to be an exception. I am likely wrong though. It is obvious you see very far.
+
+Further, I'm not sure how to conceive of the backlinks idea well enough. I think it could have its own TOC or Tiddlymap which is dynamically constructed. Picking links on a wiki and computing/seeing how they are related to each other via other chains of links seems doable, but I don't know how to visually present it in a satisfactory way. 

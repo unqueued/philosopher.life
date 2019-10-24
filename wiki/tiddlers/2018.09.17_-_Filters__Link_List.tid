@@ -1,0 +1,9 @@
+created: 20180917195130374
+creator: h0p3
+modified: 20180917195737237
+modifier: h0p3
+title: 2018.09.17 - Filters: Link List
+
+I figured out something I really want. I don't want [[Filterlists]] clogging up the wiki in new tiddlers. What I want is to make links which I hover over (plugin) and the list is generated on the spot. Conversely, I could click on it and a completely new object is made instead. Probably have to go for a button instead. There are places where I don't want to hardcode. There's a particular things I want to point at that I want to automatically grow. I'll just have to formulate the search query very well.
+
+That's what filterlists need to do for me. The fact is that building particular queries in a resuable way on this wiki is something I need to actually engage in to point to a changing object that I don't think I need to handcraft consistently. I do need to automate this! This, in fact, may be the reason I must use tags.

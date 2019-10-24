@@ -1,0 +1,14 @@
+created: 20180228002248778
+modified: 20180228002652068
+title: Outopos: Agnosticism
+
+Outopos needs to be as hardware, platform, OS, and language agnostic as possible. The goal is to build a tool which can go everywhere. The [[Atropos]] protocol needs to available in:
+
+* C
+* Rust
+* Python
+* Javascript
+* Go
+
+I consider these to be the dominant languages for Outopos.
+

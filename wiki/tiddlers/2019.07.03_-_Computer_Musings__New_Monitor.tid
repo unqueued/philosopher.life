@@ -1,0 +1,30 @@
+created: 20190704031804865
+modified: 20190704055514819
+tags: [[Computer Musings]]
+title: 2019.07.03 - Computer Musings: New Monitor
+
+Power outage. Screen was all messed up. I had two ports from the GPU connected to the same TV to test, and I never reboot with it. Updated to be safe, then I realized it had to be the DE.
+
+---
+
+My wife has refused to allow us to install a second monitor for her at work. I am completely convinced she would benefit from it, but she doesn't think she can make space to even try it. Fine. I'll take it. =)
+
+Had a hiccup on boot, but it works. HDMI-to-HDMI on the TV now, with DVI-to-DVI on the 22" monitor which now sits to my right.
+
+`xrandr --output DVI-I-1 --auto --right-of HDMI-0`
+
+I'm running into trouble, some flickering on HDMI port 2 on the TV. Never used it before. Sound is clearer off the first port too, and I don't understand why. I suppose this is a test for now.
+
+It ain't bad for $13. It would have cost 10x that if I went new.
+
+---
+
+Switched color to my function green for outlining active windows in i3 as well. I want it to shine unmistakably.
+
+---
+
+[[.i3/config]] keeps disappearing in the wiki, and I think it is a continued Bob problem.
+
+---
+
+My wife and I both received spam phone calls near midnight. If I gave enough of a shit about my phone or the problem, I'd eliminate who could contact me through it. 

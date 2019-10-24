@@ -1,0 +1,11 @@
+created: 20180303210015137
+modified: 20180304235121117
+title: Outopos: Topologies
+
+I envision a new internet in which each user controls their own cloud of devices. This makes them less reliant upon others, provides significant technical resilience, and decentralized power in general. However, my cloud needs to talk to your cloud, and we need to wisely interact and make use of each other (but not as mere means, of couse).
+
+For many services, I'm interested in latency more than anything else. I don't care about their opinions, who they are, what they believe, etc. We can exchange digital goods/services with each other and not have to maintain a relationship beyond this simple tit-for-tat game. These people don't filter the world for me in any non-automated way. They aren't part of curating my filter bubble. They simply allow distributed network-based computation would run quickly for me. 
+
+Onion routing is a fine example of something that has low-hanging fruit in latency-based topologies. I don't need a sledgerhammer, just a stop-gap tool of plausible deniability.
+
+However, once we move into the arena of content and generating filter-bubbles, I think the Hubski model is extremely important. Much thought must be given to that. Importantly, with all users having their own cloud. This, of course, cannot be latency based. It's a completely different topology.

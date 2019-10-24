@@ -1,0 +1,14 @@
+created: 20180122041221597
+modified: 20180122041225821
+revision: 0
+title: convert_temps.rs
+type: text/vnd.tiddlywiki
+
+```cpp
+fn main() {
+    let fahrenheit: f64 = 100.0;
+    let celsius: f64 = (fahrenheit - 32.0) * 5.0 / 9.0;
+
+    println!("{} degree fahrenheit is equal to {} degree celsius", fahrenheit, celsius);
+}
+```

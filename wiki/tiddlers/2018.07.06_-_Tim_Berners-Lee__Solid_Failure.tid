@@ -1,0 +1,22 @@
+created: 20180706033339424
+creator: h0p3
+modified: 20190705042640606
+modifier: h0p3
+tags: [[Random Letter]] Letter To
+title: 2018.07.06 - Tim Berners-Lee: Solid Failure
+
+//timbl@w3.org. It's so fucking weird to send a message to one of the architects of [[The Matrix]] experience machine I call the web (and to a non-trivial extent, the internet as well). He's like an idol or a legend. I thought I might as well say something, eh? Probably won't get any traction at all. I assume he'll think it's spam. That's okay. Do what you can, homie.//
+
+Dear TimBL,
+
+The web will increasingly centralize insofar as the internet's hardware infrastructure is centralized. Vendor lock-in will not be solved by Solid because those in power have no incentives to let go of their monopolies and oligopolies. If the workers are to own the means of production (decentralizing power), they need to own the hardware and execute the software which runs the internet itself. I fear you are not advocating a sufficiently extreme measure to solve this problem. I'm convinced a hardware mesh network run by the people for the people is the only democratized internet (and web) possible.
+
+Decentralization will always be flawed through Zooko's triangle. The failures and success of torrent communities, clients, and protocols are some of the best lessons to be had in decentralizing power on the internet. When you look to see what makes a torrent tracker successful, it's inevitably because they've found good ways to incentivize Eye-for-an-Eye (Tit for Tat) cooperation patterns or better. They tend to be too centralized though (even if only by entrances to the DHT and magnet indexers for public trackers). There's a way to unbottleneck it though.
+
+Internet peering, a form of resource trading, is something that must be negotiated by ISPs into cutthroat Capitalist/Political zero-sum games. That process has to be decentralized and expanded into something which isn't reducible to near perfect competition. Nodes on a physical mesh should automatically negotiate and build trust through trading computational resources with each other using the game-theoretic implementation of The Golden Rule: the Tit for Two Tats strategy (a tuneable "Turn the Other Cheek" strategy). Cooperatively defeating iterated prisoner's dilemmas at the network protocol may be the only way to defuse the Sybil attack and enforce that everyone is paying their fair share towards the network.
+
+Only with a decentralized hardware infrastructure we will be in a position to enable and incentivize effective decentralized and federated software. Without that foundation, centralization will continue to grow.
+
+Sincerely,
+
+h0p3

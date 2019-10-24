@@ -1,0 +1,1038 @@
+created: 20180705005310499
+creator: h0p3
+modified: 20181031035931170
+modifier: h0p3
+tags: Tulane
+title: 2015.01.06 - Symbolic Logic: Intro to Quantification
+
+22
+
+
+Quantificational logic – Quantifiers
+
+
+
+We are now passing from sentential, truth-functional, propositional logic to what is known as predicate, quantified logic.
+
+
+
+¬, ∨, ∧, →, ↔ are our logical connectives. (Truth functional connectives)
+
+
+
+We’ll now be considering some connectives which are not truth-functional.
+
+
+
+Sentences in English are generally a combination of a Noun phrase + verb phrase
+
+    “Ted is dead.”
+
+“Ted” is the noun phrase, and “is dead” is the verb phrase.
+
+    “Every person Ted knows is alive.”
+
+“Every person Ted knows” is the noun phrase, and “is alive” is the verb phrase
+
+Sentence (1) can be handled in truth-functional, propositional logic.
+
+
+
+Dead(ted)
+
+
+
+Sentence (2), however, can’t be handled by truth functional logic. The noun phrase is the problem. Specifically, “Every person” can’t be captured within truth functional logic. “Every” is a determiner. “Person” is a common noun. “Every person” is a quantifier expression.
+
+
+
+Example Determiners:
+
+
+
+All, some, every, each, most, at least then
+
+
+
+Determiner + common noun = quantifier expression
+
+
+
+Ex: ‘Some dogs’, ‘Each child’, ‘All cats’, ‘Most cellists’, ‘At least ten students’
+
+
+
+Sentences which contain quantifier expressions are quantified sentences. Quantified sentences allow us to talk about quantities of things. The quantities of a particular circumstance help to determine the truth value of a quantified expression.
+
+
+
+Non-Truth Functionality - Once you introduce quantifiers, you leave truth functional connectives behind in a sense. They still exist in their own realm, but quantifiers are non-truth functional.
+
+
+
+| Every rich actor is a good actor.
+
+| Brad Pitt is a rich actor.
+
+| Brad Pitt is a good actor.
+
+
+
+| Many rich actors are good actors.
+
+| Brad Pitt is a rich actor.
+
+| Brad Pitt is a good actor.
+
+
+
+This is ancient (Aristotelian-style) syllogistic logic, which informally is easier to understand than the sentential, truth-functional logic we’ve been working on. However, when it comes to formalizing these kinds of arguments, it will be more difficult than formal sentential logic.
+
+
+
+The first is valid, and the second invalid. We know this by naturally thinking about them. Unfortunately, we can’t prove the first with truth-functional logical connectives we have.
+
+
+
+The problem is that we can’t determine the truth of quantified sentences by looking at the truth values of its constituent sentences. These are simple sentences that can’t be broken down any further. That is why quantifiers aren’t truth functional, and their quantified sentences can’t be fully analyzed in truth-functional connectives. In the case of these sentences, the truth values are determined by the relationship between the collection of rich actors and the collection of good actors: by whether all, none, or some of the former (rich actors) are members of the latter (good actors).
+
+
+
+We will use 2 quantifiers:
+
+
+
+Universal Quantifier - ∀ - Every, each, for all, all, everything
+
+Existential Quantifier - ∃ - Some, there exists, exists, at least one, something
+
+
+
+There are alternative notations for these quantifiers, and alternative syntax for quantifying, but I will not cover them. See Section 9.8 for that.
+
+
+
+At this point, I think we need to categorize our symbols. Our language, Fitch, is broken into logical and non-logical symbols.
+
+
+
+Logical Symbols:
+
+
+
+=, ¬, v, ∧, →, ↔, ∀, ∃; (Individual variables) t, u, v, w, x, y, z, t1, u1, etc. (with or without subscripts)
+
+
+
+Non-logical Symbols:
+
+
+
+Predicate symbols, function symbols, individual constants
+
+
+
+Lastly, I want to add that we’ve also been using a category of symbols which aren’t a part of the language at all.
+
+
+
+P v ~P => <=>
+
+
+
+The P’s here aren’t part of Fitch. Replacing sentences with capitalized letters is a shortcut we’ve been using. It allows us to ignore the meanings of sentences, to focus on the logical symbols, etc. Further, the double-bar arrows have been representing the logical notions of consequence and equivalence. These aren’t a part of our language either. This is, essentially, a metalanguage – a language about the Fitch language.
+
+
+
+Variables - like individual constants, use lower case letters. a-f for constants, t-z for variables. They aren’t the same though. Syntactically, variables work just like constants. Anywhere one can appear, so can the other.
+
+
+
+Large(a), Smaller(b, c), father(george)
+
+
+
+Wherever individual constants are grammatically acceptable, so are variables:
+
+
+
+Large(x), Smaller(x, y), father(y)
+
+
+
+They have the same behavior and set of rules for writing them down. They are syntactically identical. Semantically, however, they are very different. The semantic role of an individual constant: it picks out an individual thing. Variables, however, don’t pick out anything in particular.
+
+
+
+Here are some differences which fall out of that fact:
+
+
+
+Large(x) vs. Large(a)
+
+
+
+Large(x) is not a sentence, but Large(a) is. Recall that only sentences have truth values. Hence, Large(a) has a truth value, but Large(x) doesn’t because x doesn’t pick anything out.
+
+
+
+The same issue applies to function symbols:
+
+
+
+father(george) vs. father(x)
+
+
+
+father(george) picks someone out (it is a referring expression), father(x) doesn’t pick anyone out. We don’t know who x is.
+
+
+
+However, these are all well-formed formulas, a.k.a. wffs.
+
+
+
+Wff - Up until now, we had defined term as something which “picks out.” This is no longer true now that we have variables. We need to think of terms syntactically now. Terms are used with predicates and quantifiers to create well-formed formulas (wffs). Variables are simple terms (like individual constants). Complex terms, of course, are the results of function symbols applied to terms.
+
+
+
+Atomic wff: an n-ary predicate symbol followed by n terms enclosed in parentheses and separated by commas (if necessary).
+
+
+
+Wffs are very much like sentences; syntactically, they look like sentences, except a wff can have a free variable (in which case it doesn’t actually say anything – we’ll get to what why this is the case later; we need our terminology first).
+
+
+
+All atomic sentences are atomic wffs, but not the other way around. Atomic sentences are atomic wffs with no free variables. Let us call those wffs with free variables “mere wffs”. We will later define what it means to have a free variable, for now, our examples are mere wffs.
+
+
+
+Home(joe) Between(joe, bob, george) 5 = sum(7, 3)
+
+Home(x) Between(x, y, george) 5 = sum(u, 3)
+
+
+
+The top row has atomic sentences, which means they are atomic wffs. The bottom row aren’t sentences, but they are atomic wffs.
+
+
+
+Importantly, you can take any atomic wff and operate on them with truth functional connectives, and the result will be a complex wff.
+
+
+
+Home(x)
+
+¬Home(x)
+
+Home(x) ∨ ¬Home(x)
+
+
+
+The first is an atomic wff, the second and third are complex wffs. They are all mere wffs, since they have free variables.
+
+
+
+Syntax for quantifiers - Rules for constructing complex wffs from atomic wffs:
+
+    If P is a wff, so is ¬P
+
+    If P1, … , Pn are wffs, so is (P1 ∧ … ∧ Pn)
+
+    If P1, … , Pn are wffs, so is (P1 ∨ … ∨ Pn)
+
+    If P and Q are wffs, so is (P → Q)
+
+    If P and Q are wffs, so is (P ↔ Q)
+
+    If P is a wff and ν (nu) is a variable, then ∀νP is a wff, and any occurrence of ν in P (of ∀νP) is said to be bound.
+
+    If P is a wff, and ν is a variables, then ∃νP is a wff, and any occurrence of ν in P (of ∃νP) is said to be bound
+
+Up until now, we had been using P’s and Q’s (and various other letters) as replacements for atomic and complex sentences in sentential logic. Now that we have crossed into predicate logic, that convention will no longer always be the case. P and Q, can represent non-sentences in the above rules. P and Q could be mere wffs. Pay careful attention to this change in convention, and be sure you know what P and Q could be in a given context. Sometimes we will use these letters to represent sentences, othertimes mere wffs, other times predicates, and so on.
+
+
+
+Both of these are atomic mere wffs:
+
+
+
+Cube(x) Dodec(y)
+
+
+
+Our syntax rules enable us to construct complex mere wffs from these atomic ones:
+
+
+
+Cube(x) ∧ Dodec(y)
+
+P Q
+
+
+
+By rule 2, we can see that this is also a wff (a complex one). Further, given our rules, we can take complex wffs and build even more complex ones:
+
+
+
+(Cube(x) ∧ Dodec(y)) → Tet(z)
+
+P Q
+
+
+
+Further, if this is a wff:
+
+
+
+SameSize(x, x)
+
+
+
+Then, by rule 7, so is:
+
+
+
+∃xSamesize(x,x)
+
+
+
+Importantly, we will never write a quantifier without a variable.
+
+
+
+∀xHome(x) (well-formed)
+
+∀Home(x) (not well-formed)
+
+
+
+There must be a variable associated with each quantifier, although it doesn’t have to be the any of the variables found in the sentence over which the quantifier quantifies. This is possible:
+
+
+
+∀xHome(y)
+
+
+
+Note that there is a variable attached to quantifier, x. Note, however, that the variable used in Home is not x, but rather y. y is a free variable, which means it is not bound. Bound and free are opposites.
+
+Variables are bound when the variables in predicates are also attached to a quantifier, like this:
+
+
+
+∀xHome(x)
+
+
+
+The first x, which belongs to the quantifiers, binds the second. This is translated/read as: “For all x, x is home.” Because all the variables in the predicate are bound, and hence there are no free variables in this wff, then this isn’t a mere wff, it is a sentence (it has a truth value).
+
+
+
+Sentence: a wff with no free variables (if there are variables, they must be bound). A sentence is a wff which isn’t a mere wff. Mere wffs cannot be evaluated, but sentences can.
+
+
+
+∃yP(x)
+
+
+
+This is a wff, but x is not bound, it is free. This is a mere wff, and clearly, not a sentence. If there any y’s, they would be bound.
+
+
+
+∃y∀xP(x,y)
+
+
+
+This is a sentence. The “occurrence” (that which is in parentheses) of both x and y are bound.
+
+
+
+Scope: Parentheses indicate the scope of a quantifier, much in the same way as a negation.
+
+
+
+¬P ∨ Q ¬(P ∨ Q)
+
+∃xDoctor(x) ∧ Smart(x) ∃x(Doctor(x) ∧ Smart(x))
+
+
+
+We must pay very careful attention to scope. Note that the first quantifier example is not a sentence, since Smart(x) is not in the scope of the quantifier, and thus the x in Smart(x) is not bound. The second quantifier example is a sentence.
+
+
+
+Homework: 9.1-9.3
+
+
+
+
+
+Satisfaction for quantifiers – Mere wffs don’t have truth-values—they are not true or false. Consequently, a quantified sentence that is built from mere wffs, such as ∃xCube(x), cannot have its truth-value defined in terms of the truth-value of its component mere wff, Cube(x), since that mere wff does not have a truth-value.
+
+
+
+As an analogy, think of P ∧ Q, and let’s say Q didn’t have a truth value – it could be neither true nor false. We couldn’t then know the truth value of P ∧ Q in virtue of knowing the truth values of the components.
+
+
+
+Mere wffs, although not true or false simpliciter, nevertheless can be said to be true or false of things.
+
+
+
+Cube(x)
+
+
+
+This mere wff isn’t true or false simpliciter, however, it is true of each cube, and false of every other thing. Similarly:
+
+
+
+Tet(x) ∧ Small(x)
+
+
+
+This mere wff isn’t true or false, however it is true of each small tetrahedron, and false of every other thing.
+
+
+
+This relationship of a mere wff being true of things is called satisfaction. Instead of saying these mere true wffs are “true of,” we say that each cube satisfies Cube(x) and each small tetrahedron satisfies (Tet(x) ∧Small(x)).
+
+
+
+Satisfaction is a relation between an object and a mere wff. Specifically, satisfaction is a relation between an ordered n-tuple of objects and a mere wff with n free variables.
+
+
+
+Consider a mere wff with two free variables:
+
+
+
+Larger(x, y)
+
+
+
+Which objects stand in the satisfaction-relation to this wff? No object taken by itself does so. For example:
+
+
+
+Larger(a, a)
+
+
+
+Let us say x and y were substituted with a. This sentence, which is no longer a mere wff, is not true. a, as a single object, cannot satisfy the mere wff, Larger(x, y). No single object can. Rather, only pairs of objects that could satisfy this mere wff.
+
+
+
+Consider a world in which:
+
+
+
+a is a small cube
+
+b is a large tetrahedron
+
+
+
+This pair of object could satisfy the mere wff, depending on how we make the substitutions.
+
+
+
+<b, a>
+
+
+
+The pair of objects b and a, taken in that order—<b, a> is how we write this—satisfies the wff Larger(x, y). x is substituted by b, and y is substituted by a. Hence, the substitution looks like this:
+
+
+
+Larger(b, a)
+
+
+
+This sentence is true in our domain. Note that this substitution does not satisfy the mere wff:
+
+
+
+<a, b>
+
+Larger(a, b)
+
+
+
+We can state what it is for an object to satisfy a wff in terms of the truth of a particular sentence. Take this mere wff:
+
+
+
+S(x)
+
+
+
+If S(x) is a mere wff containing one free variable, then a given object satisfies S(x) iff we get a true sentence when we replace every free occurrence of x in S(x) with the name of that object. For example:
+
+
+
+Cube(x) ∧ Adjoins(x, a)
+
+
+
+An object b satisfies this mere wff iff the following sentence is true:
+
+
+
+Cube(b) ∧ Adjoins(b, a)
+
+
+
+Not every object has a name. In many of the worlds in Tarski’s World, lots of objects are nameless. How do we explain what it is for a nameless object to satisfy a wff? We assign the object a temporary name and proceed as we did above for named objects. Tarski’s World reserves a number of individual constants for just this purpose:
+
+
+
+n1, n2, n3, … nn
+
+
+
+If we want to know whether a given nameless object satisfies a wff, we temporarily give it a name, choosing as its name the first of these constants not already in use.
+
+
+
+Satisfaction: An object o, whether named or nameless, satisfies a wff P(x), where x is free, iff o has the property expressed by P.
+
+
+
+o satisfies Cube(x) iff o is a cube.
+
+o satisfies Home(x) ∧ Hungry(x) iff o is at home and hungry
+
+
+
+Suppose o has no name. Then o satisfies P(x) iff P(n) is true, where n is a new name temporarily introduced into the language to name o. If n names o, think of o satisfying P(x) in terms of P(n) being true.
+
+
+
+
+
+Domain of discourse: when we use quantifier expressions we have tacitly in mind some collection of objects in mind over which we are quantifying. A domain is a non-empty (must contain one thing) collection of objects. The domain of discourse is the entire collection of things that we take our FOL sentences to be “about”—the things we allow our quantifiers to “range over” or pick out. Sometimes, the domain is unrestricted, in which case we are talking about everything, and our quantifiers range over all objects. More often, the domain is restricted in some way (restricted to a smaller collection of objects—people, numbers, politicians, elementary particles, etc.). The choice of domains affects how we read the quantifiers and quantified sentences. But in any case, the domain must be non-empty. For example:
+
+
+
+“Every student took the test”
+
+
+
+It is understood we aren’t talking about all students around the world, rather only all the student registered for the class. The things we intuitively mean to be talking about comprise the domain.
+
+Every quantifier must be relative to a domain.
+
+
+
+
+
+Semantics for quantifiers:
+
+
+
+Semantics for ∃:	∃xS(x) is true iff there is at least one object which satisfies S(x).
+
+
+
+∃x(Red(x) ∧ Truck(x))
+
+
+
+This is true iff some object satisfies the constitutive mere wff (Red(x) ∧ Truck(x)). Cases where it would be true: Some trucks are red. A truck is red. I have a red truck. At least one truck is red.
+
+
+
+∃x(Cube(x) ∨ Small(x))
+
+
+
+This is true iff there is at least one object satisfying the consistutive mere wff (Cube(x) ∨ Small(x)), i.e., there is at least one object which is either small or a cube.
+
+
+
+Semantics for ∀:	∀xS(x) is true iff every object satisfies S(x)
+
+
+
+∀x Cube(x)
+
+
+
+This is true iff every object satisfies Cube(x), i.e. every object is a cube. If something isn’t a cube in our domain, then this sentence is false.
+
+
+
+∀x(Cube(x) → Small(x))
+
+
+
+This is true iff every object satisfies (Cube(x) →Small(x)), i.e., every object satisfying Cube(x) also satisfies Small(x), i.e., iff every cube is small. Cases where it would be true: All cubes are small. Every cube is small. For anything you take to be a cube, it is small.
+
+
+
+
+
+Homework: 9.5-9.6
+
+
+
+Translations
+
+The Aristotelian Forms:
+
+Famous translations of English to FOL. English phrases:
+
+    “All P’s are Q’s” ∀x(P(x) → Q(x)) Universal Affirmative
+
+    “Some P’s are Q’s” ∃x(P(x) ∧ Q(x)) Particular Affirmative
+
+    “No P’s are Q’s” ∀x(P(x) → ¬Q(x)) ⇔ ¬∃x(P(x) ∧ Q(x)) Universal Negative
+
+    “Some P’s are not Q’s” ∃x(P(x) ∧ ¬Q(x)) Particular Negative
+
+If you understand the affirmatives, then you can easily get the negatives. We’re just tacking on a negation on the Q, but otherwise the negatives have the same form, overall, as their corresponding affirmatives.
+
+
+
+“Every even number is prime.” ∀x(Even(x) → Prime(x))
+
+“Some prime is even.” ∃x(Prime(x) ∧ Even(x))
+
+“No even number is prime.” ∀x(Even(x) → ¬Prime(x))
+
+“There is a prime which is not even.” ∃x(Prime(x) ∧ ¬Even(x))
+
+
+
+Noun phrases naturally translated using the existential quantifier typically start with a determiner such as “a,” “an,” or “some.”
+
+
+
+“A man on the bus fainted”
+
+“Some man on the bus fainted.”
+
+Some P’s are Q’s
+
+∃x(P(x) ∧ Q(x))
+
+∃x(Man(x) ∧ Bus(x) ∧ Fainted(x))
+
+P(x) Q(x)
+
+
+
+“Max owns a small, happy dog.”
+
+“Some small, happy dog is owned by Max.”
+
+Some P’s are Q’s
+
+∃z(P(z) ∧ Q(z))
+
+∃z(Small(z) ∧ Happy(z) ∧ Dog(z) ∧ Owns(max, z))
+
+P(z) Q(z)
+
+
+
+“A lawyer didn’t eat.”
+
+Some P’s are not Q’s
+
+∃y(P(y) ∧ ¬Q(y))
+
+∃y(Lawyer(y) ∧ ¬Ate(y))
+
+P(y) Q(y)
+
+
+
+We won’t always need to use the Aristotelian form:
+
+
+
+“Nothing is in front of b.”
+
+“No things are in front of b.”
+
+No P’s are Q’s
+
+¬∃x(FrontOf(x, b)) ⇔ ∀x(¬FrontOf(x, b))
+
+
+
+Noun phrases naturally translated using the universal quantifier typically starts with a determiner such as “all,” “every,” or “each.”
+
+
+
+“Every man on the bus fainted.”
+
+All P’s are Q’s
+
+∀x(P(x) → Q(x))
+
+∀x((Man(x) ∧ Bus(x)) → Fainted(x))
+
+P(x) Q(x)
+
+
+
+“Claire knows every member of congress.”
+
+All P’s are Q’s
+
+∀z(P(z) → Q(z))
+
+∀z(Congress(z) → Knows(claire, z))
+
+P(z) P(z)
+
+
+
+“There are no medium-sized cubes”
+
+No P’s are Q’s
+
+∀x(P(x) → ¬Q(x)) ⇔ ¬∃x(P(x) ∧ Q(x))
+
+∀x(Cube(x) → ¬Medium(x)) ⇔ ¬∃x(Cube(x) ∧ ¬Medium(x))
+
+P(x) Q(x) P(x) Q(x)
+
+
+
+“Every cube is in front of or in back of e”
+
+∀x(Cube(x) → (FrontOf(x, e) ∨ BackOf(x, e)))
+
+P(x) Q(x)
+
+
+
+“No cube is between a and c.”
+
+∀x(Cube(x) → ¬Between(x, a, c))
+
+P(x) Q(x)
+
+
+
+Some sentences just don’t nicely fit the Aristotelian form:
+
+
+
+“Everything is in the same column as a, b, or c.”
+
+∀x(SameCol(x, a) ∨ SameCol(x, b) ∨ SameCol(x, c))
+
+
+
+Unintuitive strength of Conditionals and Conjunctions:
+
+You’ve probably noticed that we are using conditionals for the universal quantifier, and using conjunctions for the existential quantifier, at least so far. This may seem wrong to some your intuitions. Consider what would happen if we didn’t do it this way for the Aristotelian forms:
+
+
+
+∀x(P(x) → Q(x)) Everything which is P is Q.
+
+∀x(P(x) ∧ Q(x)) Everything is both P and Q.
+
+
+
+The second sentence is very strong. All objects must satisfy the mere wff (P(x) ∧ Q(x)) in order for ∀x(P(x) ∧ Q(x)) to be true.
+
+
+
+∃x(P(x) ∧ Q(x)) Something is both P and Q.
+
+∃x(P(x) → Q(x)) Something is such that if it is P, then it is Q.
+
+
+
+The second sentence is very weak. Some object must simply satisfy (P(x) → Q(x)) in order for ∃x(P(x) → Q(x)) to be true. Recall that the conditional is only false when the antecedent is true and the consequent false. If the antecedent is false of an object, then the conditional is true of the object.
+
+
+
+An easy way to see what’s wrong with this translation into FOL is to remember that P → Q is equivalent to ¬P ∨ Q.
+
+
+
+∃x (P(x) → Q(x)) ⇔ ∃x (¬P(x) ∨ Q(x)).
+
+
+
+Now compare these 3 sentences:
+
+
+
+Some cubes are large. ∃x(Cube(x) ∧ Large(x)) Something is not a cube or it is large. ∃x(¬Cube(x) ∨ Large(x)) Something is such that if it is a cube, then it is large. ∃x(Cube(x) → Large(x))
+
+Two ways of writing “No P’s are Q’s”:
+
+Universal generalization:
+
+
+
+English: “for any object, if it’s P, then it’s not Q.”
+
+FOL: ∀x (P(x) → ¬Q(x))
+
+
+
+Negation:
+
+
+
+English: “it is false that even one P is a Q.”
+
+FOL: ¬∃x(P(x) ∧ Q(x)).
+
+
+
+These are both correct and perfectly acceptable ways of translating the “No P’s are Q’s” sentences into FOL.
+
+
+
+All vs. Only - Notice that just as all can be a quantifier in English (as in the phrase all freshmen), so too can only be used as a quantifier (as in only freshmen). Compare the following two sentences:
+
+    All freshmen are eligible for the prize.
+
+    Only freshmen are eligible for the prize.
+
+(1) tells us that being a freshman is a sufficient condition for eligibility—if you’re a freshman, then you’re eligible. But (2) tells us that being a freshman is a necessary condition for eligibility—you’re eligible only if you’re a freshman. Hence, our two sentences go into FOL as follows:
+
+    ∀x (Freshman(x) → Eligible(x))
+
+    ∀x (Eligible(x) → Freshman(x))
+
+Homework: 9.8-9.9, 9.12-9.14 (Don’t forget 09.1, Aristotelian Translations hand-out)
+
+
+
+
+
+Vacuously True Sentences:
+
+
+
+All P’s are Q’s ∀x(P(x) → Q(x))
+
+
+
+This is true if there are no P’s. Every object in the domain satisfies that wff, namely P(x) → Q(x). For any object in the domain, if a names that object, then the sentence P(a) → Q(a) is true.
+
+P(x) → Q(x) ⇔ ¬P(x) ∨ Q(x)
+
+⇔ ¬P(a) is true or Q(a) is true
+
+⇔ P(a) is false or Q(a) is true
+
+If there are no P’s, the claim that all P’s have some further property is true. ∀x(P(x) → Q(x)) is false iff there is at least one object o in the domain such that o is P, but not Q.
+
+
+
+Vacuity:
+
+
+
+∀x(P(x) → Q(x))
+
+
+
+A sentence of this form which is true merely because there are no P’s in the domain is said to be vacuously true.
+
+
+
+Some sentences can only be vacuously true. Any sentence of the same form, ∀x(P(x) → Q(x)), which is never true unless it is vacuously true is said to be inherently vacuous.
+
+
+
+∀x(Cube(x) → Tet(x))
+
+
+
+No Cube is a Tet. Clearly, by the meanings of the predicates, the mere wff (Cube(x) → Tet(x)) can never be satisfied in a domain with a cube it, and hence the quantified sentence is false in any domain with a cube in it. However, if we limit our domain to only have objects which aren’t cubes, then this is vacuously true. Since it can be only true when it is vacuously true, it is inherently vacuous.
+
+
+
+Conversational Implicature and Quantifiers:
+
+
+
+∀x(P(x) → Q(x))
+
+
+
+This sentence will sometimes conversationally imply that there are some P’s. For example:
+
+
+
+“Every student who asked for help received it. “
+
+
+
+This has conversational implicature. It implies that there were actually students who had asked for help, which isn’t necessarily true. One can say, “but no student asked for help” without contradicting the previous statement.
+
+
+
+∃x(P(x) ∧ Q(x))
+
+
+
+This sentence can conversationally imply that not every P is Q. For example:
+
+
+
+“Some students passed the test.”
+
+
+
+There is a strong suggestion here that not everyone passed the test, as if some students failed the test. This isn’t necessarily true though. Perhaps all students passed the test, and we could still say the above without contradicting ourselves.
+
+
+
+Homework: 9.15-9.19
+
+---
+
+
+
+FOL translations of common English phrasings of Aristotelian forms and Biconditionals:
+
+    ∀x(F(x) → G(x))
+
+        All F’s are G’s.
+
+        Every F is a G.
+
+        Each F is a G.
+
+        Anything that is an F is a G.
+
+        If anything is an F, it’s a G.
+
+        Whatever is an F is (also) a G.
+
+        Nothing is an F unless it’s (also) a G.
+
+        Only G’s are F’s.
+
+        Something is an F only if it’s a G.
+
+        If something is an F, it is a G.
+
+        An F is a G. [Some sentences only]
+
+        F’s are all G’s.
+
+        A thing is a G if it’s an F.
+
+    ∃x(F(x) ∧ G(x))
+
+        Some F’s are G’s.
+
+        Something is both F and G.
+
+        There are GF’s.
+
+        GF’s exist.
+
+        An F is a G. [Some sentences only]
+
+    ∀x(F(x) → ¬G(x)) or ¬∃x(F(x) ∧ G(x))
+
+        No F’s are G’s.
+
+        Nothing which is an F is a G.
+
+        Nothing is both F and G.
+
+        No F is a G.
+
+        Not even one F is a G.
+
+    ∃x(F(x) ∧ ¬G(x))
+
+        Some F’s are not G’s.
+
+        Some things that are F are not G.
+
+        There are F’s that aren’t G.
+
+        F’s exist that are not G.
+
+    ∀x(F(x) ↔ G(x))
+
+        All and only F’s are G’s.
+
+        Each thing is an F if, and only if, it’s G.
+
+        A thing is F if, and only if, it’s G.
+
+        Something is F just in case it’s G.
+
+    ∀x(F(x) ↔ ¬ G(x))
+
+        All things except F’s are G’s.
+
+        All things except G’s are F’s.
+
+        A thing is an F just in case it’s not a G.
+
+
+
+FOL Equivalences of Aristotelian forms and the Biconditionals:
+
+    All F’s are G’s
+
+        ∀x(F(x) → G(x))
+
+        ¬∃x(F(x) ∧ ¬G(x))
+
+        ∀x(¬G(x) → ¬F(x))
+
+        ∀x(¬F(x) ∨ G(x))
+
+    Some F’s are G’s.
+
+        ∃x(F(x) ∧ G(x))
+
+        ∃x(G(x) ∧ F(x))
+
+        ¬∀x(F(x) → ¬G(x))
+
+    No F’s are G’s.
+
+        ∀x(F(x) → ¬G(x))
+
+        ¬∃x(F(x) ∧ G(x))
+
+        ∀x(G(x) → ¬F(x))
+
+    Some F’s are not G’s.
+
+        ∃x(F(x) ∧ ¬G(x))
+
+        ∃x(¬G(x) ∧ F(x))
+
+        ¬∀x(F(x) → G(x))
+
+    All and only F’s are G’s.
+
+        ∀x(F(x) ↔ G(x))
+
+        ∀x(G(x) ↔ F(x))
+
+    All things except F’s are G’s.
+
+        ∀x(F(x) ↔ ¬ G(x))
+
+        ∀x(¬F(x) ↔ G(x))
+
+
+

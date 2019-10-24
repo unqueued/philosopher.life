@@ -1,0 +1,34 @@
+created: 20190731193909775
+modified: 20190801073356987
+tags: [[RGM Notes]] [[Computer Musings]] [[Wiki Audit]]
+title: 2019.07.31 - Computer Musings: Basic Functionality
+
+We've run into a different snafu with networking to Bob today. I am convinced that syncing the Bob files and running multiple instances is the correct method. Unfortunately, I think syncing files with Bob might also be problematic; I've run into various kinds of timing problems.
+
+---
+
+Just going to build the basic functions I have to have to do anything first. I have me a wiki workstation in Chromium now, and FF is functioning. I have my text editors, zsh, and basic i3 up and running. I have sound, video, basic syncs, and I'm slowly migrating everything. It might not look pretty, and it might only be an infant, but it's growing.
+
+---
+
+Font problems are not xrandr. I think the i3 config is fine, and it shows up in dolphin wrong as well. 
+
+Tried [[dotfiles: .Xresources]] route, and voila! I have what I want for half the system. lxappearance and .profile does the job.
+
+Gussying it up now.
+
+---
+
+Sound is only kind of working. None of media keys register, sound works through silenced tabs in FF, and unsilencing a tab playing music in FF increases volume. So much is b0rked at the moment.
+
+Fancy pctl list-sink with an awk does the trick.
+
+Deadbeef is finally not killing my eyes and the media keys are up and running. Yay!
+
+---
+
+I'm pushing toward a more focused, symlinked, and syncable setup for the wiki here. Backups of everything.
+
+---
+
+Also, FF is flying like lightning again. No hacks around memory. Balloon up all you want! I'm back to having a system that makes sense.

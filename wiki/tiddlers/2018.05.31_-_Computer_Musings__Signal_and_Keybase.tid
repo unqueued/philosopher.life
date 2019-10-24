@@ -1,0 +1,17 @@
+created: 20180531223648412
+creator: h0p3
+modified: 20181029175224787
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.05.31 - Computer Musings: Signal and Keybase
+
+Nate offered Signal and Keybase, which seem significantly more real time to me. I'm a fan of a lot of what they are doing, and I didn't hate using the software. I'm not a fan of their failure to maximize their decentralization. But, they are still better than nothing. 
+
+`yaourt -S keybase-bin signal`
+
+Time to try them again.
+
+Can't change password in keybase. That sucks. Somethings not quite right about it still. =/
+
+I adore much of the idea of what it is though. Going for keybase first. Keybase does work on Manjaro cleanly though. Signal does not. 
+

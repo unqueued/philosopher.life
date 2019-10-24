@@ -1,0 +1,36 @@
+created: 20181208233910668
+creator: h0p3
+modified: 20190331012649503
+modifier: h0p3
+tags: kicksphygmus Sphygmus kickscondor [[Root User]] FTO To Note [[Wiki Audit]] [[Computer Musings]]
+title: 2018.12.08 - Sphygmus & Kickscondor: Root
+
+//Those are not lexically ordered names in the [[titletag]] (it's as good as random). If I knew how to solve that problem, I'd fix it too.//
+
+This is a request that you are not obligated to attempt. Please ignore it freely. I do not feel you owe me this. You are already kind enough to continue your conversations with me, and I prize that. I ask you to only engage in that which you are comfortable reasoning with me about here.
+
+You may already know you do, but please assume you know more about computing than I do. I am a terrible student in many respects (as usual, I'm so arrogant!). Please take me to task. I need you to sharpen and shape my processes. Pretend I'm a retarded (literally, I am developmentally challenged) autistic kid and walk me through (as kindly as you can) my stupidity.<<ref "d">>
+
+Tell me how I'm being an idiot like only good friends can, please (you may already be doing so, and I ask you to forgive my ignorance as I come to grips with it). It is possible that I'm not making ridiculous mistakes here, but I am aware that is unlikely. I beg for your advice and wisdom in constructing this; I also recognize I may be reinventing the wheel, poorly. Perhaps I have misunderstood how to accomplish my goal. What is your opinion? What should I be clearer about? Where is this failing? What should I do instead? I am not asking you to build anything; I'm asking you to check my work and tell me if my building plans are stupid (because they might be). You may be wondering: "what is the purpose of this?" like I'm being too paranoid, inefficient, or insane. Perhaps this is incoherent, and I ask you to feel at liberty to say it.
+
+I'm going to keep working on this thing and talking about it. If you think I need to spend my time {[[Focus]]}ing my reasoning about this machine in some particular way, I will go where you tell me.
+
+[[Wiki: Rube-Goldberg Machine]]:
+
+{{Wiki: Rube-Goldberg Machine}}
+
+My goal is to construct a signed wiki (and snapshots) that I can distribute however I need. I desperately aim not to centralize the distribution process any more than is necessary or reasonable low-hanging fruit (perhaps that will change). The fact is that I want to tie this wiki to my commandline to accomplish certain tasks, and that means Bob is absolutely critical (for keeping it real-time). I still want to produce a single html file to maintain whatever distribution model I see fit, but that is very doable for me now, I believe.
+
+Bob will enable me to merge the contents of other wikis in a decentralized, automated way that isn't like pulling teeth. I want my wife, [[k0sh3k]] to literally be able to modify, add, and subtract tiddlers which are tagged both <<tag [[k0sh3k]]>> + <<tag [[From]]>> at will from her own wiki. In a sense, I want us to link our Bob instances strongly, to have a shared (sane, safe) read+write space in each other's wikis. That might also be useful to you [[Sphygmus]]; I do not know. I'm thinking I would [wget or dat]<<ref "a">>->.tidify->perhaps Xonshishly push to my wiki;<<ref "s">> you can serve me your output however you wish, and I want to be able to catch it and integrate it into my wiki. The indieweb appears to have tools that may be worth integrating as well.
+
+As I have tried to say to both of you, I'm very interested in hardcoding my links. I want hardlinks statically sitting in a tiddler rather than some filterlist rendering upon opening a tiddler. The recursion problem is so serious for javascript that it cannot be performant enough to enable me to rely upon anything other than significant hardlinking. I think Bob may be the key to enabling hardcoding in a way that I can do.
+
+I am a shit programmer (and you know that). I love thinking about it, but I am simply not as good as you two at this (there's at least one screw loose in me that makes me terrible at this, and I have seen it in my uncle [[Charlie]] too). Anyways, if you have some pointers or references, I'm all ears.
+
+
+---
+<<footnotes "d" "Dale Gribble:Extermination::Me:Computers">>
+
+<<footnotes "s" "I trust you. Pretend that I'm dumb enough to trust anyone in a stupid manner (because I often do). How much damage can this deal? Is there a way to ensure what I've imported is sanitized so as not to destroy the rest of my wiki? I want to provide significant user access without being [[Root]]ed without my consent. Sanitizing this process automatically is perhaps not a feasible task.">>
+
+<<footnotes "a" "I'd like to be agnostic here. I'd like to maximize the open channels for taking input from others, whatever their medium and transport of choice.">>

@@ -1,0 +1,57 @@
+created: 20170315221450555
+modified: 20170316033820937
+revision: 0
+title: DjinniOS (ˈGeniusˈ)
+
+Virtually Linux for hypothetical freebooters, marauders, raiders, buccaneers, corsairs, thieves, plagiarizers, poachers, copiers, reproducers, appropriators, bootleggers, cribbers, lifters, rippers, and pinchers. We're Just Kidding! Crime is illegal. That is a logical truth (but not a tautology). Come Geniuses, let's smell our farts together; let's be masterrace ~DjinniOS users.
+
+*Pronounced: Genius (dʒiːniəs)
+
+* Make it easy to pirate
+
+* ISO Release
+** Built on baseline, absolute minimal Ubuntu
+** Not rolling release, just Ubuntu release schedule
+** x86 (64-bit) only
+** Need to a find a way to package it.
+
+* Virtual Machine Release
+** Shared Folder with host OS
+** Bridged
+
+* It shares itself.
+** It offers itself through the various networks
+** It automatically downloads the newest ISO and shares it. 
+*** Distributed via Resilio Sync clone with no user limit
+*** What about BTRFS?
+*** We control write keys
+
+* Updates
+** apt-get upgrade, snap too
+** Automated updates (join the Botnet)
+*** Default OFF, obviously. 
+*** Custom .deb or .sh files distributed by sync.
+
+* Runs all major decentralized networks
+** We want 1-2 tools for each network, but no more.
+
+* Desktop only
+** So crazy light that you would be fine running it in VM or VPS
+** But make it easy to remote in. Use the right tool.
+
+* Tools
+** VPN
+*** We force pirate applications through the VPN. Built-in!
+*** Comes with VPN services (free ones)
+*** Enables us to easily change our VPN information
+*** Enables us to easily force things through VPNs
+*** Enables chain-VPNs
+** Comes with standard darknet tools. 
+*** Tor Browser
+*** i2p Browser
+** Standard P2P networks
+*** Torrent Clients
+*** DC++ Clients
+*** Usenet
+*** Gnutella
+*** etc.

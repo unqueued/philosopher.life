@@ -1,0 +1,334 @@
+created: 20170313003803245
+modified: 20181031035931167
+modifier: h0p3
+revision: 0
+tags: Tulane
+title: 2013.05.05 - On Vogel's Explanationism
+
+''1.1 – Introduction''
+
+In this paper, I will be analyzing Jonathon Vogel’s explanationism, paying especially close attention to the arguments he provides in his article “Internalist Responses to Skepticism,” where he endorses explanationism as a solution to the problem of skepticism.<<ref "1">> Explanationism defends against skepticism, roughly, by claiming that a coherence among ordinary beliefs concerning our perceptual experiences justifies the belief in the negation of skepticism (e.g. –BIV). On this view, the patterns of our ordinary experiences (E*) are better explained by our rich set of ordinary beliefs, a “real-world hypothesis” (RWH), than a “brain in a vat” hypothesis (BIV). 
+
+The first section of this paper, (1.2-1.4), will define key terms, frame Vogel’s explanationism, and clarify what kind of skepticism he is addressing. The second section focuses entirely upon a significant reductio ad absurdum argument which Vogel uses to demonstrate that RWH is always a better explanation than BIV. The third section will examine explanationism’s reliance upon inference to the best explanation, consider various problems with making an internalist inference to the external world, and assess whether or not explanationism really defuses the problem of skepticism.
+
+''1.2 – What is Explanationism? What Species Is Vogel’s Explanationism?''
+
+Explanationism (or explanatory coherentism) relies upon the principle of inference to the best explanation (IBE). Epistemic justification and knowledge are the results of some degree of internal coherence among an agent’s beliefs which have been authorized by or generated according to IBE. Explanationism often employs some kind of reflective equilibrium, piecing together, bootstrapping, revising, and negotiating of beliefs into increasingly coherent perspectives. There are few fixed judgments on this view; most planks on the boat can eventually be replaced. The theory is also fallibilist. Justified or knowledgeable agents can be wrong about their beliefs or knowledge; a justified belief or knowledge of a proposition does not logically entail the proposition is true.
+
+IBE is the foundation of this coherentist view. The best explanation principle can invoke many kinds of explanatory criteria, including: simplicity (ontological, explanatory, or psychological), explanatory breadth or depth, coherence with background knowledge, appearing to avoid ad hoc elements, fecundity, neatness, conservatism, modesty, and testability.<<ref "2">> It remains a matter of controversy as to which (if any) of these pragmatic virtues matter, to what degree each matters, and how they balance against each other. Abductivism, an idea fairly related to explanationism, argues that hypotheses which satisfy these criteria more than their alternatives are more likely to be true. Explanationism builds upon this and takes a stronger position than the abductivist on the status of IBE. Explanationism requires a kind of explanatory coherence and expresses something more. Beebe explains:
+
+<<<
+Abductivism is not equivalent to any of the forms of explanationism that dot the philosophical landscape. In epistemology ‘explanationism’ often denotes the view that all reasoning (or at least all ampliative reasoning) is justified by explanatory considerations. This thesis is sometimes expressed as the view that all forms of inference ultimately reduce to inference to the best explanation.<<ref "3">>
+<<<
+
+According to Lycan, there are several kinds of explanationism: Weak, Sturdy, and Ferocious.<<ref "4">> Weak Explanationism is the “claim that explanatory inference can epistemically justify a conclusion.”<<ref "5">> This isn’t really exclusive to explanationism, as many already agree to this. Sturdy Explanationism adds to the weak version the claim that “explanatory inference can do its justifying intrinsically, that is, without being derived from some other form of ampliative inference, such as probability theory, taken as more basic.”<<ref "6">> Ferocious appends to Sturdy the claim that “no other form of ampliative inference is basic; all are derived from explanatory inference.”<<ref "7">> Which kind does Vogel defend? It depends on how we look at his arguments, but I think his goal is to defend the Ferocious kind of explanationism. At any rate, I will take him to be pursuing that goal in this paper.
+
+''1.3 – Vogel Responds to What Kind of Skepticism?''
+
+Vogel responds to external world skepticism. He deploys explanationism against what he calls “domestic” skeptics who “attempt to show us that beliefs we hold don’t count as knowledge [or justification] according to norms we ordinarily recognize.”<<ref "8">> Vogel does not seem to defend himself against what calls the “exotic” skeptic who challenges “our epistemic principle in some other way, perhaps holding them to other standards according to which ours are defective or wanting.”<<ref "9">> An exotic skeptic, perhaps like the Humean skeptic, may be going after a more global kind of skepticism than Vogel is worried about. Vogel’s concern is local, in some sense, since it pertains specifically to the set of propositions concerned with the external world. This focus upon domestic kinds of skepticism to the exclusion of exotic kinds is significant.
+
+For example, skeptics may be infallibilists, and thus the standard of justification is extremely high. Vogel holds a fallibilist position. The move from infallibilism to fallibilism is another exotic worry which Vogel does not seem too concerned with, probably for good reasons. I don’t know how a defense of the external world can ever live up to infallibilist standards. Fallible knowledge and justification may be the only kinds that have a chance of surviving skepticism, since I think we must always concede that apodictic certainty of the external world cannot be had, and skeptics using that extreme epistemic standard are right.
+
+Importantly, skeptics may reject the IBE standard. Vogel would see this as an exotic skepticism. The validity of the principle of inference to the best explanation is foundational to Vogel’s theory. Vogel acknowledges this is a problem for his theory, but does not address it. Since this issue is so crucial, I will be considering it in this paper, even though Vogel does not focus on defending it. 
+
+Vogel may be sweeping other versions of exotic skepticism under the rug here. Perhaps this is a fine move; you can’t make everyone happy. Further, any successful version of domestic skepticism might seem more troubling than an exotic because it means we are losing the skeptic’s game even with our own rules.
+
+Lastly, Fumerton makes a distinction between weak and strong skepticism, where weak skepticism targets knowledge and strong skepticism targets justification.<<ref "10">> Vogel’s argument is most successful if we interpret it as attempting to respond to strong skepticism. Oddly, while trying to defend justification, Vogel takes himself to be defusing weak skepticism as well. I believe Vogel is mistaken in thinking his theory defuses skepticism which targets knowledge, as it is not clear that explanationism really does lead to knowledge, even if it might result in justification. With that said, defeating strong skepticism would still be a significant step towards defeating weak skepticism because justification is a necessary requirement of knowledge.
+
+''1.4 – Knowledge or Justification?''
+
+Vogel spells out skepticism from the internalist perspective as follows:
+
+*1a. In order to know M, you need to know that various possibilities of massive sensory deception do not obtain.
+*1b. In particular, you need to know that you are not a brain in a vat (–BIV) stimulated so that it falsely appears to you that M.
+*1c. In order to know –BIV, you have to be justified in believing –BIV.
+*1d. But you are not justified in believing –BIV. 
+*1e. Therefore, you do not know M.<<ref "11">>
+
+Vogel claims explanationism can falsify premise (1d), arguing that if premise (1d) “of the skeptical argument is false…skepticism is refuted.”<<ref "12">> By this, he means that explanationism defuses not only strong skepticism (targeting justification), but also weak skepticism (targeting knowledge). I disagree, and I wish to stress that while falsifying (1d) is certainly a worthy response, it is not a finishing blow to weak skepticism. 
+
+Vogel focuses on (1d). (1a) and (1b) are key premises that deserve more attention. (1b) follows from (1a), and (1a) seems to derive from the closure principle, a principle which certainly seems plausible.<<ref "13">>  If we agree to these premises, then we agree that defeating the skeptic requires demonstrating that we know –BIV. I’m not sure why Vogel begins his argument with this task (not a small one at that), but never resolves it. He seems to gloss over this weighty requirement, even though he boldly claims explanationism is a “solution to the problem of skepticism.”<<ref "14">>
+  
+Suppose explanationism justifies the belief –BIV. To be (mildly) justified in believing    –BIV, which is what Vogel at least minimally seems to think explanationism buys us, may be necessary but not sufficient for knowing  –BIV. Vogel does not neatly close this gap for us. Even if he does get us to the point where we are justified in believing –BIV to some extent, which is a significant accomplishment, it unfortunately does not seem as though explanationism gives us knowledge of –BIV, and that’s a problem for Vogel, given the criteria he set out for himself. 
+
+The weak skeptic’s epistemic requirement is very high: knowledge, not merely justified belief. Presumably, the strong skeptic’s epistemic requirement is also a very high degree of justified belief.  Explanationism will likely fail to provide knowledge of –BIV, and hence Vogel’s argument will not defuse weak skepticism. We will examine much more closely whether or not Vogel is able to defeat the strong skeptic.  It would be no small feat to demonstrate that we can be justified in believing in the external world, even if we don’t necessarily know.  
+
+It would strengthen Vogel’s argument at large if he explicitly chose to focus on responding to strong skepticism, targeting justification. Perhaps it would be useful to Vogel if we modify his sketch of the skeptic’s argument in this way:
+
+*1a. In order to know M, you need to be justified in believing that various possibilities of massive sensory deception do not obtain.
+*1b. In particular, you need to be justified in believing that you are not a brain in a vat (–BIV) stimulated so that it falsely appears to you that M.
+*1c. But you are not justified in believing –BIV. 
+*1d. Therefore, you do not know M.<<ref "15">>
+
+Perhaps Vogel just wouldn’t go for this. He really may have meant what he said throughout his paper.<<ref "16">> Vogel would not claim to have defended knowledge lightly. This apparent slip from justification to knowledge may not be an accident; Vogel knows what he is doing. If so, why does he do it? Perhaps he employs some sort of probabilistic justification standard. When he thinks RWH explains our data better than BIV, he means to say that RWH is more likely to be true via IBE. This is where that probabilistic standard sitting beneath IBE seems to arise. If this is true, then we should probably interpret Vogel as offering a less than Ferocious account of explanationism. 
+
+We might only get some weak form of justification when probabilities are low, but it doesn’t seem like we get knowledge without a really high chance. That we have such a high chance is something which Vogel would need to demonstrate.
+
+Unfortunately, isn’t clear that RWH is far, far more likely than BIV. RWH is a better explanation of E* than BIV, but by what margin? Doesn’t this margin need to be significant? There needs to be a wide gulf in explanatory power between RWH and BIV before we can move on from mere justified belief to knowledge. I think Vogel doesn’t pay enough attention to that issue. So, he might get us to a point of being mildly justified in believing RWH, but it still does not seem like explanationism gets us knowledge. 
+Setting this matter aside, let us see if Vogel’s explanationism can do the job of justifying belief in RWH instead of BIV.
+
+''2 – Vogel’s Reductio''
+
+One centerpiece argument Vogel offers in favor of explanationism is a powerful reductio which demonstrates why RWH has more explanatory power than BIV regarding our ordinary experience E*. He begins with the Art-attribution case:
+
+<<<
+Max is an art historian studying an old altarpiece. The best explanation of various features of the painting that he has been able to devise so far is that it was executed by two different painters. Accordingly, Max's initial version of RWH, RWH1, includes a belief that the altarpiece was due to two different hands. However, reconsidering the available information, Max realizes that a more satisfactory explanation of the data is that the altarpiece was painted by one person over a long period of time. Incorporating that belief into Max's total body of beliefs about the world gives him a new belief corpus, RWH2. RWH2 differs from RWH1, and the former has somewhat more explanatory merit overall than the latter.<<ref "17">>
+<<<
+
+Vogel argues for his reductio in this way:
+
+<<<
+Ultimately, RWH2 explains some aspect(s) of E* better than RWH1 does…RWH1 and RWH2 also compete with BIV. Let us consider Max after he has changed his mind about who painted the altarpiece. Suppose that the skeptic is right and Max has no justification for rejecting BIV at this point. In that case, RWH2 and BIV must offer equally good explanations of E*. But then, since BIV explains E* just as well as RWH2 does, and RWH2 explains E* better than RWH1 does, it follows that BIV explains E* better than RWH1 does. That is, before he changed his mind about who painted the altarpiece, Max was justified in believing that he was a brain in a vat, which surely cannot be right. We have here a reductio ad absurdum of the assumption that Max has no basis for preferring RWH2 to BIV on explanatory grounds.<<ref "18">>
+<<<
+
+Vogel claims to have an argument which proves the claim RWH2 is a better explanation of the historian’s evidence, E*, than BIV. This argument is crucial and significant, and unfortunately, I found his explanation somewhat unclear. If he really had a reductio, why didn’t he just write it out? In my survey of the literature on this topic, I only found one source which tried to explain what he might be doing here. I’m representing Kevin McCain’s argument from his dissertation (Vogel was on the committee) on the reductio here:
+
+# RWH2 and BIV are equally good explanations of E*                              - [AP for Reductio]
+# RWH1 and BIV are equally good explanations of E*                                -            [Premise]
+# If (α and ψ are equally good explanations of φ), and                                 -     [Transitivity’] 
+##(α is a better explanation of φ than β), then 
+##(ψ is a better explanation of φ than β)               
+# RWH2 is a better explanation of E* than RWH1 		            -         [From Example] 
+# BIV is a better explanation of E* than RWH1		              -                      [From 3, 1, 4]
+# ~(BIV is a better explanation of E* than RWH1)		                -                 [From 2]
+# ⊥									              -   [From 5, 6]
+# ~(RWH2 and BIV are equally good explanations of E*)	 -            [Reductio from 1-7]<<ref "19">>
+
+McCain stops here. Unfortunately, this doesn’t show that RWH2 is a better explanation of the historian’s evidence, E*, than BIV. Vogel does assume in his 43rd footnote that no one would argue that BIV is a better explanation of the historian’s evidence than RWH2, and we might take this as a premise: 
+
+* 9. ~(BIV is a better explanation of E* than RWH2)		       -                        [Premise]
+
+Now we see how to get to the conclusion we really want:
+
+* 10. RWH2 is a better explanation of E* than BIV                            -                         [From 8, 9]
+
+This is the significant conclusion which Vogel wants. Unfortunately, this reductio doesn’t look like anything which Vogel actually says. Vogel declares he has a reductio of the claim that “Max has no basis for preferring RHW2 to BIV on explanatory grounds.”<<ref "20">> McCain’s reductio does not match that, although his argument still has quite a bit of force to it (I suspect Vogel also agreed to it).
+
+Also, it is unclear why we would go through the work for a reductio, as there seems to be a much quicker version of the argument one could offer given basically the same premises:
+
+# RWH1 and BIV are equally good explanations of E*              -                             [Premise]
+# RWH2 is a better explanation of E* than RWH1 		            -        [From Example] 
+# If (α and ψ are equally good explanations of φ), and   -                                 [Transitivity’’]   
+##(β is a better explanation of φ than α), then 
+##(β is a better explanation of φ than ψ)               
+# RWH2 is a better explanation of E* than BIV		  -                      [From 3, 1, 2]
+
+Why wasn’t this argument offered? I think it wasn’t offered because it is more obvious that something fishy is going on. I’ll get to what is going wrong here in a bit. In any case, McCain’s version of the argument does not match what Vogel says. Going back to Vogel’s text, it is clear that he is using temporal language. He distinguishes when hypotheses are discovered, and this is an important clue for us. I will follow his text very closely and fill in gaps where I must (I’ve not neatly placed all premises at the top because that is not how Vogel’s argument flows):
+
+# ~(At time T2, RWH2 is a better explanation of E* than BIV) 	--      [AP for Reductio]
+# At time T2, RWH2 is a better explanation of E* than RWH1           -           [From the Text] 
+# At time T2, RWH2 and BIV are equally good explanations of E*       -       [From the Text]
+# If (at time Ti, α and ψ are equally good explanations of φ), and          -          [Transitivity1]                                                 
+##(at Ti, α is a better explanation of φ than β), then 
+##(at Ti, ψ is a better explanation of φ than β)               
+# At time T2, BIV is a better explanation of E* than RWH1		  -          [From 4, 3, 2]
+# If (at time Ti, α is a better explanation of φ than ψ), then                 -         [Time Premise1]
+##(at time Tk, α is a better explanation of φ than ψ), 
+##where k is any arbitrary number
+# At time T1, BIV is a better explanation of E* than RWH1		--	    [From 6, 5]
+# At time T1, RWH1 and BIV are equally good explanations of E*    -        [From the Text?]
+# ~(At time T1, BIV is a better explanation of E* than RWH1)	            -        [From 8]
+# ⊥ 									--       [⊥Intro, 7 and 8]	
+# At time T2, RWH2 is a better explanation of E* than BIV	     -       [Reductio from 1-12]
+
+Note that from the conclusion (11), via repeated application of (6), we know RWH2 is a better explanation of E* than BIV at any time. This would be a significant claim to prove. This unspoken time premise, (6), is crucial to getting the results that Vogel needs.
+
+Let us dig into this argument a bit. We should grant (4), since it is obviously correct. The two premises which are most curious are (6) and (8). 
+
+Vogel does not explicitly claim (8) in this passage, but he seems to argue for it when he says “before he changed his mind about who painted the altarpiece, Max was justified in believing that he was a brain in a vat, which surely cannot be right.”<<ref "21">> Indeed, it does seem essential to the skeptic’s argument that BIV is equally good at explaining E* as the best RWHi we have available. RWH1 was the best RWHi we had at T1, hence it would make sense to accept (8) for the sake of argument.
+
+That leaves the time premise. I think (6) is an important part of Vogel’s argument, and it is a shame he didn’t examine it. Let us carefully think through what went on in (2-5), right before this time premise. All of the moves make sense. After Max has changed his mind about who painted the altarpiece (T2), RWH2 was the best RWHi available, and thus BIV was made to be equally good at explaining E*, thus at T2, RWH2 and BIV are better explanations of E* than RWH1. What then is (6) doing? It shows, in this case, that if BIV is a better explanation of E* than RWH1 at some point in the future, then it is also the case in the past. But, why should we think that? I’m not sure. Admittedly, some part or application of the time premise seems right. 
+
+Interestingly, similar to the McCain version, Vogel didn’t need to give us a reductio ad absurdum. Vogel could have just offered this argument instead:
+
+# At time T1, RWH1 and BIV are equally good explanations of E*       -       [From the Text]
+# If (at time Ti, α and ψ are equally good explanations of φ), then         -      [Time Premise­2]                                                 
+##(at time Tk, α and ψ are equally good explanations of φ),  
+##where k is any arbitrary number
+# At time T2, RWH1 and BIV are equally good explanations of E*            -         [From 2, 1]
+# At time T2, RWH2 is a better explanation of E* than RWH1                   -  [From the Text] 
+# If (at time Ti, α and ψ are equally good explanations of φ), and               -     [Transitivity2]                             
+##(at time Ti, if β is a better explanation of φ than α), then
+##(at time Ti, β is a better explanation of φ than ψ)             
+# At time T­2­, RWH­2 is a better explanation of E* than BIV                           -  [From 5, 3, 4]
+
+We got (6), which was the conclusion in the reductio, by using different transitivity and time premises (which were just as plausible as the first ones he used). Notice that with time premise­1 added, Vogel still gets what he wants, which is the claim that we know RWH2 is a better explanation of E* than BIV at any time.
+
+These time premises are very powerful, and they are the keys to amplifying particular conclusions into the universal results Vogel wants. It is unclear if we must accept Vogel’s unspoken time premises. Even if we grant Vogel these time premises, something fishy is going on here. The problem has to do with timing. Maybe it isn’t the time premises themselves, but rather the way in which Vogel handles the BIV hypotheses in these arguments.
+
+Vogel’s reductio seems to treat BIV as monolithic hypothesis with a static degree of explanatory merit regarding E*. The reductio only follows on the assumption that BIV’s explanatory power doesn’t change through time. But such an assumption seems to be missing the point: the whole strategy of the BIV argument is that no matter how strong a RWH­i­ we come up with there is an equally good BIV argument. The ability for BIV’s explanatory power to change given the strength of our RWH­i­ is already stipulated, and yet the implications of this ability are not well described in Vogel’s reductio. 
+
+While on one hand Vogel treats BIV as a monolithic and static hypothesis, on the other, Vogel seems to recognizes that BIV scales with explanatory merit of various RWH’s, else he would not be able to posit both that RWH­2­ and BIV have equal explanatory merit in (2) and  that RWH­1­ and BIV have equal explanatory merit in (8). In this sense, Vogel is more aware that the skeptic employs some sort of mechanism which ensures that BIV is equally good at explaining E* as the best RWHi ­we have available, at any time T­i. Vogel does not effectively reconcile this tension.
+
+Timing is important to this mechanism and its output, and Vogel’s explanation and use of BIV has failed to capture that. Here’s what I think is really happening: 
+
+Consider RWH­1­ as the best RWH­i­ we have available for explaining E* at time ­T­1­. The skeptic’s mechanism crafts BIV to be equally good as RWH­1 ­at explaining E* at time T­1­. Let’s call this version BIV1­. At T­2­, we discover a better RWH­i­, call it RWH­2­. The skeptic’s mechanism recognizes this, so it strengthens the old BIV­1­ to be equally good at explaining E*as RWH­2­, call it BIV­2­. We would say that both RWH­2­ and BIV­2­ are better explanations of E* than RWH1 ­and BIV­1­. If this is the correct way of thinking about it, then the premises must be rewritten, and the attempted reductio argument will play our differently:
+
+# ~(At time T2, RWH2 is a better explanation of E* than BIV­2) 	--      [AP for Reductio]
+# At time T2, RWH2 is a better explanation of E* than RWH1           -           [From the Text] 
+# At time T2, RWH2 and BIV­2 are equally good explanations of E*     -        [From the Text]
+# If (at time Ti, α and ψ are equally good explanations of φ), and          -          [Transitivity­1­]                                                 
+##(at Ti, α is a better explanation of φ than β), then 
+##(at Ti, ψ is a better explanation of φ than β).               
+# At time T2, BIV­2 is a better explanation of E* than RWH1		       -     [From 4, 3, 2]
+# If (at time Ti, α is a better explanation of φ than ψ), then                      -     [Time Premise­1­]                           
+##(at time Tk, α is a better explanation of φ than ψ), 
+##where k is any arbitrary number.
+# At time T1, BIV­2 is a better explanation of E* than RWH1		--	    [From 6, 5]
+# At time T1, RWH1 and BIV1 are equally good explanations of E*  -         [From the Text?]
+# ~(At time T1, BIV1 is a better explanation of E* than RWH1)	    -                 [From 8]
+# ⊥ 					       			            -        [⊥Intro, 7 and 8]	
+
+Notice that we can’t get (10) from (7) and (9), as we are comparing BIV­2­ to RWH­1­ in one, and BIV­1­ and RWH­1­ in the other. At no point can we conclude that RWH2 is a better explanation of E* than BIV­2­, which is what Vogel would need.  The second argument fails to deliver what Vogel needs as well, as the conclusion becomes: (At time T­2­, RWH­2 is a better explanation of E* than BIV­1).
+
+I am convinced neither Vogel’s reductio nor the shorter, alternative arguments I suggested will get Vogel the conclusion he needs (the same is also true for McCain’s versions). I don’t think this argument provides us justification to believe RWH instead of BIV.
+
+''3.1 –IBE and Justification ''
+
+Vogel claims RWH explains the sum of our sensory experiences, E*, better than BIV, and thus we are justified in accepting RWH, and consequently, in accepting –BIV. At least some real-world hypotheses are thought to be simpler and more unified than BIV hypotheses, and thus some RWH­i are better at explaining E*. On Vogel’s view, any version of BIV should be rejected because it is comparatively too complex and perhaps ad hoc. Should we really agree that some RWH necessarily has more explanatory merit than all BIV hypotheses? 
+
+Indeed, some models of BIV, perhaps even the usual ones, will build on top of a RWH (possibly in an ad hoc manner) an abstraction, an extra layer, an added mechanism, or an additional agent which explains E*. On such models, BIV is thought to be more complex than RWH, and therefore such models have less explanatory merit than RWH. But is this the case for all BIV hypotheses? This seems to be what Vogel needs, and yet it is far from clear that this is true. 
+
+Further, the skeptic need not convincingly demonstrate a case where BIV is simpler than RWH – he merely needs to open our eyes to the possibility of such a thing. Is it at least possible that some BIV hypothesis could have more explanatory merit than real-world hypotheses? Maybe. That’s a problem for a theory which relies upon showing not only that the usual BIV hypotheses have less explanatory merit than at least one RWH, but that all BIV hypotheses must have less explanatory merit than some RWH
+
+''3.2 – Some Preliminary Concerns''
+
+# Vogel claims there are two competing causal explanations of my experience, E*, “the relevant body of evidence, the ‘data’ to be explained…the occurrence and nature of my experience,” namely either the set of my ordinary beliefs about the world, RWH, or BIV.<<ref "22">> He further claims that if “explanationism is correct, then E* justifies both our ordinary beliefs about the world (including perceptual beliefs) and the rejection of –BIV.”<<ref "23">> Is this right? Why should the thing to be explained, E*, justify belief in the hypothesis which explains it? Rather than E* directly justifying belief in RWH, it seems to make more sense to say IBE justifies believing RWH, instead of BIV, as the causal explanation of E*. 
+
+# For anyone who holds strong doxastic voluntarism, it seems like some of the best ways to achieve explanatory coherence in our belief systems is to simply throw out specific trouble-making beliefs. What’s to stop us from doing that on the explanationist view? Isn’t that a problem?<<ref "24">>
+
+# What if we think IBE is more objectionable than the RWH itself?<<ref "25">> It wouldn’t be acceptable to employ epistemic standards which are more objectionable than the targets which those standards are trying to explain and justify. This is a possibility for the skeptic. Shouldn’t the explanationist explain why IBE stands on firmer ground than RWH, thus enabling IBE to be in a position to explain RWH?
+
+# There seems to be another skeptical possibility other than the usual skeptical claims, such as demons or brains in vats, specifically in the case where the explanationist feels they can explain causation better in terms of the RWH. What if our sensory experiences are uncaused?<<ref "26">> Note, the scope isn’t some global denial of causation or induction in general, but rather a denial of causation of sensory experience (without resorting to “chance,” from which an explanationist may have a foothold). Explanationism would be trying to find an explanation for something which is uncaused. Admittedly, to say that something is uncaused is sort of a causal story already. Obviously, the explanationist believes our sensory experiences have external causes, but isn’t that an assumption which must be defended? We don’t ordinarily doubt that sensory experiences have causes (that would be crazy, right?), but philosophically, we can. It is far from clear how the explanationist can explain how we know (or why we are justified in believing) our experiences have causes. This seems like another possible objection or doubt the skeptic can raise against explanationism.  
+
+''3.3 – Argument from Simplicity ''
+
+Vogel argues that in RWH, “certain truths about spatial properties and relations are necessary.”<<ref "27">> Vogel says, “In short, according to RWH, that Dist(a, b, c) is greater than Dist(a, c) at least partly explains T,” where T = “why one set of experiences (those you have walking the long way) has greater duration than another set of experiences (those you have walking the direct way).”<<ref "28">> 
+
+In contrast, Vogel thinks a digital simulation (working from Bonjour’s analog/digital distinction) of these spatial properties and relation, such as we would find in an “isomorphic skeptical hypothesis” (ISH), supposedly one of the most defensible versions of BIV, are contingent rather than necessary.<<ref "29">> In order to explain T as effectively as RWH, this contingency requires ISH to “to introduce some further empirical regularity” in the mechanisms which make [Dist (a, b, c) > Dist(a, c)] true in the artificial world.<<ref "30">> That adds to the complexity of ISH, and it makes it less simple than RWH. 
+
+Simplicity, in Vogel’s view, is one way to allocate and characterize the differences in explanatory merits between competing hypotheses. Vogel’s argument here is that RWH is simpler than the best BIV hypotheses (ISH variants), and thus RWH is a better explanation of T (and essentially E*) than all BIV’s. Should we really agree to simplicity as having so much sway? I don’t see why we should. Simplicity is attractive, but it seems far too weak to determine which hypotheses are more justifiable than others.
+
+Hundreds of years ago, Newton’s theory was coherent given the data people had. The simplicity component of IBE would select and justify Newton’s theory. They were justified in believing it, but that doesn’t make Newton’s theory correct. It just so happens that a far more complex hypothesis is better. We do have better data nowadays, and that data is better explained by a complex hypothesis. Doesn’t this reveal a problem though? Knowledge or justification is deeply constrained by the data we have in the first place. Sometimes we don’t have a sufficient dataset from which to be sufficiently justified, and even if we are justified in some minimal sense, we don’t know we have the truth. Why should we believe that simplicity really gives us the correct answer? Why is it even more likely to arrive at the truth? 
+
+Doubting Bonjournian digital explanations merely because they lack simplicity is a practice that many scientists don’t even practice. There are physicists who believe we live in one universe of many – that we are part of a multiverse.  They likely can’t prove it or test it, although they have models that describe our universe which suggest it (admittedly, it may not even be science). 
+
+A multiverse is very similar to a digital explanation – it requires admitting that this vast, complex, and beautiful thing we call a universe may not really exist as we think it does, it may be caused for reasons beyond us, it may be incomplete or distorted, perhaps illusory in some ways. Most importantly, a multiverse breaks out of the simplicity mold. These people, who to my mind are experts on the external world (they have incredibly complex RWH’s), are willing to reject simplicity and embrace digital explanations.  Why shouldn’t we? Maybe BIV’s lack of simplicity isn’t as big of a deal as Vogel thinks. Simplicity might point in the direction, but it seems weaker than Vogel claims.
+
+''3.4 – Argument from Ad Hocness''
+
+Vogel believes BIV, unlike RWH, is an ad hoc hypothesis. Vogel explains, “RWH, our ordinary view of the world, has an elaborated structure that gives it considerable explanatory richness and power. Therefore, it is no surprise that skeptical hypotheses with little or no worked‐out structure are inferior to RWH from an explanatory standpoint. This difference justifies us in rejecting such meager skeptical hypotheses on explanatory grounds.”<<ref "31">> BIV, as Vogel sees it, is just a shell of a hypothesis with no real teeth or purpose – it is ad hoc. 
+
+Vogel roughly defines an ad hoc explanation as, “one that explains only the phenomena it was introduced to explain and is not otherwise confirmed or testable.”<<ref "32">> Isn’t this a serious problem for the RWH as well though? RWH exists to explain E*, and it is also not otherwise confirmed or testable. It isn’t like we can line-up our competing hypotheses, RWH and BIV, and “go out,” in the most purely objective sense, into the world and empirically test which one is true or false. I fundamentally don’t see how either RWH or BIV could be empirically confirmed. Vogel needs to do a lot more to convince us that it is empirical, and then he must show why RWH does not suffer from the same ad hoc perspective as BIV. 
+
+Further, this requirement of an “elaborated structure” seems to miss the point. Does the skeptic really need to draw out exactly how, in detail, BIV works? A skeptic with some sympathy towards Vogel’s claims here might just need to argue that there could be a BIV hypothesis which has equal or better explanatory powers to our best RWH hypotheses, even if we don’t immediately have a BIV hypothesis at hand which satisfies Vogel. Perhaps we must prove the skeptic is wrong in a complete sense, else that doubt will always be there. 
+
+Comprehensive, elaborated fantasies can still be wrong, and skeletal hypotheses lacking detail can still be right. What merely seems ad hoc may not be. Avoiding the appearance of ad hocness seems quite attractive, especially when trying to convince others, but it doesn’t necessarily (or perhaps even probably) get us to truth.
+
+''3.5 – Objectivity and Subjectivity''
+
+RWH is a more natural hypothesis to generate than BIV; it is what the usual mode in which we receive the world. That doesn’t, however, make it right. I worry that IBE, the principle which authorizes RWH, is just epistemic laziness. It is a way to cut corners for the sake of convenience.<<ref "33">> We merely hope it is a shortcut to truth. It is unclear why we should think coherence based on IBE, with its variety of criterion, is necessarily connected to the truth, a matter quite external to us. Ultimately, the most coherent belief systems may still be pure fantasy. Vogel may consider questioning IBE as a form of exotic skepticism, but from what I can tell, worrying about the potency and authority of IBE is a valid and crucial concern. 
+
+If I were to be very pessimistic and perhaps not charitable enough about explanationism, I would say it is too internalist.<<ref "34">> We never settle the actual matter of an external world. The coherentist view doesn’t seem to care enough about how beliefs correspond to facts in the real world. The coherentist view seems to over-prioritize the epistemic over the ontological. It borders on claiming that the world is the way we think it is. That seems so backwards. On such a view, explanationism doesn’t really care about the ontic structure external to us; it only cares about the epistemic structure internal to us, about how our perceptions and beliefs mesh together. We might argue that internalist truth is a relation between one’s hypothesis and one’s mind, without any serious consideration about the world. In actuality, truth is a relation between one’s hypothesis and the world. Justification, unlike truth, is probably a relationship between one’s hypothesis, one’s mind, and the world. Perhaps explanationism focuses too much upon one’s hypothesis and mind to the exclusion of the world (despite the fact that it claims to really be interested in justifying our beliefs about the world). 
+
+Maybe there are other hypotheses besides BIV which compete with RWH and are just as coherent and possess the same explanatory force as RWH. It seems like explanationism never settles the matter. It isn’t concerned enough with making sure one reaches the right final answer, only that one reaches an internally acceptable answer at any given moment. Explanationism seems to suffer from the problem that most coherentist theories face: there seem to be a plurality of coherent sets of beliefs, and coherentism fails to reveal or select the one complete set of true beliefs (if there is one). Shouldn’t we be worried that explanationism seems to be capable of justifying multiple, incompatible hypotheses? Perhaps coherentism takes fallibilism too far.
+ 
+We might imagine scenarios in which the objectively better explanation, such as a newly released Copernican model, does not explain our current data or predict as effectively as another objectively worse explanation, such as the Ptolemaic model. From what I recall, when the Copernican model was first offered, the Ptolemaic view was, for a brief time in history, still a more coherent hypothesis than the Copernican one. In such a case, the explanationist must defend the objectively weaker view, the Ptolemaic model. Shouldn’t this kind of thing be a problem? I worry that explanationism doesn’t even hope to aim for objectivity (although, perhaps it is arrogant to think we can reach it). 
+
+Availability of hypotheses seems to be a worry. What if I can only access a really small number of hypotheses, and objectively speaking, they are all really bad. Explanationism doesn’t seem to give us the kind of reasons to think this is a bad thing. Explanationism seems, subjectively speaking, to give us justification for believing what might be the best of those available hypotheses, but from an external or objective view, those hypotheses are so bad that they just aren’t really worth having, they aren’t really justifiable – they don’t really help us get close enough to the truth. It isn’t clear how IBE results in any of our hypotheses being “likely true” at all. You can’t seem to infer the best (or even decent) explanation, in our example, because you never had access to it. Why should we think we have access to the best explanation/hypothesis? Why should we even think we have access to adequate explanations/hypotheses which are merely good enough? It seems like the explanationist must take these on faith. I don’t see why we are necessarily justified in thinking that one of the explanations in our pool of accessible explanations will be the correct one or even a worthy explanation.
+
+Why should we agree to IBE? IBE demonstrates that certain propositions are epistemically more attractive than others, but it doesn’t necessarily demonstrate, as far as I can tell, that certain propositions are more likely than others. I feel the two are conflated in the explanationist theory. Even if explanationism does demonstrate that a hypothesis is more likely, is that really enough for justification? It seems like probabilistic justifications (which seem oddly externalist) might justify us, but we may never be in a position to know when we are justified (which should be a problem for an internalist).
+
+Ultimately, explanationism suggests that we are justified in our beliefs (or even have knowledge possibly), regardless of whether or not we are brains in vats. It seems like explanationism is so internalist that it disregards the problem of skepticism entirely. As Vogel says himself, he’s really not interested in exotic skepticism, including skepticism of IBE. Is this missing the point of skepticism? Possibly.
+
+''3.6 – BIV: Juicing Our Intuitions from a New Perspective''
+
+The notion of brains in vats has generally been the stuff of mere fiction and imagination. It has, as far as we know, never been a real thing for us to examine. Perhaps some people think an elaborate hoax, such as being a BIV, is ad hoc or impossible because, until recently, something like that was unfathomably impractical. I wonder if our intuitions on this topic may be skewed simply because we’ve never personally known ourselves to experience or see a BIV experiment in action. The BIV topic has generally revolved around whether we, as humans, are hypothetically brains in vats. That has a subjective perspective to it, and it may have a certain set of biases that come with it. We don’t want it to be true! We prudentially need it to be false. Perhaps our intuitions are skewed because our stance is too subjective. What if we could have a more objective stance in some sense? Interestingly, the possibility that we may create our own brains in vats is a problem we might face in our own lifetimes!
+
+Some people, particularly those from materialist persuasions, can envision artificially created sentient creatures with human-like intelligence built from what we ordinarily think of as computer hardware or software. Artificial intelligence, even minds like ours, really could be created within our lifetimes. Further, some programmers are really sick and twisted folk with way too much time on their hands, and it seems very possible that if AI existed, some mad programmer would design a digital world in which to entrap these artificial minds (we already create rough, small-scale versions of digital worlds for video gamers). 
+
+Maybe our artificial creatures will just be digital creatures, with digital bodies and digital sensations, etc. These artificial creatures might, psychologically and intellectually speaking, be identical to us. They will believe the mad-programmer’s Matrix is the external world, and they will have reasons like we do, fulfilling all the explanationist requirements.
+
+ When these artificial creatures, trapped in the mad-programmer’s Matrix, employ Vogel’s explanationism, will we as humans, sitting outside the Matrix and looking upon these brains in vats, think they have knowledge or justified belief of an external world? 
+
+From our perspective, a more objective perspective than these creatures arguably have, I think we will be far more hesitant to say these intelligent beings have knowledge or justified belief. Their fallibility and the fact that they’ve been hoodwinked will be right there before us. Their lives would be filled with lies. We would know that. 
+
+From their perspective, facing the same problems we do in philosophy, they will subjectively feel more justified in believing in the external world than perhaps they ought. They will argue from simplicity, and yet we will know better. They will argue BIV is ad hoc, and yet we will know better. IBE and explanationism may comfort them, but we will know better. But, when we apply the same standard to ourselves, why are we any different from these creatures?
+
+Some people seem to take the BIV hypothesis as just being too outlandish. They don’t want to envision it, and they have a bias against it. Perhaps life would not be right if it were true. Consider the problem of moral life in Nozick’s experience machine. Admittedly, being justified in believing the external world might not turn out to be that hard. Perhaps living a life worth living requires it, and this is a kind of Pascal’s wager – where we have nothing or something, and we are justified in having faith-like belief for prudential reasons. This isn’t what the skeptic is talking about though, and he will tell us that we’ve missed the point. If and when we are the keepers of brains in vats, will our intuitions change on this topic? Maybe.
+
+''4 – Conclusion''
+
+	Vogel’s explanationism is powerful and something about it is intuitively right. Its use of IBE and interest in coherence is admirable. Many of the underpinnings of explanationism don’t seem justified. I think one could make foundationalist moves to support this theory. Explanationism may turn out to justify our belief in RWH instead of BIV, but it isn’t yet clear that it does. Ultimately, the skeptic always seems to be in a position to call into doubt the principle of inference to the best explanation and the results of that principle. Explanationism may eventually turn out to be a reasonable response to skepticism, but it does not defeat skepticism.
+
+--------
+
+<<footnotes "1" "Jonathon Vogel, 'Internalist Responses to Skepticism,' in //The Oxford Handbook of Skepticism//, ed. John Greco (Oxford: Oxford University Press, 2008): 533-556">>
+<<footnotes "2" "Beebe, James R. 'The Abductivist Reply to Skepticism.' //Philosophy And Phenomenological Research// 79, no. 3 (November 1, 2009): 609-611 and Lycan, William G. 'Explanation and Epistemology.' In// The Oxford Handbook of Epistemology//, Oxford: Oxford Univ Pr, 2002: 10">>
+<<footnotes "3" "Beebe, James R. 'The Abductivist Reply to Skepticism.' //Philosophy And Phenomenological Research// 79, no. 3 (November 1, 2009): 612">>
+<<footnotes "4" "Lycan, William G. 'Explanation and Epistemology.' //In The Oxford Handbook of Epistemology//, Oxford: Oxford Univ Pr, 2002: 11">>
+<<footnotes "5" "Ibid.">>
+<<footnotes "6" "Ibid.">>
+<<footnotes "7" "Ibid., 12">>
+<<footnotes "8" "Vogel, Jonathan. 'Skeptical Arguments.' //Nous-Supplement: Philosophical Issues// 14, (January 1, 2004): 439">>
+<<footnotes "9" "Ibid.">>
+<<footnotes "10" "Fumerton, Richard A. //Metaepistemology and Skepticism//. Lanham, MD: Rowman & Littlefield, 1995. DJVU: 29-30">>
+<<footnotes "11" "Jonathon Vogel, 'Internalist Responses to Skepticism,' in// The Oxford Handbook of Skepticism//, ed. John Greco (Oxford: Oxford University Press, 2008): 533">>
+<<footnotes "12" "Ibid., 544">>
+<<footnotes "13" "Very broadly, we might explain the principle in this way: If S knows (or S is justified in believing) P, and S knows (or S is justified in believing) P entails Q, then S knows or S can come to know (or S is justified in believing or S is justified in coming to believe) Q. Admittedly, some version of this principle seems like it must be correct. ">>
+<<footnotes "14" "Ibid., 550">>
+<<footnotes "15" "Ibid., 533">>
+<<footnotes "16" "I’m beginning to believe he does mean it.">>
+<<footnotes "17" "Vogel, Jonathan. 'Internalist Responses to Skepticism.' //Oxford Handbooks Online//, September 2009: 14">>
+<<footnotes "18" "Ibid., 15">>
+<<footnotes "19" "McCain, Kevin. 'Inference to the Best Explanation and the External World: A Defense of the Explanationist Response to Skepticism.' Diss., University of Rochester, 2011. http://hdl.handle.net/1802/21405.">>
+<<footnotes "20" "Ibid.">>
+<<footnotes "21" "Ibid. 15">>
+<<footnotes "22" "Ibid., 5">>
+<<footnotes "23" "Ibid.">>
+<<footnotes "24" "Lycan, William G. 'Explanation and Epistemology.' In //The Oxford Handbook of Epistemology//, Oxford: Oxford Univ Pr, 2002: 25">>
+<<footnotes "25" "Beebe, James R. 'The Abductivist Reply to Skepticism.' //Philosophy And Phenomenological Research// 79, no. 3 (November 1, 2009): 626">>
+<<footnotes "26" "Fumerton, Richard. 'Skepticism and Reasoning to the Best Explanation in Rationality in Epistemology, Villanueva, Enrique (ed).' Atascadero: Ridgeview, 1992: 162-163.">>
+<<footnotes "27" "Vogel, Jonathan. 'Internalist Responses to Skepticism.' //Oxford Handbooks Online//, September 2009: 18">>
+<<footnotes "28" "Ibid., 19">>
+<<footnotes "29" "Ibid., 18">>
+<<footnotes "30" "Ibid., 19">>
+<<footnotes "31" "Ibid., 16-17">>
+<<footnotes "32" "Ibid., 15">>
+<<footnotes "33" "Lycan, William G. 'Explanation and Epistemology.' In //The Oxford Handbook of Epistemology//, Oxford: Oxford Univ Pr, 2002: 15">>
+<<footnotes "34" "Perhaps any adequate theory of justification and knowledge must have a foot in both the externalist and internalist camps. If you go too far to any side of the spectrum, you get some lousy results. That said, I don’t know how the externalist gets to the external world either.">>
+
+-----------
+
+''Bibliography''
+
+Achinstein, Peter. "Explanation Versus Prediction: Which Carries More Evidential." //Oxford Scholarship Online//, November 3, 2001. 
+Allen, Ronald J. "Explanationism All the Way Down." //Episteme: A Journal Of Social Epistemology// 5, no. 3 (January 1, 2008): 320-328.
+
+Beebe, James R. "The Abductivist Reply to Skepticism." //Philosophy And Phenomenological Research// 79, no. 3 (November 1, 2009): 605-636.
+
+BonJour, Laurence, and Ernest Sosa. //Epistemic Justification: Internalism vs. Externalism, Foundations vs. Virtues//. Malden, MA: Blackwell Pub., 2003. PDF.
+
+Byerly, T. "Explanationism and Justified Beliefs about the Future." //Erkenntnis// 78, no. 1 (February 1, 2013): 229-243.
+Fumerton, Richard A. Metaepistemology and Skepticism. Lanham, MD: Rowman & Littlefield, 1995. DJVU.
+
+Fumerton, Richard. "Skepticism and Reasoning to the Best Explanation in Rationality in Epistemology, Villanueva, Enrique (ed)." Atascadero: Ridgeview, 1992.
+
+Harper, Alexander. "An Oblique Epistemic Defence of Conceptual Analysis." //Metaphilosophy// 43, no. 3 (April 2012): 235-56.
+Lipton, Peter. Inference to the Best Explanation. 2nd ed. London : Routledge, 2005. PDF.
+
+Lycan, William G. "Explanation and Epistemology." In //The Oxford Handbook of Epistemology//, Oxford: Oxford Univ Pr, 2002.
+
+McCain, Kevin. "Inference to the Best Explanation and the External World: A Defense of the Explanationist Response to Skepticism." Diss., University of Rochester, 2011. http://hdl.handle.net/1802/21405.
+
+Moretti, Luca. //Global Scepticism, Underdetermination and Metaphysical Possibility//. University of London. PhilPapers. http://philpapers.org/rec/MORGSU.
+
+Peacocke, Christopher. //The Realm of Reason//. Oxford: Clarendon Press, 2004. PDF.
+
+Poston, Ted. "Explanationist Plasticity and the Problem of the Criterion." //Philosophical Papers// 40, no. 3 (November 2011): 395-419.
+
+Jonathon Vogel, "Internalist Responses to Skepticism," in //The Oxford Handbook of Skepticism//, ed. John Greco (Oxford: Oxford University Press, 2008): 533-556
+
+Vogel, Jonathan. "Internalist Responses to Skepticism." //Oxford Handbooks Online//, September 2009. 
+
+Vogel, Jonathan. "Skeptical Arguments." //Nous-Supplement: Philosophical Issues// 14, (January 1, 2004): 426-455.

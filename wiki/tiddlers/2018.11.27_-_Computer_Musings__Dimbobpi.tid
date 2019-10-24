@@ -1,0 +1,40 @@
+created: 20181127212817413
+creator: h0p3
+modified: 20181129001100424
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.11.27 - Computer Musings: Dimbobpi
+
+!! On dimbob (since I can afford to lose root on it):
+
+```bash
+sudo apt-get install python-software-properties
+curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
+sudo apt-get install nodejs -y
+mkdir ~/dats
+cd ~/dats
+echo 'dat://6ca5bfb34c0bbfa8751b6d85f591b7a007b89df7207dc0aa9885bf00be610c8f' >> feeds #kickscondor
+echo "hypercored --cwd /home/pi/storage/dats" > /home/pi/storage/dats/services
+sudo su
+npm install -g hypercored dat add-to-systemd lil-pids
+add-to-systemd dat-lil-pids $(which lil-pids) /home/pi/storage/dats/services /home/pi/storage/dats/pids
+systemctl enable dat-lil-pids
+systemctl start dat-lil-pids
+exit
+```
+
+Voila. Fuck it.
+
+!! On dallas:
+
+Stripped everything out and went for it on root. Also did an upgrade.
+
+`add-to-systemd dat-lil-pids $(which lil-pids) /home/h0p3/dats/services /home/h0p3/dats/pids`
+
+---
+
+Insane mistake with git. [[JHBFC]].
+
+---
+
+[[kicks]] now has 2 dat nodes of mine up. Doesn't look like he has it set to auto-update. I'm a fan of the dat public key over the domain name specifically because we can own the private keys, but we can never truly own our domain names on the internet.

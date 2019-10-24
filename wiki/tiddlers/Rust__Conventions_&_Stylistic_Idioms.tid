@@ -1,0 +1,49 @@
+created: 20180116214239752
+modified: 20180121040209307
+revision: 0
+title: Rust: Conventions & Stylistic Idioms
+type: text/vnd.tiddlywiki
+
+!! Thaw / Frozen:
+
+You should comment about mutability and ownership.
+
+```cpp
+let x = some_value;
+...
+let mut x = x; // temporarily mutable, "thawed"
+...
+let x = x; // no longer mutable, "frozen"
+```
+
+!! Whitespace for Chained Methods:
+
+When you call more than one method with the .foo() syntax, introduce a newline and other whitespace to help break up long lines. 
+
+```cpp
+io::stdin().read_line(&mut guess)
+           .expect("Failed to read line");
+
+// Write in the style above instead of below:
+
+io::stdin().read_line(&mut guess).expect("Failed to read line");
+```
+
+!! Constant Naming Convention:
+
+Rust constant naming convention is to use all upper case with underscores between words
+
+```cpp
+const MAX_CORES: u32 = 8;
+```
+
+!! Snake Case
+
+Rust code uses snake case as the conventional style for function and variable names. In snake case, all letters are lowercase and underscores separate words.
+
+```cpp
+fn another_function() {
+    println!("Another function.");
+}
+```
+

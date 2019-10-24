@@ -1,0 +1,12 @@
+created: 20181227042014835
+modified: 20181227042535258
+tags: [[Computer Musings]]
+title: 2018.12.26 - Computer Musings: tabPreloader
+
+https://addons.mozilla.org/en-US/firefox/addon/tabpreloader/
+
+Behold, I have found it! This has been a missing puzzle piece to my [[hyperread]]ing, especially for [[Link Log]]. Tree style tabs just aren't cutting it, especially since i3 basically obsoletes much of the need for treestyle tabs (although, I've noticed that I can pull out the root and the whole tree goes into a new window: which is bitchin' awesome). 
+
+Sometimes I smash through my tabs since this is not the first time I've read them and some of them are literal garbage. Since I have so many damned tabs, I have to save on memory by not having them all loaded. Most tabs are just [[PH]]s. Unfortunately, spam-holding ctrl+tab is a huge fucking drain on all of my resources, but this handles it more elegantly. I still need to tweak the settings, but I finally have a way to incrementally load in the background (and I like that I can move in any direction).
+
+This is the behavior that makes me love my browser so much.

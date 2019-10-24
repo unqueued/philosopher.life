@@ -1,0 +1,92 @@
+created: 20170326212356574
+creator: h0p3
+modified: 20181101221751327
+modifier: h0p3
+revision: 0
+title: lighttpd.conf for this Wiki's Host
+
+```
+server.modules = (
+        "mod_access",
+        "mod_compress",
+        "mod_redirect"
+)
+
+$SERVER["socket"] == ":443" {
+ssl.engine = "enable"
+ssl.pemfile = "/etc/letsencrypt/live/philosopher.life/web.pem" # Combined Certificate
+ssl.ca-file = "/etc/letsencrypt/live/philosopher.life/chain.pem" # Root CA
+server.name = "philosopher.life" # Domain Name OR Virtual Host Name
+server.document-root = "/var/www/html" # Document Root
+server.errorlog = "/var/log/lighttpd/error.log"
+}
+
+$HTTP["scheme"] == "http" {
+$HTTP["host"] == "philosopher.life" { # HTTP URL
+url.redirect = ("/.*" => "https://philosopher.life$0") # Redirection HTTPS URL
+}
+}
+
+server.document-root        = "/var/www/html"
+server.upload-dirs          = ( "/var/cache/lighttpd/uploads" )
+server.errorlog             = "/var/log/lighttpd/error.log"
+server.pid-file             = "/var/run/lighttpd.pid"
+
+server.username             = "www-data"
+server.groupname            = "www-data"
+server.port                 = 80
+index-file.names            = ( "index.php", "index.html", "index.lighttpd.html" )
+url.access-deny             = ( "~", ".inc" )
+
+static-file.exclude-extensions = ( ".php", ".pl", ".fcgi" )
+
+compress.cache-dir          = "/var/cache/lighttpd/compress/h0p3"
+compress.filetype           = ( "application/javascript", "text/css", "text/html", "text/plain" )
+
+mimetype.assign = (
+  ".html" => "text/html", 
+  ".txt" => "text/plain",
+  ".jpg" => "image/jpeg",
+  ".png" => "image/png" 
+)
+
+$HTTP["host"] == "live.philosopher.life" {
+    server.document-root            = "/var/www/html"
+    compress.cache-dir              = "/var/cache/lighttpd/compress/h0p3"
+}
+
+$HTTP["host"] == "bookwyrm.philosopher.life" {
+    server.document-root            = "/var/www/k0sh3k-html"
+    compress.cache-dir              = "/var/cache/lighttpd/compress/k0sh3k"
+}
+
+$HTTP["host"] == "k0sh3k.philosopher.life" {
+    server.document-root            = "/var/www/k0sh3k-html"
+    compress.cache-dir              = "/var/cache/lighttpd/compress/k0sh3k"
+}
+
+$HTTP["host"] == "jedihacker.philosopher.life" {
+    server.document-root            = "/var/www/j3d1h-html"
+    compress.cache-dir              = "/var/cache/lighttpd/compress/j3d1h"
+}
+
+$HTTP["host"] == "j3d1h.philosopher.life" {
+    server.document-root            = "/var/www/j3d1h-html"
+    compress.cache-dir              = "/var/cache/lighttpd/compress/j3d1h"
+}
+
+$HTTP["host"] == "kokonut.philosopher.life" {
+    server.document-root            = "/var/www/1uxb0x-html"
+    compress.cache-dir              = "/var/cache/lighttpd/compress/1uxb0x"
+}
+
+$HTTP["host"] == "1uxb0x.philosopher.life" {
+    server.document-root            = "/var/www/1uxb0x-html"
+    compress.cache-dir              = "/var/cache/lighttpd/compress/1uxb0x"
+}
+
+$HTTP["host"] == "antsmelody.philosopher.life" {
+    server.document-root            = "/var/www/antsmelody-html"
+    compress.cache-dir              = "/var/cache/lighttpd/compress/antsmelody"
+}
+```

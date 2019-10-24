@@ -1,0 +1,24 @@
+created: 20171223142422307
+modified: 20181225005751426
+modifier: h0p3
+revision: 0
+tags: [[Computer Musings]]
+title: 2017.12.23 - Computer Musings: KDE
+
+KDE is functionally gorgeous. It has improved dramatically. It is without a doubt my favorite desktop environment. 
+
+Tried KDE Connect. Very interesting. Will keep it up.
+
+Setup Samba to share with the Chromebook. Setup Kodi. Flickers, but can't stop the behavior. Doesn't matter on playback though, which is fine.
+
+Tried Telepathy. XMPP configuration isn't functional. It looks pretty, but it doesn't work. I'll stick to using a tool designed for it. I'm sad since it looks like it could have wonderful integration. 
+
+Tried a KDE/Dolphin Dropbox addon. Meh. Also, it messed up my Recent in Dolphin. Cleaned that up.
+
+Tried bcompare for KDE. Bcompare works, but I don't see the integration.
+
+Tried out i3 wm for KDE.<<ref "2018.12.24">>
+
+
+---
+<<footnotes "2018.12.24" "I'm pleased that I started mulling it around. I really needed it!">>

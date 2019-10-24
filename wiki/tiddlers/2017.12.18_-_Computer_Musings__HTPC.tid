@@ -1,0 +1,20 @@
+created: 20171218215508650
+modified: 20181225003231292
+modifier: h0p3
+revision: 0
+tags: [[Computer Musings]]
+title: 2017.12.18 - Computer Musings: HTPC
+
+m10 is set, by and large. Sync ended up being slower than just sftp, sadly. I grabbed my stuff, setup the syncs, and that's that.
+
+Fixed daily snapshots. I guess I missed a couple days. I thought my daughter implemented it in the git script, but I see it didn't. It is fixed. I still need to mass rename the old to match the new format.
+
+HTPC is giving off static. I think we might have a grounding problem. It is reporting electrical errors for the USB drives. Temps were fucking 100c. Reseated and put a large heatsink on it meant for OCing. Not booting up, although there is power going to it. I hope it's not bricked, and more importantly, I hope that our electrical system is safe. I tried contacting my brother, but I didn't get ahold of him. I will later. I need to know. 
+
+Helped my wife with some CLI work for searching her wiki. She couldn't get the save to work.
+
+Trying to get it working on her's. Problems. Don't know CMOS password, but don't feel like hard resetting it. 
+
+ksuperkey is equivalent to ALT+F1. Just had to make my menu work against with super. noice.
+
+D2 is up and running.

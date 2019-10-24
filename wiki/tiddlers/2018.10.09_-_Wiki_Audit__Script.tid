@@ -1,0 +1,28 @@
+created: 20181009213155699
+creator: h0p3
+modified: 20181020180700989
+modifier: h0p3
+tags: [[Wiki Audit]]
+title: 2018.10.09 - Wiki Audit: Script
+
+I've been making a lot of {[[Dreams]]} today. That's interesting. I hope I continue to do that.
+
+---
+
+Some of the transformation on this wiki should be scripted changes. I've been pushing for it for a while. I'm still not sure what I want. I think a nightly script, however, is a very real possibility. Having an external tool work on TW is good. I need to find a way to start connecting the rest of my computing system to the TW while still keeping the TW as unified as possible. It is also possible that it will go the other direction, and that eventually my wiki will be a tool for controlling my devices' backends as well. The wiki is the nexus.
+
+Nightly and massage scripts seem like good external tools. Eventually, if something is important enough, we can internalize it. 
+
+* [[Nightly Internal Signature]]
+* [[Wiki: One-Time Massage Scripts]]
+* [[Wiki: Nightly Script]]
+
+This is still being planned. I'm hoping to see some unilink tool come out, otherwise I will ask TW forums for suggestions. I can still do the audit without these and just have a place where I keep that information for later: [[Unilink Candidates]]
+
+---
+
+I'm going to try to overextend into [[Tags]] and then cull. I just don't know what is really valuable until I've done it. I need to make mistakes. However, the goal is to be able to completely remove the tags and lose no critical structure. The [[Tags]] are meant to aid, complement, and perhaps provide footholds. Maybe one day they will be even more than that, especially for automation. But, for now, they are a giant experiment.
+
+---
+
+I can see that I want to have a powerful long-term memory of this wiki burned into me. I legitimately want to know where everything is. I want to know where everything belongs. I want to see it in my head instantly. Some people memorize scripture, but I'd rather memorize the structure of my wiki to know myself (how else can I change it effectively enough?). 

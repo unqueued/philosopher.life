@@ -1,0 +1,27 @@
+created: 20180907031803315
+creator: h0p3
+modified: 20180907031957753
+modifier: h0p3
+tags: 
+title: lazy_dat_share.sh
+
+```bash
+#!/bin/bash
+
+# Fuck you, crontab!
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:~/bin
+
+# dat share with lock
+trap "rm -f /tmp/lazydatshare.lock" SIGINT SIGTERM
+if [ -e /tmp/lazydatshare.lock ]
+then
+  echo "lazydatshare is running already."
+  exit 1
+else
+  touch /tmp/lazydatshare.lock
+  dat share /home/h0p3/syncs/wiki-dat
+  rm -f /tmp/lazydatshare.lock
+  trap - SIGINT SIGTERM
+  exit 0
+fi
+```

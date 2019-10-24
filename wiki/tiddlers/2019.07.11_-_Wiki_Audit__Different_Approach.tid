@@ -1,0 +1,18 @@
+created: 20190711120231073
+modified: 20190711230432563
+tags: [[Wiki Audit]] [[Computer Musings]]
+title: 2019.07.11 - Wiki Audit: Different Approach
+
+I can see I'm missing stuff, though it should be in my snapshots. As I walk through this wiki in [[The Remodeling]], I'll need to keep a list of what's missing, hence: [[Wiki Audit: Dude, Where's My Tiddler?]].
+
+---
+
+Trying a different approach to [[dotfiles]] with a prefix. Hopefully, they will stay. 
+
+---
+
+The code transclusion snippet is amazing. Alongside [[Commander]] and [[subl]], I've eliminated a good bit of handwork. This is my molecularizer. Further, I often need to change conventions, and I want to be able to go back and fix it. Just have to think about how to do it, and I ain't so good at that.
+
+---
+
+Hrm. Git went haywire. I am grateful to have such a rich zhist, lol. 

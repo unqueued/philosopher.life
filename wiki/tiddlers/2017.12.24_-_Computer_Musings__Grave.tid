@@ -1,0 +1,12 @@
+created: 20171224145823655
+modified: 20181225010132736
+modifier: h0p3
+revision: 0
+tags: [[Computer Musings]]
+title: 2017.12.24 - Computer Musings: Grave
+
+Alt+Grave (unshifted Tilde key) is Alt+Tab for a particular application. Neat.
+
+My daughter just magically makes rslsync work. Lol. That is not fair. =) One hiccup, but an autostart fixed it.
+
+I have to clear target known_hosts in .ssh to make Dolphin's SFTP integration work. I'm not sure why.

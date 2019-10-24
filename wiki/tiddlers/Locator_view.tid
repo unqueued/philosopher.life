@@ -1,0 +1,12 @@
+caption: Locator
+created: 20190109213701491
+modified: 20190709201211247
+revision: 0
+tags: Map
+title: Locator view
+type: text/vnd.tiddlywiki
+
+<!-- Don't forget to change the text of $:/config/Search/AutoFocus to `false`, see the docs for details! -->
+<$reveal type="match" default="" text={{{ [prefix[$:/state/popup/search-dropdown]] }}}>
+  <<locator-view baseTitle:"TableOfContents">>
+</$reveal>

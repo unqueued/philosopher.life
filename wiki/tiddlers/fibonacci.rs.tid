@@ -1,0 +1,26 @@
+created: 20180126033806798
+modified: 20180126033812715
+tags: 
+title: fibonacci.rs
+
+```cpp
+fn main() {
+    // choose n, which will be the nth digit of the fibonacci sequence
+    let n: u64 = 20;
+
+    println!("The {}th number in the Fibonacci sequence is: {}", n, fib(n));  
+}
+
+// Gonna be honest, I just looked up the recursive mathematical definition
+// I know it's slow...
+// Also, with u32, it will panic 'attempt to add with overflow' at higher numbers
+fn fib(n: u64) -> u64 {
+    if n == 0 {
+        0
+    } else if n == 1 {
+        1
+    } else {
+        (fib(n - 1) + fib(n - 2))
+    }
+}
+```

@@ -1,0 +1,103 @@
+created: 20170415131831087
+modified: 20170421201933443
+revision: 0
+title: Idle Tower Defense
+
+This attempts to mix two game-styles, and it is basically the seed of what could be a truly epic game (it's far from being epic, but still quite enjoyable). It probably needs to be streamlined (there are some gameplay and mathematical strategies to it which aren't designed in a friendly or intuitive way) and the skinner-box reward components needs some tuning as well. Mixing these two game-styles probably isn't easy, despite having some conceptual overlap, and the author did a fine job.
+
+* You really want to rush to Prestige. But, your investments can't be stupid. I've tried a number of strategies. I'm not particularly in love with any of them. The goal is to be as passive as possible. In a way, that means buying the right order at the right time. If you can fly through waves without any failures, you're on the right track. It's balancing that pre-Prestige level grind with deeper pushes. 
+
+* Getting the right map matters. As far as I can tell, rushing to lvl 50 for Prestige reset is the only way to remake the map. I take it to be the case that eventually, towards the mid to late game, pushes will be reliant upon grinding for the right map to make your deep run. 
+
+* I've found that upgrading Turrets is a sign that you aren't progressing well enough. Your goal is to get the point where you drop a turret and ride it (hopefully it is one-shotting at first) until you can afford another. 
+
+* Daily Bonus and the Offline Bonus can be used to very quickly jumpstart your resets. 
+
+* I suggest using a device you can AFK farm on full-time.
+
+* Pay attention to the DPS to Cost ratios, and then consider how you value their effects.
+
+* Spend your diamonds on gambling and recycling diamonds to fine the best initial blueprints you can find. 
+
+* Crits are absurdly powerful. Since you are simply trying to clear bosses, you can AFK farm each wave until you are lucky on your crit rolls to take bosses down. Even for the Axethrower, a single crit can completely outdamage everything he'd normally deal for the duration of a mob in his range (even with a very extended range).
+
+Early Game:
+
+* You are finding the fastest way to clear through Wave 50 so that you can prestige. 
+* Grind your way to Wave 50 a few times. You are collecting everything. Spend whatever it takes and reset.
+* The initial boostrapping goal is to have enough resources to start shaping your zero-failure runs through Wave 50.
+* The ultimate goal of the early game is to 1-shot everything through Wave 50. Once you can do that, you should continue pushing how far you can 1-shot.
+* After the early game, if you are spending mana, you are doing it wrong.
+
+Mid Game:
+
+* You are farming Scraps, Auras, and Diamonds (i.e. Blueprints gambling and investment).
+* Suggested path:
+** Axe Thrower Opening
+*** Just pump your gold straight into him. With enough permanent resources earned, you can just max level him once in a while as you race to 50. Done.
+*** His speed allows him to clear both waves and bosses with great consistency.
+*** If you find the perfect equipment, it could be worth investing in it. He's your initial grind choice, make it rock.
+* You must build your way into the best turrets you can. Presumably, the higher level ones with multiple abilities are the truly impossible to replace aspects of them.
+
+Towers:
+
+|customTable|k
+|Class
+Class-1 Tower|Prereq-1|Prereq-2|h
+|Knight|n/a|n/a|
+|Snowblower|n/a|n/a|
+|Axe Thower|n/a|n/a|
+|Giant|n/a|n/a|
+|Spider|n/a|n/a|
+|Turret|n/a|n/a|
+|Marine|n/a|n/a|
+|Minotaur|n/a|n/a|
+|Class
+Class-2 Tower|Prereq-1|Prereq-2|h
+|Ice Giant|Knight|Snowblower|
+|Golem|Axe Thrower|Giant|
+|Compsognathus|Spider|Minotaur|
+|Sharpshooter|Marine|Turret|
+|Class
+Class-3 Tower|Prereq-1|Prereq-2|h
+|Dragon Boar|Ice Giant|Sharpshooter|
+|Cyclops|Ice Giant|Compsognathus|
+|Tank|Golem|Compsognathus|
+|Flamethrower|Golem|Sharpshooter|
+|Class
+Class-4 Tower|Prereq-1|Prereq-2|h
+|Rocket Turret|Dragon Boar|Cyclops|
+|Forest Guard|Cyclops|Tank|
+|Ice Rhino|Tank|Flamethrower|
+|Mage Tower|Dragon Boar|Flamethrower|
+
+Tower costs (both buying new ones and leveling) scale up exponentially, thus investment paths are key. Unfortunately, to acquire a Class
+Class-4 tower requires 2 Class
+Class-3 towers, which requires at the minimum 3 Class
+Class-2 towers, which requires at the minimum 6 Class
+Class-1 towers. 
+
+It is not clear that all towers are equal in this game. Some seem obviously better than others. Again, Axe Thrower seems obviously the best, followed by Spider. I'm going to hit Class
+Class-3 first and then figure out what I like from there. I'm going for Flamethrower first.
+
+Build order: 
+
+# Axe Thrower 
+# Turret 
+# Giant 
+# Marine
+# Golem 
+# Sharpshooter 
+# Flamethrower
+# Spider
+# Minotaur
+# Compsognathus
+# Tank
+# Ice Rhino
+
+
+~~
+You invest as far as you can, then you log. Reset and use your offline gold to start fresh. It's a way to snowball gold you should never have.
+~~
+
+Grind on screen as long as you can. Pickup the Star-based achievement resources.

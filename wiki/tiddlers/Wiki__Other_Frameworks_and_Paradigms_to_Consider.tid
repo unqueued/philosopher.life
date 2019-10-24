@@ -1,0 +1,26 @@
+created: 20170408051246049
+modified: 20190705054420562
+revision: 0
+tags: [[Program Yourself]] Wiki
+title: Wiki: Other Frameworks and Paradigms to Consider
+
+* Utilitarianism
+** Diminishing Marginal Utility
+
+* The Unix guru philosophers of yore offer us this wisdom
+** Write programs that do one thing and do it well.
+** Write programs to work together.
+** Write programs to handle text streams, because that is a universal interface.
+
+* Other famous programming principles and dictums:
+** DRY. Don't Repeat Yourself. Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
+*** Write code designed to be reused (corollary of DRY).
+*** Rule of Three (a pragmatically weakened rule-of-thumb variant of DRY for refactoring). Code can be copied once, but when the same code is used three times, it should be extracted into a new procedure.
+** If it ain't broke, don't fix it.
+
+* The Bayesians have much to say.
+** Subjective Logic: https://folk.uio.no/josang/sl/
+
+* The Less-Wrongers, Positive Disintegrationists, Meaningnessists, Nihilists, Socialists, Redpillers, Daoists, and other Metamoderns also have much to say.
+
+* When all else fails, carefully consider the wisdom of the crowds, but turn up the signal-to-noise ratio as high as you can by curiously curating (be intellectually honest).

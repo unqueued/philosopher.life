@@ -1,0 +1,77 @@
+created: 20180120202024432
+modified: 20190323145630441
+modifier: h0p3
+revision: 0
+tags: [[Link Log]]
+title: 2018.01.20 - Link Log: Isle 5
+type: text/vnd.tiddlywiki
+
+* Preach, yo!
+** http://www.bbc.com/news/health-42732442
+** https://www.reddit.com/r/LateStageCapitalism/comments/7rpcd9/here_comes_the_flood/
+** https://theoutline.com/post/2996/michael-moritz-china-essay-for-financial-times-is-real-garbage?zd=3
+
+* Confirm My Bias
+** https://intoli.com/blog/not-possible-to-block-chrome-headless/
+*** That's a losing proposition. You can't win that fight. Google wants this tool to be amazing, and it has to be built to defeat very serious hackers who build viruses that defend themselves when they recognize they are trapped inside an unpredicted VM.
+** http://www.socialmatter.net/2016/07/15/swpls-amerikaners-alt-right-coming-state/
+*** Ah, the Alt-Right is filled with profound ignorance and malice. It's incredibly loud. They are right to be angry, but they aren't intelligent enough to direct their anger correctly.
+*** https://unqualified-reservations.blogspot.com/2007/08/uberfact-ultimate-social-verifier.html
+**** Far more dangerous human. The holes in his philosophy game are pretty obvious. The does make important points, but his understanding of metaethics and philosophy of mind are pretty awful. 
+** https://www.scientificamerican.com/article/why-are-some-people-more-creative-than-others/
+*** https://www.nature.com/articles/nrn3857.epdf?referrer_access_token=owMEzt0L4s0sXcWhY9aLLdRgN0jAjWel9jnR3ZoTv0NPn-66m0_lH6BJOZZSdLzHtF8rV9hl--JicmaCPI_JZ6IKotnMjEr7FymFqI4oum1hASpx10MNHxwd068nrxuyMZ4snfICCQuaQK6I5MRhjkFF4FzE-FlQ0_pQX4z3gUZgLiVB9RvJ7bX1KVl-G6ma&tracking_referrer=www.scientificamerican.com
+**** I love to see confirmation of my perception of our minds as networks of computers. 
+*** http://www.jneurosci.org/content/27/9/2349.short
+** https://www.topic.com/can-you-arrest-people-before-they-commit-crimes
+** https://www.lesserwrong.com/posts/HtikjQJB7adNZSLFf/conversational-presentation-of-why-automation-is-different
+
+* Disconfirm My Bias
+** https://hacks.mozilla.org/2018/01/making-webassembly-even-faster-firefoxs-new-streaming-and-tiering-compiler/
+*** I've been under the impression that Spectre's borderline feasibility-base unsolvability will cripple web browsers and VMs for at least a decade to come. Mozilla seems non-plussed here. It is possible that Rust's threading into WASM will be destroyed in the ways in the browsers are forced to isolate processes.
+*** The speed and order of compiling with downloaded source is very cool. World class creators, and I think Rust will eventually be the fastest of the languages. It's narrow and easier to make proofs about in a sense. It's going to be part of the post-Moore's Law for single-threading paradigm of computing. It may be the new the C in that world.
+
+* Think About It
+** https://www.washingtonpost.com/blogs/plum-line/wp/2018/01/18/the-russia-scandal-just-got-bigger-and-republicans-are-trying-to-prevent-an-accounting/
+*** I rarely find videos worthwhile in hyperreading. Power's interview was worth my time.
+** https://nypost.com/2018/01/10/when-does-micro-cheating-cross-the-line/
+*** Generally terrible arguments, but it is clear that they have something we need to think about. Such actions do reveal important things about us, regardless of our immediate control over them. These are expressions of character, habit, and systematic belief.
+** https://www.theatlantic.com/politics/archive/2018/01/pro-life-pro-science/549308/
+*** For me, I don't think all humans lives should be lived. 
+
+* Fishy
+** http://www.businessinsider.com/future-of-artificial-intelligence-microsoft-brad-smith-harry-shum-2018-1
+*** What in the fuck happened at the end of the article? That transition is odd to the point of being suspicious.
+** https://www.theatlantic.com/technology/archive/2018/01/the-oil-spill-that-wasnt/550820/
+*** Odd. Gutcheck feels off.
+** https://www.vox.com/policy-and-politics/2018/1/19/16911148/government-shutdown-unified-control
+*** This is no accident. This is more strong-arming. They know they own a large enough percentage of the population that they can do whatever the fuck they want with the rest of us. The consequences are perfectly acceptable to them. They will stay solvent enough to bring us all down; the one with the power to destroy a thing has the power over it. Hence, the Rightist movement has the power. We dare not let them push the button, but with each passing year, we give more and more to them. We are their whores.
+** http://www.trustnodes.com/2018/01/19/switzerland-become-crypto-nation-says-minister
+*** Ever the neutral party to great crimes.
+** https://www.politico.com/story/2018/01/19/nsa-deletes-surveillance-data-351730
+*** ROFL. Bullshit!
+
+* Interesting
+** http://badgirlsbible.com/come-here-often
+*** Yup.
+** http://www.bbc.com/future/story/20180118-the-boy-who-stayed-awake-for-11-days
+** https://www.thecut.com/2018/01/maybe-men-will-be-scared-for-a-while.html
+** https://www.buzzfeed.com/tomphillips/twitterstorm-2018?utm_term=.rfenn0br0N#.ulY99oxyoE
+*** Meme-tracing
+
+* For my self:
+** https://melmagazine.com/if-youre-crushingly-lonely-you-re-not-alone-bbcf278401ab
+
+* For my daughter:
+** https://blog.valerieaurora.org/2018/01/17/getting-free-of-toxic-tech-culture/
+*** You may face unexpected difficulties.
+
+* For my son:
+** https://www.youtube.com/channel/UCAL3JXZSzSm8AlZyD3nQdBA
+*** This is a channel you should dream about.
+
+* For my wife:
+** https://electricliterature.com/what-flannery-oconnor-taught-me-about-chronic-illness-5dd75130df15
+
+* SCWR
+** https://en.wikipedia.org/wiki/SOCKS#SOCKS_proxy_server_implementations
+** https://en.wikipedia.org/wiki/Bacteriophage

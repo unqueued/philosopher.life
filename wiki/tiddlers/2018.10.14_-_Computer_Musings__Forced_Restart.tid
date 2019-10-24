@@ -1,0 +1,10 @@
+created: 20181015132647577
+creator: h0p3
+modified: 20181029175224796
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.10.14 - Computer Musings: Forced Restart
+
+Something was weird this morning on m10. Huge packetloss from my end and everything was timing out. LAN was fine, and confusingly, everything else on the LAN wasn't having the trouble I was. From my noob instinct, I went for a restart, /gasp. 
+
+I got an error about a "spurious" something from my graphics card I've not seen before on shutdown. Neat. Everything is fine after the restart. Chalk another one up to my incompetence and luck of avoiding the consequences of it thus far.

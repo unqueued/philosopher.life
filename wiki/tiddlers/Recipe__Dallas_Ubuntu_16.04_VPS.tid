@@ -1,0 +1,196 @@
+created: 20181126035252122
+creator: h0p3
+modified: 20181202212041140
+modifier: h0p3
+tags: Computing Recipe
+title: Recipe: Dallas Ubuntu 16.04 VPS
+
+Add h0p3:
+
+<<<
+```bash
+apt-get update # I remind you: never fucking upgrade because OpenVZ 6 is shit.
+useradd -m h0p3
+passwd h0p3
+visudo
+```
+
+Below root in `# User privilege specification` add the following:
+
+`h0p3 ALL=(ALL) ALL`
+
+```bash
+crontab -e # because screw it, it's going to fail eventually
+```
+
+```
+@reboot mkdir -p /var/run/sshd && systemctl start sshd >/dev/null 2>&1
+*/5 * * * * mkdir -p /var/run/sshd && systemctl start sshd >/dev/null 2>&1
+```
+<<<
+
+
+Install Some Goodies:
+
+<<<
+```bash
+apt-get install nano w3m iotop powertop htop iftop bmon nethogs ncdu discus mtr smem inxi hwinfo mc ranger unrar dtrx lftp sshfs aria2 curl sshuttle python-pip python3-pip -y # actually, has the libc fuckup =/
+
+sudo -H pip2 install --upgrade pip && sudo -H pip3 install --upgrade pip && sudo -H pip install xonsh
+```
+<<<
+
+
+Setup SSH for h0p3:
+
+<<<
+```bash
+nano /etc/ssh/sshd_config
+```
+
+Set `PermitRootLogin no`
+
+Set `Port 4222`
+
+```bash
+systemctl restart sshd
+```
+
+On your local machine, run [[lussh]].
+<<<
+
+
+Install & Configure Resilio Sync:
+
+<<<
+```bash
+echo "deb http://linux-packages.resilio.com/resilio-sync/deb resilio-sync non-free" | sudo tee /etc/apt/sources.list.d/resilio-sync.list
+
+wget -qO - https://linux-packages.resilio.com/resilio-sync/key.asc | sudo apt-key add -
+sudo apt-get update && sudo apt-get install resilio-sync -y
+sudo systemctl enable resilio-sync && sudo systemctl start resilio-sync
+sudo nano /etc/resilio-sync/config.json  #set 127.0.0.1 to 0.0.0.0 for remote webui access
+sudo systemctl restart resilio-sync
+```
+
+Setup from WebUI. Set permissions as needed. Don't forget to take care of what will be archived.
+<<<
+
+
+Configure Apache Sites:
+
+<<<
+```bash
+cd /var/www
+sudo chmod +755 html
+sudo mkdir bookwyrm
+sudo mkdir 1uxb0x
+sudo mkdir j3d1h
+sudo chmod +755 bookwyrm
+sudo chmod +755 1uxb0x
+sudo chmod +755 j3d1h
+```
+
+```bash
+sudo nano /etc/apache2/sites-available/bookwyrm.philosopher.life.conf
+```
+
+```
+<VirtualHost *:80>
+    ServerName bookwyrm.philosopher.life
+    DocumentRoot /var/www/bookwyrm
+</VirtualHost>
+```
+
+```bash
+sudo nano /etc/apache2/sites-available/k0sh3k.philosopher.life.conf
+```
+
+```
+<VirtualHost *:80>
+    ServerName k0sh3k.philosopher.life
+    DocumentRoot /var/www/bookwyrm
+</VirtualHost>
+```
+
+```bash
+sudo nano /etc/apache2/sites-available/1uxb0x.philosopher.life.conf
+```
+
+```
+<VirtualHost *:80>
+    ServerName 1uxb0x.philosopher.life
+    DocumentRoot /var/www/1uxb0x
+</VirtualHost>
+```
+
+```bash
+sudo nano /etc/apache2/sites-available/j3d1h.philosopher.life.conf
+```
+
+```
+<VirtualHost *:80>
+    ServerName j3d1h.philosopher.life
+    DocumentRoot /var/www/j3d1h
+</VirtualHost>
+```
+
+```bash
+sudo a2ensite bookwyrm.philosopher.life.conf
+sudo a2ensite k0sh3k.philosopher.life.conf
+sudo a2ensite 1uxb0x.philosopher.life.conf
+sudo a2ensite j3d1h.philosopher.life.conf
+sudo service apache2 restart
+```
+<<<
+
+
+Setup Zerotier:
+
+<<<
+```bash
+curl -s 'https://pgp.mit.edu/pks/lookup?op=get&search=0x1657198823E52A61' | gpg --import && if z=$(curl -s 'https://install.zerotier.com/' | gpg); then echo "$z" | sudo bash; fi
+
+sudo systemctl enable zerotier-one && sudo systemctl start zerotier-one
+sudo zerotier-cli join REDACTED
+```
+
+Don't forget to login to zerotier to turn it on.
+<<<
+
+Setup Dropbox:
+
+<<<
+```bash
+wget https://www.dropbox.com/download?plat=lnx.x86_64 -O dropbox-linux.tar.gz
+sudo mkdir /opt/dropbox/
+sudo tar xvf dropbox-linux.tar.gz --strip 1 -C /opt/dropbox
+/opt/dropbox/dropboxd # visit link and connect
+sudo nano /etc/systemd/system/dropbox.service
+```
+
+```
+[Unit]
+Description=Dropbox Daemon
+After=network.target
+
+[Service]
+Type=simple
+User=h0p3
+ExecStart=/opt/dropbox/dropboxd
+ExecStop=/bin/kill -HUP $MAINPID
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+```
+
+```bash
+sudo systemctl start dropbox && sudo systemctl enable dropbox
+crontab -e
+```
+
+```
+* * * * * rsync -acr --delete --force --exclude=".*" --exclude=".*/" /var/www/html /home/h0p3/Dropbox/philosopher.life
+```
+<<<

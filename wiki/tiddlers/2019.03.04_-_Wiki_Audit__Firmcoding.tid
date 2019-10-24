@@ -1,0 +1,14 @@
+created: 20190305011842382
+modified: 20190305012557079
+tags: [[Wiki Audit]]
+title: 2019.03.04 - Wiki Audit: Firmcoding
+
+[[Firmcoding]] works. [[Core Daily Requirements]] have been converted. I think I should consider attaching everything to that button. I know I'm always going to push it...or I could build something to push it (sounds way more [[RGM]] fun).
+
+We can immediately convert many [[Directories]]. 
+
+I'm not convinced I want //Vault:// subsections in [[Directories]] to have any firmcoding, but //Dreams:// yes! Functioning directories will require multiple tiddlers if I do it that way. I'm just not a fan of that unless I must. I'll give //Focus:// a break though, it's that important.
+
+We'll need to build the [[Monthly Audit]] macro.
+
+I'm glad I already have a very listy-style. I believe I can specify the automation that I would do by hand here anyway. It's a hell of a hurdle.

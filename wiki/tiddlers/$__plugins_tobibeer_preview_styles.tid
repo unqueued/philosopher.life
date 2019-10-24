@@ -1,0 +1,12 @@
+created: 20181101051012979
+creator: h0p3
+modified: 20181101051410259
+modifier: h0p3
+tags: $:/tags/Stylesheet
+title: $:/plugins/tobibeer/preview/styles
+
+.tc-popup.tc-preview-tiddler{
+	max-width:900px;
+	width:100%;
+	padding:1em;
+}

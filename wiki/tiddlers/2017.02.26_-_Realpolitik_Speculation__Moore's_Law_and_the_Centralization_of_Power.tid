@@ -1,0 +1,13 @@
+created: 20170226230226615
+creator: h0p3
+modified: 20181105042317262
+modifier: h0p3
+revision: 0
+tags: [[Realpolitik Speculation]] RPIN [[Computer Musings]]
+title: 2017.02.26 - Realpolitik Speculation: Moore's Law and the Centralization of Power
+
+Moore's law has been dead for a while. It started dying about a decade ago. Sandy Bridge was the last real leap forward I can remember. Hell, my processors today barely defeat the CPU mounted on my wall from years ago. Single-threaded processing power has had zero improvements for a long time, and multi-threading software is really fucking hard to write outside of embarrassingly parallel tasks. Since then, we've seen the GPGPU, ASICs, and mobile (a.k.a. energy-efficient) computing evolve into their own beasts. Those are the only strides we can make. Increasingly, we must use specialized devices to gain competitive advantages. Applied computational science fields are beginning to advance around the fall of Moore's law, and they can only do so through specialized, non-general processing architectures.
+
+The winners are closed-source, proprietary, and specialized. They are building hard and fast, and the average person will be closed out. We cannot join their ranks. We can rent (while surveilled) from them, for now. The death of Moore's law has led to the massive "mainframe" centralization paradigm. This extends beyond the buzzwordian Web 2.0 + Cloud. As specialized hardware (and corresponding software) become that which has a fundamental competitive advantage, we mortals will be pushed out.  In the future, I won't have access as a general private citizen to hardware and software necessary to compete. Hardware and software controls and powers are centralizing (despite our best efforts to stop it), and as they specialize due to the death of Moore's law, this computational power will only continue to centralize behind walled-gardens, nation-states, military-industrial-complexes, multi-nationals, and IP-owners. 
+
+Information is a form of power (so is money, sex, and a number of other things). Computation is power. The centralization of computation is the centralization of power in a significant way. Yo, we're in trouble.

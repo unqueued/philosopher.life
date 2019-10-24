@@ -1,0 +1,16 @@
+created: 20180913022615038
+creator: h0p3
+modified: 20181020180700987
+modifier: h0p3
+tags: [[Wiki Audit]]
+title: 2018.09.12 - Wiki Audit: The Real-Time Question
+
+I've tried the nodejs version before. It opens up many possibilities. Unfortunately, minutely compilation burns a core, and I have no interest in it. Ugh. Sometimes I am having real-time conversations over my wiki with people. I could give up serving the entire wiki at once. It can be radically faster for people. There are a lot of security feature in keeping it unified. 
+
+Some of the automation I want to accomplish is best done from a real CLI. Just because you can pack everything into the wiki doesn't mean you should! 
+
+I simply can't give up on the unified document. I want a document that I can open up 10 years from now on any machine, and it works in the browser with no questions asked. I want something with ridiculous portability. It really needs to be a single html file. I'm never going to get past 500MB of plaintext, right? 
+
+I need to respond to [[Sphygmus]]. 
+
+

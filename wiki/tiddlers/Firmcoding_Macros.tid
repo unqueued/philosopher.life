@@ -1,0 +1,189 @@
+created: 20190304160738109
+modified: 20190412162445017
+tags: Firmcoding $:/tags/Macro j3d1h
+title: Firmcoding Macros
+
+\define dir-lists(delta)
+<$set name="mydate" value=<<now YYYY.0MM.>>>
+<$vars front="* [[" back="]]">
+<$list filter="[prefix[$delta$:]]"><<front>><$view field="title" /><<back>>
+</$list>
+;
+<$list filter="[tag[$delta$]!prefix[$delta$:]!regexp[\d\d\d\d.\d\d.\d\d - .*]!regexp[\d\d\d\d - .*]!regexp[\d\d\d\d.\d\d - .*]]"><<front>><$view field="title" /><<back>>
+</$list>
+;
+<$list filter="[regexp[^\d\d\d\d\.\d\d\.\d\d - $delta$]] [regexp[^\d\d\d\d\.\d\d\.\d\d - .*]tag[$delta$]!regexp[^\d\d\d\d.\d\d.\d\d - $delta$]] -[regexp[^\d\d\d\d.\d\d.\d\d - Retired: $delta$]] +[prefix<mydate>] +[sort[title]]"><<front>><$view field="title" /><<back>>
+</$list>
+</$vars>
+</$set>
+\end
+
+\define rel-lists(delta)
+<$vars front="* [[" back="]]">
+<$list filter="[prefix[$delta$:]]"><<front>><$view field="title" /><<back>>
+</$list>
+;
+<$list filter="[tag[$delta$]!prefix[$delta$:]!regexp[\d\d\d\d.\d\d.\d\d - .*]]"><<front>><$view field="title" /><<back>>
+</$list>
+;
+<$list filter="[regexp[^\d\d\d\d\.\d\d\.\d\d - $delta$]]"><<front>><$view field="title" /><<back>>
+</$list>
+;
+<$list filter="[regexp[^\d\d\d\d\.\d\d\.\d\d - .*]tag[$delta$]!regexp[^\d\d\d\d.\d\d.\d\d - $delta$]!regexp[^\d\d\d\d.\d\d.\d\d - Retired: $delta$]]"><<front>><$view field="title" /><<back>>
+</$list>
+</$vars>
+\end
+
+\define filter-list(delta)
+<$vars front="* [[" back="]]">
+<$list filter="$delta$"><<front>><$view field="title" /><<back>>
+</$list>
+</$vars>
+\end
+
+\define accu-rel-lists(delta)
+<$vars front="* [[" back="]]">
+<$list filter="[prefix[$delta$:]]"><<front>><$view field="title" /><<back>>
+</$list>
+;
+<$list filter="[tag[$delta$]!prefix[$delta$:]!regexp[\d\d\d\d.\d\d.\d\d - .*]!regexp[\d\d\d\d.\d\d - .*]!regexp[\d\d\d\d - .*]]"><<front>><$view field="title" /><<back>>
+</$list>
+;
+<$list filter="[regexp[^\d\d\d\d\.\d\d\.\d\d - $delta$]prefix[2019]] -[prefix[2019.01]] -[prefix[2019.02]] -[prefix[2019.03]]"><<front>><$view field="title" /><<back>>
+</$list>
+;
+<$list filter="[regexp[^\d\d\d\d\.\d\d\.\d\d - .*]tag[$delta$]!regexp[^\d\d\d\d.\d\d.\d\d - $delta$]!regexp[^\d\d\d\d.\d\d.\d\d - Retired: $delta$]prefix[2019]] -[prefix[2019.01]] -[prefix[2019.02]] -[prefix[2019.03]]"><<front>><$view field="title" /><<back>>
+</$list>
+</$vars>
+\end
+
+\define firmcode(code)
+<$wikify name=tip text="""Firmcode the Focus of tiddlers tagged $code$""" >
+<$button tooltip=<<tip>> aria-label="firmcode" class=<<tv-config-toolbar-class>>>
+<$list filter="[tag[$code$]]">
+<$wikify name=newTid text="""<$view field="title" />: Focus""" >
+<$wikify name=filterTid text="""<$view field="fc-filter" />""" >
+<$wikify name=newTidText text="""<$macrocall $name="$code$" delta=<<filterTid>>/>""" >
+<$action-setfield $tiddler=<<newTid>> tags="hardcopies no-recent" text=<<newTidText>>/>
+</$wikify>
+</$wikify>
+</$wikify>
+</$list>
+🞋
+</$button>
+</$wikify>
+\end
+
+\define firmcode-all()
+<$button tooltip="Firmcode the Focus of every firmcodable tiddler" aria-label="firmcode" class=<<tv-config-toolbar-class>>>
+<$list filter="[tag[dir-lists]]">
+<$wikify name=newTid text="""<$view field="title" />: Focus""" >
+<$wikify name=filterTid text="""<$view field="fc-filter" />""" >
+<$wikify name=newTidText text="""<$macrocall $name="dir-lists" delta=<<filterTid>>/>""" >
+<$action-setfield $tiddler=<<newTid>> tags="hardcopies no-recent" text=<<newTidText>>/>
+</$wikify>
+</$wikify>
+</$wikify>
+</$list>
+<$list filter="[tag[rel-lists]]">
+<$wikify name=newTid text="""<$view field="title" />: Focus""" >
+<$wikify name=filterTid text="""<$view field="fc-filter" />""" >
+<$wikify name=newTidText text="""<$macrocall $name="rel-lists" delta=<<filterTid>>/>""" >
+<$action-setfield $tiddler=<<newTid>> tags="hardcopies no-recent" text=<<newTidText>>/>
+</$wikify>
+</$wikify>
+</$wikify>
+</$list>
+<$list filter="[tag[filter-list]]">
+<$wikify name=newTid text="""<$view field="title" />: Focus""" >
+<$wikify name=filterTid text="""<$view field="fc-filter" />""" >
+<$wikify name=newTidText text="""<$macrocall $name="filter-list" delta=<<filterTid>>/>""" >
+<$action-setfield $tiddler=<<newTid>> tags="hardcopies no-recent" text=<<newTidText>>/>
+</$wikify>
+</$wikify>
+</$wikify>
+</$list>
+<$list filter="[tag[accu-rel-lists]]">
+<$wikify name=newTid text="""<$view field="title" />: Focus""" >
+<$wikify name=filterTid text="""<$view field="fc-filter" />""" >
+<$wikify name=newTidText text="""<$macrocall $name="accu-rel-lists" delta=<<filterTid>>/>""" >
+<$action-setfield $tiddler=<<newTid>> tags="hardcopies no-recent" text=<<newTidText>>/>
+</$wikify>
+</$wikify>
+</$wikify>
+</$list>
+🞖
+</$button>
+\end
+
+!!Setup
+
+In order to setup firmcoding for a directory..
+
+If you would normally use `<<rel-lists>>` or `<<dir-lists>>`:
+
+#Add the field `fc-filter`, with the tiddler's title in it.
+#Transclude `Title: Focus`.
+#Tag with `rel-lists` or `dir-lists`.
+
+If you would normally use `<<list-links>>`:
+
+#Add the field `fc-filter`, with your filter in it.
+#*Usually, this will be `[tag[Title]]`, but there might be a more complex filter you want to use.
+#Transclude `Title: Focus`.
+#Tag with `filter-list`.
+
+If you want to accumulate from a set date (currently 2019.04.01):
+
+#Add the field `fc-filter`, with the tiddler's title in it.
+#Transclude `Title: Focus`.
+#Tag with `accu-rel-lists`
+
+!!Usage
+
+`<<firmcode "tag">>`
+
+Basically does the following:
+
+```
+create a button
+    for all tiddlers tagged [tag]:
+        take links from [tag] macro
+        put hardcoded version of links into "x: Focus"
+```
+
+`<<firmcode-all>>`
+
+```
+create a button
+    for all tiddlers tagged [tag1]:
+        take links from [tag1] macro
+        put hardcoded version of links into "x: Focus"
+    for all tiddlers tagged [tag2]:
+        take links from [tag2] macro
+        put hardcoded version of links into "x: Focus"
+```
+
+---
+
+Here are all the firmcoding buttons in the wiki:
+
+`<<firmcode "dir-lists">>`
+
+<<firmcode "dir-lists">>
+
+`<<firmcode "rel-lists">>`
+
+<<firmcode "rel-lists">>
+
+`<<firmcode "filter-list">>`
+
+<<firmcode "filter-list">>
+
+`<<firmcode "accu-rel-lists">>`
+
+<<firmcode "accu-rel-lists">>
+
+`<<firmcode-all>>`
+
+<<firmcode-all>>

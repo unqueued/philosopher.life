@@ -1,0 +1,31 @@
+created: 20180724201922560
+creator: h0p3
+modified: 20181004010603995
+modifier: h0p3
+tags: terminator
+title: Terminator
+
+!! Files:
+
+* [[/etc/environment]]
+* /home/h0p3/[[.config/terminator/config]]
+* /home/h0p3/[[.config/terminator/plugins/open_any_file_plugin.py]]
+* /home/h0p3/[[.config/terminator/plugins/LayoutManager.py]]
+* /home/h0p3/[[.config/terminator/plugins/cluster_connect.py]]
+* /home/h0p3/[[.config/terminator/plugins/cluster_connect_config/config.json]]
+
+---
+
+!! Hotkeys
+
+* F11 Toggle fullscreen
+* Ctrl + Shift+ O Split terminals horizontally
+* Ctrl + Shift+ E Split terminals vertically
+* Ctrl + Shift+ W Close current Panel
+* Ctrl + Shift+ T Open new tab
+* Alt + ↑ Move to the terminal above the current one
+* Alt + ↓ Move to the terminal below the current one
+* Alt + ← Move to the terminal left of the current one
+* Alt + → Move to the terminal right of the current one 
+
+

@@ -1,0 +1,18 @@
+created: 20190620143855358
+modified: 20190621023623057
+tags: [[Computer Musings]]
+title: 2019.06.20 - Computer Musings: Audio
+
+We had a power outage this morning. I post, then get some tomato juice. No music is playing within a minute, and I'm confused. Power outages have never affected my audio before. Of course, I've had sound problems on probably half of my linux installations over the years (chalk that up to my utter incompetence), but this one was particularly egregious. Dread didn't creep in, but the anxiety was there. Full system update and reboot, nothing (because I'm lazy). 
+
+Between my wiki, Arch's wiki, and my memory, I jiggled some digital wires and percussively maintained until I got it working. Alsamixer has always been useless on this machine, and I was forced to go pulseaudio. I hate to say, but I have no idea how I fixed it because nothing actually //changed// in pavucontrol (I just changed it back). It's just a GUI, and it certainly isn't showing me what's happening under the hood (not that I would understand it either). Blind, dumb luck that this machine operates. I aint no operator. This was blackbox stupidity.
+
+I don't reboot often, but I'm unhappy at the thought I'll need to do this again at some future point(s). I don't have time for it today.
+
+Sorry future you (`/salute`), 
+
+past-[[h0p3]]
+
+---
+
+Trying out tagging software. Might make it easier on us.

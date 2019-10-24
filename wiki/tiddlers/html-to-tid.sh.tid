@@ -1,0 +1,14 @@
+created: 20181209194026648
+modified: 20181210170942997
+tags: [[Wiki: Scripts]] bash
+title: html-to-tid.sh
+
+```bash
+#!/bin/bash
+
+tiddlywiki /home/h0p3/syncs/bob/wiki --init server
+tiddlywiki /home/h0p3/syncs/bob/wiki --load /home/h0p3/Downloads/Wiki/index.html
+rsync -acr --delete --force /home/h0p3/syncs/bob/wiki/tiddlers/* /home/h0p3/syncs/bob/Wikis/tiddlers
+rm /home/h0p3/syncs/bob/index.html
+rm -rf /home/h0p3/syncs/bob/wiki
+```

@@ -1,0 +1,74 @@
+created: 20170321223750476
+modified: 20190705051249995
+revision: 0
+tags: xonsh
+title: Text-2-Speech-CLI-AlarmClock/Timer+Kodi-Cornercase.xonsh
+
+```python
+#!/usr/bin/env xonsh
+
+# You can set an alias: 
+# echo 'alias alarm="~/alarm.xsh"' >> ~/.bashrc
+# source ~/.bashrc
+
+from time import strftime
+
+while True:
+    try:
+        # Take them inputs, biatch
+        print("")
+        z = input("Your name: ")
+        print("")
+        x = int(input("In minutes, how long should the timer be? "))
+        print("")
+        y = input("What are you timing? ")
+        print("")
+
+        # Generate the text to speech string
+        string = '"' + z + " set the timer for " + y + " on " + str(x) + " minutes."  + '"'
+        print(string)
+        print("")
+
+        # Check Kodi, then make HTPC talk
+        kodicheck = $(curl -s --data-binary '{"jsonrpc":"2.0","method":"Player.GetProperties","params":{"playerid":1,"properties":["speed"]},"id":1}' -H 'content-type: application/json;' http://192.168.1.100:8080/jsonrpc)
+        if kodicheck == '{"id":1,"jsonrpc":"2.0","result":{"speed":0}}':
+            espeak -s 120 @(string)
+        else:
+            curl -s --data-binary '{"jsonrpc":"2.0","playerid":"1","id":"1","method":"Player.PlayPause","params":{"playerid":1}}' -H 'content-type: application/json;' http://192.168.1.100:8080/jsonrpc
+            espeak -s 120 @(string)
+            curl -s --data-binary '{"jsonrpc":"2.0","playerid":"1","id":"1","method":"Player.PlayPause","params":{"playerid":1}}' -H 'content-type: application/json;' http://192.168.1.100:8080/jsonrpc
+
+        # Record log of this action
+        current_time = strftime("%Y-%m-%d %H:%M:%S") + " - " + string
+        echo @(current_time) >> .alarm.log
+
+        # The Timer + Console messages
+        for i in range(x):
+            sleep 60
+            print(str(i+1) + " minutes on the " + y + " timer has passed.")
+        print("Times up!")
+
+        # Generate the text to speech string
+        endstring = '"' + z + "s timer for " + y + " is up" + '"'
+
+        # Check Kodi, then make HTPC talk
+        kodicheck = $(curl -s --data-binary '{"jsonrpc":"2.0","method":"Player.GetProperties","params":{"playerid":1,"properties":["speed"]},"id":1}' -H 'content-type: application/json;' http://192.168.1.100:8080/jsonrpc)
+        if kodicheck == '{"id":1,"jsonrpc":"2.0","result":{"speed":0}}':
+            espeak -s 120 @(endstring)
+        else:
+            curl -s --data-binary '{"jsonrpc":"2.0","playerid":"1","id":"1","method":"Player.PlayPause","params":{"playerid":1}}' -H 'content-type: application/json;' http://192.168.1.100:8080/jsonrpc
+            espeak -s 120 @(endstring)
+            curl -s --data-binary '{"jsonrpc":"2.0","playerid":"1","id":"1","method":"Player.PlayPause","params":{"playerid":1}}' -H 'content-type: application/json;' http://192.168.1.100:8080/jsonrpc
+
+        # Record log of this action
+        current_time = strftime("%Y-%m-%d %H:%M:%S") + " - " + endstring
+        echo @(current_time) >> .alarm.log
+        
+        break
+    except ValueError:
+        print("Oops!  That was not a valid number.  Try again...")
+
+
+
+
+```

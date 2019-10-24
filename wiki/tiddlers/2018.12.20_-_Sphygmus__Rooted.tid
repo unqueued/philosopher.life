@@ -1,0 +1,94 @@
+created: 20181224214005619
+modified: 20181224214053219
+tags: Sphygmus
+title: 2018.12.20 - Sphygmus: Rooted
+
+```
+How's your day going?
+THU 11:36 AM
+It goes! I got my official transcript sent off to uChicago - 18 bucks for an electronic copy, compared to uChicago's never charging me for an e-copy of an official transcript :woman-shrugging:
+THU 12:38 PM
+One step closer to having that diploma in hand
+THU 12:38 PM
+! =)
+THU 12:38 PM
+That is awesome. I'm sorry about the transcript thing. I know that pain. The wealthy schools make it easy.
+THU 12:39 PM
+they really do. the difference is incredible.
+THU 12:40 PM
+and it's only been a week since finals ended but I'm definitely feeling lost without the routine of classes; everyone's excited that I'm done (and I am too!) but at the same time I'm feeling the dread of uncertainty about what comes next.
+THU 12:41 PM
+I am redpilled about the matter. I believe minimizing friction at that level is part of what enables their students to more effortlessly signal to the world about their education, allowing them to climb ladders they otherwise might not have (every little smidgen adds up). Their alumni networks produce their source of income and power. Public schools are not able to leverage name recognition so much, and it isn't as valuable to their bottom line (as a business) to freely given away that information. The bureaucracy of administration has a higher chance of thriving if they can nickel and dime you instead.
+THU 12:43 PM
+I am sorry about that feeling of uncertainty!
+THU 12:43 PM
+OMG, I fucking hate it.
+THU 12:43 PM
+Whatever you do: don't beat yourself up about it.
+THU 12:43 PM
+As I said in my letter, I do not mean to add one iota of pressure. I am curious without expectation.
+THU 12:44 PM
+I never know how to perfectly stop myself from being a perfectionist. The pursuit of certainty is the gorgeous two-edged sword.
+THU 12:45 PM
+It's trying to find how to be perfectionist irwartfrr, right? :)
+THU 12:47 PM
+Preach, yo! =)
+THU 12:47 PM
+Just emailed you a tiddler that you can C&P into your wiki if you want - it accepts a string (like "!! Respond to the following:"), shows a list of tiddlers containing that text, then lets you add/remove a tag of your choice.
+THU 1:49 PM
+Thank you! =)
+THU 1:50 PM
+I'll add it to //sphygm.us eventually but email is quicker. :)
+THU 1:50 PM
+<3 Thank you. This is awesome.
+THU 1:57 PM
+yay! :)
+THU 2:00 PM
+I read that paragraph and was like...I totally know how to make that happen! :stuck_out_tongue_closed_eyes:
+THU 2:01 PM
+You can also switch it to searching the title just by changing the two list filter searches from "text" to "title", ofc
+THU 2:01 PM
+Going to footnote that.
+THU 2:02 PM
+and I just tested, "search:title[words here]" searches for all the words regardless of their position next to each other (so, say, "2018 12 /b/" is a valid search with results even though there's periods and dashes mixed in)
+THU 2:05 PM
+(you may already know that haha)
+THU 2:07 PM
+I do not! Lol.
+THU 2:08 PM
+REDACTED
+THU 2:10 PM
+10.147.19.115:8080
+THU 2:11 PM
+That is our zerotier key. You can join our VPN at will. Let me know if you add devices (I have to manually accept).
+THU 2:12 PM
+Your best security practices with this will be running it inside a VM. I'm exposing us to you; you do not have to do the same with us.
+THU 2:13 PM
+You have direct access to my live Bob server if you ever want it. I'm not sure if there is a way to mark yourself as the author (use a tag if you want?). You have root now.
+THU 2:15 PM
+REDACTED
+THU 2:34 PM
+That is the read+write key to my entire Bob directory. In theory (though I've not tried it yet) you should be able to sync it and run your own Bob server on top (should have better performance, though it may come with its own race conditions, which I wholeheartedly accept). This is the second method (and it does not require VPNing); I ask you to not run that Bob instance on any public facing server. You might prefer having direct access to the .tid files or whatever. If you should desire, this should enable you to programmatically do whatever you feel best on my wiki.
+THU 2:37 PM
+Thus, you have internal access to the wiki in the driver's seat and external access on the filesystem.
+THU 2:38 PM
+(oh, Resilio sync read+write key)
+THU 2:38 PM
+Thank you!! This is a huge gift; it will take me a while to think about if and how best to use it! I would definitely be horrified if I accidentally broke something the way I do sometimes on my wiki. :sweat_smile:
+THU 2:44 PM
+I am also amused by your redacted tag signifier. :)
+THU 2:45 PM
+I've never done anything like this before. It is my pleasure to have a friend I trust that much, lol. It's okay if you break something, btw. I keep a lot of backups. I will work on giving you a way to control over the Bob process itself too.
+THU 2:46 PM
+Ha, yeah...well, I make huge mistakes. Chat sanitization cannot be feasibly solved. Hopefully, I'll see it, lol.
+THU 2:47 PM
+I really really really need to look at Bob - I have no idea how it works! But it seems nice to be able to pop a tool I've made into a tiddler in a "sphygmus authored" section, rather than having to email it ;P
+THU 2:49 PM
+You are free to edit/delete/add anything, anywhere. If you want to show authorship, that is up to you. If you want a tab to yourself, you can have that too.
+THU 2:50 PM
+Bob takes 6 lines to get up and running
+THU 2:50 PM
+It is possible you may want to use Bob to export .tids from your private wiki into a subwiki that is then rsynced (perhaps bidirectionally) straight into mine.
+THU 2:53 PM
+:)
+```

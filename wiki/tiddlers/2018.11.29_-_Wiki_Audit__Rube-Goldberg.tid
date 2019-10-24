@@ -1,0 +1,42 @@
+created: 20181130030219962
+creator: h0p3
+modified: 20181130030244089
+modifier: h0p3
+tags: [[Wiki Audit]]
+title: 2018.11.29 - Wiki Audit: Rube-Goldberg
+
+Bob, opaque sidebar, and fast typing would make it so that my phone might be useful a pinch beyond the XMPP approach.
+
+Speech to text and Bluetooth could go a long way too.
+
+Ultimately, transcription will be necessary.
+
+This reminds me of my manic approach to Vidya games.
+
+Sanitization and a middle layer is also necessary.
+
+What does the structure of this look like?
+
+Without a doubt, I will need to maintain the single file structure. The back end is going to blossom.
+
+Wiki: My Rube-Goldberg Machine
+
+A sanitization layer is the hard part
+
+Alright, let's work backwards. Dallas will do the compilation and sync it back to m10 for signing and pushing. Sync kill switch.
+
+This overwrites the single file.
+
+It's clear I will need to have m10 ready to do compilation as well.
+
+That is a backup though.
+
+I think I would prefer the entire toolchain on m10, but I don't want to burn a core for this.
+
+I think syncing the sanitized Bob files may be audience useful as well.
+
+The sanitization script will rsync it over to the resilio sync directory.
+
+Only some tiddlers should be sanitized. Most of the will should be untouched.
+
+It needs to be only new content too.

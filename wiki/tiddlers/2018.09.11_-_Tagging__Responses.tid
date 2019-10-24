@@ -1,0 +1,159 @@
+created: 20180911211431320
+creator: h0p3
+modified: 20181022191943829
+modifier: h0p3
+tags: [[Tagging Theory]]
+title: 2018.09.11 - Tagging: Responses
+
+You all are wonderful. Thank you all for the replies! I really appreciate your taking the time out of your day to talk to me about this. You leave me with a lot to think about. I will be looking for good ways to implement and test your examples and advice in my wiki. I asked general questions, and I got general answers. Maybe it would also be useful for me to be more specific about my context.
+
+My spaghetti wiki is ~6k tiddlers hardlinking to each other from their bodies: https://philosopher.life/. Perhaps it's time for a massive overhaul. I am fine with refactoring the entire thing by hand (although, I think some of it could be automated), but I want to make sure I get the most bang for my buck. Say you were in my shoes/context, what are the low-hanging tagging or other mechanical improvements to be made?
+
+!! @PMario
+
+>    In TW tags are mainly used to create dynamic lists. like the TOC or a list of links.
+>    If the tag is also a tiddler, those lists can be sorted, using the list-field
+
+With some valuable exceptions, I barely make use of dynamic lists. I create lists by hand the majority of the time. Perhaps my link hardcoding is wrong-headed. Part of my problem is that I don't always know how I want my wiki to evolve, and maybe hard-coding has been a very flawed WYSIWYG coping mechanism. Sometimes I'll bust something up into pieces and put the pieces in different places. I feel like I'm building with lego with hardlinks. 
+
+>    less typing. 
+
+This seems especially true if you've automated tagging, although I think automatically naming tiddlers is also possible (I've never figured that out). For my logs, I often CnP an older link, edit the new one, and just open the new link. I'm fairly quick on my keyboard with shortcuts, so this hasn't seemed too painful to me. Tags seem like a good off-the-shelf answer though. Perhaps it will save me a lot of time in the long run.
+
+Once I have the hardlinks, it's easy to move them around them as sets, manipulate the material, build other kinds of things with them. I often have to lexically order my links by hand. Links feel concrete to me. I fear I'm just rationalizing here or missing the point. Call me out on it.
+
+If I had to assign most tiddlers to multiple groups most of the time, I think tagging would awesome for me. Unfortunately, for whatever reason, I don't often find the need for one tiddler to be found in more than one category. When I do, I link or transclude by hand. It can be a very special event for me in my wiki when I see a tiddler belongs in multiple places; sometimes it screams something important to me. Perhaps tagging would make this event more common.
+
+>    As you pointed out, having a tiddler naming convention helps with searching. ... But what if such a naming convention doesn't fit the use-case ... Tags can be very handy here. 
+
+The vast majority of the time, my searches don't even use my tiddler naming convention at all. I generally either know part of the name of the tiddler I'm reaching for, or I'm just narrowing piles down by keywords found in their bodies. Search is where I am least convinced that tags do anything for me, but maybe that is just specific to my usecase. All the exceptions I can think of are handled by my title naming conventions. I'm trying to think of examples where having two names and search of the body is required. Of course, I may be reasoning all wrong about my data in the first place too.
+
+>    :) ... Like good tiddler names, finding a good name that fits, is hard. ... Several iterations may be needed. ... The advantage here is, that refactoring tags, most of the times also leads to refactoring the content. Which imo is a good thing. 
+
+Surely this is where tagging is most useful to me? This isn't ad hoc like search; it's more about automatically constructing and reconstructing. I love the idea that changing names actually changes the content; boy does that sound powerful. I must be using and thinking about my TW all wrong.
+
+So, I think of tags in TW (perhaps incorrectly) as assigning a tiddler multiple names, categories, or properties. I've somehow avoided the need, done something by hand that should have been automated, or completely been blind to the need for such a thing. Naming is hard. I spend a non-trivial amount of my time asking myself where things belong in my TW and why. Sometimes this is exactly what helps me map into new territory! 
+
+When I don't have a very specific title in mind, my naming conventions go something like this:
+
+`YYYY.MM.DD - FooTag: BarTitle`
+
+It's been pretty useful to me. I get a decent timeline, I kind of always have one tag, and I can reuse BarTitles freely (a fairly common problem for me) because I know the other information is unique. Sometimes I just think of each tiddler has a flat textfile, and I'm trying to pack as much necessary metadata in the name as I can; that may be the wrong approach.
+
+Generally, I do not seem to need to factor the names of my tiddlers. The evolution of my naming conventions is actually something I aim to highlight and preserve in my work (maybe tags will help me do that better). Sometimes I build trees of linked tiddlers. In a sense, the names don't matter because the treelink structures have done the major hierarchical grouping work. Tags could eliminate the need to crawl that tree in some cases. Alright, practical tagging possibility for my context number one! Thank you.
+
+>    In my wikis I use 1-2 tags. But not every tiddler needs a tag. If a tiddler has more tags, they tend to cause too much "noise", because they show up in too many different lists. 
+
+Alright, so I think this suggests I shouldn't be tagging willy-nilly ever (good, since I don't want to endure that chaos). If I don't have a clear systematic reason and direct purpose already in mind, then don't tag. 
+
+>    If you don't want to use the "tag-space" to create an outline or toc-like structure, there are other possibilities. eg: my tocP plugin, which uses user-fields to create the connection between different tiddlers.  
+
+That plugin is very pretty. For how I normally use my wiki, I wish I could click a button and it would add a formatted link in the body of the parent and created the new tiddler. Unfortunately, I'd usually have to edit the BarTitle in both the parent and child. Your system avoids that work. It may just be a better way to go about doing this in the end.
+
+When is it better to use tocP over the tag-space? 
+
+
+!! @TonyM
+
+> Every thing with the same tag can be said to belong in the same group. This is a way to organise tiddlers, and you can quickly find everything else in the same group.
+
+I appreciate that. So far, I've not bumped into a problem without it. But, perhaps there are possibilities here I'm missing out on that would I use if I realized it.
+
+> Imagine Work and Personal tags
+
+I feel like I accomplish this with my linking structures. However, tagging might just be a better approach. I'm failing to come up with an example in my own wiki, but that may just be my blindness here.
+
+> People often use tags to represent a particular kind of tiddler
+> task note booking journal
+
+I can see that, although probably not well enough. This too is something I feel comfortable doing by hardlinking tiddlers. Maybe I shouldn't. I'm trying to see where tags are silverbullets here. They might just be another good way of doing things in this case.
+
+> And they are often also used to represent status
+> new working completed cancelled archived
+
+I will need to think more about this. Temporary flagging is usage I had not considered, but surely I should! I usually just put such a thing in the body of the tiddler, but maybe I shouldn't. Thank you!
+
+> And then there is peoples names as tags, subjects or categories
+
+I've tried this (perhaps incorrectly?). This is actually where I stopped using tags. Links and search seemed to solve it faster for me.
+
+> Tags are a quick and easy way to add a great deal of organisation even processes to your information without much fuss.
+
+I am excited to try it. Perhaps that's my problem here. Maybe I've been fussing over tiddler naming conventions to the point that I've missed to obvious answer in tags. What do you think?
+
+> Tags can be a switch, if tagged or not?
+
+Reminds me of representing status. I'm trying to come up with a case where I'd want this particular one though. It's interesting.
+
+> In my most recent large wiki I keep tags for ad hoc categories or flagging and have moved most into other fields some of which are tag like fields, Just to cope with what would be to many tags.
+
+Neat. So, tags act as stand-in placeholders until you figure out how to want to refactor into other metadata structures. That sounds awesome; I feel stupid for now seeing how I would make use of it. I've been using my TW for quite a while now, and you'd think that kind of thing would be obvious to me.
+
+> their use and number is unlimited
+
+I see that. In a sense, I'm looking to see how to cut salient sculptures out of the unlimited marble slab. Ideally, I'd like to find ways to cost-efficiently use tags while maintaining most of my current conventions (or modifying those conventions in virtue of a useful emergence from adding tags to the mix). Practically, I may be in for a complete refactor.
+
+
+!! @Jed Carty
+
+> I am very against prescriptive rules in something like tiddlywiki. If you don't have a reason to use tags than you don't need to use them. There is nothing magic about them that you can't do with tiddler namespaces or fields. If you are comfortable with using fields than the tags field has restrictions that can make it less useful than other fields.
+
+I hear that. Look, I want you to be right. I also realize a ton of very intelligent people use this feature of TW, and I don't. That doesn't make me wrong, but I have to bet against myself here. I think I'm obligated to try and find a way to see how to use their reasoning in my own.
+
+What are examples of restrictions on tags that might be worth avoiding?
+
+> So, there are no examples of tags being the best and irreplaceable tool because they are just an implementation of what you can do with fields built into the core.
+
+That's a good point. 
+
+My assumption has been that that field invisibility while reading is useful for hiding information/clutter, while tagging gives you some visible and clickable interface to navigate and reason about tiddlers without opening them. This seems kind of related to why I try to make my titles do as much reasonable metadata work for me as possible. I also worry tags have a tendency to hide the very metadata I want to see while reading through lists of tiddlers. 
+
+> Tags outperform linking with advanced search when you don't have time or don't have the experience with data systems and coding required to set up another system
+
+Oh. Hmm. Well, I feel pretty incompetent here. I interpret you to be straight up telling me I need to start using tags because I have no idea what I'm doing (which is a very fair thing to tell me!).
+
+I'm quite worried I'm using my TW all wrong. I'm not trying to assume the grass is greener on the other side, but I know how fallible I am (I'm straight up stupid too often, dude). Yes, it works great for the way in which I use it, but maybe the way in which I use it could be radically improved if I were thinking in terms of tags. I have "Just a bunch of tiddlers" carefully linked to each other in their bodies. It's been profoundly flexible for me, but my gut says I'm missing something (which is why I'm looking).
+
+> Tags don't really help you model anything that you can't with other fields, they are just a shorthand method for the same thing
+
+Fair enough. I do hope to make use of the shorthand and the tooling ecosystem so I don't have to reinvent too many wheels.
+
+> What makes a good tag is completely application specific and possible specific to the person using it, there isn't a general answer to this
+
+I appreciate your contextualism here. If you happen to look at my wiki, do you have any gut instincts about what would make a good tag for me?
+
+> The number of tags in a wiki to make it effective is the same as above, there isn't a general answer. I have wikis with no tags that do complex things and I my bookmarks wiki has thousands of tags.
+
+One of my goals is to keep a unified wiki (with the exception of an encrypted wiki because individual tiddlers do not appear to automatically lock themselves [for good reasons, I take it]). What are some obstacles one would face into trying to keep all of their TWs unified into one? Are there good ways to combat those problems while maintaining a unified wiki?
+
+
+!! @Alexei R
+
+> IMHO the key disadvantage of TiddlyWiki's fields mechanism is that field values dosn't show up in the search results...
+
+Interesting. Is there no way around this?
+
+
+!! @Mark S.
+
+> Tags provide the equivalent of folders, and allow semantic context to be affixed to tiddlers without despoiling the title. While it's true that much of what you do with Tags could possibly be done with fields, tags have been bestowed with special visibility and powers right out of the box. They're automatically part of searches. If you change a title that is used as a tag TW will offer to change it in tag and list fields. If you click on a tag, it will show you all tiddlers tagged with that tag, and allow you to change the list order.
+
+I've yet to find a good way to use the Update "in the tags and list fields of other tiddlers" so far. When I modify a tiddler title, I may need to modify all the links to it as well, which is usually trivial. Are tags meant to bypass that kind of problem?
+
+I might be weird, but I've enjoyed using titles packed with a lot of metadata (that may just be in virtue of failing to use tags appropriately). Do you think I need to start offloading some of my title work into tags? Should I duplicate some of it tags instead (I'm not sure how that helps me)?
+
+> A common searching style for me when I can't find a tiddler, is to search for a related tiddler that I can remember. Then click on a tag that might relate it to the one I can't find and see a list of tiddlers - one of which is likely to be the right tiddler.
+
+This is where my link tree structures really shine, imho. I spend a lot of time thinking about the hierarchy of my links. I've basically forced a virtual file structure on myself. My "Root" directory really does contain links to everything else on the wiki, and there are reasons for why every link is placed there. 
+
+> The problem mechanically with using links is that there is no core mechanism to update your links if you change your title. The only good work around is to use PMario's unilinks, which allows you to make changes via the subtitle field and never have to touch the title again.
+
+This is the best argument in the thread by far! 
+
+Short-term, it's usually in the creation of the tiddler that I made a mistake in the name and have to go change it in both places. 
+
+The lack of a core mechanism here isn't too frustrating for me. I am curious as to why this isn't a core mechanism in TW. This seems like it would be fairly common. I assume it does something too dangerous or is too expensive?
+
+When I must, I search and replace the .html file with a text editor. But, and this may just be a quirk of my project, I usually leave the breadcrumbs of such changes to give myself evidence of the evolution of my wiki. Transclusions appear to solve my problems so far (but, it's possible that I'm missing something that will eventually bite me in the butt). Still, it may be better to go another route and build that evidence differently. I could, for example, attach the new tags to everything with the old, and continue on just using the new. What do you think?
+
+I've been thinking about PMario's unilinks as well, although for what suggested. I may end up moving to it just to handle: Gator, gators, Alligators, alligators, alligator, etc. pointing to the same tiddler. I will need to give it more thought.

@@ -1,0 +1,21 @@
+created: 20170301045812299
+creator: h0p3
+modified: 20181105041436984
+modifier: h0p3
+revision: 0
+tags: [[Realpolitik Speculation]] RPIN [[Computer Musings]]
+title: 2017.02.28 - Realpolitik Speculation: Web Assembly: The Browser VM as Decentralized Cloud
+
+Web Assembly (WASM) is a high performance, low-level machine code run almost natively inside most web browsers. This will give every major language a way to run in the browser. Prepare for websites to efficiently use your computation power through the browser as a virtual machine host. Crucially, the cloud is no longer a set of dedis and virtual machines sitting on hardware in data centers. WASM is going to change the web and all the devices using it. Whether you want to or not, your machine is going to be used by those on the web who know how to write the code to use it (and can convince you to trust them enough to run it, which will be easy, because, let's face it, you're stupid and lazy).
+
+Browsers are forming new botnets (accidentally and purposely), often legal ones at that. I mean this beyond the Chrome-botnet hype of a 4chan /g/entooman. This is really the last stage that was really missing. Everything else is just giving permissions to the browser and the sites that use them at this point. High performance, language-neutral, VM access to your machine's performance is already impressive, and it could do some very interesting distributed computing. WASM, however, is possibly more dangerous than people are recognizing.
+
+The VM is really a sandbox; escapes past that sandbox are now incredibly dangerous (we've known this for a long time). You will be able to run any programming language you like to get the job done. Zero days and unknown, private exploits of this sandbox will be incredibly valuable, along with escalation to root. This is a profound runtime environment in how widespread it will be. Its ubiquity on every graphical platform is something to behold. 
+
+Web Assembly competes in LLVM's space in a way. I think it is very interesting how Mozilla is a driving force behind this tool. I think it is ballsy. I think it is a technological step forward (not in any inventive way, but in a practical "they finally made a 'web' version of a technology we regularly use off the web" kind of way), but whether or not it will have a good result is a different question. It feels proto-singularity + proto-perfect-surveillance + proto-monoculture. They thought they were defeating Java, but instead, a new monster will arise.
+
+If and when distributed computing evolves to the point that it's easy to write code for distributed computing, this will be a key tool they target. 
+
+Ultimately the browser continues and continues to advance toward being an OS itself. We've seen many OSes attempt it. With the halting of Moore's law for personal computing, and as mobile continues to make gains on desktop performance (reminds me, I need to have 1uxb0x and j3d1h look at ARM ASM), browser performance will start to normalize (and, page performance will continue to get worse in general). 
+
+Everyone needs web access (whether they realize it or not). It's the one thing that almost all personal computing devices have in common. It's a common point of failure for the monsters that lurk.

@@ -1,0 +1,18 @@
+created: 20181219182128062
+modified: 20181220060623448
+tags: [[Wiki Audit]]
+title: 2018.12.19 - Wiki Audit: Meh
+
+[[TWGGF]] it is: aliased and autogened. I can see firmcoding isn't a pipedream. It's time I start making more conversions. Thank you, [[Guitar]]. `/bow`
+
+---
+
+Perhaps Tox should be at the bottom of making wiki's talk to each other. Meh. I know that I wish I could write from XMPP directly into my Wiki with a programmatic layer. In a sense, I want XMPP to be a very particular thin client.
+
+---
+
+I must risk another tangent: I've been encountering a problem where I'll save a tiddler and it will revert back to its previous state within a few seconds. To my knowledge, the only processes other than Bob touching the .tid files are a Resilio sync instance and [[tid-to-html.sh]]. Neither should be overwriting. Turning off the sync to see what happens.
+
+---
+
+I noted 50GB of TW's in my Downloads folder. Hrm. That shouldn't be there. What's saving it? Turned off TiddlyBackup. I'm not going to let go of savetrails though. I'll script my way out of this bullshit before doing that.

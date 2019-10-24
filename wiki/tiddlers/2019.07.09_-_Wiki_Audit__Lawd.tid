@@ -1,0 +1,20 @@
+created: 20190709182123455
+modified: 20190710072453376
+tags: [[Wiki Audit]]
+title: 2019.07.09 - Wiki Audit: Lawd
+
+This is showing up in my created and modified: NaNNaNNaNNaNNaNNaNNaN. 
+
+`/squint` I think I'm being trolled, even if only by myself through my computer. Rofl. I think it refers to the "Not a Number" acronym (at least through looking at snapshots). Something went horribly wrong yesterday.
+
+Comedy of errors. I deleted my Downloads folder. Thankfully, nightly backup has me covered. That's why I have it: cause I'm stupid sometimes. Good prep, sir.
+
+Here's a problem: I can't html-to-tid and have a Bob server which is identical to the original html file. Diffing files and directories. It's a giant mess. Scratch that, duh derp-> Firmcoding.
+
+Ripped the newest tids back into it, and voila. 
+
+Unfortunately, I still have no idea what caused it.
+
+---
+
+Upgrades to [[bimlas]]' locator tooling. He was kind enough to modify part of his tooling to open the tab in [[Maps]] for me!

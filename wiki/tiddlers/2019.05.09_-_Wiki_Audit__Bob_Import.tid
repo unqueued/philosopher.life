@@ -1,0 +1,40 @@
+created: 20190509225942585
+modified: 20190509230454394
+tags: [[Wiki Audit]]
+title: 2019.05.09 - Wiki Audit: Bob Import
+
+So, we don't know why, but [[2019.04 - Afterschool Teaching]] and a few other tiddlers are gone (at the very least the following): 
+
+* [[2019.04 - Afterschool Teaching]]
+* [[2019.04.29 - AA: New Phone]]
+* [[2019.04.29 - Tasha: Paid Sleep]]
+* [[2019.04.30 - AA: Torture]]
+* [[2019.04.30 - Sphygmus: Chat Clients]]
+* [[2019.05.01 - AA: UJohn]]
+* [[2019.05.02 - Sphygmus: Rorschach]]
+* [[2019.05.03 - AA: Pretty Good]]
+* [[2019.05.03 - Tasha: Good Winslow]]
+* [[2019.05.05 - AA: Cardiologist]]
+* [[2019.05.05 - Wiki Review: Oops]]
+
+---
+
+Bob's .tid directory shows: 
+
+* 2019.04 - Afterschool Teaching.tid
+* 2019.04.29 - AA_ New Phone.txt.meta
+* 2019.04.29 - Tasha_ Paid Sleep.txt.meta
+* 2019.04.30 - AA_ Torture.txt.meta
+* 2019.04.30 - Sphygmus_ Chat Clients.tid.meta
+* 2019.05.01 - AA_ UJohn.txt.meta
+* 2019.05.02 - Sphygmus_ Rorschach.txt.meta
+* 2019.05.03 - AA_ Pretty Good.txt.meta
+* 2019.05.03 - Tasha_ Good Winslow.txt.meta
+* 2019.05.05 - AA_ Cardiologist.txt.meta
+* 2019.05.05 - Wiki Review_ Oops.tid
+
+All 0 Bytes.
+
+---
+
+Bob fails on every import of these tiddlers as well.

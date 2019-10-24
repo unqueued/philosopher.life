@@ -1,0 +1,12 @@
+created: 20190202003517019
+modified: 20190202004314759
+tags: [[RGM Notes]] [[Computer Musings]]
+title: 2019.02.01 - Computer Musings: Phone Failure
+
+Alright, everything appeared fine on the phone. VPN was connected. I could reload fully over the network; I saw the new material since my last time. Saving appeared to work. I received no signals anything was going wrong. When I get back home, I see nothing was saved. I was worried enough about losing it that I copied over the major parts (I know I lost some work, but I don't care...tiny things) into a text editor. I saved it, and it worked. `/sigh`. 
+
+Something ain't right. Controlling my data becomes a pain in the ass here (although, it's hard to beat localhost speed).
+
+I could always resilio sync the .tid files and run the Bob instance over Termux. There are other options, but that seems the best if this continues to fail. Ugh.
+
+Even for the headache, Bob is the fucking tits. Having 3 editors and 7 doorways (tabs) simultaneously working just can't be beat. It might not be perfect, but there is no alternative unless I move off TW entirely (or a serious singlefile hack).

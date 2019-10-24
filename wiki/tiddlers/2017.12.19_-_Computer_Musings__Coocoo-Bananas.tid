@@ -1,0 +1,30 @@
+created: 20171219160915614
+modified: 20181225003458714
+modifier: h0p3
+revision: 0
+tags: [[Computer Musings]]
+title: 2017.12.19 - Computer Musings: Coocoo-Bananas
+
+I spent far too much time last night trying to get Manjaro to even boot. I actually started by trying to make LUKS work. That failed tremendously, and I eventually whittled my way down to just even getting anything to work. Even the automated partitioning configs didn't work.
+
+I thought I was going crazy. I DD'd a copy of ubuntu to the same thumb drive and installed. Voila. Done. So, I know it has to be something with the manjaro installation liveusb. DD'd back to manjaro. 
+
+It has sent me down a rabbithole this morning. I know I have Legacy BIOS setup correctly. Doing BIOS/MBR installs, and nothing is booting.
+
+Checking to make sure grub is installed from my live USB.
+
+```
+sudo mount /dev/sda1 /mnt
+sudo grub-install --boot-directory=/mnt /dev/sda
+sudo reboot
+```
+
+Seems like it should work. 
+
+Setting bios-mbr and grub flags during the manual partitioning finally did it. Unfortunately, I don't have LUKS. I expect full disk encryption on all my mobile devices. This is unacceptable to me. Reinstalled, root is not encrypted, but /home is. That's far from ideal, but it is a lot better than nothing.
+
+Resilio, Synkron, Dropbox, and SSH I'll set up for her. She can do the rest. 
+
+Picked up a PSU. This MIGHT be the fix. It would be the cheap one, and it never hurts to have an extra one for testing anyways.
+
+Setup seedbox script to sync to m10 for now. Will need to put up NFS share for high-speed streaming to the Chromebook I'll be putting up as a temporary replacement for HTPC.

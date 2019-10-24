@@ -1,0 +1,30 @@
+created: 20180721194736438
+creator: h0p3
+modified: 20181219181841745
+modifier: h0p3
+tags: TWGGF
+title: 2018.07.21 - TWGGF: Keyboard Nav Response
+
+@ Diego Mesa
+
+Your dream (:P) searchbar is incredibly sexy. Now I want everything! Thank you for pointing out the keyboord plugin!
+
+@ BurningTreeC
+
+I'll be interested to see your example. I've run into the local/global hotkey problem in TW before, but you clearly understand more about the problem than I do. I'm hoping this problem is solvable, but I'm worried it's not. Global shortcuts which don't have access to the state of the cursor will indeed be limited; I probably have missed something crucial here.
+
+In a sense, this is about turning my browser into a portable self-contained terminal environment. If I can't, then I will have two modes of editing my wiki. One from CLI and another from within Tiddlywiki. The NPM tool might not be meant for this (imho). It feels like I'd need two sets of books, the individual tid flatfile anthology/book and the .html book. I'd need a way to real-time update between the two (which is going to have its own set of weird problems).
+
+Does anyone else spend a lot of time editing their wiki in command line? Please, tell me your secrets!
+
+---
+
+Hey Diego,
+
+I'm kind of absent-minded sometimes, but I owe you a debt of gratitude. Thank you for helping me reason about this tool. You helped me think about how to do this from the command line last December:
+
+https://philosopher.life/#2017.12.04%20--%20Diego%20Mesa%3A%20CLI:%5B%5B2017.12.04%20--%20Diego%20Mesa%3A%20CLI%5D%5D
+
+The "restart" issue was a dealbreaker for me. When will the newest version come out (or is the current newest what you mean?)? Bouncing between CLI and Browser would need to be seamless. I ended up going back to the browser to do my work, but I'm beginning to see I may have no choice if I wish to make serious progress on this front.
+
+I prefer my edits to go out nearly real-time, and I was hoping to serve the entire wiki in a single .html file. Unfortunately, minutely compilation is a burden (I basically lose a core to do it). I may eventually move away from serving the entire wiki as a single html file though (it's 17MB, and 6MB after compression). What does decent-to-high performance Tiddlywiki http service look like? I'm thinking about using Hugo if I go this direction.

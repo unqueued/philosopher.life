@@ -1,0 +1,118 @@
+created: 20180705005828685
+creator: h0p3
+modified: 20181031035931170
+modifier: h0p3
+tags: Tulane
+title: 2015.01.06 - Symbolic Logic: Final
+
+```
+Name: _____________________________ Symbolic Logic Final – ..., Spring 2015
+
+
+
+Fill in the blanks. Write neatly and make it fit.	(each worth 2% of total)
+
+    FOL translation of “Max is not home unless Claire is at the library”_________________________________________
+
+    FOL translation of “not P is necessary and sufficient for both Q and R” ______________________________________
+
+    English translation of ¬Cube(a) ↔ Small(b) ___________________________________________________________
+
+    English translation of P → [Q ∨ (R → S)] ______________________________________________________________
+
+    P → Q ⇔ ¬Q → _____ ⇔ _____ ∨ Q
+
+    The claim “Joe’s great, he’s never drunk on Thursdays,” informally may indicate that Joe is drunk the rest of the time. In logic translation, this hidden suggestion is referred to as __________________________________________
+
+    While semantically they are different, variables are __________________________ identical to individual constants.
+
+    An object o satisfies a mere wff P(x) iff _______________________________________________________________
+
+    ¬∃x S(x) is true iff _____________________________________________________________________satisfies S(x).
+
+    FOL translation of “no P’s are not Q’s” _______________________________________________________________
+
+    FOL translation of “only P’s are Q” __________________________________________________________________
+
+    English translation of S ∧ ∀x [P(x) → Q(x)] ____________________________________________________________
+
+    English translation of ∃x [Q(x) ∧ P(x)] ∨ ¬G ____________________________________________________________
+
+    In a world with just cubes in it, ∀x [Tet(x) → Small(x)] is _____________________________________________ true.
+
+    The TFF of ∀x [P(x) ∧ ∃y (Q(y) ∧ R(x, y))] → [∃z S(z) ∨ ¬∃y S(y)] ____________________________________________
+
+    Two sentences of FOL are tautologically equivalent iff their ______________________________________________
+
+    Example of a Tautology: ___________________________________________________________________________
+
+    Ex. of a FO Truth which isn’t a Tautology: _____________________________________________________________
+
+    Ex. of a Logical Truth which is neither FO Truth nor Tautology: ____________________________________________
+
+    A pair of wffs with the same free variables are ________________________________ iff they are satisfied by the same objects in all possible circumstances.
+
+    Show DeMorgan’s for Quantifiers: ¬∀x G(x) ⇔ __________________ and ∀x ¬G(x) ⇔ __________________
+
+    ∀x [P(x) ∨ Q(x)] ⇔ ∀x P(x) ∨ ∀x Q(x) is true or false? __________
+
+    ¬∃x [P(x) ∨ Q(x)] ⇔ ∀x ¬P(x) ∧ ∀x ¬Q(x) is true or false? __________
+
+    ∀x [P → ¬Q(x)] ⇔ ¬P ∨ ¬∃y Q(y) is true or false? __________
+
+    FOL translation of “Every small cube is in front of a sphere” ______________________________________________
+
+    FOL translation of “Some sphere is larger than every cube” _______________________________________________
+
+    English translation of ∀x ∃y Fears(x, y) _______________________________________________________________
+
+    English translation of ∃y ∀x Fears(x, y) _______________________________________________________________
+
+    ∀x ∀y [Small(x) ∨ ¬Red(y)] ⇔ ¬∃z Red(z) ∨ ∀z Small(z) is true or false? __________
+
+    ∀x ∀y [Small(x) ∨ ¬Red(y)] ⇔ ∃z Red(z) ∨ ¬∀z Small(z) is true or false? __________
+
+
+
+Neatly provide a FO Counterexample to the following argument (first translate into FOL) (worth 10% of total)
+
+
+
+Fido is a dog
+
+Every dog is shorter than Joe
+
+Joe is taller than Fido
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Use scrap paper to figure out the proof, and neatly write your final answer here: (each worth 15% of total)	
+
+|1. P ∨ (Q ∧ S) Show: S ↔ (R ∨ ¬R) |1. P ∨ (Q → R) Show: (S ∨ T) ↔ c = a
+
+|2. D → ¬P |2. R → (S ∨ T)
+
+|3. D ∨ S	|3. Q
+
+|4. a = b
+
+|5. b = c
+
+|4. T ↔ P
+```

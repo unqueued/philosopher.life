@@ -1,0 +1,708 @@
+created: 20180704234739760
+creator: h0p3
+modified: 20181031035931172
+modifier: h0p3
+tags: Tulane
+title: 2015.07.08 - Intro to Phil: Knowledge and Certainty
+
+Knowledge and Certainty
+
+    Being philosophical requires that we try to stand back from our lives, our beliefs, and our feelings, and instead thinking as objectively as possible.
+
+        Fewer emotions; More reason.
+
+        Be reflective.
+
+        Be honest and open.
+
+    One of the first keys to doing is philosophy is recognizing that each of us could be wrong about anything and everything.
+
+        We ought to have humility.
+
+        We must accept our fallibility, and finitude.
+
+        We are just humans, and we mistakenly believe false propositions and poorly reason all the time. That’s, unfortunately, part of the human condition.
+
+    In considering that our beliefs are often mistaken, we might ask ourselves:
+
+        Under what conditions ought we believe something?
+
+            When are we warranted in believing something?
+
+            When are we justified?
+
+            Don’t we want our beliefs to be more than simply true by sheer luck or accident?
+
+                What are the standards for this justified belief formation?
+
+        These kinds of questions are the domain of Epistemology
+
+            The study of knowledge
+
+                Episteme is the root word here, it means knowledge or understanding.
+
+                -ology comes from the root word “logos” would roughly means image or in this case, science or study of.
+
+                Hence, study of knowledge.
+
+    We are generally thought to “know” or “believe” propositions.
+
+        Propositions are statements that have a truth value, they are either true or false.
+
+            E.g. It is raining outside.
+
+        Propositions are the things we know.
+
+            Propositions are true OF the world.
+
+            In a sense, we don’t “Know” or “believe” the world, but we know propositions OF or ABOUT the world.
+
+
+
+Knowledge versus Opinion: Plato, Republic
+
+Meno – in our unread section
+
+    Plato’s systematic views on philosophy are entirely contained in a set of dialogues, basically plays.
+
+        Systematic enough that we’re not going to be able to capture his full view on epistemology here. This is just a gateway.
+
+        I’m going to try to sketch out some of the highlights of Plato’s systematic philosophy. You can’t really understand what he’s saying without at least minimally approaching these highlights.
+
+    In the dialogues, Socrates is generally the mouthpiece of Plato.
+
+        Socrates was Plato’s teacher, Plato was Aristotle’s teacher.
+
+        Plato has immense respect for Socrates, and that’s why he has Socrates, the character, doing the philosophical work in these dialogues.
+
+        Socrates and many Greek philosophers, spent their leisure time and sometimes professional lives speaking in front of audiences. They debated with each other, politely. The art of discussion, persuasion, and sometimes seeking knowledge were at the heart of these gatherings. Socrates spent his time trying to make the world a better place by helping people think better (Knowledge is wisdom).
+
+    In the Meno, the character Meno asks:
+
+        “How will you enquire…into that which you do not know?...If you find what you want, how will you ever know that this is the thing which you did not know?”
+
+            Essentially, if you don’t know something, how do you know when you come to know it? Wouldn’t you already have to know that thing beforehand to judge whether or not you actually came to know something?
+
+        Plato has a weird, but brilliant response to this paradox.
+
+    Plato argues that knowledge is innate. We simply come to “remember” what we previously forget whenever we are said to “know” something.
+
+        This sounds silly, but if you understand the rest of his systematic view, it sounds less silly. Still, most of us probably wouldn’t agree to his view here.
+
+    But, also in the Meno, Plato seems to argue for JTB.
+
+        Knowledge needs to be something which we have justification for. It can’t be accidental.
+
+
+
+JTB – This was the orthodox definition of knowledge in epistemology until the 1960’s. We’re talking about a theory that has stood for thousands of years among history’s greatest minds. It still survives in some ways.
+
+A subject S knows that a proposition P is true if and only if:
+
+    P is true, and
+
+    S believes that P is true, and
+
+    S is justified in believing that P is true
+
+On this view, I (S) know proposition (P) “it is not raining inside” because:
+
+    P is true, it is not raining inside
+
+    I in fact believe P is true.
+
+    I’m also justified in believing it because I’ve looked outside.
+
+        I know my eyes are reliable and I can trust my perceptions, etc.
+
+On the other hand, I don’t know that “it is raining in Thailand” right now.
+
+    Suppose it were true. If it were true, I still wouldn’t be justified in my belief. That my belief turned out to be correct, that the proposition I believed turned out to be true, is a complete accident.
+
+    Essentially, knowledge isn’t accidental.
+
+Gettier Problem is a thought experiment which tries to crack open a fault line in this JTB theory of Plato’s.
+
+    Suppose Smith and Jones have applied for a job.
+
+    Suppose Smith believes the following propositions:
+
+        Jones will get the job
+
+            Suppose Smith is justified in believing this proposition because he has evidence from talking with the boss that Jones will get the job, or Smith knows that he’s a bad employee, or he knows that Jones is a better employee.
+
+        Jones has 4 coins in his pocket
+
+            Suppose Smith is justified in believing this proposition because Jones buys a coke with exactly 4 coins everyday at the soda machine.
+
+        A man with 4 coins in his pocket will get the job.
+
+            This seems to be justified in virtue of his other first two beliefs.
+
+    So, Smith has 3 beliefs. According to JTB, any of these beliefs count as knowledge just in case:
+
+        The proposition believed is true, Smith believes it, and the belief is justified.
+
+        In these cases, we can see that Smith believes the propositions, and he just justified in believing them. The remaining component for knowledge is whether or not the propositions are true.
+
+    Imagine that Smith walks in on the day when it is revealed who got the job and finds that he, Smith, actually got the job. He’s really surprised right? Lo and behold, Smith reaches into his pocket, and he finds 4 coins, by accident. Normally Smith doesn’t keep change on him, but today he accidentally had 4 coins because he got some change from buying a coffee.
+
+        Maybe Jones didn’t get the job because he slept with the boss’s wife, even if Jones was the better worker.
+
+        Obviously, the first two propositions are false. Hence, Smith didn’t know them.
+
+        The third proposition, is true. A man with 4 coins in his pocket did get the job!
+
+            This was JTB, and hence, at least on a simple reading of Plato’s view, an instance of knowledge.
+
+    Do you really want to say that Smith had knowledge of the proposition that “A man with 4 coins in his pocket with get the job”?
+
+        There is something deeply accidental about the justification.
+
+        Knowledge is not supposed to be accidental in any way.
+
+
+
+Republic Section (our actual reading):
+
+    Unlike the Meno, this section isn’t concerned so much with innate knowledge or JTB, but more with the objects of knowledge (as opposed to the objects of opinion).
+
+        I’ve already stated the contemporary view of the objects of knowledge, namely propositions. It isn’t obvious that Plato would buy this contemporary definition wholesale. We may be adopting parts of his view and retrofitting it with more clear concepts.
+
+    Philosopher king/statesman.
+
+        For Plato, philosophy is deeply wrapped up in exploring reality (the good and the beautiful, etc.) and in statesmanship.
+
+            You want your President, Judges, and Legislators to be knowledgeable, right?
+
+            You want them to “do the right thing” or seek justice. Who else will know what to do, or what is right, or what is just besides a philosopher? That is literally what a philosopher tries to find, seeks out, and would try to implement in a government.
+
+    Wholes and Parts
+
+        Significant ontology problems
+
+        Ship of Theseus
+
+        In this case, the philosopher is said to love “the whole” of wisdom, not just a part.
+
+    Faculties
+
+        Knowledge and Opinion are different
+
+        Is knowledge a faculty?
+
+        Belief or belief formation might be.
+
+        What is a faculty?
+
+    “Being” (what is) is the sphere or subject-matter of knowledge. Knowledge is JTB in the nature of being.
+
+        For Plato, the world comes before knowledge. We’ll say that ontology has primacy over epistemology for Plato. What “is” comes before “knowledge.” We know the world (or we know proposition about the world – you need the world there first before you can know anything).
+
+    Knowledge and Opinion are different faculties which have different subject-matters.
+
+    Opinions can be very valuable. Knowledge is often this high standard of justification for a belief. I think someone can have a justified belief that isn’t quite knowledge.
+
+        E.g. I believe I won’t get a speeding ticket on the way home.
+
+            Given my past driving record, many years of driving, and my experience driving the roads in this area, I feel comfortable making that claim.
+
+        That’s an opinion in a way. It’s probably true. I’m reliable in my prediction on this one almost always. This isn’t knowledge, but it is still valuable. It is still a part of being a human epistemic agent that I worry some folks reading Plato would be too quick to dismiss.
+
+            Plato gives us some of this grey area to work with.
+
+                Opinion isn’t the darkness of ignorance, but it isn’t the light of knowledge.
+
+                    It is likely the case that for Plato, this “light” is a reference to ‘the Good’ possibly. A brightness that shines on everything. The Good illuminates the world for us.
+
+        Much of our epistemic lives are based on informed opinions. They aren’t quite knowledge, but they aren’t useless or somehow not related to “being” as the subject-matter.
+
+            Plato has something very specific in mind when he’s talking about “being” here though (forms). We need to try to appreciate it, but we don’t have to buy it!
+
+    Forms
+
+        Plato has the concept of F-ness. The form of things.
+
+        These forms are eternal, unchanging, heavenly bodies or something. They are metaphysical entities. They are the purest “forms” of things.
+
+            Beauty
+
+                Consider “beauty” or for F-ness, “beauty”-ness.
+
+                Things are said to be beautiful to some degree, but not beautiful absolutely.
+
+                What is “beauty” absolutely?
+
+                    That is the form of beauty. It is everything, entirely, and exactly beautiful.
+
+                All other things which are said to be beautiful “partake” of the form of beauty.
+
+                    They are mere imitations of the form of beauty in a way.
+
+                    The only have an ounce of beauty in them, so they can’t be absolute beauty.
+
+                All beautiful things have in common this relationship to the “form” of beauty.
+
+            Redness
+
+                Consider the F-ness of red, or “redness”
+
+                Things which are red aren’t red absolutely. They have that F-ness, and they partake of the form of red.
+
+                Only the form of red is red absolutely and purely.
+
+        The forms are a foreign concept to us. It is a strong point of view in metaphysics.
+
+        The subject-matter of knowledge is “absolute” being. And absolute being, for Plato, just are the forms. They are the absolutes. So, the forms are the subject-matter of knowledge for Plato.
+
+            Opinion, however, does not have “forms” as the subject matter because opinion isn’t about the absolute, but only qualified things.
+
+                This doesn’t make any sense to me. Even if I bought the concept of forms, I don’t buy that opinion wouldn’t have the Forms as their subject-matter.
+
+                I want to say we can have knowledge of particular things, not just forms. A lot of what I call knowledge, Plato seems to call opinions.
+
+                    I know this chair is beneath me. There is a form of chair, and I can knowledge of it. But, can I have knowledge, according to Plato, that this chair is beneath me? That is qualified being, a particular, and being which isn’t absolute. It doesn’t seem like Plato is able to say I know that, but I definitely think I know that.
+
+                A lot of what I call opinions, Plato doesn’t even address.
+
+
+
+New Foundations for Knowledge: Descartes, Meditations	
+
+
+
+    Plato and Aristotle (alongside the Catholic integration of these views through Augustin and Aquinas) dominated philosophy and philosophy of religion in Europe until Descartes, who is the marker of the beginning of the “early modern age.” It is the beginning of new thought, and what will eventually become the Renaissance.
+
+        I said before that Plato thought Ontology (being and reality) came before Epistemology. Descartes reverses this. Descartes, famously, puts Epistemology before Ontology. What we know, or knowing, or being conscious or aware, takes precedence in a way, over what exists.
+
+            Plato has a kind of built in objectivity. The foundation of knowledge is the world around us.
+
+            Descartes has a kind of built in subjectivity. The foundation of knowledge is with each of us. Within our minds.
+
+            This is a radical shift.
+
+    Descartes wrote a series of Meditations. In these meditations he explores a new definition of knowledge, and higher standard than Plato ever imagined.
+
+        Why did he do this?
+
+            Descartes was just worried about how he had been taught philosophy. He believed that much of what he’d learned about Plato and Aristotle’s teachings were doubtable or doubtful.
+
+                Descartes hates being wrong. He wants to only believe what he can be absolutely certain of, with no doubt.
+
+        Descartes employees a new METHOD of doing philosophy. He enters a stance of radical doubt. He wants knowledge, and nothing less. And, for Descartes, Knowledge is a very lofty goal.
+
+    Knowledge:
+
+        Belief in a proposition which cannot be doubted, can be believed with certainty. It is an apodictic belief. The proposition in question must be indubitable.
+
+            2+2=4
+
+                Nobody could ever convince you otherwise. No matter what happens, no matter what you see or learn, you will never be able to believe otherwise. You know this is true with certainty.
+
+    Certainty vs Confidence or Reliability
+
+        It is one thing to be Confident in a belief or being a reliable believer.
+
+            I believe the sun will rise tomorrow.
+
+                The sun has risen for at least hundreds of millions of years, so it seems like a reliable claim to say it will rise again tomorrow. I’m very confident in this proposition. I strongly believe it.
+
+                Is it certain that the sun will come up tomorrow?
+
+                    No. It might explode today. That’s unlikely though.
+
+                    I can’t be certain about the sun rising in the same way that I can be certain that 2+2=4.
+
+        It is another thing to be certain.
+
+            If we can be certain about a proposition, we cannot doubt it.
+
+            It is necessarily true. It is never possibly false. There is no possible world or conceivable world in which it is false.
+
+            Certainty is a very strong standard to have as the foundation for knowledge.
+
+                The problem with such a strong foundation is that it turns into skepticism.
+
+                    Skepticism is applied idealism. You take a high standard, you apply it, and then you are disappointed that the world or your experience, or your beliefs, or whatever it is does not live up to your ideal, high standard.
+
+    Descartes Method and Doubt
+
+        External world
+
+            Matrix, Dark City, The Truman Show
+
+            Can we know this with certainty?
+
+                Nope.
+
+            Skeptic. If it’s doubtable, then we don’t know it. We kind of bracket it or throw it away. We can’t trust it.
+
+                Is this really Descartes intention? Did he ever really doubt here? Maybe. I don’t know.
+
+        What about God?
+
+            Descartes doubt is considered a heresy at the time of this writing. He would have been put to death for not eventually demonstrating that he was certain of God’s existence. He was so worried about some of his writing that he published it anonymously. Good thing for him he “found” a path of certainty to God.
+
+        Descartes basically a blank slate. Nothing is known for certain yet. He needs a foundation to build upon.
+
+            Descartes might think a demon could trick him into believing 2+2=4, that it somehow is still doubtable. Literally, there’s nothing for him.
+
+                This seems like it is obviously wrong though.
+
+        Cogito Ergo Sum: I think, therefore I am. He knows he exists because he knows he is thinking. He knows he is thinking because…he’s fucking thinking it.
+
+            He has his foundation. He has at least one thing he is certain about. He cannot doubt it.
+
+            It’s also clear here how epistemology comes before ontology. Everything that exists is doubted to exist. All propositions are doubted. All he has left is a method for trying to find beliefs. He found a belief, and that belief eventually leads him to know something about existence. Belief comes before existence for Descartes.
+
+                Radical move in epistemology. Still continues for some folks.
+
+    From here, Descartes does a really shitty job of applying his method, and he magically finds his way into being certain about the existence of the external world and God. His work is finished. Life can go on. And, Descartes keeps his head out of the guillotine.
+
+Post-Descartes:
+
+    Husserl, Heidegger, Phenomenology, Study of Consciousness, Continental Philosophy are extensions of Descartes work.
+
+        They too doubt the existence of the external world.
+
+        They do not, however, doubt that they are perceiving. They know they are experiencing something consciously, and that can be known with certainty. Whether or not we live a Matrix though, that we can’t know with certainty.
+
+            Their work is basically the study of perception and consciousness while bracketing those doubtable beliefs like the external world.
+
+    Foundations of Knowledge
+
+        Plato and Aristotle’s epistemic foundation was ontology, reality, being, and substance
+
+        Descartes’ foundation is a method which calls everything into doubt, and what emerges is a kind of solipsistic skepticism. But, he knows he is thinking, therefore he at least know something. From there, he thinks we can chain together a tree of beliefs which he knows with certainty.
+
+            Mathematics and logic seem to work like that. But, honestly, not much else.
+
+            We can be certain that we are thinking, conscious, and perceiving things. Not much else though.
+
+        This foundation question is a big one. There are various problems with it. There is a famous regress that we should look at just to understand how difficult it is to provide a foundation of knowledge.
+
+            Sextus Empiricus and Agrippa, in response to Plato, offer a problem for us.
+
+
+
+    Regress
+
+        Suppose that P is some piece of knowledge. Then P is a justified true belief.
+
+        The only thing that can justify P is another statement – let's call it P1; so P1 justifies P.
+
+        But if P1 is to be a satisfactory justification for P, then we must know that P1.
+
+        But for P1 to be known, it must also be a justified true belief.
+
+        That justification will be another statement - let's call it P2; so P2 justifies P1.
+
+        But if P2 is to be a satisfactory justification for P1, then we must know that P2 is true
+
+        But for P2 to count as knowledge, it must itself be a justified true belief.
+
+        That justification will in turn be another statement - let's call it P3; so P3 justifies P2.
+
+        and so on, ad infinitum.
+
+    How do you solve a regress?
+
+        Don’t need a solution. Just be okay with it.
+
+            Plato would hate the idea. They found regresses to be irrational.
+
+            We are finite creatures, with finite minds, and we can’t believe an infinite number of beliefs. If the regress poses for us justification in terms of an infinite number of beliefs, then we can’t have knowledge as humans (even if an infinite mind, like God’s, could have knowledge).
+
+                This is undesirable. We want to say we have knowledge, right?
+
+                    Note, this regress works for justified belief which isn’t even knowledge as well.
+
+        Foundationalism
+
+            Eventually, you hit rock bottom. You hit a “basic” or “foundational” belief. It is the kind of belief which is self-justified or doesn’t need any further justification.
+
+                Beliefs we are certain about might be such a foundation.
+
+                    Can all your beliefs be justified this way though?
+
+                    I don’t think it is easy to justify most of my beliefs based solely upon apodictic beliefs like “I think therefore I am” and 2+2=4.
+
+                The foundational beliefs likely require some which we aren’t even certain about.
+
+                    What are those?
+
+                    Why should we think they basic?
+
+                        If you can even ask “why are they basic beliefs?” aren’t you just asking for a justification for that basic belief (a belief which by definition we already know doesn’t need a justification).
+
+                    Seems rough.
+
+            Coherentism
+
+                Alternatively, the chain of justificatory reasoning may not debranch all the way to a root set of foundational beliefs, but rather the chain forms a loop.
+
+                Perhaps all your beliefs justify each other.
+
+                    This isn’t just making sure your beliefs are logically consistent with each other.
+
+                    Your beliefs would need to provide a reasonable account for each other.
+
+                Circularity
+
+                    Sounds like circular reasoning. It looks like.
+
+                    Why should we agree to any particular set of beliefs as behind Coherent?
+
+                        Still seems like we are asking for a kind of justification after the fact. Like Coherentism still doesn’t solve the problem.
+
+
+
+The Senses as the Basis of Knowledge: Locke, Essay concerning Human Understanding	
+
+
+    Both Plato and Descartes have appealed to innate knowledge or innate ideas.
+
+        For Plato, it was about remembering the knowledge locked inside our souls. That’s how he defeats Meno’s paradox. Plato’s view is radical in that all knowledge is innate.
+
+        For Descartes, the concept of infinite perfection is an innate idea. One which we’re born with. One which all minds already have, before all perception.
+
+            How much of our knowledge is innate in Descartes eyes is debatable.
+
+        This is really the beginning of an important debate about “how we acquire knowledge”
+
+    Empiricism vs Rationalism
+
+        Some people think we were born with at least some innate knowledge. Locke doesn’t agree to innatism at all. In his rejection of innatism, Locke became one of the fathers of empiricism.
+
+        Empiricism is the theory that knowledge is the result of reflective thinking about our perceptions and sensations. Knowledge can only be acquired when there is a world to experience.
+
+            On Locke’s empiricism, you don’t know what an apple is without having used your senses in some way.
+
+                Whether by someone telling you about it, you heard them.
+
+                Looking at a picture of one or looking at a real apple.
+
+                Smelling them, tasting them. Comparing them to other fruits you’ve tasted.
+
+                Feeling them, or comparing them to other things you’ve felt.
+
+            Locke thinks empiricism holds for not just propositions about apples, but all propositions about all things.
+
+    Tabula Rasa – Blank Slate
+
+        We have no innate ideas.
+
+            Modern neuroscience denies this.
+
+            Locke didn’t have access to our scientific knowledge.
+
+                He still has an important point of view to think about though. He forces us to ask questions about the knowledge acquisition and the limits of knowledge.
+
+        How do we fill that blank slate with material?
+
+            Experience, sensation, perception
+
+            By experiencing the world, we come to know things.
+
+            By thinking about our experiences, we come to know things.
+
+            According to empiricism, experience is the only gateway to knowledge.
+
+    Innate principles are often thought to be universally consented to.
+
+        That is, at least in Locke’s view, innate principles are the kinds of ideas which we all share from birth. We all have access to them. We all would universally agree to these ideas if they were innate. If we all knew that some proposition, then there wouldn’t be any disagreement about that proposition.
+
+            He’s overstating innate ideas here. He’s making it look worse than it is.
+
+        He indirectly argues against innate principles by arguing directly against the notion of universal agreement.
+
+            First, It is completely unobvious how universally consent logically implies innate principles.
+
+                E.g. Just because everyone thinks the Earth is flat doesn’t mean that everyone has innate knowledge that the Earth is flat. After all, the Earth isn’t flat.
+
+                    Essentially, just because everyone agrees to something doesn’t mean that that something is true or that anyone has knowledge of it.
+
+                This is argument is correct.
+
+                    Note, however, that this doesn’t mean there isn’t innate knowledge. It is really only an argument against the relationship between universal agreement and innate knowledge.
+
+            Second, Locke claims there is nothing which is universally agreed upon. So, even if his previous argument doesn’t work, this second criticism is a backup kind of argument.
+
+                Idiots and children to not agree to even the most obvious truths.
+
+                E.g. Law of excluded middle, P v ~P
+
+                    If anything could be innate, surely this would be. It’s one of the most basic laws in logic.
+
+                    If this were an innate principle, then there would in fact be a universal agreement to it.
+
+                        Unfortunately, there hasn’t always been, and probably still isn’t a universal agreement on it.
+
+                        Thus, this isn’t an innate principle
+
+            Note, despite what Locke seems to think, neither of these criticisms still seem to shut the door on innate ideas. All it does is lay the smack down on universal agreement’s relationship to innate ideas.
+
+    Locke’s Empiricism is about filling the Blank Slate, or furnishing our empty minds through reflection over experience.
+
+        Locke agrees we have innate capacities to think, even though He doesn’t think we have any innate knowledge.
+
+            I think he weasels some innate knowledge in here, but he vehemently denies it.
+
+            There seems to be something tricky here. I worry that being able to reflect at all requires some kinds of knowledge. Reflection and reasoning seem imply we have some innate knowledge.
+
+
+
+
+Innate Knowledge Defended: Leibniz, New Essays on Human Understanding
+
+    Leibniz was a rationalist who influenced philosophy as much as Locke has (plus, Leibniz invented calculus at the same time as Isaac Newton).
+
+    Leibniz responds to Locke’s criticism, defending the rationalist claim to innate knowledge.
+
+    Leibniz completely agrees with the claim that the vast majority of human knowledge requires reflecting over empirical investigation, sensation, and perception.
+
+        Leibniz denies that empirical knowledge acquisition is the complete picture.
+
+        Something is missing, a key, necessary ingredient, and Leibniz thinks that ingredient is innate knowledge.
+
+    Necessary and Sufficient Conditions
+
+        Let us suppose the proposition “Bob is a bachelor”
+
+            The necessary conditions for that proposition to be true are:
+
+                Bob is a male
+
+                Bob is unmarried.
+
+                If either one of those conditions aren’t met, then the proposition “Bob is a bachelor” is false. These are necessary conditions for the truth of the proposition that Bob is a bachelor.
+
+            The fact that Bob is a bachelor is a sufficient condition for us to know that Bob is male. So, given the truth that Bob is a bachelor, we know the truth of the propositions that “Bob is male” and “Bob is unmarried.”
+
+        A bowl with lettuce, tomato, mushrooms, and green pepper makes a salad.
+
+            That collection of ingredients is a sufficient condition for us calling it a salad.
+
+            Are those ingredient all necessary conditions for making a salad?
+
+                No. you can have a salad without mushrooms. Mushrooms are not a necessary condition for having a salad, although they might be part of a sufficient condition for having a salad.
+
+            Let’s say all salads have lettuce in them. If so, the lettuce is a necessary condition. If you only have one leaf of lettuce in a bowl, do you want to call it a salad? Probably not. If you think not, then you think that a single leaf of lettuce is not sufficient for having a salad, even if you think it is necessary for having a salad.
+
+        For Leibniz, empirical investigation alone is not sufficient for acquiring knowledge.
+
+            Reflecting over your perceptions might be necessary for acquiring particular kinds of knowledge, but he doesn’t think it is sufficient.
+
+    Some truths, like mathematical truths, might be reachable without resorting to experience entirely. Reflecting on necessary and universal truths might not be empirical. They could be innate.
+
+    Necessary and Contingent Truths
+
+        Either something (whether a state of affairs or a proposition about it) is impossible or possible.
+
+            For a proposition to be impossible is to say it is necessarily false. There is no world in which it true.
+
+                A married bachelor
+
+                A square circle
+
+                That my apple is not an apple at the same time in the same respect.
+
+        Within the realm of possible propositions, there are two classes:
+
+            Necessary truths
+
+                True in all possible worlds. Inconceivable for it to be false.
+
+                2+2=4, A red apple is a red apple. Either this object is an apple or it isn’t.
+
+                Necessary truths, obviously are possibly true. They are the kinds of possible truth which can’t possibly be false.
+
+            Contingent truths
+
+                Not true in all possible worlds. If it is true in our world, there is some coherent hypothetical world in which it is not true.
+
+                I wasn’t late to class today.
+
+                    It’s possible I could have hit some traffic that would alter the truth of this proposition.
+
+                    It’s possible for me to be late.
+
+            Our world is composed a collection of necessary and contingent truths.
+
+        Leibniz thinks necessary truths are very special, and perhaps some of them are innate to us. Perhaps some of them can be known without any experience at all.
+
+    In response to the Locke’s claims for idiots and children, Leibniz claims that to bring up innate ideas require diligent attention. It might already be imprinted in the mind, but you have to consciously attend to that imprint before you can use it.
+
+        Children may have the law of excluded middle innately imprinted in their minds already, but sometimes they fail to pay attention to what is imprinted there. Children need more practice.
+
+    Leibniz thinks a mind is like a block of marble rather than Blank Slate.
+
+        Our minds are sculpted from marble. Inside a block of marble, you’ll find innate colors and shapes and patterns. Likewise, inside our minds, you’ll find some innate ideas. Sometimes it takes reflection over our experiences to chisel the marble away and reveal the innate ideas or innate marble patterns that there were all along.
+
+    Leibniz thinks the other animals are “simple empirics” which are aware of particular objects, but don’t have the abstraction and demonstration skills of humans.
+
+        Part of Leibniz’ theory here is about differentiating humans from the other animals. Showing how we are special.
+
+        Can animals have knowledge? I don’t see why not.
+
+        Humans are special in that we have access to the necessary truths. We know when we’ve stumbled upon a universal truth.
+
+            Should we really believe no other animal can do this?
+
+            The higher animals have been known to get the answers to basic addition problems correct.
+
+                Is this just learned behavior without real understanding of the math?
+
+                Or, is this actually an example of animals understanding math and universals.
+
+                Is it possible to have knowledge without being aware that you have knowledge? Maybe animals aren’t aware that they understand basic addition, but the rest of their inferences and the way they live their lives or play games with us requires they have a kind innate, subconscious set of beliefs about basic addition.
+
+
+
+
+
+Against Scepticism: G.E. Moore, A Defence of Common Sense
+
+    I’m gonna shit on Moore and his argument for a bit here, but then I’m going to explain how we can make the most of Moore’s argument. There is a way to salvage it.
+
+    Moore just straight up denies that common sense claims like “there is an external world” can be doubted. He thinks he knows these common sense propositions with certainty. I find that to be a radical claim at this point in history of philosophy.
+
+        He’s being arrogant and almost ridiculous.
+
+        His case is too simple.
+
+        He gives no direct argument for it.
+
+        He just thinks doubters are silly, and he cries out to them: “nananabooboo.”
+
+    Moore is oddly talks about ‘knowing what it means for the Earth to exist’ as opposed to ‘knowing that the earth exists.’
+
+        It might be the case that Moore has swapped the skeptics argument here for a weak one. This wasn’t the argument that the skeptic was giving in the first place. Even if it was, Moore fails to recognize the resources available to the skeptic to offer a more challenging criticism. Moore does a poor job of addressing a charitable interpretation of the skeptic’s real argument.
+
+        Moore is engaging in a strawman here. He has not been charitable at all to his opponent’s view, nor as he even tried to effectively explain his opponent’s view.
+
+    Strawman fallacy:
+
+        When you refute a dumb argument that your opponent didn’t make in the first place, but act like you refuted your opponent’s actual argument. It makes it seem as if you refuted your opponent’s argument, but you didn’t at all.
+
+        That’s what Moore has done here.
+
+    That said, I also think that Moore has offered Meno’s paradox from the beginning. He says:
+
+        “It is obvious that we cannot even raise the question how what we do understand by it is to be analysed, unless we do understand it.”
+
+            So, Moore might just be begging the question here. He might be blindly asserting the conclusion he wants in his assumptions. That’s a huge fallacy.
+
+            If he’s not begging the question, then he has introduced Meno’s paradox.
+
+Moore is an elitist who thinks he writes cleverly and clearly. He does a shitty job for someone as cocky as he is. For example, he talks about being certain here. I’m not convinced he really knows what that means. He’s overstepped. His argument could be a lot stronger if he toned down his certainty into mere confidence. Confidence is enough for justification given how his argument operates.
+
+The best interpretation of his argument, which isn’t well articulated on his part goes like this:
+
+    I know this pencil exists.
+
+    If the skeptic’s principles are correct, then I cannot know of the existence of this pencil.
+
+    Therefore, the skeptic’s principles (at least one) must be incorrect.
+
+Moore thinks that if we were to find ourselves as a fork in the road, having to choose between knowing that the pencil exists or the skeptic’s principles, then we should choose “knowing the pencil exists.” It is best to interpret Moore as actually claiming he is more confident in the pencil’s existence than the skeptic’s principles. The decision procedure here is to select between mutually exclusive propositions based upon which proposition he has more confidence. Knowledge of the pencil’s existence will only later be the result of this confidence defeating skepticism.

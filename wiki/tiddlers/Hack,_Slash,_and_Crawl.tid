@@ -1,0 +1,117 @@
+created: 20170318224758687
+modified: 20170405000457528
+revision: 0
+title: Hack, Slash, and Crawl
+
+You can find this game on [[Kongregate|http://www.kongregate.com/games/Void/hack-slash-crawl]]. It's a very simple RPG-style hack'n'slash dungeon-crawl overt-skinnerbox game. From just a few kinds of choices, a neat (although still compact) complexity and metagame arises. It gives you immediate pain and pleasure rewards that keep you interested and coming for more. There are clear winners and losers. You can test your way through all the possibilities. It is a metagamer's mini-game. This is a guide on how to play it perfectly:
+
+Starting Out:
+
+* Name: //Nom du jour//
+* Role (fundamental metagame class):
+** You are a scaling draintank who evolves into a Maximum Mobility Indestructible One-Shotting Machine. Few class combinations can actually escape the early game. This is the best at it, and it scales up the best. Technically, there are other, less efficient options. At an extremely theoretical level, there may be a better option than I've pointed out, but it is not obvious it exists (I talk about it towards the end of this article).
+* Class: Vampire Reaper
+** Vampire's lifeleech is a unique effect in the game. It costs you nothing other than swinging a sword (which just so happens to be the best form of offense). It's free, scaling survivability. Its profound scaling with physical melee damage cannot be replaced (note that +elemental skill damage on weapons isn't affected by lifeleech, although I believe Cursed is). It allows you to heal yourself permanently when you start getting enough damage. For the most part, spell-based healing becomes almost useless very quickly in the game. This is an extremely consistent source of healing at every stage of the game, and it costs you nothing except the opportunity cost of the other options. Also, it has a direct scaling synergy with Critical Strike. Your offense becomes your deepest source of defense. This is what allows you to be a scaling draintank. Only at the End game does it become irrelevant.
+*** Werewolf could be quite effective in the End Game when you attempt to become a zone-wide-pull invincible tank relying upon Stamina-based life regen. I've never gotten a werewolf that far since I find vampire to be so effective.
+*** Golem may theoretically be the best choice for a bot playing this game into eternity, but I have no proof of that.
+** Reaper grants you innate Critical Strike skill. Spam that "1" key on your keyboard! It's the strongest damage multiplier in the game. Its profound scaling with your damage initially enables you to take out packs very quickly, giving you a high clear speed without a ton of risk. In the early and mid game, you ask yourself: Do I have mana? You can take a pack down no problem. Don't have mana? You need to be cautious (particularly in the early game). This skill allows you to become a One-Shotting monster earlier than you would just off Strength. It compresses that window of tanking to One-Shotting and allows you to grind so efficiently that you leap out of the Mid Game to Late Game faster and more consistently than any other option. This should not be downplayed. The best form of crowd control in this game is just killing stuff, period. You tank'n'spank to win, yes, but it is more of a spank'n'spank to win.<<ref "1">>
+*** Technically, you can find items with Critical Strike. However, the guarantee of Reaper enables you to make better gear choices in the early and mid game (the hardest part). 
+*** Cursed is the only other possible contender. Frankly, not having Critical Strike really sucks. The ability to rely upon Critical Strike from Reaper at all stages of the game allows you to be flexible with your gear and stat investment strategy while maintaining the ability to One-Shot. I consider Cursed to only theoretically be a better option when you are thousands of Floor levels into the game trying to break it in half (playing naked).
+* Bonus 1: Marathoner, +10% run speed 
+** Earned by travelling at least 10000 distance.
+** There are no runspeed items in the game. This is a buff you can't acquire anywhere else. Cutting the travel time is huge. It's a raw increase to your Game-Progress-Per-Minute that scales up to a 10% increase or so.
+* Bonus 2: Bonemaster, 20% Chance any skeleton that sees you will temporarily be charmed
+** Earned by killing at least 50 skeletons.
+** This is an absurdly powerful unique Bonus. Free Charms are hilarious and at times something you need to manage. It does impede your mana regen at times though (so not actually free) and makes you slow down your crawl. Crowd control is incredibly powerful at times (and other times useless; wide range on it). It's a kind of get out of death free card on certain pulls, and other times in the early game (the hardest part, arguably) it helps trivialize certain encounters. Stats from Bonuses and items just don't matter past Floor level 8ish. This ability scales. That said, it eventually becomes useless.
+** If you feel confident, and assuming they stack (I have no idea how best to test this besides a literal frame-by-frame analysis which I'm not going to do), you can go for the +5% Run speed Bonus instead. Mid and late game, Charm is a useless skill (but fun in the End Game), and you stop seeing undead mobs anyways. Basically, this second slot doesn't really matter too much. I'd go with the easier Early Game if I were you. Min/Max purists should go for the run speed though.
+
+General Axioms, Mechanics, and Strategies:
+
+* Your Character Level scales up exponentially against the dungeon Floor Level. Stats start snowballing very hard after you begin the mid game. This is why it is so useful to kill everything, even in the late and end game. Kill everything, always. In the early game, you simply need the stats and higher drop rate necessary to develop basic resistances. Eventually, you're trying to complete a set of perfect resist gear, but invested stats always matter. You need to outscale the content to min/max, and that only be accomplished by squeezing every drop of experience (and gear, to a lesser extent) out of each Floor Level.
+* With enough resistances, you will basically only have to worry about physical damage. Keep stacking Armor and Stamina, and eventually you won't care about physical damage either.
+** In the early game, maximize Ice, then Fire, and then Electric resists. Ignore Poison entirely. Eventually, Ice and Fire will be all that matters. At some point in the end game, you don't even really care about resistances so much. Your stamina will be so high that you can technically tank packs naked (not for long; it's very unsafe even in the End Game).
+** Ice is the first and most important resistance since the Ice Chargers are very dangerous, completely unkitable, and make splitting camps risky. Fire is next most important. Get Ice and Fire to 100 resist (beyond that has no effect). You can do just fine with Electric at 50ish, but eventually you drop it entirely (like Poison). 
+* Invest +3 Strength and +1 Stamina every level until you have enough Strength to One-Shot everything. Afterwards, invest in a more balanced fashion in Strength and Stamina to maximize your survivability while still maintaining One-Shot power (Fishing and Charging are the only real complications, unless you don't mind spamming Critical Strike for every swing).
+* Save your gear. You should be evaluating the best balance of stats. You will switch gear out from your banked items. Saving a full set of each resist-type gear is worthwhile. 
+** What else are you going to do with your inventory space anyways?
+** At the End Game, you'll only keep Fire and Ice Resist gear.
+* Maximize white/physical/melee damage by maximizing base weapon damage. Ignore elemental damage on weapons. 
+* After the beginning stages of the Early Game, abilities outside of Critical Strike, Charge, and Wild Charge are irrelevant until you hit the End Game, where you build whatever you want to build for aesthetic reasons. Value Resists and AC on your non-weapons until your level-based stats are the fundamental reason for your brokenness. 
+
+Game Stages:
+
+* Early Game
+** Pull carefully, kite when necessary, and make sure you heal up before major encounters. By Floor level 6ish, you should start to slow down and be careful. Life doesn't become EZ-mode until around Floor level 15 (assuming you've had decent drops).
+** Remember that you can't kite/escape from chargers. Kill them first. Be extra cautious on your pulls when you start seeing them. 
+** Prioritize targets that deal the most damage, which is generally whatever your weakest resist stat is at the time.
+** Electric Resist still matters here.
+
+* Mid Game
+** Starts around Floor Level 15.  Here is where the game becomes trivialized. You are perfectly safe playing even half asleep. Progress beyond here is due to your min/max interests and how you construct the value of gaming for yourself.
+** You start leveling insanely hard and profoundly outscaling the content. You should be quite strong. You start by 3-shotting and tanking all day. You don't have be terribly careful when you pulling. Spam your Critical Strike. You will begin to one-shot with Critical strike very quickly. Ride that gravy train.
+** You stop seeing skeletons, and your passive Bonus becomes useless.
+
+* Late Game
+** You get to a point where you weapon damage and Strength are high enough that you can One-Shot without Critical Strike, but you're still likely grinding Strength up. Here you need to eventually switch to having Charge, even if it costs you some white damage or perhaps defensive stats if you are not risk-averse (you may need to Crit strike, it depends on your Strength investment). Your mana regen should naturally be broken at this point.  In many cases, Charge with Crit is a faster clearing speed than One-Shot without both Crit and and Charge. You need to get lucky on item rolls too for a while.
+*** One of the core itemization problems is that you really want Charge, often on your weapon, so that you can maximize your stats on your other gear without giving up a slot for Charge. But, you also fundamentally want the highest white damage you can find.
+*** Remember to start investing in a balanced way between Strength and Stamina. With Charge on a non-weapon slot, you can use the highest damage weapons you find, and this means you can dump everything into Stamina.
+** Armor is one of the few ways to maximize your survivability. It scales on items unlike resists, and that's because mob physical damage is the only major scaling offensive component of enemies at this stage. You will spend a lot of time hunting for gear with the right AC and Resists.
+** Electric Resists stop mattering here (it may have stopped mattering in the Mid Game for you); it becomes much easier to just go Charge on an armor slot and take max white damage on your weapon at this point.
+** You'll be able to safely multi-pull and tightly pool them together to make it easy.
+** You should see that casters do no damage (may have started in the Mid Game as well), although you'll take non-scaling electric damage from the "Eye" mobs.
+
+* End Game
+** You get to a point where you can out-regen the unmitigated damage you are taking. Survivability scaling at that point is about how many simultaneous unmitigated mobs you can tank while maintaining max health.  It's just melee and possibly some Electric (depending on where your resists are at and how far in the End Game you are).
+** End Game goal: to pull the entire zone and outregen their damage. Pure and total invincibility. 
+*** In Practice, only so many mobs can surround you and hit you at once. Technically, you need to maximally surround yourself with physical damage dealers and outregen that. That's the maximize possible damage you can take at this stage of the game.
+** Eventually you can basically pull most of a zone at once. Be careful though. This is unsafe and unnecessary when you first start the End game (you don't want to be surprised).
+** Loot all weapons, even the white commons. You'll only want to loot Green (uncommon) and Blue (rare) non-weapon items though. You are looking for max damage on weapons, but you are seeking a very specific mix of stats on your other gear that require green/blue.
+** The End Game Question is: What functional gains are available to me? There are several mechanical boundaries that I probably can't know without seeing the game's code.
+*** Is there Charge + Resist gear? I've never seen it. 
+*** What are the limits of AC's utility? Eventually, your itemization boils down to maximizing this stat and your weapon damage.
+*** How do you maximize defense? Permatanking a zone seems to be it.
+*** How do you maximize offense? One-Shot without Crit using a Fish, maintaining Charge on another item slot.
+*** Is there a stat-gear point where clearing the level is irrelevant? Do mobs fail to scale beyond a certain point? Their HP scales, but it is unclear to me how their physical damage scales. I need to see the equations.
+** Once you Achieve 200-250 Stamina, you can permanently tank multiple mobs (depending on their types and your gear). You need to push very hard in Stamina to be able to tank a zone though. At around 750 Stamina, I found it very difficult to find any zones which I couldn't permatank.
+** Make sure you can One-Shot without Critical Strike to preserve economy of motion.
+** Late and End Game Itemization is difficult. You are sifting through tons of gear, a large portion of which is newbie gear, trying to find even remotely viable pieces.
+** As you noticed long ago, casting, for you, is irrelevant. It's for fun. It just doesn't scale like physical damage. It's about them style points.
+** You'll find mob HP bars fill the entire screen. It annoyingly looks like your video card is tearing your screen when you kill them.
+** Looting becomes a chore, especially since it gets in the way of targeting mobs.
+** You become happy with the increasing aggro radius because your life just gets easier when they come to you.
+** You get to a point where Fire Resist is not necessary for survival. It's mitigation qualities still maximize your survival for most packs though. Hence, you should still use it. What else are you going to do with those item slots?
+** Fishing
+*** Itemization is odd in this game. Drop rates do not make sense. My intuition feels like there is something odd in the programming here in multiple ways. e.g. I cleared 90 dungeon levels (char lvl 354) before I saw a single +50 fire resist ring, and that was only after shuffling my items around. I worry that item drops are literally based upon the items you are wearing. 
+*** Maybe there is one perfect set of gear (instead of multiples, but this seems very unobvious to me). Technically, using the Fish might be the best way to find it.
+*** It's a pain in the ass to raise your Strength high enough that you can One-Shot with a Fish-weapon without Critical Strike
+** You will be grinding for perfect gear. In general, there is one exception, a single armor piece (Boots are often best) should be AC + Charge (although, at certain points in the game, Charge will be on your Weapon). Basically, you want to One-Shot without Critical Strike, with Charge, with 100 to both Fire and Ice resists, while maximizing your AC. You keep multiple sets of gear to make sure you can shuffle to maximize that AC.
+*** Weapon: max white damage, charge is amazing; if you have charge elsewhere, and if you have the Strength, then go for a max-damage Fish. 
+*** Head: AC, Fire or Ice Resist, and Spell (spells aren't generally useful; it's just style points)
+*** Chest: AC, Fire or Ice Resist, and Spell  
+*** Boots: AC, Fire or Ice Resist, and Spell 
+*** Ring 1: Fire or Ice Resist, and Spell 
+*** Ring 2: Fire or Ice Resist, and Spell 
+** Style points
+*** Beautiful gear
+*** All the skills! Pet skelly is useless, but silly fun.
+
+* Prestige - Hyper-End Game (theoretical)
+** Anyone who has read this far and played through to where I've been would realize I'm insane. I took this game to the max. I love the punishment of the grind, the skinnerbox addiction. There is a place I dare not go because I'm not sure if it exists in this game (effort-wise, it would be cheaper to reverse engineer the game and do the math to figure out if this is even possible than to actually attempt to practice it). I have two theoretical Hyper-End Game points.
+** Theoretically, you may be able to get enough Stamina that you can permatank naked. At Floor 100, I could permatank with 100 to Fire and Ice resist, but I couldn't permatank at 50 to Fire and Ice resists (although, I could safely tank with vampire). Perhaps with enough investment you could get there. Technically, Golem Cursed at 40 innate resists or possibly Werewolf Cursed (depends on how regen scales at this stage of the game) could hit this point much earlier than others. 
+** Theoretically, it may be possible to be a Hyper-End Game spellcaster! With Charge + ~AoE spellcasting, you could improve your clear speed considerably. Assuming one could ride their hyper-scaling white damage far enough (could be millions of levels for all I know), and assuming that intelligence could eventually scale up to One-Shot (that is not obvious at all, and if it did, it would be a monumental up-hill stat climb to scale up that hard), then investing hard in Intelligence while being invincible would allow you Charge->Instant-Wave-Clear from room to room. This is the fastest you could clear levels. At some point, perhaps after billions of levels, the theoretical Hyper-End Game spellcaster (perhaps the ultimate final form of the Vampire Reaper class) would push hardest and fastest into the presumed infinitude of levels of this game. The Reaper could allow Strength to be much lower and push Intelligence very hard and much earlier than others classes.
+** Hence, my theory is that the absolute best Hyper-End Game nearly naked character (need a weapon for ~AoE damage and an item with Charge on it, preferably a Chest with max AC) is a Golem Cursed with ~+15% Bonus runspeed who Charges and  One-Shot ~AoEs (and One-Shot melee, of course). It is likely the case that only a sped up version of the game could achieve that in our lifetime. A bot, nonetheless, is the only thing which could achieve this.
+** I'd like to point out how absurdly long these theories would take to accomplish in practice. 
+
+* My Longest Game:
+** Character Level: 425
+** Floor Level: 100
+** 17180 HP, 868 Stamina
+** 1168 AC
+** Full set of max (for my zone level) AC + Charge gear for all slots
+** Full sets of max (for my zone level) AC + Resists for Fire and Ice with Skills
+** 400 damage Fish, 850 damage standard weapon
+** 82,087,300 Pearls
+
+-----------------------------
+
+<<footnotes "1" "Theoretically, you could eventually find itemization which made it so you had the perfect gear that just so happened to include Critical Strike. At that point, there are technically better options. In practice, however, you just want to wear the highest damage weapon you can find at all times.">>

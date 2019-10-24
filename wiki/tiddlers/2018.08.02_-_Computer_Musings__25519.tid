@@ -1,0 +1,47 @@
+created: 20180802132727242
+creator: h0p3
+modified: 20181029175224790
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.08.02 - Computer Musings: 25519
+
+Going to make some other keys. Fun today!
+
+https://github.com/cathugger/mkp224o
+
+Vanity keys for Tor onion. Interesting to benchmark the machines in the house.
+
+https://github.com/Yawning/horse25519
+
+An older one. Shame no GPU.
+
+---
+
+I'm annoyed with myself for not keeping some of my source files. I've generated pubkeys from private before, but it is surprisingly hard to find resources to do this. Odds are, the thing I want to do is a big nono in cryptography. 
+
+Last time, I did this in Go. Ugh. I wish I kept it.
+
+* https://github.com/orlp/ed25519
+* https://github.com/jedisct1/minisign
+** Very sad about this one. It's a very simple tool. It's not deterministic for password generation.
+* https://www.tedunangst.com/flak/post/signify
+
+FOUND IT! FUCK YEAH!
+
+---
+
+`./mkp224o -s -d res3 hopewiki -t 4` is about the same as 8...
+
+Forgot I had to install libsodium-dev on Ubuntu.
+
+`/mkp224o -d res3 hopewiki -t #` with "Watch for activity" from Terminator is super useful.
+
+---
+
+`sudo pacman -S opencl-nvidia opencl-headers`
+
+vanitygen-plus problems abound still.
+
+---
+
+Signed up for roll20.net with very brief tour/explore.

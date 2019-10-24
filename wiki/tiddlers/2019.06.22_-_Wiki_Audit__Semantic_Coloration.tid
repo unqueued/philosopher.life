@@ -1,0 +1,10 @@
+created: 20190622042947805
+modified: 20190622185223480
+tags: [[Wiki Audit]]
+title: 2019.06.22 - Wiki Audit: Semantic Coloration
+
+We are moving into semantic tag coloration. This can be expanded considerably. We're still thinking about how to show emergent structures in tagging. Some of my tags are functional, but most are simply for search/navigation or highlighting otherwise difficult structures to see. Currently, just a few names and [[Readme]]. 
+
+My assumption is that it will enable some cheat-glance-skimming or serve as clear beacons. I intend to keep most everything blue unless we demonstrate ordered nesting through coloration (but, I think there are better ways to show this; further, I'm worried about dynamically calculating that client side for every tiddler).
+
+I am not a fan of semantic coloration as a colorblind person. I have a very difficult time reading gamestates, graphs, and the external world which rely too heavily upon color. This is an experiment for now.

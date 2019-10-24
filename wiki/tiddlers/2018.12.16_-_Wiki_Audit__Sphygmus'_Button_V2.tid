@@ -1,0 +1,23 @@
+created: 20181216234952212
+modified: 20181217072752991
+tags: [[Wiki Audit]]
+title: 2018.12.16 - Wiki Audit: Sphygmus' Button V2
+
+[[Sphygmus]] has developed the second iteration of her button workstation plugin. Wow! She anticipated and exposed quite a bit. The wikification and data dictionary may enable us to construct arbitrarily complex buttons. [[j3d1h]] cry-laughed when she saw $:/plugins/sphygmus/sbuttonsV2/buttonHardcodedList and complained that it wasn't fair that [[Sphygmus]] made it look so easy (since we struggled to even get halfway near just one aspect of what this plugin has accomplished).<<ref "r">> Indeed, [[Sphygmus]] has intuitively understood where I was hoping to eventually go and ran far ahead!
+
+Yet again, she builds another tool of which some version should be in the default blank TW or one of the built-in installable plugins. 
+
+Like any decent Linux distribution, there should be a bare minimum install and a batteries-loaded distro. The hardcoded button should likely be demonstrated even in the minimal distribution. I hope to break that button in half in how hard I use it. A full workstation for developing and managing buttons appears to be rising here, and that is batteries-loaded.
+
+Sphygmus and I discussed this over Signal. I believe we are going to be engaged in what I will refer to as "firmcoding" instead of strict hardcoding because we are dynamically generating the hardcoding on the fly when an update is triggered. Perhaps there is a better term for this. 
+
+---
+
+TiddlerTool required tinkering to get working in singlefile mode, but once I had it working it just worked. Bob requires me to tinker to get it to work every time. I have to head into the plugin and set the batch actions first...otherwise I get a red alert.
+
+---
+
+I got to 2017.10.14 in [[The Remodeling]]. 
+
+---
+<<footnotes "r" "I had to remind the girl she's much younger. It's comparing apples and oranges.">>

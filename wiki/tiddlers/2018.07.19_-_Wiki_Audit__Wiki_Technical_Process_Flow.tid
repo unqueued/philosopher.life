@@ -1,0 +1,18 @@
+created: 20180719042206125
+creator: h0p3
+modified: 20190705181522086
+modifier: h0p3
+tags: [[Wiki Audit]]
+title: 2018.07.19 - Wiki Audit: Wiki Technical Process Flow
+
+Ultimately, the self-contained aspect of Tiddlywiki is why I'm going to keep using it. There's nothing else like it. The portability is unmatched, period. It runs on anything with a fucking browser. Unfortunately, I don't want to always have to do my work inside the the browser though. Sometimes, the commandline would be legitimately better. The goal is to actually be capable of systematically building and editing tiddlers for this wiki from commandline, automate their compilation and signature, and deliver two products.
+
+# Use something like http://h0p3.wiki/ and a Hugo server with the tiddlers broken into tiny static files
+#* Easy way to pickup speed. 
+#* This is meant to be the public facing http server for everyone.
+# Serve and store the full index.html file from https://philosopher.life/ with the standard approach
+#* Still enabling
+
+Gits, syncs, etc.
+
+I really wish there was a clean way to update what is being served by NPM realtime. That would fix a lot of my problems. Right now, I think I have to wait for FF to close out, then I work until it opens back up. 

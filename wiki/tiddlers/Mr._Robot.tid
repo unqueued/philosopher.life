@@ -1,0 +1,65 @@
+created: 20170710205147790
+modified: 20190711142213216
+revision: 0
+tags: TV
+title: Mr. Robot
+
+* CP Scene
+** Fast wi-fi, lol. Gigabit fiber will give you that wired. Anyone who gives a shit about throughput or consistency won't touch wireless.
+** Notice what was strange? No one in their right mind runs the full server infrastructure behind their own coffeeshop. 
+** Deanonymizing an IP is not the same as knowing who is in charge of it.
+** The only way to make it "hard to see" against packet inspection is via obfuscation. 
+*** At which point, anyone taking the time to obfuscating Tor traffic is likely not going to possibly be subject to ARP attacks. 
+** You can't perform a MITM attack. Even clearnet HTTPS would make it obvious to anyone.
+** To my knowledge, there are no successful clearnet CP sites; they'd be deep underground if they did. Filehosters are the only clearnet targets.
+** Controlling exit nodes doesn't mean jack shit within hidden services, I believe.
+** The attack is not described at all, and it doesn't make sense.
+** He owns all the data, and then says its 100TB. Are you fucking kidding me?
+*** I've not met many hoarders who even have 100TB of space in the first place. 
+**** Did he DVD that bullshit? Look at the size of his disk-keeper, 100TB would have taken boatloads of those. 
+*** Admins notice 100TB of traffic, yo. 
+**** Noone is going to download that much if they are just attacking
+*** I am not convinced there's even 100TB of CP ever produced. You have no idea how much content that would be.
+*** 400k users? Bullshit. If it broke 20k, I'd be shocked. The more elite the service, the fewer get to use it. 
+** This is not how Anonymous made their historical attacks against CP providers and users.
+** No hacker worth his salt is going to meet in person. This is retarded.
+** 3-minutes as in the scene itself or his hack? The hack would have taken a long time.
+
+* Allsafe
+** What the fuck does this company actually do?
+*** You outsource penetration testing, but your actual security requires direct management of the entire infrastructure. It's internally done.
+*** Maybe some Cloudflare MITM?
+** Passwords
+*** Password guessing is not that simple. Yeah, Hashcat breaks swathes of bcrypted passwords in a file just fine. You can't target so easily. 
+*** They present it as guessing too in some cases. Ridiculous.
+** He's a hacker linux god, and he's running his dictionary attack as root?
+** Why pings?
+** That wasn't a 4 second online attack.
+** 123456Seven would actually take most standard dictionary attacks which could break that a lot longer than 4 seconds (even which gpgpu).
+** Plenty of techies don't use terminals.
+
+* DDoS
+** Omg, the world is ending! That is not a serious attack. 
+** You literally can't DDoS the world's largest corporations. It doesn't matter how much you amplify your attack, it ain't happening for a bunch of reasons.
+** A DoS (which later shows up on the terminal), rather than DDoS, technically can work. Again, you're only likely taking down a webserver though. Does it need to be distributed if it is DoS though? Why have some many countries named?
+** Why would reconfiguring DNS be useful? I'm not an expert here, but that does not make sense to me.
+** If you can stop services and reboot, why would they not come back online? What does that have to do with a DDoS?
+** What is "our entire network" here? Again, let me express my doubt. 
+** Do you really believe there is only one network connection to these worldclass servers? 
+** How does he eventually connect when the other guy couldn't? They both would have had that information.
+** Oh, so it's not a DDoS now, it's a rootkit. How did you know it was an invisible rootkit? Because the virus "replicated itself" and crashed the host. That's stupid. There are far better ways to accomplish preventing servers from rebooting.
+** How is defense here "spreading" the virus?
+** Wiping them clean does not happen in that space of time. How do they even know which backups to use? 
+** Wtf is that visual of an infected server? For a second, they make it sound like it spreads. It's a very dangerous worm or someone has owned you so hard that you should fully shutdown, airgap, clone drives and firmware, and then consider running forensics and diagnostics. 
+** ETA before it hits that server? Are you fucking retarded?
+** How do you know you can even trust that console at that point?
+** Changing DNS on a rooted server makes sense, but it doesn't for a DDoS, imho.
+** What do you got, Mr. Speedracer?
+** They do perform DDoS for no reason. Rooting a server they often don't. That's a lot more work likely. 
+** No admin is going to delete something before studying it. This is stupid that we would even entertain him wiping it like this. He wouldn't even be doing his job to do that.
+
+* Fsociety
+** The stalker thing is complete bullshit. This is not how they should or would handle this. There are much safer ways to do it. 
+
+
+

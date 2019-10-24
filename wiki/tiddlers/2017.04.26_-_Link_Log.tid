@@ -1,0 +1,16 @@
+created: 20170426185822305
+creator: h0p3
+modified: 20181115190837047
+modifier: h0p3
+revision: 0
+tags: [[Link Log]]
+title: 2017.04.26 - Link Log
+
+* Golang Pointers - https://dave.cheney.net/2017/04/26/understand-go-pointers-in-less-than-800-words-or-your-money-back
+* Spoof-proof Fingerprinting - https://browserprint.info/#fingerprint
+* Trusting Golang Devs instead of ourselves to implement security - https://bridge.grumpy-troll.org/2017/04/golang-ssh-redux/
+* Brickerbot: Sending a Wakeup Call Message to the IoT Industry - https://arstechnica.com/security/2017/04/brickerbot-the-permanent-denial-of-service-botnet-is-back-with-a-vengeance/
+* Text Search Engine - http://mg4j.di.unimi.it/
+* Deanonymizing Anonymous Data Sets - https://www.georgetownlawtechreview.org/re-identification-of-anonymized-data/GLTR-04-2017/
+* Stolen Identity What-to-do Advice - https://np.reddit.com/r/StolenIdentity/comments/67lggi/what_to_do_if_you_know_or_you_think_your_identity/
+* Signals in Linux - https://www.stev.org/post/linuxprogrammingsignalstheeasyway

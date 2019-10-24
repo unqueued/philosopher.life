@@ -1,0 +1,10 @@
+created: 20180211232255842
+modified: 20180212002414046
+title: Open Ports
+
+* SSH: 4222 -> 22
+* Nomachine: 4223 -> 4000
+* OpenVPN: 1194 -> 1194
+* vnpcloud.rs: 3210 -> 3210
+* shadowsocks: 4283 -> 4283
+

@@ -1,0 +1,42 @@
+created: 20181212165126243
+modified: 20181213063013198
+tags: [[Wiki Audit]] [[Be A Good Dad]] [[Computer Musings]]
+title: 2018.12.12 - Wiki Audit: Switching
+
+I am overjoyed to have access to multiple windows into my wiki. I feel like I've moved from a handtool to a powertool (which I can only barely see the possibilities of). The ability to have multiple workspaces is a relief (previously could read on as many as I want, but only write in one...and it was easy to be mistaken). I can now stop what I'm doing (in the middle of writing [[Sphygmus]]' letter) and jump into another problem without disturbing my workflow. Previously, I incurred some cognitive and serious screen overhead to multi-task. The mess isn't so messy now. It's not like I'm not going to be opening 20 tiddlers, but now I can at least categorize and compartmentalize (yo dawg) the recursive madness. I can finally switch perspectives without worrying about significant race conditions or mixing perspectives so heavily that the stackish heaps simply become mere heaps.
+
+[[Kicks]] is right about the doorways. Somehow, even though I understand part of the claim, I fear I will never internalize and make use of it enough. We shall see, eh? I acclimated well enough to a tiling windows manager (even if I'm still just a beginner).
+
+Perhaps the phenomenology of window management is something I should explore. It continues to be a profound issue for me. I have to say, this is one of the things I'm proud to have helped my children practice; they will be native powerusers in a way I never will. I hope they will see the promised land. I think it's fair to say I'm extremely ambitious in my wiki, and I hope to pass that onto them as well.
+
+Bob has been 'da bomb. I feel like my hyperobject wiki now has many ingressing doorways as I need it to have (ha, I say that now...). Perhaps I cannot see it all the way down (though, my mapping onto it continues to improve; I can feel it inside me like effortlessly navigating the vast digital worlds of my classic MMORPGs). May it be fruitful.
+
+It should be noted that I have switched to tabbed windows in the Wiki workspace. I'm still running separate FF and FFDE instances between Wiki and Web. I really aimed not to do this initially, but it has slithered in!
+
+---
+
+There are so many kinds of things to [[audit]] (and even that auditing must audited). It reminds me of programming just as the all-encompassing debugging or absurdist test-production as the dialectical tool for creating the program itself.
+
+I want to have the back-end and content machines running smooth (will they ever?) before I focus on growing the front-end of [[Wiki: Rube-Goldberg Machine]]
+
+---
+
+Upgrading and downgrading tiddlywiki from npm is a cinch (cue Far Side joke). Upgrading the tiddlywiki to 5.1.18 is fine (it's possible we had a hiccup, though I am not sure). Bob still seems stuck on 1.1.0. We still aren't sure why it's not upgrading. I am worried about running 5.1.18 on Bob 1.1.0. I don't know enough to say either way.
+
+[[2018.12.12 - TWGCF: Muh currentTiddler ლ(ಠ_ಠლ)]] after speaking with [[Sphygmus]] who encountered the error too. She's got a different barrel of monkeys to work through with twproxy. I should have mentioned it to her, but I wonder if she might find it easier to VPN into her VPS (or home) too. 
+
+I wonder if a setup like hers will actually become the gold standard (though this issue is still in development and there are many unknowns). I tried out cpanel for the first time in a decade, and OMG the amount of software you can just one-click install is absurd. One day, TW may be developed to the point that it will be one-click too, and I think a version of the hosting she has will become the norm and possibly even required for certain kinds of tooling to work out of the box. Bob's executable might be an attempt at that (but, again, I had trouble with it compared to the manual install). 
+
+I fooled around on singlefile trying to deal with the currentTiddler issue (in fact, I tried various singlefiles, and I'm very glad to see my old backend is working just fine: just have to turn off the crontab tap). Yes, I can feel the difference in latency (singlefile feels faster most of the time). Yes, I will gladly pay that price in development just for simultaneous windows into my own wiki. I've not even touched the rest of Bob, which looks like it could insanely powerful. I need solid footing on the node/Bob version before I try anything fancy (gotta ollie before you can kickflip; also, where is my tin'fol crash helmet?). Bob is a long-term investment. 
+
+Here's what I don't understand: why isn't Bob's functionality built into the core? Will this project eventually fork in such a way that I lose compatibility? I don't think it will. It's just odd to me. I'm also worried that the Bob add-on version vs executable might fork too. Currently, one is much easier to install than the other.
+
+I tried Bob over the network on my phone today, and I did not like it. The lag was completely wrecking me. AndTidWiki, unfortunately, may be growing obsolete. That's okay though! I rarely want to write in my wiki on my phone: reading is far more common. I will be interested to see if I become locked into particular browser versions. Until they found a good workaround on Quantum, I stuck to old FF and Chromium. It may go that way.
+
+---
+
+Bob has crashed on me twice today. Once I was replicating the error [[Sphygmus]] had, and another was just because I had a font stylesheet open. Was working on integrating the OpenDyslexic font for Jed. He said he literally can't read my wiki. I really, really like my font. I know others really, really hate it (I wager 5% of the people in my region unironically use comic sans as their default phone font). I would like to have a "I can't read your wiki because I literally can't read your wiki" button for the dyslexics.
+
+---
+
+I have finished 2017.09 in [[The Remodeling]]. I have 3 months left to do in a few weeks. I need to pick up the pace!

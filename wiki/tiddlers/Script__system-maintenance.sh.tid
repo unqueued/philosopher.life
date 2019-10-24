@@ -1,0 +1,24 @@
+created: 20190729232952032
+modified: 20190730202115029
+tags: monster-16 bash Script
+title: Script: system-maintenance.sh
+
+```bash
+#!/bin/bash
+
+echo '### Failed systemd services ###'
+systemctl --failed
+echo ''
+
+echo '### Show errors in logfiles ###'
+journalctl -p 3 -xb
+echo ''
+
+echo '### List applications that use libraries from older packages ###'
+lsof +c 0 | grep -w DEL | awk '1 { print $1 ": " $NF }' | sort -u
+echo ''
+
+echo '### List orphans ###'
+pacman -Qtd
+echo ''
+```

@@ -1,0 +1,38 @@
+created: 20190214105430460
+modified: 20190214190452786
+tags: [[Wiki: Scripts]] j3d1h Python Sphygmus
+title: tiddler-converter.py
+
+```python
+#!/usr/bin/python
+
+# There are significant exceptions to this script, but in general, it should be far less handwork.
+
+import re
+import pyperclip
+import os
+
+# Take input from clipboard
+text = pyperclip.paste()
+
+# Replace links with italics
+text = text.replace('[[', '// ')
+text = text.replace(']]', ' //')
+
+# Generate list of Foobar's from all <<ref "Foobar">>'s
+refs = re.findall(r'<<ref "(.*?)">>', text)
+
+# Replace ref's with their respective in-line footnotes
+for i in refs:
+    exp = '<<footnotes "' + i + '" "(.*)">>'
+    notes = re.findall(exp, text)
+    text = re.sub(r'<<ref "' + i + '">>', '<<footnote "' + i + '" "' + notes[0] + '">>', text) 
+
+# Clean up old footnotes
+text = re.sub(r'<<footnotes ".*" ".*">>\n?', '', text)
+text = text.strip()
+
+# Inject output into clipboard and paste onto yo' screen
+pyperclip.copy(text)
+os.system("xdotool key --clearmodifiers ctrl+v")
+```

@@ -1,0 +1,15 @@
+created: 20170415234110196
+list: 
+modified: 20171113154955983
+revision: 0
+tags: j3d1h
+title: j3d1h: Make a backup for mom
+
+* Make a backup program for mom's tiddly (just the index.html file itself) elsewhere on her hard drive.
+** Show crontab too!
+** Make a backup every 10 minutes
+** Make a backup every 1 hour
+** Make a backup every 1 day
+** Make a backup every 1 week
+** Make a backup every 1 month
+** Make a backup every 1 year

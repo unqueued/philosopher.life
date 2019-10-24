@@ -1,0 +1,119 @@
+created: 20180116002252623
+modified: 20180116225508490
+revision: 0
+title: Rust: Safe Optimization
+
+!!  Tell the compiler to optimize:
+
+* `cargo run --release`
+
+!! f32 vs f64:
+
+* Prefer f32 for performance.
+* Choose f64 when in doubt or when you need precision
+
+
+
+!! Wrap both Network and File I/O with Buffers:
+
+* BufWriter / BufReader
+* Except:
+** constrained memory
+** using a custom buffering scheme
+** specific need for high write granularity. 
+** Also if you read/write the whole thing at once, buffering won’t help you.
+
+This locks and unlocks io::stdout a lot, and does a linear number of (potentially small) writes both to stdout and the file:
+
+```cpp
+let mut out = File::new("test.out");
+println!("{}", header);
+for line in lines {
+    println!("{}", line);
+    writeln!(out, "{}", line);
+}
+println!("{}", footer);
+```
+
+Speed it up with:
+
+```cpp
+{
+    let mut out = File::new("test.out");
+    let mut buf = BufWriter::new(out);
+    let mut lock = io::stdout().lock();
+    writeln!(lock, "{}", header);
+    for line in lines {
+        writeln!(lock, "{}", line);
+        writeln!(buf, "{}", line);
+    }
+    writeln!(lock, "{}", footer);
+}   // end scope to unlock stdout and flush/close buf
+```
+
+
+!! Manually allocate and reuse a String for Read:lines() iteration:
+
+```cpp
+for line in buf.lines() {
+    let line = line.unwrap();
+    // do something with line
+}
+```
+The above should become the below to remove the extra allocation per line:
+
+```cpp
+let mut line = String::new(); // may also use with_capacity if you can guess
+while buf.read_line(&mut line).unwrap() > 0 {
+    // do something with line
+    line.clear(); // clear to reuse the buffer
+}
+```
+
+!! str vs. [u8]:
+
+* Avoid checks by using bytes direction `Vec<u8> / &[u8])` 
+* Crate `regex::bytes` submodule containing all functions to work with byte slices where regex does with `&strings`
+* Most parsing crates use byte slice, not UTF-8
+
+!! Avoid Needless Allocation:
+
+Don't get lazy when solving borrowchecking problems...
+
+* Avoid using .to_owned() or .clone(). whenever possible to avoid needless allocations.
+* Use `&str` instead of `&String` (or even `String` unless you explicitly want to consume it)
+* Use `&[T]` (slices) instead of `&Vec<T>` (or even `Vec<T>`). 
+* Use `&mut [T]` instead of `&mut Vec<T>` if you have no resizing operation.
+
+* Use Arrays instead of Vectors whenever you don't need dynamic resizing (e.g. static values)
+** Reference them to get a slice.
+** You can also replace idiomatic code with macros generating multiple functions which accept only fixed-size Array input.
+
+* If you cannot replace your owned value with a borrow, where you can borrow in some but not all cases, consider using a Cow. 
+** e.g. try to replace `String` with `Cow<'static, str>`
+** e.g. try to replace `Vec<T>` with `Cow<'a, [T]>`
+
+* When changing an enum, if you want to keep parts of the old value, use `mem::replace` to avoid needless clones.
+
+!! Use A Rust Linter:
+
+* https://github.com/rust-lang-nursery/rust-clippy
+
+```cpp
+match my_option {
+    Some(foo) -> frobnicate(foo),
+    None -> calculate_default_frob(),
+}
+```
+In the name of readability, people may convert the above to the below (which calculates the default frob even when there is a foo):
+
+```cpp
+my_option.map_or(calculate_default_frob(), frobnicate)
+```
+
+Note that while these function names are written:
+* sometime you need a closure to capture some arguments
+** e.g. `Result::ok_or_else(..))` 
+* sometimes you must auto-dereference them 
+** e.g. `&Boxes` will be dereferenced to refs to their contents.
+* The easiest way then is to always use a closure and let clippy tell you when to remove it.

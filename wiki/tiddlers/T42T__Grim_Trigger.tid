@@ -1,0 +1,184 @@
+created: 20180606220617482
+creator: h0p3
+modified: 20180607001605485
+modifier: h0p3
+title: T42T: Grim Trigger
+
+//Yes, I know this isn't a realistic looking problem. Let's start playing with our imaginary homo economicus first, and then we will figure out ways to pragmatize and apply that theory.//
+
+I have a multi-ordered [[T42T]] problem. Here is a naive implementation of [[T42T]].
+
+[My Choice][Your Choice], where "C" is //Cooperate// and "D" is Defect:
+
+# CD
+# CD
+# DC
+# CD
+# CD
+# DC
+# ...
+
+Clearly, this is abuse. This is turning the other cheek too far; it's viciously not caring enough about myself. So, how can I be [[T42T]] about this metagame? The Grim Trigger looks like this:
+
+# CD
+# CD
+# DC
+# DD
+# DD
+# DC
+# ...
+
+There is no forgiveness after the first forgiveness. That's not the real spirit of [[T42T]]. I needed multi-ordered [[T42T]]. Now, I could try to start it up randomly, and that's not nothing. That's how Torrent Clients work. This doesn't seem purposely forgiving enough though. There has to be a scientifically/mathematically better method to be more forgiving than randomness. I don't want to be merely randomly forgiving; I want to be calculatingly forgiving. How do I order forgiveness correctly all the way down? There is perhaps a recursive answer to this problem.
+
+One might just open the game with [[T42T]], but then move to Tit For Tat ([[T4T]]) for all subsequent games. This is kind of like a worse case in which someone who starts out evil changes to mimic [[T4T]]:
+
+# CD
+# CD
+# DC
+# CD
+# DC
+# CD
+# DC
+# ...
+
+That doesn't seem to be forgiving enough either. It's not the spirit of [[T42T]]. I see two other plains options. This is always being willing to be "one down" against them. I can modify it to look like a [[SO]] version of [[T42T]].
+
+Imagine a sequence contained in a set such that {[My Choice][Your Choice],[My Choice][Your Choice],[My Choice][Your Choice]....}, where "C" is //Cooperate// and "D" is Defect. Again, let us make this the worst case scenario, where they maximally exploit my known strategy (they have perfect information, and I don't):
+
+# {CD, CD, DC}
+# {CD, CD, DC, DC}
+# {CD, CD, DC, DC}
+# {CD, CD, DC, DC}
+# ...
+
+It is here that essentially the 4th member of these sets must be an artificial "asking of forgiveness" and "restoration" of my loss in utility. Note that I'm always 1 down to them. People who literally demonstrate they will sacrifice to help me at their own loss will have demonstrated that they are at least attempting to play [[T4T]], which is better than nothing. 
+
+In a way, it seems like I have a right to protect myself against people who aren't going to play [[T4T]]. That seems fair enough to me. [[T4T]] is the most selfish version of [[The Golden Rule]] in action, perhaps being the most literal letter of the law, without being multi-ordered. [[T42T]] is the spirit of the law of [[The Golden Rule]], and that means it has to [[infinigress]] into the [[SO]]. The spirit of the law seems to require more than version of [[T4T]]. Maybe I should be willing to logarithmically accept increasing losses against people.
+
+Should I make it so they can leach more CD's out of me over time, but it gets harder and harder to do so? How do I detect fake cooperation? How else can I be [[T42T]]? In a sense, the goal is to become increasingly confident that they are psychopaths, and to build that confidence using [[The Golden Rule]] as recursively as possible while still maximizing my utility (which, of course, is part of treating myself as an end in myself, in empathizing with myself, in treating myself as The Other and applying [[The Golden Rule]] to myself as objectively as I can). 
+
+Basically, even for the most evil creatures, those for whom I have the most evidence they are psychopaths, I always want to give room for someone to begin at least a marginally better than [[T4T]] relationship with me (not matter how convinced I am otherwise). I have to make room for eventual forgiveness. How do I have forgiveness while still remembering the betrayals?
+
+People do need to make restitution. Without recognizing the failings our past interactions, we lack integrity in our long-term relationship.
+
+Recall:
+
+* 1, 2, 3, 4, 5, ...
+* 1, 4, 9, 16, 25, ...
+* 0, 2, 6, 12, 20, ...
+* 0, 3, 5, 7, 9, ...
+* 0, 0, 2, 2, 2, ...
+
+{Set of iterated prisoner's dilemma games}: Total Score
+
+# First Order:
+#* {CD, CD, DC}: -1
+#* {CD, CD, DC, DC}: -1
+#* 1 Total Rounds for Forgiveness
+
+# Second Order:
+#* {CD, CD, DC}: -2
+#* {CD, CD, DC, DC}: -2
+#* {CD, CD, DC, DC}: -2
+#* {CD, CD, DC, DC}: -2
+#* 4 Total Rounds for Forgiveness
+
+# Third Order:
+#* {CD, CD, DC}: -3
+#* {CD, CD, DC, DC}: -3
+#* {CD, CD, DC, DC}: -3
+#* {CD, CD, DC, DC}: -3
+#* {CD, CD, DC, DC}: -3
+#* {CD, CD, DC, DC}: -3
+#* 9 Total Rounds for Forgiveness
+
+# Fourth Order:
+#* {CD, CD, DC}: -4
+#* {CD, CD, DC, DC}: -4
+#* {CD, CD, DC, DC}: -4
+#* {CD, CD, DC, DC}: -4
+#* {CD, CD, DC, DC}: -4
+#* {CD, CD, DC, DC}: -4
+#* {CD, CD, DC, DC}: -4
+#* {CD, CD, DC, DC}: -4
+#* 16 Total Rounds for Forgiveness
+
+# Fifth Order:
+#* {CD, CD, DC}: -5
+#* ...
+#* 25 Total Rounds for Forgiveness
+
+# ...
+
+This is maximal multi-ordered forgiveness, I think. I don't make them [[T4T]] pay for their previous orders, but I'm also not permanently turning the other cheek. I become resistant to turning the other cheek with increasing evidence that I should not.
+
+My goal is to get back to playing [[T42T]] as early as possible while still protecting myself against attack. I should expect people to pay restitution of greater rounds before I allow them to take me for even more. It's very forgiving up front, but becomes less forgiving over time. Can I simplify it? I don't know.
+
+Is there is a less forgiving route that still enables scaling forgiveness? This is quite unforgiving forgivenness: 
+
+# Pay 1 for forgiveness
+#* {CD, CD}: -2
+#* {DC}: -1
+
+# Pay 2 for forgiveness
+#* {CD, CD}: -3
+#* {DC, DC}: -1
+
+# Pay 3 for forgiveness
+#* {CD, CD}: -3
+#* {DC, DC, DC}: 0
+
+# Pay 4 for forgiveness
+#* {CD, CD}: -2
+#* {DC, DC, DC, DC}: +1
+
+# Pay 5 for forgiveness
+#* {CD, CD}: -1
+#* {DC, DC, DC, DC, DC}: +4
+
+# Pay 6 for forgiveness
+#* {CD, CD}: +2
+#* {DC, DC, DC, DC, DC, DC}: +8
+
+# ...
+
+I'm getting paid increasing amounts to forgive here. This is an asymmetric, pessimist's test. This isn't where I want to be. Do I owe this to others? Maybe. 
+
+I prefer the previous. It has increasing [[T4T]]ness to it to earn forgiveness. And, in the end, it's still always extending my risk further to my disadvantage long-term. That's [[T42T]]ness in action, I think.
+
+Maybe this:
+
+# 0
+#* {CD, CD, DC}: -1
+
+# -1
+#* {CD, CD, DC}: -2
+#* {CD, CD, DC, DC}: -2
+
+# -2
+#* {CD, CD, DC}: -3
+#* {CD, CD, DC, DC}: -3
+#* {CD, CD, DC, DC, DC}: -2
+
+# -2
+#* {CD, CD, DC}: -3
+#* {CD, CD, DC, DC}: -3
+#* {CD, CD, DC, DC, DC}: -2
+#* {CD, CD, DC, DC, DC, DC}: -1
+
+# -1
+#* {CD, CD, DC}: -2
+#* {CD, CD, DC, DC}: -2
+#* {CD, CD, DC, DC, DC}: -1
+#* {CD, CD, DC, DC, DC, DC}: 0
+
+# 0
+#* {CD, CD, DC}: -1
+
+# -1
+#* {CD, CD, DC}: -2
+#* {CD, CD, DC, DC}: -2
+
+# ...
+
+That is a SIN wav. Hrmm... I clearly do not know how to answer this question. I'm not even sure I know how to ask the question.

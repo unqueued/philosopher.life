@@ -1,0 +1,27 @@
+created: 20180129033410016
+modified: 20190323163904971
+tags: [[Wiki Audit]]
+title: 2018.01.28 - Wiki Audit Log: Addons, Tweaks, etc.
+
+I've had a longstanding problem with being able to use my custom embedded font as the sole font on this wiki. I very much like monospace fonts, but most of them are space inefficient. I get the exact look I want now because someone found a weird hack around my problem:
+
+* [[$:/_toggle-editor-toolbar_preview]]
+
+Shout out to Ton Gerner.<<ref "2019.03.23">>
+
+I'm going to keep cleaning it up. Double-click to edit is nice.
+
+* [[$:/plugins/danielo515/2click2edit]]
+
+Interesting, but unused:
+
+* http://tw-admin.tiddlyspot.com/#tw-admin
+** Hide this junk for users, and hide admin access
+* http://grosinger.net/tw5-checklist/
+** Nice To-Do-Lists
+
+Fiddled with color settings, font size and spacing, and the margins.
+
+
+---
+<<footnotes "2019.03.23" "I wish this problem got fixed. Fixing this has a cascade effect in the tooling I use. Regardless, I'm happy to have this. It makes it easier to see what I'm doing.">>

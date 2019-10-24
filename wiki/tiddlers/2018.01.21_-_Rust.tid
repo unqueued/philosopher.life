@@ -1,0 +1,142 @@
+created: 20180122005137152
+modified: 20190323152140596
+revision: 0
+tags: Rust
+title: 2018.01.21 - Rust
+type: text/vnd.tiddlywiki
+
+//Statements// are instructions that perform some action and do not return a value while //Expressions// evaluate to a resulting value. 
+
+`5 + 6` is an expression that evaluates to the value 11. Expressions can be part of statements: e.g. `let y = 6;`, `6` is an expression that evaluates to the value 6. Calling a function is an expression. Calling a macro is an expression. The block that we use to create new scopes, `{}`, is an expression too.
+
+```cpp
+fn main() {
+    let x = 5;
+
+    let y = {
+        let x = 3;
+        x + 1 // notice the lack of a semicolon
+    }; // The scope of { ... } is an expression that evaluates to 4
+
+    println!("The value of y is: {}", y);
+}
+```
+
+The `->` arrow points out the type of value that is returned.
+
+```cpp
+fn five() -> i32 {
+    5
+}
+
+fn main() {
+    let x = five();
+
+    println!("The value of x is: {}", x);
+}
+```
+
+The `x: i32` shows us what kind of input is expected and assigns the value to a variable name that can be used inside the function.
+
+```cpp
+fn main() {
+    let x = plus_one(5);
+
+    println!("The value of x is: {}", x);
+}
+
+fn plus_one(x: i32) -> i32 {
+    x + 1   // note the lack of a semicolon 
+}
+```
+
+If there was a semicolon on the expression, it would fail to compile, since it would be returning `()`, the empty tuple instead of an i32.
+
+Condition //If// branches:
+
+```cpp
+fn main() {
+    let number = 6;
+
+    if number % 4 == 0 {
+        println!("number is divisible by 4");
+    } else if number % 3 == 0 {
+        println!("number is divisible by 3");
+    } else if number % 2 == 0 {
+        println!("number is divisible by 2");
+    } else {
+        println!("number is not divisible by 4, 3, or 2");
+    }
+}
+```
+
+You must always provide `if` with a boolean as its condition, and each arm of the if must be the same type. Note that `match` is a more powerful branching construct.
+
+Because `if` is an expression, we can use it on the right side of a let statement:
+
+```cpp
+fn main() {
+    let condition = true;
+    let number = if condition {
+        5
+    } else {
+        6
+    };
+
+    println!("The value of number is: {}", number);
+}
+```
+
+Loops example:
+
+```cpp
+fn main() {
+    loop {
+        println!("again!");
+    } // note the lack of break, so this goes on forever
+}
+```
+
+Classic while loop:
+
+```cpp
+fn main() {
+    let a = [10, 20, 30, 40, 50];
+    let mut index = 0;
+
+    while index < 5 {
+        println!("the value is: {}", a[index]);
+
+        index = index + 1;
+    }
+}
+```
+
+This is slow though. It is much better to use the for loop over each element in a collection:
+
+```cpp
+fn main() {
+    let a = [10, 20, 30, 40, 50];
+
+    for element in a.iter() {
+        println!("the value is: {}", element);
+    }
+}
+```
+
+Here's an example of `rev` over a range, which iterates in reverse over the range:
+
+```cpp
+fn main() {
+    for number in (1..4).rev() {
+        println!("{}!", number);
+    }
+    println!("LIFTOFF!!!");
+}
+```
+
+Code homework problems they gave me.
+
+[[convert_temps.rs]]:
+
+{{convert_temps.rs}}

@@ -1,0 +1,30 @@
+created: 20190331033832640
+modified: 20190331050344443
+tags: [[RGM Notes]] [[FTO Log]] [[Wiki Audit]] j3d1h
+title: 2019.03.30 - Wiki Audit: Tweaks
+
+Locator/Kin is online, and we couldn't make it work as its own tab in advanced search, but you can find it in all standard. That's fine. It's gorgeous, but it's computationally expensive. That is going to be a beast for this wiki no matter what.
+
+I've already made good use of Locator/Kin. I had to search for [[dziggetai]]'s information, and it made it easy to cherry-pick several variations from a fairly large pile. <3
+
+Oh yeah, name change! Fascinating troubles with encryption with Bob. Had to resort to doing it in singlefile (and had our own snafus there).
+
+---
+
+Still playing around with small things, including the subtitle to the wiki. It's my shitty semantic versioning.
+
+---
+
+I'm immediately in lurv with EditButtons. I should have been using them the whole time. It's especially noticeable with the heavy latency I experience when I'm not using singlefile. I'm enjoying the colorcoding too (even though they blend together for me as a colorblind person.
+
+---
+
+Updates to Commander. It's still early. I'm going to beg him to add non-filterlist search methods. I think he should add exporting and importing features as well. It could be a sick "one-stop-shop."
+
+---
+
+It's possible that I've found a tool for text substitutions in mousetrap. That would be fucking sick. For a tool that would sit inside the wiki, I would be happy to spend far more time tweaking and enriching it. I'm worried about what I've read though.
+
+---
+
+Bob seems far healthier, and the buttons are working decently. I had two [[Antipleonasm Analysis]] posts spawn from a single click though.

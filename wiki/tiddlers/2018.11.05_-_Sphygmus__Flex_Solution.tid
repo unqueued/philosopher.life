@@ -1,0 +1,113 @@
+created: 20181104171323738
+creator: h0p3
+modified: 20190302062218597
+modifier: h0p3
+tags: Sphygmus To Letter
+title: 2018.11.05 - Sphygmus: Flex Solution
+
+Dear Sphgymus,<<ref "2019.03.02">>
+
+I've been telling myself to start drafting a communication to you. It's been a crazy a month!
+
+<<<
+hey h0p3,
+
+quick note - feels like it's been forever! I'm like halfway through composing two different letters to you - I'll get to the finish line here sometime.
+<<<
+
+Take your time! Feel no rush, please. I will be interested to watch your words unfold. I have the habit (which may be a terrible one) of wrapping everything into a unified document. On top of good pacing, from what I can tell, you modularize/atomize more effectively than I do.
+
+<<<
+still keeping up with your wiki audit; it's awesome to see the moves you're making with the automation. I'm curious about how your opinion on the automation vs. hard coding will shake out, say, a year from now.
+<<<
+
+I wish I had a good answer beyond what you've seen in my [[Audit]] logs this past month. I can only give you a tentative guesstimate surrounded by opinions.<<ref "o">> In part, I just don't know what my wiki in general is going to look like a year from now (the flexibility of the wiki is part of why I love it ;P); a year from now is adding 50% of the lifetime of the wiki thus far. Your question has caused me to go back to my 2017.11.04 snapshot. The current wiki is ~2.5x larger than it was last year, and even my [[Root]]ed top-level directories are transformed. Back then, I was on 5.1.14 with only one plugin (and a footnote macro). I've been pouring myself into this wiki this year, and my understanding of what this object is and what it's for continues to evolve. That could still all change, even more radically this coming year (perish that exhausting thought, lol). I wish I had guidance! I have no idea what is in store for me, but I think [[The Remodeling]],<<ref "r">> which itself may take the entire year (was hoping for months...), is going to settle a great deal (at least for a while ;P), including some of this automation issue. I still do not know how far tags are going to take me.
+
+I also don't know how Tiddlywiki^^tm^^ and its ecosystem are going to evolve over the next year. I anticipate further Bob and NodeJS improvements. Bi-directional editing between file and browser may actually be here! A clean, bi-directional compiled/decompiled flow between server and single file may eventually occur as well.<<ref "n">> I aim to eventually use my wiki, in part, to overlay my devices' commandlines ([[2018.10.18 - TWGGF: TW Competition]]).<<ref "i">> I worry Federation may never actually come, but if that were to come about, I may feel obligated to bend what I'm doing around that. There's a lot of automatable moving parts to consider here. It's tantalizing. I may move this direction this year, and that could define where I go with hardcoding quite a bit.
+
+My goal is to do my best (and I may fail) to maintain the unified single "static" file (even though it dynamically renders in the browser). I pay a high price for practical decentralizability. I wouldn't, for example, want custom search to be something that requires a server (that is a point of failure I aim not to accept); I want the functionality of search to be embedded in the single file. One can easily envision offering non-JS alternatives to searching the wiki, but I think this is a mistake for now. If I am to live up to my principles here, the computation necessary for using this wiki must always be done on the user's end unless I am precomputing hardcoded results for them. I do not know where WASM will take us either, so that may be something huge to contend with. Committing to internal TW automation also means I'm fully committed to TW. I will not have a reasonable escape hatch to another toolset; I'm moving beyond interlinked flat text files with good naming conventions. It is very un-unixlike to take this step, imho. I think that may be the price of progress I must pay. 
+
+From what I can tell, nobody quite understands the performance and scaling limits of TW. I can already feel the lag in my own wiki. It can get really bad too. If you check [[$:/ControlPanel]], you'll see the TiddlerTool tab (omg, I love this tool); it is slow AF on my wiki (for good reason). I've run into a bunch of tools that simply don't work (crash my browser) on a wiki of this size. Generally, however, when it's "just-a-bunch-of-linked-tiddlers" it's lightning fast. Dynamically rendered objects have serious limits. I hope to make choices to maximize performance even on shitty devices. Unfortunately, single-threaded CPU performance improvements may not exist anymore, and the utter hacks they've used have backfired. Though I desperately hope I am wrong (and there are reasons to think I may be), I am open to the sad possibility that a couple decades from now, single-threaded performance will only be double what we've got right now for consumer-grade CPU's.<<ref "s">> That's my bottleneck, and unfortunately, I don't know where the minefields are (or how they'll shift over the years).
+
+Does this mean that one day I will need to remove all or some Tags to get back my performance? Will some kinds of recursive list-building approaches become unusable for me? It's possible, and I want to design with that in the back of my mind. What widgets, macros, and TW internals will eventually become off limits to me? I do not know. I want to stay hardcoded as much as possible so that I can continue to leverage whatever automation I can. Currently, I keep both the editing and viewer environments identical. These can be peeled apart, but I really think that how I search and build my own wiki is exactly what my audience needs. I desperately want to avoid this, and I think I can for the coming year.
+
+Your [[Auto-Wiki-Mator-Button]] tool has sent me on a search. Building good buttons, dynamically rendering exactly what I want, and then hardcoding the results are problems, I believe. I'm still working on the direction I want to go for hardcoding. I received no responses to [[2018.10.18 - TWGGF: References]]. I'm thinking of asking for advice from particular individuals. At the moment, I'm using snippets from [[TW: Cheatsheet]] in the //Focus:// subsections of many directories. I have been able to hardcode the [[Monthly Auditable]]s with that jig, so my orphans shouldn't get too out of control just yet.
+
+[[j3d1h]] is searching with me for a method to automatically update hardcoded results upon rendering a tiddler; that is not perfect, but it's a start. This is the real sticking point. Can I get `<<list-related>>` to be dynamically generated and then hardcoded? I hope so. If not, then I'll have way more handwork to do. Projects that become vaulted will be things I can hardcode without concern. It's harder to do with projects that I have no intention of ever vaulting. Unless we find the JS/TW way to do this internally, I still may be forced to do this bash/pythonically externally. 
+
+I do not understand why other people are not worried about this, but it may just be that we have different goals in general with our wikis. Part of the problem may be that there are so few people with a Tiddlywiki of this complexity/size. If I must give up hardcoding parts of the wiki temporarily until I find an answer, I will. I do not know how long it will take me to solve this problem. So, final answer: if I'm lucky I will be able to have and eat my cake too a year from now.
+
+I'd like to know your take on this! I have so few to turn to for guidance and perspective on this thing.
+
+<<<
+the last half of october was slow for me in my wiki - multiple retroactive carpe diems and several wiki reviews encompassing 2+ days...but going through my monthly audit has spurred a mini explosion again, especially in the realm of logs and organization.
+<<<
+
+I know that feeling. Sometimes that's all I can do too. Monthly audits are refreshing. They let me stand back from my work for a bit of perspective. I can't say my monthly audits always net me something awesome, but sometimes they helped me see further ahead than I could have otherwise. They help me take my pulse.
+
+Have you looked into the log plugins? Some of them are pretty neat. I still don't see myself making use of any of them, but I may be blind. Again, there is a crucial lens through which my autistic brain just doesn't see correctly. I hope you do.
+
+<<<
+anyway, still in the middle of my monthly audit, I realized exactly why you use a fixed sidebar - it was becoming increasingly frustrating to work with multiple tiddlers and not having the sidebar there.
+<<<
+
+Yes, especially when you have an explosion of tiddlers that come out of one, where you reason to yourself: I'll change that, but then I have to change this, oh, and that means I need to create this, and where was this information again? I cannot say I am comfortable containing the chaos. I am a huge fan of the "close other tiddlers" button. I use it multiple times a day. This is one of the reasons I'm considering Bob/nodejs. There are times where I really want to open multiple tabs of this wiki and have completely separate story rivers that stay in place for later (much like my hyperreading tree of windows for [[Link Log]]. I know I can save bookmark links, but that isn't the same. There are times where it might be best to have different workspaces on this wiki I can use simultaneously. I know I could not live on a desktop which wasn't designed around workspaces at this point, and it seems reasonable to think the wiki (which is very much like an OS to me) may evolve into much the same.
+
+I love how the sidebar lowers the cognitive load for me. There's too much to think about, it's too easy to get lost, and the friction can cause me to lose sight of what I'm trying to accomplish.
+
+For my monthly audits, I've become addicted to popups with $:/plugins/tobibeer/preview ($:/plugins/tobibeer/appear is a prereq, I believe). I still have to open tiddlers, but often the popup is sufficient. Keep your keyboard cursor in position for typing and mouseover. It's made the process less heinous for me.
+
+<<<
+ SO! I finally dove into the flexbox fixed sidebar problem today and came up with a satisfying (for me) solution. I also tested it by importing it into your wiki, so I definitely hope it's something you'll be able to make use of!
+
+(I noted your comment about flexbox in your wiki audit for october - I decided that gave me free rein to do as much fiddling as I liked to solve this problem on my own!)
+<<<
+
+Oh man, even with your guidance, I still couldn't get flexbox to work right for me. `/derp`
+
+<<<
+Just import this: [[https://sphygm.us/#%24%3A%2Fplugins%2Fsphygmus%2Fcore%2Fstylesheet%2Fflex4h0p3]], tag it as a stylesheet, and make sure you have the percentages and breakpoints deleted from your settings and everything, knock on wood, should be working.
+<<<
+
+Thank you for this tool! Also, I think I prefer having smaller titles now that I look at it too. Interestingly, this solved a different problem I've had with sidebar height in vanilla. I will continue to tweak it. I've been trying it on different resolutions and zooms. My image gets in the way of the sidebar when everything is unified into one story river. I know there is a way to make the background more opaque for just the sidebar. I'll be working towards that eventually. I am like a snail.
+
+<<<
+Technical stuff: I tried to comment most of the values that weren't immediately obvious. Not everything in there is essential to the flexbox layout - I've noticed your ASCII `<pre>` blocks (eg. on [[Sphygmus]]) have been looking quite wonky lately, so there's some CSS messing with `<pre>` in there. After the fact I realized it probably had something to do with the TiddlyWiki "line breaks in code blocks" setting, so I'm sure my code conflicts with that somewhere but I haven't gone in to look at that yet. If nothing else you could just delete all the things touching `<pre>`. The other rather subjective thing in the code is the width and padding of various elements - I think you're a little less particular than I am in this regard? - but they should be easy to change however you like in the code.
+
+okay, I've got to go! all the best,
+sphygmus
+<<<
+
+I had to remove the pre settings in the stylesheets because it made the borders "jump" in size whenever I went across one. I'm sorry the ASCII art doesn't look so good. That's a tricky one to make look right on all screens. I've changed some of the codeblock settings to make it look a tiny bit better for me with snippets and also to enable chat logs to be readable. In the end, the ASCII art may just get its own tooling entirely. I think it's a long-term kind of project; I feel like my content just isn't there yet to worry too much about it.
+
+Yeah, I am probably less particular, and I am without a doubt less skilled. I am reminded of [[Mulaney's Group Two|https://www.youtube.com/watch?v=DTaJjznuY74]] joke: "Aaaahhhh, bingo, you got it right there. 4 and 5 is 12." I think of my house cleaning in the same way. It ain't gonna be perfect, but it's functional...usually. Lol.
+
+Alright, so I've some old random side thoughts:
+
+* I was thinking of you when I saw these links. They have sat there, and now I've lost my train of thought about why I was thinking of you regarding these. Lol.
+** https://tid.li/tw5/test/bricks.html
+** http://eucaly-tw5.tiddlyspot.com/
+* MBTI
+** I have serious doubts about MBTI, but I still see something right about it (I may just be delusional). Why am I not allowed to say the pattern I feel is real? This is mere horoscope, right? It's scientifically invalid.
+** So, I feel like I'm asking for your astrological symbol: what is your MBTI?
+** If any, what psychometrics are worth considering and in what contexts?
+
+Anyway, I hope classes and life are going well for you. 
+
+Sincerely,
+
+h0p3
+
+
+---
+<<footnotes "2019.03.02" "`/facepalm` God damnit. You know, I keep making this mistake, catching it 90% of the time, swearing at myself, and fixing it. Surely, I would learn by now, right? I wonder what she thought when see saw that derpage. This is a fucking shame. This particular mistake is so egregious it's no longer a syntactic error! I guess the error stays in honor of my stupidity. No, no, seriously, I do care enough to spell names correctly! Alrighty then. Let's enshrine it. Also, I found the fix: [[Auto Text Expander]]...for now.">>
+
+<<footnotes "o" "Though, clearly, I am arrogantly opinionated about what I [[hope]] is my magnum opus.">>
+
+<<footnotes "r" "If you haven't already, you must given $:/plugins/mklauber/aliases a spin. I adore my [[Aliases]]. I couldn't even begin the [[The Remodeling]] without it.">>
+
+<<footnotes "n" "I think nodeJS seriously lacks performance here. At least the last time I used it, it was not multi-threaded, and even minutely compilation took an entire core from my Xeon. I consider this to be something which will hold TW back unless someone re-writes the server in something besides JS (which absolutely should occur, imho).">>
+
+<<footnotes "i" "For example, it would be nice if [[.i3/config]] in the wiki and [[monster-10]]'s filesystem were bi-directionally modifiable.">>
+
+<<footnotes "s" "Although, I think the world, politically, has much bigger fish to fry than my IPC desires. I think the world is going to get radically worse, so I'm not missing the forest for the trees here.">>

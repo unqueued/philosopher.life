@@ -1,0 +1,39 @@
+created: 20170417151809809
+creator: h0p3
+modified: 20181115184003813
+modifier: h0p3
+revision: 0
+tags: [[Realpolitik Speculation]] RPIN
+title: 2017.04.17 - Realpolitik Speculation: Ransomware Economic Strategies
+
+Despite being invented two decades ago, ransomware is a phenomenon that I didn't see much of until the past decade.<<ref "1">> It's a very interesting source of passive income for these cyber predators, and it has been very successful. Information is power. The power to destroy a thing or permanently block your access to it so passively and anonymously is as clever as it is dangerous. I  can only envision this becoming more common on every platform that can manage it (to whatever degrees they can). 
+
+Staggeringly, 38% of ransomware victims pay up.<<ref "2">> That is incredibly high. The demand for recovering one's data is obviously there, even at current high prices. Note, of course, these criminals incentivize paying early, since the price just continues to climb the longer you wait. Obviously, these hackers have built up a positive enough business reputation that people trust them to decrypt the data, even though a highly asymmetric (one-way) trust exchange. A few things will emerge from this blooming malware market.
+
+First, people may start keeping more data in the cloud or multiple copies across their devices. The latter being a good thing, arguably, but the former not so obviously. 
+
+Second, I expect to see more effective strategies from these hackers to maximize profit. They are obviously ruthless and clever.
+
+* Simple translations allow for infecting (and successfully receiving payment) much larger swathes of the world.
+* They need geographic pricing.
+** There are a number of ways to automate this procedure. 
+** Clearly, I would only charge the kid in India a few rupees (depending on how my pricing algorithm was trained over time to maximize profit), but I would fucking hammer a business or wealthy individual.
+* They need to comb through the data they are encrypting for useful information, even if only metadata. They likely do this to some extent, but they clearly haven't squeezed this resource well enough.
+** I would make the price vary depending upon the data I had encrypted.
+** One could also automate the finding of nudes and hold a separate ransom for preventing the posting of these online (lots of technical infrastructure problems to it, but still possibly profitable)
+** Passwords, identification, and access should be harvested and immediately used.
+* Aim for reinfection and revolving victims
+** Leave behind time-bombs of alternative appearing ransomware infection. Alternatively, you can turn them into very passive botnets. 
+** This obviously has reputation ramifications.
+** I could easily imagine this being a kind of tax or pseudo-Mafiaesque 'protection' service
+* Malware needs to destroy or infect backup, offline, and cloud sources. 
+** Eliminate their alternatives
+* It needs to spread itself. There are plenty of kinds of malware that ultimately aren't nearly as profitable which do a good job. This is so profitable that they should invest in maximizing infection rates. With that much money sitting on the table, this is a key area for malicious malware experts not working for state-level actors should be heading.
+* One good worm will unleash hell. We've yet to see this damage, but it may come. 
+* Affiliate programs could be quite strong. Splitting the profits amongst those willing to spread the malware could be easily worthwhile, particularly if those causing the infections have good reasons to think the infected would pay up.
+
+
+---
+<<footnotes "1" "I attribute this to the explosion of cryptocurrency which enables attackers to launder and store money that is essentially untouchable even by most state-level actors.">>
+
+<<footnotes "2" "Although, I've also seen some estimations at 3% (which is still staggering for large attacks).">>

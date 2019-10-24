@@ -1,0 +1,15 @@
+created: 20180901160226940
+creator: h0p3
+modified: 20181219181841749
+modifier: h0p3
+tags: TWGGF
+title: 2018.09.01 - TWGCF: Search
+
+I need to search the bodies of tiddlers narrowed by their titles.
+
+For examples:
+
+*    Search for ["catdog"] in the bodies of any tiddlers with ["foo"] in their titles.
+*   Search for ["catdog" and "spongebob"] in the bodies of any tiddlers with ["foo" or "bar"] in their titles.
+
+What are good ways to do searches like these?

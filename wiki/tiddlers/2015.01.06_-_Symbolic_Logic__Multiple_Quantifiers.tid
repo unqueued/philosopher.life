@@ -1,0 +1,1191 @@
+created: 20180705005432964
+creator: h0p3
+modified: 20181031035931171
+modifier: h0p3
+tags: Tulane
+title: 2015.01.06 - Symbolic Logic: Multiple Quantifiers
+
+29
+
+
+We will begin to look at multiple quantifiers. We’ll start with sentences that use the same quantifiers, and then we’ll move onto sentences with mixed quantifiers. Let’s consider a simple case to juice our intuitions.
+
+
+
+Here’s an example of a sentence with multiple quantifiers:
+
+
+
+“Some dog chased a cat.”
+
+∃x ∃y (Dog(x) ∧ Cat(y) ∧ Chased(x, y))
+
+
+
+Multiple Quantifiers Don’t Guarantee Multiple Objects
+
+
+
+It is tempting to read ∃x ∃y as saying there are two objects, x and y. But, this would be a mistake, since the variables x and y may pick out the same object. In our previous example, we know that x and y must be distinct because perhaps nothing can be both a cat and dog (unless we venture into some Nickelodeon cartoon, like CatDog).
+
+
+
+Caution: Distinct variables do not necessarily entail distinct objects. For example:
+
+
+
+∃x ∃y (Tet(x) ∧ Tet(y))
+
+“Something is a tet, and something is a tet.”
+
+
+
+Recall that each quantifier will range over the entire domain. This sentence only requires one object in the domain (a single Tet) for the sentence to be true. x and y do not need to refer to two different things – x and y can pick out the same object.
+
+
+
+Consider a domain in which:
+
+
+
+a is a tet
+
+b is a cube
+
+
+
+Given our example sentence, there are four possible substitutions of the variables:
+
+<x, y>: <a, a>
+
+<a, b>
+
+<b, a>
+
+<b, b>
+
+
+
+Note that <a, a> (where a substitutes both x and y) satisfies our example quantified sentences’ constituent mere wff:
+
+
+
+Tet(x) ∧ Tet(y)
+
+Tet(a) ∧ Tet(a)
+
+
+
+<a, a> satisfies the mere wff, again, because the substitution generates a sentence which is true. Hence, the original example existential sentence is true given the domain. It really doesn’t matter if anything else is in the domain; just as long as there is a single tet, this sentence is true.
+
+
+
+We can make a sentence to make sure that x and y must refer to different objects.
+
+
+
+∃x ∃y (Tet(x) ∧ Tet(y) ∧ x ≠ y)
+
+
+
+This shows that x is not y, thus we know there must be at least 2 Tets in the domain for the sentence to be true.
+
+
+
+I really want to drive this point home to you. Here is another way to think about it. Recall that an object may have multiple names.
+
+
+
+Tet(a) ∧ Tet(b)
+
+
+
+This sentence could be true in a world in which there is only one tet which is named a and b. Now, consider our original sentence:
+
+
+
+∃x ∃y (Tet(x) ∧ Tet(y))
+
+
+
+Just as the truth of Tet(a) ∧ Tet(b) does not guarantee that there is more than one tet, neither does this quantified sentence. For just as a and b may name the same object, so too may the variables of the quantifiers ∃x and ∃y pick out the same object.
+
+
+
+Here’s a neat thing which falls out of the fact that multiple quantifiers don’t guarantee multiple objects. Consider this sentence:
+
+
+
+∃x (x = x)
+
+“Something is identical to itself.”
+
+
+
+This is a logical truth. Every object in every conceivable domain will make this sentence true. This sentence, however, logically implies another, yet similar logical truth:
+
+
+
+∃x ∃y (x = y)
+
+“Something is identical to something.”
+
+
+
+Depending on the domain, there may be many substitution combinations for x and y, but when x and y can pick out the same object, we can read the substitution as essentially pointing out that “something is identical to itself.” Again, I want to point out how the previous sentence cannot be translated as:
+
+
+
+“Something is identical to some other thing.”
+
+
+
+Since that would require this sentence in FOL:
+
+
+
+∃x ∃y (x = y ∧ x ≠ y)
+
+
+
+This is logically impossible, of course. This sentence is necessarily false, as it should be. Since we have the conjunction of a sentence and the negation of it (remember we use infixed negation on the identity symbol).
+
+
+
+
+
+Prenex and Aristotelian Forms
+
+
+
+There are different, yet equivalent ways to write sentences with multiple quantifiers. Let us consider an example with equivalent prenex and Aristotelian forms.
+
+
+
+“Some cube is left of a tetrahedron.”
+
+
+
+∃x ∃y (Cube(x) ∧ Tet(y) ∧ LeftOf(x, y))
+
+∃x [Cube(x) ∧ ∃y (Tet(y) ∧ LeftOf(x, y))]
+
+
+
+Both FOL sentences are equivalent translations of the English sentence.
+
+
+
+The first translation is in prenex form. If you were to take the prenex FOL sentences and translate them back into English, you might not immediately get the original sentence. You’ll actually start out with something far more ugly and stilted.
+
+
+
+“For some x and for some y, x is a cube and y is a tet, and x is to the left of y.”
+
+
+
+We can try to naturalize our translation of the prenex form a bit. Sometimes naturalizing the translation takes some work, and you may want to do it in stages. So, we can take our initial translation of the prenex form and keep working on it:
+
+    “There is some cube, x, and there is some tet, y, and x is to the left of y.”
+
+    “Something is a cube, and something is a tet, wherein the cube is to the left of the tet.”
+
+    “Some cube is left of a tetrahedron.”
+
+Translation can be difficult. There’s an art to it. You have to think about it.
+
+The Aristotelian FOL sentence has one of the quantifiers embedded in the other. We might read it as:
+
+
+
+“For some x, x is a cube; for some y, y is a tet, and x is to the left of y.”
+
+
+
+We can manage to re-interpret or naturalize our initial readings:
+
+    “Some cube, x, is to the left of some tet, y.”
+
+    “Some cube is to the left of some tet.”
+
+You’ll notice that this second translation follows the Aristotelian form of “Some P’s are Q’s.” Sometimes it is easier to translate or breakdown a sentence in the second form rather than the prenex.
+
+
+
+Part of the reason it is easier is because the embedded sentence can be read as a single unit, “x is to the left of a tet,” where that tet is y. Let’s call that unit, G. Consider our original sentence, but replacing the single-unit embedded statement with G, we can see this exactly like our Aristotelian form:
+
+
+
+“Some cube is G(x).”
+
+∃x [Cube(x) ∧ G(x)]
+
+
+
+We want G(x) to say that “x is to the left of a tetrahedron.” We need G(x) to have a new quantifier and variable to express this nature of this tetrahedron. Hence, G(x) just is:
+
+
+
+∃y (Tet(y) ∧ LeftOf(x, y))
+
+
+
+Thus, we can read this Aristotelian form as, “some cube, x, is to the left of a tetrahedron, y.”
+
+
+
+We should also consider an example with multiple universal quantifiers:
+
+
+
+“Every cube is to the left of every tetrahedron.”
+
+
+
+∀x ∀y [(Cube(x) ∧ Tet(y)) → LeftOf(x, y)]
+
+∀x [Cube(x) → ∀y (Tet(y) → LeftOf(x, y))]
+
+
+
+Like our previous examples, we might have a chain of equivalent, yet more natural-sounding English translations:
+
+    “For all x and for all y, if both x is a cube and y is a tet, then x is to the left of y.”
+
+    “Every cube, x, and every tet, y, are such that x is to the left of y.”
+
+    “Every cube is to the left of every tetrahedron.”
+
+We can read the Aristotelian version as:
+
+    “For all x, if x is a cube, then for all y, if y is a tet, then x is to the left of y.”
+
+    “Every cube, x, is to the left of every tet, y.”
+
+    “Every cube is to the left of every tetrahedron.”
+
+The Aristotelian form has a similar breakdown as the previous Aristotelian example. We can think of it as:
+
+
+
+“Every cube is H(x).”
+
+∀x [Cube(x) → H(x)]
+
+
+
+Where H(x) is:
+
+
+
+∀y (Tet(y) → LeftOf(x, y))
+
+
+
+This wff says, “x is to the left of every tet, y.” Hence, we can read the Aristotelian form as “Every cube, x, is to the left of every tet, y.”
+
+
+
+The Aristotelian form promotes the practice of breaking the sentence down, and so it might be easier to use. Ultimately, if you want, you can avoid the prenex form in many cases, and stick to the easier to comprehend Aristotelian form.
+
+
+
+Homework: 11.1-11.6
+
+
+
+
+
+Mixed Quantifiers
+
+
+
+We’ve looked at examples of having the same kind of quantifier in multiples. We are going to look at mixed quantifiers now.
+
+
+
+“Every cube is left of a tetrahedron.”
+
+
+
+This clearly has an Aristotelian form:
+
+
+
+∀x (P(x) → Q(x))
+
+
+
+Where P(x) means “x is a cube” and Q(x) means “x is left of a tetrahedron.” Just as in our previous examples, where that tet is y, we can substitute Q(x) with:
+
+∃y (Tet(y) ∧ LeftOf(x, y))
+
+
+
+You’ll note this embedded sentence actually is an Aristotelian form as well. Further, substituting P(x) with the appropriate FOL sentence, we arrive at:
+
+
+
+∀x [Cube(x) → ∃y (Tet(y) ∧ LeftOf(x, y))]
+
+
+
+
+
+Order of Quantifiers
+
+
+
+When quantifiers in the same sentence are of the same quantity (all universal or all existential), the order in which they occur generally does not matter. But when they are mixed, the order in which they occur becomes crucial.
+
+
+
+∀x ∀y Likes(x, y) ⇔ ∀y ∀x Likes(x, y)
+
+“Every x likes every y.” ⇔ “Every y is liked by every x.”
+
+⇔ “Everyone likes everyone.”
+
+
+
+∃x ∃y Likes(x, y) ⇔ ∃y ∃x Likes(x, y)
+
+“Some x likes some y.” ⇔ “Some y is liked by some x.”
+
+⇔ “Someone is liked by someone.”
+
+
+
+Multiples of the same quantifiers are easy. Mixed are more difficult. Consider this example:
+
+
+
+∀x ∃y Likes(x, y)
+
+∃y ∀x Likes(x, y)
+
+
+
+These are not equivalent sentences. We can read the first sentence as, “Every x likes some y.” Essentially, it says, “everyone likes someone,” but allows for the possibility that different people have different likes.
+
+
+
+Consider a world with 4 people: A, B, C, and D, wherein:
+
+
+
+A likes B
+
+B likes C
+
+C likes D
+
+D likes A
+
+
+
+This world would make the first sentence true. Everyone likes someone. Note, however, that it doesn’t say who they like. That someone could be anyone.
+
+
+
+The second sentence, however, says something much stronger. We can read it as “Some y is liked by every x.” Essentially, it says, “someone is liked by everyone.” For example, maybe:
+
+
+
+A, B, C, and D all like A
+
+This sentence not only makes the first sentence true, but also the second.
+
+Cool fact, this stronger, second sentence logically implies the first. If “someone is liked by everyone,” then of course, “everyone likes someone.”
+
+In general, a ∃∀ sentence logically implies its ∀∃ counterpart. Let’s see another example:
+
+
+
+∀x ∃y (x = y)
+
+∃y ∀x (x = y)
+
+
+
+These sentences aren’t equivalent. The first says, “Every x is identical to some y” or “Everything is identical to something.” Since in every world, every object is self-identical, this sentence is a logical truth. And, frankly, every sentence logically implies a logical truth. So the general rule of thumb I gave you holds here, even without understanding what the second sentence even means.
+
+
+
+The second says, “Some y is identical to every x” or “Something is identical to everything.” This is a far stronger and more particular claim. It can only be true in a domain with one object. Obviously it implies the first sentence, but the first sentence doesn’t imply this second sentence.
+
+
+
+In any case, these mixed quantifier sentences are all distinct, and they aren’t equivalent. Some are implied by others, but not the other way around. Order clearly matters when your quantifiers are different.
+
+
+
+Homework: 11.8-11.15
+
+
+
+
+
+Step-by-Step Method of English to FOL Translation
+
+    Identify quantifier expressions.
+
+    Find the general form.
+
+    Isolate and translate the embedded wffs.
+
+    Plug these wffs into the general form.
+
+For example:
+
+
+
+“Each cube is to the left of a tetrahedron.”
+
+
+
+First, identify the quantifier expressions:
+
+
+
+“Each cube” and “a tetrahedron”
+
+Universal and Existential
+
+
+
+Find the general form:
+
+
+
+“All P’s are Q’s” ⇔ ∀x (P(x) → Q(x))
+
+
+
+Where P(x) is concerned with “each cube” and Q(x) is concerned with those cubes being “left of a tetrahedron.”
+
+
+
+Now isolate and translate the embedded wffs:
+
+
+
+“x is a cube” ⇔ Cube(x)
+
+“x is left of a tetrahedron” ⇔ ∃y(Tet(y) ∧ LeftOf(x, y))
+
+
+
+Plug’n’Play:
+
+∀x[Cube(x) → ∃y(Tet(y) ∧ LeftOf(x, y))]
+
+
+
+Voila. Let’s try another example:
+
+
+
+“Some cube that adjoins a dodecahedron is larger than every tetrahedron.”
+
+
+
+First, go through the sentence to identify the quantifier expressions.
+
+
+
+“Some cube” and “a dodecahedron” and “every tetrahedron”
+
+
+
+So, two existential expressions and one universal. Now, we find the general structure of the sentence. In this case, it’s one of the Aristotelian forms (sometimes it won’t be):
+
+
+
+“Some P’s are Q’s” ⇔ ∃x (P(x) ∧ Q(x))
+
+
+
+Where P(x) is concerned with “Some cube that adjoins a dodecahedron” and Q(x) concerned with that cube being “larger than every tetrahedron.”
+
+
+
+Now we isolate the embedded wffs and translate them.
+
+
+
+“x is a cube that adjoins a dodecahedron” ⇔ Cube(x) ∧ ∃y (Dodec(y) ∧ Adjoins(x, y))
+
+“x is larger than every tetrahedron” ⇔ ∀y (Tet(y) → Larger(x, y))
+
+
+
+Finally, plug these wffs into our overall form ∃x (P(x) ∧ Q(x)) in place of the two conjuncts P(x) and Q(x). This yields our completed translation:
+
+
+
+∃x [Cube(x) ∧ ∃y (Dodec(y) ∧ Adjoins(x, y)) ∧ ∀y (Tet(y) → Larger(x, y))]
+
+
+
+Let’s try another example.
+
+
+
+“No cube to the right of a tetrahedron is to the left of a larger dodecahedron.”
+
+
+
+We can begin by identifying the quantifier expressions and then determining the general structure of the sentence. It has the form:
+
+
+
+“No Cube” and “a tetrahedron” and “a dodecahedron”
+
+Either universal or existential, and two existentials
+
+
+
+The form:
+
+
+
+“No P’s are Q’s” ⇔	∀x(P(x) → ¬Q(x))
+
+
+
+Where P(x) is concerned with “cubes to the right of a tetrahedron” and Q(x) with cubes not being “left of a larger dodecahedron.”
+
+
+
+My intuitions make it easier to translate this using the negated existential form, ¬∃x(P(x) ∧ Q(x)), however, that may not be the case for you. We’ll try it first using the universal.
+
+
+
+Now we isolate the embedded wffs and translate:
+
+
+
+The Antecedent:
+
+
+
+“x is a cube to the right of a tetrahedron” ⇔ Cube(x) ∧ ∃y (Tet(y) ∧ RightOf(x, y))
+
+
+
+The Consequent:
+
+
+
+“x is to the left of a larger dodecahedron”
+
+
+
+Before we can begin to translate this embedded wff, we must decide what the dodecahedron is being said to be larger than. There seem to be two possibilities:
+
+
+
+(1) “a dodecahedron larger than x”
+
+(2) “a dodecahedron larger than the tetrahedron mentioned in the antecedent”
+
+
+
+The sentence seems genuinely ambiguous between these possibilities, although (1) seems more likely to my ears, so we will go with that reading. Thus:
+
+
+
+“x is to the left of a dodecahedron that is larger than x” ⇔
+
+∃y (Dodec(y) ∧ LeftOf(x, y) ∧ Larger(y, x))
+
+
+
+Now we plug’n’play our P(x) and Q(x)
+
+
+
+∀x [(Cube(x) ∧ ∃y (Tet(y) ∧RightOf(x, y))) → ¬∃y (Dodec(y) ∧LeftOf(x, y) ∧ Larger(y, x))]
+
+
+
+Let’s quickly work through a few more examples.
+
+
+
+“Every small cube is in back of a large cube.”
+
+
+
+Quantifier expressions: “Every small cube” and “a large cube”
+
+Form: ∀x(P(x) → Q(x))
+
+
+
+∀x [(Small(x) ∧ Cube(x)) → in-back-of-a-large-cube)]
+
+∀x [(Small(x) ∧ Cube(x)) → ∃y (Large(y) ∧ Cube(y) ∧ BackOf(x, y))]
+
+
+
+Another example:
+
+
+
+“Some cube is in front of every tetrahedron.”
+
+
+
+Quantifier expressions: “Some cube” and “every tetrahedron”
+
+Form: ∃x (P(x) ∧ Q(x))
+
+
+
+∃x (Cube(x) ∧ is in front of every tet)
+
+∃x [Cube(x) ∧ ∀y (Tet(y) → Front(x, y))]
+
+
+
+Another example:
+
+
+
+“Everything to the right of a large cube is small.”
+
+
+
+Quantifier expressions: “Everything” and “a cube”
+
+Form: ∀x(P(x) → Q(x))
+
+
+
+∀x (x is to the right of a large cube → Small(x))
+
+∀x [∃y(Large(y) ∧ Cube(y) ∧ RightOf(x, y)) → Small(x)]
+
+
+
+Another example:
+
+
+
+“Anything with nothing in back of it is a cube.”
+
+
+
+Quantifier expressions: “Anything” and “nothing” - Notice that “is a cube”, the determiner “a” doesn’t make this a quantified expression.
+
+Form: ∀x(P(x) → Q(x))
+
+
+
+∀x(if nothing is in back of x → Cube(x))
+
+∀x(¬∃y(BackOf(y, x) → Cube(x))
+
+
+
+Homework: 11.16-11.17
+
+
+
+
+
+Paraphrasing English
+
+
+
+There are times when the step-by-step method cannot be applied directly. This happens frequently in cases in which the quantifier word something is used with universal force. For example:
+
+
+
+“If something is a cube, it is not a tetrahedron.”
+
+
+
+The tip-off that the “something” here is a universal quantifier is the occurrence of the pronoun “it” in the consequent. This “it” functions in English as a variable, so it must be bound by a quantifier. But, the only quantifier around is the one in the antecedent. If we make it existential and include the variable “it” in its scope, we would get:
+
+
+
+“There is something such that, if is a cube, it is not a tetrahedron.”
+
+∃x (Cube(x) → ¬Tet(x))
+
+
+
+But, this sentence is too weak, as we’ve already seen, to say what the English sentence says. The existence of a single non-cube, for example, makes it true. But, if we restrict the scope of ∃x to the antecedent, we get:
+
+
+
+∃x Cube(x) → ¬Tet(x)
+
+But, this mere wff is not a sentence (the x in Tet(x) is free). The step-by-step method seems to have failed us. What we must do, instead, is to continuously paraphrase the original sentence in a way that gives the quantifier a large scope. When we do this, we see that the quantifier is actually universal:
+
+
+
+“If anything is a cube, it is not a tetrahedron.”
+
+“For anything you like, if it is a cube, it is not a tetrahedron.”
+
+“No cube is a tetrahedron.”
+
+∀x (Cube(x) → ¬Tet(x))
+
+
+
+Let’s look at another example:
+
+
+
+“If a freshman takes a logic class, then he or she must be smart.”
+
+
+
+If you attempt to translate step by step, you get:
+
+
+
+∃x(Freshman(x) ∧ ∃y(LogicClass(y) ∧ Takes(x, y))) → Smart(x)
+
+
+
+This is not a sentence since it has a free variable, “Smart(x)” – hence, we must paraphrase it.
+
+
+
+“Every freshman who takes a logic class is smart”
+
+
+
+This translates nicely:
+
+
+
+∀x[(Freshman(x) ∧ ∃y(LogicClass(y) ∧ Takes(x, y))) → Smart(x)]
+
+
+
+
+
+
+
+Donkey Sentences
+
+
+
+The classic example.
+
+
+
+“Every farmer who owns a donkey beats it.”
+
+
+
+The difficulty with such sentences is that they resemble ones in which the phrase “a donkey” is properly treated as an existential quantifier.
+
+
+
+“Every farmer who owns a donkey buys hay.”
+
+
+
+This goes into FOL straight forwardly as:
+
+
+
+∀x [(Farmer(x) ∧ ∃y (Donkey(y) ∧ Owns(x, y)) → BuysHay(x))]
+
+
+
+Note that the scope of the existential quantifier stops at the end of the antecedent. If we try to translate the classic donkey sentence this way, we get:
+
+
+
+∀x [(Farmer(x) ∧ ∃y (Donkey(y) ∧ Owns(x, y)) → Beats(x, y))]
+
+
+
+This is a mere wff, since the y in the consequent is free. We can see this by translating the wff back into English:
+
+
+
+“Every farmer who owns a donkey beats y.”
+
+
+
+In order to have a sentence (a wff with no free variables) we must make sure that the y variable in Beats(x, y) is bound by the quantifier (“a donkey”) in the antecedent. This means we must paraphrase the original English sentence, perhaps in one of the following ways:
+
+
+
+“Any farmer who owns any donkey beats it.”
+
+“Every farmer is such that any donkey he owns is beaten by him.”
+
+“Every farmer beats every donkey he owns.”
+
+
+
+This makes clear that the original sentence contains two universal quantifiers:
+
+∀x [Farmer(x) → ∀y {(Donkey(y) ∧ Owns(x, y)) → Beats(x, y)}]
+
+
+
+In LPL, a slightly different (but equivalent) translation is offered:
+
+
+
+∀x [Donkey(x) → ∀y {(Farmer(y) ∧ Owns(y, x)) → Beats(y, x)}]
+
+
+
+Homework: 11.18-11.21
+
+
+
+
+
+Ambiguity and Context Sensitivity
+
+
+
+Sentences containing both universal and existential quantifiers can be ambiguous, depending on the scope the quantifiers receive.
+
+
+
+“Some man has been calling Becky every hour.”
+
+
+
+When the existential quantifier is given wide scope, we get what is called the “strong” reading:
+
+
+
+∃x [Man(x) ∧ ∀y (Hour(y) → Calls(x, becky, y))]
+
+
+
+This FOL sentence suggests that Becky is being harassed by a single persistent (and unwanted) caller. On the other hand, if we take the English sentence to mean merely that Becky is popular, and has been receiving calls from many different interested creepers or gentlemen (take your pick), the right way to put it would be this (the “weak” reading):
+
+
+
+∀y [Hour(y) → ∃x (Man(x) ∧ Calls(x, becky, y))]
+
+
+
+The weak reading is a logical consequence of the strong reading, but not conversely.
+
+
+
+You’ll note that the second translation ends up repositioning the “every hour” quantified expression at the beginning, as the overall structure.
+
+
+
+In other cases, the context makes the weak reading obviously the intended one. Consider the following sentence (attributed to the showman P. T. Barnum):
+
+
+
+“There’s a sucker born every minute.”
+
+
+
+The strong reading here is obviously inappropriate:
+
+
+
+∃x [Sucker(x) ∧ ∀y (Minute(y) → BornAt(x, y))]
+
+The trouble with this FOL translation is that it says that some unfortunate individual has the property of being born (again, and again) at each and every minute. What the original sentence obviously intended was the weaker claim, that no matter what minute you pick, some sucker is being born then (a different sucker at each succeeding minute, of course, since each of us is born only once). Here’s the FOL version of the intended (weak) reading:
+
+
+
+∀y [Minute(y) → ∃x (Sucker(x) ∧ BornAt(x, y))]
+
+
+
+
+
+Ralph Waldo Emerson Ambiguity
+
+
+
+In our next example, there are multiple sources of ambiguity—not just the scope of the quantifiers, but their quantity.
+
+
+
+“Everybody loves a lover.”
+
+
+
+We’ll start questions that arise from the ambiguity of two notions.
+
+    Order of the quantifiers
+
+        Does “everybody” have wide scope, or does “a lover” have wide scope?
+
+        Which of the two quantifiers has wide scope?
+
+            Without context, it seems we’ll have to keep both options open.
+
+    Quantity of the quantifiers
+
+        Is “a lover” an existential quantifier (“some lover”) or universal (“every lover”)?
+
+            Without a context, it’s hard to tell, so we’ll have to keep both options open.
+
+This would seem to give us, at least in the abstract, four possibilities. We can represent them (temporarily) in the following slightly unorthodox way:
+
+
+
+1. ∃ lover y ∀ person x: x loves y
+
+2. ∀ person x ∃ lover y: x loves y
+
+3. ∀ lover y ∀ person x: x loves y
+
+4. ∀ person x ∀ lover y: x loves y
+
+
+
+Since (3) and (4) do not involve mixed quantifiers, they are clearly equivalent. (3) says that “every lover is loved by every person,” and (4) says that “every person loves every lover.” So we only need to consider one of them—we’ll drop (4) from consideration. But the other three are still in the running:
+
+    says that “there is some lover, y, such that everyone loves y.”
+
+    says that “for each person, x, there is a lover, y, such that x loves y.”
+
+        This leaves open the possibility, which (1) does not, that different people might love different lovers
+
+    says that “every lover is loved by everyone.”
+
+        This seems to have been the original intention of the poet Ralph Waldo Emerson when he wrote “Here’s to the happy man: All the world loves a lover.” That is, no matter who you are, all you have to do is to be a lover, and everyone will love you.
+
+So (3) seems to be the favored reading of this potentially ambiguous sentence.
+
+
+
+Homework: 11.24-11.26
+
+
+
+
+
+Prenex Form
+
+
+
+For many purposes, it is advantageous to have an FOL sentence in prenex form. Furthermore, every FOL sentence has an equivalent sentence (in fact, many equivalent sentences) in prenex form. In this section, we discuss methods for putting sentences into prenex form. But first, let’s refresh ourselves on why trying to put sentences directly into prenex form is likely to lead to error.
+
+
+
+Consider this example of sentences which might appear equivalent, but aren’t:
+
+
+
+∀x Cube(x) → ∀y Large(y) “If everything is a cube, then everything is large”
+
+∀x ∀y (Cube(x) → Large(y)) “Everything is such that if it’s a cube, then everything is large”
+
+
+
+The second sentence is in prenex form, but it is not equivalent to the first sentence. We can’t just pull the inside quantifier out. To convert to prenex form, we must remember the equivalences we learned in chapter 10:
+
+
+
+∃x (Q(x) → P) ⇔ ∀x Q(x) → P
+
+∃x (P → Q(x)) ⇔	P → ∀x Q(x)
+
+
+
+Remember, these equivalences require that P is either a sentence or a wff containing no free occurrence of x.
+
+
+
+We apply the first equivalence to our first sentence:
+
+∃x (Q(x) → P) ⇔ ∀x Q(x) → P
+
+∃x (Cube(x) → ∀y Large(y)) ⇔	∀x Cube(x) → ∀y Large(y)
+
+
+
+Note how Q(x) is Cube(x). We pull the universal quantifier off of the antecedent and change it to an existential quantifier whose scope is the entire conditional. Next, we will apply the second equivalence to sentence our new sentence:
+
+
+
+∀x (P → Q(x)) ⇔	P → ∀x Q(x)
+
+∃x ∀y (Cube(x) → Large(y)) ⇔ ∃x (Cube(x) → ∀y Large(y))
+
+
+
+Note how Q(x) is Large(y). Here we simply moved the universal quantifier, ∀y, from the consequent to the entire conditional. Note that in applying this equivalence, P is the wff Cube(x), which contains no free occurrences of y, the variable in the exported quantifier.
+
+
+
+Thus, the prenex form of ∀x Cube(x) → ∀y Large(y) is not ∀x ∀y (Cube(x) → Large(y)), but rather ∃x ∀y (Cube(x) →Large(y)). We can use Fitch’s FO Con to further convince ourselves of this.
+
+
+
+
+
+Rules for Converting to Prenex
+
+
+
+To convert an FOL sentence to prenex form, we make use of these equivalences that we learned in chapter 10:
+
+    DeMorgan laws for quantifiers
+
+    Distributing ∀ through ∧
+
+    Distributing ∃ through ∨
+
+    Null quantification
+
+    Replacing bound variables
+
+In addition, we will need to use some of the handy truth-functional equivalences we learned in
+
+§ 8.1, especially to get rid of biconditionals:
+
+    P ↔Q ⇔ ((P →Q) ∧ (Q →P) )
+
+    P ↔Q ⇔ ((P ∧ Q) ∨ (¬P ∧ ¬Q))
+
+The general strategy is to work from the inside out, moving quantifiers “outward” so that they get larger in scope. Since all of our quantifiers will appear at the beginning of our ultimate sentence, we must be sure that no quantifier gets reused (e.g., we cannot have both ∀xand ∃x); each time we have a quantifier that repeats a variable, we will have to change to a new variable. We will definitely need to get rid of biconditionals, and it is sometimes useful to get rid of conditionals, as well. The procedure is best illustrated by examples, to which we now turn.
+
+
+
+Let’s show a conversion into prenex:
+
+
+
+∀x Cube(x) ∨ ¬∃x Tet(x)
+
+
+
+The strategy will be to drive the negation sign through the quantifier ¬∃x, converting it to ∀x¬ (appealing to DeMorgan laws for quantifiers), then rewrite the second quantifier with a new variable, y (replacing bound variables), then pull the quantifiers to the outside (null quantification). We’ll do this one step at a time.
+
+
+
+∀x Cube(x) ∨ ¬∃x Tet(x) ⇔ ∀x Cube(x) ∨ ∀x ¬Tet(x) DeMorgan’s
+
+⇔	∀x Cube(x) ∨ ∀y ¬Tet(y) Replacing bound var.
+
+⇔ ∀x (Cube(x) ∨ ∀y ¬Tet(y)) Null Quantification
+
+⇔ ∀x ∀y (Cube(x) ∨ ¬Tet(y)) Null Quantification
+
+
+
+Notice that we might have performed the last two steps (pulling out the universal quantifiers) in reverse order. If we had, we would have ended up with this (equivalent) prenex form:
+
+
+
+∀y ∀x (Cube(x) ∨ ¬Tet(y))
+
+
+
+Let’s consider a nasty soup-to-nuts example, where we start with an English sentence, translate into the FOL Aristotelian form, and then convert to prenex.
+
+
+
+“No cube that adjoins a tetrahedron is back of every dodecahedron.”
+
+
+
+We make no effort to go directly to prenex form. Instead, we translate into FOL using the step-by-step method:
+
+    ∀x(x is a cube-that-adjoins-a-tetrahedron → ¬ x is back-of-every-dodecahedron)
+
+    ∀x((x is a cube ∧ ∃y (y is a tetrahedron ∧ x adjoins y)) → ¬ x is back-of-every-dodecahedron)
+
+    ∀x((x is a cube ∧ ∃y (y is a tetrahedron ∧ x adjoins y)) → ¬ ∀z(z is a dodecahedron → x is back of z))
+
+    ∀x {[Cube(x) ∧ ∃y (Tet(y) ∧ Adjoins(x, y))] → ¬∀z (Dodec(z) → BackOf(x, z))}
+
+Now we convert to prenex form. First, we drive the negation sign inside the scope of the quantifier ∀z:
+
+
+
+∀x {[Cube(x) ∧ ∃y (Tet(y) ∧ Adjoins(x, y))] → ∃z ¬(Dodec(z) → BackOf(x, z))}
+
+
+
+Next, we look at the conjunction that is the antecedent of the first conditional:
+
+
+
+[Cube(x) ∧ ∃y (Tet(y) ∧ Adjoins(x, y))]
+
+
+
+We then apply one of the “null quantification” equivalences. This allows us to pull the existential quantifier out:
+
+
+
+∃x (P ∧ Q(x)) ⇔ P ∧ ∃x Q(x)
+
+∃y [Cube(x) ∧ (Tet(y) ∧ Adjoins(x, y))] ⇔	Cube(x) ∧ ∃y (Tet(y) ∧ Adjoins(x, y))
+
+
+
+Replacing this in the entire sentence yields:
+
+
+
+∀x {[Cube(x) ∧ ∃y (Tet(y) ∧ Adjoins(x, y))] → ∃z ¬(Dodec(z) → BackOf(x, z))} ⇔
+
+∀x {∃y [Cube(x) ∧ (Tet(y) ∧ Adjoins(x, y))] → ∃z ¬(Dodec(z) → BackOf(x, z))}
+
+
+
+The wff in the scope of the initial universal quantifier ∀x is:
+
+
+
+∃y [Cube(x) ∧ (Tet(y) ∧ Adjoins(x, y))] → ∃z ¬(Dodec(z) → BackOf(x, z))
+
+
+
+And this is of the form of the first of the following, and equivalent to the second:
+
+
+
+∃y Q(y) → P ⇔ ∀y (Q(y) → P)
+
+So we pull out the existential quantifier and change it to a universal, and embed the resulting wff inside the scope of ∀x:
+
+
+
+∀x {∃y [Cube(x) ∧ (Tet(y) ∧ Adjoins(x, y))] → ∃z ¬(Dodec(z) → BackOf(x, z))} ⇔
+
+∀x ∃y {[Cube(x) ∧ (Tet(y) ∧ Adjoins(x, y))] → ∃z ¬(Dodec(z) → BackOf(x, z))}
+
+
+
+Finally, the existential quantifier in the consequent can be moved to the outside of the conditional (but inside the other quantifiers!). Recall this null quantification:
+
+
+
+∃x (P → Q(x)) ⇔ P → ∃x Q(x)
+
+
+
+Applying this yields:
+
+
+
+∀x ∃y {[Cube(x) ∧ (Tet(y) ∧ Adjoins(x, y))] → ∃z ¬(Dodec(z) → BackOf(x, z))}
+
+∀x ∃y ∃z {[Cube(x) ∧ (Tet(y) ∧ Adjoins(x, y))] → ¬(Dodec(z) → BackOf(x, z))}
+
+
+
+Homework: 11.37-11.39

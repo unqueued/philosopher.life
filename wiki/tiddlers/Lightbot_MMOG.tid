@@ -1,0 +1,51 @@
+created: 20170312140800838
+modified: 20170312141011093
+revision: 0
+title: Lightbot MMOG
+
+Virtual Reality Bot MMORPG
+
+Gameplay:
+
+* Must program to run at first. Must also be necessary in mid/late game grinding.
+* Start with Light bot. 
+** Great teaching tool
+* Have hotkeys/buttons to call particular scripts. Needs a text editor.
+* What about a directory/tree structure to hold and call scripts? Make it simple to organize them. 
+* Zones can have puzzles maybe. You should be rewarded for passing puzzles.
+* Experience gain for levels? 
+
+Technical requirements:
+
+* PGP keys to verify who you are. Would prefer one key to rule everything on your ID. Your bot could still have a name. Would need to be unique, somehow. How?
+* I2P network for anonymity 
+* Decentralized, consensus and/or individual server oriented? Seems like centralized, on my own servers, is best. Could still figure out innate loadbalancing mechanics. So, centralized cluster of my own servers.
+* Persistence over time
+* Gamestates output in text, allows you to play the UI you want to play
+* Bitcoin, could have an ingame mixer. PGP and Bitcoin addressbook in game. 
+* Modding (lots of options here)
+* Do I want to make money at this, and how?
+* Only someone with master-game-GM PGP key can do certain things in the game, I assume. Clients will just be hacked though. Might need servers to do a lot of work here.
+* Bitcoin to play with other players?
+* New account keys need to be signed by GM-Key. An account key costs bitcoin to use. Monthly bitcoin cost. Dirt cheap.
+** If they stop paying their key/account stops working. 
+*** Bot persistence/account freeze. They can pay to bring it back online.
+* Client needs to be retarded simple. It only accepts:
+** Bot commands
+* Bitcoin prizes? PvP, PvE? Percentage of income. 
+* Clients might make a huge botnet, Sybil attack on i2p a well. 
+** A bad option.
+** Would prefer to make it so that other people can just make their own clients
+** A “bring your own client” kind of game. 
+* EVE Online
+** Randian rules, universe inside.
+** The anonymity makes it randian too. 
+ 
+Hardware, dev.
+
+* Development would need to be done with at least a VPN.
+* Server
+** ProxyHam
+*** Throughput problem? Need a very small connection footprint per player.
+** VPN (bitcoin this one)
+** I2P

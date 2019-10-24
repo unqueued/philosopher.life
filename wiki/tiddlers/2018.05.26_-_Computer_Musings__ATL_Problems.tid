@@ -1,0 +1,8 @@
+created: 20180526162125606
+creator: h0p3
+modified: 20181029175224787
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.05.26 - Computer Musings: ATL Problems
+
+Server keeps going down for no "raisins." Appears CPU spikes on my w3m/lighttpd hack, stuck on my son's wiki? Ah, it's 90MB in size. He needs to stop storing images in his wiki. I've decided to set theirs to once a night anyways. Mine is updated constantly. Also, cleaning out ~.w3m and lighttpd's compression cache nightly. There's no reason to keep it. Boom 10GB cleaned up.

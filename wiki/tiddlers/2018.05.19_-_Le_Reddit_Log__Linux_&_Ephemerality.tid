@@ -1,0 +1,63 @@
+created: 20180519210835754
+creator: h0p3
+modified: 20190709184352782
+modifier: h0p3
+tags: [[Le Reddit Log]]
+title: 2018.05.19 - Le Reddit Log: Linux & Ephemerality
+
+//I'm aware of the irony in recording it. But, again, my argument still stands.//
+
+https://www.reddit.com/r/linux/comments/8kkvf7/why_are_you_using_linux_at_home/
+
+* Some tasks are just better done in the terminal, and I like the CLI options and tools in Linux
+* I'm addicted to workspaces and other workflows in Linux DEs
+* On average, I generally enjoy systemd, crontab, and the way configuration tends to work for much of the ecosystem
+* I trust it more than the other options I'd consider, and out of self-preservation, I'm continually working to own my data through Linux
+* I don't want to be part of the problem; I think it is a moral imperative to use FOSS when I feasibly can
+* I can use Linux on all of my devices, even potatoes with insanely low specs
+* I regularly chew through all of my memory and CPU on my primary device, and so performance actually matters to me
+* It has strong integration with other Linux systems on my networks
+* Tinkering is fun, Linux always has new toys, and customization actually gives me a system that does what I want it to do
+* Developing tools has just been wildly easier for me in Linux
+* There is a ton of software I need which is designed for Linux, and it often isn't ergonomic to get it running elsewhere
+* Linux is an OS that isn't going obsolete, and learning it will always be useful to me
+* I use it too much to accept running it in VM or as a subsystem
+* I need my children to learn it, so I put my money where my mouth is
+
+<<<
+[the author quotes me above]
+
+Disappearing Reddit comments, huh?
+<<<
+
+I'm well aware of the issue. Note, of course, the difference between my claim they are deleted and the notion that they disappear. I submit to you that security notions come in degrees and probabilities. At least for now, I'm convinced non-trivial information really does become less available or higher hanging fruit with this method. It's far from ideal, but it's also not nothing.
+
+<<<
+I just don't understand why you want to deprive people of reading about the reasons you use Linux only because they happened to find this thread more than 72 hours after your comment.
+<<<
+
+That seems to be different from (although relatable to) the implied argument in your above one-liner. You raise a valuable question, however, about the nature of our moral duties in communication.
+
+I am aware of how this disadvantages future readers. I'm aware of how I'm stilting the flow of a conversation. I know this practice may be strongly disliked or misunderstood by some. I would also add that the deprivation is instrumentally valuable in this case, but all else being equal, if I could achieve my ends without that deprivation, I would.
+
+I regularly have conversations with people IRL that aren't recorded forever. I think that is a good thing. I'd like to see more ephemeral-type conversations online. From a consequentialist perspective, I think we're all deprived of crucial democratizing capacities and power decentralization when we aren't able to regularly engage in emphemeral communications online. This is a freespeech issue worth fighting for.
+
+I deny I have crossed a moral line, and I believe I'm engaged in morally permissible behavior here. I do not see the inescapable value in your largely unspoken social convention (and there was a time on this site where even the social conventions embedded in Reddiquette would have required more curiousity and charity in your argumentation). I have adhered to the rules of this site and even this subreddit. I've even given you the chance to engage with me consensually in this practice by announcing my intentions in advance. I am respecting you as a human being (just as I am by engaging in careful reasoning with you).
+
+Yes, you don't understand it or don't like it. I suggest the onus, the burden of proof, is on you in our dialectic to demonstrate why I ought not do this. I am open to the possibility I am wrong. Please, feel free to change my mind.
+
+If it makes you feel better, you can say whatever you want to make it look like you won the argument for future readers (they probably won't see my side of the argument). That's up to you. I do not seek their approval.
+
+<<<
+I just lost the argument.
+
+One thing I am curious about is the technical side of how you delete your comments within 72 hours. Is this accomplished by simply running a program that deletes all of your comments every 72 hours (so sometimes hours-old comments may end up getting the axe) using some kind of task scheduling utility (like cron) or it it something more sophisticated like a program that periodically deletes only those comments that are 72 hours old or older?
+<<<
+
+On the technical end, I use Shreddit to download my comments, edit my posts with gibberish, save to reddit, and then delete them:
+
+https://github.com/x89/Shreddit.
+
+It is fairly configurable, and I run it nightly with cron. It's actually between 48-72 hours, thus not exactly 72 (but within). I don't think it's worth my time to run it continuously.
+
+I save my comments because I'm somewhat Hegelian, and I consider them a part of who I am. I believe some of those fragments are worth keeping. It is part of controlling my own data, as I mentioned in my initial post.

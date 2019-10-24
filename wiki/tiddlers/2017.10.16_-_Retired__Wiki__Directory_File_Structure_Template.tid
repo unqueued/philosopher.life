@@ -1,0 +1,91 @@
+created: 20170916021346412
+modified: 20181218012339385
+modifier: h0p3
+revision: 0
+tags: Retired
+title: 2017.10.16 - Retired: Wiki: Directory File Structure Template
+
+//See first: [[ass]] & [[titties]]//
+
+(Obviously, this header is optional and to be rarely used. It's a powerful tool.)
+
+{Principles} {Focus} {Projects} {Vault} {Dreams}
+
+---
+!! About:
+
+//Something personal, profoundly valuable, optics, lens-giving, context-giving, etc., or a dedication. This is optional.//
+
+<<<
+Here is an optional quote
+
+--Author Found+Necessary
+<<<
+
+Talk about what the page is about, provide an introduction to understand its contents, the reasons for this directory file's existence. Talk about the goals, especially the means to ends relationships and consequential reasons you find in it.
+
+For example, this page exists solely to help me convert my entire wiki into something with a rigorous file structure. This allows me to be computational about it literally with my computer and also with my mind. It frames problems and provides me means to solving them.
+
+Obviously, this section is not optional.
+
+---
+!! Principles:
+
+I've templated this page as a Directory File, but it doesn't really absolutely have to be one. I think it's just cool that way, and it brings it to life. Obviously, this section is not optional: every page has principles
+
+---
+!! Focus:
+
+Well, here's the template:
+
+```
+//See first: [[example]] & [[example]]//
+
+---
+!! About:
+
+//Italicized Intro, quip, etc.//
+
+<<<
+Here is a quote.
+
+--Author
+<<<
+
+---
+!! Principles:
+
+---
+!! Focus:
+
+* (*crickets)
+
+---
+!! Vault:
+
+* (*crickets)
+
+---
+!! Dreams:
+
+* (*crickets)
+
+---
+
+<<footnotes "1" "(*crickets)">>
+```
+
+---
+!! Vault:
+
+* Retired:
+** [[2017.09.15 - Retired: Wiki: Directory File Structure Template]]
+
+---
+!! Dreams:
+
+* (*crickets)
+
+
+---
+<<footnotes "1" "(*crickets)">>

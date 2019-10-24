@@ -1,0 +1,267 @@
+created: 20180405153829276
+creator: h0p3
+modified: 20181126032619384
+modifier: h0p3
+title: Recipe: Ubuntu Seedbox Setup
+
+As root:
+
+<<<
+```
+apt-get update && sudo apt-get upgrade -y
+passwd
+timedatectl set-ntp true
+useradd -m h0p3
+passwd h0p3
+```
+<<<
+
+
+Add h0p3 to sudoers:
+
+<<<
+`visudo`
+
+Below root in `# User privilege specification` add the following:
+
+`h0p3 ALL=(ALL) ALL`
+<<<
+
+
+Configure SSH for simple safety:
+
+<<<
+Edit `/etc/ssh/sshd_config`
+
+Set `PermitRootLogin no`
+
+Set `Port 4222`
+
+Save and exit.
+
+`systemctl restart sshd`
+
+On your local machine, run [[lussh]] to log in: `ssh h0p3@ks.philosopher.life -p 4222`
+<<<
+
+
+Automatic Yolo Updates:
+
+<<<
+`sudo crontab -e`
+
+Add the following to root crontab:
+
+```
+0 2 * * * apt-get update && apt-get upgrade -y && apt-get autoremove -y && apt-get autoclean -y
+```
+<<<
+
+
+Install the Goods:
+
+<<<
+```
+sudo apt-get install iotop smem lftp w3m mc htop ncdu bmon nethogs sshuttle discus byobu dtrx inxi sshfs unrar snap python-pip python3-pip npm -y
+pip install --upgrade pip -y
+sudo -H pip2 install --upgrade pip
+sudo -H pip3 install --upgrade pip
+sudo -H pip install xonsh
+sudo snap install tldr
+```
+<<<
+
+
+Skiddie ruTorrent:
+
+<<<
+```
+sudo bash -c "$(wget --no-check-certificate -qO - https://raw.githubusercontent.com/arakasi72/rtinst/master/rtsetup)"
+sudo rtinst
+```
+<<<
+
+
+Install & Configure Resilio Sync:
+
+<<<
+```
+echo "deb http://linux-packages.resilio.com/resilio-sync/deb resilio-sync non-free" | sudo tee /etc/apt/sources.list.d/resilio-sync.list
+wget -qO - https://linux-packages.resilio.com/resilio-sync/key.asc | sudo apt-key add -
+sudo apt-get update && sudo apt-get install resilio-sync
+sudo systemctl enable resilio-sync && sudo systemctl start resilio-sync
+```
+
+Setup Nginx Reverse Proxy (already installed from previous script):
+
+Add the following to `/etc/nginx/conf.d/rslsync.conf`:
+
+```
+server {
+  listen 4288;
+  server_name ks.philosopher.life;
+ 
+  access_log /var/log/nginx/ks.philosopher.life.log;
+  location / {
+    proxy_pass http://127.0.0.1:8888;
+  }
+}
+```
+
+`sudo systemctl reload nginx`
+
+Add your syncs. If you get folder permission errors (you probably will), add rslsync user access to the folder with:
+
+```
+sudo apt-get install acl
+sudo setfacl -R -m "u:rslsync:rwx" /your/directory
+```
+<<<
+
+
+Setup OpenVPN Server:
+
+<<<
+```
+# make sure it passes
+test ! -c /dev/net/tun && echo openvpn requires tun support || echo tun is available
+# Skidiot this one. Huge fan of the Nyr-based script.
+wget https://raw.githubusercontent.com/Angristan/OpenVPN-install/master/openvpn-install.sh
+sudo chmod +x openvpn-install.sh && sudo ./openvpn-install.sh
+```
+<<<
+
+
+Setup Shadowsocks Proxy:
+
+<<<
+```
+sudo add-apt-repository ppa:max-c-lv/shadowsocks-libev -y
+sudo apt-get update
+sudo apt install shadowsocks-libev
+```
+
+Put/Edit the following in: `/etc/shadowsocks-libev/manager.json`
+
+```
+{
+    "port_password": {
+        "11001": "mypass",
+        "11002": "j3d1hpass",
+        "11003": "k0sh3kpass",
+        "11004": "1uxb0xpass",
+        "11005": "almpass",
+        "11006": "JREpass",
+        "11007": "m14pass",
+        "11008": "m15pass",
+        "11009": "randompass",
+        "11010": "charity"
+    },
+
+    "timeout":300,
+    "method":"chacha20-ietf-poly1305",
+    "fast_open": true
+}
+```
+
+Create `/usr/lib/systemd/system/shadowsocks-libev-manager.service` with the following:
+
+```
+[Unit]
+Description=Shadowsocks-Libev Manager Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+CapabilityBoundingSet=CAP_NET_BIND_SERVICE
+ExecStart=/usr/bin/ss-manager -c /etc/shadowsocks-libev/manager.json
+
+[Install]
+WantedBy=multi-user.target
+```
+
+```
+sudo systemctl enable shadowsocks-libev-manager.service
+sudo systemctl start shadowsocks-libev-manager.service
+```
+<<<
+
+
+Install and configured vpncloud.rs:
+
+<<<
+```
+wget https://github.com/dswd/vpncloud.rs/releases/download/v0.8.1/vpncloud_0.8.1_amd64.deb
+sudo dpkg -i vpncloud_0.8.1_amd64.deb
+rm vpncloud_0.8.1_amd64.deb
+```
+
+Where:
+
+* 10.0.0.1/24 = home.philosopher.life
+* 10.0.0.2/24 = ks.philosopher.life
+* 10.0.0.3/24 = philosopher.life
+* 10.0.0.4/24 = dimbob.philosopher.life
+* 10.0.0.5/24 = milligan
+
+Add and change the following to `/etc/vpncloud/h0p3vpn.net` (hint: change "x" in ifup):
+
+```
+peers:
+   - home.philosopher.life:3210
+   - ks.philosopher.life:3210
+   - philosopher.life:3210
+   - dimbob.philosopher.life:3210
+magic: "76706e02"
+shared_key: "foobarchangeme"
+ifup: "ifconfig $IFNAME 10.0.0.x/24 mtu 1500"
+ifdown: "ifconfig $IFNAME down"
+user: "nobody"
+group: "nobody"
+```
+
+Add the following to `/usr/lib/systemd/system/vpncloud@.service`:
+
+```
+[Unit]
+Description=VpnCloud network '%I'
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/vpncloud --config /etc/vpncloud/%i.net --daemon --log-file /var/log/vpncloud-%i.log --pid-file /run/vpncloud-%i.run
+WorkingDirectory=/etc/vpncloud
+PIDFile=/run/vpncloud-%i.run
+
+[Install]
+WantedBy=multi-user.target
+```
+
+Add the follwoing to `/etc/systemd/system/h0p3vpncloud.service`:
+
+```
+[Unit]
+Description=VpnCloud network
+Before=systemd-user-sessions.service
+
+[Service]
+Type=simple
+#ExecStart=/usr/bin/vpncloud --config /etc/vpncloud/%i.net --daemon --log-file /var/log/vpnc$
+ExecStart=/usr/bin/vpncloud --config /etc/vpncloud/h0p3vpn.net
+WorkingDirectory=/etc/vpncloud
+#PIDFile=/run/vpncloud-%i.run
+
+[Install]
+WantedBy=multi-user.target
+```
+
+```bash
+sudo systemctl enable h0p3vpncloud.service
+sudo systemctl start h0p3vpncloud.service
+```
+<<<
+
+
+

@@ -1,0 +1,60 @@
+created: 20181205054033147
+creator: h0p3
+modified: 20181219181845765
+modifier: h0p3
+tags: TWGGF
+title: 2018.12.05 - TWGCF: Singlefile Love
+
+We're in somewhat similar shoes. A cryptographically signable single html file is always my product. After two years of just working on the single-file (using browser extensions to save), I'm taking another look at splitting up my development environment from the product itself (while maintaining the ability to effortlessly switch back to my battle-tested single-file editing mode). I require my browser extensions to productively work on my wiki; Grammarly has been a very useful tool in editing my wiki (my grammar is often awful).
+
+The game changer for me is Bob's bi-directional input from .tid and browser. I'm going to be testing (and likely benchmarking) whatever methods there are for compiling the .tid files into a single file (and I'm willing to look at convoluted answers). I'm not sure if there is a simple or performant answer here, but I'm looking for one. I'd like to compile every minute for my toolchain, but I've found compilation (and decompilation) to be computationally expensive (although it's been a while since I've done it). I want to edit in my browser using a Bob server and have the single-file product automatically generated and distributed for me (with a cherry on top).
+
+This is my current insane approach (there has to be a better way!):
+
+https://philosopher.life/#Wiki%3A%20Rube-Goldberg%20Machine:%5B%5BWiki%3A%20Rube-Goldberg%20Machine%5D%5D
+
+I'll let you know how it goes if you're interested, especially if I find a clean way to have your cake and eat it too.
+
+---
+
+@ Jed
+
+Thank you for building this incredible toolset. It's badass. Among the many things it does (and you obviously know more than I do about what it can and will be used for), your tool makes Tiddlywiki a realtime GUI terminal for me, and it makes scripting outside of javascript for my wiki more worthwhile too. I suggest you have defeated some difficult race conditions.
+
+> I just realised that I haven't released a lot of what I made after I got frustrated with some things so I haven't released my tools yet. But I have made things for Bob that take a single file wiki and split it up into .tid files and multiple methods for compiling a single file wiki from Bob. But compiling .tids into a single file should be a single button click. The two main methods I have right now are a download button that gives you the current wiki as a single html file without the Bob plugin or any of the server plugins (so like the download empty button on tiddlywiki.com, but it downloads the current wiki) and one that can take tiddlers from any of the wikis served by Bob and complies them into a single html file.
+
+I will gladly click. I'll likely be running a bare minimum OS and browser with automated clicking inside a virtual machine to do it though. I just saw you had a release today. I'm excited to use it.
+
+> So using Bob to edit and have it give you a single file wiki is possible, I just never got around to publishing it.
+
+I am grateful to be able to see your previously unpublished work. Even the sketch of how you think it should be done is valuable to me. 
+
+> I don't know what you use for signing but that doesn't sound like a bad idea for distributing wikis that aren't meant to be edited.
+
+I use PyNaLC (https://github.com/pyca/pynacl). I sign the wiki every minute. Currently, the signature file is separate, but I'm going to be saving the signature inside the wiki instead soon enough (when I get to it). The script will remove the old signature, generate the new signature, and place it in. I use a script to verify (which comes with the wiki too). I can't say I'm good at this part either, but I very much want my wiki to be self-contained. 
+
+> I am dyslexic and can barely read anything on your site so I have no idea what your process is there, so I don't think I can help much with that part.
+
+I'm sorry. Perhaps I should offer an easy way to change the font to something more palatable (though, I daresay legibility improvements might not improve its readability). You have already helped with the process I have in mind! I'm re-engineering the backend of my process in virtue of Bob.
+
+@ TonyM
+
+~~> As much as we seperate save and export, I understand they are effectively the same thing. During the save process a filter is used To choose the tiddlers which ultimately saves the whole wiki. So you could build a wiki with authorship tools that generates a published wiki without those tools through the use of a custom export filter. Perhaps a username could be one of the filters or export everything except a subset.
+
+!!Saving the singlefile to singlefile works great. It probably takes about a second for me with an SSD.
+
+I'm probably thinking incorrectly here, and I'm can almost guarantee I'm doing it wrong. To my understanding, export would be useful to me insofar as I would import it into a blank TW. Export to json is fine (though not all export functions work for me; it can crash my browser). I'm hoping that export from Bob to singlefile will be as effortless as standard singlefile saving (though I've not had a chance to experience it from any nodejs application with a wiki of my size yet).
+
+Import is rough. 
+
+I exported all my tiddlers on https://philosopher.life/ to a json. I went to a blank Bob installation to import. I chewed through over 10GB of RAM in FF with Bob while importing before FF crashed. I couldn't actually fully import my wiki over the browser. I have several dozens extensions on FF though, so I tried with blank Chromium. It burns 1.3-2 full hyperthreaded physical cores on my Xeon (1 for Bob, 1 for the Browser) for ~15 minutes. I had no memory problems, but I get the "oh snap." I think when the browser dies, it kills the import process because it didn't import my full wiki either. I have 7.3k tiddlers, and I was only able to import 5.7k of them. 
+
+I think this belongs on the commandline. There is no reason to pay the browser tax if I can help it.
+
+`tiddlywiki wiki --load index.html` burns one core for 54second on my machine with my wiki. This is good.
+
+> I can think of another possible mechanisium I will share soon.
+
+I do not know enough about the process. I would be grateful for your insight into how to import and export TW between .tid files and the singlefile. Performance is key to me. I'm willing to spend a significant amount of time and resources to import/decompile the singlefile into .tids. I don't intend on doing that process often. I cannot afford for the export/compilation from .tids into the singlefile to take up a lot of resources or time since I hope to engage in that process almost realtime (every minute).~~
+
+Thank you very much. I actually did some testing in light of what you said and developed a response (it's sitting on my wiki), but now I can see that what I had to say is irrelevant with Jed's new release of Bob today. The export is clean and fast. Yay!. Yay!

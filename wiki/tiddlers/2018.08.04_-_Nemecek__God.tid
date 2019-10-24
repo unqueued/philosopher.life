@@ -1,0 +1,16 @@
+created: 20180804202609545
+creator: h0p3
+modified: 20180804224627492
+modifier: h0p3
+tags: 
+title: 2018.08.04 - Nemecek: God
+
+We talk about religion quite a bit today. 
+
+I'm working on parsing on the JSON (soon enough):
+
+`echo '{"method": "read", "params": {"options": {"channel": {"name": "adamnemecek,h0p3"}}}}' | keybase chat api >> adam.txt`
+
+I really do want to setup NPM on this fucking wiki. I want to automate these processes.
+
+Phaeton is a nice computer name.

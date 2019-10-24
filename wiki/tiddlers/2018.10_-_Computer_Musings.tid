@@ -1,0 +1,36 @@
+created: 20181102003547660
+creator: h0p3
+modified: 20181109015122338
+modifier: h0p3
+tags: [[Computer Musings]] [[Log Audit]]
+title: 2018.10 - Computer Musings
+
+!! Log:
+
+* [[2018.10.02 - Computer Musings: KS]]
+* [[2018.10.03 - Computer Musings: HTPC]]
+* [[2018.10.07 - Computer Musings: Letsencrypt]]
+* [[2018.10.09 - Computer Musings: FFFail]]
+* [[2018.10.10 - Computer Musings: Big Britches]]
+* [[2018.10.11 - Computer Musings: Bye Keybase]]
+* [[2018.10.14 - Computer Musings: Forced Restart]]
+* [[2018.10.16 - Computer Musings: DNSMasq]]
+* [[2018.10.18 - Computer Musings: Packetloss]]
+* [[2018.10.20 - Computer Musings: Signal Sanitization]]
+* [[2018.10.22 - Computer Musings: D2]]
+* [[2018.10.23 - Computer Musings: Fadi]]
+* [[2018.10.25 - Computer Musings: =(]]
+* [[2018.10.28 - Computer Musings: WoW]]
+* [[2018.10.29 - Computer Musings: Autocompletion]]
+
+!! Audit:
+
+* I think I'd actually have to try another kernel. I think that's such a pain in the ass, I'm not going to do it unless I'm forced. That sucks because I really love VMWare's performance.
+* This is the first time I've ever loved having Lutris. It worked nicely.
+* It appears bypassing my ISP's DNS servers helps me a fuckton. Packetloss is gone when I do that. 
+* I've clearly tried to get back into gaming, but it's just not catchy to me. I clearly love the wiki. =)
+* I need a new router. 
+* We had no emergencies, though there were some frustrations.
+* I presume I'm going to stop giving a shit about
+* I've been feeling the pressure in my RAM a lot lately. There's not much I can do about it at the moment. I do hope to eventually move up to 128GB of RAM on a server.
+* I've been looking at routers; I'm pretty set on OpenWRT. My previous was hacked together, and I never got to really make use of the package manager. That's really what we need.

@@ -1,0 +1,18 @@
+created: 20180111152013317
+modified: 20180111152124741
+revision: 0
+title: Script: Append to DNSMasq Whitelist
+
+Pushes (and deletes) URLs from Sites.txt to /etc/dnsmasq.conf, then restarts dnsmasq.
+
+```bash
+#!/bin/bash
+
+while read p; do
+  echo "server=/"$p"/8.8.8.8" >> /etc/dnsmasq.conf
+done <Sites.txt
+
+>Sites.txt
+
+systemctl restart dnsmasq
+```

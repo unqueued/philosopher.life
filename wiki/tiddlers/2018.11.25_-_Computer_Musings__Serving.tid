@@ -1,0 +1,157 @@
+created: 20181125160927006
+creator: h0p3
+modified: 20181126035322360
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.11.25 - Computer Musings: Serving
+
+Ugh. Github is throwing up two new errors. First, "Page build timed out." Now just build error. Getting spammed about it, which I appreciate! 
+
+There is a possibility that my wiki is simply too large for the limits they have set on their build system. That sucks. I was really getting to enjoy relying upon them to serve a single webpage for me. I enjoyed not having to handle any of the backend bullshit. I could always just lazily abuse Cloudflare (gross!). I'm not sure what I want to do at this point.
+
+Serving blank TW works. Rollback didn't. There is something different on their end.
+
+Hrm, two hours later it seems back up at least on https://m6ram.github.io/. However, I still don't see anything on https://philosopher.life/. Alright, settings for custom domain has been reset? I'm not sure what's happening. The custom domain modification appears to be on our end. We're resetting it.
+
+[[j3d1h]] has the fix; she thinks the custom domain is being overwritten by our local. She went: delete wiki-real-time directory, git clone m6ram.github.io repo, rename directory to wiki-real-time.
+
+Robots.txt and favicon added to git script.
+
+---
+
+Yikes. ATL is also throwing up errors. Logged into SSH once to reboot. After reboot, I can't even SSH into the VPS! Tried from VPS client area. Also no go. Other services are up and running.
+
+`nmap -sV -sC 167.160.87.100`
+
+Shows it's not up. What (or whom) turned off SSH?
+
+Hrmm...
+
+```
+Nov 25 19:28:15 h0p3 systemd[1]: ssh.service: Unit entered failed state.
+Nov 25 19:28:15 h0p3 systemd[1]: ssh.service: Failed with result 'exit-code'.
+Nov 25 19:28:15 h0p3 systemd[1]: ssh.service: Service hold-off time over, scheduling restart.
+Nov 25 19:28:15 h0p3 systemd[1]: Stopped OpenBSD Secure Shell server.
+Nov 25 19:28:15 h0p3 systemd[1]: ssh.service: Start request repeated too quickly.
+Nov 25 19:28:15 h0p3 systemd[1]: Failed to start OpenBSD Secure Shell server.
+Nov 25 19:28:15 h0p3 systemd[1]: ssh.service: Unit entered failed state.
+Nov 25 19:28:15 h0p3 systemd[1]: ssh.service: Failed with result 'start-limit-hit'.
+```
+
+```
+root@h0p3:/etc/ssh# sshd -t
+Missing privilege separation directory: /var/run/sshd
+```
+
+`mkdir -p /var/run/sshd`
+
+Voila.
+
+Fuck. It doesn't survive reboot.
+
+Hrmm...`mkdir -p -m0755 /var/run/sshd` is already in `/etc/init/ssh.conf`
+
+Ticket created. They say it's because I'm using a non-standard port. This doesn't even work when I switch back to 22. I could run some ugly-lazy non-fix hack to mkdir on boot and start ssh. Meh. Note, I'm still running btsync instead of resilio sync on this server though! ROFL. I think it's time to remake it.
+
+I have to renew the subscription in 6 days anyways. Cybermonday on lowendtalk is wonderful. Budgetnode has been excellent. 512mb RAM, 20GB SSD, 1TB Bandwidth, and a shitty core (throttled) for a dollar a month has been excellent for two years. It works.
+
+https://www.lowendtalk.com/discussion/153843/65-off-all-products-biggest-sale-ever-tragicservers-black-friday-cyber-monday-special
+
+OVZ - HDD - 2048 - $2.45/month
+
+* 2048MB RAM
+* 3072MB VSwap
+* 4 CPU Core
+* 100GB HDD
+* 2TB Bandwidth
+* 1 Gbps
+* 1 IPv4
+* 3 IPv6
+* Dallas
+
+Looks like that will replace Kimsufi, despite the lack of drive space. Asked about Manjaro/Arch. I am tired of Ubuntu and Debian.
+
+* https://wiki.archlinux.org/index.php/Arch_Linux_VPS#Preparing_the_Arch_build_for_use_on_an_OpenVZ_7_container
+* https://github.com/drizzt/vps2arch
+
+---
+
+USB backup made.
+
+---
+
+Attempting persistent encrypted Manjaro installation on a 64GB USB drive I've found. It ain't fast though.
+
+---
+
+Upgrading Resilio Sync. They force paused my syncs. *sigh. I do hope that a good tool will come to replace this bullshit.
+
+---
+
+I went for the TragicServer VPS. $30 a year instead of $12 now. I don't care for the OVZ6 kernel requirement, but I think I can work around it.
+
+```
+-------------------------------------------------
+ nench.sh v2018.04.14 -- https://git.io/nench.sh
+ benchmark timestamp:    2018-11-26 00:21:00 UTC
+-------------------------------------------------
+
+Processor:    Intel(R) Xeon(R) CPU           E5620  @ 2.40GHz
+CPU cores:    4
+Frequency:    2394.007 MHz
+RAM:          2.0G
+Swap:         1.0G
+Kernel:       Linux 2.6.32-042stab126.1 x86_64
+
+Disks:
+Filesystem     Type      Size Inodes
+/dev/simfs     simfs     100G    50M
+
+CPU: SHA256-hashing 500 MB
+    3.908 seconds
+CPU: bzip2-compressing 500 MB
+    8.174 seconds
+CPU: AES-encrypting 500 MB
+    1.601 seconds
+
+ioping: seek rate
+    min/avg/max/mdev = 101.4 us / 198.2 us / 34.1 ms / 715.1 us
+ioping: sequential read speed
+    generated 4.93 k requests in 5.00 s, 1.20 GiB, 986 iops, 246.6 MiB/s
+
+dd: sequential write speed
+    1st run:    153.54 MiB/s
+    2nd run:    174.52 MiB/s
+    3rd run:    257.49 MiB/s
+    average:    195.19 MiB/s
+
+IPv4 speedtests
+    your IPv4:    104.223.108.xxxx
+
+    Cachefly CDN:         66.65 MiB/s
+    Leaseweb (NL):        4.77 MiB/s
+    Softlayer DAL (US):   0.00 MiB/s
+    Online.net (FR):      6.98 MiB/s
+    OVH BHS (CA):         16.77 MiB/s
+
+IPv6 speedtests
+    your IPv6:    2607:fcd0:daaa:xxxx
+
+    Leaseweb (NL):        5.80 MiB/s
+    Softlayer DAL (US):   0.00 MiB/s
+    Online.net (FR):      3.75 MiB/s
+    OVH BHS (CA):         8.94 MiB/s
+-------------------------------------------------
+```
+
+And...same problem on this VPS. Has something to do with an upgrade.
+
+Can't chattr it.
+
+Ah, they have Debian 9 though. Otherwise, onto CentOS 7.
+
+libc6 requires a kernel I can't have, /cry.
+
+`Failed to get D-Bus connection: Connection refused` from CentOS. =/
+
+Alright, so I basically just can't upgrade. Welp. Okay.

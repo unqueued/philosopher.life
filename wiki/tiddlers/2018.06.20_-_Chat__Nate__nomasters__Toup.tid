@@ -1,0 +1,320 @@
+created: 20180620221732603
+creator: h0p3
+modified: 20180620221826472
+modifier: h0p3
+title: 2018.06.20 - Chat: Nate "nomasters" Toup
+
+11:47 AM
+h0p3
+I take it you are still digesting your first principles, I assume. I've been checking. How goes it?
+1:03 PM
+rjrbt
+ha. yeah. I think I’ve sorted out what I’ll be writing about and plan on working on it a bit today actually.
+I’ve also been in the early stages of specifying a complementary project to killcord that I’m calling handshake
+I’ll be sharing more about that pretty soon as well
+1:33 PM
+h0p3
+I look forward to it.
+rjrbt
+the idea on handshake is: what if we didn't have to do key negotiation over the wire
+what if we shared set of preshared keys, and then mutually generated a large set of preshared keys, like a One-time-pad pattern, and then from that point forward, used the generated key list (let's say 100K keys or so) so that they were never transfered over the wire and didn't use any sort of asymetric key pattern at all.
+sort of an out-of-band crypto channel.
+so, to start a chat, we'd actually have to meet in person
+and we'd using something like a QR code over screen and camera to init
+h0p3
+So, it's slightly less secure than a one-time pad?
+rjrbt
+So, OTP has the true randomness problem
+yes
+rjrbt
+My initial implementation would use something like secret_box, salsa20+poly1305
+the nonce on the first block would be the lookup key for both alice and bob
+so nonce and key are unique to each message
+h0p3
+good
+rjrbt
+also... this would be my second IPFS project
+which I'm excited about
+h0p3
+Yes. I am hoping that project evolves into a core of how we use the internet.
+I've been thinking about your preference for IPFS because of its immutability. To my eyes, their mutable torrents is precisely what's powerful about it.
+rjrbt
+and this would be using IPNS, which is a new thing to me
+h0p3
+good
+rjrbt
+it allows you to "tag" an IPFS entry
+so BOB and ALICE each have their own IPNS
+to an outside observer, there is no connection between the two
+on the initial "handshake", you exchange your first keys, BOB shares how to generate his 100K key set, and ALICE shares how to generate her 100K key set, they also share the IPNS endpoints to one another
+then... BOB creates a message which uses his first KEY, inside of the encrypted payload each message references the "parent" message.
+so the init won't have a parent, obviously
+and outside obversers can't reconstruct the chain easily either, but between both chat users, the LATEST message points to its parent, so you can pick up where ever you leave off and reconstruct the message history back to the last message you read
+Parent IPFS hash, time stamp, and message all exist inside of the encrypted payload. And since that is hashed by IPFS, you get some nice guarantees
+h0p3
+what is the fundamental problem you take yourself to be solving with this tool?
+forgive my ignorance, I will think carefully about it
+not at all, I like to call these my "cyberpunk vanity projects"
+h0p3
+ha =)
+yeah, but I take them seriously still
+rjrbt
+They are really about questioning fundamental assumptions and seeing if tools can be built around certain promises
+in the case of handshake, it side setps PKI, so it also side steps quantum computing threats
+h0p3
+yes
+perhaps
+I think a lot rides on how you generate that one-time pad
+rjrbt
+Yes, I've been thinking about that a lot
+Because something has to go over the wire
+h0p3
+At first, I thought you were really thinking about "in person," and you weren't trusting current symmetric crypto at all.
+rjrbt
+My thought was to generate 100k unique blobs of data. Bob sends these to Alice in an encrypted payload with one of the genisis keys
+h0p3
+I take it that you are most worried about asymmetric.
+rjrbt
+and they both use a hashing tool like sha3 to take those blobs + another unique key to generate the hashes on both sides
+h0p3
+that curve25519 might be broken already by quantum boxes we don't know about, and post-quantum is a clusterfuck that nobody has an answer to yet
+is that what you are worried about?
+yep.
+h0p3
+I think you need an expert.
+rjrbt
+oh, for sure!
+I'm not telling anyone to rely on this with their lives. Its an experiment.
+h0p3
+You want to start with a one-time pad and pseudorandomly grow it, or something like that, right?
+rjrbt
+I would love to be ripped a new one with a crypto audit 😂
+h0p3
+of course, that is legitimacy
+rjrbt
+so no. There is an initial generation, with a hard stop, new secrets never get generated over the message chain
+that is a non-starter
+h0p3
+but, new secrets are fundamentally the result of the initial handshake, the initial one-time-pad
+rjrbt
+so yes, you and I meet in person and our phones visually exchange 5 keys or so (this is a guess)
+You generate a set of data blobs, and I generate a set of data blobs and we pass those back and forth with one of those initial keys
+then we pick another from that initial set, mutually, and use that key + our blobs to generate hashes on our own systems
+this means that a the key used to generate the hashes never went over the wire
+if you were able to somehow bruteforce the initial blob share, you'd get those, and you'd still have to try to figure out a 256 bit key used to create all the other keys from something like a sha3
+h0p3
+that sounds like growing a one-time-pad to me, perhaps in a cryptographically secure way
+you and I deterministically generate session keys given our initial one-time-pad
+rjrbt
+haha. well, yes, it is, but it happens before an IPFS message traking begins
+its a one time thing
+h0p3
+alright, so we agree with this works in person, now we move onto IPFS
+rjrbt
+(this is great, btw)
+What do you think you have accomplished on IPFS? Say that for me first (I'm sorry, I know it seems pedantic of me to ask), please.
+My worry is that you are leaking metadata through joining IFPS swarms
+rjrbt
+no centralized backend server
+h0p3
+a man after my own heart
+rjrbt
+yes, if you are worried about that, you'd have to proxy, for sure
+so, if you hit that IPNS endpoint, youd see a json document that stated protocol information and an encoded message
+h0p3
+How does BoB share the endpoint with Alice?
+rjrbt
+the protocol info would simply state you know : algo: secret_box, chunksize: 16000, or whatever
+h0p3
+Are you forced to trust curve25519 at any point?
+rjrbt
+so... there is one thing I haven't taken a super close look at, which could make this fall apart: how IPNS is associated with a new IPFS HASH
+EDITED
+I know it is related to your .ipfs key and identity
+I doubt they use curve25519
+h0p3
+what cryptographic primitives are you trusting implicitly?
+rjrbt
+for this initial PoC: secret_box and I haven't decided on the hashing algorith for mutual key generation, looking at sha3 and blake2
+h0p3
+alright, I see it.
+I'm having to lookup how quantum computing is thought to affect Salsa20
+If I think curve25519 is broken, then I should ask if that is enough quantum compute power to have a say in weakening Salsa20
+to some sufficient extent*
+are you sure my worry here is irrelevant? I admit, my understanding of crypto is very poor.
+rjrbt
+so, one fascinating thing about hashing algorithms is they don't rely on large primes and aren't suseptable to Shor's equasion
+h0p3
+yes
+Grover's is our concern, right?
+One thing I like about truecrypt, in it's paranoia, is the ability to select multiple symmetric ciphers.
+rjrbt
+totally
+yeah, I haven't sorted that part out yet, it would be neat to use sha3(sha2(BLOB+KEY+NONCE))
+h0p3
+with blob generated by Argon2 password, or something like that?
+Serpent-Twofish-AES is 300MB/s encryption and decryption for me.  If you want to simulate a one-time pad using current cryptographic primitives and distribute the risk across them all, you can still get reasonable performance. Moore's law may be dead, but this is multi-threaded, and you can expect machines to be able to do the work.
+rjrbt
+Yeah, I was going to rely on the OS implimentation of rand, most likely for initial implimentation 
+h0p3
+use at least Salsa20 and AES, imho
+rjrbt
+this will probably be written in go, so it would be the crytpo/rand lib
+well, the blob is guaranteed unique, which is the most important part
+so is the nonce
+h0p3
+makes sense
+rjrbt
+but this is great.
+and I want to write this all to be able to have drop-in replacements
+h0p3
+I only ask about Argon2 because it enables me to rebuild my cryptographic identity from scratch with zero files in some cases.
+makes sense
+rjrbt
+the POC is really, "is this even viable", then we can sort out how well each step can be built (if my initial assumptions are flawed)
+h0p3
+yes, that is pragmatic
+overall the project is nicely paranoic, especially pushed through Tor/i2p/etc. 
+rjrbt
+oh neat! Argon2 uses Blake2
+yeah, I've been leaning towards blake2 overall, this is interesting
+h0p3
+I have something I'm trying to say, but I lack the technical skills to say it cleanly or envision it properly. I call it Outopos, which I hope to be a cryptographic implementation of game-theoretically expressed version of The Original Position (the morally justified Kantian political algorithm). I would like you to consider thinking about the problem with me. 
+rjrbt
+sure
+h0p3
+The goal is exchange computing resources with each other in Tit-for-Two-Tats (with adjustable knobs for how forgiving we are, but at least to some minimum) to cooperatively defeat iterated prisoner's dilemmas. 
+The goal is to build a mesh network by the people, for the people, using morally sound game-theoretic reasoning.
+It is meant to be an implementation of the golden rule.
+On this mesh network, we acquire many digital human rights. The most important of which is the ability to vote.
+I want to build a Quadratic Ranged Voting system to maximize actual democracy in the world, and make sure the infrastructure is owned entirely by the people. The means of production must be in the hands of the entire population. We must decentralize political power, and we need a cryprographically sound network apparatus to ensure the possibility of it.
+It might be called a blockchain, but the token of value on this network is not some coin that is mined esoterically.
+The coin we mine for is literally the trust gained in trading computational resources with each other.
+rjrbt
+fascinating
+h0p3
+It's building digital relationships with each other in a game-theoretically sound way. To automate it enables automated trust.
+rjrbt
+yeah, I hadn't thought about this as deeply as you, but I had wondered about how something like workers collectives could incluence a blockchain like setup
+There is a big debate in the blockchain world over Proof of work vs Proof of Stake
+h0p3
+yes
+rjrbt
+but it would be super interesting if the stake was some sort of golden run thing
+h0p3
+This is proof of work that matters
+*that's not to say other proofs don't. Ethereum does do something incredible, obviously.
+Anyways, just put it in your pocket for me. It might strike you. You might see the vision better than I could. If you do, please let me know what you see.
+rjrbt
+totally. I think this is super cool
+h0p3
+I have been engrossed in Ithkuil for the past day.
+It is very interesting too.
+I see it as pointing to contenders for human-learnable artificial languages which are been constructed to be maximally expressive to or interpretatable by powerful computers. 
+It's a hyper precise language, which the linguist (worked on it for 30 years) did not intend to actually be used. It appears he is in the process remaking it to be learnable.
+I'm considering the possibility that I might be able to learn this language, translate my wiki, and feed it to a computer to eventually talk to myself, to have a digital representative of me to vote on this Outopos blockchain.
+I know this all sounds insane.
+I apologize for that.
+it could just be science fiction, but it has been interesting to think about
+rjrbt
+that is fascinating
+h0p3
+I have a dumb crypto question.
+rjrbt
+go for it.
+h0p3
+So, your initial discussion of the 100k keys reminded me of something I was talking to my daughter about. We had this dumb idea of building a giant keychain of parent keys which enabled revokeable keys. I've seen this used, I believe, in Resilio Sync (for 3 keys rings). What, if any (because we may have no idea what we are talking about) use would their be for having a 100k revokable keychain?
+Also, completely separate question I've been meaning to ask: I'm trying to find the others that appear interested in what we are engaged in right now (I'm very much enjoying speaking with you; this is what friendship is often about to me). Do you know of other bloggers you respect who are doing the kind of work that (I'd argue) both you and I are engaged in? I'm trying to gain perspective and continue to meet people engaged in comptemplative living.
+rjrbt
+on handshake, I needed to generate a relatively large key set early on because its possible that Bob and Alice wouldn't have proximity in the future and I wanted them to be able to talk
+h0p3
+indeed
+rjrbt
+so, unless that is a constraint, I'd say just keep the smallest number of keys you need and generate more later
+on the other question: I don't have an answer for you, maybe it would be fun to start a keybase group or something
+h0p3
+well, if I understand correctly, you can only generate the amount at the beginning. You can only revoke so many times. You fundamentally can't know the parent of the root key.
+rjrbt
+I fly solo and keep chats with just a small group of friends, so this is a bit out of my expertise on cultivating a community
+aye, me too
+I don't think this is of use to your project. I'm just curious about it.
+rjrbt
+yeah, that's fascinating
+I mean, if storage isn't a constraint, I don't see why not
+h0p3
+might not have to store it, you could just recompute it
+rjrbt
+true
+h0p3
+random IRL question; I did some programming many years ago for an insurance company (fled when I figured out what we were doing was evil). Because of my preference for being home with my children, I'm considering work other than pipefitting and electrician jobs (tradeskills often require me to be away from my family). I would like to look into doing remote work. I don't need to make more than $20k/year, although I would like to make more obviously. I'm not saying I have what it takes to enter into some kind of remote programming work, what are the best paths I could take?
+I ask because you are obviously successful at it.
+rjrbt
+that's a solid question. I think I can point you in the right direction, so much of it is getting folks to trust your input which is a softskill that goes with your programming skills, but I still think I can weigh in on that as well.
+So, a couple of things: code has eaten the world, so specialization is pretty broad, I'd recommend finding a direction that allows you to solve problems you are interested in (and deeply interested would be a bonus too) 
+h0p3
+my specialization would be whatever I can learn on my own and maximizes my odds of finding work, imho.
+rjrbt
+So the cool part is that between youtube, blogs, and even paid-for services like udemy, there are LOTS of options
+h0p3
+aye
+rjrbt
+I'd definitely pick a specialization though.
+If design is your thing, you'll naturally gravitate to things like javascript and use tools like react and even wordpress
+if you'd rather focus on data, there are data analytics jobs out there where businesses need to understand the data that is going on in their business
+Personally, my focus is "site reliability" and "well architected systems"
+h0p3
+what tools and languages do you use the most?
+rjrbt
+meaning I spend a lot of time thinking about how other programmers are going to structure their work and how we make that work valuable to the folks paying the bills
+so for clients: go and python
+but I don't do "front end" work hardly at all.
+h0p3
+I'm not a front end kind of guy
+rjrbt
+I also spend a decent amount of time in AWS configuring stuff with tools like terraform
+h0p3
+I prefer Rust, Go, Python, and Bash
+rjrbt
+Rust is on my list of languages I'd love to dive into one day
+h0p3
+I like NixOS and virtualization a lot too
+Rust is exceptionally difficult to learn, but I like it more than C.
+rjrbt
+So yeah, I've done well for myself worrying about where infrastructure meets code
+and I end up automating myself out of the infrastructure work pretty quickly and get to move on to other cool stuff
+h0p3
+I probably also lack the softskills entirely
+I can survive in a world where I don't have constantly form accurate theories of mind. My autism places limits on me.
+I assume you aren't just technically competent, which plays a profound role in generating truth with others, giving them reasons to listen to you. I take it you have some social skills I fundamentally can't have because you may better significantly better at modeling other people's minds with your right temporoparietal junction.
+anyways, I appreciate your explanation and advice
+I will think more about it.
+rjrbt
+Yeah. I think security and network related work would be a good fit for you
+Your brain is able to explore the fundamentals well and getting the expertise behind your name is a big deal
+plus... your mystic would work well in the OpsSec and InfoSec type communities
+One nice way to get a jump on things is to get certifications under your belt
+3:51 PM
+h0p3
+I've been looking into certs. That is probably step 1 for me. If I successfully cross those bridges, then I get my foot in the door.
+rjrbt
+Screenshot 2018-06-20 13.52.47.png
+
+h0p3
+redhat certs or pentesting was my thinking
+rjrbt
+you can't go wrong with AWS if you are looking for a solid foundation
+h0p3
+something I did not consider
+rjrbt
+I have all three associate certs
+I"m actually working on my AWS Solutions Architect Professional now
+they have a bunch of free digital stuff too
+https://aws.amazon.com/training/course-descriptions/
+its very transferable and has a lot of good security and network best practices built in
+h0p3
+that is a good idea, thank you
+That's what I'm going to look into.
+rjrbt
+and all the cool stuff is linux and SSH :)
+h0p3
+yay =)

@@ -1,0 +1,8 @@
+created: 20180812045313527
+creator: h0p3
+modified: 20180812045643862
+modifier: h0p3
+title: 2018.08.11 - Computers Musings: Linecount
+
+`wc -l <filename>` for linecount of file
+

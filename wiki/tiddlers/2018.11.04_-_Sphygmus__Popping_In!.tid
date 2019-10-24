@@ -1,0 +1,25 @@
+created: 20181104062013871
+creator: h0p3
+modified: 20181104145418699
+modifier: h0p3
+tags: Sphygmus Note From
+title: 2018.11.04 - Sphygmus: Popping In!
+
+hey h0p3,
+
+quick note - feels like it's been forever! I'm like halfway through composing two different letters to you - I'll get to the finish line here sometime.
+
+still keeping up with your wiki audit; it's awesome to see the moves you're making with the automation. I'm curious about how your opinion on the automation vs. hard coding will shake out, say, a year from now.
+
+the last half of october was slow for me in my wiki - multiple retroactive carpe diems and several wiki reviews encompassing 2+ days...but going through my monthly audit has spurred a mini explosion again, especially in the realm of logs and organization.
+
+anyway, still in the middle of my monthly audit, I realized exactly why you use a fixed sidebar - it was becoming increasingly frustrating to work with multiple tiddlers and not having the sidebar there. SO! I finally dove into the flexbox fixed sidebar problem today and came up with a satisfying (for me) solution. I also tested it by importing it into your wiki, so I definitely hope it's something you'll be able to make use of!
+
+(I noted your comment about flexbox in your wiki audit for october - I decided that gave me free rein to do as much fiddling as I liked to solve this problem on my own!)
+
+Just import this: [[https://sphygm.us/#%24%3A%2Fplugins%2Fsphygmus%2Fcore%2Fstylesheet%2Fflex4h0p3]], tag it as a stylesheet, and make sure you have the percentages and breakpoints deleted from your settings and everything, knock on wood, should be working.
+
+Technical stuff: I tried to comment most of the values that weren't immediately obvious. Not everything in there is essential to the flexbox layout - I've noticed your ASCII `<pre>` blocks (eg. on [[Sphygmus]]) have been looking quite wonky lately, so there's some CSS messing with `<pre>` in there. After the fact I realized it probably had something to do with the TiddlyWiki "line breaks in code blocks" setting, so I'm sure my code conflicts with that somewhere but I haven't gone in to look at that yet. If nothing else you could just delete all the things touching `<pre>`. The other rather subjective thing in the code is the width and padding of various elements - I think you're a little less particular than I am in this regard? - but they should be easy to change however you like in the code.
+
+okay, I've got to go! all the best,
+sphygmus

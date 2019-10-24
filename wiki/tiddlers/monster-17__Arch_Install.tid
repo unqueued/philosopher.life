@@ -1,0 +1,121 @@
+created: 20190802021805403
+modified: 20190802052900703
+tags: monster-17
+title: monster-17: Arch Install
+
+```bash
+# Go, go, go! =)
+timedatectl set-ntp true
+cfdisk
+```
+
+* GPT
+* 512M `EFI System`
+* 16GB `Linux swap`
+* 40GB `Linux root (x86_64)`
+* Remaining in `Linux home`
+* Write, yes, quit
+
+```bash
+# Cannot even fat
+pacman -Syy dosfstools
+
+# Format & Mounts
+mkfs.fat -F32 /dev/sda1
+mkfs.ext4 /dev/sda3
+mkfs.ext4 /dev/sda4
+mkswap /dev/sda2
+swapon /dev/sda2
+mount /dev/sda3 /mnt
+mkdir /mnt/boot
+mkdir /mnt/home
+mount /dev/sda1 /mnt/boot
+mount /dev/sda4 /mnt/home
+
+# Base Install
+pacstrap /mnt base base-devel
+genfstab -U /mnt >> /mnt/etc/fstab
+
+# User
+modprobe efivarfs #for grub
+arch-chroot /mnt
+passwd
+
+# Time & Language
+ln -sf /usr/share/America/New_York /etc/localtime
+hwclock --systohc
+sed -i '/en_US.UTF-8 UTF-8/s/^#//g' /etc/locale.gen # or just uncomment by hand
+sed -i '/en_US ISO-8859-1/s/^#//g' /etc/locale.gen
+locale-gen
+
+# Networking
+pacman -S wpa_supplicant dialog --noconfirm
+echo "monster-17" > /etc/hostname
+echo "127.0.0.1 localhost" > /etc/hosts
+echo "::1       localhost" > /etc/hosts
+echo "127.0.1.1 monster-17.localdomain monster-17" > /etc/hosts
+systemctl enable dhcpcd
+
+# Bootloader, headers, and LTS kernel
+pacman -S intel-ucode efibootmgr grub --noconfirm
+grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
+grub-mkconfig -o /boot/grub/grub.cfg
+pacman -S linux-lts linux-headers linux-lts-headers --noconfirm
+grub-mkconfig -o /boot/grub/grub.cfg
+exit
+reboot
+```
+
+<<<
+Login as root. Your blade is born; go forth and kick ass.
+<<<
+
+```bash
+timedatectl set-timezone America/New_York
+timedatectl set-ntp true
+# Make a h0p3
+useradd -m -G wheel h0p3
+passwd h0p3
+visudo
+```
+
+
+
+
+!! POST I3
+
+
+```bash
+# EZ Wireless
+yay -S wpa-cute --noconfirm
+
+sudo nvim /etc/wpa_supplicant/wpa_supplicant-wlp3s0.conf # Add the following:
+```
+
+<<<
+```
+ctrl_interface=/run/wpa_supplicant
+ctrl_interface_group=wheel
+update_config=1
+```
+<<<
+
+```bash
+sudo nvim /etc/systemd/network/wlp3s0.network # Add the following:
+```
+
+<<<
+```
+[Match]
+Name=wlp3s0
+
+[Network]
+DHCP=ipv4
+```
+<<<
+
+```bash
+sudo systemctl enable --now systemd-networkd.service
+sudo systemctl enable --now wpa_supplicant@wlp3s0.service
+sudo wpa-cute # Configure on "Lord of the Files" SSID, connect, ping to check, then save the configuration, reboot to check it persists
+```

@@ -1,0 +1,52 @@
+created: 20171106213430982
+modified: 20181220225106505
+revision: 0
+tags: Outopos
+title: 2017.11.06 - Outopos: Build a VMed OS
+
+Why reinvent the wheel? You want to be able to just change parts, rebuild it. You can build an application in a standard programming language, or you can build a complete machine that does it well. I can build machines that do what I want them to do, and I can do it without having to spend a shit ton of time on the nitty gritty (except where I need to). The best programmers are those who program the computer as a whole, from the firmware, to the hardware, to software, and everything in between. 
+
+VMs are going to take over the world. Linux will continue to be godly in this realm. Extremely lightweight VMs are the way to go. I'm building this the wrong way. I should build the VM environment, but more importantly, I need to build it that GUI's can just work on top of it. 
+
+Why learn to program in a multi-threaded way when I can just combine multi-threaded tools. The performance is of course, quite useful. Make it crazy simple.
+
+Build it on Ubuntu. It's going to go everywhere. It will be designed for this. Right? Or...no?
+
+Even mobile devices will soon be able to handle VMs. Build VMs as the command line layer, and build QT and Browser-based UI's (preferably combine them?) 
+
+Installation scripts need to make OSes automatically share files with the VM. 
+
+Think of this as building the ultimate piracy OS. We've thought about this before, but it seems the best option in the long-term. 
+
+You can use other people's very complex tools and put them together. You should. You can build systems that do that. You can script the toolchain together. Build tools without building them from scratch. You already know your usecases, threat models, and needs. 
+
+This is a real project. 
+
+---
+
+I've pointed to this many times: 
+
+* [[DjinniOS (ˈGeniusˈ)]]
+* [[2017.03.24 - Injecting Fully Decentralized Networks Into Capitalist Political Systems]]
+
+I was trying to preoptimize by writing it in Golang instead of using the tools I had.
+
+Virtual Machines are the new binary executables.
+
+This is the next step in software resource usage inflation.
+
+Need a portable VM emulator.
+
+This seems like a classic anti-pattern mistake: Inner-platform effect. But, we need to just bite the bullet. The fact is that the Inner-platform effect simplifies, generates safety, and enhances adoption rates. In a world where computing becomes cheaper and cheaper, we should be the first to abuse that tragedy of the commons, to make incredibly inefficient software bundles. Remember: preoptimization is the root of all evil. Stop worrying about the lack of optimality here. Just build the thing you really want, and continue to work on it. In time, it may be greatly improved or even replaced, if it is successful enough.
+
+You either write in C or maybe Go/Rust/C++, or some other incredibly portable low-level language, and you do everything from scratch, or you avoid it by going big, by building full OS environments for people that do it all. Go jack-of-all-trades, master of none, until you absolutely must specialize for improvements. 
+
+Now, we could just install software bundles on people's computers, but this is scary to them. You also can't count on the environments. You have to isolate this into a VM. Yes, POSIX your way through this, but do it with as few permissions, user inputs, and visually installed software ecosystems on the user's hostOS as possible. 
+
+Yes, this is going to be called lazy. But, it will run on fucking anything. You'll build a linux system that runs in VM for others, but anyone who wanted to literally just copy and paste the distro you will maintain. It's a distribution designed for VMs, but that can easily expand to a regular distribution. This is why you want to stick to mainstream distros. 
+
+Maintain a distribution that fits in all container and VM models!
+
+If you are smart, you build a software package that works on any distribution. It's a hop skip away from just being your own distro then. It would be nice, then, to make this as easy to reproduce as possible.
+
+* Handles Feature Creep beautifully. It's designed to.

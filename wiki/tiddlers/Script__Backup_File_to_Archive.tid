@@ -1,0 +1,28 @@
+created: 20170218021547899
+modified: 20171130182025063
+revision: 0
+title: Script: Backup File to Archive
+
+```bash
+#!/bin/bash
+
+# Fuck you, crontab!
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:~/bin
+
+# logfile timestamp
+date +"%Y.%m.%d-%T"
+
+### Backup of your.file
+
+# Vars
+TIME=`date +20%y.%m.%d`
+FILENAME=$TIME-h0p3.wiki-index.html
+SRCDIR=/foo/bar       
+DESDIR=/stuff/things
+
+# Copy and compress
+cp -f $SRCDIR/your.file $DESDIR/$FILENAME
+cd $DESDIR
+bzip2 -f -9 $FILENAME
+
+```

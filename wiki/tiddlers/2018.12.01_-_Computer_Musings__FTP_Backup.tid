@@ -1,0 +1,34 @@
+created: 20181201184642810
+creator: h0p3
+modified: 20181201224941734
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.12.01 - Computer Musings: FTP Backup
+
+I like to have backups. I want to be able to recover from catastrophic failures. Currently, [[m10]]:/home/h0p3 is backed up to HTPC, dimbob, and KS. I will be dropping Kimsufi after these many years. I'd like one more offsite. I picked up this very odd shared-hosting plan for $.49 a year for FTP access. I'm still considering picking up jailed SSH access for $2 a year. I am concerned that they will not allow me to use up that much CPU and RAM though. In my experience, nobody intends you to run heavy usage software inside these jails.
+
+The other solid option is duplicity or some other rsync based option. Encrypted incremental backups would be nice. I wish they were compressed though. Hard to beat the resilio sync option. Being able to reproduce m10's home from anywhere with just a key is nice.
+
+FTP is wildly easier and they aren't going to tell me to stop; there's no fucking around with the jail either. Hrmm.
+
+Picking up the SSH anyways. Even if this is a scam, I'm interested. Funnily enough, I have cronjob access, and I could eke out control with that. I think I'd rather play it safe though and just official SSH jail instead.
+
+---
+
+~350mb memory usage from hypercored on dallas, ~70mb here on my VMed arch install, and...I can't even touch dimbob. What's up? Why did I lose access? Asking my bro.
+
+---
+
+Cleanup some sync archiving and settings on dallas. It's burning so much. Good news is it can download as much as I can. It's just upload that counts against me.
+
+Setting to just a week. I don't have a ton of space.
+
+---
+
+`(curl -s wget.racing/nench.sh | bash; curl -s wget.racing/nench.sh | bash) 2>&1 | tee nench.log` is still amazing on Dallas compared to KS too. Download speeds are almost gigabit to some datacenters. $2.50 a month cannot be beat overall.
+
+---
+
+Perhaps I should consider the storage-based VPSes. If I could mount them and then software RAID 0 across them with Dallas, I'd be able to build a sick fucking seedbox. I would like to snowball all the content off myanonyamouse.
+
+I dream of a day when SSD storage wipes HDD's off the map. In fact, time to edit {[[Dreams]]}. 

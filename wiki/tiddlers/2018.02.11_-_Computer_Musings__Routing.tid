@@ -1,0 +1,24 @@
+created: 20180211232816581
+modified: 20181029175224779
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.02.11 - Computer Musings: Routing
+
+Setting up [[Open Ports]] for port forwarding.
+
+---
+
+upnpc on RPi may actually be doing the wrong thing. At least one thing is wrong; it is setting port forwarding to 192.168.0.2 instead of 12!!!! WTF!
+
+
+---
+
+Worked on remote control of my phone. It's still not there yet. None of the VNC abilities are even remotely decent.
+
+---
+
+FUUUUU. Deluge is hitting "1200%" CPU usage on the Atom N2800...Lol. Again. This wasn't me. I've disabled the autoremove plugin. I'll manage it by hand now. I don't understand why.
+
+---
+
+Posted to linuxquestions about a replacement for "Everything"

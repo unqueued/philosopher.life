@@ -1,0 +1,21 @@
+created: 20190617164006357
+modified: 20190617171243817
+tags: [[Computer Musings]]
+title: 2019.06.17 - Computer Musings: Tabs
+
+Ungrateful and as entitled as ever, as usual.
+
+FF is always bloated, and I make it a lot worse with the number of addons I use. I must be retarded because I can't get it working the way I want. I really want tree tabs to work, but it does not close out tabs correctly for me in all cases (and I have no idea why). I can't afford to lose trees because it doesn't handle tab closing correctly. Tab (and perhaps container) tools don't always play nicely together, and that sucks. I'm not going to lose the other tools just to pickup treetab, especially not the discarding and autoloading of tabs. 
+
+My browsers are usually a mess (and I want to puke when I see my offspring's; how many times must I tell them to start new browser windows for new tasks?)
+
+I don't understand why this is left to addons; it seems like a fundamental feature of the browser itself. I'm surprised this isn't solved (maybe others just don't run into this problem enough), or at least there are sane, high-performance defaults. What does that look like?
+
+* All tabs/trees/containers should have regular snapshots, and I want to be able to step through their histories with less effort at various levels. I want to rollback time more effectively than I have been able to so far.
+* Per Window and All Window Search and Organization Functions
+** I'll have between 3 and 10 FFDE windows open in my web workspace, my wiki workspace has at least FF and Chromium, and other workspaces will have random browsers open for various reasons. Sometimes I want to search or move tabs within my window, and sometimes across of all them in FFDE. 
+* Trees
+** I want to clump trees together in a single window. I want to prune, graft, and have working rules for how to govern my trees. It's a valuable spot for containerization too.
+** I need to be able to pass trees across windows effortlessly.
+** Unless a rule states otherwise, I want tabs not within my current proximity in a tree to be discarded aggressively (and/or MLed prediction of what tabs I want to stay open). Memory is expensive. I should haven't to blow 8GB on a browser.
+** Smart tab autoloading. Anticipate my stepping through the tree.

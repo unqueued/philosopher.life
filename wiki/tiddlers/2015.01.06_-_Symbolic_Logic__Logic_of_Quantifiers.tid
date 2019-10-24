@@ -1,0 +1,1188 @@
+created: 20180705005349096
+creator: h0p3
+modified: 20181031035931171
+modifier: h0p3
+tags: Tulane
+title: 2015.01.06 - Symbolic Logic: Logic of Quantifiers
+
+27
+
+
+We now have all the basics we need for first-order logic, logic that you get once you throw in the quantifiers with sentential logic.
+
+
+
+Why is it called first-order logic? In FOL, domains are only allowed to hold objects. You can quantify over objects, but you can’t quantify over a property, for example, redness. A higher-order logic could quantify over a property, but not FOL. FOL is only allowed to quantify over objects.
+
+
+
+This chapter covers the answers to two questions:
+
+    What quantified sentences are logical truths?
+
+    What arguments involving quantification are valid?
+
+Tautological and Logical Relationships in Quantification: If you recall, not all cases of logical consequence are cases of tautological consequence.
+
+
+
+P is a tautological consequence of P ∧ Q
+
+
+
+This is because P is true whenever P ∧ Q is true on a truth table. Recall that all tautological relationships are logical, but not all logical relationships are tautological.
+
+
+
+Larger(a,b) is a logical consequence of Smaller(b, a)
+
+
+
+This is because Larger(a, b) is true whenever Smaller(b, a) is true. However, it is not a tautological consequence because Larger(a, b) is not true whenever Smaller(b, a) is true on a truth table. Essentially, some of the truth-value worlds represented on the truth table aren’t logically possible worlds due to the meanings of predicates.
+
+
+
+The difference between these two examples is that the first relies upon the meanings of the truth-functional connective, while the latter relies upon the meanings of the predicates. This differences in how validity and consequence operate between sentences which rely upon truth-functional connectives and those relying upon predicates also arises in quantification.
+
+
+
+|∀x Cube(x)
+
+|∀x Small(x)
+
+|∀x (Cube(x) ∧ Small(x))
+
+
+
+This argument is valid. Everything is a cube; everything is small; therefore, everything is a small cube. The validity of the argument depends on the meaning of the universal quantifier ∀, and not just on the meaning of the connective ∧.
+
+
+
+Importantly, the validity of this example cannot rely upon the meaning of the ∧ connective because, if it did, then we could substitute the quantifiers and come up with another valid argument. We can do this kind of substitution in propositional logic to demonstrate:
+
+
+
+| ∃x Cube(x)
+
+| ∃x Small(x)
+
+| ∃x (Cube(x) ∧ Small(x))
+
+This substitution of quantifiers does not result in a valid argument. Something is a cube; something is small; therefore, something is a small cube. Obviously, the premises could be true and the conclusion false in some world, thus this isn’t valid. Further, it is clear that validity of the first argument, with universal quantifiers, is only valid in virtue of the quantifiers, not the conjunction.
+
+
+
+Similar to logical consequence and validity, not all logical truths are tautologies.
+
+
+
+Cube(a) = Cube(a)
+
+
+
+It is true in every possible world, thus it is a logical truth, but it is not a tautology. There is a row where it is false on the truth table, unlike the truth table for P ∨ ¬P.
+
+
+
+∃x Cube(x) ∨ ∃x ¬Cube(x)
+
+
+
+This sentence says: something is a cube or something is not a cube. Every world has at least one object, and this sentence is true in any non-empty domain. A world either has a cube in it or doesn’t, which would make this sentence true in every possible world. Is it a tautology or logical truth? If it is a tautology, then the meanings of the quantifiers won’t matter. Let’s substitute the existential quantifiers with universal:
+
+
+
+∀x Cube(x) ∨ ∀x ¬Cube(x)
+
+
+
+This sentence says: everything is a cube or everything is a not cube. That sentence is clearly falsifiable; our world is a counterexample to it. Thus, the reason the previous sentence isn’t a tautology is because the reason it is necessarily true relies upon the meaning of the quantifier rather than the truth-functional connectives. However, this is a tautology:
+
+
+
+∀x Cube(x) ∨ ¬∀x Cube(x)
+
+P ∨ ¬ P
+
+
+
+This sentence says: everything is a cube or not everything is a cube. This sentence is a tautology. It shares the same truth-functional form as P ∨ ¬P.
+
+
+
+
+
+Truth-Functional Form: To be able to decide whether an FOL sentence that contains quantifiers is a tautology, we need to develop the notion of a sentence’s truth-functional form.
+
+
+
+The truth-functional form of a sentence is basically what Boole sees when it looks at the sentence. It’s the structure that the sentence can be seen to have when all of its constituent quantified sentences are treated as if they were atomic. We don’t “look inside” the general sentences—we just uniformly replace them with letters. We then replace any remaining atomic sentences with letters. There are two constituent general sentences here:
+
+
+
+∀x Tet(x) → ¬∃y (Cube(y) ∧ ¬FrontOf(b, y) ∧ Dodec(b))
+
+A → ¬ B
+
+
+
+So we replace the first general sentence with A and the second with B. The only remaining parts of the sentence are the connectives ¬ and →. So the truth-functional form of the sentence is:
+
+
+
+A → ¬B
+
+
+
+Another way to put this is to say that from the perspective of truth-functional logic, this sentence is a conditional whose consequent is a negation. This is all Boole sees when it looks at this sentence. This sentence is TT-Possible, and since this is the truth-functional form of our quantified sentence, then the quantified sentence is also TT-Possible.
+
+
+
+Truth-Functional Form Algorithm - Our book, pg 263, provides an algorithm/procedure for converting any FOL sentence into its truth-functional form. Here’s a slightly different way of carrying out the procedure:
+
+
+
+If the sentence contains any quantifiers, start with those of largest scope. For each such quantifier, underline its entire scope (this will include the quantifier itself). Any quantifiers, connectives, or atomic sentences that are included in this scope should be ignored. Once all the quantified sentences have been underlined, underline any remaining atomic sentences, with each atomic sentence being separately underlined. Next, attach a sentence letter (i.e., a capital letter) to each underline, starting from the left and proceeding alphabetically. If any sentence is repeated, it should be given the same sentence letter each time.
+
+
+
+Finally, after all the underlines have been assigned sentence letters, replace each underlined sentence with its corresponding letter, and keep any remaining connectives that have not been underlined. The result is the truth-functional form of the original sentence.
+
+
+
+∃x Tet(x) →(¬∃y (Cube(y) ∧ ¬FrontOf(y, b)) → ∃x Tet(x))
+
+
+
+Underline:
+
+
+
+∃x Tet(x) →(¬∃y (Cube(y) ∧ ¬FrontOf(y, b)) → ∃x Tet(x))
+
+
+
+Attach sentence letters:
+
+
+
+∃x Tet(x) →(¬∃y (Cube(y) ∧ ¬FrontOf(y, b)) → ∃x Tet(x))
+
+A ¬ B A
+
+
+
+Replace the underlined sentences with the letters:
+
+
+
+A → (¬B →A)
+
+
+
+This is a tautology, and since it is the truth-functional form of the original quantified sentence, then that quantified sentence is also a tautology.
+
+
+
+In summary, if you want to find the truth-functional form of a given sentence S of FOL:
+
+
+
+Step 1- Identify and label all atomic sentences and quantified sentences of S.
+
+Step 2- Replace each atomic and quantified sentence with its label.
+
+
+
+Another example:
+
+
+
+¬(Tet(d) ∧ ∀xSmall(x)) → (¬Tet(d) ∨ ¬∀ySmall(y))
+
+A B A C
+
+
+
+¬(A ∧ B) → (¬A ∨ ¬C)
+
+
+
+Note how ∀xSmall(x) and ∀ySmall(y) are equivalent, but because they have different variables, they are different sentences. Sentences are syntactic objects, so we need to differentiate these in our substitution process. Note how the first becomes B and the latter becomes C.
+
+
+
+Using the Truth-Function Form (TFF) - This procedure can be applied to arguments as well as to individual sentences. That is, we can apply it to any FOL argument to construct the truth-functional form of the argument, and hence to determine whether its conclusion is a tautological consequence of its premises. We’ll call such valid arguments “truth-table valid,” or TT-valid, for short. I warn you advance, this is not the label the book gives!
+
+
+
+Arguments which are TT-valid are such that, the conclusion is the tautological consequence of the premises.
+
+
+
+|∃x Cube(x) → ∃x Small(x) |∃x (Cube(x) → Small(x))
+
+|∃x Cube(x) |∃x Cube(x)
+
+|∃x Small(x) |∃x Small(x)
+
+
+
+Converting these to their truth-functional forms, we get:
+
+
+
+| A → B |A
+
+| A	|B
+
+| B |C
+
+
+
+The first is clearly truth-table valid. The conclusion is a tautological consequence of the premises. The second argument is not TT-valid. In fact, the original argument is not valid at all. We can generate a counterexample to the second argument - we can show it is not logically valid:
+
+Consider a world in which a is medium cube and b is a medium tet.
+
+
+
+Premise 1 is true because at least one object, namely b, satisfies the mere wff Cube(x) → Small(x), because b is a tet. Note that if the antecedent is false, the conditional is true, and b makes the antecedent false, and thus the conditional true, which means it satisfies the mere wff, which means something is such that if it is a cube, then it is small.
+
+
+
+Premise 2 is true because at least one object, namely a, satisfies the mere wff Cube(x), because a is a cube. Something is a cube is true.
+
+
+
+The conclusion is false because nothing satisfies the mere wff Small(x) since everything is medium. Something is small is false.
+
+
+
+
+
+Putting the FO in FOL: A quantified sentence of FOL is said to be a tautology iff if its truth-functional form is a tautology. Further, two sentences of FOL are tautologically equivalent iff their truth-functional forms are tautologically equivalent. Likewise, a sentence S of FOL is a tautological consequence of FOL sentences P1…Pn iff the TFF (truth functional form) of S is a tautological consequence of TFF of P1…Pn.
+
+
+
+Sentential/Propositional/Truth Functional/Truth-table Logic
+	
+
+First-Order Logic
+	
+
+General Notions
+
+Tautology
+	
+
+??
+	
+
+Logical truth
+
+Tautological consequence
+	
+
+??
+	
+
+Logical consequence
+
+Tautological equivalence
+	
+
+??
+	
+
+Logical equivalence
+
+Tautological validity
+	
+
+??
+	
+
+Logical validity
+
+
+
+Just as propositional logic has this relationship with the general notions, specifically as a sub-species, FOL also has the same sorts of relationship.
+
+
+
+Propositional Logic
+	
+
+First-Order Logic
+	
+
+General Notions
+
+Tautology
+	
+
+FO truth (validity in the book)
+	
+
+Logical truth
+
+Tautological consequence
+	
+
+FO consequence
+	
+
+Logical consequence
+
+Tautological equivalence
+	
+
+FO equivalence
+	
+
+Logical equivalence
+
+Tautological validity
+	
+
+FO validity (book lacks a word)
+	
+
+Logical validity
+
+
+
+The general logic notions which have usually relied upon the meanings of predicates for their truth values haven’t been a part of our formal system. We’ve been able to see those limits when we are forced to use Ana Con in our homework, or when we consider the TFFs of sentences. FOL is proposition a logic with identity and quantifiers. In using First-Order notions, we are extending the boundary of propositional logic a little more into the general logical realm. We will have formal ways to describe and represent things which previously were just logical notions for us.
+
+
+
+FO Truth/Consequence/Equivalences: are truths/consequences/equivalences solely in virtue of the truth-functional connectives, the quantifiers, and the identity symbol. Note that we ignore the meanings of predicates, just as in the case of tautological cases. Also note, the book also refers to FO truth as FO validity.
+
+
+
+Remember the Euler circle? FO relationships sit in between Tautological relationships and Logical relationships . Recall that tautological truth/consequence/equivalence were true/consequential/equivalent in virtue of the truth-functional connectives alone. Now outside the tautology circle but inside the logical circle we have a first-order circle. To be in this circle, we can pay attention to all of which tautologies attend, but we can also pay attention to the identity symbol and quantifiers. Although, FO relationships still ignore predicates. See expanded Euler circle on 273.
+
+
+
+Tautology: Tet(a) ∨ ¬Tet(a)
+
+FO Truth: ∀xCube(x) → Cube(a)
+
+Logical Truth: ¬∃xLeftOf(x,x)
+
+
+
+Importantly, we’ve had Ana Con (which is basically Logical consequence), and we’ve had Taut Con (which is tautological consequence), and now we have FO Con. FO Con shows that some sentence is a consequence of some other set of sentences based upon the logical connectives, identity, and quantifiers, but not the meanings of predicates or names.
+
+
+
+We have a method for figuring showing that a logical truth is also a tautology: the truth-functional form procedure. The same can be said for showing the boundaries between any of the logical notions, such as consequence and equivalence, via the TFF procedure. (SHOW ON EULER’s CIRCLE)
+
+
+
+We need a method for showing that a logical truth is also FO truth and not merely a logical truth. We need to ignore non-logical vocabulary to do so. There are two techniques for ignoring non-logical vocabulary:
+
+    Nonsense words method
+
+    Replacement method
+
+You can tell whether or not the truth value of a sentence relies upon the truth value and meaning of predicate via this method. These methods allow you to tell if the sentence, while perhaps logically true based upon the meaning of the predicate, obviously isn’t FO valid because the logical truth is true because of the meaning of the predicate.
+
+
+
+The Non-Sense Method: A convenient way of ignoring the meanings of names and predicates is just to replace them with nonsense predicates (e.g., the predicates Tove, Slithy, Outgrabe, Borogove, etc., borrowed from Lewis Carroll’s poem Jabberwocky).
+
+
+
+∀xSameSize(x,x) ∀xOutGrabe(x,x)
+
+
+
+This is a logical truth, but it is not a FO truth (not FO valid in the book) because when we replace the predicate SameSize with the predicate Outgrabe, the resulting sentence, ∀xOutgrabe(x, x), cannot be guaranteed by logic to be true—its truth depends on the meaning of Outgrabe.
+
+
+
+∀xCube(x) →Cube(b) ∀xTove(x) →Tove(b)
+
+
+
+On the other hand, we can see that ∀xCube(x) →Cube(b) is a FO valid because the “nonsense” sentence ∀x Tove(x) →Tove(b) is true no matter what Tove means.
+
+
+
+Using “nonsense” predicates may be an illuminating device, but we need not resort to this. We could also just replace these predicates with letters:
+
+
+
+∀xCube(x) →Cube(b) ∀xG(x) → G(b)
+
+
+
+Whatever G might mean, this is clearly a FO truth, even though it isn’t a tautology, since the TFF looks like A→B.
+
+
+
+Note that the non-sense and dummy-letter method allows us to easily see if a sentence is a FO truth, or if two sentences are FO consequences of each other, or if an argument if FO valid. But, what if a sentence or set of sentences can’t have an FO label, but still has the logical label. For example, there are logically valid arguments which aren’t FO valid. How do we prove that? We need a FO counterexample.
+
+
+
+We can simply replace predicates with predicate letters (and names with individual constants) and consider these letters to be open to interpretation in any way we wish. That is, we can take its individual constants to be names of any objects we like, and its predicate letters to stand for any properties we
+
+like. This leads to the replacement method, which enables us to make FO Counterexamples.
+
+
+
+The Replacement Method & FO Counterexamples:
+
+    Replace all names with individual constants and all predicates with predicate letters (maintaining the arity, of course); if a predicate or a name is repeated, use the same letter to replace all of its occurrences.
+
+    To see whether a sentence is a FO truth, try to describe a circumstance, and an interpretation of the predicate letters and individual constants, in which the sentence is false. If there is none, the sentence is a FO truth.
+
+    To see whether S is an FO consequence of P1,…, Pn, try to describe a circumstance and an interpretation under which S is false and all of P1,…, Pn are true. If there is none, S is an FO consequence of P1,…, Pn.
+
+We can define FO validity and consequence as follows:
+
+    A sentence S is a FO truth iff it comes out true on every interpretation.
+
+    A sentence S is a FO consequence of sentences P1,…, Pn iff there is no interpretation under which all of P1,…, Pn come out true and S comes out false.
+
+The point is to create a counterexample which is blind to the meanings of predicates and names, but still employs the truth-functional connectives, identity, and quantifiers.
+
+
+
+Let’s use this method to create a FO counterexample.
+
+|1. ¬∃xLarger(x, a) Nothing is larger than a. (others might be same size though)
+
+|2. ¬∃xLarger(b, x) Nothing is such that b is larger than it. (b is larger than nothing)
+
+|3. Larger(c, d)	c is larger than d.
+
+|4. Larger(a, b) Therefore, a is larger than b.
+
+
+
+Obviously, this is a logically valid argument. If the premises are true, then the conclusion must be true. Is it a tautologically valid argument? Converting to truth-functional form, we get:
+
+
+
+|1. ¬A
+
+|2. ¬B
+
+|3. C_____
+
+|4. D
+
+
+
+Clearly, the conclusion is not a tautological consequence of the premises. Remember, however, that we have created a space in between propositional logic and the general logical notions of logical. In that space are the FO notions. So, this argument isn’t tautologically valid, but is this argument FO valid? There is only one way to find out.
+
+
+
+We need to specify a world and an interpretation, then we need to verify. Specify and verify. Here is the replacement of the predicates:
+
+
+
+|1. ¬∃xR(x, a)
+
+|2. ¬∃xR(b, x)
+
+|3. R(c, d)
+
+|4. R(a, b)
+
+
+
+We should replace the names as well. Depending on the problem, you may want to think about your interpretation before you do this, but we’ll do it now. Let’s say.
+
+
+
+a = Allen
+
+b = Bob
+
+c = Claire
+
+d = Debbie
+
+
+
+Thus, the total replacement looks like this:
+
+
+
+|1. ¬∃xR(x, allen)
+
+|2. ¬∃xR(bob, x)
+
+|3. R(claire, debbie)
+
+|4. R(allen, bob)
+
+
+
+So, similar to how we can make a truth-functional form, we can make a pseudo-FO form with the replacement method, where names and predicates are stripped of their meanings or have their meanings changed. So, now we specify.
+
+We need to specify an interpretation of the R predicate relationship:
+
+
+
+R(x, y): x likes y.
+
+
+
+Let the domain consist of Allen, Bob, Debbie, and Claire, with the following relationships:
+
+
+
+No one likes Allen
+
+Bob doesn’t like anyone
+
+Claire likes Debbie
+
+Allen doesn’t like Bob (this is the false version of the conclusion, so we have a counterexample)
+
+
+
+Recall that a counterexample will show the premises are true and the conclusion false. We are coming up with an interpretation of the predicates and names and a specification of the domain which show the argument form is invalid.
+
+
+
+Verification time! On this interpretation:
+
+
+
+The first premise is true. It says no one likes Allen, as specified.
+
+The second premise is true. It says Bob likes no one, as specified.
+
+The third premise is true. It says Claire likes Debbie, as specified.
+
+The conclusion is false. It says Allen likes Bob, but in the interpretation, Allen doesn’t like Bob.
+
+
+
+T|1. ¬∃xR(x, allen)
+
+T|2. ¬∃xR(bob, x)
+
+T|3. R(claire, debbie)
+
+F|4. R(allen, bob)
+
+
+
+Thus, we have an interpretation in which the conclusion does not follow from the premises, which means the conclusion is not a FO consequence of the premises. While the original argument is logically valid, it isn’t FO valid. That is because it relies upon the meaning of the predicate, Larger, in this case.
+
+
+
+Let’s consider another example:
+
+
+
+|1. Cube(a) ∧ Cube(b)
+
+|2. Small(a) ∧ Large(b)
+
+|3. ∃x(Cube(x) ∧ Large(x) ∧ ¬Smaller(x, x))
+
+
+
+The premises are a is a small cube, and b is a large cube. The conclusions: something is a large cube which is not smaller than itself. When the premises are true, the conclusion has to be true. Thus, this argument is logically valid. However, is it tautologically valid? The truth-functional form (TFF):
+
+
+
+|1. A ∧ B
+
+|2. S ∧ L
+
+|3. E
+
+
+
+Clearly, the conclusion is not a tautological consequence of the premises. This argument is not tautologically valid. We could make a truth table to prove this, but it would be really large (so we won’t do it in class).
+
+
+
+A B S L E || (A ∧ B) ∧ (S ∧ L) | E
+
+
+
+Obviously, there will be a row on which the first sentence (the conjunction of the premises) is true, and the second sentence (the conclusion) false. That means that the conclusion, E, is not a tautological consequence of the premises. Thus, while the original argument is logically valid, given the truth-functional form of the argument, we know it isn’t tautologically valid. So, the remaining question is whether or not the argument is FO valid.
+
+
+
+Let’s try the replacement method to test for FO validity/consequence.
+
+
+
+|1. P(a) ∧ P(b)
+
+|2. Q(a) ∧ L(b)
+
+|3. ∃x(P(x) ∧ L(x) ∧ ¬R(x, x))
+
+
+
+Just by looking at the replacement, we can see the conclusion is not an FO consequence of the premises. This is not FO valid. We know then that our argument is logically valid, but neither tautologically valid, nor FO valid. The logical validity of this argument obviously rests upon the meaning of the predicate “Smaller.” Thus, we need an FO counterexample.
+
+
+
+We went hog-wild on the last one, but you can use shortcuts if you know what you are doing. For example, I don’t think replacing single letter individual constants matters. In fact, after replacing the predicate symbols, we can interpret the predicates in much the same way, and target the one predicate which does all the real work “Smaller” in this case.
+
+
+
+Specify:
+
+
+
+Let our domain consist of two objects, a and b, where a is a small cube, and b is a large cube.
+
+
+
+Interpret the predicates as follows:
+
+
+
+P(x): x is a cube
+
+Q(x): x is small
+
+L(x): x is large
+
+R(x, y): x is the same size as y (note how this is different from Smaller(x,x))
+
+
+
+Verify:
+
+
+
+Premise 1 is true, because a is a cube and b is a cube.
+
+Premise 2 is true because a is small and b is large.
+
+The conclusion is false since there is nothing in the domain which is not the same size as itself.
+
+
+
+Hence, the argument is logically valid and not FO valid because it relies upon the meaning of the predicate Smaller(x,x).
+
+
+
+The above is all you have to write. You must have everything I’ve written down, but anything else is up to you. You can have more if you want – if it helps you. For example:
+
+
+
+T|1. P(a) ∧ P(b)
+
+T|2. Q(a) ∧ L(b)
+
+F|3. ∃x(P(x) ∧ L(x) ∧ ¬R(x, x))
+
+
+
+Or
+
+
+
+T|1. Cube(a) ∧ Cube(b)
+
+T|2. Small(a) ∧ Large(b)
+
+F|3. ∃x(Cube(x) ∧ Large(x) ∧ ¬SameSize(x, x))
+
+
+
+Or
+
+
+
+T|1. a and b are cubes
+
+T|2. a is small and b is large.
+
+F|3. Some large cube is not the same size as itself.
+
+
+
+I’m not looking for these. They may be helpful tools for you to better understand or visualize what is happening. Make sure you get everything that is specified and verified written down on your test though.
+
+
+
+Homework: 10.8-10.9 (just the grade-grinder applicable part – no written work should be turned in)
+
+Extra Practice: 10.10-10.19 (don’t turn in)
+
+
+
+
+
+FO Equivalence and DeMorgan’s Laws:
+
+
+
+¬(∃x Cube(x) ∧ ∀y Dodec(y)) ¬(A ∧ B)
+
+¬∃x Cube(x) ∨ ¬∀y Dodec(y)) ¬A ∨ ¬B
+
+
+
+The first sentence says: it is not the case that both something is a cube and everything is a dodec. The second says: it is not the case that something is a cube or it is not the case that everything is a dodec. These two sentences are tautologically equivalent. Indeed, their equivalence is an instance of DeMorgan’s laws in propositional logic.
+
+
+
+∃x ¬(Cube(x) ∧ Large(x)) A
+
+∃x (¬Cube(x) ∨ ¬Large(x)) B
+
+
+
+The first sentence says: something is not a large cube. The second says: something is not a cube or not large. These sentences are also logically equivalent, but not tautologically equivalent.
+
+
+
+The difference between these examples is that in the first example, the DeMorgan’s Laws are applied to a pair of sentences, whereas in the second example, we appear to be applying DeMorgan’s Laws to a pair of mere wffs. Consider the constituent mere wffs:
+
+
+
+¬(Cube(x) ∧Large(x))
+
+¬Cube(x) ∨ ¬Large(x)
+
+
+
+How can we say these mere wffs are logically equivalent, when they are not even sentences? We need to extend the notion of equivalence to mere wffs, i.e. those wffs with free variables.
+
+
+
+
+
+Logical Equivalence for Mere Wffs: A pair of wffs with same free variables are logically equivalent if, in any possible circumstance, they are satisfied by the same objects.
+
+
+In our example, both wffs have the same free variables. Further, the objects satisfying ¬(Cube(x) ∧ Large(x)) are those that are not large cubes; and the ones satisfying ¬Cube(x) ∨ ¬Large(x) are those that are not cubes or not large, i.e., those that are not large cubes. Hence, these mere wffs are logically equivalent.
+
+
+
+
+
+Substitution Principle: Let P and Q be wffs (mere wffs or sentences). Let S(P) be any sentence in which P appears as a part, and similarly for S(Q). Then if P and Q are logically equivalent so are S(P) and S(Q). That is:
+
+
+
+If P ⇔ Q, then S(P) ⇔ S(Q).
+
+
+
+I can’t offer a proof of that to you here (it is an advanced topic), but let’s assume it is true. This substitution of equivalences extends the notion of equivalence among mere wffs to all wffs of FOL. Let me give you an example of how this plays out for quantifiers:
+
+
+
+Regard P as Cube(x) → Small(x)
+
+Regard Q as ¬(Cube(x) ∧ ¬Small(x))
+
+
+
+(Cube(x) → Small(x)) ⇔ (¬Cube(x) ∨ Small(x))
+
+⇔	(¬Cube(x) ∨ ¬¬Small(x))
+
+⇔ ¬(Cube(x) ∧ ¬Small(x))
+
+P ⇔	S
+
+
+
+These mere wffs are logically equivalent. Our Substitution Principle is telling us that since these mere wffs are logically equivalent, then we can show that quantified sentences built from those mere wffs are logically equivalent.
+
+
+
+Where S is a particular quantifier:
+
+
+
+If P ⇔ Q, then S(P) ⇔ S(Q)
+
+
+
+Hence, we can show the following through a similar chain of equivalences:
+
+
+
+∀x(Cube(x) → Small(x)) ⇔ ∀x¬(Cube(x) ∧ ¬Small(x))
+
+
+
+Regard S(P) as ∀x(Cube(x) → Small(x))
+
+Regard S(Q) as ∀x¬(Cube(x) ∧ ¬Small(x))
+
+
+
+∀x(Cube(x) → Small(x)) ⇔ ∀x(¬Cube(x) ∨ Small(x))
+
+⇔	∀x(¬Cube(x) ∨ ¬¬Small(x))
+
+⇔ ∀x¬(Cube(x) ∧ ¬Small(x))
+
+S(P) ⇔	S(Q)
+
+
+
+Hence, logically equivalent wffs, including mere wffs, can be substituted inside sentences, and the original sentences will be equivalent to the sentences with substitutions. Back to our previous example:
+
+
+
+∃x ¬(Cube(x) ∧ Large(x)) ⇔ ∃x (¬Cube(x) ∨ ¬Large(x))
+
+
+
+There are logic systems which heavily abuse the substitution principle of logically equivalent wffs. Our system does not. Our proof system can show this particular relationship without substitution.
+
+
+
+
+
+DeMorgans for Quantifiers:
+
+
+
+Consider a world with four cubes:
+
+
+
+[a][ b][c][d]
+
+
+
+Consider these sentences:
+
+
+
+Cube(a) ∧ Cube(b) ∧ Cube(c) ∧ Cube(d)
+
+∀x Cube(x)
+
+
+
+Given the domain, these two sentences will have the same truth value. Note the connection between ∀ and ∧ here. One way of explaining what it means for everything to be a cube just is to say the conjunction of sentences of the form Cube(x) for all the objects in the domain is true.
+
+
+
+Further, we have a similar connection between ∃ and ∨. Consider a world with three tets and a cube:
+
+
+
+/a\/b\ /c\[d]
+
+
+
+Consider these sentences:
+
+
+
+Cube(a) ∨ Cube(b) ∨ Cube(c) ∨ Cube(d)
+
+∃x Cube(x)
+
+
+
+Likewise, given our domain, these sentences have the same truth value. What it means for “something to be a cube” just is to say that for all the objects in the domain, we can make a disjunction with each disjunct stating that a particular object is a cube, and that disjunction is true.
+
+
+
+So we would expect there to be first-order equivalences for the quantifiers that are counterparts to the DeMorgan equivalences of propositional logic. And indeed there are.
+
+
+
+Just as these sentences are equivalent,
+
+
+
+¬(Cube(a) ∧ Cube(b) ∧ Cube(c) ∧ Cube(d))
+
+¬Cube(a) ∨ ¬Cube(b) ∨ ¬Cube(c) ∨ ¬Cube(d)
+
+
+
+So are these:
+
+
+
+¬∀x Cube(x)
+
+∃x ¬Cube(x)
+
+
+
+Note how the first set of sentences say that not all of the objects (a,b, c, d) are cubes, and at least one of the objects is not a cube. But, that just is what the second set of sentences are saying about our domain. Not everything is a cube, and something is not a cube.
+
+
+
+Hence, we have DeMorgan’s for Quantifiers:
+
+
+
+¬∀x P(x) ⇔ ∃x ¬P(x)
+
+¬∃x P(x) ⇔ ∀x ¬P(x)
+
+
+
+“Not everything is P(x)” is logically equivalent to “Something is not P(x)”
+
+“It is not the case that something is P(x)” is logically equivalent to “Everything is not P(x)”
+
+
+
+DeMorgan’s for quantifiers allows us to push negation around and flip logical connectives. Just as how conjunction can be turned into disjunction with negations (and vv.), so can the quantifiers. The universal quantifier can be turned into an existential with negations (and vv.).
+
+
+
+Once again, this equivalence is not a rule of our language, just like propositional logic’s DeMorgan’s. You’ve got to earn it.
+
+
+
+Aristotelian Forms and DeMorgan’s Laws:
+
+
+
+Given our equivalences, we can show that “not All P’s are Q’s” is equivalent to “Some P’s are not Q’s”:
+
+
+
+¬∀x (P(x) → Q(x)) ⇔ ¬∀x (¬P(x) ∨ Q(x))
+
+⇔ ∃x ¬(¬P(x) ∨ Q(x))
+
+⇔ ∃x (¬¬P(x) ∧ ¬Q(x))
+
+⇔ ∃x (P(x) ∧ ¬Q(x))
+
+
+
+Importantly, if we can push negations from the outside of quantifiers to the inside, then we can sometimes continue to push negations inside the mere wff contained in the quantified sentence (which is what happens in the downward direction of these equivalences). Likewise, if we can push negation from inside the mere wff outside, then eventually we can push the negation outside the quantifier (as in the case of the upward direction of these equivalences).
+
+
+
+Similarly, recall that:
+
+
+
+“Some P’s are Q’s” is translated as ∃x (P(x) ∧ Q(x))
+
+"No P’s are Q’s” is translated as ∀x (P(x) → ¬Q(x))
+
+
+
+Given our equivalences, we can show that “not some P’s are Q’s” is equivalent to “No P’s are Q’s”:
+
+
+
+¬∃x (P(x) ∧ Q(x)) ⇔ ∀x ¬(P(x) ∧ Q(x))
+
+⇔ ∀x (¬P(x) ∨ ¬Q(x))
+
+⇔ ∀x (P(x) → ¬Q(x))
+
+
+
+Homework: 10.22
+
+
+
+
+
+Distributing Quantifiers and Null Quantification:
+
+Distributing ∀ through ∧:
+
+
+
+∀x(P(x) ∧ Q(x)) ⇔ ∀xP(x) ∧ ∀xQ(x)
+
+
+
+“Everything is P and Q” is equivalent to “Everything is P and Everything is Q.” Note, however, this is only true for the conjunction. We cannot distribute ∀ through ∨.
+
+
+
+∀x(P(x) ∨ Q(x)) ⇔ ∀xP(x) ∨ ∀xQ(x)
+
+
+
+“Everything is P or Q” is not equivalent to “Everything is P or Everything is Q.” We can come up with a counterexample.
+
+
+
+Note how logical equivalence is demonstrated via introducing a biconditional with no premises. So, the counterexample will require us to start with no premises and falsify the conclusion given an interpretation of the predicates.
+
+
+
+Specify:
+
+Interpretation:
+
+P(x): x is a pope
+
+Q(x): x is a queen
+
+World:
+
+Consider a world with two objects, a and b, in which a is a pope and b is a queen
+
+Verify:
+
+We have no premises. The goal is to demonstrate a logical truth from nothing, since logical truths are the logical consequences of every set of premises, including the empty set.
+
+
+
+The conclusion is false because the antecedent ∀x(P(x) ∨ Q(x)) is true, since everything is either a way pope or queen, but the consequent ∀xP(x) ∨ ∀xQ(x) false, since not either everything is a pope (namely b) or everything is a queen (namely a).
+
+
+
+Since the antecedent and consequent have different truth values, the biconditional is false, and this argument (that this biconditional is a logical truth) is invalid. Logically equivalent sentences have the same truth values in all possible worlds (the biconditional between those sentences is always true, in any possible world). Hence, this is not a case of logical equivalence.
+
+
+
+Distributing ∃ through ∨:
+
+
+
+∃x (P(x) ∨ Q(x)) ⇔ ∃xP(x) ∨ ∃xQ(x)
+
+
+
+“Something is P or Q” is equivalent to “Something is P or something is Q.” Note, however, we cannot distribute ∃ through ∧, just as we couldn’t distribute ∀ through ∨.
+
+
+
+∃x (P(x) ∧ Q(x)) ⇔ ∃xP(x) ∧ ∃xQ(x)
+
+
+
+“Something is P and Q” is not equivalent to “Something is P and Something is Q.” We can come up with a counterexample:
+
+
+
+Consider the same world, with two objects, a and b, in which P(a) and Q(b)
+
+
+
+The first sentence is false, since there isn’t anything which is both P and Q. The second sentence is true because there is something which is P, namely a, and something which is Q, namely b. Logically equivalent sentences have the same truth values in all possible worlds, and these don’t, hence they aren’t logically equivalent.
+
+
+
+Null quantification: In defining the class of wffs, we did not insist that the variable being quantified actually occur free (or at all) in the wff to which the quantifier is applied. Thus, this expression is a wff:
+
+
+
+∀xCube(b)
+
+
+
+Even though the wff Cube(b) does not contain the variable x, this is still a wff. This sentence is true iff every object in the domain satisfies the wff Cube(b). In a degenerate way, the question of whether an object satisfies Cube(b) boils down to whether Cube(b) is true. Is everything such that b is a cube? Well, if b is a cube, then yes, everything is such (this is an odd way to phrase it). Essentially, ∀xCube(b) and Cube(b) are true in exactly the same worlds. The same is true for:
+
+
+
+∃xCube(b)
+
+
+
+These are instances of what we call “Null quantification.” As you can see, the quantifiers don’t seem to matter. Consider this sentence, where x is not free in the first disjunct:
+
+
+
+∀x(Cube(b) ∨ Small(x))
+
+
+
+This sentence is true if Cube(b) is true. If Cube(b) is false, then the truth of this sentence rests upon whether or not all objects in the domain are small. This sentence is equivalent to this one:
+
+
+
+Cube(b) ∨ ∀xSmall(x)
+
+
+
+In order for this sentence to be true, Cube(b) is true or all objects are small. Clearly, these two sentences have the same truth values in all worlds.
+
+
+
+This same sort of reasoning can be applied to the rest of our truth-functional connectives.
+
+
+
+
+
+Equivalences for Null Quantification:
+
+P represents any wff in which x does not occur free:
+
+
+
+∀x P ⇔	P
+
+∃x P ⇔	P
+
+∀x (P ∨ Q(x)) ⇔	P ∨ ∀x Q(x)
+
+∃x (P ∧ Q(x)) ⇔	P ∧ ∃x Q(x)
+
+∀x (P → Q(x)) ⇔	P → ∀x Q(x)
+
+∃x (P → Q(x)) ⇔	P → ∃x Q(x)
+
+∀x (Q(x) → P) ⇔ ∃x Q(x) → P
+
+∃x (Q(x) → P) ⇔ ∀x Q(x) → P
+
+
+
+Note how the last two conditional equivalences switch the quantifiers. Let’s see why:
+
+
+
+∀x (Q(x) →P) ⇔	∀x (¬Q(x) ∨ P)
+
+⇔ P ∨ ∀x ¬Q(x)
+
+⇔ P ∨ ¬∃x Q(x)
+
+⇔ ¬∃x Q(x) ∨ P
+
+⇔ ∃x Q(x) →P
+
+
+
+The same goes for the conversion from the existential quantifier to the universal.
+
+
+
+Replacing bound variables:
+
+
+
+P(x) is any wff and y is any variable that does not occur in P(x):
+
+
+
+∀x P(x) ⇔ ∀y P(y)
+
+∃x P(x) ⇔ ∃y P(y)
+
+
+
+What these equivalences tell you, in effect, is that it does not matter which variable you use in a universal or existential generalization. Systematically rewriting the bound variables does not change the meaning of the sentence.
+
+
+
+Homework: 10.24-10.29
+
+
+
+I am not covering the axiomatic method from chapter 10. It is interesting, but we only have so much time in this class. It is short reading, and worthwhile for anyone interested in continuing logic.

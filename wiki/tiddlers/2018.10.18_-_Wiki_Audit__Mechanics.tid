@@ -1,0 +1,24 @@
+created: 20181019034037659
+creator: h0p3
+modified: 20181020180700991
+modifier: h0p3
+tags: [[Wiki Audit]]
+title: 2018.10.18 - Wiki Audit: Mechanics
+
+I'm working on [[2018.10.18 - TWGGF: References]]. How this problem will be solved (if it can or will be) may determine quite a bit about how I continue this [[The Remodeling]]. 
+
+I am worried about implementing list-links before I have a solution up and running.
+
+---
+
+Josiah, clearly, is unhappy with the appearance of the site, [[2018.10.18 - Josiah: Portrait]]. I am trying to make it usable for others, but I'm not convinced I can or should make it beautiful for every device and context. I really don't think this wiki is meant to be read on a phone. It's prolix writing style and packed textual approach needs a larger screen. I think you are using this wiki incorrectly if you don't pop open 10 tiddlers. The phone is not the right tool for using this wiki. Not all applications are meant for all devices. There's a reason you need a specific kind of computer to play many kinds of games. I think most games shouldn't be played on a portrait screen, and I'm not convinced the wiki is really optimal on portrait either. There's a reason we see large differences between desktop and mobile versions of the same site. I actually expect my audience to use my wiki on a machine something resembling mine, and I don't think that's unacceptable.
+
+For a point of comparison, I think Wikipedia is radically better on my desktop and laptop than my phone or tablet.
+
+---
+
+$:/plugins/inmysocks/TiddlerTool is amazing! Tagging is sane with this tool. [[footnote-converter.xsh]] is still massaging beautifully for me. Grammarly is helping me do a bit of cleanup as well.
+
+---
+
+I can see I really do want to have control over the naming like [[Sphygmus]]'s tool. I've also installed $:/plugins/matabele/action-maketid from http://maketid.tiddlyspot.com/. Slowly, I will get all the buttons, levers, and automations to do what I want. Lots of inspiration here. Hopefully, I can find what is salient.

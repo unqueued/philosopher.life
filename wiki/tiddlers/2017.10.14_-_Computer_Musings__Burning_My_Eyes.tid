@@ -1,0 +1,16 @@
+created: 20171014194258148
+modified: 20181217071141349
+modifier: h0p3
+revision: 0
+tags: [[Computer Musings]]
+title: 2017.10.14 - Computer Musings: Burning My Eyes
+
+I have spent much time trying to prevent my screen from being so damn bright and flashy. There are many tricks and customizations. One of my favorites is the //Deluminate// plugin for Chromium-based browsers. As long as you use it religiously, it converts the web into something far easier on the eyes, particularly in the dark.
+
+Unfortunately, it started flashing a scroll-bar at the bottom. This is beyond annoying. It is unusable for me. After trying many things, I found a solution:
+
+# Goto `chrome://flags/` and enable Overlay Scrollbar.
+
+Also, it's fucking beautiful. I love the loss of the scrollbar until mouseover.
+
+Now, if only I could find a way to prevent chromium screen flashing: https://bugs.chromium.org/p/chromium/issues/detail?id=470669.

@@ -1,0 +1,18 @@
+created: 20190422143923180
+modified: 20190422144041825
+tags: j3d1h [[Wiki Scripts]] bash
+title: checkbob.sh
+
+```bash
+#!/bin/bash
+COMMAND="node /home/h0p3/syncs/bob/tiddlywiki.js /home/h0p3/syncs/bob/Wikis --wsserver"
+if pgrep -xf "$COMMAND" >/dev/null
+then
+    echo "Bob is running"
+else
+    echo "Bob stopped"
+    echo "Starting Bob back up..."
+    node /home/h0p3/syncs/bob/tiddlywiki.js /home/h0p3/syncs/bob/Wikis --wsserver &
+    disown
+fi
+```

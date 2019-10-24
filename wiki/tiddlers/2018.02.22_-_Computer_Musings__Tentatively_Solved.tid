@@ -1,0 +1,13 @@
+created: 20180222175923623
+modified: 20181029175224780
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.02.22 - Computer Musings: Tentatively Solved
+
+The seedbox problem is tentatively solved. I'm annoyed by how small the fix was, and I clearly chased after it the wrong way. But, at least it is fixed! Yay!
+
+I've setup freeleech RSS now. IPT is slowly tightening itself into TL. Might as well build a huge ratio.
+
+---
+
+Posted on the github for vpncloud.rs about arm compilation support. I really want this tool to work on all of my devices.

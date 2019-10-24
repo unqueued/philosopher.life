@@ -1,0 +1,19 @@
+created: 20180118234112441
+modified: 20190322043759497
+revision: 0
+tags: Rust
+title: 2018.01.18 - Rust
+
+`::` is an associated function (static method)
+
+The `.expect("Foobar error message")` will crash the program and return the error message.
+
+`cargo doc --open` produces the necessary documentation for your crate and exports to your browser (sadly, deluminate doesn't work with it)
+
+A //match// expression is made up of //arms//. An arm consists of a pattern and the code that should be run if the value given to the beginning of the match expression fits that arm’s pattern.
+
+Rust allows us to //shadow// the previous value of a variable with a new one; it enables variable name reuse.
+
+The `_` is a catchall value.
+
+[[guessing_game.rs]]

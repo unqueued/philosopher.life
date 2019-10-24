@@ -1,0 +1,34 @@
+created: 20180116210705463
+modified: 20180117014836646
+revision: 0
+title: Rust: Effective Borrowing
+
+!! About:
+
+The concept of borrowing is so fundamental to being good at Rust that I should sort this out first. There seem to be many expressions of it: value, consuming, moving, and transferring ownership.
+
+
+---
+!! Principles:
+
+* Build for the future.
+
+
+---
+!! Focus:
+
+* [[Rust: Effective Borrowing: Diagrams]]
+* [[Rust: Effective Borrowing: Cheatsheet]]
+
+
+---
+!! Vault:
+
+* Retired
+** [[2018.01.16 - Retired: Rust: Effective Borrowing]]
+
+
+---
+!! Dreams:
+
+* To dream of more dreams for this page.

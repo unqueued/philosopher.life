@@ -1,0 +1,24 @@
+created: 20180906204742704
+creator: h0p3
+modified: 20180906232453465
+modifier: h0p3
+tags: 
+title: Cross-Consumer_GUI_Platform Tool Collection
+
+I can't target all platforms easily. Many cool OSes out there, and even something as illustrious as the BSDs just can't make the cut. I'm looking for consumer grade. Linux has the inertia, and that will dictate the ecosystem.<<ref "l">> Linux, Windows, OSX desktops; Android, iOS mobile.  What are tools that I'd install on every GUI-OS? What tools do I wish I could run on every GUI-OS?  Since I'm accepting proprietary, I'm accepting it. What shit //just werx//?
+
+!! Actuality:
+
+* All Platforms
+** Resilio Sync
+** Firefox
+
+!! Potentiality: 
+
+* Currently Mobile Only
+** Briar
+
+
+
+---
+<<footnotes "l" "I don't believe in IP, but the GPL (at least the initial evolutions of it) was a well-suited weapon against enemies. It was practical. I'm sad to see that Linus is truly a piece of shit deep down though.">>

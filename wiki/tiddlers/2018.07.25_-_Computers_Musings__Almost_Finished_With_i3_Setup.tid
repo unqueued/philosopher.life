@@ -1,0 +1,34 @@
+created: 20180725161854344
+creator: h0p3
+modified: 20180726115747738
+modifier: h0p3
+tags: 
+title: 2018.07.25 - Computers Musings: Almost Finished With i3 Setup
+
+IRC setup. Decided to register again.
+
+Discord and Slack installed. =(
+
+Another GPG problem. 
+
+Setup Discord a bit.
+
+Not autostarting Slack though.
+
+I finalized [[.i3/config]] enough for the kids to use it.
+
+Conky shortcuts file ([[/usr/share/conky/conky_shortcuts_live_maia]]) is getting a major facelift. Adjusting background image to fit in like a glove if I can.
+
+Setup [[visudo]] to give automated root for pcmanfm and mousepad on request to h0p3. I realize that this is consider a huge security no-no (even for a PC). Sorry, bros. YOLO. In fact, I'm autostarting them now. I never want to have to fiddle with it if I don't have to.
+
+Never edited `/etc/sudoers.d/10-installer` before...
+
+I didn't realize the order mattered. Killed sudo access. Glad to have a spare KDE thumbdrive which automounts to change it right.
+
+Still struggling to windows placed correctly on the workspaces.
+
+Conky is sexed up. I built both pieces to have exactly what I want.
+
+Konsole for Dolphin set.
+
+Resized windows in i3. Now I want to find a way to save layouts.

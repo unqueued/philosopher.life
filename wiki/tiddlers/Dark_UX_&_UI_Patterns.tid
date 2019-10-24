@@ -1,0 +1,28 @@
+created: 20190628031043908
+modified: 20190628073713226
+tags: [[Memetic Warfare]] Cheatsheet
+title: Dark UX & UI Patterns
+
+; Sneaking
+: Attempting to misrepresent user actions, or delaying information that if made available to users, they would likely object to. Examples: sneaking items into a basket, revealing previously undisclosed charges to users right before they make a purchase, charging users a recurring fee under the pretense of a one-time fee or a free trial, and social pyramiding by using email or social media account permissions to spam all your contacts in a message that claims to be from you.
+
+; Urgency
+: Imposing a deadline on a sale or deal, thereby accelerating user decision-making and purchases. Examples: indicating to users that a deal or discount will expire using a counting-down timer, and limited-time messages indicating to users that a deal or sale will expire soon without specifying a deadline in order to create uncertainty.
+
+; Scarcity
+: Signaling that a product is likely to become unavailable, thereby increasing its desirability to users. Examples: low-stock or high-demand messages artificially generating desire for a product.
+
+; Social Proof
+: Influencing users' behavior by describing the experiences of other users. Examples: activity notifications informing the user about the various activities of other users on the website (e.g., purchases, views, visits), and testimonials of uncertain origin.
+
+; Obstruction
+: Making an interaction more difficult than it inherently needs to be with the intent to dissuade a particular action. Examples: roach motels which make it easy for the user to sign up for a recurring subscription but hard to cancel by requiring email or calling customer service, and price comparison prevention which impedes your ability to compare the price of an item with another item so you cannot make an informed decision.
+
+; Forced Action
+: Forcing the user to do or enable something tangential in order to complete their task. Examples: forced enrollment coercing users to create accounts or share their information to complete their tasks.
+
+; Interface Interference or Misdirection
+: Using visuals, language, emotional appeals, or other behaviors to redirect, intrude upon, interfere with or steer users toward or away from making a particular choice. Examples: confirmshaming to steer users away from making a certain choice, visually interfering styles or presentations meant to steer users to or away from certain choices, using confusing language or trick questions to steer users into making certain choices, pre-selecting more expensive variations of a product to pressure-sell the user, hiding information, punishing anti-script and ad-blockers, using false-hierarchies for objects which should be displayed in parallel, artificially enticing or frightening rhetoric, disguised advertisements which masquerade as other kinds of content or navigation in order to get you to click on them, nagging pop-ups, irrelevant notifications, audio/video notices meant to distract the user, and any bait'n'switch.
+
+; Impulse Gamification
+: Influencing users to buy on impulse, encourage addictive behaviors, or perverting a user's evaluation of the time, effort, relationships, or money. Examples: skinnerboxes, excessive grinding to incentivize microtransactions, gambling, pay-to-win, in-app purchases with high buyers-remorse rates, and using intermediate currencies to disconnect users from the real dollar value spent in order to cause the user to interact differently with the virtual currency.

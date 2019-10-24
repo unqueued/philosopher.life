@@ -1,0 +1,15 @@
+created: 20180124174754543
+modified: 20190323155003746
+modifier: h0p3
+revision: 0
+tags: [[Computer Musings]]
+title: 2018.01.24 - Computer Musings: Git
+type: text/vnd.tiddlywiki
+
+I am disappointed in the tiddlywiki npm. It's absurdly expensive computationally. On top of that, I'm guessing it is modifying the .tid files which makes Dropbox, that whore, rehash every minute as well. So, I've changed updates to every 15 minutes in crontab. I like the real-time, but I'd rather not completely lock a core (or two) at 100% usage permanently.<<ref "2019.03.23">>
+
+I've also got Resilio + my SSHFS script pushing to ATL. We will see if this causes problems. I also handled Resilio archiving too aggressively on the server.
+
+
+---
+<<footnotes "2019.03.23" "If I could find a way to have multiple windows into my TW without using Bob/nodejs, I would! There are so many performance gotchas. I'm hoping that [[TonyM]] succeeds. It is possible I may have to switch back one day. If I could find a way to store storyrivers and bookmarks banks, pause sessions and come back to them, that would be sick.">>

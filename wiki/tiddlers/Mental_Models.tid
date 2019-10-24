@@ -1,0 +1,123 @@
+created: 20180111031500404
+modified: 20180111035917687
+revision: 0
+title: Mental Models
+
+!! Productivity:
+
+* The small-improvements method
+
+* The just-get-started method
+** Corollary: Just do something concrete. Anything.
+
+* The top-five-problems method
+** What are the top five most important problems in your field (and life), and why aren’t you working on them?
+
+* Work on top priority, ignore everything else method.
+
+* The Richard Feynman teaching method.
+** If you’re stuck, put yourself in a position where you have to teach someone the basics.
+
+* Pessimistic Predictions of Success while Planning
+** Corollary: Be really pessimistic when estimating. Assume the average case will be slightly worse than the hypothetical worst case.
+** Corollary: When estimating time, upgrade the units and double the estimate (e.g. convert “one week” to “two months”).
+
+
+!! Hypothesis Evaluation and Induction:
+
+* Efficient market hypothesis – usually the state of any given issue in the world is roughly as close to optimal as is currently possible.
+** Corollary: It’s unlikely that the status quo can be easily improved without significant resources.
+** Example: Cucumber juice probably doesn’t cure cancer.
+** Corollary: Statistical mechanics – probabalistic systems that follow certain laws in the long run can have perturbations that diverge from these laws in the short run.
+*** Corollary: Occasionally the status quo can be easily improved without significant resources (but it is unlikely that you found such an occassion).
+**** Idiom: In the short run the market is a voting machine, but in the long run it is a weighing machine.
+**** Idiom: If an economist saw a $100 bill on a sidewalk they wouldn’t pick it up (because if it were real, it would have been picked up already).
+
+* Base rates – you can approximate the likelihood of a specific event occurring by examining the wider probability distribution of similar events.
+** Example: You’re evaluating the probability of success of a given startup. Ask yourself, if you saw ten similar startups a year, how many of them are likely to succeed?
+** Example: You caught an employee stealing, but they claim they need money to buy medication and it’s the first time they’ve ever stolen anything. Ask yourself, if you saw ten employee thefts a year, how many of them are likely to be first offences?
+** Note: This method is especially useful to combat optimism and overconfidence biases, or when evaluating outcomes of events you’re emotionally close to.
+
+* Emic vs etic (aka inside vs outside view; empathy vs stereotyping) – two perspectives you can choose when evaluating persuasive arguments. The inside view is time consuming and requires you to engage with the arguments on their merits. The outside view only requires you ask “what kind of person does sincerely believing this stuff turn you into?”
+** Corollary: You can usually predict correctness of arguments by evaluating superficial attributes of the people making them.
+** Example: If someone is wearing funny clothes, purports to know the one true way, and keeps talking about the glorious leader, you can usually dismiss their arguments without deeper examination.
+
+
+!! Decision making:
+
+* Inversion – the observation that many hard problems are best solved when they’re addressed backward. In other words figure out what you don’t want, avoid it, and you’ll get what you do want.
+** Corollary: Find out how people commonly fail doing what you do, and avoid failing like them.
+
+* Bias for action – in daily life many important decisions are easily reversible. It’s not enough to have information – it’s crucial to move quickly and recover if you were wrong, than to deliberate indefinitely.
+** Idiom: One test is worth a thousand expert opinions.
+** Idiom: The best thing you can do is the right thing, the next best thing is the wrong thing, and the worst thing you can do is nothing.
+
+* Expected value – a simple model for evaluating uncertain events (multiply the probability of the event by its value).
+** Example: Chance of winning NY lotto is 1 in 292,201,338 per game. Let’s say the grand prize is $150M and ticket price is $1. Then the expected value is roughly $0.5. Since $0.5 < $1, the model tells us the game isn’t worth playing.
+
+* Marginal utility
+** Example: The first car in your garage improves your life significantly more than the second one.
+
+* Strategy and tactics
+** Strategic decisions have long-term, gradual, and subtle effects (they’re a gift that keeps on giving). 
+** Tactical decisions are encapsulated into outcomes that have relatively quick binary resolutions (success or failure).
+
+
+!! People:
+
+* IQ, RQ, and EQ
+** intelligence quotient (assessment of the mind’s raw horse power)
+** rationality quotient (assessment of how well the mind’s models map to the real world; a measure of efficiency of the IQ’s application to real problems)
+** emotional quotient (ability to recognize and label emotions).
+
+* Social status – the observation (particularly in improv) that social status is so important to humans, that modeling status alone results in extremely realistic performances.
+** Corollary: Pay attention to how people perceive their own status, and break their expectations with caution.
+
+* Controlled vulnerability: – the observation that humans are attracted to confidently expressed vulnerability in others but are scared to be vulnerable themselves.
+** Corollary: Humans feel strong attraction towards others who confidently display vulnerability.
+** Corollary: Humans feel a strong desire to reciprocate vulnerability. Vulnerability expression by others gives them a sense of safety to express themselves, followed by a feeling of relief and a strong bond with the counterpary.
+
+* Mere-exposure effect – an observation that humans tend to develop a preference for things, people, and processes merely because they are familiar with them. This effect is much stronger than it initially seems.
+** Corollary: Merely putting people in a room together repeatedly, giving them a shared direction, symbology, and competition will create a group with very strong bonds.
+
+* Story arc – human beings are wired to respond to storytelling. A story arc is a way to structure ideas to tap into this response, typically by describing a change in the world.
+** Example: Once upon a time there was... Every day,... One day.... Because of that,.... Because of that,.... Until finally...
+
+* Writing Persuasively
+** Never use a long word where a short one will do. If it’s possible to cut a word out, always cut it out. 
+** Don’t hedge – decide what you want to say and say it as vigorously as possible. 
+
+* Nonviolent Communication (aka NVC) – a communication framework that allows expressing grievances and resolving conflicts in a non-confrontational way. Structuring difficult conversations as described in NVC makes the process dramatically less painful. 
+** NVC contains four components: (1) expressing facts, (2) expressing feelings, (3) expressing needs, and (4) making a request.
+** Example: You didn’t turn in the project yesterday. When that happened I felt betrayed. I need to be able to rely on you to have a productive relationship. In the future, could you notify me in advance if something like that happens?
+
+
+!! Policy:
+
+* Front page test – an ethical standard for behavior that evaluates each action through the lens of the media/outside world.
+** Example: What would happen if HN found out we’re mining our users’s IMs?
+
+* Unreasonable person principle
+** Beware people that are offensive or easily offended. (It usually turns out that people who possess one of these qualities, possess both.)
+** Note: unreasonable persons can be extremely valuable in greater society (e.g. journalists, comedians, whistleblowers, etc.), but usually not in small organizations.
+
+* Overton window – the range of ideas a particular group of people will accept. Ideas range in degree of acceptance from policy, to popular, sensible, acceptable, radical, and unthinkable.
+** Corollary: you need to be sensitive to the overton window when presenting the group with cultural changes.
+
+* Political capital – the trust and influence a leader wields with other people. Political capital increases when you make other people successful and decreases when you make unpopular decisions.
+
+
+!! Business:
+
+* Five forces – a model for analyzing the competitive intensity and therefore attractiveness of an industry. The five forces are: threat of new entrants, threat of substitutes, bargaining power of buyers, bargaining power of suppliers, and industry rivalry.
+** Note: this is essentially a base rate estimation model for companies in an industry.
+
+* Power of defaults – the observation that people favor the familiar over novel places, people, things, and processes. 
+** Corollary: Overcoming the familiarity heuristic at scale requires enormous activation energy unavailable to startups.
+** Corollary: It is dramatically easier to capture mindshare before people’s minds are made up, than to change their mind later.
+
+* Economies of scale – the advantages due to size or scale of operation, where cost per unit decreases with increasing scale.
+** See also: Network effects, brand equity, first mover advantage.
+
+* Price/performance curve – the observation that the price of important technology tends to drop and performance tends to improve over time.
+** Example: Moore’s Law (which is dead).

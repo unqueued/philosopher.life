@@ -1,0 +1,26 @@
+created: 20190710045235800
+modified: 20190710134954705
+tags: TWGGF Draft Josiah
+title: 2019.07.10 - TWGGF: Logic
+
+https://groups.google.com/forum/#!topic/tiddlywiki/e-CckwKS3cQ
+
+Forgive me if I bore you or you find this irrelevant. I hear First-Order Logic in what you are saying. I'm a bit rusty, so I'm gonna think out loud. Maybe you'll hear something valuable to you, and maybe you won't. Ignore this madman at will, please. 
+
+Functions are lower case, and predicates are capitalized. Sentences (i.e. propositions) have truth values. The identity symbol, "=", is logical (non-truth functional) predicate symbol. "∧" is conjunction.
+
+Father(arg1) is a predicate symbol which describes a fatherhood property of an object. "Father(jacob)" is a sentence which can be translated as: "Jacob is a father." 
+
+Married(arg1, arg2) is a predicate symbol which describes a marriage relationship between two objects. "Married(jacob, rachel)" is a sentence which can be translated as: "Jacob and Rachel are married." 
+
+"father(jacob)" is a function which maps to an object in our domain, but it doesn't form a sentence because it has no predicate. Function symbols allow us to form name-like terms from names and other name-like terms. Functions are expressions which bring about more complex or referring expressions. 
+
+"father(jacob) = isaac" is a sentence which can be translated as: "Jacob's father is Isaac."
+
+"abraham = father(father(jacob)" is a sentence which can be translated as: "Abraham is Jacob's Grandfather."
+
+Birthparents(arg1, arg2, arg3) is a predicate symbol which describes a birth-parental relationship between the objects of the first two arguments and the object of the last argument. "Birthparents(father(father(jacob)), mother(father(jacob)), isaac)" is a sentence which can be translated as: "Jacob's grandfather and grandmother are Isaac's birth-parents." We could also say, Birthparent(arg1, arg2) is a predicate symbol which describes a birth-parental relationship from the object of the first argument to the object of the second. This sentence is true in our supposed domain: "Birthparent(abraham, isaac) ∧ Birthparent(sarah, isaac)". 
+
+First-Order Logic is truth-functional logic with identity (usually) and quantifier symbols. Unfortunately, excepting the identity symbol, logical truths which are true in virtue of the meaning of predicates cannot be proven in First-Order Logic. For example: "All men who are not married are bachelors" is a logical truth because of the meanings of "married" and "bachelor," but it cannot be proven in [[FO]]L; that logical truth depends on how we model a Second-Order relationship between two First-Order predicates. You need to use [[SO]]L to quantify over a range of not only objects (picked out by terms) but also predicates (properties/relations) and functions applied to those objects.
+
+https://cs.nyu.edu/davise/rck

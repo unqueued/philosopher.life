@@ -1,0 +1,12 @@
+created: 20180202014807304
+modified: 20190326211908539
+tags: Atropos
+title: 2018.02.01 - Atropos: Kernel Integration
+
+* https://blog.apnic.net/2018/01/29/measuring-quic-vs-tcp-mobile-desktop/
+
+If Atropos is ever going to compete, it needs to be at the OS level. Userspace sucks in this regard. Ultimately, it may need to be written in C.<<ref "2019.03.26">>
+
+
+---
+<<footnotes "2019.03.26" "And/or [[Rust]]. C will have to come eventually, I take it.">>

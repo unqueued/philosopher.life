@@ -1,0 +1,21 @@
+created: 20181005211202377
+creator: h0p3
+modified: 20181020164416895
+modifier: h0p3
+tags: Letter PMario
+title: 2018.10.05 - PMario: Unilink
+
+Dear Mario,
+
+I wasn't sure if I should post on the forum or just contact you directly. I don't want to spam anyone (including you) with my problem here.
+
+I want to use https://wikilabs.github.io/editions/uni-link/ in https://philosopher.life/. I'm running into a problem where checking on References for a tiddler freezes the TW completely. I ended up getting an empty TW and exporting my tiddlers to it, and it was still freezing. I think at least one of two things is happening:
+
+* I have too many tiddlers (~6400 right now)
+* There is a problem(s) tiddler which is causing this. I have no idea what to look for though.
+
+I know this isn't your problem to solve, and I'm grateful for the tool you've freely given to us. Do you know any idea how to solve this problem?
+
+Sincerely,
+
+h0p3

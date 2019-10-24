@@ -1,0 +1,25 @@
+created: 20170924230110804
+modified: 20190705060044810
+revision: 0
+tags: [[Wiki Audit]]
+title: 2017.10.06 - Wiki Audit: Left Sidebar
+
+I want a tree structure:
+
+* http://treeview.tiddlyspot.com/
+* http://listtree.tiddlyspot.com/
+
+Also, want to be able to collapse it like the right side:
+
+* http://tw5topleft.tiddlyspot.com/ 
+* http://leftbar.tiddlyspot.com/
+
+I also want to make it so collapsing doesn't change the center text at all.
+
+---
+
+* A menu
+** Tree or other.
+* 5-day streak topics
+* A compilation of the top 10 recently edited links in the past 100 (or 1000) links which are not on the streak list.
+* Start New Log, button?

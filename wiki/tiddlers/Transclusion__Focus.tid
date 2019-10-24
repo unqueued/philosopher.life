@@ -1,0 +1,25 @@
+aliases: [[Hub]]
+caption: Hub
+created: 20171008194902280
+creator: h0p3
+modified: 20190709200457223
+modifier: h0p3
+revision: 0
+tags: $:/tags/SideBar
+title: Transclusion: Focus
+
+[[Core Daily Requirement]]:
+
+{{Core Daily Requirement}}
+
+[[Frequent Logs]] & [[Projects|Frequent Projects]]:
+
+<<list-links "[tag[Frequent Log]][tag[Frequent Project]]+[sort[title]]">>
+
+[[Recent Obsessions]]:
+
+<<list-links "[tag[Recent Obsession]]+[sort[title]]">>
+
+[[Lifetime Projects]]:
+
+{{Lifetime Projects}}

@@ -1,0 +1,149 @@
+created: 20180704164928613
+creator: h0p3
+modified: 20181031035931166
+modifier: h0p3
+tags: Tulane
+title: 2013.03.14 - Skepticism: Clark
+
+Quine’s ‘naturalized epstiemology’ rests on the denial of an ‘external, detached position’ from which to conduct the skeptical inquiry. Everything, including everyday knowledge, language, and thought are natural, scientific phenomena.
+
+That there are prime numbers is a question or a mathematician. The acceptance of the realm of numbers is a question of the philosopher. Philosophy differs only in the “breadth of categories”.
+
+The external world is a hypothesis tested by perception.
+
+Theory of language is vital to theory of knowledge because…
+
+Is scientifically justified belief going to count as knowledge? I don’t know. I want it to count, in some ways.
+
+The challenge against our knowledge of the world rests upon that knowledge of the world.
+
+Skeptical doubts are scientific doubts.
+
+Naturalized epistemology is all we have and all we ever need.
+
+Quine is not claiming the skeptic is begging the question. He seems to be conceding that one could start with a scientific-skeptical doubt and arrive at a reductio. But, why does this make sense? Refuting a standard by that standard seems reasonable, but is that the same thing as agreeing to the non-existence of the standard by justifying it with that standard?
+
+Sensory data is meager, and it can’t support out beliefs about the world…
+
+The skeptic is overreacting. It is a form of extremism. Skeptic is right to put it forward though. We don’t have, at the moment, a good reason to reject science on the skeptic’s grounds.
+
+“We must be able to establish some connection between the truth of what they believe and their believing is. Knowing only what they believe, or even that what they believe happens to be true, would not be enough.”
+
+“I could not see those beliefs as anything more than a mere projection or post on his part. That is not to say that I would be in a position to say that they are nothing more than a mere projection and that they are not really true. I couldn't tell that either. It is just that I would not be in a position to see them as more than that”
+
+---
+
+
+
+Quine is concerned to define or give an account of analyticity. One major ploy is to define analyticity in terms of synonymy. The general strategy would be to hold that:
+
+
+A sentence is analytic if and only if it can be reduced to a logical truth by substituting synonyms for synonyms.
+
+
+Call this “the synonymy criterion.” Here is an example of how it works: We want the following to be analytic:
+
+
+(2) No bachelor is married.
+
+
+Using the synonymy criterion, we substitute “unmarried man” for “bachelor” and get the following logical truth:
+
+
+(1) No unmarried man is married.
+
+
+But Quine worries: what is synonymy? One attempt to spell out synonym is to say that:
+
+
+Two predicates F and G are synonymous just in case the sentence “All and only F's are G's” is analytic.
+
+But then the definition of synonymy presupposes the notion of analyticity, and thus synonymy cannot be usefully employed in spelling out analyticity. So Quine tries another track:
+
+
+(3) Two terms are synonymous just in case they are interchangeable salva veritatae (.e., without change of truth value) in all contexts.
+
+
+E.g. [George is an unmarried man] and [George is a bachelor]
+
+
+Now, Quine discusses some problems with this that have to do with substitution of words for parts of words or phrases, and with substitution inside quotation marks. To explain the analyticity of (2) using the synonymy criterion, we had to treat “bachelor” and “unmarried man” as synonymous. Can “bachelor” and “unmarried man” be shown to be synonymous using (3)? Suppose that the following sentence is true:
+
+
+(4) Bachelor's buttons are my favorite flowers.
+
+
+(“Bachelor's buttons is here being used to refer to a kind of flower.)
+
+Substituting “unmarried man” for “bachelor” in (4), I get:
+
+
+(5) Unmarried man's buttons are my favorite flowers.
+
+
+Insofar as this is grammatical, it is clearly false. So substituting synonyms for synonyms has not preserved truth value, and thus is seems clear that (3) does not provide a good test of synonymy.
+
+
+To avoid this problem, Quine grants that we can use the notion of “word” for granted, and stipulates that (3) is to be read insuch a way that we are not allowed to interchange occurrences within a word. By treating “bachelor's buttons” as a single word, we are thereby able to avoid the problem just raised. Note that to grant th notion of “word” is not to grant something trivial. The notion of something's being a word, insofar as it is intended to be not a mere sign design, but a sign design with a specific meaning, might itself be spelled out in terms of synonymy. In particular to say that two tokens are tokens of the same word type, we might have to require that they be synonymous. So spelling out how the notion of “word” is to be applied to individual instances may require some notion of synonymy.
+
+
+Quine wants to argue that spelling out synonymy using (3) ultimately involves spelling it out via the notion of necessity, and that spelling out necessity involves using the notion of analyticity; hence, once again, we have a circular explanation.
+
+
+The argument goes like this. Suppose we considered a language that did not include the operator “necessarily.” Suppose, moreover, that it was a language in which two predicates are treated as having the same meaning if they have the same extension (i.e., if they are true of the same objects). Now, is such a language, “creature with a heart” and “creature with a kidney” are synonymous, since they have the same extension at the actual world. Consider these two sentences:
+
+
+(6) Some creatures with a heart are birds.
+
+
+(7) Some creatures with a kidney are birds.
+
+
+We substitute “creatures with kidney” for “creatures with a heart” in (6), and get (7). Truth-value is preserved. So far, “Creature with a heart” and “creature with a kidney” are synonyms, according to the test provided by (3). Now consider these two:
+
+
+(8) All and only creatures with a heart are creatures with a kidney.
+
+
+(9) All and only creatures with a heart are creatures with a heart.
+
+
+Here, substitution of “creature with a heart” for “creature with a kidney” in (8) results in (9), and truth value is again preserved.
+
+
+But now the problem is staring us in the face. Substitution of synonym for synonym in (8), in a purely extensional language, resulted in a logical truth (9). By the synonym criterion of analyticity, we would have to treat (8) in analytic. But we do not want to do that in our language, and, indeed, in our language, we do not want to treat “creature with a heart” and “creature with a kidney” as synonymous. What must we add to extensional language in order to save the test provided by (3)? Quine's answer: we add a necessity operator.
+
+
+How does adding the necessity operator give us the kind of necessity we want? We want to say that “bachelor” and “unmarried man” are synonyms, but “creature with a heart” and “creature with a kidney” are not. Now consider these four sentences:
+
+
+(10) Necessarily, all and only unmarried men are bachelors.
+
+
+(11) Necessarily, all and only bachelors are bachelors.
+
+
+(12) Necessarily, all and only creatures with a heart are creatures with a kidney
+
+
+(13) Necessarily, all and only creatures with a kidney are creatures with a kidney.
+
+
+(11) results from (10) by substituting “bachelors” for “unmarried men,” and truth value is preserved. By (3), “bachelor” and “unmarried man” are synonyms, which is the result we wanted. (Following Quine, I'm not being picky about singular versus plural.) Substituting “creature with a kidney” for “creature with a heart” in (12) results in (13). But truth value is not preserved: (12) is false and (13) is true, at least according to standard ways of thinking. So “creature with a kidney” and “creature with a heart” fail the test for synonymy provided by (3), which is just what we want.
+
+
+The lesson so far: Given that one has a necessity operator in one's language, one can spell out analyticity in terms of the synonymy criterion, and then spell out synonymy in terms of interchangeability salva veritatae.
+
+
+But now, says Quine, there is a problem. How are we to understand the necessity operator? For Quine, thinking in the empiricist tradition, the only way one can understand necessity is in terms of how we talk or think about the world, not in terms of how the world is in itself. And the way to do this, in modern discussion, is to spell out necessity in terms of analyticity. SO “Necessarily” just means “it is analytic that.” Now the lesson appears to be: when we spell out analyticity via the synonym criterion and then spell out synonymy in terms of interchangeability salva veritatae, we have to appeal to contexts involving the necessity operator. But, since the necessity operator itself can only be understood in terms of analyticity, a circular pattern of definition once again appears. The general lesson of this discussion is that analyticity can be defined, but only in terms that are ultimately to be understood in terms of the notion of analyticity. So the suggested definition are uninformative.
+
+
+---
+
+
+
+If I’ve understood correctly:
+
+Quine’s naturalized epistemology denies an external, detached position from which to conduct the skeptical inquiry. Everything, including everyday knowledge, language, and thought are natural, scientific phenomena. The external world is a hypothesis we form through perception, and skeptical doubts are scientific doubts about that hypothesis. Skeptical inquiry is a scientific, and so the skeptic’s position must be internal to the scientific perspective rather than external.
+
+I'm struck by the raw potency of scientific inquiry and the supposed necessity of the naturalist position in Quine’s theory. The line of reasoning is odd to me. Why should we think science has this power and why is it the fundamental epistemic perspective? Why should we agree to a natural epistemology? Why should I think Quine's starting position is the right one? It seems like we should be worried about the limits of science, about what kinds of knowledge can be had from science, and it seems very unobvious why the skeptic’s argument has anything to do with the realm of science.

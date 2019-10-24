@@ -1,0 +1,21 @@
+created: 20170520043234188
+creator: h0p3
+modified: 20181121172811142
+modifier: h0p3
+revision: 0
+tags: [[Realpolitik Speculation]] RPIN
+title: 2017.05.20 - Realpolitik Speculation: The Coming Demise of Windows
+
+It's been on a deathspiral for a long time.<<ref "2018.11.21">> The ecosystem is vast. Larger than anything in history so far. Its legacy is truly something to behold, and its ability to run legacy software alongside its profound influence over personal computing has kept it at the head of the pack for a long time. 
+
+Mobile computing was the knock-down. The inescapable security flaws in its unupdatable or unupdated software will eventually be its knockout. At this point, you can only VM sandbox it.
+
+Here's the kicker: powershell and POSIX compliant virtualization makes life easy for hackers. They break into the machine, and now they are just fucking handed everything on a platter. Windows was built on the wizardry of protecting the user from themselves, and that at least added some speedbumps to the effectiveness of malware. This is adding fuel to the fire. It is ironic that the push towards usability for Power Users ultimately serves to highlight its weaknesses.
+
+It is unclear what paths are available. Some of their research work has been outstanding. Their willingness to bring decent hardware to the market when Apple won't allow them to survive in a different kind of Walled Garden niche as well. Windows in its standard incarnations, however, will die.
+
+I want to say, Fare thee well. But, it's dying a slow death. And with it, many lives will be ruined. Computers are tools deeply integrated into the fabric of our lives. Our identities, finances, communications, access, and mobility are all tied to our boxes. Those relying upon Windows will continue to feel the beatdown. M$ never did give a shit about you and me though. Consider it a form of planned obsolescence.
+
+
+---
+<<footnotes "2018.11.21" "Meh. Whatever. I think most people really just want thinclients in the end. They also still own gaming for now.">>

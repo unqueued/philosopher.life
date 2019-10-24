@@ -1,0 +1,31 @@
+created: 20190111043409289
+modified: 20190111045743341
+tags: BurningTreeC
+title: 2019.01.10 - BurningTreeC: TW5-Navigator
+
+Hey BurningTreeC,
+
+I've finally managed to install TW5-Navigator (long story, but I've jumped through a bunch of hoops to get here). Thank you for making this beautiful tool. I've been waiting for months, and I'm so excited!
+
+I couldn't initially get it to work. I was getting the following error message:
+
+<<<
+Internal JavaScript Error
+Well, this is embarrassing. It is recommended that you restart TiddlyWiki by refreshing your browser
+TypeError: this.cancel is not a function
+<<<
+
+I eventually figured out I needed to disable the following plugins:
+
+* $:/plugins/tobibeer/appear
+* $:/plugins/tobibeer/preview
+
+This makes me sad, but that's okay. I use that plugin pair often enough in my workflow (sometimes a mouse is the best tool!), and I think it's useful for some people who are trying to navigate the sprawling the nature of my wiki. If I'm forced to give up that functionality to keep your plugin, I will. Do you know of a way to gain this functionality back without losing compatibility with your amazing tool?
+
+Problematically, even with tobibeer's plugins disabled, TW5-Navigator isn't really working correctly (not like the demo). I'm wondering if it has anything to do with my stylesheets: <<tag [[$:/tags/Stylesheet]]>>. I have no idea how to solve this problem; I don't even know where to begin.
+
+Obviously, you don't owe me anything; you've been generous to provide this tool to the community. If I can't get it to work, that's my problem. I'm asking without any sense of entitlement here: could you help me get TW5-Navigator to work on my wiki (https://philosopher.life)? 
+
+Sincerely,
+
+[[h0p3]]

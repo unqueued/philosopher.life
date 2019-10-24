@@ -1,0 +1,25 @@
+created: 20190717175620469
+modified: 20190801163008886
+tags: TWGGF Jibberjabber
+title: TWGGF: Jibberjabber
+
+; 2019.08.01 - [[@Josiah|https://groups.google.com/forum/#!topic/tiddlywiki/WMpCLVaQP1I]]
+
+I am very interested in this problem. Technology is a double-edged sword; it is only ever a means. What ends do you prescribe? TW does something valuable in this space. What should it be? Where ought we go? 
+
+; 2019.07.25 - [[@Mohammad|https://groups.google.com/d/msg/tiddlywiki/8nE1fa1YUis/3IUYiZs7DwAJ]]
+
+That is fucked up. I'm sorry. If I can be of use to you, please let me know.
+
+Yours,
+
+[[h0p3]]
+
+; 2019.07.17 - [[@Mohammad|https://groups.google.com/forum/#!topic/tiddlywiki/GPCpShBbaYA]]
+
+This is magnificent. It has all the functions I need, it just werx intuitively, namespaces are a godsend, it doesn't show me more than I need, and it fits my sidebar automagically. I finally have a reason to stop building my stupid TDLs by hand. This is another brilliant stunner you've built. I can tell you've put a lot of thought into this; I love the design. Thank you for your gift to us. I have no criticism, but I have some feedback which might be useless to you (if so, sorry). 
+
+* I see that it probably isn't possible to manually move items up and down the list in the way that I can arrange objects on the toolbar in the "Open" sidebar tab. Assuming it is safe, I'm still going to make some kind of ghetto button to be able to manually edit the json in $:/plugins/kookma/todolist/data/foobar/tasks. This is what I want to know: I see the members of the list are timestamped, and (if at all) is it a problem for me to put them out of creation order?
+* Is it possible to create trees and move entire branches?
+** Manually nested metadata and notes to my [[TDL]]s have been valuable. 
+* I just can't use any of the calendars in TW. If there are trees and way to automate the ordering (e.g. YYYY.MM.DD @HH:MM), this tool is a calendar.

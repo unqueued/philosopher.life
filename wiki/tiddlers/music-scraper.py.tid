@@ -1,0 +1,54 @@
+created: 20180719015510867
+creator: h0p3
+modified: 20180719015515005
+modifier: h0p3
+title: music-scraper.py
+
+```python
+#!/usr/bin/python
+
+#Before running this script, make sure you install BeautifulSoup!
+#You only need to run "sudo pip install beautifulsoup4", and that has all the extra tools for the script.
+#You should also place this script in its own directory - all the files download to the current directory, and you don't wan't a huge mess.
+#It already cleans up, so the only files in the directory after it's fully run should be the script itself and your music files.
+
+###
+
+#Import required functions
+from bs4 import BeautifulSoup
+from os import system
+
+#Get the index.html file from philosopher.life
+system("wget https://philosopher.life/index.html")
+
+#Set up a parser for the index file
+with open("index.html") as f:
+    soup = BeautifulSoup(f.read(), "html.parser")
+
+#Parse for the tiddler "Music: Library"
+output = soup.find_all('div', attrs={'title': 'Music: Library'})
+
+#Make a file to parse through
+system("touch input.txt")
+
+#Open it and throw the tiddler in
+file = open('input.txt', 'w')
+file.write(str(output))
+file.close()
+
+#Open that file back up and get the links out
+with open("input.txt", "r+") as inp:
+        for line in inp:
+            if "#*" in line:
+                if "https://" in line or "http://" in line:
+                    line = line.split('|', 1)[-1]
+                    line = line.replace("]", "")
+                    system("cd ~/stage/music && you-get " + line)
+
+#Convert to mp3
+system('cd ~/stage/music && yes n | for f in *; do ffmpeg -i "$f" -c:a libmp3lame "/home/h0p3/Sync/Media/Music/${f%.*}.mp3"; done')
+
+#Clean up
+system("rm input.txt")
+system("rm index.html")
+```

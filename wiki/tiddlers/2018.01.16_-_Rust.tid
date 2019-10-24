@@ -1,0 +1,35 @@
+created: 20180116175916182
+modified: 20190322041735451
+revision: 0
+tags: Rabbitholed Rust
+title: 2018.01.16 - Rust
+
+* Joined Rust IRC Channels
+* Joined Rust User Forum
+* Joined Rust Discord
+* Setup a quick bookmark folder in browser
+* Made a stackoverflow account, finally.
+
+---
+
+* https://manishearth.github.io/blog/2018/01/10/whats-tokio-and-async-io-all-about/
+* https://en.wikipedia.org/wiki/C10k_problem
+* https://www.techopedia.com/dictionary
+** -=] Rabbitholed [=-<<ref "2019.03.22">>
+* https://www.techopedia.com/definition/16447/state-machine
+* http://whatis.techtarget.com/definition/state-machine
+* https://www.rust-lang.org/en-US/faq.html
+* https://manishearth.github.io/blog/2015/09/01/designing-a-gc-in-rust/
+* https://stackoverflow.com/questions/2181135/finite-state-machine-bad-design
+* http://utf8everywhere.org/
+* https://www.quora.com/What-is-coercion-in-programming-languages
+* https://developer.mozilla.org/en-US/docs/Glossary/Signature/Function
+* https://en.wikipedia.org/wiki/Null_pointer
+* https://www.reddit.com/r/rust/comments/5u6e6f/graphical_depiction_of_ownership_and_borrowing_in/
+* https://blog.rust-lang.org/2015/05/11/traits.html
+** I need to come back to read this one.
+* https://aturon.github.io/blog/2016/08/11/futures/
+
+
+---
+<<footnotes "2019.03.22" "The distinctions never quite made it. I'm glad I still tried to find it. Something, something, underspecifying is sometimes better.">>

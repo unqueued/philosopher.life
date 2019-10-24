@@ -1,0 +1,23 @@
+created: 20180424014017872
+modified: 20181029175224786
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.04.23 - Computer Musings: DNS Hijacking
+
+I'm very confused. It took me a bit to find how to actually set custom DNS on my interfaces in OpenWRT. I did. I checked /tmp/resolv.conf.auto and /tmp/etc/dnsmasq.conf. Both are showing 2001:4860:4860::8888 and 8.8.8.8 as my DNS servers. The fucking system log in OpenWRT is showing requests sent to these. I'm trying multiple devices on my network. 
+
+VPN works for ipv4, it routes differently. ipv6 does not. I'm clearly messing something up.
+
+The phone seems to work though (although, it bypasses ipv6 for the test that I tried; I didn't do much of a test). There must be something wrong in my OS then? 
+
+I think this is something on my OS. 
+
+Something is hijacking my DNS, whether by my own hand or other.
+
+Another reason to think it's my OS, my network manager is not allowing me to force manual DNS.
+
+* http://ipv6-test.com/
+* http://test-ipv6.com/
+* https://ipleak.net/
+
+Alright, it looks like Charter/Spectrum isn't ipv6 capable. God damnit!

@@ -1,0 +1,50 @@
+created: 20180804035620227
+creator: h0p3
+modified: 20181010235055502
+modifier: h0p3
+tags: Xonsh [[One-Time Script]]
+title: hash-convert-snapshots-zst.xsh
+
+```python
+#!/usr/bin/xonsh
+
+### Yeah, this badboy fixed two problems I've had laying around for quite a while.
+### I <3 xonsh so much...
+
+import nacl.encoding
+import nacl.signing
+import nacl.hash
+import binascii
+
+cd /home/h0p3/stage/Wiki-Snapshots-Stage
+mkdir output
+
+a = $(ls).splitlines()
+
+for i in a:
+    mkdir tmp
+    $HTML = i
+    cp -f $HTML ./tmp/$HTML
+    cd tmp
+
+    # Key derived from ...
+    signing_key_hex = "FOOBAR"
+    signing_key = nacl.signing.SigningKey(signing_key_hex, encoder=nacl.encoding.HexEncoder)
+
+    # Hash index.html
+    with open(i, 'r') as index_file:
+        data=index_file.read().encode()
+    checksum = nacl.hash.sha256(data, encoder=nacl.encoding.HexEncoder)
+
+    # Sign checksum, write checksum and signature to index.html.sig file
+    signed = signing_key.sign(checksum)
+    with open(i +".sig", "w") as text_file:
+        text_file.write(checksum.decode() + '\n' + binascii.hexlify(signed).decode())
+
+    tar cf $HTML.tar $HTML $HTML.sig 
+    zstd -f -19 -T7 $HTML.tar
+
+    mv $HTML.tar.zst ../output/$HTML.tar.zst
+    cd ..
+    rm -r tmp
+```

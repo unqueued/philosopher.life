@@ -1,0 +1,69 @@
+created: 20170313001652016
+modified: 20181031035931165
+modifier: h0p3
+revision: 0
+tags: Tulane
+title: 2013.02.13 - Pyrrhonian Problematic as the Regress Problem
+
+In “The Pyrrhonian Problematic,” Markus Lammenranta elucidates various approaches or versions of the Pyrrhonian Problematic. He considers three interpretations of it. He argues that the first two interpretations are not problematic at all, as they do not ordinarily and on a wide-scale “induce suspension of belief,” but that the last interpretation actually does pose a significant skeptical challenge to modern philosophers.<<ref "1">>
+
+The first interpretation points to the impossibility of finite beings having justified beliefs via the regress problem found in the five modes of Agrippa.<<ref "2">> The second interpretation, what Lammenranta calls the “Practical Problem,” claims that because all opposing arguments are equipollent (have equal force or merit), one can’t decide which arguments should be believed, and thus one should suspend all beliefs.<<ref "3">> The third interpretation, the “Dialectical Problem,” stems from the worry that we cannot resolve disagreements in the dialectic without resorting to question begging, a practice which he considers to be normatively and/or rationally unacceptable, and thus the dialectic becomes at least unsatisfactory if not outright impotent.<<ref "4">>
+
+I can’t hope to provide my thoughts on Lammenranta’s arguments concerning each of these interpretations in the space I have, so I will concentrate on the first interpretation. I’m going to explicate Lammenranta’s argument, offer questions of various steps along the way, and consider whether or not he is right in thinking that the regress problem fails to pose a serious skeptical challenge because it does not ordinarily induce wide-scale suspension of belief.
+
+Naively, the broad version of the skeptical problem goes:
+
+# If we are not justified in believing anything, then we should suspend our beliefs and not believe anything.<<ref "5">>
+# We are not justified in believing anything.
+# Thus, we should suspend our beliefs and not believe anything.
+
+Before we can even get to why one would agree to the controversial second premise, and essentially before the nuts and bolts of this argument (which support the premises) can be pieced together, we should be worried already about the overall goal and nature of the argument. Obviously, this broad argument is self-refuting, as by the conclusion, the propositions themselves are not to be believed. Our initial inclination may be to dismiss any attempt to make this broad argument in virtue of the self-refutation alone.
+
+Instead of dumping the argument entirely, Lammenranta points out that this is part of the dialectic strategy of the Pyrrhonian skeptics, who merely employ the argument using propositions and arguments that we, the dogmatists, are willing to accept. Supposedly, this dialectical move does not pose a problem for the skeptic, but does pose a problem or paradox for the dogmatist who may be willing to accept the premises and the form of the argument, but not the conclusion. 
+
+Does the dialectical move really not pose a problem for the skeptic? If so, does it matter? Is the regress problem possibly like a “ladder that we throw away once we have climbed up it?”<<ref "6">> This self-refuting move reminds me of standard, introductory interpretations and criticisms of relativism. Admittedly, I don’t see why one would engage in the dialectic at all as a skeptic, and yet perpetual inquiry does seem to be at the heart of Pyrrhonianism. What reasons or justified beliefs could they give for inquiry and engaging in the dialectic? I don’t know. 
+
+Further, even when we might be inclined to suspend all of our beliefs, it may be part of the ordinary human condition that we form and hold beliefs. In this case, the skeptic may argue that we sit in a cycle whereby we toggle between the suspension of beliefs and the formation of beliefs. Perhaps the skeptic is in the business of building, climbing up, and disposing of ladders. As Lammenranta points out, even if we are caught in some skeptical cycle, it would be plenty destabilizing to our beliefs and a serious epistemic challenge.
+
+Perhaps these concerns don’t really matter, as ultimately the dogmatist should be most worried about whether or not the argument is really challenging his own view, without considering how it impacts or works for the skeptic. If the skeptic is right, it doesn’t really matter how it works for the skeptic, does it? 
+
+Even if we don’t agree or accept this broader argument, we can at least hope to gain some insight into which theories of justified belief are in a better position to explain the force of this skeptical argument and perhaps where it goes wrong. Since the form of the broad argument is valid, let us set aside the self-refutation issue and focus upon the premises. Why should we agree to the first premise? 
+
+One should only hold a belief which is justified. It isn’t clear exactly how we should understand “should” here. Is it an ethical obligation, an epistemic obligation, or both?<<ref "7">> For example, maybe we have an epistemic duty not to hold an unjustified belief, but ethically we do. I don’t know. Admittedly, several interpretations of this premise are very compelling. Unjustified beliefs seem arbitrary, unuseful, and both practically and theoretically unacceptable. This premise may not get as much attention or support as it deserves, and that’s probably because we have strong intuitions which favor it.
+
+In support of the second premise of the broad argument, the Pyrrhonian skeptic employs the narrower regress problem. Lammenranta explains:
+
+# In order to be justified in believing something, one must believe it on the basis of good reasons.
+# Good reasons must themselves be justified beliefs.
+# Therefore, in order to be justified in believing something, one must believe it on the basis of an infinite number of good reasons.
+# No human being can have an infinite number of good reasons.
+# Therefore, it is humanly impossible to have justified beliefs.<<ref "8">>
+
+This regress argument provides compelling support for the second premise of the broader skeptical argument. Defeating the regress argument is important, and many theories try to resolve the problem. Coherentists do not need to agree to the third premise, agreeing to infinitism because beliefs and reasons are justified through a finite circularity. Foundationalists deny the first premise because the chain of justification ultimately boils down to basic beliefs which don’t themselves require further justification. Lammenranta claims that epistemic contextualists can deny the second premise because “the chain of good reasons can terminate in beliefs that are not themselves justified.”<<ref "9">> Of these three approaches, the contextualist’s denial remains the only confusing one to me.  Lammenranta’s explanation of why the contextualist can deny the second premise seems to be just the outright denial of the second premise. 
+
+Perhaps I just don’t understand contextualism.<<ref "10">> Contextualism doesn’t exactly seem to be a theory of justified belief in quite the same way as coherentism and foundationalism, but rather a theory of semantics and the use of language in attributing knowledge. In this theory, claims to knowledge are true or false based upon the context in which they are uttered. So, while the proposition “X knows p” in context S1 may be true, the same claim may be false in context S2. 
+
+The contextualist’s response to this problem of skepticism seems to be that within the context of skepticism, which has very high epistemic standards, all (or most all) propositions “X knows p” are indeed false. However, in other contexts which don’t have such high epistemic standards, which may be most contexts, propositions of the sort “X knows p” can be true. 
+
+Beliefs are justified in virtue of the context in which they are considered. I don’t think the contextualist is claiming that in all contexts the second premise should be denied, unlike the denial of the first premise by the foundationalist or the third premise/conclusion by the coherentist. In the context of skepticism, premise two seems acceptable, and thus the regress may hold, and thus the broader argument may also hold. The contextualist avoids skepticism in most contexts by embracing skepticism only in the context of skepticism and disregarding it in other contexts. The second premise seems to be denied only most of the time, but not always. Generally, good reasons are not justified by other beliefs but rather by the context.
+In any case, these theories address the regress by denying premises which allow them to deny what Lammenranta calls infinitism. He believes it is the skeptic’s job to show why infinitism (regarding this chain of justification) is plausible at all.
+
+In our ordinary “practice of giving and asking for reasons,” we find that justification is finite. It isn’t appropriate or normal to continue asking ad infinitum “Why?” and “What justifies that belief?” in the everyday sort of language game.<<ref "11">> The skeptic, however, is convinced that we should continue asking for justification, even when ordinarily we don’t. Hence, the skeptic pushes for infinitism. Lammenranta also considers the possibility that a skeptic may find infinitism true even in the case of foundationalism. 
+
+Lammenranta concludes that because the skeptic isn’t adhering to ordinary practices of giving and asking for reasons, and because our usual justificational practice isn’t concerned with the skeptic’s standards at all, we should not take seriously the skeptic’s inappropriately high epistemic requirements. Essentially, at least from Lammenranta’s perspective, the Pyrrhonian regress problem should not induce wide-scale suspension of belief because our ordinary epistemic practices aren’t concerned with the skeptic’s inquiry. 
+
+I don’t know if he is right about this. Just because the regress problem does not ordinarily induce wide-scale suspension of belief does not clearly demonstrate that it isn’t a serious skeptical challenge. Why isn’t a serious challenge for a philosopher, which the regress problem seems to be if the various possible solutions (e.g. foundationalism) don’t work, not also a serious challenge for ordinary folks? Also, just because skeptical arguments don’t, as an empirical fact, actually cause us to suspend all our beliefs doesn’t mean that we shouldn’t suspend all our beliefs. What we ‘should do’ and what we ‘actually do’ are different, and I think the skeptic is pointing out what we should do, while Lammenranta is pointing toward what we actually do. Perhaps Lammenranta is ultimately, although not explicitly, employing a contextualist sort of argument. 
+
+------
+
+<<footnotes "1" "Markus Lammenranta, 'The Pyrrhonian Problematic,' in //The Oxford Handbook of Skepticism//, ed. John Greco (Oxford: Oxford University Press, 2008): 9-10">>
+<<footnotes "2" "Ibid. 10">>
+<<footnotes "3" "Ibid. 13">>
+<<footnotes "4" "Ibid. 18">>
+<<footnotes "5" "Ibid. 10">>
+<<footnotes "6" "Ibid. 11">>
+<<footnotes "7" "We need to consider how those pieces fit together as well.">>
+<<footnotes "8" "Ibid. 11">>
+<<footnotes "9" "Ibid. 11-12">>
+<<footnotes "10" "Be patient and lenient with me, please.">>
+<<footnotes "11" "Ibid. 12">>

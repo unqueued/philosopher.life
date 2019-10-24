@@ -1,0 +1,13 @@
+created: 20180122134558859
+modified: 20180126033832265
+revision: 0
+title: Rust: Source Code
+type: text/vnd.tiddlywiki
+
+* [[convert_temps.rs]]
+* [[remove_vowel.rs]]
+* [[borrow_reference_slice.rs]]
+* [[mutable_borrow_example.rs]]
+* [[guessing_game.rs]]
+* [[fibonacci.rs]]
+* [[twelve_days_xmas.rs]]

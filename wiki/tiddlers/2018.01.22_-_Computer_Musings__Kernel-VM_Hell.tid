@@ -1,0 +1,21 @@
+created: 20180122152427965
+modified: 20190323152521066
+modifier: h0p3
+revision: 0
+tags: [[Computer Musings]]
+title: 2018.01.22 - Computer Musings: Kernel-VM Hell
+type: text/vnd.tiddlywiki
+
+I failed to restart upon kernel update. I think I'm missing kernel headers, so VMware won't work. Having ipv6 problems on top of not being able to actually download anything from mirrors. Updated mirrors and reset router (because my ISP decides to give me ipv4 when I do that). Trying everything. Nothing is working. This is a beast of a problem.
+
+Clusterfuck of a day.
+
+I've reverted to an older kernel. Didn't boot the first couple times. Couldn't reach TTY, so couldn't even rollback with timeshift. It works. Removed newest kernel. Uninstalled VMWare. Went to do it again, but this time I can't install ncurses, again. The gpg keys (the worst fucking system I have ever seen) are a mess; finally got this:
+
+`gpg --keyserver keys.gnupg.net --recv-keys 702353E0F7E48EDB`
+
+I put stuff in Dropbox and went to Teamviewer, but my wife's configuration obviously isn't working. She didn't have time to fix it. So, even my plan B's and C's aren't working.
+
+I've ever tried importing them into other editors. No such luck. 
+
+I haven't been this pissed in a long time.

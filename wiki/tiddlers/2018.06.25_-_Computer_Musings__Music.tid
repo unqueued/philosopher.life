@@ -1,0 +1,12 @@
+created: 20180625210512551
+creator: h0p3
+modified: 20181029175224789
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.06.25 - Computer Musings: Music
+
+I found a problem in [[Music: Library]], and I had to go back into my own snapshots to fix it. My CnP method fucked up, and so I used Diffuse to compare.
+
+Note that archive.org failed me!
+
+`sudo pacman -S diffuse`

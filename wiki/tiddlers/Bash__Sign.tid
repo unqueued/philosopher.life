@@ -1,0 +1,24 @@
+created: 20171216014355428
+modified: 20180123155319613
+revision: 0
+title: Bash: Sign
+type: text/vnd.tiddlywiki
+
+```bash
+#!/bin/bash
+#Fuck you, crontab!
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin::~/bin
+
+# logfile timestamp
+date +"%Y.%m.%d-%T"
+
+# build index.html from .tid files
+tiddlywiki /home/h0p3/Syncs/Dropbox/philosopher.life/npm-tiddlywiki --build index
+yes | cp /home/h0p3/Syncs/Dropbox/philosopher.life/npm-tiddlywiki/output/index.html /home/h0p3/Syncs/Dropbox/philosopher.life/var-www-html/index.html
+
+# hash and sign
+cd /home/h0p3/Syncs/Dropbox/philosopher.life/var-www-html/
+hashfile -a sha512 index.html > index.html.sum
+/home/h0p3/scripts/wiki-sign.py
+
+```

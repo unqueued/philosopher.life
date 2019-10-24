@@ -1,0 +1,9 @@
+created: 20171208224027094
+creator: h0p3
+list: $:/core/ui/Buttons/more-page-actions $:/core/ui/Buttons/close-all $:/core/ui/Buttons/full-screen $:/core/ui/Buttons/import $:/core/ui/Buttons/new-tiddler $:/core/ui/Buttons/control-panel $:/core/ui/Buttons/save-wiki $:/core/ui/Buttons/new-journal $:/plugins/tiddlywiki/markdown/new-markdown-button $:/core/ui/Buttons/home $:/core/ui/Buttons/unfold-all $:/core/ui/Buttons/manager $:/core/ui/Buttons/fold-all $:/core/ui/Buttons/permaview $:/core/ui/Buttons/new-image $:/core/ui/Buttons/export-page $:/core/ui/Buttons/advanced-search $:/core/ui/Buttons/tag-manager $:/core/ui/Buttons/language $:/core/ui/Buttons/palette $:/core/ui/Buttons/theme $:/core/ui/Buttons/storyview $:/core/ui/Buttons/encryption $:/core/ui/Buttons/timestamp $:/core/ui/Buttons/print $:/core/ui/Buttons/refresh [[firmcode-all button]]
+modified: 20190610014728764
+modifier: h0p3
+revision: 0
+tags: 
+title: $:/tags/PageControls
+

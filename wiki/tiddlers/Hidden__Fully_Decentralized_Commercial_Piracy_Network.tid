@@ -1,0 +1,97 @@
+created: 20180108043301165
+modified: 20181030025310851
+modifier: h0p3
+revision: 0
+tags: Hidden
+title: Hidden: Fully Decentralized Commercial Piracy Network
+
+//Distributrust// or //Decentrust//
+
+Why not? 
+
+Golang runs on everything. Build an open-source tool, but make your own. Fill it up, and let people host it themselves. Make it so idiots can do it.
+
+Gambling? Sure, why not? etc.
+
+You'd need to start out with it being entirely free. The [[Outopos]] concept is not bad. Imagine running IPT + myanonymous accounts on a very fast seedbox server with significant space. Just download on the fly. I could then push this content into my own network upon request. 
+
+Autoupdate, I have the key, gg.
+
+I'm going to ignore the sybil attack for the moment.
+
+Search is really fundamental. Cataloging behavior needs to be automated and incentivized when it can't. Perhaps I have the final say on what goes in the final catalog. Everybody keeps a shard of the master catalog. I decide how large the size of the shard is on the fly. We need cataloguers, people who make pull requests on the catalog. In a sense, we want a decentralized git, and I'll keep the master key (can eventually be mutli-sig'd). This is something I should ask my wife about. 
+
+Force people to give to the network. Incentivize behavior. We need sane defaults, and it should be well-hidden under the hood. But, we also need the network to poll and provide consensus on a user. If a user knows you have shared X units with them, then they must trust you at least X units. To allow for miscommunications, we'll 
+
+We need to by default play based upon assumption that we aren't playing a zero sum game. It obviously doesn't have to be. To make room for "miscommunication" we will enable some copykitten (higher trust thresholds, obviously) behavior. 
+
+There is network trust, but is there also sharing trust? It seems we can measure different things, and perhaps we should. 
+
+Trust is earned by literally exchanging tit-for-tat style. I'm willing to pass up to 1 MByte for you insofar as you are willing to pass 1MB for me, with some extra mercy for mistakes. Importantly, this is not a zero-sum game. I want to build social capital in you, even if I don't need anything from you right now. If I have nothing to send, and I still trust you, then I will continue to move data for you to a point. Let's make it so that you are willing to credit someone for up to a 10-to-1 ratio. When they get to that ratio, then you either route real traffic through them or you manufacture traffic just to test them. Perhaps it sounds weird to manufacture traffic, but trust is really fundamental to what this network is. 
+
+Metrics for Trust:
+
+* Proxy Throughput
+* Proxy Bandwidth
+* Storage
+* Computation on my behalf.
+** Rust-VM or WASM? 
+
+You can tit-for-tat these, test them, etc. Someone who is stingy with their throughput should receive the same treatment back. Someone who has high throughput but won't do much bandwidth must also be punished. The same for storage, etc. Computation on my behalf as well. 
+
+Initially, two violations of trust results in a one hourBan, but 2 hourBans result in a one dayBan; 2 dayBans in a one monthBan; 2 monthBans in a one yearBan. If they are banned, then we don't interact. I drop their packets, and I don't send them any. Violations are reset after ban, but the previous bans are always remembered. Forgiveness exists, but punishment becomes more severe over time. 
+
+Throughput is complicated. The important point is not to race to the bottom. We always want to encourage growth of throughput to maximum. I think we should be stingier here with our trust. Let's say 2-to-1 ratios. This punishes people, but also doesn't make it a zero-sum game. Basically, we both keep running totals of the other's average throughput. For low-throughput connections, they will be capped. That's okay. We want to incentivize speed. In this way, we aren't bottlenecking ourselves. Someone can definitely raise their throughput caps by improving the throughput average they provide to others. 
+
+Storage should be for small things. The reason you can't do multi-device on pure p2p networks must be solved by actually storing objects for others. Storage is easily abused. I say we do 2-for-1 or 1-for-1.
+
+Computation on my behalf seems incredibly powerful as well. I don't know how to measure this nicely. Sufficed to say, I can earn trust to have distributed virtual machines and perhaps virtual private networks running in a cloud of other people's computers I have earned. 
+
+People can sell the trust on their keys? Maybe. What if I could transfer the trust I earned? I farmed trust and sold it to those who needed some. Why not create a currency? Boom, now I can either earn my trust on the network, or I can pay for it with currency. This is how I get paid. Proof-of-Stake is the way to go, or I centrally control it period. Ugh. No. If trust can be transfered from keys, then sybil really owns us. It's the "starter" item problem in gaming (they need to be worth 1 gold for a reason). Thus, people will need to directly sell their keys. They will have to earn the reputation. Currency, thus is not useful here. Hrm....Not unless I'm getting paid for it. I can guarantee no sybil attack is occurring, get paid, and enable the transfer. Nobody can sybil attack feasibly when it costs too much to do it. This must be understood. I can scrape the entire network with the network itself. 
+
+Metrics of Preference:
+
+* Latency
+* Uptime
+* Test-Passing Reliability Rate
+
+The masterKey will always have access to throughput/bandwidth, storage, and computation. I need to build a distributed computer. Let us take a tithe of 10%. For the total throughput you share, I get 10% of it, and the same for bandwidth, storage, and computation. People who are wealthy in trust must also be contributing the most to the network. They have the most to gain and lose, and the "fair share" must scale up. 10% of resources can be devoted to search, tracking, hosting, and whatever else the network needs. 
+
+a secretFailSafeMasterKey might need to exist.
+
+
+
+
+
+ I keep an account tab for each userPublicKey I've actually exchanged information with. I know how much trust I've built in you, and I know how much you've built in me. If you fuck me over, but I'll ban you. Sure, you can continue your behavior with others, but eventually they will ban you too. Ultimately, this will push cheaters onto a prisoner's island on the network. In a sense, we build hard-coded reputation with individuals we've interacted with on the network. 
+
+We have to check for cheaters. Say, X->Y->Z is the connection chain, and I'm X. I need to ask Z if Y did the right thing. So, I need to use a third party I trust to ask on my behalf. Say X->T->Z. I've established trust before with T, so I have reason to believe they can be trusted to ask Z for me. Thus, I ask Z via T as my proxy if Y sent him (Z) anything, and if so, I ask for the hash of what Z received to verify. I only need to verify those directly adjacent to me. I'm building trust with them. Ah, but then you ask, why should I trust Z? Okay, so do it. Eventually, I will have a pool of trusted nodes. We've learned to trust each other, and we are good at working together to discover others who are trustworthy. 
+
+When two nodes disagree, I take the trusted consensus. Perhaps trusted nodes share their information as best as they can. They form a shard of trust. 
+
+
+Two trust tallies:
+
+* KeyID
+* IPID
+
+
+This is a kind of sharded distributed trust ledger. A blockchain devoted to literally building trust. 
+
+
+
+
+
+I can be perma-trusted. My key can override the network when necessary. I am an oracle. Can I create lower oracles, nodes that I have excellent reasons to trust serve as my federation of oracles? Imagine I wanted to poll the network rapidly with maximum signal-to-noise ratio, I want oracles, badly. These are i2p floodfill routers, they are xmpp servers, they are tor nodes, etc. We need to shard the network. 
+
+Can we synergize, cultivate, and enable larger trust-structures to emerge once we have atomic building blocks of trust? Perhaps. Imagine
+
+I want a master-key notion. I want to be able to have lots of keys that build-up trust for my master-key. Perhaps I want to contribute heavily to the network. Furthermore, perhaps I want to run my own shard cluster. 
+
+Automatically 3 length tunnels in and out. Lowest latency preferred. 
+
+It would be useful to just keep a list of every IP:key we've connected to. No IP may have more than 5 entries for us, and new ones replace the oldest. This could be represented in a very tiny imprint on our hard drive. 100bytes could basically cover the information we needed, I believe.
+
+
+
+

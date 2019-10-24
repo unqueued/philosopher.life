@@ -1,0 +1,9 @@
+created: 20180405144836864
+modified: 20181029175224785
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.04.05 - Computer Musings: Bye Deluge
+
+I'm pissed now. I lost my post thus far here because FF almost crashed my computer. I was lucky to be able to kill it through an SSH from HTPC (and even that took a while). I'm very annoyed right now. I've noticed it has been snowballing into laggy performance. I'm going to start playing whack-a-mole to fix it.
+
+Deluge has to be babysat, and I'm done with that. I'm moving back to ruTorrent. In fact, I'm just going back to Ubuntu for this server. Sorry Arch. Some kinds of software are truly easier to just get running on Arch, but I think Ubuntu's ubiquity beats it in other ways. Let's be lazy now.

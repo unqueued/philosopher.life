@@ -1,0 +1,56 @@
+created: 20181028154006423
+creator: h0p3
+modified: 20181029175224797
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.10.28 - Computer Musings: WoW
+
+[[AA]] was interested in the kids playing WoW. Gonna try getting the client working. I've done it before, but it's been a long time.
+
+---
+
+https://linuxconfig.org/how-to-play-world-of-warcraft-on-linux-with-wine
+
+```bash
+sudo pacman -S wine-staging playonlinux winetricks lutrix
+sudo systemctl restart systemd-binfmt
+```
+
+Lutris not installing:
+
+```bash
+cd /usr/lib/python3.7/site-packages/
+sudo mv yaml yamlbak
+sudo mv PyYAML-3.13-py3.7.egg-info PyYAML-3.13-py3.7.egg-info.bak
+sudo mv _yaml.cpython-37m-x86_64-linux-gnu.so _yaml.cpython-37m-x86_64-linux-gnu.so.bak
+```
+
+I actually have a lot to cleanup from:
+
+```bash
+sudo find /etc /opt /usr | sort > all_files.txt
+sudo pacman -Qlq | sed 's|/$||' | sort > owned_files.txt
+sudo comm -23 all_files.txt owned_files.txt
+```
+
+Alright...
+
+```bash
+sudo pacman -S lib32-gnutls lib32-libldap lib32-libgpg-error
+sudo pacman -S vulkan-icd-loader lib32-vulkan-icd-loader #I am pleb
+```
+
+*https://github.com/lutris/lutris/wiki/Game:-World-of-Warcraft
+*https://github.com/lutris/lutris/wiki/Game:-Blizzard-App
+*https://github.com/lutris/lutris/wiki/How-to:-DXVK
+*https://github.com/lutris/lutris/wiki/How-to:-Esync
+
+Lutris made it easy. Noice. They have come a very long way since I last used them.
+
+
+---
+
+Not my ethernet cord. Also, wireless does somewhat better, but still has problems? Wtf is happening? Tried another router, but it was no different. mtr shows far more failures on DNS resolution, but still plenty of packetloss for straight IPs. 
+
+DNScrypt failure. But, FF's DNS crypt works nicely. Should just go for a legit OpenWRT router at this point.
+

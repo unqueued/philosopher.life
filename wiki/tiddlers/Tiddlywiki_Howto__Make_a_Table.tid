@@ -1,0 +1,29 @@
+created: 20170408041644922
+modified: 20171103020901254
+revision: 0
+title: Tiddlywiki Howto: Make a Table
+
+```
+|customTable|k
+|one|two|three|four|five|six|seven|eight|nine|ten|h
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|
+|1|2|3|4|5|6|7|8|9|10|f
+```
+
+
+
+
+
+```
+|!Table heading 1|!Table heading 2|
+|>| Colspan |
+| Rowspan |Left-aligned cell|
+|~| Right-aligned cell|
+|bgcolor(#a0ffa0):colored| Centered cell |
+|Caption|Table caption
+```

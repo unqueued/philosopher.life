@@ -1,0 +1,18 @@
+created: 20190214182802763
+modified: 20190215201955011
+tags: [[Wiki Mechanic]] [[Wiki Audit]] [[RGM Notes]] TWGGF Josiah
+title: 2019.02.14 - TWGGF: Sidebar
+
+* https://groups.google.com/forum/#!topic/tiddlywiki/kW63zyhYx0s
+
+<<<
+A new user who just wants to write. What would a sidebar best look like for them?
+<<<
+
+I've been thinking about that question for a couple years. In the vast majority of cases, the tabs on my solo sidebar do all the work I need. I look at that question as asking: when do you want two sidebar-tabs open at the same time? When is it necessary to have two simultaneous workspaces which are meta about the storyriver and wiki?
+
+* "Open" is a critical tab I'd sometimes be interested in having in another open sidebar.
+** I use Bob to give me multiple simultaneous doorways/storyrivers into my wiki. I will sometimes have 40 tiddlers open across my tabs. "Open" continues to be a crucial tool even with Bob.
+* Temporary searches need to stay in place for me without forcing me to lose access over the rest of my sidebar.
+
+Indeed, I need to find a more functional way to use that real-estate. Breaking away from vanilla CSS makes hotkey usage problematic. I am torn.

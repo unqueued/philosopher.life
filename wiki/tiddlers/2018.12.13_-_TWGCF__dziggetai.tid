@@ -1,0 +1,37 @@
+created: 20181213184548779
+modified: 20190331005036587
+tags: TWGCF [[Tagging Theory]] [[Wiki Audit]] [[Random Letter]] To TWGGF dziggetai
+title: 2018.12.13 - TWGCF: dziggetai
+
+Hello dziggetai,<<ref "a">>
+
+Wall-of-text incoming...TLDR: in many respects, I'm not a good exemplar of how to use Tiddlywiki. It may be the case you will need to wander quite a bit to figure out the structures which fit your context best. 
+
+I simply do not know the best rules-of-thumb for structuring wikis, and I suspect it is highly contextual (and there will always definitionally be exceptions to any system we can devise [except this systematic rule ;P]).<<ref "j">> I'm a terrible user of TW who is only now beginning to commit to its mechanics (I've previously left myself an escape hatch to reproduce my work in other tooling ecosystems without obscene friction which I will now lose as I start committing). I'm a lame skiddie noob who (overambitiously) obsessively immerses himself in his wiki but unfortunately learns through the school of hardknocks.<<ref "r">>
+
+I think the goal is to build something which is flexible and open-ended enough to continue evolving with minimal friction and maximal dimensionality (at least that's how I arrogantly hope to construct my project). I need the [[right]] hierarchies to rise from the flatness of my data, and, unfortunately, I don't actually know what I'm trying to build in the end (my highbeams make it so I can only see so far into fog on the road). I started my wiki as just a bunch of linked tiddlers (applying a couple concepts I've seen elsewhere), and I had no idea where it was going (in crucial respects, I still don't, and that is a [[good]] thing). It just explosively grew organically. I am now in the process of [[remodeling]] my wiki (and, I'm sure I'm doing a terrible job, but I do what I can with what I've got).
+
+Tagging is likely going to change quite a bit for me (it already has); tags enable new behavior and allow me to build structures on top of what I already have in autistic bottom-up reasoning (I am a very poor modeler).<<ref "sh">> I often have no idea what I want to automate until I've been doing it by hand for long enough to think it is worth my time to find an easier way (otherwise, I can see myself spending all my time building cool automated structures and polishing my tools but never actually using my workshops to build anything [toolporn is hawt]). I suspect it will take me the better part of a year to complete this iteration of the task (better make that two years, eh?).
+
+It is extremely rare for me to delete my content. In fact, one of the goals of my wiki is to celebrate and clearly point out its evolution. I do not believe most people have any interest in that and for good reason! Thus, there is something extremely significant to be said for making a completely clean break and starting from scratch, shedding what you don't need, and revamping how you do things for each iteration. TW is beautifully designed for doing that. I may eventually get to that point, but I don't think I'm ready to reason about the wiki that way yet.
+
+In the end, BTC's TW's are going to be gorgeous, tight, lacking fluff, more constructive, and designed to be served at lightspeed (I only wish in my {[[dreams]]} that I could do what BTC (and the other gurus on this forum) can do. I am just not that skilled. By comparison, my wiki is a giant heap of spaghetti. Ofc, beyond the legacy preservation nature of my project, some of the moves I make are a result of having such a large wiki already sprawling out of control.<<ref "d">>
+
+My noob gutfeeling (which you should strongly doubt) is that links are green (light) tags in a way. In my wiki, there are many directories which are essentially softlinked in the bodies of other directories (they really can do the work of tags, but it's more manual). Performance and the Reference tool (and things like it) are some of the crucial reasons why I do not want to dynamically generate links with filterlists unless I absolutely must (and, even then, I am working to hardcode what others would dynamically generate). I think the link is the fundamental semantic dot-connecting tool in my hypertext; everything else serves to augment that experience. I may be thinking about this all backwards though (and I beg anyone to explain to me why I'm wrong; I aim to humbly learn why my perceptions do not give rise to effective models). It seems like some of the best automated tooling (and more complex work) is a result of leveraging the fields which are meta about the tiddler itself. I do not know how to strike the right balance.
+
+I desperately aim not to complain or even give off the whiff of undue entitlement to a group of people who share so much (the TW community is awesome): I really wish I had more examples of production wikis to look at. I'm a slow learner who would benefit from having lots of rich examples to help me eventually make good generalizations about how to use this tool. Of course, I very much appreciate why people are so private with their wikis. I am grateful to have the chance to learn how other people solve and reason about tasks with this ecosystem. I feel like a kid playing with lego blocks who lacks the knowledge and skill to know how to efficiently use his legos without literal final lego products in front of him to reason about (sometimes I gotta see one before I can do one).
+
+Sincerely,
+
+[[h0p3]]
+
+---
+<<footnotes "a" "I originally wrote this for the forums, but I'm not sure if I should post it or not. Regardless, I thought you might be interested in this.">>
+
+<<footnotes "j" "Jed has commented before on this, and I believe he's right. However, BTC is a much stronger computer user than I am, and it is likely the case his instincts are more justified than mine (so take everything I say with a huge grain of salt).">>
+
+<<footnotes "r" "You are free to call me a rambling, self-important idiot; this may be even more useless than TMI to you.">>
+
+<<footnotes "sh" "This sentence may not be useful to you (but it is to me): my phenomenology of tagging appears to show it mechanically and semantically promotes generating a mushy, flexible gunkiness for recursively traversing or generating emergent structures on the wiki (the molecules get to arise from the atoms).">>
+
+<<footnotes "d" "I'm just trying to survive out in the information overload desert.">>

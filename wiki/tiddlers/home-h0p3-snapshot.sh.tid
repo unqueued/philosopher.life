@@ -1,0 +1,31 @@
+created: 20180204030422496
+modified: 20180204033041942
+title: home-h0p3-snapshot.sh
+
+```bash
+#!/bin/bash
+
+# Weekly Snapshot of /home/h0p3
+
+# Fuck you, crontab!
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:~/bin
+
+# Timestamped Name
+TIME=`date +20%y.%m.%d` #The date
+NAME=$TIME-home-h0p3.snapshot.tar.zst #Name of output
+
+# Clean and Snapshot
+rm -rf /mnt/storage/Syncs/home-h0p3-Snapshot/*
+cd /mnt/storage/Syncs/home-h0p3-Snapshot/
+
+### Method 1
+#tar -cf home-h0p3.tar /home/h0p3
+#pzstd -3 home-h0p3.tar -o $NAME
+#rm home-h0p3.tar
+
+### Method 2
+#tar -I zstd -cf $NAME /home/h0p3
+
+### Method 3
+tar cpf - "/home/h0p3" | zstd > "$NAME"
+```

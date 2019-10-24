@@ -1,0 +1,22 @@
+created: 20181222223359903
+modified: 20181222225955507
+tags: [[Wiki: Tools]] [[Tagging Theory]] Sphygmus
+title: Search Title Tagger
+
+|!Search title: | <$edit-text tiddler="$:/temp/SearchTitleTag/search" tag="input" type="text"/> |
+|!Add tag: | <$edit-text tiddler="$:/temp/SearchTitleTag/replace" tag="input" type="text"/> |
+
+---
+
+<$set name="mySearch" value={{$:/temp/SearchTitleTag/search}} >
+<$set name="myTag" value={{$:/temp/SearchTitleTag/replace}} >
+
+!!! //Apply the tag <$tiddler tiddler={{$:/temp/SearchTitleTag/replace}}><$transclude tiddler="$:/core/ui/TagTemplate"/></$tiddler> to the following tiddlers://
+
+: <$list filter="[!is[system]!has[draft.of]search:title<mySearch>!tag<myTag>sort[created]]"><$checkbox tag={{$:/temp/SearchTitleTag/replace}}> <$link to={{!!title}}><$view field="title"/></$link></$checkbox><br/></$list>
+
+!!! //Remove the tag <$tiddler tiddler={{$:/temp/SearchTitleTag/replace}}><$transclude tiddler="$:/core/ui/TagTemplate"/></$tiddler> from the following tiddlers://
+
+: <$list filter="[!is[system]!has[draft.of]search:title<mySearch>tag<myTag>sort[created]]"><$checkbox tag={{$:/temp/SearchTitleTag/replace}}> <$link to={{!!title}}><$view field="title"/></$link></$checkbox><br/></$list>
+
+</$set></$set>

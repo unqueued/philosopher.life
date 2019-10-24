@@ -1,0 +1,14 @@
+created: 20180121162103409
+modified: 20190323151226380
+revision: 0
+tags: Outopos
+title: 2018.01.21 - Outopos: Fuzzing
+type: text/vnd.tiddlywiki
+
+We should fuzz the Atropos protocol and the Outopos application built on top. That should be part of our testing regime.<<ref "2019.03.23">> 
+
+* http://blog.swiecki.net/2018/01/fuzzing-tcp-servers.html
+
+
+---
+<<footnotes "2019.03.23" "I guess that was a day for making brief comments. I'm still not sure what to do about it. [[/b/]] gets a pass, but I want to resist it everywhere else. How do I atomize and contain content well enough? Ugh. I really don't know.">>

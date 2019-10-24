@@ -1,0 +1,16 @@
+created: 20181209062845152
+creator: h0p3
+modified: 20181209062911561
+modifier: h0p3
+tags: Sphygmus Note From
+title: 2018.12.09 - Sphygmus: URI'd
+
+dammit! I left your business card and home and didn't get your number in my phone yet - this would be a moment I intuitively reach for an IM type form of communication.<<footnote "but" "on the other hand, being forced into an email format here encouraged me to go deeper than my surface level //cool!// reaction.">>
+
+I love how you've URI'd my - huh, you didn't use canonical URI for this and did iframe HTML instead? Now -
+
+I think this is where you might use [Rabbitholed] in your wiki pages? I haven't quite figured out what that signals when I see it; I assume it means you started writing about something, opened a new tab to investigate or otherwise dived into it, and didn't continue writing?
+
+So I assumed you used the field _canonical_uri and the text/html value to get our websites embedded, but I was wrong when I checked your tiddler! I had to go back to an old snapshot<<footnote "cool!" "Wow it was really fascinating to go back to old wiki snapshots after living in my current design so much! I like where it's ended up.">> where I knew I had done that because I couldn't remember if I was remembering how _canonical_uri worked - I was half-right! Kicks' site would embed that way, but anything that's JavaScript doesn't seem to work with the uri field method (sphygm.us wouldn't embed with uri for me).
+
+Anyway I was immediately pleased with how the sphygm.us tiddler worked when I was checking your wiki on my phone!! That flexbox theme is really strong, even embedded inside your wiki. (Also, I love visiting your wiki on all my various work computers now because the flex works so well! I'm not used to experiencing the fruits of my creations so directly and so often.)

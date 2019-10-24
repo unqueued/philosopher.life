@@ -1,0 +1,74 @@
+created: 20171015020024412
+modified: 20171015032903047
+revision: 0
+title: Outopos: Wishlist
+
+Principles:
+
+* Sanely Aggressive Defaults
+** Greedy with resources. Assume people will run boxes designed for just this tool. 
+
+* Needs of the many outweigh the needs of the few
+
+* Tit-for-Tat Trustbuilding, Testing, and Resource Trading
+** Make it so that what is in your best self-interest is to fairly participate and contribute to the network as much as you can.
+** I spend currency or resources for yours.
+
+Functions:
+
+* Required User Contributions to the Outopos Network
+** 10GB hard drive space
+** 50% of user's throughput
+** X CPU-Resources and Y RAM
+** This is not a trade. It is donated to the network. If you can't meet the requirements, then you don't get to use the network.
+
+* Voting
+** Very tricky; stupid important.
+** Trust-chains enable passive, easy voting systems.
+** Use game-theoretically effective voting systems.
+** Tagging, Bayesian Training, Deep Neural Networks, etc. rely upon this.
+
+* Trustchains
+** Fine-grained control over trustchains with sane-defaults per context.
+
+* Filtering
+** Trust-chains are quite useful here.
+** Block and sift through content, users, nodes, and otherwise.
+
+* Quantum-Resistant Cryptography from the Beginning
+** Or make it easy to drop-in replace when the time comes.
+
+* Automated Updates
+** Live, production updates. Make it so that you don't have to restart. 
+** Multi-sig owners of the updates
+** Aggressive default settings.
+
+* Resource Trading & Gifting
+** Create a "private tracker" mentality where you are desperately finding ways to contribute.
+** I should be able to Gift resources to myself or others. Otherwise, I trade. I need to create a virtual market place with sane search functionality and defaults.
+*** Gifting allows for external markets to exist, a good thing.
+*** e.g. say I need virtual hard drive space on X number of remote machines that meet Y parameters; I'll pay for them.
+** Resources to Trade:
+*** VPS/VM/Computation
+*** Anonymity
+*** Privacy
+*** Hard Drive Space
+**** How do I prove speed?
+*** Uptime/Reliability
+*** Trustworthiness
+*** Votes
+*** Filtering work
+*** Currency
+*** Bandwidth
+** Those with shitty latency will be punished.
+
+* Identities
+** Atomic Identity
+*** Required:
+**** Public Key for Identity
+*** Optional:
+** Molecular Identity
+*** Required:
+**** Public Key for Identity
+**** Membership Public Keys
+*** Optional:

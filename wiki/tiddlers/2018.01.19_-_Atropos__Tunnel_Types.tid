@@ -1,0 +1,30 @@
+created: 20180119204227746
+modified: 20190325165155750
+revision: 0
+tags: Atropos
+title: 2018.01.19 - Atropos: Tunnel Types
+
+The Atropos protocol has two kinds of tunnels, layer-1 tunnels and layer-2 virtual tunnels. 
+
+Here's a minimal layer-1 tunnel:
+
+```
+node1 --- node2 --- node3
+
+```
+
+It's a physical tunnel.
+
+Here is a minimal layer-2 virtual tunnel:
+
+```
+       --- node2 --- 
+     /               \
+node1                 node4 
+     \               /
+       --- node3 ---
+```
+
+A virtual tunnel uses two or more inmuxed layer-1 physical tunnels.
+
+Layer-1 can be ephemeral and configured however you prefer. Layer-2 enables massive network concurrency, provides privacy generating noise, improves performance through bottlenecks, and allows more complex network topologies to emerge.

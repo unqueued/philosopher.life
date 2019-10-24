@@ -1,0 +1,6 @@
+created: 20190718195747622
+modified: 20190718200004654
+tags: [[Wiki Audit]]
+title: 2019.07.18 - Wiki Audit: Draggable
+
+Mohammad made a special draggable version of his Todolist plugin for me. It uses a field dynamically, and once I figured that out it was cool. Except, I broke it afterward. I'm moving back to original RC4. Unfortunately, because of my iframe problem for the editor, I cannot use hotkeys. This is yet another reason to go codemirror, but that didn't work out so hot for me the last few times I've tried it.

@@ -1,0 +1,79 @@
+created: 20180727020527055
+creator: h0p3
+modified: 20180727174717126
+modifier: h0p3
+tags: 
+title: Walkthrough: i3-layout-script
+
+`sudo pacman -S perl-anyevent-i3`
+
+Add your bin to PATH. 
+
+`export PATH=$PATH:/home/h0p3/scripts:/home/h0p3/.i3/layouts/bin`
+
+I set my directories in the "config.py" as: `~/.i3/i3-layout-scripts/bin` and `~/.i3/layouts`
+
+See the changes I'm making to [[.i3/config]]
+
+---
+
+```
+### Save Layout Modes
+bindsym $mod+Ctrl+Shift+s mode "$Save_Layout_Mode"
+mode "$Save_Layout_Mode" {
+    # Save layout of current workspace to a numbered (make them match in practice)
+    bindsym mod+s+grave exec python /home/h0p3/.i3/i3-layout-scripts/save.py workspace-layout-grave
+    bindsym 1 exec python /home/h0p3/.i3/i3-layout-scripts/save.py workspace-layout-1
+    bindsym 2 exec python /home/h0p3/.i3/i3-layout-scripts/save.py workspace-layout-2
+    bindsym 3 exec python /home/h0p3/.i3/i3-layout-scripts/save.py workspace-layout-3
+    bindsym 4 exec python /home/h0p3/.i3/i3-layout-scripts/save.py workspace-layout-4
+    bindsym 5 exec python /home/h0p3/.i3/i3-layout-scripts/save.py workspace-layout-5
+    bindsym 6 exec python /home/h0p3/.i3/i3-layout-scripts/save.py workspace-layout-6
+    bindsym 7 exec python /home/h0p3/.i3/i3-layout-scripts/save.py workspace-layout-7
+    bindsym 8 exec python /home/h0p3/.i3/i3-layout-scripts/save.py workspace-layout-8
+    bindsym 9 exec python /home/h0p3/.i3/i3-layout-scripts/save.py workspace-layout-9
+    bindsym 0 exec python /home/h0p3/.i3/i3-layout-scripts/save.py workspace-layout-0
+    # exit system mode: "Enter" or "Escape"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+### Open Layout Modes
+bindsym $mod+Ctrl+Shift+o mode "$Open_Layout_Mode"
+mode "$Open_Layout_Mode" {
+    # Open layout of current workspace to a numbered (make them match in practice)
+    bindsym grave exec python /home/h0p3/.i3/i3-layout-scripts/save.py workspace-layout-grave
+    bindsym 1 exec python /home/h0p3/.i3/i3-layout-scripts/open.py workspace-layout-1
+    bindsym 2 exec python /home/h0p3/.i3/i3-layout-scripts/open.py workspace-layout-2
+    bindsym 3 exec python /home/h0p3/.i3/i3-layout-scripts/open.py workspace-layout-3
+    bindsym 4 exec python /home/h0p3/.i3/i3-layout-scripts/open.py workspace-layout-4
+    bindsym 5 exec python /home/h0p3/.i3/i3-layout-scripts/open.py workspace-layout-5
+    bindsym 6 exec python /home/h0p3/.i3/i3-layout-scripts/open.py workspace-layout-6
+    bindsym 7 exec python /home/h0p3/.i3/i3-layout-scripts/open.py workspace-layout-7
+    bindsym 8 exec python /home/h0p3/.i3/i3-layout-scripts/open.py workspace-layout-8
+    bindsym 9 exec python /home/h0p3/.i3/i3-layout-scripts/open.py workspace-layout-9
+    bindsym 0 exec python /home/h0p3/.i3/i3-layout-scripts/open.py workspace-layout-0
+    # exit system mode: "Enter" or "Escape"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+```
+
+```
+# Generate layouts for all workspaces
+#exec --no-startup-id i3-msg python /home/h0p3/.i3/i3-layout-scripts/open.py workspace-layout-grave
+#exec --no-startup-id i3-msg python /home/h0p3/.i3/i3-layout-scripts/open.py workspace-layout-1
+#exec --no-startup-id i3-msg python /home/h0p3/.i3/i3-layout-scripts/open.py workspace-layout-2
+#exec --no-startup-id i3-msg python /home/h0p3/.i3/i3-layout-scripts/open.py workspace-layout-3
+#exec --no-startup-id i3-msg python /home/h0p3/.i3/i3-layout-scripts/open.py workspace-layout-4
+#exec --no-startup-id i3-msg python /home/h0p3/.i3/i3-layout-scripts/open.py workspace-layout-5
+#exec --no-startup-id i3-msg python /home/h0p3/.i3/i3-layout-scripts/open.py workspace-layout-6
+#exec --no-startup-id i3-msg python /home/h0p3/.i3/i3-layout-scripts/open.py workspace-layout-7
+#exec --no-startup-id i3-msg python /home/h0p3/.i3/i3-layout-scripts/open.py workspace-layout-8
+#exec --no-startup-id i3-msg python /home/h0p3/.i3/i3-layout-scripts/open.py workspace-layout-9
+#exec --no-startup-id i3-msg python /home/h0p3/.i3/i3-layout-scripts/open.py workspace-layout-0
+```
+
+These scripts were a huge failure. FUCK THIS. This doesn't work. I'll do it by hand with a script instead!
+
+I present you the best kind of solution I've found thus far: [[i3-layout-autostart.sh]]

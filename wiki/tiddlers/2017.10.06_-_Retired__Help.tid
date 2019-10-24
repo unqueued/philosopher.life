@@ -1,0 +1,47 @@
+created: 20171006144153608
+modified: 20181214055645498
+modifier: h0p3
+revision: 0
+tags: Retired
+title: 2017.10.06 - Retired: Help
+
+// I dedicate this page to Sir [[GB]].//
+
+This page is meant for users other than myself. 
+
+Let's be clear, the wiki is ultimately addressed to me. I'm having a very long-term conversation with myself. It's a lifetool for me. However, you may, for whatever reason, find it worth reading this wiki.<<ref "1">>
+
+Here are some [[Tips for Using this Wiki]]. It may be useful to you, the interpreter, to have a better understanding of the functionality of this wiki. You may also find more interpretation tools in {[[Principles|Principles of Programming Myself]]}. To be clear, I use the latest version of Tiddlywiki. That may help you understand some of the technical aspects of what you are seeing as well. 
+
+The [[Root]] (previously `[[{Home}]]`) page should be your starting point, generally speaking.
+
+I suggest reading in roughly this order:
+
+#{[[About|About, a.k.a. The Opening of the Rabbit Hole]]} 
+#{[[Principles|Principles of Programming Myself]]} 
+#{[[Focus|Current Focus of h0p3's Wiki]]} 
+#{[[Projects|Projects on this Wiki]]} 
+#{[[Vault|The Vault of h0p3]]} 
+
+The order isn't clean. There is enough interplay, synergy, reference, and complexity in these contexts that it will be difficult to actually peel them apart enough to have a perfect hermeneutic stack to read. If I ultimately knew exactly what I was doing on this wiki, we wouldn't have this problem. Alas, I can only do my fallible best, and thus you will have to do yours as well.
+
+I would like to point out the sidebar, which is immensely useful for staying current. "New" shows newly created tiddlers. "Recent" includes not only those newly created but also those recently edited.
+
+Since I write this for myself, I really only pay attention to how it looks on my screen. You shouldn't have to (since this .html file should be functional enough on most devices), but if you want to replicate my view, try Firefox on Linux at 1920x1080 resolution. Some unicode symbols may not appear correctly on your screen; for now, that's a problem between you and your computer. Also, I suggest reading the wiki in full screen. You'll get the same feel effect that I do. There's a full-screen button in the top right corner. For some browsers, you can just F11. These will toggle for you.
+
+As a side note, I'm sure it would annoy many computational minimalists that I willingly store virtually the entire site in a single self-editing html file. I'll grant that text files alone have something going for them, but this is a very special tool. This wiki is incredibly portable, functional, and malleable. I consider Tiddlywiki to be a skeuomorphic feat of software engineering. How many virtually complete websites with this degree of functionality and content can you download in a few megabytes?<<ref "2">> Exactly. I think there is profound minimalist beauty to it. Yeah, load times aren't great.<<ref "3">> You can always just sync it instead. 
+
+As always, feel free to {[[Contact|Contact h0p3]]} me with any questions. 
+
+Lastly, I implore you to exercise empathy in your judgment.<<ref "4">>  You are reading my personal journal. We are parting with many privacy conventions here, and that means you should be exceptionally careful in your evaluation. After all, if you had taken the time to write and share a brutally honest personal journal, what do you think we would be tempted to say about yours?
+
+
+---
+
+<<footnotes "1" "For example, I have asked my brother [[JRE]] to help me reflect upon {[[Principles|Principles of Programming Myself]]} as well as read the contents of the wiki itself. This is a lot to ask, but I trust his opinion and value his feedback. I realize I can't do it all on my own, and having input from him would be very useful.">>
+
+<<footnotes "2" "Less than 2MB compressed, which is the standard size of any webpage on the web anyways, but you can't multi-threaded download this one.">>
+
+<<footnotes "3" "And, that probably won't be changing. Few if anyone besides myself ever loads this page, so I'm not worried about CDNs or optimizing performance (especially not for your shitty machine ;P).">>
+
+<<footnotes "4" "Matthew 7:5">>

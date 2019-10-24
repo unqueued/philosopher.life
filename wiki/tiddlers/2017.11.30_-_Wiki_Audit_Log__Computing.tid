@@ -1,0 +1,34 @@
+created: 20171130161034946
+modified: 20181222031412860
+revision: 0
+tags: [[Tagging Theory]] [[Wiki Audit]]
+title: 2017.11.30 - Wiki Audit Log: Computing
+
+* Officially updated to 5.1.15. The wiki keeps getting bigger. 
+
+* I'm worried about my wiki size. It's now towering at 9.4 MB. Even while pouring my guts out, I try to keep it fairly lean, I think. I believe by the end of next year, I may have the largest text-based tiddlywiki on the planet of non-automatically generated content. I have heard performance limits start to hurt top off in the 30-40MB range. I hope that isn't true. 
+** Compressed copies of it sit at 2.4MB. That's still a very large page. October was a huge jump in incompressible content, I believe. It jumped from 1.8 to 2.4MB in a single month. I can't put my finger on it though. I know 1.9 to 2.1 on the 8th was due to the background image (I consider a 200KB image to be reasonable enough, but perhaps it isn't). I cannot account for the rest.
+
+* I need to get it out of my head that I want to have each page only linked to once. This defeats much of the purpose of the functionality of the wiki. I do, however, want to try make sure I only have a single master copy of a page; I want to avoid duplicating efforts and making sure pages are synced.<<ref "2018.12.21">>
+** Except, what doesn't belong in [[Art]] or [[Computing]] or {[[Focus]]}, and so on? The whole point is to make it so I know where to look and how to think about it. This problem obviously deserves a lot more of my attention.
+
+* I like that I'm now bracket editing quotes. Often, I find a quote to be close to the truth, but not quite. This gives me a way to show how much I appreciate what they are pointing to without assenting to the exceptions and problems posed by their exact wording.
+
+* The "Recent" tab is chaos, lol. I'm making lots of changes. This is excellent.
+
+* What isn't a log? Lol. That I do not know. I suspect we are looking at the heart of computation, again.
+
+---
+
+* [[Home: ASCII Art Logo, 2]]
+** Cleaned up naming conventions a bit. 
+
+* [[Computing]]
+** I did the bulk of the world yesterday. I'm now doing 2-depth work because...I'm here, and it's time to do it. It just makes sense.
+
+* [[Philosophy]]
+** I can't make it easy on myself. I keep lining up the big ones. That's okay! I'll just do my best.
+
+
+---
+<<footnotes "2018.12.21" "This is proto-tagging theory.">>

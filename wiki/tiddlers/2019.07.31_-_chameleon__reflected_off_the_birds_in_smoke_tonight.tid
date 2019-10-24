@@ -1,0 +1,157 @@
+created: 20190731153609039
+modified: 20190731153646707
+tags: chameleon From Letter
+title: 2019.07.31 - chameleon: reflected off the birds in smoke tonight
+
+Dear [[h0p3]],
+
+Thank you for your meta-response ;) This one is likely to be very rambly and disjointed. After running the wiki for a while now I'm starting to get a bit of an idea of where it might go, and the very first inklings of where I might want to guide it to.
+
+>I am, of course, enjoying all of your text art. I tried making one of Kona, but I decided not to post it.
+
+Aww, you can't post it for me? I love collecting art of her. My [[Konata]] folder is somewhere around 10,000 files at the moment, I think.
+
+I tried to make text art of Izuku Midoriya from BNHA but I failed miserably. Guess I can't do anime faces as well as I thought.
+
+>I'm surprised you get non-boiler plate long-form correspondence in your professional life. You must be an actual professional, unlike me, lol. I don't know much about programming though beyond a job I had long ago. I just dabble.
+
+Well, long-form correspondence might be overselling it. I send mail back and forth to the other developers at the company (we have several locations, including in Asia and Oceania, so often we have to say a lot in one message since the reply won't come until tomorrow). I honestly won't be at this job much longer, lol. I'm emigrating to the US, visa depending, so I handed in my conditional resignation today.
+
+Programming is one of the few things I consider myself to be really good at. Not to the level of a John Carmack or a Dennis Ritchie, but I can hack things together to solve a problem. That's probably why they're ok paying me to do it =w=.
+
+>The traces I get to see of your life are fascinating, btw.
+
+That's an interesting compliment, thank you! 
+
+I'm not sure I can really explain why I am who I am, except in the broadest of strokes. I wasted a lot of my youth online, which made me develop an odd sense of humour and a lifelong appreciation for [[The Weird]] in life.
+
+If I have a mission, it's to do something absurd for the sake of having done something absurd:
+
+<<<
+C'est en faisant n'importe quoi qu'on devient n'importe qui
+<<< Rémi Gaillard
+
+That, of course, is the topic for a future article.
+
+>I mean this as a compliment, you are joyously weird. I adore your honesty; it is one of those traits I prize above almost all others in the pursuit of wisdom.
+
+That's very sweet, thank you!
+
+I do try to be honest. I've done a lot of things in my life that I'm not proud of, and not-being-honest is definitely something I'm trying to change about myself. The wiki's purpose may be as much to cultivate radical honesty as to organise and catalogue my thoughts.
+
+>Are the dearest people in your life also not so neurotypical? Do they read your wiki too? What do they think of it?
+
+The hubby suffers from an anxiety disorder, but is otherwise more sensible and worldly than me. Especially when it comes to [[Airports]], haha. He's always unbelievably relaxed about flying. Otherwise many of my friends run the gamut of non-neurotypical states; [[Nobu]] in particular has had a few terrifying episodes before.
+
+I've shown the wiki to my husband, and have posted the link to my close friends. I'm not really very pushy about it yet, since it's not much more than a kernel right now. More and more I hope to expand it, to get more penpals and folks who are aware of and participatory in its development.
+
+<<<
+Working on it each day will snowball. I see you've made a lot of design decisions I wish I knew to make back when I started my wiki. You will find that I have no idea what I'm doing all too often. It seems to me that you already understand more about the mechanics of TW than I do, lol.
+<<<
+
+Thank you! A lot of this was learned from working on my old blog, [[Spiritual Computation]]. I had tagging facilities there (it was statically generated from markdown using [[Hugo|https://gohugo.io]]) so it gave me an idea of how to tag and sort things. Otherwise I guess I've been playing around with macros and the likes, seeing what fits. Once I found out I could label and pick the color of tags I was away, lol.
+
+I noticed in your @ to me you said you hadn't written much html since the 90s and didn't have much CSS knowledge. I learned both at university, and promptly forgot it two minutes later ;) like everything, I duct-tape, skid, and hack it together until it works. [[w3schools|https://www.w3schools.com/]] is the most important sutra for me here... it's got a good mix of tips, tricks, and examples for just about anything web related.
+
+<<<
+Yes, this wiki has been an insanely difficult project. I have shed many tears, spent many late nights, and annoyed all who know me (I can never shut up about it). I'm glad I have integrated it so much into my life. I will be interested to know know where you go with the relationships between tooling like emacs and TW.
+<<<
+
+I saw an old gem come up today that made me think of this integration you have, and that I'm building, between life and wiki. I wrote about it briefly in a [[journal entry|2019.07.30 - Loper OS]]. Right now I'm straddling the line between "stuff I'm thinking about/feeling" and "stuff I want to talk about or tell other people about". Striking that balance is going to be the core challenge here, I feel.
+
+I'm a little odd when it comes to Emacs. I was originally a vim user, switching to Emacs via Spacemacs in 2016 or so. This means I'm not as tightly integrated into the program as "Emacs natives". I still do large-scale text-munging with shell scripts or Perl. And much as I love the Emacs bindings (I use the space cadet Win-Alt-Ctrl layout instead of the standard Ctrl-Win-Alt) I don't really mind pointing and clicking in Firefox to edit text on TiddlyWiki. I'm sure that'll change in time, though. Speaking of, let's get the tech part of the response out of the way now that we're here...
+
+<<<
+
+>The other thing I'd like to ask is - how do you add a little bit of space to the left of the pages in your wiki? On mine, when fullscreen on a 1080p monitor, the lines are too long.
+
+
+I don't know what you are mean here. Could you take a screenshot and draw on it for me? I probably still won't know the answer, but I'll see what I can do.
+<<<
+
+[[Sure, here you go.|https://imgur.com/a/PSnEdAp]] By "lines" I mean lines of text. It's uncomfortable to read much longer than 80-100 characters for most people, so I'd like to limit the width of the tiddler text on-screen.
+
+Thanks for the @ ;) [[I've fixed it now.|2019.07.28 - SENPAI~]] I noticed you felt guilty:
+
+<<<
+* I made a mistake giving a quick [[@]] to [[chameleon]] while she is drafting (I didn't want to leave her hanging). I'm used to people responding to some of my drafts (and they are exceptionally charitable knowing it is a draft) before I finish, etc., but I totally understand her preference for me to wait. That was my fault.
+** Hilariously, I want to [[@]] back to her with an apology, but that would be violating the very thing she asked me not to do. Welp, my apology which may not target will have to sit here for now.
+** She's probably going to think I'm retarded for not knowing how to have a proper [[hyperconversation]], lol. It's okay. I'll get there. 
+<<<
+
+No no! It's not a mistake. Reply away! If it was "private until sent," I'd just compose it in emacs and post it when it was time, lol. I put up the disclaimer just so you would know what the definition of done was. Besides, it helped me to get the wiki prettified and gussied up (it was a massive craze to put waifu mascots in your custom css for imageboards back when I was last on them, and I wanted to do something similar on the wiki, hence the [[smol Kon|chamespeak]] in the bottom left of the page).
+
+I don't think you're retarded at all. Rather, the @ was much appreciated. Maybe I should set up an @ page of my own... Either way, feel free to use it. I check back like every day anyways. On a related note, I like the rice you've added... You seem to be using a higher opacity than me, though :)
+
+We'll have to hash out exactly what the etiquette is for a [[hyperconversation]]. Realistically though, if it's public on the wiki, people are going to read it, so that's why it's there. Don't be afraid to read drafts (most of this wiki seems to be somewhere below LevelTwo, after all).
+
+Jumping back a little... (Idk, it seemed relevant to jump forward to the tech stuff before I responded about philosophy and open-ness).
+
+<<<
+I would be really sad if we don't penpal. I'm not here for some short-term thing unless that's all we get to have together. I'm sometimes a slow and painful person to speak with, but I am listening and thinking with you.
+<<<
+
+That's a relief to hear. I can be a little insecure about my weirdness, because it turns some folks off, but you seem to be quite accepting of this strange human you find yourself confronted with.
+
+I'm a believer in the idea that there is family out there that we aren't related to by blood, that some friendships reach the level of family-ness. I think it comes from [[Nobu]] originally, or one of her influences, like almost everything I've thought about after meeting her<<ref "n">>. I guess [[The Buddha]] quote on the [[Senpai]] tiddler touches on that. When someone has something to teach me, I treasure their company.
+
+<<<
+Despite the tension, I beg people to be pseudonymous and yet radically open. I have had several people show me their private thoughts who trust me to reason about it on their behalf. I do not prefer to hold anything I'm not allowed to talk about aloud unless it is my moral obligation. As weird as this may sound, I aim to transparently hold secrets. If I choose not to say something, I want it to be evident that I had a good reason for it.
+<<<
+
+Radically open is what I'm aiming for now... Especially having realised how bad I am at getting my thoughts out in live discussions (or debates)! 
+I rather embarrassed myself talking to a real philosopher over discord the other day (I studied computer science at university, so I have to watch my engineer's disease when it comes to the humanities).
+
+<<<
+For now, I'm going to ask you to post what you are willing to show everyone (which is wonderfully open). I believe I should earn the right to see and reason about your private writing. I am grateful that you are willing to trust me, and I want to openly establish I'm worthy of it. It is my honor to grow a friendship with you.
+<<<
+
+Roger that! And it's great to hear you say that. Friendship is what I aim for. You seem to be a kindred spirit. I feel I have a lot to learn from you, and maybe there's a thing or two I can teach you in return.<<ref "css">
+
+<<<
+Your Waifuism is weird for the normies.
+<<<
+
+I tend to lead with it online, that way you know how weird I am straight up! Hence I also use anime avatars in most places.<<ref "f">> I want to break the stereotype of anime freaks all being obnoxious dudes by being a kind woman, I guess. haha.<<ref "k">>
+
+<<<
+The lines I draw in the sand are about what is moral rather than conventional. While I may not be able to appreciate it thoroughly enough, it's not too out there for me.
+<<<
+
+That's great! I'm never going to expect people to fully understand it, really. I don't myself, but I've still been at it for ten years =w=.
+
+Ahh morality. I envy what seems to be a sense of clarity you have towards what is moral. Myself I'm tangled in a web when it comes to these things. Virtue ethics mostly appeals to me, I suppose. I try my best to be noble and kind, but I don't know what is noble or kind beyond that which feels right. I never found axioms or lemmas on which to build a serious foundation of morality. Maybe this is where I need to bust out the Kant...
+
+<<<
+I probably won't understand chanspeak as well as you deserve, I have a history I cherish with that community.
+<<<
+
+My chanspeak is always going to be a few years behind. I found the community to have fallen apart around me over the last few years - I would blame 2016 but the rot had probably set in way before that - so it's rusty at best. Besides that, talking like you're on /b/ all the time is always going to come across a bit strangely, so I'm mostly only using it where the best term that fits comes from imageboards<<ref "w">>.
+
+<<<
+I find it delightful that speak up from a perspective which is generally persecuted in many circles. I adore that you are comfortable letting it out. You don't present merely a face, and I admire your courage. 
+<<<
+
+Thank you! I think we both share the idea that the internet needs to  be democratised, that //everyone// needs to be able to get their voice out there. I want both to return the internet to the geocities/myspace era where people would put themselves out there, no matter how messy and unrefined that might look<<ref "g">>; but also to present an internet that is fairer and more open to everyone, unlike the silo situation we have going on today (which is why this is being said in a letter rather than over discord, birdsite, or facebook, lmao).
+
+I feel like I could talk forever, so maybe it's best I leave it here. I'm eagerly awaiting your response!
+
+- [[chameleon]]
+
+//P.S. the title is a lyric from [[a song|https://romancerband.bandcamp.com/track/birds-in-smoke-2]] I have stuck in my head//
+
+----
+
+//Meta: Reply to [[2019.07.23 - chameleon: Lens]].//
+
+<<footnotes "n" "I should really write her a letter some time.">>
+
+<<footnotes "f" "Makes the face reveal much more exciting, too">>
+
+<<footnotes "k" "Working real hard on that one tbh. I've done some awful things in my life. I want to move beyond those and act kinder and try to have more of a positive influence on those around me. My husband is a big inspiration in that regards, he's consistently kind to everyone.">>
+
+<<footnotes "w" "The word //waifu// is a good example. Much virtual ink got spilled about a better term, but no-one ever came up with one, and somehow I doubt anyone ever will.">>
+
+<<footnotes "g" "That era was coming to an end as I grew up; by the time I was old enough to get involved, everyone was on social media instead. A crying shame. I love looking back at the archives and seeing just how //creative// people got.">>
+
+<<footnotes "css" "CSS, for example ;)">>

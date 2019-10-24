@@ -1,0 +1,164 @@
+created: 20170115163908960
+creator: h0p3
+modified: 20181115190624900
+modifier: h0p3
+revision: 0
+tags: Retired
+title: 2018.08.07 - Retired: Principles of Programming Myself
+
+//See first: {[[About|About, a.k.a. The Opening of the Rabbit Hole]]}//
+
+---
+!! About:
+
+//Thinking about your habits will always be useful to you. Be the architect of this living art and your artful living. Go forth, sir, and be that which creates itself. Build your existential lifetool, reconstruct yourself, and ride your liferaft down the river of happiness. Make it easy to empathize with and cultivate yourself in order to efficiently blossom into a [[Eudaimonic Lifehacker]]. Aspire to pragmatic perfection for your own sake. Be uncompromisingly wise as you engineer yourself and virtually reap what you sow.//
+
+<<<
+We first make our habits, and then our habits make us. 
+
+--Frederick Langbridge
+<<<
+
+This wiki talks to you, h0p3, and you talk to it. Think about your wiki as a //computer// because: //it is// and ''so are you''. 
+
+Autonomy is reducible to programming yourself. Program yourself by innovatively programming this wiki. As best you can: escape prisons of misery and build a good life for yourself. Positively disintegrate and wisely rebuild yourself. Iteratively reimagine your modus operandi.
+
+Think of each page on your wiki as a file, and think of your files as containing objects, data structures. Manipulate, create, write, organize, create new words, generate fitting data structures and algorithms, mine yourself, and discover or invent the narratives and patterns in your wiki. Be your own data and computer scientist in your existential investigations and the pursuit of happiness. 
+
+Here you are writing a quantitative guiding light cheatsheet for your life's journey. Be poetically calculating in your planning and execution. Be meta about this wiki and your life. Evolve. [[Know Thyself]] and master your tools until they are extensions of yourself. Wield and shape yourself wisely. Be willing to make mistakes, and remember that science progresses one funeral at a time.
+
+
+---
+!! Principles:<<ref "1">>
+
+h0p3, it's me, you. Pay attention, self.<<ref "2">> You are an exceedingly complex biological computer system having a carefully crafted conversation with yourself.<<ref "3">> You are an evolving self-programmer. Program this rabbithole and yourself wisely! 
+
+In the long-term, this is the most important page on this wiki, with the shorter-term exception of your boot sector: {[[About|About, a.k.a. The Opening of the Rabbit Hole]]}. Here you attempt to formalize how you want to program yourself. This platform you are building is for your own knowledge base and systematically shaping yourself. Be creative, and run with it! 
+
+Second order of business: you should write second-personally or first-person-plurally (implying second-personal empathy) in this section as much as you can. Finding the right voice in which to talk to yourself isn't easy, but it's crucial at this level. Pretend an absurdly empathic friend (yourself, obviously) is telling you what you need to know and do.<<ref "4">>
+
+So, where do you move from the {[[About|About, a.k.a. The Opening of the Rabbit Hole]]} page? That is quite a narrative. Now you must be quantitative about your qualitative narrative. You must put theory into practice. But, to put it into practice as best as you can, you must develop even more theories. The goal is to be friendly-formal, clarifying, terse, pragmatic, heuristical, empirically data-driven, goal-oriented, coherent, and axiomatically insightful in this section; i.e. you have to actually build it, so do it intelligently.
+
+This wiki, including this section, is organizationally bootstrapped and constructed piecemeal. It's cobbled together. It's not perfect, and it never will be. But, it can and will improve; you just need to push and hack it together. Do your best. It takes time to engineer and implement a well-oiled existential machine. What is practically ideal in this case, and how do you achieve it as best you can? Go for it!
+
+The {[[Focus|Current Focus of h0p3's Wiki]]} page is deeply interested in computing the contents of your life. Most of the work happens there. But, like your life and this wiki, it needs principles for prioritizing, construction, weighing, and fundamental decision procedures. You need more than plans; you need principles for those plans. You need principles for those principles too, and so on. One must push hard in this direction, however painful and difficult it may be. 
+
+Obviously, {[[Focus|Current Focus of h0p3's Wiki]]}, {[[Vault|The Vault of h0p3]]}, and {[[Dreams|Dreams of h0p3]]} must ultimately affect, as a kind of feedback loop, your guiding principles in this section as well as your {[[About|About, a.k.a. The Opening of the Rabbit Hole]]} page, your existential anchor.<<ref "5">>  Essentially, be careful in how you grant privilege escalation to lower-ordered processes.<<ref "6">> However paradoxical it may seem, it's up to you to strike the right balance between guarding yourself and being vulnerable to yourself.
+
+In this section, you must lay down the constitution, the criterion and source of authority of your internal law: the rules, strategies, methodologies, and principles of programming yourself and using this wiki. Autonomy literally means self-legislating. That's exactly what you intend to do. Here you hope to hone and maximize your executive functioning. Essentially, you need direction in life, and you're helping yourself find and implement the best way you know how (what else can you do, eh?). 
+
+There are many collections of principles worth looking at. You must isolate, categorize, organize, analyze, revise, and synthesize them. Cleanliness, order, and conventions matter. If this wiki is an isomorphically mapped feedback loop, and changes are bi-directional (you change the wiki, and the wiki changes you), then you should take the time to organize and structure it with the right principles. You must unscatter your thoughts. You must be an existential computer scientist in your pursuit of //homo sapien// happiness; it's the only philosophically practical thing to do. Accumulate virtue-generating idioms and habits. 
+
+You must be meta about being meta, etc., but in a sense, you should aim to do minimal theoretical work in this section.<<ref "7">> You need to be as practical as you can be here, despite how existential and theoretical it really is. If the {[[About|About, a.k.a. The Opening of the Rabbit Hole]]} page is your existential anchor narrative, a very qualitative and subjective (yet obviously valuable) theory filled with "I" language, then this section is meant to be it's pragmatic brother, filled with "You" advice language and principles for this wiki's self-dialectic.
+
+Remember that you are in the driver's seat. So, pilot the wiki wisely, ace! Build for yourself a proof of your sanity, growth, intelligence, wisdom, and willpower. Play life and this wiki like a video game that you adore. Be obsessively strategic in your planning and savor the metaliving experience.<<ref "8">> If you aren't making maximally meta paradigm shifts and syntheses, you're doing it wrong! Pour yourself into this medium. Shotgun approach, organize, and prune in order to find the way to happiness. Listen to yourself.
+
+
+---
+!! Focus:
+
+* Tiddlywiki Engineering:
+** [[Wiki: Tiddlers of Note]]
+** [[Wiki: Tiddlywiki Howto's]]
+** [[Wiki: Tiddlywiki Resources]]
+** [[Wiki: Scripts]]
+** [[Wiki: lost+found]]
+
+* Syntactic Construction:
+** [[Wiki: Directory File Structure Template]]
+** [[Wiki: Log Structure]]
+** [[Wiki: Unique Syntactic Mechanics]]
+** [[Wiki: Retirement]]
+** [[Wiki: Terminology]]
+
+* Semantic Construction:<<ref "9">>
+** [[Axioms of h0p3]]
+** [[Wiki: Existential Axioms and Fundamental Principles]]
+** [[Wiki: Broad Computational Structure]]
+** [[Wiki: Construction Principles]]
+** [[Wiki: Scheduled Practices]]
+** [[Wiki: Be the Kind of Author that...]]
+** [[Wiki: Assume this Audience]]
+** [[Wiki: Loosey-Goosey Principles]]
+** [[Wiki: Rules of Editing]]
+
+* Sources of Wisdom and Metawisdom:
+** [[Antipleonasmic Catholicon]]
+** [[Wiki: Other Frameworks and Paradigms to Consider]]
+** [[Wiki: Feedback Loops]]
+** [[Holistic Wiki Concepts]]
+
+* Logs:
+** [[Wiki Review]]
+** [[Wiki Audit]]
+** [[Wiki: /b/]]
+** [[Self-Dialectic]]
+
+* Life Principles:
+** [[Family Time Rules]]
+** [[Household Rules]]
+** [[Carrots & Sticks]]
+
+* New/Unsorted:
+** [[Principle: /b/]]
+** [[Visual Mnemonics]]
+
+---
+!! Vault:
+
+* Retired {[[Principles|Principles of Programming Myself]]}:
+** [[2017.09.09 - Retired: {Principles}]]
+* [[Wiki: Dead Principles]]
+
+
+---
+!! Dreams:
+
+* {[[Axioms of h0p3]]} will be the successor to this directory!
+
+* #INEEEDIT
+** Automatically generate my logfiles, vaults, links, and reorganizations.
+** Need add-on to show all pages that link to a page.
+** Tranclusion filter pages for each [[Titletag]].
+** I want my logs-to-be-edited to be on this list. Easily clicked on, already made for me, I just click there and it does it. I don't want to have to go into my official Log pages to edit those either. That should be automated for me.
+
+* Long-term
+** [[Wiki: Tiddlywiki Architecture]]
+** [[Wiki: The Animated Progress Visualization Project]]
+** [[Wiki: Tiddlywiki Map]]
+** [[Wiki: Time Searching]]
+** [[Wiki: The Private Wiki Mirror]]
+** [[Wiki: Delta Encoded Archive]]
+** [[Wiki: Multi Social Network Distribution]]
+
+* Tool Ideabag:
+** https://github.com/Arlen22/TiddlyServer
+** https://gitlab.com/danielo515/tw5-auto-publish2gitlab-pages
+** http://karlsteltenpohl.com/
+** https://alexhough.github.io/SheepyWiki1
+** https://github.com/buggyj/bsaver
+** http://attention.tiddlyspot.com/
+** https://snowgoon88.github.io/TW5-extendedit/
+
+* Worries
+** How do I identify anti-patterns?
+
+
+---------------------------
+<<footnotes "1" "I am aware of the fact that the //About// and //Principles// sections on this page are highly related. I do not know if I can peel them apart any better than I have.">>
+
+<<footnotes "2" "God, I'm annoying, =).">>
+
+<<footnotes "3" "One day my son had been dealing with incompatibilist intuitions and wrestling with himself to see that our autonomy just is programming ourselves (long have I struggled on that path), and he told me a joke. This joke was a response to his punishment of losing his rights to use computers that day (horror of horrors, let me tell you) because he didn't do his chores on time. He said, 'Dad, if I can't use computers, then I can't be myself.' He explained his reasoning. It was a beautiful moment.">>
+
+<<footnotes "4" "I'm not sure how this works, but be wise! (Sounds like the blind leading the blind to me, lol.)">>
+
+<<footnotes "5" "I'm sure it sounds weird to call the second-order mental states the foundational ones. Frankfurt was right though. Essentially, we must align our many ordered desires, beliefs, and mental states. We must create conformity between them. Ultimately, the higher-ordered must do the modifying and alignment. Thus, that is the seed and perhaps foundation of autonomy, if not the very heart of it.">>
+
+<<footnotes "6" "I am aware of the [[infinigress|Infinigress]] here. As always, any sufficiently advanced technology is indistinguishable from magic. I have no response. It's axiomatic faith for me. I'm sorry I can't provide you a better explanation at this time. (I'm sure it really bakes your noodle that I'm using 1st personal language here. Lulz.)">>
+
+<<footnotes "7" "Theory is everywhere. I love theory. I also can't afford to not set my existential tentpegs down. Consider this a pragmatic nomadic approach through the desert.">>
+
+<<footnotes "8" "Obsessions and dependencies may sometimes become addictions. However, well-executed obsession here is literally being wise by definition. That which maximizes utility (//for whom?//, I realize) is a wise dependency.">>
+
+<<footnotes "9" "I don't think semantics and syntax peel apart so nicely, but this is the best I can do for the moment. I'm guessing here, and I know it's ugly. Clearly, there are some deep philosophical problems at play here.">>

@@ -1,0 +1,58 @@
+created: 20180909170130703
+creator: h0p3
+modified: 20190607220916051
+modifier: h0p3
+tags: [[Infrequent Logs & Projects]] Autogen [[Wiki Audit]] Philosophy Computing
+title: Tagging Theory
+
+!! About:
+
+<<<
+What's in a name? that which we call a rose
+By any other name would smell as sweet.
+
+-- William Shakespeare, //Romeo and Juliet//
+<<<
+
+I believe I am ignorantly blind about the value of using tags. What precisely and generally is the value of tagging? I've naively found my problems are best solved by search, marginally taglike-equivalent title naming conventions, and effective linking+transcluding. I nest and crosspost hard. What am I missing? What do they help me model that I can't already? In what contexts is it correct to pay the price of tagging? Of course, I've had a couple people tell me that they believe or don't know how tags would help me in my wiki; I'd love to assume they are correct.
+
+I feel so stupid and arrogant in this space. I'm missing something super important, right? Why should I use tagging in this wiki? When should I be tagging in all of my computer usage? What mistake have I continuously made over the years to endlessly reject the use of tags so explicitly? Perhaps I've been using tags all along and don't realize it. I am blind here. I cannot see the elephant. 
+
+Humility, sir! At least //try// to solve it.
+
+Perhaps this will be an epic tool for me, add another dimension to its computability, grow my ability to reason exponentially, open doors to synergistic emergences I could not access otherwise. I see perhaps the possibility of it, but I strongly doubt it. Yet, I don't have good enough reasons to not explore it further; this risk is clearly worth it. It's such an obvious tool built into this wiki, and I'm not using it. That's a warning sign! How can so many other intelligent people see the obvious value in this and I do not? Surely, I must be wrong.
+
+ I'm [[fff]] like all of us, so I should celebrate the opportunity to be proven wrong here, to benefit from the wisdom of others, to learn from the masters of other rungs of this ladder-climbing art.
+
+
+---
+!! Principles:
+
+* Humbly reach out into the unknown for the unknown.
+
+
+---
+!! Focus:
+
+* [[Tags]]
+
+* Tools:
+** Autotag plugin
+** Script for inserting tags into a wiki from commandline.
+** [[Filters]] the Frenemy
+** [[Wiki: Tagging Script]]
+
+<<list-links "[tag[Tagging Theory]]">>
+
+
+
+---
+!! Vault:
+
+* (*crickets*)
+
+
+---
+!! Dreams:
+
+* To dream of more dreams for this page.

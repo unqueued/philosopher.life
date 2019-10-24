@@ -1,0 +1,11 @@
+created: 20181221164945351
+modified: 20181221171153607
+tags: [[Wiki: Scripts]] bash
+title: startbob.sh
+
+```bash
+#!/bin/bash
+
+node /home/h0p3/syncs/bob/tiddlywiki.js /home/h0p3/syncs/bob/Wikis --wsserver &
+disown
+```

@@ -1,0 +1,231 @@
+created: 20180907224935936
+creator: h0p3
+modified: 20181021203735088
+modifier: h0p3
+tags: [[Deep Reading]]
+title: 2018.09.07 - Deep Reading: H2MCM
+
+```
+What I'd probably do if this was on paper is take out my green pen,
+(green = icons, markup, meta,...), or maybe (tolerate errors!) my blue
+pen (blue = structure), and put a little letter "a" by irrelevent
+stuff for this purpose, and a "b" by where it says "big changes affect
+many should be possible." So the designation on the page would be
+"`3b".
+```
+
+The ability to make large changes and reuse my content is exactly why I prefer to do this on a computer. I often have done something terribly wrong in my reasoning, but there is usually plenty to salvage. 
+
+Aside: the author of this book doesn't fully read through books. I wonder what he'd say about the same approach to his own book.
+
+```
+But I STRONGLY recommend just " `# " for a speed thought, since they
+are the most common,
+```
+
+I think this is also a result of having to do it by hand. My hand gets very sore writing even past a couple pages (I'm especially sensitive). I can type 100wpm for hours if I had to (although, obviously, I barely get that much content out). I think the ability to express long-form rides about being able to speak and/or type in the end. I will be interested to see how I will be able to effectively leverage speech-to-text when it's finally solved to 99% (admittedly, I use lots of weird words and syntax that have to be typed). 
+
+<<<
+If you are only changing a PAGE of a map- that's a situation I've
+never run into, but it should be solvable. I'd version off that page
+number, using letters. "M3-5c" would be version 3 of the whole map,
+version c of page 5. Archive "M3-5b" back with where you archived
+"M3-5a".
+<<<
+
+Archiving/versioning are super important. I think that some things are much easier to just do by hand in a journal, and in a way, some of the work of the wiki is about figuring out how to make these kinds of marks ergonomic. I will need to think more about this. There's a lot of [[Wiki Audit]] and [[Program Yourself]] considerations to worry about.
+
+I can definitely feel the author's need in this book to be able to just tell himself about his own system. It's so incredibly detailed and idiosyncratic that even the creator can forget how it works.
+
+<<<
+Personally, I think it's healthiest to LOOK FORWARD as you keep your
+notebook. Let the dead bury the dead.
+<<<
+
+Agreed. Focus on what is in your control as much as possible. I do care about leaving the breadcrumbs of legacy, of course. But, even that is forward-thinking based. 
+
+<<<
+If you ever follow a link to the old version, update the link to point
+to the new version, wherever the link's source is.
+<<<
+
+I hate to say it, but even the wiki suffers these kinds of problems. There are some mechanics which have to be updated carefully. That said, I really like the ability replace content systematically. 
+
+<<<
+  IF AT ALL POSSIBLE, JUST KEEP YOUR NOTES IN YOUR BOOKS!
+
+  If your book belongs to you, and it has a granger, then by all
+means, grangerize it! It's _your_ book! It'll be worth MORE to you if
+you put YOUR thoughts in it. 
+<<<
+
+If you've had to move as many times as I have, you will reconsider it. I think adding reference numbers to your work is the way to go. 
+
+<<<
+  Some times, you'll be looking for ALL of your thoughts on a
+particular subject.
+
+  If you do that, you may repeat the search again in the future. Why
+go to all that work, AGAIN?
+<<<
+
+This problem doesn't go away with a wiki, even though I rapidly perform many searches quickly.
+
+<<<
+  Now, whenever you start a search for a subject, pull out the index
+sheet. Write, IN BLUE (because your search word is a "key"), the
+search word, NEXT to the letter that the word starts with.
+<<<
+
+I think the author would be appalled by my lack of tags. 
+
+<<<
+ Your brain is messy. The notebook system
+is messy. It's GOOD, it's USEFUL, it WORKS, but part of the reason it
+works so well is because it TOLERATES ERRORS. (If you don't tolerate
+errors, you are going nowhere with this all.)
+<<<
+
+Amen. Say it again! Preach, yo!
+
+<<<
+  You take your most commonly used pieces of information, and fit them
+all onto a single cheat sheet. You use it to work with. It will
+probably be highly abbreviated. Good organization is
+important. Information density to the max.
+
+  The cheat sheet goes near the VERY END of the subject, so you can
+find it quickly.
+<<<
+
+I totally appreciate that. I think this is [[antipleonasmic]]. I have a lot this is [[Computing]] related projects as well.
+
+<<<
+  As you invoke abbreviations, or create symbols or shorthand, record
+them on the A/S. That way, in a year, you can figure out what in the
+world you were talking about.
+<<<
+
+[[hlexicon]] is meant to be more universal and long-term. I use abbreviations, of course, but they tend to be googleable. I'm already so difficult to interpret that I don't want to make it its own language anymore than it has to be. Again, I type faster than you'll be able to write by hand with shorthand and cursive. That difference is too important to me.
+
+I have to delete and insert content too much though. I'm awful at bluebook exams, but that's exactly why I asked to use a computer for those tests. I'm radically better at taking tests when I can type it.
+
+<<<
+  If you do this long enough, you'll find yourself making up
+words. And the meaning of those words may change (sigh), or spawn off
+new words (better).
+<<<
+
+Yeah =/...[[adok]] being an example I keep for myself. This reminds me of naming convention for variables and constructing predicates in FOL. 
+
+<<<
+Chaos is just papers that have hoards of thoughts on them with no
+obvious subject placement, or that are so hopelessly beyond recovery
+(or take so LONG to recover) that you might likely just throw it out,
+but that you'd like to give it "one last chance". After staring at it
+for a while, though, you decide, "Nah. Toss it." And you do.
+
+Or you don't. I've occasionally found a jewel in there. Whatever you
+like.
+<<<
+
+I feel like this is a place where the wiki, setup correctly shines radically. I regularly have to tell my children to stop throwing things away. I beg them to maintain the conditions, workflows, extras, old versions, and drafts of what they make. It's important to keep it. Sometimes you have to recreate or use old things to make completely new ones. Sometimes you just need to tell yourself the story of your progress. 
+
+<<<
+I frequently call it the "subject cache". It's where the subjects that
+you have been using for the last 2-6 weeks go; Ones that you are
+accessing frequently.
+<<<
+
+Hello, {[[Focus]]}, [[Hub]], et al. Scheduling/caching is a serious problem in computation.
+
+<<<
+The Grand Subject Map of Contents (GSMOC) is a map of all of your
+subjects. It will probably start out being just a single page, and
+will likely baloon out to be several pages large.
+<<<
+
+I think [[Hub]] and [[Root]], but especially {[[About]]} and {[[Principles]]} serve as my [[reality map]]s.
+
+<<<
+What follows is just gibberish in my lookup process:
+--------------------------
+S5 S14 S19 S82 S43 S44
+Transfer: P2 S74
+Interface: S15
+
+S5: Purpose, Mis-sectioning, Re-sectioning, Growth Process, Can get
+right first time?, Constellations (SYS:S4)
+SYS-S4: (Carry-about, Systems, S4, looking up...)
+SYS-S4: Programming & Bsns & Notebooks have in common- diving up
+functionality/work/thoughts into constellations. Dealing w/ border
+cases, ambiguity. Ideally multi-categorize.
+S14: Dividing when big- many speed-thoughts = division likely
+S19: Splitting Subjects - when 1 domain knowledge used make conclusion
+in 2nd, 2nd is primary. If many-many try go more general. If 1 object
+many contexts, the object. ex: ACT2:S9. Particular relevence in a
+domain gets it. ex:ACT2:S39. If 1 object in 1 context, the context, to
+aid in mapping. Action suggested in particular domain gets
+it. ex:ACT2:S26 (or28?)
+--- (ACT2 lookups)
+ACT2-S9: (Archives, Action 2, S9, looking up...)
+ACT2-S9: Ideals, Spirit, & Self Image. Spirit in Context of ideals &
+Self-image (where am, where go). [Sent to "Spirit"]
+ATC2-S39: It's okay to hold social theories, just don't believe you
+are right. Understand your ideas are non-scientific,
+inductive. Connected S37, Forwarded to SOC.
+ACT2-S37: "Give up being right!" -Super-complexity, Non-scientific
+thinking, (science IMPOSSIBLE), w/in abstract domains of political
+issues in life. Much happier w/o.
+ACT2-S26: Keeping sched for interacting w/ friends. -->ATS
+---
+S82:Subjects can become big.l Things ordinarily small may take on
+great importance in your life, and grow own place in framework. ex: If
+x-tian, Bible may be whole subj, or even individual books in Bible!
+S43:Thought-focus areas can be TIGHT (ex:IMGN) or LOOSE (ex:MP)
+S44:Identifying Key Locusts & Peripheral Locusts
+Transfer
+P2: (POI Transfer entry)
+S74: Moving Entrees. Don't renumber if don't have to. Open spaces AOK.
+Interface
+S15: Interfacing between subje
+<<<
+
+See, I'm desperately fighting this Rube-Goldberg machine. It's very hard to keep a clean codebase when you have no idea what you are supposed to be coding. That looks like a secret language to.
+
+<<<
+1. When 1 domains knowledge is used to make conclusions in a 2nd
+   domain, the 2nd domain is primary.
+2. If there is a many-many relationship among domains, try to go with
+   the most *general* domain, if at all possible.
+3. If there is 1 object in MANY contexts, try to put the object in
+   it's own, native domain. If such a thing exists.
+4. But: If you have 1 object in ONE context, put the object in the
+   CONTEXT.
+5. If there is a PARTICULARLY relevant domain, that domain gets it.
+   In order to aid in mapping.
+6. An action in a particular domain: the domain gets it.
+<<<
+
+I feel the pain in these. I feel like I'm zealous in these things, but I'll never be good enough at it.
+
+<<<
+I can give a demonstration of something that I gained:
+
+I discovered at one point that large scale social ethics are too
+complex to calculate, and that social ideologies are necessarily
+unscientific.
+<<<
+
+Whoops. I don't think you know what you are saying.
+
+<<<
+But we have an interface to those capabilities, namely, the Printer.
+<<<
+
+I'm only considering it to maintain a copy even if everything went wrong. I'd still have an analog copy of my writing.
+
+
+
+
+

@@ -1,0 +1,123 @@
+created: 20180723145101442
+creator: h0p3
+modified: 20180724053316198
+modifier: h0p3
+title: 2018.07.23 - Computers Musings: I Give Up
+
+With storms, we've had two major power outages this week, and i3 is gorgeous, but I simply can't get Alsa (and the wrapper pulseaudio) to work correctly with my HDMI and 8mm setup. It's over, I give up. =/
+
+Back to KDE with me. 
+
+---
+
+BELAY THAT ORDER!!!!!!!!!!!!!!!!!!!
+
+I tried, on a whim, the Manjaro Architect to see if I could just get i3 working for myself from it.
+
+Turns out, I could! I get sound with volume control working off the fresh install...but I realized that I was just fooling around and didn't set up everything I really wanted on it from the Architect. I also want the official installation.
+
+So...I went an installed i3 officially again. Without further ado, this is the fix (so crazy fucking simple):
+
+Turn off Built-in Audio "Analog Stereo Output" 
+
+`Comment out every sound application except pa-applet`. 
+
+Make sure it survives restarts.
+
+...
+
+Seriously, it's about not letting the i3 config file even touch it. It works on Manjaro, but not from i3's startup bullshit. Don't fucking touch .asounrc or the etc config. No need to force anything in my case. Worked like a charm for my son's computer too.
+
+---
+
+I keep modifying /home/h0p3/[[.i3/config]]
+
+---
+
+Firefox setup for TW
+
+---
+
+Syncs all setup. We are live.
+
+---
+
+Signal, Keybase, Pidgin, Qtox working.
+
+---
+
+Dolphin is setup, but I still don't have networking added for it. I'm not sure what it will take.
+
+---
+
+Dropbox is a pain, and my only option is to go CLI with it. I'm going to wait and see if I can do without.
+
+---
+
+SSH is up and running.
+
+My daughter can now help me rebuild it quickly.
+
+---
+
+Switching to Deadbeef. CMUS is pretty, but I'd rather than the GUI in the end. I need it to play nice with all hotkeys and sound systems. Hotkeys set. I have "media stop" on play/pause, etc. Leaving actual play/pause key for audiobook reader.
+
+---
+
+Tired of working in nano. Back to Sublime text for this. Working on [[.i3/config]] quite a bit. Going to try moving to nvim again for my primary system editor. Sublime keyed for user and root.
+
+---
+
+Setup [[lussh]] for many of my servers.
+
+sshfs and [[autostarts.sh]] setup. /mnt's are all setup and chown'd for h0p3.
+
+---
+
+Cronie installed, [[m10: crontab]] setup.
+
+---
+
+Autostarts, hotkeys, and most of the tiling set. i3 is now workable for me, including after restarts.
+
+---
+
+Setup mc and coloration. Ranger just isn't as useful to me, even if it is much faster to navigation. I probably just don't know how to use it.
+
+---
+
+Shreddit setup again.
+
+---
+
+Forgot Jop's sync. Saved to private.
+
+---
+
+Wallpaper is set again. Took a bit of my daughter's handiwork with gimp to fit against what I believe is a conky effect that I intend to keep.
+
+---
+
+Setup i3status.conf and a network speed script, which also required a modification of i3's conf.
+
+---
+ 
+Mouse and keyboard speed settings changed. Cursor graphics changed to something I can see better.
+
+---
+
+Killed that fucking blurlock.
+
+---
+
+Settings for default font was: Noto Sans
+
+...going for my Input that's compressed!
+
+* in mod+Ctrl+b...set font from appearance
+* .Xresources for URxvt
+* .dmenurc
+
+SCRATCH THAT!! IT LOOKS LIKE SHIT.
+
+Instead, modified morc_menu_v1.conf and .dmenurc to Noto 13. Also set i3/config to Noto 12.

@@ -1,0 +1,16 @@
+created: 20181223201824707
+modified: 20181224055935791
+tags: [[Wiki Audit]]
+title: 2018.12.23 - Wiki Audit: Driver & Backseat
+
+Long have I maintained no distinction between the Driver's Seat and the Reader's Seat. I really do want them to be as identical as possible. I'm moving to a more complex [[RGM]] which is peeling apart reading and writing. This brings some incredibly valuable tooling and properties to the table, but it is with anxiety (maybe even woe) that I see I cannot fit it back together. I must pay close attention to this process to enable empathy and maximize my pursuit of the [[T42T]] principle in its construction and implementation.
+
+I'd like to note there are some aspects of TW which are evolving to make this distinction further. The "editing" mode is different from the published document mode. I am not sure what I think about it yet.
+
+---
+
+Lots more work on [[Auto Text Expander]] and [[Text Blaze]].
+
+---
+
+[[j3d1h]] and I worked on a VM for Bob as well. I think there is a problem I don't like facing here in upgrading Node before I'm sure we should.

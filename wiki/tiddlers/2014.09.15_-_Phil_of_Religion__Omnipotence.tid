@@ -1,0 +1,308 @@
+created: 20180704233224654
+creator: h0p3
+modified: 20181031035931170
+modifier: h0p3
+tags: Tulane
+title: 2014.09.15 - Phil of Religion: Omnipotence
+
+Classical theism claims God is omnipotent (all powerful). What does omnipotence mean?
+
+A few philosophers (e.g. Descartes) have believed God’s omnipotence was so far reaching that He could somehow violate truths. Most philosophers, however, think God cannot do what is logically impossible.
+
+Let us take omnipotence to mean: “the ability to do whatever is logically possible.”
+
+We need to be clear about what “logical possibility” means.
+
+There are many modalities of possibility. Euler’s circles:
+
+    Technological possibility
+
+        It is technologically possible to brute-force search for the 100th prime number on a phone in 2 seconds.
+
+        It is technologically impossible to brute-force search for the 100 trillionth prime number on a phone in 2 seconds.
+
+    Physical possibility
+
+        All technologically possible things are physically possible.
+
+        Some technologically impossible things are physically possible.
+
+        At some point in time, it was technologically impossible to travel from NY to LA in 10 hours. But, it was always physically possible. We just hadn’t invented airplanes at that ime.
+
+        Similarly, perhaps we’ve not invented fast enough phones or understood number theory well enough for it to be technologically possible to find the billionth prime number on a phone in 2 seconds. That may change though. Perhaps it is physically possible, and eventually, it will be technologically possible as well.
+
+        It is physically impossible for an object to travel faster than the speed of light.
+
+    Metaphysical possibility
+
+        This one is really unclear, but people talk about it in philosophy.
+
+        All physically possible things are metaphysically possible.
+
+        Some physically impossible things are metaphysically possible.
+
+        It might be metaphysically possible for an object to travel faster than the speed of light, but only if that object isn’t governed by the physical laws.
+
+        It is metaphysically possible for two individuals to behave in exactly the same way with regard to a color stimulus, yet have opposing physical phenomenal color experiences.
+
+        It is metaphysically impossible for one to be born substantially earlier than they were actually born; the origin of an object is an essential property of the object.
+
+        It is metaphysically impossible that water fail to contain hydrogen.
+
+    Logical Possibility
+
+        All metaphysically possible things are logically possible.
+
+        Some metaphysically impossible things are logically possible.
+
+        The difficulty in understand metaphysical possibility clouds the relationship between metaphysical and logical possibility.
+
+        It might be logically possible for water to fail to contain hydrogen. I’m not sure what that really means though. (You can see I have doubts about metaphysical possibility)
+
+        It is at least clearer to see that it is logically possible for an object to travel faster than the speed of light.
+
+        It is logically impossible that 2+2=5
+
+When we say God is omnipotent, and that He can do all things that are logically possible, then we everything inside that euler circle, and that we are claiming He can’t do things aren’t logically possible. He can’t, for example, make 2+2=5.
+
+Even this definition, however, seems to carry with it some problems. Consider Wade Savage’s paradox of the stone argument:
+
+    Either x can create a stone that x cannot lift, or x cannot create a stone that x cannot lift.
+
+    If x can create a stone that x cannot lift, then, necessarily, there is at least one task that x cannot perform (namely, lift the stone in question).
+
+    If x cannot create a stone that x cannot lift, then, necessarily, there is at least one act that x cannot perform (namely, create the stone in question).
+
+    Hence, there is at least one task that x cannot perform.
+
+    If x is an omnipotent being, then x can perform any task.
+
+    Therefore, x is not omnipotent.
+
+
+
+Is it logically possible for God to sin? It depends on what we mean by possible still. In modal logic, we talk about logical possibility in terms of “possible worlds.” If there is no possible world in which God sins, then it isn’t logically possible.
+
+
+
+Is this really showing contradictions and impossibilities in the concepts and attributes of God, and thus dismissing God entirely? Or, this this really a procedure for figuring out precisely what counts as those concepts and attributes? One might take this as an attack, and another might take it as a way to clarify our understanding of God.
+
+Most people think Descartes view of God (where God’s omnipotence includes being able to do the logically impossible) goes too far in extending God’s transcendence. Perhaps this stone example just shows yet a smaller way in which we’ve gone too far in exalting God’s transcendence.
+
+Of course, the worry is that we’ll enter a vicious circle: God being able to do what He is able to do. We might just say, God is as powerful as being with the classical attributes (minus omnipotence) can be. But, that seems to lack the oomph we might want. Are we asking too much?
+
+
+
+AQUINAS:
+
+Incredibly large body of systematic theology and philosophy of religion which included most other branches of philosophy. He rendered the Aristotelian view of the world into Christian theology.
+
+Mavrodes skips over several of these, for good reasons perhaps. He seems to focus primarily on Aquinas’ understanding of possibility.
+
+    He offers 4 brief objections to the omnipotence of God.
+
+        God cannot move.
+
+        God cannot sin.
+
+        God cannot do the greatest possible act, since the greatest act He does is sparing and having mercy.
+
+        God cannot make necessary things unnecessary.
+
+    He considers the notions of possibility and impossibility.
+
+    Cryptic replies to each objection:
+
+        God cannot move.
+
+            Omnipotence is an active power.
+
+            ??
+
+        God cannot sin.
+
+            Sinning is falling short of perfection action, which his repugnant to omnipotence.
+
+                ??
+
+            God can do what is evil, but only understood in terms of a conditional whose antecedent is never true.
+
+                If God wanted to sin, he could sin.
+
+                    Assuming antecedent is false, the conditional is true.
+
+                        Show the truth table.
+
+                    Brings a regress: It is now impossible for God to want to sin.
+
+                        Respond with a conditional again?
+
+                        If God really wanted to sin, could you want to sin.
+
+                        Etc.
+
+                If God will sin, then He could sin.
+
+                    This seems to miss the point.
+
+                    Couldn’t we say the same things about ourselves for all kinds of actions? And, would that make us omnipotent?
+
+                    Is this only for sin? If so, why?
+
+                    Why is it that sin should be understood this way but not other kinds of actions?
+
+                The antecedent argument doesn’t seem to get show the truth or falsity of the atomic sentence: “God could sin.” Although, Aquinas already seems to admit the falsity of that atomic sentence. He’s screwed.
+
+            Seems like his best way out to is to just admit the tension between omnipotence and omniscience.
+
+        God cannot do the greatest possible act, since the greatest act He does is sparing and having mercy.
+
+            ??
+
+        God cannot make necessary things unnecessary.
+
+            ??
+
+
+
+MAVRODES:
+
+The standard “stone” argument:
+
+    For all x, if x is omnipotent, then x can perform any task.
+
+        Assume some arbitrary being, b
+
+        Either “b can create a stone b cannot lift” or not “b can create a stone b cannot lift”
+
+            Assume “b can create a stone b cannot lift”
+
+                b cannot lift the stone in question
+
+                There is at least one task b cannot perform.
+
+            Assume not “b can create a stone b cannot lift”
+
+                b cannot create the stone in question
+
+                There is at least one task b cannot perform.
+
+        Thus, there is at least one task b cannot perform. [vElim]
+
+    Thus, for all x, there is at least one task x cannot perform. [universal-Intro]
+
+    Thus, for all x, x is not omnipotent.
+
+Admittedly, this looks like a valid argument (this isn’t a complete proof, but it is the outline of one). I see no reason to deny any of the moves made. If you agree to premise, and you believe in God, then you believe in a God who isn’t omnipotent. If you believe in an omnipotent God, you can’t accept the premise.
+
+We shouldn’t accept the premise though. Note that we could have substitute “b can create a stone b cannot lift” with some other task, such as “b can change 2+2 to equal 5” and this argument still holds. Changing 2+2 to equal 5 is not a logically possible task. What this point out is that we really shouldn’t accept just “any task” in the premise. The premise should probably be:
+
+    For all x, if x is omnipotent, then x can perform any logically possible task.
+
+Is creating a stone too heavy for one to lift logically possible? If so, this argument holds.
+
+Mavrodes doesn’t seem to engage this generalized argument head on. Rather, Mavrodes requires of the critic a reductio. Assume God’s omnipotence, and show absurdity follows. This expectation of argument style probably isn’t reasonable.
+
+Is it logically possible to make an unliftable rock? If it is impossible, then perhaps Mavrodes is right. If it is possible, then the stone argument might hold.
+
+Mavrodes thinks it is relevant to ask: “unliftable for whom”? Is that really the right question though? Logical possibility of the task doesn’t seem to be about “whom.”
+
+Is a rock, by definition, liftable? Liftable for humans, no. Liftable for God. Maybe. If liftability by an omnipotent being is part of the essence of a rock, then this Thomistic argument works. This, of course, might be different from saying “divine liftability is part of the essence of a rock” (depending on what we mean by omnipotence). You can’t make a rock lacking an essential attribute of rocks, just as you can’t make a square circle.
+
+So, the first answer is to say we’ve asked the logically impossible of God. Really though, I think we are asking what is logically possible for us, but logically impossible for God of God. That’s a big difference. Mavrodes seems to be relying upon this argument:
+
+    If a task is contradictory to God’s nature, then it is logically impossible for God.
+
+    To question whether or not God can perform that task is to question whether or not God can do the logically impossible.
+
+But, this second step is mistaken. There is just a huge difference between logically impossible for all beings and logically impossible for a particular being.
+
+Mavrodes think the argument is even stronger though. He says:
+
+P = “a stone too heavy for an omnipotent God to lift is self-contradictory (logically impossible)”
+
+    Either P or not P
+
+        Assume P
+
+            It isn’t logically possible for God to create it.
+
+            God can only do what is logically possible. This doesn’t count against his omnipotence.
+
+        Assume ~P,
+
+            It is logically possible for God to create it.
+
+            No damaging conclusion to draw. This doesn’t count against his omnipotence.
+
+    Thus, this doesn’t count against his omnipotence.
+
+Maybe he’s right about this fork. I worry, however, this second half doesn’t work the way Mavrodes thinks. I fear Mavrodes’ argument has put words into the die-hard objector’s mouth.
+
+Consider the following statements (where the domain of x is all logically possible objects):
+
+    S = “For all x, x is such that God can create it”
+
+    Q = “Some x is such that it is a stone too heavy for God to lift”
+
+    R = “For all x, if x is a stone, God can lift it.”
+
+Mavrodes seems to be arguing (at the very least) S and Q are consistent by supposition in the ~P half of his argument. Unfortunately, showing that S and Q are consistent might not work like this; perhaps one can’t just “suppose” it. These two propositions are only consistent if we can’t show absurdity results from S and Q. Mavrodes’ certainly hasn’t demonstrated that we can’t show that absurdity might result from S and Q. Further, I worry that Mavrodes has implicitly argued that the consistency of S and Q imply R. This is a problem though, since Mavrodes really needs all three sentences to be logically consistent if he agrees to Q by supposition.
+
+Mavrodes claims the die-hard objector, who probably isn’t agreeing to Mavrodes claim that God is omnipotent in the way Mavrodes means it, has “contended that such a stone is compatible with the omnipotence of God.” That seems quite unclear.
+
+It is possible the die-hard objector can come back and force the dilemma. On one hand, the die-hard objector may deny the consistency of S and Q, claim Q, and therefore deny S. On the other hand, the die-hard objector might agree to the consistency of S and Q, but go on to show that Q and R aren’t consistent. The die-hard objector, essentially, will deny at least S or R, and that seems to be a significant problem for Mavrodes.
+
+Seems to me, Mavrodes is only solving the first half of the proof here. The second horn of the disjunction doesn’t buy him what he thinks it does.
+
+Even worse, Mavrodes only solves the first half if we agree that “x can create a stone that x cannot lift” is really logically impossible, or that divine liftability is essential to a stone.
+
+
+
+Perhaps Mavrodes’ still fails to answer the overall question of the coherence of omnipotence. What about evil? Can God do evil things? Mavrodes style of argument might get around this. Again:
+
+    If a task is contradictory to God’s nature, then it is logically impossible for God.
+
+    To question whether or not God can perform that task is to question whether or not God can do the logically impossible.
+
+This argument works anything, including performing evil actions. But, this argument isn’t a good argument. The evil problem still seems to hold.
+
+
+
+
+
+Mavrodes offers a final approach, namely the minimal restriction or revision of our understanding of God’s omnipotence through the dialectic. These problems then clarify for us the meaning of God’s power.
+
+This final approach seems to handle both the stone and evil problem pretty effectively. I’m not sure if we give up anything substantial in accepting it either.
+
+
+
+FRANKFURT:
+
+One might take Frankfurt to be arguing that we should accept that God can do the logically impossible. If that is all he is saying, there is no reason to continue the argument. That alone defeats the “stone” objection. Frankfurt must be saying something else.
+
+Frankfurt seems to like Mavrodes’ argument. Frankfurt seems to think he’s improving or modifying Mavrodes’ argument by relieving us of having to outright assume that God can’t do the logically impossible. This seems to be the actual structure of his argument when you boil it down:
+
+Q = “God can do what is logically impossible”
+
+    Either Q or ~Q
+
+        Assume Q
+
+            God can create a stone too heavy for Him to lift.
+
+            God can lift a stone too heavy for Him to lift.
+
+            God is omnipotent
+
+        Assume ~Q
+
+            Mavrodes argument goes here.
+
+            God is omnipotent (assuming Mavrodes argument works)
+
+    Thus, God is omnipotent.
+
+Note that critics ~Q. Frankfurt’s argument doesn’t seem to address that. Even the critic will agree that if Q, then the stone argument is pointless. The stone argument is based on the assumption of ~Q. Who is Frankfurt really arguing against? Nobody. We already knew what he told us. He doesn’t really contribute anything to the conversation.
+
+Ultimately, he hasn’t improved or modified Mavrodes argument at all, especially in the eyes of the critic.

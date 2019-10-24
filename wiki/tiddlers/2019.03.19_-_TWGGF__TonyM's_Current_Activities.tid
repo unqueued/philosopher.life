@@ -1,0 +1,45 @@
+created: 20190320030115807
+modified: 20190320054600113
+tags: TWGGF TonyM
+title: 2019.03.19 - TWGGF: TonyM's Current Activities
+
+* https://groups.google.com/forum/#!topic/tiddlywiki/4aCyZ3FAq9U
+* https://philosopher.life/#2019.03.19%20-%20TWGGF%3A%20TonyM's%20Current%20Activities
+
+Hey [[TonyM]]! 
+
+Wow! You are working on so much. It's intense. I may not fully understand all of it (sorry, I'm slow, and I'm not an expert or an IT pro). One thing, in particular, has caught my eye:
+
+<<<
+''I am working on a method to allow a TiddlyWiki multiple user editors''
+ 
+This is when more than one person has update access to the same wiki file
+I am using the following to enable this 
+
+* the local storage plugin
+* A Save reload and save mechanism
+** using Startup actions
+* Possibly the innerwiki plugin
+* Possibly a tiddler encryption step
+<<<
+
+I know you are wildly more effective in using TW and Bob. I probably have an overly narrow use of Bob (especially since I try to maintain a single wiki). I use Bob because it allows multiple devices and browsers/tabs per device to edit the same wiki. Sometimes I need multiple windows into my wiki, and Bob is the only tool I've found which enables it. I've also been trying to find ways to make use of the 2-way sync between browser and filesystem, but I've shockingly found it unnecessary so far.
+
+I am grateful for the opportunity to use Bob. It's changed my life (and I practically live in my wiki). It is my uneducated opinion that singlefile tiddlywiki is the best scaling and highest performing option by miles. My experience gets bogged down when I use Bob (and I assume nodejs is the culprit). With a large enough wiki, it's slow, and I even have plugins that only work in singlefile. It seems hard to beat the browser's engine with a singlefile. 
+
+* I'm just checking to make sure I understand: your approach will enable multiple devices and multiple tabs, right?
+** As in: I can have multiple stories rivers going, and that's fine. It just won't update in my browser so I have to generally only have a particular tiddler open in only one tab at a time, right?
+* Beyond what may be race conditions, do you foresee any concerns with network file-synchronization?
+* What are the limits of local storage?
+* Your tool may be novel enough that it affects things I've not realized: what might those be?
+* How browser and OS agnostic would this plugin be?
+* Would you be able to do any kind of versioning or backup with this?
+** I'm still a fan of TiddlyBackup, even though I can't use it anymore.
+* Will this method last? Do you think browsers will maintain this method?
+** What are the risks in trusting local storage?
+
+I'm excited by the possibility of your method. The performance gains would be massive. It might also solve a problem I've had in nodejs for cryptographic signing (since nodejs does not output the same as the browser). In any case, I'd like to know more!
+
+Sincerely,
+
+[[h0p3]]

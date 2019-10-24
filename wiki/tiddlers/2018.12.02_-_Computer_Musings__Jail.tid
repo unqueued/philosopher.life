@@ -1,0 +1,114 @@
+created: 20181202153600298
+creator: h0p3
+modified: 20181203052812525
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.12.02 - Computer Musings: Jail
+
+Well, I have a $2.50 a year shared hosting plan with jailed SSH, which is a ghetto VPS. I have 1MB/s IO! YUCK! They give me compute with the 100 threads and 1GB RAM though. Single-thread benchmark is solid.
+
+lussh =)
+
+---
+
+```bash
+cat /proc/version
+```
+
+Red Hat 4.8.5-16
+
+---
+
+Aside: resilio sync offers an x64 glibc 2.3 binary. Neat.
+
+---
+
+I hate top.
+
+```bash
+wget http://hisham.hm/htop/releases/2.2.0/htop-2.2.0.tar.gz && tar xvzf htop-2.2.0.tar.gz 
+cd htop-2.2.0
+./configure; make
+cp htop ../htop && rm -r htop-2.2.0 htop-2.2.0.tar.gz 
+```
+That's better.
+
+I see an ss-server running. I also keep running into Chinese here. Interesting.
+
+```bash
+htop -u philosop
+```
+
+---
+
+```bash
+wget https://download-cdn.resilio.com/stable/linux-x64/resilio-sync_x64.tar.gz && tar xvzf resilio-sync_x64.tar.gz
+mkdir ~/.rslsync
+mkdir ~/.config/rslsync/
+nano ~/.config/rslsync/rslsync.conf
+```
+
+```
+{
+   "device_name": "Alpharacks",
+   "listening_port" : 42889, // 0 - randomize port
+
+/* storage_path dir contains auxilliary app files if no storage_path field: .sync dir created in current working directory */
+  "storage_path" : "/home/philosop/.rslsync",
+
+/* set location of pid file */
+  "pid_file" : "/home/philosop/.rslsync/resilio.pid",
+
+/* Enable WebUI */
+ "webui" :
+  {
+    "listen" : "0.0.0.0:42888"
+
+  /* preset credentials */
+   ,"login" : "h0p3"
+   ,"password" : "REDACTED"
+  }
+
+}
+```
+
+```bash
+/home/philosop/bin/rslsync --config /home/philosop/.rslsync/rslsync.conf
+```
+
+I cannot limit the number of processes. Binding to a single interface didn't help either.
+
+```bash
+crontab -e
+```
+
+```
+SHELL="/usr/local/cpanel/bin/jailshell"
+* * * * * /home/philosop/bin/rslsync --config /home/philosop/.rslsync/rslsync.conf >/dev/null 2>&1
+```
+
+Working fine and then started puking up permissions errors. That's the IO limit buttfucking me.
+
+Alright, family's wiki related syncs are all up.
+
+---
+
+Outside of the IO limit, upload and download speeds are good. This would function excellently as a proxy.
+
+---
+
+I'm not a fan of running Dropbox on my machines for a number of reasons. The service works though, and I've had a ~23GB account for almost a decade. A fuckton of niche tooling exists for it too. Dallas can make use of it.
+
+Added to: [[Recipe: Dallas Ubuntu 16.04 VPS]]
+
+Setup snapshot sync directory in Dropbox directory.
+
+---
+
+We bought a WNDR3400v1 from Goodwill (among some other trinkets) for 4 bucks. I was actually able to flash it from the default, but I can't get wireless working (broadcom!). I may have to go the TFTP route. We'll see. I'm using an image that is not suggested by the forums/wiki (but they are SO old). We'll see if I can get it working reasonably.
+
+---
+
+Unfortunately, my chillun did not listen. They allowed their fire tablets to upgrade. I cannot downgrade it effectively enough to flash over now. =/
+
+But...the OS upgrades over the past year (or two?) have made it far less annoying regarding adds and easy to install gapps. Hence, XMPP, sync, complete reading library, and airplane mode. Boom. I have a bathroom reading device. I recognize this is not nearly paranoid. I'm comfortable with it.

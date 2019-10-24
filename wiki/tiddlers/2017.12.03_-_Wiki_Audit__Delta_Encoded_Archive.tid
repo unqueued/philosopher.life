@@ -1,0 +1,9 @@
+created: 20171203064143107
+modified: 20190705175514474
+revision: 0
+tags: [[Wiki Audit]]
+title: 2017.12.03 - Wiki Audit: Delta Encoded Archive
+
+There is no reason I shouldn't just have the a delta-encoding of this index.html file. That is the best way to transmit the complete changelog; we can even make it easy and provide the first->deltas->final (a single instance of redundancy is fine here, we would just be making it easy). Git, in a sense, isn't necessary if we can do this...that said, perhaps I shouldn't reinvent the wheel.
+
+The nice part of doing it this way is that I can guarantee that official distributions push the entire daily snapshot collection as well. I think it is important to what this piece of art really is.

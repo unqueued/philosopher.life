@@ -1,0 +1,36 @@
+created: 20181010235226636
+creator: h0p3
+modified: 20181012214404773
+modifier: h0p3
+tags: [[One-Time Script]] Xonsh
+title: footnote-converter.xsh
+
+```python
+#!/usr/bin/env xonsh
+
+import pyperclip
+import re
+
+inp = pyperclip.paste() #Take input from clipboard
+
+#print()
+#print(inp) #Print for debugging
+#print()
+
+#Footnote reference parsing
+found = re.findall(r'([.,"\'!?:;)\]”])(\d)([ \n])', inp) #Search for references
+for match in found:
+    inp = inp.replace(match[0]+match[1]+match[2], match[0]+'<<ref "'+match[1]+'">>'+match[2]) #Replace - match[0] is the punctuation symbol before the ref, match[1] is the ref number, match[2] is the whitespace after it.
+#print(found) #Print for debugging
+#print(inp) #Print for debugging
+
+#End footnotes parsing
+found = re.findall(r'(\d) (.*)', inp) #Search for end footnotes
+for match in found:
+    inp = inp.replace(match[0]+' '+match[1], '<<footnotes "'+match[0]+'" "'+match[1]+'">>') #Replace - match[0] is the footnote number, match[1] is the footnote text
+#print(found) #Print for debugging
+
+print(inp) #Possibly for debugging, but still nice to see what was copied
+pyperclip.copy(inp) #Copy for use
+xdotool key --clearmodifiers ctrl+v #Paste, literally the only reason we need Xonsh here
+```

@@ -1,0 +1,90 @@
+created: 20180517201804217
+creator: h0p3
+modified: 20181031035931161
+modifier: h0p3
+tags: LSU
+title: 2011.11.02 - Moor Privacy
+
+```
+“When information is computerized, it is greased to slide easily and quickly to many ports of call. This makes information retrieval quick and convenient. But legitimate concerns about privacy arise when this speed and convenience lead to the improper exposure of information. Greased information is information that moves like lightning and is hard to hold onto.”
+
+Example: Telephone numbers/names. He says this isn’t a privacy violation. Maybe. Beyond doxing, personal data warehouses and advertisers don’t always use this information for good. I think it is a privacy issue, but it seems acceptable given certain options and protections.
+
+Example: Market purchases are recorded and used for analytics. Subject to subpoenas, but also subject to being sold to people/companies who shouldn’t have that info, and also subject to being stolen by hackers. He supposes this doesn’t violate his privacy. I am not so sure, but agree given the same options/protections.
+
+Example: Pizza. Convenient. Kinda indignant & impersonal.
+
+“Once information is captured electronically for whatever purpose, it is greased and ready to go for any purpose. In a computerized world we leave electronic footprints everywhere and data collected for one purpose can be resurrected and used elsewhere. The problem of computer privacy is to keep proper vigilance on where such information can and should go.”
+
+Moor offers 3 approaches to grounding/justifying privacy.
+
+1st approach: A standard approach developed by James Rachaels
+
+    Intrinsic Good
+
+    Instrumental values (lead to an end which is intrinsically good)
+
+Privacy clearly has some instrumental value (e.g. preventing discrimination based on medical condition), but does it have enough instrumental value, does it lead to such a high intrinsic good, that privacy deserves a high priority in our decision making?
+
+“Rachaels suggests that privacy is valuable because it enables us to form varied relationships with other people…Privacy does enable us to form intimate bonds with other people that might be difficult to form and maintain in public. But the need to relate to others differently may not ground privacy securely because not everyone may want to form varied relationships and those who do may not need privacy to do it. Some people simply do not care how they are perceived by others.”
+
+2nd approach: A standard approach developed by Deborah Johnson
+
+She sets out to make privacy an intrinsic good, proposing “privacy as an essential aspect of autonomy.”
+
+“assuming that autonomy is intrinsically valuable and privacy is a necessary condition for autonomy we have the strong and attractive claim that privacy is a necessary condition for an intrinsic good. If privacy is not an intrinsic good itself, it is the next best thing. But, is it true that "autonomy is inconceivable without privacy"? ”
+
+From what I can tell: “Necessary condition” sounds instrumental, “essential aspect” sounds like it is a part of the intrinsic good of autonomy (not merely a means to the end).
+
+Thought Experiment: Tom has an epic dox on you – he has all your info, every personal detail, video/sound/documentation, etc. He does nothing with it, and it affects you in no way. The claim is that you now have no privacy, but still have autonomy. Thus, if that claim is correct, privacy is not a necessary condition of autonomy (nor is it an essential aspect).
+
+3rd Approach: Core Values argument
+
+“some of the values that I believe are at the core: life, happiness, freedom, knowledge, ability, resources and security. My claim is an empirical one. I am claiming that all sustainable human cultures will exhibit these values. I am not suggesting for a moment that all cultures are moral or that these goods are fairly distributed in every culture. Regrettably, they almost never are. (An ethical theory requires an account of fairness as well as an account of the core values.) What I am claiming is that every viable culture will exhibit a preference for these values.”
+
+Privacy is not a core value, in Moor’s opinion.
+
+“though there is a common framework of values, there is also room for a much individual and cultural variation within the framework. Let's call the articulation of a core value for an individual or a culture the ‘expression of a core value’.”
+
+“Although privacy is not a core value per se, it is the expression of a core value, viz., the value of security. Without protection species and cultures don't survive and flourish. All cultures need security of some kind, but not all need privacy. As societies become larger, highly interactive, but less intimate, privacy becomes a natural expression of the need for security. We seek protection from strangers who may have goals antithetical to our own. In particular, in a large, highly computerized culture in which lots of personal information is greased it is almost inevitable that privacy will emerge as an expression of the core value, security.”
+
+“Because privacy is instrumental in support of all the core values, it is instrumental for important matters; and because privacy is a necessary means of support in a highly computerized culture, privacy is instrumentally well grounded for our society. Moreover, because privacy is an expression of the core value of security, it is a plausible candidate for an intrinsic good in the context of a highly populated, computerized society.”
+
+Privacy is instrumentally valuable for supporting Moor’s core values, and intinsinically valuable because it is an expression of security (one of the core values).
+
+Are expressions of a core value really intrinsically good? They look entirely instrumental to me.
+
+The nature of privacy:
+
+“The concept of privacy has been evolving in the U.S. from a concept of non-intrusion… to a concept of non-interference… to limited information access…. Privacy is a concept that has been dramatically stretched over time as it. In our computer age the notion of privacy has become stretched even further. Now the concept privacy has become so informationally enriched that "privacy" in contemporary use typically refers to informational privacy though, of course, other aspects of the concept remain important.”
+
+Natural privacy vs. Normative privacy.
+
+“An individual or group has normative privacy in a situation with regard to others if and only if in that situation the individual or group is normatively protected form intrusion, interference, and information access by others… I use the general term "situation" deliberately because it is broad enough to cover many kinds of privacy: private locations such as one's diary in a computer file, private relationships such as e-mail to one's pharmacy, and private activities such as the utilization of computerized credit histories.”
+
+Restricted Access Theory vs. Control Theory
+
+Moor criticizes the control theory as being impractical or impossible. He thinks restricted access is practical. Included in the Moor’ restricted access is providing as much control as is possible, hence he believes he has a hybrid control/restricted access theory.
+
+Example: Hospitals, doctors, secretaries, medical records, psychiatric interviews, billing information.
+
+This reminds me of access controls in Operating systems. These restricted access and control theories have been at work in operating system development for decades – they are foundational topics in computer security.
+
+Example: A shouting match between two married people in a restaurant. Waiter asks if they want his advice, they say it is a private matter.
+
+Setting/Adjusting Policies
+
+“In formulating policies we should try to minimize excess harm and risk”
+
+Example: Breast cancer genetic predisposition. Records. Getting health insurance.
+
+    Legal policies to protect people
+
+    Hospital policies – setting predictive genetic testing records apart from diagnostic genetic testing records.
+
+“The Publicity Principle: Rules and conditions governing private situations should be clear and known to the persons affected by them. In effect, we can plan to protect our privacy better if we know where the zones of privacy are and under what conditions and to whom information will be given. If an employer can read one's e-mail, then applying for a new job is done more discreetly by not using e-mail. The publicity principle encourages informed consent and rational decision making.”
+
+“The Justification of Exceptions Principle. A breach of a private situation is justified if and only there is a great likelihood that the harm caused by the disclosure will be so much less than the harm prevented that an impartial person would permit breach in this and in morally similar situations. These exceptional circumstances should not be kept secret from future users of the policy. Hence, we need a principle for disclosure and adjustment in the policy statement itself.”
+
+“The Adjustment Principle: If special circumstances justify a change in the parameters of a private situation, then the alteration should become an explicit and public part of the rules and conditions governing the private situation.”
+```

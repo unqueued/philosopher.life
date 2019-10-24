@@ -1,0 +1,11 @@
+created: 20180110234810852
+modified: 20190107053130006
+revision: 0
+tags: Outopos
+title: 2018.01.10 - Outopos: Atropos
+
+We can push Atropos through [[WebRTC|https://webrtc.org/start/]]; p2p in browser.
+
+We will eventually want to make a browser extension. If we ever get serious to go the Tor route, then we need our own browser.
+
+We want to penetrate all networks. We also want to go physical mesh.

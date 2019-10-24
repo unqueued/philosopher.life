@@ -1,0 +1,124 @@
+created: 20190102010619895
+modified: 20190102010651095
+tags: Retired [[Family Log]]
+title: 2019.01.01 - Retired: Family Log
+
+!! About:
+
+//I love you all.//
+
+<<<
+Happy families are all alike; every unhappy family is unhappy in its own way.
+
+-- Leo Tolstoy, //Anna Karenina//
+<<<
+
+<<<
+If your words are soft and sweet, they won't be as hard to swallow if you have to eat them.
+<<<
+
+<<<
+Few men have been admired by their own households. 
+
+-- Michel de Montaigne, //Book III, Ch. 2//
+<<<
+
+My family is perhaps my life's greatest sub-project.<<ref "1">> Obviously, my family's development and happiness is not something I should leave to chance. I am committed to these homo sapiens. They are my tribiest tribe,<<ref "2">> and the Otheriest of [[The Others|Find the Others]] to me. Here I hope to develop and apply habits of flourishing immediate family tribes.
+
+This log serves many roles. It takes a constant pulse of our family. We need to monitor it, take the minutes of our lives, reflect, celebrate, and address problems in a timely and wise fashion. It also forcibly creates a time and space for us to ask constructive questions and find ways to bond with each other. It's a way to socialize and participate in more meaningful family life together. 
+
+We have family time every night.<<ref "3">> On Sundays, we have a family meeting. Our family meetings generally take many hours, and this log is simply one accountability-holding part of our process. This is a ritual of reflecting together.<<ref "4">> It's part of how we get to know each other, and it's part of collectively working towards our mutual familial happiness.
+
+Sometimes these meetings are cheerful and easy, and other times they are emotionally draining and time consuming. We must listen to each other. Being steadfastly kind, empathic, and wise through these oscillations demonstrates our commitment to each other. 
+
+
+---
+!! Principles:
+
+* Life Principles:
+** [[Family Time Rules]]
+** [[Household Rules]]
+** [[Carrots & Sticks]]
+** [[Family Habits & Experiments]]
+
+* Structure of a Family Meeting:
+** Family writing time & pre-reflection
+** Informal socializing, questioning, and play
+** Examine the artistic expressions of each member
+** Formal log
+
+* Redpilled MBA Corporate Jargon:
+** Develop common memetics, experiences, languages, contexts, and frames of reference
+** Cultivate social capital in each other through long-term, practical tit-for-tat trustbuilding exercises
+** Generate post-mortem analyses, resolve conflicts, plan, and profit together.
+
+* [[Weekly Family Log Template]]
+
+
+---
+!! Focus:
+
+* Compliment Collection For the Week (aim for examples of character habituation)
+** 1uxb0x
+*** You beat me in a game of magic. I've never lost to a child before. Good job! I hope you continue to work hard; you will start crushing me soon enough.
+** j3d1h
+*** Thank you for setting up Bob for everyone, for setting up the scripts and automation, for thinking about staging, for working on hardcoding, and for working on the router and internet service this week.
+** k0sh3k
+*** Thank you for taping up the catdoor.
+*** I love that you've been taking your certification classwork and Sunday school so seriously. As I have said, I don't think the piece of paper matters. You are an expert (and those who are experts know that). I'm glad to see you make use of your talent.
+*** I appreciate that even on Snowdays you were concerned about your students (even if I disagreed).
+
+* Assets
+** [[Family Memes]]
+** [[My Catchphrases According to Muh Family]]
+
+```
+<$set name="mydate" value=<<now YYYY.0MM.>>>
+<<list-links "[tag[Family Log]prefix<mydate>]">>
+</$set>
+```
+
+
+---
+!! Vault:
+
+* Audits:
+** [[2017 - Family Log]]
+** [[2018.01 - Family Log]]
+** [[2018.02 - Family Log]]
+** [[2018.03 - Family Log]]
+** [[2018.04 - Family Log]]
+** [[2018.05 - Family Log]]
+** [[2018.06 - Family Log]]
+** [[2018.07 - Family Log]]
+** [[2018.08 - Family Log]]
+** [[2018.09 - Family Log]]
+** [[2018.10 - Family Log]]
+** [[2018.11 - Family Log]]
+** [[2018.12 - Family Log]]
+
+* Retired:
+** [[2017.11.07 - Retired: Family Log]]
+
+* Meh:
+** [[Family Wikis Log Collection]]
+
+---
+!! Dreams:
+
+* Daily Family Logs could be useful. We naturally do it to some extent, but formalizing it may be useful.
+** [[Daily Family Log Template]]
+
+* By-laws?
+
+* There seem to be lots of frameworks to approach this problem. How much of it should be organic?
+
+
+---
+<<footnotes "1" "My hesitation here is one of philosophical doubt. Instrumentality and intrinsic value relationships are still not well-established enough for me to give strong answers. I have seen Aristotle wrestle this problem beautifully, and I know there is much I do not understand.">>
+
+<<footnotes "2" "Deontic weighing constraints with other tribes, such as the Cosmopolitian Tribe, are not resolved here. I must be philosophically practical here. I can admit doubt, but still take the best paths available to me.">>
+
+<<footnotes "3" "Even when I'm traveling, I contact each member of my family daily. I want to be there for them, whether physically in person or otherwise.">>
+
+<<footnotes "4" "I consider it a Secularized Sabbath tradition. Even though I don't practice religion or spirituality, there was a wildly successful method to the madness of that memetic tradition which I seek to secularly imitate and enrich.">>

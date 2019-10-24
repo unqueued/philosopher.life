@@ -1,0 +1,37 @@
+created: 20180803173852262
+creator: h0p3
+modified: 20181219181841746
+modifier: h0p3
+tags: TWGGF
+title: 2018.08.03 - TWGCF: Memory Whore
+
+I don't want to derail this thread at all, but I have a slightly related issue. I'm hoping you may be able to help me figure it out (obviously, you owe me nothing, and I appreciate your consideration to any degree).
+
+I believe I'm experiencing a memory leak which may be related to TiddlyBackup (the only extension that consistently works for me). I use FF61 (TiddlyBackup, Owl, AdNauseam, English Popup Dictionary, ScrollAnywhere; fairly vanilla otherwise), on Manjaro, and I save probably ~100 a time day (or more). I'm using between 5-15GB (including swap) of RAM on FF which only has my wiki loaded. When I close it out, and reload, I'm back down to minimal FF memory usage. Clearly, I am doing something wrong. I spend so much time in Tiddlywiki (https://philosopher.life/) that I'm willing to spend 15GB of memory if I need to. I'd rather not though.
+
+I have it set to 10 Backups; my wiki is ~18MB in size.
+
+I can't reproduce it other than just through my daily usage (and that isn't terribly consistent either). From a freshly opened browser, I can spam save 20 times in a row, and my memory usage will balloon up for a minutes, but eventually something cuts away at quite a bit of it (still using 3GB of memory instead of 2GB on startup). However, over the course of a day, it builds up and doesn't get culled away. Is it demonically possessed? No, I am probably incompetent here. I woke up this morning with almost max memory usage which was solved by just closing the FF for TW (I use FF dev ed for browsing). I'd prefer to only close the browser when I've got an excellent reason.
+
+I may just eventually move to the NPM version, but I've experienced other kinds of problems with it.
+
+I'm probably thinking about this all wrong-headed, and I would be grateful for any insight you may have to quelling this problem.
+
+---
+
+
+This may be a FF issue, but it's Tiddlywiki and Tiddlyback related in this case, imho. Maybe there is something to be done here besides closing FF out. I'm hopeful something can be done because I generally have several hundred tabs between 5-10 FF windows open at all times (tabbed window trees are amazing) with 40-60 add-ons and other tweaks sitting at ~4GB without running into this memory problem.
+
+---
+
+So finding good ways to organize my tabs and containers (living bookmark workflows) has been a quest of mine for a while. I've tried some different options out, and the add-on based solutions seem to have huge performance losses for me. I've probably been incompetent in how I wield and tweak these environments. I'm always looking to improve (so if you have any approaches or tricks, please let me know).
+
+I can't live without workspaces; virtualization of desktops has changed how I reason about practical computing in a ton of ways. I've come a long way since Commodore 64 and Windows, and at this point, I'm addicted to workspaces in my desktop environments. This caused me to move to tiling window managers as my desktop environment to have more microscopic control and automation. I can't say I'm good at it, but it's been damned useful. 
+
+I often abuse Ctrl+Tab and Ctrl+Shift+Tab to navigate my tabs in FF. I navigate between my tabbed FF windows with mod+Tab and Mod+Shift+Tab with the same directionality. It makes a kind of tree.
+
+Here's a notion of the DE and the "Tabbed Tiling" of the FF windows. Each Tiled Tab is a container 
+
+Pictures and comments:
+
+https://groups.google.com/forum/#!topic/tiddlywiki/xlkjW0ymIKQ
