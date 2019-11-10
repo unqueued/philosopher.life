@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.13" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>2018.02.10 - Computer Musings: VPNCloud: ⦗h0p3's Wiki⦘ — ‍ ‍ ‍‍ ‍1.2.20191101 𖡶 
+
+ Readme
+
+</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Computer%20Musings " data-tags="[[Computer Musings]]" data-tiddler-title="2018.02.10 - Computer Musings: VPNCloud"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal"><button aria-label="delete" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fdelete" title="Delete this tiddler">
+
+
+</button></span><span class=" tc-reveal"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button></span><span class=" tc-reveal"><span class=" tc-reveal"><button aria-label="info" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Finfo" title="Show information for this tiddler">
+</button></span><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><button aria-label="new journal here" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fnew-journal-here" title="Create a new journal tiddler tagged with this one">
+
+
+
+
+
+</button></span><span class=" tc-reveal"><button aria-label="close others" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose-others" title="Close other tiddlers"></button></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="2018.02.10%2520-%2520Computer%2520Musings%253A%2520VPNCloud.html">
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+2018.02.10 - Computer Musings: VPNCloud
+</h2>
+
+</a>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+Edited: 2018.10.29 13:52
+</div>
+</div><div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ Computer Musings
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span></div>
+</div>
+
+<div class="tc-tiddler-body tc-reveal"><p>I'd like to bind my 2.4Ghz and 5.0Ghz lines together on the router.</p><p>I also want to make another long-term device away from home. I'll have to carefully find a place to put it. See Hidden.</p><hr><p>Setup vpncloud last night on kimsufi and m10. I adore it! Adding to ATL:</p><pre class="bash hljs"><code>wget https://github.com/dswd/vpncloud.rs/releases/download/v0.<span class="hljs-number">8.1</span>/vpncloud_0.<span class="hljs-number">8.1</span>_amd64.deb
+sudo dpkg -i vpncloud_0.<span class="hljs-number">8.1</span>_amd64.deb</code></pre><p><a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="vpncloud.rs.html">vpncloud.rs</a> is a decent enough guide. However, I had huge problems with systemd. I can't figure out what's up. I have a PID problem that I can't resolve. I tried the init route. No go. So, I just made my own hardcoded systemd service.</p><p>This is what I have in <code>/etc/systemd/system/h0p3vpncloud.service</code></p><pre><code>[Unit]
+Description=VpnCloud network
+Before=systemd-user-sessions.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/vpncloud --config /etc/vpncloud/h0p3vpn.net
+WorkingDirectory=/etc/vpncloud
+
+[Install]
+WantedBy=multi-user.target</code></pre><pre class="bash hljs"><code>sudo systemctl <span class="hljs-built_in">enable</span> h0p3vpncloud.service
+sudo systemctl start h0p3vpncloud.service</code></pre><p>So, philosopher.life is setup. Also, it has an odd bash problem. I don't understand. When I first login, it is a simple $. When I run bash again (from any bin), it immediately colorizes and implements my bash profile.</p><hr><p>Setup crontab for dejadup:</p><pre><code>0 1 * * 0 deja-dup --backup</code></pre><p>Tried a few things out. Seem good enough for me.</p><hr><p>Tried add uni-link to the wiki. It changes my coloration among other things. I will wait. I may come back to it. I'm glad I have it in hand in case I do, but it's not worth it right now, I believe.</p><hr><p>Benchmarked with the classic: <a class="tc-tiddlylink-external" href="https://www.grc.com/dns/benchmark.htm" rel="noopener noreferrer" target="_blank">https://www.grc.com/dns/benchmark.htm</a> in wine.</p><p>Switched DNS servers on our router.</p><hr><p>I am fucking loving <a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="lussh.html">lussh</a>. It makes it so painless for me.</p><p>Apparently, RPi is completely up and running again. I have no idea why. I'm thinking my brother must have plugged it back in correctly.</p><p>I'm having a damned hard time getting btsync (old btsync, compiled for arm) all set. </p><p><code>dpkg-reconfigure btsync</code></p><p>Found it. I'm being lazy and just going root. I want zero trouble. I already feel like a caged animal inside the RPi sometimes. </p><p>I've setup all the major syncs, unencrypted (in storage) in case I need my brother ever needs to get to the hard drive easily. It's external, so it's not hard.</p><p>Set bandwidth throughput limits on it. I don't want to kill his connection (uploading ~200gb through a straw; it's going to take a week, at least).</p><hr><p>So, vpncloud .deb is obviously x86/64 based. No go on the RPi. I want to maintain that link though, so...</p><p>I have to cross-compile to the RPi. </p><pre class="bash hljs"><code>rustup target add armv7-unknown-linux-gnueabihf
+yaourt -S arm-linux-gnueabihf-gcc --nonconfirm</code></pre><p>Already have the following in <code>.cargo/build</code>:</p><pre><code>[target.armv7-unknown-linux-gnueabihf]
+linker = &quot;arm-linux-gnueabihf-gcc</code></pre><p>CD and build.</p><pre><code>cargo build --target=armv7-unknown-linux-gnueabihf</code></pre><hr><p>shadowsocks, having troubles</p><p><code>nc -vv -l 0.0.0.0 5000</code> to check port forwarding, just scan (e.g. <a class="tc-tiddlylink-external" href="https://www.yougetsignal.com/tools/open-ports/" rel="noopener noreferrer" target="_blank">https://www.yougetsignal.com/tools/open-ports/</a>)</p><hr><p>Worked on remotely controlling on my phone, m14. There are no good options. It's such a fragmented walled garden. It's trash if you want control over it.</p></div>
+
+
+
+</div>
+
+</p>
+</section>
+</body>
+</html>

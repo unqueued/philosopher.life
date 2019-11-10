@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.13" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>2018.08.02 - Computer Musings: 25519: ⦗h0p3's Wiki⦘ — ‍ ‍ ‍‍ ‍1.2.20191101 𖡶 
+
+ Readme
+
+</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Computer%20Musings " data-tags="[[Computer Musings]]" data-tiddler-title="2018.08.02 - Computer Musings: 25519"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal"><button aria-label="delete" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fdelete" title="Delete this tiddler">
+
+
+</button></span><span class=" tc-reveal"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button></span><span class=" tc-reveal"><span class=" tc-reveal"><button aria-label="info" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Finfo" title="Show information for this tiddler">
+</button></span><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><button aria-label="new journal here" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fnew-journal-here" title="Create a new journal tiddler tagged with this one">
+
+
+
+
+
+</button></span><span class=" tc-reveal"><button aria-label="close others" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose-others" title="Close other tiddlers"></button></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="2018.08.02%2520-%2520Computer%2520Musings%253A%252025519.html">
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+2018.08.02 - Computer Musings: 25519
+</h2>
+
+</a>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+Edited: 2018.10.29 13:52
+</div>
+</div><div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ Computer Musings
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span></div>
+</div>
+
+<div class="tc-tiddler-body tc-reveal"><p>Going to make some other keys. Fun today!</p><p><a class="tc-tiddlylink-external" href="https://github.com/cathugger/mkp224o" rel="noopener noreferrer" target="_blank">https://github.com/cathugger/mkp224o</a></p><p>Vanity keys for Tor onion. Interesting to benchmark the machines in the house.</p><p><a class="tc-tiddlylink-external" href="https://github.com/Yawning/horse25519" rel="noopener noreferrer" target="_blank">https://github.com/Yawning/horse25519</a></p><p>An older one. Shame no GPU.</p><hr><p>I'm annoyed with myself for not keeping some of my source files. I've generated pubkeys from private before, but it is surprisingly hard to find resources to do this. Odds are, the thing I want to do is a big nono in cryptography. </p><p>Last time, I did this in Go. Ugh. I wish I kept it.</p><ul><li><a class="tc-tiddlylink-external" href="https://github.com/orlp/ed25519" rel="noopener noreferrer" target="_blank">https://github.com/orlp/ed25519</a></li><li><a class="tc-tiddlylink-external" href="https://github.com/jedisct1/minisign" rel="noopener noreferrer" target="_blank">https://github.com/jedisct1/minisign</a><ul><li>Very sad about this one. It's a very simple tool. It's not deterministic for password generation.</li></ul></li><li><a class="tc-tiddlylink-external" href="https://www.tedunangst.com/flak/post/signify" rel="noopener noreferrer" target="_blank">https://www.tedunangst.com/flak/post/signify</a></li></ul><p>FOUND IT! FUCK YEAH!</p><hr><p><code>./mkp224o -s -d res3 hopewiki -t 4</code> is about the same as 8...</p><p>Forgot I had to install libsodium-dev on Ubuntu.</p><p><code>/mkp224o -d res3 hopewiki -t #</code> with &quot;Watch for activity&quot; from Terminator is super useful.</p><hr><p><code>sudo pacman -S opencl-nvidia opencl-headers</code></p><p>vanitygen-plus problems abound still.</p><hr><p>Signed up for roll20.net with very brief tour/explore.
+</p></div>
+
+
+
+</div>
+
+</p>
+</section>
+</body>
+</html>

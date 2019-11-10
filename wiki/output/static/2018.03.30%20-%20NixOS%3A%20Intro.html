@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.13" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>2018.03.30 - NixOS: Intro: ⦗h0p3's Wiki⦘ — ‍ ‍ ‍‍ ‍1.2.20191101 𖡶 
+
+ Readme
+
+</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists    " data-tags="" data-tiddler-title="2018.03.30 - NixOS: Intro"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal"><button aria-label="delete" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fdelete" title="Delete this tiddler">
+
+
+</button></span><span class=" tc-reveal"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button></span><span class=" tc-reveal"><span class=" tc-reveal"><button aria-label="info" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Finfo" title="Show information for this tiddler">
+</button></span><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><button aria-label="new journal here" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fnew-journal-here" title="Create a new journal tiddler tagged with this one">
+
+
+
+
+
+</button></span><span class=" tc-reveal"><button aria-label="close others" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose-others" title="Close other tiddlers"></button></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="2018.03.30%2520-%2520NixOS%253A%2520Intro.html">
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+2018.03.30 - NixOS: Intro
+</h2>
+
+</a>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+Edited: 2018.04.01 17:48
+</div>
+</div><div class=" tc-reveal">
+<div class="tc-tags-wrapper"></div>
+</div>
+
+<div class="tc-tiddler-body tc-reveal"><ul><li><a class="tc-tiddlylink-external" href="https://nixos.wiki/wiki/Cheatsheet" rel="noopener noreferrer" target="_blank">https://nixos.wiki/wiki/Cheatsheet</a></li></ul><p>Absolutely outstanding. The comparison with Ubuntu was absurdly useful.</p><p>Nixpkg repos are obviously amazing for version control, distribution, etc. I adore it.</p><p>Being able to build VMs on the spot is also incredible. There is a profound flexibility to this.</p><p>ARM needs to be a first class citizen. Cross-compiling is beautiful.</p><ul><li><a class="tc-tiddlylink-external" href="https://nixos.wiki/wiki/Nix_vs._Linux_Standard_Base" rel="noopener noreferrer" target="_blank">https://nixos.wiki/wiki/Nix_vs._Linux_Standard_Base</a></li></ul><p>Profile and PATHing is gorgeous looking.</p><p>It is definitely interested in self-hosting as much as possible. You want to develop Nix packages inside of Nix. </p><ul><li><a class="tc-tiddlylink-external" href="https://nixos.org/nixos/nix-pills/why-you-should-give-it-a-try.html" rel="noopener noreferrer" target="_blank">https://nixos.org/nixos/nix-pills/why-you-should-give-it-a-try.html</a></li></ul><blockquote class="tc-quote"><p>It however currently falls short when working with dynamic composition at runtime or replacing low level libraries, due to the need to rebuild dependencies. 
+</p></blockquote><p>Oh Jesus. What possible way around this will we have?</p><p>Fear not, you've sold me.</p><ul><li><a class="tc-tiddlylink-external" href="https://nixos.wiki/wiki/Hydra" rel="noopener noreferrer" target="_blank">https://nixos.wiki/wiki/Hydra</a></li></ul><p>Looks exceptionally useful, and it should be fundamental to our testing.</p><ul><li><a class="tc-tiddlylink-external" href="https://medium.com/linode-cube/nixos-not-yesterdays-linux-distro-6648a07c8b" rel="noopener noreferrer" target="_blank">https://medium.com/linode-cube/nixos-not-yesterdays-linux-distro-6648a07c8b</a></li></ul><p>Preach, yo!</p><ul><li><a class="tc-tiddlylink-external" href="https://www.distrowatch.com/?newsid=09979" rel="noopener noreferrer" target="_blank">https://www.distrowatch.com/?newsid=09979</a></li></ul><p>Interesting to see where it stands.</p><ul><li><a class="tc-tiddlylink-external" href="https://www.reddit.com/r/NixOS/comments/85ht29/deploying_private_github_repositories_to_nixos/" rel="noopener noreferrer" target="_blank">https://www.reddit.com/r/NixOS/comments/85ht29/deploying_private_github_repositories_to_nixos/</a></li></ul><p>Targeted building done well.</p><ul><li><a class="tc-tiddlylink-external" href="https://www.slant.co/topics/344/viewpoints/4/~best-linux-package-managers~nix#5" rel="noopener noreferrer" target="_blank">https://www.slant.co/topics/344/viewpoints/4/~best-linux-package-managers~nix#5</a></li></ul><p>Seems to me that I want to stay inside NixOS the entire time.</p><ul><li><a class="tc-tiddlylink-external" href="https://ramsdenj.com/2017/06/19/switching-to-nixos-from-arch-linux.html" rel="noopener noreferrer" target="_blank">https://ramsdenj.com/2017/06/19/switching-to-nixos-from-arch-linux.html</a></li></ul><p>Already, VM-&gt;Arch-&gt;NixOS into just eventually being NixOS.</p><ul><li><a class="tc-tiddlylink-external" href="https://nixos.org/nixos/nix-pills/install-on-your-running-system.html" rel="noopener noreferrer" target="_blank">https://nixos.org/nixos/nix-pills/install-on-your-running-system.html</a></li></ul><p>Hrmm..</p><p>This looks like a quick hack: <a class="tc-tiddlylink-external" href="https://github.com/jeaye/nixos-in-place" rel="noopener noreferrer" target="_blank">https://github.com/jeaye/nixos-in-place</a></p><p>Also, don't fucking touch /nix/store manually almost basically ever.</p><p>Profiles are blowing my god damned mind. They are amazing. Rolling back generations, even at an atomic level, sounds sick. You can build exactly what you want.</p><p>Oh, this is complex. I'm going to need to learn about it, slowly.</p><p>God this system is amazing.</p><ul><li><a class="tc-tiddlylink-external" href="https://nixos.org/nixos/nix-pills/enter-environment.html" rel="noopener noreferrer" target="_blank">https://nixos.org/nixos/nix-pills/enter-environment.html</a></li></ul><p>I've clearly misunderstood how powerful this is. This is going to be able to run on any installation of linux. Yeah, you could run dockers (and it will in some cases), but you can also just run it alongside anything. This is a powerful Docker competitor.</p><p>I have so much so learn. I'm going to just read the whole thing in a go and then jump into actually doing it. I want to understand as much I can in advance.</p><ul><li><a class="tc-tiddlylink-external" href="https://nixos.org/nixos/nix-pills/basics-of-language.html" rel="noopener noreferrer" target="_blank">https://nixos.org/nixos/nix-pills/basics-of-language.html</a></li></ul><p>It looks like what I'll need to learn is a fairly small language. I am very pleased about this. I also don't think I mind it being functional. This seems to make it easier to reason about in some respects.</p><p>I don't think I've never had statements before. This is my first time using pure expressions, but this makes good sense.</p><p><code>Let</code> is for inner expression, but they feel like statements to me. Listed statements with <code>;</code>'s. I suppose the expressions ought not infinigress.</p><p><code>With</code> is outstanding. Gimme dat.</p><ul><li><a class="tc-tiddlylink-external" href="https://www.atlassian.com/continuous-delivery/ci-vs-ci-vs-cd" rel="noopener noreferrer" target="_blank">https://www.atlassian.com/continuous-delivery/ci-vs-ci-vs-cd</a></li></ul><p>Clearly, NixOS is well-suited.</p><ul><li><a class="tc-tiddlylink-external" href="https://nixos.org/nixos/nix-pills/functions-and-imports.html" rel="noopener noreferrer" target="_blank">https://nixos.org/nixos/nix-pills/functions-and-imports.html</a></li></ul><p>Ah ha! I finally see it. This is going to take some getting used to, but that is very doable.</p><p>I have a feeling that there is a lot to skiddie through in here, idioms, etc.</p></div>
+
+
+
+</div>
+
+</p>
+</section>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.13" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>2018.01.18 - Outopos: Inverse Multiplexing: ⦗h0p3's Wiki⦘ — ‍ ‍ ‍‍ ‍1.2.20191101 𖡶 
+
+ Readme
+
+</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Outopos " data-tags="Outopos" data-tiddler-title="2018.01.18 - Outopos: Inverse Multiplexing"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal"><button aria-label="delete" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fdelete" title="Delete this tiddler">
+
+
+</button></span><span class=" tc-reveal"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button></span><span class=" tc-reveal"><span class=" tc-reveal"><button aria-label="info" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Finfo" title="Show information for this tiddler">
+</button></span><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><button aria-label="new journal here" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fnew-journal-here" title="Create a new journal tiddler tagged with this one">
+
+
+
+
+
+</button></span><span class=" tc-reveal"><button aria-label="close others" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose-others" title="Close other tiddlers"></button></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="2018.01.18%2520-%2520Outopos%253A%2520Inverse%2520Multiplexing.html">
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+2018.01.18 - Outopos: Inverse Multiplexing
+</h2>
+
+</a>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+Edited: 2019.03.22 :31
+</div>
+</div><div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ Outopos
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span></div>
+</div>
+
+<div class="tc-tiddler-body tc-reveal"><p>The Atropos protocol should come concurrency-batteries loaded. Inverse multiplexing is a concurrency-based core strength of this mesh network protocol. With it, we can unleash privacy generating noise while greatly improving performance through bottlenecks (e.g. artificial peering throttle). More importantly, it will enable more complex network topologies to emerge.</p><p>Here is a minimal example of connection bonding, or what I call layer-1 tunnel imuxing:<button class="tc-btn-invisible tc-slider"><sup style="color:#66ff66">2019.03.22</sup></button></p><pre><code>       --- node2 --- 
+     /               \
+node1                 node4 
+     \               /
+       --- node3 ---</code></pre><p>Perhaps nodes 2 and 3 don't have as much throughput as node1 and node4. Bonded together, however, they do. Obviously, I can bond a whole bunch of connections together this way. Down the road, having designed the protocol for tunnel imuxing will enable me to trivially bond and load-balance multiple network connections. </p><p>From a game-theoretic standpoint, being able to bond connections means I have more reason to care about having good relationships with all nodes, be they big or small, since it all adds up. While I may give preference to faster nodes, I won't disregard slow ones. The more the merrier. </p><p>In addition to scheduling trust-tests of nodes on the network, Atropos-speaking clients should use statistical imuxing to determine the correct number of bonds. </p><p>Tunnel imuxing agglomerates a node's resources and social capital, encourages playing nice with everyone, and improves privacy.<button class="tc-btn-invisible tc-slider"><sup style="color:#66ff66">1</sup></button></p><p>Zooming our scope in on the above topology, here is a minimal example of what I call layer-0 node imuxing:<button class="tc-btn-invisible tc-slider"><sup style="color:#66ff66">2</sup></button></p><pre><code>       --- thread1 --- 
+     /                 \
+node1                   node2 
+     \                 /
+       --- thread2 ---</code></pre><p>I can rapid fire tons of packets to you, you catch them in whatever order you get them, put them together, and voila. Inverse multiplexing maximizes our throughput while transmitting packets under low MTU ceilings. We have to multi-thread our way through the bottleneck.</p><p>Atropos clients should use statistical imuxing to determine the correct number of threads, but there is a problem worth solving before that: packet-size. As we migrate to ipv6 (slowly), we will see the safe packet size increase, and Atropos should be built to take advantage of that. </p><p>We currently use a safe default, but it should not be the end goal. The goal is to build a protocol that has the ability to use variable packet sizes. Someone seeking maximum anonymity shouldn't change this, but for the average joe, this is a worthy trade-off. This is a low-hanging fruit problem. I will trade the privacy and anonymity characteristics of a non-standardized packet size if that means I achieve 20% more throughput.</p><p>Packet-size should be negotiated between two nodes in their context. Being prepared for automatic variable packet-size expansion should be baked into Atropos. The goal is to establish the largest viable packet size between two nodes because content density matters. We can improve throughput performance in a non-trivial number of cases (especially when this takes off and people start configuring routers differently to accommodate the protocol). We should build a protocol that fits the current climate but is also designed to grow with our technology rather than merely reinforcing mistakes of the past.</p><p>To summarize:</p><ul><li>Every node is layer-0 node imuxing across a physical network</li><li>Every node is layer-1 tunnel imuxing across multiple tunnels</li></ul><hr><p><span class=" tc-reveal" hidden="true"></span></p><p><sub><span style="color:green">1 : </span> There is noise here that generates some privacy, although it is not clear if this has any effect on anonymity properties of the network (presumably, it's bad for us).</sub></p><p><span class=" tc-reveal" hidden="true"></span></p><p><sub><span style="color:green">2 : </span> Although, I often see this referred to as plain multiplexing. That is not how I think of the problem.</sub></p><p><span class=" tc-reveal" hidden="true"></span></p><p><sub><span style="color:green">2019.03.22 : </span> I'm glad I talked about this with <a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="BDS97.html">BDS97</a>. It's part of the core problem that must be solved.</sub></p></div>
+
+
+
+</div>
+
+</p>
+</section>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.13" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>2018.01.25 - Rust: ⦗h0p3's Wiki⦘ — ‍ ‍ ‍‍ ‍1.2.20191101 𖡶 
+
+ Readme
+
+</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Rust " data-tags="Rust" data-tiddler-title="2018.01.25 - Rust"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal"><button aria-label="delete" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fdelete" title="Delete this tiddler">
+
+
+</button></span><span class=" tc-reveal"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button></span><span class=" tc-reveal"><span class=" tc-reveal"><button aria-label="info" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Finfo" title="Show information for this tiddler">
+</button></span><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><button aria-label="new journal here" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fnew-journal-here" title="Create a new journal tiddler tagged with this one">
+
+
+
+
+
+</button></span><span class=" tc-reveal"><button aria-label="close others" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose-others" title="Close other tiddlers"></button></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="2018.01.25%2520-%2520Rust.html">
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+2018.01.25 - Rust
+</h2>
+
+</a>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+Edited: 2019.03.23 12:13
+</div>
+</div><div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ Rust
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span></div>
+</div>
+
+<div class="tc-tiddler-body tc-reveal"><p>When a variable comes into scope, it is valid. It remains so until it goes out of scope.</p><p>String literals are immutable and known at compile time, but the String type is not (and hence uses the heap). You can convert a literal to a String type like this:</p><pre class="cpp hljs"><code>let mut s = String::from(<span class="hljs-string">"hello"</span>);
+
+s.push_str(<span class="hljs-string">", world!"</span>); <span class="hljs-comment">// push_str() appends a literal to a String</span>
+
+println!(<span class="hljs-string">"{}"</span>, s); <span class="hljs-comment">// This will print `hello, world!`</span></code></pre><p>Note the mutability with the <code>.push_str()</code> method.</p><p>In C++, this pattern of deallocating resources at the end of an item’s lifetime is sometimes called Resource Acquisition Is Initialization (RAII)</p><p>When you assign one variable to another, it drops the older variable:</p><pre class="cpp hljs"><code>let s1 = String::from(<span class="hljs-string">"hello"</span>);
+let s2 = s1;</code></pre><p>Here we say that <code>s1</code> was <em>moved</em> into <code>s2</code>.</p><p>s1 is now dropped; it's invalid. It cannot be used again. This prevents the double-free error in memory (where we try to drop both variables). Essentially, this is a shallow copy (instead of a deep copy) that destroys s1 in the process. </p><p>If we wanted a deep copy, then use the method <code>.clone()</code>. </p><pre class="cpp hljs"><code>let s1 = String::from(<span class="hljs-string">"hello"</span>);
+let s2 = s1.clone();</code></pre><p>Obviously, this is very expensive. Avoid unnecessary allocations when you can.</p><p>There is an exception to moving as non-deep-copying, and that's when we use the stack rather than the heap.</p><pre class="cpp hljs"><code>let x = <span class="hljs-number">5</span>;
+let y = x;
+
+println!(<span class="hljs-string">"x = {}, y = {}"</span>, x, y);</code></pre><p>This code doesn't fail like it would for String types on the heap, and that's because they're integers. If a type has the Copy trait, like integers, an older variable is still usable after assignment. Rust won’t let us annotate a type with the Copy trait if the type, or any of its parts, has implemented the Drop trait.</p><p>Examples of variable types with the copy trait (or the possibility of copy traits):</p><ul><li>All the integer types, like u32.</li><li>The boolean type, bool, with values true and false.</li><li>The character type, char.</li><li>All the floating point types, like f64.</li><li>Tuples, but only if they contain types that are also Copy. (i32, i32) is Copy, but (i32, String) is not.</li></ul><hr><p>Passing a variable to a function will move or copy, just like assignment. </p><pre class="cpp hljs"><code><span class="hljs-function">fn <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{
+    let s = String::from(<span class="hljs-string">"hello"</span>);  <span class="hljs-comment">// s comes into scope.</span>
+
+    takes_ownership(s);             <span class="hljs-comment">// s's value moves into the function...</span>
+                                    <span class="hljs-comment">// ... and so is no longer valid here.</span>
+
+    let x = <span class="hljs-number">5</span>;                      <span class="hljs-comment">// x comes into scope.</span>
+
+    makes_copy(x);                  <span class="hljs-comment">// x would move into the function,</span>
+                                    <span class="hljs-comment">// but i32 is Copy, so it’s okay to still</span>
+                                    <span class="hljs-comment">// use x afterward.</span>
+
+} <span class="hljs-comment">// Here, x goes out of scope, then s. But since s's value was moved, nothing</span>
+  <span class="hljs-comment">// special happens.</span>
+
+<span class="hljs-function">fn <span class="hljs-title">takes_ownership</span><span class="hljs-params">(some_string: String)</span> </span>{ <span class="hljs-comment">// some_string comes into scope.</span>
+    println!(<span class="hljs-string">"{}"</span>, some_string);
+} <span class="hljs-comment">// Here, some_string goes out of scope and `drop` is called. The backing</span>
+  <span class="hljs-comment">// memory is freed.</span>
+
+<span class="hljs-function">fn <span class="hljs-title">makes_copy</span><span class="hljs-params">(some_integer: i32)</span> </span>{ <span class="hljs-comment">// some_integer comes into scope.</span>
+    println!(<span class="hljs-string">"{}"</span>, some_integer);
+} <span class="hljs-comment">// Here, some_integer goes out of scope. Nothing special happens.</span></code></pre><p>Note that a variable can be dropped (have its memory freed on the heap) after its been moved into another function but before it goes out of scope in the initial function. A variable gets dropped at the end of the scope of its current function, but not necessarily its original function.</p><p>It's possible to return multiple values in a tuple:</p><pre class="cpp hljs"><code>fn main() {
+    let s1 = String::from("hello");
+
+    let (s2, len) = calculate_length(s1);
+
+    println!("The length of '{}' is {}.", s2, len);
+}
+
+fn calculate_length(s: String) -&gt; (String, usize) {
+    let length = s.len(); // len() returns the length of a String.
+
+    (s, length)
+}</code></pre><p>We can do the same thing as the above code, but with pointers (references) instead:</p><pre class="cpp hljs"><code>fn main() {
+    let s1 = String::from("hello");
+
+    let len = calculate_length(&amp;s1);
+
+    println!("The length of '{}' is {}.", s1, len);
+}
+
+fn calculate_length(s: &amp;String) -&gt; usize {   //&amp;String s is pointing at String s1
+    s.len()
+}</code></pre><p>References refer but do not own, so you can pass reference without passing ownership. The value a reference points to will not be dropped when the reference goes out of scope.</p><p>We call having references as function parameters <em>borrowing</em>. </p><pre class="cpp hljs"><code><span class="hljs-function">fn <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{
+    let s = String::from(<span class="hljs-string">"hello"</span>);
+
+    change(&amp;s);
+}
+
+<span class="hljs-function">fn <span class="hljs-title">change</span><span class="hljs-params">(some_string: &amp;String)</span> </span>{
+    some_string.push_str(<span class="hljs-string">", world"</span>);
+}</code></pre><p>Compile error because this is not a mutable borrow. This is an immutable borrow (a regular borrow). You can instead do a mutable borrow:</p><pre class="cpp hljs"><code><span class="hljs-function">fn <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{
+    let mut s = String::from(<span class="hljs-string">"hello"</span>);
+
+    change(&amp;mut s);
+}
+
+<span class="hljs-function">fn <span class="hljs-title">change</span><span class="hljs-params">(some_string: &amp;mut String)</span> </span>{
+    some_string.push_str(<span class="hljs-string">", world"</span>);
+}</code></pre><p>You can only have one mutable reference to a particular piece of data in a particular scope. The compiler prevents data races (which can be hard to find and reason about), which are the result of:</p><ol><li>Two or more pointers access the same data at the same time.</li><li>At least one of the pointers is being used to write to the data.</li><li>There’s no mechanism being used to synchronize access to the data.</li></ol><p>You cannot have simultaneous references to the same mutable data. While multiple immutable references are allowed, only one mutable reference is allowed in a given scope.</p><p>Rust never preserves references while freeing the memory it points to. Dangling pointers don't exist in Rust because they can't be compiled.</p><pre class="cpp hljs"><code>fn main() {
+    let reference_to_nothing = dangle();
+}
+
+fn dangle() -&gt; &amp;String {
+    let s = String::from("hello");
+
+    &amp;s
+} // s goes out of scope, memory is dropped (ruh-roh, yogi)</code></pre><p>Instead, we should have returned the String directly. <code>-&gt; &amp;String</code> and returning just plain <code>s</code>.</p><p>In short.</p><ol><li>At any given time, you can have either but not both of:<ul><li>One mutable reference.</li><li>Any number of immutable references.</li></ul></li><li>References must always be valid.</li></ol><hr><p>Slices reference a contiguous sequence of elements in a collection rather than the whole collection. They do not have ownership.</p></div>
+
+
+
+</div>
+
+</p>
+</section>
+</body>
+</html>

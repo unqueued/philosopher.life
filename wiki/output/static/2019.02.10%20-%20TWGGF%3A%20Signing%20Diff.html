@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.13" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>2019.02.10 - TWGGF: Signing Diff: ⦗h0p3's Wiki⦘ — ‍ ‍ ‍‍ ‍1.2.20191101 𖡶 
+
+ Readme
+
+</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-TWGGF " data-tags="TWGGF" data-tiddler-title="2019.02.10 - TWGGF: Signing Diff"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal"><button aria-label="delete" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fdelete" title="Delete this tiddler">
+
+
+</button></span><span class=" tc-reveal"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button></span><span class=" tc-reveal"><span class=" tc-reveal"><button aria-label="info" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Finfo" title="Show information for this tiddler">
+</button></span><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><button aria-label="new journal here" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fnew-journal-here" title="Create a new journal tiddler tagged with this one">
+
+
+
+
+
+</button></span><span class=" tc-reveal"><button aria-label="close others" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose-others" title="Close other tiddlers"></button></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="2019.02.10%2520-%2520TWGGF%253A%2520Signing%2520Diff.html">
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+2019.02.10 - TWGGF: Signing Diff
+</h2>
+
+</a>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+Edited: 2019.02.10 11:52
+</div>
+</div><div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ TWGGF
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span></div>
+</div>
+
+<div class="tc-tiddler-body tc-reveal"><p>I want to cryptographically sign my wiki. I use nodejs to compile the html file, sign it, embed the signature into the html file, and then serve it over a few networks. Some methods transfer a bit-for-bit copy (git, resilio sync, ftp, etc.), so the signature verification works in those cases. Unfortunately, saving a freshly rendered wiki (<a class="tc-tiddlylink-external" href="https://philosopher.life" rel="noopener noreferrer" target="_blank">https://philosopher.life</a>) through a browser does <em>not</em> generate a bit-for-bit copy of the original. Chrome and FF save the same object, but that object is not identical with the output of nodejs. This is a problem; I need to be able to count on nodejs and browsers producing identical objects in order for my signature to be effective across multiple methods of serving the wiki.</p><p>Here's the diff:</p><p>-=[ PASTE ]=-</p><pre><code>3c3
+&lt; &lt;!-- saved from url=(0021)https://tiddlywiki.com --&gt;
+---
+&gt; &lt;!-- saved from url=(0021)https://tiddlywiki.com --&gt;^M
+31336c31336
+&lt;             &amp;quot;text&amp;quot;: &amp;quot;no&amp;quot;
+---
+&gt;             &amp;quot;text&amp;quot;: &amp;quot;yes&amp;quot;
+31340c31340,31380
+&lt;             &amp;quot;text&amp;quot;: &amp;quot;yes&amp;quot;
+---
+&gt;             &amp;quot;text&amp;quot;: &amp;quot;no&amp;quot;
+&gt;         },
+&gt;         &amp;quot;$:/info/url/full&amp;quot;: {
+&gt;             &amp;quot;title&amp;quot;: &amp;quot;$:/info/url/full&amp;quot;,
+&gt;             &amp;quot;text&amp;quot;: &amp;quot;https://philosopher.life/&amp;quot;
+&gt;         },
+&gt;         &amp;quot;$:/info/url/host&amp;quot;: {
+&gt;             &amp;quot;title&amp;quot;: &amp;quot;$:/info/url/host&amp;quot;,
+&gt;             &amp;quot;text&amp;quot;: &amp;quot;philosopher.life&amp;quot;
+&gt;         },
+&gt;         &amp;quot;$:/info/url/hostname&amp;quot;: {
+&gt;             &amp;quot;title&amp;quot;: &amp;quot;$:/info/url/hostname&amp;quot;,
+&gt;             &amp;quot;text&amp;quot;: &amp;quot;philosopher.life&amp;quot;
+&gt;         },
+&gt;         &amp;quot;$:/info/url/protocol&amp;quot;: {
+&gt;             &amp;quot;title&amp;quot;: &amp;quot;$:/info/url/protocol&amp;quot;,
+&gt;             &amp;quot;text&amp;quot;: &amp;quot;https:&amp;quot;
+&gt;         },
+&gt;         &amp;quot;$:/info/url/port&amp;quot;: {
+&gt;             &amp;quot;title&amp;quot;: &amp;quot;$:/info/url/port&amp;quot;,
+&gt;             &amp;quot;text&amp;quot;: &amp;quot;&amp;quot;
+&gt;         },
+&gt;         &amp;quot;$:/info/url/pathname&amp;quot;: {
+&gt;             &amp;quot;title&amp;quot;: &amp;quot;$:/info/url/pathname&amp;quot;,
+&gt;             &amp;quot;text&amp;quot;: &amp;quot;/&amp;quot;
+&gt;         },
+&gt;         &amp;quot;$:/info/url/search&amp;quot;: {
+&gt;             &amp;quot;title&amp;quot;: &amp;quot;$:/info/url/search&amp;quot;,
+&gt;             &amp;quot;text&amp;quot;: &amp;quot;&amp;quot;
+&gt;         },
+&gt;         &amp;quot;$:/info/url/origin&amp;quot;: {
+&gt;             &amp;quot;title&amp;quot;: &amp;quot;$:/info/url/origin&amp;quot;,
+&gt;             &amp;quot;text&amp;quot;: &amp;quot;https://philosopher.life&amp;quot;
+&gt;         },
+&gt;         &amp;quot;$:/info/browser/screen/width&amp;quot;: {
+&gt;             &amp;quot;title&amp;quot;: &amp;quot;$:/info/browser/screen/width&amp;quot;,
+&gt;             &amp;quot;text&amp;quot;: &amp;quot;1920&amp;quot;
+&gt;         },
+&gt;         &amp;quot;$:/info/browser/screen/height&amp;quot;: {
+&gt;             &amp;quot;title&amp;quot;: &amp;quot;$:/info/browser/screen/height&amp;quot;,
+&gt;             &amp;quot;text&amp;quot;: &amp;quot;1080&amp;quot;
+275013,275014c275053
+&lt; &lt;pre&gt;
+&lt; How has your week been? You doing game night at church?How has your w
+---
+&gt; &lt;pre&gt;How has your week been? You doing game night at church?How has your w
+278891,278892c278930
+&lt; &lt;pre&gt;
+&lt; Hey, you doing okay? You've been quiet, imho.
+---
+&gt; &lt;pre&gt;Hey, you doing okay? You've been quiet, imho.
+284538,284539c284576
+&lt; &lt;pre&gt;
+&lt; Thank you for connecting Killcoin and me! I appreciate it.
+---
+&gt; &lt;pre&gt;Thank you for connecting Killcoin and me! I appreciate it.
+359206c359243
+&lt; &lt;/html&gt;
+\ No newline at end of file
+---
+&gt; &lt;/html&gt;\n</code></pre><p>Any ideas on how best to fix this?</p></div>
+
+
+
+</div>
+
+</p>
+</section>
+</body>
+</html>

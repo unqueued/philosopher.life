@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.13" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>2018.01.16 - Retired: Rust: Effective Borrowing: ⦗h0p3's Wiki⦘ — ‍ ‍ ‍‍ ‍1.2.20191101 𖡶 
+
+ Readme
+
+</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Retired " data-tags="Retired" data-tiddler-title="2018.01.16 - Retired: Rust: Effective Borrowing"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal"><button aria-label="delete" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fdelete" title="Delete this tiddler">
+
+
+</button></span><span class=" tc-reveal"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button></span><span class=" tc-reveal"><span class=" tc-reveal"><button aria-label="info" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Finfo" title="Show information for this tiddler">
+</button></span><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><button aria-label="new journal here" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fnew-journal-here" title="Create a new journal tiddler tagged with this one">
+
+
+
+
+
+</button></span><span class=" tc-reveal"><button aria-label="close others" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose-others" title="Close other tiddlers"></button></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="2018.01.16%2520-%2520Retired%253A%2520Rust%253A%2520Effective%2520Borrowing.html">
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+2018.01.16 - Retired: Rust: Effective Borrowing
+</h2>
+
+</a>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+Edited: 2019.03.22 :14
+</div>
+</div><div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ Retired
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span></div>
+</div>
+
+<div class="tc-tiddler-body tc-reveal"><h2 class="">Resources:</h2><ul><li><a class="tc-tiddlylink-external" href="https://rufflewind.com/2017-02-15/rust-move-copy-borrow" rel="noopener noreferrer" target="_blank">https://rufflewind.com/2017-02-15/rust-move-copy-borrow</a></li><li><a class="tc-tiddlylink-external" href="http://intorust.com" rel="noopener noreferrer" target="_blank">http://intorust.com</a></li></ul><h2 class="">Multivariable Vector Functions:</h2><p>Sometimes the right thing to do is to clone in some form. You might want to avoid borrowing:</p><p>(Input) -&gt; FUNCTION -&gt; (Input,Output)</p><p>This enables you to fork data structures, maintaining the original, but also producing a mutated version of it as Output.</p><h2 class="">Shared Borrowing:</h2><p>Except through controlled environments, such carefully crafted APIs that are safe, like mutexes for multi-threading, Shared Borrowing passes immutable data structures. While a data structure is shared/borrowed, it is immutable; that's the heart of Rust's safety.</p><p>To <code>move</code> is to let another function borrow it. Shared references move ownership of a variable to its reference (where the variable then become immutable), and then the reference is copied. e.g. <code>&amp;foovar</code>, is a copy type. It's meant to be copied. It's cheap to copy it. A mutable variable is immutable when borrowed, but mutable otherwise.</p><p>Use scoping to destruct shared references to gain back ownership of the variable:</p><pre class="cpp hljs"><code>let mut foovar = format!(<span class="hljs-string">"barbarbar"</span>);
+foovar.push(<span class="hljs-string">"barbar"</span>); <span class="hljs-comment">//Mutable in current scope so far</span>
+
+    {
+          let r: &amp;String = &amp;foovar; <span class="hljs-comment">//variable r owns variable foovar until end of scope of r</span>
+          foobar_function(r);
+          foobar_function(r);
+    } <span class="hljs-comment">//end of scope of r, thus end of borrow of foovar</span>
+
+foovar.push(<span class="hljs-string">"ann"</span>); <span class="hljs-comment">//Mutable in current scope again, so this works...</span></code></pre><h2 class="">Cheat Sheet:</h2><pre class="cpp hljs"><code>&amp;String     <span class="hljs-comment">//type of shared reference</span>
+&amp;str        <span class="hljs-comment">//type of string slice</span>
+
+<span class="hljs-function">fn <span class="hljs-title">greet</span><span class="hljs-params">(name: &amp;String)</span> </span>{..}
+
+&amp;name       <span class="hljs-comment">//shared borrow</span>
+&amp;name[x..y] <span class="hljs-comment">//slice expression</span>
+</code></pre><h2 class="">Mutable Borrowing:</h2><pre><code>name: String            Ownership: control all access, will free (destruct) when done.
+name: &amp;String           Shared reference: many readers, no writers
+name: &amp;mut String       Mutable reference: no other readers, one writer</code></pre><p>The following two code snippets are equivalent:</p><p>Use scoping to destruct shared references to gain back ownership of the variable:</p><pre class="cpp hljs"><code>let mut foovar = format!(<span class="hljs-string">"barbarbar"</span>);
+foovar.push(<span class="hljs-string">"barbar"</span>); <span class="hljs-comment">//Mutable in current scope so far</span>
+
+    {
+          let r = &amp;mut foovar; <span class="hljs-comment">//variable r owns variable foovar until end of scope of r</span>
+          foobar_function(r);
+    } <span class="hljs-comment">//end of scope of r (it destructs), thus end of borrow of foovar</span>
+
+
+
+foovar.push(<span class="hljs-string">"ann"</span>); <span class="hljs-comment">//Mutable in current scope again, so this works...</span></code></pre></div>
+
+
+
+</div>
+
+</p>
+</section>
+</body>
+</html>

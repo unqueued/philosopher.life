@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.13" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>2017.09.10 - Retired: Cryptographic Verification: ⦗h0p3's Wiki⦘ — ‍ ‍ ‍‍ ‍1.2.20191101 𖡶 
+
+ Readme
+
+</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Retired " data-tags="Retired" data-tiddler-title="2017.09.10 - Retired: Cryptographic Verification"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal"><button aria-label="delete" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fdelete" title="Delete this tiddler">
+
+
+</button></span><span class=" tc-reveal"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button></span><span class=" tc-reveal"><span class=" tc-reveal"><button aria-label="info" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Finfo" title="Show information for this tiddler">
+</button></span><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><button aria-label="new journal here" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fnew-journal-here" title="Create a new journal tiddler tagged with this one">
+
+
+
+
+
+</button></span><span class=" tc-reveal"><button aria-label="close others" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose-others" title="Close other tiddlers"></button></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="2017.09.10%2520-%2520Retired%253A%2520Cryptographic%2520Verification.html">
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+2017.09.10 - Retired: Cryptographic Verification
+</h2>
+
+</a>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+Edited: 2018.11.15 14:06
+</div>
+</div><div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ Retired
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span></div>
+</div>
+
+<div class="tc-tiddler-body tc-reveal"><p>Official distributions of h0p3's Wiki include checksum and signatures files for verifying the integrity and authenticity of your copy. These verification files are updated for every published edit (nearly real-time). With these files (and the right tools), you will be able to cryptographically verify the entire wiki, which is contained in a single html file (index.html). Let's hope this is never directly useful to us.</p><p>I previously used PGP (GnuPG as my last tool) to sign this wiki.<button class="tc-btn-invisible tc-slider"><sup style="color:#66ff66">1</sup></button> PGP has to be one of the worst &quot;best in class&quot; toolsets I've ever used. I hate the software ecosystem, its unusability and incompatibility, as well as its poor logistics and social design. I've wasted far too many hours over almost two decades on that piece of shit. I'm moving on. </p><p>Instead, I'm cutting out the middleman (fuck you, PGP) and more directly using the crypto library I actually trust. I now generate signatures through <a class="tc-tiddlylink-external" href="https://github.com/pyca/pynacl" rel="noopener noreferrer" target="_blank">PyNaCL</a>, a gorgeous binding to the state of the art <a class="tc-tiddlylink-external" href="https://nacl.cr.yp.to/" rel="noopener noreferrer" target="_blank">NaCL</a> crypto library (imho, we are rapidly moving into a cryptographic monoculture relying exclusively on the NaCL algorithms).<button class="tc-btn-invisible tc-slider"><sup style="color:#66ff66">2</sup></button> I believe my key will be useful until quantum computing becomes feasible. When PGP is actually functioning, it buys the same verification as my process (they use the exact same library). The difference is that my process is literally programmable in every major language. It's hilariously easier than PGP. You can even verify it by hand if you want to.</p><p>This wiki's public Ed25519 signature verification key:</p><pre><code>5249578e4cdfaec1484f0083df3e8b6e4af0cab0288c8156c31d6e94efe58308</code></pre><p>Here's how to verify the authenticity and integrity of this wiki:</p><p>If you don't already have them, download all three files (<a href="index.html.sum">index.html.sum</a>, <a href="index.html.sig">index.html.sig</a>, and <a href="index.html">index.html</a>). </p><p>Use the Ed25519 signature (index.html.sig)  to verify the authenticity of the checksum file (index.html.sum).</p><p>You can either find/write your own tool or use mine to verify the signature. Run this script (don't forget to first install <a class="tc-tiddlylink-external" href="https://github.com/pyca/pynacl" rel="noopener noreferrer" target="_blank">PyNaCL</a>; pip is easiest) in the same directory as the three files you downloaded.</p><pre><code>#!/usr/bin/python3
+
+import nacl.encoding
+import nacl.signing
+import binascii
+
+# The verification &quot;public&quot; key
+verify_key_hex = &quot;5249578e4cdfaec1484f0083df3e8b6e4af0cab0288c8156c31d6e94efe58308&quot;
+verify_key = nacl.signing.VerifyKey(verify_key_hex, encoder=nacl.encoding.HexEncoder)
+
+# Read sig file
+with open('index.html.sig', 'r') as myfile:
+    data=myfile.read().replace('\n', '')
+signed = binascii.unhexlify(data)
+
+# Check the validity of the signature
+# Will raise nacl.exceptions.BadSignatureError if the signature check fails
+try:
+    verify_key.verify(signed)
+    print(&quot;Signature Verified&quot;)
+except:
+    print(&quot;Signature Verification Failed&quot;)
+</code></pre><p>Next, use the SHA-512 checksum file (index.html.sum) to verify the integrity of the index.html file. I suggest <a class="tc-tiddlylink-external" href="https://en.wikipedia.org/wiki/Sha1sum" rel="noopener noreferrer" target="_blank">sha512sum</a>, <a class="tc-tiddlylink-external" href="https://pypi.python.org/pypi/hashfile" rel="noopener noreferrer" target="_blank">hashfile</a>, or <a class="tc-tiddlylink-external" href="http://implbits.com/products/hashtab/" rel="noopener noreferrer" target="_blank">Hashtab</a>. Use hashfile like this:</p><pre><code>hashfile -c index.html.sum</code></pre><p>Assuming you've already authenticated the checksum file, if the hash of index.html matches the hash found in index.html.sum (or if your hashing tool verifies they match for you), then you know your index.html file hasn't been tampered with by a third-party. To be clear, if you trust the signature verification of the checksum, and you trust the checksum of index.html (if the hashes match, you'd be crazy not to trust this part), then you trust index.html. Thus, your authenticity+integrity verification demonstrates you possess a bit-for-bit copy of the original signed by someone who possesses this wiki's private signing key.</p><hr><p><span class=" tc-reveal" hidden="true"></span></p><p><sub><span style="color:green">1 : </span> You can find the old verification wikipage here: <a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="Retired%253A%25202017.01.14%2520-%2520Cryptographic%2520Verification.html">Retired: 2017.01.14 - Cryptographic Verification</a></sub></p><p><span class=" tc-reveal" hidden="true"></span></p><p><sub><span style="color:green">2 : </span> I am aware of that maxim: Don't roll your own crypto. This maxim can be applied at different levels in the cryptography process. While I openly admit my shallow understanding of cryptography, I remain convinced this is a safe exception to that maxim.</sub></p><p><span class=" tc-reveal" hidden="true"></span></p><p><sub><span style="color:green">3 : </span> Not that it would ever matter in this case, but I'm not naive enough to think rubber-hose cryptanalysis isn't the first step a state-actor would use against me. Regardless, I still think cryptography is immensely useful to us.</sub></p></div>
+
+
+
+</div>
+
+</p>
+</section>
+</body>
+</html>

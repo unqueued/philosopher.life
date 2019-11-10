@@ -1,0 +1,334 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.13" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>2018.01.27 - Computer Musings: Kimsufi: ⦗h0p3's Wiki⦘ — ‍ ‍ ‍‍ ‍1.2.20191101 𖡶 
+
+ Readme
+
+</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Computer%20Musings " data-tags="[[Computer Musings]]" data-tiddler-title="2018.01.27 - Computer Musings: Kimsufi"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal"><button aria-label="delete" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fdelete" title="Delete this tiddler">
+
+
+</button></span><span class=" tc-reveal"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button></span><span class=" tc-reveal"><span class=" tc-reveal"><button aria-label="info" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Finfo" title="Show information for this tiddler">
+</button></span><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><button aria-label="new journal here" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fnew-journal-here" title="Create a new journal tiddler tagged with this one">
+
+
+
+
+
+</button></span><span class=" tc-reveal"><button aria-label="close others" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose-others" title="Close other tiddlers"></button></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="2018.01.27%2520-%2520Computer%2520Musings%253A%2520Kimsufi.html">
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+2018.01.27 - Computer Musings: Kimsufi
+</h2>
+
+</a>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+Edited: 2019.03.23 12:21
+</div>
+</div><div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ Computer Musings
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span></div>
+</div>
+
+<div class="tc-tiddler-body tc-reveal"><p>My system doesn't seem to REISUB out of the box.</p><p><code>echo 1 | sudo tee /proc/sys/kernel/sysrq &gt; /dev/null </code></p><p>Haven't tested it yet, but hopefully it does now.</p><hr><p>As root:</p><blockquote class="tc-quote"><pre class="bash hljs"><code>passwd
+timedatectl <span class="hljs-built_in">set</span>-ntp <span class="hljs-literal">true</span>
+useradd -m h0p3
+passwd h0p3
+pacman -S sudo vi nano reflector cronie --noconfirm
+reflector --latest <span class="hljs-number">200</span> --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+systemctl <span class="hljs-built_in">enable</span> cronie.service &amp;&amp; systemctl start cronie.service</code></pre></blockquote><p>Root cronjobs using <code>crontab -e</code>:</p><blockquote class="tc-quote"><p>0 2 1 * * reflector –latest 200 –protocol http –protocol https –sort rate –save /etc/pacman.d/mirrorlist
+</p></blockquote><p>Add h0p3 to sudoers:</p><blockquote class="tc-quote"><p><code>visudo</code></p><p>Below root in <code># User privilege specification</code> add the following (<code>i</code> to insert):</p><p><code>h0p3 ALL=(ALL) ALL</code></p><p><code>Esc</code>, <code>shift+ZZ</code> to exit
+</p></blockquote><p>Configure SSH for safety:</p><blockquote class="tc-quote"><p>Edit <code>/etc/ssh/sshd_config</code></p><p>Set <code>PermitRootLogin no</code></p><p>Set <code>Port 4222</code></p><p>Save and exit.</p><p><code>systemctl restart sshd</code></p><p>On your local machine, run <a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="lussh.html">lussh</a> to log in: <code>ssh h0p3@ks.philosopher.life -p 4222</code>
+</p></blockquote><p>Install yaourt &amp; The Goods:</p><blockquote class="tc-quote"><p>Add the following to <code>/etc/pacman.conf</code></p><pre><code>[archlinuxfr]
+SigLevel = Never
+Server = http://repo.archlinux.fr/$arch</code></pre><pre class="bash hljs"><code>sudo pacman -Sy yaourt --noconfirm
+
+<span class="hljs-comment"># The CLI Goods</span>
+sudo pacman -S smem toxic tldr lftp mc htop ncdu bmon nethogs mtr aria2 w3m weechat finch sshuttle --noconfirm
+yaourt -S firetools mbox-git xonsh discus byobu dtrx neofetch --noconfirm</code></pre></blockquote><p>Setup neomvim:</p><blockquote class="tc-quote"><pre class="bash hljs"><code>sudo pacman -S neovim xclip --noconfirm
+mkdir -p ~/.config/nvim
+<span class="hljs-built_in">echo</span> <span class="hljs-string">'source ~/.nvimrc'</span> &gt; ~/.config/nvim/init.vim</code></pre><p>Paste the following into <code>~/.nvimrc</code></p></blockquote><p>Setup zsh:</p><blockquote class="tc-quote"><pre class="bash hljs"><code>yaourt -S antigen-git --noconfirm</code></pre><p>Paste the following into <code>~/.zshrc</code></p><pre class="bash hljs"><code>sudo chsh <span class="hljs-operator">-s</span> /bin/zsh
+chsh <span class="hljs-operator">-s</span> /bin/zsh
+zsh</code></pre><p>Paste the following into <code>~/.zlogin</code></p><pre class="bash hljs"><code>clear</code></pre></blockquote><p>Simple Opsec:</p><blockquote class="tc-quote"><pre class="bash hljs"><code><span class="hljs-comment"># sudo tiger</span>
+yaourt -S tiger --noconfirm
+
+<span class="hljs-comment"># sudo lynis audit system</span>
+sudo pacman -S lynis --noconfirm
+
+<span class="hljs-comment"># arch-audit --upgradable --quiet</span>
+sudo pacman -S arch-audit --noconfirm
+
+<span class="hljs-comment"># sudo rkhunter --update -c --sk </span>
+sudo pacman -S rkhunter --noconfirm
+
+<span class="hljs-comment"># This requires some setup</span>
+sudo pacman -S fail2ban --noconfirm</code></pre><p>Insert the following into <code>/etc/fail2ban/jail.local</code></p><pre><code>[sshd]
+enabled = true
+port = 4222
+
+[webmin-auth]
+enabled = true
+
+[INCLUDES]
+before = paths-arch.conf
+
+[DEFAULT]
+ignorself = true
+ignoreip = 127.0.0.1/8 ::1
+bantime  = 1h
+findtime  = 10m
+maxretry = 10
+backend = auto
+usedns = yes
+logencoding = auto
+banaction = iptables-multiport
+banaction_allports = iptables-allports</code></pre><pre class="bash hljs"><code>sudo systemctl <span class="hljs-built_in">enable</span> fail2ban.service
+sudo systemctl start fail2ban.service</code></pre></blockquote><p>Remote Admin:</p><blockquote class="tc-quote"><pre class="bash hljs"><code>yaourt -S webmin --noconfirm
+sudo pacman -S perl-net-ssleay --noconfirm
+sudo systemctl <span class="hljs-built_in">enable</span> webmin
+sudo systemctl start webmin</code></pre><p>Login as root @ <code>https://ks.philosopher.life:10000</code> and configure.
+</p></blockquote><p>Setup Resilio Sync:</p><blockquote class="tc-quote"><pre class="bash hljs"><code>yaourt -S rslsync --noconfirm
+mkdir -p ~/.config/rslsync
+<span class="hljs-comment">#sudo cp /etc/rslsync.conf ~/.config/rslsync/rslsync.conf</span>
+<span class="hljs-comment">#sudo chown -R $USER ~/.config/rslsync/rslsync.conf</span></code></pre><p>Paste the following into <code>~/.config/rslsync/rslsync.conf</code> (edit the password):</p><pre><code>{
+   &quot;device_name&quot;: &quot;Kimsufi&quot;,
+   &quot;listening_port&quot; : 4289, // 0 - randomize port
+
+/* storage_path dir contains auxilliary app files if no storage_path field: .sync dir created in current working directory */
+  &quot;storage_path&quot; : &quot;/home/h0p3/var/lib/rslsync&quot;,
+
+/* set location of pid file */
+  &quot;pid_file&quot; : &quot;/home/h0p3/var/run/resilio/resilio.pid&quot;,
+
+/* use UPnP for port mapping (not necessary for Kimsufi) */
+  &quot;use_upnp&quot; : true,
+
+/* Enable WebUI */
+ &quot;webui&quot; :
+  {
+    &quot;listen&quot; : &quot;0.0.0.0:4288&quot;
+
+  /* preset credentials */
+   ,&quot;login&quot; : &quot;h0p3&quot;
+   ,&quot;password&quot; : &quot;password&quot;
+  }
+
+}</code></pre><pre class="bash hljs"><code><span class="hljs-comment"># Create files (or it will fail)</span>
+mkdir -p /home/h0p3/var/lib/rslsync
+mkdir -p /home/h0p3/var/run/resilio/
+touch /home/h0p3/var/run/resilio/resilio.pid
+
+systemctl --user <span class="hljs-built_in">enable</span> rslsync
+systemctl --user start rslsync</code></pre><p>On the web, login to <code>ks.philosopher.life:4288</code> and configure.
+</p></blockquote><p>Setup Deluge:</p><blockquote class="tc-quote"><p><code>sudo pacman -S deluge python2-mako --noconfirm</code></p><p>Paste the following into <code>/etc/systemd/user/deluged.service</code></p><pre><code>[Unit]
+Description=Deluge Daemon
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/deluged -d -P %h/.config/deluge/deluge.pid
+
+[Install]
+WantedBy=default.target</code></pre><pre class="bash hljs"><code>mkdir -p ~/.config/deluge/plugins
+<span class="hljs-built_in">echo</span> <span class="hljs-string">"user:password"</span> &gt;&gt; ~/.config/deluge/auth
+sudo pacman -S python2-pip python-pip --noconfirm
+sudo pip2 install service_identity
+
+<span class="hljs-comment"># Must be on both server and client; thin client might let you upload it</span>
+aria2c <span class="hljs-operator">-d</span> ~/.config/deluge/plugins https://bitbucket.org/bendikro/deluge-yarss-plugin/downloads/YaRSS2-<span class="hljs-number">1.4</span>.<span class="hljs-number">3</span>-py2.<span class="hljs-number">7</span>.egg
+aria2c <span class="hljs-operator">-d</span> ~/.config/deluge/plugins http://forum.deluge-torrent.org/download/file.php?id=<span class="hljs-number">6306</span>
+
+systemctl --user <span class="hljs-built_in">enable</span> deluged
+sudo loginctl <span class="hljs-built_in">enable</span>-linger h0p3
+systemctl --user start deluged
+deluge-console <span class="hljs-string">"config -s allow_remote True"</span>
+deluge-console <span class="hljs-string">"config allow_remote"</span>
+systemctl --user restart deluged</code></pre><p>Add the following to <code>~/.config/systemd/user/deluge-web.service</code>:</p><pre><code>[Unit]
+Description=Deluge Web UI
+After=deluged.service
+
+[Service]
+ExecStart=/usr/bin/deluge-web
+
+[Install]
+WantedBy=default.target</code></pre><pre class="bash hljs"><code>systemctl --user <span class="hljs-built_in">enable</span> deluge-web
+systemctl --user start deluge-web</code></pre><ul><li>Setup Thin Client</li><li>Setup Xirvik's Extension</li><li>Setup Deluge Extensions</li><li>Setup RSS Feeds: <a class="tc-tiddlylink tc-tiddlylink-missing" href="~%252F.config%252Fdeluge%252Fyarss2.conf.html">~/.config/deluge/yarss2.conf</a></li></ul></blockquote><p>Setup h0p3's Wiki Mirror:</p><blockquote class="tc-quote"><pre class="bash hljs"><code>sudo pacman -S lighttpd certbot --noconfirm
+sudo chmod -R <span class="hljs-number">757</span> /srv/http</code></pre><p>Make <code>/etc/lighttpd/lighttpd.conf</code> contain the following:</p><pre><code>server.modules = (
+        &quot;mod_access&quot;,
+        &quot;mod_redirect&quot;,
+        &quot;mod_compress&quot;,
+        &quot;mod_openssl&quot;
+)
+
+server.document-root        = &quot;/srv/http&quot;
+server.upload-dirs          = ( &quot;/var/cache/lighttpd/uploads&quot; )
+server.errorlog             = &quot;/var/log/lighttpd/error.log&quot;
+server.pid-file             = &quot;/var/run/lighttpd.pid&quot;
+
+server.username             = &quot;http&quot;
+server.groupname            = &quot;http&quot;
+server.port                 = 80
+index-file.names            = ( &quot;index.php&quot;, &quot;index.html&quot;, &quot;index.lighttpd.html&quot; )
+url.access-deny             = ( &quot;~&quot;, &quot;.inc&quot; )
+
+static-file.exclude-extensions = ( &quot;.php&quot;, &quot;.pl&quot;, &quot;.fcgi&quot; )
+
+compress.cache-dir          = &quot;/var/cache/lighttpd/compress/&quot;
+compress.filetype           = ( &quot;application/javascript&quot;, &quot;text/css&quot;, &quot;text/html&quot;, &quot;text/plain&quot; )
+
+mimetype.assign = (
+  &quot;.html&quot; =&gt; &quot;text/html&quot;,
+  &quot;.txt&quot; =&gt; &quot;text/plain&quot;,
+  &quot;.jpg&quot; =&gt; &quot;image/jpeg&quot;,
+  &quot;.png&quot; =&gt; &quot;image/png&quot;
+)</code></pre><pre class="bash hljs"><code>sudo systemctl <span class="hljs-built_in">enable</span> lighttpd
+sudo systemctl start lighttpd
+
+<span class="hljs-comment"># fill out the forms</span>
+sudo certbot certonly --webroot -w /srv/http <span class="hljs-operator">-d</span> ks.philosopher.life
+
+<span class="hljs-comment"># I have no fucking clue why su is required</span>
+sudo su
+sudo cat /etc/letsencrypt/live/ks.philosopher.life/cert.pem /etc/letsencrypt/live/ks.philosopher.life/privkey.pem &gt; /etc/letsencrypt/live/ks.philosopher.life/web.pem
+<span class="hljs-built_in">exit</span></code></pre><p>Inject the following into <code>/etc/lighttpd/lighttpd.conf</code></p><pre><code>$SERVER[&quot;socket&quot;] == &quot;:443&quot; {
+ssl.engine = &quot;enable&quot;
+ssl.pemfile = &quot;/etc/letsencrypt/live/ks.philosopher.life/web.pem&quot; # Combined Certificate
+ssl.ca-file = &quot;/etc/letsencrypt/live/ks.philosopher.life/chain.pem&quot; # Root CA
+server.name = &quot;ks.philosopher.life&quot; # Domain Name OR Virtual Host Name
+server.document-root = &quot;/srv/http&quot; # Document Root
+server.errorlog = &quot;/var/log/lighttpd/error.log&quot;
+}
+
+$HTTP[&quot;scheme&quot;] == &quot;http&quot; {
+$HTTP[&quot;host&quot;] == &quot;ks.philosopher.life&quot; { # HTTP URL
+url.redirect = (&quot;/.*&quot; =&gt; &quot;https://ks.philosopher.life$0&quot;) # Redirection HTTPS URL
+}
+}</code></pre><p>Restart lighttpd: <code>sudo systemctl restart lighttpd</code></p><p>Setup a cronjob for certbot</p><pre><code>sudo crontab -e</code></pre><p>Insert the following into crontab:</p><p><code>0 1 * * * certbot renew</code></p><p>Don't forget to setup your sync to <code>/src/http</code>
+</p></blockquote><p>Setup openVPN server:</p><blockquote class="tc-quote"><pre class="bash hljs"><code><span class="hljs-built_in">test</span> ! -c /dev/net/tun &amp;&amp; <span class="hljs-built_in">echo</span> openvpn requires tun support || <span class="hljs-built_in">echo</span> tun is available
+
+<span class="hljs-comment"># Skidiot this one. Huge fan of the Nyr script.</span>
+wget https://raw.githubusercontent.com/Angristan/OpenVPN-install/master/openvpn-install.sh
+sudo chmod +x openvpn-install.sh
+sudo ./openvpn-install.sh
+<span class="hljs-comment">#follow the script</span></code></pre></blockquote><p>Setup Shadowsocks Proxy:</p><blockquote class="tc-quote"><pre class="bash hljs"><code>sudo pacman -S shadowsocks-libev --noconfirm</code></pre><p>Put/Edit the following in: <code>/etc/shadowsocks/manager.json</code></p><pre><code>{
+    &quot;port_password&quot;: {
+        &quot;11001&quot;: &quot;mypass&quot;,
+        &quot;11002&quot;: &quot;j3d1hpass&quot;,
+        &quot;11003&quot;: &quot;k0sh3kpass&quot;,
+        &quot;11004&quot;: &quot;1uxb0xpass&quot;,
+        &quot;11005&quot;: &quot;almpass&quot;,
+        &quot;11006&quot;: &quot;JREpass&quot;,
+        &quot;11007&quot;: &quot;AIRpass&quot;,
+        &quot;11008&quot;: &quot;Kpass&quot;,
+        &quot;11009&quot;: &quot;Lpass&quot;,
+        &quot;11010&quot;: &quot;charity&quot;
+    },
+
+    &quot;timeout&quot;:300,
+    &quot;method&quot;:&quot;chacha20-ietf-poly1305&quot;,
+    &quot;fast_open&quot;: true
+}</code></pre><p>Create <code>/usr/lib/systemd/system/shadowsocks-libev-manager.service</code> with the following:</p><pre><code>[Unit]
+Description=Shadowsocks-Libev Manager Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+CapabilityBoundingSet=CAP_NET_BIND_SERVICE
+ExecStart=/usr/bin/ss-manager -c /etc/shadowsocks/manager.json
+
+[Install]
+WantedBy=multi-user.target</code></pre><pre><code>sudo systemctl enable shadowsocks-libev-manager.service
+sudo systemctl start shadowsocks-libev-manager.service</code></pre></blockquote><p>Setup Tor Socks Proxy:</p><blockquote class="tc-quote"><pre class="bash hljs"><code>sudo pacman -S tor --noconfirm</code></pre><p>Replace <code>/etc/tor/torrc</code> with the following:</p><pre><code>SocksPort 9050 #local
+SocksPort 0.0.0.0:4291 #clearnet proxy
+RunAsDaemon 1
+DataDirectory /var/lib/tor
+ControlPort 4251
+CookieAuthentication 1
+ORPort 4201
+ExitPolicy reject *:* # no exits allowed
+BridgeRelay 1
+PublishServerDescriptor 0</code></pre><p>I've had too much trouble trying to get Tor to play nice with systemd, so you have this awful hack. Insert the following into <code>/home/h0p3/scripts/tor-cron.sh</code>:</p><pre><code>#!/bin/bash
+
+time=$(date)
+tor=$(sudo -u tor /usr/bin/tor)
+
+if pgrep -x &quot;tor&quot; &gt; /dev/null
+    then echo &quot;$time&quot; &gt;&gt; torlogup.txt
+else
+    $tor #run tor
+    echo &quot;$time&quot; &gt;&gt; tordownlog.txt
+fi</code></pre><pre class="bash hljs"><code>sudo chmod +x /home/h0p3/scripts/tor-cron.sh
+sudo crontab <span class="hljs-operator">-e</span></code></pre><p>Add the following to root's crontab:</p><pre><code>*/15 * * * * /home/h0p3/scripts/tor-cron.sh</code></pre><pre class="bash hljs"><code>/home/h0p3/scripts/tor-cron.sh
+curl --socks5-hostname ks.philosopher.life:<span class="hljs-number">4219</span> ipinfo.io/ip <span class="hljs-comment">#test</span></code></pre></blockquote><p>Setup vpncloud.rs mesh:</p><blockquote class="tc-quote"><pre class="bash hljs"><code>sudo pacman -S rustup --noconfirm
+rustup default nightly
+yaourt -S vpncloud <span class="hljs-comment">#edit PKGBUILD</span></code></pre><p>Where:</p><ul><li>10.0.0.1/24 = home.philosopher.life</li><li>10.0.0.2/24 = ks.philosopher.life</li><li>10.0.0.3/24 = philosopher.life</li><li>10.0.0.4/24 = dimbob.philosopher.life</li><li>10.0.0.5/24 = milligan</li></ul><p>Add and change the following to <code>/etc/vpncloud/h0p3vpn.net</code>:</p><pre><code>peers:
+   - home.philosopher.life:3210
+   - ks.philosopher.life:3210
+   - philosopher.life:3210
+   - dimbob.philosopher.life:3210
+magic: &quot;76706e02&quot;
+shared_key: &quot;foobarchangeme&quot;
+ifup: &quot;ifconfig $IFNAME 10.0.0.x/24 mtu 1500&quot;
+ifdown: &quot;ifconfig $IFNAME down&quot;
+user: &quot;nobody&quot;
+group: &quot;nobody&quot;</code></pre><p>Add the following to <code>/usr/lib/systemd/system/vpncloud@.service</code>:</p><pre><code>[Unit]
+Description=VpnCloud network '%I'
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/vpncloud --config /etc/vpncloud/%i.net --daemon --log-file /var/log/vpncloud-%i.log --pid-file /run/vpncloud-%i.run
+WorkingDirectory=/etc/vpncloud
+PIDFile=/run/vpncloud-%i.run
+
+[Install]
+WantedBy=multi-user.target</code></pre><pre class="bash hljs"><code>sudo systemctl <span class="hljs-built_in">enable</span> vpncloud@h0p3vpn
+sudo systemctl start vpncloud@h0p3vpn</code></pre></blockquote><hr><p>I ended up not using a reverse proxy. That may be a huge mistake. </p></div>
+
+
+
+</div>
+
+</p>
+</section>
+</body>
+</html>

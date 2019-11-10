@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.13" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>2018.01.20 - Rust: ⦗h0p3's Wiki⦘ — ‍ ‍ ‍‍ ‍1.2.20191101 𖡶 
+
+ Readme
+
+</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Rust " data-tags="Rust" data-tiddler-title="2018.01.20 - Rust"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal"><button aria-label="delete" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fdelete" title="Delete this tiddler">
+
+
+</button></span><span class=" tc-reveal"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button></span><span class=" tc-reveal"><span class=" tc-reveal"><button aria-label="info" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Finfo" title="Show information for this tiddler">
+</button></span><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><button aria-label="new journal here" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fnew-journal-here" title="Create a new journal tiddler tagged with this one">
+
+
+
+
+
+</button></span><span class=" tc-reveal"><button aria-label="close others" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose-others" title="Close other tiddlers"></button></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="2018.01.20%2520-%2520Rust.html">
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+2018.01.20 - Rust
+</h2>
+
+</a>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+Edited: 2019.03.23 11:00
+</div>
+</div><div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ Rust
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span></div>
+</div>
+
+<div class="tc-tiddler-body tc-reveal"><p>A difference between <em>mut</em> and <em>shadowing</em> boils down to creating a new variable when we use the let keyword in shadowing. Shadowing allows you to change a variables type (you can't mutate a variable's type), and also spares you from having to come up with different names.</p><p>Types can be divided into two categories: scalar and compound.</p><p>The <code>: u32</code> in <code>let guess: u32 = &quot;42&quot;.parse().expect(&quot;Not a number!&quot;);</code> is type annotation, necessary for when the compiler can't infer the type.</p><p>Scalar types represent single values. There are 4 primary scalar types:</p><ul><li>integers</li><li>floating-point numbers</li><li>booleans</li><li>characters</li></ul><p>Integer Types:</p><pre><code>Length	Signed	Unsigned
+8-bit	i8	u8
+16-bit	i16	u16
+32-bit	i32	u32
+64-bit	i64	u64
+arch	isize	usize (e.g. 64-bit arch vs 32-bit arch)</code></pre><p>Unsigned integers are always positive; Signed can have be negative (have a negative sign).</p><p>Signed integers store values ranging from -(2<sup>n - 1</sup>) to 2<sup>n - 1</sup> - 1. Thus, i8 ranges from -128 to 127. Unsigned integers range from 0 to 2<sup>n - 1</sup>. Thus, u8 ranges from 0 to 255. </p><p>Note that all number literals except the byte literal allow a type suffix, such as 57u8, and _ as a visual separator, such as 1_000. Integer Literals:</p><pre><code>Number    	Example
+Decimal	        98_222 
+Hex	        0xff
+Octal	        0o77
+Binary	        0b1111_0000
+Byte (u8 only)	b'A'</code></pre><p>Floating point example</p><pre class="cpp hljs"><code><span class="hljs-function">fn <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{
+    let x = <span class="hljs-number">2.0</span>; <span class="hljs-comment">// f64</span>
+
+    let y: f32 = <span class="hljs-number">3.0</span>; <span class="hljs-comment">// f32</span>
+}</code></pre><p>The main way to consume boolean values is through conditionals. Example of bool:</p><pre class="cpp hljs"><code><span class="hljs-function">fn <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{
+    let t = <span class="hljs-literal">true</span>;
+
+    let f: <span class="hljs-keyword">bool</span> = <span class="hljs-literal">false</span>; <span class="hljs-comment">// with explicit type annotation</span>
+}</code></pre><p>Char types use single quotes, 'foobar example'. It ranges over unicode.</p><pre class="cpp hljs"><code>fn main() {
+   let c = 'z';
+   let z = 'ℤ';
+   let heart_eyed_cat = '😻';
+}</code></pre><p>Compound types can group multiple values of other types into one type. Rust has two primitive compound types: tuples and arrays.</p><p>Tuple example:</p><pre class="cpp hljs"><code><span class="hljs-function">fn <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{
+    let tup: (i32, f64, u8) = (<span class="hljs-number">500</span>, <span class="hljs-number">6.4</span>, <span class="hljs-number">1</span>);   <span class="hljs-comment">//or, with inference: let tup = (500, 6.4, 1);</span>
+
+    let (x, y, z) = tup; <span class="hljs-comment">// destructuring the tuple into variables through pattern matching</span>
+
+    println!(<span class="hljs-string">"The value of y is: {}"</span>, y);
+
+    <span class="hljs-comment">// We can access a tuple element directly by index too...</span>
+    let five_hundred = tup<span class="hljs-number">.0</span>;
+    let six_point_four = tup<span class="hljs-number">.1</span>;
+    let one = tup<span class="hljs-number">.2</span>;
+}</code></pre><p>Arrays have elements of the same type, and arrays are of fixed length and cannot grow (unlike vectors). Arrays use the stack instead of the heap.</p><pre class="cpp hljs"><code><span class="hljs-function">fn <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{
+    let a = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>];
+
+    let first = a[<span class="hljs-number">0</span>];
+    let second = a[<span class="hljs-number">1</span>];
+}</code></pre><p>If the index is greater than the length, Rust will panic, which is the term Rust uses when a program exits with an error. This error is found in the runtime, not compile time! This is a safety check to prevent you from silently accessing invalid memory (good on you, Rust!).</p><p>In function signatures, you must declare the type of each parameter. You pass arguments, the concrete input values, into the parameters specified in the function signature. Separate multiple parameters with commas.</p><pre class="cpp hljs"><code><span class="hljs-function">fn <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{
+    another_function(<span class="hljs-number">5</span>, <span class="hljs-number">6</span>); <span class="hljs-comment">//5 and 6 are the arguments</span>
+}
+
+<span class="hljs-function">fn <span class="hljs-title">another_function</span><span class="hljs-params">(x: i32, y: i32)</span> </span>{ <span class="hljs-comment">//2 parameters with declared types, comma separated</span>
+    println!(<span class="hljs-string">"The value of x is: {}"</span>, x);
+    println!(<span class="hljs-string">"The value of y is: {}"</span>, y);
+}</code></pre><p>Rust is an expression-based language.</p></div>
+
+
+
+</div>
+
+</p>
+</section>
+</body>
+</html>

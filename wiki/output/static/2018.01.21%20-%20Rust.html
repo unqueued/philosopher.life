@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.13" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>2018.01.21 - Rust: ⦗h0p3's Wiki⦘ — ‍ ‍ ‍‍ ‍1.2.20191101 𖡶 
+
+ Readme
+
+</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Rust " data-tags="Rust" data-tiddler-title="2018.01.21 - Rust"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal"><button aria-label="delete" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fdelete" title="Delete this tiddler">
+
+
+</button></span><span class=" tc-reveal"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button></span><span class=" tc-reveal"><span class=" tc-reveal"><button aria-label="info" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Finfo" title="Show information for this tiddler">
+</button></span><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><button aria-label="new journal here" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fnew-journal-here" title="Create a new journal tiddler tagged with this one">
+
+
+
+
+
+</button></span><span class=" tc-reveal"><button aria-label="close others" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose-others" title="Close other tiddlers"></button></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="2018.01.21%2520-%2520Rust.html">
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+2018.01.21 - Rust
+</h2>
+
+</a>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+Edited: 2019.03.23 11:21
+</div>
+</div><div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ Rust
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span></div>
+</div>
+
+<div class="tc-tiddler-body tc-reveal"><p><em>Statements</em> are instructions that perform some action and do not return a value while <em>Expressions</em> evaluate to a resulting value. </p><p><code>5 + 6</code> is an expression that evaluates to the value 11. Expressions can be part of statements: e.g. <code>let y = 6;</code>, <code>6</code> is an expression that evaluates to the value 6. Calling a function is an expression. Calling a macro is an expression. The block that we use to create new scopes, <code>{}</code>, is an expression too.</p><pre class="cpp hljs"><code><span class="hljs-function">fn <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{
+    let x = <span class="hljs-number">5</span>;
+
+    let y = {
+        let x = <span class="hljs-number">3</span>;
+        x + <span class="hljs-number">1</span> <span class="hljs-comment">// notice the lack of a semicolon</span>
+    }; <span class="hljs-comment">// The scope of { ... } is an expression that evaluates to 4</span>
+
+    println!(<span class="hljs-string">"The value of y is: {}"</span>, y);
+}</code></pre><p>The <code>-&gt;</code> arrow points out the type of value that is returned.</p><pre class="cpp hljs"><code>fn five() -&gt; i32 {
+    5
+}
+
+fn main() {
+    let x = five();
+
+    println!("The value of x is: {}", x);
+}</code></pre><p>The <code>x: i32</code> shows us what kind of input is expected and assigns the value to a variable name that can be used inside the function.</p><pre class="cpp hljs"><code>fn main() {
+    let x = plus_one(5);
+
+    println!("The value of x is: {}", x);
+}
+
+fn plus_one(x: i32) -&gt; i32 {
+    x + 1   // note the lack of a semicolon 
+}</code></pre><p>If there was a semicolon on the expression, it would fail to compile, since it would be returning <code>()</code>, the empty tuple instead of an i32.</p><p>Condition <em>If</em> branches:</p><pre class="cpp hljs"><code><span class="hljs-function">fn <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{
+    let number = <span class="hljs-number">6</span>;
+
+    <span class="hljs-keyword">if</span> number % <span class="hljs-number">4</span> == <span class="hljs-number">0</span> {
+        println!(<span class="hljs-string">"number is divisible by 4"</span>);
+    } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> number % <span class="hljs-number">3</span> == <span class="hljs-number">0</span> {
+        println!(<span class="hljs-string">"number is divisible by 3"</span>);
+    } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> number % <span class="hljs-number">2</span> == <span class="hljs-number">0</span> {
+        println!(<span class="hljs-string">"number is divisible by 2"</span>);
+    } <span class="hljs-keyword">else</span> {
+        println!(<span class="hljs-string">"number is not divisible by 4, 3, or 2"</span>);
+    }
+}</code></pre><p>You must always provide <code>if</code> with a boolean as its condition, and each arm of the if must be the same type. Note that <code>match</code> is a more powerful branching construct.</p><p>Because <code>if</code> is an expression, we can use it on the right side of a let statement:</p><pre class="cpp hljs"><code><span class="hljs-function">fn <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{
+    let condition = <span class="hljs-literal">true</span>;
+    let number = <span class="hljs-keyword">if</span> condition {
+        <span class="hljs-number">5</span>
+    } <span class="hljs-keyword">else</span> {
+        <span class="hljs-number">6</span>
+    };
+
+    println!(<span class="hljs-string">"The value of number is: {}"</span>, number);
+}</code></pre><p>Loops example:</p><pre class="cpp hljs"><code><span class="hljs-function">fn <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{
+    loop {
+        println!(<span class="hljs-string">"again!"</span>);
+    } <span class="hljs-comment">// note the lack of break, so this goes on forever</span>
+}</code></pre><p>Classic while loop:</p><pre class="cpp hljs"><code><span class="hljs-function">fn <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{
+    let a = [<span class="hljs-number">10</span>, <span class="hljs-number">20</span>, <span class="hljs-number">30</span>, <span class="hljs-number">40</span>, <span class="hljs-number">50</span>];
+    let mut index = <span class="hljs-number">0</span>;
+
+    <span class="hljs-keyword">while</span> index &lt; <span class="hljs-number">5</span> {
+        println!(<span class="hljs-string">"the value is: {}"</span>, a[index]);
+
+        index = index + <span class="hljs-number">1</span>;
+    }
+}</code></pre><p>This is slow though. It is much better to use the for loop over each element in a collection:</p><pre class="cpp hljs"><code><span class="hljs-function">fn <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{
+    let a = [<span class="hljs-number">10</span>, <span class="hljs-number">20</span>, <span class="hljs-number">30</span>, <span class="hljs-number">40</span>, <span class="hljs-number">50</span>];
+
+    <span class="hljs-keyword">for</span> element in a.iter() {
+        println!(<span class="hljs-string">"the value is: {}"</span>, element);
+    }
+}</code></pre><p>Here's an example of <code>rev</code> over a range, which iterates in reverse over the range:</p><pre class="cpp hljs"><code>fn main() {
+    for number in (1..4).rev() {
+        println!("{}!", number);
+    }
+    println!("LIFTOFF!!!");
+}</code></pre><p>Code homework problems they gave me.</p><p><a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="convert_temps.rs.html">convert_temps.rs</a>:</p><pre class="cpp hljs"><code><span class="hljs-function">fn <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{
+    let fahrenheit: f64 = <span class="hljs-number">100.0</span>;
+    let celsius: f64 = (fahrenheit - <span class="hljs-number">32.0</span>) * <span class="hljs-number">5.0</span> / <span class="hljs-number">9.0</span>;
+
+    println!(<span class="hljs-string">"{} degree fahrenheit is equal to {} degree celsius"</span>, fahrenheit, celsius);
+}</code></pre></div>
+
+
+
+</div>
+
+</p>
+</section>
+</body>
+</html>

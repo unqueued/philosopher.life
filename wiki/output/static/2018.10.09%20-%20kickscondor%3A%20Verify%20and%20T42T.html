@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.13" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>2018.10.09 - kickscondor: Verify and T42T: ⦗h0p3's Wiki⦘ — ‍ ‍ ‍‍ ‍1.2.20191101 𖡶 
+
+ Readme
+
+</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Note tc-tagged-kickscondor tc-tagged-From " data-tags="Note kickscondor From" data-tiddler-title="2018.10.09 - kickscondor: Verify and T42T"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal"><button aria-label="delete" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fdelete" title="Delete this tiddler">
+
+
+</button></span><span class=" tc-reveal"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button></span><span class=" tc-reveal"><span class=" tc-reveal"><button aria-label="info" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Finfo" title="Show information for this tiddler">
+</button></span><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><button aria-label="new journal here" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fnew-journal-here" title="Create a new journal tiddler tagged with this one">
+
+
+
+
+
+</button></span><span class=" tc-reveal"><button aria-label="close others" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose-others" title="Close other tiddlers"></button></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="2018.10.09%2520-%2520kickscondor%253A%2520Verify%2520and%2520T42T.html">
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+2018.10.09 - kickscondor: Verify and T42T
+</h2>
+
+</a>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+Edited: 2018.11.06 18:34
+</div>
+</div><div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ From
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:#ff1166;
+fill:#ffffff;
+color:#ffffff;">
+ kickscondor
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ Note
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span></div>
+</div>
+
+<div class="tc-tiddler-body tc-reveal"><blockquote><p>I care about {Verify}. That doesn’t mean I’ve built it well or correctly. But it’s important to me that I can sign my wiki. This wiki is epicly portable, and I think signing makes good sense. Your tool makes signatures a bit more complicated, and I ask for your advice.</p></blockquote><p>I realize you’re writing a draft 😉 but I’m going to say make a few squeaks and then go back to work.</p><p>So, {Verify} should actually be pretty trivial to add. Since the diffs are generated by <a class="tc-tiddlylink-external" href="https://github.com/kickscondor/TiddlyWiki-loader/blob/master/kicksnap" rel="noopener noreferrer" target="_blank">this script</a>, there would just need to be a step added to generate the .sig file (or add the hash to the .json file—the hash could be used by the loader to do the check there.) I will work on adding that soon—because my curiosity is peaked enough.</p><blockquote><p>I fear I fail to T42T both you and kickscondor by failing to reciprocally build a useful tool for you. I’m trying to think of how I can contribute to your lives and art as much as you have for me. I apologize for not knowing how to do that. I feel inept like someone who doesn’t know how to buy a good Christmas present for their friend (and that makes me a bad friend). I don’t know you well enough to figure out how to create a gift that you’ll love and use. I’m sorry! I’m thinking about it.</p></blockquote><p>So I think this is one of the possible misprojections of T42T—it leaves someone in ‘debt’. It is a very rational approach to relationships, because it reduces the interaction to numerical totals. But those numbers are very hard to derive—how much is the script I wrote worth? 2T? 3T? 16T? And how much are the thorough, immensely thoughtful replies that you write? Is that 2T? 53T?</p><p>Oh and: does 2T literally mean double? Or is it just a bit step beyond single T?</p><p>And–what is T? Does T represent “your last set of actions” in our relationship? So, if you just pulled off a 2T (doubled my T)—T is now 2T, expanding 2T into 4T from now on.</p><p>My take is that T is simply a ‘neutral’ action. It is a token of cooperation—it is not measured. I realize that 2T and perhaps even plain T imply a measurement, but I think that (might be wrong) measurement requires too much maintenance and is too difficult to sync (how do we keep our measurement identical?) so I see T as ‘neutral’ and 2T as simply ‘positive’—it will be hard enough for us (humans) to agree on the polarity of a T. So maybe let’s start there.n</p><p>This way a simple ‘thank you’ for a massive gift can still be T42T. (If I were to remove the numerals: I might look at T4T as <em>neutral-for-neutral</em> and T42T as <em>neutral-or-positive-for-positive</em>. The question then becomes how to derive a polarity for an action—which brings us back to ‘the moral imperative’ and ‘the golden rule’ and the rest of THAT discussion that you are having.)</p><p>I’ve also read <a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="T42T%253A%2520Grim%2520Trigger.html">Grim Trigger</a>, but I’m not talking about a recovery strategy in case T42T becomes malignant—this about how to do it in a realistic but generous way. To live it sustainably in a relationship like ours (it’s a tentative, nascent arrangement; but I think we both just want to make it work long-term.)</p><p>At any rate, I hope that riffing on your thoughts counts as a plus; your thankyous are sufficient and your generous replies are 2T always!
+</p></div>
+
+
+
+</div>
+
+</p>
+</section>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.13" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>2018.02.02 - Computer Musings: Ricing Seedbox: ⦗h0p3's Wiki⦘ — ‍ ‍ ‍‍ ‍1.2.20191101 𖡶 
+
+ Readme
+
+</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Computer%20Musings " data-tags="[[Computer Musings]]" data-tiddler-title="2018.02.02 - Computer Musings: Ricing Seedbox"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal"><button aria-label="delete" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fdelete" title="Delete this tiddler">
+
+
+</button></span><span class=" tc-reveal"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button></span><span class=" tc-reveal"><span class=" tc-reveal"><button aria-label="info" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Finfo" title="Show information for this tiddler">
+</button></span><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><button aria-label="new journal here" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fnew-journal-here" title="Create a new journal tiddler tagged with this one">
+
+
+
+
+
+</button></span><span class=" tc-reveal"><button aria-label="close others" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose-others" title="Close other tiddlers"></button></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="2018.02.02%2520-%2520Computer%2520Musings%253A%2520Ricing%2520Seedbox.html">
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+2018.02.02 - Computer Musings: Ricing Seedbox
+</h2>
+
+</a>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+Edited: 2019.03.26 17:53
+</div>
+</div><div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ Computer Musings
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span></div>
+</div>
+
+<div class="tc-tiddler-body tc-reveal"><p>I've been trying lots of tools out. </p><p>I'm adding to <a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="Walkthrough%253A%2520Arch%2520Seedbox%2520Setup.html">Walkthrough: Arch Seedbox Setup</a>. There are some features I want to keep.</p><p>Also substracting:</p><p>Setup Clearnet Available Tor Socks5 Proxy:</p><blockquote class="tc-quote"><pre class="bash hljs"><code>sudo pacman -S docker --noconfirm
+sudo systemctl <span class="hljs-built_in">enable</span> docker
+sudo systemctl start docker
+
+sudo docker run <span class="hljs-operator">-d</span> --name tor_socks_proxy -p <span class="hljs-number">0.0</span>.<span class="hljs-number">0.0</span>:<span class="hljs-number">42915</span>:<span class="hljs-number">9150</span> peterdavehello/tor-socks-proxy:latest
+sudo docker stop tor_socks_proxy</code></pre><p>Put the following in <code>/etc/systemd/system/torproxy.service</code></p><pre><code>[Unit]
+Description=Tor Socks Proxy Docker
+After=docker.service
+
+[Service]
+User=root
+Restart=always
+ExecStart=/usr/bin/docker start tor_socks_proxy
+ExecStop=/usr/bin/docker stop tor_socks_proxy
+
+[Install]
+WantedBy=local.target</code></pre><pre class="bash hljs"><code>sudo systemctl <span class="hljs-built_in">enable</span> torproxy.service
+sudo systemctl start torproxy.service
+
+<span class="hljs-comment"># remote socks5 tor proxy test</span>
+curl --socks5-hostname ks.philosopher.life:<span class="hljs-number">42915</span> ipinfo.io/ip
+<span class="hljs-comment"># local socks5 tor proxy test</span>
+curl --socks5-hostname <span class="hljs-number">127.0</span>.<span class="hljs-number">0.1</span>:<span class="hljs-number">42915</span> ipinfo.io/ip</code></pre></blockquote></div>
+
+
+
+</div>
+
+</p>
+</section>
+</body>
+</html>

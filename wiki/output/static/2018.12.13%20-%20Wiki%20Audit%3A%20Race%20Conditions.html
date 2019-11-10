@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.13" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>2018.12.13 - Wiki Audit: Race Conditions: ⦗h0p3's Wiki⦘ — ‍ ‍ ‍‍ ‍1.2.20191101 𖡶 
+
+ Readme
+
+</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Wiki%20Audit tc-tagged-Self-Dialectic tc-tagged-h0p3's%20Published%20Communications tc-tagged-FTO%20Log " data-tags="[[Wiki Audit]] Self-Dialectic [[h0p3's Published Communications]] [[FTO Log]]" data-tiddler-title="2018.12.13 - Wiki Audit: Race Conditions"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal"><button aria-label="delete" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fdelete" title="Delete this tiddler">
+
+
+</button></span><span class=" tc-reveal"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button></span><span class=" tc-reveal"><span class=" tc-reveal"><button aria-label="info" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Finfo" title="Show information for this tiddler">
+</button></span><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><button aria-label="new journal here" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fnew-journal-here" title="Create a new journal tiddler tagged with this one">
+
+
+
+
+
+</button></span><span class=" tc-reveal"><button aria-label="close others" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose-others" title="Close other tiddlers"></button></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="2018.12.13%2520-%2520Wiki%2520Audit%253A%2520Race%2520Conditions.html">
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+2018.12.13 - Wiki Audit: Race Conditions
+</h2>
+
+</a>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+Edited: 2018.12.14 1:04
+</div>
+</div><div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ FTO Log
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ h0p3's Published Communications
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ Self-Dialectic
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ Wiki Audit
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span></div>
+</div>
+
+<div class="tc-tiddler-body tc-reveal"><p>-=[ Rabbitholed ]=-</p><p>I keep running into problems with previously saved tiddlers being reverted real time. This is a huge problem for me. I don't know what to do about it. Do I accept the leakage to gain access or not? I simply can't see going back. I also think that such a problem may be eventually fixed (Jed is extremely skilled). The good news is that my <a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="%2524%253A%252Fplugins%252Ftiddlywiki%252Fsavetrail.html">$:/plugins/tiddlywiki/savetrail</a> plugin can always be a catchall...if I can spot it! This is a lossy enterprise.</p><hr><p>I actually lost a paragraph that I would not be able to easily reproduce. Savetrail did save my ass (but it's ugly as fuck). I'm considering how I can automatically save my body text to clipboard (since I have [though so rarely use] a running clipboard manager: gotta start <a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="Trusting%2520Trust.html">Trusting Trust</a> somewhere ;P).<button class="tc-btn-invisible tc-slider"><sup style="color:#66ff66">o</sup></button> </p><hr><p>WAIT! Turning off cronjob. That could very easily be it, especially since I can't predict it. This is probably it, but I do not see why it should be. Maybe it's catching it on the write cycle? It's gotta be the primary suspect if multiple simultaneous (tabbed) entrances to it aren't the problem (the Bob plugin is still alpha/betaish in some respects, and that's the only way it can grow). </p><p>I'm digging in my heels here. Having multiple workspaces is a fucking godsend; my cognitive load and anxieties are wildly better off with this (though it can be hard to put myself back into my previous shoes/drivers's seat sometimes). It's going to change how I use this tool fundamentally. If I have to try ugly-hacking my way into stabilizing some answer to this race condition problem I will.</p><hr><p>What starts the rabbithole is not necessarily where I want to end up (nor where I do end up; some circle back, some do not). This is the hermeneutic circle/spiral (ciral?). Tabbed-windows into this wiki must each resolve a chain of molecular reasoning; that's the reason for it. What are constructive, efficient, safe methods for generating multi-threaded emergent ways of reasoning about this hyperobject?</p><hr><p>Often, what I write into the wiki and what I write outside it are one-to-one. I think this is a valuable thing, and it is my strong preference. Unfortunately, I'm not convinced I should always do that (but, I never want to confabulate about the matter if I can help it). Perhaps I'm going to need to edit my drafts of forum posts more TW-esquely. The fact is that I write too god damn much. Who the fuck wants to read prolix? Maybe I must offer something more consie at first.</p><p>I do have a right to be myself to significant <a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="dok.html">dok</a> in most contexts, and I think I usually have the political right to post my complete opinion on a forum (however, I can give moral reasons why it is better not to do so in a wide variety of contexts). It is simply socially unacceptable for me to foist upon a forum audience what I take to be my sufficiently complete opinion injected into a forum post. This is an opportunity to shrink down my opinion to a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Diamond.html">Diamond</a>. I will build bridges to my prolix thought. In public forums, I will try to simultaneously deliver what my audience requires and to their social preferences (to some <a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="dok.html">dok</a>) while maintaining the second, more complete set of semantic books on my side. Bifurcating the semantics poses many problems, and <a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="IA2DYJ.html">IA2DYJ</a>. How else can I participate effectively in <a class="tc-tiddlylink tc-tiddlylink-resolves" href="The%2520Original%2520Position.html">The Original Position</a>? I must empathize with others here, and it will require different conventions.</p><hr><p><a class="tc-tiddlylink tc-tiddlylink-missing" href="%2524%253A%252Fplugins%252FBob%252FConflictList.html">$:/plugins/Bob/ConflictList</a> seems like it could be useful. I'm having that trouble again!!! I don't know what's wrong!!! What are you doing wrong, h0p3? Why does this blackbox not work?</p><hr><p>I'm growing <a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="Home%253A%2520ASCII%2520Art%2520Logo%252C%25203.html">Home: ASCII Art Logo, 3</a>. <a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="j3d1h.html">j3d1h</a> and I have a fun plan. We'll see if it works. I need the yearly piece of art for <a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="Root.html">Root</a>. I wonder what will how <a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="Home%253A%2520ASCII%2520Art%2520Logo%252C%25202.html">Home: ASCII Art Logo, 2</a>? What will be honored by it?</p><hr><p>Here's a sign I've lost or lack control: I must use sublime text or vim. It's crucial that I build this system in such a way that all of their functions are replaced as far as I can go.</p><hr><p>Year 2 – Version 2.0</p><p>(maybe Year 1?...Do I start at year 0? ;P)</p><hr><p>TiddlyTool broke on me, but I have it back (I think. I'm worried the small things I had to change were reverted!)</p><p><a class="tc-tiddlylink tc-tiddlylink-shadow tc-popup-handle tc-popup-absolute" href="%2524%253A%252FControlPanel.html">$:/ControlPanel</a> in Bob cannot be trusted. Reversion is common.</p><hr><p>I got to 2017.10.08 in <a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="The%2520Remodeling.html">The Remodeling</a>. As I remarked in the commentary retroactive <a class="tc-tiddlylink tc-tiddlylink-missing" href="footnotes.html">footnotes</a>: I can literally see the beginning of <a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="Wiki%2520Audit.html">Wiki Audit</a> emerge and split off from <a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="Wiki%2520Review.html">Wiki Review</a>. It's fascinating!</p><hr><p><span class=" tc-reveal" hidden="true"></span></p><p><sub><span style="color:green">o : </span> You must always assume you could lose control, access, or trust in all of your machines (simultaneously and perhaps permanently) at some point. How will you ever recover? Build your risk-assessed digital lives that paranoically to whatever <a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="dok.html">dok</a> you low-hanging fruit reasonably can.</sub></p></div>
+
+
+
+</div>
+
+</p>
+</section>
+</body>
+</html>

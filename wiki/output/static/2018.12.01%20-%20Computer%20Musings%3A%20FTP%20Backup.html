@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.13" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>2018.12.01 - Computer Musings: FTP Backup: ⦗h0p3's Wiki⦘ — ‍ ‍ ‍‍ ‍1.2.20191101 𖡶 
+
+ Readme
+
+</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Computer%20Musings " data-tags="[[Computer Musings]]" data-tiddler-title="2018.12.01 - Computer Musings: FTP Backup"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal"><button aria-label="delete" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fdelete" title="Delete this tiddler">
+
+
+</button></span><span class=" tc-reveal"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button></span><span class=" tc-reveal"><span class=" tc-reveal"><button aria-label="info" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Finfo" title="Show information for this tiddler">
+</button></span><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><button aria-label="new journal here" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fnew-journal-here" title="Create a new journal tiddler tagged with this one">
+
+
+
+
+
+</button></span><span class=" tc-reveal"><button aria-label="close others" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose-others" title="Close other tiddlers"></button></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="2018.12.01%2520-%2520Computer%2520Musings%253A%2520FTP%2520Backup.html">
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+2018.12.01 - Computer Musings: FTP Backup
+</h2>
+
+</a>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+Edited: 2018.12.01 17:49
+</div>
+</div><div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ Computer Musings
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span></div>
+</div>
+
+<div class="tc-tiddler-body tc-reveal"><p>I like to have backups. I want to be able to recover from catastrophic failures. Currently, <a class="tc-tiddlylink tc-tiddlylink-resolves" href="m10.html">m10</a>:/home/h0p3 is backed up to HTPC, dimbob, and KS. I will be dropping Kimsufi after these many years. I'd like one more offsite. I picked up this very odd shared-hosting plan for $.49 a year for FTP access. I'm still considering picking up jailed SSH access for $2 a year. I am concerned that they will not allow me to use up that much CPU and RAM though. In my experience, nobody intends you to run heavy usage software inside these jails.</p><p>The other solid option is duplicity or some other rsync based option. Encrypted incremental backups would be nice. I wish they were compressed though. Hard to beat the resilio sync option. Being able to reproduce m10's home from anywhere with just a key is nice.</p><p>FTP is wildly easier and they aren't going to tell me to stop; there's no fucking around with the jail either. Hrmm.</p><p>Picking up the SSH anyways. Even if this is a scam, I'm interested. Funnily enough, I have cronjob access, and I could eke out control with that. I think I'd rather play it safe though and just official SSH jail instead.</p><hr><p>~350mb memory usage from hypercored on dallas, ~70mb here on my VMed arch install, and...I can't even touch dimbob. What's up? Why did I lose access? Asking my bro.</p><hr><p>Cleanup some sync archiving and settings on dallas. It's burning so much. Good news is it can download as much as I can. It's just upload that counts against me.</p><p>Setting to just a week. I don't have a ton of space.</p><hr><p><code>(curl -s wget.racing/nench.sh | bash; curl -s wget.racing/nench.sh | bash) 2&gt;&amp;1 | tee nench.log</code> is still amazing on Dallas compared to KS too. Download speeds are almost gigabit to some datacenters. $2.50 a month cannot be beat overall.</p><hr><p>Perhaps I should consider the storage-based VPSes. If I could mount them and then software RAID 0 across them with Dallas, I'd be able to build a sick fucking seedbox. I would like to snowball all the content off myanonyamouse.</p><p>I dream of a day when SSD storage wipes HDD's off the map. In fact, time to edit {<a class="tc-tiddlylink tc-tiddlylink-resolves" href="Dreams.html">Dreams</a>}. </p></div>
+
+
+
+</div>
+
+</p>
+</section>
+</body>
+</html>

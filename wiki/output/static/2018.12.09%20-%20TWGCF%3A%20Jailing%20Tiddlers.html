@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.13" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>2018.12.09 - TWGCF: Jailing Tiddlers: ⦗h0p3's Wiki⦘ — ‍ ‍ ‍‍ ‍1.2.20191101 𖡶 
+
+ Readme
+
+</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-TWGGF " data-tags="TWGGF" data-tiddler-title="2018.12.09 - TWGCF: Jailing Tiddlers"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal"><button aria-label="delete" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fdelete" title="Delete this tiddler">
+
+
+</button></span><span class=" tc-reveal"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button></span><span class=" tc-reveal"><span class=" tc-reveal"><button aria-label="info" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Finfo" title="Show information for this tiddler">
+</button></span><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><button aria-label="new journal here" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fnew-journal-here" title="Create a new journal tiddler tagged with this one">
+
+
+
+
+
+</button></span><span class=" tc-reveal"><button aria-label="close others" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose-others" title="Close other tiddlers"></button></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="2018.12.09%2520-%2520TWGCF%253A%2520Jailing%2520Tiddlers.html">
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+2018.12.09 - TWGCF: Jailing Tiddlers
+</h2>
+
+</a>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+Edited: 2018.12.19 13:18
+</div>
+</div><div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ TWGGF
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span></div>
+</div>
+
+<div class="tc-tiddler-body tc-reveal"><p>Is there an idiomatic way to safely import tiddlers from a stranger into a jail or sandbox in my wiki? Is there a way to automatically quarantine a tiddler (say based upon its tags) so that it has no ability to write to the rest of the wiki or perhaps do anything more programmatic than link and use basic TW markup? If at all, how much more dangerous is this problem for me if I'm running a tool like Bob (which may have access to my command line)?</p><hr><blockquote class="tc-quote"><p>First to actually answer your question, not really, but it probably isn't as bad as you think. From importing there is almost nothing that a tiddler can do other than change the display properties of your wiki by adding css and view templates. There is plenty you can do with those two things but it isn't the end of the world. And the Bob command line scripts need to be listed explicitly in the settings before they can be used to protect against exactly what you are describing. It isn't perfect but it is in almost all situations good enough.</p><p>And now a long winded reply that has a bit more explanation, if you want it.</p><p>This came up when I was doing work with twederation. The safest way came from Jeremy when he said that we just import tiddlers as rendered html. If you want to allow more than links than there are some things you can do. In the core there isn't anything that can affect the wiki permanently without direct interaction of some sort. Tiddlers can have tags like <a class="tc-tiddlylink tc-tiddlylink-missing" href="%2524%253A%252Ftags%252FRawMarkup.html">$:/tags/RawMarkup</a>, but that requires the wiki to be restarted and there is a small set of known tags that can add javascript. Plugins are marked as plugins and don't take effect until the wiki is restarted. Another concern is startup actions, but once again the tags that are needed for that are known and the wiki has to be restarted.</p><p>This doesn't cover things like the TriggerActions plugin I made, which can change the wiki in response to many different changes to the state after it is installed, but that uses a known tag.</p><p>We could create a safer import option that detects these tags and changes them, probably by adding a prefix like QUARANTINE- to the start of the tag, which would cover almost all times when an imported tiddler could break the wiki. We probably want to include css into that because you can do some sneaky things with css.</p><p>In terms of Bob specifically you bring up a good point. For the secure server version I have online you have to explicitly give access to a logged in person to run scripts and I have it disabled for everyone, but it also needs to have per-wiki controls for the same logged in person so that we can make sandboxed wikis that are at least somewhat protected against malicious code. I am currently working on adding the same sort of access controls to the normal Bob versions so one solution to what you are describing would be to create a new wiki using the imported tiddlers and not giving that wiki any permissions to access the outside world.</p><p>It would take a bit of work to do it well but I think that it may be worth while task. The server images plugin I made already intercepts imported tiddlers and changes them so it wouldn't be a terribly large task to have it check the tags on the imported tiddlers against a list of potential problems and then modify them to be inert, but we would have to be careful to catch all of the tags and there may be other ways to cause trouble.
+</p></blockquote><hr><p>I am always happy to hear from you, Jed. Even though I've spent a lot of time in my wiki, I'm still basically just a beginner. You are one of the gurus here that I am fortunate enough to have the chance to learn from. Thank you for such a solid answer (and I will gratefully take every scrap of knowledge you are willing to offer).</p><p>I have officially migrated to Bob today! I'm still pumping out them single files, but I'm loving this luxury (when I'm not broke as fuck, I will be donating, sir; it seems likely to me that your software is the future of developing TW, imho).</p><p>I do not intend to import from the wiki but from outside because Bob makes that a pleasant experience. I was thinking about writing a sanitization tool to strip (among other things) unacceptable tag, fields, CSS, and buttons before pushing .tid files into the tiddler directory, although I'm not sure what I will actually need to strip out for CSS. But, from the sounds of it, Bob's server images plugin may be a better tool.</p><p>I serve my wiki as a static index html file, and I aim to keep it that way. I intend to enable extended family, friends, and perhaps even strangers to safely write into my wiki (and to enable me to write in theirs if they so choose) through some kind of P2P or Federated network (resilio sync, dat, IPFS, and tox are my primary contenders right now [why not all?]), but I may also scrape singlefile wikis. I'm still not sure how I want to do it, especially since I'm brand new to Bob (it appears there are many ways to do this using Bob, and I may not have the best one). This is the fuzzy idea so far. TWederation based on something like DHT (where the key rather than control of a domain name) is what I'm shooting for. Again, Bob looks like the way forward, even though I clearly have no idea what I'm doing.</p><hr><blockquote class="tc-quote"><p>I've used a combination of techniques:</p><ul><li>Add a prefix to each title to ensure that tiddlers cannot overwrite core tiddlers. The prefix should also include an identifier for the import operation (e.g. <code>$:/imports/20181207235473/</code>)</li><li>Add a prefix to all tags (e.g. <code>$:/safetag/</code>)</li><li>Rename any <code>module-type</code> fields to <code>original-module-type</code></li><li>Rename any <code>plugin-type</code> fields to <code>original-plugin-type</code></li></ul><p>The precise steps you'll need to take will depend on the design of your wiki. In particular, you need to consider whether any filters you're using to select tiddlers might also pull in such imported tiddlers.
+</p></blockquote><hr><p>Awesome. Thank you! I'll need to think about the filtering issue. I do not know, but perhaps I will need to develop safer and more stringent filtering practices. The responsibility to safely import ultimately rests upon me, I realize.</p></div>
+
+
+
+</div>
+
+</p>
+</section>
+</body>
+</html>

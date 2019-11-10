@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.13" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>2018.11.26 - TWGGF: Secure Serving: ⦗h0p3's Wiki⦘ — ‍ ‍ ‍‍ ‍1.2.20191101 𖡶 
+
+ Readme
+
+</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-TWGGF " data-tags="TWGGF" data-tiddler-title="2018.11.26 - TWGGF: Secure Serving"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal"><button aria-label="delete" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fdelete" title="Delete this tiddler">
+
+
+</button></span><span class=" tc-reveal"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button></span><span class=" tc-reveal"><span class=" tc-reveal"><button aria-label="info" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Finfo" title="Show information for this tiddler">
+</button></span><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><button aria-label="new journal here" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fnew-journal-here" title="Create a new journal tiddler tagged with this one">
+
+
+
+
+
+</button></span><span class=" tc-reveal"><button aria-label="close others" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose-others" title="Close other tiddlers"></button></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="2018.11.26%2520-%2520TWGGF%253A%2520Secure%2520Serving.html">
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+2018.11.26 - TWGGF: Secure Serving
+</h2>
+
+</a>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+Edited: 2018.12.19 13:18
+</div>
+</div><div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ TWGGF
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span></div>
+</div>
+
+<div class="tc-tiddler-body tc-reveal"><p><a class="tc-tiddlylink-external" href="https://groups.google.com/forum/#!topic/tiddlywiki/0EhN70YMxVc" rel="noopener noreferrer" target="_blank">https://groups.google.com/forum/#!topic/tiddlywiki/0EhN70YMxVc</a></p><p>I think running a performant and secure webserver is a non-trivial task. The following options are bad if you ever want to walk up to a box you don't own (and can't install software or modify settings) to login over the web from a browser to edit your wiki (though, I'm not sure I would trust such a computer). That's basically what you are seeking, but I suggest you might not have to go that route.</p><p>If you know you will be owning the devices you use to edit the wiki (you generally would in the Dropbox case), you might consider running the server from your home (or any secure computer behind a NAT or strict firewall) and using something like <a class="tc-tiddlylink-external" href="https://zerotier.com/" rel="noopener noreferrer" target="_blank">https://zerotier.com/</a> for a personal VPN across your devices. You can open your TW server to your LANs and access that server from across the VPN. This method can work without TW software servers too because you can open and save the html file from across the VPN (requires setting up filesharing, and you must watch for something like race conditions as you would for Dropbox). You may find it useful for other things as well (e.g. streaming music across your network).</p><p>The above is not the method I currently use for my wiki (beware those who do not take their own advice), but Bob's sexiness may one day force me to do so. No option is perfect, but I use Resilio Sync and single-file editing. It's encrypted, the fastest throughput option for single-file wiki usage, does not rely upon any one particular server to be running, maintains archives of all edits (can be disabled), provides read-only keys (and even encrypted keys for storing on untrusted servers), and affords me offline editing. If you didn't like Dropbox though, there's a good chance you won't like this method.</p><p>My vote is for the VPN because it is one of the easiest to set up in many cases, it's free, it's secure, and it's versatile.</p></div>
+
+
+
+</div>
+
+</p>
+</section>
+</body>
+</html>

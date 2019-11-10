@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.13" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>2018.12.02 - Computer Musings: Jail: ⦗h0p3's Wiki⦘ — ‍ ‍ ‍‍ ‍1.2.20191101 𖡶 
+
+ Readme
+
+</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Computer%20Musings " data-tags="[[Computer Musings]]" data-tiddler-title="2018.12.02 - Computer Musings: Jail"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal"><button aria-label="delete" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fdelete" title="Delete this tiddler">
+
+
+</button></span><span class=" tc-reveal"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button></span><span class=" tc-reveal"><span class=" tc-reveal"><button aria-label="info" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Finfo" title="Show information for this tiddler">
+</button></span><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><button aria-label="new journal here" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fnew-journal-here" title="Create a new journal tiddler tagged with this one">
+
+
+
+
+
+</button></span><span class=" tc-reveal"><button aria-label="close others" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose-others" title="Close other tiddlers"></button></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="2018.12.02%2520-%2520Computer%2520Musings%253A%2520Jail.html">
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+2018.12.02 - Computer Musings: Jail
+</h2>
+
+</a>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+Edited: 2018.12.03 :28
+</div>
+</div><div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ Computer Musings
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span></div>
+</div>
+
+<div class="tc-tiddler-body tc-reveal"><p>Well, I have a $2.50 a year shared hosting plan with jailed SSH, which is a ghetto VPS. I have 1MB/s IO! YUCK! They give me compute with the 100 threads and 1GB RAM though. Single-thread benchmark is solid.</p><p>lussh =)</p><hr><pre class="bash hljs"><code>cat /proc/version</code></pre><p>Red Hat 4.8.5-16</p><hr><p>Aside: resilio sync offers an x64 glibc 2.3 binary. Neat.</p><hr><p>I hate top.</p><pre class="bash hljs"><code>wget http://hisham.hm/htop/releases/<span class="hljs-number">2.2</span>.<span class="hljs-number">0</span>/htop-<span class="hljs-number">2.2</span>.<span class="hljs-number">0</span>.tar.gz &amp;&amp; tar xvzf htop-<span class="hljs-number">2.2</span>.<span class="hljs-number">0</span>.tar.gz 
+<span class="hljs-built_in">cd</span> htop-<span class="hljs-number">2.2</span>.<span class="hljs-number">0</span>
+./configure; make
+cp htop ../htop &amp;&amp; rm -r htop-<span class="hljs-number">2.2</span>.<span class="hljs-number">0</span> htop-<span class="hljs-number">2.2</span>.<span class="hljs-number">0</span>.tar.gz </code></pre><p>That's better.</p><p>I see an ss-server running. I also keep running into Chinese here. Interesting.</p><pre class="bash hljs"><code>htop -u philosop</code></pre><hr><pre class="bash hljs"><code>wget https://download-cdn.resilio.com/stable/linux-x64/resilio-sync_x64.tar.gz &amp;&amp; tar xvzf resilio-sync_x64.tar.gz
+mkdir ~/.rslsync
+mkdir ~/.config/rslsync/
+nano ~/.config/rslsync/rslsync.conf</code></pre><pre><code>{
+   &quot;device_name&quot;: &quot;Alpharacks&quot;,
+   &quot;listening_port&quot; : 42889, // 0 - randomize port
+
+/* storage_path dir contains auxilliary app files if no storage_path field: .sync dir created in current working directory */
+  &quot;storage_path&quot; : &quot;/home/philosop/.rslsync&quot;,
+
+/* set location of pid file */
+  &quot;pid_file&quot; : &quot;/home/philosop/.rslsync/resilio.pid&quot;,
+
+/* Enable WebUI */
+ &quot;webui&quot; :
+  {
+    &quot;listen&quot; : &quot;0.0.0.0:42888&quot;
+
+  /* preset credentials */
+   ,&quot;login&quot; : &quot;h0p3&quot;
+   ,&quot;password&quot; : &quot;REDACTED&quot;
+  }
+
+}</code></pre><pre class="bash hljs"><code>/home/philosop/bin/rslsync --config /home/philosop/.rslsync/rslsync.conf</code></pre><p>I cannot limit the number of processes. Binding to a single interface didn't help either.</p><pre class="bash hljs"><code>crontab <span class="hljs-operator">-e</span></code></pre><pre><code>SHELL=&quot;/usr/local/cpanel/bin/jailshell&quot;
+* * * * * /home/philosop/bin/rslsync --config /home/philosop/.rslsync/rslsync.conf &gt;/dev/null 2&gt;&amp;1</code></pre><p>Working fine and then started puking up permissions errors. That's the IO limit buttfucking me.</p><p>Alright, family's wiki related syncs are all up.</p><hr><p>Outside of the IO limit, upload and download speeds are good. This would function excellently as a proxy.</p><hr><p>I'm not a fan of running Dropbox on my machines for a number of reasons. The service works though, and I've had a ~23GB account for almost a decade. A fuckton of niche tooling exists for it too. Dallas can make use of it.</p><p>Added to: <a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="Recipe%253A%2520Dallas%2520Ubuntu%252016.04%2520VPS.html">Recipe: Dallas Ubuntu 16.04 VPS</a></p><p>Setup snapshot sync directory in Dropbox directory.</p><hr><p>We bought a WNDR3400v1 from Goodwill (among some other trinkets) for 4 bucks. I was actually able to flash it from the default, but I can't get wireless working (broadcom!). I may have to go the TFTP route. We'll see. I'm using an image that is not suggested by the forums/wiki (but they are SO old). We'll see if I can get it working reasonably.</p><hr><p>Unfortunately, my chillun did not listen. They allowed their fire tablets to upgrade. I cannot downgrade it effectively enough to flash over now. =/</p><p>But...the OS upgrades over the past year (or two?) have made it far less annoying regarding adds and easy to install gapps. Hence, XMPP, sync, complete reading library, and airplane mode. Boom. I have a bathroom reading device. I recognize this is not nearly paranoid. I'm comfortable with it.</p></div>
+
+
+
+</div>
+
+</p>
+</section>
+</body>
+</html>

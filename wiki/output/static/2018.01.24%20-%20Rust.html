@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.13" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>2018.01.24 - Rust: ⦗h0p3's Wiki⦘ — ‍ ‍ ‍‍ ‍1.2.20191101 𖡶 
+
+ Readme
+
+</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Rust " data-tags="Rust" data-tiddler-title="2018.01.24 - Rust"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal"><button aria-label="delete" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fdelete" title="Delete this tiddler">
+
+
+</button></span><span class=" tc-reveal"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button></span><span class=" tc-reveal"><span class=" tc-reveal"><button aria-label="info" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Finfo" title="Show information for this tiddler">
+</button></span><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><button aria-label="new journal here" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fnew-journal-here" title="Create a new journal tiddler tagged with this one">
+
+
+
+
+
+</button></span><span class=" tc-reveal"><button aria-label="close others" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose-others" title="Close other tiddlers"></button></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="2018.01.24%2520-%2520Rust.html">
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+2018.01.24 - Rust
+</h2>
+
+</a>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+Edited: 2019.03.23 12:00
+</div>
+</div><div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ Rust
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span></div>
+</div>
+
+<div class="tc-tiddler-body tc-reveal"><p>Wrote me some code, yo!</p><p><a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="fibonacci.rs.html">fibonacci.rs</a>:</p><pre class="cpp hljs"><code>fn main() {
+    // choose n, which will be the nth digit of the fibonacci sequence
+    let n: u64 = 20;
+
+    println!("The {}th number in the Fibonacci sequence is: {}", n, fib(n));  
+}
+
+// Gonna be honest, I just looked up the recursive mathematical definition
+// I know it's slow...
+// Also, with u32, it will panic 'attempt to add with overflow' at higher numbers
+fn fib(n: u64) -&gt; u64 {
+    if n == 0 {
+        0
+    } else if n == 1 {
+        1
+    } else {
+        (fib(n - 1) + fib(n - 2))
+    }
+}</code></pre><p><a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="twelve_days_xmas.rs.html">twelve_days_xmas.rs</a>:</p><pre class="cpp hljs"><code><span class="hljs-function">fn <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{
+
+    <span class="hljs-comment">// Just CnPing lyrics from my first interwebs search</span>
+    let days = [<span class="hljs-string">"First"</span>, <span class="hljs-string">"Second"</span>, <span class="hljs-string">"Third"</span>, <span class="hljs-string">"Fourth"</span>, <span class="hljs-string">"Fifth"</span>, <span class="hljs-string">"Sixth"</span>, <span class="hljs-string">"Seventh"</span>, <span class="hljs-string">"Eighth"</span>, <span class="hljs-string">"Ninth"</span>, <span class="hljs-string">"Tenth"</span>, <span class="hljs-string">"Eleventh"</span>, <span class="hljs-string">"Twelth"</span>];
+    let lyrics = [<span class="hljs-string">"A partridge in a pear tree"</span>,
+                  <span class="hljs-string">"Two turtle doves, and"</span>,
+                  <span class="hljs-string">"Three french hens"</span>,
+                  <span class="hljs-string">"Four colly birds"</span>,
+                  <span class="hljs-string">"Five gold rings"</span>,
+                  <span class="hljs-string">"Six geese a-laying"</span>,
+                  <span class="hljs-string">"Seven swans a-swimming"</span>,
+                  <span class="hljs-string">"Eight maids a-milking"</span>,
+                  <span class="hljs-string">"Nine ladies dancing"</span>,
+                  <span class="hljs-string">"Ten lords a-leaping"</span>,
+                  <span class="hljs-string">"Eleven pipers piping"</span>,
+                  <span class="hljs-string">"Twelve drummers drumming"</span>];
+
+    <span class="hljs-keyword">for</span> day in {<span class="hljs-number">0.</span><span class="hljs-number">.12</span>} {
+        println!(<span class="hljs-string">"\nOn the {} day of christmas my true love sent to me"</span>, days[day]);
+        println!(<span class="hljs-string">"{}"</span>, lyrics[day]);
+        
+        <span class="hljs-comment">// Gonna be honest, I just fiddled and guessed. </span>
+        <span class="hljs-comment">// I'm 95% there is a cleaner way to do this. I'll take imperfection!</span>
+        <span class="hljs-comment">// Thank Seldon for .rev()</span>
+        <span class="hljs-keyword">for</span> i in {<span class="hljs-number">0.</span>.day}.rev() {
+            println!(<span class="hljs-string">"{}"</span>, lyrics[i]);
+        }
+    }
+}</code></pre><p>Also, ran into this: <a class="tc-tiddlylink-external" href="http://www.chriskrycho.com/rust-and-swift.html" rel="noopener noreferrer" target="_blank">http://www.chriskrycho.com/rust-and-swift.html</a></p></div>
+
+
+
+</div>
+
+</p>
+</section>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.13" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>2018.10.16 - Wiki Audit: Flexbox: ⦗h0p3's Wiki⦘ — ‍ ‍ ‍‍ ‍1.2.20191101 𖡶 
+
+ Readme
+
+</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Rabbitholed tc-tagged-Wiki%20Audit " data-tags="Rabbitholed [[Wiki Audit]]" data-tiddler-title="2018.10.16 - Wiki Audit: Flexbox"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal"><button aria-label="delete" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fdelete" title="Delete this tiddler">
+
+
+</button></span><span class=" tc-reveal"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button></span><span class=" tc-reveal"><span class=" tc-reveal"><button aria-label="info" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Finfo" title="Show information for this tiddler">
+</button></span><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><button aria-label="new journal here" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fnew-journal-here" title="Create a new journal tiddler tagged with this one">
+
+
+
+
+
+</button></span><span class=" tc-reveal"><button aria-label="close others" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose-others" title="Close other tiddlers"></button></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="2018.10.16%2520-%2520Wiki%2520Audit%253A%2520Flexbox.html">
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+2018.10.16 - Wiki Audit: Flexbox
+</h2>
+
+</a>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+Edited: 2018.10.20 14:07
+</div>
+</div><div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ Rabbitholed
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ Wiki Audit
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span></div>
+</div>
+
+<div class="tc-tiddler-body tc-reveal"><p>This is my first time using CSS. So, I'm going to cut myself a bit of slack.</p><p>If I'm to avoid the scrollbar being pushed, the only method I've found to get fluid-fixed is by setting Sidebar breakpoint to something beyond empty. This is where the house of cards begins to fall for me. <a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="Sphygmus.html">Sphygmus</a> points out that she had to scrap vanilla entirely (from what I can tell, only the sidebar breakpoint metric is necessary to empty out, though she empties them all), and that makes sense. Once the Sidebar breakpoint is set, however, I can't get the sidebar's contents positioned correctly without setting Story left and Sidebar width. This defeats the purpose of Flexbox. Trying this on 4k resolution, you'll see a sidebar that hugs the right side of the screen rather than the story river, and it has even wonkier behavior of smaller resolution.</p><p>With Sidebar breakpoint set between 0-1919, Story left position set to 325, and Sidebar width to 405 (as currently set for this wiki), this is the snippet that gets it to render correctly on my screen:</p><pre class="css hljs"><code><span class="hljs-class">.tc-dropzone</span> <span class="hljs-rules">{
+    <span class="hljs-rule"><span class="hljs-attribute">display</span>:<span class="hljs-value"> flex</span></span>;
+    <span class="hljs-rule"><span class="hljs-attribute">justify-content</span>:<span class="hljs-value"> center</span></span>;
+}</span>
+
+<span class="hljs-at_rule">@<span class="hljs-keyword">media</span> (max-width: <span class="hljs-number">1920px</span>) </span>{ 
+    <span class="hljs-class">.tc-story-river</span> <span class="hljs-rules">{
+        <span class="hljs-rule"><span class="hljs-attribute">flex-basis</span>:<span class="hljs-value"> <span class="hljs-number">75%</span></span></span>;
+    }</span>
+}</code></pre><p>This is missing the point, clearly. Without a doubt, this is the wrong way. Zoom isn't as good, but window resizing is wildly better. I have a workspace devoted to my wiki fullscreen; I'm using it wrong if it's not distraction free. It looks like garbage on anything besides 1080p (literally the opposite of what I should be doing with CSS). At best, the sidebar will shoot to the left side.  </p><p>Fluid-fixed is the problem, and even attempting to use the Sidebar breakpoint must be a mistake. My attempt at a cure is worse than the disease, lol.</p><p>I've played with Sphygmus' hack she gave to force fluid-fix as well. It works. I've not figured out why <code>.tc-sidebar-scrollable { overflow: auto; }</code> is necessary. It also breaks her strictly improved sidebar hide button. Pushing the scrollbar and then making sure I can resize the tiddler/river width will be my goal.</p><hr><p>My first order of business to put Aliases down in this wiki. It's absolute crucial that I can start using <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Beauty.html">Beauty</a> and <a class="tc-tiddlylink tc-tiddlylink-resolves" href="Beautiful.html">Beautiful</a> instead of <a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="The%2520Beautiful.html">The Beautiful</a> without having to reason about how to encode it at all, ever. I must limit the friction on my prolix stream-of-conscious outpouring when I'm </p><p>-=[ Rabbitholed ]=-</p><hr><p>I've done a sick job in <a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="Alias.html">Alias</a>, and my daughter wrote the <a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="Custom%2520List%2520Macros.html">Custom List Macros</a> (which is generalized) for me. I think I'm going to be on a rampage soon. I'm extremely pleased to have this tool.</p><hr><p>I'm considering <a class="tc-tiddlylink-external" href="https://danielorodriguez.com/TW5-AutoTag/" rel="noopener noreferrer" target="_blank">https://danielorodriguez.com/TW5-AutoTag/</a> or a severe modification of it. For example, <a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="Rabbitholed.html">Rabbitholed</a> would love some version of it. The thing is that I don't want a billion tags, but there are rules when I want something automatically tagged. A <a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="titletag.html">titletag</a> should have an automatic tag(s) applied to it.</p><hr><p>One day, I shall RTFM.</p><p><code>YYYY.0MM.0DD &amp;ndash;&amp;ndash; $(currentTiddler)$:</code> </p><p>That fixes the &quot;New Journal Here' button minux the hardlinking problem. /facepalm. Jesus. Now that I'm going to search for a way to automatically generate hardlinks, it is better to leverage tags.</p><hr><p>Cannabliss has been excellent today. Why am I not using it often? I'm obviously productive with it. </p><p>So, I've decided I'm not going the Flexbox route. Vanilla theme accepts percentages!! That handles my needs well enough, I believe. I do appreciate fine-grained control, but having something that is useable even if imperfect on someone else's screen is fine with me.</p><p><a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="Freedom.html">Freedom</a> cut from my {<a class="tc-tiddlylink tc-tiddlylink-resolves" href="Axioms.html">Axioms</a>}.</p></div>
+
+
+
+</div>
+
+</p>
+</section>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.13" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>2019.02.18 - Wiki Audit: Versioning: ⦗h0p3's Wiki⦘ — ‍ ‍ ‍‍ ‍1.2.20191101 𖡶 
+
+ Readme
+
+</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-RGM%20Notes tc-tagged-Wiki%20Audit " data-tags="[[RGM Notes]] [[Wiki Audit]]" data-tiddler-title="2019.02.18 - Wiki Audit: Versioning"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal"><button aria-label="delete" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fdelete" title="Delete this tiddler">
+
+
+</button></span><span class=" tc-reveal"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button></span><span class=" tc-reveal"><span class=" tc-reveal"><button aria-label="info" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Finfo" title="Show information for this tiddler">
+</button></span><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><button aria-label="new journal here" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fnew-journal-here" title="Create a new journal tiddler tagged with this one">
+
+
+
+
+
+</button></span><span class=" tc-reveal"><button aria-label="close others" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose-others" title="Close other tiddlers"></button></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="2019.02.18%2520-%2520Wiki%2520Audit%253A%2520Versioning.html">
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+2019.02.18 - Wiki Audit: Versioning
+</h2>
+
+</a>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+Edited: 2019.02.19 14:14
+</div>
+</div><div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ RGM Notes
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ Wiki Audit
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span></div>
+</div>
+
+<div class="tc-tiddler-body tc-reveal"><p>This is a useful tool to <a class="tc-tiddlylink tc-tiddlylink-resolves" href="others.html">others</a>. I'm not sure how useful it will be to me because I keep my snapshots at the ready, but I may find it wonderfully useful too. From the looks of it, I'm always going to need to make snapshots highly available. How much versioning is appropriate? Arguably, <em>Vault:</em> sections of each <a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="Directory.html">Directory</a> are also doing this, but I know they tell a story which I need to see. </p><p>I don't want to manually force versions. I want to be able to ctrl+enter like I always do (even on my phone). I want to replace the save button, period. Unfortunately, all the versioning tools keep entire copies. Imagine making 100 saves to {<a class="tc-tiddlylink tc-tiddlylink-resolves" href="About.html">About</a>} in a day. It's not inconceivable to have days in which I've made a 1000 edits. That would be a thousand tiddlers. Nothing is storing just the diffs; those diffs are generated via stored images on the fly instead.</p><p>Ideally, we'd keep the original tiddler for the day as the temp shadow tiddler version, and this would be diff'ed against the current real tiddler. I wouldn't mind keeping even a couple days worth then. As the tooling available stands now, I think it's best to wipe out my versioning each night. Doing that means the versioning sticks in the wiki only for up to 24 hours (usually far less), and it will remain in the snapshots.</p><p>Real-time-ish, this works like a charm. If you read it a day later, however, then it doesn't buy you too much. You still have to look at a snapshot. What does this do? It saves you from having to do the diff by hand.</p><p>I suppose this will be the first iteration of the tooling. Hopefully, I'll figure out a better method in time.</p><hr><p>Currently, just trying to figure out how jd has altered saving. After that, we script the temp version .tid deletion into the nightly script AFTER our snapshot commits.</p></div>
+
+
+
+</div>
+
+</p>
+</section>
+</body>
+</html>

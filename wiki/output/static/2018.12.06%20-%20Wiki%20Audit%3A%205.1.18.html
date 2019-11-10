@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.13" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>2018.12.06 - Wiki Audit: 5.1.18: ⦗h0p3's Wiki⦘ — ‍ ‍ ‍‍ ‍1.2.20191101 𖡶 
+
+ Readme
+
+</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Wiki%20Audit tc-tagged-Computer%20Musings " data-tags="[[Wiki Audit]] [[Computer Musings]]" data-tiddler-title="2018.12.06 - Wiki Audit: 5.1.18"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal"><button aria-label="delete" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fdelete" title="Delete this tiddler">
+
+
+</button></span><span class=" tc-reveal"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button></span><span class=" tc-reveal"><span class=" tc-reveal"><button aria-label="info" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Finfo" title="Show information for this tiddler">
+</button></span><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><button aria-label="new journal here" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fnew-journal-here" title="Create a new journal tiddler tagged with this one">
+
+
+
+
+
+</button></span><span class=" tc-reveal"><button aria-label="close others" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose-others" title="Close other tiddlers"></button></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="2018.12.06%2520-%2520Wiki%2520Audit%253A%25205.1.18.html">
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+2018.12.06 - Wiki Audit: 5.1.18
+</h2>
+
+</a>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+Edited: 2018.12.07 1:56
+</div>
+</div><div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ Computer Musings
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ Wiki Audit
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span></div>
+</div>
+
+<div class="tc-tiddler-body tc-reveal"><p>5.1.18 is finally released. Hilariously, we are working on the Bob backend which has only the prerelease. This is fine though. There may still be some bugs to work out on this release, and it's okay if I'm not testing in production (though, I have tested it a couple times already). We'll get it when we get it.</p><p>It looks like we can keep the entire Bob process on m10. Compilation is much faster; I have no idea what changed. It's about as fast as just saving from the browser. Awesome! This is better than I hoped for, as I was prepared to actually offload this work on an external server. Decompilation still takes about a minute, but that feature isn't so important to me (I'd be willing to pay an hour for that even). We're getting all the scripts setup. I'm not sure if we will go cronjob or systemd on this one. Cron is simple, but I like disable in systemd more than remembering to edit crontab. I think I'll stick to cron until I have some very specific need.</p><p>My daughter is pleased that 0.0.0.0 allows her access over the LAN and VPN. It may change how she does her own system as well. This is probably something that needs to be setup for <a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="k0sh3k.html">k0sh3k</a> as well. Perhaps I'll run multiple Bob instances on different ports here and setup the same process for everyone. Why not?</p><hr><p>I am very much looking forward to destroying all race conditions! I want to have multiple tabs open</p><hr><p>Hardcoding may actually be done in...Windows, <code>/gasp</code>. I can run multiple Bob instances syncing .tids (or in this case, passthrough linux filesystem to the VM). Yes, this may be a Rube-Goldberg machine, but it may be the correct next step here. </p><p>The fact is that some kinds of tooling for Windows are unparalleled. There is no practical functionally equivalent tool to Autohotkey on Linux (which is obviously not the Linux community's fault). Now, I realize, it's super fucking hacky to program visually; most programmers think it's insane, lowbrow, or obviously the wrong way to do things. I think it would startle people how much of their computing can be automated with keyboard/mouse macros. Some of my AHK bots for idle/clicker games have absolutely destroyed every OCR or memory-reading bot I've seen (and, ofc, AHK could institute these as well; it's turing complete and capable of using any other tool on the machine).<button class="tc-btn-invisible tc-slider"><sup style="color:#66ff66">c</sup></button> Pound for pound, AHK automates things cheaply. I don't care if it's a toddler's tool: it fucking works.</p><p>Between AHK, bash, and python, I should be in solid shape here.</p><p>Obviously, this is not the ideal, but in a way, I still don't know what the ideal hardcoding procedure is going to look like. I'm still balls deep in <a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="The%2520Remodeling.html">The Remodeling</a>. I have no idea what will emerge here. I don't know what I want to automate, and I want to make it incredibly easy to rapidly prototype. AHK on top of Keeboord wins hands down (though, I still intend to make use of i3+xdotools+Keeboord+FFhacks heavily). When I know what I really, really want (Posh Spice was pretty hawt, right?), then we'll embed it in javascript.</p><p>I may actually use the wiki itself to run particular SSH commands on m10 as a host, rofl.<button class="tc-btn-invisible tc-slider"><sup style="color:#66ff66">t</sup></button> I can abstract away much of the commandline into the wiki while on Windows.</p><hr><p><span class=" tc-reveal" hidden="true"></span></p><p><sub><span style="color:green">c : </span> This is actually what has settled a large swathe of skinnerbox games for me. It's that pointless.</sub></p><p><span class=" tc-reveal" hidden="true"></span></p><p><sub><span style="color:green">t : </span> Although this must be done very safely. I am worried about this insanely powerful feature. Perhaps I am not worried enough! It is now so powerful that I may need to audit any code I allow in my wiki, ugh. I need to see about how to limit this thing.</sub></p></div>
+
+
+
+</div>
+
+</p>
+</section>
+</body>
+</html>

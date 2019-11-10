@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.13" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>2018.02.03 - Computer Musings: Cont Seedbox: ⦗h0p3's Wiki⦘ — ‍ ‍ ‍‍ ‍1.2.20191101 𖡶 
+
+ Readme
+
+</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Computer%20Musings " data-tags="[[Computer Musings]]" data-tiddler-title="2018.02.03 - Computer Musings: Cont Seedbox"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal"><button aria-label="delete" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fdelete" title="Delete this tiddler">
+
+
+</button></span><span class=" tc-reveal"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button></span><span class=" tc-reveal"><span class=" tc-reveal"><button aria-label="info" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Finfo" title="Show information for this tiddler">
+</button></span><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><button aria-label="new journal here" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fnew-journal-here" title="Create a new journal tiddler tagged with this one">
+
+
+
+
+
+</button></span><span class=" tc-reveal"><button aria-label="close others" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose-others" title="Close other tiddlers"></button></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="2018.02.03%2520-%2520Computer%2520Musings%253A%2520Cont%2520Seedbox.html">
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+2018.02.03 - Computer Musings: Cont Seedbox
+</h2>
+
+</a>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+Edited: 2019.03.27 21:13
+</div>
+</div><div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ Computer Musings
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span></div>
+</div>
+
+<div class="tc-tiddler-body tc-reveal"><p>Excised: </p><p>Put/Edit the following in: <code>/etc/shadowsocks/config.json</code></p><pre><code>{
+    &quot;server&quot;:&quot;ks.philosopher.life&quot;,
+    &quot;server_port&quot;:4283,
+    &quot;local_address&quot;: &quot;127.0.0.1&quot;,
+    &quot;local_port&quot;:1080,
+    &quot;password&quot;:&quot;password&quot;,
+    &quot;timeout&quot;:300,
+    &quot;method&quot;:&quot;chacha20-ietf-poly1305&quot;,
+    &quot;fast_open&quot;: false,
+    &quot;workers&quot;: 1,
+    &quot;prefer_ipv6&quot;: false
+}</code></pre><pre class="bash hljs"><code>sudo systemctl <span class="hljs-built_in">enable</span> shadowsocks-libev-server@config.service
+sudo systemctl start shadowsocks-libev-server@config.service</code></pre><p>Still working on it.</p><p>I'm annoyed by the complexity of systemd, but I can see its value:</p><ul><li><a class="tc-tiddlylink-external" href="https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files" rel="noopener noreferrer" target="_blank">https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files</a></li></ul><p>I'm relying heavily upon google translate because I find more Chinese expertise with this tool than any other.</p><hr><p>I wasted an enormous amount of time trying to get rutorrent to work nicely through both lighttpd and nginx. I simply couldn't do it. I've done it several times before, but it didn't work today. That's okay. Sometimes you win, sometimes you lose.</p><p>I thought I almost bricked too. Hard restart worked though. Few pacmans got it back up.</p><p>I've asked stackoverflow about the shadowsocks problem. No bites so far. I've now asked the Tor IRC about it.</p><p>Also, no socks proxy on soulseekqt?</p><hr><p>Decided to dig into zstd. I've never used it. Thought it was cool. Made a script for backing up home. I want to go back to using Resilio sync for this, and I think storing it all in a single archive will cut down on Resilio sync's work. Even if it doesn't, compression will be valuable; I want to store it on my seedbox.</p><p><a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="home-h0p3-snapshot.sh.html">home-h0p3-snapshot.sh</a></p><p>Nice! It fucking crushes my HDD. IO will always be the bottleneck. I just checked iotop. I wish there was a way to abuse memory more effectively. I want to try buffering tar somehow because I think there is possibly more performance to be had (but I could be wrong). Block size might matter too, I don't know.</p></div>
+
+
+
+</div>
+
+</p>
+</section>
+</body>
+</html>

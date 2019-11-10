@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.13" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>2018.07.27 - Computers Musings: Gtrdn: ⦗h0p3's Wiki⦘ — ‍ ‍ ‍‍ ‍1.2.20191101 𖡶 
+
+ Readme
+
+</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists    " data-tags="" data-tiddler-title="2018.07.27 - Computers Musings: Gtrdn"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal"><button aria-label="delete" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fdelete" title="Delete this tiddler">
+
+
+</button></span><span class=" tc-reveal"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button></span><span class=" tc-reveal"><span class=" tc-reveal"><button aria-label="info" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Finfo" title="Show information for this tiddler">
+</button></span><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><button aria-label="new journal here" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fnew-journal-here" title="Create a new journal tiddler tagged with this one">
+
+
+
+
+
+</button></span><span class=" tc-reveal"><button aria-label="close others" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose-others" title="Close other tiddlers"></button></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="2018.07.27%2520-%2520Computers%2520Musings%253A%2520Gtrdn.html">
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+2018.07.27 - Computers Musings: Gtrdn
+</h2>
+
+</a>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+Edited: 2018.07.27 23:24
+</div>
+</div><div class=" tc-reveal">
+<div class="tc-tags-wrapper"></div>
+</div>
+
+<div class="tc-tiddler-body tc-reveal"><p>Fuck yeah, layout autostart is set. Now that I'm just building that shit by hand, I'll do that for any workspace creation. This is basically AHK + n52 esque scripting for Linux, giving me full a real command line to work with. The tooling, no doubt, could be better; the user strives to be less retarded (but it's hard!). This works though. 10 seconds after I see a desktop, my script cleans up the workspaces into something usable. Restarting is a joy! KDE simply could not do this correctly, despite trying quite hard to make it work (that buggy POS).</p><p>I've setup plain rsync backups. I also want to be able to rollback a week. I'm considering just compressing it though. I want to use resilio sync to make redundancies of my backups.</p><p>Kids should have something today as well. They will probably use backintime over SSH to HTPC /mnt/backsync/THEIRNAMEFOOBAR.</p><hr><p><a class="tc-tiddlylink-external" href="http://conky.sourceforge.net/variables.html" rel="noopener noreferrer" target="_blank">http://conky.sourceforge.net/variables.html</a></p><p>After running my backup programs, I do want Conky to show me individual IO's. Meh:</p><pre><code>${color0} Root: R=${color1}${diskio_read /dev/sdc} ${alignr}${color0}W=${color1}${diskio_write /dev/sdc}
+${color0} Home: R=${color1}${diskio_read /dev/sda} ${alignr}${color0}W=${color1}${diskio_write /dev/sda}
+${color0} Stor: R=${color1}${diskio_read /dev/sdb} ${alignr}${color0}W=${color1}${diskio_write /dev/sdb}</code></pre><pre><code>${color0} Root: ${color1}${diskiograph_read /dev/sdc 8,60} ${alignr}${color0}${color1}${diskiograph_write /dev/sdc 8,60}</code></pre><p>Ugly shit. Found this though:</p><pre><code>use_spacer left
+pad_percents 2</code></pre><p>Purty.</p><pre><code>${color0}Read                          ${color0}Write
+${color0} Root: ${color1}${diskio_read /dev/sdc}${color0}/s ${alignr}${color0}${color1}${diskio_write /dev/sdc}${color0}/s
+${color0} Home: ${color1}${diskio_read /dev/sda}${color0}/s ${alignr}${color0}${color1}${diskio_write /dev/sda}${color0}/s
+${color0} Stor: ${color1}${diskio_read /dev/sdb}${color0}/s ${alignr}${color0}${color1}${diskio_write /dev/sdb}${color0}/s</code></pre><p>Got it closer...I'm going to weave them instead.</p><hr><p>God damnit, my RPi's rslsync is a piece of shit sometimes. I've turned off archiving before...it brought it back? Out of space. I think I will keep my weekly backups compressed and distributed.</p><hr><p>Kill off all old backup syncs. Deleted old backups too. Goodbye!</p><p>I'm only keep a non-compressed copy on HTPC. I'll be compressing weekly backups. Resilio sync across HTPC, KS (encrypted), and RPI set. </p><p>My wife has a full copy of my nightly snapshot on her work computer too (encrypted).</p><hr><p>I want to set my default file opener to mousepad, but on second thought...subl it is. Dolphin really does need KDE, but I just can't find a fucking replacement that I like. KDE Dolphin spoils ya. Non-KDE Dolphin is an EZ way to have significant functionality, although it still is missing a lot (tons of pieces just don't work at all).</p><p>I also need to find a way to get my keyboard to maintain settings. I have no idea why it is losing them.</p><p>FFDE seems to be in good shape now. Sync is lovely, as always.</p><p><code>yaourt -S antigen-git</code> for muh zshrc EZmode</p></div>
+
+
+
+</div>
+
+</p>
+</section>
+</body>
+</html>

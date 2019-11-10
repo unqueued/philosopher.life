@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.13" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>2018.11.27 - Computer Musings: Dimbobpi: ⦗h0p3's Wiki⦘ — ‍ ‍ ‍‍ ‍1.2.20191101 𖡶 
+
+ Readme
+
+</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Computer%20Musings " data-tags="[[Computer Musings]]" data-tiddler-title="2018.11.27 - Computer Musings: Dimbobpi"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal"><button aria-label="delete" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fdelete" title="Delete this tiddler">
+
+
+</button></span><span class=" tc-reveal"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button></span><span class=" tc-reveal"><span class=" tc-reveal"><button aria-label="info" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Finfo" title="Show information for this tiddler">
+</button></span><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><button aria-label="new journal here" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fnew-journal-here" title="Create a new journal tiddler tagged with this one">
+
+
+
+
+
+</button></span><span class=" tc-reveal"><button aria-label="close others" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose-others" title="Close other tiddlers"></button></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="2018.11.27%2520-%2520Computer%2520Musings%253A%2520Dimbobpi.html">
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+2018.11.27 - Computer Musings: Dimbobpi
+</h2>
+
+</a>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+Edited: 2018.11.28 19:11
+</div>
+</div><div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ Computer Musings
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span></div>
+</div>
+
+<div class="tc-tiddler-body tc-reveal"><h2 class="">On dimbob (since I can afford to lose root on it):</h2><pre class="bash hljs"><code>sudo apt-get install python-software-properties
+curl <span class="hljs-operator">-s</span>L https://deb.nodesource.com/setup_11.x | sudo -E bash -
+sudo apt-get install nodejs -y
+mkdir ~/dats
+<span class="hljs-built_in">cd</span> ~/dats
+<span class="hljs-built_in">echo</span> <span class="hljs-string">'dat://6ca5bfb34c0bbfa8751b6d85f591b7a007b89df7207dc0aa9885bf00be610c8f'</span> &gt;&gt; feeds <span class="hljs-comment">#kickscondor</span>
+<span class="hljs-built_in">echo</span> <span class="hljs-string">"hypercored --cwd /home/pi/storage/dats"</span> &gt; /home/pi/storage/dats/services
+sudo su
+npm install -g hypercored dat add-to-systemd lil-pids
+add-to-systemd dat-lil-pids $(<span class="hljs-built_in">which</span> lil-pids) /home/pi/storage/dats/services /home/pi/storage/dats/pids
+systemctl <span class="hljs-built_in">enable</span> dat-lil-pids
+systemctl start dat-lil-pids
+<span class="hljs-built_in">exit</span></code></pre><p>Voila. Fuck it.</p><h2 class="">On dallas:</h2><p>Stripped everything out and went for it on root. Also did an upgrade.</p><p><code>add-to-systemd dat-lil-pids $(which lil-pids) /home/h0p3/dats/services /home/h0p3/dats/pids</code></p><hr><p>Insane mistake with git. <a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="JHBFC.html">JHBFC</a>.</p><hr><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="kicks.html">kicks</a> now has 2 dat nodes of mine up. Doesn't look like he has it set to auto-update. I'm a fan of the dat public key over the domain name specifically because we can own the private keys, but we can never truly own our domain names on the internet.</p></div>
+
+
+
+</div>
+
+</p>
+</section>
+</body>
+</html>

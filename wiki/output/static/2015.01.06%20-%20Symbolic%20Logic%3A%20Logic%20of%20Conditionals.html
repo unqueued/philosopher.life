@@ -1,0 +1,346 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.13" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>2015.01.06 - Symbolic Logic: Logic of Conditionals: ⦗h0p3's Wiki⦘ — ‍ ‍ ‍‍ ‍1.2.20191101 𖡶 
+
+ Readme
+
+</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-Tulane " data-tags="Tulane" data-tiddler-title="2015.01.06 - Symbolic Logic: Logic of Conditionals"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal"><button aria-label="delete" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fdelete" title="Delete this tiddler">
+
+
+</button></span><span class=" tc-reveal"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button></span><span class=" tc-reveal"><span class=" tc-reveal"><button aria-label="info" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Finfo" title="Show information for this tiddler">
+</button></span><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><button aria-label="new journal here" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fnew-journal-here" title="Create a new journal tiddler tagged with this one">
+
+
+
+
+
+</button></span><span class=" tc-reveal"><button aria-label="close others" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose-others" title="Close other tiddlers"></button></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="2015.01.06%2520-%2520Symbolic%2520Logic%253A%2520Logic%2520of%2520Conditionals.html">
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+2015.01.06 - Symbolic Logic: Logic of Conditionals
+</h2>
+
+</a>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+Edited: 2018.10.30 23:59
+</div>
+</div><div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ Tulane
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span></div>
+</div>
+
+<div class="tc-tiddler-body tc-reveal"><p>11</p><p>SECTION 8.1</p><p>Informal Notions and Proof Methods for → and ↔:</p><p>Conditional Elimination (i.e. Modus ponens, translated as “method of affirming”):</p><p>From: P → Q; and P; we may infer Q.</p><p>Affirm the antecedent of a conditional, and you may affirm the consequent.</p><p>Similarly, there is Biconditional Elimination:</p><p>From: P ↔ Q or Q ↔ P; and P; we may infer Q.</p><p>From: P ↔ Q or Q ↔ P; and Q; we may infer P.</p><p>Affirm the antecedent of a biconditional, and you may affirm the consequent.</p><p>Affirm the consequent of a biconditional, and you may affirm the antecedent.</p><p>Conditional Proof (Intro):</p><p>To prove a conditional, P → Q: Assume P and derive (or prove) Q.</p><p>Premises: Tet(a) → Tet(b)</p><p>Tet(b) → Tet(c)</p><p>Show: Tet(a) → Tet(c)</p><p>Sp. Tet(a), thus Tet(b) from our assumption and the first conditional. Thus, Tet(c) from Tet(b) and our second conditional. Since we know Tet(c) follows from our assumption Tet(a), given our premises, then Tet(a) → Tet(c).</p><p>Basically, this requires a subproof. We make a provisional assumption, P, and show some conclusion, S, follows from it. We discharge the conditional, Assumption → Conclusion.</p><p>Biconditional Proof (Intro):</p><p>To prove a biconditional P ↔ Q: Prove P → Q and Q → P</p><p>Show: a = a ↔ b = b</p><p>Sp’-1 a = a. From =Intro, we know b = b. Since, b = b follows from a = a, we know a = a → b = b</p><p>Sp’-2 b = b. From =Intro, we know a = a. Since, a = a follows from b = b, we know b = b → a = a</p><p>Since we know a = a → b = b and b = b → a = a, then P ↔ Q</p><p>This is just doing the conditional proof in both direction. It requires making two subproofs. Assume the first, derive the second. Assume the second, derive the first.</p><p>SECTION 8.2</p><p>Conditional Elimination, →Elim</p><p>|k. P → Q (the antecedent c an come before the conditional, linewise)</p><p>|…</p><p>|l. P</p><p>|…</p><p> |n. Q →Elim: k, l (cite conditional first, then the input that let you do it)</p><p>This just is Modus Ponens.</p><p>|1. P Q</p><p>|2. P → Q</p><p>|3. Q →Elim: 2, 1</p><p>Modus Tollens would be this:</p><p>|1. P → Q ¬P</p><p>|2. ¬Q</p><p>||3. P</p><p>||4. Q →Elim: 1, 3</p><p>||5. ⊥	⊥Intro: 4, 2</p><p>|6. ¬P ¬Intro: 3-5</p><p>It is easy to chain together →Elim’s. It makes a nice train of inputs and outputs to ride.</p><p>|1. Tet(a) → Small(a)</p><p>|2. Small(a) → Dodec(c)</p><p>|3. Tet(a)</p><p>|4. Small(a) →Elim: 1, 3</p><p>|5. Dodec(c) →Elim: 2, 4</p><p>Conditional Introduction, → Intro</p><p>This is our third rule which uses subproofs.</p><p>||k. P</p><p>||…</p><p>||n. Q</p><p> |n+1. P → Q →Intro: k-n</p><p>|1. (A ∨ B) → C	A → C</p><p>||2. A</p><p>||3. A ∨ B ∨Intro: 2</p><p>||4. C →Elim: 1, 3</p><p>|5. A → C →Intro: 2-4</p><p>|<u> A → ¬¬A
+
+||1. A
+
+|||2. ¬A	
+
+|||3. ⊥	⊥Intro: 1, 2
+
+||4. ¬¬A ¬Intro: 2-3
+
+|5. A → ¬¬A →Intro: 1-4
+
+
+
+Again, I want to emphasize that if you can prove it without premises, you have shown a tautology in our system. That means the conditional you get here is not merely a material condition, but actually shows logical implication.
+
+
+
+Recall the corresponding conditional from last chapter. For any valid argument, we can make conditional sentence, wherein the conjunction of the premises form the antecedent, and the conclusion forms the consequent. That notion is sometimes directly useful for certain kinds of proofs. Take this example:
+
+
+
+|1. ¬(A ∧ B)_	A → ¬B
+
+||2. A
+
+|||3. B
+
+|||4. A ∧ B ∧Intro: 2,3
+
+|||5. ⊥	⊥Intro: 4, 1
+
+||6. ¬B ¬Intro:3-5
+
+|7. A → ¬B →Intro: 2-6
+
+
+
+It’s easy to use →Intro to convert a proof with a premise into a proof (without premises) of the corresponding conditional sentence. The trick is just to embed the old proof as a subproof into the new proof.
+
+
+
+|</u><u></u><u>	¬(A ∧ B) → (A → ¬B)
+
+||1. ¬(A ∧ B)
+
+|||2. A
+
+||||3. B
+
+||||4. A ∧ B ∧Intro: 2,3
+
+||||5. ⊥	⊥Intro: 4, 1
+
+|||6. ¬B ¬Intro: 3-5
+
+||7. A → ¬B →Intro: 2-6
+
+|8. ¬(A ∧ B) → (A → ¬B) →Intro: 1-7
+
+
+
+There are a couple other tricks you need to keep in your back pocket. Irrelevant Antecedent:
+
+
+
+|1. A
+
+||2. B
+
+||3. A Reit: 1
+
+|4. B → A →Intro: 2-3
+
+
+
+Irrelevant Consequent:
+
+
+
+|1. ¬A
+
+||2. A
+
+||3. ⊥	⊥Intro: 2,1
+
+||4. B ⊥Elim: 3
+
+|5. A → B →Intro: 2-4
+
+
+
+Combined:
+
+
+
+|1. ¬(P → Q)	P ∧ ¬Q
+
+||2. ¬P _
+
+|||3. P
+
+|||4. ⊥	⊥Intro: 3, 2
+
+|||5. Q ⊥Elim: 4
+
+||6. P→Q →Intro: 3-5
+
+||7. ⊥	⊥Intro: 6, 1
+
+|8. ¬¬P ¬Intro: 2-7
+
+|9. P ¬Elim: 8
+
+||10. Q
+
+|||11. P
+
+|||12. Q Reit: 10
+
+||13. P→Q →Intro: 11-12
+
+||14. ⊥	⊥Intro: 13, 1
+
+|15. ¬Q ¬Intro:10-14
+
+|16. P ∧ ¬Q ∧Intro: 9, 15
+
+
+
+Biconditional Elimination, ↔ Elim
+
+
+
+|k. P ↔ Q (or Q ↔ P)
+
+|…
+
+|l. P
+
+|…
+
+ |n. Q ↔Elim: k, l
+
+
+|1. Tet(a) ↔ Small(a)
+
+|2. Small(a)
+
+|3. Tet(a) ↔Elim: 1, 2
+
+
+
+This is just the modus ponens of the biconditional.
+
+
+
+Biconditional introduction, ↔ Intro
+
+
+
+||k. P
+
+||…
+
+||l. Q
+
+||i. Q
+
+||…
+
+||j. P
+
+ |j+1. P ↔ Q ↔ Intro: k-l, i-j
+
+
+
+Basically, Show P → Q in a subproof, then immediately after it show Q → P in another subproof, and then you get to discharge P ↔ Q.
+
+
+
+Technically, this rule can be broken down into more steps, since it is really proving a conjunction:
+
+
+
+P ↔ Q ⇔ (P → Q) ∧ (Q → P)
+
+
+
+What we’ve really got is two conditional subproofs, back-to-back, and we infer a conjunction of them to derive the equivalent biconditional. The system could have been more literal:
+
+
+
+||k. P
+
+||…
+
+||n. Q
+
+|n+1. P → Q →Intro: k-n
+
+|…
+
+||i. Q
+
+||…
+
+||j. P
+
+|j+1. Q → P →Intro: i-j
+
+|…
+
+|z. (P → Q) ∧ (Q → P) ∧Intro: n+1, j+1
+
+|…
+
+|s. P ↔ Q ↔Intro: z
+
+
+
+We won’t do it like this for perhaps a few reasons. First, aesthetically, this is ugly. Second, this seems to be a case of extracting information out of a conjunction, which seems too much like a specialized form of conjunction elimination. Third, this looks far too much like a line-based substitution/replacement kind of inference, which is something this system tries to avoid. Lastly, it is faster to write and easier to read (it is easy to see the intent of these subproofs) our real method.
+
+
+
+|</u> P ↔ ¬¬P</p><p>||1. P</p><p>|||2. ¬P	</p><p>|||3. ⊥	⊥Intro: 1, 2</p><p>||4. ¬¬P ¬Intro: 2-3</p><p>||5. ¬¬P</p><p>||6. P ¬¬Elim: 5</p><p>|7. P ↔ ¬¬P ↔Intro: 1-4, 5-6</p><p>Again, I want to point out that since this is accomplished with no premises, it is a tautology. That means the relationship is not merely a material biconditional, but actually one of logical equivalence.</p><p>|1. A ↔ B C ↔ A</p><p>|2. B ↔ C</p><p>||3. C</p><p>||4. B ↔Elim: 2, 3</p><p>||5. A ↔Elim: 1, 4</p><p>||6. A</p><p>||7. B ↔Elim: 1, 6</p><p>||8. C ↔Elim: 2, 7</p><p>|9. C ↔ A ↔Intro: 3-5, 6-8</p><p>Homework: 8.17-8.38, 8.44-8.53</p><hr><p>9</p><p>|<u></u> ¬(P ∨ Q) ↔ (¬P ∧ ¬Q)</p><p>||1. ¬(P ∨ Q)</p><p>|||2. P</p><p>|||3. P ∨ Q ∨Intro: 2</p><p>|||4. ⊥	⊥Intro: 3, 1</p><p>||5. ¬P ¬Intro: 2-4</p><p>|||6. Q</p><p>|||7. P ∨ Q ∨Intro: 6</p><p>|||8. ⊥	⊥Intro: 7, 1</p><p>||9. ¬Q ¬Intro: 6-8</p><p>||10. ¬P ∧ ¬Q ∧Intro 5, 9</p><p>||11. ¬P ∧ ¬Q</p><p>|||12. P ∨ Q</p><p>||||13. P</p><p>||||14. ¬P ∧Elim: 11</p><p>||||15. ⊥	⊥Intro: 13, 14</p><p>||||16. Q</p><p>||||17. ¬Q ∧Elim: 11</p><p>||||18. ⊥	⊥Intro: 16, 17</p><p>|||19. ⊥	∨Elim: 12, 13-15, 16-18</p><p>||20. ¬(P ∨ Q) ¬Intro: 12-19</p><p>|21. ¬(P ∨ Q) ↔ (¬P ∧ ¬Q) ↔Intro: 1-10, 11-20</p><p>|1. Small(a) ∧ (Medium(b) ∨ Large(c)) ¬Tet(c)→FrontOf(a,b)</p><p>|2. Medium(b) → FrontOf(a,b)</p><p>|3. Large(c) → Tet(c)	</p><p>|4. Medium(b) ∨ Large(c) ∧Elim: 1</p><p>||5. ¬Tet(c)</p><p>|||6. Large(c)</p><p>|||7. Tet(c) →Elim: 3, 6</p><p>|||8. ⊥	⊥Intro: 7, 5</p><p>||9. ¬Large(c) ¬Intro: 6-8</p><p>|||10. Medium(b)</p><p>|||11. Medium(b) Reit: 10</p><p>|||12. Large(c)</p><p>|||13. ⊥	⊥Intro: 12, 9</p><p>|||14. Medium(b) ⊥Elim: 13</p><p>||15. Medium(b) ∨Elim: 4, 10-11, 12-14</p><p>||16. FrontOf(a, b) →Elim: 2, 15</p><p>|17. ¬Tet(c)→FrontOf(a,b) →Intro: 5-16</p><p>|<u></u> (A → (B → C)) → ((A → B) → (A → C))</p><p>||1. (A → (B → C))</p><p>|||2. (A → B)</p><p>||||3. A</p><p>||||4. B → C →Elim: 1, 3</p><p>||||5. B →Elim: 2, 3</p><p>||||6. C →Elim: 4, 5</p><p>|||7. A → C →Intro: 3-6</p><p>||8. (A → B) → (A → C) →Intro: 2-7</p><p>|9. (A → (B → C)) → ((A → B) → (A → C)) →Intro: 1-8</p><p>|1. P → Q	¬P ∨ Q</p><p>||2. ¬(¬P ∨ Q)</p><p>|||3. ¬P</p><p>|||4. ¬P ∨ Q ∨Intro: 3</p><p>|||5. ⊥	⊥Intro: 4, 2</p><p>||6. ¬¬P ¬Intro: 3-5</p><p>||7. P ¬Elim: 6</p><p>||8. Q →Elim: 1, 7</p><p>||9. ¬P ∨ Q ∨Intro: 8</p><p>||10. ⊥	⊥Intro: 9, 2</p><p>|11. ¬¬(¬P ∨ Q) ¬Intro: 2-10</p><p>|12. ¬P ∨ Q ¬Elim: 11</p><p>|1. P → Q	¬(P ∧ ¬Q)</p><p>||2. P ∧ ¬Q</p><p>||3. P ∧Elim: 1</p><p>||4. Q →Elim: 1, 3</p><p>||5. ¬Q ∧Elim: 1</p><p>||6. ⊥	⊥Intro: 4, 5</p><p>|7. ¬(P ∧ ¬Q) ¬Intro: 2-6</p><p>|1. A ∨ B C</p><p>|2. ¬B</p><p>|3. A → C</p><p>||4. A</p><p>||5. C →Elim: 3, 4</p><p>||6. B</p><p>||7. ⊥	⊥Intro: 6, 2</p><p>||8. C ⊥Elim: 7</p><p>|9. C ∨Elim: 1, 4-5, 6-8</p><p>|1. P → Q R ∨ Q</p><p>|2. ¬Q</p><p>|3. ¬P → R</p><p>||4. P</p><p>||5. Q →Elim: 1, 4</p><p>||6. ⊥	⊥Intro: 5, 2</p><p>|7. ¬P ¬Intro: 4-6</p><p>|8. R →Elim: 3, 7</p><p>|9. R ∨ Q ∨Intro: 8</p><p>|1. ((Dodec(d) ∧ ¬FrontOf(d, c)) ∨ Cube(d)) → Large(d) Large(d)</p><p>|2. (Dodec(d) ∧ FrontOf(d, c)) → Tet(b)</p><p>|3. Dodec(d) ∧ ¬Tet(b)</p><p>|4. Dodec(d) ∧Elim: 3</p><p>||5. FrontOf(d, c)</p><p>||6. Dodec(d) ∧ FrontOf(d, c) ∧Intro: 5, 4</p><p>||7. Tet(b) →Elim: 2, 6</p><p>||8. ¬Tet(b) ∧Elim: 3</p><p>||9. ⊥	⊥Intro: 7, 8</p><p>|10. ¬FrontOf(d, c) ¬Intro: 4-9</p><p>|11. Dodec(d) ∧ ¬FrontOf(d, c) ∧Intro: 4, 10</p><p>|12. (Dodec(d) ∧ ¬FrontOf(d, c)) ∨ Cube(d) ∨Intro: 11</p><p>|13. Large(d) →Elim: 1, 12</p><p>|<u></u><u></u><u> (P ↔ Q) ↔ [(P → Q) ∧ (Q → P)]
+
+||1. P ↔ Q
+
+|||2. P
+
+|||3. Q ↔Elim: 1, 2
+
+||4. P → Q →Intro: 2-3
+
+|||5. Q
+
+|||6. P ↔Elim: 1, 5
+
+||7. Q → P →Intro: 5-6
+
+||8. (P → Q) ∧ (Q → P) ∧Intro: 4, 7
+
+||9. (P → Q) ∧ (Q → P)
+
+|||10. P
+
+|||11. P → Q ∧Elim: 9
+
+|||12. Q →Elim: 11, 10
+
+|||13. Q
+
+|||14. Q → P ∧Elim: 9
+
+|||15. P →Elim: 14, 13
+
+||16. P ↔ Q ↔Intro: 10-12, 13-15
+
+|17. (P ↔ Q) ↔ [(P → Q) ∧ (Q → P)] ↔Intro: 1-8, 9-16
+
+
+
+
+
+|</u><u></u><u></u>_ (P ↔ Q) ↔ [(P ∧ Q) ∨ (¬P ∧ ¬Q)]</p><p>||1. P ↔ Q</p><p>|||2. ¬[(P ∧ Q) ∨ (¬P ∧ ¬Q)]</p><p>||||3. P ∧ Q</p><p>||||4. (P ∧ Q) ∨ (¬P ∧ ¬Q) ∨Intro: 3</p><p>||||5. ⊥	⊥Intro: 4, 2</p><p>|||6. ¬(P ∧ Q) ¬Intro: 3-5</p><p>||||7. ¬P ∧ ¬Q</p><p>||||8. (P ∧ Q) ∨ (¬P ∧ ¬Q) ∨Intro: 7</p><p>||||9. ⊥	⊥Intro: 8, 2</p><p>|||10. ¬(¬P ∧ ¬Q) ¬Intro: 7-9</p><p>||||11. P</p><p>||||12. Q ↔Elim: 1, 11</p><p>||||13. P ∧ Q ∧Intro: 11, 12</p><p>||||14. ⊥	⊥Intro: 13, 6</p><p>|||15. ¬P ¬Intro: 11-14</p><p>||||16. Q</p><p>||||17. P ↔Elim: 1, 16</p><p>||||18. P ∧ Q ∧Intro: 17, 16</p><p>||||19. ⊥	⊥Intro: 18, 6</p><p>|||20. ¬Q ¬Intro: 16-19</p><p>|||21. ¬P ∧ ¬Q ∧Intro: 15, 20</p><p>|||22. ⊥	⊥Intro: 21, 10</p><p>||23. ¬¬[(P ∧ Q) ∨ (¬P ∧ ¬Q)] ¬Intro: 2-22</p><p>||24. (P ∧ Q) ∨ (¬P ∧ ¬Q) ¬Elim: 23</p><p>||25. (P ∧ Q) ∨ (¬P ∧ ¬Q)</p><p>|||26. P</p><p>||||27. P ∧ Q</p><p>||||28. Q ∧Elim: 27</p><p>||||29. ¬P ∧ ¬Q</p><p>||||30. ¬P ∧Elim: 29</p><p>||||31. ⊥	⊥Intro: 26, 30</p><p>||||32. Q ⊥Elim: 31</p><p>|||33. Q ∨Elim: 25, 27-28, 29-32</p><p>|||34. Q</p><p>||||35. P ∧ Q</p><p>||||36. P ∧Elim: 35</p><p>||||37. ¬P ∧ ¬Q</p><p>||||38. ¬Q ∧Elim: 37</p><p>||||39. ⊥	⊥Intro: 34, 38</p><p>||||40. P ⊥Elim: 39</p><p>|||41. P ∨Elim: 25, 35-36, 37-40</p><p>||42. P ↔ Q ↔Intro: 26-33, 34-41</p><p>|43. (P ↔ Q) ↔ [(P ∧ Q) ∨ (¬P ∧ ¬Q)] ↔Intro: 1-24, 25-42
+</p></div>
+
+
+
+</div>
+
+</p>
+</section>
+</body>
+</html>

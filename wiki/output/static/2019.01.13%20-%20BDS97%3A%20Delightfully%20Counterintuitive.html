@@ -1,0 +1,242 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.13" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<title>2019.01.13 - BDS97: Delightfully Counterintuitive: ⦗h0p3's Wiki⦘ — ‍ ‍ ‍‍ ‍1.2.20191101 𖡶 
+
+ Readme
+
+</title>
+</head>
+<body class="tc-body">
+
+<section class="tc-story-river">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists   tc-tagged-BDS97 " data-tags="BDS97" data-tiddler-title="2019.01.13 - BDS97: Delightfully Counterintuitive"><div class="tc-tiddler-title">
+<div class="tc-titlebar">
+<span class="tc-tiddler-controls">
+<span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal"><button aria-label="delete" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fdelete" title="Delete this tiddler">
+
+
+</button></span><span class=" tc-reveal"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button></span><span class=" tc-reveal"><span class=" tc-reveal"><button aria-label="info" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Finfo" title="Show information for this tiddler">
+</button></span><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><span class=" tc-reveal" hidden="true"></span></span><span class=" tc-reveal"><button aria-label="new journal here" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fnew-journal-here" title="Create a new journal tiddler tagged with this one">
+
+
+
+
+
+</button></span><span class=" tc-reveal"><button aria-label="close others" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose-others" title="Close other tiddlers"></button></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span>
+</span>
+
+<a class="tc-tiddlylink tc-tiddlylink-resolves tc-popup-handle tc-popup-absolute" href="2019.01.13%2520-%2520BDS97%253A%2520Delightfully%2520Counterintuitive.html">
+
+<span class="tc-tiddler-title-icon" style="fill:;">
+
+</span>
+
+
+
+<h2 class="tc-title">
+2019.01.13 - BDS97: Delightfully Counterintuitive
+</h2>
+
+</a>
+
+</div>
+
+<div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div>
+</div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal">
+<div class="tc-subtitle">
+Edited: 2019.01.13 23:09
+</div>
+</div><div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:#ffffff;
+color:#ffffff;">
+ BDS97
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span></div>
+</div>
+
+<div class="tc-tiddler-body tc-reveal"><pre><code>[10:18:19] h0p3: I'm sorry I've missed your messages. It's been crazy.
+[10:18:32] h0p3: My opinion on Ristretto Curves is that I'm wildly out of my league, lol!
+[10:19:47] BDS97: home: I don't think we'll need those after all
+[10:20:38] BDS97: home: this libelligator is unaudited, but I didn't find any secret-dependent branches or even memory accesses in there, so I don't think it would expose us to timing attacks
+[10:21:24] BDS97: home: I'm still not qualified to audit or implement crypto primitives, but my best guess is it should be fine
+[10:25:22] h0p3: It appears to allow us not to have to do any dangerous monkey work to extend 25519 into zero knowledge proofs.
+[10:25:34] h0p3: err protocols*
+[10:25:46] h0p3: I realize you moved on.
+[10:26:04] BDS97: home: yeah, I'm not sure about Ristretto
+[10:26:18] BDS97: home: it's great at parsing any value as a valid and strong curve point
+[10:26:22] BDS97: home: but we need encoding first
+[10:26:49] BDS97: home: and it seems to always encode the &quot;canonical&quot; form, which is still very detectable
+[10:27:06] BDS97: home: I think fundamentally it solves a very different problem
+[10:29:15] h0p3: I'm okay with keeping the routing protocol simple. The internals of the atropos node itself can handle other cryptographic functions inside those packets.
+[10:29:40] h0p3: Delightfully counterintuitive sounds dangerous and beautiful, lol.
+[10:30:20] BDS97: home: It's how Elon Musk described his new stainless steel rocket (as opposed to carbon composite + heatshield)
+[10:30:46] BDS97: home: In our case, it mostly refers to a divide between physical and logical packages
+[10:31:15] BDS97: home: I'm going to document it all, currently the only source for it is my whiteboard
+[10:31:27] BDS97: home: basically, we have four layers
+[10:32:11] BDS97: home: layer 0 is a simple NaCl secretbox and a 24-bit tag to prevent message duplication attacks
+[10:32:56] BDS97: home: it's the &quot;masking layer&quot;, responsible for making the protocol look random from the outside
+[10:33:22] BDS97: home: will have a simple Elligator2 handshake
+[10:34:02] BDS97: home: and then it does DH (x25519) constantly, switching keys every second or so
+[10:34:32] h0p3: Elligator is gorgeous, btw.
+[10:35:09] BDS97: home: I like it too, it is the final piece in the anti-filter puzzle
+[10:35:14] h0p3: This solves a non-trivial problem for us, and it's Bernstein.
+[10:35:36] h0p3: aye
+[10:35:58] h0p3: Does any other protocol succeed in this anti-filtering?
+[10:36:15] BDS97: home: there have been a few attempts, no idea about elligator usage
+[10:36:24] BDS97: home: Signal did use it, that's the only one I know
+[10:36:40] BDS97: home: it's been a hard time trying to hunt down implementations
+[10:36:43] BDS97: home: at the end I found 3
+[10:37:03] BDS97: home: one partial implementation in libsodium (only the hash to point, no inverse)
+[10:37:33] BDS97: home: that's useful for password-authenticated diffie-hellman or verifiable random, but inadequate for anti-filtering
+[10:37:42] BDS97: home: there was one deep in Signal's source code
+[10:38:01] BDS97: home: and the third is the one I linked, which is a C++ &quot;translation&quot; of a Go package
+[10:38:50] BDS97: home: even Bernstein doesn't have a production-ready implementation, only some testing code with Sage
+[10:40:26] h0p3: The fact is that we have to make something people want to use before it would have a chance of becoming audited.
+[10:40:59] h0p3: There are probably a million projects looking for a free, qualified audit.
+[10:42:09] h0p3: At what stage do we need more people working on this project?
+[10:42:42] h0p3: Look, you are just one man. You have the beautiful ability to obsess and work your butt off on what interests you (absolutely necessar).
+[10:43:14] h0p3: I will be reading and thinking about the code, but I'm even qualified to read the code, lol.
+[10:44:21] h0p3: I'm not even*
+[10:44:34] BDS97: home: I don't know, at this stage I don't really see which part will be hard enough that we can't do it alone
+[10:44:38] h0p3: aye
+[10:44:50] h0p3: This could be way down the line.
+[10:45:01] h0p3: Perhaps we will know that line when we see it.
+[10:45:09] BDS97: home: Yeah, I guess so
+[10:46:33] h0p3: Why is it switching keys every second or so?
+[10:46:51] BDS97: home: first, because of forward secrecy
+[10:47:09] h0p3: Is that normal?
+[10:47:14] BDS97: home: if a key leaks, the connection still heals itself pretty fast
+[10:47:30] BDS97: home: not necessarily this fast, but protocols tend to do it every once in a while
+[10:47:44] BDS97: home: there are some more paranoid ones, for example OTR switched keys with every message
+[10:48:02] BDS97: home: that wouldn't be ideal for Atropos though, since it would limit the bandwidth
+[10:48:15] h0p3: and the CPU cost would be absurd
+[10:48:26] h0p3: on machines doing a ton of routing
+[10:48:38] BDS97: home: and that's where reason #2 is, the anti-duplication tag
+[10:49:00] BDS97: home: we need an 8 kB (65536 bit) buffer for 65536 messages
+[10:49:24] BDS97: home: which is what a 16-bit tag can help with
+[10:49:54] BDS97: home: I'm thinking of making it configurable, between 16 and 20 bytes, 8 and 128 kB memory load
+[10:50:25] BDS97: home: so nodes can decide if they want a high-bandwith connection with a bit higher memory usage or not
+[10:50:47] BDS97: home: the 1.0 implementation will just use the 16-bit tags though, the rest will be enabled with a future flag
+[10:50:56] h0p3: Ah, cool.
+[10:51:17] BDS97: home: this means 65536 layer-0 messages with a single key
+[10:51:35] BDS97: home: by switching the key, we can roll this buffer forward
+[10:52:07] BDS97: home: there are at most two keys per connection in memory at the same time, and two of these buffers (16 kB in total)
+[10:52:44] BDS97: home: this way, through forward secrecy, we gain resilience against an attacker repeating messages
+[10:53:43] BDS97: home: combined with the standard Poly1305 authentication tag on the secretbox, this means layer-0 already ensures every physical package arrives exactly 0 or 1 times
+[10:55:28] BDS97: home: layer-1 is responsible for routing, it does some basic multiplexing (required for onion routing) and builds logical packages from physical ones
+[10:56:32] BDS97: home: each logical package is 4096 bytes long, and can be split between multiple physical packages
+[10:57:29] h0p3: I take it you've decided variable size to physical packages will be necessary for making sure there's no immediate guess that it's an Atropos packet, right?
+[10:57:39] BDS97: home: yes, exactly
+[10:57:57] BDS97: home: the old plan fixed it to 512 bytes, but that would have been an easy filter
+[10:58:32] h0p3: Plus, this can scale up nicely, if that logic ever needs to be added, the protocol would be ready for it.
+[10:58:56] BDS97: home: yeah, that's a nice thing too
+[10:59:14] BDS97: home: I measured the 12% overhead with 512 byte packages
+[10:59:22] BDS97: home: but if you increase it further, it can drop pretty fast
+[10:59:41] h0p3: Will we be sending randomly sized packets?
+[10:59:49] BDS97: home: only around 3% (total protocol overhead) with 4096 byte packages
+[11:00:03] BDS97: home: yeah, that part is still TBD
+[11:00:08] BDS97: home: what's your opinion on it?
+[11:00:12] h0p3: This is going to sound dumb:
+[11:00:30] h0p3: I'm worried that it is our randomness that will be the thing which fingerprints it.
+[11:00:54] h0p3: Only with sufficient number of users and other protocols trying to imitate it does it blend in.
+[11:01:04] BDS97: home: this doesn't sound dumb at all
+[11:01:27] BDS97: home: I've been thinking of trying to mitigate length distribution measurements
+[11:01:45] BDS97: home: ultimately, we might actually end up with the new kind of problem solving
+[11:01:50] BDS97: home: &quot;just throw a neural network at it&quot;
+[11:01:53] h0p3: lol
+[11:02:13] BDS97: home: the main goal for now is making the protocol accept any size of physical packages
+[11:02:16] h0p3: yes
+[11:03:20] BDS97: home: we can worry about properly sizing them later
+[11:03:32] h0p3: Agreed. Them's the good kind of problem.
+[11:03:46] BDS97: home: the ultimate end goal would be a system that learns and circumvents filters in real time
+[11:04:07] BDS97: home: layer-1 has an acknowledgement protocol for logical packages, so we can find out which ones didn't go through
+[11:04:17] h0p3: Yes. I adore that you think that. That's exactly what it means for us to own the means of production and subvert DPI/censorship/throttling. 
+[11:04:43] BDS97: home: that could be used to train a simple neural network while the network is actually running
+[11:04:49] BDS97: home: but that's a plan for later
+[11:05:06] BDS97: home: (or maybe for another person, whenever we can have some assistance)
+[11:05:29] h0p3: True
+[11:06:19] BDS97: home: for now, I think we should just make a few experiments, see what works the best, and specify a random range
+[11:06:36] BDS97: home: I think a per-connection distribution randomizer would be already simple to implement and a nightmare to filter
+[11:10:20] h0p3: We're still aiming to making it so that when I want to send you a file, that file is broken down into fitting logical packages and then these are broken into physical packages which are routed through as many nodes as I see fit, right?
+[11:10:45] h0p3: Like, I'm firing off pieces through a swarm of my buddies 
+[11:11:09] BDS97: home: yeah, mostly
+[11:11:21] BDS97: home: layer 2 and 3 operate on logical packages
+[11:11:49] BDS97: home: layer 2 is basically the same thing as layer 0, the only difference is it doesn't have elligator in the handshake because it doesn't need it
+[11:12:25] BDS97: home: and layer 3 is kind of a new design, it basically combines TCP and UDP
+[11:12:44] h0p3: Sounds QUIC
+[11:13:00] BDS97: home: possibly
+[11:13:14] BDS97: home: I don't know the QUIC (http2?) spec
+[11:13:35] BDS97: home: *http3, apparently
+[11:14:41] BDS97: home: yeah, that's kinda close
+[11:15:43] BDS97: home: so basically layer 3 has two layers of multiplexing, one for &quot;channels&quot; (analogous to ports in IP), and then one for streams within channels
+[11:15:49] BDS97: home: everything is a stream
+[11:16:05] BDS97: home: but if you're using it like UDP, you can use a separate stream for every package
+[11:16:11] h0p3: The Plan9iest of network protocols
+[11:18:30] BDS97: home: plan9iest?
+[11:18:44] h0p3: I'm jk: https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs
+[11:19:00] h0p3: riffing on &quot;everything is a stream&quot;
+[11:19:20] BDS97: home: nice
+[11:19:25] BDS97: home: didn't know about this system
+[11:19:49] h0p3: It may be worth thinking about here.
+[11:20:00] h0p3: There is something very right about their dream.
+[11:21:47] BDS97: home: this whole &quot;distributed OS&quot; idea sounds awesome
+[11:22:28] BDS97: home: especially in an age when we shift towards smartphones, that are increasingly more selfish
+[11:22:35] BDS97: home: in that they want everything to revolve around them
+[11:28:26] BDS97: home: so, back to the file thing, you would be just opening a channel to your target node, and most likely send the file through a stream in that tunnel
+[11:29:12] BDS97: home: you could specify how many hops you want to use to mask it
+[11:29:55] BDS97: home: that's for connecting to physical node addresses
+[11:30:21] BDS97: home: still working on the logical node address thing
+[11:33:28] h0p3: This is also a &quot;throw a neural net&quot; place for gaining performance while still having low-hanging fruit hops (likely condensing clusters/shards geographically).
+[11:34:01] h0p3: I imagine those living in datacenters will not even feel it.
+[11:34:59] BDS97: home: yeah, although I don't know why they'd want any of that in a datacenter
+[11:35:17] BDS97: home: anonymously connecting to another node in the same building?
+[11:36:56] BDS97: home: but yes, I get the idea of optimizing pings, we'll have to do some of that anyway
+[11:37:29] h0p3: Torrenting seems to be a reasonable example
+[11:37:59] h0p3: I want to anonymously seed and leech with my seedbox, and if my ISP only gives me 500GB a month, I'm boned. 
+[11:38:40] BDS97: home: oh, okay, I get it
+[11:38:43] BDS97: home: didn't even consider a VPS
+[11:39:34] BDS97: home: yes, that would be awesome, and there is still a point to it because your seedbox still connects to the public internet when torrenting
+[11:40:25] BDS97: home: btw, checked some stats about internet packets, average size seems to be around 1000-1500 bytes for the ones with payload
+[11:41:12] BDS97: home: I think at first that will be the range of the distribution randomizer
+[11:41:14] h0p3: sounds like a fine starting range
+[11:41:39] BDS97: home: it comes with the added benefit of reducing total protocol overhead to just 5.6%
+[11:41:43] BDS97: home: that's all layers combined
+[11:41:46] h0p3: hawt
+[11:42:08] BDS97: home: layer 0 and 1 have 54 bytes of overhead per physical package
+[11:42:48] BDS97: home: and layer 2 and 3 have 54-62 for the logical packages, depending on stream configuration
+[11:42:53] BDS97: home: (56 should be typical)
+[11:43:55] BDS97: home: so with a 1250 byte physical package and a 56 byte layer 2-3 header, it's 5.63%
+[11:45:09] BDS97: home: *54-60, just found an error
+[11:47:15] BDS97: home: also, benchmarked the scalarmult, a single Zen 1 core at 1 GHz should be able to do around 5200 curve25519 scalar multiplications per second
+[11:48:02] h0p3: That is plenty
+[11:48:33] BDS97: home: on my Ryzen 1700X (overclocked to 3.9 GHz) it did over 160k per second
+[11:48:57] BDS97: home: yeah, Bernstein's crypto is still awesome
+[11:49:22] h0p3: He might be Crypto-Jesus.
+[11:49:45] BDS97: home: lol
+[11:49:55] BDS97: home: yeah, let's hope he doesn't die for the NSA's sins
+[12:05:13] h0p3: I have to AFK. Grocery shopping and family time. As always, please don't stop talking on my account. I will be thinking.
+[12:05:37] BDS97: home: alright, have fun
+[12:05:58] BDS97: home: I'll stay here, probably learning rust, finishing the book so we can begin with the project</code></pre></div>
+
+
+
+</div>
+
+</p>
+</section>
+</body>
+</html>
