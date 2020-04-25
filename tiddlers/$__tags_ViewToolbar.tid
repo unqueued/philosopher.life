@@ -1,5 +1,7 @@
 created: 20171208224003187
-list: $:/core/ui/Buttons/more-tiddler-actions $:/core/ui/Buttons/delete $:/core/ui/Buttons/new-here $:/core/ui/Buttons/new-journal-here $:/core/ui/Buttons/info $:/core/ui/Buttons/clone $:/core/ui/Buttons/export-tiddler $:/core/ui/Buttons/permalink $:/core/ui/Buttons/permaview $:/core/ui/Buttons/open-window $:/core/ui/Buttons/close-others $:/core/ui/Buttons/fold-others $:/core/ui/Buttons/fold $:/core/ui/Buttons/fold-bar $:/core/ui/Buttons/edit $:/core/ui/Buttons/close $:/plugins/danielo/encryptTiddler/crypt-button
-modified: 20180106180727470
+creator: h0p3
+list: $:/core/ui/Buttons/more-tiddler-actions $:/core/ui/Buttons/delete $:/core/ui/Buttons/close-others $:/core/ui/Buttons/new-here $:/core/ui/Buttons/new-journal-here $:/core/ui/Buttons/info $:/core/ui/Buttons/clone $:/core/ui/Buttons/export-tiddler $:/core/ui/Buttons/permalink $:/core/ui/Buttons/permaview $:/core/ui/Buttons/open-window $:/core/ui/Buttons/fold-others $:/core/ui/Buttons/fold $:/core/ui/Buttons/fold-bar $:/core/ui/Buttons/edit $:/core/ui/Buttons/close $:/plugins/danielo/encryptTiddler/crypt-button
+modified: 20180930041711720
+modifier: h0p3
 revision: 0
 title: $:/tags/ViewToolbar

@@ -1,6 +1,6 @@
 created: 20180719014214806
 creator: h0p3
-modified: 20180829184715925
+modified: 20180908031829799
 modifier: h0p3
 title: monster-10
 
@@ -30,13 +30,13 @@ Specs: Intel Xeon E3-1240 v3, 16GB RAM, GeForce GTX 750 Ti, ASRock B85M-ITX, 120
 * /home/h0p3/[[.config/terminator/plugins/open_any_file_plugin.py]]
 * /home/h0p3/[[.config/terminator/plugins/cluster_connect_config/config.json]]
 
-* /home/h0p3/scripts/[[autostarts.sh]]
 * /home/h0p3/scripts/[[compressed-backup.sh]]
 * /home/h0p3/scripts/[[dropbox_uploader.sh]]
 * /home/h0p3/scripts/[[i3-layout-autostart.sh]]
 * /home/h0p3/scripts/[[i3-net-speed.sh]]
 * /home/h0p3/scripts/[[i3-tox-login.sh]]
 * /home/h0p3/scripts/[[i3-window-criteria.sh]]
+* /home/h0p3/scripts/[[lazy_dat_share.sh]]
 * /home/h0p3/scripts/[[lussh]]
 * /home/h0p3/scripts/[[music-scraper.py]]
 * /home/h0p3/scripts/[[wiki-hash-sign.py]]

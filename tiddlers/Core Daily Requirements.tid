@@ -1,0 +1,16 @@
+created: 20180924152216235
+creator: h0p3
+modified: 20180925013632478
+modifier: h0p3
+title: Core Daily Requirements
+
+!!AIO River [[Auto-Wiki-Mator-Button]]: {{$:/plugins/sphygmus/reviewButton/button: AIO River}}
+
+;[[TDL]]
+:
+;[[Wiki Review]]
+: <$edit-text tiddler="$:/config/reviewButton/Title" class="tc-edit-field-value" class="reviewButton" tag=input />
+;[[Carpe Tempus Segmentum]]
+:<$edit-text tiddler="$:/config/reviewButton/carpeTitle" class="tc-edit-field-value" class="reviewButton" tag=input />
+;[[Prompted Introspection]] -- [[Generic Prompts]]
+:<$edit-text tiddler="$:/config/reviewButton/introTitle" class="tc-edit-field-value" class="reviewButton" tag=input />

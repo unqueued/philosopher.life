@@ -1,6 +1,20 @@
 created: 20180106024307872
-modified: 20180106024316435
+creator: h0p3
+modified: 20180901210838210
+modifier: h0p3
 revision: 0
 title: Tiddlywiki Howto: Filter Expression
 
 `[prefix[foobar]]`
+
+Search for ["catdog"] in the bodies of any tiddlers with ["foo"] in their titles. 
+
+```
+[search:title[foo]search:text[catdog]]
+```
+
+Search for ["catdog" and "spongebob"] in the bodies of any tiddlers with ["foo" or "bar"] in their titles.
+
+```
+[search:title[foo]] [search:title[bar]] + [search:text[catdog]search:text[spongebob]]
+```

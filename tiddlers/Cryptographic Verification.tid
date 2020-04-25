@@ -1,6 +1,6 @@
 created: 20180719034131877
 creator: h0p3
-modified: 20180830050955487
+modified: 20180924221743828
 modifier: h0p3
 title: Cryptographic Verification
 
@@ -35,17 +35,17 @@ Who dares not speak his free thoughts is a slave.
 -- Euripides, //The Phoenician Women//
 <<<
 
-Cryptography is not a mere symbol. In a surprising number of pragmatic contexts and immanently possible timelines, cryptography offers low-hanging all-natural digital protection fruit which we are morally obligated to pick, use, and implement as citizens of Humanity constituting [[The Original Position]]. 
+Cryptography is not a mere symbol. In a surprising number of pragmatic contexts and eminently, immanently, or imminently possible timelines, cryptography offers low-hanging all-natural digital protection fruit which we are morally obligated to pick, use, and implement as citizens of Humanity constituting [[The Original Position]]. 
 
 Cryptography applied appropriately is a semi-automatically enforced cluster of Hohfeldian moral claim moral rights against your loved ones, friends, anons, skiddies, blackhats, dark-triads, transnational corporations, Big Brother, Capitalists, Peter Thiel, le ilerminaty, teh lizard wizards, aliens (who have almost paradoxically traveled at least near light speed but somehow lack quantum computers?), and a remarkable number of legitimate adversaries, which at times even includes ourselves.<<ref "st">> 
 
 Like any tool or weapon, crypto can be a two-edged sword which cuts both ways. But, if you think I'm insane or evil for caring about this, then wisely consider KYS because you are demonstrably an evil person. I'm calling you out, tu puta madre! Pick at least one, you: selfishly indifferent, apathetic, abusively ignorant, reactionary, dark-triadic, "patriot." ''Fuck you, malicious fool!'' It is your moral obligation to own your data and effectively decentralize power [[irwartfrr]]! The workers must own the means of production! You owe Humanity a profound contribution to that system.<<ref "f">> Using cryptography correctly is a realpolitik behavioral vote for decentralizing power.
 
-Official distributions of h0p3's Wiki include a checksum+signature file for verifying the integrity and authenticity of your copy. This verification file is updated for every published edit (nearly real-time, you may have to wait a minute for the cronjob and sync). With these files (and the right tools), you will be able to cryptographically verify the entire wiki, which is contained in a single html file (index.html). Let's hope this is never directly useful to us.
+Official distributions of h0p3's Wiki include a checksum+signature file for verifying the integrity and authenticity of your copy. This verification file is updated for every published edit (nearly real-time, you may have to wait a minute for the cronjob and sync). With these files (and the right tools), you will be able to cryptographically verify the entire wiki, which is contained in a single html file (index.html). Let's hope this is never directly useful to us.<<ref "n">>
 
 I previously used PGP (GnuPG as my last tool) to sign this wiki. PGP has to be one of the worst "best in class" toolsets I've ever used. I hate the software ecosystem, its unusability and incompatibility, as well as its poor logistics and social design. I've wasted far too many hours over almost two decades on that piece of shit. I'm moving on. 
 
-Instead, I'm cutting out the middleman (fuck you, PGP) and more directly using the crypto library I actually trust. I now generate signatures through [[PyNaCL|https://github.com/pyca/pynacl]], a gorgeous binding to the state of the art [[NaCL|https://nacl.cr.yp.to/]] crypto library (imho, we are moving into an asymmetric crypto monoculture relying on the 25519 algorithms).<<ref "2">> I believe my key will be useful until quantum computing becomes feasible.<<ref"3">> When PGP is actually functioning, it buys the same verification as my process. The difference is that my process is literally programmable in every major language. It ain't pretty, and it might even be awful, but it works.
+Instead, I'm cutting out the middleman (fuck you, PGP) and more directly using the crypto library I actually trust. I now generate signatures through [[PyNaCL|https://github.com/pyca/pynacl]], a gorgeous binding to the state of the art [[NaCL|https://nacl.cr.yp.to/]] crypto library (imho, we are moving into an asymmetric crypto monoculture relying on the 25519 algorithms).<<ref "2">> I believe my key will be useful until quantum computing becomes feasible.<<ref"3">> When PGP is actually functioning, it buys the same verification as my process. The difference is that my process is literally programmable in every major language. It ain't pretty, and it might even be awful, but it works (or, I'm pretty sure it does, lol).
 
 
 ---
@@ -58,7 +58,6 @@ Instead, I'm cutting out the middleman (fuck you, PGP) and more directly using t
 ** 5b0addf64aa52a67ac9c59031e7c15919717df39146c2d995f7f0745a2fc8fe2
 * Current Slave Ed25519 Public Key: 
 ** 5249578e4cdfaec1484f0083df3e8b6e4af0cab0288c8156c31d6e94efe58308
-
 
 ---
 !! Focus:
@@ -102,6 +101,8 @@ Please note that the key used to sign this wiki is obviously sitting on my hard 
 <<footnotes "st" "I am such a stupid user sometimes; it's a wonder that I let myself have sudo access to my own life at all.">>
 
 <<footnotes "f" "Find a way. Some ways are better than others, not all ways work for everyone. You still gotta do your best, for swearsy realsies.">>
+
+<<footnotes "n" "e.g. you can prove that I never said this sentence.">>
 
 <<footnotes "2" "I am aware of that maxim: Don't roll your own crypto. This maxim can be applied at different levels in the cryptography process. While I openly admit my shallow understanding of cryptography, I remain convinced this is a safe exception to that maxim. Famous last words, I know. Talk to me about it if it bothers you, please.">>
 

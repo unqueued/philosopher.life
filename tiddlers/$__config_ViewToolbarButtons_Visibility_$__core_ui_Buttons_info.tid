@@ -1,6 +1,8 @@
 created: 20171031165430437
-modified: 20171208223926880
+creator: h0p3
+modified: 20180922205515184
+modifier: h0p3
 revision: 0
 title: $:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/info
 
-show
+hide

@@ -1,0 +1,10 @@
+created: 20180907065017445
+creator: h0p3
+modified: 20180909201126002
+modifier: h0p3
+tags: 
+title: Filterlist: WikiTribune
+
+<$list filter=[search:title[]search:text[wikitribune]]>
+
+</$list>

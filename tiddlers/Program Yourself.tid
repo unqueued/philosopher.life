@@ -1,6 +1,6 @@
 created: 20180808013855397
 creator: h0p3
-modified: 20180809222643922
+modified: 20180929020321093
 modifier: h0p3
 title: Program Yourself
 
@@ -93,6 +93,7 @@ Remember that you are in the driver's seat. So, pilot the wiki wisely, ace! Buil
 ** [[Holistic Wiki Concepts]]
 
 * Logs:
+** [[TDL]]
 ** [[Wiki Review]]
 ** [[Wiki Audit]]
 ** [[Wiki: /b/]]
@@ -111,16 +112,15 @@ Remember that you are in the driver's seat. So, pilot the wiki wisely, ace! Buil
 !! Vault:
 
 * Retired:
-** [[2017.09.09 -- Retired: {Principles}]]
+** [[2018.08.07 -- Retired: Program Yourself]]
 ** [[2018.08.07 -- Retired: Principles of Programming Myself]]
+** [[2017.09.09 -- Retired: {Principles}]]
 
 * [[Wiki: Dead Principles]]
 
 
 ---
 !! Dreams:
-
-* {[[Axioms of h0p3]]} will be the successor to this directory!
 
 * #INEEEDIT
 ** Automatically generate my logfiles, vaults, links, and reorganizations.

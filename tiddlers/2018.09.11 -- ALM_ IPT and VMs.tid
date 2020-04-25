@@ -1,0 +1,113 @@
+created: 20180911192439259
+creator: h0p3
+modified: 20180911192448990
+modifier: h0p3
+title: 2018.09.11 -- ALM: IPT and VMs
+
+```
+It goes.  Sarah has been sick over the weekend but is doing a bit better.  I have been playing the video game I have been wanting to play.  It works for the most part.  I was expecting much more trouble to get it working.  I love the difference in oomph this new machine has.  I can multitask!  I am wanting to get started on the new torrent place now that I have the room but I need a resource on how not to screw it up same as myanamouse.  
+1 hour ago
+ That sucks. Glad she is doing a bit better though.
+1 hour ago
+ Glad you have your vidya drug. =)
+1 hour ago
+ what did it take to get working?
+1 hour ago
+ I am very pleased that you can multi-task now. That freedom is going to be super useful to you.
+1 hour ago
+ Again, please try i3! You are still in a phase where a transition doesn't cost you much. It's multi-tasking, speed, and profound customizability on steroids. Having that much compute power comes alive when you have fine-grained and macro control of your virtual workspaces (it's like running 10 computers on the same machine, but without having to run a full virtual machine).
+1 hour ago
+ Speaking of which, I think you will adore devoting a workspace (or a couple?) to virtual machines themselves.
+1 hour ago
+ I love being able to switch directly to a full screen VM and back and forth. It's seamless (with bi-directional clipboard, drag'n'drop functionality too).
+1 hour ago
+ Once all your myanonamouse stuff is all setup and working, we'll get IPT to work for you.
+1 hour ago
+ There are generally 4 (non-mutually-exclusive) ways to generate ratio on trackers in my experience: Freeleech, RSS/IRSSI racing, cross-seeding, and point-abuse.
+44 minutes ago
+ IPT has evolved over the years on these points. You don't need to push crazy hard in any direction to make it manageable. It's easy to "go infinite" with your ratio.
+43 minutes ago
+ a month on a seedbox will also completely set  you up permanently
+42 minutes ago
+ Doing it all from a shitty home connection will require more care.
+42 minutes ago
+ Make sure you seed everything which doesn't hit 1.0 ratio for ~3.5/4 weeks (you can look it up) so you don't get a HnR. It's expensive to blow points on HnRs now. Save your points for fuckups.
+41 minutes ago
+ or incredibly expensive things
+40 minutes ago
+ I will be doing it from my home connection.  I do want to hear more about these vms you speak of.
+41 minutes ago
+ I suggest only downloading freeleech for ratio when the files matter to you; what'd you keep longterm.
+39 minutes ago
+ RSS is easier to setup, but IRSSI allows you to join the swarm faster (before it officially begins even). Many torrent swarms do most of their uploading in a few minutes. Either way, you should use this tool to automatically download popular items  passively and seed them points and ratio. You'll want to have this setup anyways just to get the shows  you want automatically.
+36 minutes ago
+ cross-seeding is for spartan zerosum trackers where you basically must come to the table with content already to even have a chance of getting enough ratio to download new content. You shouldn't need to do this for IPT.
+35 minutes ago
+ Point abuse in IPT is reasonable, but it's not broken anymore. I already said my spiel on that.
+34 minutes ago
+ on IPT, anything above 10GB is generally freeleech.
+33 minutes ago
+ RSS is what makes it all really easy and timely  for you, but it requires having the ratio to afford to take losses at times
+33 minutes ago
+ you should be hedged-conservative at first
+33 minutes ago
+ to virtualization:
+32 minutes ago
+ There are two kinds of virtualization which work really nicely together, imho: workspace virtualization and hypervisor (true) virtualizaton.
+32 minutes ago
+ I navigate my workspaces through hotkeys. When I restart my computer, all of my workspaces, the arrangement on my screen of the windows (fullscreen, tabbed, and very specific window arrangements), passworded logins (e.g. qTox), etcc. are all automatically generated for me.
+30 minutes ago
+ When you start to abuse multi-tasking hard enough, you will find that restarting your computer is a real pain the ass.
+29 minutes ago
+ Make it painless by automating the generation and arrangement of your workspaces.
+29 minutes ago
+ Workspaces allow you to build workflows, to never guess where you are or where you are going, to not be fumbling with windows at all. I think it's visual programming.
+28 minutes ago
+ again, this is why I recommend i3 so highly. It has a reasonable learning curve (amazing documentation), and it allows you to build exactly what you want, imho. It takes big problems and lets you break them down into manageable smaller ones.
+25 minutes ago
+ i3 is resource-light, but it turns out that it shines the most on systems that have tons of resources available....it's designed for building multi-tasking systems beautifully.
+23 minutes ago
+ Let me put it this way, imagine the linux users who have never opened up a terminal. They do everything GUI. Think about what they are missing out on, how many things they really can't accomplish effectively, what things are just easier to do in command line, etc.
+23 minutes ago
+ Window tiling is that strong an effect, imho.
+22 minutes ago
+ (you know me; I'm not going to shutup about something I really believe strongly in...I legit think you'll be kicking yourself for not putting in the initial effort to learn and use this now)
+20 minutes ago
+ You can try to tell yourself that I'm just a different kind of computer user than you, but I know you love computers too much to believe you wouldn't find ways to make use of those multi-tasking resources.
+20 minutes ago
+ I realize the other DE's have workspaces, but their workspaces vs i3's feel like the difference between the Windows Command Prompt and a linux terminal.
+18 minutes ago
+ onto the second kind of virtualization
+17 minutes ago
+ sometimes you need more than "10 different screens," but you actually need 10 different machines running
+16 minutes ago
+ Do you have something that really only runs in Windows? Have a VM setup for windows.
+16 minutes ago
+ 
+10 minutes ago
+ 
+10 minutes ago
+ 
+10 minutes ago
+ I use LeftAlt+LeftCtrl+LeftShift to escape the virtual machine, my mod key (windows key) is what I use to navigate between them (and my workspaces, as well as all the other tools I use with i3).
+9 minutes ago
+ Want to test something in Manjaro but not on your own system...spin up a VM of manjaro. You can clone, roll-back snapshots, copy, and rebuild them so easily. They are disposable if you want.
+7 minutes ago
+ Want to setup a safe environment to test a piece of software. Did you someone hand you something you don't trust? Want to isolate something from your system? Do you want to build something that does one thing really well and can be ported to any system that runs a VM?
+6 minutes ago
+ Would you like to allow other users to have access to your computer resources but keep them in a jail?
+6 minutes ago
+ If you need to run MacOS, Windows, BSD, or explore exotic OSes, go for it!
+5 minutes ago
+ I adore Whonix, for example. It's doing something very special in my eyes.
+5 minutes ago
+ You can now run multiple machines on a single machine.
+4 minutes ago
+ hell, I even virtualize android sometimes...
+4 minutes ago
+ I don't always know when it's best to containerize, but I can tell you it's absolutely crucial in a lot of cases.
+3 minutes ago
+ Eventually, you will probably do GPU passthrough for gaming. You'll want to feel very comfortable with this technology.
+now
+ Alright, end of wall-of-text. Hope you think about what I said.
+```

@@ -1,5 +1,7 @@
 created: 20171017005105306
-modified: 20180517145138137
+creator: h0p3
+modified: 20180929014715427
+modifier: h0p3
 revision: 0
 title: Wiki: Tiddlers of Note
 
@@ -31,12 +33,13 @@ This Tiddlywiki index.html file is not the stock Tiddlywiki. I've made some valu
 *** Enable/Disable Editor Toolbar
 *** Necessary to overcome Tiddlywiki iframe problem for custom embedded fonts in tiddler editor
 
-* ASCII
+* ASCII & Wiki Art
 ** [[Wiki: Center ASCII Art Settings]]
 ** [[Home: ASCII Art Logo]]
 ** [[Home: ASCII Art Logo, 2]]
 ** [[Portrait]]
 ** [[Wiki: Center ASCII Poem Settings]]
+** [[Wiki.gif]]
 
 * Sidebar<<ref "1">>
 ** $:/tags/SideBar

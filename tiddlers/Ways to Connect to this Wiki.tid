@@ -1,6 +1,6 @@
 created: 20161201085941789
 creator: h0p3
-modified: 20180831194805475
+modified: 20180929234458077
 modifier: h0p3
 revision: 0
 title: Ways to Connect to this Wiki
@@ -20,13 +20,13 @@ Invisible threads are the strongest ties.
 
 If you are reading this for the first time, you may initially believe this page somewhat useless. It is not useless. The world changes faster and faster. I don't know how the world is going to turn out, and so this section will help you maintain a connection to this wiki even through technical turbulence and political turmoil. 
 
-I'm sorry if you think this website is slow to load for you. I'm not going to pay the prices necessary to speed it up because I don't think it's worth my time. Someone who is going to be willing to spend time actually trying to understand this wiki will have no problem waiting 3 seconds for the compressed file to download. Perhaps this will be changed later, but now I'm fine with it. There are several options available, I realize. 
+I'm sorry if you think this website is slow to load for you. I'm not going to pay the prices necessary to speed it up because I don't think it's worth my time. Someone who is going to be willing to spend time actually trying to understand this wiki will have no problem waiting several seconds for the compressed file to download. Perhaps this will be changed later, but I'm fine with it for now. There are several options available, I realize. 
 
-If speed really matters, then help me decentralize it: I suggest using [[Resilio Sync|Walkthrough: Resilio Sync]] for now, especially since you can just bookmark the local index.html file in your browser (it will load almost instantly).
+If speed or whatever kind of availability really matters to you in a particular way, then help me decentralize it with your preferred tools.
 
 I provide real-time updates, but I also keep several redundancies, deltas, and backups. They serve different purposes. Obviously, this wiki changes. For posterity's sake, transparency, fixing my fuck-ups, finding patterns in my thought, and enabling a broader range of data science practices in generating and thinking about this wiki, I keep a //daily snapshot collection// of this wiki. May it be a gift to anyone who cares for it.<<ref "2">> May it be a proof of proofs, another source: of interpreting who I am, for demonstrating my integrity, and for a variety of useful meta-analysis tools.<<ref "3">>
 
-Please note you can save this entire wiki to your hard drive from your browser: 'Save Page As'. It is completely self-contained in one html file.<<ref "c">> You can distribute this wiki by hand, sneakernet-style with profound ease. This hypertext book/wiki is meant to be eminently distributable, platform agnostic, consumable offline, and technically ergonomic in its unified simplicity.
+I recommend you save this entire wiki to your hard drive from your browser: 'Save Page As'. It is completely self-contained in one html file.<<ref "c">> You can distribute this wiki by hand, sneakernet-style, with profound ease. This hypertext book/wiki is meant to be eminently distributable, platform agnostic, consumable offline, and technically ergonomic in its unified simplicity.
 
 If for whatever reason you ever have a hard time acquiring a newer version, e.g. the site goes down, your saved hardcopy may still have the information necessary to help you find and {[[Verify|Cryptographic Verification]]} other distribution mechanisms. 
 
@@ -45,16 +45,24 @@ The following methods can acquire the latest real-time official version of this 
 
 # https://philosopher.life/
 # Resilio Sync read-only key: [[BKPIF6Z4EZIC3WJURWNTQ6SJ5M5AMYVW5|https://link.resilio.com/#f=Wiki&sz=39E7&t=1&s=3E5S6FV4LRD7SS2TUEYTN4ZDEFT5SB6X&i=C7BMBXE73W6ROMTZMIUAFIRQ5CDRTGZAN&v=2.5]]
-# https://www.dropbox.com/sh/t6pnwyaq3xlfty4/AABNcQUAYE4BT_UdW_fYQUlKa?dl=0
+# `dat://554d20f199f556fed81a5f5ee72ca4544f470a47011cffce7dbf95b54e32d8ff`
+
+The following methods can acquiring the nightly version of the wiki:
+
+# https://m6ram.github.io/
 
 The following methods can acquire the daily snapshot collection of this wiki:
 
 # Resilio Sync read-only key: [[BO7PZEXODBJ27LK7SUIND4NDLOUDO5H75|https://link.resilio.com/#f=h0p3-Dailysnapshots&sz=52E7&t=1&s=UE24BJN6XBKOXT6672O4VACNJL2PQ45I&i=C7I5TNWXDXRNOLHALSSXXPC4JCH2QATNG&v=2.5]]
 # https://www.dropbox.com/sh/bzjhvuo5cc35ojf/AAD273FZcaPHU6zNIgPlSlnEa?dl=0<<ref "a">>
-# https://github.com/m6ram/h0p3s-wiki<<ref "4">>
+# https://github.com/m6ram/m6ram.github.io<<ref "4">>
 # https://gitlab.com/m6ram/h0p3s-wiki
 # https://bitbucket.org/m6ram/h0p3s-wiki/
 # https://web.archive.org/web/*/https://philosopher.life/<<ref "5">>
+
+{[[Contact]]}ish Side-Channels:
+
+* [[Living Dead Drops]]
 
 
 ---
@@ -68,7 +76,7 @@ The following methods can acquire the daily snapshot collection of this wiki:
 *** SoulseekQT.
 ** IPFS (IPNS Hash): [[QmdxecdKA2mMvXjkRLuZC81LXhtxSGof96fS5irzuktXwE|https://gateway.ipfs.io/ipns/QmdxecdKA2mMvXjkRLuZC81LXhtxSGof96fS5irzuktXwE]]
 
-* Retired: {[[Connect|Ways to Connect to this Wiki]]}
+* Retired:
 ** [[2017.09.16 -- Retired: {Connect}]]
 
 
@@ -83,6 +91,11 @@ The following methods can acquire the daily snapshot collection of this wiki:
 * Syncthing, Gdrive, Mega, etc.
 * Pastebins: https://unix.stackexchange.com/questions/108493/easy-way-to-paste-command-line-output-to-paste-bin-services
 * Completely rebuild the snapshot collection (with signatures), build git script, and host on multiple sites (especially if Github will be acquired by MS).
+* Distribution/Resiliency/Backup/Redundancy/Anti-Censorship
+** https://neocities.org/
+** https://www.netlify.com/
+** https://surge.sh/
+** https://cloud.google.com/appengine/
 
 
 --------------------------
@@ -94,7 +107,7 @@ The following methods can acquire the daily snapshot collection of this wiki:
 
 <<footnotes "c" "Okay, almost entirely self-contained. There are a couple files which sit outside, but I'm going to eventually do away with them for the most part. I cannot do that for the signature file though (well, not in a clean way).">>
 
-<<footnotes "4" "This daily snapshot collection is complementarily duplicated by the deltas in my git repositories. This is also a fine method for acquiring an official daily snapshot of this wiki. Three notes: (1) Only the index.html and signature+checksum files are pushed onto my git repositories, (2) They are not real-time, only daily-snapshots, and (3) This is a third-party proof + backup/redundancy. Clone it in a directory with the following command: `git clone https://github.com/m6ram/h0p3s-wiki`">>
+<<footnotes "4" "This daily snapshot collection is complementarily duplicated by the deltas in my git repositories. This is also a fine method for acquiring an official daily snapshot of this wiki. Three notes: (1) Only the index.html and signature+checksum files are pushed onto my git repositories, (2) They are not real-time, only daily-snapshots, and (3) This is a third-party proof + backup/redundancy. Clone it in a directory with the following command: `git clone https://github.com/m6ram/m6ram.github.io`">>
 
 <<footnotes "a" "An alternative nightly: https://www.dropbox.com/sh/8vgkbsa53uvev8h/AABw2LOrwdicjHvkufuPc948a?dl=0">>
 

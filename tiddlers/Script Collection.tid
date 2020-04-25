@@ -1,6 +1,6 @@
 created: 20171130185805983
 creator: h0p3
-modified: 20180804215121527
+modified: 20180907031620214
 modifier: h0p3
 revision: 0
 title: Script Collection
@@ -84,14 +84,11 @@ Python Snippets:
 * [[Python: Script Timer]]
 * [[Python: Argument Parsing Examples]]
 
-[[Wiki: Scripts]] Transclusion:
+STUFF:
 
-{{Wiki: Scripts}}
-
+* [[Wiki: Scripts]]
 * [[Scripty Non-Scripts]]
-
 * [[One-Time Scripts]]
-
 * [[sanitize-clipboard.xsh]]
 
 ---

@@ -1,6 +1,6 @@
 created: 20171017013321540
 creator: h0p3
-modified: 20180808015549753
+modified: 20180901210942066
 modifier: h0p3
 revision: 0
 tags: $:/tags/SideBar
@@ -20,6 +20,9 @@ type: text/vnd.tiddlywiki
 [[Pin]]s:
 
 * [[Hub]]
+
+* Search
+** [[Tiddlywiki Howto: Filter Expression]]
 
 * Wiki Construction
 ** [[Wiki: Directory File Structure Template]]

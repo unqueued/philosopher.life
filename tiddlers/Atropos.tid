@@ -1,5 +1,7 @@
 created: 20180119201530157
-modified: 20180202014800997
+creator: h0p3
+modified: 20180918222653406
+modifier: h0p3
 revision: 0
 title: Atropos
 type: text/vnd.tiddlywiki
@@ -17,6 +19,8 @@ This is the decentralized dark mesh network protocol of [[Outopos]] built into m
 
 ---
 !! Focus:
+
+* [[Atropos Protocol Spec]]
 
 * [[2018.01.19 -- Atropos: Tunnel Types]]
 * [[2018.01.25 -- Atropos: Computational Neutrality]]

@@ -1,49 +1,8 @@
 created: 20180226155344807
-modified: 20180305151244992
+creator: h0p3
+modified: 20180907214540509
+modifier: h0p3
 title: Master Curriculum Vitae
-
-!! Computing
-
-* Microsoft Office, Google Docs, & LibreOffice Applications
-
-* Operating Systems
-** Main Drivers: Android, Arch, CentOS, Ubuntu, Debian, & Windows
-** Router/Firewall OSes: pfSense, DD-WRT, Open-WRT, & Vyatta
-
-* Computer Hardware Construction, Troubleshooting, & Repair
-** Building my own computers for the past 20 years
-** Replacing screens, modifying cases, and testing components
-** NASes, HTPCs, routers, & specialized single-board computing devices
-** Crossfire, SLI, RAIDs, overclocking, 
-
-* Firmware Mods
-** Many Android products, iPhones, C720 Chromebooks, Nintendo Wii, several consumer-grade routers (Open-WRT and DD-WRT), & Nvidia GPUs
-
-* Emulation & Virtualization
-** Docker, QEMU, KVM, Xen, VMWare, & Virtualbox
-** Wine, Gameboy, SuperNES, N64, Gamecube, TI calculators, Playstations, 
-
-* Game Automation and Tooling
-** Everquest: Mouse and keyboard macros, Lavish Innerspace scripting and multi-boxing, and MQ2 scripting, with virtualization behind VPNs
-** World of Warcraft: Glider, Add-ons, ISBoxer, and automated AH arbitrage, with virtualization behind VPNs
-** Tribes 2: Happy Mod 2, developed detection evasion
-** Diablo 2: Redvex and D2Loader, PlugY, and many mods
-** Diablo 3: AHK botting, OCR-based AH sniping
-** A variety of clicker/idle games: virtualized x86_64 and Android, python-OCR, and complex AHK macros
-
-* Servers Administrated
-** Many LAN games, including over dial-up and VPNs 
-** Private Everquest, Diablo 2, World of Warcraft, and Minecraft
-** Torrent tracker, indexer, and DHT-crawler
-** i2p Floodfill
-** Tor bridges, relays, and exits
-** A wide variety of VPN, tunneling, and proxy tools
-** Webhosting with a wide variety of tools
-
-* Programming
-** Python, Golang, C, C++, SQL, Bash, & Other Scripting
-
-
 
 !! Work History
 
@@ -101,7 +60,7 @@ title: Master Curriculum Vitae
 ** 06.2001 - 07.2004
 ** Worked the back end, took inventory, grilled, assembled food, trained new employees, and closed the store each night.
 
-* Blands Insulation
+* Bland's Insulation
 ** Construction Worker
 ** Elizabethtown, KY
 ** 08.2000 - 05.2001
@@ -137,6 +96,49 @@ title: Master Curriculum Vitae
 ** BA, Philosophy: 3.3 GPA
 
 
+!! Computing
+
+* Microsoft Office, Google Docs, & LibreOffice Applications
+
+* Operating Systems
+** Main Drivers: Android, Arch, CentOS, Ubuntu, Debian, & Windows
+** Router/Firewall OSes: pfSense, DD-WRT, Open-WRT, & Vyatta
+
+* Computer Hardware Construction, Troubleshooting, & Repair
+** Building my own computers for the past 20 years
+** Replacing screens, modifying cases, and testing components
+** NASes, HTPCs, routers, & specialized single-board computing devices
+** Crossfire, SLI, RAIDs, overclocking, 
+
+* Firmware Mods
+** Many Android products, iPhones, C720 Chromebooks, Nintendo Wii, several consumer-grade routers (Open-WRT and DD-WRT), & Nvidia GPUs
+
+* Emulation & Virtualization
+** Docker, QEMU, KVM, Xen, VMWare, & Virtualbox
+** Wine, Gameboy, SuperNES, N64, Gamecube, TI calculators, Playstations, 
+
+* Game Automation and Tooling
+** Everquest: Mouse and keyboard macros, Lavish Innerspace scripting and multi-boxing, and MQ2 scripting, with virtualization behind VPNs
+** World of Warcraft: Glider, Add-ons, ISBoxer, and automated AH arbitrage, with virtualization behind VPNs
+** Tribes 2: Happy Mod 2, developed detection evasion
+** Diablo 2: Redvex and D2Loader, PlugY, and many mods
+** Diablo 3: AHK botting, OCR-based AH sniping
+** A variety of clicker/idle games: virtualized x86_64 and Android, python-OCR, and complex AHK macros
+
+* Servers Administrated
+** Many LAN games, including over dial-up and VPNs 
+** Private Everquest, Diablo 2, World of Warcraft, and Minecraft
+** Torrent tracker, indexer, and DHT-crawler
+** i2p Floodfill
+** Tor bridges, relays, and exits
+** A wide variety of VPN, tunneling, and proxy tools
+** Webhosting with a wide variety of tools
+
+* Programming
+** Python, Golang, C, C++, SQL, Bash, & Other Scripting
+
+
+
 !! Pipefitting
 
 Skill:
@@ -158,8 +160,6 @@ Certification:
 * NCCER Pipefitting Level 3 Training Certified
 * NC3 Torque Certified
 * OSHA-10 Certified
-
-
 
 
 !! Volunteer Work

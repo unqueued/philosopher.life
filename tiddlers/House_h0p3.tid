@@ -1,6 +1,6 @@
 created: 20180818173304303
 creator: h0p3
-modified: 20180818181124036
+modified: 20180906172137586
 modifier: h0p3
 title: House_h0p3
 
@@ -8,7 +8,7 @@ title: House_h0p3
 ** [[h0p3]]
 *** [[monster-10]]: 10.147.19.115
 *** [[monster-14]]: 10.147.19.95
-*** [[monster-15]]: 10.147.19.226
+*** [[monster-15]]: 10.147.19.85
 *** HTPC: 10.147.19.42
 *** KS: 10.147.19.207
 *** dimbob-RPi: 10.147.19.165
@@ -22,6 +22,8 @@ title: House_h0p3
 ** [[j3d1h]]
 *** phoenix: 10.147.19.87
 *** Pixie (phone): 10.147.19.209
+** [[AIR]]
+*** Laptop: 10.147.19.177
 
 
 ---

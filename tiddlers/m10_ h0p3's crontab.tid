@@ -1,6 +1,6 @@
 created: 20180224020455192
 creator: h0p3
-modified: 20180818213253401
+modified: 20180907023906877
 modifier: h0p3
 title: m10: h0p3's crontab
 
@@ -10,6 +10,9 @@ title: m10: h0p3's crontab
 
 # Minutely wiki signature
 * * * * * cd /home/h0p3/Downloads/Wiki && /home/h0p3/scripts/wiki-hash-sign.py
+
+# Minutely wiki rsync to dat
+* * * * * rsync -acr --delete --force /home/h0p3/Downloads/Wiki/{index.html,index.html.sig} /home/h0p3/syncs/wiki-dat
 
 # Nightly Dropbox Sync
 0 2 * * * /home/h0p3/scripts/dropbox_uploader.sh upload /home/h0p3/Downloads/Wiki/* h0p3_official_wiki/

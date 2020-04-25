@@ -1,6 +1,6 @@
 created: 20180723181041585
 creator: h0p3
-modified: 20180806212554606
+modified: 20180913041040687
 modifier: h0p3
 title: .i3/config
 
@@ -166,7 +166,7 @@ for_window [class="Simple-scan"] floating enable border normal
 for_window [class="(?i)System-config-printer.py"] floating enable border normal
 for_window [class="Skype"] floating enable border normal
 for_window [class="Timeset-gui"] floating enable border normal
-for_window [class="(?i)virtualbox"] floating enable border normal
+#for_window [class="(?i)virtualbox"] floating enable border normal
 for_window [class="Xfburn"] floating enable
 
 
@@ -269,6 +269,7 @@ bindsym $mod+Shift+r restart
 # Activate Scripts
 bindsym $mod+Ctrl+w exec /home/h0p3/scripts/wikireview.py
 bindsym $mod+Ctrl+q exec /home/h0p3/scripts/sanitize-clipboard.xsh
+bindsym $mod+Ctrl+i exec /home/h0p3/scripts/invisicode.py
 
 # Firefox Copy Page URL
 bindsym Ctrl+Shift+z exec /home/h0p3/scripts/ff_url_copy.xsh
@@ -368,6 +369,7 @@ mode "resize" {
 # Go-go-gadget Muh Workspace Materials
 exec --no-startup-id i3-msg 'workspace 0:Private Chat; exec run_keybase'
 exec --no-startup-id i3-msg 'workspace 9:Public Chat; exec discord'
+exec --no-startup-id i3-msg 'workspace 4:Text; exec terminator -p h0p3'
 exec --no-startup-id i3-msg 'workspace 0:Private Chat; exec signal-desktop'
 exec --no-startup-id i3-msg 'workspace 0:Private Chat; exec qtox'
 exec --no-startup-id i3-msg 'workspace 9:Public Chat; exec hexchat'
@@ -378,7 +380,7 @@ exec --no-startup-id i3-msg 'workspace 4:Text; exec subl'
 exec --no-startup-id i3-msg 'workspace 8:Sound; exec deadbeef'
 exec --no-startup-id i3-msg 'workspace 8:Sound; exec com.github.geigi.cozy'
 exec --no-startup-id i3-msg 'workspace 3:Files; exec dolphin'
-exec --no-startup-id i3-msg 'workspace 4:Text; exec sudo gedit'
+#exec --no-startup-id i3-msg 'workspace 4:Text; exec sudo gedit'
 
 # Autostart System Components
 exec_always --no-startup-id ff-theme-util
@@ -394,9 +396,9 @@ exec --no-startup-id clipit
 exec --no-startup-id start_conky_maia
 exec --no-startup-id xautolock -time 60 -locker blurlock
 exec --no-startup-id numlockx on
-exec --no-startup-id autostarts.sh
 
 # Open applications on specific workspaces (Use i3-window-criteria.sh for help)
+assign [class="(?i)virtualbox"] $ws7
 assign [class="(?i)dolphin$" instance="(?i)dolphin$" title="(?i)Dolphin$"] $ws3
 assign [class="(?i)sublime_text$" instance="(?i)sublime_text$" title="(?i)Sublime Text 2$"] $ws4
 assign [class="(?i)Gedit$" instance="(?i)gedit$" title="(?i)gedit$"] $ws4
@@ -412,6 +414,7 @@ assign [class="(?i)qTox$" instance="(?i)qtox$" title="(?i)qTox$"] $ws0
 
 # The Big Layout Autostart Script
 exec /home/h0p3/scripts/i3-layout-autostart.sh
+#exec --no-startup-id /home/h0p3/scripts/autostarts.sh
 
 
 #########################################################

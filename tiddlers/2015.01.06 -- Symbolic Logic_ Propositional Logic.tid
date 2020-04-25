@@ -1,6 +1,6 @@
 created: 20180705004543318
 creator: h0p3
-modified: 20180827185540541
+modified: 20180905001127289
 modifier: h0p3
 title: 2015.01.06 -- Symbolic Logic: Propositional Logic
 
@@ -55,7 +55,7 @@ English names aren’t precisely like FOL individual constants. In FOL:
 
         Intuitively, you can realize that there are objects in the world which aren’t yet named. We don’t yet have syntax to directly pick out these semantic objects, and that’s okay. Further, you might also intuitively see that certain objects have multiple names.
 
-            I call my daughter Madeline, Maddy, Swicky, and when I need her attention, Madeline Sophia. At least for me, all of these are individual constants which pick out the same object in the real world.
+            I call my daughter names. At least for me, all of these are individual constants which pick out the same object in the real world.
 
 Unlike our English-to-FOL translation, in which we will use normal names as our individual constants, the blocks in Tarski’s World is very restricted. The individual constant symbols in the blocks language:
 

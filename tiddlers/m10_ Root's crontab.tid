@@ -1,10 +1,13 @@
 created: 20180727212829588
 creator: h0p3
-modified: 20180727212833610
+modified: 20180907034026611
 modifier: h0p3
 title: m10: Root's crontab
 
 ```bash
+# Minutely Dat Share
+* * * * * /home/h0p3/scripts/lazy_dat_share.sh
+
 # Timeshift Snapshot Backups of Root Drive
 */30 * * * * timeshift --check > /root/timeshift.log
 

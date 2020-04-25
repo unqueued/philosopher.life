@@ -1,6 +1,6 @@
 created: 20180727050927771
 creator: h0p3
-modified: 20180803205538841
+modified: 20180908031942498
 modifier: h0p3
 tags: 
 title: i3-layout-autostart.sh
@@ -27,7 +27,7 @@ sleep 0.2
 i3-msg 'workspace 2:Web'
 sleep 0.7
 xdotool key --clearmodifiers Return
-sleep 0.2
+sleep 2
 i3-msg 'layout tabbed'
 sleep 0.2
 
@@ -38,16 +38,15 @@ i3-msg 'layout tabbed'
 sleep 0.2
 
 # $ws4 4:Text
+### Eventually switch to terminals...
 i3-msg 'workspace 4:Text'
 sleep 0.2
 i3-msg '[class="(?i)sublime_text$" instance="(?i)sublime_text$" title="(?i)Sublime Text 2$"] focus'
-sleep 0.2
 i3-msg 'move right; splitv'
 sleep 0.2
 i3-msg 'resize grow width 50'
 sleep 0.2
 i3-msg 'resize grow width 50'
-sleep 0.2
 
 # $ws5 5:Stage⑤
 i3-msg 'workspace 5:Stage⑤'
@@ -101,4 +100,16 @@ sleep 0.2
 
 # Remove Urgency Marks - Install wmctrl!
 sleep 1; for win in $(wmctrl -l | awk -F' ' '{print $1}'); do wmctrl -i -r $win -b remove,demands_attention; done
+
+# VMs
+#VBoxManage startvm m10-VM-Ubuntu --type headless
+#VBoxManage startvm Whonix-Gateway --type headless
+#VBoxManage startvm Whonix-Workstation
+
+# Automounts
+sshfs -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3 h0p3@192.168.1.100:/ -C /mnt/htpc
+sshfs -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3 h0p3@philosopher.life:/ -p 4222 -C /mnt/atl
+sshfs -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3 h0p3@ks.philosopher.life:/ -p 4222 -C /mnt/kimsufi
+sshfs -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3 pi@dimbob.philosopher.life:/ -p 4222 -C /mnt/dimbob
+#sshfs -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3 h0p3@192.168.1.97:/ -C /mnt/vmubuntu 
 ```
