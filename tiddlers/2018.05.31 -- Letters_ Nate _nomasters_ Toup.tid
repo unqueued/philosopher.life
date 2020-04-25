@@ -1,0 +1,43 @@
+created: 20180531121513422
+creator: h0p3
+modified: 20180531142500150
+modifier: h0p3
+title: 2018.05.31 -- Letters: Nate "nomasters" Toup
+
+<<<
+Hello Nathan,
+
+You'll have to forgive my naive and ignorant questions. I probably have significant flaws in my understanding of your tool and the possibilities for it.
+
+* Did you pick IPFS because it implements what amounts to mutable torrents? Is it the key-length with lower gas costs that entices you? Outside of that, I don't see why you wouldn't just use torrents (I'm also not convinced by IPFS yet, although I dearly hope it works out), which have wildly more performant clients on every platform with a time-tested protocol. 
+* Is the storageEndPoint plaintext on the Eth blockchain? Sometimes you'd want that (thousands of people seeding the encrypted files), but sometimes, it might be more prudent to keep that endpoint hidden. 
+* How expensive per kB is it to just store the ciphertext in the smart contract? Actually, how expensive is the process right now?
+* I like being able to choose my storage backend. In many cases, I'd prefer to simply create a varied set of dead drops and list their locations in the initial ciphertext. 
+* I suppose you have to trust your providers/publishers. They'll be the ones doing the private disclosure, right? Will providers be profiting from this? Will it be volunteer run? Will it be easy to setup my own providers or help others become a provider? How far can this process be decentralized?
+* What is the optimal amount of legwork the audience should undergo to get the package? 
+* SSS seems useful in this context, although I'm not sure how it's playing out. Would, for example, every member of the key-holder group run their own killcord instance? If so, why shouldn't they just create the SSS key before they even begin setting up killcord? Or, are you envisioning that a majority of the key-holder group has to "check-in" to the same smart-contract, else the killcord publisher is triggered?
+
+Thank you for pointing out the "friction" notion. That's a good word for it. I will think more about it.
+
+Your writing process sounds familiar to me. I think of it as juicing my intuitions, harnessing my fastmind "System 1" limbic autonomic ready-to-hand virtue-theoretic blink-of-an-eye non-conscious processes. Writing it out, then losing focus of it (with my neocortex) to just subconsciously digest it in a diffuse mode for a bit, then coming back to the problem with fresh eyes and often new ideas or revisions. That "chipping away at a piece of marble" is a grind. 
+
+I have major distinctions in my wiki between stream-of-conscious work and long-term writing projects (which are always simply drafts to me). My free-flowing work is meant to help me shape the long-term constructions. 
+
+This may be an odd question (especially since I'm not sure how to ask it). I assume you are excellent at visualizing how your md syntax will render, of course. Do you find differences in how you reason about what you are writing based upon differences in the md and the final rendering? I've been at this kind of process for a while now, and I'm trying to understand how writing the syntax might shape how I reason about the semantics.
+
+To the HN post:
+
+* thanatropism claims "much of this blog reads like my last few weeks before a mental breakdown." It seems to me you are literally engaged in contemplative living. Do you have more to say about this issue?
+* phantom_oracle wonders "what epiphany the author had to start/change his opinion on the ad-driven model." Perhaps you are still mulling it around. I'd be interested in seeing your argument.
+* stevenkovar's point about "comfortable with their new minimalist approach becasue [sic] of his history of quantification—not in spite of it" seems to have non-trivial force it. It's a counterargument you did not address.
+* You say, "I've never included social news aggregators in my mental model of social media... but now that I think about it I can't really exclude it either." Is it mere vanity to you? It seems more valuable than that (although drawing the lines may be quite difficult). I'd like to hear more about this issue from you. I take aggregators to be curators and models which I scour for input to my computational mind, but I don't spend much time outputting to these sites. I don't really use it socially (although, at times, I feel like I have a duty to do so, participating in the Great Human Conversation, being a good citizen, etc.). This is a topic that weighs heavily on mind. Further, having a public-facing site on which one writes does seem like a form of social media as well. We're sitting a similar boat here.
+* Several commentators argue that quantification is still necessary. You do not make a strong case against it in toto. I feel like you have something quite right about trying to minimize it at the right time, for the right reasons, and so on. I'm just trying to understand when you feel it is necessary to be quantitative about ourselves and why.
+
+Actually, this is perhaps the largest issue. I want to understand how you feel and think about the relationship between qualitative and quantitative reasoning. What are your explanations and justifications?
+
+I'm trying out the beta features of Protonmail. I assumed it sent the pubkey too. I'm mistaken about that. I'll be checking that option this time. You'll have to forgive me, but I've just never been a fan of PGP. Often, I prefer built-in end-to-end tools. Just in case it matters, I perform Ed25519 signature verification of our conversation (with PII redacted when necessary) on the wiki itself. 
+
+Sincerely,
+
+h0p3
+<<<

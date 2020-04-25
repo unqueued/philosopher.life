@@ -1,5 +1,7 @@
 created: 20180416153624168
-modified: 20180425144603840
+creator: h0p3
+modified: 20180530163742779
+modifier: h0p3
 title: Link Log: The Stack
 
 Standard Stack:
@@ -7,11 +9,24 @@ Standard Stack:
 * http://therealnews.com/t2/
 * https://www.wikitribune.com/all-stories/
 * https://www.nakedcapitalism.com/
-* https://www.reddit.com/
+* https://www.reddit.com/<<ref "1">>
 * https://news.ycombinator.com/
 
-Randomizable SCWR Rabbitholing Stack:
+SCWR Wiki Rabbitholing Stack:<<ref "2">>
 
 * [[Wikipedia|https://wikipedia.org/]]
 ** alt+shift+x = random page
 * [[Stanford Encyclopedia of Philosophy|https://plato.stanford.edu/cgi-bin/encyclopedia/random]]
+* [[Wikiquote|https://en.wikiquote.org/wiki/Special:Random]]
+
+* [[Self-Proclaimed (Neo)Rationalist Wiki|https://rationalwiki.org/wiki/Special:Random]]
+
+Worthy RSS Feeds:
+
+* https://feeds.feedburner.com/TheSocialistEconomist
+
+
+---
+<<footnotes "1" "See: [[Links: Subreddits]]. Their algorithm keeps changing, and I can't always say I'm in love with it.">>
+
+<<footnotes "2" "Randomized link portal where readily available.">>

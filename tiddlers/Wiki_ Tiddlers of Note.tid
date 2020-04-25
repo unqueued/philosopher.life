@@ -1,5 +1,5 @@
 created: 20171017005105306
-modified: 20180130225528323
+modified: 20180517145138137
 revision: 0
 title: Wiki: Tiddlers of Note
 
@@ -18,7 +18,9 @@ This Tiddlywiki index.html file is not the stock Tiddlywiki. I've made some valu
 ---
 !! Focus:
 
-* [[{Home}]]
+* [[Root]]
+** Transclusion: [[Home]]
+** Transclusion: [[{Home}]]
 
 * Add-ons, Plugins, etc.
 ** [[$:/macros/danielo/footNote]]
@@ -28,8 +30,6 @@ This Tiddlywiki index.html file is not the stock Tiddlywiki. I've made some valu
 ** [[$:/_toggle-editor-toolbar_preview]]
 *** Enable/Disable Editor Toolbar
 *** Necessary to overcome Tiddlywiki iframe problem for custom embedded fonts in tiddler editor
-** [[$:/plugins/danielo515/2click2edit]]
-*** Double-click to edit.
 
 * ASCII
 ** [[Wiki: Center ASCII Art Settings]]
@@ -67,7 +67,9 @@ This Tiddlywiki index.html file is not the stock Tiddlywiki. I've made some valu
 ---
 !! Vault:
 
-* (*crickets)
+* Add-ons, Plugins, etc.
+** [[$:/plugins/danielo515/2click2edit]]
+*** Double-click to edit.
 
 
 ---

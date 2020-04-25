@@ -1,8 +1,10 @@
 created: 20180516150917467
-modified: 20180517002024750
+creator: h0p3
+modified: 20180517202005903
+modifier: h0p3
 title: Master's Notes
 
-I've made almost no effort to fix formatting considerations. I'm moving from .docx to tiddlywiki format. I don't really care about making it perfect because this work is not great. In reviewing these, I can see that I have some serious disagreements with myself. Yet, there appears to be some valuable [[gopdar-mining]] to do in this set.
+I've made almost no effort to fix formatting considerations. I'm moving from .docx to tiddlywiki format. I don't really care about making it perfect because this work is not great. In reviewing these, I can see that I have some serious disagreements with myself. Yet, there appears to be some valuable [[gopdar-mining]] to do in this set. If it matters enough to me some day, then I'll fix them. For now, these are plenty good enough.
 
 * [[2010.08.26 -- Degrees of Inference]]
 * [[2010.08.27 -- Small Critique of Virtue]]
@@ -40,7 +42,19 @@ I've made almost no effort to fix formatting considerations. I'm moving from .do
 * [[2011.05.14 -- Wellman]]
 * [[2011.05.14 -- Global Justice: Final Exam]]
 * [[2011.05.31 -- Global Justice Notes]]
+* [[2011.06.11 -- Moor Computing Ethics]]
+* [[2011.08.29 -- Husserl Paper: 1]]
+* [[2011.08.31 -- Husserl Secondary Source Report]]
+* [[2011.09.10 -- Husserl Secondary Source Report]]
+* [[2011.10.08 -- Husserl Research Proposal]]
+* [[2011.11.02 -- Moor Privacy]]
+* [[2011.11.03 -- Husserl Paper Abstract]]
+* [[2011.11.14 -- IP]]
 * [[2011.12.01 -- Husserl & Heidegger Test Notes]]
 
 
 
+
+
+
+My basic widget for this task: `* [[2011.. -- ]]`

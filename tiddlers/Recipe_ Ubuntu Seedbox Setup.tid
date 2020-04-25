@@ -1,5 +1,7 @@
 created: 20180405153829276
-modified: 20180409174038960
+creator: h0p3
+modified: 20180526124349268
+modifier: h0p3
 title: Recipe: Ubuntu Seedbox Setup
 
 As root:
@@ -51,7 +53,7 @@ Automatic Yolo Updates:
 Add the following to root crontab:
 
 ```
-0 2 * * * sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get autoremove -y && sudo apt-get autoclean -y
+0 2 * * * apt-get update && apt-get upgrade -y && apt-get autoremove -y && apt-get autoclean -y
 ```
 <<<
 

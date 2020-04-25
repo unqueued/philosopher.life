@@ -1,14 +1,16 @@
 created: 20180427204918112
-modified: 20180517012128602
+creator: h0p3
+modified: 20180529191842312
+modifier: h0p3
 title: The Good
 
-//See: [[Axioms of h0p3]]//
+//See: [[Axioms of h0p3]] & [[The Golden Rule]]//
 
 ---
 
 !! About:
 
-//I dedicate this work to my children. I hope you partake of [[The Good]] with everything inside you; give it your all, every iota. Wrestle gently with yourselves, and be wise. This is the pursuit of wisdom here, the whole reason I hope to be a philosopher. I want nothing more than for you to be happy, and I think, on average, this pursuit will be worth every single unit of energy you pay for it. If there is a law worth enslaving yourself to, it would be this one.//
+//I dedicate this work to my children. I hope you partake of [[The Good]] with everything inside you; give it your all, every iota. Wrestle gently with yourselves, and be wise. This is the pursuit of wisdom here, the whole reason I [[h0p3]] to be a philosopher. I want nothing more than for you to be happy, and I think this pursuit will be worth every single unit of energy you pay for it. If there is a law worth enslaving yourself to, it would be this one.//
 
 <<<
 [I]t is only one step...[f]rom the sublime to the ridiculous.
@@ -18,22 +20,76 @@ title: The Good
 
 Faith is our plight. This is my metamodern faith interpretation of speculative realism. I have always found it serendipitous that "Good" and "God" are but one letter apart. Fear and hate the heathen disciple; I am aware of the sheer audacity, futility, and unoriginality of my heretical claims. I apologize for having an unfashionably old-fashioned risk-taking black-and-white all-or-nothing opinion, but Reason compels me. I sincerely appreciate anciently-rooted postmodern critiques from Continental, Analytic, and Eastern traditions, but I see the practical necessity of putting down our tentpegs in reconstruction. I am forever indebted to my teachers, the parents I choose,<<ref "mf">> and the philosophers before me.<<ref "pb">> Here I preach the conjectural gospel of [[h0p3]] and part the postmodern waters with my Staff of Reason to behold the mystical groundwork once again. These are the words of the blindest of prophets, so keep your eyes open for me, please.
 
-I believe meaning is real, and meaning without a good/bad duality cannot be a reality by definition. The struggle for meaning is meaningful, being both good in some ways and bad in others. Therefore, I begin my argument with the heart and soul of an //effective// moral realist's claim: 
+In putting the cart before the horse like an insane man mixing my [[FO]] and [[SO]] logical notions, and I'm helping myself to all the transcendental work necessary for the following argument:
+
+ ¬, ∧, ∨, 🡒, 🡘, ∀, ∃, ⊥, □, ⊤, ◇, ⇒, ⇔, ⊢, ⊨ϕ
+
+```
+ 
+ |
+ | 1. ⊥ ∨ ⊤  Principle of Non-Contradiction: (⊥ ∨ ¬⊥) ⇔ (⊤ ∨ ¬⊤)
+ |------------
+ | |2. ⊥      Assume for ∨Elim on 1
+ | |----------
+ | |3. ⊤      ⊥Elim: 2
+ |
+ | |4. ⊤      Assume for ∨Elim on 1
+ | |----------
+ | |5. ⊤      ⊥Elim: 4
+ |
+ | 6. ⊤       ∨Elim: 1, 2-3, 4-5
+ |
+
+ Modal Presentation           □(⊥ ∨ ⊤) ⇒ □(⊤)
+ Incompleteness               [(⊥ ∨ ⊤) ⊢ ⊤] ⇒ [(⊥ ∨ ⊤) ⊨ ⊤]
+ Modal Collapse               ϕ ⇒ □(ϕ)
+ But, Contingency is real     ∃ϕ(¬□(ϕ))  This is necessarily true for unflattening the world.
+
+                              □(ϕ) ⇒ □(⊥) 
+
+Cratylus wasn't joking
+
+ Therefore, ⊥.
+ Thus, I contradict my Principle of Non-Contradiction, but technically still get to ∨Intro to ⊥ ∨ ⊤ or ⊥Elim back to ⊤ in this neverending loop.
+
+```
+
+Spinoza bit the necessity bullet, but he flattened the world into unity. It seems to me that metaphysics is the [[infinigress]]ing dialectic of ⊥ and ⊤. It is contradictory turtles all the way down. In a sense, the reality of metaphysics must not be a unified thing, or it doesn't make sense to talk about the unified thing as a whole. In our incompleteness, we can never fully simulate that which is larger in bit-size than the simulator. We can only talk about fallible reductions of the whole; we never have access to thing in itself, especially not the thing of total reality itself. We are but a part of that whole. 
+
+It seems to me that Gödel's ontological argument and incompleteness arguments are deeply intertwined. It appears that the modal collapse flattens reality such that there is nothing which isn't [[The Good]], nothing to compare itself to in dialectic, and thus the ontological argument results in a contradiction. That is to say, something must be contingent in order for [[The Good]] to unflatten the world, but if [[The Good]] obtains then there are no contingent truths, which means there is no [[The Good]]. There is no meaning that matters if there is meaning that matters. But, if there is no meaning that matters, why don't we get to help ourself to the claim that meaning matters?
+
+We must have the possibility of possibility in order to have [[The Good]]. The ladder collapses in on itself, and the only way out is to accept the true contradiction of [[The Good]]'s existence. We cannot speak about the ineffable, but we must try.
+
+I suggest that the illusion of time is the root of this paradox. That we perceive change, non-being, the being of becoming, is what makes us believe that contingency is real, that the possibility of possibility makes room for the possibility that the ultimate state of affairs and its constituent parts are contingent to some extent. 
+
+Do you think there are laws? Do laws have meaning? Can a law really be a law if there isn't a notion of not following the law? How true are necessary truths if there isn't the possibility of possible truths? What does it mean "to be" if there isn't a notion of "not to be?" But, since reality exists, meaning must obtain, and there "not to be," must be meaningful.
+
+
+The Principle of Sufficient Reason results in the modal collapse of the conjunction of all contingent truths (CCT), as something necessary must be the sufficient reason for CCT, lest we fall into Russell's Paradox. 
+
+
+
+
+Incompleteness is a problem. The limits of language available to me is a fundamental problem. Behold the mystical self-defeating, self-proving, self-contradictory ladder. For reasons well above my pay grade, I do not get to just help myself to the Principle of Non-Contradiction, particularly because I'm somehow convinced there is a necessary contradiction beyond the limits of my reasoning, [[The Inconceivable|Conceiving About: The Inconceivable]].
+
+Obviously, I beg the question of [[The Good]] in trying to draw up proofs in the first place. Without certainty but as though I were certain, I believe meaning is real, and meaning without a good/bad duality cannot be a reality by definition. Like any decent philosopher, I beg the question of meaning. The struggle for meaning is meaningful, being both meaningfully good in some ways and meaningfully bad in others. Therefore, I begin my argument with the heart and soul of an //effective// moral realist's claim: 
 
 !!!{''Axiom'': There exists some intrinisic good.}
 
-How ought I interpret or evaluate this axiom? The formal logician can only take us so far. How can I [[h0p3]] to speak of [[The Good]]? I do not know. Whether we realize it or not, we all:
+For some philosophers of ill repute, like myself, that axiom is a fancy way of saying: //meaning is real//.
+
+How ought I interpret or evaluate this axiom? The formal logician can only take us so far, and we are forever indebted to image reduction they provide us in Top-Down modeling of THE Top-Down Model; they have clarified the nature of that metaphysical gateway for us. How can I [[h0p3]] to speak of [[The Good]]? I do not know. Whether we realize it or not, we all:
 
 * point to it,
 * seek it,
 * interpret it,
 * wrestle with it,
-* exist in virtue of it, 
-* innately have inescapable rationalist virtue-theoretic subconscious faith in it.
+* innately have inescapable rationalist virtue-theoretic subconscious faith in it,
+* exist in virtue of it.
 
-We beg the question of The Good's existence in taking up meaning at all. There is no solution to this question begging for us, since there is provably no proof, and empirical verification is impossible by definition. Thus, in order to unify ourselves regarding The Good, it is our goal to become consciously faithful with our minds to that which we were already consciously faithful to in our hearts in self-dialectic.
+We beg the question of The Good's existence in taking up meaning at all. For you shall be reduced to the paradoxically meaningless fingerwaggering of Craytlus in some hopelessly vain attempt to unassume it. There is no meaning to saying there is no meaning. There is no solution to this question begging for us, since there is provably no proof available to us in our context. Thus, in order to unify ourselves regarding The Good, it is our goal to become consciously faithful with our minds to that which we were already consciously faithful to in our hearts through self-dialectic. You should my argument in this paragraph to be an alethic justification, and barring that, a prudential one. 
 
-I humbly offer you my educated guess-vision.
+I humbly offer you my highly-educated (i.e. these aren't my memes) guess-vision of this all-encompassing hyperobject with which Humanity has been wrestling from the beginning philosophy, the love of wisdom. 
 
 ```
 The Good is:
@@ -60,7 +116,8 @@ The Good is:
     the reality totalitizer, typifier, unflattener, constructor, sublator, identifier, hierarchicalizer, striator, categorizer, and stratifier,
 
     The Thingiest thing in itself,
-    the maximally generalized and particularized metaphysical embodiment of abstraction with possibly physical modes/appendages,
+    The "Isness" of Istigkeit,
+    the maximally generalized and particularized metaphysical embodiment of abstraction,
     the salient unentroprizing order of 1's emerging from the unending sea of random 0's chaos,
     the object of at least the 11th (or highest stable, decidable, non-collapsing) dimension,
 

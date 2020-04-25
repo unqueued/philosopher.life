@@ -1,5 +1,7 @@
 created: 20161201085941789
-modified: 20180504213815274
+creator: h0p3
+modified: 20180531163221395
+modifier: h0p3
 revision: 0
 title: Ways to Connect to this Wiki
 
@@ -8,36 +10,39 @@ title: Ways to Connect to this Wiki
 ---
 !! About:
 
-//In almost all likelihood, if you are here, then I asked you to come here. I must trust you a lot. For the randos: hello!//<<ref "1">>
+//In almost all likelihood, if you are here, then I asked you to come here. I must trust you a lot. For the rest of you, randos and unexpected guests: hello, and good luck!//<<ref "1">>
 
-The world changes faster and faster. I don't know how the world is going to turn out, and so this section will help you maintain a connection to this wiki even through technical turbulence and political turmoil. I strongly suggest using Resilio Sync, especially since you can just bookmark the local index.html file in your browser (it will load almost instantly).<<ref "2">>
+The world changes faster and faster. I don't know how the world is going to turn out, and so this section will help you maintain a connection to this wiki even through technical turbulence and political turmoil. 
+
+I suggest using [[Resilio Sync|Walkthrough: Resilio Sync]], especially since you can just bookmark the local index.html file in your browser (it will load almost instantly).
+
+I provide real-time updates, but I also keep several redundancies, deltas, and backups. They serve different purposes. Obviously, this wiki changes. For posterity's sake, transparency, fixing my fuck-ups, finding patterns in my thought, and enabling a broader range of data science practices in generating and thinking about this wiki, I keep a //daily snapshot collection// of this wiki. May it be a gift to anyone who cares for it.<<ref "2">> May it be a proof of proofs, another source: of interpreting who I am, for demonstrating my integrity, and of a variety of useful meta-analysis tools.<<ref "3">>
+
+If you are reading this, of course, you may initially believe this page somewhat useless. I suggest you consider saving this page to your hard drive. The entire wiki is essentially contained in a single .html file. If for whatever reason you ever have a hard time acquiring a copy, e.g. the site goes down, your saved hardcopy may still have the information necessary to help you find and {[[Verify|Cryptographic Verification]]} other distribution mechanisms. 
 
 
 ---
 !! Principles:
 
-* I hope to make it so people have a chance to connect with me on whatever level they find most comfortable.
+* In service to one of my [[axioms|Axioms of h0p3]], [[Find The Others]], I hope to make it so people have a chance to connect with me on whatever level they find most comfortable.
+* If these options don't work for you, then {[[Contact|Contact h0p3]]} me. I can send it to you by whatever channels you prefer.
 
 
 ---
 !! Focus:
 
-The following methods can acquire the latest official version of this wiki:<<ref "2">>
+The following methods can acquire the latest official version of this wiki:
 
 # https://philosopher.life/
-# Join the [[Resilio|Walkthrough: Resilio Sync]] swarm with read-only key at: [[BKPIF6Z4EZIC3WJURWNTQ6SJ5M5AMYVW5|https://link.resilio.com/#f=Wiki&sz=39E7&t=1&s=3E5S6FV4LRD7SS2TUEYTN4ZDEFT5SB6X&i=C7BMBXE73W6ROMTZMIUAFIRQ5CDRTGZAN&v=2.5]]
+# Resilio Sync read-only key: [[BKPIF6Z4EZIC3WJURWNTQ6SJ5M5AMYVW5|https://link.resilio.com/#f=Wiki&sz=39E7&t=1&s=3E5S6FV4LRD7SS2TUEYTN4ZDEFT5SB6X&i=C7BMBXE73W6ROMTZMIUAFIRQ5CDRTGZAN&v=2.5]]
 # https://www.dropbox.com/sh/1iml4su8c3w4yin/AADEz-v8Kdiup3setePZitHha?dl=0
-
-Obviously, this wiki changes. For posterity's sake, transparency, fixing my fuck-ups, finding patterns in my thought, and enabling data science practices in generating and thinking about this wiki, I also keep a //daily snapshot collection// of this wiki. May it be a gift to anyone who cares for it.<<ref "3">> May it be a proof of proofs, another source: of interpreting who I am, for demonstrating my integrity, and of a variety of useful meta-analysis tools.<<ref "4">> 
 
 In order of completeness, the following methods can acquire the daily snapshot collection of this wiki:
 
-# Resilio read-only key: [[BO7PZEXODBJ27LK7SUIND4NDLOUDO5H75|https://link.resilio.com/#f=h0p3-Dailysnapshots&sz=52E7&t=1&s=UE24BJN6XBKOXT6672O4VACNJL2PQ45I&i=C7I5TNWXDXRNOLHALSSXXPC4JCH2QATNG&v=2.5]]
+# Resilio Sync read-only key: [[BO7PZEXODBJ27LK7SUIND4NDLOUDO5H75|https://link.resilio.com/#f=h0p3-Dailysnapshots&sz=52E7&t=1&s=UE24BJN6XBKOXT6672O4VACNJL2PQ45I&i=C7I5TNWXDXRNOLHALSSXXPC4JCH2QATNG&v=2.5]]
 # https://www.dropbox.com/sh/vem01rqpatn0pjy/AABKiMFu-nmp3msNlxRryHhIa?dl=0
-# https://github.com/m6ram/h0p3s-wiki<<ref "5">>
-# https://web.archive.org/web/https://philosopher.life
-
-If these options don't work for you, then {[[Contact|Contact h0p3]]} me. I can send it to you by whatever channels you prefer.
+# https://github.com/m6ram/h0p3s-wiki<<ref "4">>
+# https://web.archive.org/web/*/https://philosopher.life/<<ref "5">>
 
 
 ---
@@ -67,12 +72,12 @@ If these options don't work for you, then {[[Contact|Contact h0p3]]} me. I can s
 
 
 --------------------------
-<<footnotes "1" "This wiki serves many purposes. One second purpose is a litmus test of the people around me. Those who care about me will care about what I think and feel, i.e. this wiki. Someone completely uninterested in the contents of my wiki, for whatever reason, is not really a friend of mine.">>
+<<footnotes "1" "This wiki serves many purposes. It's primarily directly written by me for me. However, it also serves as a litmus test of the people around me. Those who care about me will care about what I think and feel, i.e. this wiki. Someone completely uninterested in the contents of my wiki, for whatever reason, is not really a friend of mine.">>
 
-<<footnotes "2" "If you need help, here's a guide for you, [[Walkthrough: Resilio Sync]]">>
+<<footnotes "2" "Almost certainly only me, my wife, and perhaps my chilluns.">>
 
-<<footnotes "3" "Almost certainly only me.">>
+<<footnotes "3" "Hear my plea, O Lord, God of Existence, may this not be a record of my descent into arrogant madness. Amen.">>
 
-<<footnotes "4" "Hear my plea, O Lord, God of Existence, may this not be a record of my descent into arrogant madness. Amen.">>
+<<footnotes "4" "This daily snapshot collection is complementarily duplicated by the deltas in my git repositories. This is also a fine method for acquiring an official daily snapshot of this wiki. Three notes: (1) Only the index.html, signature, and checksum are pushed onto my git repositories, (2) They are not real-time, only daily-snapshots, and (3) This is a third-party proof + backup/redundancy. Clone it in a directory with the following command: `git clone https://github.com/m6ram/h0p3s-wiki`">>
 
-<<footnotes "5" "This daily snapshot collection is complementarily duplicated by the deltas in my git repositories. This is also a fine method for acquiring an official daily snapshot of this wiki. Three notes: (1) Only the index.html, signature, and checksum are pushed onto my git repositories, (2) They are not real-time, only daily-snapshots, and (3) This is a third-party proof + backup/redundancy. Clone it in a directory with the following command: `git clone https://github.com/m6ram/h0p3s-wiki`">> 
+<<footnotes "5" "I'd like to publicly thank the unknowingly generous folks at the WayBackMachine for their donation to my art. Thank you. If it ever becomes knowingly generous, I'd like to thank you even more. Hit me up, and let's talk.">>

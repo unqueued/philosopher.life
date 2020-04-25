@@ -1,6 +1,8 @@
 created: 20161214063323228
-modified: 20171212234846695
+creator: h0p3
+modified: 20180517194350409
+modifier: h0p3
 revision: 0
 title: $:/config/DefaultSidebarTab
 
-Hub
+$:/core/ui/SideBar/Recent

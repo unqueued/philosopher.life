@@ -1,10 +1,16 @@
 created: 20171129194701638
-modified: 20180516154435276
+creator: h0p3
+modified: 20180531223628895
+modifier: h0p3
 revision: 0
 title: Computer Musings
 type: text/vnd.tiddlywiki
 
 !! About:
+
+<<<
+There are 2 hard problems in computer science: cache invalidation, naming things, and off-by-1 errors.
+<<<
 
 [[Computing]] is one of the oldest projects on this wiki. Even before I understood that I would be logifying many of my projects (or parts of them), before [[Computer Musings]] officially existed, I was writing articles for it. Clearly, I've not written a ton here, but I think this will snowball. It's interesting none-the-less.
 
@@ -22,6 +28,12 @@ type: text/vnd.tiddlywiki
 * [[2018.05.07 -- Computer Musings: m15 Exploded]]
 * [[2018.05.08 -- Computer Musings: m15]]
 * [[2018.05.16 -- Computer Musings: Vault Script]]
+* [[2018.05.17 -- Computer Musings: Musical]]
+* [[2018.05.20 -- Computer Musings: Firefox Crashes]]
+* [[2018.05.24 -- Computer Musings: Firefox 4 Wiki]]
+* [[2018.05.26 -- Computer Musings: ATL Problems]]
+* [[2018.05.29 -- Computer Musings: ni hao]]
+* [[2018.05.31 -- Computer Musings: Signal and Keybase]]
 
 ---
 !! Vault:

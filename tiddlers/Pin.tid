@@ -1,13 +1,15 @@
 created: 20171017013321540
-modified: 20180516172534459
+creator: h0p3
+modified: 20180529144020879
+modifier: h0p3
 revision: 0
 tags: $:/tags/SideBar
 title: Pin
 type: text/vnd.tiddlywiki
 
-[[{Home}]]
+[[Root]]
 
-* {[[About|About, a.k.a. The Opening of the Rabbit Hole]]}
+* {[[About|About, The Opening of the Rabbithole]]}
 * {[[Principles|Principles of Programming Myself]]}
 * {[[Focus|Current Focus of h0p3's Wiki]]}
 ** [[Transclusion: Focus]]
@@ -15,12 +17,20 @@ type: text/vnd.tiddlywiki
 * {[[Dreams|Dreams of h0p3]]}
 ** [[Transclusion: Dreams]]
 
+
+
 [[Pin]]s:
+
+* [[Hub]]
 
 * Wiki Construction
 ** [[Wiki: Directory File Structure Template]]
 ** [[Acronyms, Verbal Shortcuts, Neologisms, etc.]]
-
+** [[Wiki: Tiddlers of Note]]
+** Can't Type Umlauts:
+*** Gödel
+*** Übermensch
+*** übermensch
 
 * Computing
 ** [[Script Collection]]
