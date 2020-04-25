@@ -1,0 +1,26 @@
+created: 20180414154703008
+modified: 20180421183540247
+title: ATL: Crontabs
+
+User `crontab`:
+
+```
+# Force compression
+* * * * * w3m philosopher.life -dump > /dev/null
+* * * * * w3m jedihacker.philosopher.life -dump > /dev/null
+* * * * * w3m kokonut.philosopher.life -dump > /dev/null
+* * * * * w3m bookwyrm.philosopher.life -dump > /dev/null
+
+# Nightly Snapshot to Archive.org
+0 2 * * * /home/h0p3/bin/daily.wbm.archive.py
+```
+
+Root `crontab`:
+
+```
+# Attempt Update Twice a Day; Deal with Hiccups
+6 1,13 * * * certbot renew --renew-hook "service lighttpd restart"
+
+# YOLO
+0 3 * * * apt-get update && apt-get upgrade -y && apt-get autoremove -y && apt-get autoclean -y && reboot
+```

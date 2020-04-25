@@ -1,0 +1,19 @@
+{ 
+ "ctrl+b" : { "pre":"''", "post":"''"}, 
+ "ctrl+i" : { "pre":"//", "post":"//"},
+ "ctrl+o" : { "pre":"#", "post":" ", "multiline":"true"},
+ "ctrl+l" : { "pre":"*", "post":" ","multiline":"true"},
+ "ctrl+m" : { "pre":"<<", "post":">>"},
+ "ctrl+u" : { "pre":"__", "post":"__"}, 
+ "ctrl+k" : { "pre":"\n```\n", "post":"```"}, 
+ "ctrl+s" : { "pre":",,", "post":",,"},
+ "ctrl+alt+t" : { "pre":"{{", "post":"}}"},
+ "ctrl+alt+l" : { "pre":"[[", "post":"]]"},
+ "alt+h" : { "pre":"|! ", "post":" |"},
+ "alt+s" : { "pre":"~~", "post":"~~"},
+ "alt+w" : { "pre":"<$", "post":"/>"},
+ "alt+z" : { "pre":"{{!!", "post":"}}"},
+ "ctrl+right_arrow" : { "moveto" : "|"},
+  "alt+t" : [ {"exp":"^", "modificators":"gm", "replace":"| "},{"exp":"  +", "modificators":"g", "replace":" | "},{"exp":"$", "modificators":"gm", "replace":" |"}]
+
+}

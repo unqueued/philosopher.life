@@ -1,0 +1,15 @@
+created: 20180115184506941
+modified: 20180116183200919
+revision: 0
+title: 2018.01.15 -- Computer Musings: nvim and Rust
+
+I'm trying to make myself use neovim.
+
+```bash
+mkdir -p ~/.config/nvim
+echo 'source ~/.nvimrc' > ~/.config/nvim/init.vim
+```
+
+Because I don't want to have to think about it.
+
+Rust clearly has an insane learning curve.

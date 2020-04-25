@@ -1,0 +1,46 @@
+created: 20171017011006636
+modified: 20180106024302095
+revision: 0
+title: Wiki: Tiddlywiki Howto's
+
+!! About:
+
+I'm lazy as fuck, and I only have so much memory I can dedicate to this tool. There are things I just don't do often enough to keep them memorized. However, when I do need to do them, I don't want to have to search the web. I just want instructions and preferably a template to make it happen fast, captain.
+
+---
+!! Principles:
+
+* Did you have to look up how to do it? 
+* Will you want to do this again?
+* Does it make something useful or very pretty?
+* Make templates and examples.
+
+---
+!! Focus:
+
+* [[Tiddlywiki Howto: Center Objects]]
+* [[Tiddlywiki Howto: Make a Table]]
+* [[Tiddlywiki Howto: Embed a Picture]]
+* [[Unformat Text Without Code Block on Tiddlywiki]]
+* [[Embed a Video on Tiddlywiki]]
+* [[Embed a Font as a Webfont Stylesheet in Tiddlywiki]]
+* [[Add New Row of Tabs in Tiddlywiki]]
+* [[Filter the List of All Tiddlers]]
+* [[Tiddlywiki Howto: Regex Search]]
+* [[Tiddlywiki Howto: List-fu]]
+* [[Tiddlywiki Howto: Filter Expression]]
+
+* Walkthroughs
+** https://lries.com/writing/installing-node-tiddlywiki-on-an-ubuntu-vps/
+
+---
+!! Vault:
+
+* (*crickets)
+
+
+---
+!! Dreams:
+
+* (*crickets)
+

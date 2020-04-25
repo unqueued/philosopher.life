@@ -1,8 +1,0 @@
-aliases: [[Recent]]
-caption: {{$:/language/SideBar/Recent/Caption}}
-created: 20190702223918861
-modified: 20190702223918861
-tags: Timelines
-title: $:/core/ui/SideBar/Recent
-
-<$macrocall $name="timeline" format={{$:/language/RecentChanges/DateFormat}}/>

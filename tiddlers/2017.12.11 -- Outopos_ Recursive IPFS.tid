@@ -1,0 +1,6 @@
+created: 20171211232942322
+modified: 20171212044111299
+revision: 0
+title: 2017.12.11 -- Outopos: Recursive IPFS
+
+We need to embed IPFS's inside each other. We need to be make it easy to embed virtual network inside of networks (and make them private, i.e. nested VPNs).

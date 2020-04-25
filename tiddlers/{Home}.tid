@@ -1,0 +1,22 @@
+created: 20171115225643451
+modified: 20180424004632422
+revision: 0
+title: {Home}
+type: text/vnd.tiddlywiki
+
+!!{{Home: ASCII Art Logo, 2||Wiki: Center ASCII Art Settings}}
+
+@@display:block;text-align:center;
+
+-=]|[=---------------------------------------------------------------=]|[=-
+
+!!{[[About|About, a.k.a. The Opening of the Rabbit Hole]]} {[[Principles|Principles of Programming Myself]]} {[[Focus|Current Focus of h0p3's Wiki]]} {[[Vault|The Vault of h0p3]]}  {[[Dreams|Dreams of h0p3]]}
+@@
+
+@@display:block;text-align:center;
+-=]|[=---------------------------------------------------------------=]|[=-
+
+!!!^^
+{[[Help|Help: On this Wiki]]} {[[Connect|Ways to Connect to this Wiki]]} {[[Verify|Cryptographic Verification]]} {[[Contact|Contact h0p3]]} {[[Legal|Legal Notice]]}
+^^ 
+@@

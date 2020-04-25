@@ -1,0 +1,32 @@
+created: 20180407000733116
+modified: 20180407002524828
+title: Logic Symbols
+
+* ¬
+** negation, not
+* ∧
+** conjunction, and
+* ∨
+** disjunction, or
+
+* ∀
+** universal, for all
+* ∃
+** existential, there exists some
+
+* ⊥
+** logically false, necessarily false, surd
+* □
+** logical truth, necessarily true
+* ◇
+** logically possible, contingent
+
+* ⇒
+** logical consequence, material implication
+* ⇔
+** logical equivalence, material equivalence
+
+* ⊢
+** turnstile, syntactically provable
+* ⊨
+** double turnstile, semantic entailment

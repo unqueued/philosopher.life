@@ -1,9 +1,6 @@
 created: 20180119201530157
-creator: h0p3
-modified: 20190716014249104
-modifier: h0p3
+modified: 20180202014800997
 revision: 0
-tags: 
 title: Atropos
 type: text/vnd.tiddlywiki
 
@@ -21,11 +18,9 @@ This is the decentralized dark mesh network protocol of [[Outopos]] built into m
 ---
 !! Focus:
 
-* [[Atropos Protocol Spec - 2.0: Layer 0]]
-* [[2018.01.19 - Atropos: Tunnel Types]]
-* [[2018.01.25 - Atropos: Computational Neutrality]]
-* [[2018.02.01 - Atropos: Kernel Integration]]
-* [[2019.07.15 - Atropos: Mobile]]
+* [[2018.01.19 -- Atropos: Tunnel Types]]
+* [[2018.01.25 -- Atropos: Computational Neutrality]]
+* [[2018.02.01 -- Atropos: Kernel Integration]]
 * DHT
 * Trust
 
@@ -34,7 +29,6 @@ This is the decentralized dark mesh network protocol of [[Outopos]] built into m
 !! Vault:
 
 * (*crickets*)
-* [[Atropos Protocol Spec]]
 
 
 ---

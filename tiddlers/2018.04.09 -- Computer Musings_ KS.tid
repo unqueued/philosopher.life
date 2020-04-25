@@ -1,0 +1,13 @@
+created: 20180409162532412
+modified: 20180409182413500
+title: 2018.04.09 -- Computer Musings: KS
+
+* Setup rsync crontab philosopher.life backup on KS.
+* Shadowsocks setup. Tested on m14.
+* Openvpn set and tested.
+* vpncloud.rs setup
+* irssi configured, although I've not setup FL on anything.
+
+---
+
+vpncloud.rs re-enabled on m10

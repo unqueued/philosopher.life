@@ -1,0 +1,22 @@
+created: 20180115184625468
+modified: 20180127203802583
+revision: 0
+title: .nvimrc
+
+```bash
+" Show Line numbers
+set number
+
+" All, motherfucka, can you select it?
+map <C-a> <esc>ggVG<CR>:
+
+" Use system clipboard
+set clipboard+=unnamedplus
+vmap <C-c> "+yi
+vmap <C-x> "+c
+vmap <C-v> c<ESC>"+p
+imap <C-v> <C-r><C-o>+
+
+" Have a functional mouse
+set mouse=a
+```

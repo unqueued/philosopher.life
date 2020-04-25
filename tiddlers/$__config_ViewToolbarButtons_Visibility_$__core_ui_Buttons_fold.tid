@@ -1,8 +1,6 @@
 created: 20171031165330470
-creator: h0p3
-modified: 20180922130914957
-modifier: h0p3
+modified: 20171208233353053
 revision: 0
 title: $:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/fold
 
-hide
+show

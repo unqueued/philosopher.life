@@ -1,8 +1,6 @@
 created: 20170404013746212
-creator: h0p3
-modified: 20181104150452650
-modifier: h0p3
+modified: 20170404013746212
 revision: 0
 title: $:/themes/tiddlywiki/vanilla/options/codewrapping
 
-pre-wrap
+pre

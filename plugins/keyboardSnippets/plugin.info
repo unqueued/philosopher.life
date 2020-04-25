@@ -1,0 +1,11 @@
+{
+    "title": "$:/plugins/danielo/keyboardSnippets",
+    "created": "20140502162931297",
+    "creator": "danielo",
+    "dependencies": "no dependencies",
+    "description": "add keyboard shortcuts to ",
+    "modified": "20140502162932480",
+    "modifier": "danielo",
+    "plugin-type": "plugin",
+    "version": "0.0.5"
+}

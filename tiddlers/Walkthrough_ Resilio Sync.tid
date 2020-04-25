@@ -1,0 +1,56 @@
+created: 20171016234027582
+modified: 20171213180426687
+revision: 0
+title: Walkthrough: Resilio Sync
+
+// Do you want to share files between two computers? Am I trying to share files with you? This is the best way to do it.//
+
+Resilio Sync (formerly Btsync) is a freeware (proprietary), high performance, platform agnostic, end-to-end encrypted, peer-2-peer, torrent-based tool for automatically synchronizing directories (and the files they contain) between two computer devices (phones, tablets, and many more included here) over your local network and the internet. It's incredibly powerful for being so easy to use, and it supports as many users as you want.<<ref "1">>
+
+Every sync instance has a set of keys to join the swarm of users synchronizing that directory. There are 3 kinds of keys:<<ref "2">>
+
+# Read-Only
+#* Read
+#** You receive the files of the synchronized directory from any user in the swarm with the most up-to-date version.
+#** You receive all changes (additions, deletions, or modifications) to the directory in the synchronized directory made by someone with a Read+Write key.
+#* Do you want to send someone files, but not allow them to modify it or send you anything? This is your ticket.
+
+# Read+Write
+#* Read
+#** You receive the files of the synchronized directory from any user in the swarm with the most up-to-date version.
+#** You receive all changes (additions, deletions, or modifications) to the directory in the synchronized directory made by someone with a Read+Write key.
+#* Write
+#** Any change you make in the directory is synchronized to all the other swarm participants.
+#* Be very careful with this key. That said, this is often the preferred choice between friends. 
+#** Do not keep your original files in this directory unless you know what you are doing.
+
+# Encrypted
+#* Read
+#** You receive an //encrypted// version of all files from any user in the swarm with the most up-to-date version.
+#* Incredibly useful for storing encrypted backups of your data on computers you do not trust.
+
+Here is a setup guide:
+
+# Download the installation file from: https://www.resilio.com/individuals/
+#* Or use your package manager or Playstore of choice.
+# Install the software. 
+#* Your first time using it may require some additional installation menus.
+# Do you have a key someone gave you?
+## If yes, then:
+### Goto manual connection entry.
+### Paste the key into the prompt.
+## If no, then:
+### Start a new sync.
+## Select a directory on your computer to store the synchronized data.
+##* You may need to create the directory in Resilio itself. 
+##** There is a create new directory button.
+##* If you are starting a new sync, save the keys and give the right one to people you want to share the data with.
+
+That's it. You can check the swarm to see if anyone else is on. It should pierce your NATs and be quite flexible. It's all automated for you. Enjoy.
+
+If you have any questions, please free to ask. I am more than happy to help you.
+
+---
+<<footnotes "1" "As many you would likely be interested in having.">>
+
+<<footnotes "2" "Keys are basically passwords to join an easy to use (and yet) advanced decentralized virtual private network of people's computers sharing files with each other.">>

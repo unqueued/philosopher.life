@@ -1,0 +1,455 @@
+created: 20170313201032346
+modified: 20170313201059694
+revision: 0
+title: 2007.01.11 -- Back to Basics
+
+Back to Basics: The Fundamentals of Gaming, a Call for Balance, and Why Rogues Should Stunlock.&lt;/span&gt;
+
+Every class uses some control features and some attack features to defeat their opponents. I will argue that: while at first glance rogues seem like an attacking class, rogues are actually a control class. To be very specific, I mean to say, when all is said and done, and people play their classes correctly at current gear levels, the rogue is in a position where he must control the fight to a greater degree than other classes in order to win.
+
+That may come as a shock to some players. Among other things, rogues have some relatively easy to use, and well known, burst damage abilities. Go-go-gadget Ambush/Backstab? When you think of a rogue you think of damage at the sacrifice of all else right? We lose tankability, ranged abilities, and overall raid and group functionality to deal relatively lethal damage (or at least good sustained damage) in up-close-and-personal melee combat. But, many rogues have come to find that life is a little different at high end.
+
+Was it a lot better at lower levels? Of course. We all know that at green gear our abilities are overpowering. So, as we fight against noobs and greenies, we really have nothing to complain about. Although some of these skills scale with gear, they donâ€™t scale proportionally with gear as effectively as other classes (that doesnâ€™t mean we donâ€™t scale, we just donâ€™t scale well enough). As the stamina levels and overall gear of the population rises, the rogueâ€™s effectiveness quickly declines. Of course, we did need to be balanced in full greens, but not at the expense of future higher-end gaming environments. It is almost as if the devâ€™s are paying us back for the crazy power of rogues in the beginning of this game. I think most rogues would have preferred to have been balanced and scaled properly from greens to epics in the first place.
+
+Currently, there are more players sitting in full epics than at any other time, and in part because of this gear inflation, and in part because people are evolving out of their noobiness, a rogue has become more easily neutralized (Iâ€™m saying nothing new just yet). As stamina levels increase, and as classes learn to play against a rogue, our â€œquick killâ€ abilities become far less effective. Iâ€™ll certainly admit that the good old Ambush/Backstab can be effective, especially when you completely outgear an opponent. But, in equally geared and skilled matchups, the rogue is easily beaten when he doesnâ€™t control the fight. Not only are we easily controlled, but, eh, Iâ€™d argue we are out-classed. My shadowpriest can randomly click 4 buttons (while Iâ€™m half-watching the Daily Show) and kill people; meanwhile, my rogue can play flawlessly against the same people and still lose. There really is a disproportionate skill-requirement to make the same kills. We just canâ€™t prove it. We do, however, have tools to deal with the situation and imbalance at hand, and we can work towards curbing any injustices against the rogue class. Albeit, it takes a lot more work for the rogue to win, it is at least possible. Iâ€™d just have preferred to see a fair risk vs. reward ratio, in which the person with greatest display of skill always win, but Blizzard isnâ€™t that smart.
+
+In all reality, the rogue is becoming less useful. Why would I want a rogue in my group when a mage deals just as much DPS (including AEâ€™s and range issues, yes) and contains far more utility? Our roles and abilities are not balanced to other classes. While we havenâ€™t been nerfed directly, Iâ€™d argue that other classes have been buffed to the point that a rogue is not as useful (And, if you think we are as useful as other classes, you clearly donâ€™t play enough of the other classes to realize what I meanâ€¦and puh-lease, not another Damage meters argument, your hunters, fury warriors, mages and warlocks are simply lazy as hellâ€¦period).
+
+We can complain to devâ€™s and say, hey, Death coil might be a bit too powerful. Or, maybe we can say, hey, Fury warriors deal nearly as much damage as me, are much more difficult to kite, and sit at 1.5k more hp and 20% more mitigation than I do, oh yeah, they can tank and scale exponentially with gear (as long as they find outlets to spend rage)â€¦what roles do I have if they are better or nearly equivalent than I am in most of them?
+
+Unfortunately, we have never had the tools to understand the exact reasons why this is the case. We have relied upon intuition, which doesnâ€™t mean we are wrong, but it makes our cases very difficult to present. The devs look at us as biased-ninjas who want to pwn t-eh world. And, hey, some of us are. But, not all rogues want thatâ€¦some of us just want balance. Our problem: we just canâ€™t prove our problems.
+
+Iâ€™m hoping to put us a step closer to being able to show why there are imbalances. Iâ€™m also hoping to briefly explain the very nature of gaming in general. But mainly, I want to explain why it has become truly imperative for a rogue to actually use stunlock to remain truly viable in so many environments.
+
+The million dollar gaming question is: Who is the controller and who is the attacker? You may not see this as a crucial question, but with some disciplined thinking, I bet youâ€™ll come around to understanding why this question is so important. Respectively, I think that after understanding and answering this question, you will find that the rogue really must control fights in order to win.
+
+Let us take a base example:
+
+Given two equal opponents who attack each other at the same time and in the same way, on average, both will die at the same time. To simplify and apply this notion for us, think of two butt-naked level 60 rogues (hawt UD foâ€™sho) using no abilities except auto-attack; Both just sit and trade hits. If they start at the same time, on average, both will die at the same time. If you donâ€™t like thinking of it that way, then think of it this way, over the course of 1,000 fights, of the times that both donâ€™t die simultaneously, and one person had to win while the other lost, 50% will be won by each rogue. The point is: It is a tie!
+
+Well, how is this the case? Essentially, both have an equal offense and defense ratio; they are identical, as they have X DPS, Y mitigation/avoidance, and Z hitpoints. In this case, only damage to tankability is taken into account, but it is all that is needed to provide the full picture. In real game play, there is a vast array of variables to consider, and in time, we shall see that this picture becomes much more elaborate, yet remains quite quantifiable.
+
+What do I mean by an offense and defense ratio?
+
+We can take the calculable (as this is all math) defense of player 1 and divide it by player 2â€™s calculable offense, and we can take player 2â€™s defense and divide it by player 1â€™s offense, compare the numbers, and immediately know who, on average, will win in a perfectly fair fight. This is the offense/defense ratio. The person with the higher number will win the fight. In WoW, it all begins with damage per time unit as your offense and your hp as your initial defense.
+
+This is the fundamental equation of gaming, an equation used to determine the answer to the million dollar question. Nothing else matters. Now, before you try and pick it apart, let me elaborate; there are a lot of variables to consider in defining a playerâ€™s â€œoffensiveâ€ and â€œdefensiveâ€ ratings used in this calculation. Often enough, damage to mitigation/avoidance/hp is all that must be considered. But, we shall see how certain basic techniques and crowd control effects like â€œkiting,â€ â€œtanking,â€ root, fear, stun, etc. can have a huge impact on these ratings. The very matter of choice creates â€œfuture action treesâ€ with different offense/defense ratios for all possible courses of action; but donâ€™t be deceived into thinking that choice eliminates the possibility of calculation. I warn you to not act as if these effects donâ€™t have mathematical and clearly calculable repercussions. This is all math, and all things are calculable. Even future events in games can be calculated; We just need the tools to understand what the effects truly mean.
+
+Take our base example. Assume both rogues have 100hp and deal 20 damage per time unit.
+
+Player A= 20a offense and 100a defense
+Player B= 20b offense and 100b defense
+
+Player Aâ€™s ratio=100a/20b=5
+Player Bâ€™s ratio=100b/20a=5
+
+As both have equivalent offense/defense ratios, 5 and 5. If they chose to stand and trade hits in a fair duel, both would on average die at the same time. If we just tweaked the variables slightly, and if Player A were buffed, and had 10 more hp, it would change the ratios by:
+
+Player A=20a offense and 110a defense
+Player B= 20b offense and 100b defense
+
+Player Aâ€™s ratio=110a/20b=5.5
+Player Bâ€™s ratio=100b/20a=5
+
+Notice that Player A now has the advantage, and a higher offense/defense ratio. Player A will surely win in a duel. Player A directly increases his offense/defense ratio by improving his defense.
+
+Or, what if we buffed Player Bâ€™s offense by 5 instead?
+
+Player A=20a offense and 100a defense
+Player B= 25b offense and 100b defense
+
+Player Aâ€™s ratio=100a/25b=5
+Player Bâ€™s ratio=100b/20a=4
+
+Notice that Player A now has the disadvantage, and has a lower offense/defense ratio. Player A will surely lose in a duel. Player Bâ€™s offense directly affects Player Aâ€™s offense/defense ratio by lowering the number.
+
+Assume that both rogues have 25% melee damage mitigation; how does this apply in the equation? While we can certainly apply it to one's loss condition (HP), or defense directly, and calculate a damage soak of survivability, for now we'll just look at it in a simple fashion. This will also help demonstrate the interaction of offense/defense even further. We'll interpret mitigation and avoidance as a debuff to be applied directly towards an opponentâ€™s offense. By lowering an opponentâ€™s offense, we increase our total ratio. So, let us apply it:
+
+[Damage â€“ Damage(Mitigation+Avoidance percentage of opponent)] is the new offense calculation. Thus:
+
+Player A=[20-20(.25)]a offense and 100a defense
+Player B=[20-20(.25)]b offense and 100b defense
+
+Or, now calculated as,
+
+Player A=15a offense and 100a defense
+Player B=15b offense and 100b defense
+
+Player Aâ€™s ratio=100a/15b=6.666
+Player Bâ€™s ratio=100b/15a=6.666
+
+Please notice that both ratios rose proportionally and remain equal, as both will kill each other at the same time. You will notice in your own calculations that changing mitigation and avoidance percentages will directly impact the opposing playerâ€™s proportionate effectiveness, and any imbalance in damage, hitpoints, or mitigation (or any variables) would immediately swing the ratios in one playerâ€™s favor. Game balance (you get a free tutorial on this one) rests upon equivalent offense/defense ratios of current and future action trees given an equal amount of skill and effort.
+
+WoW, like all MMOâ€™s, adds complexity by changing offense and defense ratios, and often vary them greatly per class. If all classes were totally the same it would be boring, right? But, MMOâ€™s devs are still required (but not properly held accountable) to balance classes while differentiating them, as there should be incentive to play every class. So, in balance and diversity, they create things like:
+
+Player X= 20x damage, 100x hp, and 0%y mitigation
+Player Y=10y damage, 100y hp, and 50%y mitigation
+
+If Player X deals 20 damage per time unit with 0% damage reduction and 100hp, and Player Y deals 10 damage per time unit with 50% damage reduction, and both start attacking each other at the same time, then both will die at the same time; this is balanced. Any single variation in the proportions of the damage, mitigation, and hp would create an imbalance in which either X or Y would become more viable or powerful, while the other would proportionally become less viable or powerful. This is easy to test. We only know the playersâ€™ damage, hp, and mitigation, and assuming that these are the only variables we must take into account to calculate the offense/defense ratios, we would get the following:
+
+Player X=[20-20(.50)]x offense and 100x defense
+Player Y=[10-10(0)]y offense and 100y defense
+
+Player X=10x offense and 100x defense
+Player Y=10x offense and 100x defense
+
+Player Xâ€™s ratio=100x/10y=10
+Player Yâ€™s ratio=100y/10x=10
+
+Notice of course, X is much like a traditional rogue, and Y is much like a traditional warrior. In this balanced case example, both the X and Y die at the same time, even though their mitigation and damage per time unit variables are very different. They have proportionate and fair ratios of offense and defense, and yet, they both would serve a different purpose.
+
+To show that this concept can work within the context of solo and group, and to show how one would go about abusing natural differences in such variables, even in balanced ratios, let us take another case example, using X and Y once again:
+
+We want to design a 3-man group composed of any combination of X and Y, and we are thinking of a PvE mob opponent Z with 450hp who deals 20 damage per time unit with 0% mitigation. Let us also, for the sake of the argument assume that you could control who holds aggro. We are attempting to find the best way to abuse these balanced ratios, as both classes are equal, but clearly have different functions given their actual offense and actual defense. Available Yâ€™s will act as tanks (as they have greater mitigation). For this case, we will consider any player death to be a failure.
+
+For this, to demonstrate survivability in reality, we'll be applying mitigation towards the loss condition (HP), which is your base defense. Defense/(1-% of mitigation/avoidance).
+
+In a fight against mob Z, would you rather have a group composed of: 3 of X, 3 of Y, 1 of X and 2 of Y, or 2 of X and 1 of Y?
+
+3 of X= 20x+20x+20x andÂ 100/(1-0)+100/(1-0)+100/(1-0) Defense
+
+3 of Y= 10y+10y+10y and 100/(1-.5)+100/(1-.5)+100/(1-.5) Defense
+
+1 of X and 2 of Y=Â 20x+10y+10y and 100/(1-0)+100/(1-.5)+100/(1-.5) Defense
+2 of X and 1 of Y= 20x+20x+10y and 100/(1-0)+100/(1-0)+100/(1-.5) Defense
+
+Meanwhile, Mob Z's offense defense ratio is a strict 20z offense and 450z defense.
+
+Thus, we will arrive at 4 different sets of ratios, one for each possible group makeup. I'll give a brief breakdown, explaining the fights in time units of 5. Notice that each group as a different tank, which will change survivability calculations. The tank's defense is all that matters, but as we calculate the fight over time, we'll switch from each tank to another, until all are dead.
+
+3 of Xâ€™s ratio=100x/20z=5
+Mob Zâ€™s ratio=450z/60xxx=7.5
+
+3 of Yâ€™s ratio=200y/20z=10
+Mob Zâ€™s ratio=450z/30yyy=15
+
+1 of X and 2 of Yâ€™s ratio=200y/20z=10
+Mob Zâ€™s ratio=450z/40xyy=11.25
+
+2 of X and 1 of Yâ€™s ratio=200y/20z=10
+Mob Zâ€™s ratio=450z/50xxy=9
+
+Each ratio is specific to its respective matchup. Note that as X and Y are perfectly balanced, even when stacked as 3 of a kind, they have proportionally equivalent ratios to Mob Z.
+
+5 to 7.5 and 10 to 15 (essentially 2 to 3). This means that both 3 of X and 3 of Y will have the exact same result in terms of how much damage is dealt before the first tank dies, in this case 300 damage. To be more exact, when we really evaluate these end ratios, it means that for every 5% that 3 of X penetrates Mob Zâ€™s defense, Mob Z will penetrate 7.5% of 3 of Xâ€™s tankâ€™s defense. Essentially, from this standpoint, we will evaluate â€˜defenseâ€™ as the loss condition, from which at any point that 100% or more has been penetrated that player will lose. I am hesitant to say â€œhitpoints,â€ as opposed to defense, because this is a very universal principle, and can be applied to games that donâ€™t use such hp systems (you just have to learn to calculate the value of functions and loss conditions within a game). In this case however, penetrating 100% of the defense is basically bringing a person from 100% hp to 0% hp or less. Thus, for every 5% of hitpoints Mob Z loses, the first rogue tank with lose 7.5% health. And, likewise, for every 10% of hitpoints Mob Z loses, the first warrior tank loses 15% of his hitpoints (in the 3 of Y group).
+
+Also notice that as we look at the 1 of X and 2 of Y group, the proportional difference between the ratios grows smaller, we move from the 2 to 3 of the pure Xâ€™s and pure Yâ€™s, to a 10 to 11.25. This is a closer battle, as 400 damage is dealt before the first person dies.
+
+The last case, in which there are 2 of X and 1 of Y, has transformed the losing battle, having a lower ratio than Mob Z, into a winning one, in which this scenario would net in the defeat of Mob Z before anyone would die. This group would be capable of dealing 500 damageÂ before the first person dies.
+
+Please notice how abusing a tank, with 50% more mitigation than the rogues, can generally allow you to deal far more damage per person. While both classes remain â€œbalancedâ€ against each other, creating group and solo environments in which you can temporarily alter your groups offense and defense ratio allows you to do a lot more damage. In the 3rd and 4th group, we see that the damage dealers â€œhideâ€ behind the mitigation of the tank, allowing them to deal massive amounts of damage, without being affected by their personal mitigation (which is balancingly much lower). By â€œtankingâ€ mobs, a group can alter each playerâ€™s ratio. Thus, this allows the group to have the mob channel all damage through a high defense tank, as if every person in the group had this defense, without each person in the group having the respectively balanced low offense capabilities of a tank. This is good example of a tremendously advantageous and quite simple way to abuse class diversity (even within the context of balanced classes).
+
+Tanking is a form of crowd control (usually used in groups, or Pet/Master relations). It changes the very nature and offense/defense ratios of a matchup. This is a common and effective strategy, one that gives true purpose to the warrior class.
+
+I will only go one step further in this group simulation, and I hope this next example will reflect the concept of tempo advantage and time-based applications of this offense/defense ratio within a group setting (which again is still quite applicable to solo fights). Let us pretend that Mob Z now has 750 hitpoints instead, and that everyone will fight until the death. How does this change the way in which we perceive the possible battles? Let us evaluate each group:
+
+So we could look at the teams as:
+
+3 of X=60 offenseÂ and 300 total defense
+
+3 of Y=30 offenseÂ and 600 total defense
+
+2x and 1y=50 offense and 400 total defense
+
+1x and 2y=40 offense and 500 total defense
+
+But, this doesn't take into account the stages of each fight. Start with the first group:
+
+3 of X= 300 damage before X1 dies, 200 damage before X2 dies, and 100 damage before X3 dies. They can deal 600 damage before they all die. 200 damage per person on average.
+
+Essentially, 60 damage per time unit, and 20 less per X that dies. As individuals are tanking, we can calculate addition group member as added damage behind the tanks defense. We would just calculate this as a series.
+
+20z + 750z defense
+
+Vs.
+
+20x+20x+20x andÂ 100/(1-0)+100/(1-0)+100/(1-0) Defense
+
+then
+
+20x+20x and 100/(1-0)+100/(1-0) Defense
+
+then
+20x offense andÂ 100/(1-0) defense
+
+This fight occurs in stages. The resulting equations will look like three separate fights, and that is because each player is dieing.
+
+Mob Z=750z/60x=12.5
+3 of X=100x/20z=5
+
+Here, the first rogue dies. 300 damage is dealt.
+
+Mob Z= 450z/40x=11.25
+2 of X=100x/20z=5
+
+Here, the second rogue dies. 200 damage is dealt.
+
+Mob Z=250z/20x=12.5
+1 of X=100x/20z=5
+
+Here the last rogue dies. Having dealt 100 damage, and the whole group has dealt 600 damage to the 750 hp Mob Z. Thus, the group will lose in this matchup.
+
+I wonâ€™t go through the calculations for the next fight, but the basic recap is that:
+
+3 of Y= 300 damage before Y1 dies, 200 damage before Y2 dies, and 100 damage before Y3 dies. They can deal 600 damage before they all die. 200 damage per person on average. The same as having 3 of X, they deal identical damage in the end. The only difference is that the 3 of X rogue fight takes 15 times units to deal all of its damage (before the weaklings die off), and 3 of Y takes 30 times units to deal all of its damage. But, as Y lasts longer because of mitigation, Y also takes longer to kill (in a balanced game at least). This abuse of spreading an opponentâ€™s offense over time units is exactly what creates the incentive to play a tank, as they become extremely useful in sustaining DPS behind those tempo advantages. As long as PvE exists, or when taunt/aggro/forced targeting spells and strategies can work in PvP settings, there will always be incentive to have tanks, thus I donâ€™t I donâ€™t feel bad as far as how long it may take for them to make the same kill as a rogue in a balanced game. Game devâ€™s have a tendancy to inappropriately boost tank offense capabilities out of sympathy concerning tempo advantages and the length of time required to solo, but also because most game devâ€™s actually play a tank themselves *cough. This imbalance, as we might see in WoW or post-Kunark EQ, is far more devastating. *cough
+
+For our last two group combinations:
+
+1 of X and 2 of Y= 400 damage before Y1 dies, 300 damage before Y2 dies, and 100 damage before X1 dies. They can deal 800 damage before the last player dies, at 266.66 damage per person.
+
+Mob Z=750z/40x=18.75
+1 of X and 2 of Y=100x/10z=10
+
+Here, the first warrior dies. 400 damage is dealt.
+
+Mob Z= 350z/30x=11.66
+1 of X and 1 of Y=100x/10z=10
+
+Here, the second warrior dies. 300 damage is dealt.
+
+Mob Z=50z/20x=2.5
+1 of X=100x/20z=5
+
+Ah ha!~ Finally!! After the two warriors have died, the rogue is fighting a 50hp mob that deals the same damage as he does (w/no mitigation). Thus, the rogue wins easily.
+
+2 of X and 1 of Y= 500 damage before Y1 dies, 200 damage before X1 dies, and 100 damage before X2 dies. They can deal 800 damage before they all die. 266.66 damage per person on average.
+
+Mob Z=750z/50x=15
+2 of X and 1 of Y=100x/10z=10
+
+Here, the first warrior dies. 500 damage is dealt.
+
+Mob Z= 250z/40x=6.25
+2 of X =100x/20z=5
+
+Here, the second warrior dies. 200 damage is dealt.
+
+Mob Z=50z/20x=2.5
+1 of X=100x/20z=5
+
+Again, like the previous 1 of X and 2 of Y, we are left with only the rogue making the kill. Notice how the ratios change dramatically as soon as the sole warrior dies. While this 2 of X and 1 of Y group dramatically loses mitigation, the 1 of X and 2 of Y group catches up in terms of ratio and overall damage.
+
+Be aware, that 2 of X and 1 of Y is capable of a burst 500 damage by the end of the life of that tank. This is far more effective and efficient than using 1 of X and 2 of Y, as the second tank hurts the group because he has traded low damage for high mitigation, but his trade in no way makes the group more effective until after the first tank dies. When we really evaluate the difference, we must ask whether we are going to need an offtank or not. Against single encounters, it is clearly best to stick to one tank (and keep him alive), as it allows the group to maximize DPS.
+
+There are further complexities in WoW, and those calculations will be beyond the scope of this article. I only hope to show how this sort of computation is foundational to understanding game balance and the role of a class. In part, this complexity is because WoW has a lot more variables to consider in the equation than just damage to tankability ratios. From only a damage to tankability standpoint, we could easily argue that warriors, at post-MC [edit: you can see how old this article really is...]Â gear clearly outdamage and outtank rogues, so why would you want to play a rogue (and this may be a valid argument in certain circumstances). Iâ€™m not saying theyâ€™ve balanced the game (you may see an upcoming article on what that would require, and what balance means), but I do see some fundamental principles that should be applied. Namely, we must continually add and calculate these many variables that apply towards our offensive and defensive ratios, and that the very core of an offense/defense ratio is universally calculable (however, complicated it may become).
+
+Please note that the procedures of calculating who should win the fight, whether it be solo or group-based, is based upon an identical foundation. The only difference is that group-based encounters have more complex calculations. This does not, however, take away from the fact that a group is composed of individuals, individuals that should also know their solo matchups, as you cannot calculate group-based encounters without first calculating the solo-based encounters. What does that mean? Learning to duel is fundamental to being a great PvPer. Can you win without doing this? Sure. But, against the best, youâ€™ll always lose without knowing your 1v1 matchups inside and out. (sorry, yet another small rant, as I hate when people say that dueling and PvP are unrelated, as it shows a lack of understanding as to how the game works)
+
+Thus far, I have only given you a rudimentary explanation of how and why one ought to think in terms of offense and defense. We can now begin to relate this to the role of the rogue and our original question. The gameâ€™s challenge is to know your role. You need to know which role you have, are you the controller or the attacker? Confusion of these roles will net you in a loss.
+
+In our previous examples, each group combination should have calculated the matchup (whether intuitively or mathematically), and known the best course of action. If they let the rogues tank, then it was a sure loss. Having too many rogues or too many warriors was a sure loss. These groups, and the members that compose the groups, have an opportunity to understand their roles, and have the tools to determine their effectiveness per situation because of calculable offense/defense ratios.
+
+The smart rogue, and the smart group, will ask, â€œHow can I change my offense/defense ratio such that, when I am engaged in combat with the opponent, my offense/defense ratio will be higher? A higher offense/defense ratio will net a win for the rogue (or group). Modifying this ratio is of the utmost important, and allows one to perform a role(s) more effectively.
+
+â€œUnderstanding your roleâ€ is demonstrated in the fight between a geared rogue and a naked rogue. If I let a rogue in even green armor fight a butt-naked rogue, and both use just simple auto-attack, the buffed rogue will win the vast majority of the time. The buffed rogue is more powerful because of gear, and consequently, he wins because he has higher offense and defense ratio as compared to the naked rogue.
+
+The buffed rogue will always want to sit and trade hits with a naked rogue, because he will always win. I repeat, the rogue with a higher offense/defense ratio will ALWAYS want to sit and trade hits with any opponent with a lower offense/defense ratio.
+
+Conversely, the naked rogue does not want to sit and trade hits with a buffed rogue because he will always lose. In order for the naked rogue to win, he must control the fight. Does this mean that a naked rogue canâ€™t beat a rogue in green armor? No way!! What it does mean is that unless the naked rogue does something other than just trade hits with the buffed rogue, basically, if he isnâ€™t controlling the fight, the naked rogue is always going to lose.
+
+In this case, the buffed rogue is the attacker! He WANTS to trade hits. He wants to make it so that the naked rogue is at the very least forced into positions where they can trade hits. The naked rogue, on the other hand, is the controller. The naked rogue must change the offense/defense ratios, through control, in order to win. So, each rogue must attempt to maintain their roles.
+
+And, at any point that the naked rogue would control his way into having a higher offense/defense ratio, thus becoming the attacker, the buffed rogue would immediately become the controller. An easy example of this switch would be if the naked rogue stunlocked the buffed rogue; the buffed rogue has ZERO offensive abilities until that stunlock is broken, thus the ratios are greatly in the naked stunlockerâ€™s favor. During that stunlock the buffed rogue becomes the controller. In this situation, the buffed rogue must use control measures to try and overcome the naked rogueâ€™s huge offense/defense ratio imbalance. A quick vanish/CS might do the trick, eh?
+
+Of course, the broken rogue vs rogue matchup may be a poor example in one way: A full stunlock against a rogue is almost unbreakable, save for a dodge/miss/parry (especially on Gouge). By this I mean, when the skilled naked rogue opens and stunlocks the buffed rogue, it is quite possible that there is a permanent loss in offensive and defensive abilities for the buffed rogue. Without a lapse in the stunlock, there is no chance for the buffed rogue to come back. In this case, an understanding of the metagame is extremely vital, as both classes are true controllers, as neither could possibly afford to lose control (â€¦blind, restealth, kill the rogue who opened on me, but didnâ€™t stunlock correctly). You still may not get my meaning. Think another problem as a rogue vs a warrior. The rogue stunlocks the warrior down to 20% health, stunlock breaks, and both just rush each other down. Most of the time the rogue is going to win, as the new offense/defense ratios from the end of the stunlock have dramatically changed. It is now a fight between a 20% defense warrior and a 100% defense rogue, even with an imbalance of ratios (as long as they arenâ€™t ridiculous), the rogue no longer must control the fight in order to win, as he can afford to simply trade hits with the warrior as an attacker (but, for cleaner fights, and guaranteed wins, it still may be best to control). Unlike fighting a warrior, losing control to a rogue as a rogue should mean that you immediately lose (assuming your opponent isnâ€™t retarded or unlucky). Thus, the metagame would force a rogue fighting a rogue to fight with control as the number one priority, allowing him to be the attacker only because it is required to maintain control (building combo points). Dealing damage in this particular matchup is almost a secondary effect that just happens to occur as a result of the controlling priority. I offer that there are matchups that a rogue doesnâ€™t have to control start to finish, but that they must be controlled in order to overcome initial and base metagame offense/defense ratios. Very few matchups in the game are like this. Usually, a player can always turn the tide of a battle back in his favor, but of course, only through control.
+
+All this talk about offense/defense ratios, and who is the attacker and controller, and what notâ€¦but what the IS crowd control?
+
+Crowd Control (also called CC) is the ability of one character to influence or prevent the abilities or actions of another character(s). Crowd control can be extremely powerful because possible future action trees can be completely eliminated. Thus, the Crowd control user (crowd controller or CCer) can control possible outcomes, forcing or controlling the opponent(s) to use an even fewer set of available abilities/actions as effectively. Used properly, traditional CC often renders an opponent(s) nearly useless, allowing the CCer to use abilities/actions against an opponent(s) without fear of retaliation or response.
+
+Crowd control also includes any ability that â€“influences-- an opponentâ€™s available future actions. This means that even changing the effectiveness of current and future actions should be considered crowd control. Any form of influence upon your opponentâ€™s offense/defense ratio as compared to yourâ€™s IS crowd control. I realize this is a broad definition, but when you get down to it, saying that only Polymorph, sap, or mez is crowd control simply shows a fundamental lack of understanding as to what those abilities mathematically entail. Let us not draw arbitrary lines. Crowd control is about â€œcontrollingâ€ or influencing your opponent, hopefully to your advantage.
+
+As much as you may fear this definition, the fact is that any action or passive ability beyond the normal offense and the normal defense influences the offense/defense ratios, possibly in such a way that your opponent will become the controller, as they may have a lower offense/defense ratio because of your action.
+
+Players use crowd control to create offense/defense ratio imbalances between themselves and their opponent(s). In a group setting, crowd control is often used to reduce the number of opponents that one has to fight at once, which makes combat safer, easier, or possible at all, it essentially creates offense/defense ratio imbalances further in favor of the group.
+
+To some extent, every class uses control. But, we will see that after a certain point, some classes rely upon influencing an opponentâ€™s future action trees more than others, in part due to innately low offense/defense ratios.
+
+At naked and green gear levels, as a rogueâ€™s offense/defense ratios peak in effectiveness and proportion to other classes, we are a true attacking class. Everything about a rogue is concerned with getting into melee range and sticking it to them. And, you know what?- we are pretty damn good at it. We maintain a quite respectable sustained base-offense through autoattack. By adding our abilities, which lack scalability (thus remaining more effective at lower gear levels), we can maintain a good offense/defense ratio.
+
+As everyone gears up, and as we calculate the offensive abilities of other classes, we see those ratios shifting. A rogue is still powerful enough to trade hits with most classes and win at this point. Only the warrior and shaman can naturally tank us successfully (as they, with abilities, have a higher offense/defense ratio). Druids in bear form, certain paladins, shadowpriests, soul link warlocks, and certain hunters can also tank us at times, but these are specific examples, and they are expending talent points and wearing a specific type of gear to have as high a base offense/defense ratio as any run-of-the-mill rogue. In most cases, the rogue, post-dps-ability calculation, has one of the highest offense/defense ratios. It would seem at face value (as I think Blizzard only looks at this), the rogue has little to complain about (meaning, if we look at the rogue in a shallow manner, we seem to have it pretty good). Unfortunately, I honestly donâ€™t think Blizzard understands the rogue class itself, because otherwise they would see why we are forced to stunlockâ€¦
+
+When you widen your focus, moving away from simple damage to tankability ratios, and you begin to include non-offensive (non-damage-type only) abilities into our offense/defense ratios, then the entire metagame changes. The multitude of fear, stun, root, snare, disarm, healing effects, anti-stealth capabilities, formal CC (sap, poly, seduce), and other effects create an environment that seems far more hostile to the rogue than to most other classes. That is to say, I believe crowd control is far more effective against a rogue, in general, than other classes, and consequently, the rogueâ€™s offense/defense ratios are easily neutralized, forcing the rogue to become the new controller.
+
+My major premise is that a rogue, post-metagame, has innately low offense/defense ratios. As a result, I am also arguing that the rogue, as he has an innately low offense/defense ratio post-metagame, is also the controller in the post-metagame. Even further, I am arguing that post-metagame, the game is imbalanced such that the rogue should lose. Remember: Game balance rests upon equivalent offense/defense ratios of current and future action trees given an equal amount of skill and effort. Although we may have the short-end-of-the-stick, we can make the best of it.
+
+What do I mean by metagame? It is the game after (outside) the game. Metagame is the prediction of how others will make decisions. Metagaming occurs when a player takes advantage of the metagame for purposes of winning more often. Essentially, through the knowledge and estimation of how other players will make decisions, and by anticipating their strategies, the metagamer can build his strategy designed specifically against his opponentâ€™s strategy (i.e. the metagame=your opponentâ€™s strategy). In good and balanced games, metagames will evolve continuously. There should always be a counter for an action; and a counter for that counter, and a counter for the counterâ€™s counter, and so on and so forth. But, certain overall strategies, like â€œtankingâ€ or â€œkitingâ€ have been so commonly powerful, that we refer to them as an archetype strategy. For example, I assume that classes that can kite will kite. Then, I respond to this archetype, and then my opponent responds to my response. We are in a continual state of re-evaluating the metagame, and always trying to anticipate our opponentsâ€™ strategies.
+
+Another point to understand, especially concerning evolving metagames, is that the choices available have always remained the same. You still always had the future action trees available; you just may not have used them. A good example of this would be an unskilled player who technically HAS the capacity to follow a certain action tree, but never will, maybe because they arenâ€™t skilled enough to realize which future actions in the tree are the best to use in the circumstances.
+
+Now, I said: My major premise is that a rogue, post-metagame, has innately low offense/defense ratios. By post-metagame, I mean the circumstances in which most all players have developed strategies based upon an evolving metagame. These archetypes and strategies are a pretty well set lineup of strategies (like pro-chess), tactics, plans of attack, and responses, in which we can quite easily anticipate what our opponent is going to do next. So, essentially, I mean to say that after most all people (of all classes) know their matchups, what exists now as the metagame, the rogue has a new and very low offense/defense ratio as compared to all other classes (a new ratio which is practically innate to the metagame).
+
+This idea of a post-metagame is interesting. It takes into account the actual offense/defense ratios available and probable per situation in a game. If we really want to look at what is actually occurring and really evaluate the balance-state of a game, we must evaluate each class and matchup per situation post-metagame. Clearly, that takes a lot of work. But, as it is calculable, it is at least possible to proveâ€¦
+
+The idea of group-metagames is further complicated. I donâ€™t expect us to have the resources to fully evaluate this metagame. But, as Blizzard contends that WoW will be a group-based PvP/PvE game, I think it would be fair that (as they certainly have the resources), they do the math behind this (which I highly doubt they have, as I donâ€™t see enough evidence suggesting theyâ€™ve even done it for the foundational 1v1 matchups).
+
+So, getting right to it (haha), the rogue is one of two classes that can only deal substantial damage while in melee range. Warriors are the other. But, as they have Hamstring (no need to apply poisons here), Charge, and Intercept, they are in an excellent position to glue themselves to an opponent, and prevent kiting. Kiting is the act by which a player (the kiter) will maintain distance between themselves and an opponent (that which is kited), such that the opponent cannot inflict damage (or inflicts less much damage as they normally would). Unlike the warrior, who has readily available, combat-usable, and highly appropriate anti-kiting measures not based upon talents or gear, the rogue has very few options. If an opponent is close enough, we can spend an expensive reagent to blind, hoping that we will catch up to the opponent before blind breaks (also on a long cd), and we are not guaranteed that we will actually catchup. We can vanish, which is on a long cooldown, and hope we catchup (which we wonâ€™t always). We can wait the duration of the root/snare spells, and hope we can catch up via sprint (assuming they didnâ€™t already go on horseback). We can also use Distract for that momentary non-combat anti-kite. Good old crippling poison, if applied beforehand, of course, is quite useful, assuming it isnâ€™t dispelled, resisted, and that it lasts long enough, but it requires that we had the opportunity to engage the opponent in the first place. Of course, these abilities can be used in conjunction with each other. But is it enough? Is it a fair use of my talents? Should I only be able to counter kiting methods every 5 minutes? If a class opens on me as a rogue, and kites correctly, I should always lose (even post-CD). This isnâ€™t the case for a warrior (or other classes).
+
+The rogueâ€™s offense/defense ratio is obliterated during a kite. We have limited, expensive, and unsubstantial anti-kite abilities. Now, surely youâ€™ll argue that stealth is the balancing feature. And, yes, Iâ€™ll admit that if I get the complete surprise attack from stealth, life is a million times harder for my opponent (not that they canâ€™t win). If my opponent knows Iâ€™m around them stealthed, then usually they are not only mentally prepared, but also have things they can do things to limit the effectiveness of stealth and the ability to deny my opener. Stealth just isnâ€™t that powerful, although it is a necessary part of attempting to balance that equation. Catching me out of stealth is an automatic loss against a skilled opponent (and if you donâ€™t think this, and you say you beat people all the time when they open on you, then you arenâ€™t fighting skilled opponents).
+
+Just basics: Priests can fear kite; warlocks can CoE, fear kite, seduce kite; Mages can poly kite, Frostbolt kite, Nova kite, Blink kite; rogues can crippling poison kite after engaging, Druids can root and catform kite; Shaman can frost-shock, ghost wolf, and earthbind totem kite, hunters can CS, WC, Trap, pet intimidate, SS, and AoC kite (good lord); Paladins can stun kite (as if they really need itâ€¦), and warriors can Hamstring kite (usually only good for an intercept).
+
+Hrmmâ€¦beyond just flat running away, every single class in this game has kiting abilities. That means every single class has an ability (or 6) that completely neutralizes a rogueâ€™s damage entirely through getting out of melee range. While I donâ€™t mind that every class seems to be a response to the warrior and rogue, I am concerned with the rogueâ€™s limited options. I could understand it more if vanish was a perfect stealth (even through damage) and usable every 30 seconds, or if sprint was guaranteed (pre-talents) to give us the possibility of catching up. The fact is: rogues lack good counters to other classesâ€™ counters to our damage. Iâ€™ve pretty much accepted that if I get deathcoiled by even a semi-retarded warlock, Iâ€™m probably going to die, even if I kill them first.
+
+Iâ€™ll give an example of post-metagame kiting which forces the original attack rogue to transform into a control class. Noteworthy, this assumes the hunter has no idea the rogue is thereâ€¦else it gets even worse.
+
+Pre-Metagame:
+
+Rogue Ambushes
+Hunter and pet engage rogue in melee
+Rogue has higher offense/defense ratio, the Rogue wins.
+
+The hunter is the controller, and cannot trade hits (for the most part).
+
+Post-Metagame:
+Rogue Ambushes.
+Hunter Scatter Shots, FD-Traps
+Rogue is Frozen, and possesses a zero ratio.
+Hunter begins the Kite: AoC, Lay trap on OOC, Mark, and Aimed shot followed by serpent sting on jumpshot to prevent vanish (and to abuse the current vanish bug, as sting would hit on vanish).
+Rogue sprints, and maybe eats trap, weâ€™ll assume he doesnâ€™t.
+Hunter jumpshot CSes on sprint. Sprint dies out, the Kite puts the rogue back at a zero ratio, and the Hunter wins.
+
+After we consider even a basic metagame evolution like this, you can see a huge difference. One in which the rogue, post-metagame, clearly cannot be an attacker. The new metagame strategy for the rogue is to begin as the controller. In the original metagame you see the rogue as the attacker. In the post-metagame (filled with kiting), the rogue is the controller (as he has been controlled/forced into a terrible ratio).
+
+Post-Post-metagame (with controlling rogue):
+Rogue links CS (SS/Hemo), Gouge, KS (unload), Blind (vanish for pet), CS (SS/Hemo), Gouge, KS (unload).
+Hunter has a zero offense, and thus a zero ratio for the duration of the fight.
+Rogue wins.
+
+Post-post-post-metagame (with hunter controlling):
+Rogue CSes
+Hunter Trinkets, SS, FD-Trap
+Etc. Hunter wins.
+
+With good timing and skill for each class, this is how it should always work.
+
+If the hunter knows the rogue is there, the metagame is a thousand times worse:
+
+Flare/Trap camping
+Hunter uses of consumables before fight (which rogue canâ€™t use stealthed, minus poisons)
+Rogue eats trap, maybe with a lucky sap on hunter, usually not.
+If not sapped, then GG, hunter wins.
+If sapped, then Hunter may or may not get the kite, regardless, trinket-SS-FD-trap will take care of it.
+
+Does this mean I always lose to hunters? No. I rarely do lose at all, but that has more to do with a lack of skill on the hunterâ€™s part. Hell, I often catch them with gouge on trinketâ€¦but, the hunter has a huge advantage, as he had the opportunity to spam Trinket-SS (1-second time frame, which doesnâ€™t require ping), while the time frame on my screen is 1-second + my ping. Thus, I shouldnâ€™t actually get my gouge off before SS hits me (unless I have some telepathic powers and I somehow know a second in advance when he will trinket-SS). And, if they are smart, and they trinket on KS, I lose right there. Regardless, why should my response have to be so fast, trying to catch someone on the spam? They can take their sweet time on CS or KS. Practical responses just donâ€™t exist. I will that that hunters can be killed, but we shouldnâ€™t be able to do it when you get right down to it.
+
+Now, nowâ€¦Iâ€™m sure every GM is going to tell you, well, the rogue has a â€œchoiceâ€ as to whether he will engage. And, Iâ€™m here to tell yaâ€™ that there isnâ€™t always choice. Metagames and balance arenâ€™t concerned with whether you feel like attacking the player. The question is: would you make it or not? What if you donâ€™t start the fight stealthed, and you get opened upon? What if I MUST cap an AB node against a single hunter in the next 30 seconds, in order for us to win, shouldnâ€™t I at least have a shot at winning? Opportunity does not always present itself. It is a piss-poor argument to say that we have choice, a lot of the time you donâ€™t.
+
+Iâ€™m always amazed by the oh-so infallible arguments Blizzard will give concerning game and class balance. The very fundamentals of group-based fighting are based upon the solo-based fights. Without a strict and completely balanced set of solo-based matchups, how in the world will group-based fighting be balanced? (Sorry, Iâ€™m rantingâ€¦) Show me the math! /rant off
+
+Soâ€¦â€¦How can rogues control the fight? Weâ€™ve already seen one way--gearing up.
+
+In a duel between two equally equipped rogues, the fight isnâ€™t much different than the pure naked fight. Sure, the offense and defense numbers have changed, but the ratios have not changed in comparison to each other. Both will still die, on average, at the same time. So, should you simply acquire more and more gear? At some point, gear will be equivalent across the board. Assuming you wasted enough time fighting PvE mobs in a game, and your opponents did as well, there will be no advantage to gearing up. Acquiring Gear, then is just another way to waste your time, it really says nothing about your skillâ€¦.but hey, if you want to compete on a more level playing field, gearing up may be necessary, so youâ€™ll probably need some of your own. Gear acts as a passive form of crowd control that increases your offense effectiveness while also influencing through limitations the effectiveness of your opponentâ€™s offense. But remember, that your objective is to win, not to tie, and gearing up will only give you a tie against an equally geared opponent.
+
+There are other obvious ways of increasing your offense/defense ratio. How about using abilities alongside auto-attack? In the base rogue vs rogue matchup, if one of the rogues started using SS/Evisc, he will surely win. You would notice that these basic damage abilities increase the rogueâ€™s overall DPS (damage per second offense), and thus the offense/defense ratio. Even a butt-naked rogue using SS/Evisc would defeat a buffed rogue. Conversely, given equal gear, if both rogues choose to use abilities alongside autoattack, then, again, there is a stalemate. If you wish, you may try to classify this as part of the base damage of the offense, and that may or may not be acceptable. But, the more you assume in the base, the more problematic it can become in calculating future action trees. It is best to think of this as influencing offense/defense ratios, and therefore, as a form of CC.
+
+Personally, I like to think of my energy, combo points, and any non-auto-attack abilities as a resource to spend and a convertible set of options in a future action tree. I would hate to limit myself to CS, SS, Gouge, KS in EVERY single fight, when sometimes a CS, SS, Eviscerate would be clearly more effective at the time. In reality, we must calculate future options based upon the current situation. Knowing whether you are the attacker or the controller, and whether you can actually win the fight or if you should suicide (*cough, unfortunately rogues have to deal with the latter quite often), is essential to understanding the current situation for when we decide which options would be best to choose and use. Thus, I would rather calculate non-auto-attack abilities in our offense/defense ratios per situation, as the use of the abilities varies per situation.
+
+Another elementary approach to crowd control is positioning. Positioning can be very powerful. For a rogue, it opens up other future action trees, like Ambush and Backstab, and generally allows the controller to deal damage an opponent without the opponent being able to deal damage to the controller, i.e. eliminating an opponentâ€™s future action trees involving melee damage. This is extremely powerful, but also extremely easy to counter. Becoming adept at positioning is one control feature that will allow you defeat certain opponentâ€™s, essentially through eliminating their future action trees. In strict PvE, positioning is always useful; but elsewhere, usually this form of control is not good enough.
+
+Stealthing can provide a number of control features, including positioning and the first hitâ€¦and also that wonderful element of surprise (a metagame issue). Stealthing innately changes your offense/defense ratios. Use it to your advantage; use it often, donâ€™t listen to retards that think you are cheap for restealthing multiple times during a fight. Ask them what cheap is? I doubt theyâ€™ll be able to give you a good answer, most likely it would be idiotic and arbitrary. Just remember: by using stealth you are influencing your opponentâ€™s future action trees through your control. If they canâ€™t see you, then they will have a harder time either damaging or controlling you.
+
+In the base rogue vs rogue matchup, stealthing is available to both players. Notice that each time one rogue in our base matchup becomes a controller, they quickly gain an advantage over the attacker. At first one person gained gear, and was winning, then both had gear, then one player use special attacks, and was winning, and so the other player used specials, etc. There is only so much on can do to bring up offensive ratings and passive defensive ratings. At some point, we have to use pro-active abilities to be the best controller of a fight. Essentially, if you are the controller, it is your job to create situations in which it is safe or safer for you to attack, such that your offense/defense ratio is higher than your opponents.The person with the higher offense/defense ratio is the attacker, the person with the lower is the controller. By controlling, these ratios change such that the controller will eventually be in a position to be the attacker, and the original attacker will want to be a controllerâ€¦..(post-metagame is would seem that everyone is a controller until the time is to be an attacker, but, it still boils down to when you should be attacking and when you should be controlling, the roles can change quite often).
+
+Buffs like evasion also influence the effectiveness of future melee action trees, and therefore act as a form of crowd control. I canâ€™t tell you how many times Iâ€™ve gone AR/BF/Evasion and rushed down 3-4 mobs that I would never have been able to solo otherwise. My offense/defense ratio skyrocketed to the point that I overcame the entire encounters offense/defense ratio.
+
+Even healing acts as a form of Crowd control as it directly influences offense/defense ratios. Healing equates to +X to your total defensive HP. Increasing the numerator in our equation immediately decreases the percentage of your defense that an opponent penetrates as opposed to the percentage of your opponentâ€™s defense that you would penetrate.
+
+Buffs, gear, healing, consumables, and positioning are all relatively basic control features that every class can use. I think we should evaluate, even if only for moment, some of the core pro-active control abilities of a rogue.
+
+Stealth, from a good distance, without a pet coming to attack you (â€œworking as intendedâ€ my ass), essentially eliminates the fight altogether. Even if your opponent knows you are there, the rogue is the only class that can effectively choose the matchup (beautiful for those who do the math). At a distance, and assuming the stealther will avoid detection and AEâ€™s, stealth puts all offense/defense ratios at zero.
+
+Now, of course, if a mage seeâ€™s you stealth right in his face, he still can nova you, and so future action trees still contain the possibility of non-zero offense/defense ratios. The same would go for players with extremely high stealth detection. This, like all of the calculations of stealth, rests upon player reactions a great deal. I canâ€™t tell you how many times Iâ€™ll CS, Gouge, Evisc on a mage and heâ€™ll blink/poly, Iâ€™ll vanish, and he had the opportunity to CoC me out of stealth right in front of himâ€¦but he forgot. It may be best to simply calculate the fact that the mage did have the chance to CoC or Blizzard, or what not, but on average, only 20% would do itâ€¦Something along those lines might be best. I still maintain this is quantifiable and calculable; it may come down to just a question of practicality for us mortals who actually play the game (as opposed to devs).
+
+In many cases your opponent wonâ€™t even know your there. And, this may be one of the harder calculations in the game to make, primarily because it abuses the actual players reaction to a surprise attack. Catching a cold-blooded hardcore pvper with a surprise attack might not mean anything different in the calculations; they may have practiced this a thousand times, and may react as if it were a normal thing (as if they were preparedâ€¦which they would be technically). Catching someone totally offguard, like ganking in IF (where they donâ€™t expect it), might net you a victory you normally wouldnâ€™t have won if the opponent had been more mentally prepared, as in the case of a duel. In this case, offense/defense ratios will vary based upon a micro-metagame, ranging from fighting an AFK player with zero offense/defense potential to a shadowpriest that trinket/fears you into some guards and meltz your face with their maximum (or even higher because of guards) offense/defense potential.
+
+Distract has be to be one of my favorite abilities (while imp. Distract talent had to be the most useless one Iâ€™d ever seen). I always laugh when someone loses in a duel simply because of a silly thing like distract; who would have thought it was so useful? This is strictly a positional debuff, but it can also be used to stop someone dead in their tracks, and depending on their reaction time, it can be used as a non-combat anti-kiting tool. Like stealth, this can have a lot to do with how an opponent reacts.
+
+There are two best case scenarios for Distract.
+
+1.) You are attempting to get around a mob that you would otherwise be forced to engage, and thus acting as a complete elimination of an opponentâ€™s offense/defense
+
+2.) You need to catchup to that darn player that running from you to open, maybe heâ€™s a flag carrier or something. Distract will increase your practically zero offense/defense ratio to your normal engaged offense/defense ratio against an opponent (assuming you regen 30e before you reach them, otherwise that must be calculated as well).
+
+Sap is clear and formal crowd control. It is the ability to completely eliminate an opponent from combat. Gotta cap an AB node with 2 people? Sap one, kill the other. You transformed the Groupâ€™s two-person offense/defense ratio to one personâ€™s offense/defense ratio for approx. 15 seconds. With thistle tea, you may just win =). This is an easy to calculate tempo advantage.
+
+Gouge is the odd ball, and certainly one of the most underused abilities a rogue has. Most rogues get the imp. Gouge, and for good reason. If you wait for gougeâ€™s entire effect, it is nearly a free combo point. At the very least gouge can interrupt spells. Here is why gouge is fantastic:
+
+Gouge=45e=4 seconds of incapacitate (any damage will break it) + 1 combo point.
+
+Essentially, waiting 4 seconds is 2 ticks of energy, and you get 40e back. That means, If you wait for the full effect:
+
+Gouge=45e=4 seconds of incapacitate + 1 combo point + 40e. Making the cost 5e in the endâ€¦5e for 4 seconds to do what you need to do and 1 combo point? Amazing.
+
+By improving it we get:
+
+Gouge=45e=5.5 seconds of incapacitate + 1 combo point + 40-60energy (75% of the time it will be 3 ticks). This makes a great skill even better.
+
+Waiting for gouge can be a good or a bad thing clearly. If the mob is DoTed, and it takes damage upon gouge, then you spent 45e for one combo point (and technically the crit chance for SF, if you are specced for it). But, in most cases where you have some time, gouge is a means of escaping (for kite), preventing a spell cast, proccing SF, a free combo point (hard to pass up), actually generating more energy than it costs, and is a great lead-in for Kidney Shot.
+
+Even in solo PvE, assuming you donâ€™t have adds, this skill is always worth using every 15 seconds. It is true tempo advantage. You benefit from a combo point and up to +15 energy at the cost of nothing! You and your opponent just sit there, and you reap the rewards while your opponent does not. You are one combo point and 15 energy ahead of where you were before you used gouge, and your opponent is still where they were from the beginning. This is tempo advantage.
+
+Blind is what makes the rogue a viable class in the upper-echelon metagames. Blind does what vanish cannot (assuming blind lasts). Blind is a free restealth, it is 10 seconds to kite, it is a FULL bar of energy regeneration, and it interrupts spell casting from a distance. It is the only answer to so many problems the rogue hasâ€¦and it is the best link between stunlocks a rogue could ask for. In my opinion, this is the best control spell a rogue possesses. I can take multiples with this spell just by shifting targets, I can escape from the inescapable, and I maintain control (which is everything to a rogue). Usually stunlockers have points left over post-KS, and if they are pro, they can EA through Blind, restealth, and boom ;P restart on an EAâ€™d targeted. Although, with the reagent cost, this should be spammableâ€¦Otherwise, with a 5-min CD, wtf is there a reagent cost for?
+
+Blind=30e + reagent on 5min CD= EA, 10 seconds to bandage, restealth, apply poisons, run away, /dance, link stunlocks together, the only true and lengthy combat-usable elimination control spell, the only range ability of value, the best answer to a kite, and enough time to eat a slice of pizza (gobble, gobble, gobble).
+
+This has numerous repercussions on the offense/defense ratios. It is versatile and powerful (and rogues need it).
+
+Vanish is similar to blind in its power. Vanish does what Blind cannot do. It is an AE elimination of the rogueâ€™s offense/defense ratios from combat equations. There are of course preconditions to use, a few counters to it, and hellaâ€™ bugs. But, I love this spell. (Vanish + Blind=Prep is the best talent a rogue can have). Vanish allows a rogue to re-open at any point in a fight, and sometimes that is exactly what you need. Blind requires you have the actual 10 seconds to wait, vanish doesnâ€™t. While vanish isnâ€™t versatile in all the same respects as Blind, it immediately changes a rogueâ€™s offense/defense ratioâ€™s back to stealthed ratios.
+
+And why is restealthing so freaking awesome if you are going to opening? Cheapshot.
+
+Cheapshot is ridiculously good. This is the greatest ability a rogue has in his arsenal. Even if it was only 60energy for 2-3 combo points that would make it the best combo point generator in the game. But, on top of that 60 energy (which can be brought down to 40e with talents), a rogue can benefits from 4 solid seconds of stun. 4 seconds of true stun. Like gouge, Cheapshot almost pays for itself, you gain 40energy back making it cost anywhere from 0-20 energy.
+
+CS=40/60 energy=4 seconds of stun, +2-3 combo points (depending on talents), and +40 energy.
+
+A true stun presents the occasion in which the stunner may act upon his opponent in any way, shape, or form, without fear of reprisal. I consider this the king of crowd control. Would you rather have a 10 second polymorph or a 10 second stun? Why? You can beat on the stunned opponent!!
+
+On my rogue (+2 DD foâ€™ shoâ€™), CS is a FREE +2-3 combo points with 4 seconds of white damage. I sit at about 150 white DPS, easily 600 damage and +2-3 combo all for free? Ambush costs 60energy more, and although it deals its damage instantly, it lacks control and real damage in the end. My CS, Hemo, Evisc is worlds more damage than Ambushing (w/talents).
+
+CS is the real deal. Only the mage class should be ambushed (if specced for it) as opposed to CS. And, we certainly have the tools to express the equation for why this is the case. (Darn you blink!)
+
+And, finally, my absolute favorite rogue control ability: Kidney Shot.
+
+KS=25e or 0e w/Relentless Strikes=2-6 seconds of stun + 60% chance of combo point with talents + 20-60energy
+
+You pretty much always finish with atleast a 3-5 point KS. For the time, Iâ€™ll speak of KS as a 5 pointer. So what is KS? KS is 6 seconds TIME. Time my friend is the greatest influence upon offense/defense ratios one can have. Tempo advantage is a direct boost to future offense/defense ratios. In fact, it is the equivalent of applying your offense/defense ratio to an opponent, without them applying anything to you.
+
+A 5-point KS is 6 seconds of white damage, +60 energy to spend, possibly an extra combo point, and whatever else you want to do. Thank you Blizzard for this ability. KS, like CS, is a true stun. Only, it is combat usable (unlike CS which requires stealth).
+
+KS is THE skill to use when possible. It is superior to eviscerate in so many ways. 6 seconds of white=900 damage + 60 energy. Even in groups one should consider KS over eviscerate. It might lower your damage meters, but it will certainly have a much more profound impact on a rogueâ€™s or groupâ€™s overall offense/defense ratios. Imp KS leads me to believe that Blizzard understands what KS might mean to some extent, and although I donâ€™t advocate investing in Imp KS, I do think this is the best finisher available to a rogue.
+
+A 6 second Kidney shot means you have, with the exception of trinkets, eliminated an opponentâ€™s future action trees over the next 6 seconds, while simultaneously opening up most all of your future action trees for 6 seconds. For most rogues, this means that you will deal 6 seconds of white damage, gain some positioning, blow some cooldowns, and deal some damage from special attacks, all for free! KS is the goto finisher
+
+I wonâ€™t bore you with possible stunlocks. But, we can at least understand the offense/defense ratio transformations. The essential feature of the stunlock, is that control abilities are linked together in such a way that most or all actions of an opponent are prevented.
+
+Stunlocks are tempo advantage. They are the only good way a rogue has to improve his offense/defense ratio. This is almost entirely a rogue strategy, and it is the only thing that seperates us from becoming useless. Stunlocking, even if only a softlock, gives the rogue the advantage he needs. Stunlocking puts your opponent in a prison. We can torture them, even if it is slower than ambush/BS, without fear of becoming controlled ourselves.
+
+Stunlocking creates the opportunity for a rogue to become the attacker.
+
+A rogue that doesnâ€™t choose to stunlock, and instead chooses to play as just an attacker, will not have as much control over an opponentâ€™s future action trees. Consequently, most skilled opponents, having realized the rogues fatal error, will have a response that will control the fight in their favor.
+
+Think before you fight! ;P Make yourself useful; Be a pro-active controller; stunlock for the win.
+
+&lt;span class=&quot;postbody&quot;&gt;The basic summary:&lt;/span&gt;
+
+1.) Classes with innately lower offense/defense ratios must play as the controller against classes with higher offense/defense ratios.
+2.) The rogue has one of the lowest innate post-metagame offense/defense ratios.
+Thus:
+3.) The rogue must play as the controller against most classes in the game.
+
+Conclusion:
+
+There are billions of calculations possible. And, thinking in these terms is a daunting task. Most players simply use experience and intuition as their guide. And, for most, that is fine. Many couldnâ€™t be concerned with character balance or optimal strategies. Good for them! For anyone who does care about fairness and strategy, you should be crunching the numbersâ€¦starting with the offense/defense ratio. We should all develop that: â€œShow me the Math or be quiet,â€ mentality.
+
+At surface value, the article may have presented nothing new for you to actually USE it in combat. But, the point of the article is for us to become capable of justifying our actions mathematically.
+
+And, with this sort of thinking, we are in a MUCH better position to explain why a Naxx Warrior eliminates some of the utility and significance of a Naxx rogue (in PvE of course). Showing the math behind offense/defense ratios of encounters gives insputable evidence about why:
+
+A class is imbalanced?
+One strategy is stronger than another?
+Which gear is best to wear?
+Which build is best to use?
+Etcâ€¦..
+
+I think that the majority of players and even the devâ€™s lack a good conception of the very fabric and genetic structure of these games. In an attempt to fix that, I wrote this article hoping to present strong case for not only crunching the numbers (in every aspect of the game), but also the reasoning behind why a rogue is a control class, and why rogues should be stunlocking. Maybe you learned something, maybe you didnâ€™t. Hope you didnâ€™t fall asleep too many times! =)

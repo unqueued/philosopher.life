@@ -1,47 +1,28 @@
-caption: OG Pin
 created: 20171017013321540
-creator: h0p3
-modified: 20190717203206748
-modifier: h0p3
+modified: 20180513185554563
 revision: 0
-tags: Pins
+tags: $:/tags/SideBar
 title: Pin
 type: text/vnd.tiddlywiki
 
-[[/b/: Digital Blackboard]]:
+[[{Home}]]
 
-* [[Shopping List]]
-* [[CL Sell]]
+* {[[About|About, a.k.a. The Opening of the Rabbit Hole]]}
+* {[[Principles|Principles of Programming Myself]]}
+* {[[Focus|Current Focus of h0p3's Wiki]]}
+** [[Transclusion: Focus]]
+* {[[Vault|The Vault of h0p3]]}
+* {[[Dreams|Dreams of h0p3]]}
+** [[Transclusion: Dreams]]
 
-[[@]] & [[FTO]]:
+[[Pin]]s:
 
-* [[Offline Users]]
-* [[We Could Probably Be Friends]]
-* [[Keeping An Eye On]]
-* [[FTO: Ping]]
-* [[Links: Keyword Hunting]]
-* [[Le Reddit Log: Jibberjabber]]
-
-[[Alias]], [[hlexicon]], et al.:
-
-* [[Nifty Word|https://www.niftyword.com/]]
-* [[Urban Thesaurus|https://urbanthesaurus.org/]]
-* [[OneLook|https://www.onelook.com/]]
-* [[Ludvig Sentence Search Engine|https://ludwig.guru/]]
-* [[Peculiar Concepts and Phrasemes]]
-
-[[Wiki Mechanic]]s & Construction:
-
-* [[The Remodeling]]
-* [[Wiki: Transplant]]
 * [[Wiki: Directory File Structure Template]]
-* [[Wiki Audit: Purged]]
-* [[Wiki Audit: Dude, Where's My Tiddler?]]
-* [[Wiki: Tools]]
-* [[Wiki: Tiddlers of Note]]
-* [[Tiddlywiki Howto: Filter Expression]]
-* [[TW: Cheatsheet]]
-* [[Firmcoding Macros]]
-* [[Wiki: Chromium Setup]]
-** [[Text Blaze]]
-** [[Auto Text Expander]]
+* [[Current Stack Example]]
+* [[Script Collection]]
+* [[One-Line CLI Wonders]]
+
+Calendar:
+
+* [[Daily Wiki Experiment]]
+** End date of experiment: 13.06.2018

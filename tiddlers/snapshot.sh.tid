@@ -1,0 +1,74 @@
+created: 20171216013246862
+modified: 20180421184011964
+revision: 0
+title: snapshot.sh
+type: text/vnd.tiddlywiki
+
+```bash
+#!/bin/bash
+
+# Nightly Snapshot Git Commit+Push
+
+# Fuck you, crontab!
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:~/bin
+
+# logfile timestamp
+date +"%Y.%m.%d-%T" #Getting the date/time
+
+# Git
+TIME=`date +20%y.%m.%d` #The date, for the name of the folder
+H0P3=$TIME-h0p3.wiki-index.html #Name of said folder
+J3D1H=$TIME-j3d1h.wiki-index.html
+LUXB0X=$TIME-1uxb0x.wiki-index.html
+K0SH3K=$TIME-k0sh3k.wiki-index.html
+
+cd /home/h0p3/Syncs/Dropbox/philosopher.life/var-www-html #cd into the folder, so the path won't show
+git add index.html #Add the html file
+git add index.html.sum #Add the checksum
+git add index.html.sig #Add the signature
+
+git commit -m "$H0P3" #Creating a commit
+
+git push https://m6ram:password@github.com/m6ram/h0p3s-wiki #Push to GitHub
+
+###
+
+cd /home/h0p3/Syncs/jedihacker.life
+git add index.html
+
+git commit -m "$J3D1H"
+
+git push https://m6ram:password@github.com/m6ram/j3d1hs-wiki
+
+###
+
+cd /home/h0p3/Syncs/kokonut.life
+git add index.html
+
+git commit -m "$LUXB0X"
+
+git push https://m6ram:password@github.com/m6ram/1uxb0xs-wiki
+
+###
+
+cd /home/h0p3/Syncs/bookwyrm.life
+git add index.html
+
+git commit -m "$K0SH3K"
+
+git push https://m6ram:password@github.com/m6ram/k0sh3ks-wiki
+
+### Daily Backup Snapshot of index.html
+# Vars
+FILENAME=$TIME-h0p3.wiki-index.html
+SRCDIR=/home/h0p3/Syncs/Dropbox/philosopher.life/var-www-html
+DESDIR=/home/h0p3/Syncs/Dropbox/philosopher.life/Daily-Snapshots
+# Copy and compress
+cp -f $SRCDIR/index.html $DESDIR/$FILENAME
+cd $DESDIR
+bzip2 -f -9 $FILENAME
+
+### IPFS Update
+#sleep 2s
+#ipfs name publish $(ipfs add -r -Q ~/Syncs/Wiki/Daily-Snapshots)
+```

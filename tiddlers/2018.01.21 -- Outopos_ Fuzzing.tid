@@ -1,0 +1,9 @@
+created: 20180121162103409
+modified: 20180121162128299
+revision: 0
+title: 2018.01.21 -- Outopos: Fuzzing
+type: text/vnd.tiddlywiki
+
+We should fuzz the Atropos protocol and the Outopos application built on top. That should be part of our testing regime. 
+
+* http://blog.swiecki.net/2018/01/fuzzing-tcp-servers.html

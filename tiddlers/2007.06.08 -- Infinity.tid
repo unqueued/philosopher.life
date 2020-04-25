@@ -1,0 +1,130 @@
+created: 20170313040459006
+modified: 20170313040504770
+revision: 0
+title: 2007.06.08 -- Infinity
+
+‘Did you know there are numerical concepts larger than than Infinity??’ (At least, mathematicians think so…)
+
+You certainly wouldn’t expect this to be the case, after all–You can’t “add” anything to infinity. That is part of its meaning–unbounded. The natural question to ask is:
+
+Can one infinity be larger than another? The answer, according to mathematicians, is No. Why is this true?
+
+An older demonstration of the infinity principle is the Hotel example.
+
+In a hotel with a finite number of rooms, it is clear that once it is full, no more guests can be accommodated. Now, imagine a hotel with an infinite number of rooms. One might assume that the same problem will arise when an infinite number of guests come along and all the rooms are occupied. However, in an infinite hotel, the situations “every room is occupied” and “no more guests can be accommodated” do not turn out to be equivalent. There is a way to solve the problem: if you move the guest occupying room 1 to room 2, the guest occupying room 2 to room 3, etc., you can fit the newcomer into room 1.
+
+Additionally, you can solve this problem by just matching infinite sets.
+
+Take as an example the set of positive integers N={1,2,3,…}. These natural numbers are like a ray, they start at one and continue infinitely. What if I took half of those numbers, for example, all positive even integers E={2,4,6,…}, which is also an infinite set, would E be 1/2 N? Intuitively, you might think so. You might visualize a pseudo-ray of N, in which every other point is missing. So, how could infinity be 1/2 of infinity? We find that Infinity divided by 2 is nearly meaningless because it is definitionally non-divisible. How can we say that E/2=N and also N/E unless N and/or E=0?
+
+The way to solve the issues of whether or not one infinity can be larger than another is through the lens in which we comprehend infinity. Infinity isn’t just any number. Unlike other numbers, the way to think about Infinity is simply to understand it as a repeating process. It is:
+
+Step 1: A+1-> A (the new and improved variable)
+Step 2: Go back to step 1
+
+Clearly, infinity doesn’t follow the same rules as a finite number at all. In order to answer questions about infinity, we’ll need to think in terms of steps and patterns as well.
+
+Infinity retains one very important characteristic: infinity remains countable (theoretically), and this is why mathematicians think Infinite + Infinity = Infinity and how Infinity / 2 = Infinity.
+
+Notice that we can just compare the two sets N and E.
+
+N->E
+
+1->2
+2->4
+3->6
+….
+
+Here is a pattern that describes the numerical concept of infinity. It also explains, at least in the minds of mathematicians, how one infinity cannot be larger or smaller than another infinity.
+
+N’s Size of Infinity=
+
+S1: N + 1->N
+S2: Go back to S1
+
+E’s Size of Infinity=
+
+S1: E + 0.5->E
+S2: Go back to S1
+
+If you could count either set in any meaningful way, you’d get the same as size the other infinite set as well. Thus, even though N/2=E, the size of N=E. This is the size of a countable infinity, which is denoted by the ability to systematically associate each element in an infinite set to an element in the natural infinite set.
+
+It would appear that every element in any infinte sequence could be systematically associated, in a one-to-one correspondence, with an element on the natural infinite set. Thus, if it is infinitely large, it is purely infinitely large.
+
+However, mathematicians believe there remain numerical concepts larger than infinity. Remember, the lens from which we understand the number infinity allows us to think in terms of patterns and processes. For a number to be “larger” than infinity, requires that a set of numbers be larger than a countable infinite set which rests upon the backbone of that initial “infinity” pattern.
+
+(Cardinality enters the room)
+
+Can you make sets that don’t do this?
+
+1->A
+2->B
+3->C
+
+….
+
+The answer may be yes. And, it is here that infinity is supposedly belittled. The uncountable is larger than the unbounded. Georg (no “e”) Cantor offered us some interesting proofs about it:
+
+Cantor’s most well known proof considers an infinite sequence of the form (x1, x2, x3, …) where each element xi is either 0 or 1.
+
+Consider any infinite listing of some of these sequences. We might have for instance:
+
+s1 = (0, 0, 0, 0, 0, 0, 0, …)
+s2 = (1, 1, 1, 1, 1, 1, 1, …)
+s3 = (0, 1, 0, 1, 0, 1, 0, …)
+s4 = (1, 0, 1, 0, 1, 0, 1, …)
+s5 = (1, 1, 0, 1, 0, 1, 1, …)
+s6 = (0, 0, 1, 1, 0, 1, 1, …)
+s7 = (1, 0, 0, 0, 1, 0, 0, …)
+…
+And in general we shall write
+
+sn = (sn,1, sn,2, sn,3, sn,4, …)
+that is to say, sn,m is the mth element of the nth sequence on the list.
+
+It is possible to build a sequence of elements s0 in such a way that its first element is different from the first element of the first sequence in the list, its second element is different from the second element of the second sequence in the list, and, in general, its nth element is different from the nth element of the nth sequence in the list. That is to say, s0,m will be 0 if sm,m is 1, and s0,m will be 1 if sm,m is 0. For instance:
+
+s1 = (0, 0, 0, 0, 0, 0, 0, …)
+s2 = (1, 1, 1, 1, 1, 1, 1, …)
+s3 = (0, 1, 0, 1, 0, 1, 0, …)
+s4 = (1, 0, 1, 0, 1, 0, 1, …)
+s5 = (1, 1, 0, 1, 0, 1, 1, …)
+s6 = (0, 0, 1, 1, 0, 1, 1, …)
+s7 = (1, 0, 0, 0, 1, 0, 0, …)
+…
+s0 = (1, 0, 1, 1, 1, 0, 1, …)
+(The elements s1,1, s2,2, s3,3, and so on, are here highlighted, showing the origin of the name “diagonal argument”. Note that the highlighted element in s0 is in every case different from the highlighted element in the table above it.)
+
+Therefore it may be seen that this new sequence s0 is distinct from all the sequences in the list. This follows from the fact that if it were identical to, say, the 10th sequence in the list, then we would have s0,10 = s10,10. In general, if it appeared as the nth sequence on the list, we would have s0,n = sn,n, which, due to the construction of s0, is impossible.
+
+From this it follows that the set T, consisting of all infinite sequences of zeros and ones, cannot be put into a list s1, s2, s3, … Otherwise, it would be possible by the above process to construct a sequence s0 which would both be in T (because it is a sequence of 0’s and 1’s which is by the definition of T in T) and at the same time not in T (because we can deliberately construct it not to be in the list). T, containing all such sequences, must contain s0, which is just such a sequence. But since s0 does not appear anywhere on the list, T cannot contain s0.
+
+Therefore T cannot be placed in one-to-one correspondence with the natural numbers. In other words, it is uncountable.
+
+Such a ‘proof’ of an uncountable number would seem to overcome, in size, the pattern we think of as infinity. But, doesn’t this all seem like cheating? The proof appears to defeat infinity in name only.
+
+Surely one could see that we are using a pattern that is definitionally non-associable, it is always one step ahead. It is saying, infinite sequences can never reach this sequence because this pattern is designed to be “larger” and unmatchable via a pattern. It should be perfectly obvious that an infinite set of all possible sequences of all possible combinations of infinite elements MUST match any such sequence of infinite elements….That is part of the definition of infinite set.
+
+Here is the size of the ‘uncountable’ pattern I see:
+
+Step 1: Infinity (step 1: A+1= [new] A, Repeat step 1) * Infinity=A
+
+Step 2: A + 1->A.
+
+Step 3: Repeat step 2
+
+I think of it as a computer, with only so much processing power. In this in instance, it would require that either infinite sequences or infinite elements were assumed, and we were computing the other. Insofar as we are forced to compute, the uncountable number is larger simply in virtue of having started at an assumed larger number in the computation.
+
+Technically, if a computer had infinite processing power, it would possess all possible combinations of sequences/elements, including the supposed ‘uncountable’…It is only through the understanding of a limited computing resources can we say that, following these steps, an uncountable type number is always larger than infinity.
+
+I realize that most don’t see infinity as something to be understood as a “computable” number…but this is EXACTLY what we mean when we say it is a “countable” number..
+
+The uncountable number either makes patterns that are simply “infinite + 1″ (or similar) larger than infinity, as they definitionally are larger and “unmatchable” in the creation of their computable pattern, or the uncountable number is nonsensical.
+
+It all boils down to this. Infinity is understood as a pattern (steps). The only way to understand how other infinities are not larger or smaller than other infinities is through a pattern solution (1-for-1 comparison). Ironically, the only way to say something is larger than infinity is to have an initial pattern (steps) that pre-emptively begs the question by saying it is “larger” than infinity, so that it be larger in the pattern solution (1-for-1 comparison).
+
+Uncountable numbers beg the question of being larger than infinity, but they don’t prove it. You already had to assume the (step) pattern of uncountable numbers to be larger than infinity before you could conclude the pattern solution (1-for-1 comparison). This doesn’t mean that the uncountable number (essentially, Infinite + 1> Infinity) isn’t real or true; I’m just pointing at that we are back where we started….Can only infinity be larger than another in a meaningful sense?
+
+The computational answer does seem to me to suggest it very well could be…
+
+So, I ask, do you think something can be larger than infinity? Show me why or why not.

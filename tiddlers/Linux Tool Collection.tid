@@ -1,0 +1,131 @@
+created: 20171216015037949
+modified: 20180513213021840
+revision: 0
+title: Linux Tool Collection
+
+!! CLI:
+
+* Always
+** Particulars
+*** iotop
+*** smem
+*** lftp
+*** tldr
+*** w3m
+*** mc
+*** htop
+*** ncdu
+*** bmon
+*** nethogs
+*** mtr
+*** sshuttle
+*** discus
+*** byobu
+*** dtrx
+*** inxi
+*** sshfs
+*** unrar
+*** Compilers & Interpreters
+**** xonsh
+*** Package-managers
+**** snap
+**** pip
+**** pip3
+**** npm
+** One-Liner (requires fixing per distro)
+*** iotop smem lftp tldr w3m mc htop ncdu bmon nethogs mtr sshuttle xonsh discus byobu dtrx inxi sshfs unrar snap pip pip3 npm
+** 3rd-Party-Repository Suggested/Required
+*** resilio-sync
+** Unique Scripts:
+*** [[lussh]]
+** Just Compile & Install It Yourself
+*** vpncloud.rs
+
+* Sometimes
+** Particulars
+*** neovim
+*** weechat
+*** finch
+*** toxic
+*** firetools
+*** aria2
+*** mbox-git
+*** Compilers & Interpreters
+**** rust
+**** golang
+** One-Liner (requires fixing per distro)
+*** neovim weechat finch toxic firetools aria2
+
+* Pip
+** Particulars
+*** hashfile
+*** pynacl
+*** pyperclip
+*** when-changed
+*** py-figlet
+** One-Liner (requires fixing per distro)
+*** hashfile pynacl pyperclip when-changed py-figlet
+
+
+!! GUI:
+
+* Always
+** Particulars
+*** keepassxc
+*** chromium
+*** firefox-developer-edition
+*** pidgin
+**** pidgin-otr
+*** qtox
+*** filezilla
+*** hexchat
+*** vlc
+*** gimp
+*** calibre
+*** networkmanager-openvpn 
+*** truecrypt
+*** p7zip-gui
+*** sublime-text2
+*** visual-studio-code-bin
+*** synkron
+*** nomachine
+*** qbittorrent
+** One-Liner (requires fixing per distro)
+*** keepassxc chromium firefox-developer-edition pidgin pidgin-otr qtox filezilla hexchat vlc gimp calibre networkmanager-openvpn truecrypt p7zip-gui sublime-text2 visual-studio-code-bin synkron nomachine qbittorrent
+** 3rd-Party-Repository Suggested/Required
+*** kodi
+
+* Sometimes
+** Particulars
+*** playonlinux
+*** steam-native
+*** SUSE Studio Imagewriter
+*** teamviewer-beta
+*** dropbox
+*** cockatrice-client
+*** soulseekqt
+*** quickhash-gui-bin
+*** discord
+*** amule-git
+*** vmware-workstation
+*** virtualbox
+*** furiusisomount
+** One-Liner (requires fixing per distro)
+*** playonlinux steam-native suse-stuido-imagewriter teamviewer-beta dropbox cockatrice-client soulseekqt quickhash-gui-bin discord amule-git vmware-workstation virtualbox furiusisomount
+
+
+
+
+!! Dreams:
+
+* Strong Candidates
+** [[Ratox]]
+
+* Maybes
+** cmus
+** mpd+ncmpcpp
+** http://jrnl.sh/
+** nnn
+** keysniffer
+** ranger
+** mutt + offlineimap + notmuch

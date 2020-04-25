@@ -1,18 +1,17 @@
 created: 20180102185404104
-modified: 20190705034350721
+modified: 20180114040308100
 revision: 0
-tags: Steganography
 title: Invisign
 
 These seem to very roughly ordered from the most steganographic to the least.
 
 ```
-Te​​​​​​​​​​st - Zero Width Space
-Te‌‌‌‌‌‌‌‌‌‌st - Zero Width Non-Joiner
-Te‍‍‍‍‍‍‍‍‍‍st - Zero Width Joiner
-Te﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿st - Zero Width Non-Breaking Space
-Te⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠st - Word Joiner
-Te᠎᠎᠎᠎᠎᠎᠎᠎᠎᠎st - Mongolian Vowel Seperator
+Te​​​​​​​​​​st -- Zero Width Space
+Te‌‌‌‌‌‌‌‌‌‌st -- Zero Width Non-Joiner
+Te‍‍‍‍‍‍‍‍‍‍st -- Zero Width Joiner
+Te﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿st -- Zero Width Non-Breaking Space
+Te⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠st -- Word Joiner
+Te᠎᠎᠎᠎᠎᠎᠎᠎᠎᠎st -- Mongolian Vowel Seperator
 ```
 
 ```

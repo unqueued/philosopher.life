@@ -1,0 +1,103 @@
+created: 20171130185805983
+modified: 20180330155240908
+revision: 0
+title: Script Collection
+type: text/vnd.tiddlywiki
+
+!! About:
+
+//Make no mistake, I am your Useless Skiddie God.//
+
+Scripts make life easier for a skidiot like me. I need to collect tools that make my life easier, and I need to be continually building them. Instead of making walkthroughs for myself, I'd prefer to just build the script that does it. I want to make it easy to rebuild or reimplement things I've already done. 
+
+Admittedly, I wish I had been doing this practice from the very beginning of my computing. But, that's okay. I'm not going to cry over spilled milk. Now is better than never to start this collection. So, here we go.
+
+
+---
+!! Principles:
+
+* Use the "Script:" titletag.
+* Build things that matter.
+* Make it easy to build from scratch.
+
+
+---
+!! Focus:
+
+Awesome:
+
+* https://github.com/emijrp/awesome-awesome
+* https://github.com/bayandin/awesome-awesomeness
+
+
+Skiddie Row:
+
+* [[lussh]]
+
+Resources:
+
+* [[Xonsh]]
+* [[Plumbum: Shell Combinators|https://github.com/tomerfiliba/plumbum]]
+* [[Explain Shell|https://explainshell.com/]]
+* [[Awesome Bash|https://github.com/awesome-lists/awesome-bash]]
+* Skiddie Heaven:
+** https://bash.cyberciti.biz/
+** https://www.ostechnix.com/collection-useful-bash-scripts-heavy-commandline-users/
+** http://www.softpanorama.org/Scripting/Shellorama/shell_scripts_collections.shtml
+** http://www.shelldorado.com/links/
+** https://github.com/epety/100-shell-script-examples
+
+Hacks:
+
+* [[AHK: Tribes Ascend]]
+* [[Xonsh: Text-2-Speech CLI Alarm Clock/Timer + Kodi Cornercase]]
+
+Cron, Autostart, Syncs, Backups, etc: 
+
+* [[Script: HTPC's Seedbox LFTP Sync (1-way)]]
+* [[Script: Backup File to Archive]]
+* [[autostarts.sh]]
+* [[home-h0p3-snapshot.sh]]
+* [[Cronjob: Rsync Snapshots]]
+
+Setup:
+
+* [[Script: Arch Post-Install Script]]
+* [[Script: Ubuntu 16.04 Desktop Post-Installation for Root]]
+* [[Script: Ubuntu 16.04 Desktop Post-Installation for User]]
+* [[Script: HTPC's SAMBA Setup]]
+* [[Script: Headless Xorg Lubuntu DE Setup]]
+* [[Script: Lighttpd + Letsencrypt Setup]]
+* [[Script: Whitelist-Only DNSmasq Setup]]
+** [[Script: Append to DNSMasq Whitelist]]
+* [[Script: Cockatrice Ubuntu 16.04 Setup]]
+* [[Script: Golang Arch Setup]]
+
+Formatting:
+
+* [[Python: Replace Text Up to a Delimiter]]
+
+Python Snippets:
+
+* [[Python: Script Timer]]
+* [[Python: Argument Parsing Examples]]
+
+[[Wiki: Scripts]] Transclusion:
+
+{{Wiki: Scripts}}
+
+* [[Scripty Non-Scripts]]
+
+
+---
+!! Vault:
+
+* Retired:
+** [[2017.11.30 -- Retired: Linux Scripts]]
+
+
+---
+!! Dreams:
+
+* [[Script: vsFTPd Server Setup]]
+* I should build install/egg-hatching scripts that install xonsh in bash, and then executes the rest of the script in xonsh. Basically, I can build logic much faster and more effectively in Python that I can in Bash. Might also just install xonsh and run a giant code block through it.

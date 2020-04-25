@@ -1,0 +1,5 @@
+created: 20180302154415010
+modified: 20180302154522361
+title: 2018.03.02 -- Computer Musings: vm
+
+Moved VMs to root SSD. VMWare is only partially working, at least on the converted vbox ovf's. Perhaps I'll remake them for VMWare? I prefer VMWare's performance at the end of the day.

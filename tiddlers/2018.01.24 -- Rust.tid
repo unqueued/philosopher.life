@@ -1,0 +1,17 @@
+created: 20180124181112089
+modified: 20180126034331988
+revision: 0
+title: 2018.01.24 -- Rust
+type: text/vnd.tiddlywiki
+
+Wrote me some code, yo!
+
+[[fibonacci.rs]]:
+
+{{fibonacci.rs}}
+
+[[twelve_days_xmas.rs]]:
+
+{{twelve_days_xmas.rs}}
+
+Also, ran into this: http://www.chriskrycho.com/rust-and-swift.html

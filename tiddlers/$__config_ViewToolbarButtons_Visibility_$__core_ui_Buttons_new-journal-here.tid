@@ -1,8 +1,6 @@
 created: 20171031165353533
-creator: h0p3
-modified: 20181011234419537
-modifier: h0p3
+modified: 20171208233304015
 revision: 0
 title: $:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/new-journal-here
 
-show
+hide

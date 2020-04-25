@@ -1,0 +1,56 @@
+created: 20171216205452577
+modified: 20180424201425139
+revision: 0
+title: .zshrc
+
+```bash
+# Load antigen (zsh package manager)
+source /usr/share/zsh/share/antigen.zsh
+
+# Load the oh-my-zsh's library.
+antigen use oh-my-zsh
+
+# Bundles of Joy
+antigen bundle sudo # Esc twice to add sudo in fornt of any command
+antigen bundle common-aliases 
+antigen bundle desyncr/auto-ls # because I can't help myself
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle popstas/zsh-command-time # curious motherfucker
+# antigen bundle zpm-zsh/linuxbrew
+
+# Syntax highlighting bundle
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+# Load the theme.
+# antigen theme yarisgutierrez/classyTouch_oh-my-zsh
+antigen theme gnzh
+
+# Tell antigen that you're done.
+antigen apply
+
+# Set Zsh option
+setopt correct
+
+# Lines configured by zsh-newuser-install
+HISTFILE=~/.histfile
+HISTSIZE=10000
+SAVEHIST=100000
+bindkey -v
+# End of lines configured by zsh-newuser-install
+# The following lines were added by compinstall
+zstyle :compinstall filename '/home/h0p3/.zshrc'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
+
+# Paths for Golang and Rust
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/src/go
+export 
+PATH=$PATH:$GOROOT/bin:$GOPATH/bin:~/bin:~/scripts:$HOME/.cargo/bin:
+
+# neovim
+export VISUAL="nano"
+export EDITOR="nano"
+```

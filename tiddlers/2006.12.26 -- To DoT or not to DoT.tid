@@ -1,0 +1,297 @@
+created: 20170313040909361
+modified: 20170313040917532
+revision: 0
+title: 2006.12.26 -- To DoT or not to DoT
+
+Tempo and you. The Science of Time Advantage and the Age old question: To DoT or not to DoT. 
+
+Due to recent questions on a number of posts, I have decided to write another article concerning the utility and very essence of the DoT and how these abilities are relevant to the rogue class.
+
+If you are a TLDR type person (even though I truly advocate reading), then skip to the bottom, and I’ll sum up the article in a single sentence for you.
+
+For the rest of you, the real readers:
+
+This is a primer in the supposed tempo exchanges that occurs when a player trades their valuable time (the cost) for effectively more damage and utility than a comparable direct damage effect (the reward)—we call this Damage over Time (DoT for short). I hope in this article you will learn why a person would choose to DoT and why they would choose not to use a DoT.
+
+Traditionally, a DoT is an effect applied directly to an opponent in the form of a debuff that affects their HP over the duration of the debuff effect. Something along the lines of: “Every 3 seconds this player will lose 50hp for 30 seconds” or something to that effect. I will try to keep to this traditional sense of the term when speaking throughout the article, although, you will see why I have reason to suspect that other abilities, even player buffs like haste act similarly to traditional DoT effects.
+
+*mind-blowing* You will also find that beneficial “over-time” effects should follow similar rules to damage over time effects.
+
+Getting right to it–DoT effects, when balanced correctly, should do the following:
+
+1.) Deal damage or usually win-condition based harm, in calculable increments, over a course of time (hopefully a reasonable amount of time); we often call these time segments “ticks,” like a clock.
+
+2.) Deal MORE damage or harm, over a time segment, than an equally costed direct damage effect.
+
+Pretty simple. Right?
+
+Our first requirement is pretty standard, whether the effect is balanced or not. More or less, this lays the foundational definition for understanding the DoT. As said, Damage over time effects are accomplished by applying the DoT, and spending your time waiting for the full duration and effect to occur, of the course or life of that DoT.
+
+The 2nd requirement is similar to the first, and gives us a perspective to work from when evaluating the utility of the DoT. Essentially, there must be an incentive for the DoTer to use DoTs as opposed to Direct damage effects (an effect that occurs all at once, and has the most minimal tempo loss possible). A DoTer is spending more than a DDer. The DoTer is spending his valuable time to get the full effect, and as the cost is higher, it would only be fair that the reward is higher than a comparable DD (as far as initial non-time costs would go).
+
+I’ll give you an example (my favorite from Everquest):
+
+A wizard (the DDer) casts a spell, and a necromancer (the DoTer) casts a spell. Both spells take 3 seconds to cast, cost 200 mana, require line of sight, etc. Essentially, both the DD and DoT spells have the exact same initial costs.
+
+The DD deals 300 damage all at once.
+
+The DoT deals 300 damage over the course of 12 seconds.
+
+Look at these spells. Are these balanced? Is this fair to the necromancer? Why not?
+
+The wizard casts for 3 seconds, and deals 300 damage, essentially putting him at 100 DPS. Meanwhile, the necro casts for 3 seconds, and must wait another 12 seconds to receive the same 300 damage as the wizard. Thus, the necromancer’s DoT is closer to 20 DPS. (noteworthy, the same idiots that designed DoT to DD relations in EQ are the same idiots that designed DoT to DD relations in WoW)
+
+…some may ask, well, what is the big deal?…Let’s add another variable to the example. Pretend I’ve got a 300hp mob that can one-shot our casters, and is 6 seconds away, closing in to kill our casters. Both the DDer and DoTer get their effect to land on the mob. The DDer kills the mob upon spell impact, while the DoTer, 6 seconds later, has only dealt 120 damage, and dies immediately as he is pummeled into the ground by our lovely mob. Both had the same initial costs, why not the same reward?
+
+The DDer has TEMPO advantage. He did not have to sacrifice his TIME to get the same effect as the DoTer. In this case, the difference was clear and distinct. That time difference made it so that DDer lived and the DoTer died.
+
+The DoTer sacrifices his TIME or his tempo, hopefully for a greater benefit in the end. It is just logical that he should receive further benefits for his DoT, as he the cost of the spell is more than just the initial mana and cast time, he has to wait for the full effect, thus he should receive a greater benefit. So, when using a DoT, you better have VERY good reasons why you wouldn’t be using a DD effect…and you probably need a strategy as to howto correctly abuse the DoT effect.
+
+Usually, game devs understand this concept (to some extent), and provide incentives to use DoTs. So, for example:
+
+For the same initial costs:
+
+A DDer may deal 200 damage all at once.
+
+A DoTer may deal 300 damage over time.
+
+For differing initial costs, in which the DoTer pays less initially, both deal the same amount of damage in the end.
+
+Or a mix is fine. But, clearly, we need to consider the loss in tempo advantage as a part of the cost of the DoT effect. Really, these sorts of games are about mana, energy, hp and time exchanges; these are the expendable resources and the pools from which we draw to pay the costs of our spells and abilities for (hopefully) an appropriate reward. Abusing the relations between these exchanges is what gaming is all about my friends…Just remember: balance is about reap what you sow. With all this in mind, the DoTer CAN calculate the effects, and whether they are even worth using though.
+
+In our calculations, we should be asking asking questions like: Should a Warlock DoT a mob that his group is going to kill in 7 seconds? Why not just shadowbolt? The DoT won’t deal more damage than the DD over that period of time, the DD makes the fight quicker, so the tank takes less damage, so he holds agro better, and less healing is required, and the mana efficiency overall, and time bought to med through quicker kills, means you can take adds and even complete the entire instance more quickly…etc, etc, etc.
+
+Anyways, What other effects do DoTs have in WoW?
+
+-Is usually a flat, set amount of damage taken per time unit, and generally is harder to mitigate once landed. Thus, it is modular in that it either lands in full or non-at-all…unlike a DD which can be mitigated to a further extent through resists etc. This can be both good and bad.
+
+-Less aggro possibly (still needs further testing), as the full effect happens gradually, there will less damage spikes. (Unless you played EQ, where DoTs had MORE agro)
+
+-Prevents classes from effectively stealthing or invising.
+
+-Prevents an opponent from effectively being the target of traditional control abilities that break upon damage, like sap/sheep/blind/etc. (ouch)
+
+-Takes up a debuff slot (there are only so many, and so you want to use what is most powerful)
+
+The DoT can do some very interesting tricks, and can abuse different strengths, but also has some MAJOR weaknesses. Clearly, it is a loss of tempo advantage in terms of crowd control (a huge concern to anyone with half a brain), but it also avoids certain forms of mitigation quite effectively.
+
+So, what does this all mean for the rogue? And, quite relevant, what does this mean for the future rogue class of TBC, in which our DoTs are being buffed? Time to examine our future abilities:
+
+The rogue innately has 3 DoT effects: Garrote, Rupture and Deadly Poisons. Unfortunately, these are pretty complex abilities to use. It isn’t like we can just use them and think of their use in pure damage terms. In order to examine them, we’ll need to compare them to other abilities to see why we would ever want to use them. We will also have to evaluate the aspects of each of the relevant options concerning, still usually about damage. Basically, we are doing the same DD to DoT type of thinking here, only it will be somewhat more complex.
+
+For the sake of the argument, we’ll assume a level 70 rogue with 1250AP, with 25% chance to crit (even though it will be in the form of a rating), wearing 2x
+
+Gladiator’s Shanker
+ 
+Binds when picked up
+One-Hand Dagger
+127 - 191 Damage Speed 1.80
+(88.3 damage per second)
++21 Stamina
+Durability 75 / 75
+Requires Level 70
+Equip: Improves hit rating by 8.
+ 
+Equip: Improves critical strike rating by 14.
+ 
+Equip: Improves your resilience rating by 9.
+ 
+Equip: +28 Attack Power.
+
+So, what does this future TBC rogue want to do? He has options…To DoT or not to DoT. Let us look at the openers available at 70 per thottbot.
+
+Openers:
+
+Garrote=50e=AP * 0.18 + 810 over 18 seconds, and 3 second silence, and 1 combo point
+
+Ambush= 60e w/dagger MH= 1.25[2.5(Avg Weapon Damage + AP/14 * 1.7) + 335] and 1 combo point
+
+Cheapshot=60e= 4(1.25[MH DPS + AP/14 + 0.5(OH DPS) + AP/14]) and 2 combo points and +40 Energy from regeneration. (Assuming no offhand bonus talents)
+
+With respective talents, of course, these numbers become:
+
+Garrote=30e= 1.2(AP * 0.18 + 810) over 18 seconds, and 3 second silence, and 1.75 combo points on average. Control against casters (to some extent).
+
+Average Ambush= 60e=1.90(1.2[2.5(Avg Weapon Damage + AP/14 * 1.7) + 335]) and 1.75 combo point on average and possible additional point with SF, also can be used in conjunction with Cold blood. Zero control.
+
+Cheapshot=40e= 4(1.25[MH DPS + AP/14 + 0.5(OH DPS) + AP/14]) and 2.75 combo points on average and +40 Energy from regeneration. Absolute control. (Assuming no offhand bonus talents)
+
+Time do a little math, assuming the 1250AP, 25% crit chance, with 2x Gladiator’s Daggers:
+
+Garrote=1,242 damage over 18 seconds (69 DPS or 207 per tick) + 3 seconds of Silence + 1.75 combo points on average.
+
+Average Ambush=3,243 and 1.75 combo point on average and possible additional point with SF, also can be used in conjunction with Cold blood.
+
+Cheapshot=2,085 damage and 2.75 combo points on average and +40 Energy from regeneration. (Assuming no offhand bonus talents)… Of course, we’ll need to calculate what this +40 energy and extra combo point means to a rogue, as it is part of the reward for using CS. Just remember, that a stunned opponent is an opponent unable to act, and thus with 4 seconds of time advantage, you essentially get to act upon an opponent as if these 4 seconds were all happening in a single moment (with the exception of trinket). It is clear Tempo advantage.
+
+Even though SS is best used with slower weapons, we’ll just convert that +40 energy into an SS with our dagger (we could use a comparable fist or sword weapon with 2.8 speed, but I’ll be conservative for you). Do remember, that we could always wait 1 tick and backstab for much higher damage as well ;P…
+
+The average SS will be 346 damage + 1 combo point. Assuming we burned our +40 Energy on this, the new damage becomes 2,431 with 3.75 combo points.
+
+I’m not going to hold your hand the entire way, and so we’ll just assume a basic eviscerate difference (feel free to read http://forums.roguespot.com/viewtopic.php?t=2922&highlight=  to get a better idea of what these +2 combo points for CS mean currently, although, I’ll need to update for level 70). We’ll just make it an easy to calculate imp eviscerate.
+
+Two combo points of eviscerate is roughly 430 damage. Calculating talents, crit, and AP at:
+
+1.25[1.15(AP * 0.15 + 430)]=887 damage
+
+Assuming we use SS and convert the +2 combo points available to equalize our energy and combo points to other talents, puts becomes:
+
+Cheapshot=3318 damage and 1.75 combo points.
+
+First off, this is pretty amazing damage on a paper target if you ask me…survivability changes my ass. Clearly, ambush does some crazy damage (I had to triple check it just to be sure, my eyes couldn’t believe it). Now, we get to the harder part of the evaluation.
+
+Let’s cross out the common 1.75 combo points, and assume they aren’t a part of the picture (even though, in the end, it could make a difference, but I don’t have time to show you why). And, for the moment, we will only consider the actually ability itself, and not subsequent abilities, as I only have so much time and space. So to compare the new three abilities:
+
+Garrote=1,242 damage over 18 seconds (69 DPS or 207 per tick) (silenced)
+
+Average Ambush=3,243 damage (instant)
+
+Cheapshot=3318 damage over 4+ seconds (stunned)
+
+Considering talents, the energy cost per point of damage is:
+
+Garrote=41.4 damage per point of energy
+
+Ambush=54.05 damage per point of energy
+
+Cheapshot=82.95 damage per point of energy
+
+Just in terms of efficiency, assuming we’ll be using one finisher (pretty safe), then Cheapshot is the best.
+
+In terms of the time usage:
+
+Garrote=18 seconds
+
+Ambush=Instant
+
+Cheapshot=4 seconds. But, as it is a stun, it is almost as if you didn’t spend any time at all…as you gained a 4 second time advantage over the opponent.
+
+If you are constrained by time and you only get one hit in on your opponent, Ambush is clearly the winner. However, if you have an extended fight, atleast 4 seconds long, then Cheapshot is still the highest damage opener you can get (assuming your opponent is stunnable). And, this is only including solo fights, we’d want to calculate the DPS of an entire group over 4 seconds to understand what CS means inside a group context.
+
+Now, to get to what makes our wonderful Garrote DoT so wonderful *sigh:
+
+Looking specifically at Garrote, it isn’t until a 62% damage mitigation that Garrote can actually deal more damage over an 18 second time period than the instant damage of Ambush, and it isn’t until 63% damage mitigation that Garrote can actually deal more damage over an 18 second time period than Cheapshot.
+
+You are looking at a ridiculously high amount of melee damage mitigation. So, unless you are fighting a warrior, bear form druid, or an insane paladin, this is useless with exception of the silence effect (which we will also find is useless).
+
+Noteworthy, there are a number of effects that can remove the bleed effect, and make Garrote’s damage become even further diminished. Cheapshot as well can be trinketed.
+
+In terms of control, we will look at these abilities as:
+
+Garrote=3 seconds of silence, and an ungougable-unblindable-unsappable-unsheepable-unseduable-etc. target.
+
+Ambush=None
+
+Cheapshot=Absolute 4 second time advantage, but resistable with talents. (the 15% still makes it worth using). Can be linked with other stun/incap/disorient effects…
+
+Now, Garrote has a serious advantage in the silence department over Ambush. But, how much better is it against cheapshot? With the exception of a mage that can blink, or a trinket effect…none.
+
+I’m not even going to explain what can happen to a rogue that loses control (I have another article on this, search for “Back to Basics”).
+
+So, remember at the beginning, when I introduced what makes a DoT useful? It fails to deal more damage until a ridiculous amount of armor mitigation…and even then, it would need to deal worlds more damage to be worth waiting that full amount of time.
+
+Would you rather deal 3k damage at once or 1k over 18 seconds?….People can heal, eat, even maybe have time to pot on a DoT….instant damage (or damage while stunned, which is very similar) simply makes a DoT effect, even at equal damage, not worth using.
+
+Garrote is nearly pointless. It doesn’t deal enough damage to be used in the vast majority of circumstances, usually an ambush or cheapshot is just more effective. Also note that its initial costs are also inefficiently high compared to the other opens. Even in conjunction with talents like vanish and what not, both CS and Ambush are stronger opens. The silence is easily overtaken by the sheer power of stun. This is a gimped DoT…thank your friendly devs at Blizzard for being retarded.
+
+Only on an unstunnable mob, and a mob that will in no way be CCed, with no daggers, should a rogue use Garrote. Good luck finding all those wonderful garrote opportunities. And even then, a Sinister strike or Hemo will approach Garrote damage. Just stick to instant or stunned damage, forget Garrote.
+
+Alright, now I’ve covered one of our DoT’s for you. I will try to quickly move through our other two DoTs available at 70. Probably my favorite DoT is our finisher, rupture.
+
+Rupture (Rank 7)
+ 
+25 Energy 5 yd range
+Instant
+Requires Melee Weapon
+Finishing move that causes damage over time, increased by your attack power. Lasts longer per combo point:
+1 point : 324 damage over 8 secs
+2 points: 460 damage over 10 secs
+3 points: 618 damage over 12 secs
+4 points: 798 damage over 14 secs
+5 points: 1000 damage over 16 secs
+
+Rupture 7 - 24% of your AP
+Damage = (AP * 0.24) + X      (where X=static damage based on number of combo points) over Y seconds
+
+Alongside talents found deep in the sub tree (a very worthy one), you can pump this damage up. Rupture begins to look more like:
+
+Assuming our original rogue: a 5-point rupture w/talents is  This is a measly 105 DPS, or 211.35 per tick. Sounds pretty awful, but I think we’ll find SOME use for it.
+
+So, let’s do the run down quickly. To save you some time, we can speed it up—here is the 5-point damage spread of each finisher with talents.
+
+Rupture=1.3(AP*0.24+X)= 1690 damage over 16 seconds=105 DPS
+
+Eviscerate=1.25[1.15(AP * 0.15 + X)=1685 damage instantly
+
+Envenom=1.25?(AP*0.15 + X)=1087 or 1359 assuming crit rate.
+
+Slice and Dice= 1.3[(21*1.45)(1.25[MH DPS + AP/14 + 0.5(OH DPS) + AP/14])] - [21*1.45(1.25[MH DPS + AP/14 + 0.5(OH DPS) + AP/14])]=4,763 over 31 seconds (Assumes no offhand bonus, nor poison damage)
+
+Kidney Shot=X(1.25[MH DPS + AP/14 + 0.5(OH DPS) + AP/14]) + Y energy=3,128 damage over 6 seconds + 60 energy or w/talents 3,409 damage over 6 seconds + 60 energy. And the opponent is stunned (no gaps). (Assumes no offhand bonus, nor poison damage) Like Cheapshot, we’ll need to calculate the +60 energy and whatever bonuses we get from that. We’ll use backstab to make it easy. Assuming talents, on average backstab will add 1,578 damage and one combo point. Again, for the sake of the argument, we’ll convert that combo point into eviscerate damage. Adding, on average, between 319 and 406 depending on whether we calculate whether we calculate it as the first or the last point of eviscerate, we’ll just average these two, at 362. In any case, after spending the energy and combo points gained from Kidney shot, the net damage value becomes: 5068 damage on a stunned target (no gaps). (Assumes no offhand bonus, nor poison damage)
+
+So, quick damage recap on 5-point finishers:
+
+Rupture=1690 damage over 16 seconds (unmitigated by armor)
+
+Eviscerate=1685 damage instantly
+
+Envenom=1087 damage instantly or 1359 assuming crit rate. (unmitigated by armor)
+
+Slice and Dice=4,763 over 31 seconds
+
+Kidney Shot= 5068 damage on a stunned target.
+
+If it can be stunned, then you should be Kidney shotting (unless you are saving it for other purposes). Inside a solo context, Kidney shot is head an shoulders above every other finisher; in a group setting, where multiple targets are targeting your opponent, and every gets the free 6 second tempo advantage, KS just completely eclipses everything else in a rogue’s arsenal.
+
+If it can’t be stunned, and it tanked for 30 seconds or more, then Slice and Dice is your goto ability (clearly the raiders choice). It should be noted that this abuses poisons to a greater degree than other finishers…
+
+The others are useful. Envenom looks somewhat promising for our Deadly Poison loaded rogues fighting very high armor targets. Eviscerate clearly has the best instant damage of everything here (as it should). Unlike Garrote, Rupture can actually compete in damage with other abilities….it doesn’t compete well, but it helps.
+
+At 40% mitigation, Eviscerate only averages 1,011, while Rupture is still the constant 1690. At 70% mitigation (which is pretty amazing), eviscerate is hitting for 505 on average. Envenom, however, may make rupture somewhat less useful.
+
+Remember: the point of a DoT is that you are paying the cost of your precious time (waiting for the full effect), so that the initial costs (energy, points, etc) will be lower and/or the end effect is proportionally HIGHER than a direct and instant effect.
+
+Can rupture do this?….Maybe. With extreme mitigation, on unstunnable targets (or targets you wish not to stun), on untankable targets, and on targets that will NOT be CCed, Eviscerate, KS, and Slice and Dice are either unusable or maybe not worth using if you can find ways to shelter yourself after applying Rupture. However, remember that it is much easier to answer a DoT effect than an instant. In the end, rupture still appears to be, in the vast majority of cases, unusable.
+
+There are two cases in PvP where we use it: 1.) Warriors. With low cost CS, quick CP generation, and rupture/vanish before the end of CS, a rogue can get a 5-point high damage, unmitigated finisher (buffed by their Berserker stance usually) without any fear of reprisal (excluding trinket, but a smart warrior waits for KS anyways). 2.) Applying a DoT effect because you NEED to periodically damage an opponent, most often, against an opponent that you want keep from stealthing or invising effectively. Rupture kiting a rogue can be useful, as it can save us CDs.
+
+However!…while using rupture, we still cannot blind/sap/sheep/gouge a target, and in SO many cases this is a huge problem. If necessary, I’ll show you why the sacrifice of 5.5 seconds of gouge is makes rupture not worth using at all…But, essentially, no lacking the ability to gouge/blind/sap in solo, and the ability to seduce/sheep/etc. in group, make rupture far less viable. If you have questions on control, please refer to my other article concerning it.
+
+Conclusion on rupture…it is worlds better than Garrote, but still not up to par for why we should use this DoT in most cases. And, with the upcoming Envenom, I may become even less impressed with Rupture…but we’ll see!
+
+On to our last DoT (you’ve almost made it!), Deadly poison! The important poisons to consider:
+
+Deadly 7=30% chance to poison enemy with 180 nature damage over 12 sec…or 30 per tick per dose. Stacks up to 5 times.
+
+Instant Poison 7=20% chance to poison the enemy which instantly inflicts 146-194 Nature damage (170 average)
+Crippling Poison 2=Snare…(hell yeah, movement speed imbalances between you and target ftw)..A rogue out of range deals no damage. In PvP situations, this is your poison of choice…even against classes that can dispel poisons or that can break out of snare effects…every bit of movement speed imbalance counts.
+
+Deadly=54 damage per weapon strike
+
+Instant=34 damage per weapon strike
+
+Problems to consider. Deadly can only stack up to five times, while instant has no problems. Deadly requires that the target last for 12 seconds, instant is modular. Deadly makes it so you can’t use CC effects (which is a huge loss).
+
+In grinding:
+
+Something along the lines of CS-SS-Gouge-KS is what you should always be doing in solo situations. Why? Gouge is +15 energy and a combo point. Deadly negates this. I’ll let you do the math if you think I’m wrong here… That 20 damage difference between deadly and instant, in solo situations clearly isn’t worth it, as the loss of gouge is too great. Losing gouge means you don’t get that +15 energy and 1 combo point…easily 300-400 damage instant from that combo point and energy wasted because you wanted to grab another 20 damage per swing? This is assuming you never break the 5-stack barrier, and that you won’t have a need to CC the target.
+
+Envenom, however, may make deadly more viable. Against high armor targets that won’t be SnD’d or KSed, and clearly won’t be eviscerated, and a target that won’t last 16 seconds after your finisher, envenom may deal more damage than rupture. With envenoms narrow viability, cutting into rupture’s use, we may have a need for deadly poison. But, this is a very well-timed fight. (Note: you lose that last 150 damage from a 5-point Deadly tick if you efficienty waited for the last tick before using envenom).
+
+For all intensive purposes, a rogue should be sticking to instant. Only if a mob will not be CCed (including gouge), will last for longer than 12 seconds should you even consider the use of deadly poison. So, for raiding where poisons can actually land, a deadly mainhand isn’t a bad idea..otherwise, stick to instant or crippling.
+
+Like the other DoT effects, deadly poison doesn’t really give us a ton of incentive to use it. Garrote, Rupture, and Deadly poison are HIGHLY situational. They might be fun, but they aren’t the best usually.
+
+I will admit there are more complications to how we calculate these circumstances. I gave as brief as possible summary of these DoT abilities in context. I did try to stick to average damage with as few variables as possible to evaluate the base abilities themselves. The point I tried to make clear was that Blizzard has failed to make DoTs (especially for rogues) a viable option to use as bread’n’butter abilities.
+
+DoT’s should:
+
+1.) Deal damage or usually win-condition based harm, in calculable increments, over a course of time (hopefully a reasonable amount of time); we often call these time segments “ticks,” like a clock.
+
+2.) Deal MORE damage or harm, over a time segment, than an equally costed direct damage effect.
+
+Our DoT effects only attempt to keep up with our DD effects. Also, our tempo advantage stuns and abilities like Slice and dice, which act as DoT’s in some ways, are truly more powerful than the traditional DoTs we have been given.
+
+Conclusion, especially for my TLDR People:
+
+Rogues, even at level 70, have almost no mathematical incentive to use DoTs.
