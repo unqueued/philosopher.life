@@ -1,0 +1,86 @@
+[12:28:53] h0p3: How's life going?
+[12:28:58] h0p3: I've been seeing you online more often.
+[12:29:28] b3nsn0w: hi
+[12:29:31] b3nsn0w: still kinda chaotic
+[12:29:45] b3nsn0w: just had to do some coding too,
+[12:29:49] h0p3: I hear that. Although, I think mine is settling down some.
+[12:29:55] h0p3: Fun or not fun?
+[12:30:07] b3nsn0w: fun, actually, most of the time
+[12:30:11] b3nsn0w: also, that's great to hear
+[12:31:57] b3nsn0w: on my side, I'm currently trying to balance a whole lot of creative stuff with coding (mostly freelance work)
+[12:32:12] b3nsn0w: if I could, I'd just go and do writing all the time until I get bored of it
+[12:32:15] b3nsn0w: it's fun as hell
+[12:32:24] b3nsn0w: but burning through savings is not fun
+[12:32:57] b3nsn0w: that's basically what brought me back to coding after a few months
+[12:33:08] h0p3: Yes. That makes sense.
+[12:34:43] h0p3: My daughter was thinking about our conversation about dialogue in games (I'd argue it is the most important part of the games she plays). She liked the idea of trying to use GPT-2 to augment interactions with the characters. 
+[12:35:02] b3nsn0w: there's something to it
+[12:35:09] b3nsn0w: GPT-2 is crazy
+[12:35:20] b3nsn0w: but I feel like you'd lose a lot of creative control
+[12:35:48] b3nsn0w: been thinking about that aspect a bunch
+[12:36:04] b3nsn0w: still don't have a lot to base it on, will have to do some experiments, try it out
+[12:36:27] b3nsn0w: but for now, I kinda view it as a balance between identity/uniformity and variety
+[12:37:02] b3nsn0w: go too much in one direction, and it stops being the kind of dynamic story you'd want
+[12:37:30] b3nsn0w: most of the branching storylines are very far toward identity, with just a pinch of variety mixed in
+[12:37:50] b3nsn0w: the fixed dialogue tree, with maybe 2-3 hidden variables mixed in
+[12:38:09] b3nsn0w: usually sympathy of a few characters, maybe a romance or two, but that's it
+[12:38:39] b3nsn0w: could probably list it for Witcher 3 on my fingers, and it's more dynamic than your average story
+[12:39:19] b3nsn0w: on the other hand, an example for lots of variety and minimal identity would be minecraft
+[12:39:25] b3nsn0w: you'd think it has no story
+[12:39:33] b3nsn0w: it kinda does, it's just your own story, not the game's
+[12:39:41] b3nsn0w: that's why I like to call that aspect "identity"
+[12:40:16] b3nsn0w: it's kind of on point, mathematically it means "things that remain the same", but it also means the part of the story that makes it your story, as in the story you write
+[12:40:27] b3nsn0w: that's basically my fear with GPT-2
+[12:40:39] b3nsn0w: it would shift too much toward variety, too far from identity
+[12:41:22] b3nsn0w: would be a bit hard to control plot and character with it and still create a strong story
+[12:41:41] h0p3: I don't know how to make the two meet.
+[12:42:08] h0p3: GPT-2 only seems to be able to provide flavor, but having it control the narrative is another matter.
+[12:42:55] h0p3: Preferably, if A can lead to B, C, or D, ML would create unique paths of dialogue from A to each of the others.
+[12:43:10] b3nsn0w: that sounds kinda cool though
+[12:43:30] b3nsn0w: like, for a given dialogue, you know where it can lead, based on simple rules like "if you tell them X, then Y happens"
+[12:44:02] b3nsn0w: and then ideally you could just have a conversation with the AI, by saying anything, not just pre-written dialogue lines
+[12:44:11] b3nsn0w: that could actually help
+[12:44:22] b3nsn0w: but it's also still a bit sci-fi tech at this point
+[12:44:36] h0p3: It remininds me of the difference between the scripted dialogues of digital games and the only partially scripted adlibbed encounters you have with your DnD DM.
+[12:44:45] h0p3: Yeah, still too sci-fi.
+[12:45:33] h0p3: The machine not only doesn't understand what you are saying, it can't even functionally mimic doing so beyond predicting your next few words in a way that appears meaningful.
+[12:46:11] b3nsn0w: yeah, it would need to be a lot more intelligent than it is right now
+[12:46:34] b3nsn0w: also, I can think of another problem
+[12:46:37] b3nsn0w: the uncanny valley
+[12:46:46] b3nsn0w: I don't really think it's a valley, actually
+[12:47:05] b3nsn0w: every art style has a certain amount of realism it can convey
+[12:47:27] b3nsn0w: if you push it too far, that's when you go to first the uncanny, then downright absurd looks
+[12:47:33] b3nsn0w: I think this could apply here too
+[12:47:59] b3nsn0w: giving players the ability to talk to NPCs is just too ambitious, it would need a lot of tech to make it happen properly
+[12:48:27] b3nsn0w: and if you commit too soon, it would be like talking to Cleverbot
+[12:49:15] h0p3: I hear ya.
+[12:49:18] h0p3: Not sure what to do on that front.
+[12:51:00] h0p3: Playing these games for decades, and at this point, it would take a miracle for me to care about a games narrative and dialogue. It never feels real or valuable to me.
+[12:51:43] b3nsn0w: Have you played Witcher 3?
+[12:56:01] b3nsn0w: it was kinda eye-opening to me
+[12:56:14] b3nsn0w: in most of the games I've played before, I didn't really care for the characters
+[12:56:26] b3nsn0w: they were games first and stories second
+[12:56:57] b3nsn0w: the story was also something like "okay, I have to defeat the big bad evil, that's nice, I get to fight a cool boss"
+[12:57:31] b3nsn0w: Witcher was completely different in that way
+[12:57:57] b3nsn0w: It's just written so well...
+[12:58:34] b3nsn0w: The plot still has a few problems stemming from the quest system
+[12:59:01] b3nsn0w: it has a constant sense of urgency, which is kinda cool story-wise, but a complete disconnect with the game that prefers you doing side quests
+[12:59:23] b3nsn0w: and the setting is something you can't really avoid to have "game-first" in a game
+[12:59:37] b3nsn0w: but the characters are amazing
+[12:59:51] b3nsn0w: and that's one thing you can do even without any sort of dynamic storyline
+[13:00:18] b3nsn0w: it's also the most important of the three, characters > plot > setting
+[13:09:01] h0p3: I haven't played the Witcher series at all.
+[13:09:42] h0p3: I've never had a game really click when it comes to story though.
+[13:09:52] h0p3: At least, not the dev intended story.
+[13:10:25] h0p3: It's really hard to beat a novel written by a pro.
+[13:10:39] b3nsn0w: yeah, it is
+[13:11:03] b3nsn0w: in a game or a movie, you can have great visuals and mechanics carry an otherwise kinda bad story
+[13:11:22] b3nsn0w: even a comic book can elevate a mediocre story into a great comic with good art
+[13:11:27] b3nsn0w: but in a book, all you have is your story
+[13:11:43] b3nsn0w: also, I think a big part of Witcher's success is it's a book adaptation
+[13:12:11] b3nsn0w: they did change a lot, but they already had a very strong foundation to build on
+[13:12:39] b3nsn0w: that's why I'm learning writing by the way, starting with books, that's the true mastery of the craft
+[13:13:00] b3nsn0w: every now and then I come across guides for screenwriting and it's just so... idk, simplistic
+[13:13:33] b3nsn0w: part of it is trying to play it safe, but also it feels like they don't want to spend that much effort on it
+[13:14:25] b3nsn0w: (btw, for the Witcher games, the third one is a good place to start, especially with the DLCs in release -- at least it worked for me)
+[13:14:32] b3nsn0w: *in release order

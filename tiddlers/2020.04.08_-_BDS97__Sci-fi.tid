@@ -1,0 +1,206 @@
+created: 20200408195456932
+modified: 20200409004514250
+tags: BDS97 Chatlog
+title: 2020.04.08 - BDS97: Sci-fi
+
+"""
+[11:59:10] h0p3: Hey! You doing alright?
+[12:00:00] h0p3: https://theweek.com/speedreads/905621/hungary-effectively-suspends-parliament-elections-orban-tightens-grip-during-pandemic
+[12:00:40] b3nsn0w: hi
+[12:00:49] b3nsn0w: yeah, things are mostly okay around here
+[12:02:08] b3nsn0w: as for the thing you linked, wow, didn't think they'd make it official this fast, but here we go I guess
+[12:03:11] b3nsn0w: his party has basically owned the country for the last decade or so
+[12:18:17] h0p3: I'm glad things are mostly okay. I'm sorry about ze gubmint. It's clusterfucky here too.
+[12:18:47] b3nsn0w: yeah, I heard about it a bunch
+[12:19:09] b3nsn0w: practically every meme site is full of the US situation nowadays
+[12:19:15] b3nsn0w: man, you guys have some shit to sort out
+[12:25:25] b3nsn0w: anyway, other than that, it's just life as usual on my side
+[12:25:34] b3nsn0w: still trying to figure out how to allocate time for everything
+[12:27:18] h0p3: Yeah. It brings out the paranoid side of me. I do not like my predictions.
+[12:27:36] h0p3: My family is lucky though. We are well-positioned to weather a storm.
+[12:28:09] h0p3: I'm still trying to figure out how to allocate my time as well. Trying to develop planning skills with my offspring (it's the blind leading the blind here).
+[12:29:12] b3nsn0w: sounds great
+[12:29:41] b3nsn0w: just scour the internet until you find some tutorial that actually works, there's great stuff out there for practically everything
+[12:29:53] b3nsn0w: or at least that's been my experience the past few times I wanted to learn something
+[12:30:12] b3nsn0w: for example, the first few writing classes I've seen were terrible
+[12:30:33] b3nsn0w: but then I stumbled upon Sanderson, and holy shit it's amazing
+[12:30:45] b3nsn0w: from that point, the only hard part was finding time for it
+[12:40:47] h0p3: I hear that. 
+[12:42:11] h0p3: Working on that skill with my offspring right now. I call it hyperreading. We just start shotgun searching and picking out what is salient. 
+[12:43:02] h0p3: Has your writing been going well?
+[12:43:35] b3nsn0w: not in the last month, unfortunately, I've been staying away for it just so my mind doesn't get stuck on it and I can code
+[12:43:55] b3nsn0w: but then I barely got any tasks and they were terrible, should have just wrote to be honest
+[12:44:44] h0p3: =/. Sorry, bro. 
+[12:44:59] b3nsn0w: anyway, hopefully that's solved now, trying out a new system for time management
+[12:45:13] h0p3: How does it operate?
+[12:45:53] b3nsn0w: I've designated two time slots during the day, one between 4-8 PM and one from 11PM until 3AM
+[12:46:10] b3nsn0w: each can go toward one thing
+[12:46:31] b3nsn0w: previously, I've tried to do one something at a specific day, but that's not been working out too well
+[12:46:51] b3nsn0w: usually, it ended up with me saying nah, I got time, and then suddenly it's 3AM
+[12:47:54] h0p3: Lawd. Lol. I hear that.
+[12:48:15] h0p3: The two slot thing makes good sense. A lot of virtuosos seem to do that.
+[12:48:31] b3nsn0w: for this, I don't know yet, so far it's working but then again everything did after three days, when I'm two weeks in maybe I'll be able to say something about it
+[12:48:47] b3nsn0w: yeah, stole the idea from a Sanderson interview
+[12:49:06] b3nsn0w: he's a professional writer though, so he doesn't really have to mix and match these
+[12:49:47] b3nsn0w: sometimes I kinda envy him for that, writing is fun as hell
+[12:52:19] h0p3: You have a renaissance man thing going on, imho. That guy seems more like a specialist (which is great). 
+[12:52:46] h0p3: I don't think you've decided what matters most to you yet (and, that's a hard problem).
+[12:53:38] b3nsn0w: yeah, there's something to that
+[12:54:05] b3nsn0w: I kinda tell myself that I've been going towards gamedev with every move
+[12:54:18] b3nsn0w: and there's some truth in that
+[12:54:31] b3nsn0w: but I also enjoy this other stuff just for the sake of it
+[12:56:25] h0p3: Despite formally studying the topic, I lack the wisdom to know what I ought to do most of the time, lol.
+[12:56:59] h0p3: Family and I have been working on this for our time management: https://philosopher.life/#.tmpl:.tmpl%20.tdl%20.plan
+[12:59:05] b3nsn0w: you seem way more organized than I ever could be
+[13:00:54] h0p3: Naw. I'm still trying to figure it out. I audit my time as well, and it's clear I have so little self-control, rofl. These are tentative mechanics. I'm just trying to find the method which I can actually get us to follow and build together.
+[13:04:53] b3nsn0w: just reading your site, trying to make sense to it
+[13:05:14] h0p3: 35MB of plaintext, lol. It's a mess.
+[13:05:42] b3nsn0w: especially with these complex philosophy references
+[13:05:51] b3nsn0w: they're friggin awesome
+[13:06:35] b3nsn0w: but you seem to weave them kind of the same way coding is for me
+[13:07:42] h0p3: That is high praise. Thank you. If I could code my wiki half as well as you code, I'd be pleased.
+[13:11:22] b3nsn0w: to be honest, I kinda feel the same way about ideas and philosophy when talking to you
+[13:11:54] b3nsn0w: like, that renaissance man thing, a large part of how I do it is I find the sweet spot of skill and effort required
+[13:11:59] b3nsn0w: for example, there is cryptography
+[13:12:21] b3nsn0w: it's kinda simple when you're just playing lego with primitives such as ciphers and hashes
+[13:12:41] b3nsn0w: as soon as you understand the logic behind each component I would argue it's not much more complex than redstone
+[13:13:16] b3nsn0w: but at the same time, most who want to learn crypto dive deeper, and there is a steep curve the moment you start digging into algorithms
+[13:13:52] b3nsn0w: and I just don't go there, except to satisfy my curiosity every once in a while
+[13:14:02] h0p3: low-hanging fruit
+[13:14:13] b3nsn0w: exactly
+[13:14:52] b3nsn0w: not gonna make me the master of any trade, but pick a wide enough variety and start combining them, and you can end up with some awesome stuff
+[13:14:54] b3nsn0w: I hope, at least
+[13:15:59] h0p3: Most people have advised me to stay away from trying to be a jack-of-all-trades, but I think that's often the wisest course of action.
+[13:16:47] h0p3: To my eyes, part of the postmodern problem, in a practical sense, is the flood of information and meaning we drown in. Building a neurathian ship on the chaotic seas requires proficiency in a wide variety of topics. 
+[13:17:37] h0p3: Capitalism pushes people to become pure specialists for competitive advantage so much so that generalists are actually rare. I consider it a scarcity, but it is difficult to find one's place as a generalist. I think you might have to create/discover it on your own.
+[13:18:13] b3nsn0w: ...and here we go, one quick trip to google and wikipedia and I can appreciate the awesome references you're making here
+[13:18:32] b3nsn0w: but yeah, I completely agree with you
+[13:18:46] b3nsn0w: specialists are awesome, but not exactly the master of their own fate
+[13:18:53] h0p3: Yes!
+[13:19:05] b3nsn0w: they are, however, great to have if you need to build a team
+[13:19:22] h0p3: There's a kind of autonomy that arises from the low-hanging fruit jack-of-all-trades strategy. Self-sufficiency is hard to come by. 
+[13:19:32] h0p3: In a way, we are one-man teams. 
+[13:20:53] b3nsn0w: call me crazy, but I see one-man teams or small teams centered around a few jack-of-all-trades leaders creating way better stuff than huge teams with world-class experts led by someone who can pay them
+[13:21:38] b3nsn0w: every once in a while you get the right people to lead such a large group, but more often than not it's a financial expert, because, well, they know how to make the money you need for something like this
+[13:22:16] b3nsn0w: that's where, I think, a lot of mediocricy comes from in our world
+[13:22:40] b3nsn0w: because it doesn't have to satisfy a vision, it just has to be good enough
+[13:23:24] h0p3: Aye. The collective vision is muddied, built on the wrong incentives, and the creators don't have the same skin in the game as one-man teams.
+[13:24:59] h0p3: Gotta find projects worth pouring yourself into.
+[13:25:55] b3nsn0w: yeah, agreed on that
+[13:26:31] b3nsn0w: it's an amazing feeling when you work on a project with an actual vision
+[13:27:10] h0p3: Workaholic deliciousness ensues
+[13:27:37] b3nsn0w: yeah
+[13:28:02] b3nsn0w: wouldn't consider myself a workaholic, but when it's fun, I usually get stuck working at it way more than I originally planned to
+[13:28:29] b3nsn0w: the most extreme example for this is when I got into writing, that was supposed to be a quick practice run on a disposable writing prompt
+[13:29:21] b3nsn0w: two months later, I had a 50k word book in front of me, already at draft 2, and no idea what happened that day when I got addicted
+[13:30:43] b3nsn0w: How's it on your side? Can you find the right projects with the right vision?
+[13:31:00] b3nsn0w: (because I sure as hell can't unless I make them up for myself...)
+[13:34:21] h0p3: I'm autistic, so my ability to engage in strong executive functioning is impaired. I've had to cognitively reverse-engineer how to empathize even with myself (and my family). I also can't fully trust my feelings and thoughts, so I work hard to try to understand myself and the world. 
+[13:35:38] h0p3: I'm a dad and a philosopher. My wiki is my central exobrain project for trying to think about all my projects as objectively as I can.  
+[13:36:34] h0p3: Being a dad spends me. My brother recently compared me to //Captain Fantastic//, and I could only hope to be as effective as that man in many respects.
+[13:37:47] h0p3: In terms of philosophy, I attempt to freely engage with people without a financial pricetag. I hope to emulate Socrates online. Some of my correspondence lasts for hundreds of pages. 
+[13:38:43] h0p3: I read and write a lot to search for what matters in both theory and practice. I'm trying to be a rolemodel, and to give that tooling and approach away. 
+[13:39:59] h0p3: Philosophy in almost all cultures has been a martial art. It's about wrestling. I see myself as a wrestling teacher, a sparring partner, a sounding board, a curator, and friend (especially to outcasts).
+[13:40:43] h0p3: I'm 34, so my sense of purpose is more narrowly defined. It's been a journey to find what I have (even though it still feels so open-ended).
+[13:42:12] b3nsn0w: that's amazing
+[13:42:41] b3nsn0w: and yeah, speaking from experience, you are definitely doing that right
+[13:43:32] b3nsn0w: quick question: how much sci-fi do you read?
+[13:45:00] h0p3: Not much these days (I hope to get back to it), but science fiction is one of my favorite genres. Huge fan of Asimov, Orson Scott Card, Herbert. Most of the science fiction I've been into lately has been in graphic novel form. 
+[13:45:28] b3nsn0w: that's great
+[13:46:11] b3nsn0w: yeah, I have to catch up on it myself, Foundation is still sitting on my nightstand, somehere at the beginning of the Mule story
+[13:46:27] b3nsn0w: I intended that to be my intro into Asimov, but got sidetracked with fantasy whenever I found the time to read
+[13:46:50] h0p3: Fuck yeah. That is next on the docket for my offspring (finishing 1984/Brave New World). A gorgeous world. 
+[13:48:30] b3nsn0w: actually struggled a bunch on dividing sci-fi from fantasy
+[13:49:28] b3nsn0w: especially since my first practice book ended up kind of in the middle, and I had no idea what to call it
+[13:49:58] b3nsn0w: ultimately, it was a Writing Excuses episode where I found the answer
+[13:50:25] b3nsn0w: sci-fi is more about ideas, while fantasy is more of a theme thing
+[13:51:45] b3nsn0w: (I now consider that book thing sci-fi. Not a great one, it's kinda sloppy and superficial on a lot of aspects, but at least it helped me find what was even the point of it.)
+[13:52:07] b3nsn0w: anyway, this distinction popped a question into my head while reading your site
+[13:52:20] b3nsn0w: have you ever considered writing sci-fi?
+[13:57:05] h0p3: My brother has asked me to write sci-fi. I've been thinking about it for years.
+[13:58:12] h0p3: I don't have the chops to write the pulp, I believe. My brain don't work right, lol. 
+[13:59:15] h0p3: One of the reasons I find it so enticing is that it would be a way to express some difficult concepts in a form that people would enjoy reading. It's a memetic tool.
+[14:00:37] h0p3: Few want to read some arcane, technical, esoteric philosophical position. There are some ideas that are so important, I'd like to see them in popular fiction. That would be my goal.
+[14:02:09] b3nsn0w: what do you mean by "the pulp"?
+[14:04:54] h0p3: Dialogue, plot, character development, etc. I mean the overall components of narrative. I'm a ludologist. When I play vidya games, I'm only interested in the mathematical model (that's the story that really matters to me). Even when I try to roleplay in DnD, I can't suspend my disbelief well enough; I play as myself. 
+[14:05:57] h0p3: I don't have the system 1, emotional, automated ability to model (let alone invent) the theory of mind of others. That empathy skill seems exceptionally crucial to being a good sci-fi author.
+[14:06:14] h0p3: That said, I do think I could engineer something.
+[14:06:51] h0p3: I'd study tropes, steal and model after characters and plots I admire. I think my organization would be strong.
+[14:07:26] b3nsn0w: yeah, I'll admit, characters acting like normal human beings is kind of a hard part for me too
+[14:07:48] b3nsn0w: I outline them more than my plot, actually, and it's still a bit hard to get in their minds sometimes
+[14:12:05] h0p3: Strong character bibles seem very appropriate. If I were to write a book, I'd design it in a wiki without a doubt.
+[14:12:14] h0p3: Neal Stephenson is an incredibly skilled author. My rule of thumb for his books: stop reading at 75%. He can't finish a book. His world-building is excellent. His last book //Fall; or, Dodge in Hell// was interesting. He motivates realistic technology, and it's obvious that he studies. I think either of us could kick his ass in this department though. Show-casing what the world could realistically look like, both in terms of dystopia and utopia, would be the direction I'd go. 
+[14:13:44] h0p3: For example, to my eyes, Atropos is probably not a project that even a small-team can viably build. It's the kind of project that a government or well-funded institution has to financially back. Such a thing is what I believe ought to be well-described in a sci-fi book. 
+[14:14:29] h0p3: Taking big concepts and making them come alive in action.
+[14:15:09] b3nsn0w: Yeah, you just reminded me I'll _have_ to consult you on the cyberpunk comic I'm planning, if I'll ever get there
+[14:15:29] b3nsn0w: actually tried to avoid writing Atropos into it, but it seems like I'm not gonna be able to dodge the topic
+[14:15:58] b3nsn0w: but anyway, what's wrong with Stephenson's endings?
+[14:16:06] b3nsn0w: never read anything from him
+[14:16:41] h0p3: I don't know how to put my finger on it. He is electrifying, but he can't close the deal. 
+[14:17:32] h0p3: George RR Martin knows how to finish a book. But, I think he's such a perfectionist that he will refuse to finish off his magnum opus because he feels like he can't close the deal in his signature manner.
+[14:18:06] b3nsn0w: could be
+[14:18:21] b3nsn0w: sorry, I'm way underread, and GRRM is not exactly high on my TBR
+[14:19:06] b3nsn0w: I'm just not big of the grimdark, pessimistic worldview as a setting unless the story actually goes somewhere with it
+[14:19:13] b3nsn0w: like, I loved 1984
+[14:20:09] b3nsn0w: but from what I heard from Game of Thrones / Song of Ice and Fire, it's just fate of the world kind of fantasy, in a world that's dark, and that kind of story just has a depressing undertone which I usually don't enjoy
+[14:20:18] b3nsn0w: nothing against him, just not my style
+[14:20:25] b3nsn0w: I know some people love it though
+[14:20:44] h0p3: I am surprised by that. 
+[14:21:40] h0p3: You have strong rational reasons to see the world as being fairly dark, imho. You think in those terms a lot, it seems to me. But, perhaps you want your fiction to be different.
+[14:22:10] b3nsn0w: yeah, 1. it's escapism, why would you escape into a world with your problems, but more importantly 2. I just like to hope
+[14:22:31] b3nsn0w: and even when those hopes are squashed in the end, it can still be cathartic
+[14:22:41] h0p3: There's a genre called Hopepunk (https://philosopher.life/#h0p3punk).
+[14:22:42] b3nsn0w: the problem is more when it's just there and no one ever does anything with it
+[14:24:21] b3nsn0w: I'll have to reread Daemon from Daniel Suarez, but as far as I remember it also was kind of dark in that way, and I still liked it
+[14:24:21] b3nsn0w: just because the characters are kind of active that way
+[14:24:51] b3nsn0w: sorry, I might be bullshitting, my memory is really blurry on that book except for that it was awesome and a few glimpses of character
+[14:25:49] h0p3: Hope (https://philosopher.life/#hope) is expensive. The test of hope is to be faced with the perception of a nearly hopeless situation (at least as one perceives) and still believe there's a reason to hope. Meaningful hope requires testing that metal in a dark story. 
+[14:26:28] h0p3: Stoic Victor Frankl territory or something.
+[14:27:57] b3nsn0w: hopepunk sounds awesome
+[14:28:15] b3nsn0w: anyway, I might be totally wrong about GRRM, like I said I've never read anything from him
+[14:28:43] b3nsn0w: but I have way too long of a TBR right now to fix that in a reasonable timeframe
+[14:29:16] b3nsn0w: anyway, about the characters acting like humans
+[14:29:30] b3nsn0w: the secret I find is layers
+[14:30:30] b3nsn0w: humans have many different aspects to them, which sometimes sound quirky and weird together
+[14:30:38] b3nsn0w: other times it actually fits
+[14:31:40] b3nsn0w: but one given aspect is usually quite logical, it's just that it's intertwined with lots of others and that's basically what you need to load in your RAM when you're writing some action or dialogue of that character
+[14:32:58] b3nsn0w: that's why I outline my characters so much, to establish all those layers and then see which sticks, which makes sense for the story, which needs changing, and how it evolves
+[14:33:24] h0p3: That makes sense.
+[14:33:40] b3nsn0w: this latter one is also why I like writing straight through, instead of jumping between chapters like some do
+[14:34:10] b3nsn0w: because characters are not static, and this leads to a bit better development of them
+[14:36:32] b3nsn0w: most writers are on a spectrum between two extremes: outliners and discovery writers (architects and gardeners, as George RR Martin calls them)
+[14:36:38] b3nsn0w: I always thought I was an outliner
+[14:36:44] b3nsn0w: then I just went and discovery-wrote a book
+[14:36:54] b3nsn0w: then did it again with the same book just to check if it wasn't a fluke
+[14:38:35] b3nsn0w: outlining is nice, and you definitely need some planning, but sometimes it's better to just write, see where you end up, and fix it from there in the next draft
+[14:44:46] b3nsn0w: anyway, just trying to share my perspective, one weirdo to another
+[14:45:31] h0p3: haha =)
+[14:45:36] h0p3: I like that we get to be weirdos together.
+[14:45:53] h0p3: I will give more thought to the discovery writing. 
+[14:46:12] h0p3: It reminds me of stream-of-consciousness writing.
+[14:46:59] b3nsn0w: I think I've seen that on NaNoWriMo lately, they just called it something much more casual
+[14:47:18] b3nsn0w: they said turn your text to white and write without knowing what you wrote before, just let it out
+[14:47:25] b3nsn0w: idk, I never went there, but it sounded interesting
+[14:48:52] b3nsn0w: what I did was I had a theme (started with that writing prompt after all), which expanded into a rough idea for what I want from the story, and then I just wrote one chapter after another, seeing no further ahead than maybe one or two chapters
+[14:49:12] b3nsn0w: only figured out the ending while I was writing my big twist scene (and I'm 90% sure it's gonna change in the next draft anyway)
+[14:49:40] b3nsn0w: also, I watched one Sanderson class between each chapter, that worked really well
+[14:50:13] b3nsn0w: let me try out the techniques he just taught every time, while also having fun with the story and not overwhelming my casual/lazy mind with too much theory
+[14:50:45] b3nsn0w: and I think the last big component to the addiction was the lack of stakes
+[14:51:11] b3nsn0w: it wasn't meant to be some magnam opus, just my first practice book, and only the first draft at that
+[14:51:26] b3nsn0w: anyway, just trying to share a hobby that I found fun as hell
+[14:51:56] b3nsn0w: plus I can barely even imagine the potential if you were to combine that with your incredible ability to intertwine those complex philosophical ideas
+[16:39:14] h0p3: here's a story idea I've been mulling around: I'd like to write a novel that was a profoundly accurate compression of the story unfolding in my wiki. It could be an novel-sized (and easier to parse) autobiography based upon an extremely rich dataset. If only ML could write that thing for me, lol.
+[16:41:20] b3nsn0w: yeah, would be nice if it was just a TANN problem
+[16:42:22] b3nsn0w: what I'm finding is writing, just like most things in life, is just a skill
+[16:42:55] b3nsn0w: actually, been rereading parts of my own novel just an hour ago, for unrelated reasons
+[16:43:10] b3nsn0w: (a random friend asked for it and I like to sometimes check what I'm sending)
+[16:43:31] b3nsn0w: and damn, my prose was so bad at some points...
+[16:43:46] b3nsn0w: but that's great, that's exactly how I wanted to be able to look at that book
+[16:44:20] h0p3: Yes. You are practicing correctly. It's a proof of progress.
+[16:44:48] b3nsn0w: yep, and you do need practice to write something enjoyable
+[16:45:27] b3nsn0w: I don't know how much of it translates to nonfiction, honestly, I'm just not that interested in writing it
+[16:46:39] b3nsn0w: but yeah, if you wanna get that book out there, no one knows your story better than you do
+[16:48:54] b3nsn0w: maybe you could even dramatize it to make it just a touch more entertaining, which lets you do the "based on a true story" move
+[16:49:03] b3nsn0w: and just an idea, ask your wife to read it and point out to you when the characters aren't acting like normal human beings if you're not confident enough in that
+[17:48:09] h0p3: Just got our of the shower with her. Seems like I have more direction here.
+"""

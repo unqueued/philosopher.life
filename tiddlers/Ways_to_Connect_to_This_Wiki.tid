@@ -1,15 +1,12 @@
 aliases: [[connect]] [[Connect]] [[Ways to Connect to this Wiki]]
 created: 20161201085941789
 creator: h0p3
-modified: 20190702051924729
+modified: 20200402204423120
 modifier: h0p3
 revision: 0
 tags: Root Readme Directory
 title: Ways to Connect to This Wiki
 
-//See first: {[[Help|Help: On this Wiki]]}//
-
----
 !! About:
 
 //In almost all likelihood, if you are here, then I asked you to come here. Whether I'm justified or not, I must trust you a lot. For the rest of you, randos and unexpected guests: [[hello|Finding The Others]], and good luck!//<<ref "1">>
@@ -50,16 +47,16 @@ The primary host URLs:
 
 Alternative mirrors and methods for acquiring the real-time live version of this wiki:<<ref "r">>
 
+# http://hwikiea2zykn5hdkmf4srti5gglqv5gspqt37opxnhtjdvureonvjoyd.onion/
 # http://live.philosopher.life/
-# https://www.philosopher.life/
-# Resilio Sync read-only key: [[BKPIF6Z4EZIC3WJURWNTQ6SJ5M5AMYVW5|https://link.resilio.com/#f=Wiki&sz=39E7&t=1&s=3E5S6FV4LRD7SS2TUEYTN4ZDEFT5SB6X&i=C7BMBXE73W6ROMTZMIUAFIRQ5CDRTGZAN&v=2.5]]
-# Resilio Sync read-only key serving the wiki decompiled into Bob/NodeJS .tids: [[B5UVNN5IEHZPXV5ZTWBL62FS5V6UZ4VQW|https://link.resilio.com/#f=bob&sz=61E6&t=1&s=2Y5FJH4ZAZP5ZELZJOUEYWBEHJMTTQDX&i=C3Y6UBPJABFXNQLR45PWN62VQBPKQU5GZ&v=2.6&a=2]]
+# Resilio Sync read-only key: BKPIF6Z4EZIC3WJURWNTQ6SJ5M5AMYVW5
+# Resilio Sync read-only key serving the wiki decompiled into Bob/NodeJS .tids: BU7EMYUMMTD7TIW5X2O5YFHWJP4LC3ZWI
 
 Mirrors and methods for acquiring the daily snapshot collection of this wiki:
 
 # https://github.com/m6ram/wiki-nightly<<ref "4">>
 # https://web.archive.org/web/*/https://philosopher.life/<<ref "5">>
-# Resilio Sync read-only key: [[BO7PZEXODBJ27LK7SUIND4NDLOUDO5H75|https://link.resilio.com/#f=h0p3-Dailysnapshots&sz=52E7&t=1&s=UE24BJN6XBKOXT6672O4VACNJL2PQ45I&i=C7I5TNWXDXRNOLHALSSXXPC4JCH2QATNG&v=2.5]]
+# Resilio Sync read-only key: BO7PZEXODBJ27LK7SUIND4NDLOUDO5H75
 # https://www.dropbox.com/sh/fyjf6tgoifb6uek/AAAwerc9u2ry2WNbtkIDht-ia?dl=0
 
 {[[Contact]]}ish Side-Channels:

@@ -1,5 +1,5 @@
 created: 20181222072843364
-modified: 20190312155838272
+modified: 20200207074638696
 tags: [[Wiki: Chromium Setup]] Alias Computing Pin
 title: Text Blaze
 
@@ -18,3 +18,5 @@ title: Text Blaze
 `<<f` := `<<footnotes "{cursor}" "">>`
 
 `/AA` := Antipleonasm Analysis CnP
+
+`/d` := YYYY.MM.DD

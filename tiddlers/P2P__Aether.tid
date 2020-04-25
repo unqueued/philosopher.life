@@ -1,0 +1,41 @@
+created: 20200405152307555
+modified: 20200406171903964
+tags: Computing P2P Exploration
+title: P2P: Aether
+
+//I quarter trust.//
+
+* Non-Ephemerality Necessities
+** Usenet problematics
+* F2F & Nested VPNs
+** Sharding
+** Hubski exploration and modding
+* Multisubs
+** Taggable and nestable grouping
+** Custom Client-side sub-generation
+* Weighted Judgment
+** Quadratic Ranged Voting
+** Users Owning the Means of Filtering Production
+*** User control of salience factors
+*** Multiple moderation protocol availability.
+**** [[Gradual]]ized [[T42T]] trust and resource sharing
+***** You must seed the defeat of the majority somewhere...
+** I want to see how people are voting, and I want to have a record of weight I've attached to users. Make my votes count long-term.
+** TNN preparation
+* Prove Its
+** Who controls the entry points to the network? 
+** Ol' Yeller Duplicability.
+** Aether Pro has no control over the state of the network. Only Users (and in virtue of them, their selected mods).
+* Static file hosting and mutable torrents
+** First-class text, second-class files?
+* First-class CLI
+** Don't make powerusers do this by hand.
+* First-class proxiability
+** Matrix-style user centralizaton features
+** Should be encouraged...Low-hanging fruit
+* Chat, Emoji-signaling, Qtox/Discord feature replication
+** Zawinsky's
+* Zooko's: Node Naming 
+* Addon Extensibility
+* Content Bootstrapping
+** Reddit->Aether

@@ -1,0 +1,18 @@
+[11:44 PM] h0p3: Ha, I love that you responded to GPT-2.
+[11:44 PM] h0p3: I'm still blown away by what it said about my line. (I wasn't sure what to pick for yours, but that one felt pretty decent).
+[11:46 PM] chameleon: It really got the spirit of the article, lol
+[11:47 PM] chameleon: I've been doing some pretty kooky stuff today. Next time I upload I have a [[Dear Reader]] tiddler, and I'm also going to bloviate about how [[The Last Waifuist]] is growing organically
+[11:47 PM] h0p3: I've been in contact with https://www.reddit.com/user/shawwwn (did that neat GPT-2 chess bot). If and when I get the time, I'm thinking about setting a tool for making it so our wikis can be funneled into it. If I understand correctly 2MB plaintext is bare minimum, 64MB preferred. We have a decent start toward it.
+overview for shawwwn
+The u/shawwwn community on Reddit. Reddit gives you the best of the internet in one place.
+[11:48 PM] h0p3: Good. I love when you bloviate and let it all hang out. It's a treat.
+[11:49 PM] h0p3: Been thinking about your [[@: hypertext 2020]]. My first draft of your last large post was going to just hardcode the link, but I wanted to keep the quote as you had it.
+[11:50 PM] h0p3: I still don't have rules/categories/subsets for tiddlers on my own wiki which I'm feeling solid about.
+[11:51 PM] h0p3: I'm also interested in not just categorizing individuals tiddlers into various classes, but also trying to understand what kinds of structures can be built from the bodies of tiddlers which aren't reducible to tiddlers (or tend not to be reducible, or are less likely to be genereated without just breaking it up into many tiddlers).
+[11:52 PM] h0p3: (that may be a dumb idea; I still don't know)
+[11:53 PM] h0p3: I'm not keeping up my end of over the hyperconversation terribly well here, but it's been a fucking blur.
+[11:53 PM] chameleon: well, you're moving so I'm hardly going to hold that against you
+[11:53 PM] chameleon: I'm amazed I managed to snatch terminal time when I moved...
+[11:54 PM] chameleon: gpt2-ing my whole wiki... that would be something for sure
+[11:55 PM] chameleon: I wonder if it would trip on the text art
+[11:56 PM] h0p3: yeah, probably...would love to see it make text art, but that's unlikely, I assume

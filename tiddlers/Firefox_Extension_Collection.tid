@@ -1,9 +1,11 @@
 created: 20180304023739622
-modified: 20191020170210822
-tags: Library Computing
+modified: 20200325194815598
+tags: dotfiles Library Computing
 title: Firefox Extension Collection
 
-//Add-on, Extension, whatever the hell you want to call it.//
+//Rice, rice, baby. You should not trust my appraisal.//
+
+!! Currently in Use:
 
 Display and Navigation Sanity:
 
@@ -27,6 +29,7 @@ Unique Site Enhancements:
 
 FEED ME:
 
+* [[Fraidycat|https://fraidyc.at/]]
 * Feedbro
 * Update Scanner
 
@@ -79,6 +82,7 @@ Security & Defuckification:<<ref "d">>
 * User Agent Switcher and Manager
 * TrackMeNot
 * Smart Referer
+* SmartProxy
 
 
 Reconnaissance & Search:
@@ -100,6 +104,11 @@ Escaping the Browser:
 * Cast Kodi
 * File-Backups (TiddlyBackup)
 * Toolbox for Google Play Store™
+* Torrent Control
+
+
+
+!! Not in Use:
 
 
 GY, BYE:
@@ -107,13 +116,16 @@ GY, BYE:
 * Auto Tab Discard 
 * Form History Control (II)
 * ImTranslator: Translator, Dictionary, TTS
-* SmartProxy
 * tabPreLoader
 * Temp Mail - Disposable Temporary E-mail
-* Torrent Control
 * Tree Style Tab
 * Wikipedia Peek
 * I'm not robot captcha clicker
+
+Currently in Testing:
+
+* https://relaychat.app/
+** Lots of questions and problems, but the idea is cool.
 
 Candidates:
 

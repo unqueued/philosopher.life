@@ -1,9 +1,11 @@
 created: 20181203012816920
 creator: h0p3
 fc-filter: [tag[MTG Deck]]
-modified: 20190705040333918
+modified: 20200313184825959
 modifier: h0p3
-tags: [[Magic: The Gathering]] filter-list
+tags: [[Magic: The Gathering]] Autogen
 title: MTG Deck
 
-{{MTG Deck: Focus}}
+//Lame. Should write about the lists we use.//
+
+<<list-links "[tag[MTG Deck]]">>

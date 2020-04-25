@@ -1,0 +1,16 @@
+aliases: [[chatlog]] [[chatlogs]] [[Chatlogs]] [[Chatlog]]
+caption: Chatlog
+created: 20200209063016545
+modified: 20200301053044676
+tags: FTO Autogen
+title: FTO: Chatlog
+
+<div class="tc-menu-list-item">
+<$list filter="[!is[system]!prefix[Hidden:]!tag[Hidden]!tag[no-recent]tag[Chatlog]!nsort[created]]">
+<div class="tc-menu-list-subitem">
+<$link to={{!!title}}>
+<$view field="title"/>
+</$link>
+</div>
+</$list>
+</div>

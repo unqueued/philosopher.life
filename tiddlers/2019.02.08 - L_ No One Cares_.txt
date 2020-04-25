@@ -1,0 +1,110 @@
+"""
+How goes it? TGIF?
+FRI 2:52 PM
+Definitely.
+FRI 2:54 PM
+Seems to be an endless stream of things to have to jump on top of. Also, how does anyone expect to get ANYTHING done if we’re constantly in meetings? I don’t get it.<<ref "2020.02.08-1">>
+FRI 2:55 PM
+I hear the endless stream. Sorry =(...unless it's a good stream. As usual, don't let them cross.
+FRI 5:02 PM
+Meetings are stupid.
+FRI 5:02 PM
+I fucking hate them
+FRI 5:03 PM
+Although, in construction, I'm glad to have meetings. Those have been a valuable use of my time.
+FRI 5:03 PM
+I’ve gotten to the point where I prepare for my meetings so they can end sooner.
+FRI 6:24 PM
+How do you prep?
+FRI 6:24 PM
+I think about the purpose and desired outcome of the meeting, the make a rough outline of the information I need from it (if I’m leading the meeting, which I often am). If I’m just attending, I try to be better about taking notes or asking someone to share their notes with the group so we can stay on track. It’s very helpful. 
+But honestly, if certain people are invited to the meeting it can go on and on because they just won’t get to the point... yeesh. I try to avoid meetings with them, which may sound terrible but it is what it is.<<ref "2020.02.08-2">>
+FRI 6:26 PM
+Sounds highly telic, pragmatic, goal-oriented, etc. It's interesting to see how you reason about your leadership roles. I completely understand avoiding some people. Lol.
+FRI 6:29 PM
+I try to be as practical as possible for these meetings... there are way too many times our leaders get into a meeting and just ramble endlessly.
+FRI 6:35 PM
+Sounds like a chance for monkeywrenching.
+FRI 6:36 PM
+I’m sure there’s a better way to phrase this, but our leaders (particularly mine) love to give the illusion of choice. They will give us a topic to discuss, but when we provide them with out answer they’ll say “well actually this this and this, therefore this other option”
+FRI 6:36 PM
+Sooooooo, if you knew the answer you already wanted WHY DIDN’T YOU SAY SO IN THE FIRST PLACE????
+FRI 6:37 PM
+It makes me want to strangle someone. It just wastes everyone’s time.
+FRI 6:37 PM
+Peter Principle may be in effect.
+FRI 6:37 PM
+Also, monkeywrenching?
+FRI 6:37 PM
+Could be other reasons.
+FRI 6:37 PM
+A chance to sabotage.
+FRI 6:37 PM
+Ah, yeah.
+FRI 6:37 PM
+About the Peter Principle: I think that applies heavily to my boss. She is not capable of handling all these responsibilities and it shows.
+FRI 6:39 PM
+I am not surprised.
+FRI 6:39 PM
+Sounds like it to me.
+FRI 6:39 PM
+Our work, unless outward facing, is overwhelmingly ignored. It’s good and important work, but no one gives a shit.
+FRI 6:39 PM
+Good and important for what?
+FRI 6:40 PM
+Good because it prepares our team for the future, important because the future is very uncertain for our department.<<ref "2020.02.08-3">>
+FRI 6:40 PM
+But no one wants to work on it unless it’s an immediate concern, hence why no one cares. Why does no one care about the future, [[h0p3]]??<<ref "2020.02.08-4">>
+FRI 6:41 PM
+Aye. I can see how it is instrumentally valuable.
+FRI 6:41 PM
+I have found few people actually care about what matters most.
+FRI 6:42 PM
+You are also looking at a version of the tragedy of the commons based reasoning, imho.
+FRI 6:42 PM
+It's because people tend to be T4T or worse, egoistic, selfish, dark-triadic, unwilling to sacrifice for the sake of others (or even their own futures selves), and wholly unconcerned with being good persons.
+FRI 6:43 PM
+It's someone else's problem, and they aren't going to take responsibility for themselves unless it coincidentally overlaps with their immediate hedonic pleasure (or is hypothetically close enough in their peripheral instrumental reasoning to admit it).
+FRI 6:44 PM
+I’m just tired of it so I’m doing my best to change it through example. But anyways, I should stop complaining about work or I’ll end up repeating the same stuff over and over.<<ref "2020.02.08-5">> How are you?
+FRI 7:22 PM
+[[K]] tells me you two are going on a musical adventure together!
+FRI 7:22 PM
+Preach, on the example. I'm 99% sure my work is irrelevant with 97% of others in this vein. I'm probably not doing a good enough job. I'll keep trying to find a way. `/fingers-crossed`.
+FRI 7:23 PM
+I'm doing okay. The wiki is the best explanation, as always.
+FRI 7:23 PM
+I've been working hard on my cover letter.
+FRI 7:24 PM
+https://www.eff.org/opportunities/jobs/privacy-and-surveillance-activist
+FRI 7:24 PM
+It's like a dream job for me.
+FRI 7:24 PM
+I would like your input, please: https://philosopher.life/#EFF%3A%20Cover%20Letter:%5B%5BEFF%3A%20Cover%20Letter%5D%5D
+FRI 7:25 PM
+(don't worry about hurting my feelings here...I'm looking to be effective, and this is a risky strategy, but I believe my best chance)
+FRI 7:26 PM
+Yeah, [[K]] and I are on an adventure, no doubt.
+FRI 7:26 PM
+It is clear to me that [[K]] has been my brother since I've met him, but it now feels like I am his brother more thoroughly. I'm grateful to have the chance.
+FRI 7:28 PM
+He's fulfilling a request of mine about music, and it's been a part of our exploration of meaning, storytelling, and identity.
+FRI 7:30 PM
+Damn, that DOES sound like a dream job for you. And I will read your cover letter thoroughly and give you a proper response, which will have to wait a bit cause we have company. 
+
+I think it’s very sweet/adorable that the two of you are doing this thing together. Music means so much to [[K]], so I think it’s as important to him as it is to you. It thrills me to hear that you view him as a brother — [[K]] was telling me he feels like he’s really connecting with you. It makes me happy that you both are developing a strong relationship. It’s almost like a “brother approves of my husband” kinda thing for me.<<ref "2020.02.09-6">>
+FRI 8:27 PM
+"""
+
+---
+<<footnotes "2020.02.08-1" "She's right there at the edge of articulating her commodification in capitalism. She doesn't speak of it. It's very painful, I realize. Slowly, I think she is coming to wish she did things differently. I know I did. Generally, she changes the topic; it's not optimistic enough. Maybe if and when she escapes, she will be able to speak of it.">>
+
+<<footnotes "2020.02.08-2" "She also avoids meetings with me, but that is changing too. I think watching my relationship with her husband has made her less inclined to avoid the madman. Of course, I repeat myself. It is annoying.">>
+
+<<footnotes "2020.02.08-3" "And, she was correct. There were layoffs later.">>
+
+<<footnotes "2020.02.08-4" "I do. I'm talking to you about it right now.">>
+
+<<footnotes "2020.02.08-5" "And, you know I'll repeat my response too. You are not helpless here. Sometimes we have no other choice but to continue down the unlikely narrow path, repeating the same steps over and over. I'm trying to help you escape! You have to talk about it, even if it is profoundly disturbing for you.">>
+
+<<footnotes "2020.02.09-6" "Hrm. I don't want it to be about mere approval. Friendship requires validating selectively; picking out what matters with them as wisely as possible. Approval is the wrong word and goal, to some extent. My goal is to be a brother to him too.">>

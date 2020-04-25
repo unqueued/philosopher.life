@@ -1,0 +1,90 @@
+[12:27:17] h0p3: I have to geek out with you. I just bought a server for $350 with 4 x Intel Xeon E5-4640, 128GB RAM, all the PCIE slots I could want, hotswap bays. Singlethreading aint hot, but I'm finally going to be able to move away from using swap.
+[12:28:33] BDS97: home: holy shit
+[12:28:49] BDS97: home: 128 GB of ram alone sounds awesome
+[12:29:03] h0p3: I am so psyched!
+[12:29:07] BDS97: home: plus 32 cores?
+[12:29:14] h0p3: It's going to be VM heaven.
+[12:29:34] BDS97: home: yeah, that's like a low-cost epyc equivalent
+[12:30:04] BDS97: home: probably uses a lot more power, but hey, you're not a datacenter, shouldn't matter as long as you can cool it
+[12:30:33] h0p3: aye, it does use way more juice. I don't even know if it comes with powercords or what I'll need to do on that front.
+[12:30:46] h0p3: I've never bought a server before. I've had workstation equipment, but that's different.
+[12:31:36] BDS97: home: anything else than gaming should run like a dream on that thing
+[12:31:50] BDS97: home: maybe except for some adobe stuff, they like to write garbage code too
+[12:32:31] h0p3: Aye. I wish it had a single amazing core for singlethreading and the rest could be balanced across lower end cores like what I've got.
+[12:32:56] h0p3: I'm taking a 25% cut in singlethreading to use this machine, but I keep finding I need RAM more than compute power.
+[12:33:45] h0p3: I'm trying to figure out whether or not I should use a type-1 hypervisor or just stick with i3 and type-2.
+[12:34:08] h0p3: What would you do?
+[12:34:24] BDS97: home: both, probably
+[12:34:49] BDS97: home: run a host system that I can use, and a bunch of VMs on it
+[12:35:17] BDS97: home: as long as the host is secure enough to not interfere with the guests it should give you the best of both worlds
+[12:35:44] BDS97: home: so, how about qubes with something like qemu-kvm on it?
+[12:36:39] BDS97: home: cpu can be shared easily, memory is the only drawback of this strategy
+[12:36:44] BDS97: home: but, well, you got 128 GB of that
+[12:38:33] h0p3: Qubes is a memory whore, but yeah, that would work. i3 will work fine on it too.
+[12:38:44] BDS97: home: also, about the cpus
+[12:38:58] BDS97: home: do they all have to be the same?
+[12:39:19] BDS97: home: if they don't, you could swap in an e5-4617 into one of the sockets
+[12:39:34] BDS97: home: 6 cores, 6 threads only, and a power hog at 130W
+[12:39:49] BDS97: home: but it has a 2.9 GHz base clock and boosts up to 3.4 GHz
+[12:41:16] h0p3: Huh, I've never seen one that didn't use identical CPUs.
+[12:41:43] BDS97: home: trying to check out why you shouldn't do it
+[12:43:08] BDS97: home: it's unsupported to have different frequencies, but if there's one thing I learned about hardware specs it's that unsupported doesn't mean shit
+[12:43:19] BDS97: home: I'm running a 1700X currently
+[12:43:27] BDS97: home: at 3.9 GHz, which is unsupported
+[12:43:48] BDS97: home: with 2933 MHz memory, also unsupported
+[12:43:56] BDS97: home: an nvidia card, and a freesync monitor
+[12:44:08] BDS97: home: which does get gsync, but you guessed it, it's unsupported
+[12:44:15] BDS97: home: still works, just needs a bit of testing
+[12:44:59] BDS97: home: so no idea about your cpu, can't just recommend it because I have no idea how it would play out, but as long as you don't mess with voltage it's pretty hard to break a cpu
+[12:46:14] BDS97: home: btw it feels super retarded to not support this, but given that it's intel, I can clearly see why they'd play it like that
+[12:46:53] h0p3: lol, aye
+[12:47:36] h0p3: It's a weird problem; I'm wondering if Linux would do scheduling appropriate. Would those processes which are burning a full core be transitioned to the best cores?
+[12:48:10] BDS97: home: no idea
+[12:48:20] BDS97: home: haven't seen anyone testing it yet
+[12:48:48] BDS97: home: worst case, you waste some money on an extra cpu, and end up swapping back the other one
+[12:49:21] BDS97: home: that's how I see it when every time you try to find how it works you only get people telling you why you shouldn't try it
+[12:53:35] h0p3: Why is this not a problem we've seen handled before? Intel just makes more money not doing this well? 
+[12:53:47] h0p3: It reminds me of different levels of cache, RAM, SSD.
+[12:53:51] BDS97: home: yeah, you want a fast cpu? here, buy 4
+[12:54:00] h0p3: Surely we should have different levels of singlethreading
+[12:54:17] BDS97: home: this is actually common in phones, they call it "big.LITTLE"
+[12:55:11] BDS97: home: so if the scheduler made it back to the linux kernel, it should be great
+[12:55:22] BDS97: home: because android certainly supports it
+[12:55:42] BDS97: home: but I'm not a kernel dev, no idea if that's how it works or not
+[12:56:15] BDS97: home: wait a sec
+[12:56:23] BDS97: home: no, they're retarded as well
+[12:56:36] BDS97: home: typically only one side is in use at the same time
+[12:56:50] BDS97: home: so you get a phone with an "8-core" cpu, which is really just a weak dual core and a strong dual core
+[12:57:07] BDS97: home: but it never uses all 8 cores, just switches between the slow and the fast ones
+[12:59:00] h0p3: Extremely expensive single-thread cores, a bunch of cheap lower end cores, FPGA, and GPU seems to be the future. Heterogeneous computing is the only cost efficient way to handle the problem.
+[12:59:36] h0p3: But, I still have my doubts about ARM taking over =/
+[12:59:57] BDS97: home: it's not gonna take over anytime soon
+[13:00:42] BDS97: home: the rumors about x86 dying went away with Zen, because now that there's actual competition Intel is no longer sitting on 5% improvements
+[13:01:17] BDS97: home: they had a pretty stupid business strategy to be honest, even if AMD died (it would have without the consoles) in a few years it would have been ARM they'd have needed to fight
+[13:01:31] BDS97: home: but I still don't think ARM could be strong enough to take on x86
+[13:01:51] BDS97: home: it's awesome for the low-end though, anything between a phone and an arduino
+[13:04:18] h0p3: I like how languages are conscientious about targeting architectures, but x86 has all the "just werx" inertia. Progress there has the least amount of friction.
+[13:04:48] BDS97: home: btw, that's one thing I'd like to see in the laptops of the future
+[13:04:57] BDS97: home: code compiled to both x86 and arm at the same time
+[13:05:13] BDS97: home: in a way that it could switch over if needed
+[13:05:39] BDS97: home: maybe not between any two instructions like in the same architecture, but at frequent enough points
+[13:06:05] BDS97: home: so you could have something like a ryzen 4700U
+[13:06:29] BDS97: home: gonna guess 8 cores and an iGPU performing like an RX 580, on 15-25W
+[13:06:37] BDS97: home: (7nm is magic)
+[13:06:52] BDS97: home: and then you could have the latest snapdragon, or whatever qualcomm ends up calling it
+[13:07:06] BDS97: home: so when you need the power, you get the power
+[13:07:17] BDS97: home: and when you don't need it, you get a week of battery life
+[13:08:26] h0p3: Aye. There has to be a butterzone for the power tradeoff.
+[13:10:23] h0p3: I think many applications don't care about battery life though...they'll take every ounce of compute you will give them (even when they shouldn't need it). Battery power is your problem as a user. That is not a problem I'm convinced will be solved by the market.
+[13:11:16] h0p3: Hopefully it will become easier to set saner default battery usage than what I've seen so far.
+[13:11:22] BDS97: home: easy, just put a limiter on the apps so the user can tell it how much cpu it can use
+[13:11:26] BDS97: home: no idea why this doesn't exist already
+[13:11:52] BDS97: home: it's one of those things that should be simple (provided you have low-level access) and really useful
+[13:11:57] BDS97: home: instead we just get priorities
+[13:12:12] BDS97: home: but what if the priority is not using the CPU at all to save power?
+[13:13:16] h0p3: That will be one of the perks of switching over the fuschia. They'll dangle enough convenience to seal us in.
+[13:13:43] BDS97: home: fuschia, as in google's new os?
+[13:13:51] BDS97: home: haven't heard a lot about it
+[13:14:09] h0p3: Maybe it will never come into play. We've been waiting for a long time. 
+[13:14:19] h0p3: ChromeOS and Android are slowly geling.
+[13:16:23] BDS97: home: yeah, chromeos was getting annoying as hell last time I used it

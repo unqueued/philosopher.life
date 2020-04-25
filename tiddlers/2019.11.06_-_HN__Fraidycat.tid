@@ -1,0 +1,38 @@
+created: 20191106153216366
+modified: 20191107233549183
+tags: kickscondor HN
+title: 2019.11.06 - HN: Fraidycat
+
+https://news.ycombinator.com/item?id=21465999
+
+* Fraidycat - Toward Following People Instead of Platforms
+
+Fraidycat is a delightful browser extension for following people on the interwebs. Roughly, it's an easy-to-use yet hackable, user-owned, FOSS, privacy-respecting, and experimental next-generation feed aggregator and reader. Not every platform offers RSS, so Fraidycat tries to build those bridges for you, scraping and packaging it up for you automagically, allowing you to tailor your own feeds, priorities, and timelines from across the web in your browser. 
+
+Hear ye, hear ye. Tolle, lege; tolle, lege. Srsly, hyperbolic skiddie fanboi gushing here, so ignore me at-will, plz:
+
+Instead of being trapped and beholden to cycling through endless applications and platforms to follow people: we can use Fraidycat (and tools like it) to simplify, defragment, and take ownership of our window(s) into the lives of others on the web. It's sooper practical about a really hard problem we face on the web. In a number of respects, Fraidycat makes it less expensive for us to have control over searching for what we find salient.
+
+Fraidycat reminds me of why I use the internet in the first place: to connect to people (even if only unidirectionally in some cases). I want to bypass the treadmill of applications, silos, and platforms that aim to commodify the pipelines between me and other people. Fraidycat is afraid of what the web is becoming, and it's savagely fighting back. It's got [[the beautiful|The Beautiful]] heart of what's [[right]] about the old-web reborn in it. 
+
+Don't let the frisky aesthetic of this [[gem]] fool ya: underneath the hood is essentially an engine which is necessary (even if insufficient) for a functioning democracy, for treating people not as mere means but as ends, and for fixing the problems of the centralization of infrastructures and processes which commodify our attention spans. It's a spicy tool for the people and about the people. It sprankles your browser with mana, dope maymays, and the people you like or love (or don't, ;P).
+
+It's got a lit vision for improving the signal-to-noise ratio of people-watching on the web which we should embrace. I don't want my browser to become just some surveilled thin-client which dehumanizingly displays only whatever semblance of the walled-garden web some oligarchy of corporations has decided will make them the most money. That would seriously be silly. No, instead, Fraidycat uses my resources to track and represent people on the web to me in a manner that won't arise in a standard market. It aims to give the power of surfing and taking the pulse of the web back to the user.
+
+You own the aggregation process with Fraidycat because it runs in your browser. Folks, I got 99 problems, and at least one of them is not having enough control over how I organize, unify, and connect with people. The browser is the terminal of the 21st century, and I need as many of these leet social computing interfaces which respect my personhood as I can get. Political and technological autonomy requires turnkey tooling for users to actively shape the algorithms which pick out what they find salient on their own terms and devices. We have to shape our own filter-bubbles and how we feed ourselves information; we have to own the memes of production here. To my eyes, Fraidycat is a lens-crafting tool, one of many possibilities, which I desperately hope will see widespread development and use. 
+
+This is [[good]] low-hanging fruit, and we should pick it. Is it complete? Heck no, but it's obviously an adventurous step in the right direction. For the same price as it took you to read this gibberish, take you, like, two minutes and try you one out: https://fraidyc.at/.
+
+---
+
+Shit. 2k char max. Trying again:
+
+Fraidycat (https://fraidyc.at/) is a delightful browser extension for following people on the interwebs. It's an easy-to-use yet hackable, FOSS, privacy-respecting, and experimental next-generation feed aggregator and reader. Not every platform offers RSS, so Fraidycat tries to build those bridges for you, scraping and packaging it up for you automagically. It aims to enable you to tailor your own feeds, priorities, and timelines from across the web in your browser.
+
+Instead of being beholden to cycling through endless applications and platforms to follow people: use Fraidycat to simplify, defragment, and take ownership of your window into the lives of others on the web. Fraidycat is afraid of what the web has become (and is becoming), and it's savagely fighting back.
+
+I want to bypass the treadmills and middlemen which aim to commodify my attention span and the pipelines between me and others. I don't want my browser to become just some surveilled thin-client dehumanizingly displaying a walled-garden web engineered by whatever an oligarchy of corporations chooses for me. Fraidycat allows me to more independently use my resources to track and represent people on the web for me. I'm convinced it gives the power of surfing and taking the pulse of the web back to the user.
+
+You own the aggregation process with Fraidycat because it runs in your browser. Political and technological autonomy requires turnkey tooling for users to actively shape the algorithms which pick out what they find salient on their own terms and devices. We have to shape our own filter-bubbles and how we feed ourselves information. Fraidycat is the kind of a lens-crafting tool we need.
+
+Take you, like, two minutes and try you one out: https://fraidyc.at/.

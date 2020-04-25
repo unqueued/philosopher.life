@@ -1,0 +1,17 @@
+[1:17 PM] robotic_scarab: thoughts on full disk encryption on Arch laptops?
+[1:18 PM] h0p3: I suggest image backups.
+[1:18 PM] h0p3: I have lost more than one encrypted system.
+[1:19 PM] h0p3: It might do better to engage in encrypting only parts of the system.
+[1:20 PM] robotic_scarab: Is it something you'd consider it worthwhile for me to have on my machine?
+[1:20 PM] robotic_scarab: that's specific :P
+[1:24 PM] h0p3: I give the advice of elves here: it makes sense to encrypt if you think you'd lose the device or don't trust others, but I also don't think you are the sort of person who would lose their device or would find yourself faced with someone who is going to abuse your trust.
+[1:25 PM] h0p3: It seems unlikely to me that you would need it, but I would never want to hold you back from securing your device.
+[1:25 PM] h0p3: I keep my phones encrypted. I've only recently stopped with my laptops.
+[1:27 PM] h0p3: Often, something worth disk encryption is worth having its own device with its own policies and procedures.
+[1:28 PM] h0p3: So, simple and short answer: no, I don't think I would do it in your shoes.
+[1:29 PM] robotic_scarab: thank you for your thoughts! yeah, knock on wood, I've never lost a computer and I hope to keep it that way - must always keep my preciouses close.
+[1:29 PM] h0p3: lol :smiley:
+[1:30 PM] robotic_scarab: I do worry about things like border crossings but a) should probably figure out how to handle my phone in that scenario first and b) I can always wipe and fresh install arch on my chrome book and keep it as a clean machine for travel
+[1:33 PM] h0p3: aye, travel with thinclient notebook and patch back into your mainframe at home with a VPN. The phone is harder. I ask my students at the middle school to set up multiple accounts for plausible deniability. When the teachers tell them to unlock their phones, I want them to enter a different key to have the teachers see a realistic but artificial environment.
+[1:34 PM] h0p3: It's steganography, but sometimes that's the best method.
+[1:37 PM] robotic_scarab: yeah, having an iPhone gets in the way in this regard

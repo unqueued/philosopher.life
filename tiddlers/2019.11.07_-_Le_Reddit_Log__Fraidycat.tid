@@ -1,0 +1,148 @@
+created: 20191107160249252
+modified: 20191108171453740
+tags: kickscondor [[Le Reddit Log]]
+title: 2019.11.07 - Le Reddit Log: Fraidycat
+
+//I am the door-to-door shameless shill, lol. I got a free ban (woot ;P) and some karma (GET IT OFF ME!). I'm going to remind you that my posts on Reddit only last up to 72 hours.//
+
+* https://www.reddit.com/r/MarchForNetNeutrality/comments/dszrmj/fraidycat_toward_following_people_instead_of/
+* https://www.reddit.com/r/socialistprogrammers/comments/dszyzw/fraidycat_toward_following_people_instead_of/
+* https://www.reddit.com/r/webdev/comments/dt0901/fraidycat_toward_following_people_instead_of/
+* https://www.reddit.com/r/privacy/comments/dt0e7t/fraidycat_toward_following_people_instead_of/
+* https://www.reddit.com/r/FirefoxAddons/comments/dt0ms4/fraidycat_toward_following_people_instead_of/
+* https://www.reddit.com/r/tech/comments/dt0sj6/fraidycat_toward_following_people_instead_of/
+* https://www.reddit.com/r/firefox/comments/dt0zyc/fraidycat_toward_following_people_instead_of/
+* https://www.reddit.com/r/technology/comments/dt16ny/fraidycat_toward_following_people_instead_of/
+* https://www.reddit.com/r/Rad_Decentralization/comments/dt1h6x/fraidycat_toward_following_people_instead_of/
+* https://www.reddit.com/r/NewPatriotism/comments/dt1pix/fraidycat_toward_following_people_instead_of/
+* https://www.reddit.com/r/KeepOurNetFree/comments/dt1ux8/fraidycat_toward_following_people_instead_of/
+* https://www.reddit.com/r/freesoftware/comments/dt2202/fraidycat_toward_following_people_instead_of/
+* https://www.reddit.com/r/opensource/comments/dt2818/fraidycat_toward_following_people_instead_of/
+* https://www.reddit.com/r/selfhosted/comments/dt2i6c/fraidycat_toward_following_people_instead_of/
+* https://www.reddit.com/r/privacytoolsIO/comments/dt2oev/fraidycat_toward_following_people_instead_of/
+* https://www.reddit.com/r/StallmanWasRight/comments/dt676r/fraidycat_toward_following_people_instead_of/
+* https://www.reddit.com/r/freeculture/comments/dt6dow/fraidycat_toward_following_people_instead_of/
+* https://www.reddit.com/r/decentralization/comments/dt6ul4/fraidycat_toward_following_people_instead_of/
+* https://www.reddit.com/r/KeepOurNetFree/comments/dt7n8w/fraidycat_toward_following_people_instead_of/
+* https://www.reddit.com/r/coolgithubprojects/comments/dt6s2d/fraidycat_follow_people_everywhere/
+** Goddamnit, this beautiful asshole beat me to the punch. `/fist-shake`
+* https://tildes.net/~tech/j3b/fraidycat_toward_following_people_instead_of_platforms
+
+Fraidycat is a delightful browser extension for following people on the interwebs. It's an easy-to-use yet hackable, FOSS, privacy-respecting, and experimental next-generation feed aggregator and reader. Not every platform offers RSS, so Fraidycat tries to build those bridges for you, scraping and packaging it up for you automagically. It aims to enable you to tailor your own feeds, priorities, and timelines from across the web in your browser.
+
+Instead of being beholden to cycling through endless applications and platforms to follow people: use Fraidycat to simplify, defragment, and take ownership of your window into the lives of others on the web. Fraidycat is afraid of what the web has become (and is becoming), and it's savagely fighting back.
+
+I want to bypass the treadmills and middlemen which aim to commodify my attention span and the pipelines between me and others. I don't want my browser to become just some surveilled thin-client dehumanizingly displaying a walled-garden web engineered by whatever an oligarchy of corporations chooses for me. Fraidycat allows me to more independently use my resources to track and represent people on the web for me. I'm convinced it gives the power of surfing and taking the pulse of the web back to the user.
+
+You own the aggregation process with Fraidycat because it runs in your browser. Political and technological autonomy requires turnkey tooling for users to actively shape the algorithms which pick out what they find salient on their own terms and devices. We have to shape our own filter-bubbles and how we feed ourselves information. Fraidycat is the kind of lens-crafting tool we need.
+
+Take you, like, two minutes and try you one out: https://fraidyc.at/.
+
+---
+
+<<<
+> I really like the idea behind this. Turn this into a web app I can host and I'll use it everyday
+
+You should talk to its creator about that one. There's something right about your claim. I'll mention it to him as well, but I know he would care about your thoughts.
+<<<
+
+
+<<<
+>>> Social media killed the good old Rss. I would use this thing if it is hostable like sue_me_please mentioned.
+
+>> That's two people. That can't be nothing. Assuming I can, I will argue your case vehemently with the creator (I'm one of his favorite retarded brothers). I'm going to push back real quick so that I can pinpoint for him why this is missing a crucial feature. Here's me playing devil's advocate with you for the sake of understanding the critical flaw:
+
+>> What's wrong with using this in your browser? That is self-hosted to my eyes, although only one machine at a time can access it (unless you are syncing and all the devices are redundantly doing the work independently). Your browser is a sandboxed VM, and lots of OSes have Firefox readily available.
+
+> I use multiple computers and handheld devices. I've spent time and money optimizing my workflow with the software that I use daily, and part of that entails being able to access my workspace from any device from where I left off. Another aspect is that my infrastructure is centralized and can be torn down, reconstructed and upgraded quickly and easily. Having to install software and updates on every device, and maintain state between them, doesn't fit into this workflow at all.
+
+> If it were packaged as a web application, or the product adopted a server/client model, then its options for hosting would be nearly infinite.
+
+> I'm a developer and have some time to work on projects that are committed to remaining open source. If your brother is open to exploring the web app option, I can help out.
+
+I get that. I have some similar problems. Syncing can be painful (though I've not found a way around it for everything I want), and centralizing your infrastructure for agnostically remoting in has many upsides.
+
+I'll be letting him know, but I think you should also reach out to him! He speaks with everyone.
+
+> Self hosters like to access their stuff from different locations. Tying this to my current browser means this needs to be synced. Bear in mind that when a service is self hosted it also makes it easy to share with others, for instance I can share all my starred articles in TTRss with the world via a special url. They do not have to be my TTRss users, or I can share my account with my friends if I want to. Same can be done with your brother's work. People can make custom list of things to follow and share with the loved or hated ones.
+
+> https://git.tt-rss.org/fox/tt-rss/wiki/Plugins
+
+> Btw I like the fresh design look he tried there.
+
+I had not even considered the value of sharing the service. One could just export and import it, but running the service for others is way more convenient. This could be more social.
+
+Yeah, the design is neat. It reminds me of Yo Gabba Gabba. [[There's a party in my tummy: so yummy, so yummy|https://www.youtube.com/watch?v=6Os-CACRwM8]]!
+<<<
+
+<<<
+>> I was giving the sources some look and I think I might be capable of pulling it off, in case the creator don't pursue this feature I might fork it in the future.
+
+> You should go speak with him! kicks would love to hear from you, and he will think carefully about what you have to say (I guarantee it).
+
+I initiated contact with him on github, this piece of software solve all my problems and it's so simple, having it in my homeserver is a must now :)
+<<<
+
+---
+
+<<<
+>>>that's honestly a very interesting idea... also, can i just take a minute to appreciate the website (are you the creator?)? most websites nowadays are incredibly huge, taking lots of resources and taking a long time to load (now, granted that this website basically just contains written text, but still), plus, they're all designed as though everyone just used square space basic website design layouts, which i hate, while this one is something not traditional, plus the font is very nice, thanks :)
+
+>> I am not the creator. I'm just someone who stands in awe of what this tool aims to accomplish. The designer of the site and tool is kickscondor; the dude knows how to make stuff.
+
+> yeah, the design is really cool... have you been using this tool for some time now? could you describe your use cases for it? because right now it's not entirely clear for me how this tool functions...
+
+I have not been using it long because it has just been released. I have been following its development and thinking about what it means for how we use the web.
+
+I follow some sites, particularly personal sites, for which I want to see all updates immediately. I want a realtime feed. They don't have RSS, and this tool also gives me a quick executive summary (more than just pinging me that something has changed, like the other tool I use). On top of this, I still use RSS feeds, and this reader is closer to giving me programmatic control of how my feeds are shaped.
+<<<
+
+---
+
+<<<
+> Is this your project or are you quoting someone?
+
+Not my project. I'm talking about someone else's project. These are my words. I'm opinionated about what it's shooting for. I think it's a step in the right direction.
+<<<
+
+<<<
+> Any mobile support? Definitely appreciate the mission here
+
+I can install it, but I've not been able to get it working on my phone yet. This software is brand spanking new though.
+<<<
+
+<<<
+>> looks cool, sounds cool. not to keen on the name, but i'm curious to try it out. i think it's a great idea anyway. have you looked into https://relaychat.app ? i think it's a similar idea, but it's got a chat system and stuff built in. i'm currently queued up, not sure what's going on, but the queue for entry is almost 6k folks
+
+> Thank you for showing me relaychat.app. I've not seen how this is built, and the source is closed. I can say, despite all of the fantastic tricks out there, NATs are a serious problem (especially trapped inside a browser, over which I doubt Google is going to give us real control) for participating as a full citizen on the web. I'm going to bet relaychat is still centralized in some crucial spots (especially if they aim to monetize it). The user runs Fraidycat entirely, and it doesn't require any proxies or centralized servers.
+
+good points
+<<<
+
+---
+
+<<<
+> Is there a newsletter or something I can sign up to be notified when this is available for Chrome?
+
+On the newsletter, I'm afraid (:P) not. You might use the tool itself to track https://kickscondor.com/ (but, I can't guarantee he'll mention Chrome store availability, and his site is for all sorts of things beyond this tool). However, you should be able to build and sideload it as an unpacked extension from devmode (https://github.com/kickscondor/fraidycat).
+<<<
+
+---
+
+<<<
+> Its an interesting concept. I like it. With that said here is some advice, give them extension a dark background. it looks horrible with all the rest of my dark mode stuff in firefox. It is so visually unpleasing at the moment I would not use it.
+
+> 🕵
+
+> But I really do like the concept. Not having to log into different platforms to follow people. Now if it could be expanded to include articles about these people or independent posts by these people anywhere on the net sort of like a google alerts type thing then that would be the next step in increasing this app's usefulness.
+
+There seems to be an enormous number of things this tool could evolve to handle. I'm just an outsider here, but my instinct is that searching the entire web from your own device is outright infeasible (scanning a single port on the internet with Zenmap took me 10 hours on 10GBit connection, 4 Xeon Cores, 16GB of RAM). The user can't feasibly accomplish this broader search from their own device (though there have been attempts to decentralize such a workload, and I will agree such a process is something which must be collectively owned and operated). Searching, indexing, and scraping from a service like Google Alerts, DDG, etc. makes sense. I will pass your thinking along, but it's only one filthy man working on this; he needs a ton of help to expand it, imho.
+<<<
+
+---
+
+<<<
+> Looks really interesting. Nice thinking, nice work. Just installed on Firefox 70.0 & Linux mint 19.1 I'll take a look and get back to you.
+
+Noice! I am happy to think about the tool with you, of course. I would request that you get in touch with its creator, kickscondor (https://kickscondor.com), as well. It's all his work, I'm just a fanboi.
+<<<

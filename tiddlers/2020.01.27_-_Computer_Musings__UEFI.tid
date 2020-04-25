@@ -1,0 +1,8 @@
+created: 20200127055939460
+modified: 20200127200617777
+tags: [[Computer Musings]]
+title: 2020.01.27 - Computer Musings: UEFI
+
+Alright, bad news is that I don't know the password to BIOS on [[m12]]. UEFI troubles mean I really need access. Really bad news is that there is no way to reset the password on this particular machine (requires full mobo replacement, lol!). No backdoors either (this is one of their original ultrabook offerings which weren't so evil). 
+
+Weird part is that secureboot didn't get recognized until after I disassembled the power inside. Now that it's active, Manjaro lacks a shim (though, that might be something I can add). I'm lazy. I'll settle for Ubuntu, assuming that should pan out.

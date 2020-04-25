@@ -1,0 +1,115 @@
+aliases: chance randomness Chance Randomness Random random
+created: 20200410184443621
+modified: 20200413165710441
+tags: [[Φιλοσοφική ανάλυση]] [[Be A Good Dad]]
+title: Chance & Randomness
+
+//It's not easy to wrestle with the necessity of contingency. Don't conflate chance with portent: be slow to extract or impose signal on the noise. Empiricism harnesses the incompleteness of information embedded in the seeming lawlessness of chance to cash out knowledge. Lastly, if you're ever losing an argument, randomly quote a statistic: people will believe you 80% of the time.//
+
+<<<
+Randomness, chaos, uncertainty, and chance are all a part of our lives. They reside at the ill-defined boundaries between what we know, what we can know, and what is beyond our knowing.
+
+-- Ivars Peterson, //The Jungles of Randomness: A Mathematical Safari//
+<<<
+
+<<<
+The link, then, between mathematical and physical randomness is epistemic and only that. Observations of mathematically non-random sequences can be used to decide when further explanation in terms of as yet undiscovered causal factors is wanting. But, in no sense is any notion of mathematical randomness serving as an explication for ‘ultimate physical randomness’, whatever that might be.
+
+-- Geoffrey Hellman, //Randomness and Reality//
+<<<
+
+<<<
+Random numbers should not be generated with a method chosen at random.
+
+-- Donald Knuth, //The Art of Computer Programming//
+<<<
+
+<<<
+Any one who considers arithmetical methods of producing random digits is, of course, in a state of sin.
+
+-- John von Neumann, //Monte Carlo Method// 
+<<<
+
+<<<
+Random chance was not a sufficient explanation of the Universe — in fact, random chance was not sufficient to explain random chance.
+
+-- Robert A. Heinlein, //Stranger in a Strange Land//
+<<<
+
+* Definitions & Properties
+** the absence of order or pattern
+** Commonplace Thesis: Something is random iff it happens by chance. 
+** When causes can result in any of several outcomes, and we cannot predict what the outcome will be in any particular case.
+** if there is any such thing as chance, it will (more or less) fit these constraints:
+*** chance should be objective: mind-independent and not epistemic or evidential
+*** the mathematics of chance should conform to some standard mathematical theory of probability, Kolmogorov probability calculus or Popper'saxiomatisation of conditional probability
+** Chance is a process notion, rather than being entirely determined by features of the outcome to which the surface grammar of chance ascriptions assigns the chance...The chance must rather be grounded in features of the process that can produce the outcome
+** Randomness as Chanciness
+*** group random with stochastic or chancy, taking a random process to be one which does not operate wholly capriciously or haphazardly but in accord with stochastic or probabilistic laws. 
+** a random sequence should not be such that information about any initial subsequence x1x2…xk−1 provides information about the contents of outcome xk.
+**  random sequences as those which cannot be produced by a compact algorithm (compact with respect to the length of the target sequence)
+*** a random sequence is one such that the shortest algorithm which produces it is approximately (to be explained below) the same length as the sequence itself
+** randomness is fundamentally a product notion, applying in the first instance to sequences of outcomes, while chance is a process notion, applying in the single case to the process or chance setup which produces a token outcome
+** CTa: A sequence of outcomes happens by chance iff that sequence is random.
+** CTb: An outcome happens by chance iff there is a random sequence of outcomes including it.
+** RCT: An outcome happens by chance iff, were the trial which generated that outcome repeated often enough under the same conditions, we would obtain a random sequence including the outcome (or of which the outcome is a subsequence).
+
+** Probability
+*** Carnap
+**** Carnap's probability1: evidential probability, epistemic credence, or degree of belief.
+**** Carnap’s probability2: non-epistemic objective probability, chance.
+*** Frequency, propensity...
+
+* Implications
+** POSR
+*** if it happens for a reason, it isn’t truly random?
+** Representation, quantifying over domains, and sampling
+*** If randomness requires chance, then no statistical inferences on the basis of ‘randomly’ sampling a large population will be valid unless the experimental design involves genuine chance in the selection of subjects. But the rationale for random sampling may not require chance sampling—as long as our sample is representative, those statistical inferences may be reliable.
+** Frequentist Objective Probability
+*** the chance of an outcome is its frequency in an appropriate series of outcomes...To avoid classifying perfectly regular recurring outcomes as chancy, frequentists require that the series of outcomes should be random, without pattern or order. 
+*** Denies Single-Case Chance
+
+* Physics
+** Bell’s theorem shows that the probabilities predicted by quantum mechanics for spin measurements on a two-particle entangled but spatially separated system cannot be equal to the joint probabilities of two independent one-particle systems...the probabilities are in fact basic features of the quantum mechanical systems themselves. Strong candidate for chance.
+
+* CS
+** Algorithmic Randomness
+*** Pragmatic RNG methods
+** The set of all infinite binary sequences of outcomes is known as the Cantor space.
+*** we need some non-arbitrary way of selecting a privileged such subset
+** Borel normality, A sequence is Borel normal iff each finite string of digits of equal length has equal frequency in the sequence.
+*** The Champernowne sequence is the sequence of digits in the binary representations of each successive non-negative integer: 011011100101110111…
+**** Borel normal, but perfectly predictable, because there is a general law which states what the value of the sequence at each index will be—not because it can be predicted from prior elements of the sequence, but because it can be predicted from the index.
+*** The set of random sequences forms a measure one subset of the Cantor space.
+*** Every von Mises-random sequence is Borel normal.
+** Martin-Löf battery of statistical tests
+** Disorderly sequences are highly incompressible.
+** KCS characterizes randomness as the algorithmic or informational complexity of a sequence.
+*** Kolmogorov randomness permits finite sequences to be random
+
+* Econ
+** Kolmogorov randomness also supports von Mises’ intuitions about randomness being linked to the impossibility of gambling systems
+
+* Determinism
+** perhaps objective chances require indeterminism
+*** Some may find them compatible though!
+** There is a theory which is deterministic in the sense of Montague which has as a model a system which produces sequences which are random in the sense of von Mises/Church.
+** The Born rule states that the past light cone and future light cone are both non-deterministic
+*** On a quantum level, physics is governed by the Klein-Gordon equation and the Born rule. The Klein-Gordon equation governs the time evolution of an unobserved wave function ψ. The Born rule governs how a wave function decoheres when it is observed.
+*** It is impossible to define the state of elsewhere in non-probabilistic terms. All of spacetime except where you’re standing right now is non-deterministic.
+
+
+---
+
+<<<
+
+Me: I’m afraid of random letters.
+
+Therapist: You are?
+
+Me: [confused screaming]
+
+Therapist: Oh, I see.
+
+Me: [screaming intensifies]
+<<<

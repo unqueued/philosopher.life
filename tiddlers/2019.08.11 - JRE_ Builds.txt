@@ -1,0 +1,109 @@
+#ifWinActive World of Warcraft
+
+F1:: Reload
+F2:: Pause, toggle
+
+`::
+{
+	Send,190-=
+	Sleep 100
+}
+return
+
+1::
+{
+	Send, 7890-=
+	Sleep 100
+}
+return
+
+2::
+{
+	Send, 2690-=
+	Sleep 100
+}
+return
+SAT 3:43 PM
+#showtooltip Windfury Weapon
+/equipslot 16 Hammer of the Grand Crusader
+/equipslot 17 Destiny
+/cast Windfury Weapon
+/equipslot 16 Destiny
+/equipslot 17 Hammer of the Grand Crusader
+/cast Windfury Weapon
+SAT 3:43 PM
+#showtooltip
+/startattack
+/castsequence reset=120 Killing Spree, Bladestorm, Blade Flurry
+/cast Cleave
+SAT 3:44 PM
+#showtooltip
+/castsequence reset=10 Whirlwind, Divine Storm
+SAT 3:44 PM
+#showtooltip
+/cast [combat]Hunger for Blood; Inner Fire
+SAT 3:44 PM
+#ifWinActive World of Warcraft
+
+F1:: Reload
+F2:: Pause, toggle
+
+`::
+{
+	Send, 190-=
+	Sleep 100
+}
+return
+
+1::
+{
+	Send, 17890-=
+	Sleep 100
+}
+return
+
+2::
+{
+	Send, {shift down}{control down}12345{shift up}{control up}
+	Sleep 100
+}
+return
+SAT 4:02 PM
+keybinding in wow menu works
+SAT 4:03 PM
+
+:5171:6343:100:8232:8512:1680:5308:34428:19740:845:8017:66842:2098:2457:8075:270t3:2185t3:2231t3:602t3:156t3:157t5:662t2:166t3:1659t1:1581t5:1662t3:1755t3:1756t1:221t5:223t1:1827t2:1867t1:681t1:123t3:
+8 HR AGO
+same emoji problem on the 100...
+8 HR AGO
+https://www.wowace.com/projects/recount/files/458517
+8 HR AGO
+https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=💯168:465:687:845:1680:1856:2061:2098:2457:5171:5308:5384:6343:8017:8075:8232:8512:19740:66842:818045:121t1:156t3:157t5:159t2:166t3:223t1:602t3:662t2:681t1:1361t1:1581t5:1655t2:1657t3:1659t1:1662t2:1664t2:1755t3:1756t1:1827t2:1863t1:1867t1:2071t1:2078t1:2150t1:2185t3:
+5 HR AGO
+Image attached to message
+Call me granola daddy
+3 HR AGO
+lol!
+3 HR AGO
+looks wonderful
+3 HR AGO
+He has been getting upset when put in swing
+3 HR AGO
+Won't stop crying unless we are standing with him
+3 HR AGO
+But he will sit quietly in that
+3 HR AGO
+https://www.wowace.com/projects/mapster/files/436697
+AUG 11 10:26 PM
+:8143:642:5171:100:8232:676:475:8512:5308:45438:586:845:53408:1953:1706:8017:19263:5384:2098:818045:2457:57994:20166:13161:20217:4987:1766:2071t1:2199t3:144t3:602t3:156t3:159t2:662t2:166t3:184t5:186t3:2078t1:1659t1:1664t2:1679t1:165t1:1542t2:1711t3:1662t3:1759t3:223t1:1827t2:121t3:
+AUG 12 8:53 PM
+his build
+AUG 12 8:53 PM
+he uses eschanders right claw and empyrean demolisher-- both have crazy haste procs
+AUG 12 8:53 PM
+I see
+AUG 12 8:53 PM
+says he can cleave every .23 seconds
+AUG 12 8:53 PM
+get the flight path?
+AUG 12 9:16 PM

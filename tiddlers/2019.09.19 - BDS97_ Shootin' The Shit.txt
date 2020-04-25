@@ -1,0 +1,186 @@
+[11:15:00] h0p3: https://foundation.mozilla.org/en/blog/100-million-investment-reshape-economics-web/
+[11:15:00] h0p3: https://samy.pl/pwnat/
+[11:16:14] b3nsn0w: wow, so coil is getting off the ground?
+[11:16:26] b3nsn0w: that's awesome, it's the only thing I know that could defeat ads in the long term
+[11:16:49] b3nsn0w: btw sorry, haven't booted linux for a few days, no idea when you sent that
+[11:20:50] h0p3: I have no idea if coil will succeed. There does seem to be something right about it. Automating the process would be especially valuable for me. 
+[11:21:29] h0p3: No worries on when we see each other. I'm lucky to keep my head above water. 
+[11:22:58] h0p3: Hoping to move here soon. Wife has a final interview for a job up north, so it may speed up even more.
+[11:23:11] h0p3: How have you been doing?
+[11:24:03] b3nsn0w: just the usual, trying to balance freelancing, art, and side projects, while taking care of procrastination
+[11:24:26] b3nsn0w: although there might be an opportunity for me to get to the US soon, maybe next year or so
+[11:24:30] b3nsn0w: but that's a huge maybe for now
+[11:25:20] b3nsn0w: my former boss and the guy who I work with on this freelancing thing has a startup, and he's soon going to look for investors
+[11:26:01] b3nsn0w: and since I'm part of his team, they might ask him to get me to Dallas
+[11:26:18] h0p3: Noice.
+[11:26:28] b3nsn0w: so that's there, it would be nice, but it's pretty much NET next year
+[11:26:48] b3nsn0w: and I'm not expecting anything big to happen until then on my side
+[11:27:48] b3nsn0w: started freelancing specifically to have free time for learning stuff and side projects, so I'm not looking for anything on my own
+[11:28:59] b3nsn0w: (go ahead, I got the other message on my clipboard, won't lose it)
+[11:29:12] h0p3: Sounds like it may be a good opportunity. Cool to see freelancing might still end up with emigration. 
+[11:29:43] h0p3: Oh, go for it, I do that clipboard thing too (I don't think I could live without a clipboard manager).
+[11:29:59] b3nsn0w: I'm kinda afraid of those tbh
+[11:30:09] h0p3: Oh, I hear ya, lol.
+[11:30:19] b3nsn0w: sometimes I get confidential things like passwords on my clipboard, and I make a point of clearing them off as soon as I can
+[11:30:30] b3nsn0w: that's why I don't use anything that would keep a clipboard history
+[11:31:32] b3nsn0w: anyway, yeah, pretty much the next big step of my "master plan" is getting to a country that's not as terrible as Hungary for starting businesses and stuff like that
+[11:31:57] b3nsn0w: freelancing is nice for learning, but I wouldn't even start an Atropos Foundation here, let alone a game studio or something that's actually supposed to make money
+[11:32:26] h0p3: What makes Hungary difficult for starting businesses and foundations?
+[11:32:40] b3nsn0w: laws are a shitshow
+[11:32:57] b3nsn0w: it's almost impossible to become successful here that way unless you're already rich
+[11:33:14] b3nsn0w: or very good at finding venture capital
+[11:34:03] b3nsn0w: for example, you need the equivalent of $10,000 in a company to even register it, unless you want to be personally responsible for its every step
+[11:34:23] h0p3: Fascinating.
+[11:34:27] b3nsn0w: no idea about nonprofits, but they aren't exactly supportive of that either
+[11:35:39] b3nsn0w: and there are a million other factors too, pretty much the only thing they got for it is cheap labor, which is why big companies like to open offices here
+[11:36:10] b3nsn0w: (which isn't exactly great as a programmer, we're basically the high-quality, but still budget alternative of India in that regard)
+[11:36:31] b3nsn0w: anyway, how's it on your side? That move thing sounds exciting
+[11:39:40] h0p3: That is a high barrier to entry, no doubt. I'm still digesting that one. I would think even those in power would find it useful to have a low barrier to entry for starting up companies. 
+[11:40:19] h0p3: How do the big companies treat Hungarians? 
+[11:40:34] b3nsn0w: same shitshow as usual, but it's a bit different here
+[11:40:44] b3nsn0w: in the US, big influential companies essentially own the government
+[11:41:00] b3nsn0w: here it's the other way, the political elite controls almost every large Hungarian company
+[11:41:29] b3nsn0w: I think that's the root of those differences
+[11:42:20] b3nsn0w: when your power is based on economy, startups and smaller companies actually strengthen you
+[11:42:45] b3nsn0w: but our "glorious leaders" base their power on propaganda and the so-called democracy here, not business
+[11:43:17] b3nsn0w: they don't buy the government, they just are the government
+[11:48:37] h0p3: Part of the issue is that some non-trivial percentage of the people who control the US do not actually live here. To me, it feels like the elite from around the world own me (though this may be the case for the vast majority of the people on the planet). Many are transnational, as they don't really belong to any nation (they are above national sovereignties). I take it that politicians are bought proxies because those in power find it far more convenient than taking the seat themselves in a number of respects (including maintaining the appearance of a so-called democracy instead of allowing us to openly recognize oligarghy for what it is).
+[11:54:31] h0p3: The possible move is exciting. My wife would enjoy the people and the job more, and I think it would lift us out of the precariat position. It would possibly give my kids a chance at a better education than could be found here too. This college will not allow them to even sit in on classes (and I'm hoping the possible next would).
+[11:56:33] b3nsn0w: sounds nice
+[11:57:02] b3nsn0w: wait, are you trying to send your kids to sit in college classes already?
+[11:58:45] b3nsn0w: sorry, the wording may have been a bit harsh there, that actually looks like an awesome idea
+[12:05:38] h0p3: Graduating from high school doesn't mean a lot. These are prisons for children, preparing them to be docile and obedient slaves in capitalism. Preferably, some percentage of them are developed human resources. I remember being forced to graduate seniors in high school who could not read and write. A high school diploma is a piece of paper (the GED actually says something, but it is viewed unfavorably as low status). Part of education inflation has included a drop in not just how a diploma is valued in the market, but also a drop in the difficulty of attaining that diploma. Higher education has more strongly integrated into capitalism, and most of the intuitions have openly become money-makers. College classes have become the new high school classes in many respects.
+[12:07:40] h0p3: But, yes, I would like them to sit in on college classes. They are skilled enough in some subjects to do it. When I taught at Tulane, they started taking my classes at 7. They'd do the work, participate in class, take all the same exams, etc. 
+[12:08:16] h0p3: They can learn some of it on their own, and there's MOOCs. But, it's really hard to beat being in a classroom with an expert wrestling with you.
+[12:11:33] h0p3: The grade isn't what I value (bordering on meaninglessness), but coming prepared for facetime with professors I do. You can still get out what you put in on that front.
+[12:13:31] h0p3: I have few resources I can hand to them except an education, lol. I think it's the best plan I've got available. So, yeah, I hope they start as soon as possible. 
+[12:14:38] h0p3: *institutions
+[12:14:41] h0p3: I'll get there.
+[12:14:56] b3nsn0w: being your kid sounds like an amazing thing
+[12:15:49] b3nsn0w: I got somewhat lucky, at least Hungarian education isn't this fucked, and I got to one of the best schools in the country
+[12:16:01] b3nsn0w: but still, this "prisons for children" thing is a bit too familiar
+[12:16:38] b3nsn0w: it's awesome to see the ways you come up with to navigate this system, things I would have never thought of
+[12:17:11] h0p3: Shit you might be doing ten years from now, lol!
+[12:17:49] h0p3: (I'm assuming you don't have children)
+[12:18:03] b3nsn0w: yeah, no
+[12:18:39] b3nsn0w: currently, I don't think I'll ever have children, but ten years is a long time, you might end up right
+[12:19:18] b3nsn0w: since HS ended any of my predictions about what I was doing more than two years in the future ended up wrong
+[12:19:46] h0p3: Preach, yo.
+[12:20:06] h0p3: I have no idea how to navigate this whirlwind. Even my long-term plans end up being wrong.
+[12:20:39] h0p3: I still don't know what I want to be when I am all growed up.
+[12:21:11] b3nsn0w: lol, yeah, I don't think there's such a thing as "growing up" that way
+[12:21:43] b3nsn0w: well, long term usually works out for me, as much as I can speak about long term in the 3 years since I can actually have my own life decisions
+[12:22:39] b3nsn0w: but even back in school, I basically gave them the middle finger, did no homework at all, and put all my strategy points into getting a passing grade with as much free time as possible
+[12:22:52] b3nsn0w: (or at least that's how I explain my procrastinator tendencies)
+[12:22:52] h0p3: rofl, love it
+[12:23:36] b3nsn0w: looking back at it, without that I couldn't have landed an internship the summer between grade 11 and 12, which later became my first (and so far only) full time job
+[12:24:04] b3nsn0w: that lasted 18 months, then I went off to do a startup with two idiots who apparently didn't realize to get VC you have to actually try
+[12:24:10] b3nsn0w: and then freelancing
+[12:25:06] b3nsn0w: so absolute trainwreck on one hand, but if I was doing it by the book, I'd still be sitting at uni, finishing up the 7th semester of a useless diploma with no real-world experience
+[12:26:51] h0p3: You know so much more about the world than I did at your age (probably more than I do at my age now too, lol). You got dat real world experience. 
+[12:27:53] h0p3: It must be weird speaking with your age peers.
+[12:28:05] b3nsn0w: yeah, sometimes it is
+[12:28:33] b3nsn0w: although that's still a rare thing for me, given that most of them are still at some uni
+[12:29:07] b3nsn0w: all my colleagues from my last job are around 10 years older than me
+[12:29:25] b3nsn0w: and with freelancing, I barely get out of the house
+[12:30:01] b3nsn0w: sometimes I chat with people online, but even that's kinda rare with age peers, everyone's kinda preoccupied with college
+[12:31:15] b3nsn0w: there's one guy I know from HS who is also a programmer, he quit uni after two years and now works at some random company
+[12:31:37] b3nsn0w: apparently on a facial recognition program, because it's 2019, that shit is everywhere
+[12:33:08] b3nsn0w: and then there's one friend who has a weird night shift job with essentially 4-day weekends, he's probably the age peer I see the most nowadays
+[12:34:52] h0p3: Barely getting out of the house is living the good life to me. I am a hermit who forces himself to go out, lol.
+[12:35:16] h0p3: It makes sense that your colleagues tend to be significantly older. 
+[12:37:05] h0p3: If you weren't so god damned ethical, you would be making bank in Silicon Valley or elsewhere (Dallas being one such burgeoning hub). 
+[12:37:40] b3nsn0w: yeah, I thought about that a few times
+[12:37:48] b3nsn0w: the problem isn't finding ideas or opportunities
+[12:38:14] b3nsn0w: it's finding an idea that's disposable enough that it's compatible with the Silicon Valley types, and still good enough
+[12:38:30] b3nsn0w: as well as finding an opportunity that's not a burden in long term
+[12:38:48] b3nsn0w: because who the hell knows what's going on in the long term, unless you like being stuck in one place
+[12:39:00] b3nsn0w: (some people call it "security", I believe those people are just not brave enough)
+[12:39:54] b3nsn0w: for most of the really good ideas I have, I don't want to put them into a company that's then going to be divided among people who only see it as a number
+[12:40:06] b3nsn0w: because that just forces you to be an asshole with it
+[12:41:15] b3nsn0w: anyway, that's for later, maybe I'll end up doing something like that once I get to the US (somehow... still not sure, but that's the one big thing I plan for the next 2 years)
+[12:47:33] h0p3: My assumption is that immigration is going to continue to get more difficult. There is a non-trivial possibility that Trump will win the next election cycle (his approval ratings have not dumpstered, and he is still a useful loose canon to some). The sooner the better for you, imho.
+[12:48:37] b3nsn0w: yeah, I know, it's been the right wing's favorite scapegoat for a while here in Europe too
+[12:48:38] h0p3: Another programmer I know is emigrating, but her marriage to a US citizen may be an important part of the equation.
+[12:49:04] b3nsn0w: well, that's one way to do it
+[12:50:08] b3nsn0w: anyway, I'm not afraid of it, same reason I wasn't afraid of quitting my job last year with nothing lined up
+[12:51:54] b3nsn0w: it's not gonna be an easy process, sure, but the target rectile for those policies isn't really on Europe
+[12:52:26] b3nsn0w: yeah, I butchered that word
+[12:52:46] b3nsn0w: btw, about going out, how do you do that?
+[12:54:14] h0p3: What kind of "going out" do you mean?
+[12:54:28] b3nsn0w: > Barely getting out of the house is living the good life to me. I am a hermit who forces himself to go out, lol.
+
+[12:54:30] b3nsn0w: this one
+[12:57:15] h0p3: Well, that's one of the reasons I teach in the afterschool program. I need face time with humans. They spend my spoons, but it keeps me grounded. I go out to do our grocery shopping, and I love to walk around the neighborhood. 
+[12:58:19] h0p3: The novelty of "things to do" on the weekend around here doesn't really appeal to me. It's who I am with far more than what I'm doing. 
+[13:00:43] h0p3: My wife has social functions with her co-workers which I attend, and I run errands down at the school for her sometimes. We used to use their whiteboards as well. I want to be useful in reasoning about the social dynamics of her workplace with her. We are both autistic, and so it is valuable for her to have a second set of eyes to think about it.
+[13:01:57] h0p3: She described us today: http://k0sh3k.philosopher.life/#2019.09.19%20-%20Prompted%20Introspection%3A%20Thursday
+[13:03:25] h0p3: It's weird to be lonely even in the midst of the people I love. She's right though. I see it as part of my vocation to connect with the people around me as best I can, hopefully I can make myself useful, lol.
+[13:04:15] h0p3: How about you? You clearly adore your computer as much as I do mine. When you aren't living the dream inside, what are you doing outside?
+[13:05:02] b3nsn0w: not a lot, honestly
+[13:05:28] b3nsn0w: I still live with my parents, so I see my family every day
+[13:05:42] b3nsn0w: but other than that, the face time I have with humans is minimal
+[13:05:56] h0p3: So blessed, lol. =)
+[13:06:09] b3nsn0w: and it's one of the things where I don't know where to even begin, that's part of why I asked
+[13:07:26] h0p3: I know next to nothing about the social norms in Hungary. I wouldn't even know where to begin either.
+[13:08:15] h0p3: It is still reasonable to walk up to randos and just start talking here. I am beyond awful at carrying any kind of conversation though, lol. I do what I can. 
+[13:09:37] h0p3: There are cultures in which that behavior is ridiculous though.
+[13:10:04] b3nsn0w: yeah, I heard of those
+[13:10:12] b3nsn0w: honestly, I have no idea where Hungary stands in this
+[13:10:35] b3nsn0w: but I don't really like people around here, the last 75 years didn't exactly set a good atmosphere
+[13:11:01] b3nsn0w: this is one of the many things I look forward in the US, people in general seem to be a lot less rude over there
+[13:11:30] b3nsn0w: like, there are decent people here too, it's just that you need some luck to find them
+[13:12:28] b3nsn0w: so it's not like you can't talk to randos here, I don't know if there's a norm in either way, it's more like I really don't want to because just random people tend to be exhausting
+[13:12:37] h0p3: Haha
+[13:13:09] h0p3: You are going to find Americans just as exhausting eventually, I bet. 
+[13:13:29] h0p3: (sorry, my laugh is about the absurdity of it; I know that pain)
+[13:13:34] b3nsn0w: never been to the US, but from what I heard I highly doubt that
+[13:14:22] b3nsn0w: I don't think Americans are all perfect or something, but honestly, everything east of the former Iron Curtain is just a whole another level
+[13:15:48] h0p3: I have heard that as well. And, considering you have interacted with far more Americans than I have Hungarians (though I've probably met more Hungarians than the average American), you would certainly know. 
+[13:16:08] h0p3: Yeah, it probably won't be as exhausting then. I take it back.
+[13:17:21] b3nsn0w: yeah, I'm not trying to find excuses or anything, it's completely on me that I don't talk to people more
+[13:22:33] h0p3: For me, when I interact with people around me, I see a bunch of reasons they've been shaped to be so extraverted. It feels fake. There's a self-interest embedded in the attitude (most aren't even aware of it). I am a poor student of the topic, but Southern Hospitality is its own beast, and I believe the language games they are playing tend to be unjustifiably deceptive. Maybe 80% of the time, it feels like //mere// virtue signaling and vampires hunting with smiles on their faces. But, I am a paranoic, depressed, autistic hermit. My goggles are darkened. I still seek the decent people here too, and I'm convinced you also need some luck to find them. Though I am reminded, I am not grateful enough. Lol. I'm workin' on it.
+[13:24:30] h0p3: This, of course, is what is so insidious about wielding psychological egoism as a lens for interpreting people. It is easy to be ad hoc, to impose it, to see demons where they aint, and so on.
+[13:26:17] h0p3: Given your fully justified technical paranoia, human minds must be a special thing for you too, especially if you take up a computational theory of mind.
+[13:26:54] b3nsn0w: yeah, agreed
+[13:27:41] b3nsn0w: I don't think I see them any more sinister than most people, but there are always things in the background
+[13:28:56] b3nsn0w: something completely different: this pwnat thing is genius
+[13:37:54] h0p3: I wonder under what circumstances it fails.
+[13:39:24] b3nsn0w: dunno if it's possible to just block ICMP entirely
+[13:39:41] b3nsn0w: or the router could detect 3.3.3.3, but that's still possible to counter
+[13:40:20] h0p3: I wonder how many addresses could be used instead of 3.3.3.3.
+[13:40:35] b3nsn0w: probably all of them if you add some redundancy
+[13:40:51] h0p3: Some people do block ICMP.
+[13:42:41] h0p3: I am a fan of ICMP tunneling. It's so leet.
+[13:43:18] b3nsn0w: it's certainly tricky and goes deep under the hood
+[13:43:30] b3nsn0w: although, now thinking about it, it might not be that useful for Atropos
+[13:44:03] b3nsn0w: it's a symmetric protocol, you almost never have to find out one side's IP while you already know the other's
+[13:44:18] b3nsn0w: also, there will be plenty of middlemen
+[13:44:22] b3nsn0w: but it's definitely interesting
+[13:44:36] b3nsn0w: and the second part is nice
+[13:45:34] b3nsn0w: that could actually establish tunnels in places where we think there are no options
+[13:45:51] h0p3: Oh, I tell you my ISP is completed stopped allowing anyone in my apartments from using port forwarding?
+[13:46:22] b3nsn0w: that's messed up
+[13:46:28] h0p3: I'm fucking pissed.
+[13:46:56] b3nsn0w: have you tried getting a VPN with port forwarding?
+[13:47:27] b3nsn0w: it's kinda fucked we need a second ISP on top of the existing one, but it's weird how many times it's actually an answer
+[13:47:38] h0p3: That's the route we are going. Trying to patiently wait for my daughter to set it up.
+[13:48:04] h0p3: We've been arguing with the network admins at the ISP to give us just a single port.
+[13:48:26] b3nsn0w: let me guess, they want to "upgrade" you to a business plan
+[13:48:32] h0p3: =)
+[13:48:34] h0p3: Fuckers
+[13:49:03] b3nsn0w: that's what happens when the economy around you is based on growth and there are no more potential users available
+[13:49:19] b3nsn0w: you end up trying to increase profit on a per-user basis
+[13:49:52] b3nsn0w: also a huge part of why the internet should be a utility
+[13:52:12] b3nsn0w: I heard you can choose which electric company you buy power from
+[13:52:37] h0p3: I have never had that option.
+[13:52:37] b3nsn0w: (that may be a Dallas thing, no idea, heard it from someone who lives there)
+[13:53:26] h0p3: I have lived in more rural areas though, and monopolies were the carrot for developing our electric grid out here.
+[13:54:24] b3nsn0w: oh, I see
+[13:54:32] b3nsn0w: that's one way of saying the government sold out the people
+[13:54:54] h0p3: Indeed, lol.
+[13:55:10] b3nsn0w: anyway, I was wondering about that thing, because I doubt there are multiple parallel power grids in the city
+[13:55:55] b3nsn0w: so those companies most likely share the grid, and then just use the meters to know who pays how much
+[13:56:17] b3nsn0w: was going to ask why does internet not look like this, but you already answered it
+[13:56:19] b3nsn0w: monopolies
+[13:56:59] h0p3: Correct. /weep

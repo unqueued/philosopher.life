@@ -1,7 +1,45 @@
 created: 20190607003027542
-modified: 20190913032513782
+modified: 20200203194815060
 tags: kickscondor @
 title: @: kickscondor
+
+; 2020.02.03 - @kickscondor
+
+I'm still thinking about [[my process of commenting on chatlogs|https://www.kickscondor.com/stenos/hypertext-2020:-metachat/]]. Sequences of what may be considered ephemeral often adds up to something more. Hopefully, it includes more accurate and [[salient]] models of [[The Other]] and myself arise. 
+
+; 2019.12.01 - @kickscondor
+
+Like a telepathized fiddle, [[ITS]], I almost feel like I don't have to say it because you already know that I want to say it: I am listening very carefully (though never as effectively as you do, lol). Lately, offline, I open my mouth and cover it with my hands while I'm reading what you say. Sometimes, I tilt my head autistically far to the side (usually the right) while watching, and that's a [[good]] sign from me in class. Thank you. =)
+
+; 2019.11.30 - [[@h0p3|https://www.kickscondor.com/notes/hypertext-2020]]
+
+Tentative title for the chat: ‘hypertext 2020’ - where is an expert wikier supposed to go in the next decade? But yeah - just rip into what is going to be hot techs and paradigms for expert public self-modelers in this future timeline.
+
+If we get Sphygmus on, I’ll do a mic check and then we can start. Hope I’m not jumping the gun - just pitched this idea today…
+
+; 2019.11.30 - @kickscondor
+
+Cool. I suppose we're doing something like that now. ;P. 
+
+; 2019.11.30 - [[@h0p3|https://www.kickscondor.com/notes/hyperchat-transmission-incoming]]
+
+I think if we could start this week or next, that would be cool. No, I wasn’t thinking real-time. Quite the opposite. Totally asynchronous. Give everyone time to craft their replies - which is why it might take a month to work through. Take a slower pace.
+
+I envision it being the sort of thing where we’re even publicly drafting side-by-side and self-editing, self-correcting as we toggle back and forth between reading and writing the overarching group ‘chat’.
+
+Yes, we would just do it on our sites - just like our ‘hyperconversations’ have been, but as if it was a group ‘chat’. You might respond as individual letters - or you might just have one big page of @-replies.
+
+Basically, you could ‘chat’ however you prefer to - that’s one of the cool things about ‘hyperconversations’ - we’ve all participated using a format that’s comfortable to us rather than needing to use a common platform. Although it might be useful to settle on a common tag or phrase or something - a dog whistle for the public self-modelers out there. You all can tiddle yourselves, fine with me.
+
+; 2019.11.29 - [[@h0p3|https://www.kickscondor.com/notes/wikiwikigroupchat/]]
+
+I am going to find some more time over the weekend to write more - the letters that you are all writing right now have unfolded new faces and expressions in me - digifaces! I have had a thought tho… I’m envisioning something - what if we did a groupchat for a certain range of time? Like maybe a week or maybe a month.
+
+And we can field questions to the group, answer them in hypertext - and when we’re done, I’ll make something out of it. Yes, we sort of do this already, but I’m thinking that having a beginning and an ending and a title maybe - could be interesting. Ahh, I’m explaining too much - it is just an attempt to branch off on the ‘hyperconversations’ game.
+
+; 2019.10.26 - @kickscondor
+
+Ack. XD. Blargle. [[Straussian]]ly, [[YWSOAM]], and I hope to be as over-the-top a listener of yours as you have been of mine. I feel bad for the [[shittiest thing|https://www.kickscondor.com/the-plan-with-my-dumb-fraidycat-project/]] in particular. That is not a fun problem, and it's not sustainable. I'd suggest we've been looking at this one for a while. To my understanding, I need to find a way to provide or emit a more conservative, tiny, and standardized metadata table to slurp up and parse, and there appear to be many options. Adding my metadata to the [[name]] is a fine and ugly method, but I both prefer them as they are and it doesn't solve some performance problems. So, perhaps it would be acceptable to build an RSS feed directly into the wiki, maybe https://philosopher.life/#toyourspecs, but I'm not convinced I'm helping you enough with longer-term problems here. That's not as simple or efficient as slurping up a single file formatted with exactly and only what you need. <3. I can't deliver that overnight, and I'd like to know what you think [[it should look|https://xkcd.com/927/]] like precisely and why? What is reasonable or even perfeck for Fraidycat? And, if any different, what should it be if you were building with WASM in mind (let's assume your extension had access to a tiny, heavily firewalled, throttled, sandboxed, and stripped down linux container)? Let's say I minutely generated a file, https://philosopher.life/LeSyndicationMetadataFile, what do you think it should look like?
 
 ; 2019.09.12 - @kickscondor
 

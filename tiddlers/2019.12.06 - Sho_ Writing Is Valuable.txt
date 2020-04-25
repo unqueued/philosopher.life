@@ -1,0 +1,9 @@
+I think writing is super valuable (obviously). I think writing in public and writing to the public are important things to carefully consider. I think it makes sense to write from a pseudonym, and I think you should own your data.
+
+Privacy is hard problem here. I think it's great to reveal it to everyone, but you may need to be more careful. We live in troubling times, and I would argue you are close enough to the margins of society that you might endanger yourself. Still, it might be worth the risk. You could have a passworded site (which you've had before), or you could share a key that syncs your site (but wouldn't be accessible from the web, but it has other security properties I strongly admire). Being public is quite a commitment. You might start out more private and work your way toward being public, though you rely upon your readers working to access something private. That Resilio Sync tool is a great way to share your files, including what would be your site.
+
+I'd definitely read what you have to say.
+
+You might consider using Tiddlywiki. It simplifies some problems, and it's customizable. It may not be gorgeous, but it's functional.
+
+No problem on the FB thing. I'm glad you aren't using it. =)

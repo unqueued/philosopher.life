@@ -1,0 +1,14 @@
+created: 20200228045335489
+modified: 20200228081412504
+tags: Mathing Cryptography
+title: Mathing: Solitaire
+
+//Offspring saw a problem with jokers. Still no great way to do keying. Is FS feasible? No idea. Not convinced a nonce buys anything here. Plus, bias. Fun anyway. Would love to see something actually secure.//
+
+* https://www.schneier.com/academic/solitaire/
+* [[https://en.wikipedia.org/wiki/Solitaire_(cipher)]]
+* https://www.youtube.com/watch?v=uxzLm79aSzw
+* https://www.dcode.fr/solitaire-cipher-schneier
+* http://jnicholl.org/Cryptanalysis/Ciphers/Solitaire.php
+* https://github.com/sachinra/Solitaire
+* https://en.wikipedia.org/wiki/Self-shrinking_generator

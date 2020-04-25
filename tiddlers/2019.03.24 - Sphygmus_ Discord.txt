@@ -1,0 +1,13 @@
+[3:36 PM] robotic_scarab:
+
+[3:37 PM] robotic_scarab: interesting error I'm getting on your wiki!
+[3:37 PM] robotic_scarab: appears to happen when I hit the "close all" button when I load the wiki for the first time
+[3:38 PM] robotic_scarab: but it doesn't seem to otherwise impact the wiki's usage/performance
+[9:44 PM] h0p3: Yikes, I didn't see this until just now.
+[9:47 PM] h0p3: I barely use Discord. I'm not sure why I didn't get a notification. Will try to figure that out as well.
+[9:49 PM] h0p3: I can't seem to duplicate it. I know that I have run into similar trouble when I open up everyone's wikis (though I can reproduce that either). If I close all the wikis out and open them one at a time, I don't get the errors.
+[11:34 PM] robotic_scarab: No worries - it wasn't an urgent message, or I would have opened up signal.
+[11:34 PM] h0p3: :smiley:
+[11:34 PM] robotic_scarab: Doesn't seem to be any error that causes an issue, so I won't worry about it :)
+[11:34 PM] h0p3: You still able to reproduce it?
+[11:36 PM] robotic_scarab: shows up for me on mobile still, yeah; not sure about desktop

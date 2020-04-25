@@ -1,0 +1,43 @@
+"""
+How's life going?
+9 HR AGO
+What it do?? Life goes. How about for yoooou?<<ref "2020.02.12-1">>
+9 HR AGO
+It goes. Grinding away in the wiki.
+9 HR AGO
+School's been fine. Reflecting on the week with the family.
+9 HR AGO
+Worked hard on my cover letter to the EFF
+9 HR AGO
+Parts of it are finalized, but I realized that I'm going to need to be even more explicit about who I am with them.
+9 HR AGO
+https://philosopher.life/#EFF%3A%20Cover%20Letter
+9 HR AGO
+I'm rickrolling them twice in the letter. It's balls-out.
+9 HR AGO
+How's Adam doing?
+9 HR AGO
+What you been up to?
+9 HR AGO
+This is a damn good resume. Holy heck.
+6 HR AGO
+That was like reading a good book. I cant think of another feeling to compare it too. I got to the end and felt like, "ah, the universe of that topic was explained to me concisely but to the full extent."
+6 HR AGO
+And I think I found the two  rickrolls (YouTube video and your signature?)
+6 HR AGO
+I also appreciate that when I click on the footnotes, the text pops up right there. I'm so used to having to flip to an appendix in a physical book or, with an ebook, having to navigate back and forth with a clumsy table of contents or just clicking back and forth through pages. The formatting of your wiki is so damn good.<<ref "2020.02.12-2">>
+6 HR AGO
+Wow! Thank you. That is insanely high praise. I am doing my best!
+6 HR AGO
+Aye. " I'll just bite the bullet and drop the pretense of formality here." and footnote "But wait, there's more! You can plainly see I also appreciate the value of calculated humor in the workplace."
+6 HR AGO
+I'm glad you like the formatting! The wiki is functionally an awesome tool for forming things.<<ref "2020.02.12-3">>
+5 HR AGO
+"""
+
+---
+<<footnotes "2020.02.12-1" "I can almost literally hear her voice! =)">>
+
+<<footnotes "2020.02.12-2" "Confirmed. You've never actually looked at my wiki, lol.">>
+
+<<footnotes "2020.02.12-3" "Nope. Not really interested. Okay. The gap between how she speaks on the phone and messaging is huge. I know how much she writes (obsessively for most of her life), so I'm still surprised by it. Aside: my thinking is that people are quick to blame social media, but won't recognize that it can be done correctly, and further, that they aren't likely to pay the price themselves.">>

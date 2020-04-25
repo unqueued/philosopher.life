@@ -1,0 +1,283 @@
+How's your weekend going?
+SEP 1 2:03 PM
+Really well honestly! It was nice having everyone over for D&D yesterday and we're being productive human beings today as well :D
+SEP 1 2:04 PM
+Feels good, man.
+SEP 1 2:05 PM
+Noice.
+SEP 1 2:05 PM
+Going to use my free time today to learn some more Linux sterf, take notes, mess around with settings, etc.
+SEP 1 2:05 PM
+Cool beans.
+SEP 1 2:06 PM
+wbu?
+SEP 1 2:06 PM
+Family Time. My wife has sworn me to silence during review of my children's wikis. Probably for the best, lol.
+SEP 1 2:07 PM
+I have my monthly audit today, so I need to bang that out.
+SEP 1 2:07 PM
+It's been a chill weekend though. I've been playing WoW with [[JRE]] a ton.
+SEP 1 2:07 PM
+Hehehehehe
+SEP 1 2:08 PM
+I'm glad you're enjoying yourself! Are you all playing WoW classic?
+SEP 1 2:08 PM
+Nope. I did that 14 years ago.
+SEP 1 2:08 PM
+That nostalgia makes no sense to me.
+SEP 1 2:08 PM
+No time like the present, eh?
+SEP 1 2:08 PM
+It's a server that allows you to pick any of the talents and abilities (you spend limits resource tokens to purchase them).
+SEP 1 2:09 PM
+Oooooooohhhhhhh
+SEP 1 2:09 PM
+That sounds like grounds for some SERIOUS powergaming lol
+SEP 1 2:09 PM
+There are only custom classes, and given the richness of the class talent trees and abilities, you get some wild stuff out of it. Also, they have attached a ton of special abilities to custom "enchants" which you extract onto your account and enchant onto items that extend the talents even further.
+SEP 1 2:09 PM
+Oh, indeed. Everyone there is a WoW veteran, so metagaming is fun.
+SEP 1 2:10 PM
+It's very much like building magic decks.
+SEP 1 2:10 PM
+They also a seasonal/ladder server which has a "draft" pick mode (like drafting in magic) that forces you to reason on the fly about the randomness of the abilities handed to you.
+SEP 1 2:11 PM
+I've downloaded the stuff for FFXIV...but, this game is a blackhole for me, lol.
+SEP 1 2:12 PM
+Nice! I can already picture your brain-cogs turning. I'm glad you and [[JRE]] are enjoying yourselves. :>
+SEP 1 2:12 PM
+Yeeeaaaaah, it definitely is. I've had to put it away for a bit recently, but I'm still playing it at least once a week for raid nights and such.
+SEP 1 2:13 PM
+Also, let me know if and when you want to set up Tiddlywiki. We're going to do it a bit differently this time.
+SEP 1 2:14 PM
+Honestly it's something I'd like to start today, if we can. 
+SEP 1 2:15 PM
+That pacman/yay tooling should make it easy to try out other kinds of wiki software too, if that might be useful to you.
+SEP 1 2:15 PM
+I recommend using TW-Bob
+SEP 1 2:15 PM
+TW5-Bob*
+SEP 1 2:15 PM
+But... I like Tiddlywiki >_>
+SEP 1 2:15 PM
+You can get an executable, but I think you should just install and use it from the command line.
+SEP 1 2:15 PM
+Yes! We discussed this. And zerotier, so I can access everything from everywhere? Or will that come later?
+SEP 1 2:16 PM
+Aye, that as well! =)
+SEP 1 2:16 PM
+https://github.com/OokTech/TW5-Bob
+SEP 1 2:16 PM
+If you want to join our household's zerotier network, you can:
+SEP 1 2:17 PM
+You can also make your own (or both, I believe)
+SEP 1 2:18 PM
+Your mission, if you should choose to take it, is to try to get either of them working. =)
+SEP 1 2:18 PM
+You might be able to find some useful information on these in my wiki as well, but it's messy. =)
+SEP 1 2:19 PM
+Which would be wiser to get up and running first, do you think>
+SEP 1 2:20 PM
+?*
+SEP 1 2:20 PM
+I would do the wiki before anything else.
+SEP 1 2:20 PM
+o7
+SEP 1 2:21 PM
+In fact, it might be worth just using the Firefox + "File Backups" TW addon in singlefile mode first, and then work on TW5-Bob. I do not know how long it will take you to get TW5-Bob up and running to your liking, but it should be your eventual destination, imho.
+SEP 1 2:22 PM
+If there's an opportunity in the family time conversation, tell everyone I said hi and that I love them :>
+SEP 1 2:22 PM
+I will =)
+SEP 1 2:22 PM
+That applies to you too btw -- hi and I love you :>
+SEP 1 2:25 PM
+I love you, too! =)\
+SEP 1 2:25 PM
+Oooh, this file backups addon seems very sleek. I like it.
+SEP 1 2:51 PM
+If something goes wrong, you'll have backups too. =)
+SEP 1 2:51 PM
+\o/
+SEP 1 2:54 PM
+Knowing me, it probably will. -break everything-
+SEP 1 2:55 PM
+We're going to work a lot on keeping versions and backups.
+SEP 1 2:58 PM
+It's not a fun investment of your time, but it will save your ass and eventually be useful in searching the evolution of your thoughts.
+SEP 1 2:58 PM
+hmmm
+SEP 1 3:06 PM
+Firefox isn't letting me download File Backups because it says the "add-on appears to be corrupt"
+SEP 1 3:06 PM
+I've never encountered that before.
+SEP 1 3:19 PM
+Are you sure you are using the most up to date version of Firefox?
+SEP 1 3:19 PM
+I will check that meow
+SEP 1 3:55 PM
+a full system update (excepting AUR packages), will go as follows:
+SEP 1 3:55 PM
+sudo pacman -Syu
+SEP 1 3:55 PM
+I tend to restart my computer afterward.
+SEP 1 3:56 PM
+(setting up autostarts and having your software pop-up in particular workspaces is nice...makes it so you don't feel like you are losing as much when you restart)
+SEP 1 3:56 PM
+What exactly does it run for the full system update?
+SEP 1 3:59 PM
+Hm
+SEP 1 3:59 PM
+I do not know the answer to your question in depth
+SEP 1 3:59 PM
+I appreciate that answer -- excuse me while I look it up
+SEP 1 4:00 PM
+Roughly, to my understanding, that command will attempt to update the differences between the software available on the public repos and what your system thinks is most recent, then it will download what needs updating and install it. Some of your more systems-oriented software (drivers, kernel, VMs, etc.) will usually have a hook that does something upon upgrading as well.
+SEP 1 4:00 PM
+each flag is something you should look at it
+SEP 1 4:01 PM
+reading the wiki page on pacman is worth your time
+SEP 1 4:01 PM
+^ right
+SEP 1 4:01 PM
+Apparently there is also an -Syyu command?
+SEP 1 4:01 PM
+yes
+SEP 1 4:01 PM
+That's fine to use as well.
+SEP 1 4:02 PM
+Remember that partial upgrades are not supported.
+SEP 1 4:02 PM
+You stay bleeding edge with everyone else, or pay the price of having to figure it out on your own.
+SEP 1 4:02 PM
+There are some differences between Arch and Manjaro here.
+SEP 1 4:03 PM
+They almost never matter though.
+SEP 1 4:03 PM
+I would be surprised if it becomes relevant to you on that laptop.
+SEP 1 4:04 PM
+(I still need to tell you so that you have that "itch" or "intuition" to look in this direction when necessary)
+SEP 1 4:04 PM
+So, to ensure I understand what you're saying: Manjaro devs are not keeping up with the Jones' (so to speak) for their OS, but they do include most things. Particularly for what this laptop can and will run?
+SEP 1 4:05 PM
+Does that sound right?
+SEP 1 4:05 PM
+Mmm...Manjaro devs get to leverage the expertise and trustworthiness of the Arch devs by mirroring the repos. The Manjaro fans will tell you that the extra two weeks includes some sort of review, but that's not really the case. I'm using Arch right now, and some of my packages will take 2 weeks for you to see. Back when Arch wasn't so stable, that extra 2 weeks enabled bugs to be ironed out before Manjaro would release them. It was a buffer that was useful, especially if you didn't feel like figuring out what was wrong on bleeding edge.
+SEP 1 4:07 PM
+2 weeks buffer is still bleeding edge compared to almost any other distro though.
+SEP 1 4:08 PM
+Fair, fair
+SEP 1 4:09 PM
+I mean to say that the differences between Arch and Manjaro are unlikley to be relevant to the kind of work you want to do on that laptop. It's working out of the box for you, and you aren't doing anything yet which is going to push that boundary.
+SEP 1 4:09 PM
+I suggest Manjaro now simply because their DE setups are well-made. Switching kernels is easy enough. I think it's the "just werx" version of Arch.
+SEP 1 4:10 PM
+Ah, okay. I am definitely very pleased with how it's working so far. I have a terrible feeling it's beginner's luck though. lol...
+SEP 1 4:10 PM
+Naw. It's a testament to your work and the work of those who developed the ecosystem.
+SEP 1 4:10 PM
+So simple this monkey could do it ~.~
+SEP 1 4:11 PM
+And cavemen /raises-hand
+SEP 1 4:11 PM
+Hehehe
+SEP 1 4:11 PM
+Hmmm, now my Signal notifications seem to be acting weird. It keeps saying you're sending the same chunk of text over and over. Here's to hoping the updates fix that.
+SEP 1 4:12 PM
+I have had many kinds of problems with Signal.
+SEP 1 4:12 PM
+Oh boy... a string of questions for me to answer now.
+SEP 1 4:13 PM
+TO THE INTERNET
+SEP 1 4:13 PM
+I'm being asked if I want to replace "libmagick" with "extra/imagemagick" and am currently sifting through what that means. Always fun with the first thing I find is an error warning lol
+SEP 1 4:17 PM
+I adore that you are reading the errors and searching them. Much wise.
+SEP 1 4:17 PM
+That will take you anywhere.
+SEP 1 4:18 PM
+I am lazy in this department, and it has bitten in the butt so many times.
+SEP 1 4:18 PM
+It's not given me an error yet, just asking if I want to replace one thing with another. I hate just mashing y or n when I don't truly know.
+SEP 1 4:18 PM
+=)
+SEP 1 4:18 PM
+Yup.
+SEP 1 4:18 PM
+I am hesitant to act when I don't have the full story
+SEP 1 4:18 PM
+Which has also bitten me in the butt xD
+SEP 1 4:18 PM
+Um... It looks like libmagick has been replaced by imagemagick?? That's really all I'm finding.
+SEP 1 4:24 PM
+imagemagick is a useful piece of software. I have no idea how it is used in your system.
+SEP 1 4:25 PM
+I think possibly for the basic screenshot functionality? I feel like I'm ending up with more questions than answers here. Hmm.
+SEP 1 4:28 PM
+Oh, that sounds right.
+SEP 1 4:28 PM
+Rabbitholing
+SEP 1 4:29 PM
+Okay, first order of business once I get this wiki running: A Manjaro/Linux command dictionary
+SEP 1 4:31 PM
+Delicious.
+SEP 1 4:31 PM
+Someone on the internet: oh just use this command.
+Me: WHAT DOES THAT EVEN DO. eorvmromaeoivma;roim
+SEP 1 4:31 PM
+It will help you traverse, remember, and build larger constructions.
+SEP 1 4:31 PM
+I'm a skiddie. I needs me all the code snippets.
+SEP 1 4:31 PM
+I even tried to tldr on some things and that didn't help lol
+SEP 1 4:32 PM
+You are covering a lot of territory fast. It will be something you iterate over and grow.
+SEP 1 4:32 PM
+bless the "man" command
+SEP 1 4:44 PM
+-read everything-
+SEP 1 4:44 PM
+man is the real deal
+SEP 1 4:44 PM
+I... really have no idea what libmagick was used for. As far as I can tell, imagemagick is used for screenshots and photo manipulation, but the other just doesn't seem to show up anywhere. Which makes me even more confused. 
+SEP 1 4:53 PM
+I wonder if libmagick is just "out of the box" for manjaro???
+SEP 1 4:53 PM
+.------------.
+SEP 1 4:53 PM
+You might be able to find which packages used it.
+SEP 1 5:05 PM
+Someone built that version of KDE Manjaro. I don't know how and why.
+SEP 1 5:05 PM
+Alright, I seem to have hit a knowledge wall here.
+SEP 1 5:10 PM
+There are several things the update is asking if I want to replace, but by the time I got to octopi VS octopi-pacmanhelper it gave me an error when I opted not to replace it... apparently they are in conflict with each other?
+SEP 1 5:11 PM
+Wait, I think I just figured something out
+SEP 1 5:17 PM
+So, Octopi is the software installed on Manjaro as a way to handle updates without needing the command line (though you can if you wish, apparently). This has helped things make a bit more sense... I think.
+SEP 1 5:18 PM
+My brain hurts.
+SEP 1 5:18 PM
+Yes. Lol.
+SEP 1 5:34 PM
+I am surprised that you are running into this much trouble on a fresh install btw. This is abnormal, imho.
+SEP 1 5:34 PM
+No beginner's luck for you, lol.
+SEP 1 5:35 PM
+It'll only ever last for so long
+SEP 1 5:36 PM
+It looks like when Manjaro installed it didn't exactly use the latest versions of everything. I have a LOT of things that need updating.
+SEP 1 5:36 PM
+ah, yeah, commong to update after install
+SEP 1 5:37 PM
+You can usually find something to upgrade everyday. But, I do it only once or twice a month.
+SEP 1 5:37 PM
+Unsure how long this will take, so I will probably derp around while it figure's its life out.
+SEP 1 5:38 PM
+Lots of upstream changes in the thousands of pieces of software trickling in
+SEP 1 5:38 PM
+That apostrophe showed up out of nowhere lol
+SEP 1 5:39 PM
+Yeah
+SEP 1 5:39 PM

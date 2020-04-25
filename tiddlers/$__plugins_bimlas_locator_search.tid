@@ -1,0 +1,30 @@
+created: 20200420004113217
+modified: 20200420004123830
+tags: $:/tags/Macro
+title: $:/plugins/bimlas/locator/search
+type: text/vnd.tiddlywiki
+
+\define locator-search(locatorViewTiddler: "")
+  <!-- Hide internal macros, do not make them globally available -->
+  <$importvariables filter="[[$:/plugins/bimlas/locator/macros]]">
+    <$set name="contextState" value="$:/state/bimlas/locator-search">
+      <$wikify name="searchContextFilter" text=<<wikify-filter-search-context>>>
+
+        <<view-search-specific-actions>> <$macrocall $name="view-breadcrumbs-of-context" ancestor-tag-template=<<view-breadcrumb-ancestor-tag-in-search>>/>
+
+        //<small>{{$:/language/Search/Matches/Title}}</small>//
+
+        <$wikify name="filter" text="""<$text text="[!is[system]"/><<searchContextFilter>><$text text="search:title{$(searchTiddler)$}sort[title]limit[100000]]"/>""">
+          <$list filter=<<filter>> template="$:/core/ui/ListItemTemplate"/>
+        </$wikify>
+
+        //<small>{{$:/language/Search/Matches/All}}</small>//
+
+        <$wikify name="filter" text="""<$text text="[!is[system]"/><<searchContextFilter>><$text text="search{$(searchTiddler)$}sort[title]limit[100000]]"/>""">
+          <$list filter=<<filter>> template="$:/core/ui/ListItemTemplate"/>
+        </$wikify>
+
+      </$wikify>
+    </$set>
+  </$importvariables>
+\end

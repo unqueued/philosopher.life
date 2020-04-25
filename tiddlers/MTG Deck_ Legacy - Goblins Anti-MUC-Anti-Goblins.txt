@@ -1,0 +1,30 @@
+// Mostly the Most Titty-esque of Basic Lands - 25
+14 Mountain
+4 Ancient Tomb
+4 Cavern of Souls
+1 Mutavault
+1 Buried Ruin
+1 Reliquary Tower
+
+// Hateful Goblins - 12
+4 Goblin Cratermaker
+4 Goblin Trashmaster
+4 Vexing Shusher
+
+// Recursion - 4
+1 Squee, Goblin Nabob
+1 Crucible of Worlds
+1 Trading Post
+1 Shattering Pulse
+
+// Style On You - 11
+3 Boil
+4 Chalice of the Void
+1 Banefire
+1 Sword of Fire and Ice
+1 Staff of Nin
+1 The Immortal Sun
+
+// 1-4-1 Meanyface - 8
+4 Pyroblast
+4 Red Elemental Blast

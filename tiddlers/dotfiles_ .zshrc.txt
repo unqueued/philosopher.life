@@ -1,0 +1,142 @@
+###########################################################################
+##                                    ,,                                 ##
+##         db                  mm     db                                 ##
+##        ;MM:                 MM                                        ##
+##       ,V^MM.    `7MMpMMMb.mmMMmm `7MM  .P"Ybmmm .gP"Ya `7MMpMMMb.     ##
+##      ,M  `MM      MM    MM  MM     MM :MI  I8  ,M'   Yb  MM    MM     ##
+##      AbmmmqMA     MM    MM  MM     MM  WmmmP"  8M""""""  MM    MM     ##
+##     A'     VML    MM    MM  MM     MM 8M       YM.    ,  MM    MM     ##
+##   .AMA.   .AMMA..JMML  JMML.`Mbmo.JMML.YMMMMMb  `Mbmmd'.JMML  JMML.   ##
+##                                       6'     dP                       ## 
+##                                       Ybmmmd'                         ##
+##                                                                       ##
+###########################################################################
+
+# Load antigen (zsh package manager)
+source /usr/share/zsh/share/antigen.zsh
+
+# Load the oh-my-zsh's library.
+antigen use oh-my-zsh
+
+### Bundles of Joy
+antigen bundle unixorn/autoupdate-antigen.zshplugin       # YOLO: Autoupdate antigen every 7 days
+
+# Alias-related or tools you invoke
+antigen bundle tmux                                       # Seems handy
+antigen bundle djui/alias-tips                            # get gud
+antigen bundle micrenda/zsh-nohup                         # ctrl+h for EZ nohup
+antigen bundle skx/sysadmin-util                          # https://github.com/skx/sysadmin-util
+antigen bundle mafredri/zsh-async                         # Could be quite powerful
+
+# Automagic
+antigen bundle desyncr/auto-ls                            # saves me a trip
+
+# Coloration
+antigen bundle ael-code/zsh-colored-man-pages             # thank you, jesus
+antigen bundle zsh-users/zsh-syntax-highlighting          # improves signal-to-noise
+
+# Autocompletion, et al
+antigen bundle history-substring-search                   # must be below zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-autosuggestions              # godlike
+antigen bundle b4b4r07/enhancd                            # stunning navigation, almost autosuggest
+
+# Load theme
+antigen theme bmihaila/dustmod
+
+# Tell antigen that you're done.
+antigen apply
+
+
+##########################################
+##                                      ##
+##  MMM"""AMV  .M"""bgd `7MMF'  `7MMF'  ##
+##  M'   AMV  ,MI    "Y   MM      MM    ##
+##  '   AMV   `MMb.       MM      MM    ##
+##     AMV      `YMMNq.   MMmmmmmmMM    ##
+##    AMV   , .     `MM   MM      MM    ##
+##   AMV   ,M Mb     dM   MM      MM    ##
+##  AMVmmmmMM P"Ybmmd"  .JMML.  .JMML.  ##
+##                                      ##
+##########################################
+
+# Set Zsh option
+setopt correct
+
+HISTFILE=~/.zhistfile
+HISTSIZE=SAVEHIST=1000000
+bindkey -v
+
+
+########################
+##                    ##
+##  `7Mb,od8 ,p6"bo   ##
+##    MM' "'6M'  OO   ##
+##    MM    8M        ##
+##    MM    YM.    ,  ## 
+##  .JMML.   YMbmd'   ## 
+##                    ##
+########################
+
+# Aliases
+alias reload='. ~/.zshrc'
+alias v='nvim'
+alias vim='nvim'
+alias nano='nvim'
+alias vi='nvim'
+
+# Exports
+export PATH=$PATH:/home/h0p3/scripts
+export VISUAL="nvim"
+export EDITOR="nvim"
+
+
+#####################################################
+##      ,,                 ,,          ,,          ##
+##      db               `7MM        `7MM          ##
+##                         MM   __,    MM          ##
+##    `7MM  pd""b.    ,M""bMM  `7MM    MMpMMMb.    ##
+##      MM (O)  `8b ,AP    MM    MM    MM    MM    ##
+##      MM      ,89 8MI    MM    MM    MM    MM    ##
+##      MM    ""Yb. `Mb    MM    MM    MM    MM    ##
+##      MM       88  `Wbmd"MML..JMML..JMML  JMML.  ##
+##   QO MP (O)  .M'                                ##
+##   `bmP   bmmmd'                                 ##
+##                                                 ##
+#####################################################
+
+alias cursong='deadbeef --nowplaying "%a | %t"'
+export TERM=xterm-256color
+alias vboxmng='VBoxManage'
+
+#######################################################################
+##                                                             ,,    ##
+##  `7MMF'   `7MF'                                           `7MM    ##
+##    MM       M                                               MM    ##
+##    MM       M `7MMpMMMb.`7MM  `7MM  ,pP"Ybd  .gP"Ya    ,M""bMM    ##
+##    MM       M   MM    MM  MM    MM  8I   `" ,M'   Yb ,AP    MM    ##
+##    MM       M   MM    MM  MM    MM  `YMMMa. 8M"""""" 8MI    MM    ##
+##    YM.     ,M   MM    MM  MM    MM  L.   I8 YM.    , `Mb    MM    ##
+##     `bmmmmd"' .JMML  JMML.`Mbod"YML.M9mmmP'  `Mbmmd'  `Wbmd"MML.  ##
+##                                                                   ##
+#######################################################################
+
+### The following lines were added by compinstall
+#zstyle :compinstall filename '/home/h0p3/.zshrc'
+#autoload -Uz compinit
+#compinit
+
+### Themes
+# antigen theme yarisgutierrez/classyTouch_oh-my-zsh
+# antigen theme gnzh
+# antigen theme the0neWhoKnocks/zsh-theme-boom
+# antigen theme judgedim/oh-my-zsh-judgedim-theme
+# antigen theme zthxxx/jovial
+
+### Already have it from theme
+#antigen bundle popstas/zsh-command-time                  # saves me some time :P
+
+### Y u no work? Conflict?
+# antigen bundle sudo 
+# antigen bundle dirhistory
+# antigen bundle zsh-users/zsh-completions
+# antigen bundle Vifon/deer # ranger 

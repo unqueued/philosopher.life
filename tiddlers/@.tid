@@ -1,10 +1,16 @@
 created: 20190328174051471
 fc-filter: [tag[@]]
-modified: 20190705040333907
-tags: FTO filter-list
+modified: 20200301033232683
+tags: FTO filter-list [[FTO: Pin]]
 title: @
 
 //Ghetto public IMing off my wiki, @taboi. I need a globby method for communicating fragments which doesn't cost an entire tiddler per message. @ is about molecularizing briefer communications and [[lft]] for signaling. Unfortunately, this also doesn't make it easy for my interlocutors to cite the passage through hyperlinking alone, and it requires more work on the part of a reader to disentangle the uncertain timeline.<<ref "i">>//
+
+!! Groupchats:
+
+<<list-links "[tag[@]]+[tag[groupchat]]">>
+
+!! Everyone:
 
 {{@: Focus}}
 

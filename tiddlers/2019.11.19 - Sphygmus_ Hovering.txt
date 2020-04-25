@@ -1,0 +1,19 @@
+[10:22 AM] h0p3: I wish I understood more about when I felt the hover tool was necessary.
+[10:23 AM] h0p3: Not just for audits, but sometimes when I'm buried in an extremely long tiddler (hoping not to lose my place) or the link is aliased in a way, [[foo|bar]].  Sometimes the correct thing to do is just open more tabs.
+[10:26 AM] h0p3: It might be safe to say the more linking you do, the higher the chance your reader would value it. Footnote hovering might be worth considering.
+[10:35 AM] robotic_scarab: Thank you for your thoughts!
+[10:35 AM] robotic_scarab: I'll have to check, I don't remember if aliased link hovering works; edit: it does! yeah, hovering is good here
+[10:36 AM] robotic_scarab: Wanting hover when reading a long tiddler with links makes sense to me
+[10:36 AM] robotic_scarab: Footnote hovering is an interesting thought
+[12:17 PM] h0p3: In case it might be useful, I like to bargain hunt on https://www.lowendtalk.com/ (sometimes works out). Been a while since I last checked. Currently, my dallas VPS is $30/y for OpenVZ (=/), 2TB bandwidth/m, 2GB RAM, 100GB HDD, 4 virtual cores (throttled). Around Thanksgiving has been my favorite time to shop for them.
+LowEndTalk
+LowEndTalk
+[12:35 PM] h0p3: Might try for a greasemonkey script that will save to archive.org. Tried to have one that would just automatically capture everything during my surfing. Didn't work.
+[12:57 PM] robotic_scarab: ooo, thanks for sharing! that's a way better deal than digitalOcean for more specs
+[12:57 PM] robotic_scarab: I barely use CPU so that wouldn't be a big bottleneck for me
+[3:56 PM] h0p3: Likely irrelevant, but just in case: https://jrsinclair.com/articles/2019/algebraic-data-types-what-i-wish-someone-had-explained-about-functional-programming/
+[[JRE]] Sinclair
+Algebraic Data Types: Things I wish someone had explained about fu...
+Algebraic data types and algebraic data structures sound similar. It’s like they ought to be the same thing. But they’re not. They both have ‘algebraic’ in the name, so it’s confusing. I got them mixed up at times. Others have too. But, they’re different concepts....
+
+[9:20 PM] robotic_scarab: thank you! :)

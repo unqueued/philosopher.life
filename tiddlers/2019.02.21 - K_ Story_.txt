@@ -1,0 +1,37 @@
+"""
+Have a great day [[h0p3]]!
+THU 8:42 AM
+Morning =)
+THU 11:06 AM
+How's your day going?
+THU 11:06 AM
+It’s going! Got a midterm and I’m stressing out. :joy:
+THU 12:49 PM
+This the Iliad one?
+THU 12:49 PM
+Literary theory
+THU 12:50 PM
+It’s going to be great
+THU 12:50 PM
+That reminds me. I have a story for you, but it’ll have to wait until after the exam.
+THU 12:51 PM
+Is that okay?
+THU 12:51 PM
+Of course, lol.
+THU 12:56 PM
+My money is on you doing well on the midterm, especially given your instructor's praise.
+THU 12:57 PM
+In any case, good luck!
+THU 12:57 PM
+Sounds like [[L]] already told you the story. :joy:
+THU 1:00 PM
+Hahaha
+THU 1:00 PM
+Well, you will have to tell me again!
+THU 1:01 PM
+It’s a date!<<ref "2020.02.24">>
+THU 1:02 PM
+"""
+
+---
+<<footnotes "2020.02.24" "I think this is one of his standard expressions. I'm glad too. Part of the social experiment for the year? I don't know.">>

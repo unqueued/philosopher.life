@@ -1,6 +1,7 @@
+aliases: [[Hidden]]
 created: 20180518144306989
 creator: h0p3
-modified: 20181227122645933
+modified: 20200408215353551
 modifier: h0p3
 tags: Hidden
 title: Hidden: Root
@@ -32,7 +33,7 @@ People are much less interested in what you are trying to show them than what yo
 -- Nassim Nicholas Taleb
 <<<
 
-Welcome to the home of the hidden subwiki easter egg embedded in h0p3's Wiki.<<ref "o">> I'll agree it's not very hidden at all, but it's not meant to be something nobody finds.<<ref "1">> It marginally limits the exposure of some PII, but more importantly, it's meant to be a place that people don't have to see unless they really want to. Access to the contents of this directory is fairly open across the wiki, and there are many ways to find your way here. 
+Welcome to the home of the hidden subwiki easter egg embedded in h0p3's Wiki.<<ref "o">> I'll agree it's not very hidden at all, but it's not meant to be something nobody finds.<<ref "1">> It marginally limits the exposure of some PII, but more importantly, it's meant to be a place that people don't have to see unless they really want to. Access to the contents of this directory is fairly open across the wiki, and there are many ways to find your way here.<<ref "t">>
 
 I think a stealth mechanic makes the most sensitive and easily doxxable personal information just a tad harder to find. I'm under no illusions of privacy or anonymity here, as I've expressed many times. Despite that fact, this is a non-trivial security through obscurity defense against cursory/surface trolls. Obviously, you can find it in seconds if you know to look for it. 
 
@@ -54,6 +55,10 @@ Obviously, in the eyes of the average person, these are odd or TMI personal even
 
 ---
 !! Focus:
+
+* Hidden Joy
+** [[Hidden: Sinister Nescience]]
+** [[Hidden: ⦗The™ Nᵗʰ-Dᵘʰ⦘]]
 
 * Absurdly Doxxable:
 ** [[Employment]]
@@ -89,6 +94,8 @@ Obviously, in the eyes of the average person, these are odd or TMI personal even
 ** Self-Sufficiency
 *** [[Trades Worth Learning]]
 *** [[Cyberprovidence: Pragmatic Luddism for Digital Natives]]
+** Offense
+*** [[Hidden: Ricin]]
 
 * Fucking Weirder Than Usual:
 ** [[Hidden: Tyler]]
@@ -124,6 +131,8 @@ Obviously, in the eyes of the average person, these are odd or TMI personal even
 <<footnotes "o" "Referred to as Voldemort or even Ol' Voldy.">>
 
 <<footnotes "1" "Let's be clear, if I didn't want anyone to find something, I could do that. You see how obsessive I am.">>
+
+<<footnotes "t" "Part of the real strength of the wiki is that it is so good at uncovering hidden things, including what you didn't know you were looking for sometimes.">>
 
 <<footnotes "l" "Though, that clearly //leaks out// into the rest of this wiki too. :P">>
 

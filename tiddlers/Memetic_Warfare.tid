@@ -1,7 +1,7 @@
 aliases: [[memetic warfare]] [[rhetoric]] [[Rhetoric]] [[Manipulation]] [[manipulation]] [[mind-control]] [[Mind-Control]] [[Propaganda]] [[propaganda]]
 created: 20190612223353186
 links: https://cryptome.org/2012/07/gent-forum-spies.htm https://webtransparency.cs.princeton.edu/dark-patterns/ https://darkpatterns.uxp2.com/
-modified: 20190805171549630
+modified: 20191218193518158
 tags: [[Dark Triadicism]] [[Realpolitik Speculation]] Antipleonasm Redpill Leet Draft Collection [[The Great Human Conversation]]
 title: Memetic Warfare
 
@@ -41,7 +41,11 @@ It's easier to fool people than to convince them they've been fooled.
 
 !! __''[[Compliance Gaining Techniques]]''__:
 
+; Hypernormalization, Apathy, Learned Helplessness
+: people will start to assume that any information presented to them is untrustworthy and give up on finding the truth
 
+; [[Reiteration Effect|https://en.wikipedia.org/wiki/Illusory_truth_effect]]
+: Works for similar reasons as Spaced Repetition method.
 
 
 <br> 
@@ -53,6 +57,7 @@ It's easier to fool people than to convince them they've been fooled.
 
 !! __''[[Cults, Echo Chambers, Artificial Filter Bubbles, & Epistemic Insulators]]''__:
 
+* Unjustified search engine bias
 
 <br>
 
@@ -120,6 +125,12 @@ It's easier to fool people than to convince them they've been fooled.
 <br>
 
 !! __''[[State-Actor Military-Grade Mass Control Methods]]''__:
+
+
+    “Diplomacy manipulation,” in which someone uses deepfakes-style video manipulation tools to produce a realistic video of a political leader declaring war, in order to provoke their enemy into retaliation.
+    “Polity simulation,” where Congresspeople’s inboxes are spammed with messages from bots pretending to be their constituents.
+    “Laser phishing,” which improves the sophistication of phishing attacks by training phishing email generators on messages from your real friends, so you’re more likely to read them and fall for them.
+
 
 
 <br>

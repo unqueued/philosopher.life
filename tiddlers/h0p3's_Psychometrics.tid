@@ -1,11 +1,11 @@
 created: 20180208074014821
 creator: h0p3
-modified: 20190511165856865
+modified: 20200209053513086
 modifier: h0p3
 tags: h0p3
 title: h0p3's Psychometrics
 
-//Any metric to compare a specific aspect of people starts to fail when it is recognized as such.//
+//This may or may not be useful to a reader. I think it's the curious attempt to quantify something which the wiki as a whole gives so much qualitative evidence for. I want to argue with the test-makers a lot. This is also something I'd like to come back and redo years from now.//
 
 !! Testing Notes:
 
@@ -13,23 +13,25 @@ title: h0p3's Psychometrics
 ** https://openpsychometrics.org/
 *** I found these to be very interesting. It demonstrated to me that I'm also on a path of physiological mental decline.
 ** http://www.yourmorals.org
-*** These people are not philosophers, clearly. They attempt to go that direction, but they lack crucial distinctions in many of their metaethical questions. Despite my strong disagreement with their methodology and my very strong opinions in these matters, I also think this is interesting information, even if it isn't always accurate.
+*** These people are not philosophers. They attempt to go that direction, but they lack crucial distinctions in many of their metaethical questions. Despite my strong disagreement with their methodology and my very strong opinions on these matters, I also think this is interesting information, even if it isn't always accurate.
 ** https://www.psychometrictest.org.uk/
 
 * Excepting the GRE, these tests were taken during an era of my life wherein I use cannabis at least 10 times in the past 30 days and drank moderately at least 5 times in the past 30 days. 
 
-* All of these test were taken under periods of depression, anxiety, intense stress, and profound sleep debt. I expect a 10-15 IQ point loss, as well as significant losses in trust, happiness, and optimism. My perceptions and ability to reason are impaired in these tests, but they are the data points I have available to me.
+* All of these tests were taken under periods of depression, anxiety, intense stress, and profound sleep debt. I expect a 10-15 IQ point loss, as well as significant losses in trust, happiness, and optimism. My perceptions and ability to reason are impaired in these tests, but they are the data points I have available to me.
 
-* I could just be making it all up. You are free to be Straussianly uncharitable in your interpretation of these results. If you are wondering if I could get whatever answers I wanted on these tests (especially with study of the underlying literature and the test mechanics themselves), I can play the test game if I wanted. You will have to Trust trust here and take my word for it that I've honestly tried to answer these questions with absolute honesty in the raw pursuit of the truth of who I am.
+* I could just be making it all up. You are free to be [[Straussian]]ly uncharitable in your interpretation of these results. If you are wondering if I could get whatever answers I wanted on these tests (especially with studying of the underlying literature and the test mechanics themselves), I can play the test game if I wanted. You will have to Trust trust here and take my word for it that I've honestly tried to answer these questions with absolute honesty in the raw pursuit of the truth of who I am.
 
 * I am also aware of the limitations of self-reporting. I'm aware of psychology as a historical discipline, with a terrifyingly unscientifically literature and unsound process. I give preference to biological, computational, and economic branches. Philosophical branches range between useless and absolutely fundamental to the discipline itself. The absurdly high value of the philosophical notions requires me to pay attention to literature I would normally dismiss because I'm digging for [[Diamonds]] and [[Redpills]] wherever I can find them.
+
+* Unfortunately, I'm missing some information for these. Sorry. =/.
 
 !! General Computing:
 
 * RDOS Aspie Neurodiversity Score
 ** 157 of 200
 
-Wife took it on my behalf (objectivity in self-assessment concern). Her results for me were: "You answered inconsistently on too many control questions." That is fascinating, and I believe this is because I'm an extremely high-functioning autistic person. Many people never realize it.
+My wife took it on my behalf (objectivity in self-assessment concern). Her results for me were: "You answered inconsistently on too many control questions." That is fascinating, and I believe this is because I'm an extremely high-functioning autistic person. Many people never realize it.
 
 * Autism Spectrum Quotient (AQ)
 ** 44 of 50
@@ -62,7 +64,7 @@ I am convinced autism is part of the explanation of the wide variance in my verb
 
 * Narcissistic Personality Inventory
 ** 10 of 40 (~15 is average)
-** I was midpoint on superiority and entitlement facets, 1/3rd self-sufficent, 1/8th authoritative and exhibitionist, and zero on vanity and exploitativeness. 
+** I was midpoint on superiority and entitlement facets, 1/3rd self-sufficient, 1/8th authoritative and exhibitionist, and zero on vanity and exploitativeness. 
 
 I suggest that some of the questions were written in such a way that it must be interpreted as respecting human dignity. Furthermore, some of the questions required me to express my belief that I understand the world better, that I'm pursuing being moral and truth itself moreso than the average person, etc. Essentially, there are different ways in which one human specimen is better than another. This, however, is not the claim that we should treat anyone as lacking human dignity. The test fails to make that distinction.
 
@@ -98,7 +100,7 @@ I suggest these require interpretation in context. There are domains, for exampl
 *** B2: 797
 **** e.g. "Which of these file types are video?", "Which of these are web browsers?", "Which of these are versions of the Linux operating system?"
 
-Sounds about right to me. I feel incompetent for naming famous things in many ways. It's interesting to see the body of cultures I belong to.
+Sounds about right to me. I feel incompetent in naming famous things in many ways. It's interesting to see the body of cultures I belong to.
 
 * OCL Working Memory Test
 ** 37, average is 36.3. 
@@ -132,7 +134,7 @@ I disagree with this test. I think I'm not nearly as adaptable as this test clai
 
 * Survey of Dictionary-based Isms (from 1 to 5 scale)
 ** Alpha, Tradition-oriented Religiousness: 1.0/5.0
-*** The alpha factor, described as "tradition-oriented religiousness", reflects adherence to traditional (religious) standards of morality and resistance to change in social structure.
+*** The alpha-factor, described as "tradition-oriented religiousness", reflects adherence to traditional (religious) standards of morality and resistance to change in social structure.
 ** Beta, Unmitigated Self-Interest: 1.6/5.0
 *** The beta factor, described as "unmitigated self-interest", reflects a competitive world view where the goal of a person is to do as best for themselves as possible and the groups that they belong to, with the expectation that this will come at the expense of someone else.
 ** Gamma, Communal Rationalism: 3.7/5.0
@@ -370,4 +372,4 @@ I have a ton of problems with this test. I think epistemic normativity is a core
 
 * Nonverbal Immediacy Scale
 ** 73, average for men 93.8
-** Greater levels of nonverbal immediacy are generally seen as positive and are statistically associated with a variety of positive outcomes. 
+** Greater levels of nonverbal immediacy are generally seen as positive and are statistically associated with a variety of positive outcomes.

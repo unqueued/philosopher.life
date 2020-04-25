@@ -1,0 +1,6 @@
+the tiddler-converter script is up...I'm not sure how often it will be useful to you. It's a prototype, I suppose.
+THU 2:16 PM
+We've made headway on firmcoding today. Gonna try to make it more generic.
+THU 2:17 PM
+yes, thank you! I'm looking forward to seeing your implementation of firmcoding as it develops
+THU 2:20 PM

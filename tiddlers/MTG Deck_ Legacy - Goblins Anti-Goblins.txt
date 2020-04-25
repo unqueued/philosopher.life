@@ -1,0 +1,23 @@
+// CA & CQ - 8
+4 Goblin Matron
+4 Goblin Ringleader
+
+// Acceleration - 12
+4 Goblin Lackey
+4 Warren Instigator
+4 Goblin Warchief
+
+// What Ever Will I Matron For? - 3
+1 Krenko, Mob Boss
+1 Kiki-Jiki, Mirror Breaker
+1 Goblin Trashmaster
+
+// Board Control - 14
+4 Goblin Chainwhirler
+1 Goblin Sharpshooter
+4 Gempalm Incinerator
+4 Pyrokinesis
+1 Goblin Pyromancer
+
+// Land - 23
+23 Mountain

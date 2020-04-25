@@ -1,0 +1,108 @@
+created: 20200422225202725
+modified: 20200424061959376
+tags: [[Φιλοσοφική ανάλυση]] [[Be A Good Dad]] Socialism
+title: Economic Justice
+
+//Dismally unjustified voodoo math based on untestable models and suspiciously conceived explanations of agency, behavior, and teleology? Help us, Obi-wan.//
+
+; 1. Economics and Ethics
+
+* Economists, as a population, tend to have much higher rates of dark-triadic traits, hence why they seek positivistic hypothetical imperatives rather than Categorical. Admitting moral requirements and justification would eat their lunch.
+** Value judgments are shunned not because it makes the science purer (also note that denying the relative positioning of indices necessary for [[Quinian empiricism|Epistemic Paradoxes]] detracts or eliminates our ability to even compute social welfare functions), but because they do not want to be held accountable to steering the science toward a goal beyond their own selfish egos (and serving capitalism).
+*** It is one of the most profoundly infected areas in academia, grown for the sake of the centralization of power.
+** We should strongly doubt those who even claim to be engaged in welfare economics out of the discipline. 
+*** They are mere consequentialists at best.
+** Economics and policy cannot be practically peeled apart, hence why it must undergo such rigorous moral qualification.
+
+* Focus on impossibility theorems
+** Arrow's, no rank-order electoral system can be designed that always satisfies these three "fairness" criteria:
+*** If every voter prefers alternative X over alternative Y, then the group prefers X over Y.
+*** If every voter's preference between X and Y remains unchanged, then the group's preference between X and Y will also remain unchanged (even if voters' preferences between other pairs like X and Z, Y and Z, or Z and W change).
+*** There is no "dictator": no single voter possesses the power to always determine the group's preference.
+
+* Many results in normative economics are mathematical theorems with a primary analytical function.
+* Normative economics covers microeconomic issues of resource allocation, the evaluation of public policies in an unjust society, and effective ranking of social states (but not so much the arguments underlying a given ranking).
+
+* Rawls
+** Difference Principle, maximin, dim margin utility, "sum-utilitarianism"
+** It has taken more time for economists to realize that Rawls' difference principle applies to primary goods, not utilities.
+
+
+; 2. Inequality and Poverty Measurement
+
+* Say there is a given unidimensional measure of individual advantage; the gist of the analysis in question is then about the distribution of this particular notion of advantage.
+** Multidimensional inequality and poverty measurement
+
+* It is possible to relate inequality indices to social welfare functions, so as to give inequality indices a more transparent ethical content.
+** We have to measure how inequality harms social welfare.
+** The social welfare function condones some sacrifice of total income in order to reach equality.
+** Consider the case when social welfare depends on individual well-being, and individual well-being depends on income with some individual variability due to differential needs. Then income equality may no longer be a valuable goal, because the needy individuals may need more income than others.
+*** Utility monsters, reparations, etc.
+** Separating the measures that evaluate the distribution in every dimension (such as income, health, asset deprivation...) makes it possible to have measures that are sensitive to the correlation between disadvantages (e.g., the positive correlation between income and health), and therefore more accurately record the multidimensional suffering of the worst off.
+
+* Axiomatic study of the properties of indices. 
+** The Pigou-Dalton principle of transfers:
+*** Inequality decreases (or social welfare increases) when an even transfer is made from a richer to a poorer individual without reversing their pairwise ranking (although this may alter their ranking relative to other individuals). Since this condition is about even transfers, it is quite weak and other axioms have been proposed in order to strengthen the priority of the worst-off. 
+** The principle of diminishing transfers:
+*** A Pigou-Dalton transfer has a greater impact the lower it occurs in the distribution. 
+** The principle of proportional transfers:
+*** an inefficient transfer in which what the donor gives and what the beneficiary receives is proportional to their initial positions increases social welfare. 
+
+* Similar transfer axioms have been adapted to the measurement of poverty. 
+** Sen's condition:
+*** Poverty increases when an even transfer is made from someone who is below the poverty line to a richer individual (below or above the line). 
+** The other axioms with which the axiomatic analysis has been made usually have a less obvious ethical appeal, and relate to decomposability of indices, scale invariance and the like. Characterization results have been obtained, which identify classes of indices satisfying particular lists of axioms. The two ethical approaches may be combined, when one takes as an axiom the condition that the index be derived from a social welfare function with particular features.
+
+* The Dominance Approach
+** How can one make sure that a distribution is more or less unequal, or has more or less poverty, than another without checking an infinite number of indices?
+*** Stochastic dominance concepts have been mapped to general properties of social welfare functions, including the satisfaction of transfer axioms by inequality and poverty indices.
+** The Lorenz curve depicts the percentage of the total amount of whatever is measured, income, wealth or well-being, possessed by any given percentage of the poorest among the population.
+
+* Equality, Priority, Sufficiency
+** The philosopher must define the right foundations for an aversion to inequality.
+*** Give priority to the worse-off not because of their relative position compared to the better-off, but because and to the extent that they are badly off. (Parfit)
+**** Yet, relative position appears to be fundamental to how we calculate well-being in many cases. 
+*** Interestingly, if egalitarianism is defined in opposition to this “priority view” by the feature that it relies on judgments of relative positions, this means that egalitarian values cannot be correctly represented by a separable social welfare function.
+**** But, relative positions are part of the equation though, and thus there is a separable social welfare function.
+***** Ego and [[Other]] cannot be escaped in the reflective equilibrium's definition of [[The Good]], lossy and co-computed.
+
+3. Welfare Economics
+
+* Welfare economics analyzes interpersonal comparisons of well-being in relation to individual preferences.
+* A social welfare function is additively separable when it is the sum of separate terms, each of which depends only on one individual's well-being.
+
+
+    3.1 Old and New Welfare Economics
+    3.2 Harsanyi's Theorems
+
+4. Social Choice
+
+    4.1 Arrow's Theorem
+    4.2 The Informational Basis
+    4.3 Around Utilitarianism
+
+5. Bargaining and Cooperative Games
+
+    5.1 Nash's and Other Solutions
+    5.2 Axiomatic Bargaining and Cooperative Games
+
+6. Fair allocation
+
+    6.1 Equity as No-Envy
+    6.2 Extensions
+
+7. Related topics
+
+    7.1 Freedom and Rights
+    7.2 Capabilities
+    7.3 Marxism
+    7.4 Opinions
+    7.5 Altruism and Reciprocity
+    7.6 Happiness studies
+
+
+
+
+
+
+

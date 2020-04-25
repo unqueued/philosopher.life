@@ -2,7 +2,7 @@ aliases: [[Hub]]
 caption: Hub
 created: 20171008194902280
 creator: h0p3
-modified: 20190709200457223
+modified: 20191121204355967
 modifier: h0p3
 revision: 0
 tags: $:/tags/SideBar
@@ -20,6 +20,6 @@ title: Transclusion: Focus
 
 <<list-links "[tag[Recent Obsession]]+[sort[title]]">>
 
-[[Lifetime Projects]]:
+[[Lifetime Project|Lifetime Projects]][[s|Hidden: Root]]:
 
 {{Lifetime Projects}}

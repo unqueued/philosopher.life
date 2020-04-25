@@ -1,0 +1,23 @@
+WRfilter: [!is[system]days:created[-1]!days:created[0]sort[created]get[title]]
+WRtitle: YY0MM0DD -- Wiki Review: World
+WRtags: [[testing a multi-space tag]]
+WRlogs: [[Wiki Review: Focus]]
+CDtitle: YY0MM0DD -- Carpe Diem: Eater
+CDtags: [[lots of]] [[random]] [[tags]]
+CDlogs: [[Carpe Diem: Focus]]
+PItitle: YY0MM0DD -- Prompted Introspection: Beater
+PItags: [[80's music]] [[saturday singalong]]
+PIlogs: [[Prompted Introspection: Focus]]
+1buttTitle: YY0MM0DD -- Testing
+1buttLocation: [[Prompted Buttons: Focus]]
+2buttTitle: YYYY.0MM.0DD -- Wake Me Up Before You GOGO
+2buttTags: [[80's music]]
+3buttTitle: ddd * mmm * 0DD -- Take On Me
+3buttTags: [[80's music]]
+3buttLocation: [[AHA]]
+4buttFilter: [tag[test]]
+4buttTitle: test
+4buttTags: 
+4h0p3Filter: [!is[system]tag[Table Of Contents]sort[created]]
+4h0p3Title: YYYY.0MM - Wiki Review
+4h0p3Tags: [[Log Audit]] [[Wiki Review]]

@@ -1,0 +1,48 @@
+[12:03 PM] Valdus: Yat?
+[12:05 PM] h0p3: I'm here. :smiley:
+[12:05 PM] h0p3: How are you doing?
+[12:06 PM] Valdus: good, no wiki activity today, but alright, backyard chilling
+[12:06 PM] h0p3: Noice
+[12:06 PM] h0p3: Watching Starcraft 2, reading+writing, offspring are doing their schoolwork
+[12:08 PM] Valdus: I was thinking maybe a wiki everywhere might not be my thing. I wonder if I should keep the thing private and have a todo wiki on my apples and dropbox.
+[12:08 PM] Valdus: by some miracle you dont smoke cigars or pipes no?
+[12:09 PM] h0p3: It is better to start somewhere! Have multiple wikis too.
+[12:10 PM] h0p3: I think the wiki without a sizable screen, real keyboard and mouse is significantly hampered.
+[12:10 PM] h0p3: a todo wiki on your apples, however, sounds wonderful
+[12:10 PM] Valdus: oh good
+[12:10 PM] h0p3: I do not smoke. Sadly, I'm allergic.
+[12:11 PM] Valdus: wow, never heard of allergic. Pipes have substituted my drinking, thank the Gods!
+[12:11 PM] h0p3: (remember that your wikis can eventually be combined, and you don't have to build all the infrastructure up front; mine is still evolving)
+[12:12 PM] Valdus: why do you need a mouse to wiki?
+[12:12 PM] h0p3: Aye. Asthma and significant sensitivities. My great grandma smoked, and we couldn't see each other without me getting sick (so she quit, which is cool).
+[12:12 PM] h0p3: I think my wiki is a solid example.
+[12:13 PM] h0p3: Try navigating for 10 minutes on your PC and 10 minutes on a phone. It will be night and day different.
+[12:13 PM] Valdus: oh I know that
+[12:13 PM] Valdus: but I would be doing the blunt of it in my chromebook
+[12:13 PM] Valdus: still trying to get the kinks out of tiddlydrive
+[12:14 PM] h0p3: I have no experience with Tiddlydrive. The good news is that you can convert from one kind of infrastructre to another because the html file packages it all up.
+[12:14 PM] h0p3: The chromebook sounds well-suited to the task.
+[12:16 PM] h0p3: I use a fairly modified browser specifically for TW: https://philosopher.life/#Wiki%3A%20Chromium%20Setup
+[12:16 PM] h0p3: The autocompletions are SUPER handy.
+[12:16 PM] h0p3: That may be somewhere you go with your chromebook too, imho.
+[2:29 PM] Valdus: actually not sure if CB is up to it for now, it is difficult with dropbox
+[2:29 PM] Valdus: will not let me save to dropbox
+[2:31 PM] h0p3: If you can make single-editing mode work on each device, then you could just Resilio Sync the entire html file (or the .tids).
+[2:31 PM] h0p3: I used to do that when I first started.
+[2:32 PM] Valdus: hmmm once again must go pick up child, but it works beautifully with dropbox, how long doe sit take to get to 2gigs of wiki?
+[2:32 PM] h0p3: Singlefile mode has nice properties. Note, of course, you don't get simultaneous multi-access to the wiki nor real-time synchronized updates into your browser across devices.
+[2:32 PM] h0p3: It depends on what you are doing.
+[2:32 PM] h0p3: My wiki is ~30MB.
+[2:32 PM] h0p3: and I write like the wind
+[2:32 PM] Valdus: works beautifully with apples not chromes
+[2:32 PM] Valdus: and pics?
+[2:32 PM] h0p3: That will cost you a lot.
+[2:33 PM] Valdus: I may have quite a few of those
+[2:33 PM] h0p3: Media that you attach to it, PDFs, images, video, music, etc. which are already heavily compressed will eat up your space.
+[2:34 PM] h0p3: I will continue to recommend Resilio Sync instead of Dropbox (except for versioning of smaller things). There are no size limits on Resilio Sync, and you don't have to trust Dropbox either.
+[2:34 PM] Valdus: hmm that seems up the road from here. gtg
+[2:34 PM] h0p3: peace, homie
+[2:34 PM] Valdus: I would like to have an omnibus which is utterly mine, dont need to rely on anyone for anything.
+[2:34 PM] h0p3: Preach! :smiley:
+[2:35 PM] Valdus: dropbox, writer, gdrive, just me
+[2:35 PM] Valdus: laters

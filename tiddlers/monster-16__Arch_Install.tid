@@ -1,5 +1,5 @@
 created: 20190726002341720
-modified: 20191015000241793
+modified: 20191121181217243
 tags: Recipe monster-16
 title: monster-16: Arch Install
 
@@ -283,7 +283,7 @@ sudo systemctl enable lightdm && sudo reboot
 
 ```bash
 # Gussy & Rice
-sudo pacman -S ttf-dejavu ttf-liberation noto-fonts ttf-roboto --noconfirm
+sudo pacman -S ttf-dejavu ttf-liberation noto-fonts ttf-roboto noto-fonts-cjk noto-fonts-emoji --noconfirm
 sudo cp -r /home/h0p3/syncs/h0p3/Computers/fonts/* /usr/share/fonts
 fc-cache -vf
 sudo pacman -S lxappearance qt5ct --noconfirm
@@ -359,7 +359,7 @@ ln -s /home/h0p3/syncs/h0p3/Computers/dotfiles/.purple /home/h0p3/.purple
 ```bash
 # Pips
 sudo pacman -S python-pip --noconfirm
-sudo pip install -U shreddit pyperclip --noconfirm
+sudo pip install -U shreddit pyperclip baseconvert --noconfirm
 sudo pacman -S xdotool --noconfirm
 ```
 
@@ -440,7 +440,9 @@ sudo pacman -S unrar --noconfirm
 #yay -S kodi-addon-vfs-rar --noconfirm
 ```
 
-
+```
+sudo pacman -S scrot
+```
 
 * i3scrot
 * conky

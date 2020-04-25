@@ -1,0 +1,506 @@
+[11:06 AM] Shp: Hello!
+First of all I want to thank you for working on the reply, it means a lot to me.
+I feel like I need to tell you the following..
+If I wasn't on record all the time that'd ltf for me to seek more conversation with you. I find myself wanting to write to you (sometimes with specific things to say, other times without any agenda whatsoever) but I am not comfortable with the kind of exposure I get. Maybe with time I will be, but now it stops me from engaging in conversation and this is sad because I feel like we could become great friends.
+[11:09 AM] h0p3: I can appreciate the trepidation. I have experienced the vertigo of being open quite a bit. I understand there are those who will not or cannot pay the costs. My rules are not an accident; I'm sorry. You are free to tell me why I should change them. It might be healthy for us to inspect that very closely (you are not the first person to discuss this with me).
+[11:10 AM] Shp: I don't have anything against it
+[11:12 AM] h0p3: Also, I think we can (and hopefully will) become good friends. It may take some time! :smiley:
+[11:13 AM] Shp: I'm just saying for whatever reason it prevents me from writing to you here.
+[11:16 AM] Shp: all those years of evolution didn't prepare my brain to handle the fact that when I say something stupid it can be read by anyone potentially for eternity :smile:
+[11:17 AM] h0p3: Thank you for telling me. I appreciate that. I am, of course, sad that my principles increase the costs of building the friendship here. Perhaps it will be something we learn to work around. If you pay close attention, there are times where I generate privacy for [[others]].
+[11:17 AM] h0p3: Oh, man, preach. I am not evolved for it either!
+[11:17 AM] h0p3: I am, of course, willing to help you secure your private thoughts so that no one but you can read them as well.
+[11:18 AM] h0p3: If you ever need help generating anonymity or privacy, I will offer my apprentice-level opinion to you.
+[11:19 AM] h0p3: I think [[Sphygmus]]' model is probably the best fit for you, btw.
+[11:19 AM] Shp: I will demonstrate my ignorance and admit that I am unaware of what my options are
+[11:20 AM] h0p3: Sec, lemme get some coffee.
+[11:20 AM] Shp: sure
+[11:20 AM] Shp: enjoy :smiley:
+[11:25 AM] h0p3: Alright, so I see it as my goal to help you build your wiki infrastructure (what I call my [[RGM]]) in such a way that you have strong control but reasonable automation for revealing whatever you see fit. I do you it's reasonable for you to have a public wiki of some sort. I would be shocked if there weren't things you think about, say, point to, link to, art to show, etc. which you wouldn't be comfortable having in public. You already put some of your identity on the web, and you haven't taken it down. You can have a private wiki that you tag tiddlers to make them public. You can export by hand or even daemonize it to push. This would allow you to integrate the public content into your private wiki. Of course, there is always a possibility you'd make an error. Keeping two separate wikis is also a reasonable possibility.
+[11:25 AM] h0p3: But, ofc, maybe you really don't want anything public.
+[11:26 AM] h0p3: At which point, I'm going to ask you: who do you want your information to be private against?
+[11:26 AM] h0p3: Tell me your adversaries, and we'll try to build something which suits the threat you face.
+[11:27 AM] h0p3: I've met people who do not trust their own hardware at all. There are folks who even prepare themselves against airgap attacks.
+[11:31 AM] h0p3: (btw, I adore the editing feature of Discord...I'm so not used to having that available to me in IM)
+[11:32 AM] Shp: currently, the only enemy I know of is myself. :smiley:
+[11:32 AM] h0p3: ha!
+[11:32 AM] h0p3: lol
+[11:32 AM] Shp: but it seems like I can't win
+[11:32 AM] h0p3: You can only do your best.
+[11:32 AM] Shp: procrastination me always wins
+[11:33 AM] Shp: who I strongly believe is a son of fear everything me
+[11:36 AM] h0p3: From the sounds of it, we both have perfectionist tendencies. I love how you separate yourself from your procrastinating self. It's neat. I have no remedy. I've recently been thinking about [[Process Discipline]]. I think the wiki helps me snowball it, figure out what's really worth my time, make me not feel bad about the flaws, recognize that it takes time to build the habits of my character.
+[11:37 AM] Shp: Yes, I have been battling perfectionism for what seems like forever.
+[11:38 AM] Shp: You ask questions I can't answer. I don't know why it prevents me from talking to you, but it does. I can try to figure it out but while I figure that out we've lost months worth of good conversations.
+[11:39 AM] Shp: It is not because I have anyone that I don't want to give my information to, although my tendency is to not give any information if possible.
+[11:40 AM] Shp: So I guess it is humanity as a whole that I don't want to read about my failings that I'd happily discuss with you.
+[11:41 AM] Shp: (knowing full well that it is likely that about 99.99 percent of the human population wouldn't care to read a word I have to write down :smile: )
+[11:42 AM] Shp: (I know that 0.01 is still a huge number of people, but it felt silly to write more 9's :smile: )
+[11:45 AM] Shp: I'm just realizing that this wasn't your question, but the question you've had has been answered. My insecurities are the reason, not any one person in particular or an adversary I have.
+[11:46 AM] h0p3: Also, you can always anonymously ask me a question! If you want to dissociate identities to speak with me, you can. A protonmail account (and careful wording on your behalf) and you can become an anonymous friend of mine. It sounds like writing in your private wiki until you have something you feel you can commit to in the open is also a reasonable option. We don't have to lose months, although it will still be somewhat a loss.  I hope that our friendship takes years to develop.
+[11:49 AM] h0p3: I will be thinking more about this. I want you to feel comfortable making mistakes in public, taking responsibility for them, owning your identity in a way that you accept your evolution.
+[11:49 AM] h0p3: I cannot say I do a good job*
+[11:50 AM] Shp: haha, first help me feel comfortable making mistakes when I'm alone!
+[11:53 AM] Shp: Just to clarify, I am only talking about our conversations, the issue with my public wiki is a separate one. (I just realized that that was probably what you were talking about when referring to the Sphygmus model)
+[11:54 AM] h0p3: I am no expert on this topic. I can only give my gut instincts (which may be quite wrong). I am open to the possibility that being comfortable with making mistakes when you are alone is strongly connected to dealing with shame regarding others; it may be the case you have to solve them both at the same time because they are the same problem. Imho, that you a  desire to craft an identity which you could be objectively proud of puts you 10 steps ahead of most people.
+[11:57 AM] Shp: You are probably  right. But letting you see my failing first and then move on to bigger audiences is a tactic followed by many.  Btw all this talk about adversaries made me think that it'd put me in a strategic disadvantage to have my thoughts out in the public like you do if I had any.
+[11:58 AM] h0p3: Who is moving onto a bigger audience?
+[11:58 AM] Shp: (based on what I've wrote I either don't have adversaries or thoughts or perhaps either :smile: )
+[11:58 AM] h0p3: lol!
+[11:58 AM] h0p3: I agree we have adversaries. I agree I risk my life in being so open and honest.
+[11:58 AM] h0p3: I know you obviously have thoughts! :smiley:
+[11:59 AM] Shp: see, this is the issue, I am feeling weird so I write sentances that don't make sense, even the one with which I made fun of the other is deeply flawed
+[12:02 PM] h0p3: I have many, many failings in my wiki too. I talk about them constantly. I realize I may be putting you too much on the spot. This may be something worth constructing and thinking about further.  This is one of the reasons I love writing letters even more than IM. Sometimes I just need time to develop my thoughts. I may have 10 thoughts, and it takes time to connect the dots between them, to help them find each other, to see what I was really building, to figure out which thoughts I should not assent to, to understand how to weigh and compatibilize them. Long-form writing is the best kind because it gives us the space and time to be as autonomous as we need.
+[12:02 PM] Shp: moving to a bigger audience  - I was talking about having our conversation on your public wiki
+[12:03 PM] Shp: I agree and it is my wish to write you such letters. But I am used to making friends via IM.
+[12:13 PM] Shp: Don't get me wrong - I do like the idea of hyperconversations and I want to participate in one with you
+[12:14 PM] Shp: but I'd like to have a place where I can talk to you. without trying to be cryptic :smiley:
+[12:15 PM] Shp: as I think I've  already said, with time I think your ideas will help me to not have a problem with this.
+[12:17 PM] Shp: btw I also love the stranger things theme song :smiley: when we last spoke and I linked an image from it I wasn't sure if you've seen the series so I looked it up on your wiki :smiley:
+[12:17 PM] h0p3: Aye. We're doing it now. It just takes time for the seed of our friendship to grow in the open desert. I am grateful that you put so much thought into it. I realize there is a significant emotional cost to speaking with me.
+[12:18 PM] h0p3: I love that song. It's elegant to me.
+[12:18 PM] Shp: the whole ost is great imo :smiley:
+[12:19 PM] Shp: I appreciate that you see that it is significantly difficult for me to speak to you.
+[12:20 PM] Shp: I am comfortable asking questions, and since I can't  handle this issue well, I propose we move on and return it again..(and again and again... :smile: Til' you grow tired of it or eventually you convince me its fine)
+
+ I'd like to ask you a (possibly self-evident) question about semantic structures and how one can arrive at one. Perhaps any information about them online or in books. I like yours, but I want to arrive at a structure that is best suited for what I want to do.
+[12:21 PM] Shp: Also, I don't like to just to take an idea. I want to know how to get to it...
+[12:24 PM] h0p3: I have not looked into how to do it. This one is homegrown. It's just my gut-instinct based on studying philosophy and practicing with the wiki. I have no idea where to even begin.
+[12:24 PM] h0p3: It took quite a while for it to develop, and I'm still discovering what it means to me.
+[12:25 PM] h0p3: I think it requires taking up some commitments in epistemology, ethics, and metaphysics.
+[12:27 PM] h0p3: Imho, there aren't any books with optimized recipes on how to structure the wiki and its various processes. There are those who might argue that cannot be one in general, and further some who would argue there cannot be even one for the individual.
+[12:27 PM] h0p3: It is my arrogant opinion that such an algorithm might be part of the fundamental definition of intelligence that we might see for AI.
+[12:28 PM] Shp: I didn't think there were books specifically on wiki semantic structures. But perhaps in general
+[12:29 PM] Shp: I mean, humans have been structuring things for millennia, there must be something to learn
+[12:30 PM] h0p3: I apologize. I have not found anything which leaped out at me as being useful for the wiki besides studying philosophy and theory of mind.
+[12:33 PM] Shp: there is no need to apologize to me, you're the only one in the desert who seem to understand my struggles :smiley:
+[12:33 PM] h0p3: Of course, I will I knew how best to optimize the processes on my wiki from the beginning. There is something to be said for them organically popping up for you through practice though. Somehow training the ability to perceive when and how to evolve your wiki just is the skill itself no matter where you start.
+[12:34 PM] h0p3: Lol. Well, I feel like I owe you a better explanation, but I don't have a better one even for myself. It's like wearing gloves to pick up dogshit. It's an icky feeling even though I rationally know it is safe to hold the dogshit or not have a satisfactory answer for myself (or others).
+[12:35 PM] h0p3: That is one of my favorite parts about using the wiki. Everyone gets lost in it. Perhaps it is best to view it as an adventure?
+[12:37 PM] Shp: I'm more than fine with non-satisfactory answers if you are willing to think about it with me :smiley:
+[12:37 PM] h0p3: That's one of the reasons I aim to be [[T42T]] and so radically open as a [[Public Self-Modeler]]. I know what it's like to feel alone in the desert, and I want [[others]] to know they aren't alone! When I speak to you, I imagine I am speaking to [[Humanity]]! I think the wiki is a profound medium for learning to empathize with ourselves and each other in a radical way I've never seen before.
+[12:37 PM] h0p3: Of course, I'm happy to think about it with you.
+[12:38 PM] h0p3: What do you have in mind?
+[12:39 PM] Shp: Nothing in particular. Just that there might be infinite ways to give structure to a wiki. But some are going to be to be better than others...
+[12:39 PM] h0p3: !!
+[12:39 PM] h0p3: That's a start!
+[12:39 PM] h0p3: What makes a wiki structure a good one? What's the purpose of the wiki?
+[12:40 PM] Shp: the second question answers the first
+[12:40 PM] h0p3: How do you pick out the salience to rise from the flatness?
+[12:40 PM] h0p3: Agreed.
+[12:41 PM] h0p3: To me, you are bound to need to take up some {[[Axioms]]}.
+[12:41 PM] h0p3: You have to have starting material to start making inferences from.
+[12:41 PM] Shp: I am unsure what you mean by flatness - is it emptiness (as a salt-lake in a desert being flat)?
+[12:42 PM] h0p3: It is a metaphor. Flatness, imho, is a lack of meaning or when everything means the same thing.
+[12:42 PM] Shp: I have been thinking the same thing (that axioms are a good start). But I can't define what satisfies to be an axiom
+[12:43 PM] h0p3: It is faith. Nobody can escape having it at some level.
+[12:44 PM] h0p3: It is when we take ourselves to be justified in holding a proposition to be true without any further justification (though this might not be exactly correct either..).
+[12:44 PM] h0p3: We have to make our axioms coherent, consistent with each other.
+[12:44 PM] h0p3: I also think we have to test them, try to find more stable ones, try to find more objective ones.
+[12:44 PM] h0p3: At some point, it stops looking like an axiom.
+[12:45 PM] h0p3: If I could answer this question fully for you, I suggest I wouldn't be using language at all...in fact, I think only [[The Infinite]] can answer this one to [[Itself]].
+[12:45 PM] Shp: Sorry, what I wrote wasn't what I meant.
+I know what an axiom is. I don't know how to satisfy the conditions to have one.
+[12:46 PM] h0p3: Aye, that's what I took you to mean.
+[12:47 PM] h0p3: They can never be Completely satisfied. Imho, this is part of what Godel is showing us (that is a contentious claim).
+[12:48 PM] h0p3: Whatever were the conditions become axiomatic themselves. There are some kinds of axioms you cannot change, and there are some kinds you can.
+[12:50 PM] Shp: can you recommend some reading material that could help me to develop my axioms? (apart from your wiki, I always get lost in it.)
+[12:53 PM] Shp: by the way - I think you know that dialectical thinking likes contradictions and is opposed to what youve said about them having to be coherent
+[12:54 PM] h0p3: Can you tell me why, please?
+[12:55 PM] h0p3: I do not have the answer. I am putting down my tentpegs tentatively in the desert here.
+[12:56 PM] Shp: haha
+[12:56 PM] Shp: I'm not talking about dialectical thinking :smiley:
+[12:56 PM] Shp: or rather
+[12:56 PM] Shp: its not the name of what I was talking about
+[12:57 PM] Shp: very interesting
+[12:57 PM] h0p3: Currently, I am hoping to explore Jung, Daoism, Hegel, and The Dialetheia. I have been working slowly for a while toward it.
+[12:57 PM] Shp: it is called dialectical reasoning
+[12:58 PM] Shp: in the book
+[12:59 PM] Shp: I am holding in my hand
+[12:59 PM] Shp: more precisely
+[12:59 PM] h0p3: Ah
+[1:00 PM] Shp: Eastern dialecticism
+[1:00 PM] h0p3: For so many cultures to point to the same memeplex at [[The Bottom]] likely signifies it is an extremely fit concept.
+[1:01 PM] h0p3: So, let me say: I do not have the answer to your most excellent question about axioms. I'm doing my best.
+[1:01 PM] h0p3: I think Symbolic Logic and Wittgenstein will get you very far in understanding this problem. Part of the problem is that it takes a while to develop an appreciation (and I'm not even an expert!) for the implications of talking about what it means to have axioms. There is a profound problem which nobody can solve without accepting a true contradiction, imho. I would recommend "A History of Western Philosophy." Your question is so broad for me that I give it my broadest understanding. That's why it sits in [[Root]].
+[1:01 PM] h0p3: Dialectical Reasoning sounds like an excellent book
+[1:02 PM] h0p3: I think that is the exact sort of work you should be doing in your wiki.
+[1:02 PM] Shp: ha, it does indeed, but the book's title is mindware and dialectical reasoning is only a subchapter
+[1:07 PM] h0p3: I think being able to answer "What's actually important in life?" is the for sake of which ([[gfwiwcgws]]) of "What's the purpose of this wiki?" I think they map each other nicely. Growing your wiki to answer that question appears to be the goal.
+[1:07 PM] h0p3: I ask myself, what is the most important tiddler on this wiki? How do all the other processes dialectically evolve and constitute that goal?
+[1:08 PM] h0p3: We'll never have a perfect answer, but we can do our best.
+[1:08 PM] h0p3: You ever seen West World?
+[1:09 PM] Shp: seen it. love it. wanna marry it.
+[1:09 PM] h0p3: lol
+[1:10 PM] Shp: in case you are talking about the series and not the movie
+[1:10 PM] Shp: I haven't seen the movie
+[1:10 PM] h0p3: I had no idea there was a movie.
+[1:12 PM] Shp: there is. I've been told that I shall not waste time to watch it
+[1:12 PM] Shp: btw i wanted to make a webcomic or a graphic novel about consciousness and AI for many years... then when I was watching westworld I was both happy and sad that it directly attacks that same question
+[1:13 PM] h0p3: Who are you going to be when you wear the Ring of Gyges? When you can tell yourself the story of yourself however you see fit, who do you want it to be? Some people think there is no objective answer. Some people think they only find themselves ([[Know Thyself]]). There is only a subjective pursuit of egoistic hedonism (like Cypher in The Matrix). What is the black-hatter really going to find? The wiki will only ever be a model and hence a simulation. How real do you want to make it? How useful do you want it to be? Committing yourself philosophically IRL is going to be part of figuring out how you wish to commit yourself to your wiki and radically define how its functions for you and how you shape it.
+[1:13 PM] Shp: but I should probably be happy - I couldn't do anything that is this good
+[1:13 PM] h0p3: They did an amazing job!
+[1:13 PM] h0p3: I loved Ex Machina for the same reason.
+[1:14 PM] Shp: me too :smiley:
+[1:15 PM] Shp: Although I still can't comprehend what consciousness is. It eludes me.
+[1:15 PM] h0p3: That may even be part of the definition of consciousness.
+[1:15 PM] h0p3: The Ego Tunnel is an amazing book.
+[1:16 PM] h0p3: That's a book you should read.
+[1:17 PM] h0p3: I was almost angry at the book because it pieced together so much so well that took me ages to figure out. I wish I had read and understood that a long time ago. It would have saved me a fuckton of time.
+[1:17 PM] h0p3: (that isn't to say I don't have disagreements with the book)
+[1:17 PM] Shp: I definitely will read it.
+[1:19 PM] h0p3: Also, if you ever need access to books or audiobook, please let me know. I will gladly get them for you.
+[1:21 PM] Shp: what do you mean?
+[1:21 PM] h0p3: As in, I will pirate books and send them to you.
+[1:21 PM] h0p3: (you may already have all the access you could ever need)
+[1:21 PM] Shp: haha, very kind of you :smile: why do you think this would be necessary?
+[1:22 PM] Shp: I often find myself to be mildly angry with such things like you did with the ego tunnel - and therefore with everyone who is younger. Information is always accumulating (unless something bad happens) and we get smarter, kids will have easy access to information I had to gather painfully and through years of work... I am envious.
+[1:22 PM] h0p3: I offer because I consider it my moral obligation to freely distribute information as best I can.
+[1:23 PM] h0p3: Kids these days....they have it SO easy.
+[1:23 PM] h0p3: It's just not fair. Now get off my lawn. :smiley:
+[1:23 PM] Shp: :smile:
+[1:23 PM] Shp: I do have access to more information that I'd ever need
+[1:24 PM] Shp: I like physical books a whole lot more
+[1:24 PM] h0p3: I hear ya.
+[1:24 PM] h0p3: It can be hard to beat in many respects.
+[1:25 PM] Shp: although I'd like a neural implant that'd upload knowledge into my mind in seconds
+[1:25 PM] Shp: I'd still read books though :smiley:
+[1:25 PM] h0p3: I am lucky to have a librarian as a wife. She does ILL's for her college. I love the codex.
+[1:25 PM] h0p3: You think so?
+[1:26 PM] h0p3: That is a fascinating claim.
+[1:26 PM] Shp: technology like that is gonna arrive at one point and I'll be furious that young people will have it and i didn't when I was young :smile:
+[1:27 PM] h0p3: Why is that uploading not reading? What makes reading different? Is it the simulation of the story? Why can't the neural implant do that simulation?
+[1:27 PM] Shp: it depends.
+[1:28 PM] Shp: in this case I am talking about a physical thing that I can touch, if the implant can simulate that as well then hook me up to the matrix and I'll be happy
+[1:29 PM] Shp: this brings up a question with which I annoyed the hell outta everyone I know
+[1:29 PM] h0p3: rofl
+[1:29 PM] h0p3: shoot!
+[1:29 PM] h0p3: those are the best kinds of questions
+[1:30 PM] h0p3: and, for the record, a straw has two holes, not one. I am a soup; so is the physical universe.
+[1:30 PM] h0p3: Also, a staircase needs at least one stair.
+[1:34 PM] Shp: haha. it has been a long time since I thought about this. I can't recall the exact question I had
+[1:35 PM] Shp: well the question is basically what you asked.. what is the difference?
+Suppose you are not confident and can upload the memory of a confident person to your mind. Will that make you confident?  I think it will.  Same if you want to hunt whales, and Moby Dick was interactive, it'd replace actual act of hunting whales. (If you did it only for the experience, not for the food or any physical gain)
+[1:36 PM] h0p3: A dangerously good question.
+[1:36 PM] Shp: you either understand what I mean even when I don't, or you are being polite :smile:
+[1:37 PM] h0p3: Well, I may not understand it as well as you do, but I have a ton of opinions about it.
+[1:37 PM] h0p3: I think that question borders on being the fundamental question of philosophy.
+[1:37 PM] h0p3: The Ship of Theseus and Parfit's working screaming out of it.
+[1:38 PM] h0p3: What is autonomy and the self...how much can you just "change" before you'll see it was you who is confident but a manufactured person that began with you as an ingredenti?
+[1:38 PM] Shp: ain't that the ship where you replace it part ba part?
+[1:38 PM] h0p3: yes
+[2:15 PM] h0p3: Persisting identities require an axiom.
+[2:15 PM] h0p3: It's constitutive of reason.
+[2:16 PM] h0p3: (see, my {[[Axioms]]} are in terrible shape)
+[2:17 PM] Shp: what do you mean by it is faith? Like when I go to another town I have to have it on faith that this town (the one I left behind) still exists because I can't be sure, or... ?
+[2:17 PM] h0p3: I think you will even need faith to believe that your ego tunnel itself is a single thing.
+[2:18 PM] h0p3: If I knew how to answer the question better than I am, I would. :smiley:
+[2:18 PM] h0p3: We are sprinting a million miles an hour through philosophy right now. I can only cover so much ground, hehe.
+[2:18 PM] Shp: haha
+[2:19 PM] h0p3: I take our conversation from the beginning to the end to be about faith.
+[2:19 PM] Shp: I don't like faith.
+[2:19 PM] h0p3: Preach.
+[2:19 PM] h0p3: I fucking hate it.
+[2:20 PM] Shp: haha, I tried to be diplomatic :smile:
+[2:20 PM] h0p3: lol
+[2:20 PM] h0p3: If you can believe it, I was being diplomatic there too. :smiley:
+[2:20 PM] Shp: :smile: :smile:
+[2:21 PM] h0p3: Faith is my plight, or so I have faith.
+[2:21 PM] h0p3: I can never escape it.
+[2:22 PM] h0p3: Paul Tillich has been an enemy turning friend of mine for a very long time. It has been the most painful experience of my life.
+[2:23 PM] Shp: I've gotta look him up :smiley:
+[2:24 PM] h0p3: Faith is a hell of a commitment. The risk is enormous.
+[2:25 PM] h0p3: You want a crazy theory?
+[2:25 PM] Shp: sure
+[2:26 PM] Shp: (to clarify) you do not talk about religious faith, right?
+[2:26 PM] h0p3: I do not know.
+[2:27 PM] h0p3: I wish I did. My belief in God and eventual loss in the belief is fundamental to my identity.
+[2:27 PM] h0p3: I have come back to believe in [[The Good]].
+[2:27 PM] h0p3: I don't know what that means, but I see I have faith in something.
+[2:28 PM] h0p3: I'm dead in serious in {[[About]]}. It is the qualitative axiom upon which my {[[Axioms]]} are meant to quantitatively model.
+[2:29 PM] Shp: where is the crazy theory? :smiley:
+[2:29 PM] h0p3: LOL!
+[2:29 PM] h0p3: I'm getting there.
+[2:35 PM] h0p3: It is my opinion that homo sapien sapiens minds can functionally be reduced to turing machine software sitting on biological turing machine hardware. I believe the Bayesian intelligence which nature has evolved to produce (without being agential or telic about nature, pure description) gives rise to the pursuit of the Rational, the certain, the necessary, the absolute, the unified. the unconditional. I'm a mystic who believe the computation adds all the way up. I believe our biological turing machines are actually multiple devices cooperating with each other to tell ourselves the story of who we are. I think this is how consciousness as a lived ego tunnel experience emerges from our hardware. I think the intersubjective [[FO]] computation cooperatively tells my qualia-heavy, conciousness, [[SO]] subjectivity.  I think the [[T42T]] game theoretic model is exactly how to constitute one's biological identity (to whatever [[dok]] we can).
+[2:37 PM] h0p3: I think [[The Golden Rule]] is how to heal myself, to make myself as best I can with the shards of my identity.
+[2:37 PM] Shp: gimme a minute to process that :smile:
+[2:38 PM] h0p3: Whether it's unifying different simultaneous parts or unifying my timeslices into a cogent [[4DID]]...I want to be the emergence of it as best I can (whatever that means).
+[2:38 PM] h0p3: This is [[Self-Dialectic]].
+[2:40 PM] Shp: please tell me that these are not spontaneous thoughts you just had, and that this form isn't how it came to life when you first conceived of 'em
+[2:41 PM] h0p3: I've talked about it on the wiki quite a bit. I've never phrased my opinion exactly like that, but that is in the wiki.
+[2:41 PM] Shp: well, you must know: I get lost in your wiki in one minute and comprehend only half of what I read :smile:
+[2:44 PM] h0p3: I have a Hungarian friend who is a hacker, imho.  [[BDS97]]. We're building a network protocol ([[Atropos]]) that will be regulated by [[T42T]] as the core routing algorithm. I am convinced that computation is about [[T42T]] reasoning inside and out.
+[2:45 PM] h0p3: This is what I think the wiki is really like. It lets me communicate something that I normally just couldn't to anyone else I meet.
+[2:45 PM] h0p3: There's no way to hold it all together.
+[2:45 PM] Shp: I don't find that crazy that our biological machines and software are not that mysterious and could be reduced to turing machine. 
+Since our brain is made up of distinct parts and that these parts evolved through time, I think you are right in that it is multiple devices cooperating. This is all quite well supported by evidence. Though you might mean something else - whether we have distinct parts with which we tell ourselves who we are, that I don't know.
+[2:46 PM] h0p3: I'm trying to play [[T42T]] computation over wikis with people to actually build cooperation amongst [[Humanity]]. We need to know what it's like to empathize with each other as best we can.
+[2:46 PM] h0p3: Only that trust can defeat the [[T4T]] demon memeplex worming it's way through the species (again, it's not an agent, but I need a metaphor).
+[2:49 PM] h0p3: I am convinced that AlphaStar's recent nash distributions are based upon [[T4T]] reasoning, and I think the key to unlocking a silicon-based GAI is a matter of making those nash equilibriums the Rawlsian "reflective equilibriums" of practicing [[The Golden Rule]] so as to efficiently compute epistemic economies (which is a fundamental precondition for the possibility of morality itself...a moral computer) and distributed those costs price-efficientl across a decentralized computing network. Where multi-threading gets closer and closer to solving single-threading problems more effectively.
+[2:50 PM] Shp: Just out of curiosity: to what end? We can empathize all we want, but it won't change the meaninglessness of things. It might help humanity survive and thrive, perhaps to grow to an interplanetary species, but still, ...why? :smile:
+[2:50 PM] h0p3: !!
+[2:50 PM] h0p3: Indeed!
+[2:51 PM] Shp: I'm completely lost now btw.
+[2:51 PM] Shp: You ventured beyond what I can understand :smile:
+[2:51 PM] h0p3: I'm sorry!
+[2:51 PM] Shp: no problem
+[2:51 PM] h0p3: Why do you think it is meaningless?
+[2:51 PM] h0p3: I am completely convinced that the meaning that means something the most is external to me.
+[2:52 PM] h0p3: For example, Mathematical Platonism might be a good intro.
+[2:52 PM] Shp: from this point on, I don't know what you're trying to say. (Including this)
+ I think the intersubjective [[FO]] computation cooperatively tells my qualia-heavy, conciousness, [[SO]] subjectivity.  I think the [[T42T]] game theoretic model is exactly how to constitute one's biological identity (to whatever [[dok]] we can).
+I think [[The Golden Rule]] is how to heal myself, to make myself as best I can with the shards of my identity.
+[2:53 PM] h0p3: The wiki is a language building tool.
+[2:54 PM] h0p3: a way to build bridges between us, this is part of what I'm working on.
+[2:54 PM] h0p3: I ask you think about [[T42T]].
+[2:55 PM] Shp: well, we entered the part of my  world belief that I'm not proud of, and I will summarize it to you by calling it rick&morty syndrome :smile:  we'll all die, even the universe will go black at some point. there is no purpose to anything really.
+[2:56 PM] h0p3: Rofl! I love that syndrome name. Rick & Morty can be as referential as you want with me, btw. Those are good characters and narratives to tell me the story.
+[2:56 PM] h0p3: If you need a translation device, that would a good one!
+[2:57 PM] h0p3: I can appreciate Nihilism.
+[2:57 PM] h0p3: If you go back through my timeline, you will see.
+[2:57 PM] h0p3: That's part of where this wiki started. It is one of the things I have wrestled with (and perhaps am still wrestling...the beast or angel just wears a different mask?).
+[3:00 PM] Shp: (btw I'd love to have some evidence for or against parallel universes.)
+[3:00 PM] h0p3: In the great philosophical debate between the Internalists and the Externalists, I think of the //In//ternalists as my //out//group.
+[3:01 PM] h0p3: I suggest possible worlds in modal logic are talking about them. The evidence you seek leads to A/The Dialetheia on the assumption you believe "Good" or "positive" has objective meaning, as demonstrated by Godel's Ontological Proof.
+[3:02 PM] h0p3: I cannot give you evidence about whether or not contingency is real.
+[3:02 PM] h0p3: That is a faith problem.
+[3:03 PM] h0p3: There is a switch inside you, and you will never have enough evidence to be certain either way on it. This is one (or one of) those switches.
+[3:06 PM] Shp: "For so many cultures to point to the same memeplex at [[The Bottom]] likely signifies it is an extremely fit concept."
+what memeplex did you refer to here?
+[3:08 PM] Shp: I'm not sure if anything has objective meaning...
+[3:08 PM] Shp: Or that there is such a thing as objective
+[3:10 PM] h0p3: We will struggle tremendously in our dialectic over it, brother. I aim to cooperate with you in [[T42T]]. No matter how much we disagree, I'm going to do my best to point out why we must have faith in objective meaning.
+[3:10 PM] h0p3: That is literally who I am. It is [[hope]]/[[h0p3]].
+[3:11 PM] h0p3: That is a huge turnoff for many people.
+[3:11 PM] Shp: Were you always hope, or did you became hope?
+[3:12 PM] h0p3: I do not recall when I started the [[h0p3]] identity on my literal computer (probably monster-10).  I think I became gradually committed to it.
+[3:12 PM] h0p3: Still am, perhaps.
+[3:16 PM] Shp: I can not see an answer to my memeplex question. Do I not understand something here, or you didn't see the question?
+[3:17 PM] Shp: and returning to an earlier question: I don't know your stance - when does it become a new boat? :smiley:
+[3:18 PM] h0p3: Over what counts as the winning, objective, or correct (as best as we can define it in each of our contexts) memeplex. I'm pretty sure the issue is about objective meaning for us.
+[3:20 PM] h0p3: When you ask the question "why" or "what" of me...and you recur that enough (a beautiful habit in children and curious people in general), I'm going to keep running straight into the dogmatic belief that meaning is real.
+[3:21 PM] h0p3: My opinion on the boat. I have no idea.
+[3:21 PM] h0p3: I think boats are real. I think it is possible for the Ship of Theseus to have a persistent identity. I do not know how to draw any of those lines safely.
+[3:21 PM] h0p3: It's faith for me.
+[3:22 PM] h0p3: Essentially, to some [[dok]] to say anything is real requires that kind of faith.
+[3:30 PM] Shp: I have a soft question for you: why do you think house of cards (the series) is something that deserves re-watch? What do you like about it?
+[3:30 PM] h0p3: Of course!
+[3:33 PM] h0p3: I should also point out that in some ridiculous way, however black and white it is, I am convinced that even a soft question translates answering to hard ones sometimes for me (I realize people differ on the matter). The word "deserves" is a telic one. It's a question about merit. I can only guess at merit, even just for myself here.  That said, I think the show was fun, [[redpill]]ed (regardless of implausibility), and a useful thing to understand in my relationships.
+[3:35 PM] h0p3: Enough so I've found it worth watching more than once.
+[3:35 PM] Shp: Excuse me, my attention has not been solely on our conversation for the past ten minutes.
+[3:36 PM] Shp: I had distractions
+[3:36 PM] Shp: hence my slow response time
+[3:36 PM] h0p3: It's not a problem. That's the beauty of IM. We can make it as asynchronous as we need.
+[3:37 PM] Shp: :smiley:
+[3:37 PM] Shp: but it is focused on negative characters and quite unsympathetic deeds
+[3:38 PM] h0p3: Ah, I get to say, "is that a bad thing?"
+[3:39 PM] Shp: I did enjoy it quite a bit btw, I could listen to Frank's monologues for days
+[3:39 PM] h0p3: He has always been the perfect psychopath in film.
+[3:40 PM] Shp: do you refer to the original HoC?
+[3:40 PM] Shp: I have not seen that yet.
+[3:40 PM] h0p3: Nope. Started it, never finished.
+[3:41 PM] h0p3: I'm talking about Kevin Spacey*
+[3:41 PM] Shp: then why do you say "he has always been"?
+[3:41 PM] Shp: oh I see
+[3:41 PM] h0p3: sorry.
+[3:41 PM] Shp: np
+[3:42 PM] Shp: I hope you don't mind if I return to any of the questions we've discussed already
+[3:42 PM] Shp: I tend to do that. Circle back to things.
+[3:42 PM] h0p3: Of course. I do that all the time.
+[3:43 PM] h0p3: That is a hallmark of a good conversation to me.
+[3:44 PM] h0p3: (I like to think that some kinds of language proofs arise more efficiently when we get to loop back a lot.)
+[3:44 PM] Shp: language proofs?
+[3:45 PM] Shp: you mean the sorts like thought experiments?
+[3:45 PM] Shp: as in: I define something as 1. So the thing is 1.  ....is this a language a proof?
+[3:45 PM] h0p3: One non-trivial way to talk about natural language is to consider the extent which it is can be reduced to symbolic logic proofs that we communicate to each other.
+[3:46 PM] h0p3: or with*
+[3:46 PM] Shp: no. I refuse to begin a conversation about languages because you'll place another barrier between me and my goals.
+[3:46 PM] h0p3: A proof is a step-by-step demonstration that one thing consequentially follows from another relative to an audience.
+[3:46 PM] h0p3: Rofl!
+[3:47 PM] h0p3: Alright, cool.
+[3:47 PM] h0p3: Go for the goals. I'm a fan of goals.
+[3:47 PM] Shp: (you see, I am trying to do a meta task, to have a wiki that'll help me. but it aint the thing I gotta do. When I learned about Ithkuil I wanted to learn that so I can write my wiki in Ithkuil. It was a step removed from what I eventually want.)
+[3:48 PM] h0p3: Haha. :smiley:
+[3:48 PM] h0p3: I will be interested to know your opinions on Ithkuil. That is a badass tool if I've ever seen one.
+[3:49 PM] h0p3: So where were you circling back?
+[3:50 PM] Shp: I'm way too distracted to do that
+[3:51 PM] Shp: I didn't progress far with Ithkuil. I can't understand half of it. But the ideas in the introduction are amazing.
+[3:52 PM] h0p3: Yes. I am never going to learn it.
+[3:52 PM] h0p3: I don't think it is possible.
+[3:52 PM] h0p3: Even the creator doesn't know it.
+[3:52 PM] h0p3: But, the idea of it is beautiful.
+[3:52 PM] Shp: I don't know if it can be used as a language for conversation. But the two languages I speak I learned through practice. If I could practice it with someone...
+[3:53 PM] Shp: But that person would need to speak it at least in writing, and since even the creator doesn't know it, I doubt I'll find someone who is fluent
+[3:53 PM] h0p3: aye =/
+[3:54 PM] h0p3: Perhaps computers will one day be able to speak it? That might be the only coach possible.
+[3:55 PM] h0p3: From what I understand, it may be possible for children under 4 to get enough under their belt they could work towards being a teacher of the next generation to finally bootstrap into fluency. I'm not convinced fluency can even occur in one generation.
+[3:56 PM] Shp: I don't think there is enough interest for that to happen
+[3:56 PM] Shp: I'm also extremely jealous of those people. Even if they only exist in theory :smile:
+[3:56 PM] h0p3: No doubt. They are way too cool.=)
+[3:57 PM] Shp: I have been thinking about a public facing side of my wiki, but I don't think there is anything that is of interest to anyone
+[3:58 PM] h0p3: Sphygmus and I would read it.
+[3:58 PM] h0p3: People like lookin' at wikis, or at least I do.
+[3:59 PM] h0p3: I think you'd have more than Sphygmus and I looking at it.
+[3:59 PM] Shp: :smile: let me rephrase, I don't think it is a worth the time for anyone to read it
+[4:00 PM] Shp: It is personal in a way that it renders it useless for anyone else. Perhaps even for me. :smile: If I had a structure that'd be of interest to someone, I'd think its worth putting on the web
+[4:01 PM] Shp: for others to see :smiley:
+[4:02 PM] h0p3: My brother says the same thing.
+[4:03 PM] h0p3: I'm not sure what to say. I enjoy speaking with him and reading what he thinks. He thinks less of his point of view than I do? I understand, there are many reasons not to. Perhaps it will be something you change your mind on. You might decide you communicate best over it.
+[4:05 PM] Shp: I just made a progress report really, I wanted to let you know I'm still thinking about it :smiley:
+[4:05 PM] h0p3: I realize IM is the thing that comes more naturally.
+[4:05 PM] h0p3: Lol! That's true.
+[4:05 PM] h0p3: You sent us down some rabbitholes too, lol.
+[4:06 PM] Shp: who is us in this context?
+[4:06 PM] h0p3: You and me. :smiley:
+[4:07 PM] h0p3: (I like going down rabbitholes. I think it makes conversations beautiful.)
+[4:07 PM] Shp: oh I see :smiley:
+[4:07 PM] h0p3: I appreciate that you take the time to fill me and talk with me too. It's my pleasure. I don't get to have conversations about what matters most often, and there's so few people who take the wiki and their lives seriously in this respect.
+[4:08 PM] h0p3: Oh, that reminds me, do you like trip art?
+[4:08 PM] Shp: define trip art
+[4:09 PM] h0p3: I'm not sure I can. I'm not often good at defining art.
+[4:09 PM] Shp: well then I cannot say :smiley:
+[4:10 PM] h0p3: Art that is somehow meant to be enjoyable while high or replicates effects of being high.
+[4:10 PM] h0p3: I realize "trip art" for whom is a question that I would then have to answer.
+[4:10 PM] Shp: !'ve never been high tbh
+[4:10 PM] Shp: only a few occasions when I've been drunk too
+[4:11 PM] h0p3: One can still enjoy trip art without having been high. I'm just trying to give shape to the definition.
+[4:12 PM] Shp: never smoked a cigarette either. been a second/hand smoker for many years though unfortunately
+[4:12 PM] h0p3: Sucks. I am allergic myself.
+[4:13 PM] Shp: all that being said, I've enjoyed music that people think can only be enjoyed while being on drugs
+[4:13 PM] Shp: so I'd ask for examples if you can't define it otherwise
+[4:13 PM] h0p3: https://philosopher.life/#Psychedelic%20Video%20Collection:%5B%5BPsychedelic%20Video%20Collection%5D%5D
+[4:14 PM] Shp: i like opart a lot for example
+[4:14 PM] h0p3: yes!
+[4:14 PM] h0p3: I am a fan of what Android Jones is doing.
+[4:15 PM] Shp: haha, yes, he makes good stuff
+[4:15 PM] Shp: why did you ask?
+[4:16 PM] Shp: fractals I love to no end as well :smiley:
+[4:16 PM] Shp: fractals are incredible things. I am in love with them.
+[4:17 PM] h0p3: Truly beautiful.
+[4:17 PM] Shp: both in idea and looks. Even the math is amazing with imaginary numbers
+[4:17 PM] h0p3: I'm still trying to learn more about Quaternions.
+[4:17 PM] h0p3: That is a neat place for imaginary numbers.
+[4:18 PM] h0p3: It appears to have something important to say about physics too.
+[4:18 PM] Shp: maths is beyond me for the most part, but I try too. With little success.
+[4:18 PM] h0p3: Aye.
+[4:19 PM] h0p3: Did you know that all logical truths are logically equivalent?
+[4:19 PM] Shp: no I did not.
+[4:19 PM] h0p3: The semantics are identical in all possible worlds.
+[4:20 PM] h0p3: They are necessary truths that all have each other as a logical consequence.
+[4:21 PM] h0p3: It seems like they form a unified flatness or a marble slab.
+[4:21 PM] Shp: in this context what does all possible worlds mean?
+[4:21 PM] h0p3: And it's the job of logicians (and mathematicians therefore) to cut the beautiful sculptures out of the marble slab.
+[4:21 PM] h0p3: We are talking about logical possibility.
+[4:22 PM] Shp: I guess I have to engage in more conversation with you to understand your language :smiley:
+[4:23 PM] h0p3: This is not my language here.
+[4:23 PM] h0p3: You will be able to find what I've said in any logic textbook.
+[4:23 PM] Shp: I didn't mean it the way you understood it
+[4:23 PM] h0p3: ah, I see. I hear you.
+[4:24 PM] Shp: logic is kindasorta your language. So is philosophy. I don't speak 'em. Yet
+[4:24 PM] h0p3: I am sorry!
+[4:24 PM] Shp: I want to, very much :smiley:
+[4:24 PM] h0p3: You really do speak it well, imho.
+[4:24 PM] Shp: Don't be. This is the way I learn
+[4:25 PM] Shp: expose me to it and eventually I'll get the hang of it :smiley:
+[4:26 PM] h0p3: I'm a Mathematical Platonist because I'm a Platonist. I think fractals are objectively beautiful.
+[4:26 PM] Shp: but one of the logical truths (as far as i know) is that A=A. But there is no evidence for this that I know of.
+[4:26 PM] h0p3: !
+[4:27 PM] h0p3: I adore your skepticism. I think it's where philosophy begins (and maybe ends).
+[4:27 PM] h0p3: I agree that A=A is faith.
+[4:27 PM] Shp: so even if all logical truths are logicallz equivalent (did you define what this means right after it? because if you didn', then what is this? in what way are they equivalent?)
+[4:28 PM] h0p3: (rather a=a, since individual constants [or "names"] are traditionally lowercase)
+[4:28 PM] h0p3: a=a is the claim that one name picks out the same object in our domain as another (a picks out the same object as a).
+[4:29 PM] h0p3: That is a sentence or a proposition that can be either true or false in a possible world (a domain).
+[4:29 PM] Shp: I don't accept tradition to be justification to do something in a way. But as this is trivial atm, okay: a=a :smile:
+[4:29 PM] h0p3: I agree!
+[4:30 PM] h0p3: In this case, it will make it easy for you to read a body of literature. It is nothing more than a convenience to be speaking the lingua franca.
+[4:31 PM] h0p3: If proposition is true in all possible worlds, then we say it is a necessary truth. If it is true in some and false in others, we call it contingent.
+[4:31 PM] Shp: ha! that is nice :smiley:
+[4:31 PM] h0p3: If there is any logical truth, then it is true in all possible worlds. I suggest, for example, that a=a and 2+2=4, and a number of sentences are true in all possible worlds.
+[4:32 PM] Shp: sure. but 2+2=4 is only true because we defined what 2's and 4's and equal signs are
+[4:33 PM] h0p3: You are talking about how we have mapped numerals (syntax) onto the numbers (semantics).
+[4:33 PM] h0p3: The semantics, the meaning, that is what is true. The symbols only ever represent and point to what occurs in the domain.
+[4:34 PM] h0p3: What 2+2=4 symbolically points out is true whether we exist to point it out or not.
+[4:36 PM] Shp: so you are saying that it is beyond doubt that a=a and 2+2=4 is true in all possible worlds?
+[4:36 PM] h0p3: I say I am rationally justified in holding that belief.
+[4:37 PM] Shp: the semantics of it that is
+[4:37 PM] Shp: I can accept that.
+[4:37 PM] Shp: how many other such truths are there?
+[4:37 PM] h0p3: an infinite number
+[4:37 PM] h0p3: I do not know how to count such a thing.
+[4:38 PM] Shp: I meant to ask: how many do we know about?
+[4:38 PM] Shp: and more importantly, which of them are most useful to me? :smile:
+[4:38 PM] h0p3: I do not know how to sum the total number of mathematical propositions we've justified.
+[4:38 PM] Shp: not matematical
+[4:38 PM] Shp: although
+[4:39 PM] h0p3: Well, if I can't do that, I can't do the logical either.
+[4:39 PM] Shp: mathematics is both awesome and troublesome.
+[4:40 PM] h0p3: That salience arises from the flatness particularized to your context. That there is a [[good]] for the sake of being useful to you, or a good for the sake of you, or good for the sake of anything, imho, begs the question of [[The Good]] which defines all other goods. That is a very strong claim in philosophy; many disagree with it.
+[4:40 PM] Shp: I have issues with basic things, like factorials... 0! is 1.. because the pattern is better looking that way! :smile:
+[4:41 PM] h0p3: There is a rule following problem that Wittgenstein gives us that might be interesting to you.
+[4:43 PM] h0p3: Say we are both claim to know what addition is, and we engage in a game of writing out our addition tables, start with 1. 1+0=1, 1+1=2, etc. We can never be certain that we both have the same principle in mind. It is a kind of induction and a faith that we've empirically tested each other enough to be convinced the other understand the principle of addition.
+[4:44 PM] h0p3: There are some who deny there can be an objective rule outside us at all. That addition cannot be external to our minds.
+[4:44 PM] h0p3: There is no original truthbearer to correlate the propositions about addition to. Naturalists tend to push very hard in this direction. It smacks of metaphysics.
+[4:45 PM] Shp: computers are external to our minds...they add together things ever so often :smiley:
+[4:45 PM] h0p3: I mean a truthbearer that's true even when there aren't any computers, even if there are no atoms in the physical universe.
+[4:46 PM] Shp: at some point we have to turn to rationality as well :smiley:
+[4:47 PM] h0p3: Ha. Say more. When and why?
+[4:47 PM] Shp: asap, and to get things done :smiley:
+[4:47 PM] h0p3: why do we have to?
+[4:49 PM] h0p3: What counts as "Rationality" here is a normative statement to me.
+[4:49 PM] Shp: I didn't say we shouldn't return to talking about metaphysics and such, but while I enjoy this a great deal, there are things that are both enjoyable and have more immediate impact
+[4:49 PM] h0p3: Oh, but I think you have jumped 10 steps ahead of me and saw exactly where I was going.
+[4:51 PM] h0p3: TLDR goes something like this: the meaning we cut out of that logical marble slab of necessary truths is itself ruled by those necessary truths. I think [[The Good]] is only salient logical truth which can define its own salience in that slab.
+[4:51 PM] h0p3: It is where Hegel's dialectic is really pointing to, imho.
+[4:52 PM] h0p3: And, in fact, to know why that marble slab is valuable to your own life, you're going to have to point to the slab itself to get the answer.
+[4:52 PM] Shp: do you know that I could easily spend an hour to understand what you mean there? :smiley:
+[4:52 PM] h0p3: Good! I hope you do. I have given you a great deal to think about.
+[4:53 PM] h0p3: You will agree and disagree, and we will come to understand each other better.
+[4:53 PM] Shp: I'll do my best, but this is true for most of what you say that I could spend a lot of time to get it
+[4:54 PM] Shp: so my apologies if I don't end up understanding it and eventually need help
+[4:55 PM] h0p3: Oh, don't worry. I cannot say I understand it either. These are the doorways I've found most important so far. My apologies if I'm all wrong about what I believe here! I am not trying to waste your time either.
+[4:56 PM] h0p3: This is what philosophy is like.
+[4:57 PM] Shp: I believe that for most (perhaps all) of your beliefs you have strong justifications for.
+[4:57 PM] Shp: and that you've stress-tested them
+[4:57 PM] h0p3: You could not give me higher praise, thank you. I seek to be justified.
+[4:58 PM] h0p3: You're also clearly working just as hard as I am thinking about your beliefs. I am glad to have met you. I don't know we'd have ever met without the wikis joining us together.
+[5:01 PM] Shp: The fact that you consider that to be high praise is important.
+I don't spend nearly enough time on these matters so I'm sad to say I don't. I plan on changing this.
+[5:04 PM] Shp: I am glad too. This conversation is one of the most enjoyable ones I've ever had. Even with all the parts I'm yet to understand. Thank you!
+[5:06 PM] Shp: I'm positive we'd never have met w/o tiddlywiki.
+[5:06 PM] h0p3: Lol.
+[5:06 PM] h0p3: It's too big a world.
+[5:07 PM] Shp: It is. and I'm hiding in it for no reason.
+[5:07 PM] h0p3: You did it! You made the circle. We're back to it.
+[5:08 PM] Shp: :smile:
+[5:09 PM] Shp: Still bothers me. I am sorry.
+[5:10 PM] h0p3: Completely understandable.
+[5:14 PM] Shp: have you seen cardo?
+[5:15 PM] h0p3: I have no idea what cardo is. What is it?
+[5:16 PM] h0p3: Wait
+[5:16 PM] Shp: yes
+[5:16 PM] h0p3: http://cardo.wiki/#Welcome%20to%20Cardo:%5B%5BWelcome%20to%20Cardo%5D%5D%20%5B%5BProject%20Features%5D%5D%20Sub-Projects%20%5B%5BProject%20Teams%20%26%20RACI%20Roles%5D%5D%20%5B%5BProgress%20Tracking%5D%5D%20%5B%5BStatus%20Updates%5D%5D%20%5B%5BTask%20Management%20Features%5D%5D%20%5B%5BTask%20Reminders%5D%5D%20Meetings%20%5B%5BAgenda%20Items%20%26%20Attendees%5D%5D%20%5B%5BPeople%20%26%20Conversation%20Tracking%5D%5D%20%5B%5BBook%20Library%5D%5D%20%5B%5BBook%20Notes%5D%5D%20Goals
+[5:16 PM] h0p3: Yeah, it really is that ugly of a link I have.
+[5:16 PM] h0p3: Alrighty then.
+[5:16 PM] h0p3: I have run across it.
+[5:16 PM] h0p3: What you think about it?
+[5:16 PM] Shp: http://cardo.wiki/ is fine.
+[5:16 PM] Shp: I'm testing it
+[5:17 PM] Shp: I like some apects.
+[5:17 PM] Shp: especially the dashboard
+[5:17 PM] Shp: to have a calendar-like deadline system is nice too
+[5:18 PM] h0p3: Aye.
+[5:18 PM] h0p3: It looks productive.
+[5:18 PM] Shp: its a bit too complex though. I couldn't take it apart as easily as I thought I will
+[5:19 PM] Shp: in fact, I haven't been successful at getting rid of things in it. Although I'm still just looking at it from a far
+[5:20 PM] h0p3: What do you want from it?
+[5:20 PM] Shp: What it is, for the most part. but simplified I guess.
+[5:20 PM] Shp: I am yet to define this
+[5:21 PM] h0p3: Should draw up the specifications of your requirements.
+[5:21 PM] Shp: although I do need a "GTD system"
+[5:21 PM] h0p3: Aye.
+[5:22 PM] Shp: Sadly I have to go. I enjoyed our conversation, I hope we can talk more frequently.
+[5:23 PM] h0p3: Yes! We will talk again. I will continue to work on that letter. Thank you for the 4 months! Lol. :smiley: I might use it all.
+[5:24 PM] Shp: From the looks of it it's worth every minute of waiting :smiley:
+[5:27 PM] Shp: farewell to you, friendly nomad
+[5:27 PM] h0p3: ha, peace, nomad. See you soon in the wilderness!

@@ -1,0 +1,84 @@
+[10:55 AM] Valdus: you ok?
+[10:56 AM] Valdus: read your large wiki panic post, ya good?
+[11:23 AM] Valdus: I think that wikis should be like onions, superficial and hard layers, things you don't care about on the outer levels and as you dig deeper within there will be more and more crucial (and private stuff) as you move in.
+[2:50 PM] Valdus: oops, lost another tiddly there
+[6:38 PM] Valdus: You sent me that m6 thing and I have no idea.
+[6:56 PM] h0p3: I'm good on the wiki front. My problem is that I fear that TW won't hold me for the longterm.
+[6:56 PM] h0p3: The folks who answered me know far more about TW mechanically than I do.
+[6:56 PM] h0p3: That github page is an example of how I version and serve the wiki to others.
+[6:57 PM] h0p3: My daughter built a tool for maintaining a private wiki which exports anything tagged "Public"
+[6:57 PM] h0p3: This is what my wife uses, and with some heavy modification, it will be what I eventually use as well.
+[6:59 PM] Valdus: Brah, I was actually worried about you!
+[6:59 PM] h0p3: Oh, lol!
+[6:59 PM] Valdus: you hit a crossroads, it happens, red or blue pill time I guess.
+[7:00 PM] h0p3: Well, I'm asking for experts first on how to handle growing a TW as large as mine or where I should migrate.
+[7:00 PM] h0p3: I have zero intention of not having a wiki.
+[7:00 PM] h0p3: The problem is that I'm butting up against the computational performance limits of TW in some respects.
+[7:00 PM] h0p3: You'll note that your wiki is much snappier than mine, for example.
+[7:01 PM] Valdus: oh thats not what Im saying, not at all. Im saying its time to change things up perhaps. I had a thought of the onion, a shell with different levels, somehow connected but only connected when necessary. Is that feasible or did I watch the matrix too much again?
+[7:02 PM] Valdus: snappier, damn my browser moved like a donkey in mud when I load yours.
+[7:02 PM] h0p3: You'll need to elaborate for me on the onion notion.
+[7:03 PM] Valdus: let me sleep on it. lol. but what do I do with mine. I loaded it on my iphone, then tried to load another wiki and lost it at that connection.
+[7:03 PM] Valdus: it gave me the reconnect of doom red thing
+[7:04 PM] Valdus: and can you make that git a server?
+[7:05 PM] Valdus: as in can one make it a server?
+[7:07 PM] h0p3: https://philosopher.life/#RGM
+[7:07 PM] h0p3: That's the basic outline here.
+[7:07 PM] h0p3: I use git for versioning, enabling others to access that versioning, and for serving off gitpages as a freebie (since it is far more time consuming and expensive to run my own comparable server).
+[7:08 PM] Valdus: yeah and like to do that cheap is good
+[7:13 PM] Valdus: But can you suck on Git and change the wiki.
+[7:14 PM] h0p3: I'm not sure what you mean.
+[7:14 PM] h0p3: If you do things right, it will only be one direction. From your house to the public git host service.
+[7:15 PM] h0p3: You can update or clone from remote down to your local (we have done that once).
+[7:18 PM] Valdus: Wow, lost, but that’s ok
+[7:18 PM] h0p3: Ugh. :frowning:
+[7:18 PM] h0p3: I'm sorry.
+[7:18 PM] Valdus: So what should I do next?
+[7:19 PM] Valdus: Do wiki in house, no hangups
+[7:20 PM] Valdus: Unless server (git) easier?
+[7:20 PM] h0p3: You could technically do all of this through git. I think that is a mistake.
+[7:20 PM] Valdus: Ok
+[7:21 PM] h0p3: I only use git to serve to others. It is not how I handle synchronization for my own development environment.
+[7:21 PM] Valdus: Ok
+[7:21 PM] h0p3: Bob is the best of the tool for multi-device. It might be a pain in the butt sometimes, but I am still glad I've moved to it.
+[7:22 PM] Valdus: Ok then how do I do that?
+[7:22 PM] Valdus: VM and Ubuntu?
+[7:23 PM] h0p3: Well, I am still surprised it doesn't work in Windows for you. However, I think scripting in linux is amazing. A VM is a great way to do it.
+[7:24 PM] Valdus: I’m probably doing something wrong honest
+[7:24 PM] h0p3: If you have an old computer laying around, you could just use that instead. Linux is very lightweight (it's actually what sits underneath ChromeOS, and the kernel for Android).
+[7:25 PM] h0p3: You are jumping into the deepend from the beginning. I used singlefile mode for about two years before eventually transitioning.
+[7:25 PM] h0p3: I tried and hated nodejs several times before that.
+[7:26 PM] Valdus: It’s more my style
+[7:27 PM] Valdus: And all I got is “spare” MacBooks but not really.
+[7:28 PM] h0p3: Those could work too. I think I'd stick to the desktop then.
+[7:29 PM] Valdus: Yeah
+[7:29 PM] Valdus: Let me get you that pick of the drives.
+[7:30 PM] h0p3: VMed Xubuntu sounds great. 1 core, 1-2GB of RAM should do ya. Set network to bridge adapter so it emulates being attached to your LAN's router which assigns IP addresses.
+[7:31 PM] Valdus: the space
+
+[7:32 PM] h0p3: Any of those work. I'd stick with B or A.
+[7:32 PM] h0p3: Probably B, with full backups of the Virtual Machine to C.
+[7:32 PM] h0p3: That way if something goes wrong, you can roll it back nicely.
+[7:35 PM] Valdus: ok tried it on the chromebook just now, and it saved to my local drive on the laptop.
+[7:35 PM] Valdus: But A has more memory
+[7:38 PM] Valdus: captain? it worked! Is it something so primitive that the computer goes on standby mode or screensaver?
+[7:42 PM] Valdus: its working, saving locally and saving to the pc
+[7:42 PM] Valdus: I think
+[7:43 PM] h0p3: I am not sure what is happening. =/
+[7:43 PM] h0p3: I am glad it is working though.
+[7:43 PM] h0p3: Have something working now and eventually work toward having Bob. That makes practical sense to me.
+[7:43 PM] Valdus: lol its working, now, because its scared. Its worried about the VM thing.
+[7:46 PM] Valdus: this morning, same thing, and nothing.
+[7:55 PM] Valdus: oh no but this morning I tried that import crap, oh yeah thats what killed it.
+[7:55 PM] h0p3: Import is powerful and necessary. It can sometimes be unpleasant, but it can also feel like magic.
+[7:55 PM] h0p3: I'm sorry it broke.
+[7:59 PM] Valdus: oh I got it working, only annoying thing is the screen is small, now to import...
+[8:00 PM] Valdus: but I have evening rituals and I sense you do as well. I will report tomorrow captain. signing off...
+
+[8:00 PM] h0p3: /salute
+[8:00 PM] h0p3: Grinding away, take it easy homie.
+[8:27 PM] Valdus: Works upstairs, now to get Omni on this.
+[8:28 PM] h0p3: Ha. Noice.
+[8:28 PM] h0p3: I think a young child would keep me insanely busy.
+[9:05 PM] Valdus: No, just insane
+[9:05 PM] Valdus: Now for that damned import, posted on GG

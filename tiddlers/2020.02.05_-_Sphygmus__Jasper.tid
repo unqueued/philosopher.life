@@ -1,0 +1,21 @@
+created: 20200302195134447
+modified: 20200302195324714
+tags: Sphygmus Chatlog
+title: 2020.02.05 - Sphygmus: Jasper
+
+"""
+[10:39 AM]  h0p3: Against all odds, I'm hoping you accidentally run across my friend [[Sho]] in Scotland.
+
+[3:58 PM]  h0p3: https://discord.gg/trWHFW
+
+[11:30 AM]  h0p3: Uh, I'm sorry about Jasper.
+[11:31 AM]  h0p3: Can check router or `nmap -sP 192.168.1.1/24`
+[11:31 AM]  h0p3: Depending on model, can also remove drive and pop into another machine.
+[11:32 AM]  robotic_scarab:
+Against all odds, I'm hoping you accidentally run across my friend [[Sho]] in Scotland.
+omg, somehow I missed this message?? tbh yes when I get closer to having actual serious plans (ie buying tickets, etc), I was considering asking if you wanted to connect us, on the off chance she'd want to meet and hang out with a complete stranger :)
+[11:33 AM]  h0p3: That would be nifty
+[11:36 AM]  robotic_scarab:
+Uh, I'm sorry about Jasper.
+nmap would be the command I was hoping for, thank you!! there's a good list still of things I haven't tried yet, so I'm not too worried. My hope is that it's booting fine, just something went weird with the display? Not sure how to verify that, though if it doesn't show up with nmap then booting is probably not actually happening :S (we've got raw CAT5 at work & I can make a crossover ethernet cable, so that's a potential thing to try as well.)
+"""

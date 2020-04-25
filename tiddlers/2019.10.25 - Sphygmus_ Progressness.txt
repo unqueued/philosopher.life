@@ -1,0 +1,16 @@
+[10:07 AM] robotic_scarab: so, crashing -- the one by phoebe waller-bridge, right?? :smiley:
+[10:07 AM] robotic_scarab: Fleabag is amazing too :)
+[6:20 PM] h0p3: Nope, wrong Crashing, lol!
+[6:20 PM] h0p3: Have Fleabag down, but haven't started it yet
+
+[1:49 PM] robotic_scarab: ahh, gotcha! :)
+[1:50 PM] h0p3: Slowly working my way through many recommendations.
+[1:51 PM] h0p3: Also, I'm enjoying your updates at more random times in the day!
+[1:51 PM] robotic_scarab: I can tell! there are some on your list recently that I've added to my to-watch list as well :)
+[1:52 PM] robotic_scarab: I've considered setting a mid-day publish update as well -- it might catch interesting in progress-ness? still thinking about it
+[1:57 PM] h0p3: I have no idea what is best for you here. It's a good question. I've set mine to auto-update every minute, which may generally be a ridiculous commitment. It gives a chance to see how something evolves in detail, that progressness (which I try to capture in my daily git updates in case someone felt it merited paranoic inspection), but there are some mistakes that can't be taken back. It's nice to have room to spot the error before it's released. As you know, I once released the private signing key, lol. It's just a /fingers-crossed that no one saw it.
+[2:00 PM] robotic_scarab: yeah, there have been times where I'm writing something and either don't have the ability or the motivation to check my publish sed list immediately to see if that word is on there. at those moments it's nice to have the publish delay
+[2:00 PM] robotic_scarab: I don't think i'd ever go down to the minute -- every 6 hours feels like the fastest I'd approach right now
+[2:01 PM] h0p3: Might be worth having that sed process spit out all substitutions for review (I'm not sure how you do it).
+[2:01 PM] h0p3: I think that hedged-conservativism makes sense.
+[2:01 PM] robotic_scarab: haha yeah given that a change I made to it without double checking broke the wiki code, logging would probably be good :sweat_smile:

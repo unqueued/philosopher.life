@@ -1,10 +1,3 @@
-created: 20171206165418530
-modified: 20190705052349739
-revision: 0
-tags: [[Wiki Audit]]
-title: 2017.12.06 - Wiki Audit: Transclusions
-type: application/x-tiddler
-
 Let's be honest, I'm lazy. I don't want to constantly code pretty links `[[foobar|link]]`. 
 
 I'd rather have foobar1, foobar2, and foobar3 all point to foobar1. Transclusions are an ugly hack, but they work. I use them for the [[TLD]]s and for crucial terminology. 

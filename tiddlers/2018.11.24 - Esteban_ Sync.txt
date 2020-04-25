@@ -1,0 +1,23 @@
+https://www.resilio.com/individuals/
+Today at 6:44 PM
+That key will enable us to sync a directory between our machines. So, I can put files in that directory and they automatically transfer to you (and vice versa). It's decentralized, encrypted, and fast.
+Today at 6:45 PM
+Let me know if you want anything. I'm happy to get whatever I can for you.
+Today at 6:45 PM
+So I just go to that web and put in what you sent me 
+Today at 6:47 PM
+Sweet man I will let you know thanks ! 
+Today at 6:47 PM
+That's just a link to the software you would install. The key will be used to join a sync-swarm (our personal swarm...but you can use as many devices as you want...they will all sync).
+Today at 6:48 PM
+Not a problem. Share it with Matthew and Tasha if you want (or I can make individuals syncs for them). I am happy to get yall whatever you want to the best of my ability.
+Today at 6:49 PM
+This may sound like a dumb question so if I sync it to my TV you would be able to access it cause that would be awesome! 
+Today at 6:50 PM
+Sorry, was afk*
+Today at 9:36 PM
+I am not aware of any TV's that can run Resilio Sync. Do you have Android on it or something?
+Today at 9:36 PM
+All this tool does it synchronize files between two or more computers (including phones, laptops, tablets, etc.).
+Today at 9:37 PM
+It does not allow me to access what's on your screen or anything outside of that directory. I will not have any privileges on your system except the ability to modify the contents of our shared directory.

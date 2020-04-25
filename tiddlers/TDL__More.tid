@@ -1,0 +1,9 @@
+caption: ...
+created: 20190718050654989
+modified: 20200420002213264
+tags: TDL Autogen
+title: TDL: More
+
+<div class="tc-more-sidebar">
+<$macrocall $name="tabs" tabsList="[tag[.tdl]]+[tag[More]]+[sort[caption]]" default={{$:/config/DefaultMoreSidebarTab}} state="$:/state/tab/moresidebar" class="tc-vertical" />
+</div>

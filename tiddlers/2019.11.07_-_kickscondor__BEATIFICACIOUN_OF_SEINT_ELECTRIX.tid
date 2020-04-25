@@ -1,0 +1,28 @@
+created: 20191108030841668
+modified: 20191109115045749
+tags: [[cruise control]] kickscondor Note To
+title: 2019.11.07 - kickscondor: BEATIFICACIOUN OF SEINT ELECTRIX
+
+You know me, I never ask for permission. I just start pitchin'n'fishin and hope some folks catch.<<ref "n">> Maybe like 2.6560425e-8% of the urf's humans glanced at it, so that ain't bad.<<ref "g">> I've been speaking with a variety of people about your social tool, and I've encouraged several to speak directly with you. I'm reporting back to you. 
+
+I took my shot at trying to spread the good news at HN (without gaming) ([[unicornporn|https://news.ycombinator.com/user?id=unicornporn]] and I both didn't get far). I am, of course, super quirky and fun, so that helped tremendously. Since they are more openly segmented, Tildes and Reddit had more eyes looking at it.
+
+On behalf of those I spoke with, I've agreed to make a quick case for hosting options. Some people may feel more secure with the tool running outside the browser. A few would find it useful to deploy your tool on a server that can be accessed by any device, and others want to serve particular feeds to others via URL. You may find some skilled individuals to help you, I don't know. I'm not qualified to say if this is worthwhile for you, but at the very least, I hope your tool serves as an example for future tooling. As you've seen, one point of failure to widespread adoption (and continued use) is the [[dok]] to which you are beholden to having your extension rejected or taken down in the stores.<<ref "m">> 
+
+I agree your agnostifying social tool built to the Nth degree finds itself in an arms race. Modularization, I would argue, is fundamental to the most successful visions of it. It requires custom networking, authentication, scraping, parsing, cataloging, and representation on a per platform (and subplatform) and per media-artifact basis. Defeating adversaries who aim to disrupt it would not be fun.<<ref "i">> Of course, this is an uphill battle in an ever-changing landscape. You'd need an army of people to build and maintain such a thing at scale, especially if it were to evolve to have more functional options in determining the UI (not just skinning) and constructing the feeds themselves (the big autonomy ticket way down the road).
+
+One of the reasons your tool has an advantage over other services which might attempt to build such an overlay is that the user themselves run it on their own machines. There doesn't have to be a centralized proxy for this sort of tooling (a significant legal and technical weakness), and it's harder for your adversaries to determine if this tool is being used (this too can be obfuscated and modularized). It's got something in common with an adblocker in that it takes packets sent to the user and "misuses" them according to the developer's intentions. Good.
+
+I've a few polyglot analogies which may be useless to you; I don't know. As for messaging, it reminds me of WeeChat, Trillian, and Pidgin in unifying so many protocols into one tool. In terms of our beloved P2P filesharing, it reminds me of MLDonkey and Bitcomet in connecting to so many networks. In a sense, as things are now, it's the inverse of the multiple-social-media-account managers which aim to write one message onto multiple platforms, but instead, it's a more passive dashboard reading from multiple platforms. Perhaps more abstractly, it also reminds me of [[i2p syndie|https://github.com/i2p/i2p.syndie]] and [[Inner Space|https://www.lavishsoft.com/]].
+
+You've got a working prototype, so I have no idea if you are going anywhere else with it. Regardless, I hope your tool grows big, [[kicks]]. May there always be lead in your pencil. `/salute`
+
+
+---
+<<footnotes "n" "Next time I'll use my T-shirt cannon.">>
+
+<<footnotes "g" "Get scruptured, earth-lubbers. XD.">>
+
+<<footnotes "m" "Even Mozilla fails my freedom litmus test here.">>
+
+<<footnotes "i" "I could imagine a threshold of agents who would punish users for scraping (at several layers in the stack). It may always be a pirate's or DIYer's tool.">>

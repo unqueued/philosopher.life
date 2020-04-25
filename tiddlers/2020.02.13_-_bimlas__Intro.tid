@@ -1,0 +1,20 @@
+created: 20200214030914597
+modified: 20200214030941884
+tags: bimlas Note From
+title: 2020.02.13 - bimlas: Intro
+
+> I'm sad that I didn't receive your messages (I don't know what went wrong; I've checked my accounts)
+
+If had to guess, for some reason my address might be on an email blacklist (maybe because I share a lot of links?). It happened that others didn't receive my letter as well.
+
+> I would like to see them, if you still have them.
+
+I just wanted to ask you to write an introduction if you have the time and feel like it because I think you are the only one who really understands what the plugin is all about.  Most people just do not understand what it is used for, how it works, even though I really feel I have done everything to make it understandable. Although looking back at the old version, it wasn't really clear. Users say the new version is not entirely clear, but based on positive feedback, it seems easier to understand than it was. If you feel you can complete the description, I will be happy to accept it. You easily express yourself in English, it's harder for me.
+
+Many times I feel like I've redeemed the world with the plugin I just invented, but sometimes I get just a little feedback and it also suggests that the plugin isn't perfect. Others write a minimal line of code and everyone applauds. I feel like it's not okay, but I don't mind because I know that what I've done is usefull for some people (like myself :D ).
+
+Sorry to complain, but outside of Google Groups, there is no one I can talk to about TiddlyWiki.
+
+You weren't kidding. You have been working on Locator! Awesome. I adore that you aim to make filter-expression construction a visual task. 
+
+Yes, it still seems to be a feasible goal. I said it's not a good idea to do a graphical filter builder because locator is good for finding fixed values, for example, but if I want to filter by date ranges, I have to add new input fields (start and end dates). If I were to look for what I changed in February of any year, it would require a different input field (month selector). So basic filtering can be done graphically, but the more complex the filtering we want to perform, the harder it will be to create the right interface. 

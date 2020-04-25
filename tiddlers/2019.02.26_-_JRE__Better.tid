@@ -1,9 +1,9 @@
 created: 20190227023910824
-modified: 20190304040341698
-tags: JRE
+modified: 20200227065445463
+tags: JRE Chatlog
 title: 2019.02.26 - JRE: Better
 
-```
+"""
 Hey, how goes it?
 TUE 11:28 AM
 Thought  you might laugh: https://philosopher.life/#2019.02.24%20-%20TLDR%3A%20A%20Car%20Ride
@@ -22,7 +22,7 @@ Lol
 TUE 12:16 PM
 Not sure i understand how  she jumped from "sanity requires you to accept the illogical" to "your a pussy for doing something insane"
 TUE 12:17 PM
-She was calling me a pussy for not pursuing certainty.
+She was calling me a pussy for not pursuing certainty.<<ref "2020.02.27-1">>
 TUE 12:19 PM
 How's your day going?
 TUE 12:22 PM
@@ -44,13 +44,13 @@ I think fingers have more nerve endings in them.
 TUE 12:26 PM
 I finally got the miter bar tight in the table saw after my new taps arrived.  Then found out there is additional play in the handle, not sure how to make it any tighter
 TUE 12:27 PM
-Gonna go see K and L sunday, looking forward to it.
+Gonna go see [[K]] and [[L]] sunday, looking forward to it.
 TUE 12:27 PM
 Mom sent email after we drove down there, asking if im still on meds and if im ok
 TUE 12:28 PM
 Guess im not giving off great vibes
 TUE 12:28 PM
-Ever wish you were someone else?
+Ever wish you were someone else?<<ref "2020.02.27-2">>
 TUE 12:29 PM
 (I would like to see pics of the miter bar.)
 TUE 12:30 PM
@@ -64,7 +64,7 @@ something*
 TUE 12:30 PM
 Who do you wish you were?
 TUE 12:31 PM
-(it's awesome that you get to see L and K this Sunday)
+(it's awesome that you get to see [[L]] and [[K]] this Sunday)
 TUE 12:32 PM
 I had a crazy dream last night.  I was at college heights, lots of people in medieval garb.  Suddenly we all sprang into crazy gallops, weaving between one another, tearing each other to pieces with razor sharp claws.  I was one step ahead of everyone, eviscerating any in my path, constantly evading my pursuers. I ran down the dark hallway to the sunday schools rooms... and woke myself up by the sound of my own heavy snoring (breathing as if I had actually been running)
 TUE 12:36 PM
@@ -76,7 +76,7 @@ Rofl!
 TUE 12:37 PM
 I guess I really just want to be someone that doesn't want to be someone else (might as well ask what is virtuous...)
 TUE 12:37 PM
-You want to be someone who wants to be themselves.
+You want to be someone who wants to be themselves.<<ref "2020.02.27-3">>
 TUE 12:38 PM
 I will argue that even virtuous agents will find  themselves in contexts in which they wish they weren't there.
 TUE 12:38 PM
@@ -90,7 +90,7 @@ The virtuous agent can both want not to suffer, but also override that desire an
 TUE 12:41 PM
 I can't give an apt description for myself even.
 TUE 12:42 PM
-```
+"""
 
 My brother was feeling down, but he seemed better today. I wonder how the anti-depressants and the THC are mixing for him. I should have asked him what he thought about it.
 
@@ -108,3 +108,9 @@ His work is okayish. They are making everyone jump through some foolish hoops fr
 ---
 <<footnotes "a" "Why is it that my wife and I seem to connect more effectively with people about a decade younger than we are? What the hell does that even mean? Are we incompetent or something? Whatever. I want to talk to people that make sense or are willing to try to 
 make sense (which makes sense to me).">>
+
+<<footnotes "2020.02.27-1" "Maybe I wrote it down poorly?">>
+
+<<footnotes "2020.02.27-2" "What a powerful question to ask!">>
+
+<<footnotes "2020.02.27-3" "I prefer my paraphrase, but I like my brother's point.">>

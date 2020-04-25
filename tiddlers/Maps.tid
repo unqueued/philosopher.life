@@ -1,6 +1,7 @@
+aliases: [[Map]] [[map]]
 created: 20190703025036245
-modified: 20190717193036827
+modified: 20200420002558985
 tags: $:/tags/SideBar
 title: Maps
 
-<<tabs "[[Locator view]] Tagcloud Directories Logs $:/core/ui/SideBar/More" "Locator view">>
+<<tabs ".tmpl .tdl .plan [[Maps: More]]" ".tmpl">>

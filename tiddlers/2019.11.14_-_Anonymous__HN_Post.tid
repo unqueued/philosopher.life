@@ -1,0 +1,38 @@
+created: 20191115033231039
+modified: 20191120211537991
+tags: Anonymous
+title: 2019.11.14 - Anonymous: HN Post
+
+Hey, I saw your posts today. I think you and I should be friends. If you are looking for someone to speak with on these matters, I would love to do so. Note, I speak with people in public (https://philosopher.life/); I suggest you wander around to get an idea of who you are speaking with (I may not be your cup of tea). I redact information and protect identities in some rare cases. You should speak with me anonymously and more privately (which you may find ironic or pointless, and I'm happy to field your questions).
+
+I'd prefer ProtonMail or decentralized E2EE messaging (as much as I value PGP, I despise using it). I'm also willing to speak over other channels you prefer.
+
+I'm a somewhat paranoid person who believes in The Golden Rule. I'm a philosopher by trade, but it's fair to say I'm a computer geek (though not as skilled as you are). I'm exceptionally interested in technology which enables us to trust, cooperate with, and protect people. Hopefully, we can gather together enough people to do something about a set of crises we face in the world, and at worst, you'll have a quirky penpal.
+
+<<<
+Acknowledged and will look into sources you've recommended. I've not shipped into anonymous comms before but appreciate and understand multiple reasons for doing so. 
+
+If you're references don't include tips on this, some high level best practices would be appreciated as well. 
+
+I'll be in touch
+
+-anon
+<<<
+
+Hey Anon, as I said, I write in the open. You'll find our current exchange here: https://philosopher.life/#2019.11.14%20-%20Anonymous%3A%20HN%20Post
+
+It's weird to say, I know, but I hope this is the last message I send to the address you've provided but not the last I hear from you at all. I leave it to you to figure out how you wish to [[Contact]] me. I've been thinking about what you are asking for. I'm not going to be able to provide an immediate answer which I find satisfactory. I'm slowly working on [[Privacy]] for you, and [[hope]]fully a future piece of writing on [[Anonymity]]. This is not a simple rabbithole (and it depends on where you want to begin trusting your own system, mine, and everything in between). Here are my high-level suggestions for you with room to grow, in our case:
+
+* Use GNU/Linux from the beginning.
+** VM if you prefer.
+* If you are shooting for higher degrees of anonymity and privacy, use Tor or Whonix. 
+** Otherwise, at least use a clean browser with reasonable [[extensions/addons|Firefox Extension Collection]].
+*** You'll need to reason about the permissions you grant.
+* Protonmail is not hardcore paranoic, but it's convenient low-hanging fruit. 
+** Build an identity around it isolated from everything else. Never cross the streams (turns out this is not an easy problem).
+* If you want to instant message on multi-platform tooling which provides meaningful freedom in a convenient fashion, I'm hard-pressed to find something better than: Pidgin with XMPP+OTR or Tox (qTox being probably the most well-rounded of the tooling). 
+** You can route these through Tor on most devices, if you wish (though it is easy to make a mistake here). If you run them inside Whonix, you get all the properties automagically (though, there is still room for human error in how you emit information and interact).
+* You should dissociate from the identity with which you are currently contacting me.
+** This is going to sound weird, but I think the best practice is to deceive me (and, I'm straight up asking you to do so in this case).
+*** Some people already do, from what I can tell. I ask you to make it believable.
+**** Contact me at some later date. Have a story for how you found me. I like talking about these issues with lots of people, so you should be able to quickly make your way to having a conversation which isn't linked to the identity you are currently using with me.

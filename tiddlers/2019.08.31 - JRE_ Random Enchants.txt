@@ -1,0 +1,65 @@
+4 instances of crusader rank 1 RE for sale by the same dude...
+AUG 31 7:59 AM
+err-- 3
+AUG 31 7:59 AM
+oh, lol just realized the fourth guy is you!
+AUG 31 7:59 AM
+I Almost bought yours!
+AUG 31 7:59 AM
+ (just to resell at higher price-- then realized the other ones were the same dude)
+AUG 31 8:00 AM
+Damn-- thanks for that RE, didn't even know it existed!
+AUG 31 8:03 AM
+500g for blessing of the divines
+AUG 31 8:57 AM
+from Lunelo
+AUG 31 8:57 AM
+Lol
+AUG 31 11:58 AM
+I got the divines one, btw
+AUG 31 11:58 AM
+That UI is very pretty
+AUG 31 11:58 AM
+how much did you drop for it?
+AUG 31 11:59 AM
+300
+AUG 31 11:59 AM
+and whats your healer's primary heal
+AUG 31 11:59 AM
+thats what i offered him, he laughed
+AUG 31 11:59 AM
+#showtooltip
+/say Speccing to Healer
+/equipset Healer
+/cast Specialization III
+AUG 31 12:34 PM
+#showtooltip
+/castsequence reset=30 Feign Death, Vanish
+AUG 31 12:34 PM
+/click TotemFrameTotem1 RightButton
+/click TotemFrameTotem2 RightButton
+/click TotemFrameTotem3 RightButton
+/click TotemFrameTotem4 RightButton
+AUG 31 12:35 PM
+#showtooltip
+/ues Major Mana Potion
+/use Superior Mana Potion
+/use Dark Rune
+/use Demonic Runew
+/use Mana Ruby
+/use Second Wind
+AUG 31 12:35 PM
+what race?
+AUG 31 1:13 PM
+I went Troll
+AUG 31 1:14 PM
+k, name
+AUG 31 1:14 PM
+I already have one
+AUG 31 1:14 PM
+Nudeness
+AUG 31 1:14 PM
+its up
+AUG 31 10:57 PM
+its up again
+AUG 31 11:02 PM

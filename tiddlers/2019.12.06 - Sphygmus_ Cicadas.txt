@@ -1,0 +1,15 @@
+[10:55 AM] h0p3: I'm wondering if I should just go dynamic too. Like, commit to TW. Yeah, I lose the backlinks, but the tags do much the same work.
+[10:56 AM] robotic_scarab: I don't know!
+[10:56 AM] h0p3: Me neither, lol
+[10:58 AM] h0p3: Also rando: looked it up, cicada music is called crepitation. Cicadas kinda freak me out, but I like the sound.
+[10:59 AM] robotic_scarab: that's a fun tidbit! i loved collecting the shells as a kid, lining them up on the tree trucks and all
+[11:00 AM] robotic_scarab: that video is the best example on youtube i've found of the specific wavering (?), erm, song that goes up and down in pitch (?)
+[11:00 AM] h0p3: Aye. Full force in that one.
+[11:01 AM] robotic_scarab: most other cicada recordings I found are much higher and don't go up and down in tone, and while I enjoy cicada song in general, those aren't the recordings that give me the warm fuzzies :P
+[11:01 AM] robotic_scarab: re TW: I don't see myself giving up hard links for those log tiddlers, in particular -- the content of the links is from a specific month/year/log and won't change dynamically in the future, so dynamic links don't give me anything useful.
+
+Mostly I just like being able to use audit tiddlers as the tags for the individual logs because then I stay more on top of actually creating audit tiddlers (even if I don't do them) -- with the added side benefit of having an actual usable dynamic TOC there if I want it.
+[11:02 AM] h0p3: I think of it something like meal prep. When you do go for the audit, you'll have it all lined up, have all the structuring stuff out of the way.
+[11:04 AM] h0p3: That monthly makes good sense. That kinship locator search still has too much noise in it. Good for wandering, but it can't compete with a handcrafted directory.
+[11:09 AM] robotic_scarab: I haven't actually tried out the kinship filter thingy
+[11:09 AM] robotic_scarab: yup, it's meal prep for my wiki :)

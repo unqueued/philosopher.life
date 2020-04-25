@@ -1,0 +1,350 @@
+Image attached to message
+the network is incredible! :D
+SAT 8:52 PM
+!!
+SAT 8:52 PM
+Okay, there's no way you have 7k tiddlers up there (I literally cannot wait until I get to say I have Over9k tiddlers, btw). What does that network represent? Please tell me [[The Good]] is the most chosen.
+SAT 8:53 PM
+Or is that yours!?
+SAT 8:54 PM
+I can't see it
+SAT 8:54 PM
+Lol
+SAT 8:54 PM
+that's yours! :D
+SAT 8:54 PM
+my browser has frozen multiple times ahaha
+SAT 8:54 PM
+lol!
+SAT 8:54 PM
+it's definitely not all 7k
+SAT 8:54 PM
+i believe that screenshot is 2-step distance away from [[Pin]], with inter-neighbor edges showing
+SAT 8:55 PM
+3 step outgoing from [[pin]] just loaded (took forever)
+SAT 8:55 PM
+Image attached to message
+SAT 8:56 PM
+Wow.
+SAT 8:56 PM
+Thank you.
+SAT 8:56 PM
+I've never seen it before.
+SAT 8:57 PM
+I'm just straight grinning.
+SAT 8:57 PM
+me too! this is awesome :D
+SAT 8:57 PM
+Ha, it says "Burn it down!"
+SAT 8:58 PM
+yes, the browser! XD
+SAT 8:59 PM
+It's burns a single core, right?
+SAT 8:59 PM
+not sure, i'm on a laptop (beefy but not as good as my desktop still) & i haven't been monitoring the usage :P
+SAT 9:00 PM
+it only froze so bad I had to kill it once
+SAT 9:00 PM
+and that was when I was legit accidentally trying to load all 7k tiddlers lmao
+SAT 9:00 PM
+Image attached to message
+SAT 9:01 PM
+incoming links is so much different than outgoing
+SAT 9:01 PM
+I like the parachutes and eyes. Maybe it has some fireworks too.
+SAT 9:04 PM
+ooooo yes the 2nd screenshot looks so much like fireworks!
+SAT 9:05 PM
+Image attached to message
+here's The Good, 1 step distance, both incoming & outgoing, with inter-neighbor edges
+SAT 9:05 PM
+lol =) That is awesome.
+SAT 9:07 PM
+oh wow
+SAT 9:12 PM
+here's The Good, 2 step distance, both incoming & outgoing links
+SAT 9:12 PM
+Image attached to message
+SAT 9:12 PM
+I am stunned. Wikis continue to amaze me over and over. Seeing that image has been a dream of mine for a long time. I've only ever been able to try to imagine it. It's a rabbithole of fireworks.
+SAT 9:15 PM
+Being able to see the hard-link references visually is fascinating -- and watching where different tiddlers shake themselves out in the web. there are distinctly some tiddlers (in both our wikis) that are launching pads for projects that fan out in a certain direction, and then some, especially in yours, that are embedded in a huge amount of references.
+SAT 9:17 PM
+It feels like a space battle map. It's clustery for a rhizome. I want to see that in VR one day, like  a planetarium.
+SAT 9:18 PM
+Yes, the references are the way to go!
+SAT 9:19 PM
+I wish more people realized how important they were.
+SAT 9:19 PM
+ooo owhoa that would be so beautiful in 3D
+SAT 9:19 PM
+They are the greenlight tags which show just more accurate and detailed relational picture.
+SAT 9:20 PM
+yeah, I checked out Jack Baty's wiki in tiddlyweb and it's similar to ours -- nodes with more fans -- and then was surprised when I tried twelvety's wiki and even with tags, wasn't able to see the same structure
+SAT 9:20 PM
+(but like, holy shit, it would be a beautiful galaxy to zoom through and explore in VR.)
+SAT 9:20 PM
+I want to be able to hop around, jumping from one solar system to another.
+SAT 9:22 PM
+You think Baty and Twelvety will be joining us?
+SAT 9:22 PM
+I worry they might burn out on TW; it's a timesink unlike so many others I've used.
+SAT 9:23 PM
+I have no idea! I hear you on the burn out -- my engagement with my wiki ebbs and flows, but my stack of old journals (and streaks of writing 750 words a day) incline me to think that I might occasionally take a vacation from it but I'll continue to return.
+SAT 9:24 PM
+I think there are people who tend to use these tools more as capture devices -- wikis/evernote/onenote/what-have-you, rather than than massive writing-project-network-constructs
+SAT 9:26 PM
+Yes. Something that does one job well.
+SAT 9:27 PM
+which is interesting, because I think one of the strongest things about a wiki is being able to transform from a mere collection (hell, bookmarks are simply that) into actually //doing// something with the collection, whether that's picking out connections between different subjects by writing about them, or by thinking about and meta organizing the collection
+SAT 9:27 PM
+like -- a collection is no good without a frame of reference for seeing it. what good is a long list of links? even my bookmarks are sorted(ish) into folders that let me grasp (a tiny bit) what I've got going on there. Libraries sort fiction by author (and genre sometimes) and then you've got the subject classifications of Dewey and LoC -- TiddlyWiki makes forming that frame of reference more intuitive (at least for me) and allows for refactoring it with ease (which seems to be essential).
+SAT 9:30 PM
+Anything which can generally create, connect, compute, or coherentify an arbitrary number of "does one job well functions" feels almost turing complete to me. It's good at arbitrarily nesting arbitrary functions. What could possibly be better for building a verbal universe on limitless quantitative foundations? It is ridiculously low friction evolution in the user's hands.
+SAT 9:31 PM
+I'm really beginning to not see the point in collecting things for no reason -- making stacks of "to-read" articles/books/etc without getting to them, lists of bookmarks, etc etc etc. Those sorts of collections aren't //useful// to me, they don't help me learn something or grasp something etc -- it's the actual engagement of the material that is inspiring and educational. (tho I am far from perfect in this area re: my wiki.)
+SAT 9:32 PM
+Your explanation reminds me so strongly of why I care about my naming conventions so much. Half the job is finding a way to make relevant lists (which reminds me of arrays a heckuva lot).
+SAT 9:32 PM
+I can totally see that.
+SAT 9:33 PM
+I think my [[Link Log]] is a kind of example that I do not use often. It has been relevant before though. I suspect there is a reasonable chance that while I can't find an amazing use for it now, one day I might.
+SAT 9:34 PM
+It's a gamble.
+SAT 9:34 PM
+Some of my pans in the fire are investment risks.
+SAT 9:34 PM
+Huge ones.
+SAT 9:35 PM
+So, I say that about collecting things for no reason, but your link log is definitely something I've wondered about for my own self. I so often read things, think they're insignificant at the moment, & then they become relevant later. and searching my browser history only gets me so far...
+SAT 9:36 PM
+also sometimes I'll search a link in your wiki to see if you've see in or not haha
+SAT 9:36 PM
+> What could possibly be better for building a verbal universe on limitless quantitative foundations?
+yes!! i feel like I'm building my own personal library or archive or mind map in my wiki and it's wonderful; I've tried evernote & onenote and they never //stuck// -- I couldn't keep using them, and now I think it's because the boxes to put things in were too restrictive and didn't allow me to throw things at the wall to see what would stick.
+SAT 9:36 PM
+lol, I also have to search "have I seen this?" I'm trying to improve when I ask that question.
+SAT 9:37 PM
+My [[Link Log]] has currently function as a "Seeking Kickscondor" here recently. I am given very few glimpses, and these define him non-trivially.
+SAT 9:38 PM
+I am hoping link logs will be used for machine learning curation which crawls the web for me to build custom feeds which would only be possible with a massive corpus.
+SAT 9:39 PM
+You see those AlphaStar games?
+SAT 9:39 PM
+I want to own my recommendation engine, and I want to be the source of the data it is trained on.
+SAT 9:41 PM
+I love that "throw it at the wall to see what would stick" freedom.
+SAT 9:41 PM
+[[The Remodeling]] has shown me quite clearly that some of my work has been in vain, but the [[/b/]] motto of doubling my failure rate is often the only reasonable risk to take.
+SAT 9:42 PM
+In that sense, I don't feel like my failures have been wasted.
+SAT 9:42 PM
+I like having the evidence that my effort and method (warts and all) have amounted to something. The lack of restrictions (the ease with which we can flexibly build just about anything) lowers the cost enough that I'm not as sensitive to pains of imperfections and failures.
+SAT 9:44 PM
+One of many examples: I think my [[Dream Log]] is an abject failure.
+SAT 9:45 PM
+But, I'm okay with it, lol.
+SAT 9:45 PM
+how is it a failure for you? just that you don't regularly create logs there, or?
+SAT 9:47 PM
+Reminds me of the emergence of beauty such that the Mona Lisa (hypothetically most beautiful pic of all time) is only as beautiful as it is because of the small imperfections which are irreducibly necessary the whole's beauty. If you went and "fixed" those tiny imperfections, it would someone make the whole less beautiful. Obviously, I don't mean to imply my wiki is the Mona Lisa, I just mean to say I like the kintusukuroi. I adore that kintusukuroi comes to your mind too. The wiki has its cracks, but that is really how the light gets in.
+SAT 9:48 PM
+Oh, that log turned out to be a waste of time. It said almost nothing valuable other than the fact that it wasn't valuable.
+SAT 9:48 PM
+what's valuable here?
+SAT 9:49 PM
+I'm in full agreement with myself for ending my participation in that log.
+SAT 9:49 PM
+[[gfwiwcgws]], valuable for what?
+SAT 9:49 PM
+I cannot answer your question satisfactorily enough for myself.
+SAT 9:50 PM
+mm, messy hands = no long typing. :P
+SAT 9:51 PM
+I think what I'm asking or curious about is that -- you were searching for something valuable (meaningful?) to come out of the logs -- and that didn't appear for you?
+SAT 9:51 PM
+I wonder what value coming out of them would have looked like.
+SAT 9:51 PM
+Wait, what should I clarify first?
+SAT 9:52 PM
+Does the Mona Lisa claim make sense?
+SAT 9:52 PM
+yes, i got that! :)
+SAT 9:53 PM
+i'm not sure i'm clear on what my question is or that there's a particular question there
+SAT 9:55 PM
+(I don't think it's my messy hands; it's a messy mind I've got...something is wrong with my ability to write sentences down [predictive coding isn't quite right here]...it's like a typing-based version of wordsalad of the schizophrenics...but, that may be necessary to take the means to my epistemic goal. I am convinced that is how I can improve my Bayesian reasoning until someone demonstrates it otherwise to me. I apologize for my awful writing though.)
+SAT 9:55 PM
+OH! sorry
+SAT 9:56 PM
+my hands are messy
+SAT 9:56 PM
+well, were, i'm eating with a fork now
+SAT 9:56 PM
+oh, lol!
+SAT 9:57 PM
+it's just interesting to me because I can imagine some value coming from logging my dreams -- I just write about them in my carpe diem log right now -- but I don't know what value, so I'm curious if there's like...a specific area of //no-value// that you saw in them (if that makes sense..??)
+SAT 9:57 PM
+So, what is the purpose of your life? Your wiki is a tool, and it should serve as an instrument which efficiently achieves the means to your ends. Some logs and projects are more valuable and efficient means to your end(s) than others. Some are necessary and others contingent to executing the hypothetical imperatives. How do you should what you "ought" to do in your wiki? This is clearly a moral question to my eyes. I must spend my time wisely. I am not an expert in the science of dreaming (nor do I have the practice others  have in reasoning about it). I am forced to make a guess about how to model the value of this thing to my end.
+SAT 10:02 PM
+The Dream Log could only ever be instrumentally valuable, and it didn't seem to instrumentally add any value to me.
+SAT 10:02 PM
+What value is that? Helping me achieve the goal in {[[About]]}. I can only point to it.
+SAT 10:03 PM
+This is going to sound crazy. I'm sorry. I will do my best to continue to explain my opinion (I swear it's not gibberish): When I say my wiki is telic and computational, I see the [[APFVD]] structures as dialectically and functionally giving rise to a Rule of Law meets Criterion of Legal Positivist Authority. I assume its decentralization of the projects inside myself to give rise to emergency projects (and [[hope]]fully the final and unifying one, and the one which points to the external value outside me).
+SAT 10:05 PM
+emergent*
+SAT 10:05 PM
+mm, so roughly rephrasing what you said before you said "this will sound crazy": the dream log could only be a means to or tool for achieving the goal you point to in About, and through the process of engaging in the log you found nothing in it that would help you further towards About, and therefore no reason to continue putting the time into it.
+SAT 10:06 PM
+close?
+SAT 10:06 PM
+I am very serious about my [[Self-Dialectic]]. I do not know how it works, but I know I am comprised of many computers inside me. Your laptop's motherboard has several turing complete computers inside it. Alright, thinking about what you just said.
+SAT 10:07 PM
+I think that is very close.
+SAT 10:07 PM
+I wouldn't know how to say it better with any confidence (which is a steelman in my book).
+SAT 10:07 PM
+I will need to continue thinking about it. This is one of the core tasks I have been wrestling with quite a while.
+SAT 10:08 PM
+ok, stepping back a bit -- I don't understand what you mean by "Criterion of Legal Positivist Authority" and google isn't making immediate sense :P
+SAT 10:10 PM
+(emergency projects?)
+SAT 10:10 PM
+I'm still pulling it out in [[The Remodeling]]. But, the [[RPIN]] [[KIN]] Platonic dialogue is an example of it. It's about two years old in my wiki.
+SAT 10:11 PM
+emergent*
+SAT 10:11 PM
+Alright, so what I mean to say is: on the legal positivist's conceptual analysis of the definition of a government (that which is essential and sufficient for calling any particular object a valid [though not necessarily normatively justifed] government), many believe there is a source of authority or a criterion. It is the foundation.
+SAT 10:13 PM
+What is the rule that rules all the other rules? What object gives authority to all the other authoritative objects?
+SAT 10:14 PM
+On this conceptual analysis, most American legal scholars will argue The Constitution is our criterion and source of authority.
+SAT 10:15 PM
+Some might argue it is the republic's vote (and I'm willing to walk down that path).
+SAT 10:15 PM
+What is [[The Original Position]] government in our self-legislation as autonomous creatures? What does it mean to peristently constitute and unify our self-identities? What is Augustine's City of God as a model inside us? What is Plato's Republic inside us? What does it mean for us to will something or bind ourselves to a principle/algorithm?
+SAT 10:17 PM
+(and what does it mean to do so justifiably?)
+SAT 10:18 PM
+{[[About]]} is the existential anchor of my wiki (even if Tiddlymap disagrees).
+SAT 10:19 PM
+I consider it my core narrative.
+SAT 10:19 PM
+I am moving a million miles an hour here. I'm sorry. As I said, it probably sounds like gibberish. This is not something I can put together very easily. It takes a wiki to solve it.
+SAT 10:20 PM
+My modeling could also be entirely wrong.
+SAT 10:21 PM
+I'm going for broke.
+SAT 10:21 PM
+madcap
+SAT 10:21 PM
+The point is that the authority, autonomy, and value of a project or log sits in some computational chain relationship to {[[About]]}. My [[Dream Log]] appeared irrelevant in that chain.
+SAT 10:23 PM
+It's not important to my identity.
+SAT 10:24 PM
+I don't think that is true for every person who dreams, btw.
+SAT 10:24 PM
+I would highly recommend The Ego Tunnel. A fellow from Tulane went to work with the author. He discusses dreaming in an excellent way, imho. It is both philosophically and scientifically rigorous, imho (which isn't to say it is correct). My opinion is that my dream worlds are not as real or imaginative as many others. I can recognize that I am dreaming, but I have never properly achieve (I can't help but smile with the word) lucid dreaming.
+SAT 10:26 PM
+My dreams likely offer me an indication of my stress levels in life though.
+SAT 10:26 PM
+Whether or not I remember dreaming at all also seems to be an indicator of whether or not I've been getting enough sleep.
+SAT 10:27 PM
+At least sometimes*
+SAT 10:27 PM
+I don't think they offer me anything more though.
+SAT 10:27 PM
+You very well may find your dreams and writing  your dreams in carpe diem to be instrumentally valuable to your end. I do not (and cannot) know, imho.
+SAT 10:28 PM
+I would not consider myself to be very woo-oriented on the topic either. It clearly says something about the nature of consciousness though.
+SAT 10:29 PM
+How do you define whether or not a log has failed (and to what [[dok]])? What does it mean for something to be valuable to you in your wiki? What is the [[gfwiwcgws]]?
+SAT 10:30 PM
+OK! trying to grasp it, here goes
+SAT 10:40 PM
+rephrasing again:
+
+So you see the structures of your wiki (specifically APFVD) as producing a combo of (Rule of Law & Criterion of Legal Positivist Authority), through decentralization which gives rise to emergent projects, with the goal being that one of those projects will be the aforementioned combo.
+
+--- okay, I'm questioning my last sentence above. is the final unifying project //also// the Criterion or is it something else?
+
+The (Rule of Law meets Criterion of Legal Positivist Authority) means you are searching for that project which gives all your other projects meaning or authority..?
+
+As a free entity we constitute ourselves (which is a sort of government), so there is a guideline or authority (the Criterion) that establishes //how// we constitute ourselves. ah -- so the APFVD currently acts as the Criterion that establishes how you construct yourself in your wiki.
+
+and then you ask, "what does it mean to construct ourselves with a criterion?" (I get lost in the "what is the original position gov..." message.)
+
+sooo the ability/value of a project participating in the government of yourself is granted by the criterion of APFVD and something something dream log didn't surface value in the dialectic of internal government so it got cut?
+SAT 10:40 PM
+my head is sploding right now I need a wiki to keep all the links and connections straight ;P
+SAT 10:41 PM
+I need to first say: thank you. You have no idea what it means to me that you take the time listen to me about this. It is unbelievably rare that anyone empathizes with me enough to take my most important tiddler (and how it relates to all the others) as charitably and seriously as you.
+SAT 10:43 PM
+I think APFVD projects combo (are in dialectic) with each other (they wrestle, relate, give rise to bigger projects, etc.). I think they are meant to instrumentally fit together to tell the stories of myself that leads to the core story in {[[About]]}. I think the whole wiki decentrally builds toward {[[About]]}. I think {[[About]]} is the beginning and the end doorway to my rabbithole for myself (whatever the hell that means).
+SAT 10:48 PM
+I think {[[About]]} is the source of authority, the criterion, which gives rise to the value and authority of all the tiddlers below it.
+SAT 10:48 PM
+:)
+SAT 10:51 PM
+I think my question about the dream log was veritably answered! I'm not sure I'm grasping everything 100% but I've got at least some picture of it.
+SAT 10:51 PM
+And, I hope the rest of the wiki coherentifies itself through a [[T42T]] relationship among the projects, a weighing of the priority, sequences, and values of the projects amongst themselves. I hope the rest of the wiki governs itself by shaping and giving rise to an {[[About]]} that wields its Rule of Law wisely. I know it appears to be a contradiction to say {[[About]]} is the authority and that I want to use the rest of the wiki to justify {[[About]]}'s authority insofar as I can. The rest, imho, is faith.
+SAT 10:51 PM
+I'm sorry. I don't know how to say it well at all. It might even be so wrong that it's "not even wrong."
+SAT 10:52 PM
+I'm not 100% grasping it either. This is literally my best guess about the structure of the wiki as a model of the nature of my identity.
+SAT 10:53 PM
+And it is my best guess about how to improve it, what I ought to do with it, etc. I want description and prescription.
+SAT 10:53 PM
+That would be a worthy question to try to answer for yourself (unless you already have...I am slow sometimes). What makes a tiddler valuable, and valuable for what?
+SAT 10:55 PM
+It's kind of an economical question. You only have so much time in the day. Going all the way back to where you started this rabbithole (imho): "the actual engagement of the material that is inspiring and educational" for the sake of what?
+SAT 10:57 PM
+y e s I see what you mean. I believe I've been thinking about it but if pressed I'm not sure I could --words-- it at the moment.
+SAT 10:58 PM
+I highly respect that. It is my opinion that Wittgenstein, Gödel, and many others are pointing to the fact that we can only ever point in faith to it. [[The Infinite]] or The Objective Thing-In-Itself may be ineffable or unseeable, but we have to try anyways. I don't mean to press you on it. I am sorry.
+SAT 11:01 PM
+I love how you are hypersensitive in your Daseinic activity. You are extremely aware of thinking about your awareness. There are very few people that I get to ask these questions at this level. You are an existential beast (and I mean with true respect). You got the meaning bug in you.
+SAT 11:04 PM
+https://xkcd.com/610/ comes to mind, of course. Elitist as it may sound, I am convinced many people never have to the opportunity wrestle with themselves like we get to with ourselves. I don't claim to have the answer, obviously. Wandering the infinite extremes of doubt and certainty. It's a hell of cave, ocean, or desert. I have no idea.
+SAT 11:09 PM
+it is tough to look so glaringly at things without seeing answers or even seeing the possibility of comprehending that thing at all. I took a philosophy class called "the prospect of alien thought" (iirc that was the title?) and I regret that I didn't do much of the work or reading because it seems very relevant to only being able to point in faith: trying to conceive of the possibility of utterly //alien// thought and then well, if it's utterly alien then how can any thought regarding it even be coherent?
+SAT 11:11 PM
+Indeed, we [[Find The Other]], whatever that means. If it weren't others, I fully knew what I didn't know, well, then I already knew it.
+SAT 11:12 PM
+That sounds like a fascinating class.
+SAT 11:13 PM
+There are many excellent, highly logical reasons to believe conceiving the inconceivable isn't possible. It is the fundamental problem in philosophy. From a skeptical point of view, it's wonderful to see how little progress we have made beyond several ancient philosophical traditions, imho.
+SAT 11:15 PM
+I feel right at home sometimes.
+SAT 11:16 PM
+Alright, now all I need to do is package that up in {[[Help]]}, call myself a madman, and point Adam to it. "That's what I'm trying out, dude. Lulz. Umm...GL! Dive in!"
+SAT 11:18 PM
+XD
+SAT 11:18 PM
+(I hope I have the class syllabus saved somewhere -- I believe it was a winter quarter class, and chicago winters took it right out of me.)
+SAT 11:18 PM
+I would love to see it.
+SAT 11:19 PM
+PDF
+Logically_Alien_Thought_Course_Syllabus_Fall_2013.pdf
+212.87 KB
+SAT 11:25 PM
+TXT
+Midterm The Skeptical_Evil_Demon.txt
+10.95 KB
+and my midterm paper ;P
+SAT 11:25 PM
+Thank you! =)
+SAT 11:25 PM
+omg, that course looks really fuck hard, lol
+SAT 11:27 PM
+Love that he is teaching a class around his own paper.
+SAT 11:28 PM
+oh god yeah I'm not even sure I got halfway through the required readings listed, though now I feel a little less bad about that, ha.
+SAT 11:29 PM
+He taught at a very famous school of Pittsburgh epistemologists. Likely a complete badass.
+SAT 11:31 PM
+I'm not sure I remember much of the content of the class but I remember being in the lectures very well! if memory holds he was a great teacher in connecting dots & answering questions & engaging in discussion during class time.
+SAT 11:32 PM

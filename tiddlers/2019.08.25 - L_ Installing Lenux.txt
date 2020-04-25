@@ -1,0 +1,608 @@
+Hey [[h0p3]] — I see I keep missing your messages. Ugh.
+AUG 25 12:09 PM
+Either way, hello and happy Sunday! I have a question for you. What was the name of that software you suggested I used to learn coding? I apparently never wrote it down and I’m trying to get my new laptop all set up.
+AUG 25 12:11 PM
+I don't remember what I suggested at the time. There's a lot of software I would recommend.
+AUG 25 12:12 PM
+New laptops are wonderful. =)
+AUG 25 12:12 PM
+They are! It’s like opening a new journal, except more exiting and with more memes
+AUG 25 12:13 PM
+Well, if you tell me what you want to build, I can make recommendations.
+AUG 25 12:16 PM
+Hmmmmm
+AUG 25 12:17 PM
+My general recommendations will be to start with Linux, bash, python, and javascript.
+AUG 25 12:17 PM
+Get comfortable in a text editor, use IDEs for bigger projects, keep a wiki to record information that matters to you.
+AUG 25 12:18 PM
+Well, at some point I think it would be really cool to build my own character creator
+AUG 25 12:18 PM
+But also just being able to understand and tweak my wiki would be a good start I thjnk
+AUG 25 12:18 PM
+Er, think**
+AUG 25 12:18 PM
+I think you should first outline in writing and pictures what you want the character creator to look like, where do you want it run? Is something you want to share?
+AUG 25 12:20 PM
+Hmmmm.
+AUG 25 12:20 PM
+I’m not sure I’d share it with the masses, but hosting it on my wiki would be a good place to start.
+AUG 25 12:20 PM
+I’d have to think about it some more.
+AUG 25 12:21 PM
+Is it a visual character creator, or more about tracking many characters and stories?
+AUG 25 12:21 PM
+Visual more than likely
+AUG 25 12:22 PM
+So the plan is to make it rather simple at first and build off of it.
+AUG 25 12:22 PM
+the wiki seems like the wrong tool to me
+AUG 25 12:22 PM
+Yeah
+AUG 25 12:22 PM
+for the actual character creator*
+AUG 25 12:23 PM
+I may have to build something
+AUG 25 12:23 PM
+But, with that in mind, understanding my wiki and being able to modify it like I want is a good place to start. I want to use this tool, I just want to know how it works.
+AUG 25 12:23 PM
+I think the character creator is something I will tackle once I understand more
+AUG 25 12:23 PM
+cool, well, you should try TW5-Bob out
+AUG 25 12:23 PM
+We can make it so you can access it on all your devices
+AUG 25 12:24 PM
+Right
+AUG 25 12:24 PM
+https://github.com/OokTech/TW5-BobEXE
+AUG 25 12:27 PM
+I assume you are on Windows.
+AUG 25 12:27 PM
+Yes!
+AUG 25 12:28 PM
+That link reminds me. I should download signal. XD
+AUG 25 12:29 PM
+Erps
+AUG 25 12:30 PM
+It will take some time to setup your machine.
+AUG 25 12:30 PM
+I still don't have everything working on m16. It's been a month, lol.
+AUG 25 12:30 PM
+It’s the growing pains of a new laptop
+AUG 25 12:30 PM
+What laptop you get?
+AUG 25 12:31 PM
+Was the one [[K]] showed me?
+AUG 25 12:31 PM
+Same exact one as Koby
+AUG 25 12:31 PM
+Yeah!
+AUG 25 12:31 PM
+so what did you get the laptop for?>
+AUG 25 12:33 PM
+(testing from the laptop)
+AUG 25 12:37 PM
+Oh good it works
+AUG 25 12:37 PM
+This laptop is supposed to be my companion -- I want to use it for personal learning and general brain-vomit
+AUG 25 12:39 PM
+I have tried using journals to keep around with me but I just don't use them like I should. A computer is more useful and tangible than a separate notebook.
+AUG 25 12:41 PM
+Plus, if I'm going to actually build on my tech skills, it should be on a computer and not with pen and paper lol
+AUG 25 12:41 PM
+I know it is shiny, and this sounds very unfun, but it's worth your time: https://manjaro.org/
+AUG 25 12:42 PM
+If tech skills, journaling, programming, and understanding what's under the hood is what you are after, you should use Linux as a daily driver. Force yourself to learn it.
+AUG 25 12:43 PM
+If you have to run a Windows program (not a game though), we can get it running on your laptop too.
+AUG 25 12:43 PM
+The whole point of OSX, iOS, Android, and Windows is to abstract away the work it takes to understand your machine, to own your data, and to tailor your machine to your needs.
+AUG 25 12:44 PM
+I know plenty of people who program on Windows and MacOS very well, of course
+AUG 25 12:45 PM
+Okay
+AUG 25 12:45 PM
+While your machine is still brand new, and you've not invested any significant time into setting it up, there's no sunk cost fallacy to worry about here.
+AUG 25 12:45 PM
+I was just thinking that actually lol
+AUG 25 12:46 PM
+Okay
+AUG 25 12:47 PM
+I definitely have questions, but I need to eat lunch first before I turn into a troll -- I shall return!
+AUG 25 12:48 PM
+Aye. Good. I will be here. As will [[j3d1h]] and [[1uxb0x]]. Should see if [[K]] is interested in joining you.
+AUG 25 12:48 PM
+(it can be easier when you have a buddy learning alongside you)
+AUG 25 12:48 PM
+Should be able to get back to it soon. [[K]] has homework though, so he will likely not be joining me. XD
+AUG 25 5:09 PM
+Cool. Well, you can do it first, and then show him.
+AUG 25 5:09 PM
+It will take time to get everything working; you'll have to transition into it. It might not work out of the box for you. There will be frustations, but overcoming them will be serious learning opportunities.
+AUG 25 5:11 PM
+I suggest either Debian, Ubuntu (a Debian derivative, and the most used distro), or Manjaro for now.
+AUG 25 5:11 PM
+https://manjaro.org/download/kde/ -- This desktop environment (DE) is very feature rich and gorgeous (though it has some pecularities and performance problems). I like it.
+AUG 25 5:14 PM
+I told [[K]] about my plans to use Lenox and he made faces at me xD
+AUG 25 5:14 PM
+Lol.
+AUG 25 5:14 PM
+He doesn’t want me to brick my new laptop but if I screw something up THAT badly I can just wipe it, right?
+AUG 25 5:15 PM
+Worst comes to worst, we just install Windows again (or can maybe even make Hackintosh for ya).
+AUG 25 5:15 PM
+Right
+AUG 25 5:15 PM
+You can't brick it.
+AUG 25 5:15 PM
+well* you won't
+AUG 25 5:15 PM
+He has no faith in me
+AUG 25 5:15 PM
+I don't think he knows what bricking means.
+AUG 25 5:15 PM
+Idk
+AUG 25 5:16 PM
+He just watched his brother Austin use Lenox once and attempted to get it working. He’s had a distaste for it ever since.
+AUG 25 5:16 PM
+It is very time consuming to learn.
+AUG 25 5:16 PM
+It is worth your effort.
+AUG 25 5:16 PM
+You also have reasonable tech support to back you up. =)
+AUG 25 5:17 PM
+But I think keeping it as a project to entertain me will be useful. Like a way more complicated rubix cube.
+AUG 25 5:17 PM
+Yes!
+AUG 25 5:17 PM
+And, far more useful in the end. It's a good path.
+AUG 25 5:17 PM
+You will want two computers for now. I suggest working on your laptop next to your desktop for a bit.
+AUG 25 5:17 PM
+One to guide and one to poke?
+AUG 25 5:18 PM
+[[j3d1h]], [[1uxb0x]], and I are happy to help. Plus, we can geek out, yo.
+AUG 25 5:18 PM
+[[k0sh3k]] uses Ubuntu, btw. But, she was fine with Manjaro as well.
+AUG 25 5:19 PM
+If you feel adventurous, willing to learn an interface unlike any you've used before, I recommend i3wm. The documentation is stellar! https://manjaro.org/download/i3/
+AUG 25 5:20 PM
+That's the one we all use. It's more keyboard-driven than mouse-driven, and it allows you to organize very complex workflows with ease.
+AUG 25 5:21 PM
+That one will feel completely alien to you, but windows managers are the correct tool in the end. KDE will feel normal within a day of use though.
+AUG 25 5:22 PM
+Imho, you are going to enjoy customizing your experience. You have a designer's eye, and both KDE and i3 let you make it your own very nicely.
+AUG 25 5:23 PM
+Yessssss
+AUG 25 5:24 PM
+Customization is what I like to hear.
+AUG 25 5:24 PM
+You need a thumbdrive to make a liveUSB. Download the iso, use a tool to install the iso onto the thumbdrive (has to be bootable), you may have to make couple changes in BIOS on the laptop, and then install. Manjaro's install has a guided installer, and you should probably stick with the defaults for now.
+AUG 25 5:26 PM
+You'll then want to check that you have all the basic functions you need. Does sound work? Does your resolution look right? Do your media and brightness keys function the way you prefer (you can customize these nicely too)? Can you connect to your router and the interwebs?
+AUG 25 5:28 PM
+It may work out of the box, and it may not. Depending on the problem, you may want to search the internet for your particular model and the issue you are having.
+AUG 25 5:29 PM
+Manjaro:Arch::Ubuntu:Debian
+AUG 25 5:29 PM
+The Arch Linux wiki is amazing (though at times tedious). 99% of what is found on their is applicable to Manjaro.
+AUG 25 5:30 PM
+You will find lots of guides and people talking about it online, but all too often, the Arch Wiki is simply the best source and guide.
+AUG 25 5:30 PM
+Okay, a bit of information overload
+AUG 25 5:33 PM
+TL;DR which do you think is the best for me to start with?
+AUG 25 5:33 PM
+I would Manjaro as my base distribution. It's great for beginners and experts. That's the one I would want to learn on (it's the one I found most useful for teaching my offspring too).
+AUG 25 5:35 PM
+Gotchya
+AUG 25 5:35 PM
+This feels like taking a plunge off the high-dive.
+AUG 25 5:38 PM
+Manjaro has some Official desktop environment (DE) isos and community driven. There are tradeoffs to them all. From the sounds of it, KDE is the better choice; it's not as high a diving board. You can always change to another DE later too.
+AUG 25 5:38 PM
+https://manjaro.org/download/kde/
+AUG 25 5:38 PM
+Well, good. Be confident in yourself. I know you can do this.
+AUG 25 5:39 PM
+So it talks about verifying that the download was not modified from the site you gave me and rattled off some terminology I don’t quite grasp
+AUG 25 5:40 PM
+Meh. Skip that verification.
+AUG 25 5:40 PM
+It's technically the correct thing to do, but I'm worried about it.
+AUG 25 5:40 PM
+Okay, you said I want a bootable USB stick for this?
+AUG 25 5:41 PM
+So I need to get a thumb drive before I’m actually ready to do this?
+AUG 25 5:41 PM
+Yes. I don't know how big the USB drive needs to be, but I can guarantee 8GB is large enough.
+AUG 25 5:41 PM
+Hmmm
+AUG 25 5:41 PM
+Right. You need an installation medium for an OS. Same for Windows, BSD, and all the others.
+AUG 25 5:41 PM
+I'm trying to remember if I have one lying around...
+AUG 25 5:42 PM
+I don't think your ultrabook has a DVD drive, but if it did, you could burn a DVD for this. I think the thumbdrive makes far more sense though.
+AUG 25 5:43 PM
+Also, I'm *Not* worried about the verification. If we had to make some very secure laptop, I would do it. Otherwise, I trust your download method.
+AUG 25 5:45 PM
+Good to hear
+AUG 25 5:48 PM
+So I have a thumb drive that is 7.6GB, likely the full 8.0 without any kind of installation software or whatever the sneak on thumb drives
+AUG 25 5:49 PM
+I reset it to factory settings so it should be safe
+AUG 25 5:49 PM
+Good enough?
+AUG 25 5:49 PM
+Yup, that will work.
+AUG 25 5:50 PM
+\o/
+AUG 25 5:50 PM
+Search for a tool to write the linux iso to your thumb drive.
+AUG 25 5:51 PM
+manjaro suggests ImageWriter or Rufus
+AUG 25 5:51 PM
+Both are excellent tools
+AUG 25 5:51 PM
+Mmmm, Rufus looks a little more intuitive to me so that's what we're going with
+AUG 25 5:53 PM
+portable version or regular? >_>
+AUG 25 5:56 PM
+Portable  says it will keep my settings from computer to computer?
+AUG 25 5:57 PM
+It won't matter. It's worth learning the difference later. You can run Linux entirely off a thumbdrive. There doesn't have to be any hard drive in the machine.
+AUG 25 5:58 PM
+Got it
+AUG 25 5:58 PM
+(this is generally a mistake, especially given your beautiful nvme SSD)
+AUG 25 5:58 PM
+Hahaha
+AUG 25 5:58 PM
+(but, it is necessary in other contexts)
+AUG 25 5:58 PM
+I read that Linux is insanely tiny compared to Windows which I am excited about
+AUG 25 5:58 PM
+MOAR STORAGE
+AUG 25 5:58 PM
+Not that this laptop has the guts to hold very much, but ya know
+AUG 25 5:59 PM
+Oh, yes. The smallest versions of Linux fit inside ~5MB.
+AUG 25 5:59 PM
+what whaaaaat
+AUG 25 5:59 PM
+You can run linux on a tiny, tiny potato.
+AUG 25 5:59 PM
+This just in: Programmers are fucking magicians
+AUG 25 5:59 PM
+Some people spin up thousands of virtual machines on a single piece of hardware, and Linux is also well-suited to that. Linux is also used on the vast majority of super computers.
+AUG 25 6:01 PM
+(Sorry, I'm giving you information overload, but you can always re-read what I tell you later)
+AUG 25 6:01 PM
+I'm following better now, just a little flustered because I am stupidly tired for some reason
+AUG 25 6:02 PM
+But naps are for quitters
+AUG 25 6:02 PM
+So something I am excited about, even if it will take me awhile to get there, is being able to do whatever I want with my computer. I am honestly more and more annoyed with how Windows restricts access to its own software. I get that they're trying to stupid-proof it to some extent, but I also am not comfortable knowing what hides in the bones of my computer.
+AUG 25 6:04 PM
+No doubt.
+AUG 25 6:04 PM
+=)
+AUG 25 6:04 PM
+Okay, Rufus is installed. 
+AUG 25 6:04 PM
+Keep at this for a year, and you'll only use Windows when you must.
+AUG 25 6:04 PM
+This might be an important model to have in your head: Linux^^tm^^ is a "kernel" which controls the hardware. It doesn't "do" anything by itself generally speaking. All of the useful stuff sits on top of the kernel in "userspace." The GNU ecosystem is this giant ecosystem stream of software from which people cherrypick to construct their distributions. The desktop environment (KDE) is an example.
+AUG 25 6:05 PM
+Android uses the Linux kernel, but it doesn't use the GNU ecosystem directly (though many of the tools which have arisen for it do use GNU...and, in fact, you can run Linux distros inside Android!).
+AUG 25 6:06 PM
+Manjaro is a distribution which uses the Linux kernel (in fact, they allow you to switch between kernel versions very nicely).  Manjaro mirrors the Arch userspace package management, and it uses "pacman" (and the AUR) for installing software vetted by groups of people who are doing that cherry picking and configuration of GNU (and proprietary) software.
+AUG 25 6:08 PM
+At first, pacman will seem archaic, but it in time you will find it ridiculously fast and elegant.
+AUG 25 6:08 PM
+You generally won't go online to install the tool by downloading some executable (like you just did for Rufus on Windows) unless you know you must. Instead, you will use your package manager to install the vast majority of your software.
+AUG 25 6:09 PM
+Interesting
+AUG 25 6:10 PM
+Okay, help this dummy
+AUG 25 6:10 PM
+I have Rufus now, so I need to...?
+AUG 25 6:11 PM
+I think you should search Google for "How to install linux iso onto thumb drive with Rufus"
+AUG 25 6:11 PM
+Here is how you can use me best:
+AUG 25 6:12 PM
+Come to me after you have searched, tried things, and are stuck.
+AUG 25 6:12 PM
+I know it is way faster for me to tell you step by step.
+AUG 25 6:12 PM
+But, the process of searching for the answer is fundamental to this exercise.
+AUG 25 6:12 PM
+I should know better than to think that YouTube doesn't have anything on this
+AUG 25 6:12 PM
+Right
+AUG 25 6:13 PM
+Youtube has tons, and you should use it. In time, I think you will find reading will be radically better.
+AUG 25 6:13 PM
+When you have an error message, the first thing you do is search it, like a knee jerk reaction.
+AUG 25 6:14 PM
+When you are stuck, tell me what you have tried. You may need to give me an error log or context. I can help search with you, or maybe I've encountered a similar problem and might have an intuition about how to approach it.
+AUG 25 6:15 PM
+I can tell you've been teaching your kids for awhile
+AUG 25 6:15 PM
+You said "NO, do it yourself" xD
+AUG 25 6:16 PM
+That is high praise. Thank you. =)
+AUG 25 6:16 PM
+I appreciate it though -- you're right, I need to do this on my own
+AUG 25 6:16 PM
+Well, for as long as I can
+AUG 25 6:16 PM
+Yes. And, of course, I'm here to catch you.
+AUG 25 6:16 PM
+I'm in the pool already as your lifeguard.
+AUG 25 6:16 PM
+So then it's time to BREAK STUFF
+AUG 25 6:17 PM
+\o/
+AUG 25 6:18 PM
+I'm also NOT an expert in this topic. I'm an amateur.
+AUG 25 6:18 PM
+Fuck yeah!
+AUG 25 6:18 PM
+Meh, but you're at least far in it enough to know what you don't know
+AUG 25 6:18 PM
+I'm literally granny-doesn't-know-how-to-turn-this-on level lol
+AUG 25 6:18 PM
+Go break shit. Take good notes. By the time you are my age, you will know far more than I do now.
+AUG 25 6:18 PM
+Dingus level 5000
+AUG 25 6:22 PM
+You gotta be kinder to yourself, lol.
+AUG 25 6:23 PM
+Can't create a bootable usb if you don't actually download the software you want to install on it xD
+AUG 25 6:23 PM
+But [[h0p3]]
+AUG 25 6:23 PM
+That is true, lol. =)
+AUG 25 6:23 PM
+Criticizing myself is how I compete...with myself. It's a delicate process. >_>
+AUG 25 6:24 PM
+I don't deny it. I'm there with you.
+AUG 25 6:24 PM
+It's super important to have a sense of humor about it too.
+AUG 25 6:24 PM
+Exactly
+AUG 25 6:25 PM
+Silly fact while I wait for this download -- the USB I'm using looks like an old MP3 player/iPod
+AUG 25 6:26 PM
+It will be a novelty piece some day. You'll look at it like an LP record. "But, it has the warm, fuzzy tone, that's why I love this USB drive so much...it's more authentic feeling."
+AUG 25 6:27 PM
+lolol
+AUG 25 6:27 PM
+I already look at floppy discs that way. I was sad when people transitioned to CDs because it didn't have that fun little metal slider I liked to fiddle with.
+AUG 25 6:28 PM
+Must have USB spinners somewhere round here
+AUG 25 6:28 PM
+I think they should flip some of the USBs on the spinner upside-down, that way you don't know which direction to use.
+AUG 25 6:29 PM
+lol...
+AUG 25 6:29 PM
+I"m honestly shocked I haven't broken a USB port trying to get it in
+AUG 25 6:31 PM
+I can only flip it so many times
+AUG 25 6:31 PM
+Oh cool, it wipes the usb for you. Oh well. 
+AUG 25 6:35 PM
+I have pressed buttons and I *believe* manjaro is installing on the USB.
+AUG 25 6:36 PM
+Aye. In fact, if you need that USB again, if you are using Windows to clear it up, I suggest the HP USB Utility (you'll find it as shareware/freeware around some sites).
+AUG 25 6:36 PM
+\o/
+AUG 25 6:36 PM
+Noice
+AUG 25 6:37 PM
+You'll probably notice that the USB drive will say it has less space on it in Windows. It's a bit trickier than a standard reformat to get back your space on that thumdrive in Windows sometimes.*
+AUG 25 6:38 PM
+Yeah, I figured
+AUG 25 6:38 PM
+Rufus will overwrite it regardless, btw.
+AUG 25 6:38 PM
+Perfect, exactly what I want
+AUG 25 6:38 PM
+TAKE IT ALL
+AUG 25 6:38 PM
+You might, for example, decide you want to try a totally different version of Linux out. You might also wish to reinstall if something goes terribly wrong.
+AUG 25 6:39 PM
+The "oh shit I dun fucked up" option lol
+AUG 25 6:39 PM
+I try to make a recipe for every system I build.
+AUG 25 6:39 PM
+https://philosopher.life/#monster-16%3A%20Arch%20Install
+AUG 25 6:39 PM
+You could pull out my SSD and pop a new one in, and I could have it back up in 30 minutes flat.
+AUG 25 6:40 PM
+Dayum
+AUG 25 6:40 PM
+When you have a problem in your software engineering, make sure to write about it. Perhaps years later, you will want to search for it or re-use it. This goes for not just for learning to use Linux, but for any kind of work with your computer (and, imho, just anything more broadly).
+AUG 25 6:42 PM
+For now, keep it in a text file on your desktop. Throw some datestamps on it. You can merge it into your wiki later.
+AUG 25 6:43 PM
+I can't count the number of times I've had to search my own wiki to find the answer to that problem I know I've faced but don't remember how I fixed.
+AUG 25 6:43 PM
+Must be dozens of times.
+AUG 25 6:43 PM
+So
+AUG 25 6:44 PM
+I was literally in the process of making a .txt file when you sent that to me
+AUG 25 6:44 PM
+Good! =)
+AUG 25 6:44 PM
+Imma need you to stop spying on me thanks ;p
+AUG 25 6:44 PM
+(I'm kidding)
+AUG 25 6:44 PM
+Lol.
+AUG 25 6:44 PM
+I think this means I did something right
+AUG 25 7:42 PM
+=D
+AUG 25 7:43 PM
+Image attached to message
+AUG 25 7:43 PM
+Fuck yeah
+AUG 25 7:43 PM
+I am booting from my USB rn. Baby steps.
+AUG 25 7:44 PM
+You can do the default wizard for now. You may run into a UEFI problem, and we'll solve it if and when we get there.
+AUG 25 7:47 PM
+>_>
+AUG 25 7:50 PM
+As in don’t change the settings on this bootup screen?
+AUG 25 7:51 PM
+Naw, go for it. Just run it, get into a manjaro live environment, and install
+AUG 25 7:52 PM
+Too late xD
+AUG 25 7:54 PM
+I was already poking things. I’m following along with the Manjaro user guide
+AUG 25 7:54 PM
+But I hit the boot button and now I see lots of green OKs, so I think we’re good. >_>
+AUG 25 7:56 PM
+Just remember: if it goes wrong, people will die.
+AUG 25 7:57 PM
+RIP
+AUG 25 7:58 PM
+XD
+AUG 25 7:58 PM
+Okay so I’ve got the installer up... but it’s telling me I’ve not got enough space to install
+AUG 25 8:04 PM
+Show me a picture, please
+AUG 25 8:04 PM
+You sure you've chosen the correct drive?
+AUG 25 8:04 PM
+You definitely have more than enough space. Maybe it's targeting some tiny partition on your SSD or the USB drive itself.
+AUG 25 8:05 PM
+Image attached to message
+AUG 25 8:06 PM
+Maybe it’s trying to install to my USB for some reason??
+AUG 25 8:07 PM
+Hrm. I think you are at the opening screen too.
+AUG 25 8:11 PM
+Do me a favor and open BIOS and make sure secure boot is turned off
+AUG 25 8:11 PM
+(restart computer, try del or f2, or whatever key it tells you)
+AUG 25 8:12 PM
+Secure boot should be — I turned it off before
+AUG 25 8:16 PM
+Should I first wipe my drive entirely? I am technically dual-booting atm
+AUG 25 8:17 PM
+Oh
+AUG 25 8:17 PM
+you want to dual boot
+AUG 25 8:17 PM
+I didn't know. It has been many years since I've set up a dual boot.
+AUG 25 8:17 PM
+Hmmmmmm
+AUG 25 8:17 PM
+This site is saying I should create a partition from Windows by “shrinking some partition”
+AUG 25 8:18 PM
+Correct
+AUG 25 8:18 PM
+Oooohhhhh I think I get what it’s saying. Well crap, now I need to go back into Windows xD
+AUG 25 8:18 PM
+I think my C: partition is taking up the whole drive (if that is even how that works)?
+AUG 25 8:19 PM
+Take the plunge fully. Kill Windows. When you arrive on dry land, burn your ships.
+AUG 25 8:20 PM
+The temptation will be too great otherwise, lol.
+AUG 25 8:20 PM
+We'll make a VM for your Windows tools (like Microsoft Word). Windows will run inside Linux for you.
+AUG 25 8:21 PM
+Aye
+AUG 25 8:21 PM
+So I should wipe Windows entirely from my hard drive first and then install Linux? Is that what I’m reading?
+AUG 25 8:21 PM
+That is what I would do.
+AUG 25 8:22 PM
+Got it. Gotta look up how to do that first lol
+AUG 25 8:22 PM
+Should be able to do it straight from the liveUSB environment.
+AUG 25 8:23 PM
+Oh?
+AUG 25 8:32 PM
+Yes. If you can boot off it, you should be able to see the entire drive from it.
+AUG 25 8:33 PM
+So after browsing the webs
+AUG 25 9:08 PM
+I’m seeing that this is not a unique  problem, but not exactly common either. I have read to use gParted, whatever that may be, or to go into my BIOS settings and change the SATA controller mode.
+AUG 25 9:09 PM
+Yes, try AHCI, please
+AUG 25 9:10 PM
+o7
+AUG 25 9:10 PM
+So. Much. Googling. XD
+AUG 25 9:17 PM
+Aye. Tons and tons.
+AUG 25 9:18 PM
+If I can get this to work, I feel like I will have accomplished something.
+AUG 25 9:18 PM
+You are lost in the desert.
+AUG 25 9:18 PM
+Wooooo
+AUG 25 9:18 PM
+At least I have a map
+AUG 25 9:18 PM
+You made your first bootable thumb drive; I consider it an accomplishment. =)
+AUG 25 9:18 PM
+!!!
+AUG 25 9:19 PM
+ITS WORKING NOW
+AUG 25 9:19 PM
+!! =)
+AUG 25 9:19 PM
+Bitchin
+AUG 25 9:19 PM
+Is it normal for laptops to be this “protected” when trying to mess with the OS?
+AUG 25 9:20 PM
+From particular brands, yes.
+AUG 25 9:21 PM
+This is a problem that has grown worse over time.
+AUG 25 9:21 PM
+We are lucky to have so many 1337 hackers who enable us to be free and to own our machines.
+AUG 25 9:21 PM
+Is true
+AUG 25 9:22 PM
+Is “replace a partition” or “erase disk” a better option in this case?
+AUG 25 9:24 PM
+Just erase it.
+AUG 25 9:24 PM
+Welcome to working with me: I ask SO many questions lol
+AUG 25 9:24 PM
+The default settings should add partitions. Mostly like an EFI partition, definitely a root, and possibly a home and swap.
+AUG 25 9:25 PM
+Oh, lol, don't worry.
+AUG 25 9:25 PM
+You would only want to replace the partition if you were hoping to preserve other partitions.
+AUG 25 9:25 PM
+Ah, I see
+AUG 25 9:26 PM
+Standard procedure is to have "/" separate from "/home" so that you can reinstall the OS onto root without affecting your home.
+AUG 25 9:26 PM
+If the default wizard doesn't work for you, then we will do it manually.
+AUG 25 9:27 PM
+Okay, the default wizard seems to have completed installation
+AUG 25 9:42 PM
+So I should be able to boot from my main hard drive and not use the USB anymore, yeh?
+AUG 25 9:42 PM
+Uhhhhhh. I tried opening my BIOS after it rebooted and now it’s just sitting at a black screen.
+AUG 25 9:45 PM
+Wait, things are working now. I think I got it.
+AUG 25 9:54 PM
+And I think I am good for tonight — my brain is starting to get tired. I will mess with it more laters.
+AUG 25 9:54 PM
+Congratz, you did it. =) Sleep well.
+AUG 25 10:16 PM
+Wooooooo
+AUG 25 10:16 PM

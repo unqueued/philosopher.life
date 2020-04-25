@@ -1,0 +1,27 @@
+// Lands - 25
+20 Island
+1 Dust Bowl
+4 Mishra's Factory
+
+// Permission - 16
+4 Force Spike
+4 Mana Leak
+4 Counterspell
+4 Force of Will
+
+// CA & CQ - 8
+4 Impulse
+4 Fact or Fiction
+
+// Board Control - 5
+2 Oblivion Stone
+1 Nevinyrral's Disk
+1 Capsize
+1 Wipe Away
+
+// Wincons - 6
+2 Jace, the Mind Sculptor
+1 Vendilion Clique
+1 Snapcaster Mage
+1 Vedalken Shackles
+1 Staff of Nin

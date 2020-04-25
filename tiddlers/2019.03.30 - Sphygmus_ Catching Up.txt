@@ -1,0 +1,53 @@
+2019.03.29
+[1:51 PM] robotic_scarab: I'm really grateful to have the wiki reviews in catching up with your wiki!
+[1:51 PM] robotic_scarab: i was behind further than the Recent tab went, and the wiki reviews were my way back :)
+
+2019.03.30
+[12:51 AM] h0p3: :smiley:
+[12:53 AM] h0p3: I've been thinking about a tool for {[[Vault]]} or even just search to enter a date range.
+[12:54 AM] h0p3: Wiki Review does the trick with commentary. Hard to beat.
+[12:54 AM] h0p3: I've had to lookup older reviews more than once this week.
+[12:56 AM] h0p3: Firmcoding button is online. Core Daily Requirements All-In-One button is otw. The two buttons go together well enough: after editing title.Titles we can firmcode them into directories. A [[Monthly Auditable]] button is working now too (it is precarious).
+[12:14 PM] h0p3: I've enjoyed reading your thought about work, btw.
+[2:16 PM] robotic_scarab: i can see a date range search function being very useful
+[2:16 PM] robotic_scarab: saw the progress on the firmcoding buttons! that's awesome!
+[2:17 PM] robotic_scarab: i hope they make repetitive tasks go more smoothly
+[2:17 PM] robotic_scarab: though i've also read about your bob worries...I would be very unnerved to be losing so much writing :\
+[2:18 PM] robotic_scarab: given that i'm working in retail, I feel fortunate to be working in the specific retail area I'm in
+[2:19 PM] robotic_scarab: though I do hate it a decent amount, there are also aspects I find to be positive/fulfilling
+[2:19 PM] robotic_scarab: but it pays the bills XP
+[4:55 PM] h0p3: Aye, Bob has been a pain. There's nothing I can replace it with though. Lol. So far, the upgrade has helped. Jed has been releasing a lot this past day. /fingers-crossed
+[4:56 PM] h0p3: Every time I think of search, I realize I just want that [[Search of h0p3]]. I want it to be easy to create custom searches of any kind.
+[4:56 PM] h0p3: We're trying out Kin+Locator
+[4:56 PM] h0p3: Fascinating tool, and I think it fits our wikis well. Seems like another powerful pattern-finding tool.
+[4:57 PM] h0p3: I'm always curious to  know how effectively you remember the space and relationships of your wiki.
+[4:57 PM] h0p3: Even the public side is complex enough that I can't see it; it's more like there are evolving landmarks for me.
+[4:59 PM] h0p3: You got me thinking more about whether or not we could implement text substitutions and what not inside the wiki itself. https://github.com/welford/twmousetrap
+GitHub
+welford/twmousetrap
+a port of http://craig.is/killing/mice for tiddlywiki5 - welford/twmousetrap
+
+[5:00 PM] h0p3: BTC's tooling might also work.
+[5:01 PM] h0p3: I'm not convinced danielo's keyboard snippets plugin is made for doing substitutions.
+[5:04 PM] h0p3: I'm glad it pays the bills and has positive/fulfilling aspects. I'm hoping your coding becomes more integral to your money-making. It sounds like that is a part you would enjoy a good deal.
+[6:50 PM] robotic_scarab: I'm glad the upgrade has helped! I hope that stays the case.
+[6:50 PM] robotic_scarab: searching is interesting
+[6:51 PM] robotic_scarab: i feel like so often I remember something and try to find it and the thing that works most often is typing the random words it reminds me of into google - and somehow it pops up
+[6:51 PM] robotic_scarab: it's not easy to figure out what links will bring up the associations to specific pieces of information
+[6:52 PM] h0p3: Yes. Makes good sense. It's especially useful when I can't remember a word, but I can remember a related synonym or family word or something adjacent.
+[6:53 PM] robotic_scarab: i think with the space & relationships in my wiki it's so much by feeling - I have a hunch this goes there, and something else associates with y and zed is over here by itself - and in some ways it's all very mutable - but there are still specific areas that seem distinct enough to me
+[6:53 PM] h0p3: Hunches and gunkiness.
+[6:53 PM] robotic_scarab: yes!
+[6:54 PM] robotic_scarab: also, I love that you created a tiddler for (one of) the longest english word today
+[6:54 PM] h0p3: lol. :smiley:
+[6:54 PM] robotic_scarab: i was sharing my old bookmarks with dziggetai (from like...2010) and one of the listed ones was "longest english word - wikipedia"
+[6:55 PM] robotic_scarab: and so then of course I had to share this video with him because i love it so much
+[6:55 PM] robotic_scarab: https://m.youtube.com/watch?v=fHxO0UdpoxM
+YouTube
+Channel 4 News
+Liam Dutton nails pronouncing Llanfairpwllgwyngyllgogerychwyrndrob...
+
+[6:55 PM] robotic_scarab: so you get it too!
+[6:55 PM] h0p3: He asked me to think about the word.
+[6:55 PM] h0p3: That dude nailed it!
+[6:57 PM] robotic_scarab: :relaxed:

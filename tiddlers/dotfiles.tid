@@ -1,10 +1,10 @@
 aliases: [[dot files]] [[Dotfiles]] [[Dot Files]] [[Dot files]] [[dotfile]] [[Dotfile]]
 created: 20190705031517063
 fc-filter: [tag[dotfiles]]
-modified: 20190711112002376
+modified: 20191129194313566
 tags: filter-list config Computing Collection Leet
 title: dotfiles
 
-//I may not be a skilled computer user, but I adore GNU/Linux and the terminal (when I'm not frustrated, ;P). These files are valuable to me. Unless I find a way to automatically update in a manner I find acceptable, these are just manually updated backups, thus these might not be perfectly up-to-date. If you see something exceptionally stupid or something I'm obviously missing, let me know.//
+//I may not be a skilled computer user, but I adore GNU/Linux and the terminal (when I'm not frustrated, ;P). These files are valuable to me. These should be automaticaly up-to-date. If you see something exceptionally stupid or something I'm obviously missing, let me know.//
 
 {{dotfiles: Focus}}

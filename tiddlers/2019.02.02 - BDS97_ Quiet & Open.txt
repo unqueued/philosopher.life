@@ -1,0 +1,142 @@
+[15:32:35] h0p3: I'm going to be writing (and talking, if I'm lucky) to the EFF about Atropos. Is there anything in particular you want or need said or not said?
+[15:42:33] BDS97: home: I don't know, this is still very early days, a lot of things are subject to change, so I can't really pinpoint anything to either say or not say
+[15:42:50] h0p3: Aye.
+[15:43:16] BDS97: home: We have our goals, I'm pretty confident we can reach them, and then we have visions which are still a bit blurry
+[15:43:33] BDS97: home: But I don't even have a timeframe in mind yet
+[15:43:36] h0p3: Yup. And, I fully appreciate that. I think that's a good thing too, in a way.
+[15:44:39] BDS97: home: Visions are definitely great, they'll be essential from the point when we release anything publicly
+[15:44:59] BDS97: home: But for now I'm not sure if I could convince anyone about them or even our current goals
+[15:45:10] BDS97: home: No idea about you in that regard
+[15:47:00] h0p3: I will need to be able to say why I do not directly support Tor anymore (though it is wildly better than nothing). I will need to say what I think is wrong about its competitors, e.g. i2p. I need to show I have a personal stake in it, that I have a vision of what it ought to be (however blurry), and that I'm passionate about privacy and surveillance. That is what this job is about. If I can be cogent and passionate, that may be enough.
+[15:48:25] BDS97: home: That's great, and yeah, now I see why you'll need to speak to EFF about Atropos
+[15:49:30] BDS97: home: The way I see it, I still personally own atropos.io and /r/atropos, could set up a quite good public presence in a week at most
+[15:50:09] BDS97: home: The reason I didn't even mention that idea yet is I don't think we're ready
+[15:52:12] BDS97: home: But if EFF understands that then it's alright, like we previously discussed our goals are very much aligned, I think them knowing about the whole thing would be actually helpful
+[15:52:36] BDS97: home: The only thing I don't want to happen is to get out there prematurely
+[15:52:51] h0p3: Aye. The spec is still in planning (and for good reason). I do not intend to apply one iota of pressure on you. My goal is to be valuable to you because I believe in this. I have been thinking about how I can be valuable to you. If you think I shouldn't talk about Atropos directly at all, I won't (though they can know if they decided to look). 
+[15:54:37] h0p3: I can make my case against the centralization of information power without pointing to my prescriptive belief or project. Atropos represents something far more important to me than this job (and I think highly of the job). 
+[15:55:44] h0p3: So, I take it back: I'm //thinking about// writing to (and talking, if I'm lucky) to the EFF about Atropos.
+[15:56:11] BDS97: home: I appreciate that, and I don't want to limit you either
+[15:56:48] BDS97: home: I think it's important for EFF to see the full picture about you too, and your opinion on Atropos could be a considerable part of that
+[15:57:19] BDS97: home: But this project is very ambitious, I think we both know that
+[15:57:26] h0p3: Aye. Borderline insane.
+[15:57:38] h0p3: What dreams are made of.
+[15:57:57] h0p3: It's ideal.
+[15:57:58] BDS97: home: If all goes to plan, we're laying down the foundation of digital privacy for the next few decades at least, and who knows what will follow after that
+[15:58:01] BDS97: home: So, two things
+[15:58:31] BDS97: home: 1. I want to do this right, even if it means we'll be taking another two years to get to something that's ready for the public
+[15:58:37] BDS97: home: (I seriously hope we won't need that though)
+[15:58:39] h0p3: Agreed!
+[15:58:53] h0p3: You are Linus Torvalds to me.
+[15:59:03] h0p3: (but way nicer)
+[15:59:13] BDS97: home: Wow, thank you
+[15:59:42] BDS97: home: And don't worry, I can rant too if needed, but I aim to keep to Gordon Ramsay's style and only do it when I'm sure someone should be competent
+[15:59:50] h0p3: lol!
+[16:00:06] BDS97: home: Anyway 2., whenever we share our vision with the public, there will be skeptics
+[16:00:11] h0p3: No doubt.
+[16:00:45] BDS97: home: I want the project to be in an advanced enough state that we can handle them
+[16:01:01] BDS97: home: Really don't want this to end up as the Star Citizen of digital privacy
+[16:01:28] h0p3: A large number of people even competent enough to appreciate what it is make a living on this thing not existing. For it to even be remotely viable, it would have huge enemies.
+[16:02:15] h0p3: Bernstein uses Qubes for a reason.
+[16:02:26] BDS97: home: Any invention at this scale will create and destroy industries, I agree, we will inevitably have some enemies
+[16:02:29] BDS97: home: qubes?
+[16:02:47] BDS97: home: oh, I see
+[16:04:20] h0p3: Make no mistake, my friend: I believe you legitimately endanger your life in this project. It's exactly why it should already exist.
+[16:05:23] BDS97: home: Yeah, you can make that reason #3
+[16:05:26] BDS97: home: Not lives, specifically
+[16:05:57] BDS97: home: But if we choose to make it public too soon, people incentivized to take it down will get a head start
+[16:06:47] h0p3: I tell you what, I ask you think about my question for a bit. We don't need an immediate answer.
+[16:06:57] h0p3: I'm going to be working on the letter and writing samples.
+[16:07:48] BDS97: home: I have no problem with telling this to the EFF, but I think we have to make sure they understand it's a secret project for now
+[16:08:48] BDS97: home: Hell, I'm typing this into an app that I have on my computer for the sole reason of talking with you securely, because I don't trust even Reddit with this info
+[16:09:42] h0p3: Even when we are open, there is no reason to be caught in unnecessary dragnets at this point.
+[16:12:08] h0p3: Alright, so I will be talking about it, but it will be something I ask they do not point to with their firehose of attention they can draw to a project until the time is right (which may even be years from now). 
+[16:12:32] BDS97: home: Awesome, that sounds perfect to me
+[16:12:42] BDS97: home: Also, about that head start, fun story, I have actually considered to go with a simpler kind of onion routing at first
+[16:13:07] BDS97: home: Not because I think it would have been more secure or efficient
+[16:14:09] BDS97: home: But without the ever-changing routes we'll have in the new spec, profiling the bytes transferred on connections could have possibly untangled the network
+[16:14:23] BDS97: home: I do not have the technology to do this
+[16:14:47] h0p3: You mean the size of packets give too much information way?
+[16:14:49] BDS97: home: And to execute it on a global scale, you need much more than just a simple know-how
+[16:15:00] BDS97: home: Not necessarily the size, the amount of packets too
+[16:15:28] BDS97: home: Think of the network as "still water" for a moment
+[16:15:34] h0p3: This is a place for proofs, I assume.
+[16:15:49] BDS97: home: If you suddenly download a large file, it creates a wave
+[16:16:14] BDS97: home: If someone is able to observe the entire network, they can see the sudden spikes in all the important connections, and find that there is a tunnel between you and the other node
+[16:16:39] BDS97: home: This takes time, and given that the network will not be still water but a huge chaotic mess, this takes even more time
+[16:17:24] h0p3: You think with ML they might be able to untangle the noise?
+[16:17:25] BDS97: home: But still, with sufficient data and technology, long-lasting tunnels could be traced with well-made pattern recognition
+[16:17:30] BDS97: home: Yes, exactly
+[16:17:49] BDS97: home: The new protocol complicates this easily
+[16:17:53] BDS97: home: But here's the kicker
+[16:18:12] BDS97: home: I didn't want to go with the new protocol because I wanted them to spend all that effort and research on making this happen
+[16:18:35] h0p3: It may be an arms race we can win.
+[16:18:37] BDS97: home: Set up some research nodes on our side, look for anomalies, try to determine it if they have actually done it
+[16:19:15] BDS97: home: And then, when all the millions (possibly billions) of dollars have been spent on untangling Atropos, after all the infrastructure has been built out
+[16:19:28] BDS97: home: We would have sent out a single patch, invalidating it all in a matter of days
+[16:19:39] h0p3: Like patching a game for bots.
+[16:19:45] BDS97: home: Exactly
+[16:19:55] BDS97: home: It would have been a statement, an example of what happens when you make an effort against Atropos
+[16:20:21] BDS97: home: And the reason we're not going to do that isn't that I'm afraid of a backlash or something
+[16:20:38] BDS97: home: It's just that this part of Atropos is so low-level I no longer believe we could distribute the patch fast enough
+[16:21:07] h0p3: It will be hardcoded. It will be irreversible like TCP specs.
+[16:21:20] h0p3: It's only the Hub that can fight back.
+[16:21:45] BDS97: home: And the Hub will, that one is likely going to be the most controversial piece of the puzzle
+[16:22:08] BDS97: home: Creating the technology for someone determined enough to evade the eyes of censorship and surveillance is one thing
+[16:22:31] BDS97: home: Making it convenient is a whole another level
+[16:23:45] h0p3: Aye. It requires making decisions on behalf of others. Hard to get that right, and it's even harder to make it turnkey on all platforms.
+[16:24:03] BDS97: home: I think that's going to be the point where not only the authoritarian regimes of the world, but whole industries will join the fight against Atropos
+[16:24:16] h0p3: To define the Hub.
+[16:24:16] BDS97: home: That's partly why I want other industries to depend on the network at that point
+[16:24:47] h0p3: Decentralizing our ability to define the Hub is not a simple problem.
+[16:25:19] BDS97: home: Agreed on that
+[16:26:16] BDS97: home: I'm not afraid for my life in this, if we make smart moves and maybe don't travel to China I don't think we will have a problem like that
+[16:26:42] BDS97: home: But at the point when we're at the Hub I want this to not depend our existence anymore
+[16:26:48] h0p3: Good!
+[16:27:01] BDS97: home: Atropos got the name from the inexorable god of death
+[16:27:14] BDS97: home: It is inevitable, uncontrollable, unstoppable
+[16:27:20] h0p3: I have another request.
+[16:27:42] BDS97: home: When we get to the point where anyone would make an organized effort to get us to stop it, I want it to be unstoppable even for ourselves
+[16:28:57] h0p3: Yes, indeed. Pandora's box has to be irreversibly opened.
+[16:31:36] h0p3: It is possible I could learn how to do this, I do not know. I'm a fan of modal logic and metalogic (which is not to say I am skilled). One thing I considering going into long ago was formal verification. I can say that I prefer minimizing the rules of inferences to make proofs about a language (because I'm lazy). Are there any important steps to take for possible ways to formally verify or make proofs about the protocol? That may be valuable to the construction (and reconstruction) of the Hub. I do not know. 
+[16:33:02] BDS97: home: I don't know how much I could help you with that
+[16:33:48] BDS97: home: While I do have a good understanding of cryptography (which was actually fueled by the first time we started planning this project), I drew a line for myself
+[16:34:09] BDS97: home: I do not go below established primitives if I can
+[16:34:55] BDS97: home: What I mean by this is, for example, I use x25519, implement it right, rely on its security guarantees and build on those
+[16:35:08] h0p3: Practical, quite reasonable, yup. Good.
+[16:35:11] BDS97: home: But I don't dive into how and why it works beyond a very superficial understanding
+[16:35:39] h0p3: Then I will hyperread and think. I will likely find no doorways or reasonable thoughts. I will think anyways.
+[16:36:30] BDS97: home: In cryptography, this is a very defined line, and a huge jump of complexity when you pass it
+[16:36:44] BDS97: home: So, about formal verification, the way I understand it is it's past that line
+[16:37:03] BDS97: home: And I cannot guide you there for the simple reason that I've never been there myself
+[16:37:34] BDS97: home: But I agree, it's great, if you find a way to do it that would be awesome
+[16:37:48] BDS97: home: To be honest, I'm not sure about it, formal verification might be much easier than devising your own stream cipher
+[16:39:35] BDS97: home: So yeah, at the risk of sounding like a total buzzkill, I can't help you with that, but if you feel like you could do it then don't stop
+[16:40:48] h0p3: I don't know if I could. I was asked to apply to a PhD in CS that would focus on it (since I have some background in logic). I suggest I am not nearly skilled enough, and you aren't being a buzzkill. I adore your honesty. I will look. It may amount to nothing, and I am happy to spend my time figuring out I have no business trying.
+[16:42:09] BDS97: home: You have always been way more philosophical than me, and this could very well be an advantage there
+[16:42:34] BDS97: home: And a lot more willing to dive deep down into logic just for the sake of it
+[16:42:53] BDS97: home: To be perfectly honest, I'm a mix of practical and lazy in that regard
+[16:43:11] BDS97: home: Whenever I dive deep, I always do so with a certain goal, and when I don't have one, I coast on the surface comfortably
+[16:44:16] h0p3: Preach. Lol.
+[16:44:46] BDS97: home: I know some people back from school, some I had a lot in common with, both in interests, knowledge, and I think intelligence
+[16:45:16] BDS97: home: If I put in the effort, I could always match them in math, programming, or other logic-heavy things
+[16:45:35] BDS97: home: Interestingly, they're all off to uni now, learning very advanced things, becoming researchers, etc.
+[16:46:27] BDS97: home: Meanwhile, I'm sitting at home, sketching up a microservice for a freelance customer, and talking to you about reinventing the internet
+[16:46:44] h0p3: Lol. That sounds way more awesome to me. =)
+[16:47:07] h0p3: (I think I'm done with academia)
+[16:47:55] BDS97: home: Yeah, I agree on that, but it's a bit weird to think it's because I was always too lazy to dive deep and devote a larger effort into properly understanding some very complex things
+[16:49:11] h0p3: There are 10,000 things, and it's hard to pick out what is really most salient in them.
+[16:49:42] h0p3: So many shapes emerge from the flatness of the marble slab. I keep looking for [[The Beautiful]] sculpture within.
+[16:50:06] h0p3: Also, your XKCD reference was excellent. =)
+[16:50:21] BDS97: home: wait a sec
+[16:50:21] h0p3: On your git repo*
+[16:50:25] BDS97: home: oh, I see
+[16:50:29] BDS97: home: thanks
+[16:50:47] BDS97: home: Sorry, I thought I've accidentally referenced an xkcd in this conversation
+[16:51:52] BDS97: home: Oh wait, you're looking at the art generator?
+[16:51:59] BDS97: home: Well, yeah, it's you after all
+[16:53:48] BDS97: home: it has a weird bug by the way, if you zoom in too much you'll be able to reach some anomalies
+[16:54:18] h0p3: Lol.
+[16:54:29] BDS97: home: I like thinking of it as the subconscious in Inception, even though it has a much simpler explanation
+[16:55:27] BDS97: home: anyway, it's ot that important, just thought you'd find it interesting
+[16:56:20] h0p3: I will look for the anomalies. =)

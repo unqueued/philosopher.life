@@ -1,0 +1,18 @@
+created: 20200210181231776
+modified: 20200211070132809
+tags: [[Wiki Audit]]
+title: 2020.02.10 - Wiki Audit: Push
+
+* //Fundamental Disagreement// tag nixed. 
+* [[Smalltalk]] revamped.
+** I should start laying more [[T42T]] groundwork.
+* Merge and purge.
+** My thinking is that one-liners might as well just go into [[CTS]]. There's no reason to blow an entire tiddler on a log that might just fit in there nicely. 
+* Using strikethroughs in [[Wiki Review]] to indicate purged content.
+** Alias ambiguity for [[Review]] resolved.
+* Nm, devoldified [[X-Section]] 
+** It should be harder to find than that.
+* Thinking about [[chameleon]]'s claim about room for improvement on [[Review]].
+** One thing that stands out to me is that the [[Review]] is holding metadata about each tiddler. Perhaps this a job better done with TW fields instead. It could still be compiled or even [[firmcoded]] back.
+* It's satisfying to clean up aliased links in the body. 
+** I do a poor job of this in general. It's more an aesthetic issue than a functional one, so I'm being silly here I guess. I'm hoping that over the years, the [[Audit]] is going to make it more kneejerk and I'll have a cleaner hardcoded link-base.

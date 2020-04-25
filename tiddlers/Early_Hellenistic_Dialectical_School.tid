@@ -1,0 +1,94 @@
+created: 20200416030214052
+modified: 20200417023719584
+tags: [[Φιλοσοφική ανάλυση]] [[Be A Good Dad]]
+title: Early Hellenistic Dialectical School
+
+//History of Philosophy is not usually my thing. It's part of being a well-rounded philosopher though. GMs can tell you the stories of an idea, I tellyawhat. These fellas developed something that changed the world, and it's right on topic for us.//
+
+<<<
+Possible is that which is capable of being true by the proposition's own nature … necessary is that which is true, and which, as far as it is in itself, is not capable of being wrong. Non-necessary is that which, as far as it is in itself, is capable of being false, and impossible is that which by its own nature is not capable of being true...Possible is that which either is or will be [true]; impossible that which is false and will not be true; necessary that which is true and will not be false; non-necessary that which either is false already or will be false. 
+
+-- Saint Boethius, //On Aristotle's On Interpretation// 2.II.234-235
+<<<
+
+<<<
+The Master argument seems to have been developed from the following starting points: There is a general conflict between the following three [statements]: (I) every past true [proposition] is necessary; and (II) the impossible does not follow from the possible; and (III) something is possible which neither is true nor will be true. Being aware of this conflict, Diodorus used the plausibility of the first two [statements] in order to show that (IV) nothing is possible that neither is nor will be true.
+
+-- Epictetus, //Dissertations// 2.19.1
+<<<
+
+<<<
+All true [propositions] of the past are necessary … since they are unalterable, i.e. since past [propositions] cannot change from true to false. 
+
+-- Cicero, //On Fate// 14
+<<<
+
+* Early Hellenistic philosophers 
+** Developing propositional logic, constructing and resolving paradoxes, and engaging in dialectical methods.
+** Counted among or as a branch of the Megaric school 
+*** Euclides of Megara, founder, Socratic dialogues
+**** "[[The Good]] is one, though it is called by many names, sometimes wisdom, sometimes God, and sometimes reason" and that "the contrary to the good has no reality."
+***** My nigga!
+** Their logic was the precursor to Stoic logic.
+
+* ~~Losers~~ Members
+** Clinomachus of Thurii, a pupil of Eubulides of Miletus, named founder
+*** Wrote about predicates (katêgorêmata) and propositions (axiômata)
+** Euphantus of Olyntus
+** Dionysius of Chalcedon gave the "Dialectical" name.
+** Diodorus Cronus
+*** Taught Zeno, and his five daughters Menexene, Argeia, Theognis, Artemisia and Pantacleia
+*** Subordinates dialectics to a moral purpose
+**** My nigga!
+** Aristides
+** Alexinus
+** Philo the Dialectician
+*** With Diodorus, develops theory of conditionals and modal logic
+** Panthoides
+** Aristotetles
+*** Probably had a huge dong
+** Artemidorus
+
+* Hellenistic Propositional Logic
+** Philonian Conditionals
+*** Time
+**** Truth-values of propositions change over time without rigidly determined scopes.
+***** e.g. "It is day."
+***** Even validity, therefore, changes over time. 
+**** Propositions as functions of time.
+***** Temporal Logic, with tense distinctions
+*** Truth-functional
+**** Maintains the T->F falsehood semantics
+*** Material implication excepting relativized times
+*** Maintains the worrisome disconnection of the semantic relevance between antecedent and consequent.
+** Diodorean Conditionals
+*** True if it neither was nor is possible that its antecedent is true and its consequent false.
+**** i.e. a conditional is Diodorean true now if and only if it is Philonian true at all times
+***** quantifies the Philonian criterion over time
+
+* Hellenistic Modal Logic
+** Modalities: possibility, impossibility, necessity and non-necessity
+*** Modalities were primarily considered as properties of propositions or states of affairs rather than as a type of proposition or operator.
+** Concerned with logical determinism or fate regarding freewill
+** Philonian Modal Logic
+*** If Philo implicitly accepts the principle of bivalence, then his system satisfies:
+**** Every necessary proposition is true and every true proposition possible; every impossible proposition is false and every false proposition non-necessary.
+** Diodorean Modal Logic
+*** which Diodorean modality a proposition has depends wholly on the range of truth-values it has at present and in the future
+**** if a proposition is always true from now on, it is now both necessary and possible; if it is, from now on, sometimes true but not always, it is possible, but not necessary.
+*** Contingency, possible and non-necessary, change their truth-value at some future time
+*** Wacky: implies that some propositions can change their modality from possible to impossible and from non-necessary to necessary
+*** Appears to limit the scope of contingency where Philo does not.
+** Master Argument
+**# Every true proposition that corresponds to a past state or event is necessary.
+**#* Does this really apply to every true proposition?
+**# An impossible proposition does not follow from a possible one.
+**#* Seems like a hard problem.
+**# Something is possible which neither is true nor will be true.
+**# If a proposition neither is nor will be true it is impossible.
+**# If something is the case now, then it has always been the case that it will be the case.
+**#* seem to smuggle in a deterministic assumption
+**# If something neither is nor will be true, then it has been the case (at some time) that it will never be the case.
+**#* With a certain continuum theory of time, it turns out that (VI) does not hold for those — few — cases in which the proposition at issue has started to be false only at the present moment.
+*** You assume of a chosen proposition that it neither is nor will be true; next, by employing (I), (II), (V) and (VI), you deduce that this proposition is impossible. Then you generalize the result to all propositions, since nothing in the argument hinges on the fact that this particular proposition was selected.
+*** [‘I am in Corinth’ neither is nor will ever be true.] -> [‘I am in Corinth’ is impossible.]

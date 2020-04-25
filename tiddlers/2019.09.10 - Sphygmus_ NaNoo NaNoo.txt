@@ -1,0 +1,75 @@
+[10:22 AM] robotic_scarab: my guess is that Bob saving old tiddlers is related to the NaNNaN error
+[10:23 AM] robotic_scarab: it must be doing something like, reading tiddlers from the file system, changing them, and then resaving them
+[10:23 AM] robotic_scarab: also, I've been noticing that your "recent" tab will lag behind your "new" tab occasionally, and sometimes won't update for a couple days
+[10:24 AM] robotic_scarab: which I've just started to notice happening on my recent tab in my wiki too
+[10:24 AM] robotic_scarab: (I switched off Bob so it must be a vanilla Tiddlywiki issue and not Bob)
+[10:48 AM] robotic_scarab: OK! this I figured out
+[10:49 AM] robotic_scarab: in the $:/core/macros/timeline tiddler there's a filter with sort[$dateField$]
+[10:49 AM] robotic_scarab: that needs to be changed to nsort
+[10:50 AM] h0p3: Oh, my timeline gets messy sometimes. I've had them display out of order too.
+[10:52 AM] robotic_scarab: I think they must have changed something in the way either the sort operator or the nsort operator works in 5.1.20, because my Recent tab was showing the 10th, then the 5th, when I'd 100% made things on the 7th and 8th
+[10:52 AM] robotic_scarab: nsort compares the fields numerically, which, given that the date fields are numeric fields, makes sense
+[10:52 AM] robotic_scarab: I don't understand why sort was working before I switched to 5.1.20 though, unless they changed it
+[10:53 AM] robotic_scarab: so this would explain why your recent tab has been weird for me too :upside_down:
+[10:58 AM] h0p3: https://groups.google.com/forum/#!topic/tiddlywiki/44JOFm4cEFM -- We are not alone. Bob crashes have done the most damage from what I've seen.
+Google Groups
+Google Groups allows you to create and participate in online forums and email-based groups with a rich experience for community conversations.
+[11:04 AM] h0p3: There are problems with missing and deleted tiddlers I've not been able to sort out. So far, I've not been running into them for a while. I've had better luck on synchronizing the files.
+[11:05 AM] h0p3: Also, there are many sort[$dateField$] in the timeline tiddler. They should all be changed, yeah?
+[12:34 PM] robotic_scarab: yeah, I changed all the sorts to nsorts
+[12:35 PM] robotic_scarab: Interesting that a theme would cause deleted tiddlers when reconnecting with Bob
+[12:36 PM] robotic_scarab: After the NaNNaN issue I gave up on Bob and switched back to regular tiddlyweb
+[12:38 PM] robotic_scarab: I don't have a robust enough backup system and downloading a text copy every time I wrote something wouldn't work for me, so I couldn't live with such a strong potential for data loss :S
+[12:45 PM] h0p3: That makes good sense to me.
+[12:46 PM] h0p3: You think Official nodejs TW will eventually include this bidirectional synchronization?
+[12:46 PM] h0p3: I don't really care about much else in Bob.
+[12:49 PM] robotic_scarab: I would be shocked if it ever did
+[12:49 PM] h0p3: :frowning:
+[12:49 PM] robotic_scarab: Websocket is such a relatively new protocol and I'm not sure how familiar Jermolene and anyone else working on tiddlyweb is with it
+[12:54 PM] robotic_scarab: I'm not sure whether Bob's issues are related to its integration of Websocket with Tiddlywiki's javascript on the front, or with how it implements being able to run scripts and create new wikis etc on the backend
+[12:57 PM] robotic_scarab: it seems possible to create something tiddlywiki-like using websocket for the protocol reading from the .tid flat file store, run by a backend application that's serving the data to an Elm language front end, but that's basically writing a new CMS and losing the single index.html ability of tiddlywiki
+[12:58 PM] robotic_scarab: though I do wonder if it would be possible to have that sort of setup and still be able to export to a single file by reading from the flat file store and inserting into a tiddlywiki template
+[12:59 PM] h0p3: aye
+[12:59 PM] h0p3: I think the server should be written in Golang.
+[1:00 PM] h0p3: exporting to singlefile can be in whatever
+[1:02 PM] h0p3: yeah, that's not happening
+[1:03 PM] h0p3: There is this: https://gitlab.com/opennota/widdly
+GitLab
+opennota / widdly
+A self-hosted minimal TiddlyWiki (TiddlyWeb) server
+
+[1:06 PM] robotic_scarab: yup, I've looked at that and the several forks surrounding it
+[1:07 PM] robotic_scarab: I believe it works directly with the TiddlyWeb plugin/API, which is just GET/PUTs
+[1:07 PM] robotic_scarab: I'm not sure how easily that converts to Websocket messages
+[1:08 PM] robotic_scarab: Golang seems like the obvious choice from what I've seen, though my boyfriend's opinions have me biased towards a functional & strongly typed language (which Golang isn't, really)
+[1:08 PM] robotic_scarab: my auth server is hacked together in Go, though, which worked out pretty well
+[1:10 PM] h0p3: I can appreciate that. :slight_smile: I'd say Rust (though it isn't purely functional), but it's so much harder to write.
+[1:10 PM] h0p3: Ah, just dreaming, I guess.
+[1:13 PM] robotic_scarab: could always do Haskell too :stuck_out_tongue:
+[1:14 PM] h0p3: Jermolene said he intends for the next TW to compile down to WASM.
+[1:14 PM] h0p3: We have options and hope for it.
+[1:15 PM] h0p3: You been diving into Haskell?
+[1:17 PM] robotic_scarab: idk, it looks like tiddlyweb the plugin is just javascript controlling the GETs and PUTs when saving and loading tiddlers, so it should just be a matter of writing something similar that sends & receives messages via websocket -- which to my understanding is what Bob does. but bob just uses the node server as the backend with a few adjustments, so there's probably much less safety with file IO & locking and all of that when compared to a custom written backend?
+[1:17 PM] robotic_scarab: i don't know enough about this to be sure XD
+[1:17 PM] robotic_scarab: I've been looking at working with OCAML before Haskell, but it's definitely intrigued me
+[1:18 PM] robotic_scarab: my boyfriend thinks I should be using F# but I've only just gotten used to the concept of libraries with Python, and .NET's system is super intimidating/scary in that regard
+[1:21 PM] h0p3: That looks very productive and useful.
+[1:23 PM] robotic_scarab: i'm at this weird point where the only "official" compsci class I've taken was taught using Racket, and so it very heavily emphasized functional programing with tail recursion, and learning to think in that manner
+[1:23 PM] h0p3: Reminds me of Scala for Java
+[1:24 PM] robotic_scarab: yeah, similar paradigms
+[1:24 PM] robotic_scarab: i can't say that it was intuitive for me but it's the only formal approach i've learned, so object-oriented code is really confusing to me
+[1:24 PM] robotic_scarab: i don't understand really how it's put together
+[1:25 PM] h0p3: Yeah, me neither.
+[1:25 PM] robotic_scarab: idk, i think I just need to pick one thing and do stuff with it, because that's how i'm gonna learn right now
+[1:25 PM] h0p3: Aye.
+[1:27 PM] h0p3: What are your ideas for doing stuff?
+[1:28 PM] robotic_scarab: well, i'd like to keep working on my CollectScents app, even though it's been on the backburner for a long while
+[1:28 PM] robotic_scarab: right now the backend is python, jinja templating for the pages, and neo4j for the database
+[1:28 PM] robotic_scarab: it would be good practice to turn it into a single page app with Elm as the front end, neo4j as the database, and something different for the backend
+[1:29 PM] robotic_scarab: looks like there are some libraries for backend servers in ocaml, though I could try F# too
+[1:30 PM] robotic_scarab: or maybe I write the backend in Go, hard to say
+[1:31 PM] h0p3: OCAML is beautiful. F# and Go seem more useful.
+[1:31 PM] robotic_scarab: for sure
+[1:32 PM] robotic_scarab: cornell has a whole CS textbook available online, and they use ocaml: https://www.cs.cornell.edu/courses/cs3110/2019sp/textbook/intro/ocaml.html
+[1:33 PM] robotic_scarab: the nice thing is that it's basically a parent to F# so if I learned OCaml the syntax transition etc to F# should theoretically be pretty smooth/simple
+[1:34 PM] h0p3: Neat. Maybe do both then.

@@ -1,0 +1,30 @@
+created: 20191121201456637
+modified: 20191121201618104
+tags: kickscondor Note From
+title: 2019.11.21 - kickscondor: Sain’t Peter’s Pencil
+
+<<<
+On behalf of those I spoke with, I’ve agreed to make a quick case for hosting options. Some people may feel more secure with the tool running outside the browser. A few would find it useful to deploy your tool on a server that can be accessed by any device, and others want to serve particular feeds to others via URL.
+<<<
+
+I’ll think about this - my target is those who don’t have the ability to host on a server - I kind of look at extensions as a way of hosting an app in the browser. I get the security concern - I need https://*/ permissions - which requires SO MUCH trust. Server access does, too, though. It feels like an arbitrary decision, so I tend to go with the path of least resistance for the fraidy folks out there.
+
+I do recommend rss-bridge though. And maybe there is a way I can offer a static deployment of Fraidycat that calls out to RSS bridge. It seems simple - but I am totally unfamiliar with packaging and distribution of such a thing - perhaps someone can point me the right way.
+
+<<<
+    I agree your agnostifying social tool built to the Nth degree finds itself in an arms race. Modularization, I would argue, is fundamental to the most successful visions of it. It requires custom networking, authentication, scraping, parsing, cataloging, and representation on a per platform (and subplatform) and per media-artifact basis. Defeating adversaries who aim to disrupt it would not be fun. Of course, this is an uphill battle in an ever-changing landscape. You’d need an army of people to build and maintain such a thing at scale, especially if it were to evolve to have more functional options in determining the UI (not just skinning) and constructing the feeds themselves (the big autonomy ticket way down the road).
+<<<
+
+Well, I have put some groundwork into a project called Fraidyscrape that will be out soon - which will allow people to easily add custom sites, custom UI inputs (hopefully display customization eventually) and which can be updated outside of the normal Firefox/Chrome approval channels. So exactly what you’re talking about above, if I’m reading you right. So I am stockpiling. 😃 I don’t want to be pushed around by platforms - I intend to do the pushing.
+
+<<<
+    One of the reasons your tool has an advantage over other services which might attempt to build such an overlay is that the user themselves run it on their own machines.
+<<<
+
+Yes, I think this is such an advantage of decentralization in this case. It’s like a spirit animal that sits by your side and no one knows it’s there. It really is ‘yours’ in the sense that it exists completely within your personal machine and also doesn’t encroach on your autonomy - it literally should only do what you tell it to. It must be austere and loyal in that way.
+
+<<<
+    […] WeeChat, Trillian, and Pidgin […] MLDonkey and Bitcomet […]
+<<<
+
+I used a lot of this software, too - yeah, you’re right, I’ve pulled some inspiration from there! Glad to be a part of that lineage. 

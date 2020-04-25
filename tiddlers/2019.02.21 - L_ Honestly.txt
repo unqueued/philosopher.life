@@ -1,0 +1,89 @@
+"""
+How's your day going?
+THU 11:07 AM
+Honestly well
+THU 11:17 AM
+I am in a great mood today. Got to hang out with some friends last night and had a really great time, slept well, and spent some quality snuggle time with [[K]] this morning. I think I have officially decided I am powered by hugs.<<ref "2020.02.24-1">>
+THU 11:18 AM
+How about you?
+THU 11:23 AM
+I will readily admit I have been atrocious about reading your wiki. Work has not stopped being busy, and we have people over almost every day lately. I hardly have reading time.
+THU 11:24 AM
+That sounds excellent. =)
+THU 11:54 AM
+I treasure snuggle time.
+THU 11:55 AM
+Your days are clearly packed.
+THU 11:56 AM
+My days okay. Migraine today, but I'm thinking it will clear up.
+THU 11:58 AM
+Reading, writing, and working with kids to help them reason more effectively about their lives. Vocation even beyond justice.
+THU 11:59 AM
+You handle migraines so much better than I would.<<ref "2020.02.24-2">> How far are the kiddos these days?
+THU 12:06 PM
+Far being in their curriculum.
+THU 12:06 PM
+We made room for a desk next to mine. [[1uxb0x]] is doing much better next to me.<<ref "2020.02.24-3">>
+THU 12:07 PM
+He's reading //Dune// this week.<<ref "2020.02.24-4">> Made a MUD in python, working through some good books on the topic. He's trying to figure out NFS mounting with fstab to [[j3d1h]]'s NAS.<<ref "2020.02.24-5">> He's back to Khan for math. His wiki has been flourishing these past couple weeks. I'm grateful.
+THU 12:09 PM
+Working through //Private Government: How Employers Rule Our Lives (and Why We Don't Talk about It)// and freewriting in his wiki.
+THU 12:10 PM
+I'm pleased to see him doing more cooking. I've not been having to push so hard to get him to do his chores as well.
+THU 12:11 PM
+His face is changing. He looks different to me. I usually can't tell because it's so gradual, but every once in a while, it clicks with me.
+THU 12:11 PM
+It's clear he's going through puberty. I [[hope]] to help him focus his growing intensity.
+THU 12:15 PM
+[[j3d1h]] is a teenage girl with a tyrant of a father. I'm glad she has a BF. I like the kid (though I'm disturbed that he doesn't like to read and write).
+THU 12:17 PM
+D’aw, the little man is growing up. That’s awesome to hear. It’s always wonderful to see how much care and attention you pour into [[j3d1h]] and [[1uxb0x]]. It’s still crazy to me that you all collectively dive into computer stuff I have never even heard of (not a huge shocker there, I am not as computer savvy as the older generation would have me believe).
+THU 12:18 PM
+Ha! You are far from a tyrant, but I can see why she’d think that.<<ref "2020.02.24-6">> I think every girl does at some point.
+THU 12:18 PM
+Something tells me this boy doesn’t know what he’s getting into... hehehe
+THU 12:19 PM
+Probably not. Few do. =)
+THU 12:19 PM
+She's reading //The Chosen// by Potok this week, //Champion// (YA Dytopia), //Stained Glass Elegies// by Endo, and a book about sex.
+THU 12:20 PM
+She understand TW mechanics more than I do at this point, and she is the primary infrastructure developer of my [[RGM]].
+THU 12:20 PM
+I'm the project manager, she's the dev. We wrestle with specs of the requirements and triage. Currently, she's debugged a keyboard plugin to help me avoid using a mouse on my wiki (much like my desktop environment is keyboard driven). She setup autocompletion, making it work some custom CSS on the wiki, and setting a loading-splash screen for the wiki.
+THU 12:22 PM
+She's working through an elementary number theory textbook.
+THU 12:23 PM
+She's now in mathematics that I don't understand and it would take me a lot of work to understand.
+THU 12:24 PM
+Those Elegies are above my paygrade too. Only [[k0sh3k]] can help her there.
+THU 12:24 PM
+I'm most proud of our dialectical lectures though.
+THU 12:27 PM
+https://philosopher.life/#Be%20A%20Good%20Dad
+THU 12:27 PM
+My offspring are profoundly good listeners, imho. We rabbithole hard, connect a lot of dots, and try to survey some topics that took me a long time to understand.
+THU 12:29 PM
+I appreciate you high praise, thank you. I think if you fully experienced how high I maintain my expectations, you'd find me at least benevolent dictatorial (if not tyrannical).
+THU 12:30 PM
+Perhaps you’re right. They may be high, but they are not unattainable for your kids. But you also pour a lot of time and effort into them that not other parents with equally high expectations do.  Sounds like even to the point of the “student has surpassed the master” in some areas. 
+
+Also the letter you linked to just now made me cry. If that does not communicate to your children how you truly feel about them nothing will.
+THU 12:37 PM
+The impact you achieve through your wiki will have lasting power for more than just your children I think.
+THU 12:38 PM
+Thank you. Every thing you just said is my goal!
+THU 12:39 PM
+"""
+
+---
+<<footnotes "2020.02.24-1" "There's some truth here. I fear my offspring don't receive enough hugs. We aren't touchy-feely enough to satisfy skin-hunger and mammalian requirements well enough.">>
+
+<<footnotes "2020.02.24-2" "I have the luxury of having a migraine at home with a flexibility that most dads never have. I don't think I handle it better (though, I'm a sensitive person); I'm simply in a better context for handling it.">>
+
+<<footnotes "2020.02.24-3" "It did something, though it didn't do enough. Ultimately, he still has to work without me being next to him constantly.">>
+
+<<footnotes "2020.02.24-4" "An excellent use of our time. We still constantly reference it.">>
+
+<<footnotes "2020.02.24-5" "This never worked. Gonna win some and lose some.">>
+
+<<footnotes "2020.02.24-6" "There aren't many people who believe me. =/. It's not the kind of father I want to be. Atticus Finch is much closer (though, time shows holes in his game too).">>

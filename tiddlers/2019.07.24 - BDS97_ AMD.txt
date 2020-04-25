@@ -1,0 +1,121 @@
+[16:00:34] h0p3: That rack server did not work out.
+[16:01:01] h0p3: There was no way to make it quiet enough to be usable (even put it out in the shed and ran every cable to it, lol). 
+[16:02:03] BDS97: wow
+[16:02:07] BDS97: yeah, that sounds like a rack server
+[16:02:37] BDS97: they're crazy loud
+[16:03:12] BDS97: only ever seen them once in person, in a half-setup server room when we moved offices at my last job
+[16:03:33] BDS97: but you should hear the melody they produce when the full orchestra is running
+[16:04:01] BDS97: what was the idea for it anyway?
+[16:07:39] BDS97: also, unrelated, but if you're interested SpaceX's development rocket is going to fly for the first time in 2-3 hours
+[16:07:39] BDS97: https://www.youtube.com/watch?v=Rfb0cd17IAY
+[16:08:09] BDS97: it's basically a stainless steel water tower at this point with the most advanced rocket engine in the world strapped onto it
+[16:10:29] h0p3: Couldn't alter the firmware to make it any softer, and there wasn't a good mod of the fans available, sadly. I bet they would be an jet-engine orchestra, lol. 
+[16:11:37] h0p3: I've lived on 16GB for 9 years, and this past year I've been burning through 16GB of swap as well (with more several out of memory crashes). The rack server had 128GB of RAM, which would have been nice.
+[16:12:07] BDS97: what size was it?
+[16:12:11] BDS97: 2U? 4U?
+[16:13:04] h0p3: 2U
+[16:13:15] h0p3: A very heavy box, lol.
+[16:13:36] BDS97: yeah, and not an easy form factor to cool without sounding like an airplane
+[16:14:07] h0p3: Set reminder for video, thank you.
+[16:14:16] BDS97: I'd suggest noctua's 80mm or 92mm fans, but that's not exactly cheap, and won't be quiet either
+[16:14:37] h0p3: I like my noctua's. 
+[16:14:44] h0p3: They have lasted forever too.
+[16:14:52] BDS97: yeah, for my personal rig I'm using two noctua industrial fans at 140mm, they're amazing
+[16:15:07] BDS97: basically bought the fastest ones I could find, they can do 3000 rpm
+[16:15:21] BDS97: at that point even noctuas are loud, but they move a ton of air
+[16:15:45] BDS97: they're mounted directly to a 280mm AIO from corsair
+[16:16:04] BDS97: got that when I was still on an FX-8320, very impatiently waiting for the ryzen launch
+[16:16:17] h0p3: You going for a new Ryzen?
+[16:16:39] BDS97: yep, but I'm now debating whether to get a 3900X or just wait for the 3950X
+[16:17:17] h0p3: Going for a massive machine.
+[16:17:27] BDS97: on one hand, the 3900X is probably more than I actually need
+[16:17:42] BDS97: I mean, that thing has the single-core of a 9900k and the multi-core of a 1950X
+[16:18:06] BDS97: and prices take a long time to normalize here
+[16:18:10] h0p3: Gorgeous.
+[16:18:29] h0p3: I can't justify spending too much money on cores I'm not convinced I'm going to use.
+[16:18:42] h0p3: 3600X single-threads just as well.
+[16:18:56] BDS97: yep, if it was just for gaming I'd get that one
+[16:19:11] BDS97: or probably nothing, my current 1700X is fine too
+[16:19:20] BDS97: it's basically locked to 3.8 GHz at this point
+[16:19:31] BDS97: but yeah, that's the other hand
+[16:19:39] BDS97: I don't actually _need_ the new CPU
+[16:19:43] BDS97: dammit tox
+[16:19:46] BDS97: *test*
+[16:19:49] h0p3: Lol
+[16:19:49] BDS97: that's bold
+[16:20:06] BDS97: how do you get italic?
+[16:20:08] BDS97: anyway
+[16:20:18] h0p3: Offspring and I built monster-16 today: 
+[16:20:18] h0p3: Ryzen 5 3600X
+64GB RAM
+1TB M.2 NVMe SSD
+2x8TB HDDs
+ASRock x570 Phantom Gaming 4
+GTX 1650
+Seasonic 450W
+Tempered Glass, PSU-Shrouded ATX w/6 fans
+Das Keyboard Model S Pro MX Blue
+Anker Vertical Ergonomic Optical Wired Mouse
+Logitech C920 Camera
+42" 1080p TV
+22" 1080p Monitor
+[16:20:29] h0p3: I don't game, or when I do, they are old games.
+[16:20:44] BDS97: wow, nice
+[16:20:54] h0p3: Going for silent fans on low RPMs, but lots of them.
+[16:21:06] BDS97: tad bit OP on the mobo and memory, but at least it's got hell of an upgrade potential
+[16:21:20] h0p3: I'm going to use 30GB of RAM out of the gate.
+[16:21:25] h0p3: without VMs
+[16:21:26] BDS97: wow
+[16:21:31] BDS97: how?
+[16:21:37] h0p3: Firefox
+[16:21:50] h0p3: and everything else
+[16:21:59] h0p3: But, 1000 tabs open is expensive
+[16:22:07] h0p3: even when you try to scale down how it uses resources.
+[16:22:11] BDS97: oh
+[16:22:21] BDS97: yeah, tab hoarding is a hell of a drug
+[16:22:43] BDS97: I usually try to keep it down to 5-10 per monitor
+[16:23:13] h0p3: The motherboard is overkill for me, but I didn't want to fuck with chipsets.
+[16:23:27] h0p3: I've heard too many people having problems.
+[16:24:02] BDS97: yeah, it may be a bit early for expecting 3rd gen support on B450 out of the box
+[16:24:21] BDS97: btw why the 3600X?
+[16:24:33] BDS97: that X cost you $50 for just being there
+[16:25:16] BDS97: since 3rd gen Ryzen self-overclocks, the 3600 is basically the same thing out of the box
+[16:26:26] h0p3: I wasn't sure which I should get. Probably not worth the 50.
+[16:26:33] BDS97: anyway, not like I didn't make the same mistake
+[16:26:47] BDS97: could have got a 1700 for like $70 cheaper
+[16:26:57] BDS97: figured I'd have a better silicon lottery ticket with the 1700X
+[16:27:14] BDS97: well, should have stuck to not gambling like with anything else
+[16:27:23] BDS97: 3.8 is a pretty low overclock for both
+[16:28:59] h0p3: Replacing my Xeon machine from 5-6 years ago. Only a 35% gain in singlethreading since then. Absurd.
+[16:29:26] h0p3: I assume this machine will last me that long as well.
+[16:30:15] BDS97: probably longer if you stick a 4th gen Ryzen flagship and a better GPU into it when it starts getting slow
+[16:30:51] BDS97: you could already more than double the cores with what we know of today in that socket
+[16:30:56] BDS97: and you got pcie 4.0
+[16:34:58] BDS97: btw that "debating" between the 3900X and 3950X
+[16:35:17] BDS97: I'm basically trying to convince myself that 12 cores is enough, I don't need 16
+[16:36:07] BDS97: actually, my current CPU is fine too, but I do use the full potential of it regularly
+[16:37:37] BDS97: and I'm no longer impatient
+[16:37:57] BDS97: last time, I got my FX to 4.4 GHz and still couldn't saturate the GPU
+[16:38:11] BDS97: (which was an RX 470 at the time, so yeah, that wasn't great in gaming)
+[16:38:32] BDS97: so I was kidna impatient
+[16:38:41] BDS97: now... it's just a bit meh
+[16:39:34] BDS97: feels like AMD half-assed this launch, they edged out Intel where they could, gave us a few more cores, and that's it
+[17:25:26] h0p3: I don't know what counts as halfassing. 
+[17:25:50] h0p3: This is the first time since x64 came out that I've actively preferred AMD to Intel in terms of performance.
+[17:26:49] BDS97: yeah, first gen ryzen was awesome
+[17:27:14] BDS97: but it kinda feels like they left some performance there so that 4th gen could be an actual jump and not just a slight refresh like 2nd gen
+[17:27:57] BDS97: everyone at TSMC and GloFo was talking about 7nm like this magical process that enables a huge jump in performance
+[17:28:12] BDS97: and "performance" means clock speed, because 7nm is not concerned with the actual CPU core you put on it
+[17:28:22] BDS97: yes, 3rd gen ryzen did see a huge single-core jump
+[17:28:42] BDS97: but most of that was the IPC gains, the actual clock speed is what, 4.3-4.4?
+[17:28:50] BDS97: the latter only if you leave it on default settings
+[17:29:09] BDS97: it's just fishy, theoretically it should be capable of 5 GHz
+[17:32:20] h0p3: That makes sense. Intel has been sandbagging too.
+[17:32:34] h0p3: IPC is so hard to come by that they look better staggering it.
+[17:32:49] BDS97: yeah, they haven't even made a new core since 2015
+[17:34:40] BDS97: I don't think that in single-core we'll get too much beyond 5 GHz Zen 2 on silicon
+[17:35:05] BDS97: maybe there's gonna be 5nm or 3nm, but it doesn't look like they are going to be faster, just more power efficient
+[17:35:18] BDS97: kinda why I focus a lot on multi-core when coding
+[17:35:28] BDS97: because there's a lot of room for improvement there
+[17:36:00] BDS97: but also, I don't know when we've last seen AMD sandbagging, at all
+[17:36:26] BDS97: they couldn't really afford it in the past, but even in the rare moments they could, they didn't do it

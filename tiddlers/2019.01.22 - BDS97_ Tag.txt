@@ -1,0 +1,93 @@
+[13:11:09] h0p3: heyas
+[13:11:24] BDS97: home: hi
+[13:11:25] h0p3: My daughter rebooted my machine, and qTox isn't perfectly functioning for me.
+[13:11:42] h0p3: Did you get my last messages? (You aren't obligated to respond to them, I just want to make sure they went through).
+[13:12:21] BDS97: home: didn't get anything since these:
+SNIP
+[13:13:06] BDS97: home: I've been offline for the last two days though, so my client wasn't there to receive it
+[13:13:49] BDS97: home: no idea if I'll ever set up a permanent client, all of my computers get rebooted regularly
+[13:14:56] h0p3: I try to reboot about once a week after an update. Too many things in my workstations that I want to stay just like they are.
+SNIP
+[13:21:13] BDS97: home: alright, going in reverse order
+[13:21:38] BDS97: home: aggressive updates were always my plan, I think we should do it whenever feasible
+[13:22:00] BDS97: home: but yes, it should never be at the cost of centralization
+[13:22:42] BDS97: home: the idea is to create update channels, identified by a decentralized domain system
+[13:22:57] BDS97: home: we'll have our own update channel, but people will be able to switch freely
+[13:23:50] BDS97: home: naturally, unless we (whoever "we" are going to be over time) turn against the network and its users, a large chunk of it will follow the default channel
+[13:25:08] BDS97: home: this is a lot harder though than it sounds like, an update should never be able to interfere with this capability of switching channels
+[13:25:45] BDS97: home: I think the solution is clear
+[13:26:22] BDS97: home: the automatically updateable code itself is untrusted, and there is a trusted program managing it
+[13:27:22] BDS97: home: we need a solid foundation that exposes the system capabilities to the "business logic" of the Hub running in a sandbox of its own
+[13:27:43] BDS97: home: basically a browser with a web app inside
+[13:28:35] BDS97: home: as for CDN and hosting, I have yet another plan
+[13:28:57] BDS97: home: first off, we will need a blockchain at some point, it's just unavoidable
+[13:29:11] BDS97: home: it is not always the only solution, and when it's not, it's rarely optimal
+[13:29:49] BDS97: home: but there are some problems only a blockchain can efficiently solve, like a decentralized domain system (zooko's triangle)
+[13:30:31] BDS97: home: and if there is a blockchain, there must be a way of mining
+[13:31:20] BDS97: home: mining with storage is not a new idea, what if it was mining with storage of containers?
+[13:32:53] BDS97: home: I'm still counting on T42T on a driving factor in this, but this is another idea
+[13:33:38] BDS97: home: the storage system will be one of the key pillars of Atropos as a whole, we need to get this right
+[13:35:36] BDS97: home: speaking of uniform size btw, think of it like filesystem sectors
+[13:36:38] BDS97: home: if there is a file that wouldn't fit into a container, you put it into multiple containers, make a list of those, then put the list into yet another container and use that as the entry point
+[13:36:59] BDS97: home: it exponentially increases the error rate though, so we'll need redundancy, multiple levels of it
+[13:38:12] BDS97: home: a variant of reed-solomon coding is probably our best bet, but still not sure on this aspect
+[13:39:47] BDS97: home: it's very similar to the network model, we'll need to make a high-level API that you can easily use for storage of arbitrary files, and a backing protocol that solves all the small details behind it
+[13:40:01] BDS97: home: then we get that API and build everything else on it
+[13:40:27] BDS97: home: sorry, I have to go AFK, ~30 mins
+[14:01:41] BDS97: home: "As long as enough Capitalists are interested in using this technology, it cannot be outlawed."
+[14:01:46] BDS97: home: I really like this line
+[14:02:41] BDS97: home: 1. make it as appealing to capitalists as possible
+2. make sure the part that capitalists want to use is indistinguishable from the part they don't want
+[14:03:40] BDS97: home: for example, when we build the filesystem, it might be marketed as an innovative cloud solution
+[14:04:43] BDS97: home: later the people will use it in place of torrents, that's just inevitable
+[14:05:10] BDS97: home: and yeah, hollywood won't like it, but they won't be able to pull the trigger at that point
+[14:06:07] BDS97: home: I'm not worried about ISPs at this point, fairly sure it's abstract enough that they won't act until it's too late if we don't expressly market this as a net neutrality tool
+[14:06:28] BDS97: home: and I'd rather take the Tesla strategy with the network
+[14:06:49] BDS97: home: you buy a Tesla not because it's good for the environment because it's an amazing car, and you end up saving the planet as a side effect
+[14:07:27] BDS97: home: *but because it's an amazing car
+[14:07:37] BDS97: home: I wish Tox had an edit feature like Discord
+[14:08:49] BDS97: home: https://filecoin.io/ this sounds interesting
+[14:12:15] BDS97: home: looks like a 2017 vaporcoin or whatever those were called, they cashed in at the ICO but the only real thing they have is a whitepaper
+[14:13:10] BDS97: home: still, they might have solved some problems for us
+[17:23:05] BDS97: home: is your tox working and are you just actually away or do you have errors again?
+[17:23:48] BDS97: home: note: whenever we get to the IM client the "received" icons need to be there. Not sure about "seen".
+[19:09:07] h0p3: sorry, was at work
+[19:09:40] BDS97: home: no worries, just didn't know if the system works or not
+[19:16:47] h0p3: We are agreed that certain kinds of problems are best solved with a blockchain. I am worried about the project being associated with the hype/dehype of yet another blockchain. Solving the CDN kind of problem this way is fine with me though. 
+[19:17:07] h0p3: Zooko's too
+[19:17:44] BDS97: home: the part that I dislike about blockchains is the inherent cost associated to everything
+[19:18:16] BDS97: home: I don't think users should pay for their freedom
+[19:21:23] h0p3: Yup. Blockchains should be an added feature. The ability to T42T build trust and trade resources will still be the star of the show. 
+[19:23:24] h0p3: There are some who will just give to the network because they think it's the right thing to do. 3% of the human species may be the kind of altruist who will throw down for it.
+[19:23:48] h0p3: Making sure their sacrifices get the most bang for the buck is important to me.
+[19:26:47] BDS97: home: agreed, those who support the network the most should have the highest priorities
+[19:27:05] BDS97: home: you mentioned an interesting point about distributed computing
+[19:27:34] BDS97: home: we'll definitely have some of it with the search algorithm, that'll be a very complex problem
+[19:27:50] BDS97: home: probably even after lots of TANN
+[19:28:15] BDS97: home: but about the VMs
+[19:28:57] BDS97: home: encrypted computing is very much possible, but I don't think it would be worth the cost in most situations
+[19:29:44] BDS97: home: most of the services we use today won't require servers once the storage system is working
+[19:30:46] BDS97: home: for example the Hub should be a comprehensive social media, that's one of the things for which we use servers the most noaways
+[19:46:44] h0p3: That may be right. I mean you no offense: my gut says you're wrong (which is only evidence to me and counts for nothing here). I'm not sure it even has to be encrypted computing either (though that would be strongly preferred). Distributed storage solves a ton. I can see how so many of the functions we'd want would be modules loaded straight into Hub. Running arbitrary (or nearly arbitrary) code on the machines of others should be something we trade and trust others with. I must be missing something. I apologize for lacking vision or my ignorance here. I ask you keep it in mind. 
+[19:56:21] BDS97: home: non-encrypted, distributed computing?
+[19:56:24] BDS97: home: not a bad idea actuallyl
+[19:56:41] BDS97: home: (sorry, my L key likes to make double strokes)
+[19:57:55] BDS97: home: could give a platform for apps we wouldn't even think of
+[19:58:07] BDS97: home: extensions to the Hub or anything else
+[19:59:23] BDS97: home: I still think private data should be protected through encryption, not just trust, but we could also define a system that allows you to designate that to nodes you really trust
+[19:59:30] BDS97: home: it has to be manual though
+[20:18:51] h0p3: Oh, this might be useless: https://github.com/djc/quinn/releases/tag/0.2.0
+[20:20:23] BDS97: home: looks interesting
+[20:20:51] BDS97: home: pretty sure layer 3 will be custom code but I'll take a look at that
+[20:22:11] BDS97: home: wow, it's built with tokio?
+[20:22:34] BDS97: home: that's basically an async library for rust, currently learning it
+[20:23:03] BDS97: home: as far as I know it can do some amazing stuff with multithreaded performance
+[20:28:23] h0p3: tokio is exciting
+[20:28:42] h0p3: is this part of the non-blocking aspect of layer-0?
+[20:29:27] BDS97: home: yes, on the implementation side
+[20:30:02] BDS97: home: the protocol itself is as stateless as possible on all four layers
+[20:30:27] BDS97: home: deduplication requires state, keys are obviously needed, but for everything else packets can arrive in any order
+[20:30:54] BDS97: home: layer 1 will have a basic ack protocol, and it's also parallel
+[20:31:26] BDS97: home: basically, it acknowledges each logical packet independently instead of the numbering stuff TCP does
+[20:32:01] BDS97: home: this eliminates head-of-the-line blocking, which is the actual problem with TCP and the reason protocols like QUIC exist
+[22:10:17] h0p3: Are there cases in which being more stateful would be valuable? Overall, this lowers how much memory we use. I can't think of an exception off the top of my head.

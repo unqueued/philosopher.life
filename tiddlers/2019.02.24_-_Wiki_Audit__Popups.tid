@@ -1,9 +1,9 @@
 created: 20190224141728270
-modified: 20190225043120839
+modified: 20200226050920135
 tags: [[Wiki Audit]] Dreams [[Tagging Theory]] [[RGM Notes]]
 title: 2019.02.24 - Wiki Audit: Popups
 
-TW5Nav still isn't a fully functioning beast for me. I'm so fucking close (right? please?). I have waited many months for this tool, and I can wait many months more. There is an exception: I need my popup links. I need to be able to "peek" into my linked tiddlers without disturbing the context at all. When I'm in the zone, I cannot afford distractions, losing my memory as I walk through new doorways, losing my place and how I feel about the body, etc. There is only so much I can hold all at once. Popup-links are a straight fucking hack to my focused style (yeah, but TW5Nav will be too).
+TW5Nav still isn't a fully functioning beast for me. I'm so fucking close (right? please?). I have waited many months for this tool, and I can wait many months more. There is an exception: I need my popup links.<<ref "2020.02.26">> I need to be able to "peek" into my linked tiddlers without disturbing the context at all. When I'm in the zone, I cannot afford distractions, losing my memory as I walk through new doorways, losing my place and how I feel about the body, etc. There is only so much I can hold all at once. Popup-links are a straight fucking hack to my focused style (yeah, but TW5Nav will be too).
 
 TW5Nav's benefit won't come without having practiced with all of the pieces enough to iterate over how to improve the process. I have to evolve it enough to be able use it without having to reason about it at all. I don't think about how to use i3 for the usual tasks anymore. I expect my hotkeys to work (I'm beyond frustrated on anything that isn't my computer), I have strong preferences for workspace management, I bounce between tasks and contexts with minimal friction, and it's fast. I need muscle memory inside the wiki, like yesterday. I'm piloting a clunker, and I need my n52, AHK, information advantage addons, tailored ini files, and the ability to automate everything that I wouldn't normally need to pay attention to in order to gain focus on higher-ordered functional control of this wiki. Give me all the customized zero-cost abstractions! I have to make my immediate conscious focus worth every ounce. Maybe 2 years from now, I will finally have it.
 
@@ -48,3 +48,7 @@ Bob ate [[j3d1h]].
 ---
 
 I've cleaned [[Recent Obsessions]]. Oh, I feel so much better. I'm left with what clearly matters to me.
+
+
+---
+<<footnotes "2020.02.26" "I can live without them on a lot of wikis. But, if I'm doing a [[Review]], as I'm doing in [[h0p3ful Review]] for my offspring, I prefer the popups. I can split the screen fine and open by filter, but this tends to work better.">>

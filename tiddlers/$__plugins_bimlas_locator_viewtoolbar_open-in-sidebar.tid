@@ -1,7 +1,7 @@
 caption: {{$:/core/images/chevron-right}} locator sidebar
 created: 20190709194600902
 description: Browse hierarchy of tag in Locator sidebar
-modified: 20190710011056890
+modified: 20200420004359377
 tags: $:/tags/ViewToolbar bimlas
 title: $:/plugins/bimlas/locator/viewtoolbar/open-in-sidebar
 type: text/vnd.tiddlywiki
@@ -12,8 +12,8 @@ type: text/vnd.tiddlywiki
 <$action-listops $tiddler="$:/state/bimlas/locator" $field="base-title" $filter="[all[current]]"/>
 <$action-listops $tiddler="$:/state/bimlas/locator" $field="breadcrumbs" $filter=[[]]/>
 <$action-listops $tiddler="$:/state/bimlas/locator" $field="ancestor-tags" $filter=[[]]/>
-<$action-setfield $tiddler="$:/state/tab/sidebar--595412856" text="Maps"/>
-<$action-setfield $tiddler="$:/state/tab-1115086957" text="Locator view"/>
+<$action-setfield $tiddler="$:/state/tab/sidebar--595412856" text="Keys"/>
+<$action-setfield $tiddler="$:/state/tab-114580144" text="Locator view"/>
 <$list filter="[<tv-config-toolbar-icons>prefix[yes]]" variable="listItem">
 {{$:/core/images/chevron-right}}
 </$list>

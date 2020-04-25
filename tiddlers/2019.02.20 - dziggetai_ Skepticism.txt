@@ -1,0 +1,294 @@
+"""
+[8:03 AM] h0p3: How goes it? :smiley:
+[8:03 AM] Shp: oh, h0p3
+[8:03 AM] Shp: I am not ready to talk to you just yet :D
+[8:03 AM] h0p3: lol, alright. take all the time you need
+[8:04 AM] Shp: I want to go back
+[8:04 AM] Shp: to our discussion
+[8:04 AM] Shp: and talk about the topics further
+[8:05 AM] Shp: but I was also thinking about asking you to explain things that I don't understand in your wiki (which is a lot of stuff so it would be a huge project :D)
+[8:06 AM] h0p3: Well, I will do my best. And, please, take as long as you need. It took me months to finish my letter to you.
+[8:07 AM] Shp: I appreciate it very much that you gave it so much thought. thank you! :)
+[8:14 AM] Shp: I am fearful to admit it, but to be honest, I can't understand [[The Good]] .. I can't even read it through, I attempted multiple times
+[8:16 AM] Shp: can you rephrase it like you were to explain it to a five-year-old? :) obviously I'm not asking you to be thorough, I expect that would take a lot of time
+[8:19 AM] Shp: is this okay for me to ask such a question? :D I am certain you phrased it the way you did for a reason and that it makes the most sense this way, but I get stuck every time I try to get it. It is a recurring problem with your wiki for me. I feel like I'm dumb every time :D
+[8:40 AM] Shp: maybe in time I would without your rephrasing too (I hope I would)
+[8:43 AM] h0p3: I am not satisfied with my {[[axioms]]}. They are still embryos to me.  You ask me to name the unnameable. I'm trying.
+[8:43 AM] h0p3: There is some good (ha) work in [[The Good]]. Lots of classic, technical reference in there.
+[8:44 AM] h0p3: I cannot say I have a satisfying answer though (and I cannot say I ever will).
+[8:45 AM] h0p3: [[The Good]] is on hold until I scaffold much further in the wiki.
+[8:45 AM] h0p3: You can check the references in the wiki. It is connected to a great deal.
+[8:46 AM] h0p3: I also feel dumb trying to even answer the question. I likely lack humility, and you will need to wrestle with me.
+[8:47 AM] h0p3: Alright, ELI5: Objectively meaningful, positive intrinsic value exists external to our minds.
+[8:48 AM] h0p3: The claim there is a truth (a normative one) which we do not merely construct is  an unpleasant pill to swallow in postmodernism.
+[9:06 AM] Shp: what are the proofs to say that there is objectively meaningful positive intrinsic value existing external to our minds?
+I am going to admit that I don't agree with this. I don't think there is anything meaningful outside our minds not to mention meaningful positive value
+[9:09 AM] h0p3: That is a high requirement. Proof is a step-by-step demonstration that one thing is the logical consequence of another (which relativizes to an interpreter).
+[9:10 AM] h0p3: Why don't you agree with it? What does it even mean to say there is no meaning? What's the point of reading this question?
+[9:10 AM] h0p3: You are seeking certainty.
+[9:10 AM] h0p3: I cannot give you that.
+[9:12 AM] h0p3: I think I can give you evidence, but not proof. I think it can be demonstrated that internalism will collapse upon itself.
+[9:12 AM] h0p3: Do you really think that the reality you experience isn't external to your mind?
+[9:13 AM] h0p3: I grant: you can never fully perceive the thing-in-itself that is external to you.
+[9:13 AM] h0p3: Yes, consciousness will only ever be a particular kind of reductive model of yourself and the world...but it is 'of' something which isn't simply you.
+[9:27 AM] h0p3: I remember the first time I encountered Husserl, and I was asked to bracket the notion of meaning. It is impossible to me: such a program destroys itself in our computer. We can, of course, attempt to say that is no proof that meaning is real.  I can appreciate the skeptic's extremely high epistemic standard.
+[9:29 AM] Shp: okay, I accept that reality exists (this is the most useful thing to think for me :D)  but existing doesn't make it meaningful in any way
+[9:30 AM] Shp: I am happy to have evidence as well, proof is indeed hard to produce
+[9:32 AM] h0p3: I think we are already making progress.
+[9:33 AM] h0p3: You agree that Mars exists even when no one is thinking about it, right?
+[9:33 AM] h0p3: Why do you accept that reality exists?
+[9:33 AM] h0p3: What do you mean by that claim?
+[9:35 AM] Shp: because that is the most useful to me. its like the conclusion Pascal  (I hope i'm remembering right) had on religion and god.. although that is still something I can't believe in, but reality is easier to swallow
+[9:36 AM] h0p3: Why do you think it's useful to you?
+[9:36 AM] h0p3: What does it mean to say it is useful to you? What is usefulness?
+[9:37 AM] h0p3: (I'm not opposed to a Pascalian wager here)
+[9:38 AM] Shp: what use would I have in thinking reality ain't real?
+[9:39 AM] h0p3: What is the "for the sake of which" believing reality is real? Why should you think usefulness is real?
+[9:39 AM] h0p3: Or, why should you think the goal of usefulness matters?
+[9:39 AM] Shp: I didn't say usefulness is real!
+[9:39 AM] h0p3: :smiley:
+[9:39 AM] h0p3: You just assume it.
+[9:40 AM] Shp: not really
+[9:40 AM] Shp: but yes. I probably do.
+[9:40 AM] h0p3: Sounds like faith to me.
+[9:41 AM] Shp: :D you will most certainly drive me crazy with faith  :D
+[9:41 AM] h0p3: lol! me too!
+[9:41 AM] h0p3: I beg you to be kind to yourself.
+[9:42 AM] h0p3: Go easy on it. This place is dangerous, painful, and lonely.
+[9:42 AM] h0p3: Still, you must question it. Sometimes I have to take a deep breath before I dive back under the water to fix my boat.
+[9:43 AM] Shp: so let's examine this
+[9:44 AM] Shp: I think usefulness is a thing that is important to me
+[9:44 AM] Shp: this does not mean that I believe that such a thing exists
+[9:44 AM] Shp: but I need usefulness to function
+[9:44 AM] h0p3: Do you believe you should function?
+[9:45 AM] h0p3: I suggest you already assume you do in trying to answer the question at all.
+[9:46 AM] Shp: you are questioning things at a different level
+[9:46 AM] h0p3: Indeed, this is an infinite regress problem.
+[9:46 AM] h0p3: You are asking for justification.
+[9:47 AM] h0p3: Let us say P1 is justified by P2. What justifies P2? Perhaps it is P3. What justifies P3? and so on.
+[9:47 AM] h0p3: The chain of justification either never resolves (or resolves in [[The Infinite]]) or through circular reasoning (coherentism).
+[9:48 AM] h0p3: Unfortunately, we still get to ask the question of the circular reasoning: what justifies the circle?
+[9:48 AM] h0p3: It appears [[The Foundation]] is the only possible justification.
+[9:49 AM] h0p3: The only self-justifying thing must be infinite to resolve the regress.
+[9:50 AM] Shp: I understand the problem,. I don't understand your conclusions. what does it mean to resolve in the infinite?
+[9:50 AM] h0p3: I cannot answer that well enough.
+[9:52 AM] h0p3: The problem is that I'm finite: I can't fully explain, justify, or model [[The Infinite]]. Only it can self-justify [[Itself]].
+[9:52 AM] h0p3: I am not my own justification all the way down, but it is.
+[9:53 AM] Shp: yes. it is indeed a problem, we didn't evolve to grasp the concept of infinity I have struggled with this
+[9:53 AM] h0p3: Uh. I don't think we can evolve to grasp it in full.
+[9:54 AM] h0p3: It's the problem of simulating something larger than the simulating machine.
+[9:55 AM] Shp: we have ventured far from the original issue. what makes something objectively good? and why? I mean we can play pareidolia all day long but a planet for example isn't going to be good or bad by itself.
+[9:55 AM] Shp: an interpreter can make it good or bad, but by itself it is neutral
+[9:56 AM] h0p3: I don't think we have ventured far from the original issue.
+[9:56 AM] Shp: haha I have not thought of that yet, but yes, a finite thing probably cannot simulate an infinite thing
+[9:57 AM] Shp: I don't see the connection in usefulness' existence and something being objectively a positive value
+[9:57 AM] h0p3: That is fine for now.
+[9:59 AM] h0p3: I think you need to wrestle more with what you mean by saying something is meaningfully useful to you and why.
+[9:59 AM] Shp: you are probably right
+[10:05 AM] Shp: but what I think atm is that I am exercising pragmatism and disregarding the question whether something is really, objectively meaningful or useful or not if it proves to be meaningful and useful in practice, to me.
+
+note that I am not disregarding it forever, it is being disregarded when it is not a priority, I aim to evaluate everything based on their arguments, proofs and the validity of those arguments and proofs.
+[10:06 AM] Shp: right now I have nothing I have reason to believe that I  have a true belief  in.
+[10:06 AM] h0p3: I admire your pragmatism.
+[10:07 AM] Shp: thats all i got
+[10:08 AM] Shp: my belief in pragmatism  isn't justified either btw
+[10:10 AM] h0p3: It is my opinion that you ask for justification which you can hold inside your finite mind with certainty (and, it turns out that even that is going to be way uglier than you realize when you start to analyze how much information you can hold in your ray of intentionality...your immediate, pure phenomenology, your clearest and most distinct perceptual field).
+[10:10 AM] h0p3: I adore how effectively you question and doubt yourself too.
+[10:10 AM] Shp: I mostly disregard the question and say it is pragmatic because I think the answer is an obvious no, and that is not useful.  (yes, this, agian)
+[10:10 AM] h0p3: I think that is the mark of integrity.
+[10:10 AM] h0p3: To my best knowledge, logic itself defines that you cannot have what you seek.
+[10:12 AM] Shp: thank you for the complements :) my self-doubt is hurting me in many ways but I can't let it go
+[10:15 AM] Shp: I know I am asking for too much. It is not an isolated occurrance. at one time I asked a friend who has children how he can live with the thought that he is responsible for other people and how does he make sure that his family is always safe from danger... he said that he doesn't because it is impossible. I don't think I will ever have kids, I couldn't live with that.
+[10:15 AM] h0p3: I have been in that part of the desert. It's a place of vertigo and pain. It's the loss of innocence that comes with the mythical Tree of Knowledge.
+[10:16 AM] h0p3: I don't consider myself qualified to be a parent.
+[10:16 AM] h0p3: I was a stupid 19-yo (probably still a stupid 33yo).
+[10:16 AM] Shp: most parents are not qualified to be parents
+10:16 AM] h0p3: When you find one, let me know.
+[10:17 AM] Shp: I will. don't hold your breath :)
+[10:17 AM] h0p3: I don't think you are asking too much, btw. It's my goal to be useful to others.  This might not matter that much to you, btw. But, I think we're paying homage to Plato in our conversation. It's beautiful. It is not everyday that I get speak with someone about what matters most. Philosophy is more than a therapeutic art to me. It matters to me.
+[10:19 AM] Shp: I think I already told you this - since my existence is brief and meaningless I often think it would be better to believe in gods and tales and spirits, but I am unable to.
+[10:19 AM] h0p3: I hear ya. I think that's exactly what makes your pursuit so meaningful. :smiley:
+[10:19 AM] Shp: it would be pragmatic. I can't change the facts but maybe I'd live a happier life, an ignorant one
+[10:19 AM] h0p3: preach
+[10:22 AM] h0p3: I don't believe in gods, tales, or spirits either. Though I'm convinced metaphysics is real. I tried not to (it's in my wiki). I want to point out that I actively aim to de-anthropomorphize my understanding of [[The Good]] as best I can. I consider it arrogant to speak of it as an agent or being like a human in almost all respects.
+[10:23 AM] h0p3: It is more like the philosopher's god. Aristotle's, Plato's, Spinoza's, and Hegel's.
+[10:23 AM] Shp: I am happy you enjoy our conversation. Funny thing is that it is precisely because I think you wouldn't and you'd waste your time on me (because I can't offer anything) is why I don't write to you much more often. I am always afraid that I could find all that you'd say to me in your wiki somewhere and I just make you repeat stuff
+[10:27 AM] h0p3: Aye. It's true. I have said or pointed to all these things many times. That's okay though. I will never be articulate enough, I need the practice, and it's [[The Right]] thing to do. I also appreciate that you don't waste my time and don't want to waste it either. I think you are being harsh on yourself when you say you don't offer me anything.
+[10:27 AM] h0p3: If you don't mind me asking: do you talk about this problem with yourself in your wiki?
+[10:28 AM] Shp: I am not there yet
+[10:30 AM] h0p3: Aye. As I said, I'm not able to give a satisfactory (to me) account yet either. It has been growing though. Just keep reading and writing. Wrestling is hard.
+[10:31 AM] h0p3: What do you do in your wiki?
+[10:32 AM] Shp: man, that is hard to define
+[10:32 AM] h0p3: Preach, yo!
+[10:32 AM] h0p3: Lol. That's why we use a wiki.
+[10:32 AM] Shp: I write in it :D
+[10:32 AM] Shp: and edit the writing I did :D
+[10:33 AM] h0p3: Lol. That is a damn good answer.
+[10:33 AM] Shp: I am so satisfied with my answer I actually laughed out loud :D
+[10:35 AM] Shp: I try to categorize things (which is bad for two reasons or more. one is that it gives me a false feeling of knowing something and two is that I am bad at going to the next step so i have many empty areas) in my life and give definitions to stuff, work on them as projects.
+for example, there is a wiki project in which I try to determine how to use tw to get the most out of it.
+[10:36 AM] h0p3: Why the hell don't I see more people doing that?
+[10:37 AM] h0p3: That is among the most beautiful kinds of projects to do on a wiki.
+[10:37 AM] Shp: maybe because it is hard? I am making progress at a rate a snail would go past me in no time
+[10:38 AM] h0p3: I hear that. Everytime I look up the mountain gets bigger.
+[10:38 AM] h0p3: It's good for my perfectionism XD.
+[10:39 AM] Shp: I'm trying to imprint to my mind that "perfection is the enemy of done" and since I like pragmatism so much, I think one day I might succeed
+[10:40 AM] h0p3: We are going to have so much fun together, sir.
+[10:43 AM] Shp: I am certain of it too :)
+[10:43 AM] Shp: unless you grow tired of me asking the same questions over and over :D
+[10:44 AM] h0p3: Lol.
+[10:45 AM] h0p3: I often feel like I ask the same questions ([[W5H]]) as I iterate over the same concept to develop a deeper grasp of it. This one is endless.
+[10:51 AM] Shp: I am constantly thinking about what side of my wiki could be public (so as to be useful to others and yet keep my thoughts of world domination hidden safely :P) .. But I think first I would like to share it with you. (and share more than the potential public side as this project will take much more time than it should so it won't happen soon) but I don't know how it could work. I would like to hear your opinions on it, but I would not want you to have your opinions out in the open. I am still uncomfortable with this (yes, it always comes back to this, I am truly sorry)
+[10:52 AM] Shp: (the public wiki is another project I work on in my wiki :) you can guess how much progress I made..)
+[10:55 AM] h0p3: It's okay! I think it takes time to figure this out.
+[10:55 AM] h0p3: Hopefully you are talking to yourself about the criteria for what ought to be public and private.
+[10:56 AM] h0p3: That is the first step, imho.
+[10:56 AM] Shp: not so explicitly but yes
+[10:56 AM] h0p3: I ask you do it explicitly with yourself. That may accelerate the process.
+[10:57 AM] h0p3: The technical side is also interesting. Like.."how" you would go about emitting the public facing side is a neat problem.
+[10:58 AM] h0p3: Do you use singlefile mode or node?
+[11:09 AM] Shp: singlefile with tiddlydesktop
+[11:13 AM] Shp: I was hoping you'd address the other issue , because I don't see reaching a public side this year. but dropping the rest to you to get feedback (and, perhaps even more importantly [I really want it to be more important, I am sad  to admit that it probably is not] hopefully to give back something because you were so kind to release your wiki to everyone) could possibly happen this year. that is if you will be interested in it.
+[11:14 AM] h0p3: Of course, I would love to see it, think about it, and talk about it with you.
+[11:15 AM] h0p3: I'm not going to commit to censoring myself though. My brother [[AIR]] has a wiki. I do not say everything that is in it. I do maintain privacy for people (though far less than they'd prefer), but I'm still going to talk about it. Transparency is part of my mission.
+[11:16 AM] h0p3: That puts you in a difficult position, I realize!
+[11:19 AM] Shp: one would think it is mysterious to be private and "closed", but man, it is a whole lot more mysterious that you are so open :D
+[11:20 AM] h0p3: Lol! Yes. There is a significant vertigo to it.
+[11:21 AM] h0p3: My work is extremely political. If I didn't have the obligation to explain my point of view on the matter with living evidence, I wouldn't be so rigid.
+[11:23 AM] h0p3: What do you think of GPT-2, btw?
+[11:25 AM] Shp: haha
+[11:26 AM] Shp: seems like if an AI apocalypse would happen  I wouldn't even notice it
+[11:26 AM] Shp: completely new to me, just reading about it now to know what your question is about
+[11:29 AM] h0p3: We're getting back to my crazy theory, btw. :smiley:
+[11:29 AM] Shp: I am both excited and terrified of AI
+[11:30 AM] Shp: but I also love dogs and I am terrified of them at the same time so this is nothing new :)
+[11:30 AM] h0p3: Lol. Me too.
+[11:31 AM] h0p3: I aim to talk to an AI modeled upon my wiki as the corpus and/or input.
+[11:31 AM] Shp: then you would indeed, talk to yourself :)
+[11:31 AM] h0p3: I aim to model myself so effectively that I can talk to an AI that I trust because I trust the process it was built upon.
+[11:32 AM] h0p3: Indeed, it would serve many purposes.
+[11:33 AM] Shp: this is one of the best things I've ever heard
+[11:33 AM] h0p3: It would be neat to have an "autocomplete" or suggested paragraph for me to ponder. I could tag it, edit it, figure out how it fits, have my AI change my mind.
+[11:33 AM] h0p3: I could use it to scour for links on the interwebs, argue with it.
+[11:34 AM] h0p3: If I were lucky enough, it would be wildly smarter than I am. It could teach me in my own language.
+[11:34 AM] h0p3: It would know how to connect the dots for me: who better to do it than a version of myself that has already climbed ahead of me on the mountain?
+[11:35 AM] Shp: this is a truly brilliant idea imo.
+[11:35 AM] h0p3: The blackbox AI ethics trust problem is a big one. I am morally opposed to capitalism giving rise to an AI that was built immorally and further to build an AI that would commodify humanity, enslave it, and continue to centralize power.
+[11:36 AM] h0p3: How do we build AI-governance (which is inevitable) that we trust, that allows us to maintain our autonomy, that is fair and moral, that is built from ourselves?
+[11:36 AM] h0p3: What does democracy really look like in the AI age?
+[11:36 AM] Shp: I think an AI-governance would be good for humanity.
+[11:36 AM] h0p3: It is here that my AI should be my political representative. In fact, we should all have such representatives to work together to form consensus automatically.
+[11:36 AM] Shp: humans are not fit to govern humans
+[11:37 AM] h0p3: An AI that I did not help build is no representative of me.
+[11:37 AM] Shp: doesn't need to represent you
+[11:37 AM] h0p3: Do you think Google's AI is really going to be good for humanity or for Google?
+[11:37 AM] Shp: just need to be good for you
+[11:37 AM] Shp: i didn't say that
+[11:38 AM] h0p3: Let me suggest that I'm not interested necessarily in what is [[good]] for me, but rather what is  just and right for me.
+[11:39 AM] Shp: but what is more important, just and right for the individual or good for the many?
+[11:39 AM] h0p3: Preach. :smiley:
+[11:41 AM] h0p3: It will be difficult for me to explain what it means to say [[Right]] before we have a concept of [[Good]] first.
+[11:41 AM] Shp: yes, I started with the first for a reason :)
+[11:42 AM] h0p3: :smiley:
+[11:43 AM] h0p3: I will pre-register the content of [[The Moral Law]] with you: it's [[The Golden Rule]]. It's fundamentally empathic in the way in which we take the reasons, beliefs, desires, and [[good]] for the sake of [[others]] fairly into account in our own weighing and reasoning. We represent their interests equally with our own.
+[11:44 AM] h0p3: Or, rather, we attempt to do so heuristically since we are [[fff]]. In reflective equilibrium, we improve our understanding of how to be more effectively moral.
+[11:45 AM] h0p3: It turns out that the AI representation process would enable a powerful voting process that would enable us to decentralize power based upon the [[T42T]] principle (which is the game-theoretic way to define [[The Golden Rule]]).
+[11:46 AM] h0p3: My transparency is not an accident here.
+11:47 AM] Shp: voting doesn't make much sense imo. humans don't know what they need.
+[11:47 AM] h0p3: Well, I beg you give me time to convince you.  :smiley:
+[11:48 AM] Shp: this is why I said an AI ruled world would  be better for us. if the AI was designed to be good for humanity
+[11:48 AM] h0p3: I'm trying to build that.
+[11:50 AM] h0p3: It is unlikely to arise out of the [[T4T]] or worse state of nature in which power centralizes into the winner-who-took-all. Decentralizing that power is hard.
+[11:50 AM] Shp: if a person rules a country and is replaced by another person who is smarter, all other things being equal, the smarter person will do a better job. now if we create an entity that is smarter than all of us combined, then it will make us build a dyson sphere :D
+[11:50 AM] h0p3: Intelligence is a double-edged sword.
+[11:50 AM] h0p3: Hitler was a genius.
+[11:50 AM] h0p3: Wisdom is what I seek in a ruler.
+[11:51 AM] Shp: give wisdom to  smarts and you got the best
+[11:51 AM] h0p3: Wisdom is intelligence [[irwartfrr]].
+[11:52 AM] Shp: and, just think about it, you could upload as much wisdom to an AI as you want
+[11:52 AM] Shp: literally every book we got :)
+[11:52 AM] h0p3: I suggest we will not be able to upload wisdom to the AI. I think we are building it in the AI.
+[11:52 AM] h0p3: (or should be attempting to)
+[11:52 AM] h0p3: I think most books are useless.
+[11:53 AM] Shp: you are right
+[11:53 AM] Shp: but I think it is still possible to get a wiser AI than any person
+[11:53 AM] h0p3: Agreed!
+[11:54 AM] h0p3: Or rather, any human person.
+[11:54 AM] h0p3: I suggest AI may be a person. It depends.
+[11:54 AM] Shp: well, Data was, so sure :D
+[11:55 AM] Shp: I'm joking but I agree
+[11:55 AM] Shp: an AI can be a person
+[11:56 AM] h0p3: I'm a fan of TNG.  He's one of my favorite intuition pumps to demonstrate it to me.
+[11:56 AM] Shp: demonstrate what to you?
+[11:56 AM] h0p3: That AIs can be persons.
+[11:56 AM] Shp: oh i see
+[11:56 AM] Shp: TNG is great indeed and Data is awesome :)
+[12:01 PM] h0p3: So, you can see I'm trying to transparently build my own "thoughts of world domination" given my best conception of justice and understanding of technology available to us.
+[12:01 PM] Shp: btw I am not big on politics. I just know that humans are so misguided about themselves that it does not make much sense to give them power. even the power to vote is kind of silly  to me. I don't know what I am saying, but I am not saying that freedom should be taken away in any way, so do not get me wrong, I don't have any answers, just questions and skepticism
+[12:02 PM] h0p3: You will find me exceedingly annoying!
+[12:02 PM] Shp: why?
+[12:02 PM] h0p3: Because [[Find The Others]] is fundamentally political. I think Aristotle is correct: we are political animals.
+[12:03 PM] h0p3: It is my {[[axiom]]}.
+[12:04 PM] h0p3: I can see you are talented at deconstruction. This leads to another {[[axiom]]} of mine:  [[Deconstruction Obligates Reconstruction]]. That's what I'm doing.
+[12:05 PM] Shp: well then I'll work with annoyance, make it my friend
+[12:06 PM] h0p3: /high-5
+[12:07 PM] Shp: one day I'll understand the political side (..and the other sides as well) of all this, until that day, I will live in the bliss of ignorance
+[12:44 PM] Shp: I've got a question for you
+[12:45 PM] Shp: do you know the omission bias? (this was not my question :D)
+[12:46 PM] Shp: (I have been wrestling this for years)
+[12:46 PM] Shp: from wikipedia: " It is the tendency to judge harmful actions as worse, or less moral than equally harmful omissions (inactions) because actions are more obvious than inactions."
+[12:47 PM] Shp: my question is: which is less moral, a harmful action or an equally harmful inaction?
+[12:47 PM] h0p3: I do not know.
+[12:48 PM] h0p3: I should be able to answer it. I can't.
+[12:48 PM] Shp: this is sad. you could've settled a debate I had with myself for years
+[12:48 PM] h0p3: I am not there yet. :frowning:
+[12:49 PM] Shp: let me know when you are! I am unlikely to reach any answer soon.
+[12:49 PM] h0p3: I can tell you that some kinds of moral problems eventually boil down to consequentialist reasoning as the last straw.
+[12:50 PM] Shp: that cannot answer this because it is the definition of the question that the consequences are equal
+[12:50 PM] h0p3: In those cases, both appear just as permissible. Dividing the deontic from the consequential, I cannot do well enough.
+[12:51 PM] h0p3: You are after the codifiability of [[The Moral Law]]. I hold the pursuit of practical wisdom in high regard.
+[12:53 PM] h0p3: Part of the issue is that we are trying to codify emotional, non-cognitive aspects of what we value (and then the other way, in a [[self-dialectic]]).
+[12:53 PM] Shp: but
+[12:54 PM] Shp: I have an issue with this
+[12:54 PM] h0p3: Most people take consequentialist reasoning to be frontal-lobe-oriented. Deontic reasoning tends to be limbic. Virtue Theory (when it is complete) describes the moral psychology of the relationship between that thinking slow and thinking fast.
+[12:54 PM] Shp: emotions are not that complex (imo, though I got no proof or credibility), in fact, I believe that they could be more easily simulated than consciousness or higher brain functions
+[12:55 PM] h0p3: I am not able to say that. I'm sorry.
+[12:55 PM] h0p3: I don't know.
+[12:55 PM] h0p3: It appears like they form a feedback loop to me, and one necessitates the other.
+[12:56 PM] h0p3: I do not think we can be moral agents with only one of them.
+[12:56 PM] h0p3: or* I wouldn't know how to think about what that kind of agency is like
+[12:59 PM] Shp: I think most morel problems boil down to consequentialist reasoning
+[1:00 PM] h0p3: I can appreciate the claim.
+[1:00 PM] h0p3: I suggest codifiability will entail the ability to compute [[The Moral Law]] from a logically equivalent utility calculus.
+[1:01 PM] h0p3: Unfortunately, this isn't as awesomely useful as I'd like.
+[1:01 PM] h0p3: I think I have mentioned it before: 1+1=2 is a logical truth.
+[1:01 PM] h0p3: "Unmarried men are bachelors" is also a logical truth.
+[1:02 PM] Shp: yes, but they don't help with anything.
+[1:02 PM] Shp: because they are self-defining
+[1:02 PM] h0p3: For all possible worlds, two propositions are logically equivalent just in case they share the same truth values in all possible worlds.
+[1:02 PM] h0p3: i.e. two propositions which logically imply each other are logically equivalent.
+[1:03 PM] h0p3: That is to say, 1+1=2 and "Unmarried men are bachelors" appear to be logically equivalent.
+[1:03 PM] h0p3: They form a giant ball of necessity together (with all the other logical truths)
+[1:05 PM] h0p3: The ugly part is that it seems difficult to tell the story of why some of the truths are somehow relevant to the others outside of logic.
+[1:05 PM] h0p3: In fact, 1+1=2 is logically equivalent to [[The Moral Law]] as well.
+[1:06 PM] h0p3: Thus, just because [[The Moral Law]] can be expressed in a logically equivalent utility calculus doesn't mean we can appreciate its contents or even the method by which we come to understand it.
+[1:06 PM] h0p3: I should also point out that I am convinced at least one dialetheia exists in the concept of [[The Right]]. I will not be able to resolve that.
+[1:09 PM] Shp: this is disappointing.
+[1:09 PM] h0p3: Lol!
+[1:09 PM] Shp: at least the part that I understand
+[1:09 PM] h0p3: I am sorry. I wish I had a more satisfying answer.
+[1:10 PM] h0p3: This is me attempting to be humble about the nature of [[The Infinite]]. We have to empirically discover it as best we can, and it will never be finalized, satisfyingly certain, or even close to [[The End]].
+[1:11 PM] h0p3: It's blinding to me.
+[1:12 PM] Shp: humbling, to be humbled - these always had a positive connotation for me. I recently learned that to be humbled has a bad connotation. or it seems it does. I am confused with this word.
+[1:13 PM] h0p3: It is good to be appropriately humble. It can sometimes suck to be humbled. For me, I stand in a state of awe.
+[1:13 PM] h0p3: I can barely point to it.
+[1:13 PM] Shp: seems like faith, infinity and my issue with this openness are recurring themes :)
+[1:14 PM] h0p3: And...for good "reason" :smiley: I feel your pain.
+[1:14 PM] Shp: reason should be a recurring theme, I adore reason and reasoning.
+[1:14 PM] h0p3: Philosophy 4 Life
+[1:17 PM] Shp: this reminds me of your question if I talk to myself about these in my wiki ... I don't do enough talking to myself, I am searching for answers outside of me. collecting information instead of generating it from within
+[1:17 PM] h0p3: I am convinced you must do both.
+[1:17 PM] h0p3: It's so fucking painful.
+[1:18 PM] Shp: I've learned that from you that I should
+[1:18 PM] Shp: at least partially (learned from you, there have been other influences too I'm pretty sure)
+"""

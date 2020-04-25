@@ -1,0 +1,118 @@
+aliases: [[X-Section]] [[X-section]] [[Yearly X-Section]] [[Yearly]] [[Yearly X-section]]
+caption: Yearly x§
+created: 20190628193124353
+modified: 20200211030100557
+tags: Timelines j3d1h
+title: Yearly Cross-section
+
+<$set name="day" value=<<now 0MM0DD>>>
+<$set name="year" value=<<now YYYY>>>
+<$wikify name="reg" text="20\d\d<<day>>\d\d\d\d\d\d\d\d\d">
+<$wikify name="nope" text="<<year>><<day>>\d\d\d\d\d\d\d\d\d">
+
+<$list filter="[regexp:created<reg>!regexp:created<nope>!regexp:title[^20\d\d]!is[system]!tag[Hidden]limit[1]]">
+
+█▓▒▒░░░░ <$button class="tc-btn-invisible tc-tiddlylink">
+<$list filter="[regexp:created<reg>!regexp:created<nope>!regexp:title[^20\d\d]!is[system]!tag[Hidden]]">
+<$wikify name=title text="""<$view field="title"/>""">
+<$action-navigate $to=<<title>>/>
+</$wikify>
+</$list>
+<$list filter="[regexp:created<reg>!regexp:created<nope>!regexp:title[^20\d\d]!is[system]!tag[Hidden]first[]]">
+<$wikify name=title text="""<$view field="title"/>""">
+<$action-navigate $to=<<title>>/>
+</$wikify>
+</$list>
+<span style="color:#66ff66">Dynamic</span>
+</$button> ░░░░▒▒▓█
+
+<div class="tc-menu-list-item">
+<$list filter="[regexp:created<reg>!regexp:created<nope>!regexp:title[^20\d\d]!is[system]!tag[Hidden]]">
+<div class="tc-menu-list-subitem">
+<$link to={{!!title}}>
+<<timeline-title>>
+</$link>
+</div>
+</$list>
+</div>
+
+</$list>
+
+</$wikify>
+</$wikify>
+</$set>
+</$set>
+
+<$set name="day" value=<<now .0MM.0DD>>>
+<$set name="dayagain" value=<<now 0MM0DD>> >
+<$set name="year" value=<<now YYYY>>>
+<$wikify name="reg" text="20\d\d<<dayagain>>\d\d\d\d\d\d\d\d\d">
+<$wikify name="nope" text="<<year>><<dayagain>>\d\d\d\d\d\d\d\d\d">
+
+█▓▒▒░░░░ <$button class="tc-btn-invisible tc-tiddlylink">
+<$list filter="[search:title<day>!prefix<year>] [regexp:title[20\d\d\.\d\d - ]regexp:created<reg>!regexp:created<nope>] [regexp:title[20\d\d - ]regexp:created<reg>!regexp:created<nope>] +[sort[title]!tag[Hidden]]">
+<$wikify name=title text="""<$view field="title"/>""">
+<$action-navigate $to=<<title>>/>
+</$wikify>
+</$list>
+<$list filter="[search:title<day>!prefix<year>] [regexp:title[20\d\d\.\d\d - ]regexp:created<reg>!regexp:created<nope>] [regexp:title[20\d\d - ]regexp:created<reg>!regexp:created<nope>] +[sort[title]!tag[Hidden]] +[first[]]">
+<$wikify name=title text="""<$view field="title"/>""">
+<$action-navigate $to=<<title>>/>
+</$wikify>
+</$list>
+<span style="color:#66ff66">Static</span>
+</$button> ░░░░▒▒▓█
+
+<div class="tc-menu-list-item">
+<$list filter="[search:title<day>!prefix<year>] [regexp:title[20\d\d\.\d\d - ]regexp:created<reg>!regexp:created<nope>] [regexp:title[20\d\d - ]regexp:created<reg>!regexp:created<nope>] +[sort[title]!tag[Hidden]]">
+<div class="tc-menu-list-subitem">
+<$link to={{!!title}}>
+<<timeline-title>>
+</$link>
+</div>
+</$list>
+</div>
+
+</$wikify>
+</$wikify>
+</$set>
+</$set>
+</$set>
+
+<$set name="day" value=<<now 0MM0DD>>>
+<$set name="year" value=<<now YYYY>>>
+<$wikify name="reg" text="20\d\d<<day>>\d\d\d\d\d\d\d\d\d">
+<$wikify name="nope" text="<<year>><<day>>\d\d\d\d\d\d\d\d\d">
+
+<$list filter="[regexp:created<reg>!regexp:created<nope>!regexp:title[^\d\d\d\d\.\d\d.\d\d]is[system]!tag[Hidden]first[]]">
+
+█▓▒▒░░░░ <$button class="tc-btn-invisible tc-tiddlylink">
+<$list filter="[regexp:created<reg>!regexp:created<nope>!regexp:title[^\d\d\d\d\.\d\d.\d\d]is[system]!tag[Hidden]]">
+<$wikify name=title text="""<$view field="title"/>""">
+<$action-navigate $to=<<title>>/>
+</$wikify>
+</$list>
+<$list filter="[regexp:created<reg>!regexp:created<nope>!regexp:title[^\d\d\d\d\.\d\d.\d\d]is[system]!tag[Hidden]first[]]">
+<$wikify name=title text="""<$view field="title"/>""">
+<$action-navigate $to=<<title>>/>
+</$wikify>
+</$list>
+<span style="color:#66ff66">System</span>
+</$button> ░░░░▒▒▓█
+
+<div class="tc-menu-list-item">
+<$list filter="[regexp:created<reg>!regexp:created<nope>!regexp:title[^\d\d\d\d\.\d\d.\d\d]is[system]!tag[Hidden]]">
+<div class="tc-menu-list-subitem">
+<$link to={{!!title}}>
+<<timeline-title>>
+</$link>
+</div>
+</$list>
+</div>
+
+</$list>
+
+</$wikify>
+</$wikify>
+</$set>
+</$set>

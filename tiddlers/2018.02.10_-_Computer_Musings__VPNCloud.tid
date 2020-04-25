@@ -1,16 +1,16 @@
 created: 20180210173750291
-modified: 20181029175224779
+modified: 20200211021303406
 modifier: h0p3
-tags: [[Computer Musings]]
+tags: [[RGM Notes]] [[Wiki Audit]] [[Computer Musings]]
 title: 2018.02.10 - Computer Musings: VPNCloud
 
 I'd like to bind my 2.4Ghz and 5.0Ghz lines together on the router.
 
-I also want to make another long-term device away from home. I'll have to carefully find a place to put it. See Hidden.
+I also want to make another long-term device away from home. I'll have to carefully find a place to put it. See Ol'Voldy.
 
 ---
 
-Setup vpncloud last night on kimsufi and m10. I adore it! Adding to ATL:
+Set up vpncloud last night on kimsufi and m10. I adore it! Adding to ATL:
 
 ```bash
 wget https://github.com/dswd/vpncloud.rs/releases/download/v0.8.1/vpncloud_0.8.1_amd64.deb
@@ -40,21 +40,19 @@ sudo systemctl enable h0p3vpncloud.service
 sudo systemctl start h0p3vpncloud.service
 ```
 
-So, philosopher.life is setup. Also, it has an odd bash problem. I don't understand. When I first login, it is a simple $. When I run bash again (from any bin), it immediately colorizes and implements my bash profile.
+So, philosopher.life is set up. Also, it has an odd bash problem. I don't understand. When I first login, it is a simple $. When I run bash again (from any bin), it immediately colorizes and implements my bash profile.
 
 ---
 
 Setup crontab for dejadup:
 
-```
-0 1 * * 0 deja-dup --backup
-```
+`0 1 * * 0 deja-dup --backup`
 
 Tried a few things out. Seem good enough for me.
 
 ---
 
-Tried add uni-link to the wiki. It changes my coloration among other things. I will wait. I may come back to it. I'm glad I have it in hand in case I do, but it's not worth it right now, I believe.
+Tried adding uni-link to the wiki. It changes my coloration among other things. I will wait. I may come back to it. I'm glad I have it in hand in case I do, but it's not worth it right now, I believe.<<ref "2020.02.10-1">>
 
 ---
 
@@ -98,9 +96,7 @@ linker = "arm-linux-gnueabihf-gcc
 
 CD and build.
 
-```
-cargo build --target=armv7-unknown-linux-gnueabihf
-```
+`cargo build --target=armv7-unknown-linux-gnueabihf`
 
 ---
 
@@ -113,3 +109,5 @@ shadowsocks, having troubles
 Worked on remotely controlling on my phone, m14. There are no good options. It's such a fragmented walled garden. It's trash if you want control over it.
 
 
+---
+<<footnotes "2020.02.10-1" "Turned out to be the wrong tool in the end. It doesn't scale with a wiki this big. I've kind of stopped trying to find more tooling, although the explosion of tooling for TW seems to have died down considerably (low-hanging fruit has been picked).">>

@@ -1,0 +1,84 @@
+created: 20191129201315050
+modified: 20191202050636215
+tags: [[The Original Position]] [[Antipleonasm Analysis]] [[Deep Reading]] Outopos [[Link Log]] Vitalik Highdeas
+title: 2019.11.29 - Outopos: B-Word Hard Problems
+
+https://vitalik.ca/general/2019/11/22/progress.html
+
+At some level, we have to agree upon what is possible and what is likely to determine what we ought to do.
+
+Blockchains are easy to hate on. They are still worth understanding as a part of building [[The Original Position]] correctly. You want to literally build something which computes the semblance of class consciousness, even if it is only a statistically-driven affair,  even if we can never know if collective ontological entities have real agency or a mind like ours with certainty. It is an empirical investigation at that level, but we can still provide the best logical prior building blocks we can. To what principles will [[Humanity]] bind itself to in [[The Great Human Conversation]](?), including: what Rawlsian basic structures or Marxist base+superstructure dialectical logistical bodies will we generate in the material dialectic? As much as it pains to me say what is so fucking unpopular to Leftists I admire so highly: blockchains are part of the solution overall. Ugh! Kill me now, please. That is disgusting. So much hype, much wow, those god damn Libertarians make me fucking sick. I need to shit all over it. Please, raise a target, and I'll tell you why I think it's immoral: that's my job. [[Deconstruction Obligates Reconstruction]], and blockchains are tools which must be understood, often prevented, and sometimes harnessed in decentralized political [[power]]. Yes, I'm insane, I legitimately believe in radical democracy: I still see [[hope]] for [[Humanity]] requiring this technology (necessary but hardly, HARDLY sufficient). Morally collapsing who owns vs who wields the various [[dok]] of ordered tools is a hard problem.
+
+
+!! Intro to Hard Problems in Cryptocurrency: Five Years Later
+
+<<<
+The problems are broken down into three categories: (i) cryptographic, and hence expected to be solvable with purely mathematical techniques if they are to be solvable at all, (ii) consensus theory, largely improvements to proof of work and proof of stake, and (iii) economic, and hence having to do with creating structures involving incentives given to different participants, and often involving the application layer more than the protocol layer. 
+<<<
+
+
+!! Blockchain Scalability
+
+<<<
+One of the largest problems facing the cryptocurrency space today is the issue of scalability ... The main concern with [oversized blockchains] is trust: if there are only a few entities capable of running full nodes, then those entities can conspire and agree to give themselves a large number of additional bitcoins, and there would be no way for other users to see for themselves that a block is invalid without processing an entire block themselves.
+
+Problem: create a blockchain design that maintains Bitcoin-like security guarantees, but where the maximum size of the most powerful node that needs to exist for the network to keep functioning is substantially sublinear in the number of transactions.  
+<<<
+
+No. You have to build trust from the bottom-up, grassroots, rhizomatic patchwork, personally P2P, with experience, with evidence of [[The Golden Rule]] in which we openly vouch for others, web of trust, as deeply as possible. Make trusting-trust a dope P2Pified Bob turtle (rely upon the wisdom of the crowds in virtue of being real friends with members of that crowd). I aim for foundations which can alter its own {[[axioms]]} while still having radical moral integrity inside and out. There are legions of paradoxes for this problem. Inertia is all I could hope for. Building arbitrary networks of functional containers in a safe, speedy, and human-understandable way is hard. 
+
+Sharding is a necessary problem. Shard for reasons which make sense: shard hard on Proof of Social Stake in [[The Other]] (on actual, actionable, FIATesque relationships of people). Scaling is a hard problem on multiple fronts, and technological trust built on how we actually trust each other as far as possible is necessary for the computationally energy-efficient answer (of course, [[infinigress]]es again). 
+
+In this particular blockchain case, 51% is a lossy proof, but if we take it lossier, there is ridiculously strong low-hanging fruit compression of [[Humanity]] available. It must be decentralized further. As you basically imply, it is really an Oracle problem, and building secure Oracles requires active participation in a democracy. Limiting that surface is reasonable, and deep roots of trust are preferred. As always, you have to build blockchains on social trust: that is what fiat has (only it's generated through warfare far more than cooperation). 
+
+The real question is how to build democracies upon which we can trustingly design, construct, and execute blockchain designs which could ever have Bitcoin-like security guarantees. How do you build networks of social trust which scale with human behavior, which take our identities more into account in voting for the Oracles (and Federalized representatives which must be reduced down to individuals in as fair a manner as possible). 
+
+You want that sublinearity to build on radically decentralized social trust. You need transnational bodies to fight transnational bodies in global dialectics. We cannot be exclusively trapped in nationalized networks of trust. You have to have a network which no government can stop, built into the very fabric of every functioning infrastructure (eliminating the centralization of power requires centralizing it as some kind of Rule of Law still; there are many kinds of attempt at anarchism and Marxism which go this direction). Rock-solid trust built upon actually empathizing with each other on remote, virtualized (in multiple directions), anonymously-capable, private, and P2P (from a technical infrastructure side) networks of persons (for now, humans) building common ground with [[The Other]]. 
+
+One of the larger problems facing how to legitimately generate initial acquisitions and redistributions of material value today is the issue of scalability of justified social trust. What does radically well-defined yet lossy (statistically-driven) and automated electronic voting processes in a global democracy look like? To [[infinigress]], you have to sublate 51/49% dialectics, use that battle of domination only to occur within sandboxes secured by means which are fundamentally owned by every person on the planet. 
+
+How does one fairly define [[The Golden Rule]] collectively? The pursuit of the definition and application of [[The Golden Rule]] is a distributed computer running [[The Original Position]] simulator(s). Trust is a [[faith]] in [[The Other]]. You must make leaps traverse some parts of the desert.
+
+<<<
+Status: Great theoretical progress, pending more real-world evaluation.
+<<<
+
+In one-direction of the equation, sure. There is valuable logic here. Part of the problem is that you need to actively build a network tree which uses its voting to shape and prune which branches belong in a fair manner (you have to eliminate your Hitlers, and how can do you so while minimizing fascism). Where will you place the Criterion of Political Authority, how do you decentralize the best semblance of the ownership from which The Rule of Law emerges as a single judge and voice, even regarding itself? Blacklisting has to be done by hand, and real relationships are still the best grounds. The amount of information embedded in social relationships is being mined, but do we own the means of production from which our social relationships are the functional inputs? Relationships have that lack of concision which can be transformed into statistically more precise (though averaged) models that represent us together.
+
+Morally, have you done everything necessary to reason and cooperate before the 51/49 domination split? I don't see a ton of movement from the Blockchainbros in this direction. How do we build justified forms of coercion? I hope it's not on the principle of trusting no one beyond the most advanced forms of egoism available.
+
+<<<
+https://medium.com/@giottodf/zilliqa-a-novel-approach-to-sharding-d79249347a1f
+
+ The problem with that however is that when you split the data you basically do it in a way that is almost random. This means that most of those shards will need to communicate extremely frequently with each other.
+<<<
+
+Real P2P, mushy, gunky, hyperpersonal, living relationships are always going to need to be the atoms of price efficient-consensus. We must be the shards, personally, and, yeah, we have to communicate extremely frequently with each other to build fabrics of trust, love, and justified incivility. 
+
+You want to know how we learn to trust each other with more automaticity? We have to actually fucking trust each other. `/mindsplode`. Infrastructure has to move that direction as far as possible, molding itself around us (not us around it to whatever extent we can). Yup, it's a ridiculous {[[dream]]}. Oh, my god, [[h0p3]], y didn't I think of that? So brilliant. I get it. Fine. Don't listen to me. XD.
+
+<<<
+The principle is that it takes a lot more space to store the history of the transactions than the space it takes to store your current balance 
+<<<
+
+We have to rely upon human (and whatever other persons') memory. We have to keep the history ourselves. What could you possibly trust more? And, insofar as humans can't remember shit (because we are god fucking awful at preventing our brains from forgetting shit to lower the cost of the computation because evolution is one LAZY fucking bastard): we need wikis, and technological assistance which respects our dignity and autonomy. That's our ring 0.
+
+<<<
+The approach that Zilliqa has chosen with sharding is that every single node will have a copy of the current state (the bank balances in our example) but then the transactions history will be split in pieces so that not everyone will have to have a full copy of it.
+<<<
+
+Yes. What kinds of information must we all maintain and compute as a standard blockchain, unified VM, and global ledger? Which parts can be accelerated by making it lossy?
+
+Bitcoin may not be necessarily 51/49, if I understand correctly, even down to 25% of malicious nodes can compromise its security (let alone the oligarchies of whale mining pools). 
+
+
+
+
+
+
+
+
+
+
+
+

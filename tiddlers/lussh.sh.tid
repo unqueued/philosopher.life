@@ -1,0 +1,72 @@
+aliases: [[lussh]]
+created: 20180208013750365
+creator: h0p3
+modified: 20200209053719397
+modifier: h0p3
+tags: Script bash
+title: lussh.sh
+
+```bash
+#!/bin/bash
+
+# make sure to run this with /bin/bash, NOT /bin/sh
+
+echo
+echo This script will help you setup ssh public key authentication.
+
+host=dummy
+port=22
+
+while [ -n "$host" ]; do
+echo -n "SSH server: "
+read host
+if [ -n "$host" ]; then
+    echo -n "user[$USER]: "
+    read usr
+
+    #If user not provided use current user
+    if [ -z "$usr" ]; then
+      usr=$USER
+    fi
+
+    echo -n "port[$port] "
+    read port
+    if [ -z "$port" ]; then
+      port=4222
+    fi
+
+    echo "Setting up RSA authentication for ${usr}@${host} (port $port)..."
+    if [ -f ~/.ssh/id_rsa.pub ]; then
+      echo "RSA public key OK."
+    else
+      ssh-keygen -t rsa -f ~/.ssh/id_rsa -N ""
+    fi
+
+    echo "Appending your RSA public key to the server's authorized_keys"
+    scp -P $port ~/.ssh/id_rsa.pub ${usr}@${host}:~/
+
+    # Append public key to authorized keys and fix common
+    # permission problems, eg. a group-writable .ssh dir,
+    # or authorized_keys being readable by others.
+    ssh ${usr}@${host} -p $port "if [ ! -d ~/.ssh ]; then
+      mkdir ~/.ssh
+      fi
+      chmod 700 ~/.ssh
+      cat ~/id_rsa.pub >> ~/.ssh/authorized_keys
+      chmod 0600 ~/.ssh/authorized_keys
+      rm ~/id_rsa.pub"
+    echo
+    echo "You should see the following message without being prompted for anything now..."
+    echo
+    ssh ${usr}@${host} -p $port "echo !!! Congratulations, you are now logged in as ${usr}@${host} !!!"
+    echo
+    echo "If you were prompted, public key authentication could not be configured..."
+
+    echo
+    echo "Enter a blank servername when done."
+    echo
+fi
+done
+
+echo "End of configuration."
+```

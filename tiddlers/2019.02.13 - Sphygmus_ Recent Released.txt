@@ -1,0 +1,128 @@
+j3d1h and I want to make a script for you.
+WED 12:50 PM
+It may not be something you want though, and we may need your help to understand how to write the script for you.
+WED 12:50 PM
+I don't know your [[RGM]] well enough. Part of my problem in reading your wiki is that the [[Recent]] tab is not always an accurate reflection of what you've released to the public.
+WED 12:52 PM
+I want to be an effective reader!
+WED 12:53 PM
+yes, I saw that!! for converting footnotes and internal links :D
+WED 12:53 PM
+We're working on that too. =)
+WED 12:53 PM
+ooo something else??
+WED 12:53 PM
+Yes. I would like to programmatically update the "modified" date in the tiddlers that you have recently released to your public wiki.
+WED 12:54 PM
+I believe this would enable me to look through your Recent. Otherwise, I may eventually be forced to diff between snapshots. I would much rather read your wiki in the browser than the terminal.
+WED 12:55 PM
+Or, I suppose I could reverse engineer from snapshots and do it all on my end to recreate it.
+WED 12:55 PM
+This is merely a convenience to your reader. It's not necessary, but it becomes increasingly convenient to me as your public wiki grows and grows.
+WED 12:57 PM
+Assuming that is something you want, we're interested in trying to come up with a solution for you. If you can walk me through my mile-high view of your [[RGM]] as you push from private to public, I might be able to realize how the script can fit. I assume bash or python would be okay?
+WED 12:58 PM
+hm, hm. I'm a little hesitant to edit the modified date when I release them, b/c I like that to be accurate -- not that I ever use the Recent tab, but if/when I might. :stuck_out_tongue:
+
+But!! I could totally see adding a "released" field to tiddlers, adding the date there, and then making a tab called "Recently Released" or something on the public side that sorts by the released field -- that should do what you want, I think!
+WED 12:59 PM
+Yes!
+WED 1:00 PM
+That is an even better solution.
+WED 1:00 PM
+Recently Released could also just be added to [[New]], since it really is completely new to us.
+WED 1:01 PM
+I retroactively add content from many years ago (decades even).
+WED 1:01 PM
+I use your Recent and New quite a bit. When I see an update, those are the first places I go.
+WED 1:03 PM
+I then tend to wander and hyperread to visualize the structures. Repetition is valuable to me, and seeing the overlap connects the dots for me.
+WED 1:04 PM
+re: my RGM -- it is very much by hand -- I winSCP into my server, sort the tiddler folder by "created" (or modified, I don't remember), then drag'n'drop whatever tiddlers I want to share into my "shared" folder. Then I ssh in, restart TiddlyServer, and run my web_update script.
+WED 1:06 PM
+It is interesting to hear how you navigate!
+WED 1:06 PM
+since apparently at least two other people check my website regularly I'm starting to wonder how best to approach the front page / sidebars
+WED 1:07 PM
+I think a recently released sidebar would help everyone!
+WED 1:07 PM
+Indeed!
+WED 1:08 PM
+When I first started reading your wiki I really only checked the new tab; at some point I transitioned to recent so I could see when you'd updated letters and such. Now I very rarely check the new tab.
+WED 1:09 PM
+Making it a two part process could work? Move tiddlers into a "processing" folder, run bash script that auto-moves them into "shared" when complete.
+WED 1:10 PM
+Do you think I should make changes, btw? I tend to want people to see it from the pilot's seat, but I also want to make your life easy.
+WED 1:10 PM
+Recent works for me! I load the site, close all tiddlers, then start reading. The only sticking point is, say, kicks: revelation is in your recent right now, but it's not easy to tell what/if anything changed.
+WED 1:13 PM
+Which leads me to often re-reading a lot or scrolling quickly to see if i recognize anything new at a glance
+WED 1:13 PM
+That is a more complex problem to solve, but I would like to get there.
+WED 1:14 PM
+I will put it on the TDL
+WED 1:14 PM
+That would make your life easier.
+WED 1:15 PM
+How far back should the versioning go?
+WED 1:15 PM
+Basically, I need to just offer the diff, but my wiki is already huge. I can't just keep diffs forever. I would need to programmatically add and remove diffs.
+WED 1:16 PM
+http://malsandbox.tiddlyspot.com/ is hawt.
+WED 1:17 PM
+Much simpler, but maybe I'll have to use more complex versions.
+WED 1:18 PM
+really I think the diffs only need to go back one or two versions -- at least, I check often enough that I'd probably only make use of the most recent diff.
+WED 1:18 PM
+Good point. Sometimes I'll make 10 edits in the same day. I should probably make it last for a certain number of days instead. How many days should it last?
+WED 1:20 PM
+Anyway, back to your script: I think the answer depends on how much work you want to put in. Your time is precious, and my goal is to complement you here. I have an opinion of what I'd do in your shoes. I'll lay it out. In your shoes, I would eventually aim to be able to just "tag" a tiddler as public, and it would automatically pushed into the public wiki.
+WED 1:22 PM
+Is that not where you want to be in the end? I keep a lot of manual processes because I don't see the value in automating it.
+WED 1:22 PM
+minus the recently released, I do already have that -- sort of. Any tiddler I tag "shared" on creation goes into my shared folder, and will be published when web_update runs nightly
+WED 1:23 PM
+The issue comes when I decided I want to share a tiddler that I did not tag as shared when I made it, and I also don't want to rename it
+WED 1:24 PM
+If I retroactively tag without renaming, the .tid file won't move to the shared folder
+WED 1:24 PM
+Why is that?
+WED 1:24 PM
+I'm using the file-paths-system thingy that's default to TiddlyWiki and it only processes on tiddler creation
+WED 1:26 PM
+https://tiddlywiki.com/#Customising%20Tiddler%20File%20Naming
+WED 1:26 PM
+(also I hate having a visible "shared" tag on both my private and public wikis, but I could probably filter that out of the tag view now that I think of it)
+WED 1:27 PM
+I would probably keep it in private, but yeah, I see no reason in public.
+WED 1:28 PM
+Might even just have a coloration difference of the tiddler to make it clear that it's public. I don't know. At some point, that signaling may be valuable.
+WED 1:29 PM
+mm, yeah. I've been relying on my memory of what is shared and what isn't, but if/when the wiki gets vastly bigger that could get much harder to remember!
+WED 1:31 PM
+Aye. You may want to go QubesOS or FF Container colorization to know which identity you're standing in.
+WED 1:31 PM
+Also, to automate it, you may have to iterate over the .tid files, parse them for the Shared tag, and then push based on that.
+WED 1:32 PM
+Anyway, what's the best way to update the Recently Released field. That is something j3d1h and I can do.
+WED 1:33 PM
+yeah, that sounds like the approach I would have to take to automate it.
+WED 1:34 PM
+It's pretty easy to distinguish between being in the drivers seat of public and private, though, since they're split into two separate node wikis and my sidebar and titles are different. :)
+WED 1:35 PM
+I agree. That will be easy to distinguish. You'll know when you are using FFDE or plain FF. The colorization allows you to distinguish the properties of tabs in a particular drivers seat. Or, in Qubes, you know which OS you're, your wallpaper, etc., but you want to distinguish the which application belongs to which identity.
+WED 1:37 PM
+The processing folder idea is the best way to do it.
+WED 1:39 PM
+You want a script that walks into the .tid files and adds a new field called "Recently Released" and the current date. These files are then mv'ed to your shared directory.
+WED 1:40 PM
+yes! I would have the field just named "released", I think.
+WED 1:41 PM
+That will be our goal.
+WED 1:41 PM
+:blush:
+WED 1:42 PM
+The release script is up. It's written in xonsh.
+WED 7:00 PM
+Cool!! I'll take a look at implementing that in the next couple days. :)
+WED 7:03 PM

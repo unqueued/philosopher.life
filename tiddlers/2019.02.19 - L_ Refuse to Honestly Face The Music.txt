@@ -1,0 +1,61 @@
+"""
+How was your weekend?
+MON 8:51 AM
+Incredibly belated — it’s ironic that the days after I give you this crazy optimistic tirade are some of the worst work days I’ve had in a while, eh?<<ref "2020.02.19-1">>
+TUE 10:13 PM
+=(
+TUE 10:13 PM
+I'm sorry.
+TUE 10:13 PM
+You surviving?
+TUE 10:13 PM
+Stupid long hours, and now that another one my coworkers has left we’re even more behind.
+TUE 10:13 PM
+Well, she didn’t just up and leave, she just got a new position somewhere else.
+TUE 10:14 PM
+It sounds like you are on a sinking ship.<<ref "2020.02.19-2">>
+TUE 10:15 PM
+I am surviving yes. But I am determined not to let it wear me down like it did before.
+TUE 10:15 PM
+I hear ya. I am sorry that it is so incredibly draining.
+TUE 10:15 PM
+I’m actually in the process of updating my resume — even if being optimistic is insane it has at least given me the willpower to do what needs to be done.<<ref "2020.02.19-3">>
+TUE 10:17 PM
+Preach.
+TUE 10:18 PM
+I refuse to fall back into the pit.
+TUE 10:18 PM
+I think even the pessimist should do that too, btw.
+TUE 10:18 PM
+I am sorry about the pit.
+TUE 10:18 PM
+You’re right. I’m just not as effective at working with my inner pessimist.
+TUE 10:18 PM
+It’s alright. Sometimes falling into the pit helps us find the motivation to move forward. Or maybe I am helplessly hopeful?<<ref "2020.02.19-4">>
+TUE 10:20 PM
+I also realized that all this stress lately has cause me to lose weight, so I’m doing my best to track my calories and become a human vacuum cleaner.
+TUE 10:20 PM
+I will agree that anxiety and depression can be evolutionarily valuable and instrumental in some contexts.<<ref "2020.02.19-5">>
+TUE 10:20 PM
+Lol. I want that exact problem with none of your others problems, please.
+TUE 10:21 PM
+XD
+TUE 10:21 PM
+It is something I wish I could give to others. I always have trouble talking to people about it because I know it’s basically the opposite struggle of most.
+TUE 10:22 PM
+It's flat out disgusting. =)
+TUE 10:22 PM
+Haha, exactly
+TUE 10:22 PM
+"""
+
+---
+<<footnotes "2020.02.19-1" "This is one of our themes together.">>
+
+<<footnotes "2020.02.19-2" "They did have some downsizing. Not clear that it's sinking hard though at this point. (Go Bernie!)">>
+
+<<footnotes "2020.02.19-3" "Such an odd misunderstanding. I was and still am, of course, optimistic that she can find another job. I've held that point of view for many years. The optimism I'm targeting is a political and moral delusion she holds to rationalize maintaining her position.">>
+
+<<footnotes "2020.02.19-4" "[[Positive Disintegration]]">>
+
+<<footnotes "2020.02.19-5" "The problem is that I don't believe she's really trying. It's a lie she keeps telling me and herself. To some extent, she should feel bad about that. It didn't motivate her to fix it, and I can appreciate that recognizing just how wrong things have gone is difficult to swallow.">>

@@ -1,0 +1,810 @@
+How is your week going?
+AUG 30 1:41 PM
+Been mostly annoyingly busy. Work has been non-stop lately.  Being pulled in too many directions, treated almost like a robot. Haven’t heard back about any of the jobs I applied for, so miffed about that. But despite it all I am in a surprisingly decent headspace.
+
+Haven’t had a chance to fiddle around with my computer yet again, but want to tonight. :>
+AUG 30 4:44 PM
+I'm sorry you haven't heard back. I know that feeling.
+AUG 30 5:08 PM
+I'm sorry you are commodified into a [[L]]bot.
+AUG 30 5:09 PM
+It's great that you are still in a good headspace. You are making progress.
+AUG 30 5:09 PM
+Let me know if I can be useful to you on playing with the computer. We can move straight into setting up a wiki if you want, but I think there are other steps to take before that.
+AUG 30 5:10 PM
+I have returned, and I am ready to fuck with computer things
+AUG 30 7:23 PM
+heck yeah! =)
+AUG 30 7:23 PM
+I have a bunch of friends over rn, so I got distracted xD
+AUG 30 7:23 PM
+Good!
+AUG 30 7:23 PM
+But they’re playing D&D so I’ve got to be quiet. (I’m playing tomorrow.) Where should I start?
+AUG 30 7:24 PM
+You said settings and things
+AUG 30 7:24 PM
+First, read through our previous conversation.
+AUG 30 7:25 PM
+(boring, I know)
+AUG 30 7:25 PM
+I think you should check to make sure the basic hardware and key functions work for you.
+AUG 30 7:25 PM
+After that, we have lots of directions to go. Please take notes! If you ever have to do it again (and, you will eventually), your notes will be valuable to you.
+AUG 30 7:26 PM
+Is true. Let me get my computer up....
+AUG 30 7:26 PM
+I know when I picked the keyboard settings for Linux it gave me the option to test my keyboard and everything seemed to work there.
+AUG 30 7:29 PM
+check the sound buttons, screen brightness, and anything else which matters
+AUG 30 7:31 PM
+plug headphones in, see if that works
+AUG 30 7:31 PM
+make sure sound and video playback are good
+AUG 30 7:31 PM
+wifi and perhaps bluetooth as well
+AUG 30 7:31 PM
+does your connection manager show the correct information?
+AUG 30 7:32 PM
+Don’t really care about Bluetooth, headphone jack seems to work well, all my “special buttons” seem to work well too :D
+AUG 30 7:38 PM
+That is lucky. Good.
+AUG 30 7:38 PM
+WiFi/Network settings all look good too
+AUG 30 7:39 PM
+So, have you gone through KDE and looked through the settings and options (there are many)?
+AUG 30 7:39 PM
+Exploring your DE (Desktop Environment) will be a worthy use of your time.
+AUG 30 7:39 PM
+Keep a wishlist of things, functions, behaviors, appearances, etc. you want changed, added, etc.
+AUG 30 7:40 PM
+You might be able to change them on the spot (KDE is powerful), and if you can't, we'll see what we can do by hand.
+AUG 30 7:41 PM
+Ooooh.... KDE has a nice screenshot tool.
+AUG 30 7:42 PM
+PrEsS aLl ThE bUtToNs
+AUG 30 7:42 PM
+KDE has a collection of tools designed specifically for its ecosystem. You only have some default tooling.
+AUG 30 7:43 PM
+Yes, press all the buttons. =)
+AUG 30 7:43 PM
+Doesn't hurt to break anything right now.
+AUG 30 7:43 PM
+I think you would giggle at how amazed I am. This is such a gorgeous DE. It runs so smoothly.
+AUG 30 8:09 PM
+It is gorgeous. They've done a really good job at evolving it.
+AUG 30 8:09 PM
+If I wasn't using a window tiling manager, KDE is what I'd use. It's excellent.
+AUG 30 8:10 PM
+I'm going to beg you to use at least 4 workspaces.
+AUG 30 8:10 PM
+I think workspaces here are “activities” yeah?
+AUG 30 8:10 PM
+I don't remember, I'm sorry. That sounds correct.
+AUG 30 8:11 PM
+searching now
+AUG 30 8:11 PM
+No it’s okay! Terminology always gets muddled. I think activities sounds like what you’re looking for. It’s essentially a separate desktop environment with separate windows and such.
+AUG 30 8:11 PM
+Yes.
+AUG 30 8:12 PM
+I will probably set one aside for my Windows virtual desktop for Microsoft garbage.
+AUG 30 8:12 PM
+Same here. =)
+AUG 30 8:12 PM
+Idk what else to set things aside for though... but I imagine that will happen organically at some point.
+AUG 30 8:13 PM
+If there is not one free one open at all times, then you don't have enough.
+AUG 30 8:13 PM
+lol!
+AUG 30 8:14 PM
+Get your hotkeys set for navigating between them.
+AUG 30 8:14 PM
+Already done
+AUG 30 8:14 PM
+SHORTCUTS FOR EVERYTHING
+AUG 30 8:14 PM
+Imho, one of your goals is to stop using the mouse as much as possible.
+AUG 30 8:15 PM
+Stop using your mouse until it hurts, then use it until it works.
+AUG 30 8:15 PM
+That muscle memory will pay off.
+AUG 30 8:15 PM
+When you have a new project to work on, just start up in a clean in a workspace.
+AUG 30 8:16 PM
+You can hop between projects nicely, and you can leave them untouched.
+AUG 30 8:16 PM
+That will happen a lot. I am sooooooo scatterbrained lol
+AUG 30 8:17 PM
+Manjaro's KDE is going to come with GUI package managers
+AUG 30 8:19 PM
+They are enticing.
+AUG 30 8:19 PM
+And, when you have no patience, go on and use them.
+AUG 30 8:20 PM
+(or time*)
+AUG 30 8:20 PM
+I want to strongly recommend using the command line tooling though.
+AUG 30 8:20 PM
+I suggest "yay" instead of "yaourt" for AUR.
+AUG 30 8:21 PM
+You: Use the command line
+Me: :no_mouth:
+AUG 30 8:21 PM
+Lol
+AUG 30 8:21 PM
+I have used the command line for all of one thing — to find my IP Address for local-connection in Minecraft.
+AUG 30 8:22 PM
+-scrub-
+AUG 30 8:22 PM
+Rule 1:  Don't be afraid of the commandline. You can do it. It's going to be frustrating and a lot of work sometimes, but it will be worth it. (This is like mathphobia, in my experience.)
+AUG 30 8:23 PM
+Rule 2: Don't run code in your command line unless you trust it, and preferrably understand it. This is especially true for "sudo" (or while root).
+AUG 30 8:25 PM
+It is easy to copy and paste code without taking the time to understand it, but this will bite you in the butt.
+AUG 30 8:25 PM
+You also won't be able to figure out what went wrong if you don't try to understand it.
+AUG 30 8:25 PM
+In time, you will come to appreciate it strongly.
+AUG 30 8:26 PM
+Right.
+AUG 30 8:26 PM
+Manjaro's dev team mirrors Arch repos and releases them about 2 weeks later most of the time (years ago, this mattered, but Arch systems have grown far more stable, imho). Like Arch, Manjaro uses pacman.
+AUG 30 8:27 PM
+You say these words
+AUG 30 8:27 PM
+And I don’t know what they mean
+AUG 30 8:28 PM
+pacman is your package manager, and it's your first place for installing software
+AUG 30 8:28 PM
+That is okay!
+AUG 30 8:28 PM
+You will soon enough.
+AUG 30 8:28 PM
+pacman is your buddy, but treat it with respect
+AUG 30 8:28 PM
+You can fuck your system up in a heartbeat. You should read the Arch wiki. It will often be your bible.
+AUG 30 8:28 PM
+Now, you can get away without learning these things. KDE makes life ridiculously easy in many respects.
+AUG 30 8:29 PM
+(I'm sorry that I'm running a hundred miles an hour here)
+AUG 30 8:30 PM
+Using pacman from the commandline will be useful to you regardless of your DE.
+AUG 30 8:31 PM
+(in fact, you don't even need a DE)
+AUG 30 8:31 PM
+Eventually, there will be some complicated things you will want to set up, and having some basic comfort with pacman (and its ideas) will help you get where you are going.
+AUG 30 8:32 PM
+It’s okay! They say the best way to learn a language is to completely submerge yourself in it. This is the equivalent for me.
+AUG 30 8:32 PM
+Yes!
+AUG 30 8:32 PM
+That is exactly what we are doing.
+AUG 30 8:32 PM
+You probably haven't explored all of KDE or customized everything. That's gonna take a while (and you'll probably change your mind many times).
+AUG 30 8:34 PM
+It's probably worth getting some basic applications set up.
+AUG 30 8:34 PM
+Oh for sure.
+AUG 30 8:34 PM
+Some of the software you want can be found in the standard repositories used by pacman.
+AUG 30 8:35 PM
+Okay, so this Arch wiki....
+AUG 30 8:35 PM
+You are going to have to search for software that fits your needs too, like a kid in a candy store, but you've never seen the candy before.
+AUG 30 8:35 PM
+Talk to me about the Arch wiki! =)
+AUG 30 8:35 PM
+https://wiki.archlinux.org/
+AUG 30 8:36 PM
+Discord can be found in the community repo. Signal, however, can only be found in the AUR, atm. Some of the software you want will come from the AUR (though, you should recognize the risks you run with it).
+AUG 30 8:39 PM
+Any reason I should focus Arch wiki over Manjaro wiki (・・?)
+AUG 30 8:39 PM
+Manjaro is 99% Arch.
+AUG 30 8:40 PM
+Arch's wiki is world class.
+AUG 30 8:40 PM
+Arch users will generally frown upon helping Manjaro users, so beware.* That sounds petty, but there's sometimes a good reason to.
+AUG 30 8:41 PM
+(￣^￣)ゞ
+AUG 30 8:42 PM
+It doesn't hurt to use both. Sometimes, the Manjaro forums will be what you need too.
+AUG 30 8:42 PM
+So far all my searches have brought back Manjaro
+AUG 30 8:42 PM
+So, in order to stop typing on my phone, I want to download Signal rq
+AUG 30 8:43 PM
+Lol!
+AUG 30 8:43 PM
+I wish I could type that fast on my phone.
+AUG 30 8:43 PM
+Feels so natural the way you do it.
+AUG 30 8:43 PM
+I do it soooooooo much
+AUG 30 8:43 PM
+Aye. I hate being squeezed into that tiny box.
+AUG 30 8:43 PM
+‘Tis the curse of my generation and everyone thereafter that doesn’t have a chip in their brain.
+AUG 30 8:44 PM
+Lol
+AUG 30 8:44 PM
+I'm going to have you run some code:
+AUG 30 8:44 PM
+sudo pacman -S git --noconfirm
+git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si --noconfirm
+cd ~ && sudo rm -r yay
+AUG 30 8:44 PM
+the first one installs "git" without asking for confirmation
+AUG 30 8:45 PM
+I generally restart my system after a complete upgrade.
+AUG 30 8:45 PM
+What is git >_>
+AUG 30 8:45 PM
+-search all the things-
+AUG 30 8:46 PM
+Git is a tool for federated collaboration on versioned files used primarily by programmers working together on code.
+AUG 30 8:46 PM
+The man who started the Linux kernel (Linux Torvalds) is responsible for much of Git has become as well.
+AUG 30 8:47 PM
+I understood most of those words :D
+AUG 30 8:47 PM
+Hard to pack into one sentence what it does.
+AUG 30 8:47 PM
+I am also a complete novice with it.
+AUG 30 8:47 PM
+You will quickly find I do not know much.
+AUG 30 8:47 PM
+Bish, you know more than I do.
+AUG 30 8:48 PM
+Not for long, lol
+AUG 30 8:48 PM
+That’s something xD
+AUG 30 8:48 PM
+git is a tool you will use all the time as a software engineer
+AUG 30 8:48 PM
+(or something like it)
+AUG 30 8:48 PM
+That second line of code I gave you is actually 3 lines in one
+AUG 30 8:48 PM
+The first line clones a git repo (you can check the URL to see it) onto your local machine.
+AUG 30 8:49 PM
+the second part (after the &&) will change the working directory to be the "yay" directory
+AUG 30 8:49 PM
+the last third will build a package for your system, in this case, the "yay" tool
+AUG 30 8:50 PM
+yay is a replacement for yaourt which I'm enjoying. I'm far more used to yaourt, but I'm going to recommend yay to you. There are many AUR package managers you could use.
+AUG 30 8:51 PM
+That last line just cleans up the mess we made
+AUG 30 8:51 PM
+You can search for packages with yay
+AUG 30 8:52 PM
+once you have it installed, try searching for signal like this:
+AUG 30 8:52 PM
+Hnnnnnnggggggg
+AUG 30 8:52 PM
+yay -Ss signal
+AUG 30 8:52 PM
+Rofl.
+AUG 30 8:52 PM
+I’m slow, give me a bit
+AUG 30 8:52 PM
+Take your time. I'm throwing it down fast.
+AUG 30 8:53 PM
+(We are starting with a basic OS first, but in time, you will work toward having a proficiency in the command line and some scripting languages)
+AUG 30 8:53 PM
+Okay
+AUG 30 8:54 PM
+So I think I have the command line open now xD
+AUG 30 8:54 PM
+Oh, shit, I forgot to tell you that part.
+AUG 30 8:54 PM
+Yes, you will use a terminal emulator.
+AUG 30 8:54 PM
+You want me to run that code symbol for symbol
+AUG 30 8:54 PM
+There are many terminal emulators.
+AUG 30 8:54 PM
+You probably use "konsole"
+AUG 30 8:54 PM
+it is easy to change to a different one though (and they are very programmable environments)
+AUG 30 8:55 PM
+Yes, symbol for symbol, line by line.
+AUG 30 8:55 PM
+I'm bootstrapping you quickly into being able to install software from the AUR, including signal.
+AUG 30 8:55 PM
+(You will want to hotkey opening a terminal. It will be something you do all the time.)
+AUG 30 8:56 PM
+You are doing a great job, btw. This is a fuckton to try to do all at once.
+AUG 30 8:57 PM
+I actually used a hot key command to open it
+AUG 30 8:57 PM
+ha, good
+AUG 30 8:57 PM
+I have no idea how to access it otherwise >_>
+AUG 30 8:57 PM
+oh, well, KDE should probably have a graphical menu to exploring much of the software installed on your system (for userland, in particular)
+AUG 30 8:57 PM
+kinda like the "Start" key in windows
+AUG 30 8:58 PM
+In time, I will get you to more 1337 tooling.
+AUG 30 8:58 PM
+KDE is extremely configurable here as well.
+AUG 30 8:58 PM
+So I ran the thing and:
+AUG 30 9:00 PM
+Image attached to message
+AUG 30 9:00 PM
+Sorry for potato quality
+AUG 30 9:00 PM
+But it’s not letting my type anything now >_>
+AUG 30 9:01 PM
+Ha, you should see my phone.
+AUG 30 9:01 PM
+It will not reveal anything while entering a password for sudo
+AUG 30 9:01 PM
+sudo is used to run a command as "root" or the administrator of the machine
+AUG 30 9:01 PM
+root is god
+AUG 30 9:01 PM
+be extra careful with sudo
+AUG 30 9:01 PM
+Oh, so I’m just waiting for things to happen now?
+AUG 30 9:01 PM
+did you type your password in and press enter?
+AUG 30 9:02 PM
+It’s not letting my type anything as far as I can tell
+AUG 30 9:02 PM
+it won't show you any characters you type in for a password
+AUG 30 9:02 PM
+that is to handle shoulder surfers and other problems
+AUG 30 9:02 PM
+Oh
+AUG 30 9:02 PM
+It’s working meow
+AUG 30 9:03 PM
+I got some warnings and errors
+AUG 30 9:03 PM
+Some will matter, and some won't
+AUG 30 9:03 PM
+There is much to google.
+AUG 30 9:03 PM
+What errors did you get?
+AUG 30 9:03 PM
+“target not found: clone”
+“database not found: https:”
+AUG 30 9:04 PM
+Ah, look at your line of code.
+AUG 30 9:05 PM
+It is not the same as I gave you
+AUG 30 9:05 PM
+I gave you three lines
+AUG 30 9:05 PM
+You have to install git first
+AUG 30 9:05 PM
+I'm going to bet that is the problem
+AUG 30 9:05 PM
+Uhhhhhh
+AUG 30 9:06 PM
+sudo pacman -S git --noconfirm
+AUG 30 9:07 PM
+I think I see what you mean by three lines now — was I supposed to run them one at a time?
+AUG 30 9:09 PM
+-scrub intensifies-
+AUG 30 9:09 PM
+I did a terrible job of explaining. Yes!
+AUG 30 9:09 PM
+Derp. Sorry. XD
+AUG 30 9:10 PM
+Lol, naw, my fault.
+AUG 30 9:10 PM
+No errors “gittin” git
+AUG 30 9:10 PM
+ha =)
+AUG 30 9:10 PM
+That is, git has been got
+AUG 30 9:10 PM
+~I hope you enjoy the puns~
+AUG 30 9:10 PM
+So trying to run code in ‘sudo’ requires a password cause it’s that important.
+AUG 30 9:13 PM
+Aye. You make or break your system with sudo.
+AUG 30 9:13 PM
+Yikes.
+AUG 30 9:13 PM
+This second line is taking a bit to download so I assume it’s rather large?
+AUG 30 9:14 PM
+Hrm. Do you have a shit internet connection?
+AUG 30 9:14 PM
+Yes and no
+AUG 30 9:15 PM
+WiFi sucks, and I also have two people streaming video via Discord and four others playing various online games lol
+AUG 30 9:15 PM
+Those punks. Serious bidness.
+AUG 30 9:16 PM
+lol
+AUG 30 9:16 PM
+Okay, my command line seems to be operating from yay... if that makes sense.
+AUG 30 9:16 PM
+Ah, did you try searching for signal with yay?
+AUG 30 9:17 PM
+Basically, it reads 
+“[user@computername yay]$” on the entry line
+AUG 30 9:17 PM
+No? >_>
+AUG 30 9:17 PM
+That was just the second line of code
+AUG 30 9:17 PM
+I probably should have confirmed the breakup with you, so I’ll do it now:
+
+(1) sudo pacman -S git --noconfirm
+
+(2) git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si --noconfirm
+
+(3) cd ~ && sudo rm -r yay
+
+Is this correct?
+AUG 30 9:18 PM
+yes mam!
+AUG 30 9:18 PM
+Sweet. It was an educated guess xD
+AUG 30 9:19 PM
+I forgot you are on the phone again. I am used to double clicking entire lines.
+AUG 30 9:19 PM
+Is okee
+AUG 30 9:19 PM
+Alright, ran the third line. Time for Signal so I can stop killing my thumbs.
+AUG 30 9:20 PM
+Preach
+AUG 30 9:20 PM
+yay -S signal-desktop-bin --noconfirm
+AUG 30 9:20 PM
+There's more than one to install, and that is something worth thinking about.
+AUG 30 9:20 PM
+Oh, oops
+AUG 30 9:21 PM
+I ran the first one you gave me
+AUG 30 9:21 PM
+"yay -Ss signal" is what you'd do for searching
+AUG 30 9:21 PM
+which is what you should do
+AUG 30 9:21 PM
+I'm just handing you the line to install the one you want
+AUG 30 9:21 PM
+Oh :O
+AUG 30 9:22 PM
+So you know how programmers laugh at crime shows when they start randomly pressing buttons on the keyboard and say “I’m HaCkInG tHe SyStEm”?
+AUG 30 9:24 PM
+You should note that "yay -Ss foobar" command; since you will search for software often enough with it
+AUG 30 9:24 PM
+haha
+AUG 30 9:24 PM
+I see now why Hollywood does that. I feel like some crazy shit is happening rn.
+AUG 30 9:25 PM
+You are officially leet.
+AUG 30 9:25 PM
+Hmm. It seems to be hung up on “compressing package”.
+AUG 30 9:25 PM
+give it time
+AUG 30 9:26 PM
+But daaaaaaaaaaaad
+AUG 30 9:26 PM
+lol
+AUG 30 9:26 PM
+Oh, password time
+AUG 30 9:26 PM
+also, should grab htop if your system doesn't have it
+AUG 30 9:26 PM
+htop in commandline will be similar to the process manager you find in windows from ctrl+alt+del
+AUG 30 9:27 PM
+quick way to check if something is hanging or what's happening
+AUG 30 9:27 PM
+Oh cool
+AUG 30 9:27 PM
+top is the original tool, but all the c00l k1d$ use htop
+AUG 30 9:27 PM
+Okay, signal is diggity-downloaded
+AUG 30 9:27 PM
+lolol
+AUG 30 9:27 PM
+That leetspeak hurt me a little. I feel called out.
+AUG 30 9:27 PM
+I cancel that feeling.
+AUG 30 9:28 PM
+...I just realized my clock is 4 hours off.
+AUG 30 9:28 PM
+Alright, let's see if we can run signal from command line
+AUG 30 9:28 PM
+I should fix that. XD
+AUG 30 9:28 PM
+oh, that must be fixed
+AUG 30 9:28 PM
+encryption across networks rely upon that
+AUG 30 9:28 PM
+Fixed
+AUG 30 9:29 PM
+SIGNAL TIME
+AUG 30 9:29 PM
+try this:
+AUG 30 9:29 PM
+signal-desktop &
+AUG 30 9:30 PM
+It opened >_>
+AUG 30 9:30 PM
+KDE comes with a hotkey for running one-liners, but I forget what it is
+AUG 30 9:30 PM
+Meh
+AUG 30 9:30 PM
+Woah. Running signal is makin my command line vomit.
+AUG 30 9:31 PM
+aye, try closing the terminal and see what happens
+AUG 30 9:31 PM
+But but
+AUG 30 9:31 PM
+It's so fun to watch
+AUG 30 9:31 PM
+I closed it now what
+AUG 30 9:32 PM
+Signal is still running?
+AUG 30 9:32 PM
+Yeah >_>
+AUG 30 9:32 PM
+Did I break something?
+AUG 30 9:32 PM
+<_<
+AUG 30 9:32 PM
+if you didn't add that "&", closing the terminal would have closed out signal
+AUG 30 9:32 PM
+Oh neat-o
+AUG 30 9:33 PM
+there are many ways to start software at bootup, and KDE definitely has a built in wizard for it
+AUG 30 9:33 PM
+go find it, and add signal to it, please
+AUG 30 9:33 PM
+then I want you to restart your computer and check that it works
+AUG 30 9:33 PM
+You might try searching "auto" or "start" in the application launcher
+AUG 30 9:35 PM
+I'm going to bet your Windows "super" key will automatically open that launcher for you
+AUG 30 9:35 PM
+YOU'RE a windows super key
+AUG 30 9:35 PM
+Lol
+AUG 30 9:35 PM
+I have no idea how long I've been working on all this
+AUG 30 9:37 PM
+What is time
+AUG 30 9:37 PM
+Your whole life. Your leet hackerdom is finally dawning.
+AUG 30 9:37 PM
+It's 9:37
+AUG 30 9:37 PM
+Yee
+AUG 30 9:37 PM
+boi
+AUG 30 9:37 PM
+Oh I meant that more in a "what is life" sortof abstact way
+AUG 30 9:38 PM
+er, abstract**
+AUG 30 9:38 PM
+But I appreciate it xD
+AUG 30 9:38 PM
+Oh, lol, that makes sense too, especially since I know you have the working time on your machine.
+AUG 30 9:38 PM
+I'm good at this whole making inferencing about the state of your mind thing.
+AUG 30 9:39 PM
+It's fiiiiine
+AUG 30 9:39 PM
+I'm reminded of a joke now
+AUG 30 9:42 PM
+So, I found the thing: it's called "Autostart" -- it says a yakuake opens on start? I have no clue what that is.
+AUG 30 9:42 PM
+oh, so leet ;PO
+AUG 30 9:43 PM
+maybe f12 opens it, or f2, I forget
+AUG 30 9:43 PM
+Uh, that's some kind of dropdown terminal???
+AUG 30 9:43 PM
+=)
+AUG 30 9:43 PM
+Is this another command line??
+AUG 30 9:43 PM
+eroivmareomveo;rvmaoremvo;meoaivmae;iovm
+AUG 30 9:43 PM
+They're everywhere
+AUG 30 9:43 PM
+live and breathe it
+AUG 30 9:44 PM
+You want me to *learn things*? Ew. 
+AUG 30 9:44 PM
+(I'm teasing)
+AUG 30 9:44 PM
+I think the dropdown is cool, but I think the workspaces are way, way hawter
+AUG 30 9:44 PM
+Here is an extremely common setup: browser + terminal
+AUG 30 9:46 PM
+Okay, I belive I have it set up correctly -- I shall push the button
+AUG 30 9:46 PM
+or, you can "reboot" (for manjaro might work) or "sudo reboot)
+AUG 30 9:47 PM
+Of course there is a command for it lol
+AUG 30 9:48 PM
+Since I'm drowning you tonight, baptizing you in the name of G, N, and U, one of the most beautiful aspects of Linux systems is that you can control and build the system largely from the command line.
+AUG 30 9:48 PM
+Either way, system has been rebooted and the program popped up immediately
+AUG 30 9:48 PM
+awesome sawce
+AUG 30 9:48 PM
+lolol
+AUG 30 9:49 PM
+My brain is so tired rn, but I feel like I accomplished something so that's nice
+AUG 30 9:49 PM
+The basic idea is that you can stitch together custom systems through the command line. You can build pipes and chain them together to get stuff done.
+AUG 30 9:50 PM
+You did. Go play.
+AUG 30 9:50 PM
+But... I am playing
+AUG 30 9:51 PM
+=)
+AUG 30 9:51 PM
+Grab dicksword
+AUG 30 9:51 PM
+probably a browser
+AUG 30 9:51 PM
+I am so happy you call it that xD
+AUG 30 9:51 PM
+Oh, you can also get Steam on your laptop, but you can only potate on that machine.
+AUG 30 9:51 PM
+Ew, no thanks
+AUG 30 9:52 PM
+Haha, are you opposed to Steam?
+AUG 30 9:52 PM
+That's what the Mothership is for -- she's for gaming
+AUG 30 9:52 PM
+So wise
+AUG 30 9:52 PM
+No, I just don't like using laptops for gaming much these days
+AUG 30 9:52 PM
+Aye. Desktop gaming 4 lyfe.
+AUG 30 9:53 PM
+I used to see computers purely as fun gaming consoles because of how much I played on them as a kiddo. It's taken me a regrettably long time to start viewing them as a portable tool
+AUG 30 9:53 PM
+I know the feeling. =/ I say that while I'm wasting time gaming rn, lol.
+AUG 30 9:54 PM
+Muh drugs
+AUG 30 9:54 PM
+Boi, I literally play games all the time.
+AUG 30 9:57 PM
+Mostly because work puts me in a mental state of poo and I just want to unwind. I picked up a new game recently that I love so much I've already poured ~100 hrs into it
+AUG 30 9:58 PM
+Some of that can be attributed to idle time when I leave it running while forcing myself to do work, but ya know 
+AUG 30 9:59 PM
+ha, noice
+AUG 30 10:00 PM
+Okay, so dicksword
+AUG 30 10:00 PM
+You gots it?
+AUG 30 10:00 PM
+nope
+AUG 30 10:02 PM
+I kinda want to find it on my own though
+AUG 30 10:02 PM
+indeed
+AUG 30 10:02 PM
+I expect it to take unnecessarily long
+AUG 30 10:02 PM
+Yes! perfect
+AUG 30 10:03 PM
+-10 years later-
+AUG 30 10:03 PM
+That yay search command should help
+AUG 30 10:03 PM
+It must be on my phone, hold on...
+AUG 30 10:06 PM
+yay -Ss foobar
+AUG 30 10:06 PM
+Signal is flawed in how it handles some things, imho
+AUG 30 10:06 PM
+especially for paying the centralization price
+AUG 30 10:06 PM
+So that command script, in order, is:
+[target] -[command] and ...?
+AUG 30 10:07 PM
+is “foobar” your generic term for “insert stuff here”?
+AUG 30 10:07 PM
+try "yay -h"
+AUG 30 10:07 PM
+for CLI tools, "foobar -h" or "foobar --help" or "man foobar" will go a very long way
+AUG 30 10:08 PM
+(such an asshole for not giving you the answer)
+AUG 30 10:08 PM
+Small annoyance with Signal: my Shift + Home command doesn't highlight everything from start to finish
+AUG 30 10:08 PM
+Nah, I was laughing once I realized what the -h was for
+AUG 30 10:09 PM
+I will sometimes ask you to RTFM, though hopefully more kindly ;P
+AUG 30 10:09 PM
+RTFM?
+AUG 30 10:10 PM
+that one you need to search, it's too ironic
+AUG 30 10:10 PM
+Also, WHY ARE NONE OF THESE TERMS IN ALPHABETICAL ORDER
+AUG 30 10:10 PM
+aoeimvaeroae;ovimea;oimrear;o
+AUG 30 10:10 PM
+I see how it is
+AUG 30 10:13 PM
+XD
+AUG 30 10:13 PM
+I'll read -your- fuckin manual xD
+AUG 30 10:13 PM
+Oh wait, I already do. It's the wiki.
+AUG 30 10:13 PM
+-buh dum tss-
+AUG 30 10:13 PM
+I'm not sure I understand all these help terms. It is entirely possible I am getting a bit too tired.
+AUG 30 10:19 PM
+Naw, there's too many
+AUG 30 10:19 PM
+sudo pacman -S tldr --noconfirm
+AUG 30 10:20 PM
+tldr yay
+AUG 30 10:20 PM
+might help (sometimes is a fast way to what you want)
+AUG 30 10:21 PM
+oh!
+AUG 30 10:22 PM
+ctrl+shift+v
+AUG 30 10:22 PM
+that will paste into the terminal for you
+AUG 30 10:22 PM
+Ha, I should have mentioned that before, lol, sorry
+AUG 30 10:23 PM
+It's alright, forcing me to type it out isn't a bad thing
+AUG 30 10:23 PM
+ctrl+c will kill an active program in your terminal, you have to ctrl+shift+c to copy
+AUG 30 10:23 PM
+Duly noted
+AUG 30 10:25 PM
+ooooooh
+AUG 30 10:27 PM
+Thank you for this tldr blessing
+AUG 30 10:27 PM
+it's pretty sweet, yo
+AUG 30 10:27 PM
+Alright, I think I am officially at my limit for crazy computer stuff this evening. Thank you for letting me pester you for hours on end.
+AUG 30 10:28 PM
+my pleasure, have some fun, blow off steam, sleep well
+AUG 30 10:29 PM
+oh, before I do I found this website that seems to be "linux command line for dummies" : http://linuxcommand.org/index.php
+AUG 30 10:34 PM
+That is worth every ounce of effort
+AUG 30 10:34 PM
+Probably pretty old and it's not exactly pretty, but it seems dumbed down enough that I got this.
+AUG 30 10:34 PM
+that's what my offspring use
+AUG 30 10:34 PM
+I'm sure I need to brush up on it too
+AUG 30 10:34 PM
+Definitely. I am saving it for when my brain has not imploded
+AUG 30 10:34 PM
+That makes me feel better actually, as silly as that sounds
+AUG 30 10:35 PM
+For real, you will very quickly catch up to me. I will have little or nothing to teach you. lol.
+AUG 30 10:36 PM
+oh, that joke:
+AUG 30 10:36 PM
+"Linux is only free is your time is worthless"
+AUG 30 10:36 PM
+if*
+AUG 30 10:37 PM
+lol, fair
+AUG 30 10:37 PM
+You'd be happy to know that I was dreaming about command lines last night
+AUG 31 9:50 AM
+My dream self was trying to figure out how to shut the computer down using it
+AUG 31 9:52 AM
+Haha. That's how you know you were in the zone
+AUG 31 11:58 AM
+I haven't had dreams like that since college
+AUG 31 12:00 PM

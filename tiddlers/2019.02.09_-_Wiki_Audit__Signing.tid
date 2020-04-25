@@ -1,5 +1,5 @@
 created: 20190210011006281
-modified: 20190210174848812
+modified: 20200210103638281
 tags: j3d1h [[Computer Musings]] [[RGM Notes]] [[Wiki Audit]]
 title: 2019.02.09 - Wiki Audit: Signing
 
@@ -13,13 +13,13 @@ It would be nice if nodejs solved this. FF and Blink both produce the same docum
 
 ---
 
-Trying from live.philosopher.life.
+Trying from https://live.philosopher.life.
 
 ---
 
 j3d1h stole the wiki again. So, uh, take this thing (diff between Downloads/Wiki/index.html and philosopher.life/index.html):
 
-[[-=[ SNIP ]=-|2019.02.10 - TWGGF: Signing Diff]]
+[[-=[ SNIP ]=-|2019.02.10 - TWGGF: Signing Diff]]<<ref "2020.02.10">>
 
 There are a few problems. The important parts are:
 
@@ -27,3 +27,7 @@ There are a few problems. The important parts are:
 *Variables changing to information about the website
 
 I'm not entirely sure if that's what the variables mean. Look through the longer block, it's got screen width/height, as well as url info.
+
+
+---
+<<footnotes "2020.02.10" "This is a [[Wiki Mechanic]] I never use. It's ugly. It's part of the gunky problem too.">>

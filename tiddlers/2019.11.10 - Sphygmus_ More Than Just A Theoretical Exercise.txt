@@ -1,0 +1,39 @@
+[3:07 PM] robotic_scarab: curious - do you run a regular wayback machine archive script on sites like kick's and mine?
+[3:07 PM] robotic_scarab: someone is and I figured you were a good first guess :relaxed:
+
+[12:03 AM] robotic_scarab: https://t.co/b7NX4nkNNC
+Write With Transformer
+[12:05 AM] h0p3: gracias
+[12:06 AM] h0p3: I am having fun screwing around on it
+[12:06 AM] h0p3: Oh, I missed your message, yes I run a wayback machine script for a bunch of sites every night
+[12:09 AM] robotic_scarab: gotcha!
+[12:10 AM] robotic_scarab: it's interesting, in early may it goes from 1 snapshot to 2 snapshots an hour apart
+[12:10 AM] h0p3: VPS runs one, and I run one from my monster.
+[12:10 AM] robotic_scarab: ah! :relaxed:
+[12:15 AM] robotic_scarab: i remember playing around with ELIZA as a teen: http://psych.fullerton.edu/mbirnbaum/psych101/Eliza.htm
+[12:15 AM] robotic_scarab: I wonder if someone's done a similar thing based on the GPT-2 model
+[12:16 AM] robotic_scarab: and of course there was cleverbot too
+[12:16 AM] robotic_scarab: those are the two I have memories of
+[12:16 AM] h0p3: Aye!
+[12:17 AM] h0p3: GPT-2 is weird for me in that it's attempting to continue writing as the author of the input, so I take it that I'm kinda having a conversation with some semblance of myself.
+[12:18 AM] h0p3: I'm enjoying trying to make sense of what is said. Sometimes, it is a non-trivial point of view one could actually take up. Silly but fun.
+[12:18 AM] robotic_scarab: yeah! it's interesting and trippy
+[12:29 AM] robotic_scarab:
+How do you describe The Golden Rule in game-theory? In other words, how do you make it more than just a theoretical exercise?
+
+LW: If you want to understand how things work in the real world, you have to think about how you interact with others, and how it depends on the context. If you're in a group, you might be the most generous guy in the world, but that doesn't mean that your group will be altruistic toward you. You're going to need to interact with others in a way that will lead to cooperation in the future. That can lead to the most generous behavior in the long run, but that doesn't mean that your group is going to be nice to you.
+
+I think it's important to make The Golden Rule not just something theoretical, but also a useful model for people to start thinking about social behavior in the real world.
+
+RPS: It's a pretty easy concept, but how difficult is it to explain the real-
+[12:29 AM] robotic_scarab: do you play around with generating multiple times, in say [[2019.11.09 - Aispondence: Instant Messaging]] ? or just once?
+[12:30 AM] h0p3: lol!
+[12:31 AM] h0p3: I should track that. I'd say I'm averaging 2 generations to find something.
+[12:35 AM] robotic_scarab: lmao that "share this" bit
+[12:35 AM] h0p3: I felt so trolled, lol.
+[12:36 AM] robotic_scarab: it's interesting to see where the source material it was trained on becomes really visible
+[12:38 AM] h0p3: Aye. I think so too.
+[12:39 AM] h0p3: Speaking with it feels like trying to pin down jello or something. It's a messy heap.
+[12:43 AM] robotic_scarab: completely different tangent, have you seen dziggetai on discord recently?
+[12:44 AM] h0p3: Nope. Not in a while.
+[12:44 AM] robotic_scarab: i haven't heard from him since september but he's still posting paintings so I'm less worried

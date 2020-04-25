@@ -1,0 +1,62 @@
+How's your week going?
+SEP 5 11:30 AM
+Hey [[h0p3]]! My week was alright. Less busy than last week, but not much better.
+SEP 7 12:54 PM
+Glad the weekend is here honestly. How about you?
+SEP 7 12:56 PM
+I've decided to start building my Command Dictionary and even a keyboard shortcut list. They're both super short now, but I think having them will be helpful for me in the future.
+SEP 7 1:22 PM
+So grateful for the weekend.
+SEP 7 1:44 PM
+I need to catchup on my wiki and letter writing.
+SEP 7 1:44 PM
+Vidja games still sucking me in.
+SEP 7 1:45 PM
+I hear that busyness.
+SEP 7 1:45 PM
+A command dictionary and little drawer for your snippets and what not will go a long way. Keeping recipes and logs of how things are built are worth your time too.
+SEP 7 1:45 PM
+I suggest commenting your code.
+SEP 7 1:45 PM
+Commenting my code?
+SEP 7 1:58 PM
+Aye. It's a valuable habit.
+SEP 7 2:12 PM
+Explain what your line(s) of code does.
+SEP 7 2:12 PM
+Oh, gotcha
+SEP 7 2:12 PM
+I'm reading through linuxcommand.org and it's already making me fuzzy. So many terms I  need to become familiar with.
+SEP 7 2:13 PM
+aye
+SEP 7 2:13 PM
+Now I wonder if I should make myself a list of terms... it's like school all over again.
+SEP 7 2:14 PM
+Yup, lol
+SEP 7 2:14 PM
+worth doing
+SEP 7 2:14 PM
+Random, but I ran into an absurdly annoying issue the other day while I was messing with my computer
+SEP 7 2:14 PM
+What was it?>
+SEP 7 2:15 PM
+I accidentally made a buch of sticky notes that attached themselves to my taskbar and REFUSED to get off. I had to search the internet/mess with things for a solid hour and a half to get it off. Such a little thing, yet so very annoying.
+SEP 7 2:16 PM
+Apparently I'm not the only one who found it annoying either. So many people on the sites I looked up were begging the devs to remove the "Notes" widget from KDE.
+SEP 7 2:16 PM
+Ugh, I know that pain.
+SEP 7 2:26 PM
+I think one thing that Linux teaches is to compromise with your system, lol.
+SEP 7 2:27 PM
+KDE is feature rich, but lacking simplicity will often require that.
+SEP 7 2:29 PM
+Yeah
+SEP 7 2:32 PM
+I think part of it is just familiarity with the system as a whole. Once I found where to get rid of the sticky notes it kinda made sense. I was still mad about it though. lol
+SEP 7 2:33 PM
+In the end, there will be more work to learning the intracacies of KDE than something like i3, but you pay those prices longer term and not up front.
+SEP 7 2:40 PM
+I'm gonna bet it will be easier the next time you encounter something annoying
+SEP 7 2:40 PM
+Hopefully.
+SEP 7 2:41 PM

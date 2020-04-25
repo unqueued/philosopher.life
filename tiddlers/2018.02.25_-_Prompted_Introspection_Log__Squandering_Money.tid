@@ -1,5 +1,5 @@
 created: 20180225173438099
-modified: 20181023192900286
+modified: 20200226064319063
 modifier: h0p3
 tags: [[Prompted Introspection]]
 title: 2018.02.25 - Prompted Introspection Log: Squandering Money
@@ -9,7 +9,7 @@ title: 2018.02.25 - Prompted Introspection Log: Squandering Money
 I find this to be an odd question:
 
 <<<
-Why is it not <<adjective>> to <<verb-with-adjective-embedded-in-it>> foobar?
+Why is it not //adjective// to //verb-with-adjective-property-embedded-in-it// foobar?
 <<<
 
 This is similar to formally begging the question. Asking why X-activity is X-like is almost useless. Look, if you already assumed some instance of spending one's money was "squandering" then you've already assumed it is unwise by definition. I could just as easily answer: it was unwise because it was unwise. 

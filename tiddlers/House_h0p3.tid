@@ -1,30 +1,37 @@
 created: 20180818173304303
 creator: h0p3
-modified: 20190306135522814
+modified: 20200402191225841
 modifier: h0p3
 tags: Emergence Computing FTO
 title: House_h0p3
 
+* Edgerouter
+** WAN
+*** h0p3.mynetgear.com
+*** home.philosopher.life
+*** 73.4.82.87
+** LAN
+*** [[h0p3]], IPs 90-110
+**** monster-12: 192.168.1.102
+**** [[monster-14]]: 192.168.1.101
+**** [[monster-16]]: 192.168.1.100
+***** m16-DAT 3282
+***** m16-qBittorrent 1429
+**** m16-VM-W10: 192.168.1.105
+***** P2P 61560, 61561, 6246, 46376, 6699, 6157, 22000, 56344, 4662, 4691, 4001, 5001
+**** m16-VM-seedb0x: 192.168.1.106
+
 * Zerotier
 ** [[h0p3]]
-*** [[monster-10]]: 10.147.19.115
+*** monster-12: 10.147.19.185
 *** [[monster-14]]: 10.147.19.95
-*** [[monster-15]]: 10.147.19.85
+*** [[monster-16]]: 10.147.19.17
 *** HTPC: 10.147.19.42
-*** KS: 10.147.19.207
-*** dimbob-RPi: 10.147.19.165
-*** ATL: 10.147.19.70
+*** RPi: 10.147.19.165
 *** Dallas: 10.147.19.100
-** [[k0sh3k]]
-*** bookwyrm: 10.147.19.29
-*** Oryx (phone): 10.147.19.62
+** [[Charlie]]: 10.147.19.34
+** [[JRE]]: 10.147.19.54
+** [[AIR]]: 10.147.19.137
+** YLaptop: 10.147.19.249
 ** [[1uxb0x]]
-*** black-wolf-0: 10.147.19.10
-*** black-wolf-1 (phone): 10.147.19.99
-** [[j3d1h]]
-*** phoenix: 10.147.19.87
-*** Pixie (phone): 10.147.19.209
-** [[AIR]]
-*** Laptop: 10.147.19.177
-** [[Sphygmus]]
-*** ???
+*** Desktop.Black-Wolf-4: 10.147.19.235

@@ -1,0 +1,251 @@
+[17:35:01] BDS97: home: hi
+[17:35:19] BDS97: home: just finished the layer 0 spec
+[17:36:45] BDS97: home: also, currently trying to devise a way to make it compatible with tcp
+[17:37:03] BDS97: home: what are your thoughts on it?
+[17:40:44] BDS97: home: also, there's this
+[17:40:51] BDS97: home: the packet distribution mask
+[17:41:17] BDS97: home: I made the fractal noise, then abandoned it immediately
+[17:41:29] BDS97: home: I was wrong about it, this isn't harder to detect
+[17:41:48] BDS97: home: in fact, this is us signing the communication line with not just "Atropos" on it, but also the specific connection
+[18:55:37] h0p3: Reading now.
+[19:02:48] h0p3: https://dynalist.io/d/zUP-nIWu2FFoXH-oM7L7d9DM
+[19:02:59] h0p3: sorry*
+[19:04:05] BDS97: home: is this a tutorial to your wiki?
+[19:28:44] h0p3: nope
+[19:28:48] h0p3: a tool I meant to send my daughter
+[19:29:04] h0p3: wasn't paying attention to what held my cursor
+[19:29:27] h0p3: I think forward secrecy is going to be more than once a second in many cases, but I like it.
+[19:29:48] BDS97: home: for layer 2, sure
+[19:29:51] BDS97: home: for layer 0, I doubt it
+[19:29:57] BDS97: home: it's actually 1.5 pings, not 3
+[19:31:20] h0p3: Okay, cool.
+[19:32:19] BDS97: home: layer 0 is between nodes that know each other's real identity
+[19:32:28] BDS97: home: I'm not expecting them to be physically connected
+[19:32:37] BDS97: home: as in on the same network
+[19:32:50] BDS97: home: but they shouldn't have a high ping
+[19:33:16] h0p3: I hear ya.
+[19:34:17] h0p3: Let's say we have a gamer sitting at 50ms to his server. If Atropos is the protocol used for that game, how long will a full cycle take?
+[19:35:37] BDS97: home: roughly 75ms on a direct connection, plus the latency of executing Atropos itself, but that shouldn't be much
+[19:36:02] BDS97: home: because ping is round-trip, so a 50ms ping means a package going one way takes 25ms
+[19:36:31] BDS97: home: both nodes start at the same time, they send PUBKEY
+[19:36:45] BDS97: home: 25ms passes, both packages arrive, nodes send CONFIRM
+[19:36:54] BDS97: home: 25ms later, nodes send SWITCHED
+[19:37:11] BDS97: home: and in another 25ms, both SWITCHED packages arrive and the cycle completes
+[19:37:57] BDS97: home: it won't always be 75ms because network is never 100% reliable, but if packages are repeated, say, every 10ms, one cycle should take at most 100-125ms
+[19:40:09] BDS97: home: that should allow for about 73.9 MB/s (591 Mbps) of bandwidth with an average physical packet size of 1250 and 5% protocol overhead
+[19:40:51] BDS97: home: yeah, we definitely need the increased bitfields
+[19:42:41] h0p3: So sticking to 20?
+[19:43:13] h0p3: nazi-grammar nitpick (ignore my stupid annoyingness at will, please): swithing to switching, roboustness to robustness
+[19:43:26] BDS97: home: oh, damn
+[19:43:27] BDS97: home: thanks
+[19:43:32] BDS97: home: sorry, vs code has no spellcheck
+[19:44:18] BDS97: home: btw here's some of the key exchange in rust
+[19:44:39] BDS97: home: mostly non-crypto parts, this is just state management for now
+[19:45:26] BDS97: home: it takes a 'scale' parameter every time a new key is introduced
+[19:45:35] BDS97: home: that can go between 16 and 20 and denotes the size of the bitfield
+[19:45:50] h0p3: ah
+[19:46:04] h0p3: would you ever want to scale past 20?
+[19:46:20] BDS97: home: maybe, idk
+[19:46:29] BDS97: home: that's why I left two reserved flags in the spec
+[19:46:38] h0p3: I adore that, btw.
+[19:46:45] h0p3: And the extensibility
+[19:47:01] h0p3: The protocol is built to grow.
+[19:47:12] BDS97: home: yeah, it's essential IMO, based on what you said about it being hard to update
+[19:47:33] BDS97: home: the plan is to never use up the last reserved flag without making a format that introduces more reserved flags
+[19:47:39] h0p3: ;p;
+[19:47:41] h0p3: lol
+[19:47:56] h0p3: It makes sense.
+[19:48:08] BDS97: home: and then there's control mode, which will happen on all layers
+[19:48:22] BDS97: home: it's sort of our equivalent to HTTP headers
+[19:48:38] h0p3: It looks like a lot of magic can happen there.
+[19:51:48] h0p3: Okay, I have a dumb question (talk to me like I'm 12): what are some concerns or ideas we should consider about the hardware implementation of this protocol? Say it got really big; say an ISP wanted to use this as a the last mile solver and was going to use custom hardware at certain points in their network (FPGA?), is there anything we need to be thinking about here?
+[19:52:39] BDS97: home: I think most of the custom hardware should be NaCl accelerators
+[19:52:53] BDS97: home: FPGAs are great if there are no ASICs for your tasks
+[19:53:13] BDS97: home: but IMO hardware NaCl solutions are just a matter of time
+[19:53:17] h0p3: yes
+[19:53:47] h0p3: and, if this succeeds, even ASICs might be built. Will NaCL be the bulk of the speedup we'd get?
+[19:54:05] h0p3: (I believe FPGAs are going to become more mainstream, btw)
+[19:54:23] BDS97: home: I think so, don't see us building expensive non-crypto calculations into it
+[19:54:41] BDS97: home: for the bitfield thing fast and large memory would be beneficial
+[19:54:46] BDS97: home: maybe even cache
+[19:55:16] BDS97: home: I'm sort of expecting it to run like a dream on AMD's new Epyc 2 CPUs, mainly due to the cache sizes they have
+[19:55:36] h0p3: They have been hawt lately.
+[19:56:13] BDS97: home: but I can't really think about anything that would be non-crypto and benefit from a circuit
+[19:56:24] BDS97: home: I mean, technically, everything benefits from an ASIC
+[19:56:34] BDS97: home: but at a certain point it's just not worth the hassle
+[19:58:14] h0p3: Yup. I'm just curious. It's the kind of question I need to ask for a protocol meant to build something so awesome that it would replace the internet not just by virtualizing over the top of it but literally replacing non-trivial sections of hardware on the planet.
+[19:58:30] h0p3: Doesn't mean it's a good question*, I have no idea, lol.
+[19:59:05] h0p3: NaCL speedups will come, and that will be plenty.
+[19:59:27] BDS97: home: Bernstein does make his algorithms very hardware-friendly
+[19:59:49] BDS97: home: almost all the whitepapers include estimations of differently scaled ASICs
+[20:00:00] BDS97: home: half-cycle, full-cycle, etc.
+[20:05:14] h0p3: I'm curious: why is this not compatible with TCP?
+[20:07:25] BDS97: home: because TCP is a stream
+[20:07:34] BDS97: home: and this Layer 0 spec is based on packages
+[20:07:40] BDS97: home: it needs to know where the packages start and end
+[20:11:29] h0p3: K, I see.
+[20:12:35] BDS97: home: I think there are still ways to make it work, but it's gonna be hacky
+[20:12:57] BDS97: home: for example, if the handshake would have 0 length, we could get that
+[20:13:03] BDS97: home: which establishes a shared key
+[20:13:18] BDS97: home: and then we could use that shared key to mask packet boundaries
+[20:13:42] BDS97: home: dammit, I mixed up packets and packages in my last message again
+[20:13:53] BDS97: home: I mean packets all the time, just some weird old habit
+[20:14:11] h0p3: I see. Yeah, that is hacky. Lol.
+[20:14:19] h0p3: But, what else can we do?
+[20:14:28] h0p3: I don't see a way around that.
+[20:14:39] BDS97: home: use the nonce
+[20:14:54] BDS97: home: it only has to look random to an outside party
+[20:15:03] BDS97: home: for us, it just has to be unique
+[20:15:14] h0p3: Is that re-using the nonce?
+[20:15:50] BDS97: home: Poly1305, the one-time auth we use as a MAC, needs nonces to be unique
+[20:16:06] BDS97: home: so we'd be reusing it if we made two nonces the same for two separate messages
+[20:16:13] BDS97: home: but we aren't going to do any of that
+[20:16:50] BDS97: home: for example, calculating the nonce from the message itself would be a problem, because even if two messages are the same, we want them to look different in ciphertext
+[20:17:07] BDS97: home: but taking a value that looks random to Poly1305 but isn't actually random is not a problem
+[20:18:17] BDS97: home: the thing I'm thinking of right now is encrypting the length of the handshake and putting it into the nonce
+[20:18:46] h0p3: I am not qualified to agree or disagree with you. I believe you. 
+[20:19:56] BDS97: home: I think doing it once, in the handshake nonce, wouldn't poke a hole in the security
+[20:20:10] BDS97: home: you want nonces to be random-looking and unique
+[20:20:14] BDS97: home: those are two different properties
+[20:20:26] BDS97: home: uniqueness is guaranteed because we only do it once, all the other nonces are randomly picked
+[20:20:34] BDS97: home: so it cannot correlate with anything else
+[20:20:45] BDS97: home: and encryption makes it random-looking
+[20:20:45] h0p3: That makes sense to me. 
+[20:21:05] BDS97: home: it won't be authenticated encryption, that can come later
+[20:21:37] h0p3: how much more expensive is authentication?
+[20:21:57] BDS97: home: it's not a problem computationally, it's just a matter of juggling with bytes
+[20:22:15] BDS97: home: secretbox has a 24 byte nonce and a 16 byte auth tag
+[20:22:24] BDS97: home: that's the bare minimum for authenticated encryption
+[20:23:28] BDS97: home: so unless we add, say, 42 bytes to the beginning, which would be a secretbox containing a 2-byte number
+[20:23:38] BDS97: home: which would be a waste of space IMO
+[20:23:49] BDS97: home: then we have to use a trick
+[20:24:14] h0p3: authentication can be extended at layer 0 if that were preferred, right? Why add it unless we know we want it.
+[20:24:18] BDS97: home: we only need the handshake length, after that, everything continues normally, and we still have the same authentication on the handshake
+[20:25:17] BDS97: home: layer 0 itself has authentication, it guarantees that all packets received come from the sender
+[20:25:45] h0p3: ah, yes
+[20:26:14] h0p3: we're in the TCP stream, right?
+[20:27:05] BDS97: home: sorry, I don't get that
+[20:27:24] BDS97: home: probably because my mind is partially on rust
+[20:27:35] BDS97: home: what do you mean by "we're in the TCP stream"?
+[20:28:06] h0p3: Nope. I'm wrong again. Fear not. 
+[20:29:10] h0p3: Alright, I will set it aside and think more about it. 
+[20:30:37] h0p3: I'm not sure what you mean by the packet distribution problem.
+[20:31:36] BDS97: home: packet size distribution, sorry
+[20:32:11] BDS97: home: possible detection of the protocol by analyzing the lengths of the packets sent over the wire
+[20:32:28] h0p3: Seems detectable.
+[20:32:43] BDS97: home: yeah, I still don't know how to solve it
+[20:33:25] h0p3: That graph should be absolute noise, right?
+[20:33:39] BDS97: home: that graph is a noise pattern instead of flat noise
+[20:33:48] BDS97: home: which I thought was a good idea
+[20:33:50] BDS97: home: but it's not
+[20:34:22] BDS97: home: with the decoupled physical and logical packets, we can reshape this any way we want to
+[20:34:41] BDS97: home: so I still think we can solve it in the long run
+[20:34:54] BDS97: home: but that solution I made there is terrible
+[20:36:53] h0p3: With that decoupling, we would be a good position to make Atropos masquerade as another protocol, right?
+[20:37:06] BDS97: home: yep
+[20:37:11] h0p3: That will be enough.
+[20:37:25] BDS97: home: in fact, one of the ideas I had
+[20:37:36] BDS97: home: I wanted to check how the real world looks like, so I installed wireshark
+[20:37:45] h0p3: noice
+[20:37:54] BDS97: home: it doesn't have this same chart, but I think I'll just hook it into something.js
+[20:38:05] BDS97: home: probably a simple electron app
+[20:38:18] BDS97: home: and reuse the same interface as in the demo I sent you
+[20:38:33] BDS97: home: but then, why stop there?
+[20:38:48] BDS97: home: if we can get data from the system's current packet sizes
+[20:38:58] BDS97: home: we could just hook that into the Atropos node
+[20:41:22] h0p3: defeating DPI will always be an arms race; I think we're back at throw a neural net territory
+[20:41:49] BDS97: home: yeah, agreed
+[20:42:39] BDS97: home: the "throw a neural net" strategy (trying to come up with a cool backronym for that) would fight that arms race in real time
+[20:43:11] h0p3: TANN is fine with me
+[20:43:51] BDS97: home: well, yeah
+[20:44:08] BDS97: home: although NNUKE would be nice, just can't get a meaning for "UKE"
+[20:44:13] h0p3: lol
+[20:45:02] h0p3: Where I live, instead of saying "I'll spank you" we'd say "I'll tan your hide"
+[20:45:27] BDS97: home: oh, well, that's nice too
+[20:45:52] BDS97: home: "we'll tann your surveillance system"
+[20:45:58] h0p3: so dirty
+[20:46:14] BDS97: home: well, I think SS already works for "surveillance system"
+[20:47:08] h0p3: Okay, so even if you aren't sure, what are the layers above 0?
+[20:47:25] BDS97: home: layer 1 is routing
+[20:48:00] BDS97: home: it'll handle the onion, plus it will reassemble the logical packets and ack them
+[20:48:24] BDS97: home: so we have that error connection already on a node-to-node basis
+[20:50:46] h0p3: but, this gives us error correction across the onion route
+[20:51:15] BDS97: home: not really
+[20:51:31] BDS97: home: layer 0 rejects replayed or garbage packets
+[20:51:58] BDS97: home: but it doesn't give you anything against disruption and lost packets
+[20:52:12] BDS97: home: it's like UDP, it doesn't care if you get the packet
+[20:52:26] BDS97: home: layer 1 does on the physical connections
+[20:52:41] BDS97: home: then layer 2 and 3 are similar to layer 0 and 1, just on the onion route
+[20:53:26] BDS97: home: so layer 2 will protect against any attacker inside the network, on your route
+[20:54:08] BDS97: home: it guarantees that everything arrives exactly 0 or 1 times through the route
+[20:54:17] BDS97: home: and layer 3 will handle the 0
+[20:54:58] BDS97: home: layer 1's ack isn't strictly required, but it will help a lot if the nodes you're passing through aren't malicious
+[20:56:44] h0p3: We will be able to test for malice, right?
+[20:57:28] BDS97: home: haven't thought about that a lot yet
+[20:57:30] BDS97: home: would be ideal
+[20:58:06] BDS97: home: we can and will measure performance
+[20:58:35] BDS97: home: that's definitely a real-time job, and while we won't TANN it at first, it will definitely have some dynamic optimization
+[21:00:01] BDS97: home: the problem is, the arrangement of layer 1 is optimized for speed, not for inspections
+[21:01:41] h0p3: I have 2 internet connections, I want to bond them together and maximize my throughput across them. Is that above layer 3?
+[21:02:09] BDS97: home: nope, layer 3 will have the bonding, most likely in control mode
+[21:02:31] BDS97: home: that's actually one of the reasons why the handshakes have control mode content
+[21:02:52] BDS97: home: so we can put another layer of address abstraction there
+[21:03:05] BDS97: home: bonding will be absolutely essential in the protocol
+[21:05:17] h0p3: Yo dawg, I heard you like VPNs. So, we put a VPN inside a VPN inside... Where does that happen? 
+[21:05:52] BDS97: home: layer 1 if I get that correctly
+[21:06:16] BDS97: home: it already has some multiplexing
+[21:06:34] BDS97: home: those channels either go to the receiving node or through that
+[21:06:52] BDS97: home: if it goes through, the node adds a simple stream cipher to it, then passes it on
+[21:07:38] h0p3: If we want to have THE network tool, we will need to defeat Wireguard and OpenVPN. That is way down the line. 
+[21:08:12] BDS97: home: as in we need to make a better VPN?
+[21:08:45] h0p3: I'm not sure what doesn't count as a VPN* for starters, but yeah, the kind which virtualizes an ethernet card.
+[21:08:51] BDS97: home: the public API will just be "open a channel to this node" and it'll have this weird mix of TCP and UDP
+[21:09:15] BDS97: home: we'll just hook those channels into the system and get a VPN
+[21:09:29] BDS97: home: so, basically, virtual ethernet card on both sides
+[21:09:55] BDS97: home: and they communicate through a layer 3 channel
+[21:10:14] BDS97: home: or just an Atropos channel, because I don't think we'll need to expose anything lower-level
+[21:10:43] BDS97: home: even a direct connection goes through layer 3, it just has less onions at layer 1
+[21:11:35] BDS97: home: I get your point though, in fact, a VPN using this could easily be one of the first projects I'd do after the basic tool is done
+[21:11:53] BDS97: home: would be super simple and incredibly useful
+[21:12:27] BDS97: home: browsers can wait
+[21:13:00] BDS97: home: I mean, yeah, you could browse, but what would you browse on it?
+[21:13:31] BDS97: home: The Hub is when that'll be important, and that's a lot more complex than the VPNs
+[21:15:31] h0p3: Aye. Building The Hub will arguably be the most difficult scaling task. 
+[21:17:11] h0p3: Extensibility is a first class citizen.
+[21:18:24] BDS97: home: yep, for sure, if we don't want this protocol to be short-lived
+[21:19:05] BDS97: home: I even have a plan for when we'll need to switch the crypto scheme
+[21:19:13] h0p3: do tell.
+[21:19:23] h0p3: Can we just add postquanum?
+[21:19:44] BDS97: home: yep, not today, but that's the one I'm counting on for the future
+[21:19:56] BDS97: home: we'll need some important milestones until then
+[21:20:08] h0p3: aye, probably decades away
+[21:20:44] BDS97: home: we would most likely use SIDH and its digital signature variant
+[21:20:56] BDS97: home: (supersingular isogeny diffie-hellman)
+[21:21:10] BDS97: home: but we would need a way to pack those keys into something elligator-like
+[21:21:27] BDS97: home: plus some fast implementations to begin with, because last time I checked only prototypes existed
+[21:21:53] h0p3: Aye, long way off until there is any consensus.
+[21:22:22] BDS97: home: yeah, and I'd like to wait it out
+[21:22:35] BDS97: home: we have a spec with locked primitives
+[21:23:00] BDS97: home: which is kinda necessary when you're making the whole protocol as unfilterable as possible
+[21:23:35] BDS97: home: when we switch to different primitives, my plan is to make a spec just like that, and then just use both at the same time
+[21:23:49] BDS97: home: try parsing messages with the post-quantum keys, if it doesn't work, keep using the pre-quantum ones
+[21:24:20] h0p3: ah
+[21:24:27] BDS97: home: well, that's if we'll even need unfilterability by then
+[21:24:56] BDS97: home: one of the reasons I'd like to go with this "general use network tool" plan is to put Atropos everywhere, in as many systems as we can
+[21:25:12] BDS97: home: make it inevitable even for use cases the censors would like
+[21:25:27] BDS97: home: because it's one thing to detect and somehow block Atropos
+[21:25:45] BDS97: home: an arms race we'll fight with the TANN when the time comes
+[21:26:07] BDS97: home: but it's absolutely atomic, by design you can't block only parts of it
+[21:26:27] BDS97: home: you either let the whole thing through or nothing
+[21:26:33] h0p3: =)
+[21:27:38] BDS97: home: btw, you've asked before when we'll need to get more people into this project
+[21:27:44] h0p3: yes
+[21:27:58] BDS97: home: I think when we reach TANN it's definitely going to be one of those points
+[21:28:07] BDS97: home: Building the Hub may be another one
+[21:28:31] h0p3: Both make sense to me.
+[21:28:59] h0p3: May it be the networking equivalent of LLVM
+[21:29:35] BDS97: home: yeah, that would be awesome
+[21:30:18] BDS97: home: anyway, I'm going, haven't got a lot of sleep lately, and it's getting late, even for me
+[21:30:31] h0p3: night, sleep well homie
+[21:30:51] BDS97: home: thank you, and have a nice day
+[21:30:57] BDS97: home: or evening, if my calculations are correct

@@ -1,0 +1,53 @@
+created: 20200207070915256
+modified: 20200207160538301
+tags: AI [[FTO: Seemingly One-Off Online Encounters]]
+title: 2020.01.13 - shawwwn: GPT-2
+
+h0p3 4:19 PM
+
+Hey! Normally, I write letters or notes, but I'm hoping to catch you real-time, in person. 
+
+I'm a random lurker who noticed you trained GPT-2 on a chess database, and now upgraded SubredditSimulator bots. 
+
+h0p3 4:25 PM
+
+I was wondering if you might reason with me and answer a few questions about training GPT-2. 
+
+Like you, I'm interested in philosophical definitions of AI. Perhaps like a crazy person, I've even been writing to a possible future AI or ML subject (https://philosopher.life/#Aispondence).
+
+That site I'm linking you to is my wiki. I'm hypergraphic, and I've ~31MB of plaintext (in Tiddlywiki markup) of my writing. I'd like to know if and how I might train GPT-2 using my wiki as the primary data source. It might not even be worth the effort, but I'd like to know why.
+
+Jan 14
+shawwwn 1:23 PM
+
+Sure, you can do that. Step 1: put all wiki text into a single text file named foo.txt. Step 2: transfer that textfile into a free colab GPU notebook. Step 3: clone github.com/shawwn/gpt-2, and run python3 train.py —dataset foo.txt
+
+There are lots of small details that will trip you up,  but those are the three overall objectives
+
+During training you’ll see it generate samples every 100 steps, or abut every 15 minutes. You’ll see the samples become progressively more and more like your wiki.
+
+h0p3 2:57 PM
+
+Thank you. =)
+
+h0p3 3:06 PM
+
+It's safe to assume I should work with the smaller models first, even if only to get used to the process.
+
+shawwwn 4:14 PM
+
+FWIW, I got my start from following the steps at gwern.net/GPT-2
+
+It’s a pretty thorough walkthrough
+
+h0p3 5:00 PM
+
+Aye. I've been looking through that one in particular.
+
+Beyond the fact that this interesting, I wonder if it is actually worth using my wiki to do this at all. I might not have enough writing in it, and I write in fairly personal language/style (though, the transformers I've used so far seem good).
+
+shawwwn 6:20 PM
+
+Oh, it should work as long as the dataset is like... 2MB at the smallest. Ideally around at least 64MB
+
+But it’s always interesting to try it anyway and see what happens

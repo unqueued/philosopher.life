@@ -1,0 +1,48 @@
+.bm-table {margin:0 auto;}
+.bm-table, .bm-table th, .bm-table td {
+  border:0; background:black;
+}
+.bm-input-table {width:100%;}
+.bm-input-table > tr > td:nth-child(2) {max-width:300px;}
+.bm-input-table select {max-width:calc(100% - 50px - 1.2em);}
+.bm-fieldeditor {max-width:calc(100% - 1.2em);}
+
+.bm-relations-table {margin-top:4em;}
+.bm-table th.rotate {
+  white-space: nowrap;
+  vertical-align:bottom;
+}
+.bm-table th.rotate > div {
+  transform: translate(27px, -.5em) rotate(315deg);
+  width: 1em;
+  margin-left:-1em;
+}
+.bm-table th.rotate > div > span {
+  border-bottom: 1px solid #ccc;
+  padding: 0px 10px 2px 0;
+  margin-left:-.6em;
+  background:white;
+}
+.bm-table ::-webkit-input-placeholder { color: #a6a6a6; }
+.bm-table :-ms-input-placeholder { color: #a6a6a6; }
+.bm-table ::-ms-input-placeholder { color: #a6a6a6; }
+.bm-table ::-moz-placeholder { color: #a6a6a6; }
+
+.bm-singledata-table-head {border-bottom:2px solid silver}
+
+.bm-btn {width:1em;}
+.bm-btn-addtofilter {color:blue; }
+.bm-btn-add, .tm-add-tag, .tm-add-field { background:lightgray;}
+.bm-btn-remove, .tm-remove-tag, .tm-remove-field {background:lightgreen;}
+.peek {display:none;z-index:2;background-color:lightgray;position:absolute;}
+.peek-hover:hover .peek {display:block; background:lightgray;}
+.bm-tooltip {position:absolute; display:none; z-index:2;background:white; margin:-2.6em -1em; border:1px solid silver; padding:0 5px; color:black;white-space:nowrap;}
+.bm-btn-tooltip:hover .bm-tooltip {display:block;}
+.bm-fontsmall {font-size:.8em; fill:gray;}
+.bm-center {text-align:center; vertical-align:text-bottom;}
+.bm-fontsmall svg,
+ .bm-fontsmall input[type="checkbox"] {vertical-align:text-top}
+.bm-alert {border-color:red;}
+
+.bm-drag {background:#ec6; border-radius:1em; padding:0; line-height:1.1em; width:3em; display:inline-block;}
+button.green-link {color:#00cc00;}
