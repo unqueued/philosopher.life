@@ -1,0 +1,129 @@
+aliases: [[Abstract]] [[abstract]] [[Abstraction]] [[Abstractions]] [[abstraction]] [[abstractions]] [[abstract object]] [[abstract obects]] [[Abstract Object]]
+created: 20200323203258950
+modified: 20200325043649139
+tags: [[Φιλοσοφική ανάλυση]] [[Be A Good Dad]]
+title: Abstract Objects
+
+//Abstraction is an abstraction. I do not understand the properties of objects of this process or the process itself well enough either.//
+
+<<<
+All abstract sciences are nothing but the study of relations between signs.     
+
+-- Denis Diderot
+<<<
+
+<<<
+By object is meant some element in the complex whole that is defined in abstraction from the whole of which it is a distinction. 
+
+-- John Dewey
+<<<
+
+<<<
+So words are used to stand as outward marks of our internal ideas, which are taken from particular things; but if every particular idea that we take in had its own special name, there would be no end to names. To prevent this, the mind makes particular ideas received from particular things become general; which it does by considering them as they are in the mind—mental appearances—separate from all other existences, and from the circumstances of real existence, such as time, place, and so on. This procedure is called abstraction. In it, an idea taken from a particular thing becomes a general representative of all of the same kind, and its name becomes a general name that is applicable to any existing thing that fits that abstract idea.
+
+-- John Locke
+<<<
+
+<<<
+It is plain...that General and Universal, belong not to the real existence of things; but are Inventions and Creatures of the Understanding, made by it for its own use, and concern only signs, whether Words or Ideas
+
+-- John Locke
+<<<
+
+<<<
+People who are too fastidious towards the finite never reach actuality, but linger in abstraction, and their light dies away.
+
+-- Saint Hegel 
+<<<
+
+<<<
+What, then, is truth? A mobile army of metaphors, metonyms, and anthropomorphisms – in short, a sum of human relations, which have been enhanced, transposed, and embellished poetically and rhetorically, and which after long use seem firm, canonical, and obligatory to a people: truths are illusions about which one has forgotten that this is what they are; metaphors which are worn out and without sensuous power; coins which have lost their pictures and now matter only as metal, no longer as coins.
+
+-- Friedrich Nietzsche 
+<<<
+
+<<<
+To think is to forget a difference, to generalize, to abstract.
+
+-- Jorge Luis Borges 
+<<<
+
+<<<
+A map is not the territory it represents, but, if correct, it has a similar structure to the territory, which accounts for its usefulness.
+
+-- Alfred Korzybski
+<<<
+
+* Zalta: Abstract Object Theory
+** Two modes of predication:
+*** Concrete objects //exemplify// properties
+*** Abstract objects //encode// properties.
+** For every set of properties, there is exactly one object that encodes exactly that set of properties and no others.
+*** Appears to include some identity property.
+
+* Abstract Objects
+** Independence of spacetime
+** Predication, properties, and generalizations
+** Acausality, eternality, immutability, necessity
+
+* Hegel: Abstract particulars
+
+* Definitions:
+** Drawing out the essence.
+** Generality embedded in the specific
+** An abstract object is an object that does not exist at any particular time or place, but rather exists as a type of thing—i.e., an idea, or abstraction.
+** "An abstraction" is the outcome of this process—a concept that acts as a common noun for all subordinate concepts, and connects any related concepts as a group, field, or category.
+** Abstraction uses a strategy of simplification, wherein formerly concrete details are left ambiguous, vague, or undefined; thus effective communication about things in the abstract requires an intuitive or common experience between the communicator and the communication recipient. This is true for all verbal/abstract communication. 
+** Abstract is a cluster concept, that is, a concept whose application is marked by a collection of other concepts, some of which are more important to its application than others.
+** Abstraction is the breaking down of properties and use of those properties for the purpose of extending them to something else so the something else can inherit the properties and change these properties as the abstraction requires. 
+** An object is abstract if and only if it is both non-mental and non-sensible.
+** An object is abstract if it is (or might be) the referent of an abstract idea, i.e., an idea formed by abstraction.
+
+* Nondefinitive elements of abstraction?
+
+* Type-token
+** Redness, Red light
+
+* Predicate Abstraction
+** Free occurrence replacement, binding
+** The law of abstraction states ( λx.Q(x) )(t) ≡ Q(t/x) where Q(t/x) is the result of replacing all free occurrences of x in Q by t.
+*** Fails where t is irreferential, and when Q is modal.
+**** De Dicto/De Re
+
+* Physicalism, empiricism, nominalism, universals vs Platonists/Realists
+** How do we know about them? How do they affect our senses?
+** Note the difference between claiming we do not understand how the noumena might have a causal relationship with phenomena and denying such a relationship altogether.
+
+* Why Frege's Third World Theory is retarded
+** He's right that we can't answer questions about abstraction without a logical analysis of language.
+** Expression reference implies bivalence 
+** His triad points to metaphysics as being fundamental to the world and mind!
+
+* Rust's Zero-Cost Abstraction Ideal
+
+* Baconian Induction, synthesizing particular facts or ideas into a generalized model.
+
+* Themes/Related
+** Compression
+** Instantiation & Ontological Status
+** "Drawing Away From" - political [[power]]'s complexification
+** Revealing deeper connections between seemingly unrelated things
+** Emergence
+** Reification
+
+* Appealing to intuition to classify objects as abstracta or concreta
+** Classic example of a hard problem (or a gateway) in philosophy when we are forced into casuistry.
+
+* Plato
+** Forms are causal, abstractions aren't supposed to be. What's the missing ingredient?
+** Small "p" Platonists are pussies.
+** Mind-independence of the abstract for Plato, Aristotle, Hegel, etc. is not so obvious.
+** Why do we get to help ourselves to denying a space to the abstract? 
+** Why should we think abstract objects are causally inefficacious? Even after our intuitions, this is reasonably doubtable.
+** Attack the criterion!
+
+* The Way
+** of Negation
+** of Example
+** of Conflation
+** of Abstraction

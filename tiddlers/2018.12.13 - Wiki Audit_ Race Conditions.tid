@@ -1,0 +1,60 @@
+created: 20181213205749426
+modified: 20200207065818894
+tags: [[Wiki Audit]] Self-Dialectic [[FTO Log]]
+title: 2018.12.13 - Wiki Audit: Race Conditions
+
+-=[ Rabbitholed ]=-
+
+I keep running into problems with previously saved tiddlers being reverted real time. This is a huge problem for me. I don't know what to do about it. Do I accept the leakage to gain access or not? I simply can't see going back. I also think that such a problem may be eventually fixed (Jed is extremely skilled). The good news is that my $:/plugins/tiddlywiki/savetrail plugin can always be a catchall...if I can spot it! This is a lossy enterprise.
+
+---
+
+I actually lost a paragraph that I would not be able to easily reproduce. Savetrail did save my ass (but it's ugly as fuck). I'm considering how I can automatically save my body text to clipboard (since I have [though so rarely use] a running clipboard manager: gotta start [[Trusting Trust]] somewhere ;P).<<ref "o">> 
+
+---
+
+WAIT! Turning off cronjob. That could very easily be it, especially since I can't predict it. This is probably it, but I do not see why it should be. Maybe it's catching it on the write cycle? It's gotta be the primary suspect if multiple simultaneous (tabbed) entrances to it aren't the problem (the Bob plugin is still alpha/betaish in some respects, and that's the only way it can grow). 
+
+I'm digging in my heels here. Having multiple workspaces is a fucking godsend; my cognitive load and anxieties are wildly better off with this (though it can be hard to put myself back into my previous shoes/drivers's seat sometimes). It's going to change how I use this tool fundamentally. If I have to try ugly-hacking my way into stabilizing some answer to this race condition problem I will.
+
+---
+
+What starts the rabbithole is not necessarily where I want to end up (nor where I do end up; some circle back, some do not). This is the hermeneutic circle/spiral (ciral?). Tabbed-windows into this wiki must each resolve a chain of molecular reasoning; that's the reason for it. What are constructive, efficient, safe methods for generating multi-threaded emergent ways of reasoning about this hyperobject?
+
+---
+
+Often, what I write into the wiki and what I write outside it are one-to-one. I think this is a valuable thing, and it is my strong preference. Unfortunately, I'm not convinced I should always do that (but, I never want to confabulate about the matter if I can help it). Perhaps I'm going to need to edit my drafts of forum posts more TW-esquely. The fact is that I write too god damn much. Who the fuck wants to read prolix? Maybe I must offer something more consie at first.
+
+I do have a right to be myself to significant [[dok]] in most contexts, and I think I usually have the political right to post my complete opinion on a forum (however, I can give moral reasons why it is better not to do so in a wide variety of contexts). It is simply socially unacceptable for me to foist upon a forum audience what I take to be my sufficiently complete opinion injected into a forum post. This is an opportunity to shrink down my opinion to a [[Diamond]]. I will build bridges to my prolix thought. In public forums, I will try to simultaneously deliver what my audience requires and to their social preferences (to some [[dok]]) while maintaining the second, more complete set of semantic books on my side. Bifurcating the semantics poses many problems, and [[IA2DYJ]]. How else can I participate effectively in [[The Original Position]]? I must empathize with others here, and it will require different conventions.
+
+---
+
+$:/plugins/Bob/ConflictList seems like it could be useful. I'm having that trouble again!!! I don't know what's wrong!!! What are you doing wrong, h0p3? Why does this blackbox not work?
+
+---
+
+I'm growing [[Home: ASCII Art Logo, 3]]. [[j3d1h]] and I have a fun plan. We'll see if it works. I need the yearly piece of art for [[Root]]. I wonder what will how [[Home: ASCII Art Logo, 2]]? What will be honored by it?
+
+---
+
+Here's a sign I've lost or lack control: I must use sublime text or vim. It's crucial that I build this system in such a way that all of their functions are replaced as far as I can go.
+
+---
+
+Year 2 -- Version 2.0
+
+(maybe Year 1?...Do I start at year 0? ;P)
+
+---
+
+TiddlyTool broke on me, but I have it back (I think. I'm worried the small things I had to change were reverted!)
+
+ $:/ControlPanel in Bob cannot be trusted. Reversion is common.
+
+---
+
+I got to 2017.10.08 in [[The Remodeling]]. As I remarked in the commentary retroactive [[footnotes]]: I can literally see the beginning of [[Wiki Audit]] emerge and split off from [[Wiki Review]]. It's fascinating!
+
+
+---
+<<footnotes "o" "You must always assume you could lose control, access, or trust in all of your machines (simultaneously and perhaps permanently) at some point. How will you ever recover? Build your risk-assessed digital lives that paranoically to whatever [[dok]] you low-hanging fruit reasonably can.">>

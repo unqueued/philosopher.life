@@ -1,0 +1,94 @@
+[11:13 AM] Valdus: Got so frustrated I’m back to...
+[11:33 AM] h0p3: Ha :smiley:
+[11:34 AM] h0p3: I rely upon other tooling too. Sometimes the wiki just isn't right for the job either.
+[1:30 PM] Valdus: HF! I got it I damn got it!!!!
+[1:30 PM] Valdus: dances a triumphant jig with pipe in his mouth
+[1:37 PM] Valdus: Now how do I get omnibus to load into this?
+[1:44 PM] Valdus: BUUUUUUULLLLLYYYYY!
+[1:44 PM] h0p3: Congratz! :smiley:
+[1:44 PM] h0p3: What did you do to get it working?
+[1:44 PM] Valdus: now to get Omnibus onto here.
+[1:45 PM] Valdus: someone in the group suggested a new version, bang it worked after I changed the address manually
+[1:45 PM] h0p3: Ah, yes. I saw that.
+[1:45 PM] h0p3: Good!
+[1:46 PM] Valdus: so I tried creating a new wiki from an existing html file of a wiki and did not do me any favors.
+[1:46 PM] h0p3: Here's my opinion, start from scratch. You have basically nothing in your omnibus
+[1:46 PM] h0p3: Importing is something you will learn in time.
+[1:47 PM] h0p3: You can export from the omnibus.html to .tid files and then import those through Bob as well.
+[1:47 PM] h0p3: Keep a changelog of your wiki.
+[1:47 PM] h0p3: If you make a change, talk about it.
+[1:48 PM] h0p3: Have a place where you have refer to your history on changing it, what you did, how you found it, why it matters, etc.
+[1:48 PM] h0p3: I am not giving you pointless homework here.
+[1:49 PM] Valdus: Yeah I called that wiki world, the history of the wiki
+[1:49 PM] h0p3: Noice!
+[1:49 PM] h0p3: I am very excited to read it, btw.
+[1:49 PM] Valdus: now I need GREEN TERMINAL!
+[1:49 PM] h0p3: Assuming you will let me*
+[1:49 PM] Valdus: should I have an r2d2 name like yall do?
+[1:49 PM] h0p3: Haha, our L337 names.
+[1:50 PM] Valdus: how did you pick that out?
+[1:50 PM] Valdus: is there a system or random?
+[1:50 PM] h0p3: Dude, it's your wiki and your identity. I strongly suggest you pick a name that means something profound to who you want to be (and why).
+[1:50 PM] Valdus: thats Valdus
+[1:50 PM] h0p3: That's it.
+[1:51 PM] h0p3: I beg you choose a name that means everything to you because this tool is, imho, about building a model of yourself, a mirror to look into, and a tool for changing who you are.
+[1:51 PM] h0p3: You don't have a choose a name right now, and you can always change it later.
+[1:51 PM] Valdus: ok
+[1:52 PM] Valdus: but where is my wiki saved because I notice that when I restart bob I get the same old wiki
+[1:52 PM] h0p3: Uh oh
+[1:52 PM] h0p3: That's not working.
+[1:52 PM] Valdus: I mean, I think
+[1:53 PM] h0p3: Also our names aren't random. h0p3 = hope, j3d1h = jedihacker, 1uxb0x = lucky computer, k0sh3k = a fictional cat.
+[1:53 PM] h0p3: If you save a tiddler, it should automatically save into your wiki.
+[1:54 PM] Valdus: yeah I changed title to testing the tiddler and hit save button, comes up new after.
+[1:54 PM] h0p3: You should also be able to open new tabs in your browser, and those changes should register in both tabs. In fact, all of your devices which are connected should see all changes fairly quickly.
+[1:54 PM] Valdus: I just changed the title
+[1:54 PM] h0p3: Do all your devices connect?
+[1:55 PM] Valdus: I get testing the tiddly on my CB
+[1:55 PM] h0p3: If you have Dropbox or some other cloud backup (or better yet, a versioning tool) which automatically syncs, then you should put your entire Bob installation folder into that Dropbox-like tool.
+[1:55 PM] h0p3: Do not forget to install the official savetrail plugin.
+[1:55 PM] h0p3: Backups are what you do next.
+[1:56 PM] Valdus: I got to make sure it saves brah
+[1:56 PM] h0p3: Aye!
+[1:59 PM] Valdus: ok on chromebook I made two tiddlers, hit check and saved restarted on big guy and they did not appear.
+[1:59 PM] h0p3: No bueno.
+[1:59 PM] h0p3: Shit.
+[1:59 PM] h0p3: It is good that you can access the webserver though!
+[2:00 PM] h0p3: I don't know if you have to turn on any automated saving tools in Bob from the original TW settings.
+[2:00 PM] Valdus: yeah its a major accomplishment, also is the main wiki supposed to change when I use it on another puter?
+[2:00 PM] h0p3: Yes!
+[2:00 PM] h0p3: That was why we are going through all of this, right?
+[2:00 PM] Valdus: it aint
+[2:00 PM] h0p3: :frowning:
+[2:01 PM] Valdus: weeeeeird
+[2:02 PM] h0p3: Do you have autosave turned on in the settings?
+[2:02 PM] h0p3: If you see a Red checkmark in the corner, it isn't saved.
+[2:02 PM] Valdus: lol I do now
+[2:03 PM] h0p3: Does it work?
+[2:04 PM] Valdus: screen on big aint changing
+[2:04 PM] h0p3: Isolate the problem of saving to the desktop first.
+[2:04 PM] h0p3: Can you get it to save correctly on that device?
+[2:05 PM] h0p3: Then we'll move to other devices, then we'll move to backups.
+[2:05 PM] Valdus: testing the tiddly is not in my list of wikis
+[2:05 PM] h0p3: List of wikis?
+[2:05 PM] h0p3: You should just have one at this point.
+[2:05 PM] Valdus: well I tried to import omnibus under different titles, crap.
+[2:07 PM] h0p3: Also, I just want to say it now because I think it is a paradigm you need to keep in mind about your wiki from the beginning. My friend [[kicks]] has summed it up nicely. Think of some of your work as static (perhaps even ephemeral in a sense); these should have a date one them : "YYYY.MM.DD - Titletag: Subtitle" . Think of some of your work as dynamically changing projects (anything not datestamped in the tiddler's title is what I do).  Lastly, building a wiki which is designed to be searched and parsed with different kinds of evolving tooling will help you use static and dynamic tiddlers together (and beyond).
+[2:07 PM] Valdus: no its not even saving on the local or the cb
+[2:07 PM] h0p3: =/
+[2:07 PM] h0p3: You are closer.
+[2:07 PM] h0p3: This is good.
+[2:08 PM] h0p3: Keep a good naming convention for your tiddlers. Be purposeful in how you construct with titles.  Tagging is an art. Do not tag unless you know why you are tagging, imho.
+[2:08 PM] Valdus: also, please try to not give me wikilosophy until I get this working?
+[2:08 PM] h0p3: Alright*
+[2:08 PM] Valdus: it just cranks me up.
+[2:08 PM] Valdus: in a good way
+[2:08 PM] Valdus: alright I have to go pick up my son. but how do you spell Valdus in the wikiway?
+[2:09 PM] h0p3: I mean, most people who have wikis don't name themselves in leetspeak. If you want a leet name: v41du5
+[2:09 PM] h0p3: it does look r2d2-y!
+[2:10 PM] Valdus: no capitals huh?
+[2:10 PM] h0p3: Change it up. Make it work for you.
+[2:10 PM] h0p3: Va1du5
+[2:10 PM] h0p3: V41du5
+[2:10 PM] h0p3: Va!du$
+[2:10 PM] Valdus: I like the a1

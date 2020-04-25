@@ -1,0 +1,80 @@
+[15:05:07] h0p3: I do not understand this nearly well enough (because I am retarded): https://eprint.iacr.org/2019/463.pdf
+[15:06:06] h0p3: It's an interesting problem though.
+[15:08:32] b3nsn0w: the perfect software DRM?
+[15:09:41] b3nsn0w: lol, pewter box obfuscation
+[15:09:53] b3nsn0w: I'll never be able to read that again without thinking of allomancy
+[15:14:33] b3nsn0w: this is some complex stuff, but definitely interesting indeed
+[15:14:57] b3nsn0w: skipped over most of it, for now I'm more interested in the what than the how
+[15:15:19] b3nsn0w: usually understanding the 'what' drives the effort to learn the 'how', for me at least
+[15:16:18] b3nsn0w: and as far as I understand, this would create a black box of code, practically impossible to decompile, reverse engineer, and modify
+[15:16:31] b3nsn0w: don't know about that
+[15:16:45] b3nsn0w: I'm not sure if the existence of a technology like this would be a net benefit for humanity
+[15:17:04] b3nsn0w: but at the same time I know there are lots of people who would want this, for added control
+[15:17:21] b3nsn0w: essentially the same people who go for DRM
+[15:19:25] h0p3: Yes, that is exactly where my mind went.
+[15:20:07] b3nsn0w: the only good use case I've ever found for this would be anti-cheat for games
+[15:20:11] b3nsn0w: but even that's a slippery slope
+[15:20:41] b3nsn0w: how long until the same thing is used as "anti-cheat" for real life stuff, where "cheating" is defined by some kind of totalitarian agenda?
+[15:20:49] h0p3: Preach, yo!
+[15:21:07] h0p3: It has already begun, but not for cryptographically secured reasons.
+[15:21:25] h0p3: At least, not all the way down*
+[15:23:12] b3nsn0w: yeah, if we weren't using an encrypted chat, that would be -5 social credit for both of us now
+[15:30:45] h0p3: You are talking to a crazy person as usual, so please forgive the old man for speaking his stupid schizotypal gibberish like a child using words he never understands well enough (yes, I am stupid, but there may be something for you to sift here: I am your retarded brother sounding board): this problem seems to be like polymorphic malware, the dangers of running code we can never understand expands into running MLed packages on our hardware, this is the problem of running binaries we don't provably see the source code of (or even the steganographic obfuscation at source level), and this is also the problem in the computational theory of mind in generating empathic trust with each other (Wittgenstein's rule following problem, a qualia problem too). I think this has something to say about those parasite algorithms which arise in the dialectical infinite regress of the game theory covering the range of (what I believe are) algebraic data types we might find used in T42T-based algorithms. It's what some call Pavlov. Gradualized T42T seems to need to reason about cryptographic obfuscation concepts in both theory and practice that isn't easy for me to see.
+[15:33:14] h0p3: It's also the problem of any decent Root (like Intel's)
+[15:33:34] h0p3: (and all the hardware we run in our phone that basically have root)
+[15:34:51] b3nsn0w: lol, you're no retarded brother
+[15:35:00] b3nsn0w: this feels like talking to the Architect from the Matrix
+[15:35:18] b3nsn0w: I mean, I'm pretty sure I agree, but I don't get 10% of the things you just casually referenced here
+[15:35:47] b3nsn0w: but yeah, it kinda takes control over the device, to the point that it's no longer yours while this thing runs
+[15:36:34] b3nsn0w: and yeah, this can be done in a sort of "bottom-up" approach as well, locking the system all the way from the bootloader, essentially putting the user in the sandbox
+[15:36:59] h0p3: It's trusting trust.
+[15:37:07] b3nsn0w: that's kinda what Intel ME and AMD PSP do already
+[15:37:21] b3nsn0w: yeah, I don't think there's a single CPU out there that we can actually trust this well
+[15:37:26] b3nsn0w: maybe Risc-V
+[15:37:50] b3nsn0w: but this one, the perfect software black box
+[15:38:04] b3nsn0w: it's kind of a top to bottom version of the same problem
+[15:38:09] h0p3: AH!
+[15:38:14] h0p3: You said the magic words
+[15:38:44] h0p3: That is empiricism trying to find the best representation of the logical objects around us.
+[15:38:43] b3nsn0w: where it doesn't have to go down all the way to the trust chain embedded by your CPU manufacturer, your device manufacturer, your OS vendor, everyone
+[15:40:47] h0p3: Yeah, we are always endangered by those who own the means of production of computing inside and out. It's why it must be radically decentralized there too. 
+[15:41:13] b3nsn0w: yeah, agreed
+[15:41:25] b3nsn0w: although I view decentralization as kind of a separate front of this battle
+[15:41:40] b3nsn0w: the one with the black boxes and sandboxes is the front on the endpoint device
+[15:41:54] b3nsn0w: which becomes the only attack vector if we secure the network properly
+[15:42:26] b3nsn0w: decentralization is more of a network problem, it's for obfuscating streams of data between end user devices
+[15:47:01] b3nsn0w: btw last time I saw some interesting idea with webassembly
+[15:47:18] b3nsn0w: it's an interesting aspect of sandboxing
+[15:47:32] b3nsn0w: do you know the node_modules problem?
+[15:47:40] h0p3: No, I have no idea.
+[15:47:49] b3nsn0w: basically just that it's large
+[15:47:53] h0p3: Are we talking about the pyramids of trusts of libraries?
+[15:48:03] b3nsn0w: a bunch of packages, each having their own dependencies, etc
+[15:48:06] h0p3: Yes
+[15:48:13] h0p3: I understand and fear this problem greatly.
+[15:48:17] b3nsn0w: basically the same we had with other stuff before, just on a much larger scale, because it's possible
+[15:48:18] h0p3: or enough to fear it*
+[15:49:11] b3nsn0w: yeah, the security problem is how do you make sure none of the thousands of packages in your usual web app abuse this thing
+[15:49:38] b3nsn0w: the idea with this new webassembly thing (forgot the name, sorry) was that each and every package would be encapsulated in its own sandbox
+[15:49:56] h0p3: Every ecosystem has that problem, and WASM has QubeOS in the Browser.
+[15:50:18] b3nsn0w: yeah, essentially
+[15:50:22] b3nsn0w: it's kinda interesting
+[15:50:36] b3nsn0w: sandboxes for untrusted code running in the same process, on the same thread and everything
+[15:51:00] b3nsn0w: if they're that light, why isn't literally everything a sandbox?
+[15:51:21] b3nsn0w: that idea gets you directly to a mobile-style, app-based ecosystem
+[15:51:41] h0p3: Linux and BSD seem to have approaches or attempts at enabling that. 
+[15:51:56] h0p3: Primitives for it or something
+[15:52:01] b3nsn0w: yeah, snap for example
+[15:52:10] b3nsn0w: and even the basic OS process stuff was for this thing
+[15:52:26] b3nsn0w: although it doesn't really protect the important stuff, just stops the programs from messing with each other
+[15:52:50] b3nsn0w: but all of them still have full filesystem access for example
+[15:53:02] b3nsn0w: and everything they need to basically spy on the user
+[15:53:12] h0p3: Containers are such a hard problem.
+[15:53:14] b3nsn0w: "anti-cheat", again, if we got an adversary for that
+[15:53:19] b3nsn0w: yeah
+[15:53:39] b3nsn0w: they're getting popular, though, in this mobile app-like model with permissions and stuff
+[15:53:43] b3nsn0w: but for all the wrong reason
+[15:54:14] b3nsn0w: in every single one of these systems that's created with a reasonable amount of effort, the "hypervisor" is proprietary
+[15:54:30] h0p3: =(
+[15:54:32] b3nsn0w: which is the exact opposite of what we need, since that approach takes control away from the user
+[15:54:59] h0p3: proprietary and propped up by fiat coercion 

@@ -1,0 +1,33 @@
+created: 20180223172123265
+modified: 20200225071152656
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.02.23 - Computer Musings: VM-Mill
+
+I'm trying to make a space for my wife to work on Koha or Evergreen on her machine.<<ref "2020.02.25-1">> The linux subsystem appears to be the wrong tool. Thus, we are moving to full virtualization. I grabbed lubuntu for her (manjaro also, but I see it would be better to go the ubuntu route in this case) and installed virtualbox. No 64-bit support? I was 99% sure her processor supported it. I read about it, downloaded hwinfo, and saw that virtualization was simply disabled. I'll need to modify that for her, since she won't know what she is looking at (she could, but I don't want her to worry about it). 
+
+We'll get there. =)
+
+---
+
+The seedbox is working beautifully. I'm very pleased by it. Also, I'm not hitting the performance problems I've heard about so for, and I have hundreds of torrents running right now. I'm trying to understand why.
+
+---
+
+God damnit. In a moment of weakness, I just RMed my /mnt<<ref "2020.02.25-2">>...instead of going 1 by 1...and my storage HDD just got wiped. Recreating backups now. Will work tonight to get everything set the way I want. My stupidity knows no bounds. Fuck. 
+
+---
+
+Fixed.
+
+Also, [[vpncloud.rs]] service was not autostarting correctly...so, I found out what I needed to modify in all the service files.
+
+Bye, bye sparkleshare.
+
+Also, `pacman -Syyuu` forced through the update fine. 
+
+
+---
+<<footnotes "2020.02.25-1" "This was a good idea. I'm glad I searched for a way out with her. It was either administrative or technical advancement. She could do either, but working with people probably fits her best. It's cool to see her advocate for FOSS so hardcore; not all the librarians understand what she does.">>
+
+<<footnotes "2020.02.25-2" "Must show to [[j3d1h]]. She'd get a kick.">>

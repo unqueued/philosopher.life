@@ -1,0 +1,71 @@
+12:24 AM] h0p3: Yup, that's it.
+[12:24 AM] h0p3: 1 core, 1GB of RAM, and use this more lightweight version of Ubuntu called Xubuntu: https://xubuntu.org/download
+Xubuntu
+Pasi Lallinaho
+Download Xubuntu « Xubuntu
+Xubuntu – Xubuntu is an elegant and easy-to-use operating system.
+[9:18 AM] Valdus: Hold on let me get something a bit more updated let me get a computer screenshot of drives.
+[11:41 AM] Valdus: now I have a word counter!
+[12:27 PM] h0p3: Yay!
+[12:28 PM] Valdus: and a bit better contrasting light palette
+[12:28 PM] h0p3: That is awesome.
+[12:28 PM] h0p3: I am glad it is coming alive for you.
+[12:29 PM] Valdus: Im a visual whore, cant do anything without the right environment
+[12:29 PM] h0p3: Ha. I can appreciate that.
+[12:29 PM] Valdus: yours is beautiful.
+[12:31 PM] h0p3: Thank you. It keeps changing. Some have compared it to an LSD trip, and I kinda like that. Dark and Neon Colors.
+[12:40 PM] Valdus: Im sure that was the feeling you were going for.
+[12:42 PM] Valdus: so let me see when I can get back to work under the hood.
+[2:06 PM] Valdus: so wht is this json file that gets saved everytime I hit check is that save trail?
+[2:33 PM] h0p3: Look inside it
+[2:33 PM] h0p3: That is a .tid file converted into .json format.
+[8:43 PM] Valdus: I sense you doing wiki-work
+[8:43 PM] h0p3: Ha.
+[8:43 PM] h0p3: Tru dat
+[8:43 PM] Valdus: Lol knew it
+[8:43 PM] h0p3: The whole family pitched in to remodel my wife's wiki today.
+[8:43 PM] h0p3: It's been a lot of work today.
+[8:43 PM] Valdus: I need to hire your family
+[8:44 PM] h0p3: I aim to give my time freely to you.
+[8:44 PM] h0p3: I am, of course, religious about the wiki, lol.
+[8:45 PM] h0p3: How's your wiki work going, btw?
+[8:45 PM] Valdus: You should write a wiki manifesto (or have you?)
+[8:45 PM] h0p3: You played with any of the settings or installed any plugins?
+[8:46 PM] h0p3: My wiki is really, really big. It would fill a small bookcase. I have many rantings and manifestos. I am a lunatic! :smiley:
+[8:48 PM] Valdus: I installed word count, savetrail on CB is annoying and it does everything like saveas which is also annoying. Found a better palette among the choices and decided my journaling will not be in sections within a toddler but just make a tiddler for it.
+[8:49 PM] h0p3: I sent you a link to how to modify Chromium (or Chrome) to make it far more comfortable.
+[8:49 PM] h0p3: That annoyance can be taken care of.
+[8:50 PM] h0p3: Knowing how far to atomize your content into individual tiddlers is not as easy problem. Unfortunately, I have little advice I can give. I think I'm a failure on that front.
+[8:50 PM] h0p3: Just remember that you can transform the data again and again. It's hard to screw up so bad you can't undo it.
+[8:50 PM] h0p3: TW is designed to evolve.
+[8:52 PM] Valdus: @i have specific things like RAGE PAGE and The Stupidity Machine (what I call my body once I hit late 40’s) which I just put in its own tiddly
+[8:53 PM] Valdus: Evolve, careful it don’t become self aware amigo!
+[8:54 PM] h0p3: Lol. Sounds like you are well on your way to make it your own.
+[8:54 PM] h0p3: I do intend to do machine learning with my wiki.
+[8:54 PM] Valdus: Sent link by email?
+[8:54 PM] Valdus: Machine learning?
+[8:55 PM] h0p3: Yup. I think I'll be able to build very strong webcrawlers, music recommendations, and perhaps even a bot that sounds like me.
+[8:55 PM] h0p3: I have ~22k links to the internet in my wiki, I believe. It's like bookmark heaven, and I think that will eventually be useful for helping me curate information which suits me.
+[8:57 PM] Valdus: No doubt
+[8:59 PM] Valdus: Link?
+[8:59 PM] h0p3: Sorry, off in my own head! Lemme find it.
+[9:01 PM] Valdus: I live my whoooole life in my head. No prob
+[9:01 PM] h0p3: https://philosopher.life/#Wiki%3A%20Chromium%20Setup
+[9:02 PM] h0p3: Browser tweaks and addons/extensions give you a completely new layer to work with.
+[9:05 PM] Valdus: Lol which one do I pick for the annoy-save?
+[9:07 PM] h0p3: Check the Stop [[AA]]oying Me section
+[9:09 PM] Valdus: Uhm, not a link only text?
+[9:09 PM] h0p3: Google is your friend here.
+[9:09 PM] h0p3: Even the links I have on that page are to particular scripts.
+[9:10 PM] Valdus: Huh?
+[9:20 PM] Valdus: got one, but is there anything to stop the save window altogether?
+[9:20 PM] Valdus: just save where I got it from idiot!
+[9:21 PM] h0p3: I don't have a fresh instance to test it. You should be able to disable the download bar, overwrite existing files without the nag, and tell it to automatically save.
+[9:22 PM] Valdus: well the first one just doesnt put a number on the save
+[9:27 PM] Valdus: worked, love you man!
+[9:34 PM] h0p3: Awesome.
+[9:34 PM] h0p3: You show your wife your wiki?
+[9:34 PM] Valdus: wow this is a whole new world, No. Im an only child, Im used to having secrets.
+[9:35 PM] Valdus: well I got to go upstairs, apparently my son escaped there.
+[9:35 PM] Valdus: thanks for it all , man
+[9:35 PM] h0p3: take it is easy, ttyl :smiley:

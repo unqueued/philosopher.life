@@ -1,0 +1,23 @@
+created: 20200416175842590
+modified: 20200416183826216
+tags: [[Be A Good Dad]] School
+title: BAGD: Long-term CS Tools
+
+//Yet another one of these. It's so expensive to own your computers. I have to pick tools that I'm convinced will last you decades and begin the learning curves of a wide-breadth of ecosystems, idioms, environments, and perspectives as early as possible. I'm underequipped, untalented, and too foolish to do this well enough. I'm trying to narrow down a list for ya. I hope you'll be able to look back and say I tried my best. By many means, have fun with your computers, but sharpen yourself here, become proficient in a foundation of tools (some of these are infeasibly large) that aren't likely to disappear. These are only part of the equation.// 
+
+* Tiddlywiki 
+* Spacemacs+Elisp 
+* GNU 
+* NixOS  
+* i3
+* Git 
+* C 
+* Javascript 
+* Python 
+* Bash 
+* Go 
+* Rust 
+* R 
+* SQL 
+* CUDA 
+* Verilog

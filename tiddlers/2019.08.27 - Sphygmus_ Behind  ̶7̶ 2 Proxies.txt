@@ -1,0 +1,15 @@
+[12:16 AM] robotic_scarab: so basically all of my work tonight with my wiki has been for naught - BUT I did figure out how to get Bob to sync the StoryList! :)
+[2:06 AM] h0p3: Snap. I'm sorry. :frowning:
+[2:06 AM] h0p3: What went wrong?
+[11:51 AM] robotic_scarab: So I have my wiki on a server behind two proxies (nginx and twproxy which is a simple ruby proxy); Nginx just does a redirect, and twproxy does the authentication. Turns out Bob is a WebSocket driven thing, compared to regular tiddlyserver which works just using GETs and PUTs (normal http requests)
+[11:52 AM] robotic_scarab: I got Nginx to play nicely with the websocket connection - pretty easy - but because TWproxy completely rewrites the request, websocket just fails currently
+[11:54 AM] robotic_scarab: So it looks like I have two options : figure out how to set up better authentication via Nginx so I'm only going through one proxy (and one that I know works), or write my own version of TWproxy that does handle websocket correctly
+[11:54 AM] h0p3: going pure nginx sounds better to me
+[11:54 AM] robotic_scarab: yeah, agreed
+[11:54 AM] robotic_scarab: It would be cleaner
+[11:55 AM] robotic_scarab: But i should have caught this way earlier instead of it taking me all my time last night to realize :confounded:
+[11:55 AM] h0p3: I'm sorry :frowning: -- frustrating
+[11:56 AM] h0p3: VPN or syncing Bob's file also works. You can run it from home or any device then too.
+[11:57 AM] h0p3: But, you are stuck using devices you own or are willing put credentials into (though that was already the case to an extent by having authentication)
+[12:00 PM] robotic_scarab: yeah, exactly - I'm sort of tied to the "hosting on a server just for the ease of going to a URL anywhere and logging in to it
+[12:01 PM] robotic_scarab: maybe I should be more open to figuring out a VPN? idk

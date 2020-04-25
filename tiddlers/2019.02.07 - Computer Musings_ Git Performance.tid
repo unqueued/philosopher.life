@@ -1,0 +1,10 @@
+created: 20190207171601390
+modified: 20200207180313076
+tags: [[Computer Musings]]
+title: 2019.02.07 - Computer Musings: Git Performance
+
+Git has ~~twice~~ thrice ballooned up to 4.5GB of memory (slowly accumulating with no end in sight after the initial burst). Working to find out why. Minutely to two? Is this a race? Killing Wiki-Everything git. Troubleshooting by stripping it down. So far, I think killing the Everything is just fine. I suppose it is a failed experiment. Cool. You win some, you lose some. This is anecdata, not science.<<ref "2020.02.07">>
+
+
+---
+<<footnotes "2020.02.07" "I take it back. That is still science (even if it doesn't meet the socially constructed conditions of the word), but it's not terribly rigorous.">>

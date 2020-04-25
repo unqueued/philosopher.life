@@ -1,0 +1,143 @@
+created: 20180304023739622
+modified: 20200325194815598
+tags: dotfiles Library Computing
+title: Firefox Extension Collection
+
+//Rice, rice, baby. You should not trust my appraisal.//
+
+!! Currently in Use:
+
+Display and Navigation Sanity:
+
+* No Transition
+* Owl - For Comfortable Reading
+* ScrollAnywhere
+* uAutoPagerize
+* Blank Dark Tab
+
+
+Unique Site Enhancements:
+
+* Hacker News Enhancement Suite
+* Make Medium Readable Again
+* Reddit Enhancement Suite
+* Reddit on Youtube
+* Reddit Masstagger
+* Youtube Control Center
+* YouTube NonStop
+
+
+FEED ME:
+
+* [[Fraidycat|https://fraidyc.at/]]
+* Feedbro
+* Update Scanner
+
+
+Sidebar, Tabs, & Links:
+
+* All Tabs Helper
+* Copy All Tab Urls WE
+* Google search link fix
+* Link Cleaner
+* Multiple Paste and Go Button
+* Open in Sidebar
+* Redirect AMP to HTML
+* Tab Counter
+* Snap Links
+
+
+Fuck Your Paywall:
+
+* Anti-Paywall 
+* Bypass Paywalls
+* Unpaywall
+* Send to Outline
+
+
+Save yo' ass:
+
+* Session Boss
+* Session Sync
+* My Sessions
+
+
+Language, Analysis, & Writing Tools:
+
+* English Popup Dictionary
+* Outline Sidebar
+* Word Count Tool
+
+
+Security & Defuckification:<<ref "d">>
+
+* AdNauseam<<ref "h">>
+* CanvasBlocker
+* Clear Cache
+* Decentraleyes
+* Firefox Multi-Account Containers
+* HTTPS Everywhere
+* I don't care about cookies
+* Privacy Possum
+* User Agent Switcher and Manager
+* TrackMeNot
+* Smart Referer
+* SmartProxy
+
+
+Reconnaissance & Search:
+
+* Flagfox
+* Image Search Options
+* Resurrect Pages
+* ZeroWidth Detection
+
+
+Ugly Hacks:
+
+* Greasemonkey
+* Chrome Store Foxified
+
+
+Escaping the Browser:
+
+* Cast Kodi
+* File-Backups (TiddlyBackup)
+* Toolbox for Google Play Store™
+* Torrent Control
+
+
+
+!! Not in Use:
+
+
+GY, BYE:
+
+* Auto Tab Discard 
+* Form History Control (II)
+* ImTranslator: Translator, Dictionary, TTS
+* tabPreLoader
+* Temp Mail - Disposable Temporary E-mail
+* Tree Style Tab
+* Wikipedia Peek
+* I'm not robot captcha clicker
+
+Currently in Testing:
+
+* https://relaychat.app/
+** Lots of questions and problems, but the idea is cool.
+
+Candidates:
+
+* Buster: Captcha Solver for Humans
+* UI Vision – Web and Desktop GUI Automation (RPA)
+* Sauron - Dark mode for all websites
+* Livemarks
+* Better Onetab
+
+
+---
+<<footnotes "d" "I'm aware that you may have some disagreements with me here. I will argue my case carefully with you.
+">>
+
+<<footnotes "h" "https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt and  https://raw.github.com/reek/anti-adblock-killer/master/anti-adblock-killer-filters.txt">>

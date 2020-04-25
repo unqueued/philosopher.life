@@ -1,0 +1,20 @@
+[11:52 AM] robotic_scarab: so I've discovered a huge upside to hardlinking in my opinion
+[11:52 AM] h0p3: You have my attention :slight_smile:
+[11:53 AM] robotic_scarab: with hard links it's possible to get a scope of what data goes missing or gets lost -- if all one's tables of contents and such are dynamically generated, data can go missing and there's no trace of its loss
+[11:53 AM] h0p3: Aye. That is true.
+[11:56 AM] h0p3: You can afford that dynamism with snapshots, but then there are also other ways to figure out what is missing or gets lost.
+[11:57 AM] robotic_scarab: I don't know... I just had an incident where even my snapshots failed to capture data. Tiddlers just completely not there in some snapshots.
+[11:58 AM] h0p3: Yikes.
+[11:59 AM] h0p3: Are you taking snapshots of the .tids or exporting?
+[11:59 AM] robotic_scarab: One tiddler I made last week, and even referenced yesterday while I was in the middle of something, but it didn't get captured anywhere in that week of snapshots :sob:
+[11:59 AM] robotic_scarab: I'm exporting
+[11:59 AM] robotic_scarab: So I expect it has something to do with that mechanism
+[11:59 AM] robotic_scarab: I'm going to start backing up my tids now tho :dizzy_face:
+[12:01 PM] robotic_scarab: I lost the majority of my wiki review tiddlers from this month, but have most of my carpe diems
+[12:01 PM] robotic_scarab: No clue what the difference ends up being there
+[12:01 PM] h0p3: I'm sorry. That is a terrible feeling. :frowning:
+[12:02 PM] robotic_scarab: thank you - it really is. I don't think I can ever be the type of person who could burn their journals..
+[12:02 PM] h0p3: No doubt!
+[12:02 PM] h0p3: I am sad to hear that the export process cannot be trusted.
+[12:03 PM] h0p3: Aye, hard links in flat text files with metadata sprankled on top seems to be the ideal.
+[12:04 PM] robotic_scarab: I think maybe it has to do with upgrading versions? I use the --build command that is inside my tiddlywiki.info, but perhaps wiki .info files are different with different command construction on the latest updates.

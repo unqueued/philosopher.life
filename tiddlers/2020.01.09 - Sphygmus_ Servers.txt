@@ -1,0 +1,46 @@
+[11:47 AM] robotic_scarab: hey h0p3! on the SVGs I just wanted to let you know I got too excited about how I solved it, so they don't actually work b/c of the fonts
+[11:48 AM] robotic_scarab: right now they're using pure text, which means whatever font they use has to be installed on the person's computer (for some reason it won't use the base64 fonts embedded in the wiki html)
+[11:48 AM] robotic_scarab: so, if you edit the tiddler after you import it and type ,monospace; after the font family, it should fall back to courier and look correct
+[11:49 AM] robotic_scarab: but I'm still having issues with the automatic width resizing when I do that, so more testing is needed on my end!!
+[12:53 PM] h0p3: Yo! :slight_smile:
+[12:53 PM] h0p3: So good to be back on my machine.
+[1:00 PM] h0p3: the SVGs are exciting, and thank you! Textart is a pain in the butt.
+[1:03 PM] h0p3: Also, thinking on the RPi, I've been unhappy with SDcard longevity (and speed). Long-term, I've found it best to use external storage. At my brother's house, I have an external hard drive attached. I could also have a share setup for you over the network (though, that is slow).
+[1:08 PM] h0p3: Also, those shoes look really comfortable, lol.
+[1:10 PM] h0p3: I wear these geriatric shoes. They aint pretty (I'm allowed to look ugly in society, thankfully), but they get the job done. Comfort.
+[2:40 PM] robotic_scarab: i bet it's great to have m16 up and running again! :)
+[2:41 PM] h0p3: No doubt. Lost without it.
+[2:41 PM] robotic_scarab: yes, text art is a bit of a pain -- but it's awesome, so - worth it. I should have time over the weekend to troubleshoot it more and hopefully come up with a working solution
+[2:42 PM] robotic_scarab: in doing research on RPis for server hosting, SD card longevity definitely was mentioned a couple of times
+[2:42 PM] robotic_scarab: external storage makes sense!
+[2:43 PM] robotic_scarab: comfortable shoes are definitely the best shoes -- I don't know how most women at my workpace wear high heels to work every day.
+[2:43 PM] robotic_scarab: I'm glad I work in the server room where most people don't see me every day, haha
+[2:44 PM] h0p3: https://www.youtube.com/watch?v=7RE4pk5wf_M
+YouTube
+Marty J Fox
+High heel kickflip
+
+[2:45 PM] robotic_scarab: that is truly impressive :O
+[2:45 PM] h0p3: How loud does it get in the server room?
+[2:47 PM] robotic_scarab: oh it's so loud (relatively)
+[2:47 PM] robotic_scarab: I think I measured it once and it was around 80 decibels where I sit?
+[2:47 PM] robotic_scarab: loud enough that standing on either end of the 20 ft room, we have to talk really loudly to hear each other
+[2:47 PM] h0p3: That is annoying.
+[2:48 PM] h0p3: You allowed to wear noise cancellation headphones?
+[2:48 PM] robotic_scarab: yeah, i've noticed that taking a lunch to get out of the server noise is good for my sanity
+[2:48 PM] h0p3: Aye, seems like you're making adjustments for it.
+[2:49 PM] robotic_scarab: re headphones, I expect so? I've got a pair that are pretty sound proof (at least when I play music through them) but then I miss stuff b/c I can't hear and I don't like that
+[2:49 PM] robotic_scarab: as in, not noticing when people walk in the room and such
+[2:53 PM] h0p3: https://www.reddit.com/r/INEEEEDIT/comments/d2pf9d/automatic_alttab_replacement_for_work/
+reddit
+Automatic ALT+TAB replacement for work.
+Posted in r/INEEEEDIT by u/ThinGritFolk • 7,787 points and 116 comments
+
+[2:53 PM] h0p3: And a beep in your headphones
+[2:54 PM] robotic_scarab: haha, that's cool!
+[2:54 PM] h0p3: Will scope out k0sh3k's office and see if she needs one.
+[2:54 PM] h0p3: Had to teach my kids at the middle school how to do it manually a lot, lol. But, I despise not knowing when someone has walked in the room.
+[2:56 PM] robotic_scarab: yeah, I did a lot of alt-h mac window hiding my first couple months or so; one of my coworkers teased me about it and was basically like I'm not checking out your screen every time I walk by so I don't try to do it instantly anymore (my back is to the door so it's always noticeable anyway)
+[2:57 PM] robotic_scarab: now I usually engage with whoever walked in and casually alt-h after a few seconds (especially if I'm looking up something for them or checking email etc)
+[2:57 PM] h0p3: Like a pro. :slight_smile:
+[2:58 PM] robotic_scarab: using dark mode for everything helps, because then all the windows blend together at a quick glance :smile:

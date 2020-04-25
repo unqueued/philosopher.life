@@ -1,0 +1,29 @@
+created: 20180225164529445
+modified: 20200226062645831
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.02.25 - Computer Musings: Shreddit
+
+I do want to participate in Reddit conversations at times, but I also want it to be ephemeral.<<ref "2020.02.26-1">> I'm not interested in being farmed, but I do want to help others think about the world. I'm compromising.
+
+I've setup a nightly cronjob which will shred posts 48 hours old (or older). 
+
+I noticed after a post that I could check top, controversial, etc. for my post history and reach past the 1000 post mark to re-write them. Fascinating. Well, I'm saving those and clearing them out as well.
+
+---
+
+I looked at how this site appears in resolutions higher than 1080p. 4k is pretty awful. 
+
+---
+
+I have to say, several times I wished I was using Arch instead of manjaro. Several package manager related tools exist only for Arch, but not Manjaro. I'm just not convinced I really have a lot to gain from it though.<<ref "2020.02.26-2">>
+
+I want to practice NixOS.<<ref "2020.02.26-3">>
+
+
+---
+<<footnotes "2020.02.26-1" "Ephemeral on Reddit, but I still aim to preserve my thoughts in context long-term.">>
+
+<<footnotes "2020.02.26-2" "Works fine, but if you were going to use the Architect, then might as well go for Arch in many cases.">>
+
+<<footnotes "2020.02.26-3" "Not enough to do it though.">>

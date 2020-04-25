@@ -1,0 +1,22 @@
+Checking in. I'm sure your brain is melted after work. If you have any gas, i'll be here to help.
+AUG 26 5:52 PM
+Got it. I was considering poking around just because tonight. Not sure where to go from here, except maybe to start downloading the apps I need.
+AUG 26 5:53 PM
+Make sure sounds works, buttons, and we will work on apps
+AUG 26 6:06 PM
+Wireless work?
+AUG 26 6:06 PM
+Wireless interwebs? Yes. It was the only way I could get the Manjaro download to work. :O
+AUG 26 6:07 PM
+Manjaro should be able to install without wireless, though it is preferred to be connected.
+AUG 26 6:16 PM
+It's best to knock out the hardware and keyboard concerns early.
+AUG 26 6:16 PM
+As I said, sometimes it doesn't work out of the box.
+AUG 26 6:16 PM
+After that, my suggestion is to walk through every piece of software you can find. Just to know where it is, what it does, and you can customize the look and feel.
+AUG 26 6:17 PM
+My suggestion is to have 4 workspaces minimum, and set your hotkeys to navigate them.
+AUG 26 6:17 PM
+I like to use ctrl+alt+[directional-arrow-key] (or something similar)
+AUG 26 6:17 PM

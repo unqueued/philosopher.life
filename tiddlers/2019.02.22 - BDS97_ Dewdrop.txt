@@ -1,0 +1,36 @@
+[12:55:29] h0p3: https://github.com/neyer/dewdrop
+[13:04:28] BDS97: home: looks interesting
+[13:04:30] BDS97: home: still reading it
+[13:09:17] BDS97: home: yep, still looks interesting
+[13:09:27] BDS97: home: I have a bit of a bad feeling about this, wouldn't adopt it unchanged
+[13:09:37] BDS97: home: but its ideas are definitely worth considering
+[13:10:01] BDS97: home: looks like it encodes tribalism into the protocol
+[13:10:40] BDS97: home: and I don't like the de-anonymizing "same" statement either, could easily get people into trouble when misused
+[13:52:52] h0p3: I have not digested it yet.
+[13:53:02] h0p3: I'm going to. I've contacted the author.
+[13:53:27] h0p3: We are encoding tribalism into Atropos as well, imho. That is what the T42T strategy does.
+[13:53:48] h0p3: I agree there are significant worries though, and his idea is probably only a seed of one.
+[13:54:32] BDS97: home: Yeah, it kinda does encode tribalism, that's a fair point
+[13:54:42] BDS97: home: At best we'll end up with a bunch of bubbles
+[13:54:58] BDS97: home: At worst, it's gonna be one big bubble with some opinions stuck in it
+[13:55:05] BDS97: home: seen that way too many times with subreddits
+[13:56:04] h0p3: The ability to form and burst our own filter bubbles is key to freedom of speech and freedom to define our media diets.
+[13:56:24] h0p3: It has to be P2P based. Everything else will centralize.
+[13:56:50] BDS97: home: yeah, agreed on that, it has to stay decentralized
+[13:57:31] BDS97: home: although there's a problem with bubbles, the lack of challenge to ideas you believe in can have nasty effects
+[13:57:52] BDS97: home: you can start talking about any idiocy and you'll end up grouped with people who believe in it
+[13:57:58] BDS97: home: see also: flat earthers, anti-vaxxers
+[13:58:57] BDS97: home: of course denying them the means of communication is wrong, it would be the exact problem Atropos aims to solve
+[13:59:17] BDS97: home: but critical thinking requires criticism
+[13:59:34] h0p3: Yup. I agree. Unfortunately, it is a necessary evil that enabling others to be right means enabling them to be wrong.
+[14:00:00] h0p3: It is a realpolitik issue of how we can rhetorically inject the medicine that people need into their filter bubbles without treating them as mere means.
+[14:02:00] BDS97: home: yeah, I don't want the protocol to have any bias in opinions, whether you're fighting for democracy or tyranny you should be able to express it
+[14:02:43] h0p3: Agreed. Just the bare network protocol will be flexible to make anything. The Hub will be opinionated on the T42T front, but the Hub is a social construction tool.
+[14:04:01] BDS97: home: yeah, about the Hub, I'm thinking we need to use the upvote-downvote mechanism as a trust mechanism
+[14:04:16] BDS97: home: it wouldn't be a global score, that would be a silly idea, way too easy to spoof and no way to defend it
+[14:05:04] h0p3: Aye. It can only ever contain our individual scoring of the other nodes directly, but it may leverage the trust in the scoring of others we've trusted.
+[14:05:46] BDS97: home: this dewDrop thing does show a few ideas though
+[14:06:01] BDS97: home: upvote and downvote would be basically agree and disagree buttons
+[14:06:07] BDS97: home: but maybe it's not just those two we need
+[14:09:16] h0p3: I assume that network resource sharing will be automated (though manually over-ridable). The kinds of social networks built on top are where human signaling will be necessary. That is TANN territory. Maybe there will several kinds of properties we'd want to be able to rank someone on. It might subject or context dependent. 
+[14:09:37] h0p3: I have absolutely no idea how to do that well.

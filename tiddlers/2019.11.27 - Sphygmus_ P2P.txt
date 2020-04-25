@@ -1,0 +1,60 @@
+10:45 AM] h0p3: Sent Bob R+W key over Signal.
+[10:46 AM] h0p3: I think the goal will be to build out a .tid repo.
+[10:47 AM] h0p3: Decompiling from html to tid is expensive.
+[11:05 AM] h0p3: Seems like there's a few routes for us here.
+[11:07 AM] h0p3: My goal is to not run a server in a datacenter. I want to own it and P2P it. I realize that I have to make concessions.
+[11:10 AM] robotic_scarab: thanks for the ping! I will check Signal
+[11:11 AM] robotic_scarab: A tid repo would be great :)
+[11:11 AM] h0p3: git to fossil doesn't appear too awful
+[11:11 AM] robotic_scarab: expensive in what ways? I decompiled all of my snapshots from html to tid, committed them to git, then converted it to fossil and the process was relatively smooth
+[11:12 AM] robotic_scarab: though the decompilation process did take some amount of time
+[11:12 AM] h0p3: aye
+[11:13 AM] robotic_scarab: I think if you want to own & P2P the repo, fossil is dramatically easier than git (simply because the repo is contained in a single easy to torrent file) -- plus you get the web interface for free
+[11:13 AM] robotic_scarab: I am biased to the tool here tho, since it's the best thing I've found that solves for what I wanted it to do. :)
+[11:15 AM] h0p3: A long time ago, I had a P2P git tool, but no one needed it. I suppose I need to look into it again now.
+[11:17 AM] robotic_scarab: I think fossil allows you to make .tid diffs more accessible to your readers without the potential burden on the wiki itself of revison/diff plugins
+[11:18 AM] robotic_scarab: the biggest issue I see is that you most likely don't want to make the entire contents of your .tid directory public, b/c encryption or other reasons
+[11:18 AM] robotic_scarab: (if committing the entire contents of that folder)
+[11:18 AM] h0p3: Naw, that should be fine. I already provide complete access to my .tid directory.
+[11:19 AM] robotic_scarab: ah, I mean, if you made a "repo.philosopher.life" subdomain and used the web interface (like mine)
+[11:20 AM] h0p3: Aye, I aim to avoid running the server.
+[11:20 AM] robotic_scarab: hm, why's that?
+[11:20 AM] h0p3: I don't own it.
+[11:21 AM] robotic_scarab: i'm not sure I see it -- you host the index.html file on a VPS, and running the fossil server is essentially the same -- just another service you could run on your VPS
+[11:22 AM] robotic_scarab: i mean, you could run it and host it from your machine in the same way you could run and host the index.html on your machine too (idk if you currently do that or not) but then there's issues with NAT etc yes? (i'm not familiar enough with running a personal server on home network)
+[11:22 AM] robotic_scarab: you certainly own it more than you own github repos, I think
+[11:24 AM] h0p3: I do host it on the VPS and github. These are convenient.
+[11:26 AM] h0p3: The wiki started out as a P2P site, and I've tacked on serving it over various webservers.
+[11:27 AM] h0p3: I consider my minutely git as an attempt to mimic what the P2P portion does.
+[11:28 AM] h0p3: I agree that NAT is a serious problem.
+[11:33 AM] h0p3: I'll agree that VPS has more ownership of how it is served and the software I can run. I still can lose that VPS like I could access to my github privileges. In the end, both are meant to be disposable middlemen, just a blank carrier.
+[11:35 AM] robotic_scarab: mm, yes
+[11:36 AM] robotic_scarab: you could still own the repo on your computer and host the web interface on your VPS for reader convenience, as you do your index.html
+[11:36 AM] h0p3: I'd like to figure out a way to build out the infrastructure so that it wasn't reliant upon the VPS or github for transfer.
+[11:37 AM] robotic_scarab: (it's not clear to me how the two are different in terms of ownership.)
+[11:37 AM] robotic_scarab: i think these are two different problems to solve :sweat_smile:
+[11:38 AM] robotic_scarab: one is, how do I build an interface that's P2P and not reliant on external services? the other is, how do I easily provide diffs to readers?
+[11:38 AM] robotic_scarab: a really great answer might solve both; I think fossil is at least a start to answering the 2nd
+[11:46 AM] h0p3: I agree there isn't a significant enough difference between VPS and Github. I don't meaningfully own either of them. I also don't want to build on infrastructure I don't own.
+[11:47 AM] h0p3: There's a give and take between those two problems I'm attempting to address (poorly).
+[11:49 AM] h0p3: I make concessions for providing easy access to the wiki for readers by relying upon a domain name and external servers I don't own.
+[11:51 AM] h0p3: My goal is to move away from that.
+[11:51 AM] h0p3: In a way, that makes it difficult to "easily provide" anything to my reader.
+[11:53 AM] h0p3: Fossil may still be the correct way to go here, but I'm trying to see how to build it out while minimizing reliance upon external servers.
+[11:54 AM] h0p3: Way down the road, the correct answer may be a VM that has all the tooling, servers, and syncs setup (or that may be something which occurs within the browser with WASM, but I still don't know).
+[11:55 AM] robotic_scarab: fair enough! if your goal is to move away from external servers, it might not be worth it to add more tooling on those external servers
+[11:56 AM] robotic_scarab: it also (probably) wouldn't be too hard for me to do what I want with a script to pull down your nightly, commit it to a 2nd fossil repo on my VPS, and host it for myself
+[11:56 AM] robotic_scarab: idk if it will show the diffs I want with an index.html but it's worth it for me to test, I think
+[11:57 AM] h0p3: That would work, though it may not be as elegant as you'd like. And, I think there is work that can be done on my end here.
+[11:58 AM] robotic_scarab: eh, it's more elegant than my current process so that's fine. ;P
+[11:58 AM] h0p3: I'd like to find a temporary fix until we can build it out (and things are pretty crazy over here right now)
+[11:59 AM] h0p3: You have Root access to the wiki through the Bob tid sync. That might be the quick ticket. You might be able to just make the repo directly from that.
+[11:59 AM] robotic_scarab: mm
+[12:00 PM] robotic_scarab: I'm hesitant to make use of that XP
+[12:00 PM] h0p3: Use the Read only then.
+[12:00 PM] h0p3: That one is public.
+[12:00 PM] robotic_scarab: ah, I see it
+[12:02 PM] h0p3: I think my goal will be to build out a git and then fossil, and then P2Pify them.
+[12:02 PM] robotic_scarab: mm, yeah, that sync options seems the same as the github option, with the additional step of installing resilio sync on my server but with the added bonus of working with tids and not one file
+[12:03 PM] robotic_scarab: i'll look into that if/when I run my own solution
+[12:08 PM] robotic_scarab: thanks for thinking about it with me! I'm not as paranoid as I could be, here

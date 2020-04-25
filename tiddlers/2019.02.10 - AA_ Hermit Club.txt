@@ -1,0 +1,43 @@
+"""
+How's the weekend been for ya?
+9 HR AGO
+How was D&B's and the concert?
+9 HR AGO
+I had [[L]] go with the two girls —I stayed with [[K]]. I think we all had a great time :blush:
+6 HR AGO
+That sounds outstanding.
+5 HR AGO
+D&B’s was busy. I didn’t realize it was their first open weekend but we all had fun and the food was good
+5 HR AGO
+=) Good!
+5 HR AGO
+Busy can be draining for me.
+5 HR AGO
+I like good food though
+5 HR AGO
+Yeah well I stayed at the table with the stuff and let everyone play
+5 HR AGO
+It worked for me
+5 HR AGO
+Lol. Cool.
+5 HR AGO
+We kind of ate in turns too since there were 7 of us at a small table but it worked
+5 HR AGO
+Ah, that must have made for a story of many different conversations.
+5 HR AGO
+You have reminded me that if I had a class, it would be hermit*; my preference is always at the house. Lol.
+5 HR AGO
+Yes! And Yes! I am a hermit —me [[K]] and [[AG]]
+5 HR AGO
+Hermit Club unite!
+5 HR AGO
+In your own houses.
+5 HR AGO
+lol
+5 HR AGO
+Yes!<<ref "2020.02.10">>
+5 HR AGO
+"""
+
+---
+<<footnotes "2020.02.10" "I admire how [[AA]] is clearly hermitic and yet goes out of her way to be in the world, with people, and to even sacrifice her own comfort and happiness for [[others]] in this respect. I think it's exceptionally evident in the way she constructs gatherings for people. It's inspiring.">>

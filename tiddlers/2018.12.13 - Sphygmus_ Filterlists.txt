@@ -1,0 +1,69 @@
+```
+(ASCII art logo, 3) is really epic :O
+THU 9:24 PM
+also I have no idea how the errand button works but if it actually hardcodes stuff :O
+THU 9:25 PM
+Thank you =) -- Still thinking about where to go with it.
+THU 9:26 PM
+We're playing around with the button. Not sure if it's hardcoding, but it may be a start toward it.
+THU 9:27 PM
+With a good filterlist constructor, I can be extremely specific.
+THU 9:27 PM
+Yeah I'm definitely working on my filter list construction - it's very useful
+THU 9:27 PM
+Constantly referencing the tiddlywiki.com list of filter operators haha
+THU 9:28 PM
+yes!
+THU 9:28 PM
+I am likely not going to be able to remember it all. I hope to eventually have a visual way to construct complex filters.
+THU 9:28 PM
+Eventually, the hardcoding filters may be something I can construct with precision and on the fly.
+THU 9:29 PM
+I assume you will eventually be fluent enough with creating filterlists that such a tool would not be useful to you.
+THU 9:32 PM
+Keeboord isn't ready, from what I understand, so I'm feeling less pressure to get 5.1.18 up and running. The two addons I want will have to wait.
+THU 9:34 PM
+A visual tool would definitely be handy; I am using filters often enough to have memorized a couple things.
+THU 9:36 PM
+Mostly I'm using them in combination with advanced search
+THU 9:37 PM
+preach
+THU 9:37 PM
+I just realized that !search:text[wiki] would probably be the same as "NOT wiki"? Which is something I couldn't figure out how to do earlier haha
+THU 9:39 PM
+I haven't tried Keeboord yet...I think with enough practice it would be useful but I'd have to put the time in
+THU 9:40 PM(ASCII art logo, 3) is really epic :O
+THU 9:24 PM
+also I have no idea how the errand button works but if it actually hardcodes stuff :O
+THU 9:25 PM
+Thank you =) -- Still thinking about where to go with it.
+THU 9:26 PM
+We're playing around with the button. Not sure if it's hardcoding, but it may be a start toward it.
+THU 9:27 PM
+With a good filterlist constructor, I can be extremely specific.
+THU 9:27 PM
+Yeah I'm definitely working on my filter list construction - it's very useful
+THU 9:27 PM
+Constantly referencing the tiddlywiki.com list of filter operators haha
+THU 9:28 PM
+yes!
+THU 9:28 PM
+I am likely not going to be able to remember it all. I hope to eventually have a visual way to construct complex filters.
+THU 9:28 PM
+Eventually, the hardcoding filters may be something I can construct with precision and on the fly.
+THU 9:29 PM
+I assume you will eventually be fluent enough with creating filterlists that such a tool would not be useful to you.
+THU 9:32 PM
+Keeboord isn't ready, from what I understand, so I'm feeling less pressure to get 5.1.18 up and running. The two addons I want will have to wait.
+THU 9:34 PM
+A visual tool would definitely be handy; I am using filters often enough to have memorized a couple things.
+THU 9:36 PM
+Mostly I'm using them in combination with advanced search
+THU 9:37 PM
+preach
+THU 9:37 PM
+I just realized that !search:text[wiki] would probably be the same as "NOT wiki"? Which is something I couldn't figure out how to do earlier haha
+THU 9:39 PM
+I haven't tried Keeboord yet...I think with enough practice it would be useful but I'd have to put the time in
+THU 9:40 PM
+```

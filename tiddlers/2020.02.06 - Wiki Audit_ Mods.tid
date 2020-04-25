@@ -1,0 +1,10 @@
+created: 20200206082836581
+modified: 20200208051248400
+tags: [[Wiki Audit]] j3d1h
+title: 2020.02.06 - Wiki Audit: Mods
+
+* I often type the exact name of the tiddler I'm looking for in the search bar, and I wish anytime I wrote an exact match, that would be shown at the top of the search list.
+** I have no idea how to fix that.
+*** Nm. [[j3d1h]] pwned it. Includes ol'voldy too. Case sensitive, and "Exact match:" doesn't pop up unless you strike.
+* https://flibbles.github.io/tw5-relink/ does not work in the wiki.  Propagating tiddler name changes across links is strong. 
+** No idea about the performance, and if it breaks, it could get ugly.

@@ -1,0 +1,6 @@
+created: 20191101174410590
+modified: 20191101174600174
+tags: [[Computer Musings]]
+title: 2019.11.01 - Computer Musings: FF Safemode
+
+Had to jump into FFDE for a bit as I'm figuring out which addon is breaking FF. At least one does not scale up nicely recently, and I have no idea why. Thank goodness for safemode. Appears one of the session tools is the most likely culprit. It's not burning a lot of resources despite huge freezes and crashes.

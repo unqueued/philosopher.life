@@ -1,0 +1,388 @@
+created: 20191120184021450
+modified: 20191125202116273
+tags: Sho
+title: 2019.11.20 - Sho: research stuff
+
+<<<
+Hey, man! How are you?
+
+Sorry to be a total bitch, but just wondering whether you've had any luck with that thing you were looking into?
+
+I'll have another go myself if necessary... honestly nae idea what was wrong with what I was doing, or with the thing...? Frustrating! 
+:)
+
+Thanks, dude.
+
+Speak soon!
+
+[[Sho]]
+<<<
+
+Hey Sho! 
+
+I cannot find that exact version. Closest I have is 9.5. It's kinda big, so I'm sending it over Resilio Sync (https://www.resilio.com/individuals/). We will share a synchronized directory between our various devices, and it will make it easy to send more to you. Here's the key: [[REDACTED]]
+
+<<<
+Hey man, awesome! Is 9.5 compatible with Windows 7 Ultimate 64-bit? *fingers crossed* THANK YOU!!!!!!
+<<<	
+
+Np. It should work just fine `/fingers-crossed`. If it doesn't, I can send you a copy of 8.1 (discontinuation of 7 support is a problem), or I can keep hunting for you here. I definitely want to hear what is made, and so forth. It's always a pleasure speaking with you.
+
+<<<
+Hiya
+
+Sorry if this is (probably is) a stupid question; you are dealing with idiots (me and Ed). Sorry.
+This is 9.5 Live "Suite", aye?
+
+ta 
+<<<
+
+XD. It's a fine question. Aye, it says that it is the "Suite." I've so little experience with it (I like the idea of making music far more than actually doing it, of course). I feel like an old man trying to learn far too much at once when using that software. I'd probably need to be immersed in it. Try it out. If it doesn't work, we'll look for more options.
+
+<<<
+Awesome!
+
+Is there some way to send it other than syncing stuff? Nae offence at all, but I'm not into syncing/sharing/cloud kinda stuff. It just turns my heid to mince lol 
+<<<
+
+Of course, no problem. It is my honor. I've temporarily put it up here: http://live.philosopher.life/sho/livesuite.rar
+
+<<<
+Amazing, man. We will give that a go this morning. THANK YOU!!!!!!!!
+<<<
+
+<<<
+Hiya!
+
+I was a bit worried about the 'rar' as I ken nothing about that... but nae matter, as the link isnae working anyway.
+The VPN wouldnae interfere with that, right?
+<<<
+
+<<<
+Any luck with this?
+I am so sorry.
+It's just.... Ed needs this. Like, actually needs. But we dinnae have £400 :(
+
+If you can think of anything I can do to help you find this or solve this problem, just let me know... :)
+<<<
+
+Ah shit, sorry, I thought you already grabbed it, so I took it down. As I said, it was only up temporarily. It's back up. VPN should be no problem. I'll leave it up until you've confirmed you have it.
+
+Use 7-zip to decompress: https://www.7-zip.org/
+
+<<<
+Okay, just a time difference thing... my bad! Sorry! 
+<<<
+
+<<<
+Does decompress mean extract...? 
+<<<
+
+<<<
+Dude, if you still have whatsapp, get me on there. I can screenshot easier etc if comes to that 😂
+<<<
+
+<<<
+Btw, downloading, should be bout half an hour.
+
+so, is that what 7zip does, is make rar files work? Does that mean rar files are actually good? Because in my limited/spastic experience, I just see them as 'bad' because they 'don't work' hahaha ;)
+<<<
+
+<<<
+Hi again, sorry. 
+etc etc
+
+So, we've got it!
+Three questions, I think (refer to image either attached here or immediately forthcoming):
+
+1. How do I make sure I've installed everything fully? You'll see in the image of the 7zip thing ableton 32, ableton 64, patch iO, and something terminat.
+   So, I installed ableton 64. The software is now on the laptop :) Yay! But, do I need/to do anything with the other files? Which brings me to 
+2. What can I safely delete (and when is it safe to do so) kinda thing? 
+3. MOST IMPORTANTLY - How do we authorise this fucker!?! 
+
+THANKING YOU MOST KINDLY!!
+<<<
+
+Hey Sho, 
+
+I'm sorry it has been so much trouble here. 
+
+Yes, extraction decompresses the archive file(s) and places the contents in some destination directory. 7zip is the best all-round archiving tool I've ever used; it's one of the first things I install on a Windows system. Rar files can sometimes be frustrating, so I totally understand having a negative perception of them. In time, you may find lots of goodies and treats are wrapped up inside rar files. 7zip tends to handle them gracefully.
+
+I don't have Whatsapp. If you want to reinstall it: Signal is still up permanently for me. It's the fastest way to reach me on any of my devices. I do not check this e-mail account often, and I don't have notifications for it because it is constantly flooded (h0p3@protonmail.com, however, is almost always on, and I do receive notifications for it).
+
+Instructions can be found in the iNFO.nfo file. That files also contains a list of links to additional Ableton content (probably worth your time). Here are instructions:
+
+                 1) Unrar 
+                            
+                 2) Run Setup and Install, 
+                    is advised to install in the default directory
+
+                 3) Close Ableton
+
+                 5) Run the patch in Ableton folder with admin rights
+                    "Your AV SUCKS"
+                    in C:\ProgramData\Ableton\Live 9 Suite\Program
+
+                 6) The patch goes to crackthe exe and finally it drops
+                    a auz.file, double click on that file
+
+                 7) Please do block ABL in your Firewall, 
+                    this will keep your Vst's safe
+
+I've fired up a copy of Windows and installed it. I didn't need admin rights, and I ran the patcher from a random folder. You need to head to that directory (C:\ProgramData\Ableton\Live 9 Suite\Program) to open the Authorization.auz file. That will authorize it for you so you won't have a nag screen and what not. You should head to the built-in Windows Firewall tool to block "Ableton Live 9 Suite.exe" from making outbound connections; this will prevent it from phoning home and possibly ruining your installation.
+
+After these steps are completed, I would delete the extracted files, but I would keep the rar archive. Go make a folder entitled "Warez" wherever you keep your files that get passed down through the generations of your computers, and drop the rar in there. You never know when you'll need a copy of it.
+
+I am a noob when it comes to Ableton. That is a fancy piece of software to my eyes, and it will take some work to become proficient with it. Unless you've experience with this kind of tooling, I would argue the mountain climb has just begun yall. It is possible you will feel as overwhelmed as I did in learning to use it, and I would suggest using tutorials. You can find many online (worth your time to bookmark them), and I'm going to do you one better hopefully with another download here.
+
+<<<
+Hey, thank you!!! I will attempt this tomorrow. 
+
+Ed's got pals who use it so hopefully between that and YouTube... demo due toward end of February! 😄
+
+Will keep you updated. Thank you!!!!
+<<<
+
+Awesome. I'm sorry you have so little time to do this. I'll do my best to be useful to you and Ed here.
+
+<<<
+Hello!
+
+Just going to try and follow your instructions (which I'm sure are fine; it's my understanding I doubt).
+Notes ongoing...
+
+- the iNFO.nfo file won't work (as in, opening from 7zip). 
+- I believe I just ran the Ableton patch. I clicked it and eventually an old-school wee window came up playing some terrible 80s arcade music... said it ran the patch.
+  Not sure what this means, though; so have I missed something, then? 
+                    "Your AV SUCKS"
+                    in C:\ProgramData\Ableton\Live 9 Suite\Program
+- so, I was just looking for the above and then I right-clicked on livesuite.rar and through the 7zip menu 'extracted files', which I'd never done. So now there's a new 'livesuite' folder where the              livesuite.rar was....
+
+I'll send this now but continue notes...
+<<<
+
+<<<
+So, I'm now looking at the files in there and it looks to me (guessing) like that's just exactly what I accessed already via the 7zip window, so I guess I'm not missing anything, then...?
+
+ 7) Please do block ABL in your Firewall,
+                    this will keep your Vst's safe 
+What does that mean, and how do I do it? I've heard of firewalls and have a vague sense what they are, but I've never actually engaged with one. 
+<<<
+
+<<<
+Sorry, this is going to become a nightmare for you!
+Thank fuck for timestamps ;)
+
+So, just did the patch.exe thing, with the weird sounds/noises, again. 
+In progress it said something like 'pattern not found, checking next' multiple times, then at the end said patch was done (same as before). Asked to 'overwrite existing file?' so i said yes. All the same, right?
+
+Next... I'm trying to find this auz file. And failing. 
+I don't see Ableton anywhere at all in Program Files (which I have, not Program Data...?).
+Which is odd, because it's installed, shortcut on desktop, and I never changed any default/directory settings or anything, so... 
+weird.
+<<<
+
+<<<
+Just more, because why not? I'm sure you're not having enough fun, yet.
+
+So, I went and right-clicked Ableton in the start menu and went to properties. It said it is in file path Users Pippin App Data ... but when I go and actually open that file/path, there is no such file. So WTF is that about?
+
+:(
+<<<
+
+Use this to try to find the authorization file: https://www.voidtools.com/
+
+<<<
+Hiya
+
+Okay, so that seems to have worked! I ran the auz file thingy and Ableton opened up and said 'congrats you've been authorised have fun' so, I guess that's it!?!?!?!?
+
+Only other thing is the Firewall, cause obviously I want to get that sorted!
+I've opened the Firewall (Never done that before! WTF is going on in here!? lol) and it says under overview 'these settings are being managed by vendor app Bitdefender Firewall'.
+I see where it's saying about 'rules' and I've been in there, but cannae find Ableton/any obvious way to disable that...?
+
+THANK YOU!!!!!
+<<<
+
+<<<
+For the record, I thought oh, I'll try to set up a new rule. But when it gets to where you browse for the program you want to 'rule', I couldnae find Ableton, at all (as I mentioned earlier).
+So I used the Everything finding tool to search for Ableton and there it is, C:/ProgramData/Ableton.... yet there is no C:ProgramData that I can actually find.
+So, aye, weird.
+
+But anyways, thank you!
+
+If that means everything is all good for Ed to use this then that is simply fucking AMAZING, man. You cannae imagine what a big deal it is!
+Just hopefully he can figure out WTF to do with it quick-smart! haha
+<<<
+
+<<<
+ARGHHHHH
+
+It's not worked.
+Ed opened Ableton (from desktop shortcut); it said it wasnae authorised, and had the prompt window to take you to the website to authorise.
+I shut that doon, then went into the Everything tool to find the auz file, again. I clicked that, and Ableton opened, but says the authorisation file on the computer is invalid. :(
+
+
+Imagine how easy life must be for cunts who can just BUY SHIT and have it done with!! 
+<<<
+
+Fuck! You must be epically frustrated right now. I'm sorry.
+
+I have no idea why you can't see ProgramData (sometimes Windows is set to hide things from users, but this shouldn't be one of them). I'm glad //Everything// is marginally useful here.
+
+Alright, so this part might get tricky. Programs often hide things in the Windows Registry, and that may make fixing this difficult (there are tools which do installations for you that enable you to completely remove all traces from your system). My suggestion is to uninstall and try again. It may still recognize you previously installed it. Let's skip the firewall step for now. Let's just see if you can get it authorized and working. 
+
+<<<
+Okay, uninstall and try again.
+
+DID YOU TRY PRESSING CTRL+ALT+DLT !?!?!?!?!
+hahahahaha
+I take it you've seen IT crowd at some point.
+Which I mind as being quite funny, though not funny enough that I finished it, and I ken I'd find it less funny now.
+But still. Moss.
+And the Irish dope.
+Bless.
+<<<
+
+<<<
+Uh, by the way, maybe this should've been mentioned before... probably!
+The laptop, which is my old laptop (i.e. the one I just replaced with this Lenovo last year)... it was made bespoke by PC Specialist (.co.uk) about a decade ago.
+I took advice from two guys I kent at the time who were both nerds/computer-knowing types. 
+One of whom installed a crank Windows 7 OS for me. Not sure how, but I kent it saved me like £90 so that was good enough for me.
+
+So, I dinnae ken whether that makes any of this any different, or messed up. or what.
+<<<
+
+<<<
+So, this:
+
+                 5) Run the patch in Ableton folder with admin rights
+                    "Your AV SUCKS"
+                    in C:\ProgramData\Ableton\Live 9 Suite\Program
+
+                 6) The patch goes to crackthe exe and finally it drops
+                    a auz.file, double click on that file 
+
+
+I uninstalled Ableton. I restarted the computer.
+I installed Ableton - from the same extracted files. I restarted the computer.
+I ran the patch, and it did its thing (though still saying 'pattern not found' several times before 'patch complete' or whatever). 
+The auz.lnk file, the only one, just doesn't work.
+
+I'm just confused and getting a bit sad, now haha
+
+There has got to be a way to make this work! Fucking hell!
+
+THANK YOU :) 
+<<<
+
+<<<
+but my point about your points... none of that ever made sense. the instructions only worked up til that point lol 
+<<<
+
+<<<
+Okay so, not sure WTF...
+
+but I went and looked for Ableton again, the program, and found it...
+
+and it seems to be working !?
+
+I've tried just pressing buttons and then saving the 'live set' a couple of times, and it works! .als file.
+What I do find a bit strange is that it saves it to this folder that has its own icon, called 'Untitled Project', and that's where it saves the things to.
+And I've got a desktop shortcut for that folder but, otherwise, I cannae find it. (Haven't used the 'everything' thing, just in terms of okay, here are the few folders on this thing, here's the Ableton folder (all self/auto-created). Has a folder inside called Live Recordings, inside there are 20 folders titled 'Temp Project' (1, 2, 3 etc) ... 
+
+Nae idea and sorry if that makes no sense to you; I ken Ed will ask.
+He is less intuitive with these things than I am... make what you will of that! haha
+<<<
+
+<<<
+Sorry! I suppose (one) point being, does that mean we're all good to go?
+Even though those two steps you told me about, they didnae really happen that way at all... ?
+Can we look into the firewall thing, then?
+
+THANK YOU!!!!!!!!!!!!!!!!!!!!!!
+<<<
+
+Awesome! I am glad you have it working. Sometimes you have to fiddle and play with it until it works. 
+
+Setting up the firewall should be worth your time, especially since you don't want it to accidentally fail for that reason.
+
+<<<
+Aye... I'll have a look at the firewall thing.
+
+So as long as it's working, should be all good, even though the steps were wonky? I can delete the extracted files?
+<<<
+
+<<<
+IT'S NOT WORKING
+
+😥😥😫😫😫😫
+
+Closed, re-opened, saying the same thing about 'you need to authorise'...
+
+!!!!!!!!!!!!!!?!?!?!?!?!?!?!??
+
+Any other ideas? 
+<<<
+
+I'm sorry. I have no idea. I don't know why it stops working. It could be calling back home (and hence it may be necessary to have the firewall), but I've not been able to replicate your problem. =(. 
+
+Here's Ableton 10 (untested): live.philosopher.life/sho/Ableton10.zip
+
+Pirating software is sometimes painful.
+
+<<<
+What does untested mean?
+He'll need to ask his producer pal if 10 works... or maybe it's his old ass tascam us-144 (I dinnae ken what it IS), that cannae do 10...
+
+
+Ilk find out.
+
+Like I said, how nice life would be if piracy wasnae necessary! :( 
+
+Thank you...
+<<<
+
+<<<
+I think 10 won't work with Windows 7, as you said there's an issue there?
+
+Still trying with the one you sent us. 
+Going to start from scratch and NOT connect to the Internet... then do the firewall before any connections are made? I'll try that.
+
+Hope you're having a good weekend.
+Sorry to be SUCH A PAIN IN THE ARSE
+<<<
+
+<<<
+Didnae work.
+I give up.
+
+Thank you for your help!
+<<<
+
+Dude, I totally get your frustration here. I'm not giving up yet (even if I'm rather ineffectual so far). Maybe take a break from it, and we'll try to regroup.
+
+If you'd like, I can remotely connect to your computer and give it a whirl myself.
+
+I have access to differently pirated versions of Ableton we could try as well.
+
+We could even go so far as to install a new copy of windows (for example, 8.1 is growing on me). 
+
+<<<
+You're far from ineffectual, jeez!
+
+So... I think we've got it!
+Fingers crossed... seriously, though.
+
+Ed found some instructions on crackstube that were a bit either different slightly, or clearer, lol re: the patch and so on. Also turned off the preferences thing that makes it check for updates/licence or whatever, and put a rule in the firewall.
+
+Laptop has been off, updated, restarted and on again, and it still seems to be working.
+
+So, fingers crossed!!!
+
+and THANK YOU, again!
+
+That said, we may have to revisit this new OS thing in future if that is an option. Wow!
+Did you get Ed's email?
+<<<

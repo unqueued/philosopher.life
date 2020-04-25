@@ -1,0 +1,10 @@
+[1:47 AM] robotic_scarab: hm, live is updated for me today but your main URL is still stuck on the 16th
+[10:44 AM] h0p3: Hrm. I have no idea why it stopped. Lol. Seems to have healed itself with the nightly script.
+[11:25 AM] h0p3: Funny part is that live was down for a bit yesterday since the VPS provider was moving hardware.
+[11:26 AM] robotic_scarab: funny! yeah, I forgot that live existed and went digging around for your connect page to find the mirror links
+[5:24 PM] robotic_scarab: oh btw you have two "tl" footnotes in your letter to deathofrobinhood, so the first instance is broken and the second is layered!
+[5:27 PM] robotic_scarab: also, grammar mismatch when you changed the phrase here: I'm also prefer :stuck_out_tongue_winking_eye:
+[5:37 PM] robotic_scarab: missing a who: those people fed children
+[7:41 PM] h0p3: Thank you! I appreciate it. My grammar is awful.
+[9:28 PM] h0p3: In fully-automated luxury wiki, footnote coordination would be automated like in Word. It's not so bad with smaller tiddlers, but the big ones, oy.
+[9:29 PM] robotic_scarab: absolutely

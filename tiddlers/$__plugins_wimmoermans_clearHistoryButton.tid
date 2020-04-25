@@ -1,12 +1,3 @@
-created: 20180120091259343
-creator: wjam
-modified: 20190702235245936
-modifier: wjam
-tags: 
-tiddler: $:/HistoryList
-title: $:/plugins/wimmoermans/clearHistoryButton
-type: application/x-tiddler
-
 <$button >Clear History
 <$action-setfield $tiddler="$:/HistoryList" text=""/>
 </$button>

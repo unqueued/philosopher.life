@@ -1,0 +1,60 @@
+[1:21 PM] Valdus: wiki-ed?
+[1:21 PM] Valdus: yeah that wierd screen only happens on apples
+[1:21 PM] h0p3: ?
+[3:12 PM] h0p3: So what is the saving method you are using now?
+[3:12 PM] h0p3: How many unique TWs are you building at the moment?
+[4:17 PM] Valdus: I think I have two, for the import to BoB seemed to have worked, though not like a charm since I had to reimport and now it is learning its blasted lesson. I still have that Todo folder on my phone but hate to use dropbox (since it isn't mine and it has a storage limit which I detest). 
+
+So Omnibus is the only thing I am using and I THINK I am using savetrail to save, and it saved me from the loss of another toddler (is that how you call it?) by looking up the json and copy and pasting the resulting text. I think the problem I was having is that I was hitting the X instead of the check. I noticed I did that more than a few times yesterday. 
+
+And yes, as a matter of fact, I did write this in my wiki!
+
+Now for the future (once again):
+
+* that damned green darkroom theme!
+* is it possible to still be free of change and have this on a server?
+[4:49 PM] Valdus: and still frakked about why that thing happens on apples.
+[8:48 PM] Valdus: Warning in advance, sent an email to the group for help getting a darkroom palette, try and not scoff.
+
+[9:38 AM] Valdus: It’s working very well for me!
+
+[9:53 AM] h0p3: I think you should reconsider the naming conventions I suggested.
+[9:55 AM] h0p3: I am still paying for my mistakes in not using effective naming conventions from the beginning these years later.
+[9:55 AM] h0p3: It looks like you spin up a lot of tiddlers too, and it will matter once you start to build tools to organize and search through your tiddlers
+[10:41 AM] Valdus: naming conventions? What you talkin bout Willis?
+[10:41 AM] h0p3: Lol
+[10:42 AM] Valdus: you mean consistently naming something over and over?
+[10:42 AM] h0p3: ctrl+f
+[10:42 AM] h0p3: search for "naming"
+[10:42 AM] Valdus: in where?
+[10:43 AM] h0p3: Here works, unless you put it in your wiki.
+[10:43 AM] h0p3: Learning to search through the vast amounts of writing, giving structure to them, and finding what is salient is a key task.
+[10:43 AM] h0p3: That is what the wiki does like none other too, especially if you are careful with your naming conventions.
+[10:44 AM] Valdus: isnt that what tags are for?
+[10:44 AM] h0p3: Tags helps that, of course.
+[10:48 AM] Valdus: I name things very distinctly, I can almost tell what's in a post just by its unique titles IE Teta and Pudding.
+[10:48 AM] h0p3: Sure, you remember them now. You just wrote them.
+[10:49 AM] Valdus: well youve got a lot more experience than me, so I concede sensei.
+[10:49 AM] Valdus: but you got to remember something called Tit and Pudding right?
+[10:51 AM] h0p3: You'd think. I will, of course, grant that it will help you "remember to remember." It can help anchor memories for you in a context. Knowing some of the details of the furniture will help you find where you are in your mind palace.
+[10:52 AM] Valdus: take it from a teacher, don't tell me- show me!
+[10:52 AM] h0p3: Go look in my wiki.
+[10:52 AM] Valdus: what just names?
+[10:52 AM] h0p3: You will find many catchy titles and phrases. I simply cannot remember 30 megabytes of text; it's 60 novels in length.
+[10:52 AM] h0p3: There are over 10,000 tiddlers with unique titles.
+[10:53 AM] Valdus: you the man!
+[10:54 AM] Valdus: My idea of writing, is putting any source of information that does not fit (or relieves) in your mind.
+[10:55 AM] h0p3: I do study my own wiki. I read and re-read it. I read what I wrote the day after in my [[Wiki Review]]. I do a weekly re-read with my family (and with discussion) during [[Family Time]]. The [[Core Daily Requirements]] and a few [[Frequent Logs]] are also something I perform a [[Monthly Audit]] on in which I read and digest the entire month for that log. I also do a [[Yearly Audit]] of particular logs (all the [[Monthly Auditables]] are included in that list). I also do [[The Remodeling]] which is both a non-semantic edit and restructuring of every tiddler on the wiki. On top of that, I'm often searching and using my wiki. I still cannot remember it all, homie.
+[10:57 AM] h0p3: My memory is fading as I age. One of the benefits of writing and putting it into my second-brain is that I don't have to remember, or I can get away with partial memories. You still want to leave yourself every breadcrumb in your metadata that you can, and you want to make it exceptionally easy to index and write expressions to search and organize.
+[11:07 AM] Valdus: Ok what do the brackets mean again?
+[11:08 AM] h0p3: Those are links in my wiki.
+[1:10 PM] Valdus: You make links with brackets to other riddlers?
+[1:30 PM] h0p3: I'm confused. That's how you make links by hand in your wiki.
+[3:18 PM] Valdus: Oh! Ok
+[1:19 PM] Valdus: I think I get those stupid screens because apple can't use savetrail.
+[5:13 PM] h0p3: I think you need to find another browser to use then, lol.
+[5:14 PM] h0p3: Savetrail is worth the effort.
+[5:14 PM] h0p3: Especially for as much loss as you've been having.
+[10:44 PM] Valdus: oh you mean on apple, say chrome?
+[11:04 PM] Valdus: I will try it.
+[11:25 PM] Valdus: Nope script error on chrome in Apple

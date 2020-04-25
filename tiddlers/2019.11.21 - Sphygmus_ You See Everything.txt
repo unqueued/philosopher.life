@@ -1,0 +1,70 @@
+[3:34 PM] robotic_scarab: I love catching the little things -- like this morning I saw your link (and explored from it too) and then visited kicks, and had a good chuckle to myself -- and then just now saw your link log again (another chuckle)
+[3:35 PM] robotic_scarab: it's like a tiny moment - I see y'all! and smile. :)
+[3:51 PM] h0p3: Haha! =). God damn, you just see everything. I miss signals that are slapping me in the face all day long. You pick out details that no one else can see.
+[3:52 PM] h0p3: I'm going to try to meet that teacher. I actually think your wiki is more representative, and I hope she uses it for her classes. Seems like it would be cool if she joined us too.
+[3:57 PM] robotic_scarab: nahhhh, I'm just so obsessive that I check links multiple times a day and get to see the micro & coincidental blips :sweat_smile:
+[3:57 PM] robotic_scarab: i think it's time for me to write kicks another letter -- gotta re-read a lot to do it well, I think.
+[3:59 PM] robotic_scarab: also, yesh! I hope you do meet her. it would feel insane for me to be mentioned at all, hah. I'm always down to see people wiki and especially the people who get really curious
+[3:59 PM] robotic_scarab: I'm probably going to send links you've already seen (?) but I was nodding and saying yes to almost everything here: https://thecreativeindependent.com/people/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/
+[4:00 PM] robotic_scarab: i love the metaphors of physical space to the web and if I can get myself to read heidegger is going on the list
+[4:01 PM] robotic_scarab: and the projects + library here (http://veryinteractive.net/projects) are so generous
+[4:28 PM] h0p3: Ah, heck yeah. As weird as it sounds, it's a treat for me to watch loved ones write letters to my other loved ones.
+[4:29 PM] h0p3: I wish I had the chance to see all of the people I know engage in that practice. It's so freaking expensive, I think.
+[4:30 PM] h0p3: Tolkien used to write letters to his offspring every X-mas. That was the present.
+[4:30 PM] robotic_scarab: I didn't know that! I bet they are fascinating.
+[4:33 PM] h0p3: My assumption is that Laurel and you would have a great deal in common. And, thank you for the links. Don't worry about spamming away (I'm happy to think about links ;P), even if I've seen them all (and I haven't), they still tell a story.
+[4:35 PM] h0p3: I am especially interested in your mapping and placeness. I think there's work to be done there (though perhaps it will take decades to satisfy yourself, I don't know).
+[4:36 PM] h0p3: Like so many philosophers, I think it's better to read or watch about them than to actually read them. I hate reading Heidegger, lol.
+[4:41 PM] robotic_scarab: I think it will take a while to even pinpoint what specifically I might explore within placeless...
+I'm not super proud of much of my college art, but for a while I was drawing lots of spirals by hand in black squishy charcoal - I never got to do it (I came somewhat close) but I wanted to do a huge spiral by hand in charcoal, like 10 foot tall huge; that's still interesting to me.
+[4:42 PM] h0p3: Spirals might be my favorite shape. I'm not the sort to have favorite shapes and colors usually, but that one sticks out for me.
+[4:43 PM] h0p3: Could make a cool one for your home, but probably can't be 10 foot (maybe 7ish).
+[4:45 PM] h0p3: That is one cool thing about being an artist: you have the chance to make your home look awesome (not overnight, but over the years, you probably get to make and collect a world).
+[4:46 PM] robotic_scarab: yeah, half of the art in both of my parents' places is art of mine! I don't have so much of my art hung up right now much in the future hopefully :)
+[4:48 PM] robotic_scarab: One of my teachers told me she was worried that the spirals were a sign of boredom or doodling or that I didn't really know what to explore so I was just settling on something easy
+[4:48 PM] h0p3: Oh.
+[4:48 PM] robotic_scarab: I think there was definitely truth to that assessment but she also said I took it further than she expected and sort of proved her wrong? So it worked out
+[4:49 PM] h0p3: Hrm. I am unqualified to know anything about this. I'm a simple man. I like spirals and tripart, lol.
+[4:49 PM] robotic_scarab: (uChicago's art program was all about being super conceptual and high gallery art XP)
+[4:50 PM] h0p3: https://www.youtube.com/watch?v=P2qezAF7edI
+YouTube
+Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+[4:52 PM] h0p3: https://www.youtube.com/watch?v=kjS6bQ5OQ-o
+YouTube
+Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+[4:54 PM] h0p3: Also, it's not just in building art for living in one's home: you can dress everyone up in knitwear and hunt for the bestest sweaters. I assume you will be an excellent ringmail crafter as well. When the apocalypse comes, your homies will be both protected and surrounded by beauty.
+[7:41 PM] robotic_scarab: i get some interesting exceptions when decoding your secret tiddler btw -- eg. I assume Arcanum is the name but it's the only bit of invisicode that your script won't actually decode for me
+[7:42 PM] h0p3: Aye, we ran into a hiccup. Will be fixing that.
+[7:42 PM] robotic_scarab: lots of invalid start bytes and odd length string messages haha
+[7:43 PM] robotic_scarab: also I added a print clipboard/pipe so I could tell where it was actually pulling the data it was using from -- might be nice to include in a more complete version? :)
+[7:45 PM] h0p3: Aye. Slowly getting there. [[j3d1h]] has been reading a book on a female cryptographer, so she's interested in it again. Hopefully, the script will be sending richer notifications, as it is bound to keys in i3.
+[7:46 PM] robotic_scarab: wonderful! I think it's awesome she's working on this stuff :) (and a little jealous she got started so young :P)
+[7:46 PM] h0p3: Been trying to get her to write unit tests as well. [[1uxb0x]] seems interested in completing the clearsigning aspect.
+[7:46 PM] robotic_scarab: ahugh unit testing
+[7:47 PM] h0p3: Aye, hopefully they'll find it a fun way to learn. Most of the time, I'm unable to make it fun for them.
+[7:48 PM] robotic_scarab: haha I'm sure it's a a good thing to know -- my most recent code assignment was all about unit testing and I'm still not convinced? used to? idk -- I still grumble about the paradigm even if it's good for me
+[7:48 PM] robotic_scarab: just not the way I think about code so it's a stretch for me :P
+[7:49 PM] robotic_scarab: what is the clearsigning aspect, btw?
+[7:52 PM] h0p3: I'm not used to it either. I never know what counts as good coverage. Sometimes it helps though. I'm strictly an amateur.
+[7:55 PM] h0p3: Usually signatures are separate files.
+[7:55 PM] h0p3: A clearsignature is appended to the message.
+[7:58 PM] h0p3: You could, for example, prove that you are a particular user on a messageboard with clearsignatures without having to point to an object hosted somewhere else (wouldn't need to trust a tripcode or admins).
+[7:58 PM] robotic_scarab: ah, I see
+[7:58 PM] robotic_scarab: so you'd embed something like that in the wiki then
+[7:58 PM] h0p3: We already have signatures embedded in the wiki.
+[7:59 PM] h0p3: I've thought about clearsigning, and I may in the future.
+[7:59 PM] h0p3: invisiclearsigning is a special kind of watermark
+[8:01 PM] h0p3: In Eve Online, they'll pass the same document, but modified differently with trick-characters per recipient. Moles can be hunted down by seeing which document is passed onto an enemy or what have you.
+[8:01 PM] robotic_scarab: huh, that's cool (love reading stories about that game)
+[8:02 PM] h0p3: Using zero-width characters has similar stegenographic properties. And, it can be passed over a number of channels without a user's knowledge.
+[8:02 PM] h0p3: You can hide them in tweets, reddit titles, pass them over IRC, etc.
+[8:04 PM] h0p3: A lot of people do not like clearsigning because it is ugly (some places ban the practice).
+[8:05 PM] h0p3: Invisibly clearsigning should be a fix for that.
+[8:05 PM] h0p3: It's a weird cornercase that probably will never matter, but it's fun, and the kids enjoy it.
+[8:05 PM] robotic_scarab: yeah! definitely fun :)
+[8:06 PM] robotic_scarab: i feel like it's the sort of trick cicada 3301 might use if they were still making puzzles
+[8:06 PM] robotic_scarab: (assuming it's not too inelegant for them)
+[8:08 PM] h0p3: Aye. :slight_smile:
+
+[4:02 AM] robotic_scarab: (fkg & masego is the shit :raised_hands:)
+[8:15 AM] h0p3: Oh, yeah, this is delicious!

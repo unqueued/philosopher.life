@@ -1,0 +1,69 @@
+created: 20180113211943582
+modified: 20191118013618225
+revision: 0
+tags: ‌‌‌​​‌​‌​‌‍‌​​​‍​‍​‌‌‍‌​‍​‍​‍‌​‌​‍​‍​‍​‌‌‌‍​​​​‍‍‍
+title: Invisign -h
+
+```
+Usage: invisign [OPTIONS] ...
+
+By default, Invisign assumes unicode plaintext from stdin, encodes it, and outputs invisicoded unicode to stdout. The default is NOT cryptographically secure. To make full use of this tool, you must pipe in data from your cryptographic tool of choice or use the convenient libsodium tools wrapped by this application.
+
+I refer to ciphertext/plaintext for cryptography and hiddentext/opentext for steganography.
+
+Unless you know what you are doing, you should be aiming to use --invisiclearsign, --verify, --encrypt, or --decrypt options.
+
+  -h,  --help        Prints this help message
+  -a,  --about       Prints information about the program and its authors
+  -l,  --legal       Prints the Legal Notice of this software
+
+  -c,  --clipboard   Use clipboard as input and destination for encoded output, includes stdout
+  -d,  --decode      Decodes invisicoded hiddentext, takes invisicoded input and outputs opentext
+
+  -E <encoding>,  --encoder <encoding>    
+   
+     Specify the encoding for input or output (default is unicode)                  
+     Encoders available: binary, hex, base32, base64, URLSafeBase64, utf8
+
+  -g <password> (optional), --generatekey <password> (optional)
+
+     Prints the Ed25519 secret key corresponding to a password
+     If no password is specified, key is randomly generated
+ 
+  -i <your Ed25519 secret key>,  --invisiclearsign <your Ed25519 secret key>
+      
+     1) Ed25519 signs the sha256 hash of the opentext (2+ characters in length)
+     2) Encodes the Ed25519 signature into invisicode hiddentext (invisignature)
+     3) Embeds public Ed25519 key + public curve25519 key after first character in the opentext
+     4) Embeds invisignature before last character in the opentext
+
+  -v,  --verify
+
+     1) Parses opentext for public keys pairs and invisignatures
+     2) Isolates invisiclearsigned opentexts and calculates their sha256 hashes
+     3) Verifies signatures of hashes given their public signature keys
+     4) Prints verification and public key 
+
+  -e <your Ed25519 secret key> <their curve25519 public key> <plaintext>,  
+  --encrypt <your Ed25519 secret key> <their curve25519 public key> <plaintext>
+
+     Note that your input pipe/clipboard is your opentext (the test with invisicode embedded in it)
+     You must specify the plaintext message you wish to encrypt and embed in the opentext.
+
+     1) Encrypts plaintext into secret box
+     2) Encodes secret box into invisicode hiddentext (invisibox)
+     3) Embeds invisibox randomly between first and last characters in the opentext.
+
+  -d <your Ed25519 secret key>,  --decrypt <your Ed25519 secret key>
+
+     1) Parses opentext for invisiboxes and decodes them into secret boxes
+     2) Decrypts secret boxes and prints results to stdout
+
+INTEGRITY CHECK ON SECRET BOXES!
+
+  e.g.  invisign -t "foo bar"    Output invisicode ciphertext using "foo bar" plaintext.
+  e.g.  cat foo.txt | invisign   Use contents of foo.txt as input and prints corresponding invisicode to stdout
+
+e.g. invisign -g "foopassword" | invisign -i %?%?%? | 
+
+```

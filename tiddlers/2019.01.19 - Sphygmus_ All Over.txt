@@ -1,0 +1,311 @@
+fucking let's encrypt
+SAT 4:24 PM
+it breaks EVERY SINGLE TIME I need to use it again
+SAT 4:25 PM
+i don't understand why it's so finicky ;__;
+SAT 4:25 PM
+Omg, I am terrible at it. I failed to make it work in the end.
+SAT 4:25 PM
+What's happening on your end?
+SAT 4:30 PM
+i'm getting some message about setuptools pip wheel failing
+SAT 4:30 PM
+tried all the solutions that i could see in the certbot github issues about it and not fixed
+SAT 4:31 PM
+ugh
+SAT 4:31 PM
+guess i'm reinstalling the damn thing x_x
+SAT 4:31 PM
+Arg!
+SAT 4:31 PM
+That's what I've done too.
+SAT 4:31 PM
+This is one of the reasons I'm using github. I don't have to deal with that infrastructure problem so directly.
+SAT 4:32 PM
+There are too many facets to trying to build the wiki I want to build to do it at all well.
+SAT 4:32 PM
+yeah, that makes sense
+SAT 4:33 PM
+I think nearlyfreespeech is a wonderful choice, btw.
+SAT 4:35 PM
+One day I may move there as well.
+SAT 4:36 PM
+yes! so far it's worked fine for //sphygm.us
+SAT 4:37 PM
+it's complicated enough that I'm content hosting my other sites on my VPS, lmao
+SAT 4:37 PM
+though I feel like most people would think it was the other way around ^_^
+SAT 4:37 PM
+reinstalling worked!
+SAT 4:39 PM
+Might just write a reinstall script
+SAT 4:42 PM
+while you have the commands at the ready
+SAT 4:42 PM
+that is so ugly
+SAT 4:43 PM
+I know
+SAT 4:43 PM
+i haven't scripted any of my sysadmin stuff...I feel like it would be useful / time-saving but I'm still at the point where I'm learning and getting the muscle memory / doing it every time seems good
+SAT 4:44 PM
+...apparently setting the cert for one site broke it for my other three sites
+SAT 4:45 PM
+YAY
+SAT 4:45 PM
+lmao
+SAT 4:53 PM
+somehow the sites didn't actually get enabled
+SAT 4:53 PM
+that
+SAT 4:53 PM
+would help solve things
+SAT 4:53 PM
+Your argument about the sysadmin stuff is a good one. I should probably do the same.
+SAT 8:48 PM
+https://REDACTED.studio/ is up now! Yay!
+SAT 8:49 PM
+Where do you get your inspiration?
+SAT 8:49 PM
+it's on and off! I keep taking it up and down to test various things -- the next step is to have the server running in the background the way I have my private wiki.
+SAT 8:50 PM
+Does that improve loading speed, or why do it that way?
+SAT 8:50 PM
+oh otherwise I have to have a terminal screen with the TiddlyServer command running; when I set it up as a service I don't have to do that
+SAT 8:51 PM
+Oh! you are already serving it through node
+SAT 8:52 PM
+I misunderstood.
+SAT 8:52 PM
+Yes, I see what you mean.
+SAT 8:52 PM
+Cool. Yeah, the service will be useful.
+SAT 8:52 PM
+I like how they are done by hand, btw.
+SAT 8:53 PM
+ah - yeah, I installed 5.1.19 once I realized that it allowed serving node anon (which I noticed on jack's site) -- I thought lazy loading would be useful for me but it seems that it won't work with the zooming story view :C
+SAT 8:53 PM
+It definitely speeds loading but I can't take the story view breakage
+SAT 8:53 PM
+hm, where do I get my inspiration in general, or when I sit down and actually draw a thing?
+SAT 8:54 PM
+They've made changes to make it "read-only" looking.
+SAT 8:54 PM
+Both questions.
+SAT 8:54 PM
+I still can't get TW5-Navigator to work. =/
+SAT 8:55 PM
+But, happy with 5.1.19 otherwise.
+SAT 8:56 PM
+I haven't tried navigator...your comments about CSS made me worried flexbox breaks it :\
+SAT 8:56 PM
+yup =(
+SAT 8:57 PM
+mascon, wellaway, anconoid are my favorites so far
+SAT 8:58 PM
+I can tell you made them all. There is a point of view in them.
+SAT 8:58 PM
+(not that you make them for me...I like mandalas)
+SAT 8:59 PM
+[[Psychedelic Video Collection]] might be a fun place for you. I have no idea.
+SAT 8:59 PM
+The organic feel of your Mandalas (rather than the absolute perfect fractal lines) reminds me of this: https://vimeo.com/102671169
+SAT 9:00 PM
+Hm, the first question is worth at least several entries in my wiki. :)
+SAT 9:01 PM
+At least three and maybe four of these are more than 7 years old -- the difference is noticeable to me but I wonder if you can see it?
+SAT 9:01 PM
+I do not know if that is an area of interest for you (I know you are going the web design route). Perhaps you should consider that kind of visual work as well.
+SAT 9:01 PM
+I would guess based upon the darkness of the lines.
+SAT 9:02 PM
+I really love making animated gifs out of them, although I've only done it once or twice. It was an interesting experience taking anconoid and photoshopping it into a sticker -- I //think// it ended up visually stronger but I'm hesitant to go back and edit the IRL copy to match.
+SAT 9:04 PM
+Astrophile and dendrophilous are the two super obvious old ones to me -- you can see from the shakiness of the lines compared to the others that I didn't have as much pen control.
+SAT 9:05 PM
+Thickness is another sign, mostly because the pens I've been using recently are brush pens.
+SAT 9:05 PM
+I fear I can't see the old ones. I'll tell you these stand out to me: dendrophilous, jabiru, paleosophy, quietation.
+SAT 9:05 PM
+Ah, I see I got one of them right, lol.
+SAT 9:06 PM
+Jabiru and quietation are old too! :)
+SAT 9:06 PM
+that's the four haha
+SAT 9:06 PM
+Yeah, I can totally see animation with these.
+SAT 9:07 PM
+I think only once I've sat down to drawn one with a clear direction (whiggarchy) -- all the rest just happen on the paper in the moment.
+SAT 9:08 PM
+The drawing Rabbitholed flowstate.
+SAT 9:08 PM
+yes! Though sometimes it's staring at the paper like..."ugh idk what's next"
+SAT 9:09 PM
+I've built up a "vocabulary" that I instinctually refer to, and I'm usually trying to play with texture and the balance of black & white.
+SAT 9:09 PM
+I can see that!
+SAT 9:09 PM
+Ever so often I try color and I just can't do it (yet)
+SAT 9:09 PM
+I prefer black and white art (as I think I said before). Imho, if you go for color, you might have to go the "perfect fractal" route.
+SAT 9:10 PM
+That still may be worth your time.
+SAT 9:10 PM
+You might try just adding a single color. A bright red or blue or something.
+SAT 9:10 PM
+(obviously, I don't know what I'm doing...I'm just thinking out loud)
+SAT 9:11 PM
+yes! Single color is the only place I've felt more comfortable. I love the black & red combo
+SAT 9:11 PM
+I have some with color I haven't scanned yet...lazy cause it takes more processing than the b&w too haha
+SAT 9:11 PM
+I have trouble thinking about the direction a shape or texture is going or the effect it will have if I'm also trying to balance 2 or 3 colors.
+SAT 9:12 PM
+I recently started messing with greys, though, and that's super fruitful
+SAT 9:12 PM
+Ah!
+SAT 9:12 PM
+Lots of shading and trying 3D effects
+SAT 9:12 PM
+Yes.
+SAT 9:12 PM
+That's should be where you first, imho.
+SAT 9:12 PM
+Image attached to message
+My wife is allergic to morphine (opiates in general, actually). I comped this for her (can't find an artist willing to do it). It's not as cool as what you've done by any stretch, but it met her requirements (she likes steampunk).
+SAT 9:15 PM
+that is awesome!!
+SAT 9:21 PM
+I like the ouroboros and ofc the colors! It looks vector?
+SAT 9:22 PM
+I'm thinking about asking my daughter to try her hand at making more geometrical things.
+SAT 9:25 PM
+She likes to draw, and I'm trying to encourage it as best I can. She's not interested in following books so much (still trying!).
+SAT 9:26 PM
+https://www.deviantart.com/42sans6/art/A-E-S-T-H-E-T-I-C-Mountains-754972712
+SAT 9:26 PM
+It's fun to watch her with her drawing tablet and the way she rotates images on her screen to work on them.
+SAT 9:29 PM
+That is awesome! :)
+SAT 9:32 PM
+It is good she's starting early with digital if that's the direction she wants to go -- I'm comfortable enough with a tablet for most editing, but drawing is totally different for me
+SAT 9:33 PM
+The tablet/screen disconnect is hard to work around when I'm used to paper!
+SAT 9:33 PM
+That makes sense to me. I am kind of lost about where to go for her (this is wildly outside my bailiwick, even though I like art).
+SAT 9:34 PM
+We've not setup dual boot yet, but we're still trying (so many things to do) to get GPU passthrough setup so that she can use macOS and Windows in VM to learn more digital tools.
+SAT 9:35 PM
+Where do you think she should go?
+SAT 9:35 PM
+What tool does she draw in now?
+SAT 9:36 PM
+GIMP and Krita
+SAT 9:36 PM
+She doesn't want to use anything but Linux as her primary/host. Linux has serious limitations for artists, I believe.
+SAT 9:37 PM
+I like what this guy does: https://vimeo.com/93218648
+SAT 9:38 PM
+Pretty sure you can't do that in Linux.
+SAT 9:38 PM
+(to my chagrin)
+SAT 9:38 PM
+I can't say -- I've never looked into fractal generation or anything. I expect if she wants to do video things, Adobe After Effects and Premiere (?) will be the best tools
+SAT 9:39 PM
+Krita is a tool I've seen mentioned before.
+SAT 9:39 PM
+I grew up messing with and doing tutorials for photoshop 7, so it's engrained in me by now
+SAT 9:40 PM
+Ah, yes.
+SAT 9:40 PM
+I can't really compare it to GIMP, but i think digital painters are able to get the same from krita as from photoshop
+SAT 9:41 PM
+Does she primarily do digital art? Or is she also interested in physical?
+SAT 9:41 PM
+She does both. She often mixes them together.
+SAT 9:42 PM
+I think she enjoys digital the most, but some kinds of work she prefers to start by hand first.
+SAT 9:43 PM
+That makes sense!
+SAT 9:43 PM
+Honestly, I'm not sure what to suggest. I devoured all the "how to draw" books and focused on "realism" and was praised/awarded for it in high school, but I burned out on it super quickly. My college courses all focused on conceptual and gallery art -- which is a direction I'm still semi-interested in. I started doodling mandalas in high school and I'm not sick of them yet...but they don't fit the realism/gallery art mold. :woman-shrugging:
+SAT 9:48 PM
+It ultimately depends on what she wants to //do// with her art, I think.
+SAT 9:49 PM
+Art for the sake of art is something I prize.
+SAT 9:50 PM
+I'm worried about her future from a practical standpoint too.
+SAT 9:50 PM
+I continue to teach her computer science as best I can (which is not to say I'm qualified). She will have many obstacles, but I [[hope]] being skilled in something marketable will be one of them. I value her art, but I'm worried that we aren't trying nearly hard enough if she wanted to do it for a living. She will be competing with many people I assume.
+SAT 9:50 PM
+(obviously, that is not what I value most about education, her effort, who she is, etc. This is purely an instrumental issue in my eyes.)
+SAT 9:51 PM
+She doesn't seem to know what she wants to do (which is fine).
+SAT 9:54 PM
+It's hard for me to recommend pursuing art for a living; the competition is strong, the market is flooded, and being really successful seems to mean appealing to specific niche markets who are eager to pay. (I just want to do what I want, not chase a market. :woman-shrugging: it works for some people I guess.)
+SAT 9:58 PM
+Certainly I regret not having been encouraged more towards stem/math/computer science
+SAT 9:59 PM
+I'd love to meet the STEMlord version of you.
+SAT 9:59 PM
+lol
+SAT 10:00 PM
+guys wouldn't be able to handle it :rolling_on_the_floor_laughing:
+SAT 10:00 PM
+I am worried about that.
+SAT 10:00 PM
+My daughter and I talk about it often.
+SAT 10:01 PM
+It is tricky, for sure.
+SAT 10:01 PM
+I have felt the assumption that I don't know what I'm doing from multiple people, and a weird "let me swoop in and teach you" vibe / experience sometimes. though the latter is more than just coding.
+SAT 10:09 PM
+I don't know how to combat it effectively :/
+SAT 10:09 PM
+I'm sorry. I also hope I don't make you feel that way. I'm still learning about you.
+SAT 10:10 PM
+I do not know how to combat that either.
+SAT 10:10 PM
+I think I'd keep a mansplaining counter and start reasoning about the signals (which is not to say it was fair, obv.)
+SAT 10:11 PM
+or a swoop counter/log or whatever, no idea
+SAT 10:12 PM
+you've never made me feel that way :) I've worried more about doing the same to you by writing flexbox and all that! :stuck_out_tongue_closed_eyes:
+SAT 10:13 PM
+A counter is a good idea.
+SAT 10:14 PM
+No, lol. I'm incompetent and grateful. I'm blindly wandering around.
+SAT 10:14 PM
+:relaxed:
+SAT 10:17 PM
+I'm glad to be helping!
+SAT 10:18 PM
+=) me too, thank you. I'm still thinking about what I'm going to say to jbaty and dziggetai. Working on [[Public Self-Modelers]].
+SAT 10:23 PM
+I've been enjoying reading your writing in that tiddler. 
+
+I hope you get the chance to work on buttons after you're done with your letters! They have made spinning up new content so frictionless for me now!
+SAT 10:29 PM
+Yes, me too.
+SAT 10:29 PM
+[[Wiki: TDL]] has it on there. I think I need to take a break from remodeling to do it.
+SAT 10:31 PM
+Firmcoding has to come first.
+SAT 10:31 PM
+I too regularly change the title and tagging. I have tiddlers that are showing up in multiple logs.
+SAT 10:32 PM
+Those directory macros will need to be firmcoded.
+SAT 10:32 PM
+it is an interesting problem, and I'm not sure what the best way to approach it is.
+SAT 10:32 PM
+about //lucific.studio not working in the iframes -- I expect it has something to do with node.js?
+14 HR AGO
+if I can't figure out how to get lazy loaded images & the zoom-in story mode working, I'm not sure it's worth staying on node over exporting to single file the way I do with //sphygm.us
+14 HR AGO
+it would be much less taxing on my VPS to not have it eating up memory :P
+14 HR AGO
+this is just a hack anyway -- I plan on rebuilding the backend and frontend of the site once I get through more front & back end learning
+14 HR AGO
+I feel pretty strongly about the importance of having fast & not heavy images for mobile, while also providing high resolution images for those on high dpi screens / large screens -- so I'm going to have to figure out lazy loading with javascript
+14 HR AGO
+no idea what or how I'll do the backend
+14 HR AGO

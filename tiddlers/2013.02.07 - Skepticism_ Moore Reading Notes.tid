@@ -1,0 +1,138 @@
+created: 20180518142434831
+creator: h0p3
+modified: 20200207074213495
+modifier: h0p3
+tags: [[School Notes]] Tulane
+title: 2013.02.07 - Skepticism: Moore Reading Notes
+
+```
+Stroud
+
+Moore’s proof of the existence of external objects begs the question against the skeptic. It seems to be an empirical proof, at first glance.
+
+Malcolm and Ambrose don’t think it is an empirical proof.
+
+Malcolm – there is no contradiction to be had by asserting there is a hand, an external object, in front of you. Correct language is at the core of this version of the proof.
+
+Ambrose – The claim ‘no one knows external things exist” cannot be falsified, is thus not an empirical assertion, and thus the skeptic is arguing for the logical impossibility of knowledge. Also a language issue; Moore is recommending one way of using language and the skeptic another.
+
+Recommends a “familiar usage of language” and rejects or resists the “skeptic’s radical recommendation”
+
+Moore thinks it is empirical
+
+
+
+I know X.
+
+If Skepticism is true, then I could not know X.
+
+
+
+X
+
+S->~X
+
+~~X
+
+~S
+
+
+
+Proof by contradiction, reduction
+
+
+
+Transcendental argument??
+
+
+
+I know the pencil exists.
+
+If Hume’s principles, then ~(I know the pencil exists)
+
+    Nobody can know that something he has not directly apprehended exists unless he knows that something he has directly apprehended is a sign of its existence.
+
+    Nobody can know that one thing is a sign of another unless he has directly apprehended things of both kinds.
+
+    No one can know of the existence of material things only if material things cannot be directly apprehended.
+
+
+
+Both agree to this conditional:
+
+Know(Skeptical Principles) -> ~Know(pencil)
+
+K(s) -> ~K(p)
+
+We have to either assume K(s), and then derive ~K(p), or we can assume K(p) and derive ~K(s).
+
+
+
+Do we know ‘s’ or ‘p’ (or neither)? We can’t know them both at the same time. One way of thinking about it, Moore’s, is to consider which one we are more certain about, ‘s’ or ‘p’.
+
+
+
+How does this relate to Descartes’ condition? for any particular proposition p about the external world, I know that p only if I know that I am not dreaming that p.
+
+For all p, (K(p) <->K(~D(p))
+
+K(p
+
+
+
+Know(p) <-> Know(~Dreaming(p))
+
+Know(p)->Know(~Dreaming(p)) & Know(~Dreaming(p))->Know(p)
+
+
+
+Know(p) <-> ~Know(s)
+
+
+
+
+
+
+
+
+
+
+
+At first glance, I found Moore's argument to be ridiculous. It seemed to be missing the point. I assume most of us had that reaction. After Stroud's examination, I have more sympathy for the argument.
+
+Moore thinks both he and the skeptic agree to the following conditional:
+
+If I know external-world skepticism principles, then I don’t know a particular external object actually exists.
+
+Clearly, both can’t be true at the same time. I can know one or the other (or neither), but not both.
+
+Well, how do we figure out which one we know? Whichever belief is more certain, that belief is the one which counts as knowledge, while the other is ruled out.
+
+The skeptic just so happens to be more certain of the external-world skepticism principles than of the existence of any particular external object. Moore seems to be more certain of the existence of a particular external object than any external-world skepticism principles.
+
+There seems to be a kind of stalemate here. Both are valid arguments starting with the same conditional. It is merely coincidental that the skeptic and Moore disagree about what is more certain to them.
+
+In this light, Moore’s argument seems more elegant, even if it may not work.
+
+
+
+
+
+s = Skeptical Principles
+
+p = This pencil objectively exists, externally of me
+
+Know() = I know that...
+
+
+
+We seem to agree to this claim:
+
+K(s) -> ~K(p)
+
+which is equivalent to:
+
+K(p) -> ~K(s)
+
+so, either K(p) or K(s), but not both.
+```

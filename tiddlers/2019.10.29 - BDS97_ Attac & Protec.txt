@@ -1,0 +1,42 @@
+[17:00:28] b3nsn0w: https://youtu.be/leX541Dr2rU
+[17:00:59] b3nsn0w: dunno if you have seen it yet, youtube has been kinda hardcore about promoting this specific video for me lately
+[17:01:10] b3nsn0w: turns out it's a great talk
+[pending] h0p3: Curious that is it hardcore promoting it to you! 
+[pending] h0p3: At least from the opener, I really don't like the way he talks about the nature of truth (he's in way over his head, imho).
+[pending] h0p3: Up to 15m. The talk is interesting. Every person needs to know this. There's not nearly enough doubt of Google in here though.
+[pending] h0p3: He's far too convinced of necessity of capitalist infrastructures and egoistic motivations. I grant that is the most likely, of course, but he doesn't even make space for the possibility that we could choose to be otherwise.
+[20:46:21] b3nsn0w: he may not be taking that into account
+[20:46:51] b3nsn0w: regardless, IMO his points about maneuvering within the centralized capitalist infrastructure are interesting
+[20:47:50] b3nsn0w: also, they might be helpful for when we surpass those limitations
+[pending] h0p3: I agree one must be parasocial to some extent, and I will continue to think about that particular problem. I'm especially concerned with accountability here. 
+[pending] h0p3: You'll have to forgive me for being deconstructive. I attac more than I protec in this sphere. 
+[pending] h0p3: Atropos enables us to distribute legal risk while simultaneously eliminating centralized editorializing (the sooper nice word for it). When the people own the means of productive, in this case, digital infrastructures, at a P2P level, then we get to construct trust, feeds, and proxies (and hence dialectical extensions of ourselves and our perceptual lenses of the world) in a way which a capitalist cannot (since they cannot control it enough to monetize it).
+[pending] h0p3: Autonomy is filter-bubble construction is key. 
+[pending] h0p3: in*
+[pending] h0p3: I can't write to save my life tonight. I blame my brain, beer, and The Youtubes.
+[21:44:45] b3nsn0w: I think I agree
+[21:45:14] b3nsn0w: sorry, bit hard to wrap my head around it, especially when it's working on some rust code in the meantime
+[21:45:27] b3nsn0w: still working on polling
+[21:45:36] b3nsn0w: this time on making it not a chore to use
+[21:45:44] b3nsn0w: anyway, that's details
+[21:46:16] b3nsn0w: I've been thinking about this bubble vs nazi bar thing for a while
+[21:46:28] b3nsn0w: the thing is, the "nazi bar" is essentially just one big echo chamber
+[21:46:55] b3nsn0w: and multiple echo chambers are definitely better than just one
+[pending] h0p3: The virtuous agent is biased. Expertise is bias. It's just bias in the right way, at the right time, for the right reasons. Echo chambers are similar (though it might be an emergent kind of agent). 
+[pending] h0p3: How many people do you know think you are crazy for your point of view on freespeech? 
+[21:53:43] b3nsn0w: not a lot, but I'm fairly introverted and this topic rarely comes up
+[21:54:21] b3nsn0w: and usually there is an argument that works quite well for convincing people
+[21:54:25] b3nsn0w: censorship is binary
+[21:54:33] b3nsn0w: we either have it, or we don't have it
+[21:54:36] b3nsn0w: there is no middle ground
+[21:54:53] b3nsn0w: from there, it's not hard to convince people they want no censorship and not full censorship
+[pending] h0p3: I agree that in some first-ordered sense, it is binary. What I hope emerges on top of it is a socially construct censorship which comes in degrees and kinds that can't ultimately silence anyone at the network layer. Building mutable intolerance on top of what is immutable tolerance.
+[pending] h0p3: This was a good video, btw. Thank you.
+[21:59:24] b3nsn0w: I was pleasantly surprised as well
+[21:59:39] b3nsn0w: anything youtube insists on recommending me receives my automatic skepticism
+[pending] h0p3: I wish I could control it more, especially when searching for new music.
+[22:00:41] b3nsn0w: I make a point of avoiding it whenever possible
+[22:00:58] b3nsn0w: for example, I almost never use youtube's home page, just the subscription feed
+[22:01:08] b3nsn0w: because it's a "dumb" list of all the channels I picked
+[22:01:59] b3nsn0w: and if I want to watch anything out of ordinary (even just a recommendation that I'm actually interested in) I go for a private window
+[22:02:21] b3nsn0w: or in the worst case a container tab that's not "facebox" (the one where I'm logged into facebook and google)

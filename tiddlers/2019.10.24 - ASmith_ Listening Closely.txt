@@ -1,0 +1,73 @@
+[16:31:16] ASmith: Greetings, you are a fellow Retroshare user also arent you?
+[18:21:09] h0p3: Hello =)
+[18:21:47] h0p3: I do not use Retroshare anymore. I think highly of what it aims to be.
+[18:25:03] ASmith: Greetings are you a Retroshare user also?
+[18:25:19] ASmith: ah, sorry didn't scroll all the way down
+[18:25:57] ASmith: I see, well privacys, encryption and freedom of speech in a decentralized network are highly regarded by me and many others
+[20:02:43] h0p3: Indeed, they are crucial for democracy and preserving our moral rights against the centralization of power in many respects.
+[20:03:31] h0p3: Do you use retroshare a good deal? How long have you used it? What you value most about it, and what aspects of retroshare aren't your favorite?
+[20:08:27] ASmith: Do I use retroshare a good deal? I have 3 nodes ASmith, TAS, TAS_Tor, I was using 4 RS nodes that included TAS_I2P. A RS developer for some bat chit crazy reason embedded Port 10 as the default I2P Port deep in the RS encrypted database field and it kept poking out. No RS developer helped to fix my problem and I was forced to eventually abandon that node.
+[20:09:07] ASmith: What RS Value do I admire with Retroshare? Encrypted, secure communications and file sharing.
+[20:12:03] ASmith: Retroshare Circles turned into a nightmare vampire like resource sucking tool to Retroshare which reminded me of various Windows 'Live' features to try and eliminate. And the nifty RS Feed couldn't discern duplicate feeds so it filled the source providers folders very quickly with GB's of worthless duplicate posts. RS Forums, Channels do not allow reassigning ownership to another ID so ifyou update your PGP keypair as a owner, creator you sacrifice your channels and forums.
+[20:13:00] ASmith: When did I start, at the beginning of RS v0.5.0 just as the developers went through RS v0.4.x and through RS v0.5 - 0.5.5 and the beta testing on v0.6.0
+[20:19:12] h0p3: I used it many years ago, but didn't have anyone to use it with. I tried it again a couple years ago, and I was pleasantly surprised to see that it was huge and had so many features (though I ran into some troubles). I liked how many people used it with Tor as well. 
+[20:20:14] h0p3: What I like most about Retroshare was an attempt to do it all. It's ambitious.
+[20:20:26] ASmith: Dr. Bob was the original developer and useful in adding some primative ties with Tor, I kept pushing, urging for I2P and a cleaner integration with Tor until both were added
+[20:21:01] ASmith: it was ambitious but one shoe fits all is always a failure
+[20:21:54] h0p3: I felt the performance of Retroshare was pretty awful once you were connected to enough people.
+[20:22:00] ASmith: someday perhaps the developers will listen to my urging, suggestions and requests to begin Retroshare as a foundational module with Chat, Mail tools, and make all  other tools optional plugins to add like a legos app
+[20:22:32] ASmith: the West has awful bandwidth, all decentralized networks suffer from the 90% masses have crap for bandwidth
+[20:23:03] h0p3: asymmetric connections are a huge problem
+[20:23:07] ASmith: with 5G becoming more available decentralized networks will light up unless the policestate continues to jack and divert the bandwidth to nations as they do now
+[20:23:44] h0p3: not just for bandwidth, but NATing at various levels can be problematic (even with the various workarounds)
+[20:23:50] ASmith: the police state and gangs of hackers have made http extinct
+[20:24:33] ASmith: only use I have for it is white noise now, streaming audio and the police state hates psytrance, industrial, goth so either they put up with that or they probe someone else
+[20:25:21] h0p3: I am curious what you mean by "http" is extinct. I certainly don't trust that which I cannot own. 
+[20:25:29] ASmith: For your listening pleasure, Now playing - Live Digital Audio Streams for Retroshare Users and Community Members 
+.
+http://tinyurl.com/TAS-Psytrance
+http://tinyurl.com/TAS-Industrial
+http://tinyurl.com/TAS-HeavyMetal
+http://tinyurl.com/TAS-Goth
+[20:26:09] ASmith: anyone can grab onto a http data stream and see what's inside it, so hardly anyone uses it, browsers now freak out if you use it
+[20:27:08] h0p3: Ah, so you don't mind TLS?
+[20:27:25] h0p3: (I think it's a good thing that browsers freak out about http instead of https.)
+[20:27:32] ASmith: if it has a purpose in such a policestate era, its ok
+[20:27:53] ASmith: https://tascloud.me  end-end encryption
+[20:30:09] h0p3: Some kinds of obfuscation seem to work best over 443. 
+[20:30:46] h0p3: I do not trust 5G, but local mesh networking seems crucial to me.
+[20:31:02] ASmith: funny how the RS developers fight the use of obfuscation albeit Cyrils use of a HMAC encryption for distant chats etc. is obfuscation IMO
+[20:31:36] ASmith: most mesh nets use NaCL which thus far seems fairly secure and very fast
+[20:31:43] h0p3: Yes, I am a fan.
+[20:32:02] ASmith: fan or ?
+[20:32:07] ASmith: fan of?
+[20:32:12] h0p3: fan of NaCL
+[20:32:17] ASmith: oh, yeah
+[20:32:53] ASmith: RS developers seem to a pushed that NaCL suggestion away also, to bad, its wicked fast which I reminded Cyril and others of repeatedly
+[20:33:44] ASmith: the SSL library has about 1 million lines of code in which people could hide all manner of nasty surprises which seem to remain buried for 1 or more yrs before they are found if then.
+[20:34:00] h0p3: No doubt. 
+[20:34:29] h0p3: https://tweetnacl.cr.yp.to/ seems more trustworthy on that front.
+[20:35:35] h0p3: I am convinced that there is low-hanging fruit perforance sacrifices to be had for highly auditable code. Wireguard comes to mind as well.
+[20:36:05] ASmith: This is a pretty good work-out on a short video stream as a test bed check it out, turn up your stereo audio https://tascloud.me/index.php/s/tjjFnXLeAnKspQC
+[20:37:55] h0p3: So why'd you end up reaching out to me? I'm honored to meet you.
+[20:38:21] ASmith: you listed your ID in the Tox ID forum I created some years ago in Retroshare
+[20:38:53] h0p3: Neat.
+[20:38:59] ASmith: and with MorpheusB's urging I created a new chat lobby of the same name and injected some new life and effort into the Tox user groups
+[20:39:48] ASmith: MorpheusB from deep in the Australian outback is Tjandamurra on Tox
+[20:40:43] h0p3: I am surprised Tox does not see more usage. 
+[20:40:55] ASmith: Epic Nordic cut Throne of the North https://tascloud.me/index.php/s/ipzob5YwxSA9gsx
+[20:41:33] h0p3: A lack of clean multi-device and the ghetto hacks required to make it livable on mobile don't help.
+[20:41:38] ASmith: there's a number of apps now that are direct competition for its user base however setting up tox is dead bang simple on multiple platforms
+[20:41:53] ASmith: Antox
+[20:41:58] h0p3: Aye, I use it.
+[20:41:59] ASmith: qtox seems clean enough
+[20:43:00] h0p3: Not a lot of messenging applications which have its decentralized properties and functionality. Are there any other competitors I should try out?
+[20:46:21] ASmith: I have to rustle up some dinner and watch the thursday night foot ball game redskins vs vikings here ;)
+[20:46:51] h0p3: Have fun! Same here. TTYL.
+[20:46:53] ASmith: thanks for the chat, would you like to co-chat with Morpheusb/Tjandamurra when he returns?
+[20:47:13] ASmith: he's offline now but I've chatted with him for years on Retroshare
+[20:47:46] h0p3: Of course, I am happy to meet people. It's my honor to speak with anyone, especially with those interested in decentralization, privacy, and anonymity. I don't know nearly enough people concerned with this technology. 
+[20:48:05] h0p3: I think most people consider me insane for my insistence on the value of these tools.
+[20:48:22] ASmith: Morpheus is keen on tech and keen on the real enviroment, a rare person in the haystack
+[20:48:59] ASmith: His public key is 7A3FBD036C696D03B54D4BE2A2BDC79528B8C604E7D089D6E22C3EA1889D4440
+[20:49:17] ASmith: ok, going away to put some food together here, ttyl, thanks

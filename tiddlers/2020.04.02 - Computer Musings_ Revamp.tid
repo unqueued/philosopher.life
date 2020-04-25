@@ -1,0 +1,22 @@
+created: 20200402192531779
+modified: 20200402203403055
+tags: [[Computer Musings]]
+title: 2020.04.02 - Computer Musings: Revamp
+
+* UPS set up. I wish I did this long ago.
+* Network Revamp
+** Firmware updates
+** New names
+** Public wifi LAN open for neighborhood
+** Guest LAN with password access
+** Family LAN
+** Everyone assigned their own static IPs and forwards
+** Dynamic DNS again
+** Metering
+** OpenVPN up
+* Zerotier cleanup
+* lussh'd
+* Sync cleanups
+** HTPC
+** rpi
+** dallas

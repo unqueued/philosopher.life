@@ -1,13 +1,19 @@
 caption: {{$:/language/Search/DefaultResults/Caption}}
 created: 20190607204243616
-modified: 20190607204317612
-tags: $:/tags/SearchResults
+modified: 20200316194104311
+tags: $:/tags/SearchResults j3d1h
 title: $:/core/ui/DefaultSearchResultList
 
 \define searchResultList()
+<$list filter="[title{$(searchTiddler)$}has[title]]">
+//<small>Exact match:</small>//
+
+<$list filter="[title{$(searchTiddler)$}has[title]]" template="$:/core/ui/ListItemTemplate"/>
+</$list>
+
 //<small>{{$:/language/Search/Matches/Title}}</small>//
 
-<$list filter="[!is[system]search:title{$(searchTiddler)$}!tag[Hidden]sort[title]limit[250]]" template="$:/core/ui/ListItemTemplate"/>
+<$list filter="[!is[system]search:title{$(searchTiddler)$}!tag[Hidden]sort[title]limit[250]] -[title{$(searchTiddler)$}]" template="$:/core/ui/ListItemTemplate"/>
 
 //<small>{{$:/language/Search/Matches/All}}</small>//
 

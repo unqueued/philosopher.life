@@ -1,0 +1,34 @@
+"""
+[16:44:20] h0p3: Have you made any changes to layer 0's specs? I want the exact verbage. That is going to be evidence.
+[16:44:44] h0p3: I may correct it for grammar as well, if that is okay.
+[16:44:51] h0p3: (which isn't to say my grammar is good)
+[16:45:19] BDS97: home: this is the latest spec, I don't think it changed but just in case, it's here
+[16:46:14] h0p3: Thank you. I'm growing increasingly convinced I won't get this job, but I'm going to try anyway.
+[16:52:14] BDS97: home: take this too if you'd like to, a snapshot of the working folder for the code so far
+[16:52:25] h0p3: Wow. Thank you!
+[16:53:32] BDS97: home: By the way, do you have any news about the job? Did they reply yet?
+[16:54:29] h0p3: I'm not done with the cover letter.
+[16:54:46] h0p3: I've been thinking quite a bit about it. I'm still drafting it.
+[16:56:06] BDS97: home: Well, good luck with it
+[16:56:26] h0p3: Gracias. =)
+[16:57:12] BDS97: home: Thinking about whether you'd get it, honestly, it's a gamble, really depends on their mindset as an employer
+[16:57:29] h0p3: Aye. Do they want my level of transparency?
+[16:57:48] h0p3: I think those in power, including the EFF, should care about it.
+[16:57:56] BDS97: home: You definitely have the qualifications, I don't think that's the problem
+[16:58:04] BDS97: home: And they did ask you to have an online presence by the way
+[16:58:34] BDS97: home: But you live in a different area, and it depends on how much they mind that
+[16:59:30] h0p3: Hm. Are you saying I don't have enough presence on the usual grid?
+[16:59:45] h0p3: (I am grateful for your honesty!...you will not hurt my feelings)
+[16:59:57] BDS97: home: I don't think that's a problem as long as you're willing to set one up if they ask you to
+[17:00:02] h0p3: Of course.
+[17:00:34] BDS97: home: I still think you should go for it
+[17:00:56] BDS97: home: It's a gamble, yes, but a gamble where you don't really have anything to lose and there are some pretty cool prizes to win
+[17:01:13] h0p3: Exactly!
+[17:06:08] h0p3: Why don't you host it on git, btw?
+[17:06:55] h0p3: (obviously, there may be excellent reasons...I'm not knowledgable enough to make the judgment)
+[17:07:09] BDS97: home: same reason atropos.io and /r/atropos have no content yet
+[17:07:17] BDS97: home: I don't feel like it's ready yet
+[17:07:22] h0p3: Fair enough.
+[17:07:28] h0p3: A good reason.
+[17:54:02] h0p3: This may be irrelevant or useless to you: https://dendibakh.github.io/blog/2019/02/09/Top-Down-performance-analysis-methodology
+"""

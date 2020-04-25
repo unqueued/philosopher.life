@@ -1,0 +1,13 @@
+created: 20170226015717791
+modified: 20200227061622324
+revision: 0
+tags: Philosophy
+title: Bayesian Confirmation Theory
+
+//Notes on Bayesian Confirmation Theory - Strevens//
+
+The epistemic agent assigns what we will call credences or subjective probabilities to different competing hypotheses which explain or predict a phenomenon. These credences are probability values between 1 and 0 (where 1 is certainty the credence is true and 0 is certainty it is false), and they reflect one particular person’s views on the probabilities of hypotheses, events, or their corresponding propositions, however rational. A credence is a psychological property which all epistemic agents have; it is a person’s level of expectation for a hypothesis or event. An agent's attitude to a hypothesis encapsulated in a level of confidence, or credence, that may take any of a range of different values from total disbelief to total belief. 
+
+Credences are thought to account for gambling/betting behaviors in a mathematical way. Presumably, there is little to no space between the probabilistic prescription of these credences and our choices and actions, at least in betting (excepting fallibility, even akrasia must be accounted for by credences). Admittedly, it is odd to "go Bayesian" on ethics. Ultimately, there is a learned, trained, virtue-theoretic set of utility equations we've stored in our fastminds which I take to be credences. It is our slowmind, our frontal lobes, which provide the reasons to think otherwise, to modify our credences.
+
+Agents are assumed to learn from evidence by what is called the Bayesian conditionalization rule. This rule updates your credences in the light of new evidence. As long as you have some particular opinion about how plausible each of a set of competing hypotheses is before you observe any evidence, the conditionalization rule will tell you exactly how to update your opinions as more and more evidence arrives.

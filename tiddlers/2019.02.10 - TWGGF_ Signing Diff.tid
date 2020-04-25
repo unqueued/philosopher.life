@@ -1,0 +1,91 @@
+created: 20190210160149223
+modified: 20200210103909468
+tags: TWGGF
+title: 2019.02.10 - TWGGF: Signing Diff
+
+I want to cryptographically sign my wiki.<<ref "2020.02.10">> I use nodejs to compile the html file, sign it, embed the signature into the html file, and then serve it over a few networks. Some methods transfer a bit-for-bit copy (git, resilio sync, ftp, etc.), so the signature verification works in those cases. Unfortunately, saving a freshly rendered wiki (https://philosopher.life) through a browser does //not// generate a bit-for-bit copy of the original. Chrome and FF save the same object, but that object is not identical with the output of nodejs. This is a problem; I need to be able to count on nodejs and browsers producing identical objects in order for my signature to be effective across multiple methods of serving the wiki.
+
+Here's the diff:
+
+-=[ PASTE ]=-
+
+```
+3c3
+< <!-- saved from url=(0021)https://tiddlywiki.com -->
+---
+> <!-- saved from url=(0021)https://tiddlywiki.com -->^M
+31336c31336
+<             &quot;text&quot;: &quot;no&quot;
+---
+>             &quot;text&quot;: &quot;yes&quot;
+31340c31340,31380
+<             &quot;text&quot;: &quot;yes&quot;
+---
+>             &quot;text&quot;: &quot;no&quot;
+>         },
+>         &quot;$:/info/url/full&quot;: {
+>             &quot;title&quot;: &quot;$:/info/url/full&quot;,
+>             &quot;text&quot;: &quot;https://philosopher.life/&quot;
+>         },
+>         &quot;$:/info/url/host&quot;: {
+>             &quot;title&quot;: &quot;$:/info/url/host&quot;,
+>             &quot;text&quot;: &quot;philosopher.life&quot;
+>         },
+>         &quot;$:/info/url/hostname&quot;: {
+>             &quot;title&quot;: &quot;$:/info/url/hostname&quot;,
+>             &quot;text&quot;: &quot;philosopher.life&quot;
+>         },
+>         &quot;$:/info/url/protocol&quot;: {
+>             &quot;title&quot;: &quot;$:/info/url/protocol&quot;,
+>             &quot;text&quot;: &quot;https:&quot;
+>         },
+>         &quot;$:/info/url/port&quot;: {
+>             &quot;title&quot;: &quot;$:/info/url/port&quot;,
+>             &quot;text&quot;: &quot;&quot;
+>         },
+>         &quot;$:/info/url/pathname&quot;: {
+>             &quot;title&quot;: &quot;$:/info/url/pathname&quot;,
+>             &quot;text&quot;: &quot;/&quot;
+>         },
+>         &quot;$:/info/url/search&quot;: {
+>             &quot;title&quot;: &quot;$:/info/url/search&quot;,
+>             &quot;text&quot;: &quot;&quot;
+>         },
+>         &quot;$:/info/url/origin&quot;: {
+>             &quot;title&quot;: &quot;$:/info/url/origin&quot;,
+>             &quot;text&quot;: &quot;https://philosopher.life&quot;
+>         },
+>         &quot;$:/info/browser/screen/width&quot;: {
+>             &quot;title&quot;: &quot;$:/info/browser/screen/width&quot;,
+>             &quot;text&quot;: &quot;1920&quot;
+>         },
+>         &quot;$:/info/browser/screen/height&quot;: {
+>             &quot;title&quot;: &quot;$:/info/browser/screen/height&quot;,
+>             &quot;text&quot;: &quot;1080&quot;
+275013,275014c275053
+< <pre>
+< How has your week been? You doing game night at church?How has your w
+---
+> <pre>How has your week been? You doing game night at church?How has your w
+278891,278892c278930
+< <pre>
+< Hey, you doing okay? You've been quiet, imho.
+---
+> <pre>Hey, you doing okay? You've been quiet, imho.
+284538,284539c284576
+< <pre>
+< Thank you for connecting Killcoin and me! I appreciate it.
+---
+> <pre>Thank you for connecting Killcoin and me! I appreciate it.
+359206c359243
+< </html>
+\ No newline at end of file
+---
+> </html>\n
+```
+
+Any ideas on how best to fix this?
+
+
+---
+<<footnotes "2020.02.10" "Almost no one gives a shit about. I don't understand why. It seems to be a strength of the wiki which is hard to match. It's AMP territory, I realize. It's also something which extends well beyond The Web. It's probably an expensive kind of problem to fix too, and maybe should just be automated over CLI-based browser tooling.">>

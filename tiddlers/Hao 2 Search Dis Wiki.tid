@@ -1,0 +1,149 @@
+created: 20190711141324876
+modified: 20200324185830289
+tags: SS;WR Readme
+title: Hao 2 Search Dis Wiki
+
+//Even silent lurkers may pay a high price in this wiki,<<ref "nr">> in part, because it is so large and fragmented. The wiki has some valuable search tools and organizational footholds to help the user find information and reason about its layers. Please feel free to ask for [[help]].//
+
+!! __Simply Surfing__:
+
+@@.bimlas-locator-explanation
+There is something to be said for wandering, surfing, and spiraling on the hierarchical links and gunky tags of this wiki by hand.<<ref "r">> It's meant to be a substantial hypertext that requires the curious user to unfold and explore its ergodicity as an active participant.<<ref "t">> For simply surfing, the sidebar is a low-hanging fruit starting place. The sidebar tabs are doorways I use constantly, and I try to keep them fairly up-to-date. It's also a fitting place for someone who wishes to read this wiki as a blog, a rhizome of [[Timelines]], or as a direct communications device. 
+
+Also, the {{$:/core/images/info-button}}nformation button has a //References// tab that shows backlinks<<ref "f">> to other tiddlers linking to your current tiddler.
+@@
+
+
+<br>
+
+!! __Search__:
+
+<<<
+`ctrl+f` is your friend. It even augments all the other search options.
+<<<
+
+<<<
+The [[Standard Search|$:/core/ui/AdvancedSearch/Standard]] is found in the sidebar search box and $:/AdvancedSearch (which houses most search methods on this wiki). Perhaps confusingly, the Standard Search includes two other kinds to enable users to stay in the sidebar as much as possible.<<ref "p">> 
+
+The Standard Search requires 3 characters minimum for performance reasons, and the [[output|2019.06.25 - Tagging Theory: Static]] is divided into:
+
+# //Exact match// is case-sensitive, and presents only when you type an exact match.
+# //Title matches// which include your terms in the title.
+# //All matches// which include your terms in the body of the tiddler.
+<<<
+
+<<<
+The [[Context Search]] is an excellent way to rapidly see how a term is used throughout the wiki in windowed contexts. Instead of having to open a bunch of tiddlers, you may be able to find what you are looking for by sweeping through here first. Performance is degrading rapidly in this tool.
+<<<
+
+<<<
+The [[Filter Search|$:/core/ui/AdvancedSearch/Filter]] is for making advanced queries, and I [[hope]] to make it easy on you.<<ref "e">> There's a "+" button so you can open every tiddler that matches your filter expression.<<ref "c">> You can read about filters [[here|https://tiddlywiki.com/static/Filters.html]], and please feel free to ask for help. Here are some mix'n'matchable examples you might find useful:
+
+; Contains Foobar1 in title and Foobar2 in body
+: `[search:title[Foobar1]search:text[Foobar2]]`
+
+; Tagged Foobar1 and not tagged Foobar2
+: `[tag[Foobar1]!tag[Foobar2]]`
+<<<
+
+<<<
+The [[Locator Search|Locator]] is visually interactive and [[unique|2019.07.09 - TWGGF: Bimlas]]. You will have to play with it to understand it. Roughly, it enables rapid exploration of adhoc tables of contents based on tag kinship.<<ref "w">>
+
+<div class="tc-tiddler-frame bimlas-locator-explanation">
+{{$:/core/images/refresh-button}} {{$:/core/images/new-button}}<br/>
+{{$:/core/images/right-arrow}} Ancestor tags<br/>
+{{$:/core/images/right-arrow}} (Previously opened parents, breadcrumbs)<br/>
+<hr/>
+{{$:/core/images/tag-button}} <<tag-pill "Direct tags">><br/>
+{{$:/core/images/tag-button}} <<tag-pill "(Tags of listed titles...)">><br/>
+{{$:/core/images/tag-button}} <<tag-pill "(...expect ancestor tags...)">><br/>
+{{$:/core/images/tag-button}} <<tag-pill "(...and listed titles)">><br/>
+{{$:/core/images/blank}} Title without button<br/>
+{{$:/core/images/blank}} (Normal list item)<br/>
+{{$:/core/images/right-arrow}} Title with button (ancestor tag)<br/>
+{{$:/core/images/right-arrow}} (Parent of other titles)<br/>
+</div>
+
+@@.bimlas-locator-explanation
+* {{$:/core/images/right-arrow}}: Move in to the context (show children of title)
+* {{$:/core/images/tag-button}}: Toggle filtering the list to this tag
+* {{$:/core/images/refresh-button}}: Reset the context, go to the top level
+* {{$:/core/images/new-button}}: Create new tiddler in the current context: apply the parent of the current view (the last ancestor tag) and the direct tags below it (like a special "new here" button)
+* {{$:/core/images/chevron-right}}: Found in the [[View Toolbar|$:/core/ui/ControlPanel/Toolbars/ViewToolbar]] of some tiddlers. It seeds the [[Maps]]->Locator tab.
+** Some broken links are to prospective tiddlers for Tags. You can quickly enumerate anything tagged from an empty tiddler whose name is a tag on this wiki.
+@@
+<<<
+
+<<<
+[[System Search|$:/core/ui/AdvancedSearch/System]] and [[Shadow tiddler Search|$:/core/ui/AdvancedSearch/Shadows]] are useful for those who want to look under the hood of this wiki. Odds are good that if you want to look here, I didn't need to tell you about these tools. 
+<<<
+
+<<<
+Lastly, there are some older tools, like $:/Manager, $:/TagManager, and other broken, obsolete, or incomplete search-like tools in this wiki. I don't know how [[Maps]] is going to evolve, but I hope it will become more useful over time. 
+<<<
+
+
+<br>
+
+!! __Bookmarking__:
+
+This wiki is much larger than you may realize, and it's easy to get lost or disoriented. While your navigation is captured in your browser history, it's not always the most convenient way to find where you've been. Bookmarking will aid you in systematically rabbitholing, tracking different branches, or checking up on particular drafts of the wiki over time. The URI of the wiki includes the current state of the storyriver (which can be arbitrarily large and rearranged as you see fit); these can be used for links and bookmarks. You can also bookmark particular queries. Browser [[extensions|Firefox Extension Collection]] & [[modifications|Wiki: Chromium Setup]] may also significantly aid in the navigation and ergonomics of crawling this wiki. 
+
+
+<br>
+
+!! __Custom Methods & Syndication__:
+
+This wiki is self-contained in a single html file.<<ref "ai">> You can download it and use your text editor, parser, or command line tools of choice to search. 
+
+Of note, you can also decompile the singlefile into individual tiddlers. The linking, naming, and tagging conventions are flawed but strong enough they may aid you in custom tooling.
+
+Here's an example of decompiling on Ubuntu:
+
+```bash
+#!/bin/bash
+
+sudo apt install nodejs npm -y
+sudo npm install -g tiddlywiki
+wget https://philosopher.life/
+mkdir wiki
+tiddlywiki /home/USER/wiki --init server
+tiddlywiki /home/USER/wiki --load /home/USER/index.html
+```
+
+You might also find [[TW5-Bob|https://github.com/OokTech/TW5-Bob]] to be an easy point and click method for decompilation. You can also [[Connect]] to P2P copies of the real-time single file or its decomposed .tids.
+
+You can find an RSS-like weekly-scoped feed (mimicking [[Recent]]) in-progress here: https://philosopher.life/feed.json. 
+
+
+<br>
+
+!! __Historical Analysis__:
+
+I keep [[daily snapshots|Ways to Connect to This Wiki]] of the wiki available for transparency, logistical, philosophical, and artistic reasons. Internal versioning on the wiki is still not ready. I also do not have ready-made tooling for programmatically searching through these snapshots.<<ref "ml">> You'll have to devise them for yourself at the moment, or you can search by hand.<<ref "i">> 
+
+
+<br>
+
+---
+<<footnotes "nr" "No refunds. //Caveat emptor//. You can never get those hours of your life back, sorry. Turn back now, and save yourselves! Lol.">>
+
+<<footnotes "r" "Mile-high, [[Root]] is the virtualized root [[directory]], but most do not find it useful beyond coming to grips with my [[APFVD]] structure.">>
+
+<<footnotes "t" "You probably already know I'm insane, but for clarification, this wiki is extremely large. No, I am not claiming my hand-written prolix quantity > [[antipleonasmic]] quality. However, because search and structure are fundamental to this object, quantity becomes far more [[salient]] in some contexts.">>
+
+<<footnotes "f" "It can also be useful for initial forensic considerations.">>
+
+<<footnotes "p" "I'll remind you that I probably search this wiki more than anyone else. You're stuck with what I find convenient. Note that you can tweak the settings under the hood of these search tools in your browser. Please feel free to ask me to modify them permanently or create a particular page just for you.">>
+
+<<footnotes "e" "Especially since I don't think you should have to feel like a standard programmer to use this wiki.">>
+
+<<footnotes "w" "In time, with more [[remodeling]] under my belt, I anticipate this tool will become stronger and stronger. I am a bit worried about its performance though.">>
+
+<<footnotes "c" "Filters are useful throughout TW. For example, [[Commander]] makes good use of them.">>
+
+<<footnotes "ai" "There's no tracking in this wiki, but you don't have to trust me. It's easy to read a snapshot of this wiki on an air-gapped solar-powered machine in the middle of nowhere.">>
+
+<<footnotes "ml" "I suspect that if and when I am ready to engage in ML with this wiki at large, these snapshots alongside a corpus generated for each day from the internet will be useful.">>
+
+<<footnotes "i" "I generally know the date ranges or an exact date I want to view.">>

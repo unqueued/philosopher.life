@@ -1,0 +1,88 @@
+created: 20191129054411623
+modified: 20191130021800351
+tags: kickscondor Note To
+title: 2019.11.29 - kickscondor: Not A Draft
+
+<<<
+yaoooo I've had a good time knowing you and watching people join the party.
+<<<
+
+Yo. Those words almost strike me as a man who is leaving the party.
+
+I've had a [[good]] time knowing you too! I'm not very virtuous at the practice of being at parties (often preferring to sit in the background and leave early), but I like that we have a party. 
+
+I will be attending a party with my wife's co-workers here soon. The host always reminds me that I may use their studyroom while the others are gathered together in the living room. They know it is draining for me to interact with so many people, and so they are exceptionally hospitable in how they aim to buy me space to be alone when it is required. I've never actually used the opportunity, but I appreciate the gesture and that the chance is there. I often sit quietly at these parties, but I do my best to connect (sometimes it goes well, and sometimes not so much). 
+
+You have at least once spoken about what it's like to blindly come to a party as though you don't know anyone except a single person there. This is so weird to me because I think you are at the center of the party, not the edges. That may be withering: I don't know. If you need to be on the edges (to come and go to the study or elsewhere more fluidly as you see it necessary), please let me know (and, yes, you can require my silence here). 
+
+From what I can tell, you are a busy man with a great deal on his plate. I like to envision the fire on each person's hilltop to be a place where people come and go freely: you are happy when they come to sit with you, and you cherish the memories when they can't be there. We wander through each other's deserts, forests, oceans, mountains, and lives.
+
+<<<
+Grateful for the conversations and all the encouragement.
+<<<
+
+Me too! I'm grateful that you make time for me and others.
+
+<<<
+Going to have to make a better dark theme a goal in 2020.
+<<<
+
+Feel no pressure from me, please. I have something which works for me in reading your site currently, even if it's missing part of your vision. I do enjoy it without the dark theme too (particularly the scrolling magic). 
+
+<<<
+ Basically just going to crib what you've got there. The art piece off to right looks rad. Reminds me of this album cover: https://www.allmusic.com/album/introducing-gorkys-zygotic-mynci-mw0000186511 (song: 'if fingers were xylophones')
+<<<
+
+Doh! I forgot to show you the picture which initially matters the most to me regarding us. Lol. `/snaps and sends one more`. I like my fleamarket find.
+
+Thank you for the cover and the song (my assumption is that the lyrics are crucial here), and essentially, what it reminds you of. Sometimes the gunkiness of reminding is the best route. I appreciate it. Trip-art can be beautifully bizarre. 
+
+<<<
+I am going to find some more time over the weekend to write more - the letters that you are all writing right now have unfolded new faces and expressions in me - digifaces! I have had a thought tho… I’m envisioning something - what if we did a groupchat for a certain range of time? Like maybe a week or maybe a month.
+
+And we can field questions to the group, answer them in hypertext - and when we’re done, I’ll make something out of it. Yes, we sort of do this already, but I’m thinking that having a beginning and an ending and a title maybe - could be interesting. Ahh, I’m explaining too much - it is just an attempt to branch off on the ‘hyperconversations’ game.
+<<<
+
+Yeah, that sounds interesting. I'd like to see what you'd make. So, if my vote counts, I'd prefer to either do it soon or at the beginning of next year. I'm moving, so I'd prefer not during that timeframe.
+
+Do you aim for something more real-time? Is the weekend when you'd like to do it, or what days would work best for you? Is this a group-chat over our sites or also using other tools?
+
+---
+
+<<<
+I’ll think about this - my target is those who don’t have the ability to host on a server - I kind of look at extensions as a way of hosting an app in the browser. I get the security concern - I need https://*/ permissions - which requires SO MUCH trust. Server access does, too, though. It feels like an arbitrary decision, so I tend to go with the path of least resistance for the fraidy folks out there.
+<<<
+
+That makes good sense to me. If anything, someone can run a blank and isolated browser with your extension, and the browser's sandbox is heavily field-tested. For as long as Firefox survives (which I don't see it disappearing just yet), this seems like the way to go to reach the masses (and, yes, the masses need it). There are simply too many client-side execution platforms to target.
+
+I think if one were to write the tool to be outside of the browser, one should go for Golang (a binary is extremely convenient, cross-compilation, easy for anyone to read and re-use, fairly performant, should have all the tools one would need built into the standard library). There may come a day where that will fit right back into the browser too. I'm not convinced this is worth your effort. Some extensions also poke a hole through the browser, from what I understand; this may be worth consideration.
+
+I am probably not clear enough, as usual. I think you've done a damned good job on an extremely moral tool. It looks good, it functions well, and I think it should spawn its own lineage. I'm not claiming you should push further unless you are sure that's the right thing to do, but I am convinced you are headed in the correct direction for anyone following your trail here.
+
+<<<
+I do recommend rss-bridge though. And maybe there is a way I can offer a static deployment of Fraidycat that calls out to RSS bridge. It seems simple - but I am totally unfamiliar with packaging and distribution of such a thing - perhaps someone can point me the right way.
+<<<
+
+RSS-Bridge is very cool. What other tools should I look at? I don't know how to do this well enough. Packaging a site up into something RSSable (or nearly) in the first place is best done by the server. In the give and take, it makes way more sense for the other side to help build bridges with you. [[j3d1h]] and I are working on that, though perhaps what we are making is completely wrong.
+
+<<<
+Well, I have put some groundwork into a project called Fraidyscrape that will be out soon - which will allow people to easily add custom sites, custom UI inputs (hopefully display customization eventually) and which can be updated outside of the normal Firefox/Chrome approval channels. So exactly what you’re talking about above, if I’m reading you right. So I am stockpiling. 😃 I don’t want to be pushed around by platforms - I intend to do the pushing.
+<<<
+
+Cool. I'm still learning about the toolchain and stockpile you are building here. I appreciate that you thinking far and wide about what it ought to be. I like the way you arm yourself and others.
+
+<<<
+Yes, I think this is such an advantage of decentralization in this case. It’s like a spirit animal that sits by your side and no one knows it’s there. It really is ‘yours’ in the sense that it exists completely within your personal machine and also doesn’t encroach on your autonomy - it literally should only do what you tell it to. It must be austere and loyal in that way.
+<<<
+
+I agree that it is 'ours' in as much the sense as we can hope for given the circumstances. It definitely puts your computer to work for you, and I'd argue others as well.
+
+I'm pretty awful at understanding the nature of spirit animals. I appreciate your analogy (although, perhaps never well enough). Our cat Chairman Meow plays fetch, but this is a much cooler animal. 
+
+<<<
+>    […] WeeChat, Trillian, and Pidgin […] MLDonkey and Bitcomet […]
+
+I used a lot of this software, too - yeah, you’re right, I’ve pulled some inspiration from there! Glad to be a part of that lineage. 
+<<<
+
+Onto another reminder. To be clear, they only remind me. These tend to be highly social pieces of software that I hold in high regard. I think your tool has many lineages then.  

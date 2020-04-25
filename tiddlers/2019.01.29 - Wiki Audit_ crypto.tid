@@ -1,0 +1,22 @@
+created: 20190129210019451
+modified: 20200207073735046
+tags: [[Wiki Audit]]
+title: 2019.01.29 - Wiki Audit: crypto
+
+Forward Secrecy. Key rotation for the wiki. How far down the crypto rabbithole do I need to go here?
+
+---
+
+I am extremely grateful to those who convinced me tagging with worth it. I am, of course, a slow learner.
+
+Thank you!
+
+I have a lot of hardcoded links in my wiki, and in many respects, it scales quite nicely. In other ways, it does not. I am not someone who understands the breakpoints and bottlenecks because I'm too ignorant about TW.<<ref "l">>
+
+Does anyone have benchmarks on how tags and mechanics built around tags computationally scale? I do not understand the limits of the tools in this wiki tool. I can tell you that I am worried about how it will scale for me. I don't think I'm a smart user of my wiki in so many ways, but I use it a ton (and I want to make sure I can continue using a ton). I want to wisely build it over its (and perhaps my) lifetime, and performance matters. I need to know if I should use tags sparingly or not.
+
+What are the most important computational bottlenecks facing Tiddlywiki? I don't want to blindly stumble upon gotchas; I'd need advice on what kinds of Tiddlywiki functions and architectures scale the best.
+
+
+---
+<<footnotes "l" "You are free to call me lazy. I would argue I'm doing my best with what I have.">>

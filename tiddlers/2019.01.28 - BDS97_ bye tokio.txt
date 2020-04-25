@@ -1,0 +1,41 @@
+[18:16:00] BDS97: home: alright, to hell with tokio
+[18:16:08] h0p3: lol
+[18:16:23] BDS97: home: solved the stuff without any streams or whatnot
+[18:16:47] BDS97: home: now a call to receive() just returns a vector that can contain an arbitary number of actually received packets
+[18:16:55] BDS97: home: keeping it all simple
+[18:17:15] BDS97: home: we can still use tokio for the actual I/O, but it's meaningless for this thing
+[18:18:13] BDS97: home: just need to put together that key exchange and then we have an actual layer 0 implementation
+[18:18:40] h0p3: Will Tokio ever become something we'd want?
+[18:19:06] BDS97: home: yep, it's still awesome for interfacing with the network and the parallelism
+[18:19:27] BDS97: home: the way it's built is just kinda stupid
+[18:19:58] BDS97: home: the basic issue is the nature of its futures
+[18:20:17] BDS97: home: most programming languages use push-based futures
+[18:20:41] BDS97: home: which is like "here's a future, you can subscribe to it, and it will call your listener when it's ready"
+[18:20:54] BDS97: home: or when it has errored out
+[18:21:01] BDS97: home: it's simple, sane, and universal
+[18:21:13] BDS97: home: tokio, however, went a completely different way, and uses poll-based futures
+[18:21:25] BDS97: home: it's like asking the future repeatedly "are you ready yet?"
+[18:21:43] BDS97: home: the key is knowing when to ask
+[18:22:14] h0p3: Why do you think they went this route?
+[18:22:17] BDS97: home: so, tokio has special "executors" for that, which drive futures to completion by repeatedly polling them
+[18:22:20] BDS97: home: they have their reasons
+[18:22:28] BDS97: home: apparently it's better for memory and handles backpressure better
+[18:22:44] BDS97: home: (backpressure being something not consuming futures at the rate they are completed)
+[18:22:55] BDS97: home: but it has its drawbacks too
+[18:23:12] BDS97: home: the executor needs to know when something happened
+[18:23:47] BDS97: home: so you cannot just return "not ready" when your own library is not ready
+[18:24:09] BDS97: home: if you do, the executor won't know when to poll again
+[18:24:27] BDS97: home: you can forward a "not ready" that you got from another future
+[18:24:44] BDS97: home: or you can inject yourself into the executor to notify it yourself whenever you're ready
+[18:26:02] BDS97: home: for us, this means we can either require the user to inject the Atropos API into Tokio's executor (wouldn't call that ergonomic) or not use its streams as general use streams
+[18:26:31] BDS97: home: option #2 seems to work better
+[18:27:49] h0p3: I have no idea if or to what extent this impacts performance. It's Rust though; it's going to be fast. This is just one implementation of the protocol too. There may come a day where someone optimizes.
+[18:28:33] h0p3: I don't know if it influences the difficulty of refactoring sections of the library either.
+[18:29:03] BDS97: home: I think it's the best we can do at the moment
+[18:29:31] BDS97: home: speed is not the only goal, I'm also going for the aspect of single binary or static linking within your binary
+[18:29:40] BDS97: home: it shouldn't be any more complex than using TCP or UDP
+[18:30:45] BDS97: home: ultimately, you should be able to just do something like #include <atropos.h> or extern crate atropos; and simply use the high-level stuff without caring about what tokio even is
+[18:30:59] h0p3: yes
+[18:31:51] h0p3: That will make the lives of devs much better. Functional blackboxes they trust but don't have to understand. 
+[22:11:13] BDS97: home: aaaand we have a working key exchange
+[22:11:39] BDS97: home: also, some bug in the code forwarded my clock to 4:10 AM

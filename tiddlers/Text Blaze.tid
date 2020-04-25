@@ -1,0 +1,22 @@
+created: 20181222072843364
+modified: 20200207074638696
+tags: [[Wiki: Chromium Setup]] Alias Computing Pin
+title: Text Blaze
+
+//Seems absolutely sick. I only get 10 for free. I gladly donate my `/emote` mechanics for the real deal.//
+
+`/autogen` := `<<list-links "[tag[{cursor}]]">>`
+
+`/search` := `[search:title[{cursor}]search:text[foobar]]`
+
+`/tag` := `<<tag [[{cursor}]]>>`
+
+`/foot` := `<<footnotes "{cursor}" "{clipboard}">>`
+
+`<<r` := `<<ref "{cursor}">>`
+
+`<<f` := `<<footnotes "{cursor}" "">>`
+
+`/AA` := Antipleonasm Analysis CnP
+
+`/d` := YYYY.MM.DD

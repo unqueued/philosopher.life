@@ -1,0 +1,357 @@
+"""
+Have a great day!
+TUE 8:16 AM
+You too! =)
+TUE 8:41 AM
+What you up to today in particular?
+TUE 8:41 AM
+Also, you make me happy in consistently shooting me a quick message each weekday. I'm dead curious: how many people do you tag in the morning?
+TUE 8:42 AM
+Just a sec and I’ll count up!
+TUE 8:42 AM
+Seventy........two?
+TUE 8:45 AM
+lol
+TUE 8:45 AM
+Most of those are entire discord servers.
+TUE 8:45 AM
+So I drop a message in general and move on.
+TUE 8:45 AM
+Several are personalized
+TUE 8:45 AM
+Carpetbomb spam, see who picks up the salient threads with you, work from there. It reminds me of men who have reverse engineered how to bruteforce OKCupid.
+TUE 8:46 AM
+It's beautiful.
+TUE 8:46 AM
+Here’s the kicker
+TUE 8:46 AM
+If I get a dozen responses, I consider it pretty good
+TUE 8:47 AM
+May I be one of your best respondents.
+TUE 8:47 AM
+Strong top 3! ;)
+TUE 8:47 AM
+I have some similar methods.
+TUE 8:48 AM
+That reminds me. I’ve been able to get ahold of [[JRE]] semi-consistently with this method. :D<<ref "2020.02.27-1">>
+TUE 8:50 AM
+=)
+TUE 8:51 AM
+A canary chirped for him.
+TUE 8:51 AM
+Where do you think instant DMing is lacking in semantic bandwidth?
+TUE 8:52 AM
+Hmmm. I’m not sure I understand the question. Sorry. :sweat_smile: 
+
+Are you saying that there are limitations to having actual conversation over DM?
+TUE 8:54 AM
+In theory, perhaps not. I can setup the exchange of arbitrary sized files over DMs. That is a hack though. In practice, especially given convention, there appear to be significant limitations.<<ref "2020.02.27-2">>
+TUE 8:57 AM
+I see what you mean now. Where DM fails me in exchanging files, I just use another platform. :joy:
+TUE 9:00 AM
+That is not what I mean.
+TUE 9:00 AM
+My file claim was just to say that I can take any kind of protocol or tooling and package it up to be transported over DMs as a middleman tunnel. Those packages can be unwrapped and then inserted into a tool that doesn't have what may be the limitations.
+TUE 9:02 AM
+I'm saying, there is a theoretical place where transporting data is just transporting data. That's not what I'm really questioning though.
+TUE 9:03 AM
+So it’s more like everything files, programs, lines of code, literal letters and numbers, can be broken down to a raw measurement of data despite what it makes up. 
+
+The idea is viewing anything that you can send via DM as its core components. So obviously you can’t run a program within Signal, but you can send me the files to the point where I can extract them and they run it outside of those limitations.
+TUE 9:07 AM
+You could also setup a program on both ends that would take the arbitrary code transported over Signal and run it. That's not what I'm after here. What kinds of digital social practices does DMing in practice not do as well as other digital social practices?
+TUE 9:09 AM
+Sometimes, it's like slurping through a straw to me.
+TUE 9:10 AM
+Aside, fun quote: "Never underestimate the bandwidth of a station wagon full of tapes hurtling down the highway."
+TUE 9:11 AM
+Hahaha. I love it!!
+TUE 9:13 AM
+One example some people would give would be video chat.
+TUE 9:17 AM
+For example, interviews which are not meant to be high-pressure are given over e-mail, interviews meant to test someone's facial expressions, body language, etc. in real-time are done over video. DM based interviews are rarer.
+TUE 9:19 AM
+I'm questioning DMing as a medium here.
+TUE 9:19 AM
+instant* DMing (of course, this becomes harder to talk about as messaging becomes hybridized)
+TUE 9:20 AM
+It seems to me there are remote contexts in which instant messaging is clearly the winner, and there are contexts in which it isn't.
+TUE 9:21 AM
+So does that mean that you consider it an inferior medium?
+TUE 10:04 AM
+No. There are necessary contexts in which is the superior medium.
+TUE 11:09 AM
+it is*
+TUE 11:09 AM
+I am claiming that it is an insufficient medium.
+TUE 11:14 AM
+Well yeah. I agree with you there for sure.<<ref "2020.02.27-3">>
+TUE 11:21 AM
+Cool. Where do you think instant DMing is lacking or insufficient?
+TUE 11:24 AM
+If we’re talking about basic features that are becoming universal across different platforms of DMing, I think the lack of having the best version of those features is a mistake. Like Instagram has photo features intrinsically linked into itself as well as its DM system that vastly outperform Facebook and other competitors. They have their own versions that just don’t hold up to the better one.
+TUE 11:40 AM
+That’s just one small example.
+TUE 11:41 AM
+That is a good point.
+TUE 11:42 AM
+Another example. Everyone is copying Snapchat stories but Instagram still does them the best.
+TUE 11:43 AM
+Why the fuck does YouTube need them too? :joy:
+TUE 11:44 AM
+Sorry. I’m getting off topic
+TUE 11:44 AM
+Optimal, low-friction, intuitive image integration into messaging seems more useful to some than others.
+TUE 11:45 AM
+I usually only point to images for abstractions or just the plain maymays.
+TUE 11:46 AM
+Snapchat and Instagram stories are ephemeral, right?
+TUE 11:46 AM
+To an extent yes.
+TUE 11:46 AM
+Some of them can be saved.
+TUE 11:46 AM
+I like having gifs in some of my DM platforms.
+TUE 11:47 AM
+But not all of them have it.
+TUE 11:47 AM
+Slack and discord do not.
+TUE 11:47 AM
+Well, you can always generate your own copies* with a rip.
+TUE 11:47 AM
+But, I take it, some are intentionally made savable and others not on the platforms.
+TUE 11:47 AM
+Exactly.
+TUE 11:47 AM
+Why do you value ephemeral posting?
+TUE 11:47 AM
+I honestly don’t use them.
+TUE 11:49 AM
+But if I did, I would only want to use the best possible version of them.
+TUE 11:52 AM
+Only the best!
+TUE 11:52 AM
+I honestly wish I could more properly integrate my social media together so all of this stuff is universal.
+TUE 11:53 AM
+It’s needless to have the same thing but different in 5 different places.
+TUE 11:54 AM
+I am a fan of seeking the best communication tools and infrastructure too. It's still something I like to dream about.
+TUE 11:54 AM
+Also, I'm reminded: what do you think of hyperliterature? It seems like something you would (or could) have strong opinions about. Telling interactive digital stories  (to various degrees or kinds) seems like something right up a DMs alley. Reminds me of MUDs, etc.
+TUE 11:58 AM
+You mean like ARGs?
+TUE 11:58 AM
+That is a very strong class of hyperliterature, imho.
+TUE 11:59 AM
+What would be a more generalized version? :o
+TUE 12:00 PM
+Well, those are so interactive and spread across mediums that they are puzzles we uncover, imho.
+TUE 12:01 PM
+They are hivemind like, almost like watching the internet play Pokemon over Twitch or something.
+TUE 12:01 PM
+It's like digital geocaching even.
+TUE 12:01 PM
+I think hyperliterature doesn't necessarily require so much agency.
+TUE 12:02 PM
+So less like a hypertext story and more like an intangible story that we can have an effect on.
+TUE 12:02 PM
+Aye, ARGs are a potent strand of hyperliterature.
+TUE 12:03 PM
+They are practically social video games to me.
+TUE 12:03 PM
+I think the fourth wall is a necessary evil to telling a self-contained story, but for a lot of stories like that, it’s fun to see the line being pushed or even crossed before retreating
+TUE 12:04 PM
+But, literature can be far more static, less-puzzle oriented, not about the archeology in the world.
+TUE 12:04 PM
+What is the most minimal example of necessary 4th Wall Breaking you can find in storytelling?
+TUE 12:05 PM
+I've not put enough thought into it, clearly.
+TUE 12:05 PM
+That may be right, and that's an important claim.
+TUE 12:05 PM
+Undertale does a pretty good job of it imo, but that’s more of a physical video game aspect that doesn’t have much residual energy after the novelty wears off.
+TUE 12:06 PM
+I wouldn’t consider it literature though.
+TUE 12:07 PM
+Digital literature***
+TUE 12:07 PM
+Undertale's narration pushes at breaking the 4th wall. That doesn't seem minimal to me.
+TUE 12:08 PM
+Ah “minimal”!
+TUE 12:08 PM
+Let me see....
+TUE 12:08 PM
+Insofar as it is, it's pretty "choose-your-own" adventure.
+TUE 12:08 PM
+So from a purely literary standpoint, acknowledging the reader as a character or entity can be necessary depending on the context of the story.
+TUE 12:09 PM
+Sometimes it gives credence to the text almost in a “found footage” way, like you’ve come across an ancient tome or something like that.
+TUE 12:10 PM
+Yup! I see that.
+TUE 12:10 PM
+Though, that isn't necessary.
+TUE 12:10 PM
+Maybe the keyword I'm missing is "self-contained" story.
+TUE 12:10 PM
+Or maybe more like, the literature is self-referential.
+TUE 12:10 PM
+Maybe we're at that point where we are questioning the extent to which the meaning of the story is based upon the audience recognizing they are doing so?
+TUE 12:11 PM
+I wrote a short horror story awhile ago where the story ended with the main character’s consciousness became one with an entity that addressed the reader directly.
+TUE 12:11 PM
+Becoming***
+TUE 12:11 PM
+Could be!
+TUE 12:12 PM
+There’s a YouTube series called Petscop about a guy doing a fictional let’s play about a “game he found” where creepy shit starts happening.
+TUE 12:13 PM
+In actuality, he programmed it himself, but people are invested to see what happens next because it’s fun to pretend it’s real and ongoing.
+TUE 12:13 PM
+I would consider that digital storytelling that plays with the fourth wall!
+TUE 12:15 PM
+I'm watching the first episode now
+TUE 12:16 PM
+Despite being a fabrication, it is accepted as “truth” and I’m certain that the comments are shaping future development.
+TUE 12:16 PM
+I haven’t actually seen it yet.
+TUE 12:16 PM
+But I’ve dabbed in the lore so don’t worry about spoiling me.
+TUE 12:16 PM
+Reminds me of creepypasta some.
+TUE 12:20 PM
+Bit o weirdcore.
+TUE 12:20 PM
+I’m listening to a video called “Top 15 Haunted videos” right now. I think that’s another way to poke at the fourth wall, because some of them are “cursed” and the aspect of watching them then creates a story in itself. Obviously I’m not scared of them, but the act of experiencing them creates a weird pseudorealistic experience.
+TUE 12:20 PM
+It definitely lies in the direction of creepypasta
+TUE 12:20 PM
+I hate to say it, but I'm not convinced 4th wall breaking is necessary to telling a story.
+TUE 12:21 PM
+It’s not!
+TUE 12:21 PM
+But sometimes it is.
+TUE 12:21 PM
+It really depends on the tale.
+TUE 12:21 PM
+Ah, okay. Cool.
+TUE 12:22 PM
+So I’m pretty biased because I like to view stories as living entities. When they break the fourth wall, it really reinforces that ideology.
+TUE 12:23 PM
+A story does when people stop talking about it.
+TUE 12:24 PM
+Why do you like to view them that way?
+TUE 12:24 PM
+Dies
+TUE 12:24 PM
+Do we "talk to ourselves" about stories in consuming them? Are we telling ourselves a story with the artifact handed to us, in the way in which we decode and interpret the symbols?<<ref "2020.02.27-4">>
+TUE 12:25 PM
+(btw, this is a fascinating conversation to me)
+TUE 12:25 PM
+I’m not sure. Maybe it’s a weird god complex thing? The idea that we can create life in a medium that has a physical effect on others is interesting.
+TUE 12:25 PM
+Same!
+TUE 12:25 PM
+I think in a way, everyone wishes that they could be God, and having their own universe in which to enact their will.
+TUE 12:27 PM
+Hence why stories are alive.
+TUE 12:27 PM
+This is pure speculation of course.
+TUE 12:27 PM
+Hegel might agree with you.
+TUE 12:27 PM
+This creates a whole slew of questions though. Is it a bad thing? Is it okay if it doesn’t hurt anyone? Does it make the author a proud person? Belligerent?
+TUE 12:28 PM
+You think literature exists for people to enact their will to power?
+TUE 12:28 PM
+I could keep going.
+TUE 12:28 PM
+Maybe!
+TUE 12:29 PM
+Wordsworth wrote poetry because he wanted to challenge the intellect of the common man.
+TUE 12:29 PM
+And he succeeded
+TUE 12:29 PM
+I'm going to ask you to spend more time thinking about your claim here.
+TUE 12:33 PM
+It is a very large one.
+TUE 12:33 PM
+Well, it’s more thinking aloud.
+TUE 12:34 PM
+It’s not necessarily my opinion.
+TUE 12:34 PM
+Consciousness is your brain telling yourself the story of your ego tunnel.
+TUE 12:34 PM
+What we are, to some extent, just is a creature which tells itself the stories of itself.
+TUE 12:34 PM
+I agree that people seek power, but power for what?
+TUE 12:35 PM
+Could be to better themselves. Control. Money. Influence over Others.
+TUE 12:36 PM
+I think every conscious interaction is a story, a representation which correlates to reality to various degrees (some basically not at all).
+TUE 12:36 PM
+Our conversations here are a story too!
+TUE 12:36 PM
+Agreed.
+TUE 12:36 PM
+Power is only ever a means. What is the justified goal of power?
+TUE 12:37 PM
+Morally speaking: why should anyone tell stories or consciously interact with the world?
+TUE 12:37 PM
+Biologically it’s because we are social creatures. We can’t help but tell stories and interact with each other.
+TUE 12:38 PM
+That is a description, not a prescription.
+TUE 12:39 PM
+What do you think? :o
+TUE 12:39 PM
+I think there is a reality, even if we can never be certain of what it is. At least insofar as we can computationally articulate, we only ever have direct access to the representative stories of reality. I think objective meaning is real. I think morality is not merely a confabulatory social construct. I think some stories and identities are objective valid and others invalid. I think we actually have moral purpose in our lives.
+TUE 12:44 PM
+It is why I'm so obsessed with how and why we all tell ourselves and each other the stories of ourselves and world as wisely as possible.
+TUE 12:45 PM
+I think stories actually matter.
+TUE 12:45 PM
+Insofar as freewill obtains, we have the ability to change parts of the story we're in. I do not take that ability lightly at all.
+TUE 12:45 PM
+Would you agree that the core of all stories are simply metaphysical connections between two or more entities?
+TUE 12:46 PM
+Thus, I do not think power exists for simply imposing our stories onto others, but for something much greater than ourselves.
+TUE 12:46 PM
+Okay I see the discrepancy now.
+TUE 12:47 PM
+I was talking about more literal, written stories.
+TUE 12:47 PM
+:joy:
+TUE 12:47 PM
+You’re talking about ALL stories, yeah?
+TUE 12:48 PM
+I am not in a position to answer your question because I do not know the nature of The Objective which defines itself and all others.
+TUE 12:48 PM
+I humbly do not wish to anthropomorphize it.
+TUE 12:48 PM
+Haha. You’re fine!
+TUE 12:48 PM
+I cannot tell you if reality is a "story" to such a thing, but your question is an excellent one.
+TUE 12:49 PM
+One of the primary criticisms of modern offered by postmodernism is the metanarratival claim that there are no objective metanarratives.
+TUE 12:51 PM
+It is one of the reasons one of my {[[axioms]]} is: [[Deconstruction Obligates Reconstruction]].
+TUE 12:51 PM
+It is not an easy vortex to escape.
+TUE 12:52 PM
+In any case, your concern about being gods in the creation of literature extends all the way down to what it means to be conscious (and beyond), imho.
+TUE 12:54 PM
+Insofar as it is up to us at all, the moral motivation behind telling any story of any kind matters.
+TUE 12:55 PM
+I agree wholeheartedly.<<ref "2020.02.27-5">>
+TUE 12:56 PM
+"""
+
+---
+<<footnotes "2020.02.27-1" "I'm glad we talked about this.">>
+
+<<footnotes "2020.02.27-2" "Yeah, I think [[K]] has helped me change my mind about what I'm doing in the wiki. For those who only use the wiki, I often ask for more instants mediums, and for those who only use instant mediums, I ask they also use the wiki.">>
+
+<<footnotes "2020.02.27-3" "Hence, my insistence.">>
+
+<<footnotes "2020.02.27-4" "A fine set of questions which I continue to attempt to address again and again.">>
+
+<<footnotes "2020.02.27-5" "I almost want to add a 'Star' tag or something to this conversation. It's jam-packed. I lay it right there on the line. Aside, in thinking about masks recently, I can see that the notion of moral motivation and the [[infingress]]es of intent may need to be discussed.">>

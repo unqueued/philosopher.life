@@ -1,0 +1,37 @@
+created: 20190206174855753
+modified: 20200207073624182
+tags: [[Realpolitik Speculation]] [[Wiki Audit]]
+title: 2019.02.06 - Wiki Audit: Formunctional mroFunction
+
+[[Sphygmus]] seems to not only be offering different styles to her wiki (and [[kickscondor]] to href.cool), but perhaps also gesturing to us that the choosing the form of the doorway is going to be functionally valuable (beyond looking awesome). I am obviously a noob here. 
+
+I am reminded of colorblind mode for games, for which I am grateful. Similarly, I need dark mode for my light sensitivity (such a picky bastard, I know). 
+
+Jed has (perhaps jokingly, maybe?) claimed he cannot read anything on my site due to dyslexia. I'm briefly considered it here: [[2018.12.12 - Wiki Audit: Switching]]. Skinning my site may be functionally valuable. 
+
+What are the functional contexts where the form matters?<<ref "i">>
+
+* Mobile first design
+* Dyslexia
+
+So, I've added "ALIAS/LINKS/POPUPS constructed via filters" to [[Wiki: TDL]]. I suppose that could be made firmcoded. I'm not sure it's important enough. I want to be able to point to dynamic constructions with am internal link alone.
+
+Hrm.  
+
+<<<
+Is it possible to choose a CSS-based look for a wiki from the URL in the same way that we can choose the storyriver?
+<<<
+
+I envision bookmarking/syndication/function-cosmetics to be a kind of input from the URL into the html file. I don't want to store cookies and shit on people's computers. I want them to choose the doorways from the URL bar or inside the wiki itself.
+
+As usual, I feel like I'm just reinventing the reinvention of the wheel here. There must be countless better ways to do it. 
+
+What are the limits of this input mechanism? Can I feed it a complete stylesheet of my own design? Are there more important kinds of injections to consider? I can only assume browsers aren't designed for this to be taken to an extreme.
+
+It's fascinating to see Google may have the URL disappear or at least appear different as they shape the web into infantilized-usability. Am I ruining the URL in the same way? Tinfoil hat question: are they going to be opposed to this kind of URL-based functionality? They are moving to other methods of tracking users. They want control of your URL bar; they want to mediate all interaction to the web.
+
+Will Chrome eventually destroy parts of what I do in my wiki? It is possible.
+
+
+---
+<<footnotes "i" "I really am slow here. I have no idea where this wiki is going.">>

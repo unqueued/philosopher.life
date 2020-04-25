@@ -1,0 +1,26 @@
+created: 20190209035607002
+modified: 20200209051853521
+tags: [[RGM Notes]] [[Wiki Audit]] [[Computer Musings]]
+title: 2019.02.08 - Wiki Audit: Lag
+
+I've noticed the wiki is getting even laggier over https://philosopher.life/.<<ref "2020.02.09-1">> Even after I see something render, it takes a while for it to become functional. If it's just the sheer size, I'm fine with that (I guess). The new browser-saving mechanism may open up a window into fragmenting TW into more manageable parts that are lazy-loaded, but I still want to emit one thing (it is possible that something will be fixed...).
+
+I need to learn how to profile this.<<ref "2020.02.09-2">>
+
+I need to strip out all the tags and see if that's the problem. If it is, then I'm going to have to radically shift what I'm doing.
+
+Perhaps I should ask on the forums.
+
+---
+
+[[Real-Time Embedded Wiki Signature]]s are almost live.
+
+---
+
+Gitpages seems to be struggling more.
+
+
+---
+<<footnotes "2020.02.09-1" "It's still nasty slow on a shitty device. I think the bleeding has stopped for now though.">>
+
+<<footnotes "2020.02.09-2" "It turns out the tooling is kind of primitive. Even the experts had to guess.">>

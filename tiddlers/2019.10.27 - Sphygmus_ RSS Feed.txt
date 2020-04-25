@@ -1,0 +1,23 @@
+[8:04 PM] robotic_scarab: I'm curious, have you seen this?
+[8:04 PM] robotic_scarab: https://github.com/dullroar/TW5-atomfeed
+GitHub
+dullroar/TW5-atomfeed
+TiddlyWiki5 plugin to generate ATOM feed. Contribute to dullroar/TW5-atomfeed development by creating an account on GitHub.
+
+[10:59 AM] h0p3: Yes. I ran into it that. I was asked for an RSS feed before: https://philosopher.life/#2018.07.09%20-%20Mark%20Slater%3A%20RSS. I've been doubtful that RSSing is worthwhile without the reader's programmatic intervention. Since then, I've added more metadata to tiddlers to the point there's something to hold onto for programmatically sifting through the flood (though, at some point, sifting the body of the tiddlers themselves may still be the real work). You think I should go that direction?
+[12:15 PM] robotic_scarab: So my impression of fraidycat (and I may be wrong) is that it keeps track of when a site updates, displays the titles of recent updates, and then the user clicks a link to visit the site and read the updates (rather than an RSS reader where they read the post inline)
+[12:16 PM] robotic_scarab: An RSS feed might be lighter for it to check updates from than parsing the whole single wiki file
+[12:16 PM] h0p3: Yes, definitely lighter.
+[12:16 PM] h0p3: I want to make sure that I'm building a useful feed for someone who aims to parse something.
+[12:17 PM] robotic_scarab: But I also noticed in the screenshot that it captured edits and not just new tiddlers? So you'd probably lose that feature if you built an RSS feed.
+[12:17 PM] robotic_scarab: (I wouldn't have noticed you'd updated your hidden root tiddler if I hadn't been inspecting that screenshot haha)
+[12:20 PM] h0p3: Aye. Building the RSS feed, I'd be inclined to leave out the hidden files too. I don't put them in the feeds on my own wiki either. That is something for the reader to track. There's a give and take between the reader and writer here.
+[12:25 PM] h0p3: At least at the moment, I have no use for an RSS feed from your wiki. I want to see every post. It almost defeats the purpose of what makes it a unifying kind of storytelling tool. But, the idea of notifications or trying to prioritize what I'd see first makes sense. Part of that work is something I want to accomplish in the structuring of the wiki itself. I am growing convinced that some sort of metadata file is valuable.
+[6:16 PM] robotic_scarab: I hear you. I'm not really interested in prioritizing what visitors see first...heck, the first button I click when I visit any wiki is the "close all" button, ahah
+[6:17 PM] h0p3: Lol. Yup.
+[6:18 PM] h0p3: I think my goal for kicks will be to provide him a key to a full index, including voldy. That is a good balance. I don't mind spending compute for him, and I think he's actually going to use it in a way that extends well beyond what I can do for him in my wiki.
+[6:19 PM] robotic_scarab: what do you mean by full index?
+[6:20 PM] h0p3: I'm probably using the wrong words here. What shows up in [[New]] and [[Recent]] isn't a complete feed. It's filtered. I'm going to offer it to him unfiltered since that will fit his tool.
+[6:21 PM] robotic_scarab: in a separate file, or as a separate timeline?
+[6:21 PM] h0p3: file, will send p2p
+[6:21 PM] robotic_scarab: ah, i see

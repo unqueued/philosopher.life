@@ -1,0 +1,119 @@
+[17:41:32] h0p3: I've been recommended a book, if you want to read it with me: "How to Do Nothing: Resisting the Attention Economy"
+[17:47:08] BDS97: home: Sounds interesting
+[17:52:32] h0p3: This might also be of interest: https://eprint.iacr.org/2017/954.pdf
+[17:54:27] BDS97: home: looks nice, definitely gonna read it
+[17:54:55] BDS97: home: for now I'm working on getting the network off the ground first, we can work on anonymity later
+[17:55:34] BDS97: home: btw my answer would be low latency first, and the tradeoff between anonymity and bandwidth overhead wherever we need it
+[17:55:45] h0p3: Agreed!
+[17:55:49] BDS97: home: the adversary is global, that's right
+[17:56:26] BDS97: home: but this is not war, the incentives are much lower, per user
+[17:56:49] BDS97: home: you should definitely be able to trade latency and bandwidth for strong anonymity
+[17:56:54] h0p3: Like a Mixnet, everyone has to use it for everyone to benefit. Make it cost as little as possible. Those who want to pay higher prices can. 
+[17:57:08] BDS97: home: yeah, exactly
+[17:57:15] BDS97: home: is that a cryptocoin thing btw?
+[17:58:15] h0p3: Ran across it in VPNs before cryptocoins.
+[17:58:25] BDS97: home: sounds interesting
+[17:58:29] BDS97: home: anyway, for the network, a few hops are enough to obfuscate it enough to prevent mass surveillance
+[17:59:05] BDS97: home: cutting through the crypto and tracing every single packet should be infeasible
+[17:59:23] BDS97: home: so even if you want to spy on it you have to have a laser focus on a few specific users
+[18:00:31] BDS97: home: plus the whole mesh is going to be changing constantly, so good luck tracing anything for more than 10 seconds
+[18:00:44] h0p3: And, I'd much rather connect through the closest neighbors on my rhizome. Fingerprinting will always be very hard to answer, but that is outside the scope of the tool.
+[18:01:22] BDS97: home: yep, people who use that should be relatively indistinguishable from people with casual use over the network
+[18:02:38] BDS97: home: the most important part is to fight against systematic tampering such as censorship, blocked or favored services, etc.
+[18:03:43] BDS97: home: plus, I'm not sure if the surveillance algorithms scale anywhere close to O(n) or O(n log n)
+[18:05:59] BDS97: home: what's your opinion on the UK's porn law?
+[18:38:54] BDS97: home: reading the thing you sent over right now
+[18:39:03] BDS97: home: seems like it focuses on way stronger anonymity networks
+[18:39:16] BDS97: home: like DC-nets and similar options
+[18:40:45] BDS97: home: also, way smaller ones
+[18:41:36] BDS97: home: I'm really hoping Atropos can take off in size, that's why I'm working on making it so universal
+[18:57:05] h0p3: Sorry, I went off the deepend! Rabbitholing. 
+[18:57:56] h0p3: The UK's porn law is fucking insane.
+[18:59:48] h0p3: It is possible that it is morally obligated that a site or service voluntarily require real IDs in some cases, but forcing that is another ballgame entirely. I think that will be used as a weapon.
+[19:01:17] h0p3: I think you should be able to anonymously watch porn, and I'm opposed to age restrictions to access the internet. I turn a blind eye to the kids who use the computers in my Afterschool Teaching. There are very strict rules they are supposed to follow, but I'm morally opposed to enforcing them.
+[19:01:54] h0p3: When asked, I will always tell them what the school policy is, and that I am required to repeat the school policy to them. There is never an actual wink, but I make it as clear as I can how to break rules without getting caught.
+[19:03:25] h0p3: The teachers will force students to unlock their phones to go through their messages and applications. I am telling students to keep a plausible deniability account ready with a different login and/or to hide their data better. Students get in a lot of trouble for not following these rules. I even tell them to buy a cheap android phone to switch SIM cards to bypass parental tooling.
+[19:04:16] h0p3: If they can*
+[19:04:20] BDS97: home: what the...
+[19:04:23] BDS97: home: that unlocking thing
+[19:04:28] BDS97: home: holy shit, that's creepy
+[19:04:33] h0p3: It's completely fucked up.
+[19:04:45] h0p3: I hate the ~~adults~~ prison guards in that school.
+[19:05:00] BDS97: home: you know how much I don't trust phones, but my phone is still basically my digital key
+[19:05:16] h0p3: If they have an image of a half-naked woman on their phone, they get sent home.
+[19:05:24] h0p3: I know. =(
+[19:05:35] BDS97: home: who the fuck thinks this is a good idea
+[19:06:09] BDS97: home: like, who the fuck thought "hey, there are these teenagers, if they look at softcore porn let's burn them"
+[19:06:30] BDS97: home: were they born sad adults or what?
+[19:06:36] h0p3: This is how they control the kids, shape who they are allowed to be, make sure their dancing doesn't lead to sex, and form good little shells ripe for capitalist exploitation.
+[19:06:57] h0p3: I live in a very conservative area, Trumpland.
+[19:07:14] h0p3: I don't think I can explain the insanity well enough to you.
+[19:08:19] BDS97: home: pretty sure none of those parents and teachers had the sears magazine under their bed
+[19:08:52] h0p3: As to the way stronger anonymity, I just want to make sure all the modularity and ease of tuning the configuration will be appropriate to it. I anticipate others will build networks on top of Atropos. Hell, even Tor could live on top of Atropos.
+[19:09:09] h0p3: Yeah, that is the mind-blowing hypocrisy. 
+[19:09:39] BDS97: home: yeah, for atropos, that's the idea
+[19:10:01] BDS97: home: at first we'll start out as a secure network, a foundation for others to build upon
+[19:10:28] BDS97: home: no hub, no "this is what life will be in the post-datacenter world", none of that
+[19:10:36] BDS97: home: even though the plan will be in the background
+[19:10:59] BDS97: home: because the aim is to convince developers to use it, not the privacy crowd
+[19:11:14] BDS97: home: and pretty sure that's gonna spark the latter group to make those things by themselves
+[19:11:23] h0p3: Aye. 
+[19:11:36] BDS97: home: which is great, open source tends to get amazing stuff out of it
+[19:11:46] BDS97: home: but at the beginning the plan is modularity
+[19:12:26] BDS97: home: you want to make the next instagram on a decentralized network? Awesome, here's a network tool for that, and have you seen our upcoming filesystem?
+[19:12:51] BDS97: home: in fact, that modularity should stay all the way to the end, we'll just expand as we gain traction
+[19:13:18] BDS97: home: like, pretty sure we can't start the hub out of nothing
+[19:13:50] BDS97: home: also, this could help dodge anyone who'd like to stop us so when they actually go there we'll be far enough ahead
+[19:15:45] BDS97: home: btw, speaking of atropos, finally started working on it again
+[19:16:00] BDS97: home: still no luck with finding a proper concurrency framework for rust
+[19:16:13] BDS97: home: so I decided fuck it, I'm gonna roll my own
+[19:17:43] h0p3: That's so weird, right? Rust is literally designed for it. Takes a while for it to grow. It's not go the same backing as Golang which allows Google to freeride on the public to construct their own tooling for them. 
+[19:18:45] h0p3: I'm having a hard time seeing a big name centralized company accepting this. It's probably most useful to smaller development.
+[19:19:19] BDS97: home: why not, light darknet stuff is getting kinda popular nowadays
+[19:19:40] BDS97: home: that's why I want to keep quiet about the ideology for now, and just focus on the tech
+[19:19:56] BDS97: home: atropos should be effective, but also ridiculously easy to use, that's a major design goal
+[19:20:43] h0p3: I worried any network engineer who reads the spec will know exactly what this entails. 
+[19:21:24] BDS97: home: onion routing, masking, and censorship avoidance
+[19:21:31] BDS97: home: yeah, we're not gonna hide that
+[19:21:48] BDS97: home: we're just not gonna say "hey, we're atropos, we'd like to change the world with all that stuff"
+[19:21:57] h0p3: K
+[19:22:37] BDS97: home: instead it will be "hey, there's this ridiculously easy to use tool with onion routing to get you through NATs and full crypto to stop any adversary"
+[19:23:07] h0p3: Hard to imagine onion routing and censorship avoidance not immediately interpreted in that light, but I might be particularly sensitive to those claims. 
+[19:23:43] BDS97: home: I don't think it's that hard to imagine, and actually, that's kinda sad if you think about it
+[19:24:29] BDS97: home: for example it helps you get through ISP interference if net neutrality is not enforced
+[19:25:02] BDS97: home: that's a major selling point for any tech company without being politically loaded
+[19:25:21] BDS97: home: and then there's the rising popularity of VPNs
+[19:25:36] BDS97: home: wouldn't it be nice to say your product already has the advantages of one?
+[19:26:07] BDS97: home: the sad part is all the reasons for which we need these, the reasons that make such things normal
+[19:29:00] h0p3: Aye, selling as a library with low-latency, high-performance, NAT-piercing VPN with arbitrary nesting and network topologies.  
+[19:29:48] BDS97: home: end-to-end encryption is getting normalized in instant messaging apps
+[19:29:57] BDS97: home: can't see why onion routing couldn't be the next
+[19:30:40] h0p3: E2EE, however, is not as large a move as decentralization. It's much harder to convince people to not have centralized control.
+[19:31:00] h0p3: You can build centralized control on top of this, ofc.
+[19:31:15] BDS97: home: yeah, I don't think most early adopters will give up centralized control
+[19:31:25] BDS97: home: that's the hub era, a later phase of the master plan
+[19:31:47] BDS97: home: for now, onion routing and filter avoidance would solve quite a few modern problems
+[19:32:54] BDS97: home: biased networks and ISPs, a Russian IP block for not handing over user data, complex corporate NATs, dictators with fragile egos blocking entire apps, etc.
+[19:33:20] BDS97: home: like, if Telegram was built on Atropos, Putin would be having a much harder time getting rid of it
+[19:35:23] h0p3: Russia is going the way of China faster and faster.
+[19:38:13] h0p3: The US is obviously no saint here.* It's an oligarghy that controls our media, and there's plenty of social pressure to boot. Not having a FB account where I live is tantamount to being dead to most people.
+[19:39:33] BDS97: home: I'm enjoying the afterlife then
+[19:39:44] BDS97: home: well, messenger is still there, that's where most of my contacts are
+[19:40:13] BDS97: home: but no idea when I last visited facebook.com
+[20:01:41] BDS97: home: btw quick mockup of what I'm working on right now
+[20:18:53] BDS97: home: and here's one for the concurrency setup I'm building
+[20:19:05] BDS97: home: this solves the event loop problem too, by the way
+[20:19:25] BDS97: home: all of the workers are basically their own separate event loops
+[20:19:32] BDS97: home: but they can send events to each other as well
+[20:46:19] h0p3: I didn't realize I could hover the images in qTox. Neat. 
+[20:46:40] BDS97: home: wow, nice
+[20:47:33] h0p3: Very cool mockups. I need to read more on the Event Loop problem.
+[20:47:57] BDS97: home: it's just a programming technique
+[20:48:35] BDS97: home: basically, you have a queue of events and you handle them sequentially
+[20:48:50] BDS97: home: makes it really easy to write asynchronous logic (and a bunch of other things as well)
+[20:49:04] BDS97: home: you basically just do whatever you can right now, then defer everything else to a later event
+[20:49:35] BDS97: home: for example, JS runs on a single event loop
+[20:49:42] BDS97: home: (that's mostly why it's single-threaded)
+[20:50:17] BDS97: home: with hoplite (the rust library I'm writing) each worker is a separate event loop
+[20:50:22] BDS97: home: and they can send events to each other
+[20:51:17] BDS97: home: (yep, I did write that before... sometimes I forget what I already talked about)

@@ -1,6 +1,6 @@
 created: 20180728150337480
 creator: h0p3
-modified: 20190705034509582
+modified: 20200405152218649
 modifier: h0p3
 tags: [[Lifetime Projects]] Directory Diamond
 title: Computing
@@ -19,6 +19,12 @@ title: Computing
 I don't fear [all] computers. I fear the lack of [the right ones, and an excess of the wrong ones].<<ref "3">>
 
 -- Isaac Asimov
+<<<
+
+<<<
+The purpose of computation is insight, not numbers.
+
+-- Richard Hamming
 <<<
 
 Don't let my demonstrations of ignorance fool you: I'm passionately devoted to computing. Computing is the essential desideratum of my vocation: philosophical inquiry. Computing is omnipresent, intimate, exquisite, fundamentally functional; it is the basis of reality as we can know it. The more I learn about computers, the more I treasure them. It is who and what we are, my precious.<<ref "4">>
@@ -54,6 +60,9 @@ With that said, I have decided to narrow the focus of this page to the customary
 ** [[Cross-Consumer_GUI_Platform Tool Collection]]
 ** [[Tagging Theory]]
 ** [[AHK]]
+** [[Privacy]]
+** [[Mathing]]
+** [[P2P: Aether]]
 
 * [[Monster-Φ]]
 ** [[monster-10]]

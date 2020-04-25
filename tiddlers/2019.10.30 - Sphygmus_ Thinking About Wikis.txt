@@ -1,0 +1,131 @@
+[10:33 AM] robotic_scarab: so I found an interesting webring from a link on eli's site, and it had a section for wikis -- this one is pretty interesting: https://notes.stuartpb.com/content/81cde66e-d238-4fc1-8381-648a3f90537d.html
+notes.stuartpb.com
+The Root Note
+All my notes
+[10:33 AM] robotic_scarab: this one and a lot of the others seem to be generated from flat files with custom code
+[10:35 AM] robotic_scarab: I think the integration of tiddlywiki is a huge plus for tiddlywiki -- eg. I could see stuart's wiki (that link) working really well in TW but the static text file linking makes it hard for me to navigate and wander as easily
+[10:55 AM] robotic_scarab: also at least 5 people with their own personal date formats, which is fascinating -- I have never thought about creating my own date format ever and here's a lot of people (ish) doing it! O.o
+[10:55 AM] h0p3: I think this is a classic approach to the problem. I still leave room to leave TW toward this and then migrate to another tool.
+[10:56 AM] h0p3: What do you mean by personal date format? You seem to have your own to me.
+[10:57 AM] h0p3: Stuart's wiki feels far more like a big flattened ball. I really miss having a sidebar when I'm on his wiki.
+[10:57 AM] h0p3: (I do like how speedy it is ;P)
+[10:58 AM] robotic_scarab: hm, like, someone used a date format based on the french rebublican calendar (that's actually an interesting take on dates, I think) where other people come up with systems that change the start date of counting years (counting up from their birth year in one case) and/or change the number of days in a month and so on
+[10:58 AM] robotic_scarab: agreed abt the sidebar -- in his wiki I resorted to opening so many tabs, and trying to remember where I opened them from when I got back to them
+[11:00 AM] h0p3: Ah, I see. I'm not sure what makes a data format for the timeline valuable enough. For us, we are having a conversations over it which benefit from timestamps.
+[11:01 AM] robotic_scarab: yeah, it's a mildly irritating experience seeing what looks like a date but incomprehensible, when browsing personally. It makes me wonder if they use the system enough to decode it at first glance? or is it just for the mystery/arcane
+[11:02 AM] h0p3: To add to the integration part, I think it's especially because TW is a reading, writing, searching, and story-river creation environment all rolled into something more seamless that the KISS flatfile approach lacks. My assumption is that Stuart relies too much on the tooling outside the wiki to use the wiki as the author.
+[11:03 AM] h0p3: It seems to me you could do both, which would probably be my preference in those shoes.
+[11:03 AM] robotic_scarab: do both with dates, you mean?
+[11:03 AM] h0p3: Aye
+[11:04 AM] robotic_scarab: it could be as simple as rolling over the date with the mouse switches it to the "regular" gregorian date, yeah! and that would be friendlier
+[11:05 AM] h0p3: Might be a golden mean between reality and something more fictional in a sense.
+[11:05 AM] robotic_scarab: yea, that makes sense to me
+[11:05 AM] robotic_scarab: tiddlywiki has its downsides but I can't get over the seamless part. it makes living in the tool much smoother -- an entire creation environment, like you said
+[11:05 AM] robotic_scarab: and hell the node.js version is a flatfile approach in the back anyway
+[11:06 AM] h0p3: aye
+[11:06 AM] robotic_scarab: I don't feel like I've locked up any data -- I could write something to parse those files if I needed to, and they're easily readable in a text editor
+[11:06 AM] robotic_scarab: the environment I use them in is just more pleasant tho
+[11:06 AM] h0p3: Aye, and productive.
+[11:07 AM] h0p3: There are probably some missing things. Anything which must be dynamically calculated/rendered isn't likely to show up in static flatfiles.
+[11:08 AM] h0p3: I do what I can to limit that problem, but the sidebar is an example of something which I just can't make static enough.
+[11:09 AM] robotic_scarab: hm, what do you mean by "static enough"?
+[11:12 AM] h0p3: The sidebar's functionality is something that would need to be completely rebuilt moving to another tool. The real work of it isn't something which is found in the flatfile. The extensions are similar.
+[11:13 AM] h0p3: I'm still thinking about what it's like to edit .tids with a text editor and using complete thing in a browser.
+[11:14 AM] h0p3: One kind of integration I don't think we've seen enough of are browser extensions which allow us to build hotkeys, macros, and bridges between content in wikis and the rest of the browser.
+[11:14 AM] h0p3: Like a bookmarking tool
+[11:14 AM] robotic_scarab: content in the rest of the browser -- other websites?
+[11:14 AM] robotic_scarab: ah, snipping or highlighting?
+[11:14 AM] h0p3: Yeah, or even more dynamic interaction.
+[11:15 AM] robotic_scarab: I've never been able to find a highlighting/clipping/annotation tool that I've liked (and at least two or three of them I used back in 2012ish have died/vanished)
+[11:16 AM] robotic_scarab: most of them feel like they can only exist within themselves, so I'd be devoting myself to that particular tool
+[11:17 AM] h0p3: That is a terrible feeling for me. I'm claustrophobic in that respect.
+[11:17 AM] robotic_scarab: same
+[11:17 AM] robotic_scarab: it's a hard problem to solve across websites & in the browser
+[11:17 AM] robotic_scarab: how frequently do you edit .tids with a text editor?
+[11:19 AM] h0p3: If I can't access the browser, very rarely. If I have munging and text transformations, which will cause me to bounce between text editors tabs/windows.  Usually, however, something has gone wrong when I'm looking into tids (Bob most of the time).
+[11:23 AM] robotic_scarab: ah, I see
+[11:24 AM] h0p3: How about you?
+[11:24 AM] robotic_scarab: pretty much the same, though fairly frequently I'll be copying text out of a tiddler, into subl, and back in
+[11:25 AM] robotic_scarab: regex find and replace + multi cursor editing for changing text formatting details
+[1:08 PM] robotic_scarab:
+
+[1:08 PM] robotic_scarab: i can't link directly to this on the site i found it :neutral_face:
+[1:09 PM] robotic_scarab: but it made me think huh, I wonder where I've heard of this before, ahah.
+[1:09 PM] robotic_scarab: (where i found it: https://kormyen.github.io/memex/#tag-philosophy)
+[1:12 PM] h0p3: <3. It's such an important problem, and I've not made as much progress as I'd like on it. It has turned out to be grimmer than I'd like.
+[1:14 PM] h0p3: Also another thing I love about TW, linking does more work. I still wish I could point to particular places in tiddlers with a link.
+[1:15 PM] h0p3: That site is beautiful. Scaling is another thing TW seems to have done well (even though I have concerns about performance).
+[1:15 PM] robotic_scarab: scaling with the amount of content, you mean?
+[1:15 PM] h0p3: Aye.
+[1:15 PM] robotic_scarab: I think performance is 100% tiddlywiki's biggest issue and if it could be solved, the rest are tiny in comparison
+[1:16 PM] robotic_scarab: also, agreed about pointing to particular places. someday I'd like to look further into it and any plugins that have been made around it
+[1:16 PM] h0p3: IIRC TWC had it.
+[1:16 PM] robotic_scarab: if there was something like a "sub-anchor link"...
+[1:17 PM] robotic_scarab: ah! i'll add that to the places to look someday
+[1:17 PM] h0p3: There have been some related attempts in TW5 I've seen, but nothing even close to functioning.
+[1:21 PM] robotic_scarab: mm. i expect it would involve some custom javascript -- I'm glad the class I'm taking will hopefully lead to better being able to hack my wiki!
+[1:22 PM] h0p3: Heck yeah, that should do a lot for you.
+[1:26 PM] h0p3: I'm not convinced the performance problems can be easily solved. I think it's a good thing that TW doesn't require a real server (it's remarkably functional for that). But, the price is that the entire wiki has to find its way into the user's memory. There are places to optimize. WASM. A meaningful way to lazyload tids (probably automatically slurping them up after some kind of shell has been loaded). My wiki has become just plain awful on my phone these days too.
+[1:28 PM] h0p3: In time, it might become this fragile, overspecialized thing which only works on particular devices for me.
+[1:29 PM] robotic_scarab: I think the node version is slowly heading there -- at least with lazy loading tiddlers. it's incredibly unfortunate that everything I've seen with lazy loading breaks the search function.
+[1:30 PM] robotic_scarab: from the poking around in the boot sequence that I did while messing with the splash screen, I have trouble parsing out what the server does to load the wiki and what the browser does when it receives it (node version, not flat file)
+[1:31 PM] robotic_scarab: my dream would be to serve something that only loads tiddlers as you click on the links to them, lets you click a button and download-save the whole wiki as a single file, and with full-text etc search being performed on the server somehow
+[1:31 PM] h0p3: That is probably where it will head.
+[1:32 PM] h0p3: At which point, maybe TW is the wrong tool!
+[1:32 PM] h0p3: Why build it in JS then?
+[1:33 PM] robotic_scarab: oh exactly. I think the server backend shouldn't be written in JS, but should provide the JS files to build the single file when someone clicks the "download wiki" button.
+[1:34 PM] robotic_scarab: re: parsing out what the server does to load, I think it's necessary to comprehend that before trying to write the backend in a different language
+[1:34 PM] robotic_scarab: what bits are necessary to send the browser? what messages does the server need to emit to trigger the right things? and so on
+[1:35 PM] robotic_scarab: (re: phone performance of your wiki: yeah, it's dramatically slowed for me. I think the multiplicity of timelines & whatever the plugin is that pops up an edit button over the timeline tabs have both impacted phone use for me.)
+[1:37 PM] h0p3: I don't know if two backends will be kept. Not fun to keep them functionally equivalent. I think if it leaps, it's everything at once in a TW6 rewrite.
+[1:38 PM] robotic_scarab: makes sense
+[1:38 PM] h0p3: I despair at the thought of trying to migrate. I don't think I've seen a lot of TWC to TW5 success stories.
+[1:39 PM] robotic_scarab: mmm. i wonder when the concept of .tids was introduced? I think it should be possible -- important, even -- to build a .tid conversion parser to whatever a TW6 might use
+[1:39 PM] robotic_scarab: if the flat file data store formatting changes, eg to include generating UUIDs or something
+[1:42 PM] h0p3: I'm not too worried about .tid conversion yet. It's the dynamic functionality of the wiki which I'm going to lose. It makes me think writing custom anything for TW5 has a shelf-life.
+[1:42 PM] robotic_scarab: plugins and such?
+[1:42 PM] robotic_scarab: yea, anything custom like that does have a shelf-life
+[1:47 PM] h0p3: How important is the "download-save the whole wiki as a single file" thing for you?
+[1:48 PM] robotic_scarab: very, I think
+[1:49 PM] robotic_scarab: it's like having all of my journal entries in my physical notebooks
+[1:50 PM] robotic_scarab: it goes back to a folder of flat files not being very pleasant to interact with -- the tiddlywiki single file container is like a book to me -- a form that enables the function of easily interacting with discrete pieces of writing (in a way that's arguably more flexible than a book)
+[1:51 PM] robotic_scarab: so as much as I'm glad I've started backing up my wiki .tids, I think if everything broke one day, having the single file backups would be most valuble to me (though, of course, I think it's easier to track changes and diff files with a store of .tid backups)
+[1:52 PM] h0p3: the single container has some valuable properties to it
+[1:52 PM] h0p3: No doubt! We just had to load 1uxb0x's backup from singlefile yesterday.
+[1:55 PM] robotic_scarab: I hope nothing was lost!
+[1:57 PM] h0p3: Seems fine so far. Having tids automatically download for us on saving is a catchall.
+[1:57 PM] robotic_scarab: ah, yes
+[1:58 PM] robotic_scarab: side note thought: i was never able to make OneNote or Evernote work for me, and single file never really did either -- tiddlywiki on node has both the freedom of data (flat file) and user experience / interface / GUI that works for me (plus I can hack it as much as I please and I love that in things) -- I wonder if a lot of people who go hard with text files are focused too much on function & not enough about the form in which you access the contents. -- though there are a plethora of apps that attempt to make that experience smoother...nothing integrated in the same way that a book's form is integrated -- the more I think about it, the more tiddlywiki feels like a digital book.
+[1:58 PM] robotic_scarab: I'm really going on and on today :smile:
+[1:59 PM] robotic_scarab: (fuck it really makes me want to go collect everything I've had in other platforms and stick it in my wiki asap, ha.)
+[2:00 PM] robotic_scarab: (must get eeeeeeverything in there)
+[2:00 PM] h0p3: Lol!
+[2:00 PM] h0p3: The cool part is that once you have it all normalized into one format, you'll probably never have to do it again.
+[2:00 PM] robotic_scarab: that's the dream :heart_eyes:
+[2:03 PM] h0p3: Most people doing the flatfile thing aren't building a tool which is convenient for the reader (in a way). Though, now I'm going to sound like I'm contradicting myself (and maybe I am): almost everyone I know finds TW (at least as we've built them) fairly disorienting, unintuitive to use, and just poorly designed given how most people are used to interacting with apps. I'd like to solve that problem, but I have absolutely no idea how. Seems like you just have to lost in a wiki to some extent. The alternative, particularly for flatfiles, is asking your users to pickup some commandline and text editor experience (or just go without the dynamic tooling). What you think?
+[2:04 PM] h0p3: TW feels like a digital book where I can press a button or a link, and all the pages re-arrange to make another book on the spot.
+[2:07 PM] robotic_scarab: yes -- the story river enables you to pluck chapters and pages out of the book and move them around to create different narratives
+[2:07 PM] robotic_scarab: which helps facilitate seeing different connections between pieces
+[2:09 PM] robotic_scarab: I agree the plain text people aren't building tools for the reader, but I wonder how much they're building tools that are convenient for the writers, either! (though I'm probably not qualified to speak to them b/c I haven't used all of them -- maybe emacs is just as smooth for linking & creating connections out of building blocks for the writer.) Linking & transclusion lets you integrate & connect material and the story river is important too, where most of the text file apps appear to be -- sidebar with individual notes that you can search through and maybe link to by title, but you're always ever seeing one text file in the center at a time.
+[2:10 PM] robotic_scarab: i wonder if people would understand tiddlywiki better by analogy to the browser? it's like -- being able to open multiple tabs, but for writing, and in a single place
+[2:11 PM] robotic_scarab: i'm sure it depends on what purpose people are writing for, too
+[2:14 PM] robotic_scarab: I'm going to be judgemental: a lot of indie web style, hipster, plain text oriented flat file productivity personal sites I visit are a) infrequently updated and/or b) talk about publishing & notetaking but don't do it. like: they visit someone's site who does do x and y things that appeal to folks drawn to optimization etc & decide to follow their lead, but it falls apart for them after a while.
+[2:14 PM] robotic_scarab: and I'm certainly guilty of that behavior as well
+[2:15 PM] robotic_scarab: but I've also just -- never been able to stop writing so the wiki etc. come naturally. it's just an extension of something I've been doing half or my life or more.
+[2:15 PM] robotic_scarab: where if I didn't have that practice, I'm sure it would fall apart
+[2:15 PM] h0p3: Yeah. It's hard to find people really using their tooling.
+[2:16 PM] h0p3: The wiki seems like a good tool to help someone just jump into the habit and continue it too.
+[2:16 PM] h0p3: It's less expensive to programmatically reorganize and inspect it than flatfiles in some respects.
+[2:17 PM] robotic_scarab: yes yes yes
+[2:19 PM] robotic_scarab: (and i mean, the optimization / productivity / tooling thing is so easy to get rabbitholed into constantly switching and changing: see a lot of jack baty's commenting on tools etc. At least with the wiki I feel like all my hacking & messing about are contained & I'm not rushing off to find something else that "might work better" -- which is a relief for me, to get off that treadmill.)
+[2:22 PM] h0p3: Yeah, his treadmill looks super conflicting to me. He's got a lot of different tools he loves, but I think the most painful part of it is that it is disunified for him. There is a "just do it" kind of commitment that TW enables for me which I've not found in other tools. I don't have nearly the energy and patience to learn that many tools (hell, I still barely understand TW).
+[2:23 PM] h0p3: That said, there's plenty of switching in my own [[RGM]]. Still working our way toward having all the properties, functions I want.
+[2:23 PM] h0p3: But, reverting back isn't exceptionally painful. I still have my work there in one place.
+[2:26 PM] h0p3: Off topic, and I'm sorry I'm AFKing on a question (work): is it possible to have an encrypted innerwiki? I'd prefer not to do the public/private tagging or separate wiki. Wondering if that is even possible. I'm thinking that innerwikis don't work like that, as though they are subsets of the hosting wiki.
+[2:27 PM] robotic_scarab: inner wiki for bob you mean?
+[7:49 PM] h0p3: I have no idea if it's different for Bob or not.
+[7:49 PM] robotic_scarab: is there an inner wiki in the default node.js? or do you just mean a subset of tiddlers within a wiki?
+[7:49 PM] robotic_scarab: I'm working on a way to get a timeline with diffs of all my snapshots!
+[7:50 PM] h0p3: Noice. :slight_smile:
+[7:50 PM] h0p3: I don't know much of anything at all about the innerwiki.
+[7:52 PM] robotic_scarab: ah, I guess I don't either -- I'm not sure what you're referring to!

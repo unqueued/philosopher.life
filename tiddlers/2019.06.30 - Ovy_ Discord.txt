@@ -1,0 +1,279 @@
+[1:40 PM] Valdus: This is the discord version of Ovy.
+[1:40 PM] h0p3: :smiley:
+[1:40 PM] h0p3: It's a pleasure to meet you in real-time.
+[1:40 PM] Valdus: Frustrado mano
+[1:40 PM] h0p3: I'm sorry I'm taking forever to respond. It's been insanely busy.
+[1:40 PM] Valdus: No prob, me too.
+[1:41 PM] h0p3: Did you try Bob?
+[1:42 PM] Valdus: I got it on my chrome book saved on gdrive but my macs hate it.
+[1:42 PM] h0p3: You are running Bob on chrome?
+[1:42 PM] h0p3: Do you have a chroot softmod?
+[1:42 PM] Valdus: I don’t even know what bob is for.
+[1:43 PM] h0p3: Go read about Bob. Imho, this is likely where you are going to end up in the end. You can either take the long route (which I did...took me 2 years before I switched, though that ecosystem was not as well developed), or you can dive in now.
+[1:43 PM] Valdus: Ok I’ll read
+[1:44 PM] Valdus: You saw my pleas on questions?
+[1:46 PM] h0p3: Yes, I watch the TW forums.
+[1:47 PM] h0p3: I'm glad you jumped in there too.
+[1:48 PM] h0p3: Right now, you are in the bootstrapping stage. It will be a while before you have a functioning tool, and it will be transformed again and again, imho.
+[1:54 PM] Valdus: That’s an understatement.
+[1:55 PM] Valdus: Currently child watching, so cnt read it, could you give me the gist?
+[1:55 PM] h0p3: It's a nodejs webserver with a plugin. Changes to TW immediately show up in the filesystem and vice versa.
+[1:55 PM] h0p3: You build a webserver which you serve to the computers on your LAN at home.
+[1:56 PM] h0p3: You can extend the LAN through VPNs.
+[1:56 PM] h0p3: My previous letter to you outlines this.
+[1:56 PM] h0p3: First, we have to get Bob working.
+[1:56 PM] Valdus: Oh i have a giant pc, should I work on that or stay with the hogbook? (Chromebook)
+[1:56 PM] h0p3: I suggest your PC.
+[1:57 PM] h0p3: Anything which is on 24/7.
+[1:58 PM] Valdus: So it essentially a local web server? And can it handle stupid rival machines in house?
+[1:58 PM] h0p3: What do you mean?
+[1:58 PM] h0p3: Your desktop will suffice.
+[1:58 PM] Valdus: Chromebook, mac, iPad, phone- they all hate each other and I use all of them.
+[1:59 PM] h0p3: Anything with a modern browser will be able to interact with the Bob server because it is a web server.
+[1:59 PM] Valdus: Alright than I will turn on the monolith.
+[1:59 PM] h0p3: :smiley:
+[1:59 PM] Valdus: Yeah, that’s it’s name
+[2:00 PM] h0p3: That is what I have called my daughter's computer (before she renamed it).
+[2:01 PM] h0p3: I call mine "monster" -- https://philosopher.life/#Monster-%CE%A6
+[2:03 PM] Valdus: I call my phone Tardis and my iPad BEAST
+[2:03 PM] Valdus: Ah delusions!
+[2:04 PM] h0p3: :smiley:
+[2:04 PM] Valdus: Ok here is my plan when I’m off suicide watch- get omnibus (name for TW) into the monolith then boot bob.
+[2:05 PM] h0p3: Get Bob running first. You should be able to manually import an html file.
+[2:06 PM] Valdus: How hard is it to boot bob?
+[2:06 PM] Valdus: Asked El Guajiro
+[2:07 PM] h0p3: It depends on how  you do it. It's not too hard in any direction. You'll probably try the Bob.exe file instead of running it from the command line.
+[2:07 PM] h0p3: You can also just run a standard tiddlywiki nodejs server.
+[2:08 PM] h0p3: I think Bob makes way more sense for those working with multiple devices though.
+[2:08 PM] h0p3: It may take you a week before you have something functional.
+[2:08 PM] Valdus: rubs headache
+[2:08 PM] h0p3: (well worth the investment, imho...there is nothing else with an easier learning curve)
+[2:09 PM] Valdus: I can wait, meanwhile I got my typewriter
+[2:09 PM] h0p3: You want to have multi-device out of the gate, so you will have to pay a much higher price to overcome a higher barrier to entry.
+[2:09 PM] h0p3: It's true.
+[2:09 PM] h0p3: You can also transplant them in.
+[2:09 PM] h0p3: You might even do that programmatically. It depends on how much you have.
+[2:13 PM] Valdus: I won’t have a lot until I multidevice and have a comfortable palette.
+[2:14 PM] h0p3: The palette is not hard to change. You need to explore every section of the Settings.
+[2:14 PM] h0p3: It is likely the case you will benefit from reading about Tiddlywiki as well. But, this is going to take time, and you can't do everything all at once up front.
+[2:15 PM] h0p3: I'm just trying to tell you what the road looks like.
+[2:23 PM] Valdus: https://github.com/OokTech/TW5-BobEXE
+GitHub
+OokTech/TW5-BobEXE
+TiddlyWiki5 packaged with the Bob plugin in a single executable file. Now in a much more usable repo! Please don&#39;t put issues with Bob here, this is for the part that do the compiling. - Oo...
+
+[2:23 PM] Valdus: ?
+[2:24 PM] h0p3: Yup.
+[2:24 PM] h0p3: He's trying to make it ridiculously easy for us all (he's a rockstar, imho).
+[2:24 PM] h0p3: I won't be able to help you much on the Windows end of things. I am a linux user.
+[2:25 PM] h0p3: (you could run a VM, and then the scripts my family and I create would be more useful to you)
+[2:25 PM] h0p3: (but, you should just get used to what you have there, and eventually you might change up how you do it)
+[2:27 PM] Valdus: VM?
+[2:27 PM] Valdus: Virtual machine?
+[2:28 PM] h0p3: Yup.
+[2:28 PM] Valdus: wow can’t believe I guessed it, ok let me get to that bob exe
+[2:29 PM] Valdus: Oh if I run bob exe can I import Omnibus?
+[2:30 PM] h0p3: Aye. That should be doable.
+[2:30 PM] h0p3: I don't do it manually, but I believe it is built for that.
+[2:30 PM] Valdus: Oka
+[2:30 PM] h0p3: If not, the nodejs tool underneath enables you to decompile the html file into the .tid files (and vice versa).
+[2:31 PM] h0p3: Also, I have a tendency to AFK. Today is my busiest day since it is extremely family intensive. https://philosopher.life/#Family%20Time. I may not respond in a timely fashion, but I always respond.
+[2:49 PM] Valdus: Got it, how do you reset server refresh?
+[2:51 PM] h0p3: What do you mean?
+[2:52 PM] Valdus: Reset fine but i enter the address on my phone and I don’t get it
+[2:53 PM] h0p3: 127.0.0.1 is the IP address for your local loopback. Basically, every device can reach the "localhost" at 127.0.0.1.
+[2:53 PM] h0p3: You have to enter in the IP address assigned by your router.
+[2:53 PM] h0p3: And, you also have to make sure that Bob is serving to more than the localhost.
+[2:53 PM] h0p3: It has to be set to serve to your LAN.
+[2:53 PM] Valdus: How do I check that?
+[2:54 PM] h0p3: I'm not sure how to do it on your end. Look through the Bob settings, and you should be able to change.
+[2:54 PM] h0p3: I believe you change it to 0.0.0.0, but you may need to look it up.
+[2:55 PM] Valdus: The last four letters of the wiki server address?
+[2:55 PM] h0p3: It should be IP:PORT
+[3:01 PM] Valdus: How do you reset server?
+[3:01 PM] h0p3: You can kill it with the task manager.
+[3:01 PM] h0p3: And then start it again.
+[3:01 PM] h0p3: You shouldn't have to reset the server generally.
+[3:02 PM] Valdus: Then how do I get it back?
+[3:02 PM] h0p3: However you started it before. I assume you double-clicked on an executable file.
+[3:16 PM] Valdus: Set to oooo but can’t get it back on any device
+[4:09 PM] h0p3: What is the IP of your desktop?
+[4:10 PM] Valdus: Goooood question lol
+[4:10 PM] Valdus: It asks me to reset, lost at that.
+[4:11 PM] h0p3: Send me a screenshot over discord
+[4:12 PM] h0p3: Also, I do not speak Spanish. I was trying to say: "if you are a peasant, then I am a fool."
+4:13 PM] Valdus: The server is at 0000 but I don’t know what to do to reset the server after I hit update and save.
+[4:13 PM] h0p3: 0.0.0.0,not 0000, right?
+[4:14 PM] h0p3: try refreshing the browser
+[4:14 PM] h0p3: does it give you a redbar at the top?
+[4:19 PM] Valdus: It did once, but now I get can’t make connection error page
+[4:19 PM] Valdus: 0. Yeah
+[4:22 PM] Valdus: and if I am keeping you from familial stuff, let me know.
+[4:23 PM] Valdus: ERR_CONNECTION_REFUSED
+[4:23 PM] h0p3: I'm bouncing in between. We are currently doing our family log (https://philosopher.life/#Family%20Log). Bob is nice here, btw. My daughter is on her machine logging into Bob running on my computer to edit my wiki.
+[4:24 PM] Valdus: wow
+[4:24 PM] Valdus: consider me the mentally challenged, gardener in this
+[4:25 PM] h0p3: Rofl. This is your first couple days. Give it time. We've had years.
+[4:25 PM] Valdus: ok Im going to do it all again and tell you the steps
+[4:25 PM] h0p3: Screenshots might help a lot here.
+[4:28 PM] h0p3: In Bob Settings -> Manual Settings this is what I have:
+
+[4:30 PM] Valdus: on pc its kinda stupid
+[4:30 PM] h0p3: monster-10's IP on my LAN is 192.168.1.99 (a static IP is highly recommended, otherwise your router may assign a different one)
+[4:31 PM] Valdus: see the ws-server is on host 0000
+
+[4:32 PM] h0p3: Try changing host from 127.0.0.1 to 0.0.0.0
+[4:33 PM] Valdus: ok under server info?
+[4:33 PM] h0p3: aye
+[4:34 PM] h0p3: and that looks like the IP for your LAN (but you may need to check ipconfig and/or your router; again, you want to assign a static IP to your desktop)
+[4:34 PM] Valdus: hit upDATE  settings and reload?
+[4:34 PM] h0p3: That sounds right to me.
+[4:35 PM] Valdus: rat dangit!
+
+[4:35 PM] Valdus: close the terminal?
+[4:36 PM] h0p3: What terminal?
+[4:36 PM] Valdus: a terminal opens in windows
+[4:37 PM] Valdus: this bob is busted
+[4:37 PM] h0p3: Lol.
+[4:37 PM] Valdus: Im going to try the group?
+[4:37 PM] h0p3: Sure, go for it.
+[4:39 PM] h0p3: If you want, you can screencast to me from over Discord. I can watch you do it step by step.
+[4:40 PM] Valdus: how do you do that?
+[4:40 PM] h0p3: start video call options, I believe
+h0p3 started a call.Yesterday at 4:40 PM
+[4:42 PM] h0p3: Turn on Screen Share
+[4:42 PM] h0p3: see if that works
+[4:42 PM] Valdus: burning kitchen gtg
+[4:42 PM] h0p3: np!
+[4:43 PM] Valdus: ok
+[4:43 PM] Valdus: beans are crapped
+[4:46 PM] Valdus: good thing they were frozen
+[4:49 PM] Valdus: ok tried it on firefox (didnt work at all) and Opera (yeah always liked it) and I get the same. Let me wait for the group.
+[4:50 PM] Valdus: you be big daddy
+[6:17 PM] Valdus: still nada
+[6:24 PM] h0p3: Hrm. Just fired it up in VM. Make sure you restart Bob.
+[6:25 PM] h0p3: Seems to work for me.
+[6:25 PM] Valdus: whoa I got that red bar, what does that mean that I am not connected to the server?
+[6:25 PM] Valdus: what address do I put in other machines?
+[6:25 PM] Valdus: that miiiight be my problem
+[6:25 PM] h0p3: The redbar can mean many things in my experience, but yes, it means there is a problem.
+[6:26 PM] h0p3: You have to find your IP address
+[6:30 PM] Valdus: its pretty huge I think
+[6:30 PM] h0p3: should be an ipv4 address
+[6:31 PM] Valdus: i have ipv6
+[6:31 PM] h0p3: I am surprised.
+[6:32 PM] h0p3: Are you sure your router doesn't assign an ipv4 to computers on the LAN?
+[6:32 PM] Valdus: 192.168.0.27
+[6:32 PM] Valdus: I just saw it
+[6:33 PM] Valdus: 192.168.0.0.0.0. ?
+[6:34 PM] h0p3: 0.0.0.0 just means that it will serve to anyone
+[6:34 PM] h0p3: 192.168.0.27:PORTNUMBER
+[6:34 PM] Valdus: which is 0.0.0.0.?
+[6:34 PM] h0p3: nope
+[6:34 PM] h0p3: That is just a way to tell Bob that you want to serve to everyone on your LAN
+[6:35 PM] Valdus: ok
+[6:35 PM] h0p3: try port 8080
+[6:35 PM] h0p3: 192.168.0.27:8080
+[6:36 PM] Valdus: nothing
+[6:37 PM] h0p3: restart Bob, make sure Windows will open the ports for it
+[6:38 PM] Valdus: nope it says serving port 127.0.01:8080 on terminal
+[6:49 PM] h0p3: When you first fire up Bob, it has a button for serving on 0.0.0.0
+[6:49 PM] h0p3: try clicking that
+[6:50 PM] Valdus: I did
+[6:50 PM] h0p3: did you edit the manual configuration too?
+[6:50 PM] Valdus: and changed it manually
+[6:50 PM] h0p3: then updated it and routing?
+[6:50 PM] h0p3: hrm
+[6:50 PM] Valdus: yep i hit both
+[6:51 PM] h0p3: I don't know why it works on mine and not yours =/
+[6:53 PM] Valdus: I just did everything you said again, and nothing
+[6:58 PM] Valdus: I may have thought of the solution my pc is connected via broadband (uhm big blue cable) and laptop is on wireless, can that be it?
+[6:59 PM] Valdus: though both are on the same router
+[6:59 PM] h0p3: The command prompt that Bob brings up tells you an IP it's serving on. If it doesn't say 0.0.0.0, then you don't have Bob serving to anything but your own machine.
+[7:00 PM] Valdus: ooooh it keeps saying 8080
+[7:00 PM] h0p3: That's the port
+[7:00 PM] h0p3: Does it say an IP?
+[7:00 PM] Valdus: it says serving 127.0.01:8080
+[7:01 PM] h0p3: You can walk into Bob's files and manually change them.
+[7:01 PM] Valdus: oook
+[7:03 PM] h0p3: IndexWiki/settings/settings.json
+[7:03 PM] h0p3: Hosts should say 0.0.0.0 and ports 8080
+[7:03 PM] Valdus: where in the wiki?
+[7:04 PM] h0p3: Goto the directory which contains the Bob executable, there is a folder called IndexWiki
+[7:04 PM] Valdus: open it in a text file?
+[7:05 PM] h0p3: Aye, any text editor will do. Notepad is fine.
+[7:05 PM] Valdus: its its blank!
+[7:06 PM] Valdus: {} is all it has
+[7:06 PM] h0p3: {
+  "wikis": {},
+  "ws-server": {
+    "host": "0.0.0.0",
+    "port": "8123"
+  },
+  "suppressBrowser": "",
+  "API": {},
+  "serverInfo": {
+    "ipAddress": "192.168.1.157",
+    "port": "8123",
+    "host": "0.0.0.0"
+  },
+  "wikisPath": "./Wikis",
+  "wikiPathBase": "C:\Users\h0p3\Downloads",
+  "includePluginList": {},
+  "excludePluginList": {}
+}
+[7:07 PM] Valdus: wait, should I have placed this in its own directory?
+[7:07 PM] h0p3: In the end, yes. I would put it in Dropbox too, that way Dropbox will do versioning for you.
+[7:07 PM] h0p3: But, it shouldn't matter right now for just getting it working.
+[7:07 PM] Valdus: but no, I got nothing in that file
+[7:07 PM] h0p3: Just paste and change what I have.
+[7:08 PM] Valdus: so what do I change in that for me
+[7:09 PM] Valdus: wow I think there is a lot
+[7:09 PM] h0p3: Path to wherever you keep the executable
+[7:09 PM] h0p3: ipAddress to 192.168.0.27 (assuming that is your actual IP on your LAN)
+[7:09 PM] h0p3: ports to 8080 (or just leave them)
+[7:10 PM] h0p3: Bob should be shutdown as you do this, btw.
+[7:11 PM] Valdus: no doubt, saved, no pull up bob?
+[7:11 PM] h0p3: sure
+[7:11 PM] h0p3: Try it out.
+[7:11 PM] Valdus: still has 8080
+[7:11 PM] Valdus: in the terminal
+[7:11 PM] h0p3: Hrm.
+[7:11 PM] h0p3: Let me try to make one for you and send it to you.
+[7:12 PM] Valdus: ok let me kiss some family ass for all this.
+[7:17 PM] h0p3: It's too big to push over Discord. Plan B: http://live.philosopher.life/Ovy-Bob.zip
+[7:18 PM] h0p3: make sure you edit the wikiPathBase to whatever path you choose to put the executable in
+[7:19 PM] Valdus: For me it’s just a:/
+[7:19 PM] h0p3: in the file explorer, you'll see a path to it
+[7:19 PM] h0p3: that's the one you'd use
+[7:22 PM] Valdus: now tells me serving on 0.0.0.0:8080?
+[7:23 PM] Valdus: changed the path and now back to 127 etc,
+[7:24 PM] h0p3: That is so weird.
+[7:24 PM] h0p3: What path are you using?
+[7:24 PM] Valdus: a:\
+[7:25 PM] Valdus: should I try saving it in c drive?
+[7:25 PM] h0p3: You are placing Bob.exe at the root of a storage device?
+[7:25 PM] Valdus: yes, my a drive is all storage
+[7:26 PM] h0p3: Keep trying different approaches. The zip file I gave you works. The only thing that should change will be the path. Try using Bob somewhere else with a different path.
+[7:27 PM] h0p3: You must be frustrated.
+[7:33 PM] Valdus: my brain is a knot!
+[7:33 PM] Valdus: terminal still says serving on 127 etc
+[7:33 PM] Valdus: I loaded it in c
+[7:34 PM] Valdus: changed path to c:\tw5
+[7:34 PM] Valdus: I think I shall give up for today my friend
+[7:34 PM] h0p3: Np. Try again later.
+[7:35 PM] Valdus: Ill wait for the group to respond
+[7:35 PM] Valdus: alright talk to you later
+[7:35 PM] h0p3: peace homie, ttyl
+[8:08 PM] Valdus: Should I have downloaded the 32 version?
+[8:09 PM] h0p3: Almost guaranteed 64bit is correct.
+[8:09 PM] h0p3: You are still at it. You don't give up!
+[8:09 PM] Valdus: Uh boy
+[8:09 PM] Valdus: Not at it, just thinking
+[8:09 PM] Valdus: Hope it don’t eat my sleep
+[8:10 PM] h0p3: I wish I could give you a magic wand to solve it: ╰(˙ᗜ˙)੭━☆ﾟ.*･｡ﾟ
+[8:10 PM] h0p3: Come at it with fresh eyes tomorrow.
+[8:11 PM] Valdus: If you’re stumped I’m screwed
+[8:11 PM] h0p3: Naw. I really don't know enough about the software to pin it down.
+[8:11 PM] h0p3: I'm competent enough to get it working, but that doesn't make me a competent troubleshooter
+[8:12 PM] Valdus: Maybe we can go through the manual version and it might work

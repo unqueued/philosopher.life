@@ -1,0 +1,35 @@
+"""
+Have a great day [[h0p3]]!
+WED 8:37 AM
+You too! =)
+WED 8:47 AM
+Do you think D&D is better while drunk?
+WED 8:47 AM
+I think it depends on your group and the expectations overall.
+WED 8:55 AM
+Makes sense.
+WED 8:56 AM
+We played in a drunk shot and it was a blast, but part of me thinks there were people not having fun.<<ref "2020.02.12">>
+WED 8:56 AM
+Yeah haha
+WED 8:56 AM
+Drunkshot when we come visit next?
+WED 8:58 AM
+Rofl, sure.
+WED 8:58 AM
+That would be awesome.<<ref "2020.02.12-2">>
+WED 8:59 AM
+Who wasn't having fun and why, btw?
+WED 8:59 AM
+Powergamer. It was RP heavy and the boss was homebrewed so he couldn’t cheat.<<ref "2020.02.12-3">>
+WED 9:10 AM<<ref "2020.02.12-4">>
+"""
+
+---
+<<footnotes "2020.02.12-1" "Disinhibiting myself tremendously has often been useful for making D&D fun. The things I've found most fun in life tend to be weakened by alcohol. I want to fully be there, present, and kicking ass at what I'm having fun at. Maybe it's a starter or something. I just don't get drunk with many people; it's something I do only with immediate family, and even then, usually just by myself (my offspring have been the //camel that broke the straw's back// on plenty of evenings where I chose to just get smashed).">>
+
+<<footnotes "2020.02.12-2" "You know what: they've planned on RPing with us for years, but haven't. Maybe I should recognize that they don't really want to, lol.">>
+
+<<footnotes "2020.02.12-3" "Cheating? You mean looking it up in a book? Yeah, that's a shitty powergamer. I've yet to play a version of DND that couldn't be broken in half; WOTC are fucking awful at building balanced and stable games, lol `/smh`. The books are trivialized by a leet powergamer. This is why I'm trying not to metagame; it's ludologically pointless. Maybe he means something else here. I don't know.">>
+
+<<footnotes "2020.02.12-4" "Also, I fucked up somewhere. Look at the dates of 2019.02.10 - K:...there's two. WED and SUN, lol. Fuck. Okay, I'm going to sit on it for now.">>

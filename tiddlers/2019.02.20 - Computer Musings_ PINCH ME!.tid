@@ -1,0 +1,43 @@
+created: 20190221022121382
+modified: 20200221061018252
+tags: [[Computer Musings]]
+title: 2019.02.20 - Computer Musings: PINCH ME!
+
+Am I {[[dream]]}ing? I just bought 3 machines for $36 apiece including shipping. I'm 80% sure I'm being scammed on eBay, but I can't help myself. Apparently, they reserve the right to cancel any transaction for any reason. The seller has a 20yo account, amazing ratings, 5k auctions completed. They claim these machines have been tested, though they might have some dings (I still have my sexy Lian-Li server tower upstairs just fucking sitting there). Specs:
+
+```
+Manufacturer 	                Dell
+Model: 	Precision               T5600
+Processor Type 	                Intel Xeon 8-Core E5-2670
+Processor Speed 	        2.60GHz
+Processor(s) Installed 	        2
+Heatsink(s) Included 	        2
+Max. Supported Qty. 	        2
+Installed Ram 	                128GB (8x 16GB)
+Maximum Ram 	                128GB
+Number of Memory Slots 	        8
+Hard Disk Drives 	        1x 500GB 3.5" SATA 7.2K
+Drive Bays 	                Up to two 3.5" internal SATA, SAS or SSD drives
+Optical Drive 	                DVD
+Power Supply 	                825W
+Ethernet 	                Integrated Intel 82579 Gigabit Ethernet controller with Remote Wake UP
+Video 	                        NVidia or ATI with at least 128MB memory
+```
+
+Single-thread on these: 1,570. [[monster-10]] sits at 2,178. That is a kick in the nuts. Still, multi-thread jumps from m10's 9662 to 24260. That is some fucking firepower right there. Yesterday, I would have paid $500 for this with only a single CPU. 
+
+The RAM is what's blowing my mind. That's what I have a hard-on for. I've crashed twice this year with 16GB RAM + 16GB Swap consumed (my RAM usage continues to climb year over year). I can feel the lag, especially bottlenecked over SATA.
+
+If none of the machines work out, I'll complain. If they cancel on me, okay. If a single one can be salvaged, I'm in heaven. There is a possibility all 3 machines are going to function. I couldn't build a Threadripper 2950X machine (comparable bench) with 128GB RAM for less than $2k.
+
+I should keep one and sell the other two. We could use the money.
+
+That said: I'm not going to get my hopes up. This is a gamble.
+
+---
+
+Failure to save over the VPN again. Looked fine. =(
+
+---
+
+Cloudflare keeps blocking me when I attempt to access SCMP.

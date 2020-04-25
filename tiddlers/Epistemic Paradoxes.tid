@@ -1,0 +1,165 @@
+created: 20200421034151885
+modified: 20200422183952357
+tags: [[Φιλοσοφική ανάλυση]] [[Be A Good Dad]]
+title: Epistemic Paradoxes
+
+//Saint Socrates knows he knows nothing. That mystical dork. Indeed, it expensive to play by the rules; wisdom eventually finds its [[end]] in what appears paradoxical, paraconsistent, or paracomplete.//
+
+<<<
+ There is no place in science for bigness, because of this lack of boundary; but there is a place for the relation of biggerness. Here we see the familiar and widely applicable rectification of vagueness: disclaim the vague positive and cleave to the precise comparative. But it is inapplicable to the verb ‘know’, even grammatically. Verbs have no comparative and superlative inflections … . I think that for scientific or philosophical purposes the best we can do is give up the notion of knowledge as a bad job and make do rather with its separate ingredients. We can still speak of a belief as true, and of one belief as firmer or more certain, to the believer’s mind, than another
+
+-- W.V. Quine, //Quiddities//
+<<<
+
+<<<
+[A paradox is] an apparently unacceptable conclusion derived by apparently acceptable reasoning from apparently acceptable premises.
+
+-- R. M. Sainsbury, //Paradoxes//
+<<<
+
+<<<
+You do not believe this sentence.
+
+-- John Buridan, //Sophismata//
+<<<
+
+<<<
+The conclusion that there are unknowable truths is an affront to various philosophical theories, but not to common sense. If proponents (and opponents) of those theories long overlooked a simple counterexample, that is an embarrassment, not a paradox. 
+
+-- Timothy Williamson, //Knowledge and its Limits//
+<<<
+
+<<<
+One must not think slightingly of the paradoxical...for the paradox is the source of the thinker’s passion, and the thinker without a paradox is like a lover without feeling: a paltry mediocrity.
+
+-- Saint Kierkegaard 
+<<<
+
+<<<
+How wonderful that we have met with a paradox. Now we have some hope of making progress...No paradox, no progress.
+
+-- Niels Bohr
+<<<
+
+<<<
+To know and not to know, to be conscious of complete truthfulness while telling carefully constructed lies, to hold simultaneously two opinions which canceled out, knowing them to be contradictory and believing in both of them, to use logic against logic, to repudiate morality while laying claim to it, to believe that democracy was impossible and that the Party was the guardian of democracy, to forget whatever it was necessary to forget, then to draw it back into memory again at the moment when it was needed, and then promptly to forget it again: and above all, to apply the same process to the process itself -- that was the ultimate subtlety: consciously to induce unconsciousness, and then, once again, to become unconscious of the act of hypnosis you had just performed. Even to understand the word 'doublethink' involved the use of doublethink.
+
+-- George Orwell, //1984//
+<<<
+
+ 
+
+* Epistemic Paradoxes are instrumental in helping us uncover the limits, layers, errors, or directions of epistemology.
+** Concerns of relativity, especially for those relying upon the surprising result denying paradoxicity
+*** irony in self-defeating predictions, cognitive illusion in Monte Hall, and embarrassment in knowability
+** Nesting paradoxes
+*** Surprise -> Lottery -> Preface -> Moore's
+** Lateral paradoxes: knower and foreknowledge
+** Non-epistemic paradoxes...boundaries
+*** liar's paradox, Pseudo-Scotus paradoxes of validity
+
+* The Surprise Test Paradox
+** A test is a surprise iff student cannot know beforehand which day the test will occur.
+** Probability of conjunction of multiple events
+** if you want to give a surprise test do not announce your intention to your students...a pragmatic paradox to be a statement that is falsified by its own utterance. Even if paradoxical, it would still be useful to inform students of the need for preparation.
+*** The existence of a surprise test has been revealed but perhaps that allows surviving uncertainty as to which day the test will occur. 
+** Predictive Determinism vs. Metaphysical Determinism
+*** Aristotelian extension, contingent propositions about the future don't have a truth-value
+** Quine
+*** Quine considers the Aristotelian extension a surrendering of classical logic. That is not clear to me.
+*** Epistemic reductio vs ontic/metaphysical
+*** Denying all knowledge of the future in order to deny the student’s knowledge is disproportionate.
+*** Knowledge does not entail certainty; firmly held JTB standard.
+*** Qualitative terms can be applied when a vague quota is satisfied without the need to sort out the details. Only comparative terms are bedeviled by tie-breaking issues.
+**** Effective science describes without prescribing much or at all in some respects. 
+***** Epistemic normativity gap, justification, The Moral Foundation.
+
+* [[The Dialetheia]]
+** "No one can know whether anything is known"
+*** To know that there is no way to know, one must prove the negative generalization that there is no proof
+*** a proof of unknowability requires epistemological premises about what constitutes proof
+** [[Infinigress]] of metaproofs, incompleteness problem.
+** Ontic (yet perhaps epistemic)
+*** Paradox of Motion; Zeno's Arrow
+**** Hegelian: the arrow advances in the instant; pregnant present including both motion to and for. True that it both is and is not moving.
+*** Paradox of Self-Reference (e.g. Liar's, Russell's, etc.)
+**** Shows up in the foundation so mathematics. 
+**** Russell's: set of all [[Abstract Objects]] is a member of itself as an Abstract Object
+
+** Epistemic eliminativism: dissolves all epistemic paradoxes. 
+*** According to the eliminativist, epistemic paradoxes are symptoms of a problem with the very concept of knowledge.
+*** Similarly as radical, dogmatic as the skeptic.
+*** If the eliminativist thinks that assertion only imposes the aim of expressing a truth, then he can consistently assert that ‘know’ is a defective term...but, even this assertion does indeed require the speaker to attribute knowledge to himself.
+*** The eliminativist, who thinks that ‘know’ or ‘justified’ is meaningless, will diagnose the epistemic paradoxes as questions that only appear to be well-formed.
+**** Why should I think that justification is meaningless with an infinitivist perspective for defusing the contradiction (and just maintaining external justification necessary for even internalist conceptions of knowledge).
+
+* The Lottery Paradox
+** For any contingent proposition, there is a lottery statement that is more probable and which is unknown. A known proposition cannot be less probable than an unknown proposition. So no contingent proposition is known, according to the probabilistic skeptic.
+** You can check any of these possible errors but you cannot check them all.
+** Thresholds for the acceptance rule appear arbitrary, or scale to the context.
+** Kyburg's joint inconsistency (having beliefs that cannot all be true together) to avoid belief in contradictions.
+
+* Preface Paradox
+** An author rationally believes each of the assertions in his book. But since the author regards himself as [[fff]], he rationally believes the conjunction of all his assertions is false. If the agglomeration principle holds, (Bp&Bq)→B(p&q), then it follows that it would be rational for the author to believe the conjunction of all assertions in his book and also that it would be rational for the author to disbelieve the same thing! 
+** Epistemic Justification [[Infinigress]]:
+*** A belief can only be justified by at least one other justified belief.
+*** There are no circular chains of justification.
+*** All justificatory chains have a finite length.
+**** Infinitists believe that infinitely long chains of justification are no more impossible than infinitely long chains of causation.
+*** Some beliefs are justified.
+*** But if joint inconsistency is rationally tolerable, why do these philosophers bother to offer solutions? Why is it not rational to believe each of (1)–(4), despite their joint inconsistency?
+** Take the negation of any of your beliefs as a conclusion and your remaining beliefs as the premises. You should judge this jumble argument as valid, and as having premises that you accept, and yet as having a conclusion you reject. If the conclusion of this argument counts as a paradox, then the negation of any of your beliefs counts as a paradox.
+** Rationally anticipate being rationally misled.
+** The preface paradox pressures Kyburg to extend his tolerance of joint inconsistency to the acceptance of contradictions
+*** There is a contradiction we must accept, but that does not mean we must accept just any.
+
+* Semantically Flawed Paradoxes, Lemma's lacking a truth-value
+**  Is ‘heterological’ heterological or autological? If ‘heterological’ is heterological, then since it describes itself, it is autological. But if ‘heterological’ is autological, then since it is a word that does not describe itself, it is heterological. The common solution to this puzzle is that ‘heterological' is not a genuine predicate.
+*** `“Is ‘heterological’ heterological?”` is without meaning.
+**** Mmm...for whom, in what context, with respect to what?
+
+* Anti-expertise
+** Epistemic paradoxes affect decision theory because rational choices are based on beliefs and desires. If the agent cannot form a rational belief, it is difficult to interpret his behavior as a choice. The purpose of attributing beliefs and desires is to set up practical syllogisms that make sense of actions as means to ends. Subtracting rationality from the agent makes framework useless. Given this commitment to charitable interpretation, there is no possibility of your rationally choosing an option that you believe to be inferior. So if you choose, you cannot really believe you were operating as an anti-expert, that is, someone whose opinions on a topic are reliably wrong.
+*** Indeed, I find it hard to act on the assumption that I am wrong.
+
+* Examples
+** This sentence is known to be false. 
+** No one knows this very sentence. 
+** Can the skeptic instead challenge the premise that proving a proposition is sufficient for knowing it?
+** “You cannot prove a universal negative” is itself a universal negative. So it implies its own unprovability.
+** Is ‘This statement is possibly false’ true?
+** Saint Gödel
+*** The teacher’s announcement is then a Gödel sentence about the student: There will be a test next week but you will not be able to prove which day it will occur on the basis of this announcement and memory of what has happened on previous exam days. 
+**** Liar paradox
+** Pseudo-Scotus
+*** Since the semantic concept of validity involves the notion of possibility, one can also derive validity liars such as Pseudo-Scotus’ paradox: ‘Squares are squares, therefore, this argument is invalid’. 
+**** Supposing validity contradicts its validity.
+
+* Knowability Paradox
+** Fitch, Church as referee
+*# `K(p&~Kp)    (Assumption)`
+*# `Kp&K~Kp     1, Knowledge distributes over conjunction`
+*# `~Kp         2, Knowledge implies truth (from the second conjunct)`
+*# `Kp&~Kp      2, 3 by conjunction elimination of the first conjunct and  then conjunction introduction`
+*# `~K(p&~Kp)   1, 4 Reductio ad absurdum`
+** p&~Kp is necessarily unknown, and thus unknowable
+*** If there are actual unknown truths, there are unknowable truths. 
+** Most philosophers balk at this simple proof because they feel that the existence of something cannot be proved by sheer logic. 
+
+* Meno's Paradox
+** How would Socrates recognize the correct answer even if Meno gave it? 
+** If you know the answer to the question you are asking, then nothing can be learned by asking. If you do not know the answer, then you cannot recognize a correct answer even if it is given to you. Therefore, one cannot learn anything by asking questions.
+
+* Dogmatism Paradox
+** Dogmatic knowledge closes inquiry. Any “evidence” that conflicts with what is known can be dismissed as misleading evidence.
+** The hardiness principle states that one knows only if there is no evidence such that if one knew about the evidence one would not be justified in believing one’s conclusion.
+** THE UNDERMINING: new knowledge can undermine old knowledge
+
+* I cannot specifically anticipate the first acquisition of the true belief that p. For that prediction would show that I already have the true belief that p. The truth cannot wait. The impatience of the truth imposes a limit on the prediction of discoveries. 
+
+* [[Paradoxicity]]
+* [[2013.11.06 - Skepticism, Pragmatism, and the Lottery Paradox]]
+
+---
+
+{{2013.11.06 - Skepticism, Pragmatism, and the Lottery Paradox}}

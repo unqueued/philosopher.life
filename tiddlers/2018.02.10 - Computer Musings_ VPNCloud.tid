@@ -1,0 +1,113 @@
+created: 20180210173750291
+modified: 20200211021303406
+modifier: h0p3
+tags: [[RGM Notes]] [[Wiki Audit]] [[Computer Musings]]
+title: 2018.02.10 - Computer Musings: VPNCloud
+
+I'd like to bind my 2.4Ghz and 5.0Ghz lines together on the router.
+
+I also want to make another long-term device away from home. I'll have to carefully find a place to put it. See Ol'Voldy.
+
+---
+
+Set up vpncloud last night on kimsufi and m10. I adore it! Adding to ATL:
+
+```bash
+wget https://github.com/dswd/vpncloud.rs/releases/download/v0.8.1/vpncloud_0.8.1_amd64.deb
+sudo dpkg -i vpncloud_0.8.1_amd64.deb
+```
+
+[[vpncloud.rs]] is a decent enough guide. However, I had huge problems with systemd. I can't figure out what's up. I have a PID problem that I can't resolve. I tried the init route. No go. So, I just made my own hardcoded systemd service.
+
+This is what I have in `/etc/systemd/system/h0p3vpncloud.service`
+
+```
+[Unit]
+Description=VpnCloud network
+Before=systemd-user-sessions.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/vpncloud --config /etc/vpncloud/h0p3vpn.net
+WorkingDirectory=/etc/vpncloud
+
+[Install]
+WantedBy=multi-user.target
+```
+
+```bash
+sudo systemctl enable h0p3vpncloud.service
+sudo systemctl start h0p3vpncloud.service
+```
+
+So, philosopher.life is set up. Also, it has an odd bash problem. I don't understand. When I first login, it is a simple $. When I run bash again (from any bin), it immediately colorizes and implements my bash profile.
+
+---
+
+Setup crontab for dejadup:
+
+`0 1 * * 0 deja-dup --backup`
+
+Tried a few things out. Seem good enough for me.
+
+---
+
+Tried adding uni-link to the wiki. It changes my coloration among other things. I will wait. I may come back to it. I'm glad I have it in hand in case I do, but it's not worth it right now, I believe.<<ref "2020.02.10-1">>
+
+---
+
+Benchmarked with the classic: https://www.grc.com/dns/benchmark.htm in wine.
+
+Switched DNS servers on our router.
+
+---
+
+I am fucking loving [[lussh]]. It makes it so painless for me.
+
+Apparently, RPi is completely up and running again. I have no idea why. I'm thinking my brother must have plugged it back in correctly.
+
+I'm having a damned hard time getting btsync (old btsync, compiled for arm) all set. 
+
+`dpkg-reconfigure btsync`
+
+Found it. I'm being lazy and just going root. I want zero trouble. I already feel like a caged animal inside the RPi sometimes. 
+
+I've setup all the major syncs, unencrypted (in storage) in case I need my brother ever needs to get to the hard drive easily. It's external, so it's not hard.
+
+Set bandwidth throughput limits on it. I don't want to kill his connection (uploading ~200gb through a straw; it's going to take a week, at least).
+
+---
+
+So, vpncloud .deb is obviously x86/64 based. No go on the RPi. I want to maintain that link though, so...
+
+I have to cross-compile to the RPi. 
+
+```bash
+rustup target add armv7-unknown-linux-gnueabihf
+yaourt -S arm-linux-gnueabihf-gcc --nonconfirm
+```
+
+Already have the following in `.cargo/build`:
+
+```
+[target.armv7-unknown-linux-gnueabihf]
+linker = "arm-linux-gnueabihf-gcc
+```
+
+CD and build.
+
+`cargo build --target=armv7-unknown-linux-gnueabihf`
+
+---
+
+shadowsocks, having troubles
+
+`nc -vv -l 0.0.0.0 5000` to check port forwarding, just scan (e.g. https://www.yougetsignal.com/tools/open-ports/)
+
+---
+
+Worked on remotely controlling on my phone, m14. There are no good options. It's such a fragmented walled garden. It's trash if you want control over it.
+
+
+---
+<<footnotes "2020.02.10-1" "Turned out to be the wrong tool in the end. It doesn't scale with a wiki this big. I've kind of stopped trying to find more tooling, although the explosion of tooling for TW seems to have died down considerably (low-hanging fruit has been picked).">>

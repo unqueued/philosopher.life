@@ -1,0 +1,8 @@
+[4:16 AM] h0p3: Thank you! :slight_smile: I'm going to need to play with it. My current method is awful, lol.
+[4:23 AM] h0p3: RPi sounds great. That will work well for ya.
+[4:28 AM] h0p3: I am a terrible gift-giver. I think it's often a sign I don't understand someone well enough. It's weird in our immediate family because if we really needed it, we would tend to get it before a gift-giving occasion, so we're left trying to think about what someone doesn't actually need but would still want. That is often hard to identify. Maybe food is the best route for me to go in the future? Errybody eats.
+[10:00 AM] robotic_scarab: oh, yeah! so you just import the SVGs into the wiki with the import button and then transclude it wherever you need
+[10:00 AM] robotic_scarab: it should automatically be responsive, no need to mess around with any additional settings
+[8:53 PM] robotic_scarab: I just realized that the $:/plugins/snowgoon88/edit-comptext plugin breaks ctrl-z in tiddler text edit areas
+[8:54 PM] robotic_scarab: well, i've noticed it was broken for a long time but just confirmed that it was broken because of the completion plugin
+[8:54 PM] robotic_scarab: another thing to fix on my to-do list :P

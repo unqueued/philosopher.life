@@ -1,0 +1,17 @@
+caption: Links
+created: 20200308225442946
+modified: 20200308231212740
+tags: Keys Links
+title: Keys: Links
+
+[[127.0.0.1|Links: 127.0.0.1]]
+
+{{Links: 127.0.0.1}}
+
+[[192.168.1.1/24|Links: 192.168.1.1/24]]
+
+{{Links: 192.168.1.1/24}}
+
+[[file:///|Links: Filesystem]]
+
+{{Links: Filesystem}}

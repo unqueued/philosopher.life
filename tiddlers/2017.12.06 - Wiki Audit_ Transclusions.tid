@@ -1,0 +1,16 @@
+Let's be honest, I'm lazy. I don't want to constantly code pretty links `[[foobar|link]]`. 
+
+I'd rather have foobar1, foobar2, and foobar3 all point to foobar1. Transclusions are an ugly hack, but they work. I use them for the [[TLD]]s and for crucial terminology. 
+
+Sometimes I use transclusions to build molecular objects, but that is uncommon.
+
+I prefer to explicitly point out when I have transcluded. I do this in the title, at the very top of the page, in a footnote, or elsewhere. 
+
+Here's the standard format:
+
+```
+//Transclusion: [[Foobar]]//
+
+---
+{{Foobar}}
+```

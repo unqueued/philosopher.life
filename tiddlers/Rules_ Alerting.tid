@@ -1,0 +1,10 @@
+created: 20200330034715315
+modified: 20200330035318969
+tags: Antipleonasm Rules
+title: Rules: Alerting
+
+* Alerts should be urgent, important, actionable, real, and represent either ongoing or imminent problems.
+* Err on the side of removing noisy alerts.
+* You should almost always be able to classify the problem.
+* Symptoms are a better way to capture more problems more comprehensively and robustly with less effort.
+** Include cause-based information in symptom-based descriptions, but avoid alerting directly on causes.

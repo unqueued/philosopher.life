@@ -1,0 +1,54 @@
+created: 20190224141728270
+modified: 20200226050920135
+tags: [[Wiki Audit]] Dreams [[Tagging Theory]] [[RGM Notes]]
+title: 2019.02.24 - Wiki Audit: Popups
+
+TW5Nav still isn't a fully functioning beast for me. I'm so fucking close (right? please?). I have waited many months for this tool, and I can wait many months more. There is an exception: I need my popup links.<<ref "2020.02.26">> I need to be able to "peek" into my linked tiddlers without disturbing the context at all. When I'm in the zone, I cannot afford distractions, losing my memory as I walk through new doorways, losing my place and how I feel about the body, etc. There is only so much I can hold all at once. Popup-links are a straight fucking hack to my focused style (yeah, but TW5Nav will be too).
+
+TW5Nav's benefit won't come without having practiced with all of the pieces enough to iterate over how to improve the process. I have to evolve it enough to be able use it without having to reason about it at all. I don't think about how to use i3 for the usual tasks anymore. I expect my hotkeys to work (I'm beyond frustrated on anything that isn't my computer), I have strong preferences for workspace management, I bounce between tasks and contexts with minimal friction, and it's fast. I need muscle memory inside the wiki, like yesterday. I'm piloting a clunker, and I need my n52, AHK, information advantage addons, tailored ini files, and the ability to automate everything that I wouldn't normally need to pay attention to in order to gain focus on higher-ordered functional control of this wiki. Give me all the customized zero-cost abstractions! I have to make my immediate conscious focus worth every ounce. Maybe 2 years from now, I will finally have it.
+
+It's a shame that TW5Nav has its own popups which block the hover. I've waffled on which is more important. If I can guarantee a fully working TW5Nav, I'll take it over the hover. Ugh. I don't want to sacrifice either. They are both insanely powerful.
+
+Once I have a functioning TW5Nav, it is possible I can port my browser extensions into the wiki as well. I want substitutions and console-like commands. I have no idea why I don't see others raving about those addons. Why? The difference is night and day. Most people aren't going to blow 15-30GB of memory on browsers either though: weirdo. Do your thing.
+
+---
+
+Sidebar navigation is likely going to become increasingly important. I have to be able to rapidly generate storyrivers of all kinds. Or will TW5Nav and true console/hotkey/macros inside the wiki actually enable me to skip the sidebar? Hm. That seems far more appropriate. Think of scripts as manual buttons. Hook i3 up to the scripts, and voila. I don't want to visually navigate and push a button, I want:
+
+`/daily`
+
+Where is muh wiki guake?
+
+I want a command line. Oh, Jesus. Should I just go straight to Spacemacs or nvim? At some point, keyboard control is just more native in an actual terminal. You know WASM is going to make it happen in the browser too. There aren't a lot of ports, but a decade from now, they will be there. I feel the sunk costs, lol. You still have to wrap it all in a single file, and this is the easiest way to do that. Why build UIs in anything other than HTML? Ah, but I can actually script for the commandline, and I can't in this tool.
+
+Y u no c further, h0p3?
+
+You simply don't have enough evidence to switch tools. You got a system that works well enough. Run with it. Stop building gizmos and get your fucking work done. Where is your substance?
+
+Also, you are not permitted to violate your {[[axiom]]}: [[FTO]]. You have to build something others can feasibly navigate (and this is already bizarre. If you can barely learn how to use your computer, how the hell can you expect others to navigate a full-blown CLI wiki? That's insane. That's not right.
+
+---
+
+Tiddler context creation through tagging is clearly powerful. I've not understood it well enough to automate it. It appears that it may play role in [[Firmcoding]]. I can see [[APFVD]] fits beautifully here. I finally have [[title.Tag]] origin, but also the connective tissues of tagging the tiddler into where it belongs. Below that, I have the green, light tags of the links in the body themselves. =)
+
+How much of that context can or will be automated? What kinds of search or construction will I use from it? I simply don't know. It can be built upon. I was wrong about tags before. I simply cannot see far enough.
+
+---
+
+Hrm. Maybe I'm tagging this in because I'm lazy! Lol. It's "close enough" in the gunkiness. It's in the ballpark. I could cut the tagging section out and put it into [[Tagging Theory]]. I just don't know where everything belongs in a price-efficient way (especially one that enables flexible [[remodeling]] on the fly). I'm globbing the gunkiness, and it's going to be messy. That's okay! Rhizomes gonna rhizomate. In time, the structure that makes the most sense will emerge (right?).
+
+---
+
+What if we try the template from scratch again, adding the pieces outside of production and then migrate? It failed last time. Reproducibility is good. Being able to troubleshoot from the bottom is really good. [[j3d1h]] must tell me what she thinks.
+
+---
+
+Bob ate [[j3d1h]].
+
+---
+
+I've cleaned [[Recent Obsessions]]. Oh, I feel so much better. I'm left with what clearly matters to me.
+
+
+---
+<<footnotes "2020.02.26" "I can live without them on a lot of wikis. But, if I'm doing a [[Review]], as I'm doing in [[h0p3ful Review]] for my offspring, I prefer the popups. I can split the screen fine and open by filter, but this tends to work better.">>

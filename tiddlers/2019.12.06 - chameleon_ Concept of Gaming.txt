@@ -1,0 +1,53 @@
+[11:58 AM] h0p3: I ever tell you my favorite class in WoW was the rogue?
+[12:00 PM] h0p3: It was a class that scaled off understanding the mechanics of the game more than having gear. It filled weird niches, and I adored PvP with it. I didn't RP as one (though I've played rogues in DnD before).
+[12:01 PM] h0p3: When you described people by class, I wanted to think about all the awesome rogue mechanics I've seen over the years. I have some favorites of mine.
+[12:02 PM] h0p3: Now I see you are building a whitemage class, and I'm curious what mechanics belong to that.
+[12:03 PM] h0p3: Healing classes are often provided a lot of abilities because there many people don't enjoy the role. Everyone needs a cleric, but nobody wants to play one. Is the whitemage in the same boat?
+[4:01 PM] chameleon: The cleric is really several character concepts in one:
+- healmonkey
+- van helsing (I.e. Anti-undead nuke)
+- utility
+- holy (I.e. Christian) warrior
+[4:02 PM] chameleon: Much like ken st andre I don't want to play dnd as a game with a christian holy warrior in it
+[4:02 PM] chameleon: It's better to stick to the fighter-wizard-thief triad and make the healmonkey a specialized wizard, imho
+[4:27 PM] h0p3: I assume there are various kinds of rock-paper-scissors that arise from that triad.
+[4:27 PM] chameleon:
+
+[4:27 PM] chameleon: Just hacked this together, lol
+[4:28 PM] chameleon: The rps was in runescape with melee/magic/archery
+[4:28 PM] h0p3: It's fascinating.
+[4:29 PM] chameleon: Though, there's not really an rps in dnd because there shouldn't be pvp
+[4:29 PM] chameleon: If there was pvp it'd come down to level, mostly
+[4:30 PM] h0p3: Ah, but if you want to build NPC's that make sense in balance, it is valuable to have the concept of classes and their relationships locked down in some sense.
+[4:30 PM] h0p3: You've played magic for a while. You ever hear that phrase "who's the beatdown?"
+[4:31 PM] chameleon: Haha
+[4:31 PM] chameleon: I don't think so
+[4:32 PM] h0p3: Usually,  you can look at a gamestate and determine who should be swinging with their creatures, and who shouldn't.
+[4:32 PM] h0p3: You can ask who should be pressing their advantage, or even who is required to overextend in a context.
+[4:33 PM] h0p3: If I know you are playing a combo deck, and I have no disruption pieces, I'm going to have to try to "out combo" you, to win before you go off.
+[4:34 PM] h0p3: If you are playing a control deck that has effective components for controlling my win conditions, I may need to race before you can wipe the board and leverage your card advantage. Or, I may need to slow-roll you, trying not to overextend while eeking out the necessary 20 damage.
+[4:34 PM] h0p3: Anyway, the classic magic triad is: combo, control, aggro
+[4:35 PM] h0p3: And,  it's usually the case you ask yourself midgame, who is the beatdown right now? If you misassign the role, then you are far more likely to lose the game in magic.
+[4:36 PM] h0p3: Every deck can be defined in a metagame on that triad spectrum (or so it has been claimed).
+[4:37 PM] h0p3: I have no idea if that applies nicely to the work you've laid out, but I thought it was an interesting parallel.
+[4:40 PM] h0p3: I'd be interested in how the whitemage mechanics work in that context too.
+[4:41 PM] h0p3: Also, to your cleric definition: healmonkey, anti-undead silverbullet, and utility appear more ludogically functional. The "Holy Christian Warrior" property appears to be more of a narrative rather than a function like the others.
+[4:42 PM] chameleon: Well, the cleric can use armor and weapons
+[4:42 PM] h0p3: Aye, traditionally heavy armor which only a tank might wear, if I understand correctly.
+[4:43 PM] h0p3: Weapons often being the mace, staff, and even shields (which we can call armor, but sometimes it has an offensive component).
+[4:45 PM] chameleon: Shields do help with your ac in dnd
+[4:45 PM] chameleon: Usually a bonus of 1
+[4:47 PM] h0p3: Aye. I think a shield (unlike other kinds of offhands) always has some defensive value(s) (not against all damage types, for example, but at least one, usually physical).
+[4:48 PM] h0p3: Mages, traditionally, are not allowed to equip gear that is defensively too powerful. The glass-cannon weakness is necessary to balance out their casting usually.
+[4:50 PM] h0p3: I played EQ2 since it came out (built a machine just for it). One of the reasons that game became unfun was the imbalance between the tank classes and all the others. When  you looked at the parses, tank did the best damage in the game while also having the highest defense(s). It warped all the other roles.
+[4:54 PM] h0p3: Anyway, I may not be useful in fleshing out the whitewizard with you, but I do like thinking carefully about game balance.
+[5:28 PM] chameleon: https://wizardthieffighter.blogspot.com/2016/10/d-is-not-game-its-games.html?m=1
+D&D is not a game. It's games.
+Bloody adventures of sword and sorcery with a surrealist aesthetic and an OSR sensibility.
+
+[6:22 PM] h0p3: Yes, I agree.
+[6:22 PM] h0p3: Or, I'm willing to say it might be a game of many subgames.
+[6:23 PM] h0p3: But, I can point at lots of games and say the same thing.
+[6:23 PM] h0p3: Tons of magic players read the lore, the flavortext, and see the cardboard battles as rhetorical devices for telling lots of kinds of stories.
+[6:25 PM] h0p3: Lots of MMORPG's can be played as a pure market, aesthetic house-building and character construction, PvP, raiding, exploration, gambling, etc.
+[6:37 PM] h0p3: I am open to very expansive concepts of games.

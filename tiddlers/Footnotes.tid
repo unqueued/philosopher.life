@@ -1,12 +1,12 @@
 aliases: [[Retroactive Footnotes]] [[Retroactive footnotes]] [[retroactive footnotes]]
 created: 20181109022838063
 creator: h0p3
-modified: 20190701203722077
+modified: 20200209062105256
 modifier: h0p3
 tags: [[Wiki Mechanic]]
 title: Footnotes
 
-//One of the elite aspects of my marginalia boils down to my profound reliance upon footnotes.//
+//I'm absurdly reliant upon my marginalia. I need links that never escape their tiny world. Philosophers are footnote whores. I can't help it. Call it an addiction if you must.//
 
 The footnote macro, $:/macros/danielo/footNote, was one of the first tweaks I ever made to my TW code. I think I added it within the first couple days of using this wiki; I was supremely annoyed that TW didn't already come with footnotes.
 
@@ -14,12 +14,29 @@ I now have thousands of footnotes in this wiki.<<ref "f">> They are a crucial as
 
 Footnotes enable the content to flow as I prefer, without the worst kinds of interruptions. I'm often forced to turn my obsessive parenthetical statements into footnotes, especially when things get messy.
 
-Philosophers are footnote whores. I can't help it. Call it an addiction if you must.
+Currently, I have few naming conventions that functionally matter.
 
-Currently, I have no naming conventions that matter, except one: I aim to use dates in footnotes to demonstrate adding content to a tiddler to which I might otherwise feel uncomfortable adding semantic content (e.g. dated material meant to serve as a log).<<ref "YYYY.MM.DD">> Retroactive footnotes are a different layer to this narrative.
+# [[Moth Languages]]
+#* Sometimes a name is a signal. A footnote title can flutter.
+
+# Retroactive Footnotes
+#* Data is to be re-used in a wiki, and this is proof that I re-use my data.
+#** Hopefully, I will find what is worth re-using and why.
+#* I aim to use dates in footnotes to demonstrate adding content to a tiddler to which I might otherwise feel uncomfortable adding semantic content. I use these in static content which has been datestamped.<<ref "YYYY.MM.DD-1">> 
+#* Retroactive footnotes are a different time-traveler glue layer to this narrative.<<ref "YYYY.MM.DD-2">>
+#** Reading through my [[Yearly X-Section]] provides me an opportunity to continue to reflect upon, construct, correct, and tie together the stories of my life.
+#* Insofar as this wiki is a piece of art, I consider this one of the high-concepts used to create it. 
+#** Philosophically, it's aiming to be part of the exploration of my [[4DID]] and reflective equilibrium in [[TOP]] of my [[Self-Dialectic]].
+
+# Infixed EZ-Copy Footnotes
+#* Currently, only [[@: hypertext 2020]] has them<<footnote "h:@ht" "This is an example.">> to any significant degree.
+#** This naming convention also limits the redundancy problem I face in naming.
+#* I prefer to show the footnotes on the bottom and have pop-ups, but there are documents which are already complex enough that I probably shouldn't add another layer. Further, there are cases in which it may be my duty to make it easy to copy the content //with// the footnotes included to limit the handwork of [[others]].
 
 
 ---
-<<footnotes "f" "I even have footnotes attached to some of my footnotes (almost always a joke).">>
+<<footnotes "f" "I even have footnotes attached to some of my footnotes (almost always a joke, but that may change over the years).">>
 
-<<footnotes "YYYY.MM.DD" "This is just an example.">>
+<<footnotes "YYYY.MM.DD-1" "This is just an example.">>
+
+<<footnotes "YYYY.MM.DD-2" "This is just another example.">>

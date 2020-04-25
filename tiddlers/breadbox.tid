@@ -1,0 +1,52 @@
+created: 20191206203303466
+modified: 20191206235401607
+tags: Quotes [[Antipleonasmic Catholicon]]
+title: breadbox
+
+http://www.muppetlabs.com/~breadbox/txt/acre.html
+
+<<<
+Presentation matters
+
+It's a bit comical to look back to how much I initially resisted using color in my exploratory scripts, knowing now how much it made various patterns stand out. Likewise, I wish that I had created the script to do coloring on-the-fly much earlier in the process, instead of waiting until nearly the end.
+<<<
+
+<<<
+for n in 1 2 3 ; do echo iterate ; done
+
+Reverse engineering is full of chicken-and-egg problems. You need data in order to form a sensible hypothesis, but you need a hypothesis to know what data to gather. The solution, as always, is to start with a first approximation and iterate your way into the solution space. Favor exploratory prototypes and quick turnaround. Write high-level scripts using easy-to-debug text interfaces. Test, refine, test, refine.
+<<<
+
+<<<
+Perspective can make all the difference
+
+Think about how the scrambling process looked so complicated when viewed as series of "strides", filling in the grid from a source, instead of as a simple series of shifts and rotations applied to the initial grid. Examining something from the wrong point of view can just import extra complexity. The fact is, all of my work on dissecting the behavior of the strides wound up being a complete waste of time, causing me to spin my wheels on a bad model for weeks. And when I finally hit upon the better model, all of that earlier work became nothing more than a distraction. On the other hand, my original ideas about the encryption process were just as wrong, but I was able to leverage them to dig deeper, and thus I was able uncover new patterns that pointed me towards a better model. So, time invested in a bad model isn't always time wasted.
+<<<
+
+<<<
+Don't get attached to your jury-rigging
+
+After I had figured out how to influence the key selection, and rewritten my data collection tools to start collecting grids in sequence, I wondered why I hadn't done this sooner. Some of it was laziness, no doubt, but some of it also was that I was perversely proud of my Rube-Goldberg OCR-based data collection process. Make no mistake: I'm still proud of it, and justifiably so. But I should have realized sooner the necessity of examining grids with contiguous key values. Given how easy it was to figure out the method for choosing the key value, there was really no reason why I couldn't have done that much, much sooner.
+<<<
+
+<<<
+Remember Occam's Razor
+
+Assume things are simple at first. Explore the complicated explanations after the simple one has failed. I once heard it put this way: "Everyone knows that hindsight is 20/20. So, take advantage of that: Try to write as much of your program as possible with the benefit of hindsight." In other words, don't over-engineer complicated solutions before you know why the simple one isn't good enough. In a way this is just a restatement of Occam's Razor, but I like it because it clarifies why Occam's Razor is a good idea. It's not because simpler solutions are actually more likely to be true; they frequently aren't. It's because it's almost always easier to improve a simple solution by adding complexity, than it is to improve a complicated solution by digging out a simple solution buried within it.
+<<<
+
+http://www.muppetlabs.com/~breadbox/txt/bure.html
+
+<<<
+Reverse engineering an unfamiliar data file could be described as the bootstrapping of understanding. In many ways the process resembles the scientific method, only applied to human-made, abstract objects instead of the natural world. You begin by gathering data, and then you use that information to put forth one or more hypotheses. You test the hypotheses, and use the outcome of those tests to refine them. Repeat as needed.
+
+Developing skills in reverse engineering is largely a matter of practice. Through an accumulation of experiences, you build up an intuition of where to investigate first, what patterns to look for, and what tools to keep handy.
+<<<
+
+<<<
+Unfortunately this image, though comprehensive, doesn't really show us anything new. (It actually shows us less, since the resizing ruins the pattern of the stripes.) We might need a better visualization process for looking at the entire set of data.
+<<<
+
+<<<
+[T]here is no one right way to go about examining an unfamiliar data file. Whatever tools that you can make work are the right tools for reverse engineering.
+<<<

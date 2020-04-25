@@ -1,7 +1,8 @@
+aliases: [[Open]]
 caption: {{$:/language/SideBar/Open/Caption}}
 created: 20190702234436691
-modified: 20190702234442644
-tags: Timelines
+modified: 20200208055959998
+tags: Map
 title: $:/core/ui/SideBar/Open
 
 \whitespace trim

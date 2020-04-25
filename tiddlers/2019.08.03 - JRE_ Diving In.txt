@@ -1,0 +1,135 @@
+totally down for me
+AUG 3 11:20 AM
+Same
+AUG 3 11:20 AM
+womp womp
+AUG 3 11:20 AM
+Need to wash bottles before rebecca gets back
+AUG 3 11:21 AM
+I'll take this as a sign
+AUG 3 11:21 AM
+Go with God
+AUG 3 11:21 AM
+I'm 40 now, gonna look at your 40 build
+AUG 3 11:21 AM
+no
+AUG 3 11:22 AM
+lol
+AUG 3 11:22 AM
+melee is clear winner
+AUG 3 11:22 AM
+I can start thinking about 40-50 though
+AUG 3 11:22 AM
+K
+AUG 3 11:22 AM
+Is this so face roll you won't like it?
+AUG 3 11:22 AM
+naw, it's fun
+AUG 3 11:23 AM
+K
+AUG 3 11:23 AM
+have to find way to max the faceroll
+AUG 3 11:23 AM
+I think you should try a 2-hander out
+AUG 3 11:23 AM
+Wish the shit I bought wasn't server specific
+AUG 3 11:24 AM
+I had 2hander before
+AUG 3 11:24 AM
+1's do better for you?
+AUG 3 11:24 AM
+Nah, but the 1handers I have are nicer than the 2handers I have come across
+AUG 3 11:24 AM
+Crusader is kinda nuts
+AUG 3 11:25 AM
+Feels like the buff is up about 40% of the time
+AUG 3 11:25 AM
+Need to bust out a parser and head to the test dummies in org
+AUG 3 11:26 AM
+Aye. Would be good to know.
+AUG 3 11:27 AM
+Should look into scarlet monastery, maybe we can farm an instance
+AUG 3 11:28 AM
+K, dishes
+AUG 3 11:29 AM
+#ifWinActive World of Warcraft
+
+F1:: Reload
+F2:: Pause, toggle
+
+`::
+{
+	Send,190-=
+	Sleep 100
+}
+return
+
+1::
+{
+	Send, 17890-=
+	Sleep 100
+}
+return
+AUG 3 1:51 PM
+AHK script
+AUG 3 1:51 PM
+my "1" button macro:
+AUG 3 1:52 PM
+#showtooltip Charge
+/petattack
+/startattack
+/click PetActionButton6
+/cast Blood Fury
+/cast Charge
+AUG 3 1:52 PM
+2 button macro:
+AUG 3 1:52 PM
+#showtooltip Corruption
+/cast Corruption
+/petattack
+/startattack
+AUG 3 1:52 PM
+3 is rend, 4 is nova, 5 is lifetap
+AUG 3 1:53 PM
+(n52 is the way to go)
+AUG 3 1:53 PM
+7 execute, 8 evisc, 9 cleave, 0 riposte - OP = hemo
+AUG 3 1:53 PM
+Secure session reset
+my phone and computer got unlinked-- so all that got sent to my phone
+AUG 3 1:56 PM
+oh well
+AUG 3 1:56 PM
+ill fix it later
+AUG 3 1:56 PM
+k
+AUG 3 2:11 PM
+Error handling incoming message
+AUG 3 2:11 PM
+https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=💯697:772:845:1120:1463:5171:7384:8232:15237:52127:126t2:131t2:135t1:137t1:465t3:611t3:681t1:827t1:901t1:1282t1:1388t2:1705t3:1819t1:1860t2:1883t2:2054t2:2131t2:2232t3:2283t1:
+AUG 3 8:29 PM
+https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=💯697:772:845:1120:1463:5171:7384:8232:15237:52127:126t2:131t2:135t1:137t1:465t3:611t3:681t1:827t1:901t1:1282t1:1388t2:1705t3:1819t1:1860t2:1883t2:2054t2:2131t2:2232t3:2283t1:
+AUG 3 8:33 PM
+New build for me:
+AUG 4 3:21 AM
+https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=:17:100:139:172:324:772:1120:2098:2457:5308:7384:8232:13161:20164:71t1:131t2:135t1:136t3:157t2:246t1:301t1:681t1:827t1:1041t1:1282t1:1361t1:1410t3:1426t1:1431t1:1657t3:1659t1:1661t1:1664t2:1672t1:1709t1:1819t1:1883t1:2073t2:2078t1:2131t2:2232t1:2268t2:2283t1:
+AUG 4 3:22 AM
+#ifWinActive World of Warcraft
+
+F1:: Reload
+F2:: Pause, toggle
+
+`::
+{
+	Send,190-=
+	Sleep 100
+}
+return
+
+1::
+{
+	Send, 17890-=
+	Sleep 100
+}
+return
+AUG 4 12:24 PM

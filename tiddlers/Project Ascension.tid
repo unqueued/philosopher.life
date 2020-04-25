@@ -1,0 +1,576 @@
+created: 20190724010747489
+modified: 20191103173329655
+tags: [[World of Warcraft]] JRE
+title: Project Ascension
+
+!! Current Builds:
+
+* [[PvP Stunlock TG|https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=:100:408:642:688:845:1953:2098:2842:5277:5308:6789:8075:8512:13161:19740:20164:121t1:144t3:152t1:159t2:165t1:166t3:442t1:662t2:681t1:827t1:901t1:1322t1:1361t1:1410t2:1581t5:1645t3:1659t1:1662t3:1664t2:1714t1:1722t3:1729t1:1731t3:1865t1:1867t1:2064t1:2065t1:2074t2:2076t1:2078t1:]]
+** 3x Unbridled Wrath, 3x Sudden Death, 3x Incite, Omen of Clarity, Holy Strength, Spell Slinger, 3x Blazing Speed, Deadly Brew
+
+* [[Holy rDPS|https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=:546:585:642:1120:1454:1459:1953:2458:5384:5740:6117:6366:14914:15237:19263:19746:20217:29166:45438:57994:818045:69t1:75t1:87t1:322t1:401t5:403t5:573t1:827t1:1181t3:1261t2:1263t3:1402t3:1627t3:1672t1:1679t1:1687t1:1725t2:1756t1:1766t2:1771t2:1783t2:1897t1:1898t5:2191t2:2211t1:]]
+** Spell Slinger, 3x Master Conjuror, 3x Searing Light, 3x Lunar Guidance, Balance of Power, One-Handed Weapon Specialization, Swift Justice, Crusade, Holy Power, Omen of Clarity, Improved Concentration Aura
+** [[Moonkin Holy rDPS|https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=:546:585:642:1120:1454:1459:1490:1953:3599:5384:5740:6117:6366:14914:15237:19263:19746:20217:20608:29166:45438:818045:69t1:87t1:322t1:401t5:403t5:573t1:793t1:1181t3:1261t2:1263t3:1402t3:1627t3:1672t1:1687t1:1725t2:1756t1:1766t2:1771t2:1782t3:1783t2:1898t5:2191t2:2211t1:]]
+
+* [[Direct AoE Shieldbuffing Healer|https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=:596:642:759:1454:1953:2006:2060:2061:2458:2782:4987:5384:6366:8143:8170:15237:19263:19746:20484:20608:29166:45438:69t1:322t1:347t3:361t3:404t5:413t2:827t1:1261t2:1561t1:1679t1:1722t3:1733t3:1771t2:1772t3:1815t1:1867t1:1895t3:1898t5:2060t2:2179t3:2192t1:2195t3:2211t1:]]
+** Infused Gems, 3x Master Conjuror, 3x Divine Providence, 3x Divine Aegis, 2x Healing Prayers, Improved Concentration Aura, Swift Spells, Holy Power, Intensity, Omen of Clarity
+
+* [[Parry Blocking Tank|https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=:71:78:100:168:355:498:687:694:871:1953:2565:5384:6343:8232:13163:19263:22812:23922:25780:26573:148t1:187t3:246t3:301t1:303t1:641t3:1403t3:1421t3:1429t3:1430t1:1431t1:1481t1:1501t3:1652t2:1654t2:1666t1:1679t1:1693t1:1703t2:1711t3:1722t3:1783t2:1893t3:2138t1:2196t1:2246t2:]]
+** Blademaster, 3x Improved Righteous Fury, 3x Critical Block, 3x Enveloping Shadows, Arctic Winds, Redoubt, Shield Specialization, Protector of the Pack, Omen of Clarity, Deflection, Holy Strength
+
+* [[PvP Shadowmage 1|https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=:17:172:527:589:642:686:687:691:781:1044:1120:1454:1490:1953:2944:6789:7294:8024:8122:16689:45438:71t1:461t1:484t1:521t1:827t1:943t1:944t1:967t5:981t1:1002t2:1041t1:1042t3:1282t1:1283t2:1322t1:1421t3:1430t1:1678t3:1679t1:1724t2:1729t1:1731t3:1756t1:1757t2:1771t2:1817t3:1889t1:1906t2:1907t3:]]
+* [[PvP Shadowmage 2|https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=:17:172:527:589:642:686:687:781:1044:1454:1490:1953:2362:2944:5384:6789:8122:16689:69t1:71t1:75t3:322t1:461t1:484t1:521t1:573t1:827t1:1002t2:1041t1:1042t3:1261t2:1283t2:1421t3:1430t1:1670t1:1678t3:1679t1:1725t2:1729t1:1731t3:1757t2:1771t2:1817t3:1878t3:1906t2:1907t1:2041t1:2245t1:]]
+** Spell Slinger, Omen of Clarity, 3x Blazing Speed, 3x Twin Disciplines, Protector of the Pack, Blessed Life, One-Handed Weapon Specialization, Darkness, Balance of Power, Survival of the Fittest, Swift Spells
+*** Melee (Shield + Ranged?): Redoubt, Blessed Recovery
+*** Weapon: ?? Something Anti-caster, Also anticaster? (or pure crit) Everlasting Affliction
+
+
+<br>
+
+!! Log:
+
+; 2019.11.03 - Project Acsension: The Pause or The End
+
+I've not played in many weeks now. It's been a treasure to play with my brother, a highlight of my year. This game is great. The people are not. Get into a Naxx guild, and the players demonstrate they are unjustifiable dicks. When I outdps in the guild leaders in same archetypal spec (and they have better gear), they should listen to my explanation of the parse, build math, and strat. The way they run loot is just egoistic. I've crystallized the game given the players available, and what's left is a waste of my time.
+
+; 2019.10.01 - Project Ascension: Officially One of the Minor Cool Kids
+
+* I'm so excited to be popular enough to have the highest non-committed scheduled raiding team rank in my guild. It was randomly bestowed upon me by Wrongar before he asked me to tank Setis. I, just, feel so...honored.
+** Setis was by far the hardest boss I've tanked. I used two whole CDs, lol.
+*** My brother saved the raid in rDPS holy healing.
+* I did DMW run today without a healer. Athos and Failed can DPS, and we had an Exalted with us. I am a better tank than Wylde in this zone.
+** Self-healing tank sounds so good.
+
+; 2019.09.29 - Project Ascension: Maintank
+
+* I was maintank for MC raid with the Spaniards (no idea what they are saying at least 10% of the time, but it's beautiful sounding). I didn't tank for Rag though, and I decided to just DPS instead of offtanking the submerge (since there was a chance we could down him before it). It was the smoothest MC run I've done, with a wipe on Rag. Clocked in under 1.5 hours.
+** I only blew CDs for Garr. 
+** Uterinewall joined us. Nice to be complimented, of course.
+** I should be less timid in pulling strays and controlling the flow of our dungeon crawl.
+** My aggro was not perfect. This is different from EQ wherein it was totally everyone's job to manage aggro. It's more expected here, even though the raidleader will call out to allow the tank to generate aggro. With threatmeters, it makes sense that everyone should be responsible in this way. Still, I will need to perform the norm. It was not as solid as I'd like. Bosses don't turn on me, but the trash does, a few seconds makes a big difference.
+
+; 2019.09.28 - Project Ascension: RE Changes
+
+* Guba showed me what the GMs/devs did. We can now transfer REs. This is a huge loss of work for me, in a sense. I am glad to have it though. I think it weakens specs, strengthens alts. I'm surprised by this move since I think it loses them money. They must be hurting.
+** Generously handed him 60 orbs. Logged into my bro's account to help him as well.
+* Finished off all my REs for PvE. Next step up with shadowbolt or dots for rDPS. I'm thinking hunt or mut is also solid.
+** Full REs feels good, man. Lunar Guidance is very strong.
+* I just don't like SnB. I'm not holding aggro cleanly where I expect, rage generation blows, and it feels wrong. 
+* Played AV. It's buggy. Was fun until bugs killed it for me.
+* Helped my bro with Ony quest. I hope he moves to rDPS. 
+* Looks like I'm saving all my rolls from now on. What's the point? It is better to buy off someone and save for TBC.
+
+; 2019.09.22 - Project Ascension: Rebuild
+
+* I played a lot today, and I have nothing valuable to show for it beyond the fun of playing with my brother.
+* I'm dropping a ton of gold into rebuilding the first four specs. My rDPS and Healer are now raid legal. I'm going to miss Vanish, but I have a bunch of other defensives (they don't clear aggro though). 
+* Despite how much I adore the Divine LRE, the fact is that gem haste is more important for when I make or break a raid (which is pretty often). I'm dropping a lot of mana regen and niceties to pickup full res, defensives, and the two totems I must have. Gonna see if I can live without mass dispel. 
+
+; 2019.09.21 - Project Ascension: BWL
+
+* I did a BWL raid tonight. I acquired loot which was nice but irrelevant to me given my boxes. Raiding is not how one should acquire loot in this game. I already have the best items from the zone (ppl are jelly). My builds aren't ready. 
+** We didn't have enough healing, so I switched. Even in my half-assed healer gear (since I transplanted my best to rDPS), I was kicking ass. Unfortunately, there were lots of things to learn about the encounters. I wiped us more than once.
+** It's clear that I need my rDPS and healer to be ready for raiding. TG will be PvP still.
+** Giant fucking meltdown drama over loot, as usual. I have seen this now for decades. I'm an observer, and since I'm conservative in how I roll, I don't face any of the trouble.
+* 2nd Asscandy ;P
+* I'm revamping my builds, again. Everything has to be torn apart and redone. 
+
+; 2019.09.12 - Project Ascension: [[chameleon]] call out
+
+* [[I HAVE BEEN CALLED OUT|https://wiki.waifu.haus/#2019.09.12%20-%20THIS%20IS%20MY%20CALLOUT%20POST]]! XD.
+** Pfft, these are mere nostalic plebs smoking a gateway drug; get on my addiction level! ;P I literally wrote the duelist's book for vanilla & TBC. I eat these noobs for brefast; and naked for this garbage in particular. It takes one week to hit max level (faster if u r me, though I've heard the servers are busy). Grind you a FR and t0, gather together ye other plebs and rise up against a rag and a few others until you are bored (I'm already talking myself out of everthing). I could go be le gladiator once again, but y tho? Project Ascension Master Race! You must not have a life (few are employed) to play this one. We even have grills.
+* I still have no idea what I prefer for a PvP spec. I'm starting to gear up. Dailies are clearly the winrar; it's insane to skip any of them. I'm hoping within a month I'll have spare extracts. 
+* I need to work on a Hunter spec as well. It's really the missing piece. Unfortunately, I've been ditching agi gear (like a fool). Welp. I need to start keeping. I'm adoring my holy rDPS spec for grouping. Last group I was highest damage and healing, lol. 
+** I need to reason about hunter specs. It's so hard to see what other people of merit of doing here. I just don't raid enough. I am throwing down with my guildies though, and they are next level.
+* McSpanky says Ironfoe is 1/5 drop on this server...I hate to say it, but he is probably right. I hope so. I want that weapon. 
+** So weird to see him with an item I so desperately want. Talked to him. He does 1 daily per day max, lol. It's weird to see how I've skipped ahead of him by at least a tier in just two weeks (arguably two). His tanking was completely irrelevant. I was soloing some of the bosses.
+* I really want a high mobility, high damage, turtle, but that's basically asking for everything, right? The problem is probably that you can't turtle against everything, and it's still too reactive. Give me a handful of seconds on anyone, and they are dead. Much easier to DPS.
+* Got bro into guild. He raided. Looks like head and shoulders better. 
+
+
+; 2019.09.09 - Project Ascension: Noice
+
+* I keep looting some decent to perfect caster gear. 
+* I keep passing over REs that I know I'll eventually want. Extracts are the fucking bottleneck. It sucks letting go of medium-sized fish for what I'm really after. It's hard to accumulate generally relevant REs for multiple specs faster than I have though. 
+* I finally found Spell Slinger on AH for 600. Snatched up immediately. Frostspec is hilarious and weak. I'm the closest to holy spec, and it has good single target DPS. 
+* My bank is full, ridiculously so. The problem is that I have no idea what my last spec will be. Will just save awesome stuff.
+* New guild is quite rule-oriented, but we will see how fair they are in the end. There are some skilled players in here. I like their builds, reasons, and parses.
+* PvPed a bit. I continue to heal for PUG scourge events, and they loot is insane. We took down several waves of alliance because I'm healing everyone. =)
+* Beat Guba 1v1. Destroyed him (but was hunter?).
+* Randos are attacking me in TG, and I'm nasty, yo. Probably noobs. I'd get destroyed by a serious full PvP spec/build.
+
+; 2019.09.05 - Project Ascension: Rage
+
+* We need to switch guilds. My brother is right.
+* I've switched up my Melee DPS build to hopefully be better for dailies. I have higher single-target DPS, significantly better healing (plus grabbed darkmoon card for it), but I think I'll be dropping some AE damage. Sweeping Strikes and Cleave will be strong though. I've dropped my focus on buffs during combat too. I'm going ridiculously lazy.
+** If I chose to get my totems back, I would be wildly outdamaging my previous build.
+* Focused Rage RE is completely fucking bugged. Wasted Extract! However, all is not lost. Unbrided Wrath RE is a fucking hidden sleeper. This is way stronger than it should be. It's gotta be bugged, and it's better than I could have hoped for. I officially cannot spend my rage, and I'm perma cleaving. I can't wait to finally have some hasted weapons one day. 
+** Rage gen is so high, I can see fast one-handers now. I'm thinking abilities introduce a delay in melee white. Poisons might even put it close to my two hander damage.
+* Did a group for fun. DPS was solid, though I can't keep max mana up. It's weird to see WW not topping my damage. 1550 single target on dummies.
+
+; 2019.09.02 - Project Ascension: Flurry
+
+* My brother and I now have lvl 40 shadowcasters on the PvP server. Leveling is easy. I adore kiting. I realized that's the PvP spec I want. A DoT kiter that can draintank in a pinch. 
+* PvP Build
+** Originally, I went full shadowknight, with rogue and warrior abilities. I think it's better just to kite and let my shield do all the work when it is necessary. 
+*** Maybe I'll switch up. Execute is very cheap, and no one can see it coming. I'm worried about fury generation though; it's possible the damage dealt to me will make it worthy. Pure kiting, however, seems really dangerous.
+** No casters are wearing shields. I don't get it. 4 talents and a shield, and you are a mean mamajama for any melee. They must go behind you. 
+*** Probably going to have a weapon swap just for casters. There is no reason to gimp myself unnecessarily. 
+** I'm super fucking excited. I love a turtle, especially one that will leech you to death. I want to win attrition wars all day, and I want to have something worthy in group pvp. That's probably all that will be available. 
+* My healer is damn near complete. I think I am the best healer in the guild.
+* I want to switch up soon, that way I can roll on pure caster gear from now on. The way I see it, my melee DPS is enough to do dailies fast.
+* I think I need to drop the QoL spec and pick up Holy rDPS
+* I don't have enough sets of gear for this. PvP spec will always have all the gear it wants, of course. It comes first.
+* I need the banking item.
+
+; 2019.08.28 - Project Ascension: ZG
+
+* We wiped in 25m ZG over and over with far too few, avg 7, lol (pitiful). I'm sure it is doable when you have 1 sick tank, 1 sick healer, and pure rDPS who know what they are doing. Ours was PUG by the end, and we couldn't do half the bosses until I switched to healer. 
+** I've been more vocal in my jokes. =)
+** The gear is simply not worth it.
+** Picked up Honored.
+* Dailies and rolls netted nothing of consequence. Nothing was actually gained today.
+* Made a PvP server naked character. The levels are insanely fast, the loot tables are obviously modified, etc. 
+* Most of the people I'm competing with now in any given role have played for at least a year. I think my brother and I have made explosive progress in this game.
+* Had a heal-duel against Raiku. His HoTs are blistering good. He's in half PvP spec too. It's clutch. I have higher throughput, but I better: I'm full raid direct AoE heals. 
+* I think I have made a friend: Guba. We can actually joke with each other some. I've not gone way, way over the line yet. The shit my brother hears from my mouth would get me put in the looney bin or prison, lol.
+** He put a bounty on my head during MCs on Hakkar for the raid to kill me. =) Of course, I almost killed people instead (not up to me, but sometimes the shitAI uses my abilities correctly, and you'll have only a couple seconds to live if so).
+** He strongly recommends I shift to caster DPS. He agrees with my assessment.
+* I can feel a huge difference in TG and especially triple haste talents spam rotated in my healing. I hate to say it, but it is now obvious that Troll is the only correct choice for my priest build.
+
+; 2019.08.27 - Project Ascension: Healer
+
+* MC completed. There are boss fights where I cannot top the damage charts, but vanilla is particularly harsh for melee. However, until I had to heal for the raid, I was the top damage dealer of the night overall. We started wiping, and I decided to switch to healer. Things smooth out when I heal. 
+* My brother thought overhealing was bad, but I'm not sure he's looked at the build closely enough. I direct group heal, with 60% chance to crit on PoH (which does the lion's share of my healing, usually around 70%). When I crit on my heals, I make a shield worth 20% of the heal, and those shields aren't calculated in our parser. My chain casting is worth it for shields alone, but when there are big jumps in life totals, especially across the board, that is my healing. Throughput is the hard part on healers.
+* I should have the chance to roll on healer and melee gear if I'm going to be playing both in the raid. Our raids would fail if I didn't.
+
+; 2019.08.26 - Project Ascension: Good
+
+* I tanked today for an instance with Wylde and Guba as DPS. It was DME, so they pulled and didn't give a shit if I tanked or not. However, I held aggro very cleanly. 
+* I'm pretty worried that spell damage is going to eat me alive, but block is fucking nuts. 
+* Shamanistic rage is wildly stronger than Barkskin (they nerfed it), and mana regen is a problem in some cases. I'm unhappy with all the mage abilities too. Not sure about all my damage reflection; the melee returns actually proc stuff though.
+* I still have no idea if I should be burning my mana-based taunt during single-target taunting. It's threat gen when I already have aggro, and I often have much better mana regen in a group than I can do solo or duo.
+* Tried AQ, and we failed with a bugged encounter. It was interesting to see I wasn't getting rezzed over Uterinewall who, despite having two asscandies and full t2, deals less single-target and AoE damage than I do. Meh, that's fine. The healing numbers still also look very favorable for me. My brother is correct; they aren't paying attention to our parses; this is about relationships for them, and that's why they get the turnover they complain about. They might lose my brother and I as well eventually. Give me a month, and I will be the 2nd best in each role at least. 
+* We did MC. The bosses went down fairly cleanly. I am increasingly convinced that going for the Holy rDPS build is correct for raiding. The risk is way, way lower. Fights are much harder as melee in this game.
+* Dailies netted me junk, RE rolls were junk, but I got some gloves and some extracts, and someone gave me 250g for just helping them out on a boss. It's clear I'm going to have to start differentiating my gear more clearly, and I wish I had been rolling on rDPS caster loot the entire time. I still have time, of course, since I'm missing at least half the REs. 
+* One thing I love about all basic archetypes is that I have multiple ladders to climb, and if it drops, I will want it unless I have better. The ability to sign up as multiple roles and fill in between bosses is not nothing. 
+* Need to rework the buffer into a bard or something. I don't know.
+* I need to remind myself to switch stats.
+* I want that banker DP object!
+
+; 2019.08.24 - Project Ascension: Tank
+
+* My brother gave me 1kg for a mount. Feels good man.
+* Skinning at 300. Ran into shit I can't skin.
+* I still have a significant influx of gear to handle, and I don't have a full set of tank gear. Without it, I can't drop the correct REs. 
+* My bro gave me a chance to try to hold aggro against him. I didn't have everything ready, but actually using my stats and buffs made a ridiculous difference. 
+** Recuperate and Victory Rush are strong solo, but I've no idea if they are correct. Cool fact, perhaps the best solo build is going to be a tank that learns to heal itself.
+
+; 2019.08.23 - Project Ascension: Exploit
+
+* I died during Scourge event (sick loot), and now I see double spawns in the world for a bit. We've had this before. But, my brother couldn't see them. It was hilarious; nearly got me killed multiple times. Cool part: Baron spawned twice! I ended up getting into my tank spec because: he kept spawning! This is worth exploiting if we find a way.
+* Massive overhauls in everything. 
+* Dropped mining for enchanting
+* Have a complete mule account all set.
+* My healer is the only one which doesn't change much any more. If I was going to move, it would be HoTs with a completely different build. I don't see the value in it. My instant heals are very hard to beat.
+* AoE Melee DPS at 2100 now. New MH. =)
+** Trying the cleave RE now. I have to move away from WW. Rage generation for two weapons is so high, I'm worried I just can't move to 1.
+** Fuck me...I did it again. When I switch stats correctly, it is 2600 DPS, lol.
+
+; 2019.08.19 - Project Ascension: Yup
+
+* MC raid. I was main healer for the 25 while we were 12, lol. Other healer wasn't even in the same league, and we were having a lot of trouble. Guba stepped up to tank instead, and life got so much easier. Wulu wasn't checking her meters when she spoke with me: I outperformed her on the charts (though I made far more mistakes, and I wasn't leading the raid). I got two shitty rings, and that was about it, lol. My brother, however, got some much needed gear. I think more raids, and one weapon, and he'll be sitting pretty.
+* Got my melee macros bound to numpad, and they are working now. Wylde and Plox group again tonight for daily. Plox did 27%, and I did 15%. Fuck yeah. They pull so fucking hard, it's insane. I topped out at 3.5k DPS in a fight ;P. LBRS in 20 minutes flat. I made out like a bandit too. I got jack shit from dailies. Forged my own Blademaster though! 250g right there. Sudden Death Rare too, 500g!
+* Picked up skinning, mining, first aid, and cooking. Also, grabbed Mana gem Lego RE and several others. Bought maelstrom card ;P...3-4% of my DPS right there. 
+* Oh, Backstab builds in PvP don't require much gear. Wylde is using Blizzard and a tiny bit of Bone Chill. Destroyed us all in DPS.
+* Flamelash doubles Lightning Strike on procs for white, but when I go full on AoE, they are equal in procs, and hence almost double damage from LS.
+* Might have a bug mailing to my mule?
+
+; 2019.08.17 - Project Ascension: Getting There
+
+* My priest has 70% of the REs now. It's not going to get a ton better. I also landed some T3 staff. My brother is a goodluck charm.
+* My DPS is looking decent. I'm about half of Guba. My WW aint bad. I ended up doing some RE work and speccing harder into WW. My macroing needs some serious work though.
+** WW before Bladestorm
+** Need to move junk to numpad instead. This control shift retardation aint cutting it. WoW client can't handle it even with sleeps. 
+* I need to look at Zharek's build. That may be the way to go. I don't know the gear gap between us. A caster can be hella safer.
+
+; 2019.08.15 - Project Ascension: Spend
+
+* I made a naked character. This is such a unique environment, and I want to see just what talents alone can buy me. Classic. I hope to PvP with it. =)
+** I made a banker. Btw, can't RE enchant BoE without binding them. Something was fishy with Tommyy's items, imho.
+* I got to play a good bit with my brother today. We did daily quests together, and I got portals and a couple flight paths from him. 
+* I played with a human by the name of Sikopath today, and he lived up to his name. Wow. I just left the group.
+** He was the person chain pulling in blues. 
+* With mistakes, I ended up pouring 200g into my character individual respecs, a complete set of talent and ability respecs for my QoL build, and another 300 on two REs (only one of which I needed right now: master conj). I spent a fuckton of gold.
+** I'm having to bootstrap a healer. It happens in stages. Also, super happy to have a melee spec for soloable dailies.
+* QoL build is outstanding. I can now buff my group completely, respec to healer and rock out. I stuck forms, ports, stealth mechanics, lockpicking, and even rare buffs on it. It allows my priest to focus everything. Mana gem too! Hax.
+* I dropped DS. I just don't use it (and perhaps I'm stupid or something). I'm playing with Cheat Death, FD, and Vanish (which I prefer as an aggro drop and backup FD). Mana gem went bye, bye. I can summon on QoL. With Master Conjurer, I figured out I can't use Earthliving weapon. Now I have me a shiny fucking Guardian Spirit to save my precious idiots and loved ones, as well as Holy Nova. 
+* Holy Nova does two things I haven't been able to do before:
+*# Damage when we are facerolling. We might as well clear faster, and it's just as good. I don't have to stand there useless now. It's reasonable damage for my only damage spell.
+*# I have a second instant heal, and it's not got a CD. I've now AHKed it to weave in between CoHs, so now I can run and heal. Countless times I've just needed instant heals while I kite for another FD attempt. It may or may not heal others, though it will when we are facerolling. 
+* I clearly need to find two 1H healer weapons because the crit gains are huge, something like 6%. Max gear, I might be able to hit 50% crit chance on my heals and cast without losing mana.
+* Note how I kept Beacon of Light. I bent over backward for it, but I'm convinced it enables me to raid heal. Guardian Spirit is the spell I've been missing. I usually am quick enough that I can land an instant in some cases, and this is the only guaranteed spell for it. I didn't think I could have both, but I do now.
+* Spirit of Redemption made its way in. I don't mind dying, especially since I can rez myself. Some fights will be won by that 15 seconds, particularly those where I got smashed early.
+* I need to setup Decursive. I'm annoyed by having to do it by hand.
+* One thing that sticks out on this server is the diversity. In retail, I could guarantee correct builds. It's ridiculously hard to do in this case. I adore it. I never know what to expect. 
+* I don't even have my fundamental RE's yet. Once I have those, I'll be in excellent shape. The ability to perma chaincast PoM is one of my goals, hasting for higher throughput the other. OoC looks sick.
+* I keep a full set of melee gear and a full bag of reagents. That isn't much space. That banker summon looks hawter and hawter.
+
+; 2019.08.13 - Project Ascension: Priest
+
+* I had a blast today. I did a quick Strat run then a DRM. The group for Strat daily was so strong that my heals weren't even necessary. It was the fastest run I've ever done. DRM required some hacks to get to the boss, and we wiped more than once. I am able to group more effectively as a healer. Did UBRS with a group of assholes who chain-pulled in blues and expected miracles. 
+* MC raid was completed. I made out like a bandit, winning 5 epics, only 3 I want to wear. Total real healing was lower than the druid, but overheals trounced her, and my shields weren't calculated at all. I am arguably a reasonable healer, and I don't even have my full build, gear, or RE's yet.
+* Guba and I did dailies together, and then he showed me his DPS. I'm at 1550 (actually was 1650 but dots run out my DPS timer), and he was sitting at 2400. Considering the gap in our gear, it was reasonable. He has a lot of quality of life in one of his builds. I may do the same. We did some theorycrafting, and I may have annoyed him by leaving him to hit the RE table in Azshara because I can't do it all in 5 minutes.
+** QoL build for generating Soulshards would be useful. Saves me an entire spell on the priest, but maybe the cleave build should do that?
+* I met 2 others healers also rolling their REs. We talked shop. I'm the only person who has gone priest spec. PoH is the best DD group heal in the game, so I must be missing something; nobody is using it.
+* Put legendary REs on ranged weapons, and use GCD during combat to switch them out!
+* Discord is required for some of these raids, particularly since we all can FD together.
+** I'm in love with Blink for the raids.
+
+; 2019.08.12 - Project Ascension: MC
+
+My brother and I encountered a veteran on the server (Plox) who screwed around with us, helped us noobs out, and showed us what a real fucking [[cleave build|https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=:8143:642:5171:100:8232:676:475:8512:5308:45438:586:845:53408:1953:1706:8017:19263:5384:2098:818045:2457:57994:20166:13161:20217:4987:1766:2071t1:2199t3:144t3:602t3:156t3:159t2:662t2:166t3:184t5:186t3:2078t1:1659t1:1664t2:1679t1:165t1:1542t2:1711t3:1662t3:1759t3:223t1:1827t2:121t3:]] is like. It aint TG, and he's not the only one I've seen. My guildies were doubling my DPS with this build and those weapons, but Plox absolutely destroyed us. It was the largest gap I've seen so far. I hit 1550 on low end targets, he broke 2k on elites near our level. He macros too, since he cleaves every .23 seconds! Sick. There's a poison variant of the build too, and his reliance upon execute with RE's is huge. Haste, crit, rage gen, and rage efficiency were everything. Indeed, cleave does gen more off multiple targets with unbridled rage. He's abusing cleave's bonus with RE's (and I got this RE maxed in my rolls today, woot!...1kg to buy it). I prefer the way energy is used only to keep SnD maxed, and there only the 1-point wonder to generate combo points, lol!
+
+I got keyed for MC real fast. Been a very long time since I did that shit (rogue had it easy). My damage was okay for a while, but it started to fall off. I was ahead of the casters, destroyed by the melee. That said, everyone wildly outgeared me. There was only one other need roll the entire time. We had a wipe and some deaths. I switched to healer, and there were no more wipes (though a battle rez). I am already competitive with our healer. Give me gear and some time actually getting used to playing the build, and I will be in good shape. 
+
+I've gone through all the holy priest RE's I'm going to want, I think. Collecting RE's is my goal for a while. It's the only thing I can guarantee will be useful. Hopefully, I can get more dailies done this way. Groups always need healers. I also haven't spent all of my abilities and talents just yet.
+
+I got a pair of tanky legs and a tank ring today. I'm a long, long way off from having the gear to tank. I'll have to greed roll my way into it. It's hard to think about multiple sets of gear while rolling, but everything is still changing so fast. 
+
+; 2019.08.11 - Project Ascension: Rebuild
+
+* My brother talked with Uterinewall about the build. We did a lot of testing and parsing today. I'm loving the [[Multipenis AoE Melee|https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=:2061:5171:6343:168:465:100:8232:687:8512:1680:1856:5308:19740:845:8017:66842:5384:2098:818045:2457:8075:2071t1:2185t3:602t3:156t3:157t5:159t2:662t2:166t3:1361t1:2078t1:2150t1:1655t2:1659t1:1664t2:1657t3:1581t5:1662t2:1755t3:1756t1:223t1:1827t2:1863t1:1867t1:121t1:681t1:]] build (notes below). 
+** I moved from 800 to 1200 DPS this way (we got our own parsers ;P).
+** Uterinewall's parsing showed I did ~30% of his DPS in the raid last night. That's kind of ridiculous even with his gear being significantly better. I closed the gap some today. In our last group in scholo, he did 30% and I did 23% of the group's total. I made gains on top of this though.
+** Bought my tomes today (minus WF). Huge gains.
+** Learned how to use RE's correctly. Spent a lot of my resources (not perfectly). I now have +3 additional targets for WW, and 18% crit + 54% heal increase on Divine Storm, complete uptime of SnD through eviscerates, and Divine Storm legendary enchant which gives +8% str and consecrate. 
+** I jumped from 1200 DPS to 1550 now. When there are more than 4 targets, that's where my RE's start to take over. I can now hit 7 at once.
+* I briefly tanked for strath today in a 3-man. I can't tank even with a good healer. 
+* Dailies are actually worth my time.
+
+; 2019.08.10 - Project Ascension: Bro is 60!
+
+* My bro hit 60. I PLed him only for a bit, and he hit 60 in the raid with our new guild.
+* I did some grouping and raiding. I'm feeling more comfortable with my spec. I had a group that was terrible. My Spanish is awful, so I had a hard time communicating. It didn't matter, we wiped several times (even though we all had FD). I can see that I don't have a lot of utility spells that others have; I'm very focused on combat. I should consider res and port.
+** Doing old world vanilla. And the stuff right before TBC is up. We aren't ready though. 
+* I did some dailies and enjoyed the raid lootboxes; there's some loot to be had. 4sec MH weapon, rofl. Okay, I'll take it. White has become more important, but that's hard to pass up. 
+* We joined a new guild that seems to be on the ball. 
+* I finally specced a healer. I learned Imp/pact is a fail because of CD with Lifetap. Also, ANY mana totem fucks over Blessing of Wisdom. I screwed around some here. Still, the build is looking fairly strong. 
+** At least I'm not far off from the correct build. 
+** One thing which has me worried is that my guild healers are all treeform. They were on the fucking ball too! I know at least one was a priest by the combat proc buffs though. I'm worried I'm screwing this up somehow. 
+* Cheat Death is looking even stronger for allowing me to FD. Hand me a vanish, and I think I'm ridiculously hard to kill. I just need a window to not die between GCD. Maybe a Res on top allows me to be EQ monk god like a Vox staff.
+* I keep finding discrepancies and bugs on this server. It's a private, clearly. Much is well-done though. It's hard to beat the RE classlessness and multi-spec. I've never seen a game quite like it.
+
+; 2019.08.09 - Project Ascension: Grouping
+
+I did 4.5ish instances today. There was a res bug that killed it, unfortunately, right at the end. Clearly gives you a loot box. I died several times. Some tanks can hold aggro and some can't; I need to find out how and why (I suspect Thunderclap with an RE is doing huge amounts of work). Even with ~45% mitigation, ~23% avoidance, and some DR, I'm a glass-cannon. The build is strong (does well with my shitty gear), and I found myself using my heals all the time. Balancing my ghetto macro has been interesting. I really wish I could get cleave to hit one more target like I do with whirlwind. I only went OOM once today (usually 100%) via manaburners. I am not convinced Killing Spree is amazing enough in the end. 
+
+Also, I don't know how, but some daily quest dropped two ridiculously good epics on me. I did nothing for it though? 
+
+It has taken me several days, but I've collected some better-than-noob healer gear and wrestled for a spec. I'm proud of [[this spec|https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=:596:642:688:1454:1856:1953:2006:2060:2061:2458:2782:4987:5384:5675:6117:6366:8143:8512:19742:20484:20608:29166:51730:52127:66842:347t3:361t3:404t5:413t2:1022t1:1261t2:1687t1:1722t3:1728t3:1733t3:1771t2:1772t3:1815t1:1895t3:1898t5:2060t2:2179t4:2192t1:2195t3:2211t1:]]. A great deal of thought and question-asking has gone into it. I still have some questions that I can't find the answers to, so I'll have to test myself. I'm super excited to have the chance to heal. My next slot will be a tank, and if I get deep enough into the game, the last slots either pure caster DPS or PvPer (or both).
+
+My Micropenis build has a lot of moving parts that are easy to reason about and macro. You can faceroll with it almost. I hold my AoE macro button down for 70% of the fight. This healing spec, however, appears to have so many moving parts, and I can't macro away much of the cognitive load.
+
+; 2019.08.08 - Project Ascension: Strath
+
+I got a group to do a daily. I have no fucking clue what I'm doing on this server. My damage wasn't awful, and I even pulled aggro a couple times. Tank had a similar spec. Nothing valuable dropped besides mystic components. I was wildly undergeared compared to my teammates. 
+
+; 2019.08.05 - Project Ascension: So Close
+
+* I finished at 59 tonight. The spec makes sense for leveling, but once I hit 60, it's irrelevant. 
+* Blade Flurry is fucking insane. It procs off //everything// remotely melee. You can pull huge amounts, 10-12 is solid, and burn them down in that 15 second window. I couldn't do this without my pet, priest, and mage shields though. Shield once before pull, and charge your final (preferably the caster), throw shields while they come, and BF and burn them the fuck out. Level 58 was faster than 57 because I figured this out...on mobs that only got greener. 
+** Also, I'm on the same fucking camp. There's no reason not to leverage my level advantage. None of the other camps are as good. I can take lvl 58 elites (zero damage at 55), but why (better grouping though)? If I can safely AoE, that's worth it. The problem is that I couldn't do it safely enough before any faster than pulling singles. That's no longer true.
+** This is the ability I need to build around. For 15 seconds, I will destroy everything.
+* See below for the Titan's Micropenis Grip build I'm going to use!
+* AH is dry. The economy does not function, and people have no idea what counts as good gear while they are leveling. I was accused of having a dueling spec, but it is clearly the best leveling spec. 
+** Picked up a Destiny with a decent enchant. I need something. Can't believe an epic from the 40's is the best mainhand I can find.
+* This game is like if WoW and Diablo had a baby. Gear skinnerbox is here. I read every single green that drops right now, and walk through 40-60 on the AH. Eventually, gonna have a ton of legendary enchants, lol.
+* I keep seeing people in my level range who aren't fully equipped in RE's. What in the hell are they doing?
+
+
+; 2019.08.04 - Project Ascension: And He Rose
+
+* I got some solid gameplay in today. I'm lvl 55 now. I have not changed my build, and I'm not investing right now because I don't see the point. Poison is probably correct, but I could also go for AoE damage, but I can't have both. I also don't understand the value of Titan's Grip just yet, but Windfury seems pretty strong with it.
+** Think melee AoE builds with extreme defense rather than offense might be the way to go for a tank, btw. I have a pure DPS build right now. 
+** Yeah, I need to test poisons out. They dictate a great deal. With talents, it's significant damage and CD-less snare.
+* Guildies ran by me. I buffed 'em, they asked if I wanted to join their group. I said yes just to see. The information cost me a great deal of XP, but it was worth it. I got to see them pull on mounts, group 'em up, and AoE them down. It is quite competitive with my method (arguably stronger since I have ridiculously strong gear for my level because I grind mobs and AH), except they have no resources at the end, and I've gone infinite (plus they have pull time, etc, whereas I have a circuit for autists).
+** I got to group in Zul today wherein I was the self-shielding tank and DPS, I received very few heals, and I was the person with max hp and mana most of the time. These were green to me though, and I had a couple levels on everyone. 
+** More than once I wish I had DA and Flash heal.
+* AH granted me an epic vanity companion, Patches. Cute AF. Normally, I don't give a shit, but this one is hilarious.
+** I'm scouring 40-60 armor for enchants and non-trivial upgrades. No weapons in sight, unfortunately. Offhand 2-hander seems reasonable.
+* I want Shadowstep for PvP and grinding. Give me two charges I can chain together with crippling poison, and you will have little choice but to toe-to-toe with me. 
+* Oh, that bow I bought is WAY, WAY stronger than I knew. Every XP kill grants me ~2% crit chance, and it stacks up to 5 (with loss of stack within 10 seconds, so you have to be fast...I am fast though). 
+
+; 2019.08.03 - Project Ascension: Deuce Day Deus
+
+* I hit 50! Two days of grinding, but now I'm starting to see gear which I might wear at 60 for a while. I did well enough in PvP against le Alliance. I can see I have to watch what people are doing closely to understand these builds. I'm pretty sure these people have no clue what they are doing. I assume at least half the people at top end do though.
+* AoE melee looks incredibly broken in the late game. I'm waiting to see how casting can become viable in general. Also, I'm picking up legendary enchants which are cheap for banking. They may eventually become a currency, right?
+* Static Shock Shaman ability doesn't work in parsing. The vets say the last Naxx patch fucked a bunch of shit up, and no one knows what actually works. Ugh. I hate when I can't trust what I read. It's a shame since I'm trying to squeeze everyone ounce of DPS I can out.
+** Yet another way for the server owners to make money. 
+** Note to self (burned a scroll for it): Shaman's Unleashed Rage doesn't stack with Trueshot Aura.
+* Rapid Recuperation is so fucking strong that I can't spend my mana as a melee user during grinds. Have infinite mana, and I have nothing I want to spend it on in combat 98% of the time (exception for pulling). Lifetap is dead to me, at least the talents. 
+* Track Humanoids might be worth it just to reason about the Alliance.
+* Cleave was strong when we were just doing the dangerous AoE stuff. Single target is always better for experience though.
+* Black Arrow has 30 second CD, UGH!
+* I ended the evening with [[this respec|https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=:17:100:139:172:324:772:1120:2098:2457:5308:7384:8232:13161:20164:71t1:131t2:135t1:136t3:157t2:246t1:301t1:681t1:827t1:1041t1:1282t1:1361t1:1410t3:1426t1:1431t1:1657t3:1659t1:1661t1:1664t2:1672t1:1709t1:1819t1:1883t1:2073t2:2078t1:2131t2:2232t1:2268t2:2283t1:]].
+** Shielding may be a mistake here. It's an "oh-shit" key or pre-buff.
+*** Priest is pure instacaster, and renew is just better than nova for my purposes now.
+** AP gains from hunter, also my supply of infinite mana.
+** I have no idea how Felguard is going to work out. I'm going for pure damage here while having link up.
+** Switched to Blessing of Sanctuary, and this one doesn't require kills. DR, STR, and Mana regen, plus I can give to everyone.
+** I'm working to squeeze out damage through buffs and automatic reflected/returned damage sources now.
+*** Power Word: Shield, Reckoning 1-pointer, Unfair Advantage is godly, Lightning Shield
+** Oh, yeah 25% Crit rate, roflstomp.
+*** Deep wounds keeps looking better, but the fights are short. Especially since I need to keep up Blood Frenzy
+** Fuckton of Cherrypicked 1-point wonders in here. It's somewhat toolboxy, but it's more about defeating diminishing returns. The second-point doesn't do enough! Hell, I basically only invest multiple points into something which scales at least linearly with as much of my damage graph as possible. 
+*** The lock brings a healing DoT for 3:1, a throwaway high DPS pet which hands me free DR and gets free heals off my spell damage for 6:3.
+*** Rogue's combo point generation and spending is razorthin cheap, maximum bang for your buck. It comes way too close to fully specced rogues in generation. Considering it's probably more than half of my non-white physical damage, it's ridiculous.
+
+; 2019.08.02 - Project Ascension: The Open
+
+I played for a large chunk of the day, and enjoyed every moment, especially with my brother. My build sequence and metagaming concept has been ~70% correct, and I held back on investment as much as possible. I need to see the edges.  I knew melee was going to be stronk, but after seeing how fast the fights go as we snowball levels, I just don't see a way around going for alphastrikes. Attrition is dead.
+
+I want to catch up to my brother. I also never want to endanger his account (I take huge risks). I'm not going to do so, despite his enormous generosity. We'll level to 55 very quickly because of his help, and the ability to summon each other is amazing. He made it easy to upgrade and DE too with donate-purchased clickables. He gave me gold for a mount which has been a godsend.
+
+I ended up with [[this heavy melee respec|https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=:100:172:697:772:1120:1454:2098:2457:5308:7384:8232:15237:131t2:301t1:465t3:681t1:827t1:1007t2:1041t1:1281t1:1282t1:1388t2:1410t2:1624t2:1883t2:2232t2:]] at the end of the night. Rogue GCD is king, Hemo w/2-hander is king, OP and Riposte are very price-efficient, and DoTs limit the variance. Need moar DPS buffs like Windfury. WoW and AHK macros are up, and the pet holds enough aggro and provides enough DR and shielding that my lone lifestealing Corruption keeps us both up with Novas and Life Taps in between every third fight. Combat is ridiculously fast to the point that DoTs are increasingly unworthy. I'm shocked not to be going down the Shadow Instacast DDblaster route. Instead, Corruption with pet taunt and shield pull -> Charge -> DPS Spam -> Rend -> Loop DPS Spam -> Finisher Spam with consistency. The name of the game is squeezing as much raw DPS (even at the expense of beautifully made defense) into the GCD bottleneck as you can; Link, Nova, and Corruption heal enough.
+
+Bought 12-slot bags, and the rest of my gold has gone into having the best blue, slow 2-hander I can find. I'd even take a hit in DPS to pickup higher base damage. Blues are constantly dropping. I probably saw over 20 drop for me today. No enchants "to die for" thus far. Bought that 44ish epic 2h-axe @ 3.6 speed for 15g. I am going to wtfpwnbbqsawce with muh i-winkeez.
+
+
+<br>
+
+!! Builds
+
+* [[Solo Dungeon Crawler|https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=:71:139:168:687:697:774:845:1120:2098:5308:5384:5675:8004:8075:8232:8512:15237:29166:34428:66842:130t3:155t1:159t2:187t3:246t3:301t1:303t1:661t3:827t1:1282t1:1421t3:1430t1:1431t1:1601t3:1636t3:1652t2:1654t2:1687t1:1693t1:1698t1:1819t1:1893t3:2057t1:2064t1:2078t1:2131t2:2246t2:]]
+
+* [[Cleaving Parry Blocker Tank|https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=:71:78:100:168:355:498:687:694:871:1953:2565:5384:6343:6572:8232:13163:19263:22812:23922:25780:26573:147t2:148t1:641t3:1403t3:1421t3:1429t3:1430t1:1431t1:1481t1:1501t3:1601t2:1652t2:1654t2:1666t1:1679t1:1693t1:1711t3:1722t3:1774t1:1783t2:1860t2:1871t3:1893t3:2138t1:2196t1:2246t2:]]
+** Blademaster, 3x Improved Righteous Fury, 3x Critical Block, 3x Enveloping Shadows, Arctic Winds, Redoubt, Shield Specialization, Protector of the Pack, Omen of Clarity, Deflection, Holy Strength
+
+* [[TG Cleave mDPS|https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=:100:168:465:546:845:1680:1953:2457:5171:5308:5384:6343:8017:8232:19740:20252:818045:121t1:133t1:144t3:157t5:159t2:165t1:166t3:223t1:602t3:662t2:681t1:827t1:901t1:1361t1:1581t5:1657t2:1659t1:1662t3:1664t2:1755t3:1756t1:1863t1:1867t1:2054t1:2064t1:2150t1:2185t3:]]
+** 3x Unbridled Wrath, 3x Sudden Death, 3x Incite, Omen of Clarity, Crusade, 2x Holy Strength, A Quick Death, 3x Improved Cleave
+** Designed for running dailies (though it still can't handle the hardest which require a tank spec), including dungeons. No respeccing, no totems, with higher focus on single-target and combat heal.
+
+* [[Frostmage with Buffs|https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=:10:116:642:698:1120:1126:1243:1454:1459:1490:1953:2006:2061:2362:5384:6117:12051:19746:20217:29166:52127:57994:61t3:63t1:67t3:68t1:69t1:73t3:75t3:87t1:322t1:574t1:793t1:827t1:1261t2:1263t3:1672t1:1687t1:1691t5:1725t2:1783t2:1851t5:1853t2:2049t2:2191t2:2211t1:2222t3:]]
+** 3x Torment the Weak, Swift Spells, Balance of Power, 3x Fingers of Frost, Arctic Winds, Piercing Ice, Survival of the Fittest, One-Handed Weapon Specialization, 3x Master Conjuror, Blessing of the Divines, Omen of Clarity
+
+* [[Regrowth Healer|https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=:740:774:1454:1856:1953:2782:4987:5384:5675:6117:8143:8936:15237:20484:20608:29166:32374:50769:51730:52127:66842:347t3:611t3:825t5:827t1:828t5:844t1:1561t1:1687t1:1722t3:1728t3:1733t1:1772t3:1789t3:1791t1:1907t3:1911t1:1915t2:1917t1:1922t3:1930t3:2060t2:2192t1:2211t1:]]
+** Blooming Growth, 3x Nature's Bounty (purple), 3x Gift of Nature (5%, purple), 3x Elemental Weapons (purple), 3x Genesis (6%, purple), Divinity (purple), Omen of Clarity (purple), Nature's Splendor, Intensity
+
+* [[HoT Healer|https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=:465:740:774:1856:1953:2782:4987:5185:5384:5675:6117:8143:8512:8936:15237:20484:20608:29166:32374:50769:51730:52127:66842:347t3:592t5:611t3:828t5:830t3:844t1:1422t3:1687t1:1722t3:1728t2:1789t3:1791t1:1911t1:1915t2:1917t1:1922t3:1930t3:2060t2:2192t1:2238t5:]]
+** Use two weapons for Earthliving Weapon. Shit is broke, yo.
+** REs
+*** Divinity (purple), 3x Elemental Weapons (purple), 3x Gift of Nature (purple), Blessing of the Eternals (purple), Omen of Clarity (purple), 3x Druidic Rites (6% purple), Blessing of the Divines (legendary), Intensity, 3x Genesis (purple)
+
+* [[Blizzard Mage|https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=:10:642:697:1120:1126:1243:1454:1459:1490:1953:5384:6117:6366:12051:19746:20484:20608:29166:52127:38t3:61t3:63t3:67t3:68t3:69t1:71t1:73t3:75t3:87t1:322t1:573t1:574t1:590t1:793t1:1261t2:1263t3:1282t1:1649t2:1687t1:1725t2:1756t1:1851t5:1853t2:2049t2:2211t1:]]
+** Missing these REs:
+*** Balance of Power (purple)
+*** Piercing Ice (purple)
+*** 3x Snow storm (5s, purple)
+*** 3x Fingers of Frost (purple)
+*** Arctic Winds (blue)
+*** 3x World in Flames (green)
+** Have these REs:
+*** Frost Lich (legendary)
+*** 3x Improved Blizzard (blue)
+
+** Don't use these REs I guess:
+*** 3x Chilled to the Bone (blue)
+*** 3x Frost Channeling (blue)
+
+* [[2H DPS|https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=:100:465:845:1680:1856:1953:2098:2457:5171:5308:5384:6343:8004:8075:8232:8512:13161:19740:121t1:133t1:144t3:156t3:157t5:159t2:165t1:166t3:223t1:602t3:662t2:681t1:1361t1:1657t3:1659t1:1661t1:1662t3:1664t2:1755t3:1756t1:1863t1:2057t1:2071t1:2078t1:2150t1:2185t3:2191t2:]]
+
+* [[Parry Blocker|https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=:71:78:100:465:687:688:694:871:1953:2565:5277:5384:6117:6343:6552:8232:13163:19263:22812:25780:26573:34428:62124:965425:130t3:148t1:187t3:246t3:301t1:303t1:702t5:1403t3:1421t3:1429t3:1431t1:1481t1:1501t3:1650t2:1652t2:1654t2:1679t3:1711t3:1774t1:1783t2:1893t3:2073t1:2138t1:]]
+** I think I've gone overboard in trying to maintain aggro. I'm taking a lighter touch with it, and that opens me up to going both block and parry! 
+** I get to rely upon Mana Gems with regularity. I don't see the reason to Innervate just yet.
+** The rogue is milked lightly, and I think unfair advantage is another way to play around the GCD and abuse my threat and WF tooling.
+** My oh-shit keys are excellent. I have to find the fitting rotations and patterns.
+
+* [[The Bard|https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=:17:465:688:698:770:1490:2782:2842:2948:4987:5176:5384:8143:8184:19891:20164:20271:20484:20608:29166:32374:965202:25t3:788t1:793t1:1222t3:1361t1:1422t3:1689t3:1715t3:1727t3:1756t1:1774t1:1785t3:1800t3:1880t1:1885t5:1911t1:1912t3:2148t3:2190t2:2200t2:2235t2:2280t1:2281t2:]]
+** Buff and Debuff with all the raid spells nobody is using.
+
+* [[2H Tank|https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=:71:78:100:355:465:687:688:694:845:871:1161:5384:6117:6343:6552:8232:19263:22812:25780:34428:965425:128t3:130t1:133t1:148t1:187t3:301t1:303t1:641t3:1403t3:1422t3:1423t5:1426t1:1431t1:1481t1:1501t3:1650t2:1652t2:1679t3:1693t1:1711t3:1744t3:1751t3:1774t1:2073t1:2150t1:]]
+** REs
+*** Blademaster (legendary)
+*** Holy Strength (purple)
+*** Phase Dodge (purple)
+*** Protector of the Pack (purple)
+*** Survivalist (purple)
+*** 2x Enveloping Shadows (blue)
+*** 3x Deflection (blue)
+*** Blessed Life (blue)
+*** 3x Improved Righteous Fury (green)
+*** Anticipation (green)
+*** Aegis (green)
+
+* [[Sword & Board Tank|https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=:71:78:100:168:355:421:465:687:845:1161:1953:2565:5384:6343:6572:8232:13163:22812:23922:25780:31789:34428:121t1:130t1:147t1:148t1:301t1:321t1:1403t3:1421t3:1423t5:1426t1:1429t3:1430t1:1481t1:1501t3:1601t5:1650t2:1652t2:1654t2:1666t1:1679t1:1751t3:1754t1:1893t3:2073t1:2138t1:2196t1:2246t2:]]
+** REs
+*** Blademaster (legendary)
+*** Phase Dodge (epic)
+*** 3x Critical Block (epic) 
+*** 3x Protector of the Pack (epic)
+*** Spiritual Attunement (rare)
+*** Deflection (rare)
+*** Redoubt (rare)
+*** 2x Blessed Life (rare)
+*** 3x Improved Righteous Fury (green)
+*** Shield Specialization (green)
+** Maybe there is too much offense in here. I'm pretty darn worried about holding aggro over some of these monsters, especially in AoE. 
+** Combos
+*** Open: Chain Lightning->Avenger's Shield->Charge
+**** Lol. That's the best open I can find against multiples. 
+**** Gives me two spells on pull with the cast time->instant.
+*** AoE: Cleaves on all autos; Riposte -> Hammer of the Righteous -> Thunder Clap -> Revenge -> Devastate -> Avenger's Shield 
+*** Single Target: Heroic Strike on all autos; Riposte -> Revenge -> Shield Slam -> Devastate -> Hammer of the Righteous -> Avenger's Shield
+*** Defense: Riposte -> Holy Shield -> Barkskin -> Shield Block
+*** I lost aggro: Righteous Defense, Challenging Shout, Taunt
+** Only 18% increased parry AFTER Riposte. Perhaps I should just max it, since I abuse the shit out of it.
+
+
+* [[Multipenis AoE Melee|https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=:2061:5171:6343:168:465:100:8232:687:8512:1680:1856:5308:19740:845:8017:66842:5384:2098:818045:2457:8075:2071t1:2185t3:602t3:156t3:157t5:159t2:662t2:166t3:1361t1:2078t1:2150t1:1655t2:1659t1:1664t2:1657t3:1581t5:1662t2:1755t3:1756t1:223t1:1827t2:1863t1:1867t1:121t1:681t1:]]
+** I simply never have enough attack power. Parsing shows this is a huge improvement.
+** Vanish and FD; I chose portals over res. If anyone is going to die, it's me. 
+** Sudden Death is very strong. I'm considering finding a way to push it to 3, but I also think it has dimreturns. It's strong for boss and solo. I need to give it more thought. Others I've seen even invest in Wrecking Crew! Is it really that good?
+** Thunderclap turns out to be sick damage. I'm not pleased about the threat, but damage numbers don't lie.
+** I don't like that I have so many buffs to drop in combat. Totems sometimes mid-combat, but SnD and Hunger for Blood.
+*** Also, Cut to the Chase is fucking amazing. Keeps SnD at max from a single point eviscerate. Hemo->SnD->Hemo->Evisc is bonkers.
+*** All the haste makes 2handers feel like 1.
+** I am not happy with dropping an instant heal. I have to run outside combat range to heal myself now.
+** OoC clearcasting didn't pop enough in testing to be worth it, imho.
+
+* [[AoE Crit Healer|https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=:596:642:688:1454:1856:1953:2006:2060:2061:2458:2782:4987:5384:5675:6117:6366:8143:8512:19742:20484:20608:29166:51730:52127:66842:347t3:361t3:404t5:413t2:1022t1:1261t2:1687t1:1722t3:1728t3:1733t3:1771t2:1772t3:1815t1:1895t3:1898t5:2060t2:2179t4:2192t1:2195t3:2211t1:]]
+** This is the most consistent zero-aggro mana-regen intensive build I could conceive given the slots (though there are better bursts of mana available, this is raw sustain).
+*** 100% spirit regen while casting, 36mp/5, lifetap, and pacting my critter (I've yet to see anyone abuse that mana battery, so I must be missing something).
+*** Unfortunately, mana tide takes up a blessing and has a 3min CD (ridiculous). Yet, it is so strong, I must still consider playing around it instead.
+** Crits are everything for me, and they trigger: increased healing (on top of crits), DR, HoT, and shielding. Prayer of Mending healing is retarded expensive too, but 10% higher crit on it as well.
+*** Look at that Berserker stance on a healer! Rofl. 
+*** Generally speaking, you longcast->instant for zero GCD loss.  
+** FD, Vanish, DA, and Cheat Death are my outs. Blink is sometimes an out, but it's especially valuable for getting out of stun. Solid Oh-Shit keys.
+*** I've gone deep into the rogue tree unlike any of the healers I've seen so far. Vanish drops you OFF the aggro table without silencing you.
+** I'm worried clearcasting isn't strong enough. My melee builds break the limits of casting spells by working around the GCD all the time, but not this fella.
+** 1-button heavy DPS totems. There are many buffs I wished I could squeeze, but I don't think I can beat these totems.
+** Curiously only one 60-point talent, and I am not sure I love it until after I test it. 
+
+* [[Titan's Micropenis Grip|https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=:100:168:465:588:687:845:1680:2098:2457:5308:5384:7384:8004:8232:20164:121t1:136t3:159t2:166t3:223t1:246t1:301t1:611t3:681t1:827t1:901t1:1361t1:1410t3:1426t1:1431t1:1655t2:1657t3:1659t1:1664t2:1755t2:1756t1:1819t1:1863t1:1867t1:2054t2:2057t3:2071t1:2073t2:2076t1:2078t1:2131t2:2150t1:]]
+** Recall that in broken IMBA games, tanks which deal as much damage as everyone are almost the only thing worth building.
+** I've decided Kamikaze is wrong for not aiming for damage mitigation. Unless my tank really knows what they are doing, I have no idea how they are going to hold aggro over me. I'm building on the assumption I'll get at least some aggro each fight, and that means armor.
+*** I expect to see Mark of the Wild in groups, so I chose to hit it where I think they aint. Inner Fire looks annoying, but I've played a lot of priest. It's probably the best armor buff in the game. Would you cast a spell between pulls to wear an epic off-hand shield? Yeah, I would too.
+**** Similarly, not sure if I need to have trueshot or the fury crit talent since I expect lots of people will have this. They are too strong ever go without.
+*** FD is the only get-out-of-death-free card I'm keeping for now.
+** Seal of Justice because I'm convinced stunning for timewalks just is damage. I survive too many fights off the back of it.
+** Riposte, Unfair Advantage (scales hard), and OP stay simply because they are so insanely cheap; they make BF stronger, they allow me to duel more effectively, and I love them for solo too. I'm either in AoE mode or single target, and there's no reason not to have a strong single-target toolkit when I'm already bonkers on the other here.
+** I've dropped Warlock and went Shaman this go around. My combat mana and hp come out of this one. I simply must have one DD heal, and having it instant cast during combat fits poyfectly.
+*** My bro says SS is handing him 250mana. That's crazy. Procs WF, BF, and weapon innates too. Single target, it does more than any single ability I have as well. I don't think this build works without it.
+** I have some uber bleed tech up in this biznatch. A single point in Deep Wounds gives me 4% haste and 9% total damage on top. That's stupid.
+** SnD got dropped. I'm keeping it simple. Eviscerate is a fine skill.
+** Prepare your penis for the combolicious macros:
+*** Almost Resourceless: Blade Flurry -> Killing Spree -> Bladestorm
+*** The iWin AoE macro sequence (single AHK key): [cleave, Blade Flurry] -> [cleave, Divine Storm] -> [cleave, whirlwind] -> [Single-Target Sequence]
+*** Single-Target sequence macro: Stormstrike -> Riposte -> OP -> Hemo
+**** I suppose I could go with Shadowstep instead of one. =/ 
+*** Finisher: Execute -> Eviscerate
+** Shockingly almost no direct, active CC/Defense. 
+
+* [[The Kamikaze Cleaver|https://project-ascension.com/development/builds#/talentsandabilities/editor/?hash=:100:168:586:642:845:1856:2061:2098:2457:2842:5171:5277:5308:8232:20230:20608:22812:121t3:133t1:136t3:159t2:166t3:223t1:246t1:602t3:681t1:827t1:1410t3:1431t1:1481t1:1664t2:1698t1:1722t3:1744t3:1751t3:1819t1:1863t1:1867t1:2073t2:2074t2:2076t1:2078t1:2131t2:2150t1:2196t1:2264t2:]]
+** The goal is maximum AoE melee damage. Clearly, important sections of PvE are dictated by one's ability to just down a bunch of mobs at the same time. Rogue, Warrior, and Paladin excel in this (one for each resource too!). It's extremely selfish in how it is built having only a few ways to help other players directly. I also don't know enough about the stacking mechanics on this server.
+** Hammer and Divine Storm both have CDs, so I can weave.
+*** I anticipate making enough of the killing blows that rapid recup is worthwhile!
+** Cleave has no GCD, and with haste, I should be able to dump rage hard and fast. 
+*** Different weapon speeds seem important.
+*** I've got an item which adds another cleave target!!
+** Execute and Rogue abilities for single target (and manalessness) should suffice.
+** Bladestorm may be awful? But, if I'm rage starved for any reason, it does the job.
+*** It's possible that Killing Spree -> Bladestorm will work, which would be great.
+** I'm going for pure DR, CD abuse, and hacks for survival. This character is meant to trigger the best get-out-of-death-free cards; it lives on the edge. It's RNG heavy.
+*** Fade, Vanish, Evasion, Barkskin, and Divine Aura with just enough healing to maybe let me eke it out or allow a tank to actually hold aggro here. I can tank for very brief windows.
+*** 2 saving throws (we'll see about how their cooldowns work), and Reincarnate if I fail.
+*** There's a fuckton of combos.
+
+<br>
+
+!! Links
+
+* https://project-ascension.com/forum/index.php?/topic/498-the-ultimate-buff-combo-talent-synergizing-faq/
+* https://docs.google.com/spreadsheets/d/1PWJIfDqAzBs85RoeBRtiFgkT4awnjxpXTQGVbmGmzMg/edit#gid=1722256768
+* https://project-ascension.com/forum/index.php?/topic/490-tool-ascension-talent-calculator-20-faqs/
+
+
+<br>
+
+!! Addons:
+
+* Auctioneer 
+* Decursive
+* Spy
+* Recount
+* Mapster
+* AscEnchantList
+
+
+
+<br>
+
+!! Tidbits
+
+* 8% hit for melee, 17% for casters
+* 17 slots for REs (if you dual wield)
+
+
+
+<br>
+
+!! In-Game Macros:
+
+Instant Mana:
+
+```
+#showtooltip
+/ues Major Mana Potion
+/use Superior Mana Potion
+/use Dark Rune
+/use Demonic Runew
+/use Mana Ruby
+/use Second Wind
+```
+
+Kill totems:
+
+```
+/click TotemFrameTotem1 RightButton
+/click TotemFrameTotem2 RightButton
+/click TotemFrameTotem3 RightButton
+/click TotemFrameTotem4 RightButton
+```
+
+Drop Aggro:
+
+```
+#showtooltip
+/castsequence reset=30 Feign Death, Vanish
+```
+
+Spec switch example:
+
+```
+#showtooltip
+/say Speccing to Healer
+/equipset Healer
+/cast Specialization III
+```
+
+
+<br>
+
+!! Nostromo Macros/Layouts:
+
+
+<br>
+
+!! Bots:
+
+It's time I started building log-based reactive tooling as well.
+
+* https://github.com/Jnnshschl/AmeisenBot-3.3.5a
+* https://wrobot.eu/
+* https://thepiratebay.org/torrent/18012814/WRobot_cracked_(TBC-WOTLK-LEGION)
+* https://www.nulled.to/topic/271148-release-wrobot-cracked-tbc-wotlk-legion/
+** https://www.nulled.to/topic/271148-release-wrobot-cracked-tbc-wotlk-legion/page-24

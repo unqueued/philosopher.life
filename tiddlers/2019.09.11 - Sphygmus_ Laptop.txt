@@ -1,0 +1,28 @@
+[12:04 PM] robotic_scarab: oh my god ascension
+[12:05 PM] robotic_scarab: if you ever wanna play multiplayer I'm down for that!
+[8:40 PM] h0p3: That sounds lovely. I am not there yet, but I should jump in. Currently playing a heavily modified version of WoW: https://project-ascension.com/
+Ascension Classless WoW Servers
+Ascension is a Classless community, creating new builds and ideas from hundreds of skills and abilities.
+[8:40 PM] h0p3: It has a lot in common with deckbuilding games.
+[8:40 PM] robotic_scarab: ah yes, that was a brain fart on my part :P
+[8:43 PM] robotic_scarab: i'm in the middle of looking for a new laptop :O
+[8:44 PM] robotic_scarab: i'm not sure if i'm gonna go for it 100%, but I want something that's similar to my chromebook but beefier...the lack of ram on that thing is starting to become frustrating
+[9:18 PM] h0p3: I hear that. Never enough RAM.
+[9:20 PM] h0p3: If you are fine with ugly and big, can find some i7 thinkpads 16GB for ~200 on ebay.
+[9:23 PM] robotic_scarab: so I'm really torn right now and I wonder what your opinion is:
+I'm looking at the Lenovo Thinkpad Yoga 260 because I'm ''super'' particular -- it must be small and light and have at least 8 GB of RAM and run Arch and only have an SSD -- and this so far has checked all my boxes. it's only 8 GB of ram but it's DDR4 so maybe that makes it faster?
+I found this one https://www.ebay.com/itm/254323780311 which is such a good deal because it's not missing the stylus & power cord like all the others around that price point and i don't care that it doesn't have an OS since Arch -- but it only has 16 GB SSD and is 1366 res instead of 1080
+but then there's this one https://www.ebay.com/itm/173831162283 which does have a 256 GB ssd and it is true 1920x1080 -- but it's twice the price :S
+[9:29 PM] h0p3: I'm gonna bet you will care about 1080p in the end.
+[9:29 PM] h0p3: I know some designers who prefer even higher resolution.
+[9:30 PM] robotic_scarab: that's true, I'm working on a Mac now at work and the retina resolution is so nice...
+[9:30 PM] h0p3: The difference between DDR3 and 4 will not be important. 8GB is the bare minimum you should consider (and if you are hunting, worth sorting by 16GB first).
+[9:31 PM] h0p3: I wouldn't be too worried about whether it has an SSD if the price is right.
+[9:31 PM] h0p3: https://pcpartpicker.com/products/internal-hard-drive/#t=0&sort=ppgb&page=1
+[9:32 PM] h0p3: you'll have to check the compatibility for each device; I'd make it the last step
+[9:34 PM] h0p3: I have lived on 16GB SSDs. Fun to squeeze a system on it, but you'll probably replace it in the end.
+[9:39 PM] robotic_scarab: Is it pretty easy to replace parts in thinkpads usually? I've never had a laptop where it's feasible to swap out hard drives etc
+[9:40 PM] h0p3: Aye, chromebooks are a pain for the swapping. I ripped out my speakers to put a larger one  in, lol.
+[9:40 PM] h0p3: yeah, thinkpads are straightforward for this
+[9:56 PM] robotic_scarab: that's awesome
+[9:56 PM] robotic_scarab: i'll have to take a look at the ones that were missing parts now, see if any of them are what i want

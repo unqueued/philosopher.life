@@ -1,0 +1,223 @@
+"""
+How's your weekend going?
+SUN 2:28 PM
+It’s going. I might be coming down with something but it’s hard to tell for sure.
+SUN 5:39 PM
+I hope not!
+SUN 5:58 PM
+I'm so confused. My stomach feels sour, but not sick. I'm not sure what the issue is...
+SUN 6:03 PM
+Hm.
+SUN 6:03 PM
+You feel any tightness in your chest?<<ref "2020.02.12-1">>
+SUN 6:05 PM
+Maybe a tiny bit?
+SUN 6:05 PM
+I don't know either.
+SUN 6:06 PM
+Web MD says it's cancer.
+SUN 6:06 PM
+:D
+SUN 6:06 PM
+Lol!
+SUN 6:06 PM
+Random: But I think I'm gonna start messaging [[JRE]] every day too on here.
+SUN 6:07 PM
+!
+SUN 6:07 PM
+=)
+SUN 6:08 PM
+So, I have noticed a significant change in how you communicate this year. I think it's fucking awesome.<<ref "2020.02.12-2">>
+SUN 6:09 PM
+The last time I hit him up was on is bday, and I never got a response back.<<ref "2020.02.12-3">>
+SUN 6:09 PM
+thanks!
+SUN 6:09 PM
+I'm trying super hard, haha
+SUN 6:09 PM
+I can tell! Lol. I'm pretty blown away by it.
+SUN 6:09 PM
+I think my change is starting to affect others too, because I am seeing a slight resurgence in friends and family meeting me halfway in this same regard.
+SUN 6:12 PM
+Fruit to my labor. :)
+SUN 6:12 PM
+And more healthy relationships all around
+SUN 6:13 PM
+It is tough to not here responses back.
+SUN 6:24 PM
+hear*
+SUN 6:25 PM
+Yeah, my resolve to do this for so many people is really showcasing just how many people don't care to message back, no matter how much I try.
+SUN 6:26 PM
+Yup. =(
+SUN 6:29 PM
+Let's show 'em how it's done.<<ref "2020.02.12-4">>
+SUN 6:29 PM
+Hell yeah1 lol
+SUN 6:29 PM
+Man fuck typos
+SUN 6:29 PM
+lol
+SUN 6:29 PM
+:sweat_smile:
+SUN 6:29 PM
+You will have to tell me what it means to DM for yourself in a 1-man D&D game. It may not even be conceptually possible all the way down, and I'm interested in knowing why.
+SUN 6:31 PM
+Wait what?
+SUN 6:32 PM
+Ah, I am curious about how you would DM a game with you as the player.
+SUN 6:32 PM
+just you!
+SUN 6:32 PM
+I think I would just call it writing a book. xD
+SUN 6:33 PM
+lol
+SUN 6:33 PM
+I'm still interested in writing a book with a d20!
+SUN 6:33 PM
+I think it would be an interesting, albeit uneven experience.
+SUN 6:33 PM
+I have an idea.
+SUN 6:33 PM
+Hit me!
+SUN 6:35 PM
+[[JRE]] has asked me to write science fiction. I do entertain it, but I'm really not skilled enough, imho. I'm not a storyteller in the right way for fiction, imho. Still, I like to think about it.
+SUN 6:35 PM
+I've long though that rolling for characters (even in buckets of narrowed down characters) and forcing myself to introduce the character to the story would be fun. It reminds me of a dice game I use to play with my kids.
+SUN 6:36 PM
+We throw dice with pictures or words on them, and we'd have to create a narrative by sequencing them and building the relationships between these objects.
+SUN 6:37 PM
+http://tvtropes.org/
+SUN 6:38 PM
+That is a wonderful rabbithole to me.
+SUN 6:38 PM
+Tv tropes is GREAT
+SUN 6:38 PM
+Those dice sound like a ton of fun too<<ref "2020.02.12-5">>
+SUN 6:38 PM
+If I had to write a book with dice, that would be one of my dice games I played.
+SUN 6:39 PM
+That might be stupid, I don't know.
+SUN 6:40 PM
+I don't think so
+SUN 6:40 PM
+It would be experimental!
+SUN 6:40 PM
+Agreed.
+SUN 6:41 PM
+It would be empirical. =)
+SUN 6:41 PM
+I think it's something that would would great in a shorter format with a meta spin, informing the reader of what was happening behind the scenes.
+SUN 6:41 PM
+Sounds like a graphic novel to me.
+SUN 6:42 PM
+Also, the question of what makes a character valuable is not a simple one. Are there characters or groups of characters in tvtropes that are more valuable than others, and why? That is not an easy problem to solve.
+SUN 6:44 PM
+Machine learning targets monetizable story arcs, characterization, etc. in movie scripts.
+SUN 6:49 PM
+Will the market be able to define which story arcs and characters matter the most?
+SUN 6:49 PM
+One of my concerns is how we tell ourselves the stories of [[Humanity]] as humanely as possible.
+SUN 6:55 PM
+Well and the medium can portray those characters in incredibly different ways too.
+SUN 6:55 PM
+The same archetype would likely appear differently in movie form, book form, anime, theater, and everything inbetween
+SUN 6:56 PM
+Just because of the stereotypical media conventions!
+SUN 6:56 PM
+It would appear differently, but the question is who made the story and why? I'm still looking for the human story. That is part of  what interests me about your dice-augmented authorship idea.
+SUN 7:10 PM
+So are you saying that you are looking for an engaging story about humanity behind this gimmick?
+SUN 7:48 PM
+I'm not convinced it's a gimmick.
+SUN 7:48 PM
+True. It might just be an untapped genre
+SUN 7:49 PM
+:)
+SUN 7:49 PM
+D&D uses dice to tell emerging stories both in and outside of play that are quite real to me.
+SUN 7:49 PM
+The book is a different medium to portray the characters than D&D, but they obviously have something in common.
+SUN 7:50 PM
+Serious conceptual bridges.
+SUN 7:50 PM
+Magic is another great example. You do tap that genre.
+SUN 7:52 PM
+Some mechanics lend themselves to particular tropes and storylines more than others. We tell each other stories through our dice, through cardboard interactions and a social convention about the rules which regulate the cardboard, etc. I am convinced, philosophically, that randomness to some non-trivial extent is necessary for meaning and the kind of empirical computation which gives rise to trust and empathy. We need experiments to learn what is worth having faith in.
+SUN 7:54 PM
+https://rpggeek.com/rpgsystem/26027/narrative-dice-system
+SUN 8:01 PM
+I think this idea would benefit from this specific dice system!
+SUN 8:01 PM
+Perhaps I do not understand. That sounds like a way to hunt for story arcs. That is another kind of dice throw to add to the mix.
+SUN 8:03 PM
+:thinking_face:
+SUN 8:04 PM
+Are we still talking about using dice to write a story?
+SUN 8:04 PM
+I don't see why not. I must be missing something.
+SUN 8:05 PM
+Likewise. Lmao
+SUN 8:06 PM
+lol
+SUN 8:07 PM
+I’m also studying for a quiz so my attention is a bit divided. XD
+SUN 8:07 PM
+My bad!
+SUN 8:07 PM
+First mythology quiz!
+SUN 8:07 PM
+Oh, study away! =) We will talk about it later.
+SUN 8:07 PM
+How hard do you think it will be?
+SUN 8:07 PM
+If it’s hard, I will be genuinely shocked.
+SUN 8:07 PM
+I’m just gonna memorize the 12 Olympian gods then wing the rest.<<ref "2020.02.12-6">>
+SUN 8:08 PM
+Cool.
+SUN 8:08 PM
+I was recently introduced to Yggdrasil.
+SUN 8:09 PM
+Did I tell you that he made us watch Pan’s Labyrinth for glass?
+SUN 8:09 PM
+Class***
+SUN 8:09 PM
+Yeah? Tell me more! :)
+SUN 8:09 PM
+That is amazing.
+SUN 8:09 PM
+Norse Mythology is great
+SUN 8:09 PM
+Yggdrasil is Norse right?
+SUN 8:09 PM
+Yes. I know little at all about most mythologies. Yggdrasil keeps popping up for me though.
+SUN 8:10 PM
+It's a big tree.
+SUN 8:12 PM
+The tree of all life right?
+SUN 8:12 PM
+It’s been awhile for me. Hah
+SUN 8:12 PM
+It connects different worlds.
+SUN 8:13 PM
+Saw a network protocol with it: https://yggdrasil-network.github.io/
+SUN 8:13 PM
+Good name for their network! :laughing:
+SUN 8:17 PM
+No doubt.
+SUN 8:17 PM
+"""
+
+---
+<<footnotes "2020.02.12-1" "Bingo, got it. Sorry, breh. =/. Anxiety sucks.">>
+
+<<footnotes "2020.02.12-2" "I'm grateful, and redundantly so. I wonder if we'll reach a point where he'll dig deeper with me. I think he's easily lost in his drugs. Maybe a decade from now, eh? `/hug`. I'm thinkin' aboutcha and ur [[4DID]], homie.">>
+
+<<footnotes "2020.02.12-3" "Still doesn't seem to pan out. They live in the same city. I still don't understand why they don't go out of their way to build this. It's low-hanging fruit, even for depressed anxietiacs. Commitment is expensive. My brother is wildly older too. It's gonna be hard to communicate so much. Maybe when the proportional gap closes some? I don't know. You know what I fear: even if I lived in the same city, part of them wouldn't want to build with me consistently. I am one huge asshole, I know (I mean: do you see these words?). These are the men I love.">>
+
+<<footnotes "2020.02.12-4" "I'm going to `/pat` myself on the back here. I think I have had a small hand in helping him try to do this thing. Maybe I wasn't as effective as I should have been, but I was an infectious glue to some extent. I also fear that my new brother is kinda alone...or he doesn't understand just how big the gaps are (blissfully, perhaps). I'm hoping that he will eventually jump into doing the [[PSM]] wiki thing too. It'd be right up his alley.">>
+
+<<footnotes "2020.02.12-5" "Now's his chance to really think about what the stories of D&D really mean. Storytelling [[gfwiwcgws]]!?! I think I've largely failed to help him wrestle here.">>
+
+<<footnotes "2020.02.12-6" "=/. I am worried that he will be a teacher on this front. How much do you value knowledge? Further, how much do you value pedagogy? If you aren't going to be a [[good]] student, why do you think you'd be a good teacher? I have this problem too.">>

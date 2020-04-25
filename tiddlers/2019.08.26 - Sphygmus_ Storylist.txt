@@ -1,0 +1,24 @@
+[2:14 PM] robotic_scarab: omg idk why I was so scared to try Bob
+[2:14 PM] robotic_scarab: This seems wonderful
+[2:14 PM] h0p3: :slight_smile:
+[2:14 PM] robotic_scarab: we'll see how it works when I point it at my full wiki :sweat_smile:
+[2:14 PM] h0p3: Still gotchas and headaches in there.
+[2:15 PM] robotic_scarab: I've noticed! :stuck_out_tongue_closed_eyes:
+[2:15 PM] h0p3: Also, found today that symbolic links don't work perfectly in it; it's not truly bidirectional.
+[2:15 PM] robotic_scarab: oo good to know
+[2:18 PM] h0p3: I have a request, if and only if you have time, energy, and desire. I don't have any convenient access to an Apple machine. I'm looking for method of having a wiki on a thumbdrive to run standalone TW software in both MacOS and Windows. I have some students who basically need both, and I want it to be easy on them. If you have any idea how to do that well, please let me know.
+[2:19 PM] h0p3: Also, Bob and Resilio Sync work nicely together.
+[2:20 PM] h0p3: (I thought they didn't at first, but it turned out to be something else)
+[2:20 PM] h0p3: This might be a good workaround for VPNing in. You can run the Bob instance local on each machine and just sync the .tid files.
+[2:21 PM] robotic_scarab: how are you setting up the USB with the wiki for windows? I can set up one of mine that way and test it on a Mac, for sure
+[2:21 PM] h0p3: Currently, we're just doing single-file mode (which they need to understand anyway). FF is installed on the Windows machines, and they are manually moving the html file at the end of the day.
+[2:22 PM] h0p3: I'd prefer the software were standalone and sat on the USB drive itself and not even touch the school's computers.
+[2:23 PM] h0p3: Bob executable should be fine here (though I've not tried encrypted wikis out with it yet)
+[2:23 PM] h0p3: however, getting it work nicely on both MacOS and Windows is something I've never had to do before, and I'm not even sure if there is a clean way to do it
+[2:35 PM] robotic_scarab: Cool! I'll take a look at the Bob exe tonight and stick it on a hard drive; what are you using for the encryption?
+[2:35 PM] robotic_scarab: No idea how it will work between Mac and Windows but it's worth a try :)
+[4:53 PM] h0p3: Oh, we're just using the encryption that comes with TW. It's the only practical tool for us here, I thin.
+[5:03 PM] robotic_scarab: gotcha! I've never used it, so I'll try it out on the bob stick as well
+[7:08 PM] robotic_scarab: does [list[$:/StoryList]] not work on Bob?
+[7:10 PM] h0p3: I have no idea, lol. Doesn't appear to work on mine.
+[7:11 PM] robotic_scarab: awe rats

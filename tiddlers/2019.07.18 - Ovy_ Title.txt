@@ -1,0 +1,41 @@
+[2:14 PM] Valdus: so, how do I make this thing save as another title?
+[2:15 PM] Valdus: bob just gives it tiddlywiki and that makes me damn nervous.
+[2:15 PM] h0p3: What object is being titled?
+[2:24 PM] Valdus: the wiki
+[2:24 PM] h0p3: Send me a screenshot
+[2:25 PM] Valdus: I really can't it happens too fast, when I save via savetrail, it saves under the title "tiddlywiki" I like it to save under a different title.
+[2:26 PM] h0p3: I don't know what title you are talking about. Is this in the wiki, outside? Is it a filename?
+[2:26 PM] h0p3: You are using Bob, so you shouldn't have a filename, right?
+[2:26 PM] h0p3: Show me if you can't tell me.
+[2:27 PM] Valdus: yeah in bob, it is a filename
+[2:28 PM] Valdus: can you save in bob under a different title?
+[2:28 PM] h0p3: Bob uses .tids
+[2:28 PM] h0p3: it doesn't save a .html file unless you explicitly export (but why are you exporting?)
+[2:28 PM] Valdus: no in my chromebook it is saving under filename 'tiddlywiki'
+[2:28 PM] h0p3: You are not listening.
+[2:29 PM] Valdus: ok
+[2:30 PM] h0p3: Is this an object on your file system that you can see with your file explorer?
+[2:33 PM] Valdus: yes
+[2:34 PM] h0p3: savetrail saves jsons, so that should be irrelevant
+[2:34 PM] h0p3: Bob doesn't save html files
+[2:34 PM] h0p3: what are you saving to your hard drive that requires your naming?
+[2:34 PM] h0p3: When you save a tiddler in Bob with savetrail, two things are being saved. One is a .tid file with the tiddler's title (excepting some punctuation). The other is the savetrail json, with roughly the same naming convention.
+[2:35 PM] Valdus: my chromebook saves it under tiddlywiki.html
+[2:35 PM] Valdus: got to go pick up son
+[2:35 PM] h0p3: You aren't using that tiddlywiki.html file though, right?
+[2:36 PM] h0p3: You are using the Bob server.
+[2:46 PM] h0p3: This may be what you are worried about: https://tiddlywiki.com/static/Hidden%2520Setting%253A%2520Filename%2520for%2520Save%2520Wiki%2520Button.html
+
+[10:07 AM] Valdus: I found something you may like, http://www.twistedconfessions.com/confessional/index.php?n=Lexicon.HomePage
+[10:07 AM] Valdus: rpg with wikis!
+[11:50 AM] h0p3: Lol. Fascinating.
+[11:52 AM] h0p3: I assume you are building a significant RPG section of your wiki.
+[11:52 AM] h0p3: I've seen you post some about it on Reddit.
+[11:52 AM] h0p3: Sounds like a wonderful world.
+[11:53 AM] h0p3: Also, if you are into the bigger RPGs anymore, there are TWs built to handle some aspects of DnD
+[11:53 AM] h0p3: Should check them out. At the very least, it might give you some ideas for your games.
+
+[8:02 PM] Valdus: so hey, you want to get sick on playing this game? Where would you do a group wiki, without all that splash click boxes in your face?
+[11:04 PM] h0p3: I don't get splash click boxes.
+
+[4:45 PM] h0p3: If I were to have friends play, I would setup a server online, unless they were really good friends I could trust on my LAN.

@@ -1,0 +1,24 @@
+created: 20190220172220074
+modified: 20200221062019847
+tags: [[RGM Notes]] [[Wiki Audit]] Dreams
+title: 2019.02.20 - Wiki Audit: TW5-Navigator
+
+We got close. Renaming is a problem for versioning. We were going to use the versioning plugins literally just for their diff feature and handle the actual versioning from xonsh and Bob. The idea was that we'd have a nightly cleaning of versions, snapshot the Bob folder, and then watch Bob folder with a diff to the snapshot, then we'd insert the old copy of the tiddler formatted as an old version for the plugin. Boom! Renaming appears to be a pain in the butt.
+
+At this point, I think it might just be better to use a better diff tool that is external to the wiki.<<ref "2020.02.21-1">> The difference between tiddler names and filenames is also a problem for making this specific. There doesn't seem to be an easy, clean way to exceptionlessly target what is diffed. I think it has to be shelved until something makes more sense.
+
+---
+
+Hoverlinks are dead for now `/tear`.<<ref "2020.02.21-2">> $:/plugins/danielo/keyboardSnippets is also dead (this sucks far more). ~~TW5-Navigator is now WORKING with [[Sphygmus]]' flexbox.~~(?) It's finally here. I need to start building my hotkeying out! This needs to be like my WoW days with n52 and AHK kicking so much ass that it's like I'm playing a different game entirely. I've been waiting for this day for months. =)
+
+And...we have link autocompletion installed now too! Woot, woot!
+
+I don't get to have all the automation I want. I'm going to have to choose. This may not work out. I have to start trying new things though.
+
+Currently, TW5-Navigator still doesn't focus correctly, it's laggy, and I can't use basic hotkeys with it. Ugh. Same problem as last time here.
+
+
+---
+<<footnotes "2020.02.21-1" "That's actually what [[Sphygmus]] ended up doing. I'm hoping we can find a way back. It would be much better to just have it in the wiki.">>
+
+<<footnotes "2020.02.21-2" "An unacceptable price for a wiki which links so heavily and systematically. Not everyone likes them though. They annoy my brother. =/.">>

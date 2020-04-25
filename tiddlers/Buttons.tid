@@ -1,16 +1,13 @@
 created: 20190705224754618
-modified: 20191014170536824
+modified: 20200308230634915
 tags: Keys
 title: Buttons
 
-<<cdr-button>>: Construct Core Daily Requirements
+<<cdr-button>>: [[CDR]]
 
-{{firmcode-all button}}: Firmcode!
+{{firmcode-all button}}: [[Firmcode]]
 
 <$button>
   Rebob
   <$action-websocketmessage $type='runScript' name='rebob'/>
 </$button>: Clean [[Firmcoded]] Focus tids, Restart Bob
-
-
-{{workspace buttons}}

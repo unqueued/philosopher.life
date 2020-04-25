@@ -1,0 +1,11 @@
+created: 20180208021450329
+modified: 20200207081046651
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.02.07 - Computer Musings: Seedbox Redeux
+
+I'm having serious troubles with Deluge, and I don't know why.<<ref "2020.02.07">> I'm going to setup the seedbox again from scratch. It shouldn't take long now that I've got my recipe: [[Recipe: Kimsufi Arch Seedbox Setup]]. I'm done fooling with it. I'm pretty sure I know what I want now, so it shouldn't take long.
+
+
+---
+<<footnotes "2020.02.07" "Because, in the end, Deluge is a piece of shit. There is one case in which I can tolerate it, but it's just not stable and functional in enough cases. I don't like walking on eggshells. I'm hoping I don't keep coming to try it again.">>

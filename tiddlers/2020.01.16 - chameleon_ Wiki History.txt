@@ -1,0 +1,36 @@
+[12:06 AM] chameleon: [[2020.01.15 - an oral history of tlw]] should be up!
+[12:06 AM] chameleon: I now consider the possibility of footnoting it, or keeping old versions lying around
+[12:07 AM] chameleon: do you have anything similar about your older articles? LIke something about how they grew over time?
+[12:07 AM] chameleon: I assume they grew, anyways. I'm ignorant on your wiki's history. haha
+[12:09 AM] h0p3: I'm ignorant of my own wiki's history, lol.
+[12:10 AM] h0p3: I keep daily snapshots, of course, but I also keep handpicked snapshots in //Vault://Foo_Directory.
+[12:11 AM] h0p3: [[Wiki Review]]s for Retired tiddlers may have something to say in some cases.
+[12:12 AM] h0p3: I've stopped [[The Remodeling]] for a while, and I've not been able to get back to it. I desperately need to do so. I have to construct [[SO]] narratives from what I've got.
+[12:14 AM] h0p3: Articles tend to be entwined with what's happening when I make them. I'd have to look back to give you an explanation for why I think any particular one grew over time as it did.
+[12:15 AM] h0p3: Some just grow organically, no pressure, the idea just comes and I add it, and that keeps happening. //About://[[Antipleonasm Analysis]] is perhaps a useful example for us.
+[12:18 AM] h0p3: [[Log Audit]]s are an excellent way to see me reasoning overtime about the nature of what I'm doing in a particular project. The qualitative narrative (//About://) and quantitative rules (//Principles://) tend to take time to develop, and usually some practice before I can stand back and as myself where I want to go or reason more explicitly about what I think I'm doing, including in relation to other kinds of projects.
+[12:22 AM] h0p3: [[Antipleonasm Analysis]] was a fairly well-developed idea when I began it, but it wasn't really my first attempt at such a thing. It was, however, a recognition that I could only do so much work in a day, and I wanted to at least get //something// done each day (even if it weren't major). Over time, my conventions for it have changed, how the wiki is funneled into it at times is different, and how I decoratively speak of it grows.
+[12:22 AM] h0p3: (I may be doing a terrible job here. Maybe you'll need to be more specific.)
+[12:22 AM] chameleon: nonono
+[12:23 AM] chameleon: i'm not really saying anything because I'm absorbing it and cross-referencing the wiki
+[12:23 AM] h0p3: The [[Wiki Audit]] is worth your time on this front. That's a crucial part of what it aims to do.
+[12:24 AM] h0p3: I can't say I'm doing a great job here though, chameleon. I'm not! It's pretty fucking sad actually.
+[12:24 AM] h0p3: So...you should take what I've said which a huge fucking bowl of salt. I really don't know what I'm doing well enough here.
+[12:25 AM] h0p3: It's gut instinct and cognitive grinding which emits puke (so much glitter in my puke, or I'm hallucinating from the dehydration ;P).
+[12:26 AM] h0p3: As I have said before, I greatly admire how carefully you've gone about structuring your wiki. You seem to have much better instincts than I have.
+[12:26 AM] h0p3: My snapshots will attest to that as well.
+[12:27 AM] chameleon: I suppose I had your past work to build on top of, thougH!
+[12:27 AM] chameleon: and indeed my own experiments with tagging and categorizing
+[12:28 AM] chameleon: I'm very much inspired by the booru sites, which is where I find most art of my waifu
+[12:28 AM] chameleon: and indeed where I met her in the first place, iirc
+[12:28 AM] h0p3: I cannot speak highly enough for experimenting again and again. Sometimes it's just blind luck, imho.
+[12:29 AM] chameleon: https://gelbooru.com/index.php?page=post&s=list&tags=rating%3asafe+very_long_hair+blue_hair+green_eyes+%3a3 for example... this will narrow it right down and give you konas lol
+Image List  / Results: rating:safe, very long hair, blue hair, gre...
+Gelbooru is one of the largest hentai and safe image resource available! Over a million images for you to search and view, and it is all free!
+[12:29 AM] h0p3: This is probably amplified by the fact that each person has to find what objectively fits their subjective context correctly. There is no substitute for experimentation at some level.
+[12:31 AM] chameleon: part of what I love about programming is how the experimentation loop goes
+[12:32 AM] h0p3: Homework time for you then: https://bimlas.gitlab.io/tw5-kin-filter/
+[12:33 AM] h0p3: I think that is the beginning of something quite powerful (doing the gelbooru thing and more!).
+[12:33 AM] h0p3: I don't see anyone else using it, and I don't know why (maybe you have to have enough tags to see why it's amazing or something?).
+[12:34 AM] h0p3: I'd love to see you explore and build your wiki in virtue of it (perhaps even pointing out how that tool needs to evolve. I know bimlas would listen very carefully.)
+[12:36 AM] h0p3: I fanboi bloviate on it: [[2019.07.09 - TWGGF: Bimlas]]

@@ -1,0 +1,17 @@
+"""
+How was your week?
+36 MIN AGO
+It's good. We just went to church and then had lunch with friends.
+19 MIN AGO
+Cool.
+19 MIN AGO
+How bout you?
+18 MIN AGO
+It's been a good week. Wiki is the best explanation. Lots of work done in the wiki. Applying to a job (been a while since I worked this hard on an application). [[k0sh3k]] had the flu, but she's now feeling better. Kids did well in school.
+17 MIN AGO
+Good to hear that she is better. I hope you find a job soon. Hug and kiss the kids for me.<<ref "2020.02.12">>
+14 MIN AGO
+"""
+
+---
+<<footnotes "2020.02.12" "Yup. Here's your sign, [[h0p3]]. I think she doesn't take seriously her own role in constructing and maintaining a relationship. I sacrificed so thoroughly for this woman. Seems like she would have plenty of motivation to care, even with the language barrier. Welp, I [[hope]] her children turn out to be [[good]] persons.">>

@@ -1,0 +1,220 @@
+[11:46:18] h0p3: How's life going?
+[11:46:33] BDS97: home: Hi
+[11:46:34] h0p3: ?
+[11:46:39] h0p3: Oops*
+[11:46:47] BDS97: home: Quite chaotic at the moment, but it's nice
+[11:47:15] h0p3: Chaotic and nice. Lol. Good. Sounds like you are working hard.
+[11:47:30] BDS97: home: Yep, on multiple things
+[11:47:37] BDS97: home: Sorry, haven't been online here in the past few weeks
+[11:48:01] h0p3: Naw, you have a life. Lol. It's a pleasure talking when we can.
+[11:48:38] BDS97: home: Agreed, but I'm still kinda conscious about it 
+[11:48:49] BDS97: home: and well, Tox reminds me every time I boot into Linux
+[11:49:05] BDS97: home: which wasn't that much lately, though
+[11:49:31] BDS97: home: started some courses about making music cause why not, could be useful for games
+[11:49:44] BDS97: home: and most of those tools are on windows, unfortunately
+[11:50:15] h0p3: Noice. Making music is fun and good for you.
+[11:50:26] h0p3: You have a keyboard for it, or what's your setup?
+[11:50:58] BDS97: home: Got a synth my family had before we got a piano, wired it up as a midi keyboard
+[11:51:26] BDS97: home: 60-something keys, no mod wheels or anything, but it's still kinda nice, definitely enough at my skill level
+[11:52:34] h0p3: I'm used to playing music other people made, but I have no practice making my own. Thought about it, but it's a lot of work.
+[11:52:47] h0p3: The tooling is a maze to me.
+[11:53:16] BDS97: home: For me the music itself is the real maze, the tooling is complex but not too hard to figure out IMO
+[11:53:40] BDS97: home: Well, Linux complicates it a bit, tried it once but even for LMMS I just used it in a VM
+[11:53:55] BDS97: home: And now that I upgraded to FL Studio that's a windows-only thing
+[11:54:13] BDS97: home: (or mac, but I'll use one of those when hell freezes over)
+[11:54:57] BDS97: home: Plus pretty sure if it's not FL Studio's DRM that'd get into a fight with the VM it would be EastWest
+[11:55:28] h0p3: I've not used that DAW before.
+[11:56:03] BDS97: home: It's pretty good, feels a lot better than LMMS
+[11:56:21] h0p3: Hard to beat Windows and MacOS software for media.
+[11:56:59] BDS97: home: LMMS got a few issues with certain VSTs, plus for me the single-window (single-monitor) limit is also a problem
+[11:57:15] BDS97: home: Otherwise it's nice, great for an open source project, but it moves very slowly
+[11:57:24] BDS97: home: Unfortunately it's nothing like Blender
+[11:57:51] BDS97: home: For 3D, I never even considered using anything else, but with music that thing was there in the background from day one
+[11:58:33] h0p3: What kind of music do you enjoy, and what do you hope to produce?
+[11:58:49] BDS97: home: Epic soundtracks, for both questions
+[11:58:58] BDS97: home: Ever listened to Thomas Bergersen?
+[11:59:34] h0p3: Will be exploring today.
+[11:59:45] h0p3: Yes, I have!
+[12:00:26] h0p3: Definitely beautiful for gaming.
+[12:00:54] BDS97: home: Yeah, that's what got me to start
+[12:01:39] BDS97: home: Music, and sound in general was always a weakness in any game project I had, plus before this course composing seemed like arcane magic to me
+[12:02:57] h0p3: You have your hands so full, lol. I have no idea how you manage everything.
+[12:03:34] BDS97: home: me neither, mostly
+[12:04:32] BDS97: home: got a few extra whiteboards about two weeks ago, set one up as a thing to track what I'm doing every day
+[12:05:25] BDS97: home: kinda like Simone Giertz's Everyday Calendar, but with multiple options for a certain day, and without the LEDs (cause I hate things that glow at night)
+[12:05:51] h0p3: Disable LEDs on my machines as well. 
+[12:06:00] h0p3: (tangent, this was a fun video: https://www.youtube.com/watch?v=dPHPNgIihR0)
+[12:06:36] h0p3: We do the chalkboard paint/wallpaper thing, but have a nice chalkboard at the center of the living room and the windows doors to our patio for dry-erase.
+[12:07:01] h0p3: Still trying to move everyone to doing it digitally in the wiki. Sometimes, however, it's just better to draw and have a physical form.
+[12:07:11] h0p3: Lower friction, unquestionable distribution, etc.
+[12:07:24] BDS97: home: yeah, definitely agreed on that
+[12:08:01] BDS97: home: doodling and planning is something we still haven't been able to properly replace with computers
+[12:08:10] BDS97: home: part of why I have three whiteboards
+[12:08:18] BDS97: home: (I like them much better than the chalk version)
+[12:09:35] h0p3: I hear ya. I can make sharper images in ink, but chalk has other properties. https://www.youtube.com/watch?v=B0LgaWUSzMI
+[12:10:00] h0p3: and filling things out with the broad side.
+[12:10:44] h0p3: I'm afraid I sound like a hipster who thinks vinyl has some "warm" tone or made-up authenticity to it. Chalkboard texture probably just fits me because I grew up with it.
+[12:11:07] h0p3: The mess though.  Jesus.
+[12:11:28] BDS97: home: yeah, I see the point in all of that
+[12:12:00] BDS97: home: we had chalk in school too by the way, but that didn't help me like it
+[12:12:52] BDS97: home: I think it comes down to scale, if you're presenting something to a large classroom chalk can be indeed better
+[12:13:16] BDS97: home: but on a small scale like planning stuff at home or in a meeting room whiteboards are just way more precise
+[12:13:27] BDS97: home: they can be terrible though if you have shitty pens
+[12:13:46] h0p3: Agreed. 
+[12:14:39] h0p3: The school I work at uses smartboards. The latency is horrendous. The tech, as you pointed out, just doesn't work well enough.
+[12:14:45] h0p3: I don't like drawing on touch screens either.
+[12:14:51] h0p3: (though, I'm not a fan of touch screens)
+[12:15:21] BDS97: home: I've used smart boards maybe twice in my life, outside of just using it as a screen for a presentation
+[12:16:08] BDS97: home: one of those I remember, the teacher basically fired up ms paint and we just drew stuff there
+[12:16:41] BDS97: home: wasn't that bad in latency actually, but it may be a different model than the one you use
+[12:17:01] BDS97: home: or different software
+[12:17:33] BDS97: home: at one point I thought about making some software for those things, could be awesome, but that project kinda faded away (like most of them)
+[12:19:00] BDS97: home: btw, about drawing stuff digitally, just bought a Surface Go, hopefully it arrives tomorrow
+[12:19:28] h0p3: I think maybe 1 in 10 projects of mine end up being what I call a "success"
+[12:19:36] h0p3: (and that might be far too generous)
+[12:20:03] h0p3: Might be all part of the process of finding what matters to me.
+[12:20:13] h0p3: (also might be a confabulation though)
+[12:21:09] BDS97: home: yeah, that's definitely way better than what I even completed
+[12:21:27] BDS97: home: part of why I need that calendar-like whiteboard thing btw, it stops me from getting lazy with this stuff
+[12:21:57] h0p3: You do not strike me as lazy in the least. You seem like a whirlwind with 10,000 things. It sounds like you even play hard.
+[12:22:53] BDS97: home: yeah, there's definitely something in that, but I'm still pretty sure that deep down I'm really lazy
+[12:23:01] h0p3: Like a good programmer!@
+[12:23:04] h0p3: Lol
+[12:23:14] BDS97: home: lol, yeah, agreed
+[12:23:33] BDS97: home: took me a while to really understand that, but yes, a lazy programmer is indeed a good programmer
+[12:23:52] BDS97: home: why do stuff in a thousand lines when 50 do the job
+[12:24:55] h0p3: Predictive coding in our brains is about the energy efficiency with which we algorithmically model the world. It's about learning how not to be surprised.
+[12:25:24] h0p3: Best case scenarios: we've evolved to be lazy in the right way, at the right time, and for the right reasons.
+[12:25:49] h0p3: Most of the time, I look at the mess, and I'm like...fuck it. Lol.
+[12:25:59] BDS97: home: yeah, that's the good kind of lazy
+[12:26:16] BDS97: home: but there's also a bad kind of lazy when you do literally nothing for days
+[12:26:21] h0p3: Heaven?
+[12:26:31] BDS97: home: maybe
+[12:26:53] BDS97: home: maybe not, being productive with the right stuff also feels like heaven
+[12:27:10] h0p3: True, the flowstate is best.
+[12:27:39] h0p3: Novelty about what matters most to me, being in the zone, not giving a shit about anything else (even be blinded to all else).
+[12:27:59] h0p3: Sounds bipolar
+[12:28:09] BDS97: home: yeah, exactly, but if you push the flow too hard you wind up in anxiety, and that's what gets you to procrastination
+[12:29:00] BDS97: home: completely agreed on the zone, one of the best parts of psychology I've ever learned at a casual level
+[12:29:51] BDS97: home: sometimes I like to read up a bit on these ideas, not in a very elaborate way, just as a broad guidance
+[12:30:53] h0p3: I often feel like a jack-of-many-trades and a master of none.
+[12:31:25] BDS97: home: same here, kinda
+[12:31:51] BDS97: home: btw, yeah, different topic, how are things going on your side?
+[12:34:02] h0p3: They are going well. I have more routine than usual, which is valuable to me. My wiki is slowly solidifying and growing (Over9k tiddlers now). Perhaps in 10 years, I will have something of merit. 
+[12:34:31] h0p3: I get paid slave-wages to do work that I feel is morally worthy. I'm glad to be a subverise prison guard for the children in the middle school.
+[12:35:06] h0p3: I've been taking very low doses of ketamine every two weeks recently, and it hasn't been pure hell (though it is work).
+[12:35:53] h0p3: I am most proud of my children. My son continues to grow rapidly, and I'm feeling less frightened about his survival.
+[12:37:15] h0p3: He's learning Tiddlywik code, python, and has been working on his i3 desktop environment for CS. He's doing another pass over math up to algebra through Khan this time (solid mastery/calculation practice). He finished Dune (but it's like pulling teeth to get him to write about it). His grammar is improving (he's autistic, didn't speak until he was 4), and that is a blessing.
+[12:37:29] h0p3: It's interesting to compare him to the other 11yo boys I work with.
+[12:37:55] BDS97: home: wow, sounds great
+[12:38:57] BDS97: home: he's gonna be like a wizard in an age where everyone grew up with read-only devices and closed magic "apps"
+[12:39:11] h0p3: /fingers-crossed
+[12:39:14] BDS97: home: also, I like your breadth-first approach
+[12:40:39] h0p3: My daughter now writes code I do not understand, so she has to talk down to me (it's wonderful to be humbled for a 13yo girl-woman all the time). She's basically the system admin of the house now, and I only talk about the requirements and general notion of what we are doing. She sets up a lot of madcap stuff with me. She's working on number theory. She just finished //The Chosen// and also won't write about it. She has been writing more than usual though and more personally. 
+[12:41:15] BDS97: home: Elaine Roberts?
+[12:41:21] h0p3: Chaim Potok
+[12:42:00] h0p3: My favorite parts of my days are dialectics and lectures in philosophy. I have 11 years of post-secondary education, and I aim to give them a graduate level understanding in the particular schools of philosophy I understand before they are adults. In time, I hope my wiki will be of great use to them.
+[12:42:46] h0p3: There are conversations I can only have with professors and my kids. They are going to be monsters.
+[12:43:22] BDS97: home: wow
+[12:43:47] BDS97: home: sounds like modern day superhero training, that's crazy
+[12:43:54] h0p3: I owe them my best.
+[12:44:12] BDS97: home: wish I got something like that
+[12:44:36] BDS97: home: had to learn the stuff I wanted to learn by myself
+[12:45:18] BDS97: home: still started outsmarting my dad in tech topics at 16-17, and he got kinda butthurt about it, locking down routers and stuff like that
+[12:45:26] h0p3: lol
+[12:45:32] BDS97: home: so I really respect your attitude about it
+[12:47:04] h0p3: I have had to punish them like that too. They've had to live with only a command line, or they have to setup DNSmasq for a short whitelist. They are allowed to hack back, but they have to tell me how they do it, it must be reversible (and they have to reverse it), and they may not engage in that particular attack again.
+[12:48:00] h0p3: It sucks when they have to hand over sudo password to me. I need them to fiercely seek the ownership of their computers.
+[12:49:09] BDS97: home: nice, it sounds like you're their personal Apple they can train on before they encounter the real thing
+[12:49:26] BDS97: home: btw Elaine Roberts isn't an author, she's an xkcd character (341-345)
+[12:49:58] BDS97: home: your descriptions of your children keep reminding me to her
+[12:50:17] h0p3: Lol. There we go. I see.
+[12:56:52] h0p3: You think Article 13/17 is going to make it all the way?
+[12:57:12] h0p3: Kinda holding my breath over here.
+[12:57:19] BDS97: home: Yep
+[12:57:25] BDS97: home: I don't like it, but it's gonna make it
+[12:57:35] BDS97: home: if we had any chance of stopping it we'd have done it three times by now
+[12:57:43] h0p3: =/
+[12:58:25] BDS97: home: still gonna vote to one of the four representatives in my country who didn't vote for it, and I really hope others do it as well, but I doubt it makes any difference at this point
+[12:58:38] BDS97: home: (we'll have EU Parliament elections in May)
+[12:59:22] BDS97: home: btw that slightly changes my personal plans for the future
+[12:59:27] h0p3: How so?
+[12:59:30] BDS97: home: don't want to spend 3-4 more years in Hungary
+[12:59:54] BDS97: home: one of the places I was planning on moving to was Denmark, but it's still in the EU
+[13:00:14] BDS97: home: and if I'm gonna make any game in the future I don't want to set up the copyright police for its modding platform
+[13:00:46] h0p3: Can't you live in Denmark and have the legal objects exist elsewhere?
+[13:00:59] h0p3: Still doesn't solve everything*
+[13:01:08] BDS97: home: no idea how that works, but maybe?
+[13:01:34] BDS97: home: still, it's not the first time the EU has been doing this BS
+[13:01:46] BDS97: home: remember when we talked about regulation of internet?
+[13:02:07] BDS97: home: here's the problem, while not having any regulation for stuff like facebook is definitely an issue, having corrupt regulation is worse
+[13:03:11] BDS97: home: and at this point you can pretty much trust the EU to understand exactly what those large businesses want and help them get everyone else out of the way
+[13:03:45] BDS97: home: been thinking a lot about article 13/17, it's so vague that its effects still depend on a lot of stuff
+[13:04:19] BDS97: home: but one thing is certain, it's gonna be an incredibly powerful weapon in the hands of the copyright lobby, aimed at any platform that enables online culture
+[13:04:34] h0p3: No doubt.
+[13:04:37] BDS97: home: well, anything centralized at least
+[13:04:44] h0p3: Aye.
+[13:05:33] h0p3: So, if not Denmark, where?
+[13:05:56] h0p3: (I've looked into moving out that way...but, I don't think I can get the sponsorship)
+[13:06:26] BDS97: home: if still in Europe it's either Norway or Switzerland, although I don't particularly like either but they do sound nice overall
+[13:06:54] BDS97: home: been thinking about the US too, actually, mostly because of my ambitions
+[13:07:26] BDS97: home: (fun fact, a lot more Hungarians have been successful in the US than in Hungary, and as far as I can tell this is true for nearby countries as well)
+[13:07:57] h0p3: You would do well here.
+[13:08:15] h0p3: But, I think you will do well most anywhere.
+[13:08:39] BDS97: home: and also, New Zealand is still there as kind of a plan B, no idea when I started considering it but it sound like an awesome place
+[13:09:18] h0p3: Sounds awesome. Sounds difficult. I wonder if they will turn more xenophobic as they are harnessed by the elite.
+[13:10:33] h0p3: Sounds like it's not just Article 13/17 driving your plans to move. 
+[13:11:01] BDS97: home: not really, but it's the one that's driving them out of Europe
+[13:11:28] BDS97: home: for now I can't say anything about difficulty, haven't checked how difficult it would be
+[13:11:50] BDS97: home: working more on actually getting off the ground with all the random stuff going on
+[13:11:59] BDS97: home: do you know this thing by the way? https://bulletjournal.com/
+[13:12:42] h0p3: Yes.
+[13:13:13] BDS97: home: it's actually the primary reason I'm getting that surface go
+[13:13:27] BDS97: home: trying to organize all this stuff, but I hate putting things this personal on paper
+[13:13:40] h0p3: I hear that.
+[13:13:58] BDS97: home: still want to write by hand though
+[13:14:35] BDS97: home: so, basically a cheap pseudo-laptop with one of the best digital pens sound like a great part of the fleet
+[13:15:04] h0p3: Aye. Making it digital will be worthy.
+[13:15:19] h0p3: I couldn't live without a digital organization tool at this point.
+[13:15:53] BDS97: home: great to hear, actually
+[13:16:29] BDS97: home: I haven't even used a lot of those things, pretty much my first one is the whiteboard, and that has more to do with procrastination avoidance than actual organization
+[13:16:35] h0p3: Aye. I imagine you will integrate it deeply into your identity, behavior, methods, habits, and perceptions.
+[13:16:49] BDS97: home: I hope so
+[13:17:25] BDS97: home: also, now that I think about it, got a kinda weird bunch of computers going on here
+[13:17:43] h0p3: All one giant Fleet of Theseus
+[13:18:27] BDS97: home: yeah, actually a lot more cooperative than most of the computer fleets I've seen "out there"
+[13:18:38] BDS97: home: so there's Theseus, the desktop, and definitely the leader
+[13:19:02] BDS97: home: there's the firefoxbook, Calypso I think, might have changed it since then
+[13:19:41] BDS97: home: there's a stronger notebook (Ryzen 2700U, 8 GB RAM, etc.) for when I have to do work on the go
+[13:19:59] BDS97: home: it's been sitting on a shelf unused for months, again
+[13:20:33] BDS97: home: I think the last time I turned it on was when I checked the new AMD drivers (could actually run Forza Horizon 4 on that thing, although at Xbox 360 quality)
+[13:20:38] h0p3: You are missing something in your life: https://www.amazon.com/Update-CPU-m3-8100Y-Windows-Graphics-Bluetooth/dp/B07H2XGD6M
+[13:20:55] BDS97: home: nice
+[13:21:08] BDS97: home: yeah, that's a great thing, saw Linus use it a few times
+[13:21:21] h0p3: That's what I want my phone to become.
+[13:21:28] h0p3: For the love of all that is holy, please.
+[13:21:54] BDS97: home: you know what? Five years ago, I'd have agreed
+[13:22:02] BDS97: home: now I just want an open source communication device
+[13:22:35] h0p3: An open, hackable dumby tether tool.
+[13:22:51] BDS97: home: yeah, something like that
+[13:22:59] BDS97: home: I'm not even counting my phone into the fleet
+[13:23:09] h0p3: Unfortunately, I must. I'm forced to use it.
+[13:23:20] BDS97: home: it's basically an externally controlled authentication device plus a messenger and email tool
+[13:23:33] BDS97: home: I don't trust it with anything important
+[13:23:46] BDS97: home: my bank and other companies do, apparently
+[13:24:07] BDS97: home: also, it's my router on the go, that's kinda important
+[13:24:14] h0p3: Yup.
+[13:24:42] BDS97: home: but this GPD Pocket, I think its tasks are already solved by the firefoxbook
+[13:25:42] h0p3: It's really the pocketability that matters for me. I can't walk around with a laptop in many contexts, but I can whip out something sitting in my pocket.
+[13:25:53] BDS97: home: yeah, I see, and absolutely agreed on that
+[13:26:04] BDS97: home: if you can't do a 11-13" laptop then definitely get this
+[13:26:17] BDS97: home: I usually walk around with a backpack and the firefoxbook fits nicely in there
+[13:26:56] BDS97: home: also, I like that it's a full, real computer
+[13:27:12] BDS97: home: part of the reason I'm getting that surface go instead of a random android tablet
+[13:28:07] BDS97: home: I'm still not fond of Microsoft (although as far as companies go I started to like them lately), but you can do anything x86 on that thing
+[13:28:10] h0p3: Makes good sense to me.
+[13:28:58] BDS97: home: I've seen people install linux on it
+[13:29:36] BDS97: home: not sure if I'll do so, locking and unlocking would be a nightmare
+[13:29:43] BDS97: home: but it just shows that it's a proper computer
+[13:29:48] BDS97: home: (looking at you, android)
+[13:30:00] h0p3: =)

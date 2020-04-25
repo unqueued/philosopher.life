@@ -1,0 +1,132 @@
+11:37 AM] Valdus: Think Im having a wiki crisis.
+[11:37 AM] h0p3: :frowning:
+[11:37 AM] Valdus: cant decide what to use it for.
+[11:37 AM] h0p3: Ah
+[11:37 AM] h0p3: lol
+[11:38 AM] h0p3: Everything.
+[11:38 AM] Valdus: ok, that narrows it down completely
+[11:38 AM] h0p3: Solved.
+[11:39 AM] Valdus: maybe its because its still scattered among devices.
+[11:39 AM] h0p3: I keep nightly snapshots of my wiki. You can see what it was like years ago too. It has evolved over and over again. Some things which are important fade, some grow.
+[11:39 AM] h0p3: I suggest thinking about hobbies in there quite a bit.
+[11:40 AM] h0p3: Pipes, RPing games, etc.
+[11:40 AM] h0p3: Thinking about your job can be useful.
+[11:40 AM] Valdus: thought trash?
+[11:40 AM] h0p3: Yes. You need a place for that too!
+[11:40 AM] Valdus: so why not continue to use writer?
+[11:40 AM] Valdus: I do love the ticky tack
+[11:41 AM] h0p3: You own your data with TW, and you can shape it and yourself without being locked into someone else's infrastructure or perspective on how to constrain your mind in a way they make money from it.
+[11:42 AM] Valdus: niceuuuuuh
+[11:42 AM] Valdus: and you tell me one day I can fuse all wikis into a wiki to rule them all?
+[11:43 AM] h0p3: 20 years from now, I think that writer website will be dead. TW is going to last for decades because html and javascript are still going to have browsers to interpret and render them. Also, because it is parseable, it is reasonable to extract your writing out of the wiki into any medium you choose.
+[11:43 AM] h0p3: Yes, combining them is very reasonable.
+[11:43 AM] Valdus: oh that brings me to another thing....
+[11:43 AM] h0p3: Make sure you keep your naming conventions sane though. Do not have two tiddlers on different devices with the same name.
+[11:43 AM] Valdus: how do you aggregate a work into a novel on this thing?
+[11:44 AM] h0p3: I mean, you can write an entire novel in a single tiddler.
+[11:44 AM] Valdus: ugh
+[11:44 AM] h0p3: How you decide to break it up beyond that is up to you. Translusion and TOC are built straight into it.
+[11:44 AM] Valdus: you would not recommend tiddlyspot?
+[11:45 AM] Valdus: no, because then it is not mine again....
+[11:45 AM] h0p3: Using TW for its hypertext is the real strength, one which no novel can achieve. But, I guarantee it is excellent for writing novels simply because you can flexibly structure, outline, and have lots of handmade (or out-of-the-box plugin) tools which suit writing.
+[11:45 AM] h0p3: Tiddlyspot provides a valuable service.
+[11:46 AM] h0p3: But, you are correct, you want to own your data and infrastructure. There's simply too much that can only be accomplished on your own machines.
+[11:47 AM] h0p3: My daughter made a button for me. [[Yearly]] is temporarily housing it. On my computer (or anyone logged into my Bob), if you push the button, it cleans out some files on my computer and restarts the entire Bob server. You can control your computer from your own wiki.
+[11:48 AM] Valdus: ok Im on it, and want to write, should I just go ahead and write in the Omnibus copy? (out in the yard smoking)
+[11:48 AM] h0p3: Go for it!
+[11:48 AM] h0p3: Make sure you have savetrail installed
+[11:48 AM] h0p3: You need backups
+[11:55 AM] Valdus: savetrail for chrome?
+[11:57 AM] Valdus: now can someone find me a green screen palette? All that list of colors makes me have a seisure.
+[11:58 AM] h0p3: savetrail plugin in the wiki
+[11:58 AM] h0p3: You need to go explore the settings.
+[11:59 AM] h0p3: The Savetrail can be downloaded from there.
+[11:59 AM] Valdus: I know, I know
+[11:59 AM] h0p3: The palette is something you have to change. You choose all the colors you want for everything! :smiley:
+[12:00 PM] Valdus: I know, but I have no idea what corresponds to what and I wind up getting a hello kitty theme.
+[12:00 PM] h0p3: Trial and error, or read
+[12:00 PM] h0p3: backups help too
+[12:00 PM] h0p3: If it is screwed up, you can just go back the the original one and try again
+[12:00 PM] Valdus: so where do I get that savetrail, Im on the plugin tab and crap.
+[12:01 PM] h0p3: Go ahead and hunt for it.
+[12:01 PM] h0p3: It is important that I don't hold your hand on this one.
+[12:08 PM] Valdus: done
+[12:10 PM] Valdus: I have a journal template, how do you do that on tw, or do I do that on my own?
+[12:12 PM] Valdus: I think I can do everything, just give me this, how do I change the font to my beloved courier?
+[12:15 PM] Valdus: damn bro, thanks Im into this. though Im not surprised considering you seem to be founding a new faith called TWingism
+[12:57 PM] Valdus: you available, I hit a snag
+[3:35 PM] h0p3: Back. Had to get the car worked on and go shopping.
+[3:35 PM] h0p3: I'd love to see your template.
+[3:35 PM] h0p3: I don't do a ton of automation in my wiki.
+[3:36 PM] h0p3: I also don't spend a lot of time dressing up my wiki beyond the markup language.
+[3:36 PM] h0p3: though, I care a great deal about the structures
+[3:37 PM] h0p3: Control Panel -> Appearance -> Palette, as well as Theme Tweaks
+[3:37 PM] h0p3: Can set your beloved courier in theme tweaks
+[3:38 PM] h0p3: Haha, you aren't the first person to think I'm practically religious about using a wiki and cultic in how I attempt to spread the use of it like evangelist.
+[4:00 PM] Valdus: Had a weirdness happen in my Chromebook telling me it was saving, but it wasn’t. Posted in the group
+[4:01 PM] Valdus: Don’t think Tiddlydrive works well on Chromebook.
+[4:01 PM] h0p3: I have seen that happen before as well (sometimes savetrails will get you out of those jams too).
+[4:01 PM] h0p3: Were I in your shoes. I'd make a VM with linux on my PC and just run Bob from there.
+[4:03 PM] Valdus: Now that I’m going to need hand holding
+[4:03 PM] h0p3: It's not as bad as you think.
+[4:04 PM] h0p3: https://www.virtualbox.org/
+[4:04 PM] h0p3: https://ubuntu.com/download/desktop/thank-you?country=US&version=18.04.2&architecture=amd64
+Ubuntu
+Thank you for downloading Ubuntu Desktop
+
+ | Ubuntu
+Ubuntu is an open source software operating system that runs from the desktop, to the cloud, to all your internet connected things.
+[4:07 PM] Valdus: Great but how do you VM that?
+[4:08 PM] h0p3: I'm saying, get an Ubuntu Desktop running in Virtualbox.
+[4:08 PM] h0p3: then I will hand you the command line code to get it running
+[4:08 PM] h0p3: (though you should attempt to understand what code I'd be having you run)
+[4:09 PM] h0p3: 6 lines in the terminal to get regular tiddlywiki nodejs up and running
+[4:09 PM] Valdus: And far in future what about tw outside the house?
+[4:09 PM] h0p3: You'll VPN in, just like I do.
+[5:16 PM] Valdus: Saw a video seems easy may need some help with allocating cpu and memory and such.
+[5:16 PM] h0p3: What are the stats of your PC?
+[5:16 PM] h0p3: I assume you play vidya games on it.
+[5:25 PM] Valdus: Well they WERE good about 5 years ago. I’ll send you a pringo later.
+[5:26 PM] h0p3: Tell me RAM and processor
+[5:26 PM] h0p3: I think you'd do fine with 1 core and 1GB of RAM, but if you have a nice machine, seems reasonable to goto 2 virtual cores and 4GB of RAM
+[5:26 PM] h0p3: We can slim it down to pure command line too if you have a very old machine.
+[5:27 PM] Valdus: Let me wait till wife and warp core boy, take a nap
+[7:22 PM] Valdus: Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\Ovy>systeminfo
+
+Host Name:                 MONOLITH
+OS Name:                   Microsoft Windows 7 Home Premium
+OS Version:                6.1.7601 Service Pack 1 Build 7601
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          Ovy
+Registered Organization:
+Product ID:                00359-OEM-8992687-00007
+Original Install Date:     5/20/2014, 3:16:55 PM
+System Boot Time:          7/1/2019, 7:03:12 PM
+System Manufacturer:       Gigabyte Technology Co., Ltd.
+System Model:              To be filled by O.E.M.
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: AMD64 Family 21 Model 2 Stepping 0 AuthenticAMD
+ ~3900 Mhz
+BIOS Version:              American Megatrends Inc. F5, 8/6/2013
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC-06:00) Central Time (US & Canada)
+Total Physical Memory:     8,157 MB
+Available Physical Memory: 3,346 MB
+Virtual Memory: Max Size:  16,312 MB
+Virtual Memory: Available: 11,173 MB
+Virtual Memory: In Use:    5,139 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \MONOLITH
+Hotfix(s):                 406 Hotfix(s) Installed
+[7:22 PM] Valdus: that it?

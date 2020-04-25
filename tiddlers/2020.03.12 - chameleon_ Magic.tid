@@ -1,0 +1,44 @@
+created: 20200404155607627
+modified: 20200404160615720
+tags: chameleon Chatlog
+title: 2020.03.12 - chameleon: Magic
+
+"""
+[12:58 AM] h0p3: I'm being sucked into MTG. I'm not kicking and screaming. I should be, but it's so delicious.
+
+[1:45 PM] h0p3: I have a dumb deck to show you. Your friend Robert might think it's interesting. It's a classic milling deck, but a prison.
+[1:46 PM] chameleon: Do tell!
+[1:46 PM] chameleon: I noticed no wiki updates yesterdny =w=. magic?
+[1:49 PM] h0p3: http://live.philosopher.life/ is my synced copy. Github's Jekyll toolchain is giving me a Page build failure (this happens sometimes, and I don't know why). Will try resetting on my end soon. My VPS is much slower, but it's another place to check.
+[1:49 PM] h0p3: (not that I've done a good job of keeping up)
+[2:04 PM] chameleon: Send us a no-beard selfie!
+[2:04 PM] chameleon: Here's me and [[The Abyssal]]
+
+[2:06 PM] h0p3: You all are cute AF. :slight_smile: I only have my image, atm, but must get a family photo to you.
+[2:06 PM] h0p3:
+
+[2:06 PM] chameleon: You look so different with no beard haha
+[2:07 PM] h0p3: Yeah, I do, lol. My wife is still laughing every time she sees me.
+[2:16 PM] h0p3: https://philosopher.life/#MTG%20Deck%3A%20Legacy%20-%20Turbofog
+[2:16 PM] h0p3: // 22 - Lands
+11 Snow-Covered Forest
+11 Snow-Covered Plains
+
+// 16 - Symmetric Draw Effects
+4 Anvil of Bogardan
+4 Howling Mine
+4 Temple Bell
+4 Rites of Flourishing
+
+// 14 - Pacifist Fuck-You
+4 Moment's Peace
+4 Orim's Chant
+2 Constant Mists
+4 Peace Talks
+
+// 8 - The Talent
+4 Isochron Scepter
+4 Leyline of Sanctity
+[2:16 PM] h0p3: (could smooth the manabase out considerably, but manabases are expensive)
+[2:22 PM] h0p3: Not a lot of decks can deal 20 by turn 3 with consistency, so you have a reasonable chance to start a softlock (if not a hardlock) by turn 4. It snowballs. They "benefit" from the draws before you do, so they get decked first.
+"""

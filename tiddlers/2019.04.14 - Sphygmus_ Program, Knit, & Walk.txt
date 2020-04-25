@@ -1,0 +1,42 @@
+[6:29 PM] h0p3: How's life going?
+[6:30 PM] robotic_scarab: it's going!
+[6:31 PM] robotic_scarab: I noticed a swollen lymph node on my neck on saturday, which doesn't usually happen when I have a cold, so I'm trying not to freak out about the fact that it's still here and hasn't really gone down :sweat_smile:
+[6:32 PM] h0p3: Ah, yeah, lol. Well, I hope it subsides soon.
+[6:32 PM] h0p3: A lot of people have gotten the flu and allergies seem especially bad out here.
+[6:33 PM] robotic_scarab: yeah I thought this was allergies and not a sickness but that was before I found the lump XP
+[6:33 PM] robotic_scarab: and i'd gone all winter without illness otherwise! oh well
+[6:35 PM] robotic_scarab: otherwise, i've been messing around with python programming and knitting and walking more outside now that the weather's nice
+[6:35 PM] robotic_scarab: i finished the socks I was making for my boyfriend, so now I've started on a lace shawl
+[6:36 PM] robotic_scarab: and then I wrote a thing in python to calculate the rate of my yarn usage on the shawl!
+[6:36 PM] robotic_scarab: which I have plans to expand further
+[6:36 PM] h0p3: Neat. That sounds productive, useful, and fun.
+[6:36 PM] robotic_scarab: yeah, I'm loving coding on my chromebook now that it's got arch & i3
+[6:37 PM] h0p3: I'm trying to walk more as well, and it's easier to convince others to do it when the weather is nice.
+[6:37 PM] h0p3: Good!
+[6:37 PM] h0p3: I like having workspaces I can devote to particular projects.
+[6:38 PM] h0p3: Come back to it, and everything is where it should be.
+[6:39 PM] robotic_scarab: yes! I never really took advantage of the "multiple desktops" feature that they added in windows 10 on my desktop, but it really shines for me on a device with one small screen
+[6:39 PM] h0p3: I am a fan of Terminator, but you might find Tmux does a lot of work too. I think i3 is another hack when you want non-CLI tooling.
+[6:39 PM] robotic_scarab: I will have to look up both of those!
+[6:39 PM] robotic_scarab: I haven't figured out the auto-layout thing for i3 but I plan to
+[6:39 PM] h0p3: It's finnicky, imho.
+[6:39 PM] h0p3: Doesn't quite do it perfectly for me, and it requires testing.
+[6:40 PM] robotic_scarab: mm, I see
+[6:40 PM] h0p3: I'm no expert with the software though*
+[6:40 PM] robotic_scarab: I would like to be able to start firefox & visual code and have them pop into the right workspaces
+[6:40 PM] robotic_scarab: otherwise I spend the time right after starting my computer waiting for them to load & telling them where to go* manually
+[6:42 PM] h0p3: I force some applications into particular workspaces. Some of them send to the correct workspace without forcing. I may eventually rework it into a completely different script. I already use one to resize windows and enter in my password for qTox.
+[6:42 PM] h0p3: It has been useful to add tiny delays between commands.
+[6:43 PM] h0p3: My scripting is set to need another 20ish seconds after i3 loads to do the layout work, but as I said, it doesn't function perfectly.
+[6:44 PM] h0p3: I don't like when it is painful to reboot.
+[6:44 PM] robotic_scarab: I hear you there
+[6:45 PM] robotic_scarab: I almost never reboot my desktop (part of why I don't actually use Linux on it...) but with my chromebook it loads so fast that the friction is much less
+[6:45 PM] robotic_scarab: Plus suspending is buggy so it's easier to shut down when I'm putting it in my backpack
+[6:45 PM] robotic_scarab: Does mean that I don't have a million tabs open! :O
+[6:47 PM] h0p3: uh, my i3 config someone disappeared from my wiki (ugh, I have no idea why). It's up again.
+[6:47 PM] robotic_scarab: :smiley: I will take a look!
+[6:48 PM] robotic_scarab: I hadn't actually checked it out since installing i3 myself
+[6:56 PM] h0p3: [[j3d1h]] setup something nifty today. In [[New]] and [[Recent]], we can click on the dates to open up all the tiddlers for that day.
+[6:56 PM] robotic_scarab: :O
+[6:56 PM] robotic_scarab: that's so cool!
+[6:56 PM] h0p3: Looks snappy too, imho.

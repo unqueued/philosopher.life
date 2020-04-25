@@ -1,0 +1,88 @@
+created: 20200319045834359
+modified: 20200319174543090
+tags: [[Recent Obsession]] kickscondor Note To Draft
+title: 2020.03.19 - kickscondor: DRAFT
+
+<<<
+The thing you’re calling ‘multifeeds’ is what I’ve been calling ‘bundles’ - see issue #21. I think I like your term there, brother.
+<<<
+
+I missed that issue. Sorry. If fraidycat were to become more common, I think your bundles will be the force-multiplier fuel for virality. Automation of the classic conduitic sidebar you have on your frontpage could become a different kind of living portal.
+
+<<<
+Your import/exporting/sharing shit is on point. I’ll get there, I will. If I don’t, then don’t bring this promise up ever again.
+<<<
+
+Ack. Aye, aye cap'n. 
+
+I'm just shootin' the shit here. You've already built an amazing tool. I hope these dreams are pressureless light gravy.
+
+<<<
+Re: full browser. You’re dead on. This is why I’m hoping Beaker v2 comes together. Then this could just be an app for Beaker. (It originally was.) But yeah, the desktop apps are basically that.
+<<<
+
+It would be a killer app for Beaker too. I think the evolution of Dat could supercharge the evolutionary possibilities of this tool.
+
+<<<
+...[1] : Interesting that you’re saying that now, given that you originally really wanted self-hosted, no? I get so many requests for that - but I still don’t get it. (I mean I get it - but not reeeeally.)
+<<<
+
+I hope you take it easy on yourself here. This may easily be an unreasonable request. I don't know if it fits your desires well. I also don't understand your tool or development as well as you do. This is just your madman babbling here.
+
+I favor Fraidycat running both inside and outside the browser, even though I am convinced the best versions of what this tool could be sit outside the browser. I strongly appreciate that you've built a tool that will work for such an incredibly broad set of users. The everyday joe can pick this up and use it. It works on so many devices out of the box. That's crucial and fantastic, full stop. What you can get to work in the browser seems like the key to steering the ship by-and-large for a long time. To my eyes, there are benefits to making it an amphibious vehicle, but I cannot claim it is worth your effort. I'm a blind man. 
+
+* I think self-hosting allows others to build with your tool more effectively. Long-term, there are reasonable evolutions of the tool which are better suited to running outside the browser.
+** Connecting this tool to other ecosystems might be easier on self-hosted versions, or one might have to poke a hole in the browser.
+
+* FF on [[my phone|m14]] has Fraidycat, but it can only use 30% of the screen. The ability to connect to another device or using something like Termux should allow me to view my Fraidycat instance at full screen. 
+
+* Self-hosting may eventually provide the best path for mobile appification (which is the real average joe).
+
+* Self-hosting with a server should help with battery life and bandwidth consumption. Potatoes will have an easier time too. 
+
+* Multiple instances of Fraidycat might be a valuable option in some cases.
+
+* Self-hosting allows us to bypass the limit of using only browsers that can use the extension. 
+
+* There are people who reasonably trust their own isolation practices, jails, containers, VMs, and sandboxes more than their browser (which isn't to say there isn't enormous trust placed in your tooling no matter how we slice it [and, I realize there's no way to have your tool operate as an extension without those permissions]). 
+
+* Perhaps neither Google nor Mozilla can be trusted to maintain addon/extension ecosystems and user freedoms over the years (though this may change).
+** Beaker may alleviate this to some extent, but that browser has a long way to go. 
+
+* Self-hosting allows one to build an environment for others to access.
+** This has enough uses that I'm not sure how to reason effectively about it.
+** Most of the people I know would be too lazy to set it up without having tried it out first. Sending them a link to a working demo lowers the friction to initial adoption.
+
+* Cross-platform, cross-browser syncing is best done by a tool outside the browser. Self-hosting appears to have the edge here.
+
+* Self-hosting may increase the odds and value of instances of Fraidycat communicating with other instances of Fraidycat.
+
+Self-hosting provides escape hatches and options to powerusers. I don't think that should be your immediate goal, but picking the low-hanging fruit toward such a thing along the way and building with it in mind for the long-run seems valuable.
+
+<<<
+‘New Tag Start Page’?? Explain.
+<<<
+
+Gah. Typo. I meant //tab//! The idea is to have fraidycat as the default start page on a new tab. It's not the search engine which will be the basis, it's the hand-crafted feeds I've set up in fraidycat that would be my entry point. It's just an experiment. Something like this tool could easily be the self-curated and customized frontpage to the interwebs for many folks.
+
+<<<
+Re: tabs. Good points, no response. I owe you a gummi beer.
+<<<
+
+I cannot see how to do this well enough. One of the strengths of your tool is the plainness of it. There is no fat to cut. I hope the tabs in the UI could be done as cleanly as everything else in your tool, but I don't know how to do that. As a man with chaos across his tabs and containers, I do not have an answer I adore. I'm spitballin' here, as usual:
+
+Searchable and organizable sidebar tooling perhaps like [[Treestyle Tab|https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/]] or something like [[All Tabs Helper|https://addons.mozilla.org/en-US/firefox/addon/all-tabs-helper/?src=search]] may be worthy approaches.
+
+<<<
+Re: media feeds. This is my #1 right now. I’m pouring time into a richer design. Without going overboard. (Wrench t-shirt to squeeze out a bucket of sweat.)
+<<<
+
+Makes sense to me. It's also the way most people use their feeds, imho. 
+
+<<<
+You’ll always be my madman of choice.
+<<<
+
+=D.
+
+I am honored that you speak with me in both deserts and meadows of flowers and butterflies. There is a chaos to both I will never understand well enough as a madman.

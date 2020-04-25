@@ -1,0 +1,417 @@
+[18:00:55] b3nsn0w: testing an event polling design with hoplite
+[18:01:11] b3nsn0w: this rust concurrency framework I've started writing about half a year ago, then promptly abandoned
+[18:01:43] b3nsn0w: it's weird, rust has these super efficient messaging channels
+[18:02:25] b3nsn0w: but no way to suspend a thread until either one of multiple channels gets a message
+[18:02:54] b3nsn0w: that just leaves you with a dedicated OS thread for everything (slow stuff) or some interesting tricks
+[18:02:58] b3nsn0w: this is one of those tricks
+[18:03:45] b3nsn0w: the plan is you can subscribe channels (network sockets, user input, whatever) to hoplite, and it's gonna check 65536 times a second for new messages
+[18:04:12] b3nsn0w: from there, it's a multithreaded event loop, super simple to handle stuff with it
+[18:04:58] b3nsn0w: not the most elegant solution, but pretty much a silver bullet for a blocker I had for a long time
+[22:46:41] h0p3: Why that number in particular?
+[22:47:12] b3nsn0w: idk, thought it would be a good balance
+[22:47:21] b3nsn0w: I don't wanna burn the CPU doing millions of polls a second
+[22:47:24] h0p3: aye
+[22:47:33] b3nsn0w: but also don't want to get 1ms latency on everything with a thousand checks
+[22:47:47] b3nsn0w: we'll see how it works out
+[22:48:06] b3nsn0w: in the future, I plan on putting some logging, profiling, and even real-time optimization into hoplite
+[22:48:35] b3nsn0w: it's gonna shuffle workers around threads to balance them out, and to move the ones that talk the most to each other to the same thread
+[22:48:55] b3nsn0w: the same could be applied to polling as well, seeing how much it takes on the CPU
+[22:50:33] h0p3: That sounds like a tool many Rustaceans would use.
+[22:50:47] b3nsn0w: Well, they can if they want to
+[22:50:59] b3nsn0w: it's gonna be open source, and I plan on using it for Atropos
+[22:51:03] b3nsn0w: and later for some games
+[22:51:09] b3nsn0w: the main design goal is ease of use
+[22:51:19] b3nsn0w: if you want absolute high performance, go with tokio
+[22:51:30] b3nsn0w: seriously, they do some insane things with that library
+[22:51:45] b3nsn0w: but it's also hard to use and hard to wrap your brain around
+[22:53:51] h0p3: Perhaps in a decade, there will be enough abstraction over tokio that it will catchup to the simplicity you've got. 
+[22:54:08] b3nsn0w: maybe
+[22:54:25] b3nsn0w: in that moment I'll be happy to port over things to tokio
+[22:54:39] b3nsn0w: but honestly, I kinda doubt it, it's completely backwards
+[22:54:43] b3nsn0w: not in any judgemental way
+[22:55:02] b3nsn0w: it's just the complete opposite of the direction I'm taking with this
+[22:55:10] b3nsn0w: well, you could say I'm just trying to code JS in Rust
+[22:55:13] b3nsn0w: but here's the thing
+[22:55:14] b3nsn0w: JS works
+[22:55:18] b3nsn0w: like, really, really well
+[22:55:34] b3nsn0w: it's a simpler, single-threaded event loop design
+[22:55:52] b3nsn0w: and it's on par with many other languages that can and do use multithreading
+[22:56:08] b3nsn0w: because a nonblocking event loop is a really powerful programming tool
+[22:56:30] b3nsn0w: that's also why tokio is fast, it's also doing a nonblocking event loop, just in a very different way
+[22:56:59] h0p3: What makes theirs so different and backwards-seeming?
+[22:57:19] b3nsn0w: the whole poll-based promise system
+[22:57:31] b3nsn0w: in tokio, a promise is basically a function that's gonna get called multiple times
+[22:57:41] b3nsn0w: and your job is to advance execution as far as you can, every time
+[22:57:54] b3nsn0w: in hoplite, you're just gonna send events and react to them
+[22:58:13] b3nsn0w: I think hoplite maps to the thought process of a programmer and the problem itself much closer
+[22:58:22] b3nsn0w: it may give up some performance advantages of the tokio way, however
+[22:58:36] b3nsn0w: but that's okay, if it's not a total failure it's gonna be crazy fast anyway
+[23:16:32] b3nsn0w: oh come on...
+[23:16:41] h0p3: ? =)
+[23:16:53] b3nsn0w: I'm watching Brandon Sanderson's courses on writing
+[23:16:56] b3nsn0w: cause it's interesting
+[23:17:08] b3nsn0w: and last week I had to pause it, because it was getting full of Mistborn spoilers
+[23:17:14] b3nsn0w: so I went ahead, read Mistborn, and came back
+[23:17:23] b3nsn0w: and now it's getting full of Ender's Game spoilers
+[23:17:37] b3nsn0w: like, come on... what's next?
+[23:17:56] h0p3: Lol.
+[23:18:06] h0p3: My cousin is picking up Mistborn. You think I think should read it?
+[23:18:14] b3nsn0w: absolutely, it's awesome
+[23:18:22] h0p3: (Dune is next, I assume)
+[23:18:28] b3nsn0w: idk, I haven't read that yet
+[23:18:59] h0p3: Probably my favorite book over the years. One I can read again and again and see the changes in myself or the world differently through it.
+[23:19:20] b3nsn0w: sounds great
+[23:19:29] b3nsn0w: okay, I'll put it on the list
+[23:19:42] b3nsn0w: it's growing though
+[23:19:59] h0p3: I hear that, and I've done an awful job this year of reading.
+[23:20:16] h0p3: I look at my list in despair.
+[23:20:46] h0p3: My wife grosses me out here. She's on course to finish 200 books this year.
+[23:20:53] b3nsn0w: how
+[23:20:57] h0p3: I have no fucking clue.
+[23:21:04] b3nsn0w: like, I wanna do that, but how
+[23:22:15] b3nsn0w: okay, there's a point in wasting time, I tend to do that sometimes, but not as much as you'd think, and I'm one of the lucky ones with a job that doesn't take long
+[23:22:18] b3nsn0w: that's what I optimized it for
+[23:22:34] b3nsn0w: and still, Mistborn took a toll on my time last week
+[23:22:37] b3nsn0w: and it was just one book
+[23:22:50] b3nsn0w: can't imagine how other people get to read books
+[23:23:59] h0p3: Aye. I have a fuckton of open time compared to most adults, and I feel unironically proud of reading a book these days. Yusss, I did it! 
+[23:24:42] h0p3: Working at the school, I see single parents working 2-3 jobs, spend an hour with their kids each day, and I know they are radically deprived of this privilege (and necessity for participating as a functioning citizen in society).
+[23:25:31] b3nsn0w: yeah, can't even imagine how that would feel
+[23:25:59] b3nsn0w: I think the thing with books is they just take way too long
+[23:26:11] b3nsn0w: thinking back to it, I didn't have the same problem with comics
+[23:26:31] b3nsn0w: Death Vigil is a straight up movie for example, you can read the whole thing in a couple of hours
+[23:26:53] b3nsn0w: and yeah, it's not as much story as, say, Mistborn, but it still gets a bunch of stuff across
+[23:28:04] h0p3: It's easier to multi-task during a video (which isn't to say I'm a skilled multitasker at all). I can avert my gaze or not focus as hard. Reading is mechanically more intensive and not so much a pleasure for me. Most of my pleasure reading is a result of rapidly skimming and hyperreading rather than deepreading all too often.
+[23:28:41] h0p3: Saga and Lazarus (I know you will appreciate this one).
+[23:28:48] h0p3: Good reading while you are on the shitter, homie.
+[23:29:16] h0p3: Comic books or graphic novels (whatever they should be called), I love 'em.
+[23:30:22] b3nsn0w: okay, which one?
+[23:30:32] b3nsn0w: sounds nice though, after a brief google search
+[23:31:15] b3nsn0w: I was looking for good comics by the way, thanks for sharing these
+[23:33:32] h0p3: I'm not sure I adore some of the ways the storytelling is broken up, but the dystopia is on the money. And, there are titties. I'm a simple man.
+[23:33:49] b3nsn0w: lol
+[23:33:59] b3nsn0w: remember that I told you about Stjepan Sejic, right?
+[23:34:11] h0p3: Yes.
+[23:34:16] b3nsn0w: he's somewhat of an expert in that department
+[23:34:26] b3nsn0w: be careful thought
+[23:34:33] b3nsn0w: you might end up caring about the characters a little too much
+[23:34:47] h0p3: lol
+[23:35:07] b3nsn0w: *though, dammit
+[23:35:18] b3nsn0w: I hate making errors that make it look like I'm a native speaker
+[23:37:38] h0p3: lol, that is hilarious. American English is devolving, I think. Idiocracy is real, sir. I am living proof. I belong in a cave.
+[23:38:51] h0p3: Some of the most precise syntax I've encountered has been with my Indian friends. I swear to god it's my first language, but I can barely use it.
+[23:39:48] b3nsn0w: IMO all languages kinda do that
+[23:40:03] b3nsn0w: American English is just a lot more visible because pretty much everyone speaks it
+[23:40:18] b3nsn0w: and those who learn a second language are usually not the ones who are bad in the first one
+[23:40:40] h0p3: That is a good point.
+[23:41:13] b3nsn0w: here in Hungary there are people who recognize the importance of being multilingual (especially when a whopping 15 million people worldwide is all the reach of your native language), and there are some who just decide it's not their problem
+[23:41:21] b3nsn0w: even though, ultimately, it's their problem
+[23:41:44] b3nsn0w: and usually they are the ones who don't care about their own language either
+[23:42:13] b3nsn0w: I've read comments online that failed my turing test at first
+[23:42:19] h0p3: lol
+[23:42:50] b3nsn0w: but no one bothers to write a bot that speaks Hungarian because of the ridiculously low reach, so it must have been human
+[23:43:46] b3nsn0w: it's kinda weird, I still can't decide if having English as your native language is a curse or a blessing
+[23:46:39] h0p3: Well, you are going to have slap me and call me a completely fucking arrogant prejudiced provincial piece of shit here. I've had my children practice learning other natural languages over the years. As they get older, I think that practice in disciplines and ideas (their own languages) has been a much better use of our time. Being a native standard bourgeois American English speaker allows you to focus your language skills on a subject written in English instead.
+[23:47:00] h0p3: There are benefits to speaking multiple natural languages, but they aren't as strong as I once thought they were.
+[23:47:50] b3nsn0w: yeah, I noticed that, as soon as you got English the whole world opens up to you
+[23:47:53] h0p3: The same for music. I think I've wasted far too much of my life learning that language. Two years would have granted the bulk of the low-hanging fruit neurophysical construction that music training offers.
+[23:48:14] h0p3: Lingua Franca, Language of Commerce, The New Latin, I don't know.
+[23:50:08] h0p3: Looking through the history of technology even in just the US, I can say that even American English has been increasingly standardized not just in pronunciation, idioms, and so forth, but also memetically and culturally. When my grandpa was a trucker way back when, he'd walk into restaurants, and nobody could understand him (and he couldn't understand them)...everyone spoke English.
+[23:50:38] h0p3: Now, I can expect people to understand a reference to some 100+ hour television show.
+[23:50:46] b3nsn0w: yeah, dialects, they're not fun
+[23:50:53] b3nsn0w: I've heard same things about German
+[23:51:03] b3nsn0w: it's kinda funny, pretty much my entire family knows German, except for me
+[23:51:27] b3nsn0w: I started with English instead, because even when I got to first grade and had to decide I was already on the computer all the time
+[23:51:51] b3nsn0w: and then they all ended up putting a lot of effort into learning English too, because it's important
+[23:52:02] b3nsn0w: anyway, the point is this way I don't have any firsthand experience with German
+[23:52:43] b3nsn0w: but they all said it was difficult to understand people when we were traveling in parts of Germany that aren't Berlin
+[23:52:50] b3nsn0w: (there are a few between Berlin and Budapest)
+[23:53:23] b3nsn0w: and that's Germany, it's a much smaller country, although historically that may have been a different question
+[23:53:46] b3nsn0w: if you measure in time to travel from A to B
+[23:54:06] h0p3: per capita, they vie for being the most influential nation in modernity
+[23:54:49] h0p3: I assume that written German is more similar. Kind of like the Chinese system.
+[23:55:16] b3nsn0w: yeah, maybe
+[23:55:55] b3nsn0w: btw Hungary is just too small for these things to happen, and we also had a pretty large reform movement about 150 years ago just to get our language out of the middle ages, so luckily we don't have to deal with this
+[23:56:18] b3nsn0w: and now that everyone speaks English, the standardized form of American English kinda became the common language of the world
+[23:56:34] b3nsn0w: shame, I'm pretty sure Sindarin would have been better
+[23:58:00] h0p3: I assume you spend quite a bit more time on your computer than your family members or friends. It may be the case that your English skills and media consumption are broader and deeper. Does that introduce or alter dynamics between you and those around you?
+[23:58:23] b3nsn0w: yeah, sometimes
+[23:58:32] b3nsn0w: I tend to do everything in English nowadays
+[23:58:38] b3nsn0w: idk why, I just like it better
+[23:59:00] b3nsn0w: and sometimes that introduces parts of a language barrier
+[23:59:01] h0p3: This is the one language I want to master: https://www.reddit.com/r/Ithkuil/
+[00:00:08] h0p3: Precision and Concision had a genetically altered baby packaged with all the linguistic cyborg hacks built-in.
+[00:00:31] b3nsn0w: wow
+[00:01:07] b3nsn0w: looks like a cool sci-fi language
+[00:01:44] b3nsn0w: reminds me to esperanto, but esperanto tried to be kind of the slightly slavic-sounding python of natural languages
+[00:01:59] b3nsn0w: I kinda hate it, for personal reasons
+[00:02:08] h0p3: Lol. Did you try Esperanto?
+[00:02:17] b3nsn0w: been forced to organize esperanto books for 50 hours because of our idiotic education system
+[00:02:26] b3nsn0w: government trying to throw a wrench into it, essentially
+[00:02:33] b3nsn0w: they don't like people getting higher education
+[00:03:01] b3nsn0w: well, after all I chickened out of uni, but not before going through this "social work"
+[00:03:06] b3nsn0w: or whatever the hell they call it
+[00:03:11] b3nsn0w: I can't even remember the term in Hungarian
+[00:04:13] b3nsn0w: anyway, aside from personal grudges it didn't look bad, I just think the "you can learn it in 30 minutes" thing is a lie, and that if we're going with constructed languages anyway papa Tolkien did it better
+[00:05:41] h0p3: Lol, I adore how you say "chickened out" (which I know isn't true). I think self-deprecating humor is some of my favorite. 
+[00:05:56] h0p3: Yeah, that 30 minute shit would piss me off.
+[00:06:20] h0p3: Oh, btw, not that it matters, but there is a 33% chance I will be moving.
+[00:06:32] h0p3: My wife might be getting a job up north. 
+[00:06:40] b3nsn0w: sounds exciting
+[00:07:06] h0p3: Aye. Would be good for us. We've all been anxious about it.
+[00:08:03] h0p3: For the final interview, they flew her up, picked her up in a fucking limo, wined and dined her in ridiculous restaurants, and put her up in a $1500 a night hotel. We don't belong with these people, lol.
+[00:08:25] b3nsn0w: wow
+[00:08:27] b3nsn0w: sounds nice
+[00:08:56] b3nsn0w: I kinda liked that kind of office mindset in my last job, it's comfortable
+[00:10:38] h0p3: Yeah, I think they just have a weird "wooing" process for final interviews. The pay is never going to be enough to eat in any of those restaurants. I'll use a tent and keep the money, please.
+[00:11:16] b3nsn0w: yeah, it's more of a business thing, managers aren't paid like that either
+[00:11:31] b3nsn0w: but they have a company card and if they get a matching company excuse, they can spend from a much greater amount of money
+[00:11:38] h0p3: yup
+[00:11:52] b3nsn0w: seriously, my company credit card limit was like a year of my salary
+[00:11:57] b3nsn0w: but I had to account for everything
+[00:12:28] b3nsn0w: and every time a manager visited us, they took the whole team out to dinner
+[00:12:33] b3nsn0w: probably because they wanted it too
+[00:12:36] b3nsn0w: and honestly, it was fun
+[00:12:51] b3nsn0w: and for the company, it's barely a drop in the bucket, they don't care
+[00:14:45] h0p3: Yeah, reminds me of my job at Humana. Such mixed feelings about it. I did enjoy the parties and dinners. That's shit I'd never have been able to do on my own, but it was devious rhetoric.
+[00:16:24] b3nsn0w: yeah, there have been a few things in my workplace too that I've never done before and probably never will
+[00:16:31] b3nsn0w: mostly because I just don't see the value in it
+[00:16:41] b3nsn0w: but someone higher up apparently does
+[00:17:49] b3nsn0w: really, if it wasn't for the complete waste of time that job was, and the zero perspective for career development (in my specific case), there weren't a lot of problems with that lifestyle
+[00:18:06] b3nsn0w: at least from my whopping 18 months of experience with it
+[00:18:14] h0p3: Saint Kierkegaard has something to say about this hedonic treadmill of the pursuit of the aesthetic. 
+[00:18:49] h0p3: I'm such a pain in the ass here.
+[00:18:59] b3nsn0w: ?
+[00:20:09] h0p3: I actually think it's immoral to be wealthy, and I say that living in radical luxury compared to most. If you take all the capital in the world and divide it evenly per person, maybe everyone would own $35k. 
+[00:20:23] h0p3: I don't draw the line there, but I think it points toward the center of being moral better.
+[00:22:08] h0p3: It's clear, however, that diminishing marginal utility on income means making over $100k in the US doesn't contribute to your happiness, and at ~6 million bucks, interest along would give you that. It's easy to condemn everything above that line.
+[00:22:52] b3nsn0w: yeah, I've been balancing on a similar line in the past few months
+[00:22:55] b3nsn0w: probably way under it
+[00:23:29] b3nsn0w: freelancing has this interesting feature that you can vary the balance of free time and how much you get paid very precisely
+[00:23:37] h0p3: yes
+[00:23:41] b3nsn0w: and what I've noticed is the calmer I get the less I work
+[00:24:02] b3nsn0w: because the real resource isn't the money, it's the time
+[00:24:25] h0p3: the real universal currency
+[00:24:46] b3nsn0w: but, if we go back to that single parent with 2-3 jobs you've been talking about, it's about a struggle to get the money to stay alive, and that takes time
+[00:25:00] b3nsn0w: so obviosuly you need some money to buy your own time
+[00:25:04] h0p3: yup
+[00:25:08] h0p3: they are slaves
+[00:25:20] b3nsn0w: but above that, the value in money is greatly reduced
+[00:26:19] h0p3: You are probably more frugal in how you acquire pleasure is my bet.
+[00:27:06] b3nsn0w: idk, my gaming rig and surface go cost a lot, but for what I did last month (basically watching stuff on youtube, reading, writing, and coding) I could have done all of it on the $330 chromebook I had from four years ago
+[00:27:17] b3nsn0w: make that $380 with the replacement SSD
+[00:27:30] b3nsn0w: yet I still spent a ton on doing this in a comfortable way
+[00:27:47] b3nsn0w: I'd say that's the thing money buys after you got the time
+[00:28:12] h0p3: It's a tool for work for you. You spend 10 hours a day on that machine. I think it makes sense to have a very expensive computer.
+[00:29:20] b3nsn0w: yeah, that's how I justify it too
+[00:29:27] b3nsn0w: but there's a thing or two about that too
+[00:29:55] b3nsn0w: since I don't have that office job with the constant salary, the upgrades slowed down significantly
+[00:30:28] h0p3: Well, you probably have hit significant dim returns on investing more in that machine.
+[00:31:00] b3nsn0w: it took me 40-something hours to get a nice drawing tablet, and while that's great, it's one of the few things I actually spent the time on
+[00:31:27] b3nsn0w: because if you're lucky enough to get in a position like this, a side effect is you actually feel every cent
+[00:32:07] b3nsn0w: even if in a way it sounds ridiculously privileged to say "ha, done 40 hours of easy to moderately draining work and now I got a professional device"
+[00:32:27] b3nsn0w: most people don't actually get a feel for it, beucase if you have a constant salary, you handle it differently
+[00:32:34] b3nsn0w: and you don't get to buy your own time
+[00:33:02] b3nsn0w: it's really weird to think about it like this
+[00:33:53] h0p3: I hear that. It's not really X$ per hour if you are stuck with a salary. If you can't ratchet your hours up and down, you never fully appreciate what your time is worth.
+[00:34:39] h0p3: That gradient is meaningful.
+[00:34:50] b3nsn0w: yeah, it really is
+[00:35:00] b3nsn0w: also, about the "eat the rich" attitude you talked about
+[00:35:06] b3nsn0w: I've been noticing that more and more lately
+[00:35:50] h0p3: The crisis looms, class consciousness is striving to emerge. Power centralization is getting worse, and the next recession might be a tipping point.
+[00:36:09] h0p3: The wealthy have worked very hard to shield themselves from it these past few years.
+[00:36:21] b3nsn0w: of course, that's what they always do
+[00:37:14] h0p3: I have a much easier time talking about saying the "S" word with younger people. I can argue about it with older generations up until we say words they've been conditioned to reject.
+[00:39:14] h0p3: Though where I live, you cannot be a socialist. It is heavily punished. I am surprised I still have my job after they found out, but I'm so overqualified they wouldn't be able to replace me (so they put up with the weirdo ;P).
+[00:39:40] b3nsn0w: getting fired for a political orientation would be super fucked up
+[00:39:48] h0p3: Cool and normal, here.
+[00:39:56] b3nsn0w: what the hell
+[00:40:01] b3nsn0w: US south, right?
+[00:40:04] h0p3: Yup.
+[00:40:24] b3nsn0w: didn't know the problem was that deep
+[00:40:39] b3nsn0w: I guess this "50 different states in one country" thing does work after all
+[00:42:12] h0p3: To be clear, they can't officially fire you for that. But, they can say things like "you aren't a good cultural fit" or find other ways to get rid of you. The outgrouping runs deep into the fabric of so many interactions.
+[00:42:31] h0p3: Though, where my wife works, at the college, they DO fire people officially for that shit.
+[00:43:18] h0p3: If you said this sentence in a faculty meeting, they'd fire you on the spot: "Jesus Christ is not God"
+[00:43:28] b3nsn0w: wow
+[00:43:38] h0p3: (I hope she gets this new job, so badly)
+[00:43:47] b3nsn0w: remind me that if I actually plan on doing anything in the US stay the hell out of the bible belt
+[00:45:49] h0p3: Well, we work in education, and my wife works with a school where many of the wealthy conservatives aim to maintain their control over their children (for example, even a couple decades ago at this school, a woman caught out past 7pm on Friday would be locked out of her dorm and her parents would have to meet with the Dean to correct the misbehavior...no proper lady would do such a thing, of course). Your co-workers would likely be more sane.
+[00:46:14] h0p3: They aren't all crazy out here. I'm lucky to know some of my neighbors. 
+[00:47:34] b3nsn0w: I'm sorry, I didn't think your congressmen actually represent anyone but companies who bribe them, but now I see my mistake
+[00:47:42] h0p3: rofl
+[00:48:23] b3nsn0w: btw the thing about that "Jesus Christ is not God" thing is it depends
+[00:48:38] b3nsn0w: like the official version is he's both God and not at the same time, if I recall correctly
+[00:48:41] b3nsn0w: and anything else is heresy
+[00:48:47] b3nsn0w: but it depends on who you ask, really
+[00:51:47] h0p3: Yes. I am well-versed in this problem. My parents are highly educated pastors/missionaries. There are many ways to demonstrate you aren't one of them at this school. They come from a particular conversative branch of the Christan^^tm^^ denomination of Christianity. They even select their professors for coming out of what is called the Stone-Cambell movement. To be a teacher here of any humanities subject, you'd need to be able to publicly articular some fine-grained historical and theological distinctions.
+[00:52:18] b3nsn0w: lol
+[00:52:24] b3nsn0w: sounds both interesting and fucked at the same time
+[00:52:33] h0p3: I have a joke to match this:
+[00:52:41] h0p3: I was walking across a bridge one day, and I saw a man standing on the edge, about to jump off. So I ran over and said “Stop! don’t do it!”
+
+“Why shouldn’t I?” he said.
+
+I said, “Well, there’s so much to live for!”
+
+He said, “Like what?”
+
+I said, “Well…are you religious or atheist?”
+
+He said, “Religious.”
+
+I said, “Me too! Are you Christian or Buddhist?”
+
+He said, “Christian.”
+
+I said, “Me too! Are you Catholic or Protestant?”
+
+He said, “Protestant.”
+
+I said, “Me too! Are you Episcopalian or Baptist?”
+
+He said, “Baptist!”
+
+I said, “Wow! Me too! Are you Baptist Church of God or Baptist Church of the Lord?”
+
+He said, “Baptist Church of God!”
+
+I said, “Me too! Are you Original Baptist Church of God, or are you Reformed Baptist Church of God?”
+
+He said, “Reformed Baptist Church of God!”
+
+I said, “Me too! Are you Reformed Baptist Church of God Reformation of 1879, or Reformed Baptist Church of God, Reformation of 1915?”
+
+He said, “Reformed baptist church of god, reformation of 1915!”
+
+I said, “Die, heretic scum!” and pushed him off.
+[00:53:22] b3nsn0w: lol
+[00:53:31] b3nsn0w: nice, he had one in 512 chance
+[00:54:05] b3nsn0w: anyway, idk about all that stuff, I just google the ones that let me call people heretics, especially people who annoy me
+[00:54:51] b3nsn0w: and there were literal crusades over this, so the least I can do is proclaim their heresy publicly and call for burning them
+[00:55:02] b3nsn0w: don't say that's so unAmerican, last I checked Salem was in the US
+[00:55:11] h0p3: lol =)
+[00:55:39] h0p3: We are a chriSTian NaTiOn.
+[00:57:00] h0p3: I am lucky to meet the rare person who actually tries to live by Jesus' words (I can destroy quite a bit of The Bible, but his words stand up to a great deal of scrutiny). 
+[00:57:10] h0p3: Must be a different world out there in Hungary.
+[00:57:20] h0p3: Much higher rates of atheism in that region of the world, IIRC.
+[00:57:41] b3nsn0w: never checked it, sounds nice tbh
+[00:57:56] b3nsn0w: yeah, we got our nutjobs, but they're usually not religious
+[00:58:02] b3nsn0w: as in not focused in on religion that much
+[00:58:39] b3nsn0w: every time I saw a survey among actually educated people, it was usually 50-50 religios and atheist, and those people are hardly any trouble
+[00:59:01] b3nsn0w: it's always those who don't see the other side who demonize them
+[00:59:57] b3nsn0w: I did meet a fair share of religious people, but they weren't this preachy and no one tried to reenact the middle ages where the church was an actual part of the government
+[01:00:29] b3nsn0w: btw I think I'm annoying the hell out of my family right now
+[01:00:39] h0p3: how so, lol?
+[01:00:39] b3nsn0w: I got clicky blue switches on my keyboard
+[01:00:45] h0p3: Noice.
+[01:00:45] b3nsn0w: and it's 7 AM
+[01:00:56] h0p3: Ah, lol. Dude, you need to sleep.
+[01:00:59] b3nsn0w: half an hour ago they actually realized I haven't went to bed yet
+[01:01:01] b3nsn0w: yeah, false
+[01:01:16] b3nsn0w: I need X amount of sleep on a weekly basis
+[01:01:19] b3nsn0w: but I got kind of a batterz
+[01:01:22] b3nsn0w: battery
+[01:01:34] b3nsn0w: damn hungarian layout, sometimes I get context switches
+[01:01:59] h0p3: My offspring always ask me if its before 8am if I actually went to sleep, lol.
+[01:02:15] b3nsn0w: lol, nice
+[01:02:33] b3nsn0w: yeah, my former boss who I also work with on freelancing does this too
+[01:02:56] b3nsn0w: and he lives in Dallas, so we get the timezone shift too
+[01:03:02] b3nsn0w: btw, are you in central or eastern time?
+[01:03:27] h0p3: Eastern. Johnson City, TN
+[01:03:43] h0p3: (hopefully, New Haven, CT soon enough)
+[01:04:32] h0p3: Also, I am a huge fan of blues. My family have gotten used to it over the years. Just the autist sitting on his machine doing his thing. All our computers are in the living room, so they are often looking at my screen.
+[01:04:53] h0p3: Folks sleep upstairs in the apartment, so the blues aren't so harsh on them.
+[01:05:46] b3nsn0w: blues, as in the genre?
+[01:05:55] b3nsn0w: I think I heard of it before, but never knew what it's about
+[01:06:16] h0p3: Oh, I meant my keyboard.
+[01:06:18] b3nsn0w: oh
+[01:06:24] b3nsn0w: okay, context not loading
+[01:06:29] h0p3: I've used this old Das keyboard for a while.
+[01:06:31] b3nsn0w: yeah, blue switches are friggin awesome
+[01:06:33] h0p3: It's a joy.
+[01:07:02] b3nsn0w: I got browns at first, because they're a bit faster for gaming, and less annoying for the people around you
+[01:07:10] b3nsn0w: but then I started using the wooting two as my main keyboard
+[01:07:18] b3nsn0w: and reds are really not great for typing
+[01:07:37] b3nsn0w: and for this one there are only reds and blues, not browns yet
+[01:07:46] h0p3: (I am listening to jazz though: https://www.youtube.com/watch?v=jmCytJPqQis)
+[01:08:13] h0p3: I've never tried browns before.
+[01:08:35] h0p3: That would be a good reason to stop by a Bestbuy or something one day. Just clickety clack and feel around.
+[01:08:55] b3nsn0w: I'm so envious that you can just do that
+[01:09:07] h0p3: Well, I'm not 100% sure they'd have them, but I wouldn't be surprised.
+[01:09:29] b3nsn0w: like, the same former boss I talked about just got into a random bestbuy (I guess) one day, and got a Surface Pro 5 for like $360
+[01:09:39] b3nsn0w: after I told him how great I found the Surface Go
+[01:10:13] b3nsn0w: which I got for something like $300 after some creative accounting, because it's over $500 here due to taxes and just generally not being a country that tech companies care about
+[01:10:45] b3nsn0w: every time new tech launches it takes 1-2 months to just get here, and then the same to get the prices to where they belong
+[01:11:03] b3nsn0w: because before the supply is just so low the few retailers who have the tech gouge the prices way the hell up
+[01:12:11] h0p3: I had that in Thailand. Before you would buy computer parts online (and you certainly wouldn't want to pay the prices stores asked), you'd buy them through magazines. When I went to Thailand, the Q6600 was ridiculously expensive. Must have been 50% higher than the magazine price.
+[01:12:51] b3nsn0w: yeah, it's ridiculous
+[01:13:07] b3nsn0w: and this is not _that_ bad, we actually get this tech
+[01:13:17] b3nsn0w: wow, qtox, markdown much?
+[01:13:21] b3nsn0w: *what does this do*
+[01:13:27] b3nsn0w: okay, what's italic
+[01:13:28] b3nsn0w: anyway
+[01:13:49] b3nsn0w: I actually wanna get to the US at some point, in some way
+[01:14:12] h0p3: I'm going to get you wicked drunk when I finally meet you, lol.
+[01:14:13] b3nsn0w: and I began making a list of things that I want to do but they are either impractical or downright impossible here
+[01:14:48] b3nsn0w: like: electronics (parts are super hard to find) and lockpicking (tools are actually illegal here) just to start with
+[01:15:06] h0p3: You should just build your own lockpicking tools.
+[01:15:14] b3nsn0w: thought about it a few times
+[01:15:26] b3nsn0w: it's really not that hard, a stainless steel knife and a dremel are enough for it
+[01:15:32] h0p3: kids and I practice for fun, and some of the better tools you just make yourself
+[01:15:40] b3nsn0w: btw that's illegal too, but who cares, they're not gonna find it
+[01:15:52] h0p3: It's illegal in many states here too, btw.
+[01:16:12] h0p3: You can't just have them on your person or in your vehicle at all times in some cases.
+[01:16:23] h0p3: You might need credentials, or it could serve as probable cause.
+[01:16:48] b3nsn0w: that's also getting close to the fucked up category, but at least it's not the same as here
+[01:17:09] b3nsn0w: in Hungary the whole thing is classified as a tool of secret service and only the military can have it
+[01:17:23] b3nsn0w: so, no lockpicking at home or anything similar
+[01:17:25] h0p3: /sigh
+[01:17:52] h0p3: You all have draconian laws on encryption and prime numbers like us too?
+[01:18:09] b3nsn0w: last time I checked that same law, actually yes
+[01:18:15] b3nsn0w: but it's practically unenforceable at this point
+[01:18:20] h0p3: thank goodness
+[01:18:28] b3nsn0w: as for prime numbers, no idea if we got the DMCA bullcrap
+[01:18:34] b3nsn0w: but what we do have is an "empty storage tax"
+[01:18:49] b3nsn0w: where if you buy any kind of empty storage drive, it's just kinda assumed that you're a pirate anyway
+[01:19:00] b3nsn0w: and a portion of that price goes to some random government agency
+[01:19:24] b3nsn0w: who decides whose intellectual property was stolen the most (spoiler: it's their buddies) and gives them the income from that thing
+[01:19:42] h0p3: Makes perfect sense, lol.
+[01:20:08] b3nsn0w: at least it makes it way harder to enforce anti-piracy laws
+[01:20:20] b3nsn0w: you can actually run torrents here without a VPN and never get in trouble
+[01:20:46] b3nsn0w: we have a 24/7 box with 200+ torrents on it from Hungary's largest torrent site
+[01:20:51] b3nsn0w: and a gigabit connection
+[01:21:36] b3nsn0w: sometimes if I feel like some copyright owner should really f themselves, I just download a torrent and start seeding it
+[01:21:43] h0p3: rofl
+[01:21:47] h0p3: Take that!
+[01:22:04] b3nsn0w: check this out
+[01:22:22] b3nsn0w: took me a while to download this thing
+[01:22:27] b3nsn0w: but now it doesn't take long for anyone else
+[01:22:53] h0p3: Seeding on public trackers is actual charity, imho. I think highly of it.
+[01:23:58] h0p3: ISPs I've had haven't been as mean about torrenting specifically as of late, but they've just been making it harder to participate as a citizen on the interwebs in general.
+[01:25:37] b3nsn0w: yeah, data caps and asymmetric connections can go to hell
+[01:25:43] b3nsn0w: I look forward to Starlink and co
+[01:25:58] b3nsn0w: that makes geographic segmentation of the market near impossible
+[01:26:25] h0p3: I don't know enough about Starlink.
+[01:26:29] h0p3: First glance, I don't trust it, lol.
+[01:27:06] b3nsn0w: it's basically a bunch of satellites close enough that it doesn't take 560 ms roundtrip to communicate with them
+[01:27:19] b3nsn0w: more like 5 ms for the whole satellite layer
+[01:27:29] b3nsn0w: and from that point, it's just an ISP
+[01:27:45] b3nsn0w: but because of the satellite network, they're inherently global and jump the last mile
+[01:28:26] b3nsn0w: I think it's gonna be crucial, because once there are multiple similar networks in orbit they are gonna need to actually compete
+[01:28:46] h0p3: That could easily be a radical improvement, particularly if it meant to be owned and serviced as a strict public utility.
+[01:30:01] h0p3: What I like about local mesh networks is that the workers own the means of production as directly as possible. A satellite layer, however, is certainly going to be useful and fill in gaps that nothing else can.
+[01:30:21] b3nsn0w: yeah, I view it as necessary for rural last mile jumping
+[01:30:45] b3nsn0w: dense cities are the weakness of satellite networks
+[01:31:00] b3nsn0w: they kind of have a "terabit per area" thing, and cities are gonna need more than that
+[01:31:21] b3nsn0w: but if we make Atropos Mesh a thing, that thing is kinda the opposite
+[01:31:29] b3nsn0w: the more dense the population is the better it's gonna work
+[01:31:51] b3nsn0w: the two together could get us a way better internet than we have now
+[01:38:51] h0p3: At the end of the day, that's what I really want. Damned good internet.
+[01:40:08] h0p3: That's my primary rule for where I live. I can live without AC, hotwater, hell, plenty there were plenty of outhouses where I grew up, but I need my daily injections of internet. I'm a drug addict, lol.
+[01:41:00] h0p3: I'm a hippie who somehow believes the opposite of war is sharing, orgies, and constant drug usage outside of hard puritanical work for the sake of humanity.
+[01:41:10] b3nsn0w: "rushing through the phone line like heroin through an addict's veins"
+[01:44:31] h0p3: Welp, I am actually going to bed before you. Lol. I wish you the best of luck, lots of caffeine where necessary, and the best sleep of your life.
+[01:44:41] h0p3: Good night, sir.
+[01:44:43] b3nsn0w: thanks, likewise
+[01:44:45] b3nsn0w: good night

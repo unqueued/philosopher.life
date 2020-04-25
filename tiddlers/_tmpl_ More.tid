@@ -1,0 +1,9 @@
+caption: ...
+created: 20200308020151327
+modified: 20200420002300349
+tags: .tmpl Autogen
+title: .tmpl: More
+
+<div class="tc-more-sidebar">
+<$macrocall $name="tabs" tabsList="[tag[.tmpl]]+[tag[More]]+[sort[caption]]" default={{$:/config/DefaultMoreSidebarTab}} state="$:/state/tab/moresidebar" class="tc-vertical" />
+</div>

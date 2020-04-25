@@ -1,0 +1,49 @@
+created: 20200316035229195
+modified: 20200317034555795
+tags: kickscondor Note To
+title: 2020.03.15 - kickscondor: Fraidycat Thoughtdump
+
+The Unreasonably Entitled Asshole's Thoughtdump Wishlist:
+
+* Molecularfeeds/fraidycatfeeds/magnetfeeds/multifeed
+** Export tag(s)? Exporting subsets. Exporting tab-trees.
+*** I'd be adding a "follow this person's media" json or link to my person pages.
+** I'd like to pass a link/json/hash which contains or resolves to a set of feeds that can be imported. 
+*** "Yo, check this dude out: [{kicks: Frontpage...}, {kicks: All...}, {kicks: Twitter...}, {kicks: Reddit...}...]"
+*** Would be interesting if that link could resolve to a mutable object (with a difference between read and r+w access), Dat seems solid there.
+*** Hosting a multifeed for someone is fine, but I also want to be able to manually pass them easily.
+
+* Tag Manipulation
+** Renaming, searching, and adding/subtracting another tag
+*** Bunching together or building new feeds from old ones can be valuable
+** Keyword Search
+*** Borders on notification territory, but it seems like having a Keyword tab(s) would be useful.
+** Using tags mined from the feed itself might also give some useful control options (it is a kind of keyword search).
+
+* Opera
+** Chrome may be the least common denominator long-term (and unsavory), so that's what I'm using. But, I'm using my perennial favorite, Opera, for this tool alone. 
+*** I consider this the cheapest method to solving some set of problems. I doubt packaging a full browser is worthwhile, but that is an option that could be explored. 
+**** I keep a somewhat [[isolated environment for my wiki|Wiki: Chromium Setup]]. If writing can benefit so much from an isolated environment, I can imagine reading benefiting as well. Make that unique terminal sing.
+** Opera has built-in multiple workspaces, so I'm curious to see if that would be valuable.
+** New Tag Start Page on https://fraidyc.at/s/
+** No idea if automatic updates on browser pages opened in tabs could be progammatically set in a clean way.
+*** Already permissions hell to worry about, so I'm assuming not.
+
+* Maybe b0rked:
+** https://theblockchainsocialist.com/
+
+* Nesting Tabs
+** Limits on the number of tabs would be a problem for heavy organization.
+** If I were going to try to follow 10,000 feeds (which I'm not convinced is a ridiculous number at all, especially if we pass molecularfeeds around), I'd want to be able to control how my tabs are arranged and to be able to search and organize them.
+
+* When there's a failed "add" because it was already present, I'd like to be taken to it. Tag search would be fine too.
+
+* Coloration
+** Might not be in the cards, but it could do a lot of excellent work signaling to the user. Making multiple passes through a feed is sometimes the best option.
+
+* Notes
+** I could imagine having notes on a per tag, per feed, or per tab basis be useful. Might not be useful enough. I don't know.
+
+* Media feeds
+** Building image, video, or title feeds has been useful to me in my multireddits. Going by media type can allow for very fast crawling by hand. Making it possible to load images, videos, or the content itself into fraidycat could be very useful (I don't think this is where you want to go, but many would use that).
+*** This makes it less of a lighter dashboard.

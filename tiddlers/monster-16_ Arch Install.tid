@@ -1,0 +1,454 @@
+created: 20190726002341720
+modified: 20191121181217243
+tags: Recipe monster-16
+title: monster-16: Arch Install
+
+```bash
+# Go, go, go! =)
+timedatectl set-ntp true
+cfdisk /dev/nvme0n1 
+```
+
+* GPT
+* 512M `EFI System`
+* 65GB `Linux swap`
+* 100GB `Linux root (x86_64)`
+* Remaining in `Linux home`
+* Write, yes, quit
+
+```bash
+# Cannot even fat
+pacman -Syy dosfstools
+
+# Format & Mounts
+mkfs.fat -F32 /dev/nvme0n1p1
+mkfs.ext4 /dev/nvme0n1p3
+mkfs.ext4 /dev/nvme0n1p4
+mkfs.ext4 /dev/sdb
+mkfs.ext4 /dev/sdc
+mkswap /dev/nvme0n1p2
+swapon /dev/nvme0n1p2
+mount /dev/nvme0n1p3 /mnt
+mkdir /mnt/boot
+mkdir /mnt/home
+mkdir -p /mnt/mnt/m16-new-storage
+mkdir -p /mnt/mnt/m16-old-storage
+mount /dev/nvme0n1p1 /mnt/boot
+mount /dev/nvme0n1p4 /mnt/home
+mount /dev/sdb /mnt/mnt/m16-new-storage
+mount /dev/sdc /mnt/mnt/m16-old-storage
+
+# Base Install
+pacstrap /mnt base base-devel
+genfstab -U /mnt >> /mnt/etc/fstab
+
+# User
+arch-chroot /mnt
+passwd
+
+# Time & Language
+ln -sf /usr/share/America/New_York /etc/localtime
+hwclock --systohc
+sed -i '/en_US.UTF-8 UTF-8/s/^#//g' /etc/locale.gen # or just uncomment by hand
+sed -i '/en_US ISO-8859-1/s/^#//g' /etc/locale.gen
+locale-gen
+
+# Networking
+echo "monster-16" > /etc/hostname
+echo "127.0.0.1 localhost" > /etc/hosts
+echo "::1       localhost" > /etc/hosts
+echo "127.0.1.1 monster-16.localdomain monster-16" > /etc/hosts
+systemctl enable dhcpcd
+
+# Bootloader, headers, and LTS kernel
+pacman -S amd-ucode efibootmgr grub --noconfirm
+grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
+grub-mkconfig -o /boot/grub/grub.cfg
+pacman -S linux-lts linux-headers linux-lts-headers --noconfirm
+grub-mkconfig -o /boot/grub/grub.cfg
+exit
+reboot
+```
+
+<<<
+Login as root. Your blade is born; go forth and kick ass.
+<<<
+
+```bash
+timedatectl set-timezone America/New_York
+timedatectl set-ntp true
+# Make a h0p3
+useradd -m -G wheel h0p3
+passwd h0p3
+visudo
+```
+
+<<<
+Below //root// in `# User privilege specification` add the following (`i` to insert):
+
+`h0p3 ALL=(ALL) ALL`
+
+`Esc`, `shift+ZZ` to exit
+<<<
+
+```bash
+# SSH
+pacman -S openssh --noconfirm
+systemctl enable --now sshd
+su h0p3 && cd ~ #or preferably SSH in as h0p3
+
+# Yay for AUR
+sudo pacman -S git --noconfirm
+git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si --noconfirm
+cd ~ && sudo rm -r yay
+
+# Enable multilib
+sudo sed -i "/\[multilib\]/,/Include/"'s/^#//' /etc/pacman.conf
+sudo pacman -Syy
+
+# nvim for h0p3 and root
+sudo pacman -S neovim xclip --noconfirm
+mkdir -p ~/.config/nvim
+echo 'source ~/.nvimrc' > ~/.config/nvim/init.vim
+sudo mkdir -p /root/.config/nvim/
+echo 'source /home/h0p3/.nvimrc' | sudo tee -a /root/.config/nvim/init.vim > /dev/null
+nano .nvimrc # Add the following:
+```
+
+<<<
+{{dotfiles: .nvimrc}}
+<<<
+
+```bash
+# zsh for h0p3
+yay -S antigen-git --noconfirm
+chsh -s /bin/zsh
+nvim .zshrc # Add the following:
+```
+
+<<<
+{{dotfiles: .zshrc}}
+<<<
+
+```bash
+# Thank the maker.
+zsh
+
+# mod bashrc for h0p3, but especially root
+rm .bashrc
+nvim .bashrc # Add the following:
+```
+
+<<<
+{{dotfiles: .bashrc}}
+<<<
+
+```bash
+# Will make it a bit more comfy for you, root.
+sudo cp .bashrc /root/.bashrc
+
+# Reflector with hook
+sudo pacman -S reflector cronie --noconfirm
+sudo nvim /etc/pacman.d/hooks/mirrorupgrade.hook # Add the following:
+```
+
+<<<
+```
+[Trigger]
+Operation = Upgrade
+Type = Package
+Target = pacman-mirrorlist
+
+[Action]
+Description = Updating pacman-mirrorlist with reflector and removing pacnew...
+When = PostTransaction
+Depends = reflector
+Exec = reflector --latest 100 --protocol https --sort rate --save /etc/pacman.d/mirrorlist && pacman -Syy
+```
+<<<
+
+```bash
+# paccache with hook
+sudo pacman -S pacman-contrib --noconfirm 
+sudo nvim /etc/pacman.d/hooks/clean_package_cache.hook # Add the following:
+```
+
+<<<
+```
+[Trigger]
+Operation = Upgrade
+Operation = Install
+Operation = Remove
+Type = Package
+Target = *
+
+[Action]
+Description = Cleaning pacman cache...and store current package list in /etc/pkglist.txt
+When = PostTransaction
+Exec = /usr/bin/paccache -rk 2 && /usr/bin/paccache -ruk0 && rm /etc/pkglist.txt && '/usr/bin/pacman -Qqe' | 'sudo tee -a /etc/pkglist.txt'
+```
+<<<
+
+```bash
+# Set max systemd journal usage to 100MB
+sudo sed -i '/SystemMaxUse=/s/^#//g' /etc/systemd/journald.conf
+sudo sed -i '/SystemMaxUse=/s/$/100M/g' /etc/systemd/journald.conf
+
+# Set weekly trim for SSD(s)
+sudo pacman -S util-linux --noconfirm
+sudo systemctl enable --now fstrim.timer
+
+# Install nvidia with bleeding edge kernel hooks
+sudo pacman -S nvidia opencl-nvidia nvidia-utils nvidia-settings nvidia-lts --noconfirm
+sudo nvim /etc/pacman.d/hooks/nvidia.hook # Add the following:
+```
+
+<<<
+```
+[Trigger]
+Operation=Install
+Operation=Upgrade
+Operation=Remove
+Type=Package
+Target=nvidia
+Target=linux
+# Change the linux part above and in the Exec line if a different kernel is used
+
+[Action]
+Description=Update Nvidia module in initcpio
+Depends=mkinitcpio
+When=PostTransaction
+NeedsTargets
+Exec=/bin/sh -c 'while read -r trg; do case $trg in linux) exit 0; esac; done; /usr/bin/mkinitcpio -P'
+```
+<<<
+
+
+```bash
+# Install nvidia with LTSkernel hooks
+sudo nvim /etc/pacman.d/hooks/nvidia-linux-lts.hook # Add the following:
+```
+
+<<<
+```
+[Trigger]
+Operation=Install
+Operation=Upgrade
+Operation=Remove
+Type=Package
+Target=nvidia-lts
+Target=linux-lts
+# Change the linux part above and in the Exec line if a different kernel is used
+
+[Action]
+Description=Update Nvidia module in initcpio
+Depends=mkinitcpio
+When=PostTransaction
+NeedsTargets
+Exec=/bin/sh -c 'while read -r trg; do case $trg in linux-lts) exit 0; esac; done; /usr/bin/mkinitcpio -P'
+```
+<<<
+
+```bash
+# Install i3 DE & Basics
+sudo pacman -S i3-gaps i3lock i3status xorg xorg-server lightdm conky dunst terminator rofi pavucontrol alsa-firmware alsa-utils alsa-plugins pulseaudio-alsa pulseaudio networkmanager network-manager-applet --noconfirm
+yay -S lightdm-slick-greeter i3-scrot clipit --noconfirm
+sudo sed -i '/user-session=default/s/^#//g' /etc/lightdm/lightdm.conf
+sudo sed -i '/user-session=default/s/default$/i3/g' /etc/lightdm/lightdm.conf
+sudo sed -i '/autologin-user=/s/^#//g' /etc/lightdm/lightdm.conf
+sudo sed -i '/autologin-user=/s/$/h0p3/g' /etc/lightdm/lightdm.conf
+sudo sed -i '/greeter-session=example-gtk-gnome/s/^#//g' /etc/lightdm/lightdm.conf
+sudo sed -i '/greeter-session=example-gtk-gnome/s/example-gtk-gnome$/lightdm-slick-greeter/g' /etc/lightdm/lightdm.conf
+sudo groupadd -r autologin
+sudo gpasswd -a h0p3 autologin
+nvim .i3/config # Add the following:
+```
+
+<<<
+{{dotfiles: .i3/config}}
+<<<
+
+```bash
+nvim .Xresources # Add the following:
+```
+
+<<<
+{{dotfiles: .Xresources}}
+<<<
+
+```bash
+# Hold on 2 ur rebuttz
+sudo systemctl enable lightdm && sudo reboot
+```
+
+```bash
+# Gussy & Rice
+sudo pacman -S ttf-dejavu ttf-liberation noto-fonts ttf-roboto noto-fonts-cjk noto-fonts-emoji --noconfirm
+sudo cp -r /home/h0p3/syncs/h0p3/Computers/fonts/* /usr/share/fonts
+fc-cache -vf
+sudo pacman -S lxappearance qt5ct --noconfirm
+sudo pacman -S adapta-gtk-theme --noconfirm
+```
+
+
+
+```bash
+# Packages for system maintenance script
+sudo pacman -S lsof --noconfirm
+```
+
+
+```bash
+# Crontab
+sudo systemctl enable --now cronie.service
+sudo crontab -e
+```
+
+<<<
+Add [[the following|monster-16: Root Crontab]] to root's crontab:
+
+{{monster-16: Root Crontab}}
+<<<
+
+```bash
+# Setup rsyncs in crontab -e and this timeshift for root 
+yay -S timeshift --noconfirm
+sudo timeshift-gtk
+```
+
+
+```bash
+# Install Browsers and */cry* Flash
+sudo pacman -S firefox firefox-developer-edition chromium flashplugin --noconfirm
+yay -S vivaldi --noconfirm
+```
+
+```bash
+# Install Chat
+sudo pacman -S pidgin pidgin-otr pidgin-xmpp-receipts qtox telegram-desktop hexchat --noconfirm
+yay -S signal-desktop-bin discord --noconfirm
+
+# Voice crackle fix, requires pulseaudio restart
+sed -i '/load-module module-udev-detect/s/$/ tsched=0/g' /etc/pulse/default.pa
+```
+
+```bash
+# Files tools
+sudo pacman -S dolphin p7zip p7zip-plugins unrar tar rsync --noconfirm
+```
+
+
+```bash
+# Synced symlinks
+ln -s /home/h0p3/syncs/h0p3-wiki /home/h0p3/Downloads/
+ln -s /home/h0p3/syncs/h0p3-wiki-backup/savetrail-jsons /home/h0p3/Downloads/
+ln -s /home/h0p3/syncs/h0p3/Computers/dotfiles/shreddit /home/h0p3/.config/
+ln -s /home/h0p3/syncs/h0p3/Computers/dotfiles/.nvimrc /home/h0p3/
+ln -s /home/h0p3/syncs/h0p3/Computers/dotfiles/.zshrc /home/h0p3/
+ln -s /home/h0p3/syncs/h0p3/Computers/dotfiles/.bashrc /home/h0p3/
+ln -s /home/h0p3/syncs/h0p3/Computers/dotfiles/.Xresources /home/h0p3/
+ln -s /home/h0p3/syncs/h0p3/Computers/dotfiles/.i3 /home/h0p3/
+ln -s /home/h0p3/syncs/h0p3/Computers/dotfiles/tox /home/h0p3/.config/
+ln -s /home/h0p3/syncs/h0p3/Computers/dotfiles/i3status.conf /etc/i3status.conf
+ln -s /home/h0p3/syncs/h0p3/Computers/dotfiles/conky_shortcuts /usr/share/conky/conky_shortcuts
+ln -s /home/h0p3/syncs/h0p3/Computers/dotfiles/conky /usr/share/conky/conky
+mkdir /home/h0p3/.config/dunst && ln -s /home/h0p3/syncs/h0p3/Computers/dotfiles/dunstrc /home/h0p3/.config/dunst/dunstrc
+ln -s /home/h0p3/syncs/h0p3/Computers/dotfiles/.purple /home/h0p3/.purple
+```
+
+```bash
+# Pips
+sudo pacman -S python-pip --noconfirm
+sudo pip install -U shreddit pyperclip baseconvert --noconfirm
+sudo pacman -S xdotool --noconfirm
+```
+
+```bash
+# npm
+mkdir ~/.npm-global
+npm config set prefix '~/.npm-global' #export PATH=~/.npm-global/bin:$PATH in .profile
+source ~/.profile
+```
+
+```bash
+# playonlinux
+sudo pacman -S playonlinux --noconfirm
+```
+
+```bash
+# torrents
+sudo pacman -S qbittorrent --noconfirm
+```
+
+
+```bash
+# RANDO FOR TRANSITION
+yay -S nomachine --noconfirm
+```
+
+```bash
+# Cleanup
+yay -Yc --noconfirm
+```
+
+
+```
+# xonsh
+sudo pacman -S xonsh --noconfirm
+```
+
+```bash
+### Setup Passthrough for the AMD GPU
+
+# Isolate GPU
+echo 'options vfio-pci ids=1002:67df,1002:aaf0' | sudo tee -a /etc/modprobe.d/vfio.conf > /dev/null
+sudo sed -i '/MODULES=()/s/()$/(vfio_pci vfio vfio_iommu_type1 vfio_virqfd)/g' /etc/mkinitcpio.conf
+sudo sed -i '/HOOKS=(/s/)$/ modconf)/g' /etc/mkinitcpio.conf
+sudo mkinitcpio -p linux && sudo mkinitcpio -p linux-lts
+sudo reboot
+
+# Setup VM Software
+sudo pacman -S libvirt virt-manager ovmf qemu ebtables dnsmasq --noconfirm
+
+
+
+echo 'nvram = ["/usr/share/ovmf/x64/OVMF_CODE.fd:/usr/share/ovmf/x64/OVMF_VARS.fd"]' | sudo tee -a /etc/libvirt/qemu.conf > /dev/null
+sudo usermod -a -G libvirt h0p3
+sudo systemctl enable --now libvirtd.service
+sudo systemctl enable --now virtlogd.socket
+sudo virsh net-start default
+sudo systemctl restart libvirtd
+
+virt-manager & 
+
+# Make diskpool, select UEFI firmware in overview, add both PCI-E devices and USB devices
+
+sudo systemctl restart libvirtd
+
+
+```
+
+```
+sudo pacman -S calibre --noconfirm
+
+
+
+sudo pacman -U https://archive.archlinux.org/packages/k/kodi/kodi-17.6-9-x86_64.pkg.tar.xz
+sudo pacman -S unrar --noconfirm
+## FUCK KODI 18+
+#sudo yay -S kodi --noconfirm
+#yay -S kodi-addon-vfs-rar --noconfirm
+```
+
+```
+sudo pacman -S scrot
+```
+
+* i3scrot
+* conky
+* i3status
+* hexchat and pidgin config
+* nfs, cifs
+* seedbox
+* clipit not autostarting
+* S2: Second screen. I want to wrap around with my arrow keys, otherwise, we have to change it to sit in the middle.

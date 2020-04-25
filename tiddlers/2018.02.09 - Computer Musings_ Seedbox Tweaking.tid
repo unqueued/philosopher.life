@@ -1,0 +1,19 @@
+created: 20180209183401943
+modified: 20200209175502535
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.02.09 - Computer Musings: Seedbox Tweaking
+
+I'm not sure why deluge web-ui worked before but not now. However, I found a way to get it back online, which is good. I prefer to xirvik's instead of pushing .torrent files (I'm willing to do either though).
+
+Installed vpncloud on my computer after editing PKGBUILD. It worked on one machine, but not another. I left a comment on the AUR forum.
+
+Edit the PKGBUILD for version 0.8.1, and delete example line. I had to use `rustup default nightly` for installation.<<ref "2020.02.09">>
+
+I've created an account on the AUR and sent an e-mail to the maintainer. I think I may become a maintainer if he doesn't update it.
+
+See [[vpncloud.rs]]
+
+
+---
+<<footnotes "2020.02.09" "Looks like development has started back up on this! Noice. I prefer this to Zerotier because it's not federated from what I can tell.">>

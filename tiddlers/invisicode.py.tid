@@ -1,17 +1,16 @@
 created: 20180913211840682
 creator: h0p3
-modified: 20180913224318973
+modified: 20191118013353242
 modifier: h0p3
-tags: python
+tags: ‌‌‌​​‌​‌​‌‍‌​​​‍​‍​‌‌‍‌​‍​‍​‍‌​‌​‍​‍​‍​‌‌‌‍​​​​‍‍‍ j3d1h python
 title: invisicode.py
 
 ```python
 #!/usr/bin/python
 
-### My daughter wrote this for me. Thank you, j3d1h! =)
-
+#Invisign simplified!
 #This script converts between UTF-8 and Invisicode.
-#(It automatically detects which one you're working with :‍​‌‌‍‍‌​‌‍‍‍​‍‍‍​‌‌‌‌‍‍‌‌​​‍‍3)
+#(It automatically detects which one you're working with :3)
 #If there's any Invisicode in the text you input, then it will assume you're decoding.
 #If there isn't any, it will assume you're encoding.
 
@@ -52,14 +51,13 @@ decodedict = {
 
 ###
 
-#Set up the input type.
-if arguments.pipe: #If the user used the -p or --pipe options..
-    #Read from the input (usually a cat of a file, an echo, or something else similar).
+#Checking input type.
+if arguments.pipe == True: #Try to take input from command line.
     sig=sys.stdin.readlines()
     sig=sig[0]
     sig=''.join(sig.rsplit('\n', 1))
-else: #Otherwise..
-    sig=pyperclip.paste() #Take it from the clipboard.
+else: #Otherwise, just copy from the clipboard.
+    sig=pyperclip.paste()
 
 if "​" in sig or "‌" in sig or "‍" in sig: #If there's any invisicode in the input..
     for char in sig:
@@ -79,6 +77,6 @@ else: #Otherwise (if it's pure plaintext)..
 ###
 
 #Outputs - print to stdout, in case they're piping into a file, and also put output in the clipboard.
-print("|"+result+"|")
 pyperclip.copy(result)
+print("|"+result+"|")
 ```

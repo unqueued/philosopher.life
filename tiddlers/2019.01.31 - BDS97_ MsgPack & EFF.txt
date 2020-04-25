@@ -1,0 +1,32 @@
+[17:23:22] h0p3: https://www.eff.org/opportunities/jobs/privacy-and-surveillance-activist
+[17:23:24] h0p3: I want that job.
+[17:29:05] BDS97: home: I would definitely ask them if working remotely is possible
+[17:29:20] h0p3: No doubt. Insanely expensive. 
+[17:30:02] h0p3: I might have family that could allow me to live with them. Their house is 10 times the size of my apartment (could house our family even). 
+[17:30:09] h0p3: They aren't quite fans of EFF though, lol.
+[17:31:00] BDS97: home: Even if you don't want to relocate, or can't do that right now, try to apply to the job, and maybe send them a link to your site
+[17:32:08] BDS97: home: From what I've seen so far, recruiting is a highly optimistic thing, job requirements are wishlists
+[17:32:54] BDS97: home: And as far as I know you, you tick many, if not all their boxes, so even if you're not the perfect candidate I doubt they'd just let you walk away
+[17:33:47] BDS97: home: ("walk" is figurative here, I know you live on the other side of the country)
+[17:38:40] h0p3: =)
+[17:38:45] h0p3: I am going to! 
+[17:39:30] BDS97: home: Awesome!
+[17:40:07] BDS97: home: Honestly, it would be a weird feeling working on Atropos with an employee of EFF
+[17:40:09] BDS97: home: Good weird
+[17:41:57] BDS97: home: btw, status update: documented the hell out of that msgpack parser and published it
+[17:41:58] BDS97: home: https://github.com/b3nsn0w/msgpack_simple
+[17:51:18] h0p3: You did! That is amazing, lol.
+[17:51:49] BDS97: home: honestly, the amount of examples for is_type() and as_type() functions feels just stupid
+[17:52:00] BDS97: home: but this way it's easier to use
+[17:53:00] h0p3: I think it would be amazing to be able to hook you up with the people at EFF too. There are people connected to that organization who are radically more technically competent than I am.
+[17:54:15] BDS97: home: they do work on a lot of useful stuff
+[17:54:41] BDS97: home: I'm sure they'd appreciate our project too
+[17:55:04] h0p3: Heck yeah. There's nothing else like it.
+[17:55:34] BDS97: home: I don't know to feel honored or sad hearing that
+[17:55:39] BDS97: home: Motivated, maybe, that sound better
+[17:57:01] BDS97: home: In the long term, I'm thinking of establishing an Atropos Foundation, I think we'll need it past a certain point
+[17:57:32] BDS97: home: way further down the line though
+[17:58:34] BDS97: home: and once we're there, quite sure we'll be good friends with EFF, our goals are pretty much aligned
+[18:05:38] h0p3: Yes. =)
+[18:06:11] h0p3: AFK, walking with wife
+[18:06:24] BDS97: home: alright, have fun

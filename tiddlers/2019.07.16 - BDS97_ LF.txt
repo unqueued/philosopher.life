@@ -1,0 +1,565 @@
+h0p3:
+
+https://github.com/zerotier/lf
+
+BDS97:
+
+oh, nice
+
+looks interesting
+
+BDS97:
+
+wow, did they just solve the problem of a decentralized domain and user system?
+
+(without having to pay for it like namecoin)
+
+that's amazing
+
+h0p3:
+
+Aye. It's the "B" word, but with different kinds of trust. Looks excellent for domain names. Insofar as federation is required for P2P, that seems like a solid starting place too. Still wondering if DHT can be built around it for scaling.
+
+BDS97:
+
+yeah, we'll have a DHT anyway, most likely very deep in the protocol
+
+kinda required for two-way anonymity on the meshnet
+
+also, that brings us to the two points in LF where I'd like to improve it
+
+1. I see there are "full nodes" and thin clients, but it would be great if partial nodes were possible too
+
+I'd look into IOTA for a solution there
+
+2. we'd need an ownership system
+
+this might actually be solved in LF already
+
+but when you own a domain or a username you might want to be able to change the value of that key
+
+[19:30:12] h0p3: I'm wondering how much storage we're talking about here.
+[19:30:58] BDS97: For the ANS (Atropos Name System), I'd use 64 bytes per name
+[19:31:39] BDS97: 32 for the hash of the name, 32 for a pointer key that lets you find the relevant container
+[19:32:19] BDS97: then you'd refer to a separate distributed storage system, but that one needs much lesser guarantees
+[19:33:44] BDS97: I wonder how much we've discussed that
+[19:33:53] BDS97: and also how much my own vision about Atropos changed since we last talked
+[19:34:10] h0p3: It's been a while, lol.
+[19:34:52] BDS97: yeah, sorry about that, I think most of it was my fault
+[19:35:07] h0p3: Naw, it's fine. I think we've both been insanely busy. 
+[19:35:32] BDS97: confirmed on my side at least
+[19:36:27] BDS97: it's been total chaos for me for the past couple of months
+[19:36:39] BDS97: and I pretty much forgot to log into tox like all the time
+[19:36:44] h0p3: I'm sorry. Good chaos or bad?
+[19:36:54] BDS97: I'd say good chaos
+[19:37:38] BDS97: I definitely enjoy freelancing and all the free time it gives me, but it also enables me to have way too many projects in parallel
+[19:37:50] BDS97: and when that happens that's when none of them progresses according to the plans
+[19:39:29] h0p3: Haha. That is my life. Drowning in a whirlpool or something. Pretty frustrating not to be able to focus effectively. I can see us a decade from now saying the same thing, lol.
+[19:39:45] BDS97: yeah, agreed
+[19:39:56] BDS97: it's been how long, three years, since we first strated this thing?
+[19:41:02] BDS97: if not yet then almost, I'm pretty sure we were already talking on some OTR chat by november 2016
+[19:41:30] h0p3: Aye. That is like 10% of my lifetime ago. 
+[19:42:00] h0p3: It's such a crazy ambitious thing to try to reason about. 
+[19:42:03] BDS97: 13% for me
+[19:42:16] BDS97: yeah, true
+[19:42:50] BDS97: I have some crazy ambitious plans/visions/dreams, but this thing is definitely in the top three
+[19:43:03] BDS97: maybe top one in how much of an impact it could have
+[19:43:34] h0p3: How's the game-dev progression going?
+[19:43:47] BDS97: still in the preparation stages
+[19:44:01] BDS97: been learning how to draw comic books in the past three months or so
+[19:44:07] BDS97: for two reasons
+[19:44:25] BDS97: 1. comics and concept art are great tools for communicating a game vision, will be very useful for that stuff
+[19:44:28] BDS97: 2. I just like comics
+[19:45:11] BDS97: game dev is like this crazy complex thing, may actually be the most diverse of programming in terms of the skillset required
+[19:45:40] h0p3: Yes, so many arts and skills. Going indie requires you to be a jack-of-all-trades.
+[19:45:59] BDS97: and I've been an idiot for at least the first 5-6 years of my programming experience thinking it's all about coding and 3D models
+[19:46:20] h0p3: Very cool. My daughter loves to draw. She makes some comics too. I think having a drawing tablet has been extra useful to her.
+[19:46:30] BDS97: awesome
+[19:47:11] h0p3: How are you learning to draw?
+[19:47:38] BDS97: digitally, and mostly through video tutorials
+[19:48:07] BDS97: Draw with Jazza on YouTube and Robert Marzullo on Skillshare are the two I found the most useful so far
+[19:48:38] BDS97: but just having a Skillshare subscription is great in itself, there are lots of great tutorials there
+[19:49:14] h0p3: I will pass that along. Thank you. 
+[19:49:24] BDS97: How old is your daughter?
+[19:49:28] h0p3: 13
+[19:49:45] BDS97: alright, thanks
+[19:49:59] BDS97: there's one other source of both inspiration and knowledge, but don't pass that along yet
+[19:50:47] BDS97: he's called Stjepan Sejic, and he's my favorite comic artist, but he also does some adult stuff, and it's easy to stumble upon that if you start watching his videos
+[19:51:35] h0p3: Ha, you are going to think I'm fucking insane (if you don't already).
+[19:54:10] h0p3: I censor nothing. She only loses access when she isn't doing her schoolwork. She reads everything I write on my wiki during family time each week. My screen is completely open for everyone to read (hell, she is root on my machine). She runs our seedbox and HTPC, so pornography is not something I'm worried about. We go out of our way to talk about everything and anything. She discovered 2-girls-1-cup on her own by 9. She's an adult to me.
+[19:54:42] BDS97: wow
+[19:54:55] BDS97: still not convinced you're insane, but that's one unconventional strategy, I do give you that
+[19:56:11] BDS97: also, I change my mind then, do pass that along, Stjepan's art is amazing and he does show his process
+[19:56:11] h0p3: It's a big leap when I go teach/babysit at the middle school down the road, lol. 
+[19:56:49] BDS97: yeah, that kinda sounds like you got Clark Kent's glasses
+[19:57:26] BDS97: does she also draw digitally btw, or is it mostly IRL stuff?
+[19:57:59] BDS97: you did mention the drawing tablet (which model btw? I use a Huion HS610)
+[19:59:00] h0p3: Oh, I don't remember what tablet she uses. She's onto her second one because the one I got her wasn't good enough. Let me ask her (my offspring are at their uncle's for a couple weeks).
+[19:59:49] h0p3: She still hasn't setup passthrough, so she dual boots. I like watching her manipulate the image on the screen. It's kind of dizzying for me.
+[20:00:15] h0p3: She's not centralized or organized her work very well (my son is working on that for her as one of his CS projects). 
+[20:00:15] h0p3: https://www.deviantart.com/42sans6
+[20:00:59] h0p3: She draws some digital, some on paper. She mixes them together. Have a Goodwill'ed scanner for it which helps.
+[20:01:24] BDS97: nice
+[20:01:38] BDS97: also, her art style looks pretty cool, especially for a 13 year old
+[20:02:04] BDS97: btw yeah, I'm on my second tablet too
+[20:02:21] BDS97: first one was some base model Wacom Intuos
+[20:02:41] BDS97: it's a piece of crap, especially compared to the HS610
+[20:02:53] BDS97: (which is weird because the Huion was actually cheaper)
+[20:03:27] h0p3: I bought her a Huion 420
+[20:03:40] h0p3: I wasn't sure if she was going to be really into it or not.
+[20:04:23] BDS97: yeah, that looks like an entry level thing, but still way better than a mouse
+[20:04:44] BDS97: also, great price
+[20:04:57] BDS97: that's my one problem with wacom btw
+[20:05:08] BDS97: they do make some nice stuff, but it's more overpriced than Apple
+[20:05:33] h0p3: Now she has a wacom intuos s, ctl-6100wl. 
+[20:06:24] h0p3: I don't know anything about it, lol.
+[20:07:22] h0p3: I think if I were drawing, I'd want to have a screen underneath. Seems way harder to use the blank tablet to me.
+[20:07:28] h0p3: I assume latency is a problem though.
+[20:07:50] BDS97: yeah, that's also an option
+[20:07:54] h0p3: She says thank you for the learning recommendations, and that artist is amazing.
+[20:08:18] BDS97: those tablets are quite a bit more expensive, but if you got the money there's no reason not to go with it
+[20:09:56] h0p3: I like that she learns to draw because I value it for the humanities, but I also think it will be useful to her. Programmers who can draw can communicate things way faster. I should probably look into having my son engage it as well. He likes to build ASCII art, but he's not so interested in drawing by hand just yet.
+[20:11:28] h0p3: Anyway, the world is looking grimmer since we last talked. My country is full-blown Nazi now. Our concentration camps are worldclass, and we're hunting people down (thank god we can still ask for a warrant). China's doing a great job too. 
+[20:11:51] BDS97: yeah, things aren't looking that great here in Europe either
+[20:12:02] BDS97: they actually passed Article 13, the madmen
+[20:12:31] BDS97: I think the EU is slowly realizing the power in controlling the internet
+[20:13:24] h0p3: Do you see a huge difference between the Boomers and the younger generations in Europe as well?
+[20:13:42] BDS97: not really, at least not here
+[20:13:47] BDS97: we have different problems to worry about
+[20:14:31] BDS97: 45 years of so-called socialism didn't do much good to the minds of the people over here
+[20:15:49] BDS97: basically, the mindset is, if you're trying, you're an idiot
+[20:15:53] h0p3: Lol!
+[20:15:57] BDS97: and that's just the tip of the iceberg
+[20:16:39] BDS97: you know how in the US the big companies that matter sort of own the government
+[20:16:44] BDS97: here it's the other way around
+[20:16:56] BDS97: the political elite owns the financial one
+[20:17:21] h0p3: A different way to stack the centralization of power.
+[20:17:26] BDS97: which directly translates to the simple thing that if you want to be successful, politics and aligning with the party is the only way
+[20:17:47] BDS97: yes, "the" party, because there's one that matters, and a couple more to make a show around it in which the people are caught up
+[20:18:37] h0p3: Do your family and friends consider you too ambitious? Are they supportive of you? Do they reason about the power structures around you in a similar fashion?
+[20:19:10] BDS97: definitely, can't tell, and no, not a lot
+[20:19:49] BDS97: like, yeah, I do have quite a lot of ambitions, and I'm pretty sure they see that
+[20:19:50] h0p3: I mean you no offense, but I would be lonely in your shoes. That doesn't sound easy.
+[20:20:24] BDS97: gonna sound pretentious AF
+[20:20:28] h0p3: Go for it! Lol
+[20:20:30] BDS97: but I am the captain of my soul
+[20:21:29] h0p3: Yes. Indeed. You gotta do what's right, even when nobody else will stand up for what matters most. 
+[20:21:54] BDS97: pretense aside, for some weird reason I don't have a lot of problems with mental health and stuff like that
+[20:22:02] h0p3: I appreciate how much responsibility you take in shaping your identity. I wish I were as wise and ambitious as you at your age.
+[20:22:14] h0p3: I do. Lol. 
+[20:22:33] BDS97: it's like 50% being a control freak and 50% not trying things I don't know shit about for being afraid of fucking up
+[20:23:04] h0p3: But, how will you be the perfect perfectionist? 
+[20:23:26] BDS97: yeah, lol, that's a hard problem
+[20:24:24] BDS97: even now, thinking about it, I have no idea how to explain why I have no problem with being kinda lonely
+[20:24:49] BDS97: I mean, what I'm doing is a recipe for disaster, and yet the disaster is nowhere to be found
+[20:25:29] BDS97: I do have a couple of friends who I share ambitions with, although usually I'm the one with the tighter timelines and stuff like that
+[20:25:55] BDS97: for example, I have one with whom we have something like 30-40 game concepts
+[20:26:44] BDS97: but other than that, I don't talk too much about ambitions
+[20:27:13] BDS97: guess I found it out the hard way, in high school some people mocked me for dreaming way too much or some shit like that
+[20:27:17] BDS97: fuck them, dreams are cool
+[20:27:47] h0p3: Fuck yeah. Them mountains make life worth living. Teleology is only way to have meaningful purpose.
+[20:29:01] h0p3: Also, I know you know way more about games than I do (though, when I was a teenager, I was the 12 hour a day Everquest addict), and I don't know if you have tried VR much. Echo Arena is a special game.
+[20:29:53] h0p3: I can't play games anymore (I just don't trust myself), but I'm a true believer in VR after playing that one. Reminds me of Tribes (huge fan, very high skill curve). 
+[20:30:28] h0p3: My assumption is that the costs will eventually drop low enough for everyone to afford it.
+[20:31:11] BDS97: yeah, that was one of my concerns about the Oculus Quest
+[20:31:28] BDS97: at first I denied the idea of that headset, based on "it's just mobile VR again"
+[20:32:01] BDS97: but then I realized my opinion on mobile gaming is not that it's the graphics that needs addressing, it's the controls and the disgusting microtransaction models
+[20:32:22] h0p3: An exploitative wasteland
+[20:32:30] BDS97: the Quest certainly has the controls nailed, and the business model is up to the game developer
+[20:33:03] BDS97: unless facebook starts acting like a console manufacturer where they don't allow free games because that's a slippery slope or whatever they say
+[20:33:18] BDS97: so it has all the potential you need, for what, $400?
+[20:33:30] BDS97: in the age of $1000 smartphones it doesn't seem unreachable
+[20:34:34] h0p3: Aye.
+[20:34:40] h0p3: I am surprised a bit that you want to game-dev given how you are competing against what is essentially heavily exploited labor. Game-devs are often extremely unhappy people, imho.
+[20:34:58] BDS97: yeah, I want to make games, but I'd never work in the industry
+[20:35:36] BDS97: in fact, most of the reason I haven't started working on a game yet is I heavily disagree with how game dev looks today, and I need some preparations to challenge that
+[20:36:01] BDS97: down to the engine coding styles and yes, labor standards too
+[20:36:30] BDS97: IMO most of the reason it's that exploitative is because of the downright idiotic ways both the industry and the games are put together
+[20:37:16] BDS97: as for the loot boxes, addiction models, microtransactions, gambling, and other customer-facing bullshit, that's on the greedy businessmen who are in charge
+[20:37:42] BDS97: but that's also why it would be so friggin easy to beat them, because they're predictable as hell
+[20:38:56] BDS97: in fact, half the reason I shifted priorities and staretd drawing now is because one of the first stories/universes I want to put together with that is a near-future cyberpunk story
+[20:39:12] BDS97: and I'm pretty sure the game industry is going to go full cyberpunk in the next couple of years or so
+[20:39:41] BDS97: I mean it should have been obvious since the first gameplay trailer of Cyberpunk 2077, and there are also a bunch of indie projects popping up with that
+[20:40:18] BDS97: the butterfly is flapping its wings already, kind of like Hunger Games did
+[20:42:09] h0p3: How many games are built on P2P? Plenty have federated models where you can run your own server. 
+[20:42:36] h0p3: FPS have sometimes allows direct IP to IP.
+[20:42:44] BDS97: usually p2p is used when the publisher is trying to save a buck
+[20:42:45] BDS97: and poorly
+[20:43:00] BDS97: I heard some games designate specific clients as servers, and they control the game
+[20:43:11] BDS97: there are some more p2p games, GTA V is a nice example
+[20:43:29] BDS97: in that game specific clients control specific parts of the world
+[20:43:50] BDS97: that's why cheats are so rampant, because if you say your car is flying, everyone else's client just believes it
+[20:44:21] BDS97: and also, it allows my favorite trick against a shady mictrotransaction service
+[20:44:39] BDS97: GTA online is super grindy, don't know if you have tried it yet, but don't
+[20:45:03] BDS97: but the worst is, it caters to trolls, allows them to fuck up your progress and actually send your day into negative
+[20:45:25] BDS97: so I set up a macro key when I was still playing that shit, and it did one thing
+[20:45:42] BDS97: suspended gta5.exe for 10 seconds
+[20:46:05] h0p3: I played the first two long ago, but nothing after that. 
+[20:46:13] BDS97: it desynchronized the network, so for everyone else it looked like I disconnected due to an error, and for me it looked like everyone else disconnected
+[20:46:42] BDS97: the singleplayer is okay, the multiplayer looks great for 5 hours, then it's horrible
+[20:46:53] BDS97: yeah, so going back to your question
+[20:47:04] BDS97: peer to peer is rarely used in games, and even if it's used, it's not for the better
+[20:47:13] h0p3: Reminds me of a lot of movement/speed/teleport hacks.
+[20:47:30] BDS97: yeah, most of those is due to distributing work like that and trusting the client
+[20:47:44] BDS97: which is mind-bogglingly stupid
+[20:48:06] BDS97: but it's a simple way of doing multiplayer, and game dev companies go with simple because their codebases are already a huge mess
+[20:48:59] BDS97: seriously, it took Cloud Imperium Games, some of the smartest game developers on the planet, two years to enable two different ways of entering a ship in Star Citizen
+[20:49:10] BDS97: and they had to recode a significant portion of CryEngine for that
+[20:49:25] BDS97: because game code and engine code is that stupid in the real world
+[20:49:49] h0p3: Lol.
+[20:50:25] h0p3: If there is one game I wish I played (or I'm perhaps glad I haven't), it's Eve Online. It blurs the distinction between online and offline so much.
+[20:50:43] BDS97: yeah, same here
+[20:51:14] BDS97: I really want to experience the idea of Eve Online, but at the same time I'm pretty sure I don't want to play it
+[20:52:00] BDS97: this is the whole reason why I both like and hate Star Citizen
+[20:52:07] BDS97: the idea is amazing, the execution... not so much
+[20:52:35] BDS97: basically, Eve is like flying and managing RC spaceships
+[20:52:44] BDS97: Elite Dangerous is when you have one tiny ship
+[20:53:05] BDS97: and Star Citizen is looking at pictures of great spaceships, eternally waiting for an age where you finally get to fly them
+[20:55:51] BDS97: also, about those drawing tablets
+[20:56:04] BDS97: there was one thing I wanted to mention
+[20:56:17] BDS97: found the CTL-6100WL, it's apparently an Intuos M, not an S
+[20:56:42] BDS97: it's also basically just a larger version of the same tablet I had
+[20:57:18] BDS97: it illustrates how bad Wacom's pricing really is
+[20:57:42] BDS97: this thing is $200, and it doesn't even come close to the HS610, which is an $80 tablet
+[20:57:58] BDS97: just as a piece of advice, if your budget is below $1k, don't go wacom
+[20:59:42] BDS97: their high-end is really great, but this thing... it's got no tilt, barely any macro keys, sub-par sensitivity, etc., not a bad tablet, but at this price tag it is
+[21:02:31] BDS97: I don't like criticizing things people already bought, but this is why I say fuck wacom
+[21:05:54] h0p3: No, I appreciate it. I didn't buy it, but I'd be glad to know even if I did. 
+[21:20:23] BDS97: https://www.youtube.com/watch?v=cG8Bs2XmcZ8
+[21:20:27] BDS97: do you know these guys btw?
+[22:22:41] h0p3: Nope. Never seen it.
+[22:23:44] h0p3: I don't use youtube much if I can help it. The only YT spirals I go on are for music exploration. 
+[22:24:04] h0p3: I'm interested to know in pentesting videos really will get taken down.
+[22:24:41] BDS97: ?
+[22:24:55] BDS97: you mean they're taking down the videos you're watching?
+[22:25:02] BDS97: sorry, can't decipher that message
+[22:25:33] h0p3: https://twitter.com/[[K]]Kinzie/status/1146196570083192832
+[22:25:38] h0p3: Sorry, I'm not being clear.
+[22:25:52] h0p3: if* pentesting
+[22:25:58] BDS97: oh
+[22:26:00] BDS97: yeah, that's fucked
+[22:26:15] h0p3: I assume it will be wielded arbitrarily.
+[22:26:34] BDS97: I found it weird because I watch a lot of lockpicking and physical pentesting videos lately, didn't know these videos weren't allowed
+[22:26:51] BDS97: but yeah, pretty sure it's arbitrary, that's how it works when you have a large mod team and stupid rules
+[22:28:05] BDS97: yeah, we really need a youtube alternative
+[22:28:50] BDS97: there's at least two different "emergency backup youtube" platforms I know that are being made by the creators I watch
+[22:29:13] BDS97: probably a lot more, I just watch a very specific subset
+[22:30:02] BDS97: I guess you haven't heard about floatplane either if you don't watch youtube
+[22:30:53] h0p3: Nope. Looking at it now.
+[22:31:16] BDS97: in practice it's basically like patreon just without actually being patreon
+[22:31:27] BDS97: it's built by linustechtips, one of the largest tech channels
+[22:31:50] h0p3: Yes, I've seen some linus.
+[22:32:15] h0p3: By the way, I'm not able to get that working. Do you see an immediate reason it doesn't?
+[22:33:08] h0p3: One thing I want is to keep copies of everything I crawl. Maybe Dat(rs) is the only thing which can do this in the end, I don't know. 
+[22:33:43] h0p3: I would be fine with automatically hosting/seeding static sites, especially to seeding past 1 or something.
+[22:34:07] h0p3: There are torrent-based youtube tooling I've seen, and I think it's the only possible way.
+[22:35:00] BDS97: yeah, that's where I think we should ultimately go
+[22:35:12] BDS97: btw checking your script, but I don't see anything that would be a problem yet
+[22:37:10] h0p3: In a less expensive sense, what books on your shelf are you willing to die for? Or maybe, what books do you value so much on your shelf you loan them out or buy extra copies happily? I am interested in making sure users have skin in the game, fronting resources for what matters to them. It is a way to support very directly. I think it's also a signal that should be used in trust metrics of some kind. Like, if I'm going to upvote a link, it means something more when I'm willing to spend resources to make sure others have access.
+[22:37:52] h0p3: Thank you for checking. I don't understand why it doesn't work either. But, it is related to th ething I am talking about.
+[22:38:28] BDS97: yeah, I see, and I agree with the purpose
+[22:39:12] h0p3: zeronet and beakerbrowser have inched toward it, but their performance, usability, etc. are awful. 
+[22:42:53] BDS97: I'm starting to think IPFS would be the pretty much the model to build upon
+[22:43:18] BDS97: it kind of solves this problem by itself, everything is stored, and it's interest-based
+[22:43:53] h0p3: Why do you think IPFS might be faltering? 
+[22:43:58] h0p3: Assuming  you do*
+[22:44:13] h0p3: I hate IPFS in practice, but I love the idea.
+[22:44:23] BDS97: what's the problem with the practice?
+[22:44:32] BDS97: I haven't been following this, only know the tech, sort of
+[22:46:04] h0p3: the way in handles mutability felt bad, and the performance was terrible on it. I want something to replace Resilio Sync, and there is nothing within miles of it.
+[22:47:08] h0p3: Resilio Sync is blowing 4GB of RAM on my machine right now, and that is delightful performance in this arena from what I've found.
+[22:47:33] BDS97: that sounds just weird
+[22:48:00] BDS97: anyway, I don't know how similar IPFS is to the idea I have, but it seems similar
+[22:48:17] BDS97: the idea would be a unified block storage system for Atropos
+[22:48:23] h0p3: IPFS is more general, but a Resilio Sync could be built on top of it.
+[22:48:57] BDS97: basically everything is split into uniform sized blocks, with two keys associated
+[22:49:15] BDS97: a locator hash and an encryption key, both computed from the address key
+[22:49:54] BDS97: so the idea is you can store it without knowing what's inside, you can retrieve it without disclosing the encryption key, but if you have the address key you can retrieve and read it
+[22:50:19] BDS97: and if you got larger files than a single block, you'd basically just build a tree of these things and retrieve all the blocks
+[22:50:40] BDS97: with some redundancy at every level of the tree because we don't want single points of failure
+[22:50:54] BDS97: so it wouldn't be too mutable either
+[22:51:15] BDS97: the idea is if you mutate it, you switch out the blocks, and you lose interest in the older version
+[22:51:41] BDS97: it's still there as long as we have the capacity to store it, but it's the one that gets replaced sooner
+[22:51:54] BDS97: now imagine this, distributed, globally
+[22:52:14] BDS97: and managed through a DHT or something more complex if we need it
+[22:52:20] BDS97: it would be basically one huge supertorrent
+[22:53:00] BDS97: a static site would have address keys as URLs, basically
+[22:53:24] BDS97: and there would be an address key for the main html file itself, or main whatever, because this isn't web-specific
+[22:53:50] BDS97: basically if you store that key and you make sure you don't lose interest in the chunks, you got a backup of the entire thing
+[22:54:11] BDS97: basically
+[22:54:17] BDS97: yeah, I'm using that word way too much
+[22:54:30] h0p3: Lol
+[22:55:04] BDS97: so it's currently half concept, half vision this way, but this would be the storage system
+[22:55:37] h0p3: the steps in the tree are stored in the first block(s)? right?
+[22:55:43] BDS97: yep
+[22:56:00] BDS97: so you got like a root level block, which has a bunch of block addresses in it
+[22:56:16] BDS97: and if it's not enough to list all the blocks, it refers to the list of all the blocks, that's the next level
+[22:56:19] h0p3: You could build arbitrary trees over the same set of blocks in a domain.
+[22:56:23] BDS97: and so on, as long as it's needed
+[22:57:04] BDS97: yeah, if you don't modify a file, the address key doesn't change and you can keep using it as long as you want to
+[22:57:39] BDS97: and even inside a file you could reuse chunks if you wanted to
+[22:57:44] h0p3: Are there any filesystems prebuilt with this in mind?
+[22:57:51] BDS97: no idea
+[22:58:00] BDS97: IPFS seems similar, I don't know how similar it really is
+[22:58:09] BDS97: I don't like the hash-based global deduplication
+[22:58:31] BDS97: it implies you can tell if two files are the same thing, that thing isn't compatible with a properly seeded encryption
+[22:59:28] BDS97: I don't want to give any censorship authority the ability to issue a list of locator hashes that cannot be seeded
+[22:59:42] h0p3: That limits the pool of seeders in a swarm, right?
+[23:00:00] BDS97: yep, that's true
+[23:00:12] BDS97: but the encryption is crucial IMO, this way you don't know what you're seeding
+[23:00:24] h0p3: Agreed
+[23:00:35] h0p3: Like Freenetish
+[23:00:45] BDS97: yep, I guess so
+[23:01:09] BDS97: also, it allows you to use it like a private thing
+[23:01:29] BDS97: like, you get your own "cloud drive" and it's basically a list of address keys
+[23:01:40] BDS97: you delete the address key, the file is deleted and unrecoverable
+[23:01:58] BDS97: it does mean those chunks are dead, but then again, with a good interest system that's solvable
+[23:03:02] BDS97: I'm thinking about mutability
+[23:03:20] BDS97: theoretically, this and the ANS would be enough
+[23:03:49] BDS97: but all changes propagate up the storage tree as long as they hit a mutable piece
+[23:04:31] BDS97: and I want to decouple that, you shouldn't need to issue a change in the ANS just because you change a file
+[23:06:28] h0p3: You know, one reason I enjoy speaking with you about decentralization is that you are concerned with a long-term vision that is high performance. You don't expect the project to be built overnight (3 years of planning, and however long we need). You break one of the social rules of programming by being willing to consider the ideal in how you think about optimizing up front. I think there are others I've met who consider this pre-optimization, and you know it's the right kind of dreaming.
+[23:06:53] h0p3: I ran across a sentence that has gripped me recently
+[23:06:55] h0p3: decentralize until it hurts, then centralize until it works.
+[23:07:24] BDS97: lol, nice, will keep that in mind
+[23:07:27] h0p3: the decoupling that you are talking about is one of the problems IPFS faces, imho
+[23:07:38] BDS97: yeah, we basically just need a link that
+[23:07:40] BDS97: 1. has an address
+[23:07:51] BDS97: 2. refers to an address (a single address is enough, we can wire it into a block)
+[23:08:04] h0p3: Dat avoids this problem, and it has perhaps not ideal version of git inside it.
+[23:08:08] BDS97: and 3. can change the address it refers to without changing its own address
+[23:09:03] BDS97: I don't think there would be a problem in leaving the data of old versions inside the system
+[23:09:17] BDS97: but there is a problem with the propagation of change up in the tree towards the root
+[23:10:07] BDS97: adding a mutable leaf type solves it, but mutability is a hard problem
+[23:10:23] BDS97: how do you ensure you always get the most recent version?
+[23:10:53] BDS97: it's eventual consistency (CAP theorem and all that stuff), that's for sure, but even then, how do you ensure dishonest nodes don't just lie about it?
+[23:11:10] h0p3: Why is mutability a hard problem? Prented I'm a fucking idiot (because I am).
+[23:11:14] h0p3: pretend*
+[23:11:31] BDS97: if you make a mutable block, you can compute a hash for it
+[23:11:41] BDS97: let's say it's block 42a6
+[23:11:58] BDS97: *immutable block
+[23:12:22] BDS97: now, that block will only have one content, and you can easily make the address its own hash to verify it
+[23:12:33] BDS97: so you either retrieve it or not, there's no ambiguity there
+[23:12:50] BDS97: but if you make a mutable block, you can't make its address the hash of its content, because that would make it immutable
+[23:13:09] BDS97: you usually make the address the hash of the public key and issue newer versions with the private key
+[23:13:16] BDS97: but that's where you get the problem
+[23:13:23] BDS97: the older version is still valid
+[23:13:53] BDS97: let's say it's a97c.0 and a97c.1, the .1 version being the newer one
+[23:14:10] BDS97: if some node serves you a97c.0, you can't tell a97c.1 even existed
+[23:14:19] BDS97: and you just retrieved old data from the system
+[23:14:37] BDS97: it's not that you need to be able to erase it, it's more about not erasing updates
+[23:15:05] BDS97: it's basically the same problem as double-spending bitcoins, but we can't make a blockchain for literally every mutation
+[23:15:47] h0p3: Yes! I see it.
+[23:17:05] h0p3: I don't know the way to solve that problem.
+[23:17:37] h0p3: I don't understand the tradeoffs either.
+[23:17:44] BDS97: I think once we solve this, by building a global supertorrent out of mutable junctions and immutable data blocks we'll have a truly resilient, high-performance, and universal distributed storage system
+[23:18:03] BDS97: well, ANS is one type of mutable junction
+[23:18:07] h0p3: With naming done right
+[23:18:11] h0p3: I'm going to ask you to point out everytime a cache invalidation or naming problem shows up. I still don't understand enough CS about these concepts (which means I probably don't know anything). They are hard probelms, and I don't know why well enough.
+[23:18:47] BDS97: cache invalidation is hard because it's impossible to know when you'll need that data next time
+[23:18:54] BDS97: and naming is hard because it takes creativity
+[23:19:00] h0p3: Lol!
+[23:19:14] h0p3: It's true.
+[23:19:33] BDS97: yeah, definitely agreed on that
+[23:19:57] BDS97: I believe we'll need both ANS and a separate type of junction too
+[23:20:28] BDS97: ANS does one more thing on top of being mutable, it solves Zooko's triangle too
+[23:20:55] h0p3: You have pointed me here many times, and I always ask you to explain. Forgive me for asking again.
+[23:21:52] BDS97: zooko's triangle is basically a paradox that says you can only have two of three qualities
+[23:21:58] BDS97: decentralized, secure, and human-meaningful
+[23:22:04] BDS97: it's basically about naming things, so there we are
+[23:22:13] BDS97: you know how .onion domains are basically hashes, right?
+[23:22:20] h0p3: Yes
+[23:22:30] BDS97: that's because they choose decentralized and secure out of the three
+[23:22:44] h0p3: Correct, and then you grind for vanity.
+[23:22:48] BDS97: it's basically a hash of a public key that authenticates the owner of the domain
+[23:23:28] BDS97: if you want to directly control the name, with traditional solutions you must give up either decentralization or security
+[23:24:01] BDS97: you can give up security by not cryptographically verifying the name
+[23:24:08] BDS97: it's basically a filename at that point
+[23:24:16] BDS97: but then anyone else can impersonate that name
+[23:24:34] BDS97: and you can give up decentralization by making a centralized registry of who owns which name
+[23:24:38] BDS97: which is basically a DNS system
+[23:25:00] BDS97: and in one way, we solve it from this angle
+[23:25:12] BDS97: essentially a blockchain is a form of centralization
+[23:25:24] BDS97: but paradoxically it's a decentralized form of it
+[23:25:53] BDS97: it's one central database that no one controls and everyone uses
+[23:26:36] h0p3: This is why I like LF. 
+[23:27:00] BDS97: LF is basically an IOTA-like blockchain without a tradeable token
+[23:27:40] BDS97: IOTA-like as in the "tangle", switching up the direct chaining of a traditional blockchain to a directed acyclic graph (DAG)
+[23:28:24] BDS97: a DAG is basically just a kind of chain where every block links to random previous entries instead of one specific previous entry
+[23:28:50] BDS97: I'm reading up on this "tangle" right now, it could be very useful
+[23:42:05] h0p3: Find the heaviest thread in a tree based upon PoW at each step of the tree, right? Good lightning is built on this. This allows shards to merge together in a way?
+[23:42:31] BDS97: seems like that
+[23:43:08] h0p3: Wow.
+[23:43:27] BDS97: I'm still trying to understand how to build it and how it is stable, but the existence of systems like IOTA are kind of a proof of concept already
+[23:46:20] BDS97: I think if we go with the previous system
+[23:46:52] h0p3: I like reading on the internet with you, btw. I'm like your retarded brother you let tag along in thinking about this.
+[23:47:16] h0p3: I would never have found that by myself either.
+[23:47:55] BDS97: if you decide to watch youtube in the future, there's a podcast called "Our Ludicrous Future"
+[23:48:10] BDS97: I feel like you're acting like Joe from that team
+[23:48:55] BDS97: basically, it's a team of three, one is a rocket expert, one is an economic expert, and one finds random interesting things and makes videos about those
+[23:49:47] BDS97: anyway, if you start watching them, I think you'll see it, but the point is, he's the one who always says he can't contribue that much, and yet brings some of the most interesting things there
+[23:50:52] BDS97: so going back here, yeah, I may have technical knowledge, but you also send me a lot of interesting things I'd have never found otherwise
+[23:51:10] h0p3: Lol, good. I feel better. 
+[23:52:18] BDS97: btw, speaking of the system
+[23:52:54] BDS97: I'm not entirely convinced yet that the tangle is strong enough to prevent things like stealing a domain or a username
+[23:52:58] BDS97: which is kind of a big deal
+[23:53:22] BDS97: but it seems strong enough for the mutable junctions
+[23:53:39] BDS97: you get the athenticity from the mutator key, which is verifiable because its hash is the address itself
+[23:54:03] BDS97: meaning you can't forge an invalid junction
+[23:54:14] BDS97: all you can try is a replay attack
+[23:55:05] BDS97: and I think we can make an IOTA-like chain that tracks the latest version of each junction
+[23:56:07] h0p3: One thing I like about password hashing is that a bit of work upfront does a fuckton of work down the road. Can vanity hashing be used in a way that makes building a domain name cost too much? Like, are there rainbow table attacks to eliminate here?
+[23:56:34] h0p3: What does it cost to make a domain name?
+[23:57:20] BDS97: I'm thinking not a lot, it should be easy enough that it runs in a minute or two on a user's machine at most
+[23:57:31] BDS97: but there should definitely be a proof of work for it
+[23:57:31] h0p3: I like that.
+[23:58:19] h0p3: It is possible to scale up the security value of doing more proof of work in our initial domain registration?
+[23:58:42] h0p3: Or, must it be set?
+[23:59:14] BDS97: I'm not sure what would be the right value for that
+[23:59:41] BDS97: we could just assume that storage improves at the same pace at compute power and just pick a value that works today
+[00:00:38] BDS97: also, the ANS and the mutable junctions would be two different systems
+[00:01:56] h0p3: Huh. I'm obviously lost, I'm sorry. Bad question incoming: How does the storage tree map onto the DAG? One block at a time, the thread in the DAG tree gives us a sequence of blocks? Does mutability in the DAG work in the sense that the person with the private key can announce the next true block, and everyone who agrees that is the correct private key will start seeding that block?
+[00:02:25] h0p3: Is the PoW based upon storing data in a useful way?
+[00:02:55] h0p3: So wrong, it's not even wrong, lol.
+[00:03:05] BDS97: the nodes of the DAG would be leaves of the storage tree
+[00:03:11] BDS97: they would be the mutable leaves, basically
+[00:03:26] BDS97: and they only have one child leaf each
+[00:03:45] BDS97: the larger, non-DAG storage blocks would be static
+[00:03:59] h0p3: Oh, I see. So when I update with my private key, a new starting leaf is made, right?
+[00:04:34] BDS97: yep, you submit a new node into the DAG, and redirect your mutable leaf to a different immutable leaf
+[00:05:05] BDS97: and then there's ANS, which is a separate chain, and it's essentally a collection of named root leaves
+[00:05:44] h0p3: Can you give me an example of a named root leaf?
+[00:05:52] h0p3: Break one down
+[00:06:13] BDS97: so let's say we make a domain called "atropos.a"
+[00:06:32] BDS97: the name itself should be more like "d/atropos.a" or something similar
+[00:07:22] BDS97: then we hash that, it's our root hash, rH
+[00:07:42] BDS97: we make a hash from that, lH, which is the locator hash
+[00:07:50] BDS97: and we make the mask hash, mH
+[00:08:04] BDS97: then we get the locator of the leaf it refers to, let's just call it l
+[00:08:22] BDS97: the ANS entry is simple, it's lH and mH xor l
+[00:08:39] BDS97: `lh` and `mH xor l` (does tox still know markdown?)
+[00:08:42] h0p3: why does it need a mask?
+[00:08:51] h0p3: just so we can xor?
+[00:09:09] BDS97: because this way you can't know what the entry refers to if you don't know the name itself
+[00:09:22] BDS97: you're seeing two hashes, 64 bytes of randomness, and that's it
+[00:09:34] h0p3: I see.
+[00:09:40] h0p3: I like that.
+[00:09:48] BDS97: if you know the name, you can compute `lH` and find the domain, and you can compute `mH` to decode `l`
+[00:11:40] h0p3: how is mH computed?
+[00:11:45] BDS97: basically, the idea is persistent through the entire system, if you don't know the address, whether that's a name or a hash, you don't get to follow the chain
+[00:12:02] BDS97: both `mH` and `lH` are computed from `rH` with a different HMAC key
+[00:12:31] h0p3: Walk me through the origins of those keys, please.
+[00:13:04] BDS97: so basically `rH = hash(address)`, `mH = HMAC('mask', rH)`, and `lH = HMAC('locator', lH)`
+[00:13:43] BDS97: so we just need two constants in the protocol itself
+[00:13:46] BDS97: wouldn't be the first time
+[00:14:35] h0p3: Good. I'm just trying to understand. Is this a good place to make the "Atropos" or the "Sol" of LF?
+[00:14:58] BDS97: yeah, I'm pretty sure we're going to make one big network
+[00:15:08] BDS97: don't really see the point of the smaller private networks here
+[00:15:17] BDS97: I do for LF, but that's because LF is built that way
+[00:15:49] h0p3: Aye. We prefer it to be one network to get all the properties we want. Network effect is important here.
+[00:15:58] BDS97: yep
+[00:16:08] BDS97: then, once we got this system, we can build a lot on this
+[00:16:18] BDS97: for example a user system
+[00:16:30] BDS97: you register the username in the ANS, get a "public" tree
+[00:17:03] BDS97: in the public tree you also store a seed for a password, and with that once you enter the password, you gain access to the private tree (I kinda like calling it the vault)
+[00:18:07] h0p3: How does that tree grow?
+[00:18:32] BDS97: you store addresses in it, essentially
+[00:18:55] BDS97: you sometimes wire a mutable key into the tree, that allows you to stop the propagation of change
+[00:19:03] BDS97: but you can control both that and your ANS record
+[00:19:31] BDS97: speaking of ANS, we need to store three hashes, not two
+[00:19:47] BDS97: the third is the hash of the public key that's allowed to change the record
+[00:20:02] BDS97: the locator hash is static, but the masked address key can change
+[00:20:07] BDS97: aaaand I'm an idiot
+[00:20:27] BDS97: we're reusing a keystream there, that's bad
+[00:20:40] h0p3: Wait, I don't understand. Walk me through that.
+[00:20:43] BDS97: it's alright, we just need a nonce
+[00:21:01] BDS97: so, basically, without the nonce, `mH` is static
+[00:21:17] BDS97: and remember, `l xor mH` is public
+[00:22:05] BDS97: now, if you change `l` without changing `mH`, you get the xor of the old vs new
+[00:22:24] BDS97: and now I'm not sure if that's a problem
+[00:22:38] BDS97: it certainly sounds like it, cryptography systems are broken all the time like this
+[00:23:00] BDS97: but the whole point of an ANS record is the locator (`lH`) is static because the address is static
+[00:23:03] BDS97: it's a domain after all
+[00:23:06] h0p3: Is it ever wrong to add a (true) nonce?
+[00:23:10] BDS97: (or username, or any other name)
+[00:23:16] h0p3: Just the performance hit, right?
+[00:23:23] BDS97: no, but I'm not sure if we need the 33% padding there
+[00:23:33] BDS97: I mean if you know the name, you know all the locators anyway
+[00:23:39] BDS97: and if you don't, you know none of them
+[00:23:45] BDS97: and xor is weird like that
+[00:24:11] BDS97: if you have more than one missing piece, you're not getting anything out of it
+[00:24:31] BDS97: the problem with reusing keystreams in encryption is sometimes you can guess what the data behind it
+[00:24:40] BDS97: but with this system, that data is an unknown hash
+[00:24:47] BDS97: essentially full entropy
+[00:24:48] h0p3: How does the guess go?
+[00:25:14] BDS97: let's say you're decrypting HTTP communications
+[00:25:26] BDS97: you guess a basic HTTP header, might have a few errors in it, might be actually correct
+[00:26:01] BDS97: and try to make sense to the other parts based on that
+[00:26:26] BDS97: personally I've never used it, but it's a possible attack
+[00:26:37] h0p3: They know where in the stream of packets the encrypted HTTP header would show, and they guess it's got some particular string right there?
+[00:26:44] BDS97: yep
+[00:26:46] BDS97: essentially
+[00:27:10] h0p3: That weakens the rest of the chain, allowing more specific generalizations about what function could create that encrypted slice?
+[00:27:12] BDS97: thing is, if you encrypt two messages with the same keystream, the xor of the two ciphertexts is the xor of the two plaintexts
+[00:27:43] BDS97: and that allows you to attack them together, and if you're ingenious enough you can sometimes leak some data
+[00:27:59] BDS97: but in our case all messages encrypted are just hashes
+[00:28:19] BDS97: there's no pattern there, it's all entropy
+[00:28:38] BDS97: technically, you could still go from one hash to another if you knew even one
+[00:29:00] BDS97: because if you know `h1` and `h1 xor h2` you can compute `h2`
+[00:29:20] BDS97: but in our case, it's the same domain name, so if you know one version of it you know all of them
+[00:30:54] BDS97: yeah, I think we got it, now that I'm thinking about the system as a whole
+[00:31:20] BDS97: immutable blocks, mutable junctions, and the ANS
+[00:31:35] BDS97: I think we can build anything out of these
+[00:34:21] h0p3: So, ANS solves Zooko's triangles. It is it's own DAG, right? It also chooses the correct DAG for storage?
+[00:34:44] h0p3: Correct line in the DAG* for storage
+[00:34:55] BDS97: I'm pretty sure it'll be a regular chain
+[00:35:08] BDS97: that's a lot harder to attack than a DAG "tangle"
+[00:36:38] BDS97: ideally, we could make a mining algorithm on that chain too that incentivizes hosting this whole thing
+[00:37:47] h0p3: Everyone who is seeding the file will be in the correct leaf. But, the key which picks out which leaf isn't mutable, so it doesn't need a DAG.
+[00:38:23] BDS97: ...deciphering...
+[00:38:27] h0p3: Oh, sorry.
+[00:38:33] h0p3: Ignore it then.
+[00:38:53] BDS97: the basic idea is a regular chain has much better properties for ANS than a DAG
+[00:39:18] BDS97: it has much lower bandwidth though, but that's fine, because we can offload most of the mutations to the DAG
+[00:39:46] BDS97: and we still need an incentive system, so putting that to the ANS chain seems like a win-win
+[00:40:49] h0p3: An incentive to access the mutable DAG with human readable names.
+[00:42:43] h0p3: Is there a way to incentiving hosting the mutable content on a DAG tree? I assume trust in holding data worth holding is one, like filtration/moderation, putting a human algorithm on deciding what books they would pay space for is the best we can do.
+[00:43:35] h0p3: I assume the ANS chain's incentives should not be coupled with that incentive or needs something much stronger.
+[00:46:26] BDS97: The basic idea would be incentivising hosting everything
+[00:46:33] h0p3: Aye. 
+[00:46:40] BDS97: the static blocks, the DAG, and the ANS chain too
+[00:49:43] h0p3: That is a decentralized web. 
+[00:51:36] h0p3: Trustworthy names, mutability, static content scales hard
+[00:58:27] BDS97: kind of how I imagine the architecture right now
+[01:05:22] h0p3: Is it fair to say there is a heavier centralization element to the ANS chain, and a higher decentralization element to the DAG?
+[01:06:33] BDS97: yep, definitely
+[01:06:53] BDS97: but the thing is, you still want your name to mean your stuff everywhere, so that's a kind of centralization
+[01:06:53] h0p3: ANS is our federation, of course, and DAG our P2P
+[01:07:24] h0p3: Maybe*
+[01:07:41] h0p3: Yeah, we have to centralize power in places, there is no way around that problem.
+[01:11:09] h0p3: This does seem to be about that: Decentralize until it hurts, and centralize until it works. Naming is fundamental to having a working anything which could virtualize a functioning web on top of the internet (much better than i2p, Tor, etc.). This will completely replace and decentralize the hosting of the WWW, including who controls what points where. It allows each of us to be servers in a way that cannot be censored so easily, and with anonymity or privacy when we want it.
+[01:15:17] BDS97: yeah, agreed
+[01:15:26] BDS97: this will be a true cloud, where your data is stored "somewhere", but not under the control of some random corporation
+[01:15:43] BDS97: and it's going to enable us to create apps that serve us and that we serve for each other
+[01:16:08] BDS97: completely sidestepping issues like "who's gonna pay for the servers"
+[01:16:59] BDS97: it allows for true privacy, anonymity, and full censorship resitance
+[01:17:35] BDS97:  this is why, IMO, the next logical step after this would be the creation of the Atropos Hub
+[01:18:09] h0p3: sec
+[01:21:58] h0p3: Hrm. Btw, qTox crashed and I lost our chatlog. I'm going to try to fix it. Brb.
+[01:22:09] h0p3: My chatlogs haven't been working for a while, and I need to fix that.
+[19:27:31] BDS97: yeah, same here, I get like 30-40 messages and that's it
+[19:27:55] h0p3: Can you copy and paste what you have today or send me a file?
+[19:28:37] h0p3: give me a sec, still testing
+[19:30:34] BDS97: btw it does keep the full chat history in the db file, but doesn't show it, according to what I found so far
+[19:35:38] h0p3: Hrm. Appears my DB is corrupted.
+[19:37:41] BDS97: ouch
+[19:37:45] BDS97: what format is it btw?
+[19:40:13] h0p3: I have no idea.
+[19:40:47] BDS97: did you try removing the lockfile?
+[19:41:07] BDS97: that's the only debug attempt I could have for now
+[19:41:13] BDS97: have to check out how tox works
+[19:41:26] BDS97: (or build a better one once we get there)
+[19:43:44] h0p3: SQLite, might be able to import manually
+[19:44:06] BDS97: nice
+[19:44:15] BDS97: that was my first guess, but mine doesn't open with the sqlite browser
+[19:44:20] BDS97: might be the encryption 

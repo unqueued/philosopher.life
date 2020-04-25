@@ -1,0 +1,142 @@
+Belated update because I totally got distracted by video games yesterday: I got the "File Backups" addon working after an update/reset.
+SEP 2 12:31 PM
+yay =)
+SEP 2 12:31 PM
+so, you now have a working TW at the moment
+SEP 2 12:31 PM
+Yee
+SEP 2 12:31 PM
+So TW-Bob was a thing I need too yes?
+SEP 2 12:33 PM
+If you want simultaneous access to your wiki, yes.
+SEP 2 12:33 PM
+I almost always have my wiki up in multiple tabs with different story rivers.
+SEP 2 12:34 PM
+That is only feasible with Bob
+SEP 2 12:34 PM
+Also, the ability to edit the same wiki from multiple devices at the same time can only be done with Bob.
+SEP 2 12:34 PM
+Sounds like I should get that up and running then
+SEP 2 12:35 PM
+=)
+SEP 2 12:35 PM
+Yup.
+SEP 2 12:35 PM
+Note, there are gremlins in TW5-Bob.
+SEP 2 12:35 PM
+Sphygmus just hit one last night, and [[j3d1h]] and I haven't been able to troubleshoot it either (only Sphygmus and I have encountered the bug in our wikis though). This is alpha software.
+SEP 2 12:36 PM
+Still, I think TW5-Bob is the way to go!
+SEP 2 12:36 PM
+Setting up good backups will go a very long way.
+SEP 2 12:36 PM
+^ Right
+SEP 2 12:37 PM
+Apparently someone made an addon for backing up TW in Google drive? Thought that was interesting.
+SEP 2 12:37 PM
+Oh yes, there are many ways to save and backup TW.
+SEP 2 12:37 PM
+Dumb question that I might already know the answer to
+SEP 2 12:41 PM
+Yes, Cardi B is that cool.
+SEP 2 12:41 PM
+Lol... not quite. In order for TW5-Bob to work I have to have the host computer on the whole time yes?
+SEP 2 12:41 PM
+Correct.
+SEP 2 12:42 PM
+TW5-Bob is a server
+SEP 2 12:42 PM
+Will zero-tier change that at all?
+SEP 2 12:42 PM
+It is based on the nodejs tiddlywiki server.
+SEP 2 12:42 PM
+Nope.
+SEP 2 12:42 PM
+Got it. So I should download it on my monster then and not here.
+SEP 2 12:42 PM
+Zerotier is going to hook all of your machines up to a server that pokes holes through you NATs to connect your devices to together. It creates a virtualized ethernet card, assigning an IP from that network to your machine.
+SEP 2 12:43 PM
+That is up to you.
+SEP 2 12:43 PM
+Or maybe not? Idk... I will be mostly using my wiki on this computer... Hmmm.
+SEP 2 12:43 PM
+You could run this in a datacenter that's up 24/7.
+SEP 2 12:44 PM
+Most people do it that way.
+SEP 2 12:44 PM
+Here's what I would do in your shoes. Install Virtualbox on your Windows machine, install Manjaro in Virtualbox.
+SEP 2 12:45 PM
+(plus, good practice)
+SEP 2 12:45 PM
+Run TW5-Bob on both machines, and use Resilio Sync to sync the files between laptop and desktop.
+SEP 2 12:46 PM
+You have answered my questions before they even arrived. I like it.
+SEP 2 12:47 PM
+Also use zerotier, and keep the desktop's VM up 24/7 (you'll probably want zerotier installed on host and guest, lol). This will make it so your phone doesn't have to run an instance, but you are running an instance on your laptop so that you get good performance.
+SEP 2 12:47 PM
+(you'll want to lookup the command to run the VM automatically from startup in Windows too)
+SEP 2 12:47 PM
+That is a complicated mess, I realize. I'm throwing you into the deepend.
+SEP 2 12:47 PM
+But, it buys you everything you want for free, you own it, it scales up, it's flexible and performant.
+SEP 2 12:48 PM
+I do not suggest using KDE for your VM.
+SEP 2 12:49 PM
+It may be a complicated  mess but I don't exactly need to have it all up and running immediately
+SEP 2 12:49 PM
+God, you are so much wiser than I am.
+SEP 2 12:49 PM
+I have no patience.
+SEP 2 12:49 PM
+You'll probably want a DE for the VM, so I'm going to suggest you use the very lightweight XFCE variant of Manjaro. (It's extremely simple, it doesn't have many bells and whistles, but it gets the job done)
+SEP 2 12:50 PM
+I think I have too much lol
+SEP 2 12:50 PM
+That sounds best in this particular case. Don't want anything too heavy
+SEP 2 12:53 PM
+...the names of these TW5-Bob versions are just great. "Pretzel Nubs" and "Actually Garlic Bagels"
+SEP 2 1:00 PM
+We are so lucky to have a hacker like him building this.
+SEP 2 1:01 PM
+Apparently there are issues with KDE getting the browser to open automatically... I am not even sure if that's a problem that will bother me
+SEP 2 1:02 PM
+Hm. I bet that is solvable.
+SEP 2 1:03 PM
+It was also as of Dec 2018
+SEP 2 1:03 PM
+Ah, yeah.
+SEP 2 1:03 PM
+So, he provides the executable code but I want to understand it before I go typing away
+SEP 2 1:04 PM
+Yup.
+SEP 2 1:08 PM
+You also provides the executable binary, but I do not recommend it unless that is your only option.
+SEP 2 1:08 PM
+...you can make cloning processes "quiet" or "verbose"? Huh.
+SEP 2 1:09 PM
+Sometimes you want a lot of information for debugging or triggering events.
+SEP 2 1:11 PM
+Sometimes you just want it to shut up
+SEP 2 1:11 PM
+Right
+SEP 2 1:18 PM
+The phrase "Triggering Events" gives me work flashbacks.
+SEP 2 1:21 PM
+Lol =)
+SEP 2 1:21 PM
+I question my life choices
+SEP 2 2:02 PM
+lol
+SEP 2 2:02 PM
+Yeah, I question mine too.
+SEP 2 2:03 PM
+My college friends are over and one of them always brings interesting alcohol to try
+SEP 2 2:04 PM
+I have had WAY too much mead
+SEP 2 2:04 PM
+And it's only 2PM
+SEP 2 2:04 PM
+Good times. =)
+SEP 2 2:05 PM
+Good thing I'm playing a Scottish character in this oneshot we're playing lol
+SEP 2 2:05 PM

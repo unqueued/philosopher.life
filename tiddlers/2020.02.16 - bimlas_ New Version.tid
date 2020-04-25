@@ -1,0 +1,46 @@
+created: 20200217032118627
+modified: 20200218062239351
+tags: bimlas Note To
+title: 2020.02.16 - bimlas: New Version
+
+<<<
+If had to guess, for some reason my address might be on an email blacklist (maybe because I share a lot of links?). It happened that others didn't receive my letter as well.
+<<<
+
+Hrm. That is curious. Sorry, dude. =/. Glad you reached out again though. I'm going to respond over my wiki, of course. You should think about joining ~~me~~ us in doing so. Might be interesting for you.
+
+<<<
+I just wanted to ask you to write an introduction if you have the time and feel like it because I think you are the only one who really understands what the plugin is all about.
+<<<
+
+Oh, I would be honored. I doubt I'm the only one who understands what it's about, lol. I also don't think I understand the implications of tool nearly well enough. It's changed enough and I still don't have enough practice to feel like I can see far enough. It's different, and it leaves most of us scratching our heads (I [[hope]] you know this is a compliment). 
+
+<<<
+Most people just do not understand what it is used for, how it works, even though I really feel I have done everything to make it understandable. Although looking back at the old version, it wasn't really clear. Users say the new version is not entirely clear, but based on positive feedback, it seems easier to understand than it was. If you feel you can complete the description, I will be happy to accept it. You easily express yourself in English, it's harder for me.
+<<<
+
+I'm hard-pressed to say it better than you did. I think you are selling yourself short here.
+
+The new version is different too. I hate to say it, but I feel like it's less clear how to use the new version (though it is more powerful). I don't think I can express what I don't understand well enough here. I need time. I think you've got a tool here which people have to use to understand.
+
+<<<
+Many times I feel like I've redeemed the world with the plugin I just invented, but sometimes I get just a little feedback and it also suggests that the plugin isn't perfect. Others write a minimal line of code and everyone applauds. I feel like it's not okay, but I don't mind because I know that what I've done is usefull for some people (like myself :D ).
+<<<
+
+Haha. Your tool is leet, no doubt. It's not perfect, but that's okay.
+
+I'm sorry you are feeling a bit discouraged. There are a few authors who make incredible tools for TW that don't get enough coverage. Investing oneself in TW is expensive, and I think you have to have a really big wiki to see the [[beauty]] of your tool with any consistency. There's probably a whole bunch of factors that go into it, including how well you remember your own wiki, how much effort was put into structuring it, and so on. I can see why not a lot of people recognize the utility of it, which isn't to denigrate the tool (I wish more people used TW, lol).
+
+<<<
+Sorry to complain, but outside of Google Groups, there is no one I can talk to about TiddlyWiki.
+<<<
+
+Unfortunately, I'm a skiddie. I'm not very useful at talking about TW in too many respects. What's happening under the hood is something I avoid unless I desperately need something. It's the processes that I build on top of TW, in virtue of TW but not via writing code, that tend to be where I spend most of my time. 
+
+Why do you think TW hasn't caught on more? Why isn't it more popular? [[Sphygmus]] and I have talked about this several times. I'd like to see your take as well.
+
+<<<
+Yes, it still seems to be a feasible goal. I said it's not a good idea to do a graphical filter builder because locator is good for finding fixed values, for example, but if I want to filter by date ranges, I have to add new input fields (start and end dates). If I were to look for what I changed in February of any year, it would require a different input field (month selector). So basic filtering can be done graphically, but the more complex the filtering we want to perform, the harder it will be to create the right interface. 
+<<<
+
+Well, maybe you should ease up on going so graphical, and add more text-based input. It feels like you have the most unique search tool, and that might do some serious work for you. I don't know. I'm unqualified to say what it is and where it should go. I feel like a kid using the tool.

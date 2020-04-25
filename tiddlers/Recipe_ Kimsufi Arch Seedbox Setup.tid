@@ -1,0 +1,511 @@
+created: 20180208021601001
+modified: 20200209053752677
+tags: Recipe
+title: Recipe: Kimsufi Arch Seedbox Setup
+
+As root:
+
+<<<
+```bash
+passwd
+timedatectl set-ntp true
+useradd -m h0p3
+passwd h0p3
+pacman -S sudo vi nano reflector cronie --noconfirm
+reflector --latest 200 --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+systemctl enable cronie.service && systemctl start cronie.service
+```
+<<<
+
+Root cronjobs using `crontab -e`:
+
+<<<
+0 2 1 * * reflector --latest 200 --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+<<<
+
+Add h0p3 to sudoers:
+
+<<<
+`visudo`
+
+Below root in `# User privilege specification` add the following (`i` to insert):
+
+`h0p3 ALL=(ALL) ALL`
+
+`Esc`, `shift+ZZ` to exit
+<<<
+
+
+Configure SSH for safety:
+
+<<<
+Edit `/etc/ssh/sshd_config`
+
+Set `PermitRootLogin no`
+
+Set `Port 4222`
+
+Save and exit.
+
+`systemctl restart sshd`
+
+On your local machine, run [[lussh]] to log in: `ssh h0p3@ks.philosopher.life -p 4222`
+<<<
+
+Install yaourt & The Goods:
+
+<<<
+Add the following to `/etc/pacman.conf`
+
+```
+[archlinuxfr]
+SigLevel = Never
+Server = http://repo.archlinux.fr/$arch
+```
+```bash
+sudo pacman -Sy yaourt --noconfirm
+
+# The CLI Goods
+sudo pacman -S smem toxic tldr lftp mc htop ncdu bmon nethogs mtr aria2 w3m weechat finch sshuttle --noconfirm
+yaourt -S firetools mbox-git xonsh discus byobu dtrx neofetch --noconfirm
+```
+<<<
+
+
+Setup neomvim:
+
+<<<
+```bash
+sudo pacman -S neovim xclip --noconfirm
+mkdir -p ~/.config/nvim
+echo 'source ~/.nvimrc' > ~/.config/nvim/init.vim
+```
+
+Paste the following into `~/.nvimrc`
+
+{{.nvimrc}}
+
+
+<<<
+
+
+Setup zsh:
+
+<<<
+```bash
+yaourt -S antigen-git --noconfirm
+```
+
+Paste the following into `~/.zshrc`
+
+{{.zshrc}}
+
+```bash
+sudo chsh -s /bin/zsh
+chsh -s /bin/zsh
+zsh
+```
+
+Paste the following into `~/.zlogin`
+
+```bash
+clear
+```
+<<<
+
+
+Simple Opsec:
+
+<<<
+```bash
+# sudo tiger
+yaourt -S tiger --noconfirm
+
+# sudo lynis audit system
+sudo pacman -S lynis --noconfirm
+
+# arch-audit --upgradable --quiet
+sudo pacman -S arch-audit --noconfirm
+
+# sudo rkhunter --update -c --sk 
+sudo pacman -S rkhunter --noconfirm
+
+# This requires some setup
+sudo pacman -S fail2ban --noconfirm
+```
+
+Insert the following into `/etc/fail2ban/jail.local`
+
+```
+[sshd]
+enabled = true
+port = 4222
+
+[webmin-auth]
+enabled = true
+
+[INCLUDES]
+before = paths-arch.conf
+
+[DEFAULT]
+ignorself = true
+ignoreip = 127.0.0.1/8 ::1
+bantime  = 1h
+findtime  = 10m
+maxretry = 10
+backend = auto
+usedns = yes
+logencoding = auto
+banaction = iptables-multiport
+banaction_allports = iptables-allports
+```
+
+```bash
+sudo systemctl enable fail2ban.service
+sudo systemctl start fail2ban.service
+```
+<<<
+
+
+Remote Admin:
+
+<<<
+```bash
+yaourt -S webmin --noconfirm
+sudo pacman -S perl-net-ssleay --noconfirm
+sudo systemctl enable webmin
+sudo systemctl start webmin
+```
+Login as root @ `https://ks.philosopher.life:10000` and configure.
+<<<
+
+
+Setup Resilio Sync:
+
+<<<
+```bash
+yaourt -S rslsync --noconfirm
+mkdir -p ~/.config/rslsync
+#sudo cp /etc/rslsync.conf ~/.config/rslsync/rslsync.conf
+#sudo chown -R $USER ~/.config/rslsync/rslsync.conf
+```
+
+
+Paste the following into `~/.config/rslsync/rslsync.conf` (edit the password):
+
+```
+{
+   "device_name": "Kimsufi",
+   "listening_port" : 4289, // 0 - randomize port
+
+/* storage_path dir contains auxilliary app files if no storage_path field: .sync dir created in current working directory */
+  "storage_path" : "/home/h0p3/var/lib/rslsync",
+
+/* set location of pid file */
+  "pid_file" : "/home/h0p3/var/run/resilio/resilio.pid",
+
+/* use UPnP for port mapping (not necessary for Kimsufi) */
+  "use_upnp" : true,
+
+/* Enable WebUI */
+ "webui" :
+  {
+    "listen" : "0.0.0.0:4288"
+
+  /* preset credentials */
+   ,"login" : "h0p3"
+   ,"password" : "password"
+  }
+
+}
+```
+
+```bash
+# Create files (or it will fail)
+mkdir -p /home/h0p3/var/lib/rslsync
+mkdir -p /home/h0p3/var/run/resilio/
+touch /home/h0p3/var/run/resilio/resilio.pid
+
+systemctl --user enable rslsync
+systemctl --user start rslsync
+```
+
+On the web, login to `ks.philosopher.life:4288` and configure.
+<<<
+
+Setup Deluge:
+
+<<<
+`sudo pacman -S deluge python2-mako --noconfirm`
+
+Paste the following into `/etc/systemd/user/deluged.service`
+
+```
+[Unit]
+Description=Deluge Daemon
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/deluged -d -P %h/.config/deluge/deluge.pid
+
+[Install]
+WantedBy=default.target
+```
+
+```bash
+mkdir -p ~/.config/deluge/plugins
+echo "user:password" >> ~/.config/deluge/auth
+sudo pacman -S python2-pip python-pip --noconfirm
+sudo pip2 install service_identity
+
+# Must be on both server and client; thin client might let you upload it
+aria2c -d ~/.config/deluge/plugins https://bitbucket.org/bendikro/deluge-yarss-plugin/downloads/YaRSS2-1.4.3-py2.7.egg
+aria2c -d ~/.config/deluge/plugins http://forum.deluge-torrent.org/download/file.php?id=6306
+
+systemctl --user enable deluged
+sudo loginctl enable-linger h0p3
+systemctl --user start deluged
+deluge-console "config -s allow_remote True"
+deluge-console "config allow_remote"
+systemctl --user restart deluged
+```
+
+Add the following to `~/.config/systemd/user/deluge-web.service`:
+
+```
+[Unit]
+Description=Deluge Web UI
+After=deluged.service
+
+[Service]
+ExecStart=/usr/bin/deluge-web
+
+[Install]
+WantedBy=default.target
+```
+
+```bash
+systemctl --user enable deluge-web
+systemctl --user start deluge-web
+```
+
+
+* Setup Thin Client
+* Setup Xirvik's Extension
+* Setup Deluge Extensions
+* Setup RSS Feeds: [[~/.config/deluge/yarss2.conf]]
+<<<
+
+Setup h0p3's Wiki Mirror:
+
+<<<
+```bash
+sudo pacman -S lighttpd certbot --noconfirm
+sudo chmod -R 757 /srv/http
+```
+
+Make `/etc/lighttpd/lighttpd.conf` contain the following:
+
+```
+server.modules = (
+        "mod_access",
+        "mod_redirect",
+        "mod_compress",
+        "mod_openssl"
+)
+
+server.document-root        = "/srv/http"
+server.upload-dirs          = ( "/var/cache/lighttpd/uploads" )
+server.errorlog             = "/var/log/lighttpd/error.log"
+server.pid-file             = "/var/run/lighttpd.pid"
+
+server.username             = "http"
+server.groupname            = "http"
+server.port                 = 80
+index-file.names            = ( "index.php", "index.html", "index.lighttpd.html" )
+url.access-deny             = ( "~", ".inc" )
+
+static-file.exclude-extensions = ( ".php", ".pl", ".fcgi" )
+
+compress.cache-dir          = "/var/cache/lighttpd/compress/"
+compress.filetype           = ( "application/javascript", "text/css", "text/html", "text/plain" )
+
+mimetype.assign = (
+  ".html" => "text/html",
+  ".txt" => "text/plain",
+  ".jpg" => "image/jpeg",
+  ".png" => "image/png"
+)
+```
+
+```bash
+sudo systemctl enable lighttpd
+sudo systemctl start lighttpd
+
+# fill out the forms
+sudo certbot certonly --webroot -w /srv/http -d ks.philosopher.life
+
+# I have no fucking clue why su is required
+sudo su
+sudo cat /etc/letsencrypt/live/ks.philosopher.life/cert.pem /etc/letsencrypt/live/ks.philosopher.life/privkey.pem > /etc/letsencrypt/live/ks.philosopher.life/web.pem
+exit
+```
+
+Inject the following into `/etc/lighttpd/lighttpd.conf`
+
+```
+$SERVER["socket"] == ":443" {
+ssl.engine = "enable"
+ssl.pemfile = "/etc/letsencrypt/live/ks.philosopher.life/web.pem" # Combined Certificate
+ssl.ca-file = "/etc/letsencrypt/live/ks.philosopher.life/chain.pem" # Root CA
+server.name = "ks.philosopher.life" # Domain Name OR Virtual Host Name
+server.document-root = "/srv/http" # Document Root
+server.errorlog = "/var/log/lighttpd/error.log"
+}
+
+$HTTP["scheme"] == "http" {
+$HTTP["host"] == "ks.philosopher.life" { # HTTP URL
+url.redirect = ("/.*" => "https://ks.philosopher.life$0") # Redirection HTTPS URL
+}
+}
+```
+
+Restart lighttpd: `sudo systemctl restart lighttpd`
+
+Setup a cronjob for certbot
+
+```
+sudo crontab -e
+```
+Insert the following into crontab:
+
+`0 1 * * * certbot renew`
+
+Don't forget to setup your sync to `/src/http`
+<<<
+
+Setup openVPN server:
+
+<<<
+```bash
+test ! -c /dev/net/tun && echo openvpn requires tun support || echo tun is available
+
+# Skidiot this one. Huge fan of the Nyr script.
+wget https://raw.githubusercontent.com/Angristan/OpenVPN-install/master/openvpn-install.sh
+sudo chmod +x openvpn-install.sh
+sudo ./openvpn-install.sh
+#follow the script
+```
+<<<
+
+
+Setup Shadowsocks Proxy:
+
+<<<
+```bash
+sudo pacman -S shadowsocks-libev --noconfirm
+```
+
+Put/Edit the following in: `/etc/shadowsocks/manager.json`
+
+```
+{
+    "port_password": {
+        "11001": "mypass",
+        "11002": "j3d1hpass",
+        "11003": "k0sh3kpass",
+        "11004": "1uxb0xpass",
+        "11005": "almpass",
+        "11006": "JREpass",
+        "11007": "AIRpass",
+        "11008": "Kpass",
+        "11009": "Lpass",
+        "11010": "charity"
+    },
+
+    "timeout":300,
+    "method":"chacha20-ietf-poly1305",
+    "fast_open": true
+}
+```
+
+Create `/usr/lib/systemd/system/shadowsocks-libev-manager.service` with the following:
+
+```
+[Unit]
+Description=Shadowsocks-Libev Manager Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+CapabilityBoundingSet=CAP_NET_BIND_SERVICE
+ExecStart=/usr/bin/ss-manager -c /etc/shadowsocks/manager.json
+
+[Install]
+WantedBy=multi-user.target
+```
+
+```
+sudo systemctl enable shadowsocks-libev-manager.service
+sudo systemctl start shadowsocks-libev-manager.service
+```
+<<<
+
+
+Setup Tor Socks Proxy:
+
+<<<
+```bash
+sudo pacman -S tor --noconfirm
+```
+
+Replace `/etc/tor/torrc` with the following:
+
+```
+SocksPort 9050 #local
+SocksPort 0.0.0.0:4291 #clearnet proxy
+RunAsDaemon 1
+DataDirectory /var/lib/tor
+ControlPort 4251
+CookieAuthentication 1
+ORPort 4201
+ExitPolicy reject *:* # no exits allowed
+BridgeRelay 1
+PublishServerDescriptor 0
+```
+
+I've had too much trouble trying to get Tor to play nice with systemd, so you have this awful hack. Insert the following into `/home/h0p3/scripts/tor-cron.sh`:
+
+```
+#!/bin/bash
+
+time=$(date)
+tor=$(sudo -u tor /usr/bin/tor)
+
+if pgrep -x "tor" > /dev/null
+    then echo "$time" >> torlogup.txt
+else
+    $tor #run tor
+    echo "$time" >> tordownlog.txt
+fi
+```
+
+```bash
+sudo chmod +x /home/h0p3/scripts/tor-cron.sh
+sudo crontab -e
+```
+
+Add the following to root's crontab:
+
+```
+*/15 * * * * /home/h0p3/scripts/tor-cron.sh
+```
+
+```bash
+/home/h0p3/scripts/tor-cron.sh
+curl --socks5-hostname ks.philosopher.life:4219 ipinfo.io/ip #test
+```
+<<<
+
+{{vpncloud.rs}}

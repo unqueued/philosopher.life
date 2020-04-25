@@ -1,0 +1,33 @@
+[10:47 AM] h0p3: Damn. :frowning:
+[10:47 AM] h0p3: Try Firefox
+[10:48 AM] h0p3: Might find addons to help you too (plus, you get an adblocker)
+[10:56 AM] Valdus: OK
+[10:56 AM] h0p3: How goes the construction?
+[11:06 AM] Valdus: good news and bad
+[11:07 AM] h0p3: Shoot
+[11:15 AM] Valdus: no java error messages like on chrome, no pop up screen like in safari- saving to the main wiki but it is not saving locally. Twiddlyfox was destroyed in the new firefox, once again apple stupidities. I hope Jobs rots in his pancreatic grave!
+[11:15 AM] Valdus: You should be honored my friend, you have become a tag in my wiki!
+[11:16 AM] h0p3: Lol, I am honored. You are a tag in mine as well
+[11:21 AM] Valdus: https://imgflip.com/i/35i21k
+
+Imgflip
+highlander
+
+[11:21 AM] h0p3: lol
+[11:21 AM] Valdus: put that in your wiki!
+[11:21 AM] h0p3: I don't put images in my wiki, but text, yes.
+[11:22 AM] h0p3: I aim to keep my wiki slim and singlefile
+[11:23 AM] Valdus: I hear ya, maybe when I go international I will change it but its too much fun now!
+[11:24 AM] h0p3: If and when you decide you want to share you wiki with others, I can help you reason about how to do that.
+[12:56 PM] Valdus: I’d want to share anything that is not marked archive
+[10:25 PM] h0p3: Bob can do it, if you want to do it manually.
+[10:25 PM] h0p3: Can use a filter expression to create a new wiki from an old one.
+[10:26 PM] h0p3: Even allows for tiddler name transformations.
+[10:26 PM] h0p3: Automating through scripting  is also possible.
+[9:20 PM] Valdus: still havent gotten courrier font.
+[9:20 PM] h0p3: Have you been able to change to other fonts?
+[9:21 PM] Valdus: nothing since I went to neonize, nada.
+[9:21 PM] h0p3: Can you change it in an empty tiddler?
+[9:21 PM] Valdus: I dont know what a  font family is, Ive used nothing but orphans!
+[10:02 PM] h0p3: Have you tried replacing the line with "Courier"?
+[10:03 PM] h0p3: It works for me.

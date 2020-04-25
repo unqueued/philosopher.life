@@ -1,0 +1,80 @@
+OMFG,. That is [[Beautiful]].
+MON 11:52 AM
+I love your tiddlymap.
+MON 11:53 AM
+thank you!! It took some experimenting to setup the view -- I love seeing all the various connections and clustering.
+MON 12:03 PM
+We may have talked about this, but if you don't mind elaborating again - what's the difference between Hub and Pin for you? Pin is what you use every day while Hub is more of an overview for other people, if I were guessing..?
+MON 7:25 PM
+It looks like stars, maybe it's a rotating planet.
+MON 9:23 PM
+Kind of reminds me of hurricanes on a map too.
+MON 9:24 PM
+Hub is what I use every day.
+MON 9:24 PM
+In fact, it houses Hub houses the transclusion of //Focus://{[[Focus]]}.
+MON 9:25 PM
+It is the core {[[Focus]]} of the wiki itself on a day to day basis.
+MON 9:26 PM
+I think of everything else in my sidebar as being complementary to [[Hub]].
+MON 9:27 PM
+I see!
+MON 9:28 PM
+You might find this weird, but I strongly prefer NOT to use the search bar (though I use it every day). I want to visually navigate through my directories to understand how they fit into the [[Root]] virtual directory structure.
+MON 9:28 PM
+[[Hub]] is broken up into timeslices/frames for the most part.
+MON 9:29 PM
+It's a scheduler for my usage of the wiki.
+MON 9:29 PM
+It helps me reason from a mile-high view what is important to me.
+MON 9:30 PM
+I'm not very good at that sometimes, and I think it forces me to be honest with myself to some extent (it can also be a wonderful source of anxiety, lol).
+MON 9:30 PM
+I am pleased to have moved to a tagging system for it.
+MON 9:31 PM
+I hope to firmcode it as well.
+MON 9:32 PM
+What is [[Pin]]? I'm not entirely sure. I should know. It's filled with shortcuts for constructing the wiki. [[Wiki Audit]], [[Wiki Mechanic]], and the oldest of them, my axiom [[Program Yourself]] are what show up strongest to me.
+MON 9:34 PM
+Perhaps I need to write an //About://[[Pin]].
+MON 9:35 PM
+[[Pin]] is messy. It's a hack. It's almost [[/b/]]ish to me in how little accountability I have there. It's a bunch of shortcuts, many of which just don't really seem to belong on [[Hub]] to me (though I may be wrong).
+MON 9:36 PM
+[[The Remodeling]] should have put me in a good position, but now I just have so much going on, I'm not sure if I'm going to be able to do everything I wanted in the timeframe I've set out. Lol.
+MON 9:37 PM
+What do you think it should be?
+MON 9:38 PM
+I definitely haven't settled into a rhythm when it comes to navigating my wiki -- sometimes I search and other times I dig through the root tab directories to get where I want to go. Mostly I think I search when I'm not sure what I'm looking for -- or I know what I'm looking for but not where it is.
+
+It is interesting to me that Hub is timeslices! I'll have to go look at it again. I've been thinking about re-writing my "root" tiddler since I looked at my whole wiki in TiddlyMap. 
+
+Every time I search for the same thing, I consider starting a "shortcuts" tab...
+MON 9:39 PM
+by it you mean both Hub and Pin?
+MON 9:41 PM
+I meant Pin, but actually I'd like to know both.
+MON 9:42 PM
+Also, I think not knowing where I'm going or where something belongs are problems I never seen to be able to solve enough in my "Ocean of Crazy." =)
+MON 9:43 PM
+Were I constructing a shortcut tab, I think it would look a lot like Pin -- as I see it, the goal is to go from point A to point B as fast as possible, so the structure, however messy, should facilitate that.
+MON 9:44 PM
+Are you considering using the most heavily linked tiddlers from the TiddlyMap into part of the shortcut tab?
+MON 9:46 PM
+I hadn't considered checking TiddlyMap for that, honestly
+MON 9:46 PM
+Mostly it would be a list of wiki tools that I want to be able to get to quickly without having to open up the wiki tiddler
+MON 9:47 PM
+Find and replace, edit creation date, tiddlymap being the ones I look for most often I think
+MON 9:48 PM
+Quick links to my plugin dictionary settings, for sure
+MON 9:48 PM
+Some of those tools might go in Tools or as a vertical tab in More
+MON 9:49 PM
+I //never// check the tools tab lmao
+MON 9:49 PM
+well, on the rare occasion I'm looking for the tiddler manager I guess I do
+MON 9:50 PM
+I never use Tools either.
+MON 9:51 PM
+It's too messy for me! I can't stand it. If I need something from there I use the drop down menu by my settings button, usually.
+MON 9:52 PMv

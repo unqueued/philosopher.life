@@ -1,0 +1,18 @@
+created: 20200302202212188
+modified: 20200302202232566
+tags: chameleon Chatlog
+title: 2020.02.06 - chameleon: P2P Forums
+
+"""
+[12:16 AM]  h0p3: If you ever run across a maximally* P2P reddit-clone which you love, please point it out to me.
+[12:17 AM]  chameleon: hmmm
+[12:17 AM]  chameleon: will do
+[12:17 AM]  chameleon: I think there are p2p chans, but I've forgotten their names :slight_smile:
+[12:17 AM]  chameleon: my forum is going to be not-p2p. haha. I'm not good enough at webshit to do a p2p site.
+[12:18 AM]  h0p3: There have been many attempts at P2P forums, but none that stick out as sufficient. It is a ridiculous task. Even Reddit themselves has traditionally been a hilarious infrastructural failure given their Alexa rankings, and they are centralized.
+[12:19 AM]  h0p3: It's cool that you are building a forum, none-the-less.
+[12:25 AM]  h0p3: I think it's cool that you are going for a bash approach too. I don't think that's crazy. It sounds versatile to me.
+[12:26 AM]  chameleon: it makes it easier to shell out to other tools, for sure
+[12:26 AM]  chameleon: and I've always enjoyed composing html using bash. I used to do my website that way
+[12:26 AM]  chameleon: (i switched to hugo because it was faster)
+"""

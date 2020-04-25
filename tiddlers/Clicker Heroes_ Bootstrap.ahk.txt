@@ -1,0 +1,336 @@
+;######################################################################;
+;                                                                      ;
+;   1920x1033 in Chromium (via i3 tabbed window, maxed resolution)     ;
+;                                                                      ;
+;   Esc to Reload                                                      ;
+;   F1 to Pause                                                        ;
+;   ` to Start                                                         ;
+;                                                                      ;
+;######################################################################;
+
+#InstallKeybdHook ;
+#UseHook ;
+#NoEnv ;
+SendMode Event ;
+SetMouseDelay, 10
+SetBatchLines, -1
+
+Esc:: Reload
+F1:: Pause, toggle
+
+
+`::
+Loop
+{
+    ;##############################################################################################################;
+    ;                                      ,,                                                        ,,            ;
+    ;    .g8"""bgd                         *MM                 mm         .g8"""bgd                 `7MM           ;
+    ;  .dP'     `M                          MM                 MM       .dP'     `M                   MM           ;
+    ;  dM'       ` ,pW"Wq.`7MMpMMMb.pMMMb.  MM,dMMb.   ,6"Yb.mmMMmm     dM'       ``7M'   `MF',p6"bo  MM  .gP"Ya   ;
+    ;  MM         6W'   `Wb MM    MM    MM  MM    `Mb 8)   MM  MM       MM           VA   ,V 6M'  OO  MM ,M'   Yb  ;
+    ;  MM.        8M     M8 MM    MM    MM  MM     M8  ,pm9MM  MM       MM.           VA ,V  8M       MM 8M""""""  ;
+    ;  `Mb.     ,'YA.   ,A9 MM    MM    MM  MM.   ,M9 8M   MM  MM       `Mb.     ,'    VVV   YM.    , MM YM.    ,  ;
+    ;    `"bmmmd'  `Ybmd9'.JMML  JMML  JMML.P^YbmdP'  `Moo9^Yo.`Mbmo      `"bmmmd'     ,V     YMbmd'.JMML.`Mbmmd'  ;
+    ;                                                                                 ,V                           ;
+    ;                                                                              OOb"                            ;
+    ;##Combat Cycle##combat cycle##################################################################################;
+
+    Loop 20 
+    {
+
+        ;-----Toggle Progressive Mode-----
+        Sleep, 25 ;
+        Send {a} ;
+
+        ;------Skills-----
+        Sleep, 25 ;
+        Send {1} ;
+        Send {2} ;
+        Send {3} ;
+        Send {4} ;
+        Send {5} ;
+        Send {7} ;
+        Send {8} ;
+        Send {6} ;
+        Send {9} ;
+        Sleep, 25 ;
+        Loop 100
+        {
+            ControlClick, x1250 y565,ahk_exe chrome.exe ;
+        }
+
+        ;-----Buy Available Upgrades-----
+        Sleep, 25 ;
+        ControlClick, x750 y772,ahk_exe chrome.exe ;
+
+        ;==========ASCENDING BUY PATTERN FOR EVENNESS==========
+        ;-----Bottom-up 1x Buy Pattern-----
+        Sleep, 25 ;
+        ControlClick, x450 y800,ahk_exe chrome.exe ;
+        ControlClick, x450 y775,ahk_exe chrome.exe ;
+        ControlClick, x450 y750,ahk_exe chrome.exe ;
+        ControlClick, x450 y725,ahk_exe chrome.exe ;
+        ControlClick, x450 y700,ahk_exe chrome.exe ;
+        ControlClick, x450 y675,ahk_exe chrome.exe ;
+        ControlClick, x450 y650,ahk_exe chrome.exe ;
+        ControlClick, x450 y625,ahk_exe chrome.exe ;
+        ControlClick, x450 y600,ahk_exe chrome.exe ;
+        Loop 100
+        {
+            ControlClick, x1250 y565,ahk_exe chrome.exe ;
+        }        
+        ControlClick, x450 y575,ahk_exe chrome.exe ;
+        ControlClick, x450 y550,ahk_exe chrome.exe ;
+        ControlClick, x450 y525,ahk_exe chrome.exe ;
+        ControlClick, x450 y500,ahk_exe chrome.exe ;
+        ControlClick, x450 y475,ahk_exe chrome.exe ;
+        ControlClick, x450 y450,ahk_exe chrome.exe ;
+        ControlClick, x450 y425,ahk_exe chrome.exe ;
+        ControlClick, x450 y400,ahk_exe chrome.exe ;
+        ControlClick, x450 y375,ahk_exe chrome.exe ;
+        Loop 100
+        {
+            ControlClick, x1250 y565,ahk_exe chrome.exe ;
+        }
+
+        ;-----Buy Available Upgrades-----
+        Sleep, 25 ;
+        ControlClick, x750 y772,ahk_exe chrome.exe ;
+
+        ;-----Bottom-up 10x Buy Pattern-----
+        Sleep, 25 ;
+        Send {LShift down} ;
+        Sleep, 25 ;
+        ControlClick, x450 y800,ahk_exe chrome.exe ;
+        ControlClick, x450 y775,ahk_exe chrome.exe ;
+        ControlClick, x450 y750,ahk_exe chrome.exe ;
+        ControlClick, x450 y725,ahk_exe chrome.exe ;
+        ControlClick, x450 y700,ahk_exe chrome.exe ;
+        ControlClick, x450 y675,ahk_exe chrome.exe ;
+        ControlClick, x450 y650,ahk_exe chrome.exe ;
+        ControlClick, x450 y625,ahk_exe chrome.exe ;
+        ControlClick, x450 y600,ahk_exe chrome.exe ;
+        Sleep, 25 ; 
+        Send {LShift up} ;
+        Sleep, 25 ;
+        Loop 100
+        {
+            ControlClick, x1250 y565,ahk_exe chrome.exe ;
+        }
+        Sleep, 25 ; 
+        Send {LShift down} ;
+        Sleep, 25 ;        
+        ControlClick, x450 y575,ahk_exe chrome.exe ;
+        ControlClick, x450 y550,ahk_exe chrome.exe ;
+        ControlClick, x450 y525,ahk_exe chrome.exe ;
+        ControlClick, x450 y500,ahk_exe chrome.exe ;
+        ControlClick, x450 y475,ahk_exe chrome.exe ;
+        ControlClick, x450 y450,ahk_exe chrome.exe ;
+        ControlClick, x450 y425,ahk_exe chrome.exe ;
+        ControlClick, x450 y400,ahk_exe chrome.exe ;
+        ControlClick, x450 y375,ahk_exe chrome.exe ;
+        Sleep, 25 ; 
+        Send {LShift up} ;
+        Sleep, 25 ;
+        Loop 100
+        {
+            ControlClick, x1250 y565,ahk_exe chrome.exe ;
+        }
+
+        ;-----Buy Available Upgrades-----
+        Sleep, 25 ;
+        ControlClick, x750 y772,ahk_exe chrome.exe ;
+
+        ;-----Bottom-up 100x Buy Pattern-----
+        Sleep, 25 ;
+        Send {LControl down} ;
+        Sleep, 25 ;
+        ControlClick, x450 y800,ahk_exe chrome.exe ;
+        ControlClick, x450 y775,ahk_exe chrome.exe ;
+        ControlClick, x450 y750,ahk_exe chrome.exe ;
+        ControlClick, x450 y725,ahk_exe chrome.exe ;
+        ControlClick, x450 y700,ahk_exe chrome.exe ;
+        ControlClick, x450 y675,ahk_exe chrome.exe ;
+        ControlClick, x450 y650,ahk_exe chrome.exe ;
+        ControlClick, x450 y625,ahk_exe chrome.exe ;
+        ControlClick, x450 y600,ahk_exe chrome.exe ;
+        Sleep, 25 ; 
+        Send {LControl up} ;
+        Sleep, 25 ;
+        Loop 100
+        {
+            ControlClick, x1250 y565,ahk_exe chrome.exe ;
+        }
+        Sleep, 25 ; 
+        Send {LControl down} ;  
+        Sleep, 25 ;      
+        ControlClick, x450 y575,ahk_exe chrome.exe ;
+        ControlClick, x450 y550,ahk_exe chrome.exe ;
+        ControlClick, x450 y525,ahk_exe chrome.exe ;
+        ControlClick, x450 y500,ahk_exe chrome.exe ;
+        ControlClick, x450 y475,ahk_exe chrome.exe ;
+        ControlClick, x450 y450,ahk_exe chrome.exe ;
+        ControlClick, x450 y425,ahk_exe chrome.exe ;
+        ControlClick, x450 y400,ahk_exe chrome.exe ;
+        ControlClick, x450 y375,ahk_exe chrome.exe ;
+        Sleep, 25 ; 
+        Send {LControl up} ;
+        Sleep, 25 ;
+        Loop 100
+        {
+            ControlClick, x1250 y565,ahk_exe chrome.exe ;
+        }
+
+        ;-----Reset and push hero bar down-----
+        Sleep, 25 ;
+        Send {WheelUp} ;
+        Sleep, 25 ;
+        Send {WheelDown} ;
+        Sleep, 25 ;
+        Send {WheelDown} ;
+        Sleep, 25 ;
+        Send {WheelDown} ;
+
+        ;-----Buy Available Upgrades-----
+        Sleep, 25 ;
+        ControlClick, x750 y772,ahk_exe chrome.exe ;
+
+    }
+
+    ;#############################################################;
+    ;                                                             ;
+    ; `7MMF'   `7MF'        `7MM                                  ;
+    ;   MM       M            MM                                  ;
+    ;   MM       M `7MMpdMAo. MM  ,MP'.gP"Ya   .gP"Ya `7MMpdMAo.  ;
+    ;   MM       M   MM   `Wb MM ;Y  ,M'   Yb ,M'   Yb  MM   `Wb  ;
+    ;   MM       M   MM    M8 MM;Mm  8M"""""" 8M""""""  MM    M8  ;
+    ;   YM.     ,M   MM   ,AP MM `Mb.YM.    , YM.    ,  MM   ,AP  ;
+    ;    `bmmmmd"'   MMbmmd'.JMML. YA.`Mbmmd'  `Mbmmd'  MMbmmd'   ;
+    ;                MM                                 MM        ;
+    ;              .JMML.                             .JMML.      ;
+    ;                                                             ;
+    ;###Upkeep##upkeep############################################;
+
+    ;==========GILDING==========
+    ;-----Click On Present-----
+    Sleep, 25 ;
+    ControlClick, x1487 y761,ahk_exe chrome.exe ;
+    ;-----Open Present-----
+    Sleep, 1000 ;
+    ControlClick, x975 y556,ahk_exe chrome.exe ;
+    ;-----FUCKING EXPENSIVE Open All-----
+    Sleep, 2000 ;    
+    ControlClick, x1265 y741,ahk_exe chrome.exe ;
+    ;-----Close Attempts-----
+    Sleep, 500 ; 
+    ControlClick, x1476 y249,ahk_exe chrome.exe ;
+    Sleep, 25 ;
+    ControlClick, x1391 y325,ahk_exe chrome.exe ;
+
+    ;==========DESCENDING BUY PATTERN==========
+    ;-----Back to the Top-----
+    Sleep, 25 ; 
+    Loop 30
+    {
+        Send {WheelUp} ;
+    }  
+    Sleep, 500 ; 
+    Loop 100
+    {
+        ControlClick, x1250 y565,ahk_exe chrome.exe ;
+    }
+
+    ;-----Top-down 100x Buy Pattern-----
+    Sleep, 25 ;
+    Send {LControl down} ;
+    Sleep, 25 ;
+    ControlClick, x450 y375,ahk_exe chrome.exe ;
+    ControlClick, x450 y400,ahk_exe chrome.exe ;
+    ControlClick, x450 y425,ahk_exe chrome.exe ;
+    ControlClick, x450 y450,ahk_exe chrome.exe ;
+    ControlClick, x450 y475,ahk_exe chrome.exe ;
+    ControlClick, x450 y500,ahk_exe chrome.exe ;
+    ControlClick, x450 y525,ahk_exe chrome.exe ;
+    ControlClick, x450 y550,ahk_exe chrome.exe ;
+    ControlClick, x450 y575,ahk_exe chrome.exe ;
+    Sleep, 25 ; 
+    Send {LControl up} ;
+    Sleep, 25 ;
+    Loop 100
+    {
+        ControlClick, x1250 y565,ahk_exe chrome.exe ;
+    } 
+    Sleep, 25 ; 
+    Send {LControl down} ;  
+    Sleep, 25 ;   
+    ControlClick, x450 y600,ahk_exe chrome.exe ;
+    ControlClick, x450 y625,ahk_exe chrome.exe ;
+    ControlClick, x450 y650,ahk_exe chrome.exe ;
+    ControlClick, x450 y675,ahk_exe chrome.exe ;
+    ControlClick, x450 y700,ahk_exe chrome.exe ;
+    ControlClick, x450 y725,ahk_exe chrome.exe ;
+    ControlClick, x450 y750,ahk_exe chrome.exe ;
+    ControlClick, x450 y775,ahk_exe chrome.exe ;
+    ControlClick, x450 y800,ahk_exe chrome.exe ; 
+    Sleep, 25 ;    
+    Send {LControl down} ;
+    Sleep, 25 ;
+    Loop 100
+    {
+        ControlClick, x1250 y565,ahk_exe chrome.exe ;
+    } 
+
+    ;-----Top-down 10x Buy Pattern-----
+    Sleep, 25 ;
+    Send {LShift down} ;
+    Sleep, 25 ;
+    ControlClick, x450 y375,ahk_exe chrome.exe ;
+    ControlClick, x450 y400,ahk_exe chrome.exe ;
+    ControlClick, x450 y425,ahk_exe chrome.exe ;
+    ControlClick, x450 y450,ahk_exe chrome.exe ;
+    ControlClick, x450 y475,ahk_exe chrome.exe ;
+    ControlClick, x450 y500,ahk_exe chrome.exe ;
+    ControlClick, x450 y525,ahk_exe chrome.exe ;
+    ControlClick, x450 y550,ahk_exe chrome.exe ;
+    ControlClick, x450 y575,ahk_exe chrome.exe ;
+    Sleep, 25 ; 
+    Send {LShift up} ;
+    Sleep, 25 ;
+    Loop 100
+    {
+        ControlClick, x1250 y565,ahk_exe chrome.exe ;
+    } 
+    Sleep, 25 ; 
+    Send {LShift down} ;   
+    Sleep, 25 ;  
+    ControlClick, x450 y600,ahk_exe chrome.exe ;
+    ControlClick, x450 y625,ahk_exe chrome.exe ;
+    ControlClick, x450 y650,ahk_exe chrome.exe ;
+    ControlClick, x450 y675,ahk_exe chrome.exe ;
+    ControlClick, x450 y700,ahk_exe chrome.exe ;
+    ControlClick, x450 y725,ahk_exe chrome.exe ;
+    ControlClick, x450 y750,ahk_exe chrome.exe ;
+    ControlClick, x450 y775,ahk_exe chrome.exe ;
+    ControlClick, x450 y800,ahk_exe chrome.exe ;
+    Sleep, 25 ;     
+    Send {LShift down} ;
+    Sleep, 25 ;
+    Loop 100
+    {
+        ControlClick, x1250 y565,ahk_exe chrome.exe ;
+    } 
+}   
+
+
+
+;##############################################;
+;                                ,,            ;
+; `7MMF'   `7MF'                `7MM   mm      ;
+;   `MA     ,V                    MM   MM      ;
+;    VM:   ,V ,6"Yb.`7MM  `7MM    MM mmMMmm    ;
+;     MM.  M'8)   MM  MM    MM    MM   MM      ;
+;     `MM A'  ,pm9MM  MM    MM    MM   MM      ;
+;      :MM;  8M   MM  MM    MM    MM   MM      ;
+;       VF   `Moo9^Yo.`Mbod"YML..JMML. `Mbmo   ;
+;                                              ;
+;##Vault##vault################################;

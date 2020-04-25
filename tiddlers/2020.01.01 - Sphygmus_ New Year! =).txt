@@ -1,0 +1,19 @@
+[1:03 AM] robotic_scarab: Happy New Year! Hope your move goes as smoothly as possible. Looking forward to our continued friendship and hype conversations in 2020! :blush:
+[8:35 AM] h0p3: Happy New Year!
+[8:40 AM] h0p3: Thank you, and I hope our relationship continues to blossom too.
+[8:53 AM] h0p3: It sounds like you've had a good holiday season. Family and reading like the wind.
+[8:56 AM] h0p3: Nobody got presents except my aunt and uncle this year from us, not even birthdays (too busy, no room for them in the vehicle either).
+[8:59 AM] h0p3: We go very small anyway. $20 limit per person. Zero expectation on giving (especially receiving).
+[9:06 AM] h0p3: I've been thinking about how I can contribute to your infrastructure in a way that meets my absurd "workers own the means of production" conditions. My brother has kept an RPi running at his house for me for years. It has been useful. I don't have an extra RPi, but I would like to run a VM for you and make it connectable. An extra VPS may come in handy for you.
+[9:09 AM] h0p3: Could run it behind Tor for you if that is preferred too. Might make a useful seedbox, encrypted sync node, backup or testing tool, etc. Compute is compute.
+[9:11 AM] h0p3: And, if you need shared access to files on my drives, I can enable that too.
+[5:58 PM] robotic_scarab: yes, it's been a pleasant holiday season for sure -- doing a lot of reading has been enjoyable.
+[5:59 PM] robotic_scarab: I think your approach to gifting makes good sense; it's not something we did a lot in my immediate family as a kid, so I feel like a pretty illiterate gifter
+[5:59 PM] robotic_scarab: it's hard to think of meaningful gifts for others multiple years in a row XP
+[6:01 PM] robotic_scarab: I will think about your offer! an extra VPS might definitely come in handy -- it would be nice to have a fall back site or an alternate URL, as well as a place I could back up NFS or my dioc server that's still offsite to me
+[6:05 PM] robotic_scarab: perhaps once you get settled in CT, I could pick up an RPi and send it your way for you to host
+[6:06 PM] robotic_scarab: speaking of gifts tho: https://sphygm.us/#%40h0p3
+[6:06 PM] robotic_scarab:
+Attachment file type: archive
+ascii.zip
+31.47 KB

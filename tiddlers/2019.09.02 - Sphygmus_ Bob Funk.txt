@@ -1,0 +1,71 @@
+[3:02 AM] robotic_scarab: i'm going to be afk in a second but I had a question about your experience with Bob
+[3:03 AM] h0p3: :slight_smile:
+[3:03 AM] h0p3: K
+[3:03 AM] robotic_scarab: i've got it more or less working, but when it loaded my wiki things went reaaally funky
+[3:03 AM] h0p3: ugh =/
+[3:04 AM] robotic_scarab: it's not obvious to me right off the bat why, but some of my tiddlers look correct, and some of them have the title /path/to/wiki/tiddlers/tiddler_title
+[3:04 AM] h0p3: Oh, I've had that
+[3:05 AM] robotic_scarab: phew! how'd you fix it? :smile:
+[3:05 AM] h0p3: Oh, I'm sorry. I don't have a fix!
+[3:05 AM] robotic_scarab: oh noes :O
+[3:05 AM] h0p3: In fact, there is possibly a leak there which I will have to review eventually through my snapshots.
+[3:06 AM] h0p3: It's only been occurring when I use my custom buttons.
+[3:07 AM] h0p3: I'm surprised the gremlin showed up at all. That gives us some kind of information.
+[3:08 AM] robotic_scarab: yeah, there's got to be some distingishing thing between the ones that show the path and the ones that don't
+[3:09 AM] h0p3: I've also had Bob replace the created/modified timestamps with NaNNaNNaNNaNNaNNaNNaN
+[3:09 AM] h0p3: Mmmm. Pain in my ass.
+[3:09 AM] robotic_scarab: it was a shock when I loaded it up because some of the incorrect tiddlers were system tiddlers, which makes things alll sorts of funky
+[3:10 AM] robotic_scarab: i'm wondering if it has to do with how I'm setting file paths in the settings.json
+[3:10 AM] robotic_scarab: also, what do you mean by when you use your custom buttons? like, tiddlers made with buttons have this issue?
+[3:11 AM] h0p3: Aye. Core Daily Requirement Button and Firmcoding have had some troubles.
+[3:11 AM] robotic_scarab: oh, and none of the messed-up tiddlers have any content
+[3:12 AM] robotic_scarab: strange.
+[3:12 AM] robotic_scarab: ooookay, bob must have just deleted the content
+[3:13 AM] robotic_scarab: wow that's unnerving
+[3:13 AM] h0p3: Ugh. Yup. =/
+[3:13 AM] h0p3: Shoestring tying it together, gum sealing the boat from sinking.
+[3:14 AM] robotic_scarab: i'm glad i discovered this issue before I assumed everything was working and went all gung-ho writing things :P
+[3:15 AM] h0p3: I have no idea how to reproduce it.
+[3:15 AM] h0p3: Watch for Bob throwing a core to 100%. It will crash, and I don't know why either.
+[3:16 AM] h0p3: Some of the files will go to 0 bytes, and it just keeps cycling over them, modifying them to have 0 bytes.
+[3:16 AM] h0p3: Yet, here I am, I can't live without this tool, lol.
+[3:17 AM] h0p3: (run fo yo life!)
+[3:17 AM] robotic_scarab: you're making me question if I want to deal with it or not! i just want something that works :joy:
+[3:17 AM] robotic_scarab: but man that awesome multi-browser access, haha
+[3:18 AM] h0p3: I hear that. Bob is still alpha software.
+[3:18 AM] h0p3: The positives outweigh the negatives for me.
+[3:19 AM] h0p3: I've also not run into anyone else yet with this issue (not even my children's Bob servers have had this).
+[3:19 AM] robotic_scarab: ...huh, interesting.
+[3:19 AM] robotic_scarab: well, i'll see what I can troubleshoot tomorrow. there's gotta be something that makes sense about what stuff works and what doesn't, just gotta find it (I hope)
+[3:19 AM] h0p3: /fingers-crossed
+[12:05 PM] robotic_scarab: this is so bizarre
+[12:06 PM] robotic_scarab: my first troubleshooting step was to make a new subdomain for testing Bob on, and a new folder devoted exclusively to bob
+[12:06 PM] robotic_scarab: i reinstalled tiddlywiki itself, then reinstalled bob, followed the listed instructions for making a new wiki, then cp main/wiki/tiddlers/* generic/wiki/tiddlers
+[12:07 PM] robotic_scarab: and then I set the permissions recursively for everything in the bob folder
+[12:07 PM] robotic_scarab: loaded it
+[12:07 PM] robotic_scarab: and everything worked!
+[12:07 PM] robotic_scarab: even my wacky custom buttons
+[12:07 PM] h0p3: what permissions are you using?
+[12:08 PM] robotic_scarab: i plan on running bob as a background service, as user "bob", and I also have a group "wikiusers" that me, the bob user, and other wiki service users are a part of
+[12:09 PM] robotic_scarab: so I chowned -R bob:wikiusers, then did chmod -R 775
+[12:11 PM] h0p3: I run it all as h0p3
+[12:11 PM] h0p3: Is there an important difference here?
+[12:12 PM] h0p3: ownership is h0p3 as well
+[12:13 PM] robotic_scarab: hm
+[12:13 PM] robotic_scarab: i assume that's the case for your tiddlywiki installation as well?
+[12:14 PM] robotic_scarab: shmew just said that maybe Bob had permissions to change the tiddler files, but was hitting an error in permissions somewhere upstream (like, in the plugin itself or the tiddlywiki folder maybe) and instead of handling that error correctly, zeroed out the file it was currently touching
+[12:15 PM] robotic_scarab: which maybe makes sense -- I don't know enough about how Bob works internally
+[12:16 PM] robotic_scarab: but of all the places for Bob to have bugs, I wouldn't be surprised if it was around handling file permission access errors
+[12:24 PM] h0p3: It may be a permissions problem. If it is, then my bet is on npm/tiddlywiki.
+[12:25 PM] h0p3: Everything in my bob folder is owned by h0p3.
+[4:00 PM] robotic_scarab: have you experienced Bob deleting the "created" and "updated" fields of tiddlers?
+[9:18 PM] h0p3: Uh, no, lol
+[10:12 AM] robotic_scarab:
+"I've also had Bob replace the created/modified timestamps with NaNNaNNaNNaNNaNNaNNaN"
+[10:12 AM] robotic_scarab: yeah that happened
+[1:32 PM] h0p3: Ugh. :frowning:
+[1:32 PM] h0p3: Have you found a way to reproduce it?
+[1:58 PM] robotic_scarab: No, I haven't...I really don't understand - I was watching some of the Bob messages and it was saving old tiddlers that I hadn't opened...and idk why it was touching them at all... :S
+[7:39 PM] h0p3: wat? I have not had that happen before (to my knowledge).
+[7:39 PM] h0p3: Your gremlins are gremlinear.
+[7:40 PM] h0p3: You have the magic touch.

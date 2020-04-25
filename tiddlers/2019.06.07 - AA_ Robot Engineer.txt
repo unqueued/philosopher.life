@@ -1,0 +1,88 @@
+How's summer going?
+FRI 10:37 AM
+It’s going pretty well :blush: How’s yours
+FRI 11:31 AM
+It goes. Grinding along.
+FRI 11:31 AM
+Surgery is coming up soon.
+FRI 11:31 AM
+Yeah it’s right around the corner
+FRI 11:32 AM
+How's class going?
+FRI 11:33 AM
+One is great —the other is not as well as I would like
+FRI 11:33 AM
+The teacher seems to take off random points for reasons not stated in the initial assignments
+FRI 11:34 AM
+=/ gross
+FRI 11:34 AM
+Yeah
+FRI 11:35 AM
+But not much left
+FRI 11:35 AM
+How long do the classes last?
+FRI 11:35 AM
+5 weeks —they will be done the end of next week
+FRI 11:36 AM
+Jam packed.
+FRI 11:36 AM
+Like J-term classes, but stacked.
+FRI 11:37 AM
+[[AG]] wants to be a “robot” engineer —probably mechanical.  My thought is that she probably needs to learn some languages/programming—any thoughts?
+FRI 11:37 AM
+Yeah they keep me busy
+FRI 11:37 AM
+I will look into the direction she should go. That's a good question.
+FRI 11:39 AM
+Thank you! You are more familiar with this stuff than I am
+FRI 11:39 AM
+Looking at CodeAcademy —it’s free :blush:
+FRI 11:40 AM
+I can guarantee feeling comfortable with office, basic system admin on Windows, and studying mathematics will be valuable.
+FRI 11:46 AM
+Gotcha
+FRI 11:46 AM
+CAD and schematics should be a priority.
+FRI 11:47 AM
+Robotics is such a wide looking field. Without knowing more about what kind of robotics job she'd want, I would aim for generality in programming.
+FRI 11:48 AM
+I suggest linux, bash, and python.
+FRI 11:48 AM
+Ok will look into that
+FRI 11:49 AM
+Thank you a bunch!!!
+FRI 11:50 AM
+PLCs (closer to [[JRE]]'s territory in some respects) are also robotics. That software does not look difficult to write, and I think practice writing software in general will provide the skills and know-how for building development environments that will transfer nicely over to it.
+FRI 11:54 AM
+I suggest bash and python because they are incredibly productive, good for prototyping, super expressive, you can leverage decades of other people's work, and it doesn't matter whether you are on MacOS, Windows, Linux, or something else, they will always be useful.
+FRI 11:55 AM
+Awesome!!
+FRI 11:56 AM
+How do you feel about code academy?
+FRI 12:00 PM
+We've used it before, and we've tried others like it. I don't know what it is like now (it continues to evolve). It works, but I think there are a couple practices which are missing. I am not an expert here, and I can only tell you what I think has worked best for us.
+FRI 12:03 PM
+I prefer books, and I think interactive online programming environments don't force you to build your own environments (which is a crucial task, imho).
+FRI 12:03 PM
+Whenever I can, I force [[1uxb0x]] to do it on his own computer rather than in the cloud. He has to learn the toolsets which surround programming, and those will make or break you in many cases.
+FRI 12:04 PM
+Which books are you using then?
+FRI 12:05 PM
+Now, again, I'm simply an amateur. But, I've consistently found it crucial to be highly skilled searching for answers online and learning how to ask the right people the right questions. So many of my programmer issues are solved because I'm looking for the people who have already answered my questions. Being lost in the desert like that is hard to teach.
+FRI 12:06 PM
+http://openbookproject.net/thinkcs/python/english3e/
+FRI 12:07 PM
+http://linuxcommand.org/tlcl.php
+FRI 12:08 PM
+Again, I'm not highly skilled, so you should take that with a huge grain of salt.
+FRI 12:09 PM
+Yeah I just want to have her more prepared if I can...and you know more than I. I trust that your opinion will be better than most :blush:
+FRI 12:09 PM
+Thank you!
+FRI 12:10 PM
+Were I in your shoes, I would go on ebay and buy a cheap laptop and install Linux on it. It wouldn't be good for gaming, but it would be plenty of horsepower for her. Start with Ubuntu (and she can work her way to more difficult things). With that, she'd be in great shape for those books.
+FRI 12:11 PM
+She can also chat with us any time. It helps to have someone to talk with about it.
+FRI 12:12 PM
+Good deal!
+FRI 12:12 PM

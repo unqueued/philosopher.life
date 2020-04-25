@@ -1,9 +1,13 @@
 color: #ff0000
 created: 20190621174637783
-modified: 20190628220716473
+modified: 20200217193032227
 tags: Autogen
 title: Readme
 
-//Please read these first.//
+//This is a messy orientation. I wish I knew how to bootstrap you into the wiki.<<ref "a">> I [[hope]] to learn how to dedisorientify the process of diving into and interacting with it. [[It's Dangerous|https://www.youtube.com/watch?v=lXMskKTw3Bc]] to Go Alone! Take These. If at all, gloss through or read through the following first, please://
 
 <<list-links "[tag[Readme]]">>
+
+
+---
+<<footnotes "a" "As you may hear me say many times: I can't say I do it [[well|irwartfrr]] for [[myself|h0p3]] even.">>

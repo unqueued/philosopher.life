@@ -1,0 +1,168 @@
+[20:09:49] BDS97: home: hi
+[20:09:57] BDS97: home: status update on rust: managed to hook up the crypto libraries
+[20:10:08] BDS97: home: openssl and libsodium (through sodiumoxide) specifically
+[20:12:13] BDS97: home: still doing the tutorials about heap management and concurrency, and I'll also have to explore how network support works
+[20:12:21] BDS97: home: but at least we got reliable crypto now
+[10:15:25] h0p3: Yay =)
+[10:15:42] h0p3: I'm set to autoaccept files now. Sorry I didn't have that up.
+[10:16:33] BDS97: home: no worries, it was just a few screenshots
+[10:16:36] BDS97: home: like this
+[10:16:55] BDS97: home: as a proof of concept, I'm implementing the SAE-equivalent
+[10:17:15] BDS97: home: basically a diffie-hellman with a password
+[10:18:22] BDS97: home: and some source code
+[10:18:59] BDS97: home: rust is awesome
+[10:19:22] BDS97: home: it's actually giving me go flashbacks with these two libraries installed
+[10:19:31] BDS97: home: and it's not as restrictive as go
+[10:43:38] h0p3: Do you name your box after the Ship of Theseus? 
+[10:44:17] h0p3: That's funny that it gives you Go flashback, lol.
+[10:51:09] BDS97: home: yeah, exactly
+[10:51:18] BDS97: home: haven't got a full new PC since 2013
+[10:51:25] BDS97: home: but none of the components are the same
+[10:51:32] h0p3: I adore that. =)
+[10:52:36] BDS97: home: about the go flashback, it was ridiculously easy to do the crypto in Go
+[10:52:53] BDS97: home: the hard part was just wiring everything up in a way that's not counterintuitive for everyone else
+[10:54:00] h0p3: I think my Ship of Theseus extends all the way to monster-1 (https://philosopher.life/#Monster-%CE%A6:Monster-%CE%A6)
+[10:54:53] h0p3: (I'd make a philosophical claim that it extends further, but we're doing silicon computing here)
+[10:55:33] BDS97: home: yeah, it's a little bit hard to tell apart which is the same computer and which is not
+[10:55:42] BDS97: home: not that bad for laptops, but for a PC you build
+[10:57:42] h0p3: Do you find Rust as an obviously idiomatic way to do things, or is that  counterintuitive issue the thing which is the same?
+[10:58:14] BDS97: home: I don't think it's the perfect way, but it's the closest I've seen so far
+[10:58:29] BDS97: home: some languages have an idiomatic way of coding them
+[10:58:36] BDS97: home: mostly the new ones
+[10:59:00] BDS97: home: both go and rust have an idiomatic form that extends beyond what the compiler checks for
+[10:59:35] BDS97: home: but while go was this weird, self-centered, "maybe if you're google it makes sense" kind of viewpoint, rust is a lot better
+[11:00:16] BDS97: home: idiomatic rust is mostly about using a computer correctly, without going into needless details, and with as much performance as you can get
+[11:00:31] h0p3: that is lovely =)
+[11:00:51] BDS97: home: it's basically centered around zero-cost abstractions, which are awesome
+[11:01:14] BDS97: home: basically the compiler doing all the work for you, elaborating the structures so you can focus on the what, not the how
+[11:01:15] h0p3: Only way to replace C/C++ with something safer.
+[11:01:21] BDS97: home: exactly
+[11:01:31] BDS97: home: it does feel a lot like a safe C++
+[11:01:49] BDS97: home: the zero-cost in the whole thing is that the compiler is doing all of it
+[11:02:14] BDS97: home: rust code runs at the theoretical maximum speed of its level of safety
+[11:02:34] BDS97: home: still a little slower than raw C++ because of occasional boundary checks
+[11:03:03] BDS97: home: but all of its nuances about ownership and abstract structures are for the source code only, the compiler then goes and makes the same assembly you could write by hand
+[11:03:41] h0p3: You dabble in unsafe rust ever?
+[11:03:57] BDS97: home: not yet, and not planning to do so unless necessary
+[11:04:03] h0p3: the dark arts
+[11:04:26] BDS97: home: I'm pretty well off at the high-level, especially since most of my experience right now is from JS
+[11:04:44] BDS97: home: and I don't believe I can do better than the compiler
+[11:05:18] BDS97: home: I agree it's kind of the dark arts
+[11:05:36] BDS97: home: and actually I'll have to do it, because foreign function interfaces are inherently unsafe
+[11:06:10] BDS97: home: but my view about with the unsafe features is to move everything out of there that doesn't have to be there
+[11:07:11] h0p3: Preferably, only a handful of lines of quarantined, easy to reason about unsafe code/doorways
+[11:08:07] BDS97: home: I've been thinking about what this means for our project
+[11:08:15] BDS97: home: we'll definitely have to do something like a "libatropos"
+[11:08:36] BDS97: home: but that should be nothing more than a gateway between rust and the outside
+[11:09:01] BDS97: home: and if you use the protocol in rust, you wouldn't need it
+[11:09:54] h0p3: I strongly appreciate that the goal is make something language agnostic. I don't know if Rust is as well suited as C for it, but it's likely close from what I understand.
+[11:10:22] BDS97: home: last time I checked you could make a simple C-style library with it
+[11:10:48] BDS97: home: that was one of my biggest gripes with go, its restrictions bled into the naming scheme of your public API
+[11:11:27] h0p3: I did not know that. Neat.
+[11:19:14] BDS97: home: I have a plan for structuring the project btw
+[11:19:22] BDS97: home: the network part
+[11:19:43] BDS97: home: we'll need the actual implementation of course, I'd call that "atropos-core"
+[11:20:11] BDS97: home: and I think an OS-level daemon ("atroposd") would be nice
+[11:20:59] BDS97: home: so you'd have one system-wide atropos node shared between programs instead of all of them bringing their own node, occupying ports, etc.
+[11:22:06] BDS97: home: then there would be a "libatropos" (libatropos.so/dll and the "atropos" package in the registries) that programs actually use
+[11:22:33] BDS97: home: a dynamically linked library that gives you a convenient way to use the network
+[11:22:51] BDS97: home: I'm thinking it should include atropos-core, as a fallback
+[11:23:21] BDS97: home: it would try to connect to the atroposd running on the machine if possible, but if it fails, it would just set up its own node
+[11:24:06] BDS97: home: this way it would be easy for programmers to just install a library and start using the network right away
+[11:24:21] BDS97: home: while users would still retain control over atroposd if they want to
+[11:25:29] h0p3: I am not sure about the system wide. It isn't obvious to me.
+[11:25:56] h0p3: Should it be obvious to me?
+[11:26:31] BDS97: home: well, it depends on how the system works
+[11:26:48] BDS97: home: our plans from last time are buried in a few layer of backups on my side
+[11:27:13] BDS97: home: reinstalled my pc a few times
+[11:27:39] BDS97: home: but if I recall correctly, there was a multiplexing layer
+[11:27:48] h0p3: yes
+[11:27:55] BDS97: home: multiple channels on a single node, kind of like ports, just not limited at 65535
+[11:28:46] h0p3: There are some nice properties to that. Are there cases in which someone is going to want to run multiples? I suppose they could just containerize their way into that.
+[11:29:38] BDS97: home: for multiple channels, definitely, if multiple programs use the same node
+[11:29:57] BDS97: home: or even when just a single program communicates with multiple clients, or some complex setup
+[11:30:10] BDS97: home: as for multiple nodes on the same machine, I don't see any advantage
+[11:30:51] BDS97: home: some devs like to be control freaks, so they might configure libatropos in a way to not look for a system node but do everything internally
+[11:31:00] BDS97: home: but generally it's more of an optimization feature
+[11:31:25] h0p3: Single-threaded performance, gracefully failing, perhaps even some security features are nice for compartmentalizing. 
+[11:32:00] h0p3: This should be so well multi-threaded that we aren't going to hit that single-threaded bottleneck. 
+[11:32:21] h0p3: Let me say, I'm not 100% sold on it just yet. I can't see that far.
+[11:32:44] h0p3: What will make the lives of developers easiest?
+[11:33:01] BDS97: home: yeah, I see, that's actually one of the reasons for rust
+[11:33:08] BDS97: home: it's awesome at multithreading
+[11:33:12] h0p3: aye
+[11:33:16] h0p3: fearless
+[11:33:22] BDS97: home: exactly
+[11:33:41] BDS97: home: as for making it the easiest for devs, well, a library that "just works" is the best
+[11:33:55] BDS97: home: and that's the goal with libatropos
+[11:34:10] BDS97: home: if it doesn't find atroposd, it won't throw errors, just spin up a node and do everything through that
+[11:35:07] BDS97: home: so you just import it (well, link against it if you're still on C++) and use it, no need to worry about the system
+[11:36:04] h0p3: We can always throw a switch in the libatropos to ignore the atroposd check if we wanted too
+[11:36:46] BDS97: home: yeah, that takes care of it
+[11:37:17] BDS97: home: actually, a dynamic flag would work better than a compile-time check
+[11:37:26] BDS97: home: since it'll have everything to spin up its own node anyway
+[11:38:02] BDS97: home: so it could even be a setting in apps that communicate through atropos
+[11:39:25] BDS97: home: speaking of which, I'm thinking of positioning it as a network tool
+[11:40:22] BDS97: home: it could very well get easier to create a channel through atropos than to do it manually over the internet
+[11:40:35] h0p3: Preach.
+[11:41:20] h0p3: I need a way to replace Zerotier that isn't garbage.
+[11:41:36] BDS97: home: Zerotier?
+[11:41:46] h0p3: https://zerotier.com/
+[11:42:08] h0p3: VPN using them as my centralized server. I've tried several mesh networking solutions. I hate them all.
+[11:42:43] BDS97: home: looks kind of like the same thing at first glance
+[11:43:01] BDS97: home: except it needs servers?
+[11:43:49] BDS97: home: oh, is it like a hamachi just better?
+[11:43:52] h0p3: Yes!
+[11:44:38] h0p3: We might also be compared to Wireguard a bit.
+[11:44:42] BDS97: home: yeah, IMO we need to make that obsolete
+[11:44:52] h0p3: no doubt
+[11:45:03] BDS97: home: (speaking of hamachi, checking Wireguard right now)
+[11:45:36] h0p3: I think the comparison is the lightweight, high performance, easy to audit and develop protocol we're using.
+[11:47:29] h0p3: One thing that we're doing differently is building the protocol with onion routing built-in by design. That costs us performance, but it allows us to build a rhizome that standard VPN protocols weren't designed for from the beginning. 
+[11:48:19] h0p3: In the end, I think Atropos will be able to build networks of immense complexity with more ease than. The whole point is the abstract away the internet from the beginning.
+[11:49:33] BDS97: home: yeah, it's really like a "let's rebuild the whole internet" thing
+[11:49:42] BDS97: home: which, I think, is exactly what we should be doing
+[11:50:08] BDS97: home: the internet was awesome
+[11:50:31] BDS97: home: but in the last few decades governments and megacorporations really figured out how to control every single aspect of it
+[11:50:43] BDS97: home: and we need to get rid of that, one step at a time
+[11:52:05] BDS97: home: "rhizome", I like this word, didn't even know it exists but it's spot on
+[11:52:19] BDS97: home: depicts exactly how I think of the network layer of Atropos
+[11:52:33] h0p3: =)
+[11:53:20] BDS97: home: as for the onion routing, it does cost us a little bit of performance, but I don't think it's much
+[11:53:20] BDS97: home: the headers, basically
+[11:53:22] BDS97: home: we could switch it off and go the direct route if needed
+[11:53:31] BDS97: home: on a per-channel basis
+[11:53:45] BDS97: home: the difference is, we'll be switching it off from a default state of on
+[11:54:37] h0p3: I'd rather pay the performance price of keeping it uniform. 
+[11:54:52] BDS97: home: yeah, that's exactly the plan
+[11:54:59] BDS97: home: for example, let's say you're developing a game
+[11:55:09] BDS97: home: you don't want to worry about all this NAT punchthrough nonsense
+[11:55:23] BDS97: home: so you just use libatropos, it's designed to punch through whatever you throw at it
+[11:55:37] BDS97: home: you don't need to hide the players' identities from each other
+[11:55:44] BDS97: home: so you just set up a direct connection
+[11:55:59] BDS97: home: at ideal conditions, it goes directly between the nodes you specified
+[11:56:11] h0p3: without having to pay the toll of all middleware and middlemen
+[11:56:18] h0p3: end to end
+[11:56:25] BDS97: home: exactly
+[11:56:33] BDS97: home: but it's still the same protocol, the same headers, same everything
+[11:56:37] h0p3: and they only need a key
+[11:56:41] BDS97: home: and from the outside observer, same packages too
+[11:56:57] BDS97: home: they need only the node IDs and similar setup, libatropos takes care of the crypto
+[11:57:14] h0p3: This is a network tool.
+[11:57:16] BDS97: home: and if the direct route is not feasible
+[11:57:37] BDS97: home: because of NAT not acting like it should or an ISP deciding to block stuff off
+[11:57:53] BDS97: home: then it will fall back to stepping through one or two relay nodes
+[11:58:08] BDS97: home: automatically, seamlessly, and keeping complete uniformity with the rest of the atropos network
+[11:58:53] BDS97: home: the point is, as the developer, you don't need to worry about any of it
+[11:59:09] BDS97: home: you get an abstract channel with two endpoints
+[11:59:16] BDS97: home: atropos does the rest
+[11:59:54] h0p3: ez peasy lemon squeezy for them
+[12:01:28] h0p3: One concern I have is about making sure the number of entrances to the Atropos DHT is maximized. I want the lists of entrances to be something which is updated for each client. 
+[12:01:47] BDS97: home: yeah, bootstrapping is an interesting challenge
+[12:02:18] h0p3: I like to think of those who aren't NATed behind an ISP as serving the network in a profound way here, since theoretically, they can all serve as entrances
+[12:03:17] h0p3: I don't mind storing 20MB of entrance points
+[12:03:32] BDS97: home: they pretty much will if everything goes to plan
+[12:03:37] h0p3: aye
+[12:04:11] BDS97: home: I think we need multiple different ways of bootstrapping
+[12:04:33] h0p3: Aye, that is something that could be modularized. Some people are going to need more obfuscation than others, etc.
+[12:05:01] BDS97: home: exactly, you could bootstrap through the Bittorrent DHT, but maybe if you live in North Korea you don't want to do that

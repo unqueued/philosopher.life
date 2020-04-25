@@ -1,0 +1,53 @@
+created: 20181222035422787
+modified: 20200220171351179
+tags: [[Wiki: Rube-Goldberg Machine]] [[Wiki Mechanic]] Wiki Computing Library
+title: Wiki: Chromium Setup
+
+//It is freeing to literally not give a shit about privacy in some particular area of my tooling. This is yet another iteration of the browser-based portion of my writer-developer environment. These are more plugins for TW. Technically, many of these tools can be built in TW, but I want them now; I don't have time to wait or to build them myself.//
+
+!! Focus:
+
+* Babby's Non-Wiki Web Survival Basics. Save Your Eyes.
+** uBlock Origin
+** Deluminate
+** Material Dark Theme
+
+* Navigation
+** Scrollanywhere
+
+* Stop Annoying Me
+** Downloads OverWrite Already Existing Files
+** Disable Download Bar
+** ~~`chrome://flags/` for overlay scroll~~
+*** Minimal Scrollbar
+** New Tab Redirect
+** Download Sorter
+
+* Wordie Word Book Nazis
+** Grammarly
+** Google Dictionary
+** ProWriting Aid
+** Quillbot
+** Grammar.com
+** Thesaurus: Synonym 4 Right Click
+
+* Autocompletion
+** [[Auto Text Expander]]
+** [[Text Blaze]]
+
+* Ruh-roh. Shit.
+** Typio Form Recovery
+
+
+!! Vault:
+
+* Navigation
+** Modeless Keyboard Navigation
+
+* Move to Text Editor
+** Edit with Sublime Text
+** Edit with VIM text editor
+
+* Autocompletion
+** Find & Replace for Text Editing
+** ProKeys

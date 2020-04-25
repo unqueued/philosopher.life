@@ -1,0 +1,85 @@
+[12:18:09] h0p3: How's life going?
+[12:18:51] BDS97: home: hi
+[12:18:52] BDS97: home: trying to sort out the freelancing stuff, learn tokio, and deal with a minor burnout
+[12:18:57] BDS97: home: but overall pretty well, thanks
+[12:19:16] BDS97: home: how are you?
+[12:20:59] h0p3: I hear that burnout. I sometimes feel like I'm drowning, just trying to keep my head above water. Once I catch my breath (and summon my meager courage), I dive back into the water to try and fix my leaking boat of a life.
+[12:21:36] h0p3: You dive into your work too. I can see why you would feel burned out (even if only minorly in this case).
+[12:22:23] h0p3: I'm doing okay. My job ~~teaching~~ babysitting kids afterschool has been fine. Working hard on the wiki and homeschooling.
+[12:24:28] BDS97: home: sounds great
+[12:25:49] BDS97: home: I wonder how the whole homeschooling thing works for you
+[12:25:53] BDS97: home: do you work from home too?
+[12:27:11] h0p3: I can't say everything works smoothly for homeschooling. We our best. Our kids are a bit older now, 13 and 11, so they can cook full meals, clean the house, do their laundry, and are capable of working on their own (though they often do not feel motivated). I can trust them to be on their own when I head out to work.
+[12:28:15] BDS97: home: so you do have a schedule?
+[12:28:25] h0p3: Aye.
+[12:28:47] BDS97: home: that's the part that gets me usually with those burnouts, I think
+[12:29:31] BDS97: home: right after I finished HS, I had a long stretch of free time, all the way until November that year
+[12:30:17] BDS97: home: and now is kind of the same deal, quit my job in June last year, been working from home since then, on a startup earlier, and now on the freelancing stuff
+[12:30:35] BDS97: home: plus the projects like Atropos and that gaming thing
+[12:31:20] BDS97: home: and now that I think about it, the entire thing was full of waves of intense sections and burnouts
+[12:33:04] h0p3: Man, I feel that pain. Regulating (or even just surviving) the seasons of life is hard. That's one of the reasons I write in my wiki every day. I can't say I'm effective, but it's the best tool I've found so far.
+[12:34:25] BDS97: home: not a bad idea, actually
+[12:35:07] BDS97: home: consistency is great, I think in that year and a half when I had a full time job that helped a lot
+[12:35:23] BDS97: home: (it did take a lot of time though)
+[12:36:21] BDS97: home: I never even had a diary though, never felt either the need or the ability to write one
+[12:36:26] BDS97: home: can't imagine how it's like
+[12:39:02] h0p3: Try it out. You may find it is far more than a diary in practice too. I don't just keep logs, I build projects in it (and projects about IRL projects). It's a place to plan, explore, and connect the dots I didn't see before. 
+[12:40:16] BDS97: home: sound nice
+[12:40:53] BDS97: home: I'm way too much of a cryptofreak to just start doing it, but maybe one day I'll get around that
+[12:41:10] BDS97: home: behind seven layers of encryption or something like that
+[12:42:31] BDS97: home: until then, guess I'll have to stick with the burnouts, trying to manage them
+[12:42:49] BDS97: home: hell, this one wasn't even that bad, only lost a few days
+[12:44:34] BDS97: home: sorry, going AFK for a bit, I'll have a call about the freelancing stuff soon
+[12:45:01] BDS97: home: would really like to sort it out because even with all these problems I love working on stuff that actually matters instead of sitting in an office for 8 hours
+[12:47:54] h0p3: preach, and don't worry...asynchronous discussion. We both have to drop off out of nowhere sometimes. I will be thinking about a safe way for you to hold your private thoughts. It is an important problem.
+[19:27:22] BDS97: home: diving deeper into tokio's documentation
+[19:27:52] BDS97: home: feels kinda overwhelming, like this is way too complex to ever get any widespread use
+[19:28:18] BDS97: home: fun fact: I wanted to roll my own programming language just a few months ago
+[19:28:27] BDS97: home: mostly based on some advantages JS has
+[19:28:40] BDS97: home: that desire largely disappeared when I learned rust properly
+[19:28:46] BDS97: home: but now with tokio it's coming back
+[19:28:50] h0p3: rofl
+[19:29:12] h0p3: I look at Rust as a mountain I'm simply never going to be able to climb, but I am in awe of those who do.
+[19:29:38] BDS97: home: no idea what those guys were smoking when designing this interface, but I have yet to come up with a way to make it even more counterintuitive
+[19:29:48] h0p3: lol
+[19:30:19] BDS97: home: Rust isn't actually that hard
+[19:30:43] BDS97: home: but Tokio, damn, that's like they took everything Rust fixed compared to C++ and reverted it
+[19:31:01] BDS97: home: well, kinda
+[19:31:08] BDS97: home: they still got the safety, which is nice
+[19:31:12] h0p3: Some people say to wait for async/await.
+[19:31:20] BDS97: home: that would be awesome
+[19:31:39] BDS97: home: been using that in JS for a while, easily the best way of handling events
+[19:32:20] h0p3: if there is a second language to prototype with, what would it be?
+[19:32:44] h0p3: Rust is the final destination, but it's still evolving.
+[19:32:55] h0p3: It might not be ergnomic enough right now.
+[19:33:16] BDS97: home: we can't use JS here, because 1. it's single-threaded, 2. it has a bulky runtime, 3. and it's not designed to do the heavy lifting
+[19:33:26] BDS97: home: it would be great for just prototyping though
+[19:34:13] BDS97: home: or even better, make the actual crypto in rust, compile it to webassembly, then export to JS and let it manage the sockets
+[19:34:42] BDS97: home: that would work well for anything that has a GUI, since those programs usually don't need to run on low-end hardware
+[19:34:57] BDS97: home: for the rest of it, I think we'll stick with rust and tokio
+[19:35:43] BDS97: home: it's not ergonomic, and you have to take a few laps around it before you figure out how you can even use it, but once you get it running it's some of the fastest stuff out there
+[19:35:48] BDS97: home: and probably still one of the most ergonomic
+[19:36:12] BDS97: home: like, we could do it in C, but that'd get us in trouble with all the buffer overflows and other low-level exploits
+[19:36:33] BDS97: home: seriously, I have a friend currently at uni, he's quite involved in that aspect of security
+[19:36:56] BDS97: home: the kind of stuff he tells me about just makes me never want to touch anything lower level than Rust or Go
+[19:37:23] BDS97: home: speaking of other language to prototype with, if Go has "green threads" and efficient messaging it might be helpful
+[19:38:12] BDS97: home: but the downside of go is the API you can export is not really ergonomic, and that's really a problem if we want people to actually use this thing
+[19:38:54] h0p3: How difficult would it be to prototype in such a way that we can slip a future made Rust-library into it?
+[19:39:15] h0p3: I don't know if that would help with the API problem though.
+[19:41:52] BDS97: home: I don't think it's that much of a problem
+[19:42:33] BDS97: home: I'll figure tokio out, eventually, I mean I already have a plan now that the previous one is mostly dead
+[19:42:39] BDS97: home: then we'll just use it internally
+[19:42:59] BDS97: home: export something that looks like the Rust standard library
+[19:43:12] BDS97: home: and then use it to export to C something that looks like C
+[19:43:29] BDS97: home: it's a one-time hassle, not worth switching languages for
+[19:43:45] h0p3: k
+[19:44:09] BDS97: home: I just wish the people designing tokio just figured out how to make it at least a little more intuitive, or if they couldn't, just document it properly
+[19:44:42] BDS97: home: but that's not important for this project, the core that does the heavy lifting can have code that's hard to comprehend but crazy fast
+[19:45:12] BDS97: home: it's similar to the linux kernel, actually
+[19:45:29] BDS97: home: that thing has sections written in assembly for the same reasons
+[19:45:39] BDS97: home: but working with the completed kernel is much easier
+[19:48:16] BDS97: home: anyway, that's not an issue for us
+[19:49:19] BDS97: home: still gonna roll my own language eventually, because I'd like to make a game engine, and for that people should be able to write code that's fast and still intuitive
+[19:50:06] BDS97: home: but for this this project I don't see where it's required, some things we'll get done once and then rarely touch, and others won't need to do much heavy lifting
+[19:51:02] BDS97: home: sorry about the rant, just wanted to give a status report but my status is apparently "angry at tokio"
+[19:53:05] h0p3: Rofl. It's good. I appreciate that you tell me.

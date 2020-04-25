@@ -1,0 +1,18 @@
+created: 20191219001000051
+modified: 20191221010334735
+tags: [[Antipleonasm Analysis]]
+title: 2019.12.18 - Antipleonasm Analysis: Autocomplete
+
+!! Respond to the following gem:
+
+<<<
+Here’s why the high-bandwidth visual interface is important: The common thread in between the autocompletion in zsh, IPython, Xcode and OS X help is that it makes it easy to find hidden things.
+
+As computers get more complex, the number of objects they have to deal with—files, functions, menu items, or anything else—explodes. The easiest way to tame the complexity is to hide these objects away until you, the user, call them out by name. But the computer is dumb, so you have to get the name exactly right. You have to pick exactly the right menu sequence, or type out the method signature precisely, without any feedback process—it’s like shooting a bullseye in the dark. Autocomplete turns on the lights.
+<<<
+
+Finding hidden //relevant// things is the hard part, and it always is: that's philosophy. 
+
+Autocompletion can narrow a domain into what is likely to be preferred. It's a lense for channeling that bandwidth into more virtuous perception. The goal is to automatically filter away what is irrelevant to allow us to dig more efficiently and eventually more deeply in some cases. It [[ltf]] by increasing my accuracy (sometimes by embracing fuzziness), speeds me up with footholds, decreases cognitive load, and lowers the chances I'll be pulled out of the zone to solve something dumb. What I like about autocomplete is that it's a very generalizable kind of abstraction (which is meant to allow us to hide objects, properties, or processes).
+
+I need to come back to this problem. There's something still hidden here (epistemic closure?).

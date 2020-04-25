@@ -1,0 +1,11 @@
+created: 20180220172600824
+modified: 20200221055322053
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.02.20 - Computer Musings: Sync
+
+I finally have it running for my wife! I installed a shadowsocks gui client for her and pointed it at ATL. I had to uninstall Resilio Sync (because it just doesn't play nice in Windows 10) and reinstall. It worked after that. Everything is set up to autorun. I changed the Synkron to still backup to Dropbox for her on both machines, but Dropbox is just a backup slave now. I ran tests on both ends. It works great. I also setup wiki syncs across the board for her. It will be up to her if she wants more than that (depends on her privacy preferences).<<ref "2020.02.21">>
+
+
+---
+<<footnotes "2020.02.21" "I wish she took more of an interest in it herself. I realize the school aimed not to enable such sane behavior. I think my work here ended up making her more willing to actually use here wiki, and I'm grateful I did.">>

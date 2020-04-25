@@ -1,0 +1,128 @@
+created: 20200323161938449
+modified: 20200324174836296
+tags: [[MTG Deck]]
+title: MTG Deck: EDH - Flash Hulk
+
+//We must be able to tell the stories of a deck in context. I remember when Flash Hulk broke formats. This deck variant is based on an updated version of the breakfast combo paired with another gussied up classic combo in the Hermit Druid packaged as a backup plan B (which feels somewhat like an embedded transformational sideboard). There's nothing casual about this deck, and I would be surprised if this archetype wasn't almost bannably warping the competitive scene. Seems like a fine starting place to me. With practice, given sufficient knowledge of the meta, you can find and force stack-abusing windows with back-breaking information advantage; this deck should scale with skill and knowledge. As with the restriction of Vintage, singleton eternal formats increase the value of tutors, pressuring the meta to flexibly abuse them for both silver-bullet toolboxes and combo assembly. Reanimation is a quintessential example of this principle in the history of magic. Too often, offense is the best defense when even the hate cards must be tutored. Further, given the variance in the brokenness of cards in this pool, consistent library manipulation is far more important than general redundancy of functions in a 100-card format. I also enjoy how the commanders are filthy enablers tutored from the command zone, but they aren't the crux of the deck (which may be a key point of the format since it now has a banlist).//
+
+```
+// 2 - Commander
+1 Tymna the Weaver
+1 Thrasios, Triton Hero 
+
+// 31 - Land
+1 Arid Mesa
+1 Bloodstained Mire
+1 Flooded Strand
+1 Marsh Flats
+1 Misty Rainforest
+1 Polluted Delta
+1 Scalding Tarn
+1 Verdant Catacombs
+1 Windswept Heath
+1 Wooded Foothills
+1 Overgrown Tomb
+1 Breeding Pool
+1 Godless Shrine
+1 Temple Garden
+1 Watery Grave
+1 Bayou
+1 Savannah
+1 Scrubland
+1 Tropical Island
+1 Tundra
+1 Underground Sea
+1 City of Brass
+1 Command Tower
+1 Exotic Orchard
+1 Forbidden Orchard
+1 Gemstone Mine
+1 Mana Confluence
+1 Tarnished Citadel
+1 Horizon Canopy
+1 Nurturing Peatland
+1 Waterlogged Grove
+
+// 11 - Mana Sources
+1 Lotus Petal
+1 Mana Crypt
+1 Sol Ring
+1 Avacyn's Pilgrim
+1 Birds of Paradise
+1 Deathrite Shaman
+1 Elves of Deep Shadow
+1 Elvish Mystic
+1 Fyndhorn Elves
+1 Llanowar Elves
+1 Noble Hierarch
+
+// 11 - Tutors
+1 Eladamri's Call
+1 Mystical Tutor
+1 Summoner's Pact
+1 Vampiric Tutor
+1 Worldly Tutor
+1 Demonic Tutor
+1 Imperial Seal
+1 Merchant Scroll
+1 Sylvan Tutor
+1 Diabolic Intent
+1 Noxious Revival
+
+// 7 - Card Quality
+1 Scroll Rack
+1 Sensei's Divining Top
+1 Sylvan Library
+1 Lim-Dul's Vault
+1 Ponder
+1 Preordain
+1 Brainstorm
+
+// 2 - Card Advantage
+1 Mystic Remora
+1 Dark Confidant
+
+// 11 - ~Stack Control
+1 Flusterstorm
+1 Force of Negation
+1 Mental Misstep
+1 Force of Will
+1 Swan Song
+1 Pact of Negation
+1 Dispel
+1 Dovin's Veto
+1 Silence
+1 Veil of Summer
+1 Spellseeker
+
+// 8 - Board Control
+1 Abrupt Decay
+1 Chain of Vapor
+1 Assassin's Trophy
+1 Cyclonic Rift
+1 Nature's Claim
+1 Path to Exile
+1 Swords to Plowshares
+1 Force of Vigor
+
+// 9 - Pwnkit
+1 Flash
+1 Protean Hulk
+1 Cephalid Illusionist
+1 Nomads en-Kor
+1 Hapless Researcher
+1 Grand Abolisher
+1 Narcomoeba
+1 Laboratory Maniac
+1 Dread Return
+
+// 8 - Mr. Hermit Druid Backup
+1 Fatestitcher
+1 Hermit Druid
+1 Muldrotha, the Gravetide
+1 Lion's Eye Diamond
+1 Phantasmal Image
+1 Necromancy
+1 Memory's Journey
+1 Timetwister
+```

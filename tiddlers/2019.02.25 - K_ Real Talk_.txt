@@ -1,0 +1,95 @@
+"""
+Have a great day [[h0p3]]! ^-^
+MON 8:36 AM
+Hey, you too. =)
+MON 9:50 AM
+How was your weekend?
+MON 9:50 AM
+Busy busy. But enjoyable.
+MON 10:35 AM
+What about you?
+MON 10:35 AM
+It was busy, busy, but enjoyable for me as well.
+MON 1:09 PM
+What did you enjoy most about it?<<ref "2020.02.26-1">>
+MON 1:09 PM
+Being able to see my out of state friends. And our dnd campaign continuing despite her move.
+MON 1:23 PM
+That sucks that she had to move. It's cool that it can continue.
+MON 1:24 PM
+That's a powerful moment in the story of telling stories to me.
+MON 1:24 PM
+I don't think I'll ever get used to it.
+MON 1:25 PM
+Also, what was the story we set a date for?
+MON 1:27 PM
+Dunno. THat would be a question for [[L]]... I shall ask her.
+MON 1:27 PM
+What you up to today?
+MON 1:33 PM
+I assume school and work.
+MON 1:33 PM
+I have asked her
+MON 1:33 PM
+Yup!
+MON 1:33 PM
+Mythology got cancelled though
+MON 1:33 PM
+So that's a thing
+MON 1:34 PM
+Your midterm go alright?
+MON 1:34 PM
+Real talk?
+MON 1:34 PM
+the first half was great
+MON 1:34 PM
+Realized I had 15 minutes left and rushed the fuck out of my essay
+MON 1:34 PM
+I hate that feeling so much.
+MON 1:34 PM
+I hate writing in-class essays though.
+MON 1:34 PM
+And, yes, I'm always down for realtalk. =)
+MON 1:35 PM
+Hahaha
+MON 1:37 PM
+Yeah, but he's a super cool professor and the first half was really good
+MON 1:37 PM
+I think I'll be just fine
+MON 1:37 PM
+Good.
+MON 1:37 PM
+This could have been a ten page paper basically
+MON 1:38 PM
+ended up with 2.5 written
+MON 1:39 PM
+I think my favorite in-class written exams gave us the chance to pre-write from a list of study questions.<<ref "2020.02.26-2">>
+MON 1:41 PM
+It sounds like one of those unfair, impossible tasks which give you the chance to show off as much as you possible can in a narrow window of time.
+MON 1:42 PM
+So for this one, we were allowed to bring whatever we wanted into the exam, just no electronics, so I just made an outline and brought my book
+MON 1:43 PM
+My outline was too long apparently
+MON 1:43 PM
+I loved grading logic so much more than the rest of philosophy.
+MON 1:44 PM
+I could design 1-page (front and back) with objective, easy-to-grade, complete content-coverage, obvious partial-credit-policy generating tests.
+MON 1:45 PM
+Grading was a mindless task at that point.
+MON 1:46 PM
+Written tests are almost impossible for me to grade without bringing my own bias to the table.<<ref "2020.02.26-3">>
+MON 1:47 PM
+undue* bias
+MON 1:47 PM
+i totally see what you mean
+MON 1:48 PM
+haha
+MON 1:48 PM
+"""
+
+---
+<<footnotes "2020.02.26-1" "Throwing can-openers. Doing what I can.">>
+
+<<footnotes "2020.02.26-2" "Which came up again in my [[Yearly Cross-section]] for [[The Remodeling]] tonight too.">>
+
+<<footnotes "2020.02.26-3" "I have no business grading papers. I'm either too harsh or too lenient. I cannot find a middle ground I'm thrilled with.">>

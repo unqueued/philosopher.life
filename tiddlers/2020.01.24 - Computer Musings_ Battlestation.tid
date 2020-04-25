@@ -1,0 +1,17 @@
+created: 20200124194520331
+modified: 20200125062801642
+tags: [[Computer Musings]]
+title: 2020.01.24 - Computer Musings: Battlestation
+
+* xorg required manual fix, arch-announce did not work!
+** `sudo pacman -Runsc xorgproto`
+* Update. Unhealthy random number generator, [[JHBFC]]. 
+** I don't know why Gparted doesn't see my thumbdrive, but it doesn't matter atm, Dolphin does.
+** BIOS update. Looks sane now.
+* [[Charlie]]'s machine has been done for a while. `/salute` [[m17]]. You were fine piece of computing ass. Yum. Serve him well, please.
+* And, Comcast fucks me yet again (last time being 2008?). Alrighty, well, dropping $150 on another modem. 
+** Speedtests show 950 lately. Think I'll keep it.
+** Netgear CM1000 otw. I'm excited. =)
+* Thinking about dual-boot for [[m12]]. I'd like to have one native Windows machine available for myself in case I ever need it (phone seems to do all that work just fine though, but you never know). 
+** Probably back to i3-Manjaro. The Fn key is sane on that keyboard.
+* My Battlestation is now operational. All the missing parts are back, and I've got some shelf space.

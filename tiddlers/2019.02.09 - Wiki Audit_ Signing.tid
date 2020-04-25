@@ -1,0 +1,33 @@
+created: 20190210011006281
+modified: 20200210103638281
+tags: j3d1h [[Computer Musings]] [[RGM Notes]] [[Wiki Audit]]
+title: 2019.02.09 - Wiki Audit: Signing
+
+We're running into a serious problem here. My signatures aren't working correctly when downloading directly from the browser when visiting https://philosopher.life/. Ruh roh. Seems to work fine from git and rslsync. The browser is changing some lines, hence the hash is failing. [[j3d1h]] is walking through the diff to spot the patterns.
+
+Perhaps part of the toolchain needs to be automatically monitoring/checking the site (common), downloading copies (be it headless or VMed), and performing automated signature checking (or even just diffs right now). Testing and a notification would go a long fucking way.
+
+I believe this can be fixed if certain construction rules are followed. We could also force its construction by rendering the unsigned index.html file, saving (I am convinced it can't be headless either), and then signing (making a full blown fucking VM for this bullshit!). Ugh. That is gross as fuck, right? If we knew how to sanitize it for the browser, we could also do that programmatically before signing.
+
+It would be nice if nodejs solved this. FF and Blink both produce the same document; why doesn't nodejs?
+
+---
+
+Trying from https://live.philosopher.life.
+
+---
+
+j3d1h stole the wiki again. So, uh, take this thing (diff between Downloads/Wiki/index.html and philosopher.life/index.html):
+
+[[-=[ SNIP ]=-|2019.02.10 - TWGGF: Signing Diff]]<<ref "2020.02.10">>
+
+There are a few problems. The important parts are:
+
+*Variables changing so TW knows you're using a browser
+*Variables changing to information about the website
+
+I'm not entirely sure if that's what the variables mean. Look through the longer block, it's got screen width/height, as well as url info.
+
+
+---
+<<footnotes "2020.02.10" "This is a [[Wiki Mechanic]] I never use. It's ugly. It's part of the gunky problem too.">>

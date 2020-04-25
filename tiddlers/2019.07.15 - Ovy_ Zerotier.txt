@@ -1,0 +1,46 @@
+8:13 AM] Valdus: No
+[8:17 AM] Valdus: Omg that worked damn you!
+[8:22 AM] Valdus:
+
+[8:30 AM] Valdus: Yeah  I got serious mother in law issues.
+[10:21 AM] h0p3: Lol
+[4:12 PM] Valdus: ok what is next on the agenda (or why the hell am I not working out?)
+[4:13 PM] h0p3: Well, gotta make an agenda/planner/To-do-list/calendar thing in the wiki first, and then you can organize your entire life until you die, right?
+[4:13 PM] Valdus: uhm yeah but why do that if I cant get it outside my house, not that I am ever out of this house eh?
+[4:14 PM] h0p3: Worth figuring out why you can't make it work outside your house.
+[4:14 PM] h0p3: That doesn't make sense to me.
+[4:14 PM] h0p3: What is your saving mechanism, precisely?
+[4:14 PM] h0p3: I'm surprised you have any time at all with a youngling.
+[4:14 PM] Valdus: No I mean, its on Bob but bob don't do out of the house.
+[4:14 PM] h0p3: Oh, that's solveable
+[4:14 PM] Valdus: good
+[4:14 PM] Valdus: I use bob and savetrail
+[4:15 PM] h0p3: I told you how. Lol. Try https://www.zerotier.com/
+[4:16 PM] Valdus: I have not told you this in a while but wth is this?
+[4:16 PM] h0p3: Setup a VPN client on each device. That makes it so they can see each other over a virtual LAN from any place on the internet. It's kind of like running an encrypted ethernet cable across the internet to each of your devices.
+[4:16 PM] h0p3: Lol.
+[4:16 PM] Valdus: hmmm
+[4:16 PM] h0p3: That's what I use.
+[4:16 PM] h0p3: I have made my own versions of it, but this has been rock solid for me.
+[4:16 PM] Valdus: ok but there is a section called pricing, Grendel no like pricing!
+[4:17 PM] h0p3: My offspring are in KY right now, and they are logged into their Bob servers running on my machine using that VPN as we speak.
+[4:17 PM] h0p3: haha, Grendel. :smiley:
+[4:17 PM] h0p3: That was an interesting book.
+[4:17 PM] h0p3: Also, it's free, homie.
+[4:18 PM] Valdus: ok ok
+[4:19 PM] Valdus: yes my ID is named Grendel, but ok what do I do with this, download to the pc?
+[4:20 PM] h0p3: Yes. Go read, install on two devices, you will have another set of IP's (beginning with 10.XX.XX.XX, most likely). You can use those IP addresses to access your devices.
+[4:21 PM] h0p3: I access my media server over this tool as well. Surely, you will cum rainbows after using this software.
+[4:43 PM] Valdus: thanks for that image.
+[4:43 PM] h0p3: Lol. Anytime.
+[4:55 PM] Valdus: hmm loaded on mac and phone now what?
+[4:55 PM] h0p3: Bob is on the desktop, yeah? You have it on there.
+[4:56 PM] Valdus: yeah, oh i got to load it on desktop- i just want to try it out.
+[4:56 PM] h0p3: Make sure all the devices are connected (you can ping, for example). Then use the VPN IP of the desktop (with port) in your browser. It should give you Bob.
+[5:49 PM] Valdus: Havent gotten to it yet. Hey, what do you think, I have a fantasy world in my head, should I make it part of the omnibus or make it its own wiki?
+[5:50 PM] h0p3: Don't split your wiki until you absolutely know you have to (and, even then, find a hack around it if you can).
+[5:50 PM] Valdus: also, how do I make my computer save under another name, I mean I hate that it saves it under 'tiddlywiki'?
+[5:50 PM] Valdus: ok
+[5:50 PM] h0p3: Do you tagging, tiddler naming, and field work well.
+[5:50 PM] Valdus: field work, hmmm that is?
+[8:05 PM] h0p3: Sorry, didn't see this! I mean what you put in the fields of your tiddlers.

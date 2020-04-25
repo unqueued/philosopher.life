@@ -1,0 +1,45 @@
+[8:11 AM] h0p3: You got me thinking maybe I need to start writing in the terminal too.
+[8:11 AM] h0p3: https://philosopher.life/#2017.12.14%20-%20Diego%20Mesa%3A%20CLI
+[8:14 AM] h0p3: What do you use for the mod key on the chromebook? Mine did not have a super key (except where "Caps Locks" normally would have been), and it threw me off.
+[8:21 AM] h0p3: I'm stuck on the text substitutions, but that should be replicable in text editors.
+[8:22 AM] h0p3: Congratz on Jasper :smiley: I hope you get some sleep.
+[2:14 PM] robotic_scarab: ah! I googled for .tid creation bash scripts but couldn't find any, so wrote my own ahaha
+[2:14 PM] h0p3: Noice. :smiley:
+[2:15 PM] robotic_scarab: it's a little more complex than that one (and gets the date format correct...that one is missing the 3 extra milliseconds on the created/modified dates)
+[2:15 PM] robotic_scarab: i'll post it up soon, hopefully this weekend
+[2:15 PM] h0p3: Cool.
+[2:16 PM] h0p3: I may end up using it too. Still not sure where I'm going, as usual.
+[2:16 PM] robotic_scarab: it's nice to have options!
+[2:17 PM] robotic_scarab: for i3, I use Alt as my mod key, though I do use the search/caps lock/?? button as my "function" key for volume & brightness settings in i3
+[2:18 PM] robotic_scarab: i thought about mapping it to caps lock (one guide did so) but eh, i never really use the caps lock button so i'm keeping it as is for right now
+[2:19 PM] robotic_scarab: when you say you're stuck on text substitutions, what are you referring to?
+[2:19 PM] h0p3: Aye. Alt makes more sense to me. More ergonomic when you start flying through workspaces and what not.
+[2:19 PM] robotic_scarab: (i hope i get more sleep too...I've either been hit with allergies or a cold and it's taking it out of me)
+[2:19 PM] h0p3: It seems to be hitting everyone!
+[2:20 PM] h0p3: https://philosopher.life/#Text%20Blaze:%5B%5BAuto%20Text%20Expander%5D%5D%20%5B%5BText%20Blaze%5D%5D
+[2:21 PM] h0p3: It's a huge leap from monster-10 to my phone (monster-14) which doesn't have them.
+[2:22 PM] robotic_scarab: ah, so these are both external to the wiki
+[2:22 PM] h0p3: Aye, chromium extensions.
+[2:25 PM] robotic_scarab: i imagine that's similar to snippets in text editors
+[2:26 PM] h0p3: I'm afraid I may have to bite the bullet and sit down to learn vim or spacemacs.
+[2:27 PM] robotic_scarab: my script basically reads user input for title > reads user input for tags > reads multi-line user input for body text > populates .tid file & opens it in a text editor (I use micro)
+[2:27 PM] robotic_scarab: it's all about embedding that muscle memory of shortcuts (vim/emac)
+[2:27 PM] robotic_scarab: it's so cool, i'm starting to pick up on the little linux/terminal things
+[2:28 PM] h0p3: :smiley:
+[2:28 PM] robotic_scarab: like cat'ing a file | greping a word, or doing the same on an ls, etc etc
+[2:28 PM] robotic_scarab: very satisfying haha
+[2:29 PM] robotic_scarab: and then b/c my screen is so small and i was on github so much & it doesn't have a flexy CSS build, I made my own user script to fix that :smile:
+[2:30 PM] robotic_scarab: it actually works quite well -- their CSS is already set up in such a way that sticking flex in to make it responsive is pretty easy
+[2:30 PM] h0p3: (afk, driving to work, will answer, ofc)
+[2:30 PM] robotic_scarab: dunno why they don't do it themselves :stuck_out_tongue:
+[2:31 PM] robotic_scarab: the oooonly thing about i3 that bothers me is that I often want to start a terminal on an empty workspace and I only want it to take up half the screen, not the full space
+[2:32 PM] robotic_scarab: but I expect I can get that set up when I eventually dig into specific layouts
+[6:23 PM] h0p3: I've never done that before.
+[6:23 PM] h0p3: https://www.reddit.com/r/i3wm/comments/440qt1/is_it_possible_to_have_a_single_terminal_to_one/czmi63k/
+reddit
+r/i3wm - Is it possible to have a single terminal to one side of t...
+7 votes and 14 comments so far on Reddit
+[6:24 PM] h0p3: That's not a great solution.
+[6:26 PM] h0p3: Are you concerned about text wrapping issues and want to manually force it to that size?
+[6:26 PM] robotic_scarab: interesting, i hadn't found that link (though i had found several references to the open command)
+[6:26 PM] robotic_scarab: mostly I just dislike the vast expanse of white space when it's full screen and feel more comfy with it at half screen size

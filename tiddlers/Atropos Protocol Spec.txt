@@ -1,0 +1,260 @@
+//This is markdown. I'm not going to spend a plugin just for this. I'm not going to write a converter. If it matters, I'll fix it. That time isn't now.//
+
+Atropos Network Protocol
+========================
+
+Draft 0.2.2, 2018-01-08No 
+
+Data Layers
+-----------
+
+Atropos packages have three main parts: header, content, and padding. The content is application territory, padding is simply random data added to the end of the package. The header, however, is responsible for routing the data to the right application on the right host while keeping it safe.
+
+An Atropos header consists of several layers, each having a different function. All of them use their own sections of the header, which is divided into "slices". Each slice is 64 bits, 8 bytes long.
+
+### Layer 0 - Encryption
+
+#### Layout:
+
+```
+              Short                       Long
+
+0  [          nonce         ]  [          nonce         ]
+
+1  [          hmac          ]  [          hmac          ]
+2  [          hmac          ]  [          hmac          ]
+
+3  [ length (32) | tid (32) ]  [         pubkey         ]
+4                              [         pubkey         ]
+5                              [         pubkey         ]
+6                              [         pubkey         ]
+
+7                              [ length (32) | tid (32) ]
+```
+
+Fields:
+
+ - **nonce**: random value, unique to package
+ - **hmac**: package-level checksum
+ - **pubkey**: package-specific public key (optional)
+ - **length**: package length, encrypted
+ - **tid**: "tunnel ID", encrypted, forwarded to Layer 1
+
+> Note: only **nonce**, **hmac**, and **pubkey** are sent in plaintext
+
+#### Process:
+
+Definitions:
+  - _starting slice_: slice 3 in short mode and slice 7 in full mode
+  - _node privkey_: node-specific private key, the public counterpart of which is the node ID
+
+1. `message key` is set to
+    - in short mode, _connection key_
+    - in full mode, the result of curve25519 Diffie-Hellman with **pubkey** as public key and _node privkey_ as private key
+
+2. starting slice is decrypted using salsa20 with `message key` as key, **nonce** as nonce, starting from position 0
+
+3. min(**length**, underlying package length, _package limit_) from starting slice is decrypted using the same cipher as in step 2, result is `full content` with starting slice or `content` without
+
+4. hmac-sha256 is computed with `message key` as key and `full content` with data, then checked against **hmac**
+    - if matches, Layer 0 is successful, returns `content`
+    - if doesn't match, Layer 0 fails
+
+By default, short mode is attempted first if connection key is present, then full mode is tried.
+
+### Layer 1 - Tunneling
+
+#### Layout:
+
+```
+              Short                       Long
+
+0  [ length (32) | tid (32) ]  [ length (32) | tid (32) ]
+
+1  [       inner nonce      ]  [       inner nonce      ]
+
+2  [       inner hmac       ]  [       inner hmac       ]
+3  [       inner hmac       ]  [       inner hmac       ]
+
+4                              [      inner pubkey      ]
+5                              [      inner pubkey      ]
+6                              [      inner pubkey      ]
+7                              [      inner pubkey      ]
+```
+
+> Note: slice 0 is overlapping with Layer 0's last slice
+
+Fields:
+- **length**: total layer length, including headers
+- **tid**: tunnel ID, used for tunnel-level multiplexing
+- **inner nonce**: random value, unique to content
+- **inner hmac**: hash of tunneled content
+- **inner pubkey** (optional): public key used to establish the tunnel
+
+#### Process:
+
+Definitions:
+  - _tunnel key_: stateful key, negotiated like _connection key_ as discussed later
+  - _node privkey_: as discussed at Layer 0
+  - _external tid_: tunnel-specific value, set when opening the tunnel
+  - NoSuchTunnel: an error type, as discussed later
+
+1. _tunnel key_ is checked for the specific **tid**
+    - if present, short header format is used
+    - if not, _tunnel key_ is set to the result of curve25519 Diffie-Hellman with **inner pubkey** as public key and _node privkey_ as private key
+
+2. `encrypted content` is set to remaining content of the package after the header
+
+3. `encrypted content` is decrypted to `content` using salsa20 with **inner nonce** as nonce and _tunnel key_ as key
+
+4. **inner nonce** and `content` are concatenated and hashed using hmac-sha256 with _tunnel key_ as key
+    - if matches, Layer 1 is successful, ends here returing `content`
+    - if doesn't match, the process continues
+
+5. **tid** is checked if it refers to an established tunnel
+    - if does, a package is sent to the next host, using
+        - _external tid_ as tid,
+        - **inner nonce** as inner nonce,
+        - **inner hmac** as inner hmac,
+        - `content` as content
+    - if not, Layer 1 fails, returning a NoSuchTunnel error to the client
+
+### Layer 2 - Inmuxing
+
+
+
+### Layer 3 - Multiplexing
+
+#### Layout:
+
+```
+0 [   package type   ]
+1 [   source port    ]
+2 [ destination port ]
+```
+
+Fields:
+
+- **package type**: defines the parsing engine for the package
+- **source port**: like ports in clearnet
+- **destination port**: like ports in clearnet
+
+#### Associated Info:
+
+Creating a port ID from its name is done by hashing the name using hmac-sha256 name with "atropos:port" as key, then truncating the hash to 64 bytes.
+
+Canonical representation for port IDs is hex-encoded and cut into sections in a {2}-{4}-{6}-{4} pattern, preferably also including the name (if known). Examples:
+
+```
+14-876b-17450c-e5cd
+atropos:connect (14-876b-17450c-e5cd)
+my-atropos-app:web (f0-4f51-aeabcb-b03b)
+```
+
+Creating a package type ID from the name is very similar, the only difference is the key being "atropos:package-type". The canonical representation also differs, it's {4}-{2}-{2}-{4}-{2}. Examples:
+
+```
+atropos:block (678f-bc-1b-bab0-9d)
+atropos:stream-ack (5ece-15-16-68e3-05)
+atropos:protocol (f5e2-e8-f1-cd49-21)
+```
+
+> Note: there is no particular reason for the section lengths in the canonical representation. The only point is to make them recognizable, which is why they are set in the protocol specification.
+
+#### Process:
+
+Definitions:
+  - UnknownPackageType, ConnectionRefused: error types
+
+1. **package type** is looked up locally. If not supported, Layer 2 fails and an UnknownPackageType error is returned to the client.
+2. The package type handler takes control, and it may return ConnectionRefused errors to the client.
+3. The output of the package type handler is sent to all processes listening on **destination port**
+
+### Appendix 0: full Atropos headers
+
+```
+               Short                    Outer Large
+
+0   [          nonce         ]  [          nonce         ]
+1   [          hmac          ]  [          hmac          ]
+2   [          hmac          ]  [          hmac          ]
+
+3   [ length (32) | tid (32) ]  [         pubkey         ]
+4   [       inner nonce      ]  [         pubkey         ]
+5   [       inner hmac       ]  [         pubkey         ]
+6   [       inner hmac       ]  [         pubkey         ]
+
+7   [      package type      ]  [ length (32) | tid (32) ]
+8   [      source port       ]  [       inner nonce      ]
+9   [    destination port    ]  [       inner hmac       ]
+10                              [       inner hmac       ]
+
+11                              [      package type      ]
+12                              [      source port       ]
+13                              [    destination port    ]
+```
+
+```
+            Inner Large                    Full
+
+0   [          nonce         ]  [          nonce         ]
+1   [          hmac          ]  [          hmac          ]
+2   [          hmac          ]  [          hmac          ]
+
+3   [ length (32) | tid (32) ]  [         pubkey         ]
+4   [       inner nonce      ]  [         pubkey         ]
+5   [       inner hmac       ]  [         pubkey         ]
+6   [       inner hmac       ]  [         pubkey         ]
+
+7   [      inner pubkey      ]  [ length (32) | tid (32) ]
+8   [      inner pubkey      ]  [       inner nonce      ]
+9   [      inner pubkey      ]  [       inner hmac       ]
+10  [      inner pubkey      ]  [       inner hmac       ]
+
+11  [      package type      ]  [      inner pubkey      ]
+12  [      source port       ]  [      inner pubkey      ]
+13  [    destination port    ]  [      inner pubkey      ]
+14                              [      inner pubkey      ]
+
+15                              [      package type      ]
+16                              [      source port       ]
+17                              [    destination port    ]
+```
+
+Name        |         Size         | Max Content Size | Density
+------------|:--------------------:|:----------------:|:-------:
+Short       | 10 slices,  80 bytes |    432 bytes     | 84.375%
+Inner Large | 14 slices, 112 bytes |    400 bytes     | 78.125%
+Outer Large | 14 slices, 112 bytes |    400 bytes     | 78.125%
+Full        | 18 slices, 144 bytes |    368 bytes     | 71.875%
+
+Package Types
+-------------
+
+Data layers generate security against adversaries both within and outside of the Atropos network, and route packages to their desired locations. However, once they are there, there is still a layer of abstraction left, provided by package types.
+
+Unlike the data layers, package types are modular, new handlers can be added on demand to a running client. There are some built-in types, but if they don't prove sufficient, users are free to add their own ones.
+
+### Basic qualities of a handler
+
+Atropos package type handlers have an event-driven approach. Whenever a new package is received, it is passed to the handler as an event, and handlers are expected to generate their own events.
+
+#### Inbound Events
+ - **package**: a new package is received with the handler's type. Cointains the package content, source and destination addresses in the form of Atropos IDs and ports, and a timestamp.
+ - **size change**: the maximum package size changed (usually when establishing a connection)
+ - **write** (optional): the client would like to send some data. Contains the package content, destination address, and a timestamp.
+
+#### Outbound Events
+ - **send**: the handler would like to send a package to a specified node.
+ - **receive**: the handler passes a received package to the client.
+
+### Built-in package types
+
+#### atropos:block
+
+- headers:
+    ```
+    [ block id (64) | slice num (64) ]
+    ```
+- size:
+    - block size: 

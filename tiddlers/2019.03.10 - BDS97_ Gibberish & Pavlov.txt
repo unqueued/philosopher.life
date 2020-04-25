@@ -1,0 +1,180 @@
+[18:11:07] BDS97: home: https://github.com/b3nsn0w/gibberish
+[18:11:12] BDS97: home: got bored, made a simple crypto tool
+[18:11:15] BDS97: home: what do you think?
+[11:18:13] h0p3: I like it! It's a good cross between steganography and cryptography. It's intuitive. I am reminded of Atropos. I am also reminded of this: https://twitter.com/David3141593/status/1057042085029822464
+[11:18:42] h0p3: I love that it costs something to detect gibberish, no matter what.
+[11:19:30] h0p3: I adore how the focus is on human narrative. 
+[11:20:09] BDS97: home: yeah, realized that to gain any traction it has to be simple and intuitive
+[11:20:54] BDS97: home: been experimenting with windows registry too, this is the targeted UX for desktop: https://imgur.com/uL1fBe4
+[11:21:26] h0p3: rofl
+[11:22:18] BDS97: home: seems like it's a good project to learn some stuff with
+[11:23:24] h0p3: I am surprised by the number of basic file encryption tools which aren't as intuitive and don't even have the same functionality.
+[11:24:16] BDS97: home: yeah, can't say that wasn't part of the motivation
+[11:24:45] BDS97: home: it came up when I was chatting with a friend on FB messenger, and he couldn't send over a rar file
+[11:25:07] BDS97: home: apparently facebook recognized the rar signature, and blocked it even if it was renamed
+[11:25:13] h0p3: gross
+[11:25:23] BDS97: home: agreed
+[11:25:35] BDS97: home: it's pretty hard to send anything over messenger, tbh
+[11:26:21] h0p3: The whole point is to package content the service provider can use and punish you for cases which aren't useful to them.
+[11:27:15] BDS97: home: part of why we need a future where basic services like this have no provider
+[11:27:47] BDS97: home: that's gonna be really important quite soon, especially if article 13 is going to pass
+[11:28:17] BDS97: home: there's actually a loophole there, it applies to service providers
+[11:28:25] BDS97: home: so the Hub wouldn't be affected
+[11:28:57] BDS97: home: but it's an Atropos component, so I'd like to design it to enforce freedom through technology, not law
+[11:29:31] h0p3: Hm.
+[11:29:34] h0p3: That is a fascinating phrase.
+[11:32:08] h0p3: In some contexts, technology allows us to create our own laws. The programs themselves are laws for the computer, but I mean there are emergent properties and relationships between two or more computers that allow us to generate governments. It's what blockchain was heralded for. 
+[11:32:40] h0p3: To my eyes, legal positivism must conceptually allow for this to be called a network.
+[11:34:04] h0p3: I think your work generates digital laws which mitigate or workaround what might otherwise be unjustified conventional juridical/positivist law.
+[11:34:18] h0p3: a governmental* network rather
+[11:34:54] BDS97: home: yeah, there's a lot of truth in that
+[11:35:21] BDS97: home: the problem is, laws are fragile, prone to arbitrary power
+[11:35:52] h0p3: Might as well hardcode as much of what we know is justified up front.
+[11:36:03] BDS97: home: a powerful leader could outlaw freedom of speech with basically a snap of fingers
+[11:36:14] h0p3: Imho, they already do to some extent. 
+[11:36:21] BDS97: home: enforcing that might be harder, but generally possible, as we see in many cases
+[11:36:52] BDS97: home: with Atropos, the basic philosophy of the project is inexorability through technology
+[11:37:23] BDS97: home: (might as well translate that to ancient greek for style points and use it as our motto)
+[11:38:06] BDS97: home: it's actually a technological democracy that holds its power in a lot more robust way
+[11:38:29] BDS97: home: yes, there are laws, enforced by your peers and agreed upon by using the code
+[11:38:50] BDS97: home: but I don't think it's gonna be anything crazy like real laws are
+[11:39:23] BDS97: home: mainly some freedoms enforced, sometimes a few spam filters, and an environment shaped for cooperation
+[11:41:57] h0p3: I will be giving it more thought. It turns out that defining "law" is a hard problem in political philosophy. There are definitely a number of philosophers who would call it a "real law." 
+[11:42:14] h0p3: Oversimplifyingly, I tend to classify anarchists into two initial camps (and then I work from there). Type 1 completely denies the conceptual possibility of a morally justified coercive authority (governments), and type 2 denies that current governments are morally justified while agreeing to the claim that we are obligated to build and maintain justified governments (on this definition, I take MLKJr. to be an anarchist; Marxists are anarchists, and so are Nozickian Libertarians). I think Atropos is Type 2 Anarchic. 
+[11:43:21] BDS97: home: agreed on that, it's definitely type 2, but there are some type 1 aspects
+[11:43:47] BDS97: home: for example, no matter how justified a government is, Atropos should never allow it to destroy these freedoms
+[11:44:14] h0p3: I would argue that isn't a justified government at all.
+[11:44:29] h0p3: not in that respect, at least
+[11:45:21] BDS97: home: at the core of it, it's designed to establish basic rights, not governments
+[11:45:32] h0p3: Aye.
+[11:45:35] h0p3: That is a government.
+[11:46:03] BDS97: home: ah, okay, I see your point
+[11:46:48] BDS97: home: I don't believe the project will ever be *the* government, or the platform for it, but in that regard it can indeed be viewed as one
+[11:47:01] BDS97: home: wow, that's one weird take on markdown, tox
+[11:47:07] h0p3: lol
+[11:47:49] BDS97: home: I think this hooks back to the 2017 crypto craze and the stuff you said about this
+[11:48:10] BDS97: home: they recognized the right potential there, for all the wrong reasons
+[11:49:46] h0p3: Yes. 
+[11:49:56] BDS97: home: by the way, the more I think about the project, the more I believe we'll need our own coin eventually
+[11:50:15] h0p3: Fascinating. Why? Just for Zookos?
+[11:50:17] BDS97: home: not because of making money, we're not a silicon valley coin startup
+[11:50:31] BDS97: home: yeah, zookos are a part of that
+[11:51:02] BDS97: home: I think if we make our own chain we can built it in a way that you don't need to pay for domains
+[11:51:28] BDS97: home: we can make it a lot more leaner too, only 64 bytes per domain
+[11:51:49] h0p3: What kind of proof?
+[11:52:21] BDS97: home: as for proof of work? I'm thinking participation in the storage grid should be the base of the mining process
+[11:52:33] BDS97: home: as in you'd mine stuff by hosting data for users
+[11:52:54] h0p3: It's the only energy-efficient one that doesn't seem to centralize power as well.
+[11:53:07] BDS97: home: mining with storage is actually proven, but mining with useful storage is a lot harder problem
+[11:53:15] h0p3: Also: https://blog.acolyer.org/2019/03/08/a-generalised-solution-to-distributed-consensus/
+[11:53:17] BDS97: home: I think it's possible though
+[11:53:29] h0p3: That may be completely irrelevant, but it looks like it solves something important to me.
+[11:54:50] BDS97: home: looks interesting, bookmarked for later
+[11:54:59] BDS97: home: right now I'm focused on the rhizome, then the DHT
+[11:55:21] BDS97: home: those two are necessary for the basic operation of the network
+[11:55:24] h0p3: Yes.
+[11:58:53] h0p3: I am worried about a currency that isn't just trust itself. However, set aside my worry, and one thing I love about the idea is that we're starting from the network end first. Reminds me of i2p and Monero, but we're starting way down deep in the network. 
+[11:59:07] h0p3: The rhizome and DHT are the most important parts. 
+[11:59:50] BDS97: home: I think a regular currency will have its use too
+[12:00:14] BDS97: home: not as trust, but for example I'd like to create a netflix-like donation system that'd help with running websites
+[12:00:40] BDS97: home: you'd set a monthly budget you want to spend on supporting the sites you browse
+[12:00:51] BDS97: home: could be $10, could be $0, could be a million dollars, it's up to you
+[12:01:07] h0p3: That sounds like it would be solved from The Hub sans currency already.
+[12:01:17] BDS97: home: and while you browse, you'd collect identifiers from the websites
+[12:01:28] BDS97: home: not just the hub, regular websites served through Atropos too
+[12:02:06] BDS97: home: at the end of the month, you use this to decide how to distribute your budget, and send the donations anonymously
+[12:02:29] BDS97: home: (which is where a well-designed coin would be extremely useful)
+[12:04:03] BDS97: home: the point of this system is to replace online advertising, which is one huge reason for non-government tracking
+[12:05:51] h0p3: I agree that we have to replace advertisement, and the goal of minimizing donations is something I value extremely highly. I think people should be able to easily pool resources together without paying any middleman taxes (or censorship/prevention of gathering together). 
+[12:06:07] h0p3: Lowering that friction is crucial.
+[12:06:08] h0p3: I agree.
+[12:06:48] h0p3: Alright, I'm a slowpoke. What I see in The Hub is already that I have a certain amount of resources that I hold in reserve for you. You gave 100GB of HDD space, and I gave  y ou 100GB HDD space. I give you 10GB at 10mbit per month, and you do the same (with T42T forgiveness/extension). I am interested in a market and a currency, I suppose, to translating the values between these kinds of resources. 
+[12:07:09] h0p3: How can I grant you 100GB of HDD space for a month in exchange for 10GB at 10mbit of bandwidth?
+[12:07:21] h0p3: Borderline automatically. Intuitively.
+[12:07:31] h0p3: Currency lowers that frictions.
+[12:08:25] h0p3: I worried about Pavlov, a dangerous strategy that vampirically leeches off T42T's forgiveness.
+[12:09:00] h0p3: Is Pavlov detectable? Can we all choose to defect on Pavlov together, especially in an automated way?
+[12:10:40] h0p3: If I want to give resources to someone with The Hub, I can already just grant them free drive space and bandwidth. In fact, I should be able to hand them tokens to masquerade as me or in my name with others whom I have, through trust, earned "digital capital" with.
+[12:12:56] BDS97: home: that's definitely an interesting question, no idea about that
+[12:13:15] BDS97: home: I don't expect Pavlov to be detectable in a way that the detection cannot be avoided
+[12:13:24] h0p3: Aye!
+[12:13:57] BDS97: home: but honestly, the point of T42T is not really to keep it the most stable strategy on the network
+[12:14:04] BDS97: home: we just need to keep always betray at bay
+[12:14:35] BDS97: home: simply because if always betray succeeds, communication drops to a minimum, and the entire network suffers
+[12:14:36] h0p3: If we introduce markets, if survival of the fittest matters, then I'm worried about Pavlov
+[12:15:04] BDS97: home: that's why I don't want trust to become a real currency
+[12:15:13] BDS97: home: I get your points, but I don't want it to be traded in any way
+[12:16:22] BDS97: home: the point of this system, at least IMO, is to keep the network running at its highest possible performance, even if malicious actors are present
+[12:17:06] h0p3: Even sacrificially.
+[12:17:26] h0p3: This is such an important question.
+[12:17:34] h0p3: The rhizome and DHT, I'm confident in it.
+[12:17:39] h0p3: That has to be right.
+[12:18:33] BDS97: home: I'm fine with sacrificing a little performance to Pavlov users as long as honest nodes can still communicate with each other at near full speed
+[12:19:13] BDS97: home: as far as I've seen so far (in the last 10 minutes), Pavlov allows always betray to reemerge, therefore we must not go with that
+[12:19:33] BDS97: home: and if it's a rock-paper-scissors between Pavlov, T42T, and always betray, I think our best bet is still T42T
+[12:21:12] h0p3: So far, I have no found any math which demonstrates the equilibrium. I am worried about it.
+[12:22:32] h0p3: I am still convinced that T42T is the only answer, but now it's faith.
+[12:23:36] BDS97: home: yeah, I agree, Pavlov is clearly an attack on it, and that's a problem
+[12:23:59] BDS97: home: I'd say go with T42T until we find something that beats both always betray and Pavlov
+[12:24:13] BDS97: home: we might need to dive deeper into some more complex strategies for that
+[12:24:30] h0p3: Thank the maker this is modular and designed to evolve.
+[12:25:05] h0p3: Weird as it sounds, I'm glad we have time to continue to think about this.
+[12:27:52] BDS97: home: another option might be embracing the oscillation
+[12:28:16] BDS97: home: generally, it's T42T -> Pavlov -> always betray -> T42T
+[12:28:17] h0p3: You speak magic words to me. It hurts.
+[12:28:23] BDS97: home: Pavlov itself doesn't sound bad
+[12:28:55] h0p3: Pavlov is always betray and T42T had a baby
+[12:28:56] BDS97: home: if we can take always betray out of the circulation, looping back to T42T, it might not be that bad
+[12:29:24] BDS97: home: Pavlov vs T42T is suboptimal, but not terrible
+[12:29:38] BDS97: home: Pavlov vs Pavlov is actually great
+[12:29:43] h0p3: From what I understand, there is no stable configuration. 
+[12:29:48] BDS97: home: but Pavlov doesn't put nearly enough pressure on always betray
+[12:30:24] BDS97: home: so if Pavlov is like a mix of always betray and T42T, let's go one step further, and build a mix of T42T and Pavlov
+[12:30:50] BDS97: home: Pavlov itself is not a problem, the lack of resistance agaisnt always betray is
+[12:32:11] h0p3: I'm not convinced that Pavlov isn't a problem. I think it is a danger to emergent structures. I think it will centralize power if it isn't punished for not aiming to cooperate at every level.
+[12:32:49] h0p3: Pavlov is wildly better than always betray.
+[12:33:10] h0p3: But, it is a sociopath that aims to cooperate until it can opportunistically and stochastically take you.
+[12:34:08] h0p3: It's a well-integrated psychopath that deceptively signals more effectively. It's not the random Madmax slaughterer; it's your middle manager.
+[12:35:40] BDS97: home: it does kill always cooperate, yes
+[12:36:08] BDS97: home: but, it's gonna sound crazy, but actually, that might not be a bad thing
+[12:36:21] BDS97: home: always cooperate is basically just T42T with lowered defenses
+[12:36:39] BDS97: home: and if you lower your defenses, you allow for someone to exploit it
+[12:36:44] h0p3: Agreed. Retaliation is part of practicing the Golden Rule. You must enforce moral behavior.
+[12:37:50] h0p3: It's like T42T has a second ordered kind of "cooperation" to me. As though the right way to cooperate with everyone else is to make sure I've punished those who aren't cooperating.
+[12:38:36] BDS97: home: cooperate, but make sure if you were to backstab others they'll retaliate
+[12:38:43] h0p3: lol
+[12:38:59] BDS97: home: that might actually be it
+[12:39:14] BDS97: home: the problem with pavlov is it's too hopeful
+[12:40:07] BDS97: home: it always gives you opportunities, trying to change your behavior, and always betray takes all those opportunities and profits from it
+[12:40:50] BDS97: home: I see two ways the game could fail
+[12:41:04] BDS97: home: option 1 is it devolves into always betray, killing the rate of cooperation
+[12:41:31] BDS97: home: option 2 is it adopts some kind of strategy that a small group can exploit to centralize power
+[12:42:04] BDS97: home: and option 2 shows that we need to shield it against always cooperate as well, because it's extremely exploitable
+[12:44:12] h0p3: Option 1 is defeated in virtue of have the kind of rhizome-shards which are going to form leaving always betray out in the cold. Kind of like Agar.io.
+[12:50:42] h0p3: Is this problem being MLed somewhere?
+[12:50:51] BDS97: home: no idea
+[12:51:03] BDS97: home: do you think we should TANN it in the future?
+[12:51:45] h0p3: Sounds like an arms-race to me, and we should arm the good guys with everything we can.
+[12:52:03] BDS97: home: yeah, agreed on that
+[12:53:15] BDS97: home: Pure T42T vs Pavlov have a cycle against each other: C/D -> C/D -> D/D -> D/C -> C/D
+[12:53:29] BDS97: home: in this one, Pavlov wins 2:1
+[12:53:41] BDS97: home: would be nice to come up with a way to defeat it
+[12:54:04] BDS97: home: and at the same time, we have to defeat always cooperate too, not just cooperate with it
+[12:54:59] BDS97: home: that would stop it from re-emerging, which would otherwise help the nastier strategies a lot
+[12:55:26] BDS97: home: T42T basically sets a lower bound on cooperation, if that's not followed it refuses to cooperate
+[12:55:52] BDS97: home: I'm thinking we need to set an upper bound too, if you cooperate more than, say, 95%, we start cheating
+[13:10:44] h0p3: I don't think always cooperate should be artificially punished.
+[13:11:45] h0p3: In ideal circumstances, you couldn't even detect the difference between T42T and Always Cooperate if you play as either one (especially since T42T's forgiveness threshold can be adjusted).
+[13:12:03] h0p3: Always Cooperate will be naturally hunted down by predators.
+[13:12:40] BDS97: home: yeah, but the issue is if we allow always cooperate to exist, we basically throw free food to predators
+[13:12:48] BDS97: home: we want to kill the predators, not always cooperate
+[13:12:51] h0p3: T42T is already free food to predators
+[13:13:09] h0p3: It's just far more resilient.
+[13:13:46] BDS97: home: and this resilience is the exact quality we need in the network
+[13:14:22] h0p3: Agreed.
+[16:31:38] h0p3: https://venturebeat.com/2019/03/06/bruce-schneier-its-time-for-technologists-to-become-lawmakers/
+[16:31:46] h0p3: “Today, technology makes de facto policy that’s far more influential than any law,” he said. “Law is forever trying to catch up with technology. And it’s no longer sustainable for technology and policy to be in different worlds.”
+[16:48:08] BDS97: home: yeah, that's an interesting question
+[16:48:26] BDS97: home: do you think regulation over technology would be a good idea if it was done by competent people?
+[20:06:12] h0p3: Well, I think it's good that people can't make nuclear bombs.
+[20:08:12] h0p3: Where the merit of competence is a kind of justified rule of law that has been constructed and maintained by the radical decentralization, yes. But, that's just how I think governments should be constructed in general: empathize with each individual's desires and beliefs in a fair weighing in the right way, at the right time, and for the right reasons.

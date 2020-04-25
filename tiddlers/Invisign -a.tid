@@ -1,0 +1,19 @@
+created: 20180113230745105
+modified: 20191118013411746
+revision: 0
+tags: ‌‌‌​​‌​‌​‌‍‌​​​‍​‍​‌‌‍‌​‍​‍​‍‌​‌​‍​‍​‍​‌‌‌‍​​​​‍‍‍
+title: Invisign -a
+
+Invisign is digital invisible ink best used to smuggle cryptographic content in the open, on the web, and inside unicode text usecases of all kinds.
+
+Invisign is a steganography tool for unicode-based media which survives a significant amount of text processing in the real world and copy+pastes. Invisign outputs a ternary encoded hiddentext comprised of zero-width unicode characters meant to be embedded inside of any opentext unicode text string . Essentially, you encode text into invisicode which is quietly inserted into almost any modern text.
+
+Invisicode is transparently rendered inside most applications. The zero-width characters used are U+200B, U+200C, and U+200D. Currently, few institutions, platforms, applications, and users inspect, alert, or filter for zero-width characters. You should, however, be prepared to be blacklisted when detected because zero-width characters are often used for phishing, specialized watermarking, and foul play. Basically, this is a big red flag to anyone who realizes its even there.
+
+Invisign is easy on the eyes for normal use, but it can obviously be used for more clandestine purposes. Invisign was developed with two purposes in mind:
+
+(1) Invisibly wrapping and embedding cryptographically secure messages inside unicode strings for obfuscated private message passing. 
+
+(2) Invisibly clearsigning a plaintext; i.e. transparently inserting public-key crypto signatures of a plaintext into the original as a cryptographic watermark.
+
+Invisign ergonomically includes Ed+curve25519 support through PyNACL (a wrapper for libsodium). Invisign uses SOMETHING to convert Ed25519 to curve25519 key pairs and PyNACL to generate Ed25519 keys (randomly or from passwords), hash, encode, sign, verify, encrypt, and decrypt. You can elect to pipe in your own crypto as well.
