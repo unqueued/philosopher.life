@@ -1,5 +1,5 @@
 created: 20171017013321540
-modified: 20180513185554563
+modified: 20180516172534459
 revision: 0
 tags: $:/tags/SideBar
 title: Pin
@@ -17,12 +17,17 @@ type: text/vnd.tiddlywiki
 
 [[Pin]]s:
 
-* [[Wiki: Directory File Structure Template]]
+* Wiki Construction
+** [[Wiki: Directory File Structure Template]]
+** [[Acronyms, Verbal Shortcuts, Neologisms, etc.]]
+
+
+* Computing
+** [[Script Collection]]
+** [[One-Line CLI Wonders]]
+
+[[Family Habits & Experiments]]:
+
 * [[Current Stack Example]]
-* [[Script Collection]]
-* [[One-Line CLI Wonders]]
-
-Calendar:
-
 * [[Daily Wiki Experiment]]
 ** End date of experiment: 13.06.2018
