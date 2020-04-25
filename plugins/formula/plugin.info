@@ -1,0 +1,13 @@
+{
+    "title": "$:/plugins/ebalster/formula",
+    "bag": "default",
+    "created": "20171209233132315",
+    "description": "Spreadsheet-like formulas in TiddlyWiki.",
+    "list": "readme settings license",
+    "modified": "20180212025120982",
+    "name": "TiddlyFormula",
+    "plugin-type": "plugin",
+    "revision": "0",
+    "tags": "",
+    "version": "0.2.3"
+}

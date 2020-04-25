@@ -1,0 +1,73 @@
+created: 20180705182246208
+creator: h0p3
+modified: 20180706024520424
+modifier: h0p3
+title: 2018.07.05 -- PPP: Daseinic Memory
+
+https://coolpsychologicalinsights.blogspot.com/2018/06/memory-models-in-psychology.html
+
+* Attention: Deliberate or grabbed focus of awareness toward certain information or stimuli
+* Short-term memory: A temporary store of information (one time passwords, phone numbers)
+* Long-term memory: The long-term storage of memory (life events, personal details, special skills). This may not be truly unlimited/infinite but can keep growing. 
+* Working memory: A reconceptualization of Short-term memory where information  is not just temporarily stored but also be manipulated (active thinking, logic, mental math, mentally changing grocery list)
+* Implicit memory (non-declarative memory): Internalized aspects of memory that are largely unconscious. Such as swimming or singing the lyrics of a song you haven't deliberately learned. It also includes information that affects your actions without your awareness such as obeying game rules or driving maneuvers. 
+* Procedural memory: A subset of Implicit memory which accounts for learning procedures: physical movements (piano, basketball), verbal instructions (flight attendant protocol), mental strategies (algorithms), etc. 
+* Explicit memory (declarative memory): Memory of facts and events which is consciously remembered.
+* Encoding: It is the process of converting information into something that can be meaningfully recalled and stored in the brain. 
+* Memory Consolidation: The process of converting acquired information into long-lasting memory traces. This concept isn't used in this post.
+* Memory model: A representation of how memory would work in the brain. A conceptual framework to understand it.
+
+---
+
+Multistore/dual-store 3-Register model of memory (Atkinson-Shiffrin): 
+
+* Sensory register: Short duration (2 seconds), raw sensory information is encoded, unlimited capacity
+** Information can be forgotten from any of the 3 registers. 
+* Short term register: Limited capacity (3-10 chunks of information), limited duration (up to 20-30 seconds), information can be heavily manipulated
+** Once information is in the STM, it can be recalled. 
+* Long-term register: Semantic content, Sensory representations (audio-visual), unlimited/large capacity
+** For it to move to long-term memory, STM contents need to be rehearsed and thereby strengthened.
+
+Limitations:
+
+* Short term storage doesn't account for the manipulation of information.
+** This is going to require long-term memory, probably some complicated uses of it. You manipulate your software with pre-existing data. Hrmm...well, technically even short term storage should be able to do this too. It could be, however, that we have the long-term memories of the functional, tiny moves that build that large object and are just working on a representation rather than using the thing in itself in our memory to reason about itself. 
+* Rehearsal is a vague process, so is retrieval.
+** Uh, yes, that's what I meant to say above.
+* Information can be in LTM without rehearsal (riding a bicycle, basketball). This limitation needs the usage of procedural memory which we will look at in subsequent models. 
+** Umm...what is rehearsal then? Oh, it's "vague." It seems super obvious to me that riding a bike is "rehearsed" in its practice (perhaps in several forms of related representation).
+* Rehearsal is largely the repetition of information but factors such as motivation, emotional valence of information, learning skills, strategies, etc. can affect the strength of memory in LTM.
+** I'm reminded of quadratic voting here. I'm reminded of analog signals. Repetition of information seems more about how we recursively optimize our ability to recall something. It's like we're building custom dictionary compression for something to be remembered. Making it so you don't have to consciously compute how to connect the dots for yourself, but just unconsciously having a mastery over at least traversing those dots (which becomes even more complex when we want to give Bayesian kinds of methods for adapting and using those dots in larger memory structures).
+
+It's clear to me that I have Daseinic access to certain kinds of long-term memory of mine and not to others. Furthermore, and I have become more introspective and better at modeling my own mind, I also have developed the necessary perceptual tools for perceiving parts of who I am that I otherwise wouldn't...this, however, is only an appearance. One might say I'm simply developing models of what I cannot in fact directly see in myself (and never can) and pointing to the model as if it were the thing signified.
+
+I prefer, therefore, to take the conservative approach to laying a tent-peg down (assuming I must guess!) and claim that there is by definition large portions of my brain to which my mind can never fully access but can only attempt to model. I can perhaps generate reliable indicators and externalist kinds of Bayesian reasoning, but I can never have that feeling of certainty in some sort of classic eidetic analysis.
+
+---
+
+The Levels of processing model (Craik-Lockhart):
+
+* Shallow processing: Processing the sensory and perceptual features (size, shape, sound). This process is called maintenance rehearsal as it maintains the information in its perceived form.
+** Metaprocessing of Syntax. I suggest I'm very good at this as an autist. It is the [[FO]] bottom-up part of the Bayesian process. I'm hyper aware of my perceptions, and/or my perceptions have a higher bitrate, basic accuracy (some models are going to be innate), and sensitivity than most folks. The syntactic details sometimes stand out with profound clarity to me, and I suggest it isn't because I'm very good at creating models (although, I can perhaps good at feeling out representations of them).
+
+* Deep processing: Understanding and analyzing the information for its meaning/semantic content, value, context, relationship to other information, etc. This process is called elaboration rehearsal*.
+** The [[SO]] Magic, the top-down model, the meaning we apply, the phenomenological grid and structures overlaying our immediate sensations
+
+These really don't peel apart nicely at all. This is the fundamental problem of representation. We're at syntax/semantics, semiotics, dialectics, etc. This is the binary process which gives rise to computation itself.
+
+Limitations:
+
+* While this theory does a good job of overcoming the dual store theory's limitations, it has its own.
+** ? This is a terrible fucking argument, right? 
+* The depth of processing is not easily testable. It lacks a measurable framework. But this also shows that processing and encoding are not simple.
+** Uh...limitation on what? We probably need to develop the theory further before we test it. We're still doing theory here of minds, not simply the human brain. This extends into Dasein.
+* The inherent value of information (informational weight) is not accounted for in this model.
+** ?? What the fuck are you talking about? Of course, it is! Everything is reduced to the [[SO]] at this point, including value/weighing models.
+* The quantity and quality of more effort to process information confound the actual depth of processing. Deep processing takes more effort so effort needed to process is a variable that needs to be accounted for but this model doesn't.
+** This is like blaming addition for not accounting, without further inferences/modeling, for exponentiation. This model is just a foundation, and it might be fundamental to any account. Granted, it is a limit, but I'm not worried about it.
+
+---
+
+ Serial-parallel independent model of memory.... MNESIS: Memory NEoStructural Inter-Systemic model 
+
+Very similar to me. That they worry it is only pathologically justified is kind of hilarious. I'm not sure what counts as evidence or science for them at this point.

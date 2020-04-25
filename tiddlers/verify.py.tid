@@ -1,0 +1,44 @@
+created: 20180719034641229
+creator: h0p3
+modified: 20180719035256077
+modifier: h0p3
+title: verify.py
+
+```python
+#!/usr/bin/python3
+
+# Yup, it's ugly and unnecessary. Yup, the encoding is gross. It works.
+import nacl.encoding
+import nacl.signing
+import nacl.hash
+import binascii
+
+# The signature public key
+verify_key_hex = "5249578e4cdfaec1484f0083df3e8b6e4af0cab0288c8156c31d6e94efe58308"
+verify_key = nacl.signing.VerifyKey(verify_key_hex, encoder=nacl.encoding.HexEncoder)
+
+# Read sig file into signed_hash and signature
+with open('index.html.sig', 'r') as myfile:
+    # data=myfile.read().replace('\n', '')
+    data = myfile.readlines()
+signed_hash = data[0].strip()
+signature = binascii.unhexlify(data[1].strip())
+
+# Check the digest of index.html against the hash in the index.html.sig file
+with open('index.html', 'r') as index_file:
+    data = index_file.read().encode()
+digest = nacl.hash.sha256(data, encoder=nacl.encoding.HexEncoder).decode()
+
+if signed_hash == digest:
+	print("index.html Integrity Check Passed")
+else:
+	print("index.html Integrity Check Failed")
+
+# Check the validity of the signature
+# Will raise nacl.exceptions.BadSignatureError if the signature check fails
+try:
+    verify_key.verify(signature)
+    print("Signature Verified")
+except:
+    print("Signature Verification Failed")
+```

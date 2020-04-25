@@ -1,5 +1,7 @@
 created: 20170326212356574
-modified: 20180327133142872
+creator: h0p3
+modified: 20180707160310110
+modifier: h0p3
 revision: 0
 title: lighttpd.conf for this Wiki's Host
 
@@ -7,8 +9,7 @@ title: lighttpd.conf for this Wiki's Host
 server.modules = (
         "mod_access",
         "mod_compress",
-        "mod_redirect",
-        "mod_compress"
+        "mod_redirect"
 )
 
 $SERVER["socket"] == ":443" {
@@ -39,7 +40,7 @@ url.access-deny             = ( "~", ".inc" )
 
 static-file.exclude-extensions = ( ".php", ".pl", ".fcgi" )
 
-compress.cache-dir          = "/var/cache/lighttpd/compress/"
+compress.cache-dir          = "/var/cache/lighttpd/compress/h0p3"
 compress.filetype           = ( "application/javascript", "text/css", "text/html", "text/plain" )
 
 mimetype.assign = (

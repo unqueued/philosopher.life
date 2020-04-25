@@ -1,0 +1,11 @@
+created: 20180719163000120
+creator: h0p3
+modified: 20180727020629608
+modifier: h0p3
+title: .bashrc
+
+```
+export PATH=$PATH:/home/h0p3/scripts:/home/h0p3/.i3/layouts/bin
+export VISUAL="nvim"
+export EDITOR="nvim"
+```

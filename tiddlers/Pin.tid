@@ -1,6 +1,6 @@
 created: 20171017013321540
 creator: h0p3
-modified: 20180603043559843
+modified: 20180801000459808
 modifier: h0p3
 revision: 0
 tags: $:/tags/SideBar
@@ -17,8 +17,6 @@ type: text/vnd.tiddlywiki
 * {[[Dreams|Dreams of h0p3]]}
 ** [[Transclusion: Dreams]]
 
-
-
 [[Pin]]s:
 
 * [[Hub]]
@@ -31,13 +29,12 @@ type: text/vnd.tiddlywiki
 *** Gödel
 *** [[Übermensch]]
 *** übermensch
+*** Lemniscate: ∞
 
 * Computing
 ** [[Script Collection]]
 ** [[One-Line CLI Wonders]]
 
-[[Family Habits & Experiments]]:
+[[Standing TDL]]:
 
-* [[Current Stack Example]]
-* [[Daily Wiki Experiment]]
-** End date of experiment: 13.06.2018
+{{Standing TDL}}

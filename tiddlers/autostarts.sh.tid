@@ -1,18 +1,26 @@
-created: 20180120033621594
-modified: 20180123155100050
-revision: 0
+created: 20180719162419838
+creator: h0p3
+modified: 20180731161218852
+modifier: h0p3
 title: autostarts.sh
-type: text/vnd.tiddlywiki
 
 ```bash
 #!/bin/bash
+sleep 15
 
-# Run dat wiki server for the LAN
-tiddlywiki /home/h0p3/Syncs/Dropbox/philosopher.life/npm-tiddlywiki/ --server 8080 $:/core/save/all text/plain text/html "" ""  "0.0.0.0"
+# VMs
+#VBoxManage startvm m10-VM-Ubuntu --type headless
 
 # Automounts
-sshfs -o password_stdin 192.168.1.100:/mnt /mnt/htpc <<< "password"
-sshfs -o password_stdin foobar@philosopher.life:/ -p 4222 -C /mnt/philosopher.life <<< "password"
+sshfs -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3 h0p3@192.168.1.100:/ -C /mnt/htpc
+sshfs -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3 h0p3@philosopher.life:/ -p 4222 -C /mnt/atl
+sshfs -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3 h0p3@ks.philosopher.life:/ -p 4222 -C /mnt/kimsufi
+sshfs -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3 pi@dimbob.philosopher.life:/ -p 4222 -C /mnt/dimbob
+#sshfs -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3 h0p3@192.168.1.97:/ -C /mnt/vmubuntu
 ```
 
-Nope. No key. I know.
+
+!! Vault:
+
+* Retired:
+** [[2018.07.19 -- Retired: autostarts.sh]]

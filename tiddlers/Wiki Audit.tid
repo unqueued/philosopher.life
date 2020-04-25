@@ -1,6 +1,6 @@
 created: 20180619224504730
 creator: h0p3
-modified: 20180628022135191
+modified: 20180731154739835
 modifier: h0p3
 tags: 
 title: Wiki Audit
@@ -21,9 +21,9 @@ Do not just slay your demons; dissect them and find what they've been feeding on
 -- Andres Fernandez, //Simple Twist of Fate: The Man Frozen in Time//
 <<<
 
-I'm here to take a retrospective existential inventory with a changelog, to create forward-thinking accountability feedback loops, and to shape myself with knowledge of myself. This log captures my habits of existential maintenance, macro wiki restructuring, and long-range [[SO]] Frankfurtian volition, i.e. exercising my autonomy.
+I'm here to take a retrospective existential inventory with a changelog, to create forward-thinking accountability feedback loops, incrementally and to shape myself with knowledge of myself. This log captures my habits of existential maintenance, incremental macro wiki restructuring, and long-range [[SO]] Frankfurtian volition, i.e. exercising my autonomy.
 
-You might be tempted to think of this as a long-term version of [[Wiki Review Log]]. In [[Wiki Review Log]], I tend to give my visceral reactions to my writing only a day later. This is useful because it extends my short-term memory, it keeps me thinking about the problem, it helps me see my train of thought over a period of time, and it's part of the natural feedback loop mechanisms of the wiki. The [[Wiki Review Log]] is potent, however, it has severe limitations. This audit is meant to have the the macroscopic powers the review lacks.
+You might be tempted to think of this as a long-term version of [[Wiki Review]]. In Wiki Review, I tend to give my visceral reactions to my writing only a day later. This is useful because it extends my short-term memory, it keeps me thinking about the problem, it helps me see my train of thought over a period of time, and it's part of the natural feedback loop mechanisms of the wiki. The Wiki Review is potent, however, it has severe limitations. This audit is meant to have the the macroscopic powers the review lacks.
 
 My review only results in minor revisions and edits (imperfectly, to say the least), but it's hard to improve work you just created. I can't effectively dissociate just a day later, and hence it will only be the initial sweep in my self-dialectic. When you walk away from your work and come back to it months later, when you stand back and see what you've created from a more objective point of view, where it isn't so painful to think about it or alter it, you can truly recreate it. That's what this audit is all about.
 
@@ -41,12 +41,14 @@ This log is my daily practice of sifting through my wiki and re-tuning it. Here 
 
 For now, I'm learning to swim here. I probably need to audit from multiple angles. This is a complex object to interpret, edit, and organize. The correct strategy is not obvious. When in doubt, Monte Carlo shotgun approach! I must say, I am wary of this becoming too bureaucratic and quagmiric. Perhaps this will never get easier, and that's okay.
 
-h0p3, you have to be okay with imperfection even while striving for the practically ideal. Dive in, please.<<ref "2">>
+[[h0p3]], you have to be okay with imperfection even while striving for the practically ideal. Learn from your mistakes. Dive in, please.<<ref "2">>
 
 
 ---
 !! Principles:
 
+* Engage in a weekly 1-hour long audit with the family; help them form the habit.
+* This is meant to be qualitative more than quantitative. 
 * Check //Recent// to gauge your work.
 * Crawl your wiki, and keep the digests and changelogs in your log as lists.
 * New and Reconstruction Process
@@ -76,32 +78,28 @@ h0p3, you have to be okay with imperfection even while striving for the practica
 ** {[[Vault]]} with 1-Depth
 *** ?
 
-* [[2018.06.01 -- Wiki Audit Log: Monthly Audit]]
-* [[2018.06.02 -- Wiki Audit Log: Monthly Audit]]
-* [[2018.06.03 -- Wiki Audit Log: Monthly Audit]]
-* [[2018.06.04 -- Wiki Audit Log: Compel]]
-* [[2018.06.05 -- Wiki Audit Log: Oops]]
-* [[2018.06.06 -- Wiki Audit Log: JRE]]
-* [[2018.06.07 -- Wiki Audit Log: T42T]]
-* [[2018.06.08 -- Wiki Audit Log: Voting]]
-* [[2018.06.09 -- Wiki Audit Log: OP]]
-* [[2018.06.10 -- Wiki Audit Log: Normal Day]]
-* [[2018.06.11 -- Wiki Audit Log: Proxy Voting]]
-* [[2018.06.12 -- Wiki Audit: Titles]]
-* [[2018.06.14 -- Wiki Audit: IJ Wander]]
-* [[2018.06.15 -- Wiki Audit: IJ + Fill]]
-* [[2018.06.16 -- Wiki Audit: IJ + Chill]]
-* [[2018.06.17 -- Wiki Audit: Clean]]
-* [[2018.06.18 -- Wiki Audit: Reading]]
-* [[2018.06.19 -- Wiki Audit: Renaming & More]]
-* [[2018.06.20 -- Wiki Audit: Reaching Out, Cleaning Up]]
-* [[2018.06.21 -- Wiki Audit: New Books]]
-* [[2018.06.22 -- Wiki Audit: Letter & About]]
-* [[2018.06.23 -- Wiki Audit: Random]]
-* [[2018.06.24 -- Wiki Audit: Communications]]
-* [[2018.06.25 -- Wiki Audit: Reaching Out to Lifebloggers Using a Wiki]]
-* [[2018.06.26 -- Wiki Audit: Feedback]]
-* [[2018.06.27 -- Wiki Audit: Big Day]]
+* Logs
+** [[2018.07.03 -- Wiki Audit: And...We're Back!]]
+** [[2018.07.04 -- Wiki Audit: On The Ball]]
+** [[2018.07.05 -- Wiki Audit: PePPered]]
+** [[2018.07.06 -- Wiki Audit: Josiah]]
+** [[2018.07.07 -- Wiki Audit: New Tiddlers]]
+** [[2018.07.08 -- Wiki Audit: Principles]]
+** [[2018.07.13 -- Wiki Audit: Bidness]]
+** [[2018.07.14 -- Wiki Audit: Letters]]
+** [[2018.07.15 -- Wiki Audit: Man With Plan]]
+** [[2018.07.16 -- Wiki Audit: Help and Contact]]
+** [[2018.07.17 -- Wiki Audit: Rando]]
+** [[2018.07.19 -- Wiki Audit: Monsters]]
+** [[2018.07.20 -- Wiki Audit: Rabbits]]
+** [[2018.07.21 -- Wiki Audit: Tiddlywiki Internals]]
+** [[2018.07.24 -- Wiki Audit: m10 rework]]
+** [[2018.07.25 -- Wiki Audit: CLI Wiki]]
+** [[2018.07.25 -- Wiki Audit: Clean]]
+** [[2018.07.27 -- Wiki Audit: Crawling]]
+** [[2018.07.28 -- Wiki Audit: Computing]]
+** [[2018.07.29 -- Wiki Audit: Still on Computing]]
+** [[2018.07.31 -- Wiki Audit: Connect]]
 
 
 ---
@@ -112,6 +110,7 @@ h0p3, you have to be okay with imperfection even while striving for the practica
 * [[2017.12 -- Wiki Audit Log]]
 * [[2018.01 -- Wiki Audit Log]]
 * [[2018.01-05 -- Wiki Audit Log]]
+* [[2018.06 -- Wiki Audit]]
 
 * Retired:
 ** [[2017.11.25 -- Retired: Yearly Audit Log]]

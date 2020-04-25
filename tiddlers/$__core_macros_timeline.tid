@@ -1,6 +1,6 @@
 created: 20141212105914482
 creator: h0p3
-modified: 20180520215024552
+modified: 20180715214225867
 modifier: h0p3
 tags: $:/tags/Macro
 title: $:/core/macros/timeline
@@ -12,7 +12,7 @@ title: $:/core/macros/timeline
      -->
 <$view field="title"/>
 \end
-\define timeline(limit:"500",format:"DDth MMM YYYY",subfilter:"!prefix[Hidden:]",dateField:"modified")
+\define timeline(limit:"200",format:"DDth MMM YYYY",subfilter:"!prefix[Hidden:]",dateField:"modified")
 <div class="tc-timeline">
 <$list filter="[!is[system]$subfilter$has[$dateField$]!sort[$dateField$]limit[$limit$]eachday[$dateField$]]">
 <div class="tc-menu-list-item">

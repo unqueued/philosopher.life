@@ -1,0 +1,23 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.17/index.html/$:/plugins/tiddlywiki/codemirror-mode-css",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "author": "JeremyRuston",
+        "created": "20180721185217078",
+        "creator": "h0p3",
+        "dependents": "",
+        "description": "CodeMirror Mode: CSS Highlighting",
+        "list": "readme",
+        "modified": "20180721185217078",
+        "modifier": "h0p3",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/codemirror-mode-css",
+        "original-type": "application/json",
+        "readme": "This plugin adds Syntax Highlighting for CSS tiddlers (text/css) to the [[CodeMirror|http://codemirror.net]] text editor. It needs the latest [[CodeMirror plugin|$:/plugins/tiddlywiki/codemirror]] to be installed\n\n\n",
+        "server-url": "https://tiddlywiki.com/library/v5.1.17/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.17"
+    }
+]

@@ -1,0 +1,47 @@
+created: 20180724033915856
+creator: h0p3
+modified: 20180724150234710
+modifier: h0p3
+title: i3status.conf
+
+```
+general {
+        colors = true
+        interval = 1
+        color_good = "#2AA198"
+        color_bad = "#586E75"
+        color_degraded = "#DC322F"
+        output_format = i3bar
+}
+
+order += "cpu_usage"
+#order += "disk /"
+#order += "disk /home"
+#order += "disk /mnt/storage"
+order += "tztime local"
+order += "time"
+
+cpu_usage {
+        format = " CPU: %usage "
+}
+
+#disk "/" {
+#        format = "%avail"
+#}
+
+#disk "/home" {
+#        format = "%avail"
+#}
+
+#disk "/mnt/storage" {
+#        format = "%avail"
+#}
+
+tztime local {
+        format = " %Y.%m.%d "
+}
+
+time {
+        format = " %I:%M:%S "
+}
+```

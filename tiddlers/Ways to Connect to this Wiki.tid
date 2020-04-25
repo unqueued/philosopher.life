@@ -1,6 +1,6 @@
 created: 20161201085941789
 creator: h0p3
-modified: 20180626202754438
+modified: 20180731154722536
 modifier: h0p3
 revision: 0
 title: Ways to Connect to this Wiki
@@ -10,17 +10,19 @@ title: Ways to Connect to this Wiki
 ---
 !! About:
 
-//In almost all likelihood, if you are here, then I asked you to come here. I must trust you a lot. For the rest of you, randos and unexpected guests: hello, and good luck!//<<ref "1">>
+//In almost all likelihood, if you are here, then I asked you to come here. I must trust you a lot. For the rest of you, randos and unexpected guests: [[hello|Find The Other]], and good luck!//<<ref "1">>
 
-The world changes faster and faster. I don't know how the world is going to turn out, and so this section will help you maintain a connection to this wiki even through technical turbulence and political turmoil. 
+If you are reading this, of course, you may initially believe this page somewhat useless. It is not useless. The world changes faster and faster. I don't know how the world is going to turn out, and so this section will help you maintain a connection to this wiki even through technical turbulence and political turmoil. 
 
 I'm sorry if you think this website is slow to load for you. I'm not going to pay the prices necessary to speed it up because I don't think it's worth my time. Someone who is going to be willing to spend time actually trying to understand this wiki will have no problem waiting 3 seconds for the compressed file to download. Perhaps this will be changed later, but now I'm fine with it. There are several options available, I realize. 
 
 If speed really matters, then help me decentralize it: I suggest using [[Resilio Sync|Walkthrough: Resilio Sync]] for now, especially since you can just bookmark the local index.html file in your browser (it will load almost instantly).
 
-I provide real-time updates, but I also keep several redundancies, deltas, and backups. They serve different purposes. Obviously, this wiki changes. For posterity's sake, transparency, fixing my fuck-ups, finding patterns in my thought, and enabling a broader range of data science practices in generating and thinking about this wiki, I keep a //daily snapshot collection// of this wiki. May it be a gift to anyone who cares for it.<<ref "2">> May it be a proof of proofs, another source: of interpreting who I am, for demonstrating my integrity, and of a variety of useful meta-analysis tools.<<ref "3">>
+I provide real-time updates, but I also keep several redundancies, deltas, and backups. They serve different purposes. Obviously, this wiki changes. For posterity's sake, transparency, fixing my fuck-ups, finding patterns in my thought, and enabling a broader range of data science practices in generating and thinking about this wiki, I keep a //daily snapshot collection// of this wiki. May it be a gift to anyone who cares for it.<<ref "2">> May it be a proof of proofs, another source: of interpreting who I am, for demonstrating my integrity, and for a variety of useful meta-analysis tools.<<ref "3">>
 
-If you are reading this, of course, you may initially believe this page somewhat useless. I suggest you consider saving this page to your hard drive. The entire wiki is essentially contained in a single .html file. If for whatever reason you ever have a hard time acquiring a copy, e.g. the site goes down, your saved hardcopy may still have the information necessary to help you find and {[[Verify|Cryptographic Verification]]} other distribution mechanisms. 
+Please note you can save this entire wiki to your hard drive from your browser: 'Save Page As'. It is completely self-contained in one html file.<<ref "c">> You can distribute this wiki by hand, sneakernet-style with profound ease. This hypertext book/wiki is meant to be eminently distributable, platform agnostic, consumable offline, and technically ergonomic in its unified simplicity.
+
+If for whatever reason you ever have a hard time acquiring a newer version, e.g. the site goes down, your saved hardcopy may still have the information necessary to help you find and {[[Verify|Cryptographic Verification]]} other distribution mechanisms. 
 
 
 ---
@@ -33,16 +35,14 @@ If you are reading this, of course, you may initially believe this page somewhat
 ---
 !! Focus:
 
-The following methods can acquire the latest official version of this wiki:
+The following methods can acquire the latest real-time official version of this wiki:
 
 # https://philosopher.life/
 # Resilio Sync read-only key: [[BKPIF6Z4EZIC3WJURWNTQ6SJ5M5AMYVW5|https://link.resilio.com/#f=Wiki&sz=39E7&t=1&s=3E5S6FV4LRD7SS2TUEYTN4ZDEFT5SB6X&i=C7BMBXE73W6ROMTZMIUAFIRQ5CDRTGZAN&v=2.5]]
-# https://www.dropbox.com/sh/1iml4su8c3w4yin/AADEz-v8Kdiup3setePZitHha?dl=0
 
 In order of completeness, the following methods can acquire the daily snapshot collection of this wiki:
 
 # Resilio Sync read-only key: [[BO7PZEXODBJ27LK7SUIND4NDLOUDO5H75|https://link.resilio.com/#f=h0p3-Dailysnapshots&sz=52E7&t=1&s=UE24BJN6XBKOXT6672O4VACNJL2PQ45I&i=C7I5TNWXDXRNOLHALSSXXPC4JCH2QATNG&v=2.5]]
-# https://www.dropbox.com/sh/vem01rqpatn0pjy/AABKiMFu-nmp3msNlxRryHhIa?dl=0
 # https://github.com/m6ram/h0p3s-wiki<<ref "4">>
 # https://web.archive.org/web/*/https://philosopher.life/<<ref "5">>
 
@@ -57,6 +57,7 @@ In order of completeness, the following methods can acquire the daily snapshot c
 *** eDonkey
 *** SoulseekQT.
 ** IPFS (IPNS Hash): [[QmdxecdKA2mMvXjkRLuZC81LXhtxSGof96fS5irzuktXwE|https://gateway.ipfs.io/ipns/QmdxecdKA2mMvXjkRLuZC81LXhtxSGof96fS5irzuktXwE]]
+** https://www.dropbox.com/sh/vem01rqpatn0pjy/AABKiMFu-nmp3msNlxRryHhIa?dl=0
 
 * Retired: {[[Connect|Ways to Connect to this Wiki]]}
 ** [[2017.09.16 -- Retired: {Connect}]]
@@ -80,6 +81,8 @@ In order of completeness, the following methods can acquire the daily snapshot c
 <<footnotes "2" "Almost certainly only me, my wife, and perhaps my chilluns.">>
 
 <<footnotes "3" "Hear my plea, O Lord, God of Existence, may this not be a record of my descent into arrogant madness. Amen.">>
+
+<<footnotes "c" "Okay, almost entirely self-contained. There are a couple files which sit outside, but I'm going to eventually do away with them for the most part. I cannot do that for the signature file though (well, not in a clean way).">>
 
 <<footnotes "4" "This daily snapshot collection is complementarily duplicated by the deltas in my git repositories. This is also a fine method for acquiring an official daily snapshot of this wiki. Three notes: (1) Only the index.html, signature, and checksum are pushed onto my git repositories, (2) They are not real-time, only daily-snapshots, and (3) This is a third-party proof + backup/redundancy. Clone it in a directory with the following command: `git clone https://github.com/m6ram/h0p3s-wiki`">>
 

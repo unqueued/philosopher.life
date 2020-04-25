@@ -1,126 +1,176 @@
 created: 20171216015037949
 creator: h0p3
-modified: 20180625210812499
+modified: 20180729194844389
 modifier: h0p3
 revision: 0
 title: Linux Tool Collection
 
-//Skiddie for life//
+//Skiddie for life. Keep the list short as fuck (and be okay with incompleteness). Assume standard software is already installed. Don't worry about dependencies. Perhaps one day, when I Nix+Gentoo it hard enough, I'll have a complete system listed out. Let's assume some sanity here first.//
 
 !! CLI:
 
 * Always
-** Particulars
-*** iotop
-*** smem
-*** lftp
+
+** Learn You Something
 *** tldr
-*** w3m
-*** mc
+
+** Sysadmin
+*** iotop
+*** powertop
 *** htop
 *** ncdu
 *** bmon
 *** nethogs
+*** iftop
+*** smem
 *** mtr
-*** sshuttle
 *** discus
-*** byobu
-*** dtrx
 *** inxi
-*** sshfs
-*** unrar
+*** hwinfo
+
+** Shell
 *** xonsh
-*** Package-managers
-**** snap
-**** pip
-**** pip3
-**** npm
-**** nix
-** One-Liner (requires fixing per distro)
-*** iotop smem lftp tldr w3m mc htop ncdu bmon nethogs mtr sshuttle xonsh discus byobu dtrx inxi sshfs unrar snap pip pip3 npm nix
-** 3rd-Party-Repository Suggested/Required
-*** resilio-sync
-** Unique Scripts:
-*** [[lussh]]
-** Just Compile & Install It Yourself
-*** vpncloud.rs
+*** oh-my-zsh
+*** byobu
+
+** Muh Files
+*** mc
+*** ranger
+*** fzf
+*** unrar
+*** dtrx
+
+** Web
+*** w3m
+*** browsh
+
+** Remote
+*** rslsync
+*** lftp
+*** sshuttle
+*** sshfs
+*** shadowsocks-libev
+
+** Package-managers
+*** npm
+*** nix
+*** snap
+*** pip
+*** pip3
+**** hashfile
+**** pynacl
+**** pyperclip
+**** when-changed
+**** py-figlet
+**** beautifulsoup4
 
 * Sometimes
-** Particulars
-*** neovim
-*** weechat
-*** finch
-*** toxic
-*** firetools
-*** aria2
-*** mbox-git
-*** Compilers & Interpreters
-**** rust
-**** golang
-** One-Liner (requires fixing per distro)
-*** neovim weechat finch toxic firetools aria2 mbox-git
-
-* Pip
-** Particulars
-*** hashfile
-*** pynacl
-*** pyperclip
-*** when-changed
-*** py-figlet
-** One-Liner (requires fixing per distro)
-*** hashfile pynacl pyperclip when-changed py-figlet
+** neovim
+** weechat
+** finch
+** toxic
+** firetools
+** aria2
+** mbox-git
+** imagemagick
 
 
 !! GUI:
 
 * Always
-** Particulars
+
+** Web
 *** chromium
 *** firefox
 *** firefox-developer-edition
+
+** Social
 *** pidgin
 **** pidgin-otr
+**** pidgin-xmpp-receipts
 *** signal
 *** keybase
 *** qtox
 *** hexchat
+*** discord
+
+** Media Consumption
 *** vlc
-*** gimp
+*** kodi
+*** qmmp
 *** calibre
-*** filezilla
-*** networkmanager-openvpn 
-*** truecrypt
+*** cozy-audiobooks
+
+** Media Creation
+*** gimp
+*** masterpdfeditor
+
+** Sysadmin
+*** timeshift
+*** duplicity
+
+** Muh Files
 *** p7zip-gui
+*** dolphin
+*** synkron
+*** truecrypt
+*** veracrypt
+*** SUSE Studio Imagewriter
+
+** Remote
+*** filezilla
+*** qbittorrent
+*** nomachine
+*** networkmanager-openvpn 
+*** shadowsocks-qt5
+
+** Text
 *** sublime-text2
 *** diffuse
 *** visual-studio-code-bin
-*** synkron
-*** nomachine
-*** qbittorrent
-*** cozy-audiobooks
-** One-Liner (requires fixing per distro)
-*** chromium firefox firefox-developer-edition pidgin pidgin-otr signal keybase qtox hexchat vlc gimp calibre filezilla networkmanager-openvpn truecrypt p7zip-gui sublime-text2 diffuse visual-studio-code-bin synkron nomachine qbittorrent cozy-audiobooks
-** 3rd-Party-Repository Suggested/Required
-*** kodi
+
 
 * Sometimes
-** Particulars
+
+** Games
 *** playonlinux
 *** steam-native
-*** SUSE Studio Imagewriter
+*** cockatrice-client
+
+** Proprietary Convenience<<ref "h">>
 *** teamviewer-beta
 *** dropbox
-*** cockatrice-client
-*** soulseekqt
-*** quickhash-gui-bin
-*** discord
-*** amule-git
+
+** Virtualization
 *** vmware-workstation
 *** virtualbox
+*** genymotion
 *** furiusisomount
-** One-Liner (requires fixing per distro)
-*** playonlinux steam-native suse-stuido-imagewriter teamviewer-beta dropbox cockatrice-client soulseekqt quickhash-gui-bin discord amule-git vmware-workstation virtualbox furiusisomount
 
+** Piracy
+*** soulseekqt
+*** amule-git
+
+** Laziness
+*** quickhash-gui-bin
+
+
+!! Scriptiness, Skiddiegodhood, and Fugly Idiosyncrasy
+
+* Skiddie Scripts
+** [[lussh]]
+* Just Compile & Install It Yourself
+** vpncloud.rs
+* Daughter's Contribution
+** you-get
+
+* One-of's
+** argon2
+
+
+!! Manjaro-related
+
+* cronie
 
 
 
@@ -135,5 +185,11 @@ title: Linux Tool Collection
 ** http://jrnl.sh/
 ** nnn
 ** keysniffer
-** ranger
 ** mutt + offlineimap + notmuch
+** Etcher
+
+* Tried, and still Maybes
+** tuntox
+
+---
+<<footnotes "h" "Hate and fight it, but don't beat yourself up too much.">>

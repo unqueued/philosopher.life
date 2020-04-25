@@ -1,5 +1,7 @@
 created: 20171130194544612
-modified: 20180201055758283
+creator: h0p3
+modified: 20180720155622233
+modifier: h0p3
 revision: 0
 title: Walkthroughs
 
@@ -11,4 +13,4 @@ title: Walkthroughs
 * [[Walkthrough: Setup Dolphin/KDE Samba Sharing in Manjaro]]
 * [[Walkthrough: LetsEncrypt + Lighttpd]]
 * [[Walkthrough: Arch Seedbox Setup]]
-* [[Walkthrough: Regex for Seedboxes]]
+* [[Install Resilio Sync in Manjaro As USER]]

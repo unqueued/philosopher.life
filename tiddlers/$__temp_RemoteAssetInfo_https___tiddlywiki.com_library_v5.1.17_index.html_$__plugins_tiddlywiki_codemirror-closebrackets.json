@@ -1,0 +1,23 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.17/index.html/$:/plugins/tiddlywiki/codemirror-closebrackets",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "author": "JeremyRuston",
+        "created": "20180721185217078",
+        "creator": "h0p3",
+        "dependents": "",
+        "description": "CodeMirror AddOn: Close Brackets",
+        "list": "readme",
+        "modified": "20180721185217078",
+        "modifier": "h0p3",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/codemirror-closebrackets",
+        "original-type": "application/json",
+        "readme": "This plugin adds the ability to automatically insert the closing brackets when you type an opening bracket.\nAlso enables highlighting of matching brackets.\n\nIt needs the latest [[CodeMirror plugin|$:/plugins/tiddlywiki/codemirror]] to be installed\n\n",
+        "server-url": "https://tiddlywiki.com/library/v5.1.17/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.17"
+    }
+]

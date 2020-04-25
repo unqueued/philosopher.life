@@ -1,6 +1,8 @@
 created: 20161128202149177
-modified: 20171208233227896
+creator: h0p3
+modified: 20180729210243498
+modifier: h0p3
 revision: 0
 title: $:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/unfold-all
 
-show
+hide

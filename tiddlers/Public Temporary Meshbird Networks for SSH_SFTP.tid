@@ -1,0 +1,25 @@
+created: 20180728201520668
+creator: h0p3
+modified: 20180728224918549
+modifier: h0p3
+tags: 
+title: Public Temporary Meshbird Networks for SSH/SFTP
+
+This is a temporary, awful hack. In a pinch, it will work.
+
+```bash
+# You'll need ifconfig (I had to install it on Manjaro, since I use different tools on it)
+yaourt -S net-tools-debian-ifconfig --no-confirm #(if you weren't going to read it anyways, go for it; yolo)
+```
+
+```bash
+# install meshbird
+sudo su
+curl http://meshbird.com/install.sh | sh
+
+# run meshbird in a terminal
+MESHBIRD_KEY="9987234137d2ed3e52462d30eeb25f350a070000ffff0000" meshbird join
+
+# run this in another terminal and send me the information
+MESHBIRD_KEY="9987234137d2ed3e52462d30eeb25f350a070000ffff0000" meshbird ip
+```

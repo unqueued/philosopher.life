@@ -1,0 +1,23 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.17/index.html/$:/plugins/tiddlywiki/codemirror-keymap-emacs",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "author": "JeremyRuston",
+        "created": "20180721185217078",
+        "creator": "h0p3",
+        "dependents": "",
+        "description": "CodeMirror Keymap: Emacs",
+        "list": "readme",
+        "modified": "20180721185217078",
+        "modifier": "h0p3",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/codemirror-keymap-emacs",
+        "original-type": "application/json",
+        "readme": "This plugin adds a ''Keymap'' with some of the most important ''Emacs'' keyboard shortcuts\n\nFor more information about available ''keyboard shortcuts'' see the [ext[CodeMirror emacs demo|https://codemirror.net/demo/emacs.html]]\n",
+        "server-url": "https://tiddlywiki.com/library/v5.1.17/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.17"
+    }
+]

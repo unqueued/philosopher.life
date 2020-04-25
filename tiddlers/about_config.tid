@@ -1,0 +1,9 @@
+created: 20180724212444163
+creator: h0p3
+modified: 20180725193915249
+modifier: h0p3
+title: about:config
+
+* browser.sessionstore.max_windows_undo;15
+* browser.sessionstore.resuming_after_os_restart;true
+* browser.sessionstore.max_tabs_undo;500

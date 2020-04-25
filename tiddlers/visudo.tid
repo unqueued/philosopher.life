@@ -1,0 +1,12 @@
+created: 20180725183341361
+creator: h0p3
+modified: 20180727134254235
+modifier: h0p3
+tags: 
+title: visudo
+
+See `/etc/sudoers.d/10-installer` for Manjaro (remember that order matters, go AFTER wheel): 
+
+```
+h0p3 ALL=(ALL) NOPASSWD: /usr/bin/mousepad, /usr/bin/pcmanfm, /usr/bin/gedit
+```

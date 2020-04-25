@@ -1,0 +1,43 @@
+created: 20180719014214806
+creator: h0p3
+modified: 20180727232522809
+modifier: h0p3
+title: monster-10
+
+//My Driver, My Love. Some pieces of the system should be represented here. I prefer to automate this, but I need to take the time to manually catalog some of it as well.//
+
+* [[m10: h0p3's crontab]]
+* [[m10: Root's crontab]]
+* [[visudo]]
+
+* /etc/[[i3status.conf]]
+
+* /home/h0p3/[[.bashrc]]
+* /home/h0p3/[[.nvimrc]]
+* /home/h0p3/[[.zshrc]]
+
+* /home/h0p3/[[.i3/config]]
+
+* /home/h0p3/.config/shreddit/[[shreddit.yml]]
+* /home/h0p3/[[.config/terminator/config]]
+* /home/h0p3/[[.config/terminator/plugins/cluster_connect.py]]
+* /home/h0p3/[[.config/terminator/plugins/LayoutManager.py]]
+* /home/h0p3/[[.config/terminator/plugins/open_any_file_plugin.py]]
+* /home/h0p3/[[.config/terminator/plugins/cluster_connect_config/config.json]]
+
+* /home/h0p3/scripts/[[autostarts.sh]]
+* /home/h0p3/scripts/[[compressed-backup.sh]]
+* /home/h0p3/scripts/[[i3-layout-autostart.sh]]
+* /home/h0p3/scripts/[[i3-net-speed.sh]]
+* /home/h0p3/scripts/[[i3-window-criteria.sh]]
+* /home/h0p3/scripts/[[lussh]]
+* /home/h0p3/scripts/[[music-scraper.py]]
+* /home/h0p3/scripts/[[wiki-hash-sign.py]]
+* /home/h0p3/scripts/[[wiki-snapshot.sh]]
+* /home/h0p3/scripts/[[wikireview.py]]
+
+* [[/usr/share/conky/conky_maia]]
+* [[/usr/share/conky/conky_shortcuts_live_maia]]
+
+
+

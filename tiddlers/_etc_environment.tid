@@ -1,0 +1,16 @@
+created: 20180724211825256
+creator: h0p3
+modified: 20180725022529494
+modifier: h0p3
+title: /etc/environment
+
+```
+#
+# This file is parsed by pam_env module
+#
+# Syntax: simple "KEY=VAL" pairs on separate lines
+#
+
+# make terminator the default terminal in i3
+TERMINAL=terminator -p h0p3
+```

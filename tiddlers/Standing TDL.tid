@@ -1,0 +1,13 @@
+created: 20180731151023559
+creator: h0p3
+modified: 20180731161624812
+modifier: h0p3
+title: Standing TDL
+
+* Backups
+** Setup self-hosted git (standard and torrent-based)
+** Setup multi-gits script
+** Dropbox-CLI fix
+** pastebin script
+
+* Setup NPM toolchain

@@ -1,0 +1,41 @@
+created: 20180725022207861
+creator: h0p3
+modified: 20180725022221350
+modifier: h0p3
+title: .config/terminator/plugins/cluster_connect_config/config.json
+
+```json
+{
+	"test8": {
+		"user": ["user1", "user2", "user3"],
+		"server": ["test1", "test2", "test3", "test4", "test5", "test6", "test7", "test8"],
+		"groupby": "TRUE",
+		"horiz_splits": 4,
+		"agent": "TRUE"
+	},
+
+	"test6": {
+		"user": ["user1", "user2", "user3"],
+		"server": ["test1", "test2", "test3", "test4", "test5", "test6"],
+		"groupby": "TRUE",
+		"agent": "FALSE",
+		"horiz_splits": 6,
+		"identity": "~/.ssh/test_rsa"
+	},
+
+	"test3": {
+		"user": ["user1", "user2", "user3"],
+		"server": ["test1", "test2", "test3"],
+		"groupby": "TRUE",
+		"agent": "TRUE",
+		"port": "2223",
+		"verbose": 2
+	},
+
+	"test4": {
+		"user": ["user1", "user2", "user3"],
+		"server": ["test{1,2,3,4}"],
+		"groupby": "TRUE"
+	}
+}
+```

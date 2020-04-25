@@ -1,0 +1,23 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.17/index.html/$:/plugins/tiddlywiki/bibtex",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "author": "Henrik Muehe and Mikola Lysenko, adapted by Jeremy Ruston",
+        "created": "20180721185217077",
+        "creator": "h0p3",
+        "dependents": "",
+        "description": "BibTeX importer",
+        "list": "readme license",
+        "modified": "20180721185217077",
+        "modifier": "h0p3",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/bibtex",
+        "original-type": "application/json",
+        "readme": "The BibTeX plugin provides a deserializer that can convert bibliographic entries in `.bib` files into individual tiddlers.\n\nYou can use it in the browser by dragging and dropping a `.bib` file into the TiddlyWiki window. Under Node.js, use the `--load` command to load a `.bib` file.\n\nThe conversion is as follows:\n\n* `title` comes from citationKey\n* `bibtex-entry-type` comes from entryType\n* all `entryTags` are assigned to fields with the prefix `bibtex-`\n\nThe BibTeX plugin is based on the library [[bibtexParseJs by Henrik Muehe and Mikola Lysenko|https://github.com/ORCID/bibtexParseJs]].\n",
+        "server-url": "https://tiddlywiki.com/library/v5.1.17/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.17"
+    }
+]

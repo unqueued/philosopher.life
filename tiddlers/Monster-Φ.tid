@@ -1,6 +1,6 @@
 created: 20171115183347781
 creator: h0p3
-modified: 20180630171553928
+modified: 20180728160559047
 modifier: h0p3
 revision: 0
 title: Monster-Φ
@@ -19,16 +19,19 @@ title: Monster-Φ
  MV
 ```
 
-
 <<<
 Yes, I love technology. But, not as much as you, you see. But, I still love technology. Always and forever.
 
 -- Kip Dynamite, //Napoleon Dynamite//
 <<<
 
-This is an inexhaustive, mostly chronological list of the computers I've personally owned. These are the computers I have a special connection with, my hall of fame, my mistresses, and those whom I honor:
+[[Poem: Bit by Happiness]]:
 
-* Monster-0: [[h0p3]]<<ref "1">>
+{{Poem: Bit by Happiness}}
+
+This is an inexhaustive, mostly chronological list of the computers of which I've personally had the pleasure to be the root user and enslaved owner. These are the computers I have a special connection with, my hall of fame, my mistresses, and those whom I honor:
+
+* Monster-0: [[h0p3]]<<ref "1">> & [[k0sh3k]]<<ref "j">>
 * Monster-1: IRQ-Hell Dual Cyrix God Tower
 * Monster-2: Berea Laptop
 * Monster-3: Athlon 64 Gaming Machine
@@ -38,7 +41,7 @@ This is an inexhaustive, mostly chronological list of the computers I've persona
 * Monster-7: Pentest Dual Xeon Box
 * Monster-8: 2600k
 * Monster-9: Asus Zenbook
-* Monster-10: E3-Xeon Custom SFF
+* [[Monster-10|monster-10]]: E3-Xeon Custom SFF
 * Monster-11: i7 Lenovo Wide Ultrabook
 * Monster-12: i5 Darknet-Only Ultrabook
 * Monster-13: [[h0p3's Wiki|Root]]<<ref "2">>
@@ -54,7 +57,7 @@ Also inexhaustive, chronological shout-outs to:
 * E-Town Dell
 * Palm Pilot
 * Moto Droid
-* Multiple DD-WRT routers
+* Multiple WRT routers
 * Generations of RPi's
 * Ubiquiti EdgeRouter Lite + Long Range AP
 * C720 Chromebook
@@ -68,4 +71,6 @@ What if we say [[h0p3]] is most like the identity of an era, just as [[4eak]] an
 ---
 <<footnotes "1" "I am the zeroth of my computers.">>
 
-<<footnotes "2" "My son astutely pointed out that I believe //this wiki is a computer//, and therefore belonged on this list. I can't argue with that. Thus, onto the list of monsters you go, Monster-13, my wiki. ">>
+<<footnotes "j" "This is out of order, but given my son's comment (see footnote 2), my daughter pointed out that given my view on the metaethics of marriage, I should consider putting my k0sh3k in this list.">>
+
+<<footnotes "2" "My son astutely pointed out that I believe //this wiki is a computer//, and therefore belonged on this list. I can't argue with that. Thus, onto the list of monsters you go, Monster-13, my wiki.">>

@@ -1,12 +1,22 @@
 created: 20170704144623070
-modified: 20180502165348598
+creator: h0p3
+modified: 20180729205030628
+modifier: h0p3
 revision: 0
 title: Wiki: Scripts
 
-* [[wiki-review-log-converter.py]]
+!! Focus:
+
+* [[wikireview.py]]
+* [[wiki-snapshot.sh]]
+* [[daily.wbm.archive.py]]
+* [[verify.py]]
+* [[wiki-hash-sign.py]]
+
+---
+!! Vault:
+
 * [[Python: Tox-2-Wiki Text Formatter for Link Log]]
 * [[Python: Convert Chrome Bookmarks Export to Link Heap]]
-* [[snapshot.sh]]
 * [[Python: Sign]]
 * [[Bash: Sign]]
-* [[daily.wbm.archive.py]]

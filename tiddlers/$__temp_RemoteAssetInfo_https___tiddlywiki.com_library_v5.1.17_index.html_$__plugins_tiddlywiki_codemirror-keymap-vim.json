@@ -1,0 +1,23 @@
+[
+    {
+        "title": "$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.17/index.html/$:/plugins/tiddlywiki/codemirror-keymap-vim",
+        "type": "text/vnd.tiddlywiki",
+        "text": "",
+        "author": "JeremyRuston",
+        "created": "20180721185217078",
+        "creator": "h0p3",
+        "dependents": "",
+        "description": "CodeMirror Keymap: Vim",
+        "list": "readme",
+        "modified": "20180721185217078",
+        "modifier": "h0p3",
+        "original-plugin-type": "plugin",
+        "original-tags": "",
+        "original-title": "$:/plugins/tiddlywiki/codemirror-keymap-vim",
+        "original-type": "application/json",
+        "readme": "This plugin adds a ''Keymap'' with some of the most important ''Vim'' keyboard shortcuts\n\nFor information about available ''keyboard shortcuts'' see the [ext[CodeMirror vim demo|https://codemirror.net/demo/vim.html]]\n",
+        "server-url": "https://tiddlywiki.com/library/v5.1.17/index.html",
+        "tags": "$:/tags/RemoteAssetInfo",
+        "version": "5.1.17"
+    }
+]
