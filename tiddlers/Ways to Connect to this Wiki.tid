@@ -1,6 +1,6 @@
 created: 20161201085941789
 creator: h0p3
-modified: 20180531163221395
+modified: 20180626202754438
 modifier: h0p3
 revision: 0
 title: Ways to Connect to this Wiki
@@ -14,7 +14,9 @@ title: Ways to Connect to this Wiki
 
 The world changes faster and faster. I don't know how the world is going to turn out, and so this section will help you maintain a connection to this wiki even through technical turbulence and political turmoil. 
 
-I suggest using [[Resilio Sync|Walkthrough: Resilio Sync]], especially since you can just bookmark the local index.html file in your browser (it will load almost instantly).
+I'm sorry if you think this website is slow to load for you. I'm not going to pay the prices necessary to speed it up because I don't think it's worth my time. Someone who is going to be willing to spend time actually trying to understand this wiki will have no problem waiting 3 seconds for the compressed file to download. Perhaps this will be changed later, but now I'm fine with it. There are several options available, I realize. 
+
+If speed really matters, then help me decentralize it: I suggest using [[Resilio Sync|Walkthrough: Resilio Sync]] for now, especially since you can just bookmark the local index.html file in your browser (it will load almost instantly).
 
 I provide real-time updates, but I also keep several redundancies, deltas, and backups. They serve different purposes. Obviously, this wiki changes. For posterity's sake, transparency, fixing my fuck-ups, finding patterns in my thought, and enabling a broader range of data science practices in generating and thinking about this wiki, I keep a //daily snapshot collection// of this wiki. May it be a gift to anyone who cares for it.<<ref "2">> May it be a proof of proofs, another source: of interpreting who I am, for demonstrating my integrity, and of a variety of useful meta-analysis tools.<<ref "3">>
 
@@ -69,6 +71,7 @@ In order of completeness, the following methods can acquire the daily snapshot c
 * I'd like to appify this in some way. I want it to be absurdly easy, decentralized, and spreadable.
 * Syncthing, Gdrive, Mega, etc.
 * Pastebins: https://unix.stackexchange.com/questions/108493/easy-way-to-paste-command-line-output-to-paste-bin-services
+* Completely rebuild the snapshot collection (with signatures), build git script, and host on multiple sites (especially if Github will be acquired by MS).
 
 
 --------------------------

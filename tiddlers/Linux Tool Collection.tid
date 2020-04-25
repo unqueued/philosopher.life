@@ -1,7 +1,11 @@
 created: 20171216015037949
-modified: 20180513213021840
+creator: h0p3
+modified: 20180625210812499
+modifier: h0p3
 revision: 0
 title: Linux Tool Collection
+
+//Skiddie for life//
 
 !! CLI:
 
@@ -25,15 +29,15 @@ title: Linux Tool Collection
 *** inxi
 *** sshfs
 *** unrar
-*** Compilers & Interpreters
-**** xonsh
+*** xonsh
 *** Package-managers
 **** snap
 **** pip
 **** pip3
 **** npm
+**** nix
 ** One-Liner (requires fixing per distro)
-*** iotop smem lftp tldr w3m mc htop ncdu bmon nethogs mtr sshuttle xonsh discus byobu dtrx inxi sshfs unrar snap pip pip3 npm
+*** iotop smem lftp tldr w3m mc htop ncdu bmon nethogs mtr sshuttle xonsh discus byobu dtrx inxi sshfs unrar snap pip pip3 npm nix
 ** 3rd-Party-Repository Suggested/Required
 *** resilio-sync
 ** Unique Scripts:
@@ -54,7 +58,7 @@ title: Linux Tool Collection
 **** rust
 **** golang
 ** One-Liner (requires fixing per distro)
-*** neovim weechat finch toxic firetools aria2
+*** neovim weechat finch toxic firetools aria2 mbox-git
 
 * Pip
 ** Particulars
@@ -71,27 +75,31 @@ title: Linux Tool Collection
 
 * Always
 ** Particulars
-*** keepassxc
 *** chromium
+*** firefox
 *** firefox-developer-edition
 *** pidgin
 **** pidgin-otr
+*** signal
+*** keybase
 *** qtox
-*** filezilla
 *** hexchat
 *** vlc
 *** gimp
 *** calibre
+*** filezilla
 *** networkmanager-openvpn 
 *** truecrypt
 *** p7zip-gui
 *** sublime-text2
+*** diffuse
 *** visual-studio-code-bin
 *** synkron
 *** nomachine
 *** qbittorrent
+*** cozy-audiobooks
 ** One-Liner (requires fixing per distro)
-*** keepassxc chromium firefox-developer-edition pidgin pidgin-otr qtox filezilla hexchat vlc gimp calibre networkmanager-openvpn truecrypt p7zip-gui sublime-text2 visual-studio-code-bin synkron nomachine qbittorrent
+*** chromium firefox firefox-developer-edition pidgin pidgin-otr signal keybase qtox hexchat vlc gimp calibre filezilla networkmanager-openvpn truecrypt p7zip-gui sublime-text2 diffuse visual-studio-code-bin synkron nomachine qbittorrent cozy-audiobooks
 ** 3rd-Party-Repository Suggested/Required
 *** kodi
 

@@ -1,6 +1,6 @@
 created: 20171017013321540
 creator: h0p3
-modified: 20180529144020879
+modified: 20180603043559843
 modifier: h0p3
 revision: 0
 tags: $:/tags/SideBar
@@ -25,11 +25,11 @@ type: text/vnd.tiddlywiki
 
 * Wiki Construction
 ** [[Wiki: Directory File Structure Template]]
-** [[Acronyms, Verbal Shortcuts, Neologisms, etc.]]
+** [[h0p3's Lexicon]]
 ** [[Wiki: Tiddlers of Note]]
 ** Can't Type Umlauts:
 *** Gödel
-*** Übermensch
+*** [[Übermensch]]
 *** übermensch
 
 * Computing

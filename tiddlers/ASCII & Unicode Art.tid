@@ -1,12 +1,12 @@
 created: 20180526165904401
 creator: h0p3
-modified: 20180529192842450
+modified: 20180615005405874
 modifier: h0p3
 title: ASCII & Unicode Art
 
 !! About:
 
-ASCII strikes a chord with me. I grew up with it. I'm a Commodore 64 kid, a CLI fetishist poser, a hacker-style enthusiast, etc. My favorite movie is [[The Matrix]]. Computationalism is fundamental to my ethic, my epistemology, and my ontology; thus, it should be central to my aesthetic. Here I show the beauty in coded language with visual appeal.
+ASCII strikes a chord with me. I grew up with it. I'm a Commodore 64 kid, a CLI fetishist poser, a hacker-style enthusiast, etc. My favorite movie is [[The Matrix]]. Computationalism is fundamental to my ethic, my epistemology, and my ontology; thus, it should be central to my aesthetic. This is just another piece of that mereological point of view: electromineralism. Here I show the beauty in coded language with visual appeal.
 
 
 ---
@@ -23,6 +23,11 @@ ASCII strikes a chord with me. I grew up with it. I'm a Commodore 64 kid, a CLI 
 
 * Tools
 ** https://www.ascii-art-generator.org/
+** http://aa-project.sourceforge.net/
+** https://github.com/google/gif-for-cli
+** https://github.com/esimov/gifter
+** http://www.jave.de/
+** https://en.wikipedia.org/wiki/List_of_text_editors#ASCII_and_ANSI_art
 
 
 ---
@@ -41,3 +46,5 @@ ASCII strikes a chord with me. I grew up with it. I'm a Commodore 64 kid, a CLI 
 
 * http://wiki.secretgeek.net/koch-curve
 ** Perhaps I should go more fractal in my portrayl
+
+* gif-time-elapse of {[[About]]}, but also the wiki in general. That's the visual art I really want as a background, or at least an element of it. 

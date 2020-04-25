@@ -1,6 +1,6 @@
 created: 20171129194701638
 creator: h0p3
-modified: 20180531223628895
+modified: 20180630143124874
 modifier: h0p3
 revision: 0
 title: Computer Musings
@@ -9,7 +9,7 @@ type: text/vnd.tiddlywiki
 !! About:
 
 <<<
-There are 2 hard problems in computer science: cache invalidation, naming things, and off-by-1 errors.
+There are 2 hard problems in computer science: cache invalidation, naming things, and off-by-1 errors.<<ref "1">>
 <<<
 
 [[Computing]] is one of the oldest projects on this wiki. Even before I understood that I would be logifying many of my projects (or parts of them), before [[Computer Musings]] officially existed, I was writing articles for it. Clearly, I've not written a ton here, but I think this will snowball. It's interesting none-the-less.
@@ -24,16 +24,16 @@ There are 2 hard problems in computer science: cache invalidation, naming things
 ---
 !! Focus:
 
-* [[2018.05.06 -- Computer Musings: Small Things]]
-* [[2018.05.07 -- Computer Musings: m15 Exploded]]
-* [[2018.05.08 -- Computer Musings: m15]]
-* [[2018.05.16 -- Computer Musings: Vault Script]]
-* [[2018.05.17 -- Computer Musings: Musical]]
-* [[2018.05.20 -- Computer Musings: Firefox Crashes]]
-* [[2018.05.24 -- Computer Musings: Firefox 4 Wiki]]
-* [[2018.05.26 -- Computer Musings: ATL Problems]]
-* [[2018.05.29 -- Computer Musings: ni hao]]
-* [[2018.05.31 -- Computer Musings: Signal and Keybase]]
+* [[2018.06.01 -- Computer Musings: Keybase Crashes]]
+* [[2018.06.02 -- Computer Musings: Seedbox Clean]]
+* [[2018.06.09 -- Computer Musings: Geoloc]]
+* [[2018.06.10 -- Computer Musings: Music Player]]
+* [[2018.06.22 -- Computer Musings: Power]]
+* [[2018.06.25 -- Computer Musings: Music]]
+* [[2018.06.26 -- Computer Musings: Archive.org]]
+* [[2018.06.27 -- Computer Musings: Reddit]]
+* [[2018.06.30 -- Computer Musings: Hicc]]
+
 
 ---
 !! Vault:
@@ -44,6 +44,7 @@ There are 2 hard problems in computer science: cache invalidation, naming things
 ** [[2018.02 -- Computer Musings]]
 ** [[2018.03 -- Computer Musings]]
 ** [[2018.04 -- Computer Musings]]
+** [[2018.05 -- Computer Musings]]
 
 
 ---
@@ -53,3 +54,5 @@ There are 2 hard problems in computer science: cache invalidation, naming things
 ** This really does look more and more like a tag problem.
 
 
+---
+<<footnotes "1" "Alternatively: 'There are 2 hard problems in computer science: we only have one joke and it isn't funny.'">>

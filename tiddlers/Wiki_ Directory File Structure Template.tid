@@ -1,5 +1,7 @@
 created: 20171017012008754
-modified: 20180414194957108
+creator: h0p3
+modified: 20180617160649500
+modifier: h0p3
 revision: 0
 title: Wiki: Directory File Structure Template
 
@@ -7,7 +9,7 @@ title: Wiki: Directory File Structure Template
 
 //If you care about it, put a ring on it.//
 
-Here I store the common template for many page/directories on this wiki. I need to force myself to think about issues in this kind of framework. And, I wanted to make it easy on myself, hence the template.
+Here I store the common template for many directories on this wiki. I need to force myself to think about issues in this kind of framework. And, I wanted to make it easy on myself, hence the template.
 
 ---
 !! Principles:
@@ -15,6 +17,7 @@ Here I store the common template for many page/directories on this wiki. I need 
 * Do you have a complex practice you want to engage in? Use a template.
 * Do you have a concept that you can't define well or that is particularly important? Use a template.
 * Don't forget to look up quotes and [[Antipleonasmic Catholicon]] content for designing and thinking about the project you are beginning (particularly on your second draft; after the first retirement).
+
 
 ---
 !! Focus:
@@ -49,6 +52,7 @@ Here I store the common template for many page/directories on this wiki. I need 
 * To dream of more dreams for this page.
 ```
 
+
 ---
 !! Vault:
 
@@ -61,5 +65,3 @@ Here I store the common template for many page/directories on this wiki. I need 
 !! Dreams:
 
 * To dream of more dreams for this page.
-
-

@@ -1,6 +1,6 @@
 created: 20180110231449772
 creator: h0p3
-modified: 20180530170041874
+modified: 20180626035054019
 modifier: h0p3
 revision: 0
 title: Deep Reading Log
@@ -14,14 +14,16 @@ Here I document my progress in reading books. It's time to start reading books a
 ---
 !! Principles:
 
-* I will have a daily log where I summarize my reading.
-* When I have finished a book, I will write use my deep reading time each to day write report on it.
+* Read books and write about it.
 
 
 ---
 !! Focus:<<ref "1">>
 
+* Audio Tools
+** https://auditus.cc/
 * [[Books: 2018 Reading List]]
+* [[Links: Summary Repos]]
 
 
 Wife's Books for Us:
@@ -36,6 +38,7 @@ Wife's Books for Us:
 # [[Through the Woods]]
 # [[Paradise Lost: The Novel]]
 # [[Duino Elegies and The Sonnets to Orpheus]]
+# [[Lost in the Cosmos: The Last Self-Help Book]]
 
 
 My Books for Us:
@@ -44,12 +47,16 @@ My Books for Us:
 # [[Political Ponerology: A Science on the Nature of Evil Adjusted for Political Purposes]]
 # [[Sophie’s World]]
 # [[A History of Western Philosophy]]
+# [[Radical Markets: Uprooting Capitalism and Democracy for a Just Society]]
+# [[Infinite Jest]]
 # [[Avogadro Corp: The Singularity Is Closer Than It Appears]]
+# [[The Complete Dune Universe]]
 
+# [[The Narc Decoder: Understanding the Language of the Narcissist]]
+# [[Simulacra and Simulation]]
 # [[Gödel, Escher, Bach: An Eternal Golden Braid]]
 # [[Personality-Shaping Through Positive Disintegration]]
 # [[Books: Positive Disintegration]]
-# [[Radical Markets]]
 # [[Everything Forever: Learning to See Timelessness]]
 # [[Imagining the Tenth Dimension]]
 # [[The Origin of Consciousness in the Breakdown of the Bicameral Mind]]
@@ -60,6 +67,8 @@ My Books for Us:
 # [[A Brief History of the Paradox: Philosophy and the Labyrinths of the Mind]]
 # [[Gödel's Theorem: An Incomplete Guide to Its Use and Abuse]]
 # [[The Infinite (Problems of Philosophy)]]
+# [[Detecting Lies and Deceit: Pitfalls and Opportunities]]
+# [[Detecting Deception: Current Challenges and Cognitive Approaches]]
 
 
 Books for just me (which my wife may have also read, but it's not part of our shared list):
@@ -85,6 +94,17 @@ Books for just me (which my wife may have also read, but it's not part of our sh
 # [[Garcian Meditations]]
 # [[The Doors of Perception]]
 # [[Logicomix: An Epic Search for Truth]]
+# [[Private Government: How Employers Rule Our Lives (and Why We Don't Talk about it)]]
+# [[Shock Doctrine: The Rise of Disaster Capitalism]]
+# [[The Stranger]]
+# [[Talking to My Daughter About the Economy, A Brief History of Capitalism]]
+# [[A.I. Apocalypse]]
+# [[The Art of War]]
+# [[Human, All Too Human]]
+# [[The Last Firewall]]
+# [[Alice's Adventures in Wonderland]]
+# [[Demon: Volume 1]]
+# [[The Logic of Desire: An Introduction to Hegel's Phenomenology of Spirit]]
 
 
 Maybe:
@@ -96,7 +116,6 @@ Maybe:
 # [[Seven Sketches in Compositionality: An Invitation to Applied Category Theory]]
 # [[The Outer Limits of Reason: What Science, Mathematics, and Logic Cannot Tell Us]]
 # [[Dark Orbit]]
-# [[The Stranger]]
 # [[Being and Nothingness: An Essay on Phenomenological Ontology]]
 # [[Neuroexistentialism: Meaning, Morals, and Purpose in the Age of Neuroscience]]
 # [[Rationality: A-Z]]
@@ -105,44 +124,53 @@ Maybe:
 # [[In Search of the Miraculous]]
 
 
-Probably Not Anymore:
-
-# [[Snow Crash]]
-# [[The Diamond Age: or A Young Lady's Illustrated Primer]]
-# [[Cryptonomicon]]
-# [[Quicksilver]]
-# [[The Confusion]]
-# [[The System of the World]]
-# [[The Mongoliad]]
-# [[Reamde]]
-# [[Seveneves]]
-# [[The Rise and Fall of D.O.D.O.]]
-
-
 Log:
 
-* [[2018.05.01 -- Deep Reading Log: A History of Western Philosophy]]
-* [[2018.05.02 -- Deep Reading Log: A History of Western Philosophy]]
-* [[2018.05.03 -- Deep Reading Log: A History of Western Philosophy]]
-* [[2018.05.04 -- Deep Reading Log: Free Software, Free Society]]
-* [[2018.05.07 -- Deep Reading Log: A History of Western Philosophy]]
-* [[2018.05.08 -- Deep Reading Log: A History of Western Philosophy]]
-* [[2018.05.09 -- Deep Reading Log: A History of Western Philosophy]]
-* [[2018.05.10 -- Deep Reading Log: Interface]]
-* [[2018.05.14 -- Deep Reading Log: Interface]]
-* [[2018.05.15 -- Deep Reading Log: Interface]]
-* [[2018.05.16 -- Deep Reading Log: Interface]]
-* [[2018.05.18 -- Avogadro Corp: The Singularity Is Closer Than It Appears]]
-* [[2018.05.21 -- Deep Reading Log: Interface]]
-* [[2018.05.22 -- Deep Reading Log: Seveneves]]
-* [[2018.05.23 -- Deep Reading Log: Seveneves]]
-* [[2018.05.24 -- Deep Reading Log: Seveneves]]
-* [[2018.05.24 -- Deep Reading Log: The Marxian Concept of Capital and the Soviet Experience]]
-* [[2018.05.24 -- Deep Reading Log: Garcian Meditations]]
-* [[2018.05.28 -- Deep Reading Log: Seveneves]]
-* [[2018.05.29 -- Deep Reading Log: The Doors of Perception]]
-* [[2018.05.29 -- Deep Reading Log: Logicomix: An Epic Search for Truth]]
-* [[2018.05.30 -- Deep Reading Log: The Doors of Perception]]
+* [[2018.06.01 -- Deep Reading Log: Avogadro Corp]]
+* [[2018.06.02 -- Deep Reading Log: Shock Doctrine]]
+* [[2018.06.02 -- Deep Reading Log: Logicomix]]
+* [[2018.06.04 -- Deep Reading Log: Logicomix]]
+* [[2018.06.04 -- Deep Reading Log: The Stranger]]
+* [[2018.06.05 -- Deep Reading Log: Talking to My Daughter About the Economy]]
+* [[2018.06.05 -- Deep Reading Log: Logicomix]]
+* [[2018.06.05 -- Deep Reading Log: Radical Markets]]
+* [[2018.06.06 -- Deep Reading Log: Radical Markets]]
+* [[2018.06.07 -- Deep Reading Log: Radical Markets]]
+* [[2018.06.07 -- Deep Reading Log: Logicomix]]
+* [[2018.06.08 -- Deep Reading Log: Logicomix]]
+* [[2018.06.08 -- Deep Reading Log: Radical Markets]]
+* [[2018.06.09 -- Deep Reading Log: Radical Markets]]
+* [[2018.06.09 -- Deep Reading Log: A.I. Apocalypse]]
+* [[2018.06.10 -- Deep Reading Log: The Art of War]]
+* [[2018.06.10 -- Deep Reading Log: A.I. Apocalypse]]
+* [[2018.06.11 -- Deep Reading Log: The Art of War]]
+* [[2018.06.12 -- Deep Reading: Human, All Too Human]]
+* [[2018.06.12 -- Deep Reading: Logicomix]]
+* [[2018.06.12 -- Deep Reading: Infinite Jest]]
+* [[2018.06.12 -- Deep Reading: The Last Firewall]]
+* [[2018.06.13 -- Deep Reading: Logicomix]]
+* [[2018.06.13 -- Deep Reading: The Last Firewall]]
+* [[2018.06.13 -- Deep Reading: Infinite Jest]]
+* [[2018.06.14 -- Deep Reading: Infinite Jest]]
+* [[2018.06.14 -- Deep Reading: Lost in the Cosmos]]
+* [[2018.06.15 -- Deep Reading: Lost in the Cosmos]]
+* [[2018.06.16 -- Deep Reading: Lost in the Cosmos]]
+* [[2018.06.16 -- Deep Reading: Infinite Jest]]
+* [[2018.06.17 -- Deep Reading: Lost in the Cosmos]]
+* [[2018.06.18 -- Deep Reading: Alice's Adventures in Wonderland]]
+* [[2018.06.18 -- Deep Reading: Demon]]
+* [[2018.06.19 -- Deep Reading: Lost in the Cosmos]]
+* [[2018.06.19 -- Deep Reading: Alice's Adventures in Wonderland]]
+* [[2018.06.19 -- Deep Reading: Infinite Jest]]
+* [[2018.06.20 -- Deep Reading: Infinite Jest]]
+* [[2018.06.20 -- Deep Reading: Lost in the Cosmos]]
+* [[2018.06.21 -- Deep Reading: Infinite Jest]]
+* [[2018.06.21 -- Deep Reading: Lost in the Cosmos]]
+* [[2018.06.22 -- Deep Reading: Infinite Jest]]
+* [[2018.06.22 -- Deep Reading: Logic of Desire]]
+* [[2018.06.23 -- Deep Reading: Lost in the Cosmos]]
+* [[2018.06.25 -- Deep Reading: Lost in the Cosmos]]
+* [[2018.06.25 -- Deep Reading: Infinite Jest]]
 
 
 ---
@@ -155,10 +183,12 @@ Log:
 ** [[2018.02 -- Deep Reading Log]]
 ** [[2018.03 -- Deep Reading Log]]
 ** [[2018.04 -- Deep Reading Log]]
+** [[2018.05 -- Deep Reading Log]]
 
 * Retired:
 ** [[2018.01.10 -- Retired: Deep Reading Log]]
 
+* [[Books: Considered But Discarded]]
 
 
 ---
