@@ -1,6 +1,6 @@
 created: 20180608194941274
 creator: h0p3
-modified: 20180611004825486
+modified: 20180831153110759
 modifier: h0p3
 title: Quadratic Ranged Voting
 
@@ -24,7 +24,7 @@ Let's be honest, political capital is almost entirely centralized with the very 
 
 QV is a fair marketplace of ideas, enabling minorities to overrule the indifference of the majority at the cost of being able to have as strong a voice in future elections. Of course, a majority with strong opinions on a matter will overrule minorities with a strong opinion; this fairness is preserved.
 
-I suggest we combine RV and QV into Quadratic Ranged Voting (QRV). I have no mathematical proof for you on the matter, only an intuition. If RV increases the throughput bandwidth of our voices, then QV gives us a fair method increase the voltage of our voices. Both appear to improve the signal-to-noise ratio of voting.
+I suggest we combine RV and QV into Quadratic Ranged Voting (QRV). I have no mathematical proof for you on the matter, only an intuition. If RV increases the throughput bandwidth of our voices, then QV gives us a fair method to temporarily increase the voltage of our voices. Both appear to improve the signal-to-noise ratio of voting.
 
 Voters who have an opinion about the value-relationships found between competing options can express this information in a single ranged vote ballot. Some people, however, will have more intense preferences for this ranged vote expression to influence the election than others. In other words, by combining the two methods into QRV, we are able to pack what I believe are two logically inequivalent dimensions of voter preferences into an election. Ultimately, I take QRV to be a more complete representation of our algorithmic identities than either ranged voting or QV by themselves. 
 

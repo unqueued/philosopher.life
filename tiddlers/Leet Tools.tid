@@ -1,20 +1,28 @@
 created: 20180724201407921
 creator: h0p3
-modified: 20180726123624193
+modified: 20180827180459867
 modifier: h0p3
 tags: 
 title: Leet Tools
 
 I wants to be a leet hacker, right? These are tools I idolize as a skiddie. I respect their aesthetic, DIY flexibility, metativity, multi-dimensionality, and macro programmability. I hope one day to be worthy of them.
 
-* [[i3]]
-* nix
-* zsh
-* xonsh
-* nvim
-* [[Terminator]]
+* Existential
+** Tiddlywiki
 
-Rice:
+* Skiddie Ricer Poweruser
+** [[i3]]
+** [[nvim]]
+** [[zsh]]
+** [[Terminator]]
+** [[tmux]]
 
-* https://www.reddit.com/r/unixporn/wiki/index
-* [[Color]]
+* Why Isn't This More Popular?
+** [[NixOS]]
+** xonsh
+
+* Best-in-Class
+** [[Firefox]]
+
+* Rice
+** [[Color]]

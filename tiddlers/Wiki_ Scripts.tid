@@ -1,6 +1,6 @@
 created: 20170704144623070
 creator: h0p3
-modified: 20180729205030628
+modified: 20180804215130099
 modifier: h0p3
 revision: 0
 title: Wiki: Scripts
@@ -12,6 +12,8 @@ title: Wiki: Scripts
 * [[daily.wbm.archive.py]]
 * [[verify.py]]
 * [[wiki-hash-sign.py]]
+* [[Argon2-Password-Ed25519-Keygen.xsh]]
+* [[sanitize-clipboard.xsh]]
 
 ---
 !! Vault:

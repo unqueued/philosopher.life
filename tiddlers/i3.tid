@@ -1,6 +1,6 @@
 created: 20180724182132232
 creator: h0p3
-modified: 20180728225233912
+modified: 20180804214707287
 modifier: h0p3
 tags: 
 title: i3
@@ -29,6 +29,7 @@ I need to learn how to paint with the tile manager. Paint with tiles. Just as I 
 ** [[2018.07.28 -- i3: Macro EVERYTHING!]]
 
 * Files
+** /etc/[[i3status.conf]]
 ** /home/h0p3/.config/compton.conf
 ** /home/h0p3/[[.i3/config]]
 ** /home/h0p3/scripts/[[i3-layout-autostart.sh]]
@@ -59,4 +60,4 @@ I need to learn how to paint with the tile manager. Paint with tiles. Just as I 
 ---
 !! Dreams:
 
-* To dream of more dreams for this page.
+* [[Keyboard.life]]

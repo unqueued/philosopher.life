@@ -1,195 +1,155 @@
-created: 20171216015037949
+created: 20180803235317937
 creator: h0p3
-modified: 20180729194844389
+modified: 20180806235756625
 modifier: h0p3
-revision: 0
+tags: 
 title: Linux Tool Collection
 
-//Skiddie for life. Keep the list short as fuck (and be okay with incompleteness). Assume standard software is already installed. Don't worry about dependencies. Perhaps one day, when I Nix+Gentoo it hard enough, I'll have a complete system listed out. Let's assume some sanity here first.//
+!! About:
 
-!! CLI:
+//I'm not trying to be asshole about it, but I think this is a moral requirement of humans in the 21st Century.//
 
-* Always
+<<<
+Linux is only free if your time has no value[, but freedom is priceless].
 
-** Learn You Something
-*** tldr
+-- Jamie Zawinski
+<<<
 
-** Sysadmin
-*** iotop
-*** powertop
-*** htop
-*** ncdu
-*** bmon
-*** nethogs
-*** iftop
-*** smem
-*** mtr
-*** discus
-*** inxi
-*** hwinfo
+Linux is not idiot-friendly, but it's profoundly poweruser-friendly. I'm part of the GNU generation, and I hope to learn how not to be an idiot with my tools and toys. This page is toolporn with a purpose beyond ejaculation. I can't list it all here, and every system is different. This is meant to be [[antipleonasmic]].
 
-** Shell
-*** xonsh
-*** oh-my-zsh
-*** byobu
-
-** Muh Files
-*** mc
-*** ranger
-*** fzf
-*** unrar
-*** dtrx
-
-** Web
-*** w3m
-*** browsh
-
-** Remote
-*** rslsync
-*** lftp
-*** sshuttle
-*** sshfs
-*** shadowsocks-libev
-
-** Package-managers
-*** npm
-*** nix
-*** snap
-*** pip
-*** pip3
-**** hashfile
-**** pynacl
-**** pyperclip
-**** when-changed
-**** py-figlet
-**** beautifulsoup4
-
-* Sometimes
-** neovim
-** weechat
-** finch
-** toxic
-** firetools
-** aria2
-** mbox-git
-** imagemagick
-
-
-!! GUI:
-
-* Always
-
-** Web
-*** chromium
-*** firefox
-*** firefox-developer-edition
-
-** Social
-*** pidgin
-**** pidgin-otr
-**** pidgin-xmpp-receipts
-*** signal
-*** keybase
-*** qtox
-*** hexchat
-*** discord
-
-** Media Consumption
-*** vlc
-*** kodi
-*** qmmp
-*** calibre
-*** cozy-audiobooks
-
-** Media Creation
-*** gimp
-*** masterpdfeditor
-
-** Sysadmin
-*** timeshift
-*** duplicity
-
-** Muh Files
-*** p7zip-gui
-*** dolphin
-*** synkron
-*** truecrypt
-*** veracrypt
-*** SUSE Studio Imagewriter
-
-** Remote
-*** filezilla
-*** qbittorrent
-*** nomachine
-*** networkmanager-openvpn 
-*** shadowsocks-qt5
-
-** Text
-*** sublime-text2
-*** diffuse
-*** visual-studio-code-bin
-
-
-* Sometimes
-
-** Games
-*** playonlinux
-*** steam-native
-*** cockatrice-client
-
-** Proprietary Convenience<<ref "h">>
-*** teamviewer-beta
-*** dropbox
-
-** Virtualization
-*** vmware-workstation
-*** virtualbox
-*** genymotion
-*** furiusisomount
-
-** Piracy
-*** soulseekqt
-*** amule-git
-
-** Laziness
-*** quickhash-gui-bin
-
-
-!! Scriptiness, Skiddiegodhood, and Fugly Idiosyncrasy
-
-* Skiddie Scripts
-** [[lussh]]
-* Just Compile & Install It Yourself
-** vpncloud.rs
-* Daughter's Contribution
-** you-get
-
-* One-of's
-** argon2
-
-
-!! Manjaro-related
-
-* cronie
-
-
-
-!! Dreams:
-
-* Strong Candidates
-** [[Ratox]]
-
-* Maybes
-** cmus
-** mpd+ncmpcpp
-** http://jrnl.sh/
-** nnn
-** keysniffer
-** mutt + offlineimap + notmuch
-** Etcher
-
-* Tried, and still Maybes
-** tuntox
 
 ---
-<<footnotes "h" "Hate and fight it, but don't beat yourself up too much.">>
+!! Principles:
+
+* RTFM
+* Categorize, replace, and curate. Build a sexy toolbox.\
+* Don't reinvent the wheel.
+* Avoid the gates of hell; free your mind and computer with GNU/Linux.
+
+
+---
+!! Focus:
+
+* RTFM
+** TLDR - babby's first man page. Simple initial step.
+
+* troubleshooting
+** iotop - What's eating your drive's IO for lunch?
+** powertop - Very detailed
+** htop - standard top replacement
+** iftop - network monitor
+** bmon - network monitor
+** nethogs - network monitor
+** ncdu - make space by deleting shit
+** discus - because df sucks?
+** mtr - traceroute god
+** smem - because memory measurements are hard to take
+** inxi - list my hardware
+** hwinfo - list my hardware
+
+* terminal/shell
+** xonsh - bash+python=win, I feel like a ninja with this tool
+** [[terminator|Terminator]] - umm, yeah, I'll pay the computational price for this much flexibility 
+** antigen - making oh-my-[[zsh]] even more excuselessly easier
+
+* package managers and glue
+** npm - js just won't die
+** pip3 - lazy whore ;P
+*** pynacl - wiki
+*** pyperclip - wiki
+*** when-changed - crazy fucking lazy
+*** py-figlet - pretty
+*** beautifulsoup4 - TW parse
+
+* file-handling
+** dolphin - shame it doesn't integrate nicely
+** mc - I adore the commander interface
+** ranger - fast as fuck with sick previewing
+** fzf - because search is hard, and I need speed
+** unrar - because I often forget to install it
+** dtrx - lazy as fuck
+** p7zip-gui - the only client on any platform
+** timeshift - backup when I want more than rsync
+** truecrypt - sledgehammer
+** veracrypt - sledgehammer
+** SUSE Studio Imagewriter - bootable USBs; even better than DD frankly
+** furiusisomount - once in a while
+
+* remote files
+** rslsync - Closed source, untrustworthy, the only fucking tool that actually works like it
+** lftp - ridiculously powerful
+** filezilla - when you are feeling stupid
+** sshfs - cheap hack
+** aria2 - curl alternative
+** qbittorrent - it works
+
+* virtual (private) networks
+** sshuttle - ridiculous! =)
+** shadowsocks-libev - high performance server
+** shadowsocks-qt5 - fine client
+** nomachine - remote access
+
+* messenging
+** weechat - l337
+** hexchat - EZ
+** finch - Not great, but you never know
+** pidgin - Swiss army knife
+*** pidgin-otr - XMPP sucks
+*** pidgin-xmpp-receipts - See?
+** toxic - goes more places
+** qtox - functional
+** keybase-bin - wish they'd decentralize further
+** discord - I accept kicking and screaming
+** signal - I don't trust it, but what alternatives will others accept?
+
+* The Real Debate:
+** [[nvim]] - seems 1337 enough
+** subl - sublime-text2 is outstanding
+** visual-studio-code-bin - when subl build systems fail
+** diffuse - compare
+
+* Virtualization
+** vmware-workstation - performance
+** virtualbox - tricks
+** genymotion - sadly, the best I can find
+
+* web 
+** browsh - an expensive toy, a headless hack
+** w3m - shows up at odd times
+** firefox - dope
+** firefox-developer-edition - I hope doper every time
+
+* DE
+** [[i3]]
+
+* Media Consumption
+** vlc - swiss army knife
+** kodi - threatre
+** calibre - the only option
+** cozy-audiobooks - gross, but it works
+** deadbeef - not pretty, but it works!
+
+* Media Creation
+** gimp - easy swiss
+** masterpdfeditor - I guess it works?
+
+* scripts
+** [[dropbox_uploader.sh]] - Gorgeous script to Dropbox API.
+** [[lussh]] - Easy passwordless/keyed SSH 
+
+
+---
+!! Vault:
+
+* Retired:
+** [[2018.08.03 -- Retired: Linux Tool Collection]]
+
+
+---
+!! Dreams:
+
+* Please, learn it!
+** [[tmux]] - I'm embarrassed that I still don't have much practice with this tool
+
+* universal package managers, libraries, etc.
+** [[NixOS]] -- nix is going to change the world, imho

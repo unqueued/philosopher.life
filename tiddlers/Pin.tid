@@ -1,6 +1,6 @@
 created: 20171017013321540
 creator: h0p3
-modified: 20180801000459808
+modified: 20180808015549753
 modifier: h0p3
 revision: 0
 tags: $:/tags/SideBar
@@ -10,7 +10,7 @@ type: text/vnd.tiddlywiki
 [[Root]]
 
 * {[[About|About, The Opening of the Rabbithole]]}
-* {[[Principles|Principles of Programming Myself]]}
+* {[[Principles|Axioms of h0p3]]}
 * {[[Focus|Current Focus of h0p3's Wiki]]}
 ** [[Transclusion: Focus]]
 * {[[Vault|The Vault of h0p3]]}
@@ -25,6 +25,8 @@ type: text/vnd.tiddlywiki
 ** [[Wiki: Directory File Structure Template]]
 ** [[h0p3's Lexicon]]
 ** [[Wiki: Tiddlers of Note]]
+** ASCII
+*** http://asciiflow.com/
 ** Can't Type Umlauts:
 *** Gödel
 *** [[Übermensch]]

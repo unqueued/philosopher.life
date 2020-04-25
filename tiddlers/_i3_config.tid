@@ -1,6 +1,6 @@
 created: 20180723181041585
 creator: h0p3
-modified: 20180731161918695
+modified: 20180806212554606
 modifier: h0p3
 title: .i3/config
 
@@ -23,7 +23,7 @@ title: .i3/config
 ##   /home/h0p3/.i3/config                                                     ##
 ##   Please see http://i3wm.org/docs/userguide.html for a complete reference!  ##
 ##                                                                             ##
-#################################################################################
+##.i3/config#####################################################################
 
 ### Set Variables
 
@@ -72,7 +72,7 @@ bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
 ##     MM     YA.   ,A9 YM.    ,  MM    MM  L.   I8   ##
 ##   .JMML.    `Ybmd9'   YMbmd'   `Mbod"YML.M9mmmP'   ## 
 ##                                                    ## 
-########################################################
+##Focus#################################################
 
 ### Focused: [j,k,l,;] or [arrow keys]
 
@@ -122,7 +122,7 @@ bindsym $mod+Shift+Tab focus left
 ##                         ,V                                  ##
 ##                      OOb"                                   ##
 ##                                                             ##
-#################################################################
+##Layout#########################################################
 
 # split orientation
 bindsym $mod+h split h;exec notify-send 'tile horizontally'
@@ -182,7 +182,7 @@ for_window [class="Xfburn"] floating enable
 ##                                                         MM                                   ##
 ##                                                       .JMML.                                 ## 
 ##                                                                                              ##
-##################################################################################################
+##Workspace#######################################################################################
 
 # navigate workspaces next / previous
 bindsym $mod+Ctrl+Right workspace next
@@ -257,16 +257,21 @@ bindsym $mod+minus scratchpad show
 ##     MM      MM YA.   ,A9 MM     MM `Mb.YM.    , YM.    ,  AMV  ,   ##
 ##   .JMML.  .JMML.`Ybmd9'  `Mbmo.JMML. YA.`Mbmmd'  `Mbmmd' AMMmmmM   ##
 ##                                                                    ##
-######################################################################## 
+##Hotkeez##Hotkeys###################################################### 
 
 # TEST HOTKEY
 #bindsym $mod+Ctrl+Shift+t exec "sleep 2; mousepad"
+bindsym $mod+Ctrl+Shift+t exec /home/h0p3/scripts/test.xsh
 
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 
 # Activate Scripts
 bindsym $mod+Ctrl+w exec /home/h0p3/scripts/wikireview.py
+bindsym $mod+Ctrl+q exec /home/h0p3/scripts/sanitize-clipboard.xsh
+
+# Firefox Copy Page URL
+bindsym Ctrl+Shift+z exec /home/h0p3/scripts/ff_url_copy.xsh
 
 # Media Control (MPRIS/playerctl)
 bindsym --release XF86AudioPlay exec playerctl play-pause
@@ -301,7 +306,7 @@ bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
 ##     M  `YM'   MM YA.   ,A9 `Mb    MM YM.    , L.   I8   ##
 ##   .JML. `'  .JMML.`Ybmd9'   `Wbmd"MML.`Mbmmd' M9mmmP'   ##
 ##                                                         ##    
-#############################################################
+##Modes######################################################
 
 ### Tips
 #### -use binding modes in combination with [variables] in order to make maintenance easier
@@ -358,7 +363,7 @@ mode "resize" {
 ##     A'     VML  MM    MM   MM  YA.   ,A9 L.   I8   MM   8M   MM    MM       MM   L.   I8   ##
 ##   .AMA.   .AMMA.`Mbod"YML. `Mbmo`Ybmd9'  M9mmmP'   `Mbmo`Moo9^Yo..JMML.     `MbmoM9mmmP'   ##
 ##                                                                                            ##
-################################################################################################
+##Autostarts####################################################################################
 
 # Go-go-gadget Muh Workspace Materials
 exec --no-startup-id i3-msg 'workspace 0:Private Chat; exec run_keybase'
@@ -419,7 +424,7 @@ exec /home/h0p3/scripts/i3-layout-autostart.sh
 ##   `Mb.    ,dP'   MM     MM    MM YM.    ,  MM       ##
 ##     `"bmmd"'     `Mbmo.JMML  JMML.`Mbmmd'.JMML.     ##
 ##                                                     ##
-#########################################################
+##Other##################################################
 
 ### Appearances, Borders, Font
 
@@ -450,7 +455,7 @@ font xft:Noto 10
 ##     M  `YM'   MM YA.   ,A9 MM    MM  L.   I8 YM.    ,   ##
 ##   .JML. `'  .JMML.`Ybmd9'  `Mbod"YML.M9mmmP'  `Mbmmd'   ##
 ##                                                         ##
-#############################################################
+##Mouse######################################################
 
 ### Tips:
 #### -bindsym [--release] [--border] [--whole-window] [--exclude-titlebar] [<Modifiers>+]button<n> command
@@ -476,7 +481,7 @@ bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
 ##        (O)  .M'                               ##
 ##         bmmmd'                                ##
 ##                                               ##
-###################################################
+##i3bar############################################
 
 ### Start i3bar to display a workspace bar (plus the system information i3status if available)
 bar {
@@ -530,7 +535,7 @@ bar {
 ##       (O)  .M'      6'     dP          MM                 ##
 ##        bmmmd'       Ybmmmd'          .JMML.               ##  
 ##                                                           ##
-###############################################################
+##i3-gaps######################################################
 
 # Set inner/outer gaps
 gaps inner 14
@@ -596,7 +601,7 @@ mode "$mode_gaps_outer" {
 ##    YM.     ,M   MM    MM  MM    MM  L.   I8 YM.    , `Mb    MM    ##
 ##     `bmmmmd"' .JMML  JMML.`Mbod"YML.M9mmmP'  `Mbmmd'  `Wbmd"MML.  ##
 ##                                                                   ##
-#######################################################################
+##Unused###############################################################
 
 ### General
 # set default desktop layout (default is tiling)

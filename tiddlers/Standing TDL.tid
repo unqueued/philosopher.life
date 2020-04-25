@@ -1,13 +1,15 @@
 created: 20180731151023559
 creator: h0p3
-modified: 20180731161624812
+modified: 20180818201447636
 modifier: h0p3
 title: Standing TDL
 
 * Backups
 ** Setup self-hosted git (standard and torrent-based)
 ** Setup multi-gits script
-** Dropbox-CLI fix
 ** pastebin script
-
+* Fix ATL to serve to Tor, i2p, etc.
 * Setup NPM toolchain
+* https://github.com/StreisandEffect/streisand
+* Complete the [[Music: Library]] downloads
+* [[Transcription]]

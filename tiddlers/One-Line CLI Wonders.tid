@@ -1,9 +1,13 @@
 created: 20170710234731581
-modified: 20180427231907158
+creator: h0p3
+modified: 20180818180237300
+modifier: h0p3
 revision: 0
 title: One-Line CLI Wonders
 
 Nmap, list currently used IPs on your LAN: `nmap -sP 192.168.1.1/24`
+
+Arp, list machines on your LANs: `arp -a` #fuck yeah
 
 Nmap, list all ports open on an IP: `nmap -p- ks.philosopher.life`
 

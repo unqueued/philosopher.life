@@ -1,6 +1,6 @@
 created: 20180608040431733
 creator: h0p3
-modified: 20180611004406236
+modified: 20180825233217414
 modifier: h0p3
 title: Cryptographic E-Voting
 
@@ -8,7 +8,7 @@ Electronic voting increases the speed with which we can tally votes, enables mor
 
 Electronic voting is highly doubted by some and lauded as obvious by others. Computers, like all tools, are two-edged weapons. It is the nature of our progress as a species though, and we cannot escape it. Go on and use your ludditic paranoia to help us shape this computational infrastructure necessary to give birth the next radical incarnation of the [[The Original Position]].
 
-Cryptography provides authenticated integrity checks, signatures, privacy, anonymity, auditable accuracy, and other security benefits. It enables swift [[Just-In-Time Voting]], [[Secret Ballots]], and [[Proxy Voting]]. E-Voting is the only cost-effective, sustainable, and scalable indelible electoral ink for the 21st century. This system may make way for computationally vomplex voting, bidding, bargaining, rating, and many other collective judgment mechanisms.
+Cryptography provides authenticated integrity checks, signatures, privacy, anonymity, auditable accuracy, and other security benefits. It enables swift [[Just-In-Time Voting]], [[Secret Ballots]], and [[Proxy Voting]]. E-Voting is the only cost-effective, sustainable, and scalable indelible electoral ink for the 21st century. This system may make way for computationally complex voting, bidding, bargaining, rating, and many other collective judgment mechanisms.
 
 Obviously, our electronic election infrastructure must be paranoically penetration tested into oblivion, absolutely transparent all the way down. Let us set our [[Trusting Trust]] bar very low and our epistemic scrutiny bar skeptically high. The process must be collaboratively developed, tested, and audited with free and open source programming. We must build voter-verifiable paper audit trails, and the infrastructure must be decentrally-controlled (like a blockchain) by all citizens of society as much as possible. Our trust in the electronic election infrastructure must be built upon our personal relationships, trust, and social capital we've built outside the digital world, including trust in ourselves.
 

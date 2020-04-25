@@ -1,13 +1,10 @@
 created: 20180130175042810
-modified: 20180130175049477
+creator: h0p3
+modified: 20180801145234831
+modifier: h0p3
 title: Procrasturbator List
 
-* I need to pickup transcripts for all my schools
-* Setup VPN clients on laptop and phone
 * Root my family's phones
-* Ask Tiddlywiki community how to use my custom font as the default for the editor.
-* Find out why btsync isn't working on the RPi.
-* Find out why btsync is eating 4-8GB of RAM, wtf.
 * Setup/Try [[Zerotier|https://www.reddit.com/r/linux/comments/7c0zkw/zerotier_open_source_crossplatform_and_easy_to/]]
 * Generate multi-subreddits
 * Complete Home VPN solution for all devices.

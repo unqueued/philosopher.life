@@ -1,6 +1,6 @@
 created: 20180705004543318
 creator: h0p3
-modified: 20180705004544577
+modified: 20180827185540541
 modifier: h0p3
 title: 2015.01.06 -- Symbolic Logic: Propositional Logic
 
@@ -169,7 +169,7 @@ Function Symbols – symbols that allow us to form name-like terms from names an
 
 father(me) can be translated as “My father.”
 
-It picks him out. Notice you don’t see michaelwalterfrancismorrissey (perhaps the explicit individual constant we might use to pick him out).
+It picks him out. Notice you don’t see xenoxillixong (perhaps the explicit individual constant we might use to pick him out).
 
 mother(father(me)) is the same as “My father’s mother” or “Mother of my Father”
 

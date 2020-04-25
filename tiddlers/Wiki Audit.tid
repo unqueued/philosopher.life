@@ -1,6 +1,6 @@
 created: 20180619224504730
 creator: h0p3
-modified: 20180731154739835
+modified: 20180831004003919
 modifier: h0p3
 tags: 
 title: Wiki Audit
@@ -10,9 +10,9 @@ title: Wiki Audit
 //In empathizing with your persistent identity, you must diligently, fearlessly, and kindly-mercilessly reenvision, revise, edit, and debug yourself and your work. Love yourself by holding yourself accountable to yourself because you're worth it. Whatever it may paradoxically mean to say it: be the philosopher king of your agent-city in your self-analyses and self-syntheses.//
 
 <<<
-Only kings, presidents, editors, and people with tapeworms have the right to use the editorial 'we'.
+[Only kings, presidents, editors, and people with tapeworms have the right to use the editorial 'we'.]
 
--- Mark Twain
+-- George H. Derby & Roscoe Conkling
 <<<
 
 <<<
@@ -21,9 +21,9 @@ Do not just slay your demons; dissect them and find what they've been feeding on
 -- Andres Fernandez, //Simple Twist of Fate: The Man Frozen in Time//
 <<<
 
-I'm here to take a retrospective existential inventory with a changelog, to create forward-thinking accountability feedback loops, incrementally and to shape myself with knowledge of myself. This log captures my habits of existential maintenance, incremental macro wiki restructuring, and long-range [[SO]] Frankfurtian volition, i.e. exercising my autonomy.
+I'm here to take a rolling release retrospective existential inventory with a changelog, to create forward-thinking accountability feedback loops,  and to incrementally shape myself with knowledge of myself. This log captures my habits of existential maintenance, incremental macro wiki restructuring, and long-range [[SO]] Frankfurtian volition, i.e. exercising my autonomy.
 
-You might be tempted to think of this as a long-term version of [[Wiki Review]]. In Wiki Review, I tend to give my visceral reactions to my writing only a day later. This is useful because it extends my short-term memory, it keeps me thinking about the problem, it helps me see my train of thought over a period of time, and it's part of the natural feedback loop mechanisms of the wiki. The Wiki Review is potent, however, it has severe limitations. This audit is meant to have the the macroscopic powers the review lacks.
+You might be tempted to think of this as a long-term version of [[Wiki Review]]. In Wiki Review, I tend to give my visceral reactions to my writing only a day later. This is useful because it extends my short-term memory, it keeps me thinking about the problem, it helps me see my train of thought over a period of time, and it's part of the natural feedback loop mechanisms of the wiki. The Wiki Review is potent, however, it has severe limitations. This audit is meant to have the macroscopic powers the review lacks.
 
 My review only results in minor revisions and edits (imperfectly, to say the least), but it's hard to improve work you just created. I can't effectively dissociate just a day later, and hence it will only be the initial sweep in my self-dialectic. When you walk away from your work and come back to it months later, when you stand back and see what you've created from a more objective point of view, where it isn't so painful to think about it or alter it, you can truly recreate it. That's what this audit is all about.
 
@@ -79,27 +79,33 @@ For now, I'm learning to swim here. I probably need to audit from multiple angle
 *** ?
 
 * Logs
-** [[2018.07.03 -- Wiki Audit: And...We're Back!]]
-** [[2018.07.04 -- Wiki Audit: On The Ball]]
-** [[2018.07.05 -- Wiki Audit: PePPered]]
-** [[2018.07.06 -- Wiki Audit: Josiah]]
-** [[2018.07.07 -- Wiki Audit: New Tiddlers]]
-** [[2018.07.08 -- Wiki Audit: Principles]]
-** [[2018.07.13 -- Wiki Audit: Bidness]]
-** [[2018.07.14 -- Wiki Audit: Letters]]
-** [[2018.07.15 -- Wiki Audit: Man With Plan]]
-** [[2018.07.16 -- Wiki Audit: Help and Contact]]
-** [[2018.07.17 -- Wiki Audit: Rando]]
-** [[2018.07.19 -- Wiki Audit: Monsters]]
-** [[2018.07.20 -- Wiki Audit: Rabbits]]
-** [[2018.07.21 -- Wiki Audit: Tiddlywiki Internals]]
-** [[2018.07.24 -- Wiki Audit: m10 rework]]
-** [[2018.07.25 -- Wiki Audit: CLI Wiki]]
-** [[2018.07.25 -- Wiki Audit: Clean]]
-** [[2018.07.27 -- Wiki Audit: Crawling]]
-** [[2018.07.28 -- Wiki Audit: Computing]]
-** [[2018.07.29 -- Wiki Audit: Still on Computing]]
-** [[2018.07.31 -- Wiki Audit: Connect]]
+** [[2018.08.01 -- Wiki Audit: Monthly Audits Are HERE!]]
+** [[2018.08.02 -- Wiki Audit: Crypto]]
+** [[2018.08.03 -- Wiki Audit: Computing]]
+** [[2018.08.04 -- Wiki Audit: FTO]]
+** [[2018.08.05 -- Wiki Audit: Principles]]
+** [[2018.08.06 -- Wiki Audit: Computational]]
+** [[2018.08.07 -- Wiki Audit: Axioms of h0p3]]
+** [[2018.08.08 -- Wiki Audit: Program Yourself]]
+** [[2018.08.09 -- Wiki Audit: Program Yourself Programming Yourself]]
+** [[2018.08.10 -- Wiki Audit: Nada]]
+** [[2018.08.11 -- Wiki Audit: AA&UJ]]
+** [[2018.08.12 -- Wiki Audit: Axioms]]
+** [[2018.08.14 -- Wiki Audit: Dial-up Sound]]
+** [[2018.08.15 -- Wiki Audit: Finish]]
+** [[2018.08.16 -- Wiki Audit: Music]]
+** [[2018.08.17 -- Wiki Audit: First Pass Complete]]
+** [[2018.08.18 -- Wiki Audit: Eli]]
+** [[2018.08.20 -- Wiki Audit: Encryption]]
+** [[2018.08.21 -- Wiki Audit: Routine Search]]
+** [[2018.08.22 -- Wiki Audit: JASG]]
+** [[2018.08.23 -- Wiki Audit: FTO]]
+** [[2018.08.24 -- Wiki Audit: Min]]
+** [[2018.08.25 -- Wiki Audit: Bookish]]
+** [[2018.08.27 -- Wiki Audit: Hub]]
+** [[2018.08.28 -- Wiki Audit: Random]]
+** [[2018.08.29 -- Wiki Audit: Music]]
+** [[2018.08.30 -- Wiki Audit: TWcode]]
 
 
 ---
@@ -111,6 +117,7 @@ For now, I'm learning to swim here. I probably need to audit from multiple angle
 * [[2018.01 -- Wiki Audit Log]]
 * [[2018.01-05 -- Wiki Audit Log]]
 * [[2018.06 -- Wiki Audit]]
+* [[2018.07 -- Wiki Audit]]
 
 * Retired:
 ** [[2017.11.25 -- Retired: Yearly Audit Log]]
@@ -119,6 +126,8 @@ For now, I'm learning to swim here. I probably need to audit from multiple angle
 
 ---
 !! Dreams:
+
+* [[Wiki TDL]]
 
 * I don't spend nearly enough time working on {[[Vault|The Vault of h0p3]]} and {[[Dreams|Dreams of h0p3]]}. 
 ** That will eventually change, right?

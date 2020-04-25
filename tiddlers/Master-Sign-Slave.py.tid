@@ -1,0 +1,26 @@
+created: 20180802181202170
+creator: h0p3
+modified: 20180802184627333
+modifier: h0p3
+title: Master-Sign-Slave.py
+
+```python
+#!/usr/bin/python3
+
+import nacl.encoding
+import nacl.signing
+import nacl.hash
+import binascii
+
+### Master private key
+# Basically: echo -n "foobarpassword" | argon2 uselessrainbowtable -t 100 -m 20 -p 4 -r #Leave no trace
+signing_key_hex = "MASTERPRIVATEKEYGENEREATEDFROMARGON2" 
+signing_key = nacl.signing.SigningKey(signing_key_hex, encoder=nacl.encoding.HexEncoder)
+
+# Hash the revocable slave public key
+checksum = nacl.hash.sha256("5249578e4cdfaec1484f0083df3e8b6e4af0cab0288c8156c31d6e94efe58308".encode(), encoder=nacl.encoding.HexEncoder)
+
+# Sign checksum, write checksum and signature
+signed = signing_key.sign(checksum)
+print(checksum.decode() + '\n' + binascii.hexlify(signed).decode())
+```

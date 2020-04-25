@@ -1,5 +1,7 @@
 created: 20180414164514358
-modified: 20180414185329707
+creator: h0p3
+modified: 20180803200309742
+modifier: h0p3
 title: daily.wbm.archive.py
 
 ```python
@@ -12,16 +14,31 @@ title: daily.wbm.archive.py
 # sudo apt-get install python-pip
 # sudo -H pip install --upgrade pip
 # sudo -H pip install requests
+#!/usr/bin/python
 import requests
+import time
 
-# Sexy one-liner
 requests.get('https://web.archive.org/save/https://philosopher.life')
+time.sleep(60)
 
-# For muhfam
-requests.get('https://web.archive.org/save/http://k0sh3k.philosopher.life')
-requests.get('https://web.archive.org/save/http://1uxb0x.philosopher.life')
-requests.get('https://web.archive.org/save/http://j3d1h.philosopher.life')
-requests.get('https://web.archive.org/save/http://bookwyrm.philosopher.life')
-requests.get('https://web.archive.org/save/http://kokonut.philosopher.life')
-requests.get('https://web.archive.org/save/http://jedihacker.philosopher.life')
+requests.get('http//web.archive.org/save/https://k0sh3k.philosopher.life')
+time.sleep(60)
+
+requests.get('http://web.archive.org/save/https://1uxb0x.philosopher.life')
+time.sleep(60)
+
+requests.get('http://web.archive.org/save/https://j3d1h.philosopher.life')
+time.sleep(60)
+
+requests.get('http://web.archive.org/save/https://bookwyrm.philosopher.life')
+time.sleep(60)
+
+requests.get('http://web.archive.org/save/https://kokonut.philosopher.life')
+time.sleep(60)
+
+requests.get('http://web.archive.org/save/https://jedihacker.philosopher.life')
+time.sleep(60)
+
+
+
 ```

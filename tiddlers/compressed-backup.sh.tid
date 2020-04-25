@@ -1,6 +1,6 @@
 created: 20180727232528641
 creator: h0p3
-modified: 20180729041235260
+modified: 20180804044819844
 modifier: h0p3
 title: compressed-backup.sh
 
@@ -18,5 +18,5 @@ NAME=$TIME-home-h0p3.snapshot.tar.zst #Name of output
 # Clean and Snapshot (without checking for errors, I realize)
 cd /mnt/storage/syncs/m10-compressed-weekly-backup/
 rm -rf /mnt/storage/syncs/m10-compressed-weekly-backup/*
-tar cpf - "/home/h0p3/." | zstd -T7 > "$NAME"
+tar cpf - "/home/h0p3/." | zstd -7 -T7 > "$NAME"
 ```

@@ -1,6 +1,6 @@
 created: 20180416153624168
 creator: h0p3
-modified: 20180711130840409
+modified: 20180830013231729
 modifier: h0p3
 title: Link Log: The Stack
 
@@ -9,13 +9,22 @@ Standard Stack:
 * http://therealnews.com/
 * https://www.wikitribune.com/all-stories/
 * https://www.nakedcapitalism.com/
-* http://www.socialisteconomist.com/
 * http://reallifemag.com/
-* https://epochemagazine.org/
 * https://philosophynow.org/
 * https://digg.com/
 * https://news.ycombinator.com/
 * https://www.reddit.com/<<ref "1">>
+
+Worthy RSS Feeds:<<ref "r">>
+
+* General
+** https://feeds.feedburner.com/TheSocialistEconomist
+** https://epochemagazine.org/feed/
+
+* Personal
+** https://www.kickscondor.com/feed.xml
+** https://nomasters.io/index.xml
+
 
 SCWR Wiki Rabbitholing Stack:<<ref "2">>
 
@@ -26,12 +35,15 @@ SCWR Wiki Rabbitholing Stack:<<ref "2">>
 
 * [[Self-Proclaimed (Neo)Rationalist Wiki|https://rationalwiki.org/wiki/Special:Random]]
 
-Worthy RSS Feeds:
 
-* https://feeds.feedburner.com/TheSocialistEconomist
+Experimental:
+
+* https://notabug.io/
 
 
 ---
+<<footnotes "r" "I've decided to use RSS when I want to see everything that comes out asap. If I can afford to not see it all, if it requires hyperreading because there is too much, or it's not relatively time sensitive to me, then RSS isn't worth it.">>
+
 <<footnotes "1" "See: [[Links: Subreddits]]. Their algorithm keeps changing, and I can't always say I'm in love with it.">>
 
 <<footnotes "2" "Randomized link portal where readily available.">>

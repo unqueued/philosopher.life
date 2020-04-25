@@ -1,5 +1,7 @@
 created: 20171017011006636
-modified: 20180106024302095
+creator: h0p3
+modified: 20180802201428082
+modifier: h0p3
 revision: 0
 title: Wiki: Tiddlywiki Howto's
 
@@ -29,6 +31,7 @@ I'm lazy as fuck, and I only have so much memory I can dedicate to this tool. Th
 * [[Tiddlywiki Howto: Regex Search]]
 * [[Tiddlywiki Howto: List-fu]]
 * [[Tiddlywiki Howto: Filter Expression]]
+* [[Tiddlywiki Howto: Embed Youtube Video]]
 
 * Walkthroughs
 ** https://lries.com/writing/installing-node-tiddlywiki-on-an-ubuntu-vps/

@@ -1,5 +1,7 @@
 created: 20171130185805983
-modified: 20180330155240908
+creator: h0p3
+modified: 20180804215121527
+modifier: h0p3
 revision: 0
 title: Script Collection
 type: text/vnd.tiddlywiki
@@ -88,6 +90,9 @@ Python Snippets:
 
 * [[Scripty Non-Scripts]]
 
+* [[One-Time Scripts]]
+
+* [[sanitize-clipboard.xsh]]
 
 ---
 !! Vault:

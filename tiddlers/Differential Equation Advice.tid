@@ -1,0 +1,17 @@
+created: 20180804233754787
+creator: h0p3
+modified: 20180804233820435
+modifier: h0p3
+tags: 
+title: Differential Equation Advice
+
+* Some problems simply have no solution.
+* Some problems have no simple solution.
+* Some problems have many solutions.
+* Determining that a solution exists may be half the work of finding it.
+* Solutions that work well locally may blow up when extended too far.
+* Boundary conditions are the hard part.
+* Something that starts out as a good solution may become a very bad solution.
+* You can fool yourself by constructing a solution where one doesn’t exist.
+* Expand your possibilities to find a solution, then reduce them to see how good the solution is.
+* You can sometimes do what sounds impossible by reframing your problem.

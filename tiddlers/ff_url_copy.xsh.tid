@@ -1,0 +1,14 @@
+created: 20180806211036034
+creator: h0p3
+modified: 20180806213740928
+modifier: h0p3
+title: ff_url_copy.xsh
+
+```bash
+#!/usr/bin/xonsh
+
+notify-send 'FF-URL-Copied'
+xdotool key "ctrl+l"
+sleep 0.3
+xdotool key "ctrl+c"
+```

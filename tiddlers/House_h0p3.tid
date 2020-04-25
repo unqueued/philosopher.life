@@ -1,0 +1,28 @@
+created: 20180818173304303
+creator: h0p3
+modified: 20180818181124036
+modifier: h0p3
+title: House_h0p3
+
+* Zerotier<<ref "d">>
+** [[h0p3]]
+*** [[monster-10]]: 10.147.19.115
+*** [[monster-14]]: 10.147.19.95
+*** [[monster-15]]: 10.147.19.226
+*** HTPC: 10.147.19.42
+*** KS: 10.147.19.207
+*** dimbob-RPi: 10.147.19.165
+*** ATL: 10.147.19.70
+** [[k0sh3k]]
+*** bookwyrm: 10.147.19.29
+*** Oryx (phone): 10.147.19.62
+** [[1uxb0x]]
+*** black-wolf-0: 10.147.19.10
+*** black-wolf-1 (phone): 10.147.19.99
+** [[j3d1h]]
+*** phoenix: 10.147.19.87
+*** Pixie (phone): 10.147.19.209
+
+
+---
+<<footnotes "d" "Lots of ways to handle this issue, including our own DNS.">>

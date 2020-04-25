@@ -1,6 +1,6 @@
 created: 20180526165904401
 creator: h0p3
-modified: 20180615005405874
+modified: 20180819025659059
 modifier: h0p3
 title: ASCII & Unicode Art
 
@@ -22,12 +22,14 @@ ASCII strikes a chord with me. I grew up with it. I'm a Commodore 64 kid, a CLI 
 * [[Unicode Art Strings & Tidbits]]
 
 * Tools
+** http://asciiflow.com/
 ** https://www.ascii-art-generator.org/
 ** http://aa-project.sourceforge.net/
 ** https://github.com/google/gif-for-cli
 ** https://github.com/esimov/gifter
 ** http://www.jave.de/
 ** https://en.wikipedia.org/wiki/List_of_text_editors#ASCII_and_ANSI_art
+** http://upsidedown.info
 
 
 ---

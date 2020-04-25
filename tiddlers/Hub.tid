@@ -1,6 +1,6 @@
 created: 20171008195038011
 creator: h0p3
-modified: 20180528033353784
+modified: 20180812234044521
 modifier: h0p3
 revision: 0
 tags: $:/tags/SideBar
@@ -8,11 +8,10 @@ title: Hub
 
 {[[Root]]}
 
-# {[[About|About, The Opening of the Rabbithole]]}
-# {[[Principles|Principles of Programming Myself]]} 
-#* [[Axioms of h0p3]]
-# {[[Focus|Current Focus of h0p3's Wiki]]} 
-# {[[Vault|The Vault of h0p3]]}  
-# {[[Dreams|Dreams of h0p3]]}
+* {[[About|About, The Opening of the Rabbithole]]}
+* {[[Principles|Axioms of h0p3]]} 
+* {[[Focus|Current Focus of h0p3's Wiki]]} 
+* {[[Vault|The Vault of h0p3]]}  
+* {[[Dreams|Dreams of h0p3]]}
 
 {{Transclusion: Focus}}

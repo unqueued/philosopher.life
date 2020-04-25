@@ -1,10 +1,10 @@
 created: 20180719161756043
 creator: h0p3
-modified: 20180729041800850
+modified: 20180804050857192
 modifier: h0p3
 title: shreddit.yml
 
-```
+```bash
 ---
 # How many hours of comments you want to keep
 # 24 hours in a day,
